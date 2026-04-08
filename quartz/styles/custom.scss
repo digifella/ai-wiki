@@ -1,3 +1,56 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Keep the graph readable on narrow screens. Quartz's default tablet/mobile
+// layout places right-sidebar widgets in a row, which squeezes the graph beside
+// backlinks and can make the panel appear to cover the node bubbles.
+.page > #quartz-body {
+  @media all and not ($desktop) {
+    & .sidebar.right {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      overflow: visible;
+      min-width: 0;
+      width: 100%;
+
+      & > * {
+        flex: none;
+        max-height: none;
+        min-width: 0;
+      }
+
+      & .graph {
+        width: 100%;
+        min-width: 0;
+      }
+
+      & .graph > .graph-outer {
+        width: 100%;
+        height: min(52vh, 420px);
+        min-height: 280px;
+      }
+
+      & .backlinks {
+        overflow: visible;
+        max-height: none;
+      }
+    }
+  }
+
+  @media all and ($mobile) {
+    & .sidebar.right {
+      gap: 1rem;
+
+      & .graph > .graph-outer {
+        height: 360px;
+        min-height: 320px;
+      }
+
+      & .graph > .global-graph-outer > .global-graph-container {
+        width: calc(100vw - 2rem);
+        height: calc(100vh - 4rem);
+      }
+    }
+  }
+}
