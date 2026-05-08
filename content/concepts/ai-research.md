@@ -1,0 +1,52 @@
+---
+type: concept
+domain: ai-agents
+tags:
+  - "ai-research"
+  - "deepmind"
+  - "scientific-discovery"
+  - "self-correcting-ai"
+  - "machine-learning"
+aliases:
+  - "AI studies"
+  - "Artificial intelligence investigation"
+  - "AI innovation research"
+  - "Deep learning exploration"
+summary: "Ai Research involves the study of algorithms and frameworks for machines to perform tasks requiring human intelligence, with recent advancements including self-correcting AI like DeepMind's Aletheia."
+updated: 2026-04-11
+group: applied-ai-workflows
+---
+group: research-practice-sensemaking
+title: "ai research"
+type: concept
+tags:
+  - "AI research"
+  - "[[entities/deepmind|deepmind]]"
+  - "[[concepts/scientific-discovery|scientific discovery]]"
+  - "[[concepts/self-improvement|self-correcting ai]]"
+
+### Overview
+AI research involves exploring algorithms and frameworks that enable machines to perform tasks typically requiring [[concepts/human-intelligence|human intelligence]], such as [[concepts/visual-perception|visual perception]], [[concepts/speech-recognition|speech recognition]], decision-making, and [[concepts/natural-language-processing|natural language processing]]. Recent advancements have seen the development of sophisticated models like [[entities/google-deepmind|DeepMind]]’s [[entities/aletheia|Aletheia]], which contribute significantly to [[concepts/scientific-discovery|scientific discovery]].
+
+### Key Concepts
+- **[[entities/aletheia|Aletheia]]**: A self-correcting AI developed by [[entities/google-deepmind|Google DeepMind]] capable of novel scientific research.
+  - Addresses initial skepticism regarding AIs performing truly innovative research.
+  - Capable of contributing to novel scientific advancements.
+
+### Related Work
+- AI [[concepts/ethics|Ethics]]
+- [[concepts/machine-learning|Machine Learning]] Models
+- Deep [[concepts/learning|Learning]]
+
+### Recent Developments
+- **[[entities/google-deepmind|DeepMind]] [[entities/aletheia|Aletheia]]**: Groundbreaking self-correcting AI for scientific discovery.
+  - Addresses initial skepticism regarding AIs performing truly innovative research.
+  - Capable of contributing to novel scientific advancements.
+
+### Additional Insights
+- The channel [[entities/two-minute-papers|Two Minute Papers]], presented by [[entities/two-minute-papers|Dr. Karoly Zsolnai-Fehér]], analyzes recent advancements in computer science and AI research, providing a comprehensive overview of the latest developments.
+
+[[inbox/ai-research]]
+
+## Source Notes
+- 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)

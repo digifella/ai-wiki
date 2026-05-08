@@ -1,0 +1,49 @@
+---
+type: concept
+domain: philosophy-religion
+tags:
+  - "epistemology-healthcare"
+  - "knowledge-production-discrepancies"
+  - "patient-engagement-theory"
+  - "health-system-limits"
+  - "philosophy-knowledge-divide"
+aliases:
+  - "knowledge gap in healthcare"
+  - "perspective divide in medicine"
+  - "patient-professional knowledge difference"
+summary: "The epistemological gap describes the discrepancy between medical professionals' understanding and patients' lived experiences in healthcare."
+updated: 2026-04-07
+group: philosophy-ethics-logic
+title: "Epistemological Gap"
+---
+# Epistemological Gap
+
+The **epistemological gap** refers to a philosophical and practical divide in understanding or knowing something from different perspectives or levels of analysis. In the context of [[concepts/health|healthcare]] systems, it can highlight discrepancies between what medical professionals know versus what patients experience over time.
+
+## Related Concepts
+- [[concepts/patient-generated-knowledge]]
+- Healthcare system limitations
+
+---
+
+### Episode Summary: The Other 8,765 Hours (Episode 62)
+
+#### Guest:
+Dr. [[entities/sara-riggare|Sara Riggare]]
+
+#### Release Date & Duration:
+April 3, 2026 | 27 minutes
+
+---
+
+### Main Topics Discussed
+1. **[[concepts/patient-generated-knowledge|Patient-Generated Knowledge in Healthcare]]**
+   - Active production of knowledge by patients, transitioning from passive recipients to active producers of care
+   - Challenging established healthcare paradigms and embedded systemic assumptions
+2. **The "8,765 Hours" Concept**
+   - Highlighting the limited time patients spend in the formal healthcare system
+   - [[concepts/contrast|Contrast]] between clinical encounters and the patient's lived experience outside medical care
+
+## References & Backlinks
+- 2026 04 07 [[entities/pulse-podcast|Pulse Podcast]] Summary   The Other [[concepts/8765-hours|8765 Hours]]   with [[entities/dr-sara-riggare|Sara Riggare]]
+- 2026 04 07 P

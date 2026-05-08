@@ -54,3 +54,125 @@
     }
   }
 }
+
+article.domain-page {
+  .domain-summary-bar {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin: 1.2rem 0 2rem;
+  }
+
+  .domain-summary-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.95rem 1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 0.9rem;
+    background: linear-gradient(180deg, var(--light) 0%, rgba(132, 165, 157, 0.08) 100%);
+  }
+
+  .domain-summary-value {
+    font-family: var(--headerFont);
+    font-size: 1.4rem;
+    font-weight: $semiBoldWeight;
+    color: var(--secondary);
+    line-height: 1.1;
+  }
+
+  .domain-summary-label {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--darkgray);
+  }
+
+  .domain-group-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 2.25rem;
+  }
+
+  .domain-group-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.05rem 1.1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 1rem;
+    background:
+      radial-gradient(circle at top right, rgba(132, 165, 157, 0.18), transparent 34%),
+      linear-gradient(180deg, rgba(40, 75, 99, 0.035), rgba(40, 75, 99, 0.01));
+    text-decoration: none;
+    color: var(--dark);
+    transition:
+      transform 140ms ease,
+      border-color 140ms ease,
+      box-shadow 140ms ease;
+  }
+
+  .domain-group-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--tertiary);
+    box-shadow: 0 10px 24px rgba(40, 75, 99, 0.08);
+  }
+
+  .domain-group-kicker {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--darkgray);
+  }
+
+  .domain-group-card h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: var(--secondary);
+  }
+
+  .domain-group-stats,
+  .domain-group-samples,
+  .domain-group-notes {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .domain-group-stats {
+    color: var(--darkgray);
+    font-weight: 600;
+  }
+
+  .domain-group-samples {
+    color: var(--dark);
+  }
+
+  .domain-group-notes {
+    color: var(--darkgray);
+  }
+
+  .domain-group-anchor {
+    position: relative;
+    top: -5rem;
+    visibility: hidden;
+  }
+
+  .domain-group-meta {
+    margin: -0.2rem 0 0.9rem;
+    font-size: 0.92rem;
+    color: var(--darkgray);
+  }
+
+  @media all and ($mobile) {
+    .domain-summary-bar {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .domain-group-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

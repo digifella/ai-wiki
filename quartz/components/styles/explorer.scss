@@ -1,8 +1,8 @@
 @use "../../styles/variables.scss" as *;
 
-@media all and ($mobile) {
+@media all and not ($desktop) {
   .page > #quartz-body {
-    // Shift page position when toggling Explorer on mobile.
+    // Shift page position when toggling Explorer on compact layouts.
     & > :not(.sidebar.left:has(.explorer)) {
       transition: transform 300ms ease-in-out;
     }
@@ -12,7 +12,7 @@
       transition: transform 300ms ease-in-out;
     }
 
-    // Sticky top bar (stays in place when scrolling down on mobile).
+    // Sticky top bar (stays in place when scrolling on compact layouts).
     .sidebar.left:has(.explorer) {
       box-sizing: border-box;
       position: sticky;
@@ -49,7 +49,7 @@
     opacity: 0.8;
   }
 
-  @media all and ($mobile) {
+  @media all and not ($desktop) {
     order: -1;
     height: initial;
     overflow: hidden;
@@ -67,7 +67,7 @@
     display: flex;
   }
 
-  @media all and ($mobile) {
+  @media all and not ($desktop) {
     button.mobile-explorer {
       display: flex;
     }
@@ -221,7 +221,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
 }
 
 .explorer {
-  @media all and ($mobile) {
+  @media all and not ($desktop) {
     &.collapsed {
       flex: 0 0 34px;
 
@@ -270,11 +270,31 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
         stroke: var(--darkgray);
       }
     }
+
+    &::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.24);
+      opacity: 0;
+      visibility: hidden;
+      transition:
+        opacity 200ms ease,
+        visibility 200ms ease;
+      pointer-events: none;
+      z-index: 99;
+    }
+
+    &:not(.collapsed)::after {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
   }
 }
 
 .mobile-no-scroll {
-  @media all and ($mobile) {
+  @media all and not ($desktop) {
     .explorer-content > .explorer-ul {
       overscroll-behavior: contain;
     }

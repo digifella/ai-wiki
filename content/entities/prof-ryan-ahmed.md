@@ -1,0 +1,26 @@
+---
+type: entity
+tags:
+  - "ai-agents"
+  - "microsoft-copilot"
+  - "online-instructor"
+  - "ai-testing"
+  - "professor"
+aliases:
+  - "Dr. Ryan Ahmed"
+  - "Ryan Ahmed"
+summary: Prof Ryan Ahmed is a professor and online instructor who documented his six-month journey of learning and testing Microsoft Copilot and AI agents.
+updated: 2026-05-01
+---
+# Prof Ryan Ahmed
+
+[[entities/dr-ryan-ahmed|Prof Ryan Ahmed]] is an educator and online instructor known for his work in technology education. He has gained recognition as a best-selling course creator, teaching technical subjects to online audiences.
+
+## Microsoft Copilot and AI Agents Research
+
+Ahmed documented a six-month journey of [[concepts/learning|learning]], experimentation, and [[concepts/testing|testing]] focused on Microsoft Copilot and AI agents. During this period, he evaluated the capabilities and practical [[concepts/software|applications]] of these technologies, documenting his findings and experiences for educational purposes. This research was presented in video format, reflecting his approach to sharing technical knowledge with learners.
+
+- 2026-04-10 [2026-04-10-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for](2026-04-10-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for.md) ← Ai Guided Software Development Leveraging Claude Code Agent Skills For
+- 2026-04-07 [2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for](2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for.md) ← Ai Guided Software Development Leveraging Claude Code Agent Skills For
+- 2026-04-08 [2026-04-08-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for](2026-04-08-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for.md) ← Ai Guided Software Development Leveraging Claude Code Agent Skills For
+## Source Notes
