@@ -1,0 +1,59 @@
+---
+type: entity
+tags:
+  - "zippers-industry"
+  - "fastening-solutions"
+  - "vertical-integration"
+  - "quality-control"
+  - "business-philosophy"
+aliases:
+  - "Yoshida Kogyo Kabushikigaisha"
+  - "Tadao Yoshida Company"
+  - "Zipper Manufacturer YKK"
+  - "Fastener Innovators"
+summary: "YKK is a Japanese company founded in 1934 by Tadao Yoshida, known for producing high-quality zippers and fastening solutions."
+updated: 2026-04-11
+---
+# YKK
+
+YKK is a Japanese company that has become synonymous with high-quality [[concepts/buttons|zippers]], buckles, and other fastening solutions used in clothing, luggage, and various industrial [[concepts/software|applications]].
+
+## History
+- Founded by Tadao Yoshida in 1934.
+- Initially named "Yoshida Kogyo Kabushikigaisha," it later became known as YKK after the company's trademarked brand name.
+- Known for its commitment to [[concepts/vertical-integration|vertical integration]] and [[concepts/quality-control|quality control]], ensuring every part of a zipper is manufactured under strict [[concepts/open-standards|standards]].
+
+## Products
+- Zippers (standard and custom designs)
+- Buttons
+- Hooks
+
+### Zipper Types
+- Coil zippers
+- Invisible zippers
+- Metal zippers
+
+## Philosophy
+- The "Cycle of Goodness" philosophy emphasizes mutual benefit for all stakeholders, reflecting a holistic approach to business [[concepts/ethics|ethics]].
+
+## Engineering Innovations
+- Development of the zipper pull and slider that can smoothly engage and disengage zipper teeth.
+- Continuous research in materials science to create more durable and aesthetically pleasing fasteners.
+
+### Why are these 3 letters on almost all of my zippers?
+- [[entities/veritasium|Veritasium]] explores the surprising genius behind zippers, highlighting YKK's role in making them ubiquitous: https://www.youtube.com/watch?v=9szhjhO9epA
+- The video explains how YKK's [[concepts/innovation|innovation]] and quality control have made its zippers a standard feature in many products.
+
+## Related Concepts
+- fasteners
+- materials-science
+- history-of-textiles
+
+2026 04 10 From [[entities/clasp-locker|Clasp Locker]] to YKK The History and Engineering of Zippers
+
+## Related Notes
+- 2026 04 10 From Clasp Locker to YKK The History and Engineering of Zippers
+
+## Source Notes
+
+- 2026-04-08: [[lab-notes/2026-04-08-From-Clasp-Locker-to-YKK-The-History-and-Engineering-of-Zippers|From Clasp Locker to YKK The History and Engineering of Zippers]] · [▶ source](https://www.youtube.com/watch?v=9szhjhO9epA)

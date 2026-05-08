@@ -20,6 +20,18 @@ type FolderState = {
 }
 
 let currentExplorerState: Array<FolderState>
+const compactExplorerMedia = window.matchMedia("(max-width: 1199px)")
+
+function isCompactExplorerMode() {
+  return compactExplorerMedia.matches
+}
+
+function closeExplorer(explorer: HTMLElement) {
+  explorer.classList.add("collapsed")
+  explorer.setAttribute("aria-expanded", "false")
+  document.documentElement.classList.remove("mobile-no-scroll")
+}
+
 function toggleExplorer(this: HTMLElement) {
   const nearestExplorer = this.closest(".explorer") as HTMLElement
   if (!nearestExplorer) return
@@ -29,8 +41,8 @@ function toggleExplorer(this: HTMLElement) {
     nearestExplorer.getAttribute("aria-expanded") === "true" ? "false" : "true",
   )
 
-  if (!explorerCollapsed) {
-    // Stop <html> from being scrollable when mobile explorer is open
+  if (!explorerCollapsed && isCompactExplorerMode()) {
+    // Stop <html> from being scrollable when the compact explorer is open.
     document.documentElement.classList.add("mobile-no-scroll")
   } else {
     document.documentElement.classList.remove("mobile-no-scroll")
@@ -273,17 +285,14 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
   await setupExplorer(currentSlug)
 
-  // if mobile hamburger is visible, collapse by default
+  // Collapse by default on compact layouts after each navigation.
   for (const explorer of document.getElementsByClassName("explorer")) {
-    const mobileExplorer = explorer.querySelector(".mobile-explorer")
-    if (!mobileExplorer) return
+    const htmlExplorer = explorer as HTMLElement
+    const mobileExplorer = htmlExplorer.querySelector(".mobile-explorer") as HTMLElement | null
+    if (!mobileExplorer) continue
 
-    if (mobileExplorer.checkVisibility()) {
-      explorer.classList.add("collapsed")
-      explorer.setAttribute("aria-expanded", "false")
-
-      // Allow <html> to be scrollable when mobile explorer is collapsed
-      document.documentElement.classList.remove("mobile-no-scroll")
+    if (isCompactExplorerMode()) {
+      closeExplorer(htmlExplorer)
     }
 
     mobileExplorer.classList.remove("hide-until-loaded")
@@ -291,12 +300,31 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 })
 
 window.addEventListener("resize", function () {
-  // Desktop explorer opens by default, and it stays open when the window is resized
-  // to mobile screen size. Applies `no-scroll` to <html> in this edge case.
-  const explorer = document.querySelector(".explorer")
-  if (explorer && !explorer.classList.contains("collapsed")) {
+  const explorer = document.querySelector(".explorer") as HTMLElement | null
+  if (explorer && !explorer.classList.contains("collapsed") && isCompactExplorerMode()) {
     document.documentElement.classList.add("mobile-no-scroll")
     return
+  }
+
+  document.documentElement.classList.remove("mobile-no-scroll")
+})
+
+document.addEventListener("click", (event) => {
+  if (!isCompactExplorerMode()) return
+
+  for (const explorerNode of document.getElementsByClassName("explorer")) {
+    const explorer = explorerNode as HTMLElement
+    if (explorer.classList.contains("collapsed")) continue
+    if (explorer.contains(event.target as Node)) continue
+    closeExplorer(explorer)
+  }
+})
+
+document.addEventListener("keydown", (event) => {
+  if (!isCompactExplorerMode() || event.key !== "Escape") return
+
+  for (const explorerNode of document.getElementsByClassName("explorer")) {
+    closeExplorer(explorerNode as HTMLElement)
   }
 })
 

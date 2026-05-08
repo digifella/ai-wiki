@@ -40,6 +40,32 @@ function notifyNav(url: FullSlug) {
   document.dispatchEvent(event)
 }
 
+function getParentSharePath() {
+  const prefix = "/ai-wiki/"
+  let path = window.location.pathname
+  if (path.startsWith(prefix)) {
+    path = path.slice(prefix.length)
+  } else {
+    path = path.replace(/^\/+/, "")
+  }
+
+  const suffix = `${window.location.search}${window.location.hash}`
+  return `${path}${suffix}` || "mindmap.html"
+}
+
+function notifyParentFrame() {
+  if (window.parent === window) return
+
+  window.parent.postMessage(
+    {
+      type: "wiki:navigate",
+      page: getParentSharePath(),
+      title: document.title,
+    },
+    "*",
+  )
+}
+
 const cleanupFns: Set<(...args: any[]) => void> = new Set()
 window.addCleanup = (fn) => cleanupFns.add(fn)
 
@@ -127,6 +153,7 @@ async function _navigate(url: URL, isBack: boolean = false) {
   }
 
   notifyNav(getFullSlug(window))
+  notifyParentFrame()
   delete announcer.dataset.persist
 }
 
@@ -157,6 +184,7 @@ function createRouter() {
         const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
         el?.scrollIntoView()
         history.pushState({}, "", url)
+        notifyParentFrame()
         return
       }
 
@@ -189,6 +217,7 @@ function createRouter() {
 
 createRouter()
 notifyNav(getFullSlug(window))
+notifyParentFrame()
 
 if (!customElements.get("route-announcer")) {
   const attrs = {

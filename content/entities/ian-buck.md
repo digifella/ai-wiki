@@ -1,0 +1,47 @@
+---
+type: entity
+tags:
+  - "gpu-computing"
+  - "parallel-computing"
+  - "cuda-development"
+  - "computer-science"
+  - "high-performance-computing"
+summary: "Ian Buck is a computer scientist known for his work in developing Nvidia CUDA and parallel computing."
+updated: 2026-04-21
+---
+- Nvidia [[concepts/cuda|CUDA]]
+- Ian Buck
+- [[entities/john-nicholls|John Nicholls]]
+- [[concepts/general-purpose-computing|Parallel Computing]]
+- [[concepts/ai-advancement|AI Advancement]]
+
+# Ian Buck
+
+## Overview
+Ian Buck is a renowned computer scientist known for his pioneering work in GPU computing. He was instrumental in the development of Nvidia CUDA, a parallel computing platform that allows GPUs to perform [[concepts/general-purpose-computation|general-purpose computation]].
+
+## Key Contributions
+- **CUDA Development:** Along with [[entities/john-nicholls|John Nicholls]], Buck led the team responsible for developing CUDA ([[concepts/compute|Compute]] Unified Device [[concepts/architecture|Architecture]]), which revolutionized [[concepts/production-grade-infrastructure|high-performance computing]] by enabling GPUs to process tasks beyond graphics rendering.
+
+### Summary of Fireship Video - Nvidia CUDA in 100 Seconds
+- **Date Added:** 2026-04-12
+- **Link:** https://www.youtube.com/watch?v=pPStdjuYzSI
+- **Author/Channel:** Fireship
+
+### Highlights from the Video:
+- CUDA, launched in 2007, is a parallel computing platform and API model created by Nvidia.
+- It was developed based on earlier work by Ian Buck and John Nicholls.
+- The technology allows GPUs to perform general-[[concepts/purpose|purpose]] computations beyond just rendering graphics.
+
+## Related Concepts
+- [[entities/nvidia]]
+- GPU Computing
+- Parallel Computing
+- [[entities/john-nicholls|John Nicholls]]
+
+## Backlinks
+[[concepts/date-2026-04-13|2026]] 04 12 Nvidia [[concepts/cuda|CUDA]] [[concepts/gpu-parallel-computing|GPU Parallel Computing]] for [[concepts/ai-advancement|AI Advancement]]
+
+## Source Notes
+
+- 2026-04-12: [[lab-notes/2026-04-12-Nvidia-CUDA-GPU-Parallel-Computing-for-AI-Advancement|Nvidia CUDA GPU Parallel Computing for AI Advancement]] · [▶ source](https://www.youtube.com/watch?v=pPStdjuYzSI)

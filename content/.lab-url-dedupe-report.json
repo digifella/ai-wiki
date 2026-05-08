@@ -1,0 +1,765 @@
+{
+  "duplicate_url_groups": 108,
+  "deleted_files": 110,
+  "rewritten_markdown_files": 282,
+  "groups": [
+    {
+      "url": "youtube:0fWFetwHkVE",
+      "keep": "2026-04-10-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment.md",
+      "remove": [
+        "2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment.md"
+      ]
+    },
+    {
+      "url": "youtube:zEPa_xbeX-c",
+      "keep": "2026-04-10-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md",
+      "remove": [
+        "2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md"
+      ]
+    },
+    {
+      "url": "youtube:EJyuu6zlQCg",
+      "keep": "2026-04-10-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for.md",
+      "remove": [
+        "2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for.md"
+      ]
+    },
+    {
+      "url": "youtube:vjJwgXsMfjM",
+      "keep": "2026-04-10-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization.md",
+      "remove": [
+        "2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization.md"
+      ]
+    },
+    {
+      "url": "youtube:2kbINqpluM0",
+      "keep": "2026-04-10-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian.md",
+      "remove": [
+        "2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian.md"
+      ]
+    },
+    {
+      "url": "youtube:mhoFqhLXc3g",
+      "keep": "2026-04-10-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion.md",
+      "remove": [
+        "2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion.md"
+      ]
+    },
+    {
+      "url": "youtube:CDClFY-R0dI",
+      "keep": "2026-04-10-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch.md",
+      "remove": [
+        "2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch.md"
+      ]
+    },
+    {
+      "url": "youtube:eT_muXSPkeo",
+      "keep": "2026-04-10-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative.md",
+      "remove": [
+        "2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative.md"
+      ]
+    },
+    {
+      "url": "youtube:IjiaCOt7bP8",
+      "keep": "2026-04-10-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi.md",
+      "remove": [
+        "2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi.md"
+      ]
+    },
+    {
+      "url": "youtube:v8RokQY05Bo",
+      "keep": "2026-04-10-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards.md",
+      "remove": [
+        "2026-04-07-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards.md"
+      ]
+    },
+    {
+      "url": "youtube:I0me2uEbfuE",
+      "keep": "2026-04-10-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md",
+      "remove": [
+        "2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md"
+      ]
+    },
+    {
+      "url": "youtube:1_VlT1vhN04",
+      "keep": "2026-04-10-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw.md",
+      "remove": [
+        "2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw.md"
+      ]
+    },
+    {
+      "url": "youtube:x2uJdV00WgI",
+      "keep": "2026-04-10-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control.md",
+      "remove": [
+        "2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control.md"
+      ]
+    },
+    {
+      "url": "youtube:uBWuKh1nZ2Y",
+      "keep": "2026-04-10-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati.md",
+      "remove": [
+        "2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati.md"
+      ]
+    },
+    {
+      "url": "youtube:wQxawC3sv68",
+      "keep": "2026-04-10-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions.md",
+      "remove": [
+        "2026-04-07-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions.md"
+      ]
+    },
+    {
+      "url": "youtube:aNg47-U_x6A",
+      "keep": "2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test.md",
+      "remove": [
+        "2026-04-07-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test.md"
+      ]
+    },
+    {
+      "url": "youtube:1FiER-40zng",
+      "keep": "2026-04-10-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code.md",
+      "remove": [
+        "2026-04-07-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code.md"
+      ]
+    },
+    {
+      "url": "youtube:yLXLHnD4fco",
+      "keep": "2026-04-10-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills.md",
+      "remove": [
+        "2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills.md"
+      ]
+    },
+    {
+      "url": "youtube:wPy-8gOUl-A",
+      "keep": "2026-04-10-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience.md",
+      "remove": [
+        "2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience.md"
+      ]
+    },
+    {
+      "url": "youtube:uULvhQrKB_c",
+      "keep": "2026-04-10-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow.md",
+      "remove": [
+        "2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow.md"
+      ]
+    },
+    {
+      "url": "youtube:7f1bHER4kRM",
+      "keep": "2026-04-10-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG.md",
+      "remove": [
+        "2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG.md"
+      ]
+    },
+    {
+      "url": "youtube:iEh53QLluNw",
+      "keep": "2026-04-10-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial.md",
+      "remove": [
+        "2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial.md"
+      ]
+    },
+    {
+      "url": "youtube:8QsdWYx2qmk",
+      "keep": "2026-04-10-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained.md",
+      "remove": [
+        "2026-04-07-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained.md"
+      ]
+    },
+    {
+      "url": "youtube:gBV5FT40N_M",
+      "keep": "2026-04-10-Claude-AI-and-Canva-Integration-for-Streamlined-Graphic-Design.md",
+      "remove": [
+        "2026-04-07-Claude-AI-and-Canva-Integration-for-Streamlined-Graphic-Design.md"
+      ]
+    },
+    {
+      "url": "youtube:_ZpZ1cB67_Y",
+      "keep": "2026-04-10-Claude-CoWork-Automating-Workflows-with-Local-File-Access-and-AI.md",
+      "remove": [
+        "2026-04-07-Claude-CoWork-Automating-Workflows-with-Local-File-Access-and-AI.md"
+      ]
+    },
+    {
+      "url": "youtube:F4zSxfBe5R0",
+      "keep": "2026-04-10-Claude-Code-20-Loops-Scheduled-Tasks-Google-Workspace-and-Skills.md",
+      "remove": [
+        "2026-04-07-Claude-Code-20-Loops-Scheduled-Tasks-Google-Workspace-and-Skills.md"
+      ]
+    },
+    {
+      "url": "youtube:ShTxTquBDxY",
+      "keep": "2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and.md",
+      "remove": [
+        "2026-04-07-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and.md"
+      ]
+    },
+    {
+      "url": "youtube:eorc3jLBqIA",
+      "keep": "2026-04-10-Claude-Code-AI-Marketing-Suite-Democratizing-Comprehensive-Audits-and.md",
+      "remove": [
+        "2026-04-07-Claude-Code-AI-Marketing-Suite-Democratizing-Comprehensive-Audits-and.md"
+      ]
+    },
+    {
+      "url": "youtube:ZXyjSufezL8",
+      "keep": "2026-04-10-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation.md",
+      "remove": [
+        "2026-04-07-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation.md"
+      ]
+    },
+    {
+      "url": "youtube:l1y3IeC_eJ0",
+      "keep": "2026-04-10-Claude-Cowork-AI-Building-an-Efficient-Marketing-Content-System.md",
+      "remove": [
+        "2026-04-07-Claude-Cowork-AI-Building-an-Efficient-Marketing-Content-System.md"
+      ]
+    },
+    {
+      "url": "youtube:eIXheJcxDIg",
+      "keep": "2026-04-10-Claude-Obsidian-Integration-Creating-a-Persistent-AI-Operating-System.md",
+      "remove": [
+        "2026-04-07-Claude-Obsidian-Integration-Creating-a-Persistent-AI-Operating-System.md"
+      ]
+    },
+    {
+      "url": "youtube:Io_GqmbNBbY",
+      "keep": "2026-04-10-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific.md",
+      "remove": [
+        "2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific.md"
+      ]
+    },
+    {
+      "url": "youtube:DmtoVnTkQnM",
+      "keep": "2026-04-10-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware.md",
+      "remove": [
+        "2026-04-07-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware.md"
+      ]
+    },
+    {
+      "url": "youtube:fBsHZcyUZG8",
+      "keep": "2026-04-10-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users.md",
+      "remove": [
+        "2026-04-07-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users.md"
+      ]
+    },
+    {
+      "url": "youtube:D04Z5s16QnE",
+      "keep": "2026-04-10-Evernote-New-Pricing-Structure-User-Reactions-and-Migration-Guidance.md",
+      "remove": [
+        "2026-04-07-Evernote-New-Pricing-Structure-User-Reactions-and-Migration-Guidance.md"
+      ]
+    },
+    {
+      "url": "youtube:eH8JdttKIdA",
+      "keep": "2026-04-10-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents.md",
+      "remove": [
+        "2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents.md"
+      ]
+    },
+    {
+      "url": "youtube:C2ZN6ByntPk",
+      "keep": "2026-04-10-Fujifilm-Camera-Lock-Feature-Comprehensive-Guide-and-Usage-Explained.md",
+      "remove": [
+        "2026-04-07-Fujifilm-Camera-Lock-Feature-Comprehensive-Guide-and-Usage-Explained.md"
+      ]
+    },
+    {
+      "url": "youtube:Sdxz5zmX8NM",
+      "keep": "2026-04-10-Fujifilm-Camera-Settings-Clarity-Impact-and-Aperture-Misuse.md",
+      "remove": [
+        "2026-04-07-Fujifilm-Camera-Settings-Clarity-Impact-and-Aperture-Misuse.md"
+      ]
+    },
+    {
+      "url": "youtube:EcbgbKtOELY",
+      "keep": "2026-04-10-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids.md",
+      "remove": [
+        "2026-04-07-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids.md"
+      ]
+    },
+    {
+      "url": "youtube:bhIkY4g5_Sc",
+      "keep": "2026-04-10-Gemini-AI-Integration-Updates-for-Google-Workspace-Applications.md",
+      "remove": [
+        "2026-04-07-Gemini-AI-Integration-Updates-for-Google-Workspace-Applications.md"
+      ]
+    },
+    {
+      "url": "youtube:cHpB0PTRx5A",
+      "keep": "2026-04-10-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial.md",
+      "remove": [
+        "2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial.md"
+      ]
+    },
+    {
+      "url": "youtube:46vC7-BwJ_o",
+      "keep": "2026-04-10-Generative-Engine-Optimization-Adapting-Websites-for-AI-Search-Using.md",
+      "remove": [
+        "2026-04-07-Generative-Engine-Optimization-Adapting-Websites-for-AI-Search-Using.md"
+      ]
+    },
+    {
+      "url": "youtube:PDLF-rHUzfQ",
+      "keep": "2026-04-10-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and.md",
+      "remove": [
+        "2026-04-07-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and.md"
+      ]
+    },
+    {
+      "url": "youtube:6YWPGjqOEmk",
+      "keep": "2026-04-10-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration.md",
+      "remove": [
+        "2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration.md"
+      ]
+    },
+    {
+      "url": "youtube:BrJdGP21B5g",
+      "keep": "2026-04-10-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge.md",
+      "remove": [
+        "2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge.md"
+      ]
+    },
+    {
+      "url": "youtube:5aqF1HVpjdc",
+      "keep": "2026-04-10-Google-Gemma-4-Open-Weight-Models-Apache-20-and-Enhanced-AI.md",
+      "remove": [
+        "2026-04-07-Google-Gemma-4-Open-Weight-Models-Apache-20-and-Enhanced-AI.md"
+      ]
+    },
+    {
+      "url": "youtube:enTnJJHtIGs",
+      "keep": "2026-04-10-Google-Nano-Banana-2-Rapid-Professional-AI-Image-Generation-and-Contro.md",
+      "remove": [
+        "2026-04-07-Google-Nano-Banana-2-Rapid-Professional-AI-Image-Generation-and-Contro.md"
+      ]
+    },
+    {
+      "url": "youtube:hqquu7H7X0w",
+      "keep": "2026-04-10-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi.md",
+      "remove": [
+        "2026-04-07-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi.md"
+      ]
+    },
+    {
+      "url": "youtube:_uXnyhrqmsU",
+      "keep": "2026-04-10-Google-NotebookLM-Enhanced-Research-and-Multi-Format-Content-Synthesis.md",
+      "remove": [
+        "2026-04-07-Google-NotebookLM-Enhanced-Research-and-Multi-Format-Content-Synthesis.md"
+      ]
+    },
+    {
+      "url": "youtube:E71M74FIDHc",
+      "keep": "2026-04-10-Google-NotebookLMs-Latest-Features-Enhanced-Infographics-AI-Videos.md",
+      "remove": [
+        "2026-04-07-Google-NotebookLMs-Latest-Features-Enhanced-Infographics-AI-Videos.md"
+      ]
+    },
+    {
+      "url": "youtube:J7XpscQqCYw",
+      "keep": "2026-04-10-Google-Stitch-AI-Native-Design-Canvas-Evolution-and-Enhanced-Workflow.md",
+      "remove": [
+        "2026-04-07-Google-Stitch-AI-Native-Design-Canvas-Evolution-and-Enhanced-Workflow.md"
+      ]
+    },
+    {
+      "url": "youtube:jV-E2nxpSjQ",
+      "keep": "2026-04-10-Google-Stitch-AI-Native-Design-Canvas-for-Conversational-UIUX-Creation.md",
+      "remove": [
+        "2026-04-07-Google-Stitch-AI-Native-Design-Canvas-for-Conversational-UIUX-Creation.md"
+      ]
+    },
+    {
+      "url": "youtube:VoWi52lms3E",
+      "keep": "2026-04-10-Hermes-and-OpenClaw-Complementary-AI-Agent-Frameworks-for-Business.md",
+      "remove": [
+        "2026-04-07-Hermes-and-OpenClaw-Complementary-AI-Agent-Frameworks-for-Business.md"
+      ]
+    },
+    {
+      "url": "youtube:gcXPW6eBB0w",
+      "keep": "2026-04-10-JSON-Prompting-for-Gemini-Achieving-Total-Image-Control-and-Metadata.md",
+      "remove": [
+        "2026-04-07-JSON-Prompting-for-Gemini-Achieving-Total-Image-Control-and-Metadata.md"
+      ]
+    },
+    {
+      "url": "youtube:rNxC16mlO60",
+      "keep": "2026-04-10-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain.md",
+      "remove": [
+        "2026-04-07-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain.md"
+      ]
+    },
+    {
+      "url": "youtube:zVEb19AwkqM",
+      "keep": "2026-04-10-Karpathys-LLM-Wiki-Beyond-RAG-for-Persistent-Knowledge-Bases.md",
+      "remove": [
+        "2026-04-07-Karpathys-LLM-Wiki-Beyond-RAG-for-Persistent-Knowledge-Bases.md"
+      ]
+    },
+    {
+      "url": "youtube:tvBXN3Hnil0",
+      "keep": "2026-04-10-Lightroom-Calibration-Panel-Foundational-Color-Skin-Tones-Cinematic.md",
+      "remove": [
+        "2026-04-07-Lightroom-Calibration-Panel-Foundational-Color-Skin-Tones-Cinematic.md"
+      ]
+    },
+    {
+      "url": "youtube:tVCV0VmoZnw",
+      "keep": "2026-04-10-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape.md",
+      "remove": [
+        "2026-04-07-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape.md"
+      ]
+    },
+    {
+      "url": "youtube:_lpYx03VVBM",
+      "keep": "2026-04-10-LlamaIndexs-LiteParse-Agentic-Document-Processing-and-the-End-of.md",
+      "remove": [
+        "2026-04-10-LiteParse-LlamaIndexs-Agentic-Document-Processing-Solution-for-LLMs.md",
+        "2026-04-07-LlamaIndexs-LiteParse-Agentic-Document-Processing-and-the-End-of.md",
+        "2026-04-07-LiteParse-LlamaIndexs-Agentic-Document-Processing-Solution-for-LLMs.md"
+      ]
+    },
+    {
+      "url": "youtube:GWUnPiDzzkE",
+      "keep": "2026-04-10-Local-AI-Privacy-Risks-and-Mitigation-Strategies.md",
+      "remove": [
+        "2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies.md"
+      ]
+    },
+    {
+      "url": "youtube:OzUqfN4mcrM",
+      "keep": "2026-04-10-Marc-Benioff-Salesforces-AI-Strategy-Agents-Slack-and-Work.md",
+      "remove": [
+        "2026-04-07-Marc-Benioff-Salesforces-AI-Strategy-Agents-Slack-and-Work.md"
+      ]
+    },
+    {
+      "url": "youtube:O5FqozA4IpA",
+      "keep": "2026-04-10-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats.md",
+      "remove": [
+        "2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats.md"
+      ]
+    },
+    {
+      "url": "youtube:fUShvacDLtw",
+      "keep": "2026-04-10-Maximizing-Claude-Code-20-Features-and-Tips-for-AI-Automation.md",
+      "remove": [
+        "2026-04-07-Maximizing-Claude-Code-20-Features-and-Tips-for-AI-Automation.md"
+      ]
+    },
+    {
+      "url": "youtube:61JUHDK-em8",
+      "keep": "2026-04-10-Meta-Harness-AI-Self-Evolution-via-Autonomous-LLM-Harness-Optimization.md",
+      "remove": [
+        "2026-04-07-Meta-Harness-AI-Self-Evolution-via-Autonomous-LLM-Harness-Optimization.md"
+      ]
+    },
+    {
+      "url": "youtube:J51oZYcNvP8",
+      "keep": "2026-04-10-Multimodal-AI-Concepts-Approaches-and-Data-Processing-by-LLMs.md",
+      "remove": [
+        "2026-04-07-Multimodal-AI-Concepts-Approaches-and-Data-Processing-by-LLMs.md"
+      ]
+    },
+    {
+      "url": "youtube:Ce_p69dV1jw",
+      "keep": "2026-04-10-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute.md",
+      "remove": [
+        "2026-04-07-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute.md"
+      ]
+    },
+    {
+      "url": "youtube:NY2uwmX3uGc",
+      "keep": "2026-04-10-NVIDIA-NemoClaw-Agent-Toolkit-for-Secure-Enterprise-AI-Deployment.md",
+      "remove": [
+        "2026-04-07-NVIDIA-NemoClaw-Agent-Toolkit-for-Secure-Enterprise-AI-Deployment.md"
+      ]
+    },
+    {
+      "url": "youtube:EiEH4YziyU8",
+      "keep": "2026-04-10-NVIDIA-NemoClaw-Secure-Enterprise-AI-Agent-Platform-Solving-OpenClaw.md",
+      "remove": [
+        "2026-04-07-NVIDIA-NemoClaw-Secure-Enterprise-AI-Agent-Platform-Solving-OpenClaw.md"
+      ]
+    },
+    {
+      "url": "youtube:uQc4TGhvDHc",
+      "keep": "2026-04-10-Nano-Banana-2-JSON-Control-for-Precise-AI-Image-Editing-in-Gemini.md",
+      "remove": [
+        "2026-04-07-Nano-Banana-2-JSON-Control-for-Precise-AI-Image-Editing-in-Gemini.md"
+      ]
+    },
+    {
+      "url": "youtube:LfvKkrVSO-U",
+      "keep": "2026-04-10-NemoClaw-vs-OpenClaw-NVIDIAs-Secure-AI-Agent-for-Enterprise.md",
+      "remove": [
+        "2026-04-07-NemoClaw-vs-OpenClaw-NVIDIAs-Secure-AI-Agent-for-Enterprise.md"
+      ]
+    },
+    {
+      "url": "youtube:-iCBETPQkuo",
+      "keep": "2026-04-10-NotebookLM-Deep-Research-to-AI-Generated-Professional-Websites-No-Code.md",
+      "remove": [
+        "2026-04-07-NotebookLM-Deep-Research-to-AI-Generated-Professional-Websites-No-Code.md"
+      ]
+    },
+    {
+      "url": "youtube:W-rtNL_Uf3I",
+      "keep": "2026-04-10-NotebookLM-Gemini-Workflow-Optimizing-AI-Prompts-for-Structured-Output.md",
+      "remove": [
+        "2026-04-07-NotebookLM-Gemini-Workflow-Optimizing-AI-Prompts-for-Structured-Output.md"
+      ]
+    },
+    {
+      "url": "youtube:DQijzXADyiE",
+      "keep": "2026-04-10-NotebookLM-Infographic-to-Interactive-Web-Application-Workflow-using.md",
+      "remove": [
+        "2026-04-07-NotebookLM-Infographic-to-Interactive-Web-Application-Workflow-using.md"
+      ]
+    },
+    {
+      "url": "youtube:3tPzeQX0KVE",
+      "keep": "2026-04-10-NotebookLM-Mind-Map-to-Interactive-HTML-Site-with-Gemini-AI.md",
+      "remove": [
+        "2026-04-07-NotebookLM-Mind-Map-to-Interactive-HTML-Site-with-Gemini-AI.md"
+      ]
+    },
+    {
+      "url": "youtube:7AO4w4Y_L24",
+      "keep": "2026-04-10-Nvidias-Open-Source-Guardrails-vs-OpenAIs-AI-Agent-Consulting-Strategy.md",
+      "remove": [
+        "2026-04-07-Nvidias-Open-Source-Guardrails-vs-OpenAIs-AI-Agent-Consulting-Strategy.md"
+      ]
+    },
+    {
+      "url": "youtube:soFWS8NBcSU",
+      "keep": "2026-04-10-OWASP-Top-10-Security-Risks-for-AI-Agentic-Applications-Report.md",
+      "remove": [
+        "2026-04-07-OWASP-Top-10-Security-Risks-for-AI-Agentic-Applications-Report.md"
+      ]
+    },
+    {
+      "url": "youtube:sXVbWkoCVaA",
+      "keep": "2026-04-10-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and.md",
+      "remove": [
+        "2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and.md"
+      ]
+    },
+    {
+      "url": "youtube:u4ydH-QvPeg",
+      "keep": "2026-04-10-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md",
+      "remove": [
+        "2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md"
+      ]
+    },
+    {
+      "url": "youtube:qKqrmS6dKDg",
+      "keep": "2026-04-10-OpenClaw-The-Autonomous-AI-Agents-Rise-and-Critical-Security-Flaws.md",
+      "remove": [
+        "2026-04-07-OpenClaw-The-Autonomous-AI-Agents-Rise-and-Critical-Security-Flaws.md"
+      ]
+    },
+    {
+      "url": "youtube:BP6x_FRwZ3w",
+      "keep": "2026-04-10-Optimizing-AI-for-Legal-Work-Custom-Instructions-for-Professional-Outp.md",
+      "remove": [
+        "2026-04-07-Optimizing-AI-for-Legal-Work-Custom-Instructions-for-Professional-Outp.md"
+      ]
+    },
+    {
+      "url": "youtube:pDoBe4qbFPE",
+      "keep": "2026-04-10-Optimizing-Claude-Code-Hidden-Settings-for-Workflow-Output-and-Privacy.md",
+      "remove": [
+        "2026-04-07-Optimizing-Claude-Code-Hidden-Settings-for-Workflow-Output-and-Privacy.md"
+      ]
+    },
+    {
+      "url": "youtube:-O6MEtleOdA",
+      "keep": "2026-04-10-Optimizing-Claude-Code-Sub-Agents-for-Context-Management-in-Startup.md",
+      "remove": [
+        "2026-04-07-Optimizing-Claude-Code-Sub-Agents-for-Context-Management-in-Startup.md"
+      ]
+    },
+    {
+      "url": "youtube:2k9lIsGazqc",
+      "keep": "2026-04-10-Photoshop-Betas-AI-Rotate-Object-3D-Manipulation-of-2D-Images.md",
+      "remove": [
+        "2026-04-07-Photoshop-Betas-AI-Rotate-Object-3D-Manipulation-of-2D-Images.md"
+      ]
+    },
+    {
+      "url": "youtube:FuUISGqIC3k",
+      "keep": "2026-04-10-Qwen-36-Plus-Open-Source-AIs-Agentic-Capabilities-and-Frontier.md",
+      "remove": [
+        "2026-04-07-Qwen-36-Plus-Open-Source-AIs-Agentic-Capabilities-and-Frontier.md"
+      ]
+    },
+    {
+      "url": "youtube:jDeeoHSc2kw",
+      "keep": "2026-04-10-Qwen-Coder-Local-AI-Replacing-Paid-Models-for-Coding-Tasks.md",
+      "remove": [
+        "2026-04-07-Qwen-Coder-Local-AI-Replacing-Paid-Models-for-Coding-Tasks.md"
+      ]
+    },
+    {
+      "url": "youtube:59I84mWLK_c",
+      "keep": "2026-04-10-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution.md",
+      "remove": [
+        "2026-04-07-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution.md"
+      ]
+    },
+    {
+      "url": "youtube:WpcRm78KOvY",
+      "keep": "2026-04-10-Self-Evolving-AI-Autonomous-Optimization-via-Iterative-Harness.md",
+      "remove": [
+        "2026-04-07-Self-Evolving-AI-Autonomous-Optimization-via-Iterative-Harness.md"
+      ]
+    },
+    {
+      "url": "youtube:mvcTq5uA6uo",
+      "keep": "2026-04-10-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro.md",
+      "remove": [
+        "2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro.md"
+      ]
+    },
+    {
+      "url": "youtube:cLcF9UCD9-s",
+      "keep": "2026-04-10-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering.md",
+      "remove": [
+        "2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering.md"
+      ]
+    },
+    {
+      "url": "youtube:SjqfDcGZOHg",
+      "keep": "2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md",
+      "remove": [
+        "2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md"
+      ]
+    },
+    {
+      "url": "youtube:4ihYiTOIBT0",
+      "keep": "2026-04-10-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations.md",
+      "remove": [
+        "2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations.md"
+      ]
+    },
+    {
+      "url": "youtube:yOGW-sq0b1s",
+      "keep": "2026-04-10-The-Synoptic-Mind-Reframing-Diverse-Interests-as-a-Cognitive-Strength.md",
+      "remove": [
+        "2026-04-07-The-Synoptic-Mind-Reframing-Diverse-Interests-as-a-Cognitive-Strength.md"
+      ]
+    },
+    {
+      "url": "youtube:i2cFCqh1HIs",
+      "keep": "2026-04-10-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md",
+      "remove": [
+        "2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md"
+      ]
+    },
+    {
+      "url": "youtube:GY7q9ZqM8bw",
+      "keep": "2026-04-10-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context.md",
+      "remove": [
+        "2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context.md"
+      ]
+    },
+    {
+      "url": "youtube:0cVuMHaYEHE",
+      "keep": "2026-04-10-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure.md",
+      "remove": [
+        "2026-04-07-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure.md"
+      ]
+    },
+    {
+      "url": "youtube:VFYnD1WREdU",
+      "keep": "2026-04-10-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an.md",
+      "remove": [
+        "2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an.md"
+      ]
+    },
+    {
+      "url": "youtube:a4hdPWSUzsE",
+      "keep": "2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an.md",
+      "remove": [
+        "2026-04-08-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an.md"
+      ]
+    },
+    {
+      "url": "youtube:5-ekc3eXNvs",
+      "keep": "2026-04-10-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni.md",
+      "remove": [
+        "2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni.md"
+      ]
+    },
+    {
+      "url": "youtube:VFoIPlUalRY",
+      "keep": "2026-04-10-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates.md",
+      "remove": [
+        "2026-04-08-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates.md"
+      ]
+    },
+    {
+      "url": "youtube:z9rdrNrkvDY",
+      "keep": "2026-04-10-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages.md",
+      "remove": [
+        "2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages.md"
+      ]
+    },
+    {
+      "url": "youtube:9szhjhO9epA",
+      "keep": "2026-04-10-From-Clasp-Locker-to-YKK-The-History-and-Engineering-of-Zippers.md",
+      "remove": [
+        "2026-04-08-From-Clasp-Locker-to-YKK-The-History-and-Engineering-of-Zippers.md"
+      ]
+    },
+    {
+      "url": "youtube:2Wemm9givsw",
+      "keep": "2026-04-10-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme.md",
+      "remove": [
+        "2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme.md"
+      ]
+    },
+    {
+      "url": "youtube:1GOJn9xiCc4",
+      "keep": "2026-04-10-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs.md",
+      "remove": [
+        "2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs.md"
+      ]
+    },
+    {
+      "url": "youtube:P8m5eHAyrFM",
+      "keep": "2026-04-10-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI.md",
+      "remove": [
+        "2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI.md"
+      ]
+    },
+    {
+      "url": "youtube:Y2rpFa43jTo",
+      "keep": "2026-04-10-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync.md",
+      "remove": [
+        "2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync.md"
+      ]
+    },
+    {
+      "url": "youtube:NOR4NHL-SiI",
+      "keep": "2026-04-10-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for.md",
+      "remove": [
+        "2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for.md"
+      ]
+    },
+    {
+      "url": "youtube:Wkti_IX3Qzk",
+      "keep": "2026-04-10-Photoshops-Blend-If-Pixel-Perfect-Transparency-via-Brightness-and-Colo.md",
+      "remove": [
+        "2026-04-09-Photoshops-Blend-If-Pixel-Perfect-Transparency-via-Brightness-and-Colo.md"
+      ]
+    },
+    {
+      "url": "youtube:SQhfkWdxVvE",
+      "keep": "2026-04-10-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerabili.md",
+      "remove": [
+        "2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities.md"
+      ]
+    }
+  ]
+}

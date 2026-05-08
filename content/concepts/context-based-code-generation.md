@@ -1,0 +1,35 @@
+---
+type: concept
+domain: tools-platforms
+tags:
+  - "ai"
+  - "software-development"
+  - "automation"
+  - "code-generation"
+  - "ui-synthesis"
+  - "rapid-prototyping"
+  - "large-language-models"
+aliases:
+  - "context-aware code generation"
+  - "contextual code synthesis"
+summary: "A process using large language models to synthesize functional code, logic, and user interface elements by leveraging environmental or instructional context."
+updated: 2026-04-19
+group: developer-tooling-clis
+---
+# Context-based code generation
+
+The process of utilizing [[concepts/large-language-models]] to synthesize functional code, logic, and [[concepts/user-interface|User Interface]] (UI) elements by leveraging specific environmental or instructional context.
+
+## Capabilities
+* **UI/UX Synthesis**: Generating both the structural code and the specific content/assets for a [[concepts/user-interface|User Interface]] (UI) based on situational context.
+* **[[concepts/rapid-prototyping|Rapid Prototyping]]**: Automated creation of complex application archetypes, such as [[concepts/virtual-operating-systems]] or specialized niche [[concepts/software|applications]] like a Travel app.
+
+## Recent Developments
+* **[[concepts/gemini|Gemini]] 2.5 Flash-Lite**: Demonstrates high-speed, efficient code and [[concepts/ui-generation|UI generation]] driven by context (ref: [[entities/matthew-berman|Matthew Berman]] - AI updates).
+
+---
+Backlink: [[concepts/date-2026-04-13|2026]] 04 14 [[entities/matthew-berman|Matthew Berman]] AI updates
+
+## Source Notes
+- 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)
+- 2026-05-01: [[lab-notes/2026-05-01-Local-vs.-Cloud-LLMs-for-Code-Generation-Performance-Com|Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task]] · [▶ source](https://www.youtube.com/watch?v=TMwHAvNQjNw)
