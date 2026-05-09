@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "digifella.github.io/ai-wiki",
-    ignorePatterns: ["private", "templates", ".obsidian", "SCHEMA.md"],
+    ignorePatterns: ["private", "templates", ".obsidian", "SCHEMA.md", "Topics", "inbox"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
