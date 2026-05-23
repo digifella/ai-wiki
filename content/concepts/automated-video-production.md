@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "concept"
   - "ai-video-generation"
@@ -13,7 +12,8 @@ aliases:
   - "AI video production"
   - "Automated video content creation"
 summary: The document covers AI-powered systems and tools for the autonomous generation, optimization, and transformation of video content.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Automated Video Production
 
@@ -21,16 +21,15 @@ Automated video production refers to AI-powered systems and workflows that enabl
 
 ## Core Functions
 
-Modern automated video production tools perform several interconnected functions. Script generation systems can transform written briefs or prompts into structured narratives suitable for video. Scene composition and asset selection tools match visual content to script requirements, drawing from stock footage libraries or generated imagery. Editing workflows automate synchronization between audio and visual elements, apply standardized [[concepts/photo-tonal-adjustments|color grading]] and effects, and optimize pacing and transitions. Post-production optimization includes audio normalization, subtitle generation, and format adaptation for different platforms.
+Modern automated video production tools perform several interconnected functions. Script generation systems can transform written briefs or prompts into structured narratives suitable for video. Scene composition and asset selection tools match visual content to script requirements, drawing from stock footage libraries or generated imagery. Editing workflows automate synchronization between [[concepts/audio-modality|audio]] and visual elements, apply standardized [[concepts/photo-tonal-adjustments|color grading]] and effects, and optimize pacing and transitions. Post-production optimization includes audio normalization, subtitle generation, and format adaptation for different platforms.
 
 ## Current Applications
 
-These systems are increasingly used in [[concepts/content-creation|content creation]] workflows across marketing, education, and media production. They support rapid generation of variations for A/B [[concepts/testing|testing]], localization of content into multiple languages, and [[concepts/computational-scaling|scaling]] of templated content types like social media videos and tutorials. Some tools generate video content from scratch given only text input, while others function as augmentation layers within traditional editing pipelines, handling time-intensive technical tasks.
+These systems are increasingly used in [[concepts/content-creation|content creation]] workflows across marketing, education, and media production. They support rapid generation of variations for A/B [[concepts/testing|testing]], localization of content into multiple languages, and [[concepts/computational-scaling|scaling]] of templated content types like social media videos and tutorials. Some tools generate video content from scratch given only [[concepts/text|text]] input, while others function as augmentation layers within traditional editing pipelines, handling time-intensive technical tasks.
 
 ## Limitations and Considerations
 
-Current systems typically produce strongest results with structured, template-based content rather than creative or highly customized work. Generated output often requires human review and refinement to meet professional [[concepts/open-standards|standards]]. Creative decisions around pacing, emotional impact, and [[concepts/storytelling|storytelling]] nuance remain areas where human oversight provides meaningful value alongside or instead of full [[concepts/automation|automation]].
-
+Current systems typically produce strongest results with structured, template-based content rather than creative or highly customized work. Generated [[concepts/output|output]] often requires human review and refinement to meet professional [[concepts/open-standards|standards]]. Creative decisions around pacing, emotional impact, and [[concepts/storytelling|storytelling]] nuance remain areas where human oversight provides meaningful value alongside or instead of full [[concepts/automation|automation]].
 ## Source Notes
 - 2026-04-08: [[concepts/claude-code|Claude Code + Karpathy's Autoresearch = GOD MODE!]]
 - 2026-04-10: [[entities/claude-code|Claude Code + Blotato = Automated Shorts in Minutes]]

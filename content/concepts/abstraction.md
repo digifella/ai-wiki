@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "mathematics"
-  - "philosophy"
-  - "history"
-  - "number-systems"
-updated: 2026-04-14
+updated: 2026-05-23
 group: mathematical-reasoning-proof
 ---
 # Abstraction
 
-Abstraction is a fundamental concept in various fields such as computer science, [[concepts/mathematics|mathematics]], and [[concepts/philosophy|philosophy]], referring to the process of considering something independently from its concrete instance by considering only higher-level properties. It involves simplifying complex systems into manageable parts.
+[[concepts/abstraction-layer|Abstraction]] is a fundamental concept in various fields such as computer [[concepts/science|science]], [[concepts/mathematics|mathematics]], and [[concepts/philosophy|philosophy]], referring to the process of considering something independently from its concrete instance by considering only higher-level properties. It involves simplifying complex systems into manageable parts.
 
 ### Key Points
 - **Definition:** The act of considering something independently of its associations or embodiments.
@@ -20,19 +15,18 @@ Abstraction is a fundamental concept in various fields such as computer science,
 
 ### Related Concepts
 - [[concepts/number-systems|Number Systems]]
-- Philosophy
+- [[concepts/philosophy|Philosophy]]
 
 ### New Information (2026-04-13)
 - The number 0 was banned in Western societies for over 1500 years due to [[concepts/philosophical-resistance|philosophical resistance]] and societal views.
-- Early human societies did not have a need for zero, as their mathematics focused on tracking existing items rather than representing absence or nothingness.
+- Early human societies did not have a need for [[concepts/concept-of-nothingness|zero]], as their mathematics focused on tracking existing items rather than representing absence or nothingness.
 
 ### References
-**Zeros 1500-Year Ban: Western Philosophical Resistance and [[concepts/eastern-acceptance|Eastern Acceptance]]**
-- **Clip title:** Why the number 0 was banned for 1500 years
+**Zeros 1500-Year Ban: Western [[concepts/philosophical-resistance|Philosophical Resistance]] and [[concepts/eastern-acceptance|Eastern Acceptance]]**
+- **[[concepts/clip-title|Clip title]]:** Why the number 0 was banned for 1500 years
 - **Author / channel:** [[entities/up-and-atom|Up and Atom]]
 - **URL:** https://www.youtube.com/watch?v=ndmwB8F2kxA
 
 2026 04 13 Zeros 1500 Year Ban Western Philosophical Resistance and Eastern Accep
-
 ## Source Notes
 - 2026-04-18: [[lab-notes/2026-04-18-AI-Coding-Cost-Overruns-Vercel-Bill-Lessons-from-Journey-Kits-Deployme|AI Coding Cost Overruns Vercel Bill Lessons from Journey Kits Deployme]] · [▶ source](https://www.youtube.com/watch?v=XG3ksRWsUJ8)

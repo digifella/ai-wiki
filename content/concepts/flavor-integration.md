@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "culinary-science"
-  - "cooking-techniques"
-  - "flavor-profile"
-  - "sensory-cohesion"
-  - "sauce-adhesion"
-  - "texture-management"
-aliases:
-  - "sensory cohesion"
-  - "flavor unification"
-summary: "The culinary objective of achieving sensory cohesion by ensuring disparate components such as sauce, protein, and starch function as a unified whole."
-updated: 2026-04-26
+summary: The culinary objective of achieving sensory cohesion by ensuring disparate components such as sauce, protein, and starch function as a unified whole.
+updated: 2026-05-23
 group: apis-integrations-mcp
 ---
 # Flavor integration
@@ -25,8 +15,7 @@ The culinary objective of achieving sensory [[concepts/cohesion|cohesion]] by en
 - **Methodological Optimization**: Utilizing specific [[concepts/cooking-methods]] to challenge traditional [[concepts/preparation|preparation]] "rules," specifically to enhance the interface between moisture, fats, and starches to [[concepts/motivation|drive]] flavor into the structural components of a dish.
 
 ### Related Research
-- 2026 04 23 [[concepts/cooking-dried-pasta|Pasta Cooking Methods]] Optimizing Texture [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor Integration
-
+- 2026 04 23 [[concepts/cooking-dried-pasta|Pasta Cooking Methods]] Optimizing Texture [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor [[concepts/integration|Integration]]
 ## Source Notes
 
 - 2026-04-23: Pasta Cooking Methods · [▶ source](https://www.youtube.com/watch?v=IANwP8_hwEk)

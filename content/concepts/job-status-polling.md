@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: business-strategy
+domain: tools-platforms
 tags:
   - "api"
   - "queue"
@@ -14,9 +14,10 @@ tags:
 aliases:
   - "asynchronous-task-monitoring"
   - "job-queue-polling"
-summary: "A mechanism for monitoring asynchronous task progress and managing job queues via API."
-updated: 2026-04-28
-group: market-intelligence-geo-seo
+summary: A mechanism for monitoring asynchronous task progress and managing job queues via API.
+updated: 2026-05-23
+group: apis-integrations-mcp
+stub: true
 ---
 # job status polling
 
@@ -32,4 +33,4 @@ Mechanism for monitoring asynchronous task progress and managing job queues via 
     - Integrated 3 new `[[concepts/api-actions|API actions]]`.
 
 ## Related
-- 2026 04 14 [[concepts/claude-ai|Claude]] and Codex 17 March 2026
+- 2026 04 14 [[concepts/claude-ai|Claude]] and [[concepts/codex|Codex]] 17 March 2026

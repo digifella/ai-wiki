@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: history-anthropology
-group: agriculture-food-trade
+domain: food-nutrition
 tags:
   - "concept"
   - "poaching"
@@ -14,11 +13,12 @@ aliases:
   - "poach cooking"
   - "poaching technique"
 summary: A cooking method that involves gently simmering food in liquid, exemplified by Normandy-style poached salmon prepared in cider with cream sauce.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Poaching Method
 
-Poaching is a moist-heat cooking technique in which food is gently simmered in liquid at a temperature below boiling, typically between 160–180°F (70–82°C). The liquid, called the poaching [[entities/medium|medium]], surrounds the food and cooks it gradually through sustained, gentle heat. This method is prized for producing tender, delicate results while preserving the natural flavour and [[concepts/texture|texture]] of the ingredient.
+Poaching is a moist-heat cooking technique in which food is gently simmered in liquid [[concepts/assistive-technology|at]] a temperature below boiling, typically between 160–180°F (70–82°C). The liquid, called the poaching [[entities/medium|medium]], surrounds the food and cooks it gradually through sustained, gentle heat. This method is prized for producing tender, delicate results while preserving the natural flavour and [[concepts/texture|texture]] of the ingredient.
 
 ## Poaching Media
 
@@ -26,8 +26,7 @@ The choice of poaching liquid varies widely depending on the food and desired fl
 
 ## Applications and Results
 
-Poaching suits delicate proteins such as fish, chicken breast, and eggs, as the gentle heat prevents toughening or drying. Eggs poached in water with a splash of vinegar coagulate evenly without hardening. The technique also works for fruits, where sugar syrups or wine serve as the poaching medium. Because poaching retains moisture within the food, it is particularly valued in cuisines emphasizing subtle flavours and refined presentation.
-
+Poaching suits delicate proteins such as fish, chicken breast, and eggs, as the gentle heat prevents toughening or drying. Eggs poached in water with a splash of vinegar coagulate evenly without hardening. The technique also works for fruits, where [[concepts/sugar|sugar]] syrups or wine serve as the poaching medium. Because poaching retains moisture within the food, it is particularly valued in cuisines emphasizing subtle flavours and refined presentation.
 ## Source Notes
 - 2026-04-22: Normandy-Style · [▶ source](https://www.youtube.com/watch?v=oAHUSd5mzq4)
 - 2026-04-20: [[lab-notes/2026-04-20-Perfect-Poached-Eggs-Papa-Maus-Vinegar-Pre-Soak-Method|Perfect Poached Eggs Papa Maus Vinegar Pre Soak Method]] · [▶ source](https://www.youtube.com/watch?v=7ogGknnYMzQ)

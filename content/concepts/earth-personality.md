@@ -1,22 +1,9 @@
 ---
 type: concept
-domain: earth-systems-geology-climate
-tags:
-  - "personality types"
-  - "influence"
-  - "five elements theory"
-  - "personality-theory"
-  - "five-elements"
-  - "communication-skills"
-  - "influence-strategy"
-  - "ancient-chinese-theory"
-aliases:
-  - "earth-profile"
-  - "stable-personality"
-  - "nurturing-character"
-summary: "The Earth personality is a concept from Tony Robbins and Dr. Stephen Scott Cowan's work, emphasizing stability, nurturing, and practicality."
-updated: 2026-04-12
-group: geology-rocks-minerals
+domain: business-strategy
+summary: The Earth personality is a concept from Tony Robbins and Dr. Stephen Scott Cowan's work, emphasizing stability, nurturing, and practicality.
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Earth Personality
 
@@ -34,8 +21,8 @@ The **Earth** personality is one of the five elemental profiles described by [[e
 - [[concepts/water-personality|water-personality]]
 
 ## References
-- [[entities/tony-robbins|Tony Robbins]]' video on personality influence: How To Influence ANYONE In Your Life (No Matter How Difficult...)
-  - **Clip title:** How To Influence ANYONE In Your Life (No Matter How Difficult...)
+- [[entities/tony-robbins|Tony Robbins]]' video on personality [[concepts/power|influence]]: How To [[concepts/power|Influence]] ANYONE In Your Life (No Matter How Difficult...)
+  - **[[concepts/clip-title|Clip title]]:** How To Influence ANYONE In Your Life (No Matter How Difficult...)
   - **Author / channel:** [[entities/tony-robbins|Tony Robbins]]
   - **Date:** 2026-04-11
 
@@ -45,6 +32,5 @@ The **Earth** personality is one of the five elemental profiles described by [[e
 
 ## Backlinks
 2026 04 11 Tony Robbins Five Elements Understanding Personalities to Enhance Infl
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Tony-Robbins-Five-Elements-Understanding-Personalities-to-Enhance-Infl|Tony Robbins Five Elements Understanding Personalities to Enhance Infl]] · [▶ source](https://www.youtube.com/watch?v=nyRnnn82ATg)

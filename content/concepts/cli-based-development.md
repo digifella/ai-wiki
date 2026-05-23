@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "cli-development"
@@ -11,7 +10,8 @@ tags:
 aliases:
   - "Claude Code updates"
 summary: A summary of recent feature updates for the Claude Code command-line interface tool.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # CLI Based Development
 
@@ -19,12 +19,11 @@ updated: 2026-05-01
 
 ## Claude Code Command-Line Interface
 
-Claude Code is a command-line interface tool that integrates [[concepts/ai-coding-assistance|AI-assisted coding]] capabilities into terminal-based [[concepts/developer-platforms|development environments]]. The tool has undergone several feature updates in recent periods, expanding its functionality for developers who prefer working within command-line environments. These updates aim to improve the efficiency and capability of AI-assisted coding workflows within traditional development setups.
+[[concepts/claude-code|Claude Code]] is a [[concepts/command-line-interaction|command-line interface]] tool that integrates [[concepts/ai-coding-assistance|AI-assisted coding]] [[concepts/capabilities|capabilities]] into terminal-based [[concepts/developer-platforms|development environments]]. The tool has undergone several feature updates in recent periods, expanding its functionality for developers who prefer working within command-line environments. These updates aim to improve the efficiency and capability of [[concepts/ai-assisted-coding|AI-assisted coding]] workflows within traditional development setups.
 
 ## Development Workflow Integration
 
-CLI-based development tools like Claude Code allow developers to maintain consistent workflows across different projects and environments. By operating through the command line, these tools can be more easily integrated into existing development pipelines, build systems, and automated processes compared to GUI-dependent alternatives. This integration approach supports continuous development practices and reduces [[concepts/friction|friction]] when switching between different development contexts.
-
+CLI-based development tools like Claude Code allow developers to maintain consistent workflows across different projects and environments. By operating through the command line, these tools can be more easily integrated into existing development pipelines, build systems, and automated processes compared to GUI-dependent alternatives. This [[concepts/integration|integration]] approach supports continuous development practices and reduces [[concepts/friction|friction]] when switching between different development contexts.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

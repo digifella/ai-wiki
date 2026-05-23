@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: individual-sports-performance
 tags:
   - "running"
   - "foot-health"
@@ -12,18 +11,18 @@ aliases:
   - "runner foot health"
   - "shoe lacing technique"
 summary: The content discusses the superiority of bar lacing over cross-lacing for maintaining runner foot health.
-updated: 2026-05-01
+updated: 2026-05-23
+group: individual-sports-performance
 ---
 # Running Performance
 
-Running performance encompasses the physical and biomechanical factors that influence a runner's efficiency, comfort, and injury [[concepts/preventive-care|prevention]]. One often-overlooked aspect of running performance is proper footwear setup, particularly how shoes are laced. The method of lacing can significantly affect foot stability, circulation, and overall comfort during [[concepts/running|running]] activities.
+Running performance encompasses the physical and biomechanical factors that [[concepts/power|influence]] a runner's efficiency, comfort, and injury [[concepts/preventive-care|prevention]]. One often-overlooked aspect of running performance is proper footwear [[concepts/setup|setup]], particularly how shoes are laced. The method of lacing can significantly affect foot stability, circulation, and overall comfort during [[concepts/running|running]] activities.
 
 ## Lacing Techniques and Foot Health
 
-[[concepts/bar-lacing|Bar lacing]] and cross-lacing are two common methods for securing running shoes. Bar lacing, also called straight lacing, runs the laces horizontally across the shoe without diagonal crosses, while cross-lacing follows a traditional crisscross pattern. Research and practitioner experience suggest that bar lacing may offer advantages for [[concepts/foot-strength|runner foot health]] by providing more consistent [[concepts/pressure-distribution|pressure distribution]] across the foot and reducing pressure points that can develop from the diagonal tension created by cross-lacing.
+[[concepts/bar-lacing|Bar lacing]] and cross-lacing are two common methods for securing running shoes. Bar lacing, also called straight lacing, runs the [[concepts/laces|laces]] horizontally across the shoe without diagonal crosses, while cross-lacing follows a traditional crisscross pattern. Research and practitioner experience suggest that bar lacing may offer advantages for [[concepts/foot-strength|runner foot health]] by providing more consistent [[concepts/pressure-distribution|pressure distribution]] across the foot and reducing pressure points that can develop from the diagonal tension created by cross-lacing.
 
 The choice of lacing method can influence blood circulation in the foot and the shoe's overall fit stability. Bar lacing distributes tension more evenly across the width of the foot, potentially reducing localized pressure that might impede circulation or create discomfort during extended running. This even [[concepts/distribution|distribution]] can contribute to better foot performance and reduced fatigue over longer distances.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

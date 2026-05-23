@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "concept"
   - "data-analysis"
@@ -11,15 +10,16 @@ tags:
 aliases:
   - "End of Informational Asymmetry"
 summary: A discussion of LinkedIn data analysis and the end of informational asymmetry.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Data Reclamation
 
-Data reclamation refers to the practice of extracting, analyzing, and repurposing data from publicly available sources—particularly professional networking platforms like LinkedIn—to counterbalance information asymmetries that traditionally favor organizations over individuals. Historically, companies and institutions have maintained significant advantages in gathering and analyzing personal information about job candidates, employees, and market participants. Data reclamation inverts this dynamic by enabling individuals and independent researchers to systematically collect and analyze organizational data that these platforms make visible.
+Data reclamation refers to the practice of extracting, analyzing, and repurposing data from publicly available sources—particularly professional networking platforms like LinkedIn—to counterbalance information asymmetries that traditionally favor organizations over individuals. Historically, companies and institutions have maintained significant advantages in gathering and analyzing personal information about job candidates, employees, and market participants. Data reclamation inverts this dynamic by enabling individuals and independent researchers to systematically collect and analyze organizational data that these platforms [[entities/make|make]] visible.
 
 ## Information Asymmetry and Access
 
-The concept addresses a fundamental imbalance in how information flows in professional and employment contexts. While employers routinely conduct background checks, skill assessments, and network analysis on potential hires, individuals have had limited tools to systematically evaluate companies, hiring practices, or industry patterns. By analyzing aggregated LinkedIn data—such as hiring timelines, workforce composition, skill demand patterns, and [[concepts/organizational-structure|organizational structure]]—researchers can identify trends and insights previously available only to well-resourced institutions.
+The concept addresses a fundamental imbalance in how information flows in professional and employment contexts. While employers routinely conduct background checks, [[concepts/skill|skill]] assessments, and network analysis on potential hires, individuals have had limited tools to systematically evaluate companies, hiring practices, or industry patterns. By analyzing aggregated LinkedIn data—such as hiring timelines, workforce composition, skill demand patterns, and [[concepts/organizational-structure|organizational structure]]—researchers can identify trends and insights previously available only to well-resourced institutions.
 
 ## Technical and Ethical Dimensions
 

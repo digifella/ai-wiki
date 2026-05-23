@@ -1,26 +1,24 @@
 ---
 type: entity
 tags:
-  - "robotics"
-  - "humanoid"
-  - "AI"
-  - "teleoperation"
-  - "humanoid-robot"
+  - "humanoid-robots"
   - "mobile-manipulation"
+  - "robotics"
+  - "teleoperation"
   - "logistics"
-summary: "Digit is a humanoid robot designed for complex mobile manipulation and logistics."
-updated: 2026-04-26
+  - "ai-control"
+aliases:
+  - "Digit Robot"
+summary: Digit is a humanoid robot designed for complex mobile manipulation and logistics.
+updated: 2026-05-23
 ---
 # Digit
 
-A humanoid robot designed for complex mobile manipulation and logistics.
+Digit is a humanoid robot developed for complex mobile manipulation and logistics tasks. The robot is designed to navigate and operate in environments requiring both mobility and dexterous manipulation, making it suitable for warehouse [[concepts/automation|automation]], package handling, and similar industrial [[concepts/software|applications]].
 
-## Capabilities & Integrations
-- **[[entities/nvidia-sonic]] [[concepts/integration|Integration]]**: Capable of performing a wide array of complex and nuanced tasks through the use of [[entities/nvidia-sonic]], a groundbreaking AI-driven teleoperation control system.
+## Capabilities
 
-## Backlinks
-- 2026 04 26 [[entities/sonic|NVIDIA Sonic]] Groundbreaking AI for Nuanced [[concepts/humanoid-robots|Humanoid Robot Teleoperation]]
-
+Digit is capable of performing nuanced manipulation tasks through [[concepts/integration|integration]] with [[concepts/nvidia-sonic|NVIDIA Sonic]], an AI-driven teleoperation [[concepts/power|control]] system. This integration enables the robot to execute complex actions that require both precision and adaptability, extending its utility beyond simple automated tasks to more sophisticated handling operations.
 ## Source Notes
 
 - 2026-04-13: [[lab-notes/2026-04-13-Demystifying-AI-Transformer-Training-on-a-1979-PDP-11|Demystifying AI Transformer Training on a 1979 PDP 11]] · [▶ source](https://www.youtube.com/watch?v=OUE3FSIk46g)

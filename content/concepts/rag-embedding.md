@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "embeddings"
   - "rag"
@@ -12,20 +11,20 @@ aliases:
   - "RAG embeddings"
   - "embedding fine-tuning"
 summary: This concept involves fine-tuning RAG embeddings using the Matryoshka technique.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Rag Embedding
 
-Rag embedding refers to the process of generating and optimizing [[concepts/vector-representations|vector representations]] of text within Retrieval-Augmented Generation (RAG) systems. These embeddings serve as the foundation for [[concepts/natural-language-search|semantic search]] and [[concepts/knowledge-bases|information retrieval]], converting [[concepts/unstructured-text|unstructured text]] into numerical vectors that can be compared for similarity. The quality of embeddings directly impacts the relevance of retrieved documents and the overall performance of RAG pipelines.
+Rag embedding refers to the process of generating and optimizing [[concepts/vector-representations|vector representations]] of [[concepts/text|text]] within [[concepts/answer-generation|Retrieval-Augmented Generation]] (RAG) systems. These embeddings serve as the foundation for [[concepts/natural-language-search|semantic search]] and [[concepts/knowledge-bases|information retrieval]], converting [[concepts/unstructured-text|unstructured text]] into numerical vectors that can be compared for similarity. The quality of embeddings directly impacts the relevance of retrieved documents and the overall performance of RAG pipelines.
 
 ## Matryoshka Fine-tuning
 
-One approach to improving RAG embeddings is through Matryoshka fine-tuning, a technique that optimizes embeddings at multiple dimensional [[concepts/musical-scales|scales]] simultaneously. Rather than [[concepts/training|training]] embeddings at a single fixed dimension, Matryoshka training creates embeddings that perform effectively even when truncated to smaller dimensions. This allows for flexible trade-offs between [[concepts/computational-efficiency|computational efficiency]] and retrieval [[concepts/accuracy|accuracy]], enabling deployments to use lower-dimensional vectors when performance requirements permit while maintaining higher quality when needed.
+One approach to improving RAG embeddings is through Matryoshka [[concepts/fine-tuning|fine-tuning]], a technique that optimizes embeddings [[concepts/assistive-technology|at]] multiple dimensional [[concepts/musical-scales|scales]] simultaneously. Rather than [[concepts/training|training]] embeddings at a single fixed dimension, Matryoshka training creates embeddings that perform effectively even when truncated to smaller dimensions. This allows for flexible trade-offs between [[concepts/computational-efficiency|computational efficiency]] and retrieval [[concepts/accuracy|accuracy]], enabling deployments to use lower-dimensional vectors when performance requirements permit while maintaining higher quality when needed.
 
 ## Practical Applications
 
-Fine-tuning RAG embeddings with Matryoshka techniques can reduce [[concepts/memory|memory]] requirements and latency in production systems while maintaining [[concepts/retrieval-quality|retrieval quality]]. This is particularly valuable for systems operating under resource constraints or requiring rapid [[concepts/inference|inference]] across large document collections. The approach supports both improving existing RAG implementations and developing new systems with optimized performance characteristics from the outset.
-
+[[concepts/domain-specific-fine-tuning|Fine-tuning RAG]] embeddings with Matryoshka techniques can reduce [[concepts/memory|memory]] requirements and latency in production systems while maintaining [[concepts/retrieval-quality|retrieval quality]]. This is particularly valuable for systems operating under resource constraints or requiring rapid [[concepts/inference|inference]] across large document collections. The approach supports both improving existing RAG implementations and developing new systems with optimized performance characteristics from the outset.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)
 - 2026-04-10: [[lab-notes/2026-04-10-NotebookLM-Mind-Map-to-Interactive-HTML-Site-with-Gemini-AI|NotebookLM Mind Map to Interactive HTML Site with Gemini AI]] · [▶ source](https://www.youtube.com/watch?v=3tPzeQX0KVE)

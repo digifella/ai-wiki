@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "biosphere-2"
   - "controlled-environment"
@@ -10,8 +9,9 @@ tags:
   - "climate-research"
 aliases:
   - "Biosphere 2 Experiment"
-summary: "A controlled environmental experiment that advanced understanding of Earth's biosphere and climate systems."
-updated: 2026-05-01
+summary: A controlled environmental experiment that advanced understanding of Earth's biosphere and climate systems.
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Controlled Climate Experiment
 
@@ -19,7 +19,7 @@ A controlled climate experiment is a large-scale environmental study conducted w
 
 ## Biosphere 2
 
-The most prominent example is Biosphere 2, a closed ecological experiment constructed in Arizona in the late 1980s. The facility contained multiple interconnected biomes—including a rainforest, ocean, and desert—along with human habitats, designed to function as a self-sustaining system. The initial two-year mission (1991–1993) aimed to demonstrate whether humans could live in a sealed environment while maintaining its biological systems. Although the experiment revealed significant challenges with atmospheric chemistry, nutrient cycling, and species survival, it generated valuable data about ecosystem dynamics and the complexity of maintaining closed-loop life support systems.
+The most prominent example is [[concepts/closed-ecosystem|Biosphere 2]], a closed ecological experiment constructed in Arizona in the late 1980s. The facility contained multiple interconnected biomes—including a rainforest, ocean, and desert—along with human habitats, designed to function as a self-sustaining system. The initial two-year mission (1991–1993) aimed to demonstrate whether humans could live in a sealed environment while maintaining its biological systems. Although the experiment revealed significant challenges with atmospheric chemistry, nutrient cycling, and species survival, it generated valuable data about ecosystem dynamics and the complexity of maintaining closed-[[concepts/loop|loop]] life support systems.
 
 ## Scientific Impact
 

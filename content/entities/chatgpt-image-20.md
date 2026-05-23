@@ -1,6 +1,5 @@
 ---
 type: entity
-enrichment: pending
 tags:
   - "entity"
   - "chatgpt"
@@ -10,12 +9,19 @@ tags:
   - "gemini-flash"
 aliases:
   - "ChatGPT Image 2.0"
-summary: "Documentation regarding JSON prompts for advanced control of ChatGPT Image 2.0."
-updated: 2026-05-02
+summary: Documentation regarding JSON prompts for advanced control of ChatGPT Image 2.0.
+updated: 2026-05-23
+enrichment: pending
 ---
-# Chatgpt Image 2.0
+# ChatGPT Image 2.0
 
-- 2026-04-26 [2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control](2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control.md) ← Craig Does Ai Json Prompts For Advanced Chatgpt Image 2.0 Control
-- 2026-04-26 [2026-04-26-Gemini-and-DALL-E-3-Workflow-Consistent-AI-Image-Generation-Using-JSON](2026-04-26-Gemini-and-DALL-E-3-Workflow-Consistent-AI-Image-Generation-Using-JSON.md) ← Gemini And Dall E 3 Workflow Consistent Ai Image Generation Using Json
-- 2026-04-22 [2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities](2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities.md) ← Openai Gpt Image 2.0 Evaluating Next Gen Ai Image Generation Capabilities
+[[entities/chatgpt|ChatGPT]] Image 2.0 is an advanced image generation system that supports structured [[concepts/power|control]] through JSON-formatted prompts. This approach enables users to specify detailed [[concepts/parameters|parameters]] and requirements in a machine-readable format, allowing for more precise and reproducible image generation compared to natural [[concepts/natural-language-prompting|language prompts]] alone.
+
+## JSON Prompt Architecture
+
+The JSON prompt methodology provides a standardized way to communicate complex image generation [[concepts/instructions|instructions]] to ChatGPT Image 2.0. By structuring requests as JSON objects, users can specify multiple attributes, constraints, and preferences simultaneously. This format facilitates [[concepts/logical-consistency|consistency]] across multiple generation attempts and enables [[concepts/integration|integration]] with automated workflows and other AI systems.
+
+## Workflow Integration
+
+ChatGPT Image 2.0's JSON prompt system has been explored in conjunction with other [[concepts/generative-ai|generative AI]] tools, including [[concepts/gemini|Gemini]] and [[entities/dall-e-3|DALL-E 3]]. The structured [[entities/nature|nature]] of JSON prompts allows different image generation systems to interpret similar instructions, supporting cross-platform workflows where consistent [[concepts/output|output]] is required across multiple [[concepts/ai-models|AI models]] or where results need to be validated or enhanced through multiple generation passes.
 ## Source Notes

@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "ai"
-  - "prompting"
-  - "image-generation"
-  - "workflow"
-  - "ai-image-generation"
-  - "prompt-engineering"
-  - "structured-data"
-  - "parameter-tuning"
-  - "json-prompting"
-aliases:
-  - "prompt-control"
-summary: "The practice of using natural language and structured data, such as JSON, to manipulate AI image generators for precise and repeatable visual outputs."
-updated: 2026-04-26
+summary: The practice of using natural language and structured data, such as JSON, to manipulate AI image generators for precise and repeatable visual outputs.
+updated: 2026-05-23
 group: ai-image-generation-editing
 ---
 # Image generation control
@@ -22,7 +10,7 @@ group: ai-image-generation-editing
 The practice of using specific inputs—ranging from natural language to [[concepts/structured-data|structured data]]—to manipulate AI Image Generators for precise, predictable, and repeatable visual outputs.
 
 ## Control Modalities
-- [[entities/prompt-engineering]]: Utilizing [[concepts/natural-language-descriptions|natural language descriptions]] to influence subject, lighting, and composition.
+- [[entities/prompt-engineering]]: Utilizing [[concepts/natural-language-descriptions|natural language descriptions]] to [[concepts/power|influence]] subject, lighting, and composition.
 - Structured [[concepts/prompting|Prompting]]: Implementing formal data formats to define scene [[concepts/parameters|parameters]] and reduce [[concepts/ambiguity|ambiguity]].
     - **JSON Prompts**: A technique for [[concepts/millennial-spending-habits|ChatGPT]] Image 2.0 that uses [[concepts/json]] objects to achieve granular, advanced control over the generation process.
     - Allows for a highly precise workflow by establishing structured [[concepts/instructions|instructions]] for the model to interpret.
@@ -35,7 +23,6 @@ The practice of using specific inputs—ranging from natural language to [[conce
 
 ## Sources
 - 2026 04 26 [[entities/craig-does-ai|Craig Does AI]] [[concepts/custom-gems|JSON Prompts for Advanced ChatGPT Image 2.0 Control]]
-
 ## Source Notes
 - 2026-04-10: New [[entities/nano|Nano Banana Update: How to Use Nano Banana 2]]
 - 2026-04-26: [[lab-notes/2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control|Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control]] · [▶ source](https://www.youtube.com/watch?v=qXUww5tnLHs)

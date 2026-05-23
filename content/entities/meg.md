@@ -9,7 +9,7 @@ tags:
 aliases:
   - "Cats partnership manager's mother"
 summary: Meg is associated with group model building, clearing houses such as NSW Dept Justice, and research regarding children and family violence.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Meg
 

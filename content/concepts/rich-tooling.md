@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "ai-platform"
   - "agent-factory"
@@ -12,15 +11,16 @@ aliases:
   - "Microsoft Foundry"
   - "Foundry"
 summary: Microsoft Foundry is a platform designed as a unified AI app and agent factory.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Rich Tooling
 
-Rich tooling refers to comprehensive development platforms and frameworks that provide integrated environments for building [[concepts/ai-powered-applications|AI applications]] and [[concepts/agents|agents]]. These platforms combine multiple capabilities—such as model integration, data handling, [[concepts/deployment|deployment]], and monitoring—into unified systems designed to reduce [[concepts/friction|friction]] in the development process.
+Rich tooling refers to comprehensive development platforms and frameworks that provide integrated environments for building [[concepts/ai-powered-applications|AI applications]] and [[concepts/agents|agents]]. These platforms combine multiple [[concepts/capabilities|capabilities]]—such as model [[concepts/integration|integration]], data handling, [[concepts/deployment|deployment]], and monitoring—into unified systems designed to reduce [[concepts/friction|friction]] in the development process.
 
 ## Microsoft Foundry as an Example
 
-Microsoft Foundry exemplifies this approach as a unified factory for AI apps and agents. The platform integrates tooling across the development lifecycle, enabling teams to move from conception through deployment within a cohesive environment. Rather than requiring developers to assemble separate components, rich tooling platforms attempt to provide the necessary infrastructure and abstractions in a single system.
+[[concepts/agent-factory|Microsoft Foundry]] exemplifies this approach as a unified factory for AI apps and agents. The platform integrates tooling across the development lifecycle, enabling teams to move from conception through deployment within a cohesive environment. Rather than requiring developers to assemble separate components, rich tooling platforms attempt to provide the necessary infrastructure and abstractions in a single system.
 
 ## Value and Purpose
 

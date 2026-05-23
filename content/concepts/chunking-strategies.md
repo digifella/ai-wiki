@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
+domain: ai-agents
 tags:
   - "rag"
   - "text-chunking"
@@ -13,13 +13,13 @@ tags:
 aliases:
   - "text segmentation"
   - "chunking methods"
-summary: "Chunking strategies are methods for dividing text into smaller segments to improve information retrieval and processing in retrieval-augmented generation applications."
-updated: 2026-04-27
-group: developer-tooling-clis
+summary: Chunking strategies are methods for dividing text into smaller segments to improve information retrieval and processing in retrieval-augmented generation applications.
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Chunking Strategies
 
-Chunking strategies are methods for dividing text into smaller, manageable segments (chunks) to improve [[concepts/knowledge-bases|information retrieval]] and processing in [[concepts/software|applications]] like [[concepts/retrieval-augmented-generation-rag]].
+Chunking strategies are methods for dividing [[concepts/text|text]] into smaller, manageable segments (chunks) to improve [[concepts/knowledge-bases|information retrieval]] and processing in [[concepts/software|applications]] like [[concepts/retrieval-augmented-generation-rag]].
 
 ## Key Concepts
 
@@ -44,7 +44,6 @@ Chunking strategies are methods for dividing text into smaller, manageable segme
 ## Backlinks
 
 - 2026 04 14 [[entities/adam-lucek|Adam Lucek]] optimal RAG chunking with ChromaDB
-
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

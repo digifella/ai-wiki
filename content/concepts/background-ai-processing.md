@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "AI"
-  - "automation"
-  - "photography"
-  - "workflow"
-  - "ai-processing"
-  - "asynchronous-computing"
-  - "user-interface-responsiveness"
-  - "workflow-continuity"
-  - "generative-ai"
-  - "background-computation"
-aliases:
-  - "Asynchronous AI execution"
-  - "Background AI tasks"
-  - "Decoupled AI processing"
-summary: "The execution of computationally intensive artificial intelligence tasks in a secondary thread to maintain user interface responsiveness and workflow continuity."
-updated: 2026-04-26
+summary: The execution of computationally intensive artificial intelligence tasks in a secondary thread to maintain user interface responsiveness and workflow continuity.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Background AI processing
@@ -26,14 +11,13 @@ The execution of computationally intensive [[entities/ai|artificial intelligence
 
 ### Core Mechanics
 - Asynchronous processing: Decouples heavy computation (e.g., [[concepts/masking|masking]], generative fills, and complex pattern recognition) from the main UI thread to maintain [[concepts/software|software]] fluidity.
-- Workflow [[concepts/continuity|Continuity]]: Facilitates [[concepts/autonomous-workflows|AI-driven workflows]] by enabling users to continue manual editing, [[concepts/organization|organization]], or [[concepts/metadata|metadata]] entry while complex models [[concepts/compute|compute]] in the background.
+- Workflow [[concepts/continuity|Continuity]]: Facilitates [[concepts/autonomous-workflows|AI-driven workflows]] by enabling users to continue manual editing, [[concepts/organization|organization]], or [[concepts/metadata|metadata]] entry while complex [[concepts/models|models]] [[concepts/compute|compute]] in the background.
 
 ### Notable Implementations
 - [[concepts/lightroom]] (v15.3): [[concepts/integration|Integration]] of [[entities/adobe-firefly]] features utilizing background processing to prevent interface locking during [[concepts/generative-ai-models|generative AI]] tasks.
 
 ### Related References
 - [[concepts/date-2026-04-13|2026]] 04 21 [[entities/lightroom-classic-v15|Lightroom Classic 15]].3 Firefly AI [[concepts/film-presets|Film Presets]] Background Processing
-
 ## Source Notes
 - 2026-04-21: Lightroom · [▶ source](https://youtu.be/797b8VFXIYs)
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Settings-Clarity-Impact-and-Aperture-Misuse|Fujifilm Camera Settings Clarity Impact and Aperture Misuse]] · [▶ source](https://www.youtube.com/watch?v=Sdxz5zmX8NM)

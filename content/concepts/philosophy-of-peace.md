@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "peace"
   - "philosophy"
@@ -13,7 +12,8 @@ aliases:
   - "Peace Philosophy"
   - "Peaceful Philosophy"
 summary: Philosophical examination of peace as a concept and its relationship to ethics, including approaches to non-violence.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Philosophy Of Peace
 
@@ -21,7 +21,7 @@ Philosophy of peace is the systematic inquiry into the [[entities/nature|nature]
 
 ## Theoretical Foundations
 
-Different philosophical traditions offer distinct conceptions of peace. [[concepts/western-thought|Western philosophy]] has historically debated whether peace emerges through social contracts, balance of power, or the establishment of just institutions. Eastern philosophical traditions, particularly [[concepts/buddhism|Buddhism]] and Taoism, often emphasize inner peace and harmony with natural order as prerequisites for external peace. Contemporary peace philosophy draws on these diverse traditions while incorporating modern ethical frameworks such as consequentialism, deontology, and virtue ethics to evaluate peace-building approaches and their moral justifications.
+Different philosophical traditions offer distinct conceptions of peace. [[concepts/western-thought|Western philosophy]] has historically debated whether peace emerges through social contracts, balance of [[concepts/power|power]], or the establishment of just institutions. Eastern philosophical traditions, particularly [[concepts/buddhism|Buddhism]] and Taoism, often emphasize inner peace and harmony with natural order as prerequisites for external peace. Contemporary peace philosophy draws on these diverse traditions while incorporating modern ethical frameworks such as consequentialism, deontology, and virtue ethics to evaluate peace-building approaches and their moral justifications.
 
 ## Non-Violence and Ethical Approaches
 

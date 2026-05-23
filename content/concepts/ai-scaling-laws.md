@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "scaling-laws"
-  - "machine-learning"
-  - "model-architecture"
-updated: 2026-04-15
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # AI scaling laws
@@ -21,14 +16,13 @@ group: model-efficiency-compression
 - [[entities/mixture-of-experts|Mixture of Experts]] podcast panel (hosted by [[entities/tim|Tim]] Hwang) featuring:
   * [[entities/gabe-goodhart]] (Chief Architect, AI Open [[concepts/innovation|Innovation]])
   * [[entities/abraham-daniels|Abraham Daniels]] (Sr. Technical Product Manager, [[entities/granite|Granite]])
-  * [[entities/aaron-baughman|Aaron Baughman]] (IBM [[entities/fellow|Fellow]], Master Inventor)
+  * [[entities/aaron-baughman|Aaron Baughman]] ([[entities/ibm|IBM]] [[entities/fellow|Fellow]], Master Inventor)
 - Key debate points:
   - Validity of traditional [[concepts/computational-scaling|scaling]] laws amid "Fun-cember" [[concepts/model-releases|model releases]] (end-of-year surge in major model launches)
   - Analysis of [[entities/amazon]] blocking [[entities/chatgpt]] as indicator of competitive dynamics
   - Questions about [[concepts/diminishing-returns|diminishing returns]] in scaling efficiency
 
 2026 04 14 Ibm panel
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

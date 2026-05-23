@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: automation-scheduling-sync
+domain: ai-agents
 tags:
   - "concept"
   - "email"
@@ -13,20 +12,20 @@ aliases:
   - "Email Organization"
   - "Email Workflow"
 summary: Concept for managing email based on a Claude Code tutorial about building personalized AI knowledge systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Email Management
 
-Email management refers to the systematic [[concepts/organization|organization]], processing, and utilization of email communications within personal knowledge systems and AI-assisted workflows. In the context of [[concepts/ai-assisted-coding|Claude Code]] and personalized AI knowledge systems, email management involves integrating email data with other information sources to enhance productivity and decision-making. This approach treats email not merely as a communication tool but as a potential data source for building comprehensive knowledge bases.
+[[entities/email|Email]] management refers to the systematic [[concepts/organization|organization]], processing, and utilization of email communications within personal knowledge systems and AI-assisted workflows. In the context of [[concepts/ai-assisted-coding|Claude Code]] and personalized AI knowledge systems, email management involves integrating email data with other information sources to enhance productivity and [[concepts/decision-making|decision-making]]. This approach treats email not merely as a communication tool but as a potential data source for building comprehensive [[concepts/knowledge-bases|knowledge bases]].
 
 ## Integration with AI Systems
 
-Modern email management systems can leverage Claude Code and similar [[entities/ai-tools|AI tools]] to automatically process incoming messages, extract relevant information, and organize content according to predefined categories or workflows. This integration enables features such as automated [[concepts/summarization|summarization]] of email threads, categorization of messages by topic or priority, and synchronization with [[concepts/external-tools|external tools]] like Obsidian and [[entities/google-workspace|Google Workspace]]. The [[concepts/automation|automation]] reduces manual processing overhead while maintaining [[concepts/contextual-awareness|contextual awareness]] across communications.
+Modern email management systems can leverage [[concepts/claude-code|Claude Code]] and similar [[entities/ai-tools|AI tools]] to automatically process incoming messages, extract relevant information, and organize content according to predefined categories or workflows. This [[concepts/integration|integration]] enables features such as automated [[concepts/summarization|summarization]] of email threads, categorization of messages by topic or priority, and synchronization with [[concepts/external-tools|external tools]] like [[concepts/obsidian|Obsidian]] and [[entities/google-workspace|Google Workspace]]. The [[concepts/automation|automation]] reduces manual processing overhead while maintaining [[concepts/contextual-awareness|contextual awareness]] across communications.
 
 ## Knowledge System Applications
 
 Within the framework of an [[concepts/content-ideation|AI second brain]] or personal [[concepts/knowledge-management|knowledge management]] system, email management serves as a bridge between transient communications and persistent knowledge [[entities/storage|storage]]. By connecting email data to note-taking systems and scheduled task management, users can transform email insights into actionable items or documented knowledge. This approach particularly benefits content creators, marketers, and knowledge workers who rely on email as a primary communication channel but need to extract lasting value from those interactions.
-
 ## Source Notes
 - 2026-04-07: Full Guide - Build Your Own AI Second Brain with Claude Code
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

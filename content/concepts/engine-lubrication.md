@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "automotive"
-  - "mechanics"
-  - "lubrication"
-  - "engineering"
-  - "internal-combustion-engine"
-  - "friction-reduction"
-  - "oil-pressure"
-  - "engine-maintenance"
-aliases:
-  - "engine oiling"
-summary: "Engine lubrication is the process of applying lubricant to reduce friction, heat, and wear between moving components within an internal combustion engine."
-updated: 2026-04-26
+summary: Engine lubrication is the process of applying lubricant to reduce friction, heat, and wear between moving components within an internal combustion engine.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Engine lubrication
@@ -27,6 +16,5 @@ The process of applying a lubricant to reduce [[concepts/friction|friction]], he
 
 ### Related Resources
 - 2026 04 23 Engine Survival The Critical Role of Oil Pressure and Warning Lights
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

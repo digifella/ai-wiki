@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photoshop"
-  - "neural-filters"
-  - "seascape"
-  - "style-transfer"
-  - "image-editing"
-  - "seascape-photography"
-  - "ai-driven-tools"
-aliases:
-  - "seascape-to-sunset-conversion"
-summary: "A process for modifying the atmospheric, lighting, and color characteristics of seascape photography using AI-driven style transfer tools."
-updated: 2026-04-26
+summary: A process for modifying the atmospheric, lighting, and color characteristics of seascape photography using AI-driven style transfer tools.
+updated: 2026-05-23
 group: ai-image-generation-editing
 ---
 # Seascape Transformation
@@ -26,7 +16,6 @@ The process of modifying the atmospheric, lighting, and color characteristics of
 
 ## References
 - [[concepts/date-2026-04-13|2026]] 04 21 [[concepts/photoshop|Photoshop]] [[entities/neural-filter|Neural Filters]] Seascape Transformation to Sunset Photo [[concepts/style|Style]]
-
 ## Source Notes
 
 - 2026-04-21: Photoshop · [▶ source](https://youtu.be/8Y1hBDaMr_U)

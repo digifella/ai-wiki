@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "biology"
-  - "ecology"
-  - "terrestrial-life"
-  - "fungi"
-  - "meteorology"
-  - "terrestrial-ecosystems"
-  - "biogeochemical-cycles"
-  - "ice-nucleating-proteins"
-  - "biological-domains"
-aliases:
-  - "land-based-life"
-  - "land-dwelling-organisms"
-summary: "Terrestrial life consists of organisms such as plants, animals, and fungi that inhabit land-based environments and can influence weather patterns through biological mechanisms."
-updated: 2026-04-26
+summary: Terrestrial life consists of organisms such as plants, animals, and fungi that inhabit land-based environments and can influence weather patterns through biological mechanisms.
+updated: 2026-05-23
 group: media-society-daily-life
 ---
 # Terrestrial life
@@ -29,13 +16,12 @@ group: media-society-daily-life
 - Microorganisms: Bacteria and protists essential for soil [[concepts/health|health]] and Biogeochemical cycles.
 
 ## Ecological & Atmospheric Interactions
-- Fungi possess the ability to influence [[concepts/weather-patterns|Weather patterns]] and Rainfall through the production of **Ice-Nucleating Proteins (INPs)**.
+- Fungi possess the ability to [[concepts/power|influence]] [[concepts/weather-patterns|Weather patterns]] and Rainfall through the production of **Ice-Nucleating Proteins (INPs)**.
 - These biological mechanisms allow organisms to actively participate in the [[concepts/regulation|regulation]] of precipitation within terrestrial Ecosystems.
 
 ---
 **Backlinks:**
-- 2026 04 26 Fungal Ice Nucleating Proteins A Groundbreaking Rain Dis
-
+- 2026 04 26 [[concepts/fungal-ice-nucleating-proteins|Fungal Ice Nucleating Proteins]] A Groundbreaking Rain Dis
 ## Source Notes
 - 2026-04-26: [[lab-notes/2026-04-26-Fungal-Ice-Nucleating-Proteins-A-Groundbreaking-Rain-Dis|Fungal Ice-Nucleating Proteins: A Groundbreaking Rain Discovery]] · [▶ source](https://www.youtube.com/watch?v=3qYyhOjTtSk)
 - 2026-04-14: [[lab-notes/2026-04-14-Platypus-New-Discoveries-on-its-Unique-Biology-Evolution-and-Traits|Platypus New Discoveries on its Unique Biology Evolution and Traits]] · [▶ source](https://www.youtube.com/watch?v=1ABN5dLK3L4)

@@ -1,31 +1,20 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "enterprise-strategy"
-  - "business-objectives"
-  - "risk-management"
-  - "resource-allocation"
-  - "innovation-strategy"
-aliases:
-  - "Enterprise Strategic Planning"
-  - "Long-Term Business Plan"
-  - "Corporate Strategy Overview"
-  - "Strategic Resource Management"
-summary: "Enterprise strategy outlines a company's long-term plan to achieve business objectives through effective resource use and risk management."
-updated: 2026-04-11
+summary: Enterprise strategy outlines a company's long-term plan to achieve business objectives through effective resource use and risk management.
+updated: 2026-05-23
 group: enterprise-strategy-future-work
-title: "Enterprise Strategy"
+title: Enterprise Strategy
 ---
 # Enterprise Strategy
 
-Enterprise strategy refers to the long-term plan of an [[concepts/organization|organization]] to achieve its business objectives by leveraging various resources and capabilities within a competitive environment. It involves setting strategic direction, allocating resources effectively, managing risk, and fostering [[concepts/innovation|innovation]].
+Enterprise strategy refers to the long-term plan of an [[concepts/organization|organization]] to achieve its business objectives by leveraging various resources and [[concepts/capabilities|capabilities]] within a competitive environment. It involves setting strategic direction, allocating resources effectively, managing risk, and fostering [[concepts/innovation|innovation]].
 
 ## Key Components
 - **[[concepts/computer-vision|Vision]] & Mission:** The [[concepts/motivation|purpose]] and scope of the company.
 - **Objectives & Goals:** Specific aims that align with the vision and mission.
 - **Resource Allocation:** Efficient use of financial, human, and technological resources.
-- **Risk Management:** Identifying, assessing, and prioritizing risks followed by coordinated application of resources to minimize or control risk events and their effects.
+- **Risk Management:** Identifying, assessing, and prioritizing risks followed by coordinated application of resources to minimize or [[concepts/power|control]] risk events and their effects.
 - **Innovation Strategy:** Fostering a culture of innovation that drives product development and process improvement.
 
 ## Related Concepts
@@ -34,12 +23,11 @@ Enterprise strategy refers to the long-term plan of an [[concepts/organization|o
 - Market Analysis
 
 ### New Information (2026-04-08)
-- **[[concepts/nemoclaw|NemoClaw]] vs. [[concepts/openclaw|OpenClaw]]: NVIDIA's [[concepts/secure-ai-agent|Secure AI Agent]] for Enterprise**
-  - The video by Jay E | [[entities/jay-e-robonuggets|RoboNuggets]] on "Does [[entities/nemoclaw|NemoClaw]] Replace [[entities/openclaw|OpenClaw]]? (Full Comparison)" explores the implications of NVIDIA's announcement at GTC, highlighting:
-    - CEO [[entities/jensen-huang|Jensen Huang]]'s emphasis on an "OpenClaw strategy."
-    - Clarification on what NemoClaw is and its differentiation from the [[concepts/open-source|open-source]] OpenClaw project.
+- **[[concepts/nemoclaw|NemoClaw]] vs. [[concepts/openclaw|OpenClaw]]: [[entities/nvidia|NVIDIA]]'s [[concepts/secure-ai-agent|Secure AI Agent]] for Enterprise**
+  - The video by [[entities/jay-e|Jay E]] | [[entities/jay-e-robonuggets|RoboNuggets]] on "Does [[entities/nemoclaw|NemoClaw]] Replace [[entities/openclaw|OpenClaw]]? (Full Comparison)" explores the implications of NVIDIA's announcement [[concepts/assistive-technology|at]] [[entities/gtc-conference|GTC]], highlighting:
+    - CEO [[entities/jensen-huang|Jensen Huang]]'s emphasis on an "[[concepts/openclaw-strategy|OpenClaw strategy]]."
+    - Clarification on what [[concepts/agent-toolkit|NemoClaw]] is and its differentiation from the [[concepts/open-source|open-source]] OpenClaw project.
     - Insights into how these developments impact both enterprise and individual users.
-
 ## Source Notes
 - 2026-04-08: Salesforce CEO on Microsoft Blocking OpenAI Investment, AI
 - 2026-04-10: Does [[entities/nemoclaw|NemoClaw Replace OpenClaw? (Full Comparison)]]

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: multimodal-generative-media
 tags:
   - "character-creation"
   - "ai-assistance"
@@ -13,20 +12,20 @@ aliases:
   - "Character Selection"
   - "Avatar Generation"
 summary: Vyond Go allows users to create or select stock characters before generating a video using AI assistance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Character Generation
 
-Character Generation is a feature in [[entities/vyond-go|Vyond Go]] that enables users to create or select characters before initiating AI-assisted video production. This process is a foundational step in the [[concepts/video-creation|video creation]] workflow, allowing creators to establish visual identity and [[concepts/logical-consistency|consistency]] before content is generated.
+Character Generation is a feature in [[entities/vyond-go|Vyond Go]] that enables users to create or select characters before initiating AI-assisted video production. This process is a foundational step in the [[concepts/video-creation|video creation]] [[concepts/workflow|workflow]], allowing creators to establish visual identity and [[concepts/logical-consistency|consistency]] before content is generated.
 
 ## Stock Characters
 
-Users can choose from a library of stock characters, which serves as a starting point for [[concepts/customization|customization]]. This approach provides both efficiency and flexibility, allowing creators to either adopt existing character designs or use them as bases for modifications.
+Users can choose from a library of stock characters, which serves as a starting point for [[concepts/customization|customization]]. This approach provides both efficiency and flexibility, allowing creators to either adopt existing character designs or use them as [[concepts/number-systems|bases]] for modifications.
 
 ## AI-Assisted Workflow
 
-The character generation process integrates with Vyond Go's AI assistance capabilities, enabling streamlined character selection and creation within the broader [[concepts/video-generation|video generation]] pipeline. This integration supports the platform's goal of reducing production time while maintaining creative control over visual elements in the final video output.
-
+The character generation process integrates with [[entities/vyond|Vyond Go]]'s AI assistance [[concepts/capabilities|capabilities]], enabling streamlined [[concepts/stock-characters|character selection]] and creation within the broader [[concepts/video-generation|video generation]] pipeline. This [[concepts/integration|integration]] supports the platform's goal of reducing production time while maintaining creative [[concepts/power|control]] over visual elements in the final video [[concepts/output|output]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Nano-Banana-2-Rapid-Professional-AI-Image-Generation-and-Contro|Google Nano Banana 2 Rapid Professional AI Image Generation and Contro]] · [▶ source](https://www.youtube.com/watch?v=enTnJJHtIGs)
 - 2026-04-19: [[lab-notes/2026-04-19-Seedance-20-AI-Video-Claude-AI-Prompting-Workflow-for-Professional-Com|Seedance 20 AI Video Claude AI Prompting Workflow for Professional Com]] · [▶ source](https://www.youtube.com/watch?v=ZMfz0UI9cag)

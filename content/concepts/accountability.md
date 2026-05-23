@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "accountability"
-  - "leadership"
-  - "vulnerability"
-  - "courage"
-  - "accountability-practice"
-  - "leadership-strategy"
-  - "transparency-in-leadership"
-  - "continuous-improvement"
-  - "vulnerability-at-work"
-aliases:
-  - "responsibility-and-ethics"
-  - "openness-in-management"
-  - "professional-integrity"
-summary: "Accountability involves taking responsibility for actions, maintaining transparency, adhering to integrity principles, and continuously improving one's performance."
-updated: 2026-04-12
+summary: Accountability involves taking responsibility for actions, maintaining transparency, adhering to integrity principles, and continuously improving one's performance.
+updated: 2026-05-23
 group: safety-guardrails-governance
 ---
 # Accountability
@@ -32,20 +18,19 @@ Accountability is the quality of being responsible for one's actions and decisio
 
 ### Related Concepts
 
-- integrity
-- leadership
+- [[concepts/integrity|integrity]]
+- [[concepts/leadership|leadership]]
 - [[concepts/vulnerability]]
 
 ### Brené Brown on Vulnerability and Courage for Accountable Corporate Leadership (2026-04-11)
-- **Clip title:** [[entities/brené-brown|Brené Brown]] on How to Lead With Vulnerability at Work | [[entities/the-interview|The Interview]]
+- **[[concepts/clip-title|Clip title]]:** [[entities/brené-brown|Brené Brown]] on How to Lead With Vulnerability [[concepts/assistive-technology|at]] Work | [[entities/the-interview|The Interview]]
 - **Author / channel:** [[entities/the-interview|The Interview]]
 - **URL:** https://www.youtube.com/watch?v=6t6-npk5_9U
 
 ### Summary
 Brene Brown's journey from pioneering research on [[concepts/vulnerability|vulnerability]] and [[concepts/shame|shame]] to advising corporate leaders is the central theme of this interview. Her seminal 2010 TEDx talk on vulnerability, which went viral, propelled her into the role of a global "guru" encouraging people to "[[concepts/rumble-with-vulnerability|rumble with vulnerability]]" and "get comfortable w
 
-2026 04 11 Brené Brown on Vulnerability and [[concepts/courage|Courage]] for Accountable Corporate Lea
-
+2026 04 11 [[entities/brené-brown|Brené Brown]] on Vulnerability and [[concepts/courage|Courage]] for Accountable Corporate Lea
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-OpenAI-Soras-Demise-Compute-Costs-Strategic-Shift-and-Legal-Risks|OpenAI Soras Demise Compute Costs Strategic Shift and Legal Risks]] · [▶ source](https://www.youtube.com/watch?v=C7sagA2I-os)
 - 2026-04-11: [[lab-notes/2026-04-11-Gretchen-Rubin-Cultivating-Daily-Habits-for-a-Happier-Life|Gretchen Rubin Cultivating Daily Habits for a Happier Life]] · [▶ source](https://www.youtube.com/watch?v=BzuawrFE1xM)

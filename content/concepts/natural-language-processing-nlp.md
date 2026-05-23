@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "natural-language-processing"
   - "ai-architecture"
@@ -14,7 +13,8 @@ aliases:
   - "language processing"
   - "text understanding"
 summary: A component within the OpenClaw AI personal assistant architecture and its automated pipelines.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Natural Language Processing Nlp
 
@@ -22,12 +22,11 @@ updated: 2026-05-01
 
 ## Role in OpenClaw
 
-In the context of OpenClaw's infrastructure, NLP processing handles the conversion of unstructured user [[concepts/commands|commands]] and queries into [[concepts/json-structuring|structured data]] that can be processed by downstream components. The NLP pipeline integrates with the broader workflow systems, allowing the personal assistant to understand context, maintain conversation state, and route requests to appropriate modules within the architecture. This integration is critical for the system's [[concepts/automation|automation]] capabilities and its ability to execute multi-step tasks.
+In the context of [[concepts/conversational-chatbots|OpenClaw]]'s infrastructure, NLP processing handles the conversion of unstructured user [[concepts/commands|commands]] and queries into [[concepts/json-structuring|structured data]] that can be processed by downstream components. The NLP pipeline integrates with the broader [[concepts/workflow|workflow]] systems, allowing the personal assistant to understand context, maintain conversation state, and route requests to appropriate modules within the architecture. This [[concepts/integration|integration]] is critical for the system's [[concepts/automation|automation]] [[concepts/capabilities|capabilities]] and its ability to execute multi-step tasks.
 
 ## Implementation Considerations
 
-NLP within security-infrastructure contexts requires careful [[concepts/attention-mechanisms|attention]] to [[concepts/input-validation|input validation]], data handling, and output filtering to prevent injection attacks and ensure safe processing of untrusted inputs. The OpenClaw system implements NLP as part of its local-AI framework, which affects performance characteristics, model selection, and the trade-offs between [[concepts/accuracy|accuracy]] and computational resource consumption on the hosting environment.
-
+NLP within security-infrastructure contexts requires careful [[concepts/attention-mechanisms|attention]] to [[concepts/input-validation|input validation]], data handling, and [[concepts/output|output]] filtering to prevent injection attacks and ensure safe processing of untrusted inputs. The OpenClaw system implements NLP as part of its [[concepts/local-ai-framework|local-AI framework]], which affects performance characteristics, model selection, and the trade-offs between [[concepts/accuracy|accuracy]] and computational resource consumption on the hosting environment.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Claude-for-Word-AI-Co-pilot-for-Legal-Document-Review-Editing|Claude for Word AI Co pilot for Legal Document Review Editing]] · [▶ source](https://www.youtube.com/watch?v=CnAPjeQt5Jg)
 - 2026-04-12: [[lab-notes/2026-04-12-Hugging-Face-Platform-Overview-Components-and-Practical-Applications|Hugging Face Platform Overview Components and Practical Applications]] · [▶ source](https://www.youtube.com/watch?v=3kRB2TXewus)

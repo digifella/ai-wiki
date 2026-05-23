@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: philosophy-religion
-group: meaning-consciousness-worldviews
+domain: creative-pursuits
 tags:
   - "dissonance"
   - "music-theory"
@@ -12,7 +11,8 @@ aliases:
   - "harmonic dissonance"
   - "musical discord"
 summary: Dissonance refers to combinations of musical sounds that create tension or instability, contrasting with consonance in harmonic theory.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Dissonance
 

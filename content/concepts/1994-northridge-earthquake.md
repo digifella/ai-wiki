@@ -1,20 +1,16 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "earthquakes"
-  - "structural-engineering"
-  - "northridge-earthquake"
-updated: 2026-04-14
+updated: 2026-05-23
 group: geology-rocks-minerals
 ---
 # 1994 Northridge Earthquake
-The 1994 Northridge earthquake was a significant event that struck the [[entities/los-angeles|Los Angeles]] area on January 17, 1994. It registered at a magnitude of 6.7 and caused widespread damage and injuries.
+The 1994 Northridge earthquake was a significant event that struck the [[entities/los-angeles|Los Angeles]] area on January 17, 1994. It registered [[concepts/assistive-technology|at]] a magnitude of 6.7 and caused widespread damage and injuries.
 
 ### Summary
 - **Date**: January 17, 1994
 - **Magnitude**: 6.7
-- **Location**: Northridge, Los Angeles County, California
+- **Location**: Northridge, [[entities/los-angeles|Los Angeles]] County, California
 
 ### Impact
 - **Casualties**: 57 fatalities

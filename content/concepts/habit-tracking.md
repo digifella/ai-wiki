@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: ux-design
 tags:
   - "concept"
   - "habit-tracking"
@@ -13,7 +12,8 @@ aliases:
   - "habit management"
   - "tracking habits"
 summary: A concept related to monitoring and maintaining personal habits, sourced from a Claude Code AI second brain tutorial.
-updated: 2026-05-01
+updated: 2026-05-23
+group: typography-layout
 ---
 # Habit Tracking
 
@@ -25,7 +25,6 @@ Habit tracking can be implemented through various formats, from simple paper che
 
 ## Application in Personal Systems
 
-Habit tracking has become a foundational component of personal [[concepts/knowledge-management|knowledge management]] and self-improvement systems, particularly within digital second brain frameworks. When integrated with AI-assisted tools, habit data can be analyzed to reveal trends, identify obstacles, and generate personalized insights. This integration allows individuals to connect habit information with other personal records and goals, creating a more comprehensive understanding of their behavioral patterns and progress.
-
+Habit tracking has become a foundational component of personal [[concepts/knowledge-management|knowledge management]] and [[concepts/self-improvement|self-improvement]] systems, particularly within digital [[concepts/second-brain|second brain]] frameworks. When integrated with AI-assisted tools, habit data can be analyzed to reveal trends, identify obstacles, and generate personalized insights. This [[concepts/integration|integration]] allows individuals to connect habit information with other personal records and goals, creating a more comprehensive understanding of their behavioral patterns and progress.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code|Building a Secure Personalized AI Second Brain using Claude Code]] · [▶ source](https://www.youtube.com/watch?v=1FiER-40zng)

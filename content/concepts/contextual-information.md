@@ -11,8 +11,8 @@ tags:
 aliases:
   - "smart workspaces"
   - "intelligent folders"
-summary: "Contextual information provides additional meaning or clarity by being relevant to a specific situation, task, or user need."
-updated: 2026-04-28
+summary: Contextual information provides additional meaning or clarity by being relevant to a specific situation, task, or user need.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Contextual Information
@@ -43,7 +43,6 @@ Information that is relevant to a specific situation, task, or user need, provid
 
 ## Backlinks
 - 2026 04 14 [[entities/chatgpt-projects|ChatGPT Projects]]
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)
 - 2026-04-10: [[lab-notes/2026-04-10-Geminis-New-Notebooks-Feature-Integrated-AI-Research-and-Chat-Organiza|Geminis New Notebooks Feature Integrated AI Research and Chat Organiza]] · [▶ source](https://www.youtube.com/watch?v=Y-LTxr1bv9M)

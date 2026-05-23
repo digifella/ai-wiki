@@ -9,7 +9,7 @@ tags:
 aliases:
   - "Grok Deep Search"
 summary: Grok DeepSearch is an entity categorized within the knowledge-systems domain.
-updated: 2026-05-01
+updated: 2026-05-23
 title: Grok DeepSearch
 ---
 # Grok DeepSearch
@@ -18,8 +18,8 @@ title: Grok DeepSearch
 
 ## Functional Purpose
 
-The system is intended to enable comprehensive searching and analysis of knowledge bases, allowing users to move beyond surface-level results to uncover deeper connections and [[concepts/contextual-understanding|contextual understanding]]. This positions it within the broader class of [[concepts/knowledge-management|knowledge management]] and information retrieval systems.
+The system is intended to enable comprehensive searching and analysis of knowledge [[concepts/number-systems|bases]], allowing users to move beyond surface-level results to uncover deeper connections and [[concepts/contextual-understanding|contextual understanding]]. This positions it within the broader class of [[concepts/knowledge-management|knowledge management]] and information retrieval systems.
 
 ## Domain Context
 
-Within the knowledge-systems domain, Grok DeepSearch represents approaches to making information more accessible and actionable through advanced search methodologies. Knowledge systems in this category typically focus on improving how users discover and understand complex information landscapes.
+Within the knowledge-systems domain, [[concepts/grok|Grok]] DeepSearch represents approaches to making information more accessible and actionable through advanced search methodologies. Knowledge systems in this category typically focus on improving how users discover and understand complex information landscapes.

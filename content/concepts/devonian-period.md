@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: earth-history-landscapes-tectonics
 tags:
   - "geological-time-period"
   - "paleozoic-era"
@@ -12,7 +11,8 @@ aliases:
   - "Age of Fishes"
   - "Devonian Epoch"
 summary: A geological time period in the Paleozoic Era, notable for significant diversification of fish species and the spread of plants onto land.
-updated: 2026-05-01
+updated: 2026-05-23
+group: earth-history-landscapes-tectonics
 ---
 # Devonian Period
 
@@ -22,9 +22,10 @@ The Devonian Period, spanning approximately 419 to 359 million years ago, was th
 
 The Devonian witnessed a major transition in life's history: the colonization of terrestrial environments by plants. Early vascular plants spread across continental surfaces, initially in coastal and riverine habitats before gradually expanding inland. These primitive plants lacked true roots and leaves but represented a critical step in the evolution of terrestrial ecosystems. The establishment of [[concepts/plant-life|plant life]] on land altered soil formation, erosion patterns, and atmospheric composition.
 
-## Environmental Conditions
+## Environmental Conditions and Geological Events
 
-During the Devonian, sea levels were relatively high, creating extensive shallow marine environments where fish diversity flourished. Climate conditions were generally warm, though evidence suggests some glaciation occurred toward the period's end. The Devonian concluded with a series of extinction events, collectively known as the Late Devonian extinction, which significantly reduced marine [[concepts/biodiversity|biodiversity]] before the transition to the Carboniferous Period.
+During the Devonian, sea levels were relatively high, and significant tectonic activity influenced the geography. Key geological events include:
 
-## Source Notes
-- 2026-04-07: [[lab-notes/2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)
+*   **Volcanism:** Large-scale volcanic events occurred globally, such as the formation of the [[concepts/cerberean-supervolcano|Cerberean Supervolcano]], which represents Australia's largest and most powerful eruption: [[lab-notes/2026-05-02-Cerberean-Supervolcano-Victorias-Ancient-Explosive-Geolo|Cerberean Supervolcano: Victoria's Ancient, Explosive Geological History]].
+*   **Sea Level Fluctuations:** High sea levels supported extensive shallow marine environments, influencing the [[concepts/distribution|distribution]] of aquatic life and the extent of continental shelf formation.
+*   **Tectonics:** Ongoing continental movements contributed to the formation of mountain belts and rift systems across the globe.

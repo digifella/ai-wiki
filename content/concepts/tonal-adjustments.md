@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "photography"
   - "photo-editing"
@@ -16,8 +15,10 @@ aliases:
   - "luminance adjustment"
   - "tonal grading"
   - "contrast enhancement"
-summary: "Tonal adjustments modify the luminance and color distribution of an image through manipulation of exposure, contrast, highlights, shadows, and midtones to enhance visual depth and mood."
-updated: 2026-04-30
+summary: Tonal adjustments modify the luminance and color distribution of an image through manipulation of exposure, contrast, highlights, shadows, and midtones to enhance visual depth and mood.
+updated: 2026-05-23
+group: lightroom-color-workflows
+stub: true
 ---
 # Tonal Adjustments
 
@@ -32,10 +33,9 @@ The process of modifying the luminance and color [[concepts/distribution|distrib
 
 ## Tools & Workflows
 - [[entities/adobe-photoshop]] workflows:
-    - Photoshop Camera Raw Filter: Color Grading for Photo Tonal Adjustments:
+    - [[concepts/photoshop|Photoshop]] [[concepts/camera-raw-filter|Camera Raw Filter]]: Color Grading for [[concepts/photo-tonal-adjustments|Photo Tonal Adjustments]]:
         - Utilizes the **Color Grading tab** within the [[entities/camera-raw-filter]] for advanced color manipulation.
-        - Leverages color wheels to apply specific color shifts to [[concepts/shadows|shadows]], midtones, and highlights.
-        - [[concepts/tutorial|Tutorial]] source: [[entities/phlearn|PHLEARN]] (Aaron Nace).
-
+        - Leverages [[concepts/color-wheels|color wheels]] to apply specific color shifts to [[concepts/shadows|shadows]], midtones, and [[concepts/whites|highlights]].
+        - [[concepts/tutorial|Tutorial]] source: [[entities/phlearn|PHLEARN]] ([[entities/aaron-nace|Aaron Nace]]).
 ## Source Notes
 - 2026-04-30: Photoshop · [▶ source](https://www.youtube.com/watch?v=VRiszHrA2T4)

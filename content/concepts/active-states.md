@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: ux-design
 tags:
   - "concept"
   - "ui-design"
@@ -12,11 +11,12 @@ aliases:
   - "interactive-states"
   - "ui-states"
 summary: A UI/UX design concept related to fundamental principles such as affordances, hierarchy, grids, and typography.
-updated: 2026-05-01
+updated: 2026-05-23
+group: uiux-fundamentals
 ---
 # Active States
 
-Active states are visual [[concepts/indicators|indicators]] in [[concepts/user-interface|user interface]] design that communicate which interactive elements are currently selected, focused, or being engaged by a user. They function as a critical [[concepts/feedback|feedback]] mechanism, allowing users to understand their position within an interface and confirm that their interactions have been registered. Active states bridge the gap between user intent and system response, making interfaces more predictable and easier to navigate.
+Active states are visual [[concepts/indicators|indicators]] in [[concepts/user-interface|user interface]] [[concepts/design|design]] that communicate which interactive elements are currently selected, focused, or being engaged by a user. They function as a critical [[concepts/feedback|feedback]] mechanism, allowing users to understand their position within an interface and confirm that their interactions have been registered. Active states bridge the gap between user intent and system response, making interfaces more predictable and easier to navigate.
 
 ## Visual Characteristics
 
@@ -29,7 +29,6 @@ Active states serve both immediate and navigational purposes. In the moment, the
 ## Design Considerations
 
 Effective active states require alignment with other core design principles, including clear [[concepts/hierarchy|visual hierarchy]], readable [[concepts/typography|typography]], and consistent use of the underlying grid system. Active state styling should be part of a cohesive state system that includes default, hover, and [[concepts/disabled-states|disabled states]]. [[concepts/accessibility|Accessibility]] considerations are essential, as active states must be distinguishable for users with color blindness or visual impairments, often requiring changes beyond color alone.
-
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-10: [[lab-notes/2026-04-10-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids|Fundamental UIUX Design Concepts Affordances Hierarchy Grids]] · [▶ source](https://www.youtube.com/watch?v=EcbgbKtOELY)

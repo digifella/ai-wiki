@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "llm"
-  - "limitation"
-  - "rag"
-  - "agents"
-  - "workflow"
-  - "llm-limitations"
-  - "static-knowledge"
-  - "real-time-data-access"
-  - "rag-vs-agents"
-aliases:
-  - "LLM knowledge cutoff"
-  - "LLM data limitations"
-summary: "Standard LLMs are restricted to their static training corpus and cannot access real-time or external data without augmentation from RAG or AI agents."
-updated: 2026-04-16
+summary: Standard LLMs are restricted to their static training corpus and cannot access real-time or external data without augmentation from RAG or AI agents.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Standard LLM Limitation
@@ -33,7 +20,6 @@ Core limitation: Standard LLMs cannot access real-time or [[concepts/external-da
 - **[[concepts/agentic-ai|AI Agents]]**: Use LLMs to dynamically plan/execute multi-step workflows (e.g., calling weather APIs, processing results)
   → [[concepts/agentic-ai]] enable autonomous action but require complex orchestration
 
-> Video reference: 2026 04 14 Difference between RAG and [[concepts/agents|Agents]] for workflow ([[entities/dr-anil-variyar|Dr. Anil Variyar]]'s RAG vs. Agents breakdown using [[concepts/weather-forecasting|weather forecasting]] example)
-
+> Video reference: 2026 04 14 Difference between RAG and [[concepts/agents|Agents]] for [[concepts/workflow|workflow]] ([[entities/dr-anil-variyar|Dr. Anil Variyar]]'s RAG vs. Agents breakdown using [[concepts/weather-forecasting|weather forecasting]] example)
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-MiniMax-M27-Open-Source-LLM-Rivaling-Opus-46-with-Agent-Capabilities|MiniMax M27 Open Source LLM Rivaling Opus 46 with Agent Capabilities]] · [▶ source](https://www.youtube.com/watch?v=qUGypBKW_sQ)

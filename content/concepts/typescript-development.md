@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "typescript"
@@ -13,11 +12,12 @@ aliases:
   - "TypeScript"
   - "TS Development"
 summary: TypeScript is a programming language that extends JavaScript with static type checking and advanced language features.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # TypeScript Development
 
-TypeScript is a programming language built on top of JavaScript that adds static type checking and additional language features. Developed and maintained by Microsoft, it compiles to standard JavaScript, allowing code written in TypeScript to run in any JavaScript runtime environment. The primary distinction from JavaScript is TypeScript's type system, which enables developers to specify what types variables, [[concepts/parameters|parameters]], and return values should have, catching potential errors at compile time rather than runtime.
+[[concepts/typescript-programming|TypeScript]] is a programming language built on top of JavaScript that adds static type checking and additional language features. Developed and maintained by [[entities/microsoft|Microsoft]], it compiles to standard JavaScript, allowing [[concepts/code|code]] written in TypeScript to run in any JavaScript runtime environment. The primary distinction from JavaScript is TypeScript's type system, which enables developers to specify what types variables, [[concepts/parameters|parameters]], and return values should have, catching potential errors [[concepts/assistive-technology|at]] compile time rather than runtime.
 
 ## Core Features
 
@@ -25,7 +25,6 @@ TypeScript introduces syntax for declaring types, interfaces, and classes that p
 
 ## Adoption and Workflow
 
-The TypeScript compilation step converts type annotations and other TypeScript-specific syntax into plain JavaScript. This workflow requires a build process in most projects, though various tools and bundlers have integrated TypeScript support. Organizations and projects of varying [[concepts/musical-scales|scales]] use TypeScript, from small [[concepts/software|applications]] to large enterprise systems, particularly in [[concepts/website-building|web development]] with frameworks like Angular, React, and Vue.
-
+The TypeScript compilation step converts type annotations and other TypeScript-specific syntax into plain JavaScript. This [[concepts/workflow|workflow]] requires a build process in most projects, though various tools and bundlers have integrated TypeScript support. Organizations and projects of varying [[concepts/musical-scales|scales]] use TypeScript, from small [[concepts/software|applications]] to large enterprise systems, particularly in [[concepts/website-building|web development]] with frameworks like Angular, [[entities/react|React]], and Vue.
 ## Source Notes
 - 2026-04-08: OpenClaw [[concepts/tutorial|Tutorial for Beginners - Crash Course]]

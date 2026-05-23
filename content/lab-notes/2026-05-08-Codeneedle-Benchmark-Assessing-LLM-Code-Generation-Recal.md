@@ -1,33 +1,36 @@
 ---
+wiki-ingested: true
 title: "Codeneedle Benchmark: Assessing LLM Code Generation Recall and Hallucinations"
 date: 2026-05-08
 source_type: youtube_summary
 provider: Google
 api: Gemini 2.5 Flash
 modes: Summary
+domain: ai-agents
+group: ai-foundations-concepts
 ---
 # Codeneedle Benchmark: Assessing LLM Code Generation Recall and Hallucinations
-Generated: 2026-05-08 · API: Gemini 2.5 Flash · Modes: Summary
+Generated: 2026-05-08 · API: [[entities/gemini-25-flash|Gemini 2.5 Flash]] · Modes: [[concepts/summary|Summary]]
 
 ---
 
 ## Codeneedle Benchmark: Assessing LLM Code Generation Recall and Hallucinations
-**Clip title:** This Local LLM Looked Smart Until I Saw What It Made Up
+**[[concepts/clip-title|Clip title]]:** This [[concepts/local-llm|Local LLM]] Looked Smart Until I Saw What It Made Up
 **Author / channel:** Alex Ziskind
 **URL:** https://www.youtube.com/watch?v=zBYfzecY5ww
 
 ### Summary
-This video addresses the often-overlooked aspect of Large Language Model (LLM) performance: the quality of generated code, beyond mere speed. Alex Ziskind, the presenter, highlights the difficulty in objectively evaluating code quality due to the vast diversity of developers, codebases, and LLM architectures. To tackle this, he introduces and open-sources "Codeneedle," a novel benchmarking tool inspired by another YouTuber, Prororikis, which allows users to test LLM code generation against their own repositories.
+This video addresses the often-overlooked aspect of [[concepts/large-language-model|Large Language Model]] (LLM) performance: the quality of generated [[concepts/code|code]], beyond mere [[concepts/speed|speed]]. Alex Ziskind, the presenter, [[concepts/highlights|highlights]] the difficulty in objectively evaluating code quality due to the vast diversity of developers, codebases, and [[concepts/llm-models|LLM architectures]]. To tackle this, he introduces and open-sources "Codeneedle," a novel [[concepts/benchmark-testing|benchmarking]] tool inspired by another YouTuber, Prororikis, which allows users to test LLM [[concepts/code-generation|code generation]] against their own repositories.
 
-Codeneedle operates by ingesting an entire source file into an LLM's context and then prompting it to verbatim reproduce the first N lines of specific functions located at various depths within that file. This "recall at depth" approach is crucial for determining if a model genuinely understands the context or is merely hallucinating based on its training data. The benchmark measures two key metrics: "matched lines," representing the correctly reproduced code, and "hallucinated lines," indicating invented or incorrect output. Ziskind emphasizes that simply producing "more output" does not equate to "better output," advocating for deterministic, line-level diffing rather than relying on another LLM for judgment.
+Codeneedle operates by ingesting an entire source file into an LLM's context and then [[concepts/prompting|prompting]] it to verbatim reproduce the first N lines of specific functions located at various depths within that file. This "recall at depth" approach is crucial for determining if a model genuinely understands the context or is merely hallucinating based on its [[concepts/language-data|training data]]. The benchmark measures two key metrics: "matched lines," representing the correctly reproduced code, and "hallucinated lines," indicating invented or incorrect [[concepts/output|output]]. Ziskind emphasizes that simply producing "more output" does not equate to "better output," advocating for deterministic, line-level diffing rather than relying on another LLM for judgment.
 
-The benchmark's findings reveal significant insights into LLM behavior. Frontier models like GPT-5.5 and Claude Sonnet 4.6 consistently achieved high matched line percentages (90-97%) with minimal hallucinations, even when processing larger codebases like jQuery. However, local models displayed more varied performance. While some local models could achieve respectable matched scores, they often produced a disproportionately high number of hallucinations, particularly when dealing with larger files. This led to a crucial takeaway: for smaller, local models, the "wall" isn't memory capacity, but rather "noise," where models generate more invented lines than real ones. Furthermore, the benchmark uncovered undocumented quirks, such as certain models stripping indentation from generated code, highlighting that how models *render* code can impact its usability.
+The benchmark's findings reveal significant insights into LLM behavior. [[concepts/frontier-models|Frontier models]] like [[concepts/code-debugging|GPT-5.5]] and [[entities/claude-sonnet-4|Claude Sonnet 4]].6 consistently achieved high matched line percentages (90-97%) with minimal hallucinations, even when processing larger codebases like jQuery. However, local models displayed more varied performance. While some local models could achieve respectable matched scores, they often produced a disproportionately high number of hallucinations, particularly when dealing with larger [[concepts/files|files]]. This led to a crucial takeaway: for smaller, local models, the "wall" isn't [[concepts/memory|memory]] capacity, but rather "noise," where models generate more invented lines than real ones. Furthermore, the benchmark uncovered undocumented quirks, such as certain models stripping indentation from generated code, highlighting that how models *render* code can impact its usability.
 
-In conclusion, the video strongly advises against trusting benchmarks that provide a single, aggregated score for LLM code quality. Developers are encouraged to use tools like Codeneedle to run comprehensive evaluations on their specific codebases, paying close attention to both the accuracy (matched lines) and precision (hallucinated lines) of the generated code. Understanding these nuances and model-specific behaviors is essential for selecting and utilizing LLMs effectively for coding tasks, ensuring the output is not only functionally correct but also clean and usable.
+In conclusion, the video strongly advises against trusting benchmarks that provide a single, aggregated score for LLM code quality. Developers are encouraged to use tools like Codeneedle to run comprehensive evaluations on their specific codebases, paying close [[concepts/attention-mechanisms|attention]] to both the [[concepts/accuracy|accuracy]] (matched lines) and precision (hallucinated lines) of the generated code. Understanding these nuances and model-specific behaviors is essential for selecting and utilizing LLMs effectively for [[concepts/coding|coding]] tasks, ensuring the output is not only functionally correct but also clean and usable.
 
 ### Video Description & Links
 #### Description
-Don’t Trust One-Number LLM Benchmarks… Run This on Your Own Code
+Don’t Trust One-Number [[concepts/llm-benchmarks|LLM Benchmarks]]… Run This on Your Own Code
 🛡️Try Gobii here: https://gobii.ai/r/sdqHF
 
 🛒 Gear Links 🛒
@@ -42,20 +45,20 @@ Don’t Trust One-Number LLM Benchmarks… Run This on Your Own Code
 💻 Smallest RTX Pro 6000 rig | OVERKILL - https://youtu.be/JbnBt_Aytd0
 🔧 Cheap mini runs a 70B LLM 🤯 - https://youtu.be/xyKEQjUzfAk
 🌙 RAM torture test on Mac - https://youtu.be/l3zIwPgan7M
-🚀 FREE Local LLMs on Apple Silicon | FAST! - https://youtu.be/bp2eev21Qfo
+🚀 FREE Local LLMs on [[entities/apple|Apple]] [[concepts/silicon|Silicon]] | FAST! - https://youtu.be/bp2eev21Qfo
 🪞 REALITY vs Apple’s Memory Claims | vs RTX4090m - https://youtu.be/fdvzQAWXU7A
 📦 Set up Conda - https://youtu.be/2Acht_5_HTo
-🤖 INSANE Machine Learning on Neural Engine - https://youtu.be/Y2FOUg_jo7k
+🤖 INSANE [[concepts/machine-learning|Machine Learning]] on [[concepts/neural-engine|Neural Engine]] - https://youtu.be/Y2FOUg_jo7k
 
-* 🛠️ Developer productivity Playlist - https://www.youtube.com/playlist?list=PLPwbI_iIX3aQCRdFGM7j4TY_7STfv2aXX
+* 🛠️ [[concepts/developer-productivity|Developer productivity]] Playlist - https://www.youtube.com/playlist?list=PLPwbI_iIX3aQCRdFGM7j4TY_7STfv2aXX
 🔗 AI for Coding Playlist: 📚 - https://www.youtube.com/playlist?list=PLPwbI_iIX3aSlUmRtYPfbQHt4n0YaX0qw
 
-Codeneedle on GitHub: https://github.com/alexziskind1/codeneedle
+Codeneedle on [[entities/github|GitHub]]: https://github.com/alexziskind1/codeneedle
 Protorikis channel: https://www.youtube.com/@Protorikis
 
 — — — — — — — — — 
 
-❤️ SUBSCRIBE TO MY YOUTUBE CHANNEL 📺
+❤️ SUBSCRIBE TO MY [[entities/youtube|YOUTUBE]] CHANNEL 📺
 Click here to subscribe: https://www.youtube.com/@AZisk?sub_confirmation=1
 
 — — — — — — — — —
@@ -72,9 +75,9 @@ https://www.youtube.com/channel/UCajiMK_CY9icRhLepS8_3ug/join
 01:39 Code Needle
 04:27 Gobii (sponsor)
 05:40 First Tests
-07:43 Setup Guide
+07:43 [[concepts/setup|Setup]] Guide
 10:26 Results Matrix
-13:01 Hallucination Trap
+13:01 [[concepts/data-hallucination|Hallucination]] Trap
 15:44 Recall Patterns
 
 #coding     #llm    #softwaredevelopment
@@ -108,3 +111,11 @@ https://www.youtube.com/channel/UCajiMK_CY9icRhLepS8_3ug/join
 #### YouTube Playlist URLs
 - https://www.youtube.com/playlist?list=PLPwbI_iIX3aQCRdFGM7j4TY_7STfv2aXX
 - https://www.youtube.com/playlist?list=PLPwbI_iIX3aSlUmRtYPfbQHt4n0YaX0qw
+
+## Related Concepts
+- [[concepts/code-quality-evaluation|Code Quality Evaluation]] — [Wikipedia](https://en.wikipedia.org/wiki/Code_Quality_Evaluation)
+- [[concepts/large-language-model-llm|Large Language Model (LLM)]] — [Wikipedia](https://en.wikipedia.org/wiki/Large_Language_Model_%28LLM%29)
+- [[concepts/recall|Recall]] — [Wikipedia](https://en.wikipedia.org/wiki/Recall)
+
+## Related Entities
+- [[entities/alex-ziskind|Alex Ziskind]] — [Wikipedia](https://en.wikipedia.org/wiki/Alex_Ziskind)

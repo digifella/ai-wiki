@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: places-regions-destinations
 tags:
   - "visa-types"
   - "travel-documentation"
@@ -11,7 +10,8 @@ aliases:
   - "Visa Categories"
   - "Visa Classification"
 summary: This page contains information and documents regarding different types of visas, including Turkey e-visas.
-updated: 2026-05-01
+updated: 2026-05-23
+group: places-regions-destinations
 ---
 # Type Of Visa
 
@@ -19,8 +19,8 @@ A visa is an official [[concepts/authorization|authorization]] issued by a count
 
 ## Common Visa Categories
 
-Visas are generally classified by purpose, including tourist visas for leisure travel, business visas for work-related activities, student visas for educational pursuits, and transit visas for passage through a country. Employment visas, family reunion visas, and diplomatic visas represent additional specialized categories. Each type carries distinct conditions regarding permitted activities and duration of stay.
+Visas are generally classified by [[concepts/purpose|purpose]], including tourist visas for leisure travel, business visas for work-related activities, student visas for educational pursuits, and transit visas for passage through a country. Employment visas, family reunion visas, and diplomatic visas represent additional specialized categories. Each type carries distinct conditions regarding permitted activities and duration of stay.
 
 ## Electronic Visas (e-Visas)
 
-Many countries now offer e-visa systems that allow applicants to apply and receive authorization online without visiting a physical embassy or consulate. [[entities/republic-of-turkey|Turkey]] provides an e-visa service that enables eligible travelers to obtain travel authorization through a digital application process. E-visas typically reduce processing time and administrative burden compared to traditional visa [[concepts/software|applications]], though eligibility varies by nationality and purpose of travel.
+Many countries now offer [[concepts/electronic-visa-system-e-visa|e-visa]] systems that allow applicants to apply and receive authorization online without visiting a physical embassy or consulate. [[entities/republic-of-turkey|Turkey]] provides an e-visa service that enables eligible travelers to obtain travel authorization through a digital application process. E-visas typically reduce processing time and administrative burden compared to traditional visa [[concepts/software|applications]], though eligibility varies by nationality and purpose of travel.

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "concept"
   - "api-management"
@@ -13,11 +12,12 @@ aliases:
   - "API cost control"
   - "Managing API expenses"
 summary: This page discusses managing API costs, specifically in the context of using Gemini via CLI and Anthropic's Claude Code.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Api Cost Management
 
-API cost management refers to the strategies and practices used to monitor, control, and optimize expenses associated with using [[concepts/application-programming-interfaces-apis|application programming interfaces]]. As organizations increasingly rely on cloud-based APIs and AI services, managing costs has become essential to maintaining budget efficiency. Usage-based [[concepts/pricing|pricing]] models—common in services like [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini]] and [[entities/anthropic-institute|Anthropic]]'s [[concepts/claude-ai|Claude]]—can generate significant expenses without proper oversight and planning.
+API [[concepts/cost|cost]] management refers to the strategies and practices used to monitor, [[concepts/power|control]], and optimize expenses associated with using [[concepts/application-programming-interfaces-apis|application programming interfaces]]. As organizations increasingly rely on cloud-based APIs and AI services, managing costs has become essential to maintaining budget efficiency. Usage-based [[concepts/pricing|pricing]] [[concepts/models|models]]—common in services like [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini]] and [[entities/anthropic-institute|Anthropic]]'s [[concepts/claude-ai|Claude]]—can generate significant expenses without proper oversight and planning.
 
 ## Monitoring and Usage Tracking
 
@@ -30,7 +30,6 @@ Reducing API costs involves examining how services are being used and identifyin
 ## Budget Planning and Governance
 
 Establishing clear budgets for API spending and assigning responsibility for cost oversight helps prevent runaway expenses. Organizations benefit from allocating budgets by project or team, enabling individual [[concepts/accountability|accountability]] while providing visibility across the [[concepts/organization|organization]]. Periodic cost reviews should be conducted to assess whether spending aligns with business value delivered and to identify areas where usage patterns have changed.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: Anthropic

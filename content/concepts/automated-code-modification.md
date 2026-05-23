@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "ai-agents"
@@ -12,24 +11,24 @@ tags:
 aliases:
   - "AutoResearch"
 summary: AutoResearch is an autonomous AI agent that achieves self-improvement through code iteration.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Automated Code Modification
 
-Automated code modification refers to systems where [[concepts/agentic-ai|AI agents]] programmatically alter, generate, or improve [[concepts/software|software]] code without direct human intervention. Unlike traditional code generation, which produces code in response to specific user requests, automated code modification operates autonomously—analyzing existing codebases, identifying potential improvements, and implementing changes iteratively. The process typically involves evaluating results against specified metrics or objectives, with each cycle producing [[concepts/feedback|feedback]] that informs subsequent modifications.
+[[concepts/hypothesis-driven-code-modification|Automated code modification]] refers to systems where [[concepts/agentic-ai|AI agents]] programmatically alter, generate, or improve [[concepts/software|software]] code without direct human intervention. Unlike traditional [[concepts/code-generation|code generation]], which produces code in response to specific user requests, automated code modification operates autonomously—analyzing existing codebases, identifying potential improvements, and implementing changes iteratively. The process typically involves evaluating results against specified metrics or objectives, with each cycle producing [[concepts/feedback|feedback]] that informs subsequent modifications.
 
 ## Core Mechanisms
 
-The fundamental approach combines code analysis, generation, and evaluation in a continuous loop. An [[concepts/ai-agent|AI agent]] examines existing code to understand its [[concepts/structure|structure]], function, and performance characteristics. Based on this analysis, the agent generates modified versions of the code intended to improve specific properties such as efficiency, readability, or correctness. These modifications are then tested against predefined success criteria, with results feeding back into the next [[concepts/iteration|iteration]] of improvements.
+The fundamental approach combines code analysis, generation, and evaluation in a continuous [[concepts/loop|loop]]. An [[concepts/ai-agent|AI agent]] examines existing code to understand its [[concepts/structure|structure]], function, and performance characteristics. Based on this analysis, the agent generates modified versions of the code intended to improve specific properties such as efficiency, readability, or correctness. These modifications are then tested against predefined success criteria, with results feeding back into the next [[concepts/iteration|iteration]] of improvements.
 
 ## Applications and Context
 
-Automated code modification systems have potential applications in [[concepts/code-optimization|code optimization]], bug fixing, refactoring, and technical debt reduction. Such systems can operate on their own codebases as part of self-improvement processes, or they can be applied to external projects under controlled conditions. The approach differs from human-directed code review or [[concepts/automated-software-testing|automated testing]] in that the modification itself is driven by the AI agent's own objectives rather than explicit [[concepts/instructions|instructions]] from developers.
+Automated code modification systems have potential applications in [[concepts/code-optimization|code optimization]], bug fixing, refactoring, and technical debt reduction. Such systems can operate on their own codebases as part of [[concepts/self-improvement|self-improvement]] processes, or they can be applied to external projects under controlled conditions. The approach differs from human-directed code review or [[concepts/automated-software-testing|automated testing]] in that the modification itself is driven by the [[entities/agent|AI agent]]'s own objectives rather than explicit [[concepts/instructions|instructions]] from developers.
 
 ## Limitations and Considerations
 
 While automated code modification offers potential efficiency gains, it raises questions about code [[concepts/software-reliability|reliability]], explainability, and safety. Autonomously modified code requires robust evaluation frameworks to ensure modifications genuinely improve systems rather than introducing subtle errors. The approach is still largely experimental, with most implementations focused on specific problem domains rather than general-[[concepts/motivation|purpose]] code improvement across diverse software systems.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-12: [[lab-notes/2026-04-12-Googles-Free-AI-Workflow-WebMobile-App-Design-and-Development|Googles Free AI Workflow WebMobile App Design and Development]] · [▶ source](https://www.youtube.com/watch?v=Opi4LGmXrsQ)

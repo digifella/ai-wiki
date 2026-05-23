@@ -14,9 +14,10 @@ tags:
 aliases:
   - "AI chatbots"
   - "Conversational AI"
-summary: "Interactive systems powered by AI models for conversational interfaces and task execution that can evolve into autonomous agents using the Model Context Protocol."
-updated: 2026-04-28
+summary: Interactive systems powered by AI models for conversational interfaces and task execution that can evolve into autonomous agents using the Model Context Protocol.
+updated: 2026-05-23
 group: ai-foundations-concepts
+stub: true
 ---
 # AI chatbots
 
@@ -31,7 +32,6 @@ Interactive systems powered by [[concepts/ai-models|AI models]] designed for [[c
 ## References
 
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] using powerful [[concepts/agentic-ai|AI agents]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents|Firecrawl AI Essential Web Data for Autonomous AI Agents]] · [▶ source](https://www.youtube.com/watch?v=eH8JdttKIdA)

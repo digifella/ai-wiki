@@ -1,33 +1,23 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "robotics"
-  - "embodied-ai"
-  - "physical-ai"
-  - "world-foundation-models"
-  - "simulation-trained"
-  - "multi-agent-systems"
-  - "digital-labor-workforce"
-summary: "Physical AI refers to AI systems operating in physical 3D environments through embodied agents and World Foundation Models trained in simulation."
-updated: 2026-04-15
+summary: Physical AI refers to AI systems operating in physical 3D environments through embodied agents and World Foundation Models trained in simulation.
+updated: 2026-05-23
 group: ai-futures-self-improvement
 ---
 # Physical AI
 
 AI systems that interact with and operate in physical 3D environments, typically through [[concepts/robotics|robotics]] and embodied [[concepts/agents|agents]]. Leverages **[[concepts/world-foundation-models|World Foundation Models]]** trained in [[concepts/simulation|simulation]] to understand and manipulate real-world spaces.
 
-According to IBM's 2026 AI trend predictions:
+According to [[entities/ibm|IBM]]'s 2026 AI trend predictions:
 
-- **[[concepts/multi-agent-ai-management|Multi-agent Orchestration]]**: Team of agents (Planner, Worker, Critic) collaborating under an "Orchestrator" layer. Multi-agent Orchestration
-- **[[concepts/digital-labor-workforce|Digital Labor Workforce]]**: Autonomous agents executing workflows with human-in-the-loop oversight. [[concepts/digital-labor-workforce]]
-- **Physical AI**: Models interacting with 3D world ([[concepts/robotics|robotics]]) using "World Foundation Models" trained in [[concepts/simulation|simulation]]. World Foundation Models
+- **[[concepts/multi-agent-ai-management|Multi-agent Orchestration]]**: Team of agents (Planner, Worker, Critic) collaborating under an "Orchestrator" layer. [[concepts/multi-agent-orchestration|Multi-agent Orchestration]]
+- **[[concepts/digital-labor-workforce|Digital Labor Workforce]]**: [[concepts/agentic-systems|Autonomous agents]] executing workflows with human-in-the-[[concepts/loop|loop]] oversight. [[concepts/digital-labor-workforce]]
+- **Physical AI**: [[concepts/models|Models]] interacting with 3D world ([[concepts/robotics|robotics]]) using "World [[concepts/foundation-model|Foundation Models]]" trained in [[concepts/simulation|simulation]]. World Foundation Models
 
 See IBM's full prediction: [IBM AI Trend Predictions](https://www.youtube.com/watch?v=zt0JA5rxdfM)
 
 2026 04 14 IBM ai tend predictions
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

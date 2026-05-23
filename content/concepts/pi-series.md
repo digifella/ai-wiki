@@ -1,17 +1,7 @@
 ---
-domain: entertainment-games
 type: concept
-tags:
-  - "math"
-  - "pi"
-  - "string-theory"
-  - "quantum-field-theory"
-  - "pi-series-math"
-  - "infinite-sequence"
-  - "quantum-theory"
-  - "string-formulas"
-  - "number-theory"
-updated: 2026-04-13
+domain: entertainment-games
+updated: 2026-05-23
 group: film-tv-streaming
 ---
 # Pi Series
@@ -30,14 +20,13 @@ The study of Pi has a long history dating back to ancient civilizations such as 
   - [[entities/dr-tony-padilla|Dr. Tony Padilla]]
 
 ## Submission Notes
-- In [[entities/carl-sagan|Carl Sagan]]'s novel *[[entities/contact|Contact]]*, the main [[concepts/integrity|character]] ([[entities/ellie-arroway|Ellie Arroway]]) is told by an alien that certain [[concepts/megastructures|megastructures]] in the universe were created by an unknown advanced intelligence that left messages embedded inside [[concepts/transcendental-numbers|transcendental numbers]].
-  - To check this, Arroway writes a program that computes the digits of π in several bases.
-  - Eventually finds that the base 11 representation of π contains a sequence of ones and zeros that, when properly aligned on a page, produce a [[concepts/circular-pattern|circular pattern]].
+- In [[entities/carl-sagan|Carl Sagan]]'s novel *[[entities/contact|Contact]]*, the main [[concepts/integrity|character]] ([[entities/ellie-arroway|Ellie Arroway]]) is told by an [[entities/alien|alien]] that certain [[concepts/megastructures|megastructures]] in the universe were created by an unknown [[concepts/advanced-intelligence|advanced intelligence]] that left messages embedded inside [[concepts/transcendental-numbers|transcendental numbers]].
+  - To check this, Arroway writes a program that computes the digits of π in several [[concepts/number-systems|bases]].
+  - Eventually finds that the [[concepts/base-11-representation|base 11 representation]] of π contains a sequence of ones and zeros that, when properly aligned on a page, produce a [[concepts/circular-pattern|circular pattern]].
   - She takes this as an indication of intelligent [[concepts/design|design]] in the universe.
 
 ## Related Concepts
 - [[concepts/quantum-field-theory]]
-- 2026 04 13 Patterns in pi in Contact
-
+- 2026 04 13 Patterns in pi in [[entities/contact|Contact]]
 ## Source Notes
 - 2026-04-29: [[lab-notes/2026-04-29-Infinite-Monkey-Experiment-Shakespeare-Probability-and-C|Infinite Monkey Experiment: Shakespeare Probability and Cosmic Time]] · [▶ source](https://www.youtube.com/watch?v=ND9eyW5Fw0s)

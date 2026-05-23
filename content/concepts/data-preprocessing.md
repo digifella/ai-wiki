@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "concept"
   - "rag"
@@ -13,15 +12,16 @@ aliases:
   - "preprocessing"
   - "rag-optimization"
 summary: The page covers methods for improving the recall and accuracy of Retrieval-Augmented Generation (RAG) systems through data preprocessing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Data Preprocessing
 
-Data preprocessing is a critical stage in optimizing Retrieval-Augmented Generation (RAG) systems, directly impacting both [[concepts/recall|recall]] and [[concepts/accuracy|accuracy]] metrics. [[concepts/contextualized-language-understanding|RAG systems]] depend on retrieving relevant source documents to ground [[concepts/statistical-language-modeling|language model]] [[concepts/responses|responses]], making the quality and [[concepts/structure|structure]] of indexed data fundamental to performance. Preprocessing techniques transform raw data into formats optimized for effective retrieval, addressing common issues such as poor [[concepts/document-chunking|document chunking]], inconsistent formatting, and incomplete [[concepts/metadata|metadata]] that can degrade system performance.
+Data preprocessing is a critical stage in optimizing [[concepts/answer-generation|Retrieval-Augmented Generation]] (RAG) systems, directly impacting both [[concepts/recall|recall]] and [[concepts/accuracy|accuracy]] metrics. [[concepts/contextualized-language-understanding|RAG systems]] depend on retrieving relevant source documents to ground [[concepts/statistical-language-modeling|language model]] [[concepts/responses|responses]], making the quality and [[concepts/structure|structure]] of indexed data fundamental to performance. Preprocessing techniques transform raw data into formats optimized for effective retrieval, addressing common issues such as poor [[concepts/document-chunking|document chunking]], inconsistent formatting, and incomplete [[concepts/metadata|metadata]] that can degrade system performance.
 
 ## Key Preprocessing Techniques
 
-Effective preprocessing involves several complementary approaches. Document chunking strategies determine optimal segment sizes for indexing—chunks that are too large dilute relevance signals, while excessive fragmentation loses contextual coherence. Cleaning operations remove formatting artifacts, standardize text [[concepts/encoding|encoding]], and eliminate noise that interferes with semantic understanding. Metadata enrichment, such as adding source attribution, timestamps, or topic classification, enables more precise filtering and ranking during retrieval. Text normalization—including handling of special characters, standardization of [[concepts/terminology|terminology]], and removal of redundant content—improves matching between queries and indexed documents.
+Effective preprocessing involves several complementary approaches. Document [[concepts/chunking-strategies|chunking strategies]] determine optimal segment sizes for indexing—chunks that are too large dilute relevance signals, while excessive fragmentation loses contextual coherence. Cleaning operations remove formatting artifacts, standardize [[concepts/text|text]] [[concepts/encoding|encoding]], and eliminate noise that interferes with semantic understanding. Metadata enrichment, such as adding source attribution, timestamps, or topic classification, enables more precise filtering and ranking during retrieval. Text normalization—including handling of special characters, standardization of [[concepts/terminology|terminology]], and removal of redundant content—improves matching between queries and indexed documents.
 
 ## Impact on System Performance
 

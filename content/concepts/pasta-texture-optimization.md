@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "culinary-science"
-  - "pasta"
-  - "food-optimization"
-  - "pasta-texture"
-  - "sauce-adhesion"
-  - "cooking-methods"
-  - "starch-management"
-aliases:
-  - "pasta-cooking-optimization"
-  - "optimizing-pasta-texture"
-summary: "The systematic manipulation of cooking variables to achieve an ideal balance of structural integrity, sauce adhesion, and flavor integration."
-updated: 2026-04-26
+summary: The systematic manipulation of cooking variables to achieve an ideal balance of structural integrity, sauce adhesion, and flavor integration.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Pasta texture optimization
@@ -31,8 +20,7 @@ The systematic manipulation of cooking variables to achieve the ideal balance of
 - Adjust techniques based on the specific requirements of the chosen pasta/sauce pairing to optimize the final dish.
 
 ## Backlinks
-- 2026 04 23 [[concepts/cooking-dried-pasta|Pasta Cooking Methods]] Optimizing Texture [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor Integration
-
+- 2026 04 23 [[concepts/cooking-dried-pasta|Pasta Cooking Methods]] Optimizing [[concepts/texture|Texture]] [[concepts/sauce-adhesion|Sauce Adhesion]] and [[concepts/flavor-integration|Flavor Integration]]
 ## Source Notes
 
 - 2026-04-23: Pasta Cooking Methods · [▶ source](https://www.youtube.com/watch?v=IANwP8_hwEk)

@@ -12,16 +12,16 @@ aliases:
   - "Windows SSH Admin Keys"
   - "OpenSSH Administrator Config"
 summary: "On Windows, OpenSSH requires administrator public keys to be stored in C://ProgramData//ssh//administrators_authorized_keys rather than the standard authorized_keys file."
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Administrator Authentication
 
-On [[entities/windows|Windows]] systems [[concepts/running|running]] [[entities/openssh|OpenSSH]], administrator accounts use a different public key [[entities/storage|storage]] mechanism than standard Unix and Linux systems. Rather than storing authorized keys in individual user home directories, Windows OpenSSH centralizes administrator public keys in a system-wide location: `C:\ProgramData\ssh\[[concepts/administrators-authorized-keys|administrators_authorized_keys]]`. This centralized approach reflects Windows' [[concepts/architecture|architecture]] for privilege management and system configuration, where administrative settings are typically stored in protected system directories rather than distributed across user profiles.
+On Windows systems running OpenSSH, administrator accounts follow a different public key storage mechanism than standard Unix and Linux implementations. Rather than storing authorized keys in individual user home directories, Windows OpenSSH centralizes administrator public keys in a system-wide location at `C:\ProgramData\ssh\administrators_authorized_keys`. This centralized approach reflects Windows' distinct privilege model and administrative account structure.
 
-## Key Storage and Access Control
+## Key Storage Location
 
-The `administrators_authorized_keys` file applies collectively to all administrator-level accounts on the machine, allowing any admin user to authenticate using keys listed in this single file. The file itself is protected by Windows file permissions, restricting write access to system administrators and the SYSTEM account. This design contrasts with the Unix model where each user maintains their own `~/.ssh/authorized_keys` file, and allows Windows administrators to manage SSH access at the system level rather than per-user.
+The `administrators_authorized_keys` file serves as the repository for public keys that are permitted to authenticate as administrator-level accounts. This file must be created and maintained at the system level, and proper file permissions are critical for security. Only the SYSTEM account and Administrators group should have read access to this file, as inappropriate permissions can compromise the authentication mechanism.
 
-## Configuration Considerations
+## Implications for Configuration
 
-System administrators deploying [[concepts/windows-openssh-configuration|OpenSSH on Windows]] must ensure that public keys are placed in the correct location for administrator authentication to function. Standard [[concepts/user-accounts|user accounts]] continue to use the traditional `authorized_keys` file in their user directories. The distinction between administrator and standard user key storage is an important implementation detail when configuring SSH access on Windows systems.
+When configuring OpenSSH on Windows for administrative access, users must place their public keys in this centralized location rather than in their individual user profiles. This requirement differs substantially from typical Unix-based OpenSSH deployments, where each user maintains their own `~/.ssh/authorized_keys` file. System administrators managing Windows OpenSSH installations must account for this distinction when setting up remote access controls.

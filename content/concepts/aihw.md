@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: health-wellbeing
 tags:
   - "digital-health"
   - "survey-methodology"
@@ -13,16 +12,17 @@ aliases:
   - "Digital Health Familiarity Survey"
   - "Survey Block 1: Definitions"
 summary: A survey component measuring levels of familiarity with the term digital health.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Aihw
 
-Aihw is a [[concepts/survey|survey]] component designed to measure respondent familiarity with the term "digital [[concepts/health|health]]." It functions as a baseline assessment tool within broader digital health surveys, establishing the knowledge level of participants before they encounter more detailed questions about digital health practices, technologies, or services.
+Aihw is a [[concepts/survey|survey]] component designed to measure respondent familiarity with the term "digital [[concepts/health|health]]." It functions as a baseline assessment tool within broader [[concepts/digital-health|digital health]] surveys, establishing the knowledge level of participants before they encounter more detailed questions about digital health practices, technologies, or services.
 
 ## Structure and Measurement
 
-The component consists of a single question using a four-point Likert scale, asking respondents to self-assess their familiarity with the term "digital health." Response options range from "Not familiar" through intermediate levels to "Very familiar," allowing researchers to gauge the spectrum of public understanding around digital health [[concepts/terminology|terminology]].
+The component uses a four-point Likert scale to capture self-assessed familiarity with the term "digital health." This standardized measurement approach allows researchers to categorize respondents by their baseline knowledge and can be used to segment survey [[concepts/responses|responses]] or [[concepts/power|control]] for prior knowledge when analyzing patterns in digital health awareness and [[concepts/adoption|adoption]].
 
-## Use in Research
+## Application
 
-By capturing baseline familiarity levels, Aihw enables researchers to contextualise subsequent [[concepts/responses|responses]] to digital health questions. This helps identify whether observed patterns in survey data relate to genuine differences in digital health engagement or simply reflect variations in respondent awareness of the term itself. The component is particularly useful in population-level health surveys where respondent knowledge cannot be assumed.
+Aihw is typically deployed early in digital health survey instruments to provide context for subsequent responses. By establishing whether respondents have existing familiarity with digital health [[concepts/terminology|terminology]], researchers can better interpret answers to more complex questions and identify knowledge gaps that may affect overall survey findings.

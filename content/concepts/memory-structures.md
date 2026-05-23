@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "AI"
-  - "cognitive-architecture"
-  - "memory-management"
-  - "Claude-Code"
-  - "agentic-ai"
-  - "context-rot-mitigation"
-  - "information-retrieval"
-aliases:
-  - "hierarchical memory systems"
-summary: "Architectural frameworks within agentic AI that use multi-layered memory systems to regulate information retention, retrieval, and processing."
-updated: 2026-04-26
+summary: Architectural frameworks within agentic AI that use multi-layered memory systems to regulate information retention, retrieval, and processing.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Memory structures
@@ -21,7 +11,7 @@ Architectural frameworks within [[concepts/agentic-ai]] used to regulate informa
 
 ## Hierarchical Memory Systems (Claude Code)
 Implementations within [[entities/claude-code]] designed to optimize information processing through multi-layered architectures:
-- Utilizes six distinct levels of memory systems to enhance [[concepts/ai-recall]].
+- Utilizes six distinct levels of [[concepts/memory|memory]] systems to enhance [[concepts/ai-recall]].
 - Engineered specifically to mitigate [[concepts/context-rot]] (the degradation of information relevance and [[concepts/accuracy|accuracy]] as [[concepts/context-windows|context windows]] expand).
 - Focuses on structured retrieval to maintain [[entities/agent|agent]] performance across extended context usage.
 
@@ -30,8 +20,7 @@ Implementations within [[entities/claude-code]] designed to optimize information
 - [[concepts/ai-recall]]: The precision and latency with which an agent retrieves specific historical or [[concepts/external-data|external data]] points from its memory layers.
 
 ## References
-- 2026 04 25 [[concepts/ai-assisted-coding|Claude Code]] Memory Systems Improving AI [[concepts/recall|Recall]] and Mitigating [[concepts/context-rot|Context Rot]]
-
+- 2026 04 25 [[concepts/ai-assisted-coding|Claude Code]] [[concepts/memory|Memory]] Systems Improving AI [[concepts/recall|Recall]] and Mitigating [[concepts/context-rot|Context Rot]]
 ## Source Notes
 
 - 2026-04-25: Claude Code · [▶ source](https://www.youtube.com/watch?v=UHVFcUzAGlM)

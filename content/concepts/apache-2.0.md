@@ -1,33 +1,33 @@
 ---
 type: concept
 domain: ai-agents
-group: coding-agents-dev-workflows
 tags:
   - "open-source-license"
   - "permissive-license"
   - "ai-models"
   - "google-gemma"
   - "software-licensing"
+  - "patent-protection"
+  - "ai-frameworks"
 aliases:
   - "Apache License 2.0"
   - "ALv2"
 summary: Apache 2.0 is a permissive open-source software license.
-updated: 2026-05-01
-stub: true
+updated: 2026-05-23
+group: coding-agents-dev-workflows
 title: Apache 2.0
 ---
 # Apache 2.0
 
-Apache 2.0 is a permissive [[concepts/open-source|open-source]] [[concepts/software|software]] [[concepts/license|license]] maintained by the Apache Software Foundation. Released in 2004, it grants users broad freedoms to use, modify, and distribute software while establishing clear legal protections for both developers and users. The license has become one of the most widely adopted in the software industry, used by major projects and organizations across commercial and non-commercial contexts.
+[[concepts/apache-2.0-license|Apache 2.0]] is a permissive [[concepts/open-source|open-source]] software license maintained by the Apache Software Foundation. Released in 2004, it grants users broad freedoms to use, modify, and distribute software while establishing clear legal protections for both developers and users. The license has become one of the most widely adopted in the software industry, used by major projects and organizations across commercial and non-commercial contexts.
 
-## Key Features
+## Key Permissions and Conditions
 
-The license permits unrestricted use of software for any [[concepts/motivation|purpose]], including commercial applications. Users may modify source code and distribute both original and modified versions, provided they include a copy of the license and document significant changes. Apache 2.0 includes an explicit patent grant, protecting users from patent claims by the original [[concepts/developer|developer]]. This patent provision distinguishes it from simpler licenses like MIT and makes it particularly suitable for enterprise environments where patent concerns are relevant.
+The license permits unrestricted use of software for any [[concepts/motivation|purpose]], including commercial [[concepts/software|applications]]. Users may modify and redistribute the software, provided they include a copy of the license, state significant changes made to the [[concepts/code|code]], and retain copyright notices. Apache 2.0 explicitly grants patent rights from contributors, which protects users from patent claims related to the software. These terms [[entities/make|make]] it compatible with both proprietary and other open-source projects, though some copyleft licenses may have restrictions on combining with Apache 2.0 code.
 
-## Compatibility and Usage
+## Comparison with Other Licenses
 
-Apache 2.0 is compatible with many other open-source licenses, though combining it with some copyleft licenses like GPLv2 requires careful consideration. The license's straightforward terms and established legal framework have made it a standard choice for AI and machine [[concepts/learning|learning]] projects, including various [[concepts/agentic-frameworks|AI agent frameworks]] and tools. Its permissive [[entities/nature|nature]] allows both proprietary and open-source projects to incorporate Apache 2.0-licensed code without significant restrictions.
-
+Apache 2.0 differs from simpler permissive licenses like [[concepts/massachusetts-institute-of-technology-entitiesmitmit|MIT]] by including explicit patent protection and requiring documentation of modifications. Unlike copyleft licenses such as GPL, it does not mandate that derivative works remain open-source, making it more flexible for commercial use. This middle-ground approach has contributed to its [[concepts/adoption|adoption]] by companies seeking open-source collaboration without strict redistribution requirements.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge|Google Gemma 4 Advanced Open Source AI Models for Efficient Edge]] · [▶ source](https://www.youtube.com/watch?v=BrJdGP21B5g)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

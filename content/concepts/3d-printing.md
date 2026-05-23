@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: interactive-visualisation
 tags:
   - "additive-manufacturing"
   - "open-source"
@@ -11,8 +10,9 @@ tags:
 aliases:
   - "3D printing"
   - "additive manufacturing"
-summary: "Process of creating three-dimensional objects by layering material, with emerging open-source hardware and tools becoming available."
-updated: 2026-05-01
+summary: Process of creating three-dimensional objects by layering material, with emerging open-source hardware and tools becoming available.
+updated: 2026-05-23
+group: interactive-visualisation
 ---
 # 3D Printing
 
@@ -20,12 +20,12 @@ updated: 2026-05-01
 
 ## Technology and Methods
 
-Several established 3D printing technologies exist, including Fused Deposition Modeling (FDM), which melts and extrudes thermoplastic filament, and Stereolithography (SLA), which uses ultraviolet light to cure liquid resin. Other methods include Selective Laser Sintering (SLS) for powder-based printing and Inkjet-based systems. Each technology offers different trade-offs in resolution, material options, speed, and cost.
+Several established 3D printing technologies exist, including Fused Deposition Modeling (FDM), which melts and extrudes thermoplastic filament, and Stereolithography (SLA), which uses ultraviolet [[concepts/light|light]] to cure liquid resin. Other methods include Selective Laser Sintering (SLS) for powder-based printing and Inkjet-based systems. Each technology offers different trade-offs in resolution, material options, [[concepts/speed|speed]], and [[concepts/cost|cost]].
 
 ## Open-Source Development
 
-The availability of open-source [[concepts/hardware|hardware]] designs and [[concepts/software|software]] tools has democratized 3D printing technology beyond industrial settings. Platforms like RepRap have produced self-replicating printer designs that are freely available for modification and [[concepts/distribution|distribution]]. This has enabled hobbyists, makers, and small organizations to access and customize printing equipment without prohibitive [[concepts/licensing|licensing]] costs, alongside decreasing hardware prices making consumer-grade printers more affordable.
+The availability of [[concepts/open-source|open-source]] [[concepts/hardware|hardware]] designs and [[concepts/software|software]] tools has democratized 3D printing technology beyond industrial settings. Platforms like RepRap have produced self-replicating printer designs that are freely available for modification and [[concepts/distribution|distribution]]. This has enabled hobbyists, makers, and small organizations to access and customize printing equipment without prohibitive [[concepts/licensing|licensing]] costs, alongside decreasing hardware prices making consumer-grade printers more affordable.
 
 ## Applications
 
-3D printing finds use in rapid prototyping, product [[concepts/design-iteration|design iteration]], specialized manufacturing, educational applications, and increasingly in consumer creation. Industries including aerospace, [[concepts/health|healthcare]], and jewelry have adopted the technology for specific applications where its advantages in [[concepts/customization|customization]] and waste reduction are valuable.
+3D printing finds use in [[concepts/rapid-prototyping|rapid prototyping]], product [[concepts/design-iteration|design iteration]], specialized manufacturing, educational applications, and increasingly in consumer creation. Industries including aerospace, [[concepts/health|healthcare]], and jewelry have adopted the technology for specific applications where its advantages in [[concepts/customization|customization]] and waste reduction are valuable.

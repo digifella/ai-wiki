@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: business-strategy
 tags:
   - "project-management"
   - "agile-methodology"
@@ -11,7 +10,8 @@ aliases:
   - "Scrum framework"
   - "Scrum methodology"
 summary: Scrum is a project management methodology featured in a list of popular frameworks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Scrum
 
@@ -23,6 +23,6 @@ Scrum organizes work into fixed time periods called sprints, typically lasting o
 
 ## Key Ceremonies
 
-The framework relies on regular meetings to maintain alignment and transparency. The Sprint Planning meeting occurs at the start of each sprint, where the team determines what work will be completed. Daily standup meetings keep team members synchronized on progress and blockers. At the sprint's end, a Sprint Review demonstrates completed work to stakeholders, followed by a Sprint Retrospective where the team reflects on how to improve their process in the next cycle.
+The framework relies on regular meetings to maintain alignment and transparency. The Sprint Planning meeting occurs [[concepts/assistive-technology|at]] the start of each sprint, where the team determines what work [[entities/will|will]] be completed. Daily standup meetings keep team members synchronized on progress and blockers. At the sprint's end, a Sprint Review demonstrates completed work to stakeholders, followed by a Sprint Retrospective where the team reflects on how to improve their process in the next cycle.
 
-Scrum's appeal lies in its balance of structure and adaptability. By delivering work in small increments and incorporating frequent feedback, teams can respond to changing requirements and reduce the risk of large-scale project failures. This makes it particularly suitable for complex projects where requirements may evolve during development.
+Scrum's appeal lies in its balance of [[concepts/structure|structure]] and adaptability. By delivering work in small increments and incorporating frequent feedback, teams can respond to changing requirements and reduce the risk of large-scale project failures. This makes it particularly suitable for complex projects where requirements may evolve during development.

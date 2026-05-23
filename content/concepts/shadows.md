@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: ai-image-generation-editing
 tags:
   - "photo-editing"
   - "lightroom"
@@ -13,22 +12,22 @@ aliases:
   - "shadow-adjustment"
   - "tonal-range"
   - "dark-tones"
-summary: "Shadows refer to the darker tonal ranges in photography and image editing, commonly adjusted through tools like Lightroom and Photoshop for creative photo enhancement."
-updated: 2026-05-01
+summary: Shadows refer to the darker tonal ranges in photography and image editing, commonly adjusted through tools like Lightroom and Photoshop for creative photo enhancement.
+updated: 2026-05-23
+group: photography-cameras
 title: Shadows
 ---
 # Shadows
 
-Shadows in photography and digital imaging refer to the darker tonal ranges within an image, typically representing areas with lower light [[concepts/exposure|exposure]] or naturally darker subject matter. In the context of post-processing, shadows are distinct from black points and represent the tonal zone between midtones and the darkest areas of an image. Understanding and manipulating shadow tones is a fundamental aspect of image editing, affecting both the technical quality and creative presentation of photographs.
+Shadows in photography and digital imaging refer to the darker tonal ranges within an image, typically representing areas with lower [[concepts/light|light]] [[concepts/exposure|exposure]] or naturally darker subject matter. In the context of post-processing, shadows are distinct from black points and represent the tonal zone between midtones and the darkest areas of an image. Understanding and manipulating shadow tones is a fundamental aspect of [[concepts/image-editing|image editing]], affecting both the technical quality and creative presentation of photographs.
 
 ## Adjustment in Post-Processing
 
-Digital editing [[concepts/software|software]] like Adobe Lightroom and [[concepts/photoshop|Photoshop]] provide dedicated [[concepts/shadow-adjustment|shadow adjustment]] tools that allow photographers to selectively lighten, darken, or alter the color of shadow regions without affecting other tonal ranges. The Shadows slider in Lightroom's Basic panel, for example, targets the darker portions of an image, enabling recovery of detail in underexposed areas or intentional deepening for creative effect. These tools operate independently of highlights and midtones, giving editors precise control over how shadow information is rendered in the final image.
+Digital editing [[concepts/software|software]] like [[entities/adobe-lightroom|Adobe Lightroom]] and [[concepts/photoshop|Photoshop]] provide dedicated [[concepts/shadow-adjustment|shadow adjustment]] tools that allow photographers to selectively lighten, darken, or alter the color of shadow regions without affecting other tonal ranges. The Shadows slider in Lightroom's Basic panel, for example, targets the darker portions of an image, enabling recovery of detail in underexposed areas or intentional deepening for creative effect. These tools operate independently of [[concepts/highlights|highlights]] and midtones, giving editors precise [[concepts/power|control]] over how shadow information is rendered in the final image.
 
 ## Creative and Technical Applications
 
-Shadow adjustment serves both technical and aesthetic purposes. Technically, shadow [[concepts/adjustments|adjustments]] can recover lost detail in underexposed photographs or improve overall tonal balance. Creatively, shadows contribute significantly to mood, [[concepts/contrast|contrast]], and depth within an image—deepening shadows can add drama and definition, while lifting shadows can create a softer, more ethereal appearance. The treatment of shadows is often central to developing a consistent photographic style or achieving specific visual effects like cinematic or high-key looks.
-
+Shadow adjustment serves both technical and aesthetic purposes. Technically, shadow [[concepts/adjustments|adjustments]] can recover lost detail in underexposed photographs or improve overall tonal balance. Creatively, shadows contribute significantly to mood, [[concepts/contrast|contrast]], and depth within an image—deepening shadows can add drama and definition, while lifting shadows can create a softer, more ethereal appearance. The treatment of shadows is often central to developing a consistent photographic [[concepts/style|style]] or achieving specific visual effects like cinematic or high-key looks.
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

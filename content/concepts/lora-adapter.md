@@ -1,19 +1,19 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 - "lora"
   - "ai"
-  - "diffusion-models"
+  - "diffusion-[[concepts/models|models]]"
   - "[[concepts/fine-tuning|fine-tuning]]"
   - "[[concepts/machine-learning|machine-learning]]"
 group: model-efficiency-compression
 
 # LoRA Adapter
 
-A **LoRA (Low-Rank Adaptation)** adapter is a parameter-efficient [[concepts/fine-tuning|fine-tuning]] technique for large [[concepts/ai-models|AI models]] that adds low-rank matrices to existing layers instead of modifying all [[concepts/parameters|parameters]]. This enables task-specific adaptation with minimal computational overhead and [[concepts/memory-management|memory usage]].
+A **LoRA ([[concepts/low-rank-adaptation|Low-Rank Adaptation]])** adapter is a parameter-efficient [[concepts/fine-tuning|fine-tuning]] technique for large [[concepts/ai-models|AI models]] that adds low-rank matrices to existing layers instead of modifying all [[concepts/parameters|parameters]]. This enables task-specific adaptation with minimal computational overhead and [[concepts/memory-management|memory usage]].
 
 ## Key Characteristics
 - **Minimal parameter addition**: Typically requires only 0.1–1% of original [[concepts/active-parameters|model parameters]]

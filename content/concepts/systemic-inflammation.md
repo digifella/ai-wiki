@@ -1,18 +1,22 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "systemic-inflammation"
   - "aging"
   - "ageism"
   - "longevity"
   - "health-mindset"
+  - "social-connection"
+  - "social-isolation"
+  - "technology"
 aliases:
   - "chronic inflammation"
   - "whole-body inflammation"
-summary: Defying ageism may help increase longevity.
-updated: 2026-05-01
+  - "social robotics"
+summary: Defying ageism and addressing systemic inflammation through lifestyle and social connection aids longevity. Emerging research examines social robots as companions for older adults to mitigate isolation.
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Systemic Inflammation
 
@@ -20,8 +24,11 @@ Systemic inflammation refers to chronic, low-grade inflammatory [[concepts/respo
 
 ## Links to Aging and Longevity
 
-Research suggests that systemic inflammation accelerates aging processes and contributes to age-related conditions. Factors including chronic [[concepts/stress|stress]], poor diet, physical inactivity, sleep disruption, and social isolation can elevate inflammatory markers. Conversely, evidence indicates that lifestyle modifications—such as regular [[concepts/exercise|exercise]], Mediterranean-style diets, [[concepts/stress-management|stress management]], and strong social connections—may reduce systemic inflammation and support healthier aging.
+Research suggests that systemic inflammation accelerates aging processes and contributes to age-related conditions. Factors including chronic [[concepts/stress|stress]], poor [[concepts/diet|diet]], physical inactivity, [[concepts/sleep|sleep]] disruption, and social isolation can elevate inflammatory markers. Conversely, evidence indicates that lifestyle modifications—such as regular [[concepts/exercise|exercise]], Mediterranean-[[concepts/style|style]] diets, [[concepts/stress-management|stress management]], and strong social connections—may reduce systemic inflammation.
 
-## Ageism and Health Outcomes
+## Social Robotics and Companionship
 
-Emerging research indicates that ageist attitudes and experiences of age discrimination may influence inflammatory markers and health outcomes. Negative self-perceptions of aging have been associated with higher inflammatory responses, while positive attitudes toward aging correlate with better health markers. This suggests that psychological and social factors related to how individuals and societies view aging may have measurable physiological consequences, potentially affecting longevity and [[concepts/quality-of-life|quality of life]] in older age.
+Addressing social isolation is critical for mitigating inflammation and promoting longevity. Recent inquiries explore the role of technology in elderly care:
+
+- **Robotic [[concepts/companionship|Companionship]]:** Studies investigate whether robots can effectively serve as companions for older adults, potentially alleviating [[concepts/loneliness|loneliness]] and its associated physiological stressors.
+- **Evidence Status:** Initial exploration of sources regarding robot companionship for the elderly resulted in limited capture; see [[lab-notes/2026-05-23-Just-a-moment|URL Ingest Summary]] for raw ingest details from University of [[concepts/melbourne-region|Melbourne]] research.

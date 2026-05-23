@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "llm-optimization"
   - "generative-search"
@@ -13,7 +12,8 @@ aliases:
   - "Generative Engine Optimization"
   - "LLM Search Efficiency"
 summary: A guide on using specific ChatGPT prompts to identify inexpensive flight deals.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Search Optimization
 
@@ -25,8 +25,7 @@ One practical application of search optimization involves using customized ChatG
 
 ## Broader Applications
 
-Beyond travel, search optimization with AI agents represents a shift in how users extract value from large information spaces. By formulating precise prompts that guide AI [[concepts/reasoning|reasoning]], users can achieve more relevant results than traditional keyword-based searches. This technique is particularly effective for comparative shopping, [[concepts/opportunity-identification|opportunity identification]], and decision-making [[concepts/scenarios|scenarios]] where the goal is to uncover options matching specific criteria rather than broad [[concepts/knowledge-bases|information retrieval]].
-
+Beyond travel, search optimization with [[concepts/ai-agents|AI agents]] represents a shift in how users extract value from large information spaces. By formulating precise prompts that guide AI [[concepts/reasoning|reasoning]], users can achieve more relevant results than traditional keyword-based searches. This technique is particularly effective for comparative shopping, [[concepts/opportunity-identification|opportunity identification]], and [[concepts/decision-making|decision-making]] [[concepts/scenarios|scenarios]] where the goal is to uncover options matching specific criteria rather than broad [[concepts/knowledge-bases|information retrieval]].
 ## Source Notes
 - 2026-04-07: SEO Is Dead. Claude Code Just Built Its Replacement (It's
 - 2026-04-08: [[lab-notes/2026-04-08-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)

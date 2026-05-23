@@ -1,35 +1,19 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "software"
-  - "mobile-apps"
-  - "photo-editing"
-  - "updates"
-  - "app-updates"
-  - "software-enhancements"
-  - "mobile-apps-evolution"
-  - "photo-editing-software"
-  - "camera-features"
-aliases:
-  - "App Upgrades"
-  - "Software Enhancements"
-  - "Photo Editor Updates"
-  - "Camera App Improvements"
-summary: "The process of modifying or enhancing software to improve functionality, introduce new features, or optimize performance."
-updated: 2026-04-11
+summary: The process of modifying or enhancing software to improve functionality, introduce new features, or optimize performance.
+updated: 2026-05-23
 group: app-builders-no-code-tools
-title: "app updates"
+title: app updates
 ---
 # app updates
 
 The process of modifying or enhancing [[concepts/software|software]] to improve functionality, introduce new features, or optimize performance.
 
 ### Recent Developments
-- [[entities/snapseed]]: Significant update introducing a new [[concepts/camera-settings|Camera]] feature and expanded Pro capabilities.
+- [[entities/snapseed]]: Significant update introducing a new [[concepts/camera-settings|Camera]] feature and expanded Pro [[concepts/capabilities|capabilities]].
     - Source: [[entities/photo-genius]] (2026-04-07)
-    - Ref: 2026 04 10 Snapseed Overview Free Photo Editing App with New Camera and Pro
-
+    - Ref: 2026 04 10 Snapseed Overview Free [[concepts/photo-editing|Photo Editing]] App with New Camera and Pro
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-20-Loops-Scheduled-Tasks-Google-Workspace-and-Skills|Claude Code 20 Loops Scheduled Tasks Google Workspace and Skills]] · [▶ source](https://www.youtube.com/watch?v=F4zSxfBe5R0)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

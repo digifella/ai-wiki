@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "outback survival"
-  - "underground living"
-  - "climate adaptation"
-  - "geology"
-  - "outback-survival-strategies"
-  - "underground-shelter-systems"
-  - "climate-change-adaptation"
-  - "desert-living-tactics"
-  - "geological-resources"
-aliases:
-  - "Surviving Outback Australia"
-  - "Subterranean Living in the Outback"
-  - "Coober Pedy Underground Life"
-  - "Outback Climate Adaptation"
-summary: "Outback survival emphasizes climate adaptation through underground living to cope with extreme temperatures and environmental challenges."
-updated: 2026-04-12
+summary: Outback survival emphasizes climate adaptation through underground living to cope with extreme temperatures and environmental challenges.
+updated: 2026-05-23
 group: climate-environment-surface-systems
 ---
 # Outback Survival

@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "coding"
-  - "agents"
-  - "context"
-  - "ai-coding"
-  - "context-files"
-  - "repository-context"
-  - "performance-degradation"
-aliases:
-  - "agents.md"
-summary: "AGENTS.md, a repository-level context file for AI coding agents, degrades performance in coding tasks according to an ETH Zurich study."
-updated: 2026-04-14
+summary: AGENTS.md, a repository-level context file for AI coding agents, degrades performance in coding tasks according to an ETH Zurich study.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # AGENTS.md
@@ -33,4 +22,4 @@ Repository-level context file providing project-specific guidance to [[concepts/
 ## References
 - Study: [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://ethz.ch/study) ([[entities/eth-zurich|ETH Zurich]], Feb 2026)
 - Video: [AI can work worse with Claude.md and agents.md files](https://www.youtube.com/watch?v=GcNu6wrLTJc) (Channel [[entities/theo|Theo]])
-- Source Note: 2026 04 14 AI can work worse with Claudemd and agentsmd files Channel Theo
+- Source Note: 2026 04 14 AI can work worse with [[concepts/claudemd|Claudemd]] and agentsmd [[concepts/files|files]] Channel [[entities/theo|Theo]]

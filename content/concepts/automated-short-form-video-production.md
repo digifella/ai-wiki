@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "concept"
   - "short-form-video"
@@ -14,8 +13,9 @@ tags:
 aliases:
   - "AI-powered short video automation"
   - "automated viral video production"
-summary: "A system for automating the creation and multi-platform distribution of short-form videos using Claude Code and Blotato tools."
-updated: 2026-05-01
+summary: A system for automating the creation and multi-platform distribution of short-form videos using Claude Code and Blotato tools.
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Automated Short Form Video Production
 
@@ -23,11 +23,10 @@ Automated short form video production refers to the use of [[entities/ai-tools|A
 
 ## Core Tools and Workflow
 
-[[concepts/ai-assisted-coding|Claude Code]] and [[entities/blotato|Blotato]] are key components in this automation approach. Claude Code provides AI-powered scripting and automation capabilities, while Blotato functions as a distribution tool designed to handle multi-platform posting. Together, these tools can automate stages of video production from conceptualization through final distribution across platforms like TikTok, Instagram Reels, YouTube Shorts, and others. The integration allows creators to define workflows that execute with minimal manual intervention.
+[[concepts/ai-assisted-coding|Claude Code]] and [[entities/blotato|Blotato]] are key components in this automation approach. [[concepts/claude-code|Claude Code]] provides AI-powered scripting and automation [[concepts/capabilities|capabilities]], while Blotato functions as a distribution tool designed to handle [[concepts/multi-platform-posting|multi-platform posting]]. Together, these tools can automate stages of video production from conceptualization through final distribution across platforms like [[entities/tiktok|TikTok]], Instagram Reels, [[entities/youtube|YouTube]] Shorts, and others. The [[concepts/integration|integration]] allows creators to define workflows that execute with minimal manual intervention.
 
 ## Practical Applications
 
-This automation system is particularly suited for creators managing high content volume or maintaining consistent posting schedules across multiple platforms. By automating formatting, optimization, and distribution tasks specific to each platform's requirements, the system reduces the [[concepts/friction|friction]] between [[concepts/content-creation|content creation]] and publishing. This approach is relevant for content creators, marketing teams, and media producers seeking to scale their short-form video output without proportionally increasing production labor.
-
+This automation system is particularly suited for creators managing high content volume or maintaining consistent posting schedules across multiple platforms. By automating formatting, optimization, and distribution tasks specific to each platform's requirements, the system reduces the [[concepts/friction|friction]] between [[concepts/content-creation|content creation]] and publishing. This approach is relevant for content creators, marketing teams, and media producers seeking to scale their short-form video [[concepts/output|output]] without proportionally increasing production labor.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation|Claude Code Blotato Automating AI Viral Video Creation]] · [▶ source](https://www.youtube.com/watch?v=ZXyjSufezL8)

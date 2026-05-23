@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: philosophy-religion
-tags:
-  - "critical-decisions"
-  - "ai"
-  - "decision-making"
-updated: 2026-04-14
+updated: 2026-05-23
 group: philosophy-ethics-logic
 ---
 # Critical Decision Points
@@ -19,11 +15,10 @@ Moments requiring evaluation of alternatives with high impact on outcomes, where
 ## Related Concepts
 
 - AI
-- Decision-Making Frameworks
+- [[concepts/decision-making|Decision-Making]] Frameworks
 - [[concepts/ai-proficiency|AI Literacy]]
 
-Backlink: 2026 04 14 AI framework skills [[entities/jeff-su|Jeff Su]] Channel
-
+Backlink: 2026 04 14 AI framework [[concepts/skills|skills]] [[entities/jeff-su|Jeff Su]] Channel
 ## Source Notes
 - 2026-04-08: Anthropic
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an|Anthropics Claude AI Subscription Changes OpenClaw Ban Usage Limits an]] · [▶ source](https://www.youtube.com/watch?v=a4hdPWSUzsE)

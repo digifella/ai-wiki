@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "question-driven"
-  - "ai-assisted"
-  - "knowledge-management"
-  - "sensemaking"
-  - "tool-relationship"
-aliases:
-  - "question-driven approach"
-summary: "The question asking approach uses questions to drive knowledge management, with AI handling information synthesis and organization."
-updated: 2026-04-15
+summary: The question asking approach uses questions to drive knowledge management, with AI handling information synthesis and organization.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Question-Asking Approach

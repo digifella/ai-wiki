@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "concept"
   - "data-backup"
@@ -12,11 +11,12 @@ aliases:
   - "Anti-Gravity AI Agent Data Export"
   - "AI Agent Data Export"
 summary: This page covers the process of Anti-Gravity AI Agent data export and using GitHub sync for control.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Data Backup
 
-Data backup refers to the process of creating and maintaining copies of data to ensure its [[concepts/preservation|preservation]] and recoverability. In the context of [[concepts/ai-productivity-agents|AI agent systems]], backup procedures are critical for protecting agent state, configurations, and operational data from loss or corruption. Effective backup strategies enable organizations to maintain business [[concepts/continuity|continuity]] and recover from system failures or data incidents.
+Data backup refers to the process of creating and maintaining copies of data to ensure its [[concepts/preservation|preservation]] and recoverability. In the context of [[concepts/ai-productivity-agents|AI agent systems]], backup procedures are critical for protecting [[entities/agent|agent]] state, configurations, and operational data from loss or corruption. Effective backup strategies enable organizations to maintain business [[concepts/continuity|continuity]] and recover from system failures or data incidents.
 
 ## Anti-Gravity AI Agent Data Export
 
@@ -24,8 +24,7 @@ The [[entities/anti-gravity-ai|Anti-Gravity AI]] Agent system provides mechanism
 
 ## GitHub Sync for Control
 
-[[concepts/github-synchronization|GitHub sync]] integration enables users to version control and manage exported agent data through distributed version control systems. By synchronizing backup data with GitHub repositories, users gain additional layers of control including change tracking, rollback capabilities, and collaborative management of agent configurations. This approach combines data backup with version control, providing both redundancy and auditability of agent system changes over time.
-
+[[concepts/github-synchronization|GitHub sync]] [[concepts/integration|integration]] enables users to version [[concepts/power|control]] and manage exported agent data through distributed version control systems. By synchronizing backup data with [[entities/github|GitHub]] repositories, users gain additional layers of control including change tracking, rollback [[concepts/capabilities|capabilities]], and collaborative management of agent configurations. This approach combines data backup with version control, providing both redundancy and auditability of agent system changes over time.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

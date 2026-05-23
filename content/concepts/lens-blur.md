@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "digital-imaging"
-  - "post-processing"
-  - "bokeh"
-  - "depth-of-field"
-  - "optical-effects"
-  - "digital-simulation"
-  - "focal-plane"
-aliases:
-  - "bokeh effect"
-  - "background blur"
-summary: "An optical effect where objects outside the focal plane are rendered with reduced sharpness, creating an aesthetic known as bokeh."
-updated: 2026-04-26
+summary: An optical effect where objects outside the focal plane are rendered with reduced sharpness, creating an aesthetic known as bokeh.
+updated: 2026-05-23
 group: photography-cameras
 ---
 # Lens blur
@@ -31,8 +19,7 @@ An optical effect where objects outside the focal plane are rendered with reduce
 - **Advanced Precision**:
     - [[concepts/photoshop]] [[concepts/depth-map]] technology enables precise 3D-[[concepts/style|style]] photo [[concepts/adjustments|adjustments]].
     - Utilizes depth masks to achieve more realistic and granular results than standard automated tools.
-    - Reference: 2026 04 22 Photoshop Depth Map Mastering Precise 3D Photo Adjustments (via [[entities/piximperfect]]).
-
+    - Reference: 2026 04 22 [[concepts/depth-maps|Photoshop Depth Map]] Mastering Precise [[concepts/3d-photo-adjustments|3D Photo Adjustments]] (via [[entities/piximperfect]]).
 ## Source Notes
 
 - 2026-04-22: Photoshop · [▶ source](https://youtu.be/ljf8IhxqS20)

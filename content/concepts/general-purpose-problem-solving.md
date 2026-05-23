@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "small-language-models"
   - "benchmarking"
@@ -14,20 +13,20 @@ aliases:
   - "4GB Model Champions"
   - "Efficient Problem-Solving Models"
 summary: Benchmarking 4GB small language models (SLMs) to identify efficient general-purpose problem-solving champions.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # General Purpose Problem Solving
 
-General purpose problem solving refers to the capacity of [[concepts/ai-technologies|artificial intelligence]] systems to address diverse tasks and domains without task-specific optimization or retraining. In the context of small language models (SLMs), this capability is increasingly important as constraints on [[concepts/code-size|model size]], [[concepts/computational-resources|computational resources]], and [[concepts/deployment|deployment]] environments become pressing practical considerations.
+General [[concepts/purpose|purpose]] problem solving refers to the capacity of [[concepts/ai-technologies|artificial intelligence]] systems to address diverse tasks and domains without task-specific optimization or retraining. In the context of [[concepts/small-language-models-slms|small language models (SLMs)]], this capability is increasingly important as constraints on [[concepts/code-size|model size]], [[concepts/computational-resources|computational resources]], and [[concepts/deployment|deployment]] environments become pressing practical considerations.
 
 ## Benchmarking Small Language Models
 
-Recent evaluations have focused on assessing how effectively 4GB small language models perform across general [[concepts/problem-solving|problem-solving]] benchmarks. These evaluations aim to identify which models offer the best balance of capability and efficiency, particularly for [[concepts/scenarios|scenarios]] where computational resources are limited. Such benchmarking exercises help establish which SLMs can serve as practical alternatives to larger models while maintaining reasonable performance across varied problem types.
+Recent evaluations have focused on assessing how effectively 4GB small language models perform across general [[concepts/problem-solving|problem-solving]] benchmarks. These evaluations aim to identify which models offer the best balance of capability and efficiency, particularly for [[concepts/scenarios|scenarios]] where [[concepts/compute|computational resources]] are limited. Such [[concepts/benchmark-testing|benchmarking]] exercises help establish which SLMs can serve as practical alternatives to larger models while maintaining reasonable performance across varied problem types.
 
 ## Trade-offs and Constraints
 
-The development of efficient general-[[concepts/motivation|purpose]] problem-solving capabilities in smaller models involves navigating trade-offs between model size, performance, and cost. While smaller models offer advantages in terms of deployment flexibility and resource requirements, they typically exhibit reduced capability compared to larger language models. Understanding these limitations and identifying the models that best overcome them remains an active area of evaluation in the [[concepts/ai-research|AI research]] community.
-
+The development of efficient general-[[concepts/motivation|purpose]] problem-solving [[concepts/capabilities|capabilities]] in smaller models involves navigating trade-offs between [[concepts/model-size|model size]], performance, and [[concepts/cost|cost]]. While smaller models offer advantages in terms of deployment flexibility and resource requirements, they typically exhibit reduced capability compared to larger language models. Understanding these limitations and identifying the models that best overcome them remains an active area of evaluation in the [[concepts/ai-research|AI research]] community.
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

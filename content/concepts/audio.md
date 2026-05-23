@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: music-audio-performance
 tags:
   - "concept"
   - "multimodal-ai"
@@ -11,20 +10,20 @@ tags:
 aliases:
   - "multimodal-intelligence"
 summary: This page contains notes on multimodal AI concepts and how LLMs process text and images.
-updated: 2026-05-01
+updated: 2026-05-23
+group: music-audio-performance
 ---
 # Audio
 
-Audio is a form of sensory data that represents sound through digital or analog signals. In [[concepts/ai-technologies|artificial intelligence]] and machine [[concepts/learning|learning]] contexts, [[concepts/audio-processing|audio processing]] has become an increasingly important [[concepts/modality|modality]] alongside text and [[concepts/images|images]]. Modern AI systems are expanding beyond single-modality approaches to incorporate audio understanding and generation, enabling more comprehensive interactions with users and richer representations of real-world information.
+[[concepts/audio-modality|Audio]] is a form of sensory data that represents sound through digital or analog signals. In [[concepts/ai-technologies|artificial intelligence]] and [[concepts/machine-learning|machine learning]] contexts, [[concepts/audio-processing|audio processing]] has become an increasingly important [[concepts/modality|modality]] alongside [[concepts/text|text]] and [[concepts/images|images]]. Modern AI systems are expanding beyond single-modality approaches to incorporate audio understanding and generation, enabling more comprehensive interactions with users and richer representations of real-world information.
 
-## Audio in Multimodal AI
+## Audio Processing in AI
 
-[[concepts/multimodal-ai-agents|Multimodal AI systems]] integrate multiple types of data inputs—including audio, text, and images—to provide more complete [[concepts/contextual-understanding|contextual understanding]]. When combined with other modalities, audio can convey information that text alone cannot capture, such as tone, emotion, [[entities/speaker|speaker]] identity, and acoustic characteristics. This integration allows AI systems to process [[concepts/speech-recognition|speech recognition]], generate spoken [[concepts/responses|responses]], and analyze audio content in concert with visual and textual data, creating more nuanced interpretations of complex [[concepts/scenarios|scenarios]].
+Audio processing involves converting sound waves into digital representations that [[concepts/artificial-intelligence-models|machine learning models]] can analyze. This typically requires [[concepts/data-preprocessing|preprocessing]] steps such as sampling, [[concepts/parameter-reduction|quantization]], and feature extraction, where raw audio signals are transformed into spectrograms, mel-frequency cepstral coefficients (MFCs), or other numerical formats. These representations allow models to identify patterns, extract meaning, and generate [[concepts/responses|responses]] related to speech, music, and environmental sounds.
 
-## Current Limitations
+## Multimodal Integration
 
-Most [[concepts/large-language-model-llm|large language models]] (LLMs) remain fundamentally text-based systems. While some [[concepts/unified-multimodal-models|multimodal models]] can process audio inputs, they typically convert audio to text transcripts or spectrograms for processing, rather than working directly with raw audio signals. This approach introduces potential information loss, particularly regarding acoustic details. True end-to-end audio processing within LLMs remains an emerging area of development, with current systems often relying on separate specialized audio models that feed their outputs into language-based pipelines.
-
+[[concepts/large-language-model-llm|Large language models]] traditionally operate on text, but recent advances in [[concepts/multimodal-ai|multimodal AI]] have integrated audio [[concepts/capabilities|capabilities]] alongside text and image understanding. This [[concepts/integration|integration]] allows systems to process spoken language, transcribe audio, analyze acoustic properties, and generate speech outputs. Audio as a modality provides complementary information to text—such as tone, emotion, and emphasis—that can improve [[concepts/contextual-understanding|contextual understanding]] in [[concepts/software|applications]] ranging from [[concepts/voice-assistants|voice assistants]] to multimedia content analysis.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-10: [[lab-notes/2026-04-10-Geminis-New-Notebooks-Feature-Integrated-AI-Research-and-Chat-Organiza|Geminis New Notebooks Feature Integrated AI Research and Chat Organiza]] · [▶ source](https://www.youtube.com/watch?v=Y-LTxr1bv9M)

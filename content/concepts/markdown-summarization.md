@@ -13,9 +13,10 @@ tags:
 aliases:
   - "markdown-condensing"
   - "automated-summarization"
-summary: "The process of condensing Markdown content into structured, actionable insights and high-density overviews."
-updated: 2026-04-28
+summary: The process of condensing Markdown content into structured, actionable insights and high-density overviews.
+updated: 2026-05-23
 group: applied-ai-workflows
+stub: true
 ---
 # Markdown summarization
 
@@ -28,7 +29,6 @@ The process of condensing [[concepts/markdown|Markdown]] content into structured
 
 ## Backlinks
 - 2026 04 14 [[concepts/claude-ai|Claude]] coworker [[entities/grace-leung|Grace Leung]] channel
-
 ## Source Notes
 - 2026-04-07: Karpathy
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

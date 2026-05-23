@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "instruction-set"
   - "architecture"
@@ -13,15 +12,16 @@ aliases:
   - "instruction architecture"
   - "CPU instruction set"
 summary: The set of machine-level operations and commands that a CPU executes as part of its architectural design.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Instruction Set Architecture
 
-An instruction set architecture (ISA) is the abstract model of a computer that defines the set of machine-level operations, data types, and [[concepts/memory|memory]] [[concepts/organization|organization]] that a CPU executes. It serves as the interface between [[concepts/hardware|hardware]] and [[concepts/software|software]], specifying exactly which operations a processor can perform and how those operations manipulate data and system state. The ISA encompasses both the operations themselves and their [[concepts/encoding|encoding]] as binary machine code that the CPU decodes and executes.
+An instruction set [[concepts/architecture|architecture]] (ISA) is the abstract model of a computer that defines the set of machine-level operations, data types, and [[concepts/memory|memory]] [[concepts/organization|organization]] that a [[concepts/cpu|CPU]] executes. It serves as the interface between [[concepts/hardware|hardware]] and [[concepts/software|software]], specifying exactly which operations a processor can perform and how those operations manipulate data and system state. The ISA encompasses both the operations themselves and their [[concepts/encoding|encoding]] as binary machine [[concepts/code|code]] that the CPU decodes and executes.
 
 ## Core Components
 
-An instruction set typically includes arithmetic and logic operations, data [[concepts/exercise|movement]] [[concepts/instructions|instructions]] for transferring values between registers and memory, control flow instructions for branching and jumps, and specialized operations for specific tasks. Each instruction has a defined format that specifies the operation code (opcode) and its operands. The width and [[concepts/structure|structure]] of instructions—whether they use fixed or variable lengths—is also part of the architectural specification.
+An instruction set typically includes arithmetic and logic operations, data [[concepts/exercise|movement]] [[concepts/instructions|instructions]] for transferring values between registers and memory, [[concepts/power|control]] [[concepts/flow|flow]] instructions for branching and jumps, and specialized operations for specific tasks. Each instruction has a defined format that specifies the operation code (opcode) and its operands. The width and [[concepts/structure|structure]] of instructions—whether they use fixed or variable lengths—is also part of the architectural specification.
 
 ## Architectural Variations
 

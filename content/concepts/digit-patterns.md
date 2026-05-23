@@ -12,8 +12,8 @@ tags:
   - "number-bases"
 aliases:
   - "numerical-patterns"
-summary: "Digit patterns are specific, non-random sequences or structural arrangements within numerical strings."
-updated: 2026-04-27
+summary: Digit patterns are specific, non-random sequences or structural arrangements within numerical strings.
+updated: 2026-05-23
 group: scientific-modelling-discovery
 ---
 # Digit Patterns
@@ -31,6 +31,5 @@ The occurrence of specific, non-random sequences or structural arrangements with
 - Steganography
 
 2026 04 13 Patterns in pi in [[entities/contact|Contact]]
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Demystifying-AI-Transformer-Training-on-a-1979-PDP-11|Demystifying AI Transformer Training on a 1979 PDP 11]] · [▶ source](https://www.youtube.com/watch?v=OUE3FSIk46g)

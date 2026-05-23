@@ -9,13 +9,13 @@ tags:
   - "meat-science"
 aliases:
   - "marinating chicken"
-summary: "The process of immersing poultry in seasoned liquids to enhance flavor profile and influence texture and moisture retention."
-updated: 2026-04-27
+summary: The process of immersing poultry in seasoned liquids to enhance flavor profile and influence texture and moisture retention.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
 ---
 # Chicken marination
 
-The process of immersing poultry in seasoned liquids to enhance flavor profile and influence [[concepts/texture|texture]] and moisture retention.
+The process of immersing poultry in seasoned liquids to enhance flavor profile and [[concepts/power|influence]] [[concepts/texture|texture]] and moisture retention.
 
 ## Factors for Success (Juiciness Optimization)
 - **Integrated Approach**: Achieving juicy results requires the synergy of Marinade, Meat Cut, and [[concepts/cooking-techniques]].

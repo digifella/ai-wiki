@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "cli-tools"
@@ -13,20 +12,20 @@ aliases:
   - "CLI Tools for Coding"
   - "Command Line Productivity"
 summary: A collection of command-line tools designed to enhance productivity in AI-assisted coding workflows with Claude.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Terminal Productivity
 
-Terminal Productivity refers to a category of [[concepts/command-line-interface|command-line]] tools and integrations designed to streamline [[concepts/ai-coding-assistance|AI-assisted coding]] workflows, particularly those involving [[concepts/claude-ai|Claude]]. These tools bridge the gap between terminal-based [[concepts/developer-platforms|development environments]] and [[concepts/capabilities|AI capabilities]], allowing developers to maintain their existing workflows while leveraging AI assistance for code generation, [[concepts/debugging|debugging]], and [[concepts/automation|automation]] tasks.
+Terminal Productivity refers to a category of [[concepts/command-line-interface|command-line]] tools and integrations designed to streamline [[concepts/ai-coding-assistance|AI-assisted coding]] workflows, particularly those involving [[concepts/claude-ai|Claude]]. These tools bridge the gap between terminal-based [[concepts/developer-platforms|development environments]] and [[concepts/capabilities|AI capabilities]], allowing developers to maintain their existing workflows while leveraging AI assistance for [[concepts/code-generation|code generation]], [[concepts/debugging|debugging]], and [[concepts/automation|automation]] tasks.
 
 ## Claude Code Integration
 
-Claude Code represents a significant evolution in terminal-based AI coding assistance, with versions like [[concepts/claude-code-20|Claude Code 2.0]] introducing enhanced [[concepts/ai-driven-workflow-automation|workflow automation]] and team collaboration features. These integrations enable developers to invoke Claude's capabilities directly from their command-line environment, reducing context-switching and improving development velocity.
+[[concepts/ai-assisted-coding|Claude Code]] represents a significant evolution in terminal-based [[concepts/ai-coding|AI coding]] assistance, with versions like [[concepts/claude-code-20|Claude Code 2.0]] introducing enhanced [[concepts/ai-driven-workflow-automation|workflow automation]] and team collaboration features. These integrations enable developers to invoke Claude's capabilities directly from their command-line environment, reducing context-switching and improving development velocity.
 
 ## Broader Ecosystem
 
-Terminal Productivity tools extend beyond single integrations to include broader platform connections, such as [[concepts/ai-augmented-workflows|Claude-Obsidian integration]], which creates persistent AI-assisted documentation and [[concepts/knowledge-management|knowledge management]] systems. Tools in this space vary in cost and complexity, with some enterprise-grade solutions like [[concepts/automated-information-pipelines|OpenClaw]] offering [[concepts/ai-agent|autonomous agent]] capabilities at higher price points, while other integrations prioritize [[concepts/accessibility|accessibility]] for non-technical users and teams.
-
+Terminal [[concepts/productivity-tools|Productivity tools]] extend beyond single integrations to include broader platform connections, such as [[concepts/ai-augmented-workflows|Claude-Obsidian integration]], which creates persistent AI-assisted documentation and [[concepts/knowledge-management|knowledge management]] systems. Tools in this space vary in [[concepts/cost|cost]] and complexity, with some enterprise-grade solutions like [[concepts/automated-information-pipelines|OpenClaw]] offering [[concepts/ai-agent|autonomous agent]] capabilities [[concepts/assistive-technology|at]] higher price points, while other integrations prioritize [[concepts/accessibility|accessibility]] for non-technical users and teams.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Claude Code 2.0 Upgrade: Enhanced AI Coding, Workflow Automation, and Team Features

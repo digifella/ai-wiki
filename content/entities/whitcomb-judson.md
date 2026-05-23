@@ -1,24 +1,11 @@
 ---
 type: entity
-tags:
-  - "zipper"
-  - "inventor"
-  - "whitcomb-judson"
-  - "inventor-whitcomb-judson"
-  - "zipper-history"
-  - "clasp-locker-invention"
-  - "1893-worlds-columbian-exposition"
-  - "fastening-device"
-aliases:
-  - "W. Judson"
-  - "Whitcomb J."
-  - "whitcomb_judson"
-summary: "Whitcomb Judson was an American inventor who created the Clasp Locker, a precursor to the modern zipper."
-updated: 2026-04-11
+summary: Whitcomb Judson was an American inventor who created the Clasp Locker, a precursor to the modern zipper.
+updated: 2026-05-23
 ---
 # Whitcomb Judson
 
-Whitcomb Judson was an American inventor best known for inventing a type of [[concepts/zipper-history|fastening device]] that would eventually become the modern zipper. The early version of this invention was called "[[entities/clasp-locker|Clasp Locker]]," which was presented at the 1893 World's Columbian Exposition in Chicago. Despite not being the commercial success it could have been, Judson's innovative [[concepts/design|design]] laid the groundwork for future developments.
+Whitcomb Judson was an American inventor best known for inventing a type of [[concepts/zipper-history|fastening device]] that would eventually become the modern zipper. The early version of this invention was called "[[entities/clasp-locker|Clasp Locker]]," which was presented [[concepts/assistive-technology|at]] the 1893 World's Columbian Exposition in Chicago. Despite not being the commercial success it could have been, Judson's innovative [[concepts/design|design]] laid the groundwork for future developments.
 
 ## Key Points
 - **Invention:** Clasp Locker (later known as zipper)
@@ -37,11 +24,10 @@ Whitcomb Judson was an American inventor best known for inventing a type of [[co
   - **URL:** https://www.youtube.com/watch?v=9szhjhO9epA
 
 Backlinks:
-2026 04 10 From Clasp Locker to YKK The History and Engineering of Zippers
+2026 04 10 From [[entities/clasp-locker|Clasp Locker]] to [[entities/ykk|YKK]] The History and Engineering of [[concepts/zippers|Zippers]]
 
 ## Related Notes
-- 2026 04 10 From Clasp Locker to YKK The History and Engineering of Zippers
-
+- 2026 04 10 From Clasp Locker to [[entities/ykk|YKK]] The History and Engineering of [[concepts/buttons|Zippers]]
 ## Source Notes
 
 - 2026-04-08: [[lab-notes/2026-04-08-From-Clasp-Locker-to-YKK-The-History-and-Engineering-of-Zippers|From Clasp Locker to YKK The History and Engineering of Zippers]] · [▶ source](https://www.youtube.com/watch?v=9szhjhO9epA)

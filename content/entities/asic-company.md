@@ -9,7 +9,7 @@ aliases:
   - "ASIC Company Portal"
   - "Australian Securities and Investments Commission"
 summary: The page records an entry into the ASIC Company Portal using the ACN for Calliston Consultants.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Asic Company
 
@@ -17,4 +17,4 @@ The [[concepts/asic-login-portal|ASIC Company Portal]] is an online service prov
 
 ## Calliston Consultants Entry
 
-On 23 April 2026, an entry was made into the ASIC Company Portal using the ACN for Calliston Consultants. This search returned official position information and associated options through the portal interface. The portal provides details on a company's registration status, key business information, and other regulatory records maintained by ASIC.
+On 23 April 2026, an entry was made into the [[entities/edge-portal|ASIC Company Portal]] using the ACN for Calliston Consultants. This search returned official position information and associated options through the portal interface. The portal provides details on a company's registration status, key business information, and other regulatory records maintained by ASIC.

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: journeys-routes-itineraries
 tags:
   - "rail-journeys"
   - "train-holidays"
@@ -11,11 +10,12 @@ aliases:
   - "Australian train holidays"
   - "Rail journeys Australia"
 summary: Information regarding notable rail journeys and train holidays in Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: journeys-routes-itineraries
 ---
 # Great Train Journey
 
-Great Train Journey refers to notable [[concepts/rail-travel|rail journeys]] and train-based holiday experiences available in Australia. These journeys range from short scenic routes to multi-day expeditions, offering passengers the opportunity to travel through diverse Australian landscapes by rail. Train holidays have become an established tourism category in Australia, combining transportation with leisure and sightseeing.
+Great Train Journey refers to notable [[concepts/rail-travel|rail journeys]] and train-based holiday experiences available in Australia. These journeys [[concepts/range|range]] from short scenic routes to multi-day expeditions, offering passengers the opportunity to travel through diverse Australian landscapes by rail. Train holidays have become an established tourism category in Australia, combining transportation with leisure and sightseeing.
 
 ## Notable Routes and Experiences
 

@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "tallying systems"
-  - "zero"
-  - "history of mathematics"
-  - "philosophy"
-  - "tallying-systems"
-  - "counting-methods"
-  - "history-of-mathematics"
-  - "mathematical-notation"
-  - "notched-counters"
-aliases:
-  - "Tally marks"
-  - "tally sticks"
-  - "notch counters"
-summary: "Tallying systems are simple counting methods that use notches on materials like wood, bone, or stone to represent numerical units."
-updated: 2026-04-17
+summary: Tallying systems are simple counting methods that use notches on materials like wood, bone, or stone to represent numerical units.
+updated: 2026-05-23
 group: probability-statistics-models
 ---
 # Tallying Systems
@@ -30,7 +16,7 @@ group: probability-statistics-models
 The video "Why the number 0 was banned for 1500 years" by [[entities/up-and-atom|Up and Atom]] explores the historical resistance to [[concepts/zero|zero]] in Western [[concepts/mathematics|mathematics]]. Key points include:
 - Early human societies using [[concepts/tallying|tallying]] systems had no concept of [[concepts/zero|zero]].
 - The absence of a symbol for nothing reflects philosophical and cultural barriers rather than practical necessity.
-- Eastern cultures accepted zero earlier, influencing global mathematical development.
+- Eastern cultures accepted [[concepts/concept-of-nothingness|zero]] earlier, influencing global mathematical development.
 
 ### Related Concepts
 - [[concepts/development-of-numerals|history of numbers]]
@@ -39,6 +25,5 @@ The video "Why the number 0 was banned for 1500 years" by [[entities/up-and-atom
 
 ### References
 - [Why the number 0 was banned for 1500 years](https://www.youtube.com/watch?v=ndmwB8F2kxA)
-
 ## Source Notes
 - 2026-04-13: Why the number 0 was banned for 1500 years

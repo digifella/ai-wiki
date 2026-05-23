@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "cookware"
   - "cooking-equipment"
@@ -13,7 +12,8 @@ aliases:
   - "pan selection"
   - "cooking vessel choice"
 summary: The process of selecting appropriate cookware based on cooking method and ingredient requirements.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Pan Choice
 
@@ -25,8 +25,7 @@ The primary considerations in pan choice include the cooking method being employ
 
 ## Material Considerations
 
-Cast iron pans excel at heat retention and even distribution but require seasoning and careful maintenance. Stainless steel offers durability and versatility across various [[concepts/cooking-methods|cooking methods]]. Copper provides superior heat conductivity for precise temperature control. Non-stick surfaces facilitate cooking with minimal oil and easy cleanup but have temperature limitations and durability concerns. The choice between these materials depends on cooking frequency, dish type, and long-term maintenance preferences.
-
+Cast iron pans [[entities/excel|excel]] [[concepts/assistive-technology|at]] heat retention and even distribution but require seasoning and careful maintenance. Stainless steel offers durability and versatility across various [[concepts/cooking-methods|cooking methods]]. Copper provides superior heat conductivity for precise temperature [[concepts/power|control]]. Non-stick surfaces facilitate cooking with minimal oil and easy cleanup but have temperature limitations and durability concerns. The choice between these materials depends on cooking frequency, dish type, and long-term maintenance preferences.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions|Benchmarking SLMs Identifying 4GB General Problem Solving Champions]] · [▶ source](https://www.youtube.com/watch?v=wQxawC3sv68)
 - 2026-04-12: [[lab-notes/2026-04-12-MiniMax-M27-Open-Source-LLM-Technical-Overview-and-Deployment-Summary|MiniMax M27 Open Source LLM Technical Overview and Deployment Summary]] · [▶ source](https://www.youtube.com/watch?v=CUvb-i5niKA)

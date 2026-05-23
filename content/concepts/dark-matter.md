@@ -1,25 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "astrophysics"
-  - "dark-matter"
-  - "black-holes"
-  - "gravity"
-  - "dark-matter-properties"
-  - "gravitational-effects"
-  - "non-luminous-material"
-  - "astrophysical-puzzle"
-  - "cosmic-structure"
-  - "wimps"
-  - "gamma-rays"
-aliases:
-  - "invisible matter"
-  - "missing mass"
-  - "matter unseen"
-  - "cosmic dark substance"
-summary: "Dark matter, constituting about 85% of the universe's total mass, is non-luminous and interacts only through gravity, playing a critical role in gravitational dynamics without forming dense structures like black holes."
-updated: 2026-04-24
+summary: Dark matter, constituting about 85% of the universe's total mass, is non-luminous and interacts only through gravity, playing a critical role in gravitational dynamics without forming dense structures like black holes.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Dark Matter
@@ -41,9 +24,8 @@ Dark matter is a form of matter that does not emit, absorb, or reflect [[concept
 
 ## Recent Observations
 
-- **Potential [[concepts/particle-detection|WIMP Detection]]**: Detection of a potential **WIMP** annihilation signal within the **[[concepts/milky-way|Milky Way]]** via **[[concepts/gamma-rays|gamma rays]]**.
-- **Context**: 2026 04 24 Dark Matter WIMP Annihilation Signal Detected in Milky Way Gamma Rays
-
+- **Potential [[concepts/particle-detection|WIMP Detection]]**: Detection of a potential **[[concepts/wimp|WIMP]]** annihilation signal within the **[[concepts/milky-way|Milky Way]]** via **[[concepts/gamma-rays|gamma rays]]**.
+- **Context**: 2026 04 24 Dark Matter [[concepts/particle-annihilation|WIMP Annihilation]] Signal Detected in Milky Way [[entities/gamma|Gamma]] [[concepts/rays|Rays]]
 ## Source Notes
 - 2026-04-10: Why doesn’t dark matter collapse into black holes?
 - 2026-04-24: Dark Matter WIMP · [▶ source](https://www.youtube.com/watch?v=Sxyps-CIr8A)

@@ -1,13 +1,7 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "manufacturing_difficulties"
-  - "memory_efficiency"
-  - "LLMs"
-  - "AI_industry"
-  - "Google_TurboQuant"
-updated: 2026-04-14
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Manufacturing Difficulties
@@ -20,7 +14,7 @@ Manufacturing difficulties encompass various hurdles encountered when [[concepts
 ### Memory Efficiency Crisis in the AI Industry
 
 - **[[concepts/ram|RAM]] Limitations:** A critical challenge facing the development and [[concepts/deployment|deployment]] of [[concepts/multimodal-ai|advanced AI models]].
-- **Google [[entities/anythingllm|TurboQuant]] Breakthrough:** New method introduced to address [[concepts/memory|memory]] inefficiencies, enabling more effective use of [[concepts/computational-resources|computational resources]] for LLMs. Google_TurboQuant
+- **[[entities/google|Google]] [[entities/anythingllm|TurboQuant]] Breakthrough:** New method introduced to address [[concepts/memory|memory]] inefficiencies, enabling more effective use of [[concepts/computational-resources|computational resources]] for LLMs. Google_TurboQuant
 
 ## Impact on Manufacturing
 The introduction of techniques like [[concepts/model-efficiency|Google's TurboQuant]] can mitigate some manufacturing difficulties by:
@@ -28,13 +22,12 @@ The introduction of techniques like [[concepts/model-efficiency|Google's TurboQu
 - Potentially reducing [[concepts/hardware|hardware]] costs associated with intensive RAM requirements.
 
 ## Related Concepts
-- memory_efficiency
+- [[concepts/memory-efficiency|memory_efficiency]]
 - [[concepts/llms]]
 - [[concepts/ai-industry]]
 - Google_TurboQuant
 
 2026 04 12 [[concepts/google-search|Google]] [[concepts/ai-efficiency|TurboQuant]] [[concepts/memory-crisis|LLM Memory Efficiency]] Breakthrough Industry Impact
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

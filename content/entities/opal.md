@@ -1,16 +1,8 @@
 ---
 type: entity
-tags:
-  - "google-labs"
-  - "no-code"
-  - "ai-tools"
-  - "ai-mini-applications"
-  - "visual-editing"
-  - "software-creation"
-aliases:
-  - "google-opal"
-summary: "An experimental no-code tool from Google Labs for creating and sharing AI-powered mini-applications using natural language descriptions and visual editing."
-updated: 2026-04-24
+summary: An experimental no-code tool from Google Labs for creating and sharing AI-powered mini-applications using natural language descriptions and visual editing.
+updated: 2026-05-23
+stub: true
 ---
 # Opal
 
@@ -23,7 +15,7 @@ An experimental [[concepts/no-code]] tool from [[entities/google-labs]] designed
 **Backlinks**
 - [[concepts/date-2026-04-13|2026]] 04 14 [[entities/opal-labs|Opal Labs]] [[entities/sam-witteveen|Sam Witteveen]]
 
-- 2026-04-10 [2026-04-10-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced](2026-04-10-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md) ← Openclaw Autonomous Ai Agent Setup Configuration And Advanced
-- 2026-04-07 [2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced](2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md) ← Openclaw Autonomous Ai Agent Setup Configuration And Advanced
+- 2026-04-10 [2026-04-10-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced](2026-04-10-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md) ← [[concepts/automated-information-pipelines|Openclaw]] [[concepts/autonomous-ai-agent|Autonomous Ai Agent]] [[concepts/setup|Setup]] Configuration And Advanced
+- 2026-04-07 [2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced](2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md) ← Openclaw Autonomous [[concepts/ai-agent-setup|Ai Agent Setup]] Configuration And Advanced
 - 2026-04-08 [2026-04-08-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced](2026-04-08-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced.md) ← Openclaw Autonomous Ai Agent Setup Configuration And Advanced
 ## Source Notes

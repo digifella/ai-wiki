@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "email-automation"
@@ -13,11 +12,12 @@ aliases:
   - "Gemini Email Scheduling"
   - "Automated Email Tasks"
 summary: Google Gemini's scheduled actions feature enables users to automate and schedule tasks directly within the platform.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Email Automation
 
-Email automation refers to the use of [[concepts/software|software]] tools and platforms to automatically send, schedule, and manage email communications without manual intervention for each message. This functionality allows users to create workflows that trigger emails based on specific conditions, send messages at predetermined times, or execute repetitive email tasks efficiently. Email automation is widely integrated into customer relationship management (CRM) systems, marketing platforms, and general [[concepts/productivity-tools|productivity tools]].
+[[entities/email|Email]] [[concepts/automation|automation]] refers to the use of [[concepts/software|software]] tools and platforms to automatically send, schedule, and manage email communications without manual intervention for each message. This functionality allows users to create workflows that trigger emails based on specific conditions, send messages [[concepts/assistive-technology|at]] predetermined times, or execute repetitive email tasks efficiently. Email automation is widely integrated into customer relationship management (CRM) systems, marketing platforms, and general [[concepts/productivity-tools|productivity tools]].
 
 ## Automation in AI Platforms
 
@@ -25,8 +25,7 @@ Modern AI assistants and productivity platforms have begun incorporating email a
 
 ## Common Applications
 
-Email automation is typically used for customer communications, [[concepts/marketing-campaigns|marketing campaigns]], notification systems, and internal workflow management. Organizations leverage these tools to maintain consistent communication schedules, reduce manual workload, and ensure timely message delivery across teams and customer bases. The integration of automation features into broader productivity platforms continues to expand the [[concepts/accessibility|accessibility]] of these tools to users who may not specialize in marketing or technical fields.
-
+Email automation is typically used for customer communications, [[concepts/marketing-campaigns|marketing campaigns]], notification systems, and internal [[concepts/workflow|workflow]] management. Organizations leverage these tools to maintain consistent communication schedules, reduce manual workload, and ensure timely message delivery across teams and customer [[concepts/number-systems|bases]]. The [[concepts/integration|integration]] of automation features into broader productivity platforms continues to expand the [[concepts/accessibility|accessibility]] of these tools to users who may not specialize in marketing or technical fields.
 ## Source Notes
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-20-Loops-Scheduled-Tasks-Google-Workspace-and-Skills|Claude Code 20 Loops Scheduled Tasks Google Workspace and Skills]] · [▶ source](https://www.youtube.com/watch?v=F4zSxfBe5R0)

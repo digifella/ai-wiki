@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "social-computing"
-  - "ai"
-  - "trends"
-  - "human-computer-interaction"
-  - "multi-agent-orchestration"
-  - "digital-labor-workforce"
-  - "physical-ai"
-  - "group-collaboration"
-summary: "The study of how technology facilitates and transforms social interactions, including the design of systems supporting group collaboration and community dynamics in digital environments."
-updated: 2026-04-16
+summary: The study of how technology facilitates and transforms social interactions, including the design of systems supporting group collaboration and community dynamics in digital environments.
+updated: 2026-05-23
 group: media-society-daily-life
 ---
 # Social Computing
@@ -21,11 +12,10 @@ The study of how technology facilitates and transforms social interactions, incl
 ## IBM AI Trends Predictions (2026)
 
 - **[[concepts/ai-orchestration|Multi-agent Orchestration]]**: A team of [[concepts/agents|agents]] (Planner, Worker, Critic) collaborating under a coordinating "Orchestrator" layer
-- **[[concepts/digital-labor-workforce|Digital Labor Workforce]]**: Autonomous agents parsing tasks, executing workflows, and integrating with systems, with human-in-the-loop oversight
-- **[[concepts/physical-ai|Physical AI]]**: Models interacting with the 3D world ([[concepts/robotics|robotics]]) using "[[concepts/world-foundation-models|World Foundation Models]]" trained in simula
+- **[[concepts/digital-labor-workforce|Digital Labor Workforce]]**: [[concepts/agentic-systems|Autonomous agents]] parsing tasks, executing workflows, and integrating with systems, with human-in-the-[[concepts/loop|loop]] oversight
+- **[[concepts/physical-ai|Physical AI]]**: [[concepts/models|Models]] interacting with the 3D world ([[concepts/robotics|robotics]]) using "[[concepts/world-foundation-models|World Foundation Models]]" trained in simula
 
-2026 04 14 IBM ai tend predictions
-
+2026 04 14 [[entities/ibm|IBM]] ai tend predictions
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

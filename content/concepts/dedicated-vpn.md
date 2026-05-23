@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: privacy-security-guardrails
 tags:
   - "vpn"
   - "nordvpn"
@@ -12,7 +11,8 @@ aliases:
   - "NordVPN Dedicated VPN"
   - "Dedicated VPN Service"
 summary: A concept regarding a dedicated VPN service provided by NordVPN.
-updated: 2026-05-01
+updated: 2026-05-23
+group: privacy-security-guardrails
 ---
 # Dedicated VPN
 
@@ -24,8 +24,7 @@ Dedicated VPN services maintain a consistent IP address for the subscriber's [[c
 
 ## Use Cases
 
-Organizations and individuals utilizing Dedicated VPN typically include those managing remote infrastructure, requiring consistent access to restricted services, or needing to maintain reputation with IP-based security systems. The service addresses limitations that arise from shared VPN infrastructure where blacklisting of problematic IPs can inadvertently impact legitimate users.
-
+Organizations and individuals utilizing Dedicated VPN typically include those managing remote infrastructure, requiring consistent access to restricted services, or needing to maintain reputation with IP-based [[concepts/security|security]] systems. The service addresses limitations that arise from shared VPN infrastructure where blacklisting of problematic IPs can inadvertently impact legitimate users.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-12: [[lab-notes/2026-04-12-Hugging-Face-Platform-Overview-Components-and-Practical-Applications|Hugging Face Platform Overview Components and Practical Applications]] · [▶ source](https://www.youtube.com/watch?v=3kRB2TXewus)

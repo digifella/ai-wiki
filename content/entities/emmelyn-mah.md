@@ -6,8 +6,9 @@ tags:
   - "prestige-online"
   - "k-drama-critic"
   - "culinary-journalism"
-summary: "Emmelyn Mah is a journalist for Prestige Online who covers culinary elements in K-dramas."
-updated: 2026-04-27
+summary: Emmelyn Mah is a journalist for Prestige Online who covers culinary elements in K-dramas.
+updated: 2026-05-23
+stub: true
 ---
 # Emmelyn Mah
 

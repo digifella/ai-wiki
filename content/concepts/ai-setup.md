@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai-setup legal-work professional-output"
-  - "ai-setup-guide"
-  - "legal-ai-customization"
-  - "professional-legal-output"
-  - "efficient-workflow"
-  - "high-stakes-legal"
-aliases:
-  - "AI Setup for Legal"
-  - "Legal AI Optimization"
-  - "Professional Legal AI"
-  - "High-Quality Legal Output"
-summary: "This page provides best practices and custom instructions for setting up AI systems to optimize their performance in legal work."
-updated: 2026-04-11
+summary: This page provides best practices and custom instructions for setting up AI systems to optimize their performance in legal work.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # AI Setup for Professional Legal Work
@@ -28,13 +16,12 @@ This page outlines [[concepts/best-practices|best practices]] and [[concepts/cus
 
 ### Optimizing Setup Process
 
-- **Improvement through [[concepts/ai-workflow|Customization]]**: Utilize specific custom instructions and setup processes tailored to the nuances of legal work.
-- **Enhanced Quality Output**: Move AI-generated content from mediocre quality to professional, partner-level work product.
-- **Efficient Workflow**: Implement a streamlined five-minute setup process for rapid improvements in output quality.
+- **Improvement through [[concepts/ai-workflow|Customization]]**: Utilize specific custom [[concepts/instructions|instructions]] and setup processes tailored to the nuances of legal work.
+- **Enhanced Quality [[concepts/output|Output]]**: Move AI-generated content from mediocre quality to professional, [[concepts/partner-level-work-product|partner-level work product]].
+- **Efficient [[concepts/workflow|Workflow]]**: Implement a streamlined five-minute [[concepts/setup-process|setup process]] for rapid improvements in output quality.
 
 ### References
-- 2026 04 10 Optimizing AI for Legal Work Custom Instructions for Professional Outp
-
+- 2026 04 10 Optimizing AI for Legal Work [[concepts/custom-instructions|Custom Instructions]] for Professional Outp
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

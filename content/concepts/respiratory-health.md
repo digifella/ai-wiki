@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "respiratory-system"
   - "breathing"
@@ -14,7 +13,8 @@ aliases:
   - "Breathing Function"
   - "Respiratory System"
 summary: Respiratory health encompasses the function and wellbeing of the lungs, airways, and oxygen exchange systems in the body.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Respiratory Health
 
@@ -22,7 +22,7 @@ Respiratory health refers to the proper functioning of the lungs, airways, and t
 
 ## Common Factors Affecting Respiratory Health
 
-Multiple factors influence respiratory function, including air quality, smoking [[concepts/exposure|exposure]], physical fitness, and underlying medical conditions. Environmental pollutants, allergens, and infections can impair airway function. Conversely, regular [[concepts/exercise|physical activity]] and avoiding respiratory irritants generally support lung capacity and efficiency. Chronic conditions such as asthma, chronic obstructive pulmonary disease (COPD), and bronchitis can significantly impact respiratory health over time.
+Multiple factors [[concepts/power|influence]] respiratory function, including air quality, smoking [[concepts/exposure|exposure]], physical fitness, and underlying medical conditions. Environmental pollutants, allergens, and infections can impair airway function. Conversely, regular [[concepts/exercise|physical activity]] and avoiding respiratory irritants generally support lung capacity and efficiency. Chronic conditions such as asthma, chronic obstructive pulmonary disease (COPD), and bronchitis can significantly impact respiratory health over time.
 
 ## Maintenance and Support
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: app-builders-no-code-tools
 tags:
   - "notebooklm"
   - "whiteboard-video"
@@ -13,20 +12,20 @@ aliases:
   - "NotebookLM Animated Video Guide"
   - "Whiteboard Video Creation"
 summary: A guide detailing how to create animated whiteboard videos using NotebookLM, Nano Banana Pro, and Pictory.
-updated: 2026-05-01
+updated: 2026-05-23
+group: app-builders-no-code-tools
 ---
 # Notebook
 
-Notebook is a category of digital tools and platforms designed for creating animated [[concepts/whiteboard|whiteboard]] videos through a combination of AI-powered [[concepts/software|applications]]. The primary workflow involves using [[concepts/ai-integrated-notebooks|NotebookLM]] as a content generation and [[concepts/organization|organization]] tool, [[entities/google-nano-banana-pro|Nano Banana Pro]] for processing, and [[concepts/pictory|Pictory]] for [[concepts/video-creation|video creation]] and animation. These tools work together to transform written content or documents into engaging visual presentations.
+Notebook is a category of digital tools and platforms designed for creating animated [[concepts/whiteboard|whiteboard]] videos through a combination of AI-powered [[concepts/software|applications]]. The primary [[concepts/workflow|workflow]] involves using [[concepts/ai-integrated-notebooks|NotebookLM]] as a content generation and [[concepts/organization|organization]] tool, [[entities/google-nano-banana-pro|Nano Banana Pro]] for processing, and [[concepts/pictory|Pictory]] for [[concepts/video-creation|video creation]] and animation. These tools work together to transform written content or documents into engaging visual presentations.
 
 ## Creating Animated Whiteboard Videos
 
-The process begins in NotebookLM, where users log into their accounts and initiate a project for creating animated whiteboard content. NotebookLM serves as the foundation for organizing source material and generating structured content that can be converted into visual formats. From there, the workflow moves to subsequent tools that handle processing and animation, ultimately producing polished whiteboard-style videos suitable for educational, explanatory, or promotional purposes.
+The process begins in [[concepts/notebooklm|NotebookLM]], where users log into their accounts and initiate a project for creating animated whiteboard content. NotebookLM serves as the foundation for organizing source material and generating structured content that can be converted into visual formats. From there, the workflow moves to subsequent tools that handle processing and animation, ultimately producing polished whiteboard-[[concepts/style|style]] videos suitable for educational, explanatory, or promotional purposes.
 
 ## Key Applications
 
-NotebookLM, powered by [[entities/gemini-models|Google Gemini]] technology, provides AI-enhanced note-taking and content synthesis capabilities. Nano Banana Pro and Pictory complement this by handling video processing and animation stages. Together, these platforms enable users without extensive video production experience to create professional-quality animated content from documents, notes, or other source materials.
-
+NotebookLM, powered by [[entities/gemini-models|Google Gemini]] technology, provides AI-enhanced note-taking and content synthesis [[concepts/capabilities|capabilities]]. [[entities/nano-banana-pro|Nano Banana Pro]] and [[entities/pictory|Pictory]] complement this by handling video processing and animation stages. Together, these platforms enable users without extensive video production experience to create professional-quality animated content from documents, [[concepts/notes|notes]], or other source materials.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration|Google Gemini and NotebookLM Key Updates and Enhanced AI Integration]] · [▶ source](https://www.youtube.com/watch?v=6YWPGjqOEmk)
 - 2026-04-08: NotebookLM Mind Maps Are Bad! But Gemini Fixes Them

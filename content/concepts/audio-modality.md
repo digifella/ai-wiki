@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: music-audio-performance
 tags:
   - "concept"
   - "multimodal-ai"
@@ -11,20 +10,20 @@ tags:
 aliases:
   - "audio"
 summary: The concept discusses audio modality within the context of multimodal AI and data processing by large language models.
-updated: 2026-05-01
+updated: 2026-05-23
+group: music-audio-performance
 ---
 # Audio Modality
 
-Audio modality refers to the processing and interpretation of sound and speech data as an input dimension within [[concepts/multimodal-ai-agents|multimodal AI systems]]. In the context of [[concepts/large-language-model-llm|large language models]] and multimodal [[concepts/ai-technologies|artificial intelligence]], audio represents one of several distinct data types—alongside text, [[concepts/images|images]], and video—that these systems can process simultaneously. This capability enables AI systems to analyze and respond to information conveyed through spoken language, music, ambient sound, and other acoustic signals.
+[[concepts/audio|Audio]] [[concepts/modality|modality]] refers to the processing and interpretation of sound and speech data as an input dimension within [[concepts/multimodal-ai-agents|multimodal AI systems]]. In the context of [[concepts/large-language-model-llm|large language models]] and multimodal [[concepts/ai-technologies|artificial intelligence]], audio represents one of several distinct data types—alongside [[concepts/text|text]], [[concepts/images|images]], and video—that these systems can process simultaneously. This capability enables AI systems to analyze and respond to information conveyed through spoken language, music, ambient sound, and other acoustic signals.
 
-## Integration with Multimodal Systems
+## Processing and Integration
 
-Within [[concepts/multimodal-ai|multimodal AI]] frameworks, audio modality functions alongside other input channels to provide more comprehensive information processing. Rather than operating in isolation, audio data is integrated with visual and textual inputs to create richer [[concepts/contextual-understanding|contextual understanding]]. For example, a system might simultaneously process the words spoken in a video, the acoustic characteristics of the [[entities/speaker|speaker]]'s voice, and visual elements of the scene. This integration allows AI systems to capture nuances that would be lost if any single [[concepts/modality|modality]] were considered alone, such as tone, emphasis, and emotional context conveyed through speech patterns.
+Audio modality functions as a parallel input channel that operates alongside other modalities in integrated AI architectures. When a system receives audio input, specialized processing components—such as [[concepts/speech-recognition|speech recognition]] models or audio feature extractors—convert acoustic data into representations that the larger model can interpret. These representations are then combined with information from other modalities, allowing the system to [[entities/make|make]] decisions or generate [[concepts/responses|responses]] based on multiple forms of information presented concurrently. This multimodal approach can improve [[concepts/accuracy|accuracy]] and context understanding compared to processing a single modality in isolation.
 
-## Applications in Entertainment and Gaming
+## Applications in Gaming and Entertainment
 
-In entertainment and gaming contexts, audio modality enables more sophisticated interactions between players and AI systems. Voice [[concepts/commands|commands]], [[concepts/dialogue|dialogue]]-driven gameplay, and real-time [[concepts/speech-recognition|speech recognition]] enhance user engagement and create more natural interfaces. Audio analysis can also support game design by processing ambient sound effects, music composition, and voice acting to inform adaptive gameplay mechanics or improve [[concepts/user-experience-design|user experience]] through dynamic audio [[concepts/responses|responses]].
-
+In entertainment and [[concepts/gaming|gaming]] contexts, audio modality enables more natural player interactions and richer game experiences. Systems can respond to [[concepts/tone|voice]] [[concepts/commands|commands]], analyze in-game [[concepts/dialogue|dialogue]], or interpret ambient sound cues that convey narrative or environmental information. This [[concepts/integration|integration]] allows AI agents to understand context that spans both what players say and how they say it, while simultaneously processing visual and other environmental data.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Multimodal-AI-Concepts-Approaches-and-Data-Processing-by-LLMs|Multimodal AI Concepts Approaches and Data Processing by LLMs]] · [▶ source](https://www.youtube.com/watch?v=J51oZYcNvP8)
 - 2026-04-21: Google DeepMind

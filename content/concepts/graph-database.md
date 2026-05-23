@@ -1,18 +1,12 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "graph-database"
-  - "knowledge-graph"
-  - "neo4j"
-  - "llm"
-  - "rag"
-updated: 2026-04-15
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # Graph Database
 
-A graph database is a specialized data [[entities/storage|storage]] system optimized for managing and querying interconnected data using **[[concepts/nodes|nodes]]** (entities), **edges** ([[concepts/relationships|relationships]]), and **properties** (attributes). Unlike relational databases, it excels at handling complex, multi-hop relationships with minimal performance overhead.
+A graph database is a specialized data [[entities/storage|storage]] system optimized for managing and querying interconnected data using **[[concepts/nodes|nodes]]** (entities), **edges** ([[concepts/relationships|relationships]]), and **properties** (attributes). Unlike relational databases, it excels [[concepts/assistive-technology|at]] handling complex, multi-hop relationships with minimal performance overhead.
 
 ## Core Characteristics
 - **Schema flexibility**: No rigid table structures; relationships define [[concepts/data-management|data organization]]
@@ -36,11 +30,10 @@ A graph database is a specialized data [[entities/storage|storage]] system optim
 ## Related Concepts
 - [[concepts/vector-store|Knowledge Graph]]: [[concepts/structured-representation|Structured representation]] of interconnected facts
 - [[entities/neo4j|Neo4j]]: Leading [[concepts/open-source|open-source]] graph database platform
-- [[concepts/rag]]: Retrieval-Augmented Generation for LLMs
+- [[concepts/rag]]: [[concepts/answer-generation|Retrieval-Augmented Generation]] for LLMs
 - LLM: [[concepts/large-language-models|Large Language Models]] for knowledge extraction
 
-Backlink: 2026 04 14 Cocoindex channel and knowledge Graphs for [[concepts/llm-rag|LLM RAG]]
-
+Backlink: 2026 04 14 Cocoindex channel and [[concepts/knowledge-graphs|knowledge Graphs]] for [[concepts/llm-rag|LLM RAG]]
 ## Source Notes
 - 2026-04-20: [[lab-notes/2026-04-20-Larql-Querying-and-Modifying-LLM-Internal-Database-Structures|Larql Querying and Modifying LLM Internal Database Structures]] · [▶ source](https://www.youtube.com/watch?v=8Ppw8254nLI)
 - 2026-04-27: AI Context Layer Architectures: Karpathy

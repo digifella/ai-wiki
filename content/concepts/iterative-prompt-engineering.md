@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "prompt-engineering"
-  - "generative-ai"
-  - "workflow-optimization"
-  - "ai-video-production"
-  - "model-optimization"
-aliases:
-  - "prompt refinement"
-  - "cyclical prompting"
-summary: "A cyclical refinement methodology used to optimize generative model outputs through the repeated adjustment of linguistic inputs, structural constraints, and parameters."
-updated: 2026-04-26
+summary: A cyclical refinement methodology used to optimize generative model outputs through the repeated adjustment of linguistic inputs, structural constraints, and parameters.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Iterative Prompt Engineering
@@ -21,13 +12,12 @@ A cyclical refinement methodology used to optimize generative model outputs thro
 ### Key Applications & Observations
 - **Advanced [[concepts/professional-commercial-production|AI Video Production]]**: Utilized as a core [[concepts/workflow|workflow]] to manage temporal [[concepts/logical-consistency|consistency]] and visual fidelity in high-end video synthesis.
 - **Model-Specific Optimization**:
-	- Critical for leveraging [[entities/gpt-image-2|GPT Image 2]], specifically for maximizing its superior capabilities in [[concepts/text-realism|Text Realism]] and UI Rendering.
+	- Critical for leveraging [[entities/gpt-image-2|GPT Image 2]], specifically for maximizing its superior [[concepts/capabilities|capabilities]] in [[concepts/text-realism|Text Realism]] and UI Rendering.
 	- Used to navigate performance deltas between emerging architectures, such as comparing [[entities/gpt-image-2|GPT Image 2]] against [[entities/nano-banana-pro]].
-- **Precision Control**: Enables the [[concepts/fine-tuning|fine-tuning]] of complex visual elements that standard single-pass [[concepts/prompting|prompting]] fails to capture.
+- **Precision [[concepts/power|Control]]**: Enables the [[concepts/fine-tuning|fine-tuning]] of complex visual elements that standard single-pass [[concepts/prompting|prompting]] fails to capture.
 
 ### Related Research
 - 2026 04 25 Advanced [[concepts/ai-film-direction|AI Video Production]] Using GPT Image 2 and Iterative [[concepts/prompt-based-modeling|Prompt Engineering]]
-
 ## Source Notes
 
 - 2026-04-25: [[lab-notes/2026-04-25-Advanced-AI-Video-Production-Using-GPT-Image-2-and-Iterative-Prompt-Engineering|Advanced AI Video Production Using GPT Image 2 and Iterative Prompt Engineering]] · [▶ source](https://www.youtube.com/watch?v=XdQq90Ug8eY)

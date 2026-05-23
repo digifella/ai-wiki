@@ -11,8 +11,8 @@ tags:
 aliases:
   - "scale-chord-interplay"
   - "harmonic-relationships"
-summary: "The structural interplay between scales, chords, and harmony dictates the tonal movement and emotional character of a melody."
-updated: 2026-04-27
+summary: The structural interplay between scales, chords, and harmony dictates the tonal movement and emotional character of a melody.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Scale relationships
@@ -25,7 +25,6 @@ The structural interplay between [[concepts/musical-scales|Scales]], Chords, and
 
 ## Related Sources
 - 2026 04 27 [[concepts/music-chords|Music Chords]] Foundations Anatomy Harmony and Scale Relat
-
 ## Source Notes
 - 2026-04-08: How Sharks Lost Their Buzzsaws, Anvils, and Spikes
 - 2026-04-27: [[lab-notes/2026-04-27-Music-Chords-Foundations-Anatomy-Harmony-and-Scale-Relat|Music Chords: Foundations, Anatomy, Harmony, and Scale Relationships]] · [▶ source](https://www.youtube.com/watch?v=Uyr-GogTrls)

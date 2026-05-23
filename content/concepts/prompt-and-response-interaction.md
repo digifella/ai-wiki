@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "prompt-engineering"
@@ -13,7 +12,8 @@ aliases:
   - "Claude Genius Mode"
   - "AI Prompt Strategies"
 summary: Techniques for structuring prompts and responses to enhance Claude AI's reasoning capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Prompt And Response Interaction
 
@@ -21,7 +21,7 @@ Prompt and response interaction refers to the structured exchange of information
 
 ## Prompt Structure
 
-Well-structured prompts establish context before making requests, clearly delineate the task or question, and specify constraints or preferences for the response format. Including relevant background information, examples, or analogies helps Claude understand the domain and expectations. Prompts that explicitly ask Claude to reason through a problem step-by-step or to consider multiple perspectives tend to produce more thorough analysis than open-ended requests.
+Well-structured prompts establish context before making requests, clearly delineate the task or question, and specify constraints or preferences for the response format. Including relevant background information, examples, or analogies helps [[concepts/claude|Claude]] understand the domain and expectations. Prompts that explicitly ask Claude to reason through a problem step-by-step or to consider multiple perspectives tend to produce more thorough analysis than open-ended requests.
 
 ## Response Iteration
 
@@ -29,7 +29,6 @@ The interaction extends beyond a single exchange. Building on Claude's responses
 
 ## Practical Application
 
-Effective prompt and response interaction is particularly valuable for [[concepts/complex-reasoning|complex reasoning]] tasks such as [[concepts/problem-solving|problem-solving]], research synthesis, strategic planning, and technical analysis. The technique requires intentional engagement rather than passive consumption of AI-generated output, positioning Claude as a [[concepts/human-cognition|thinking]] partner rather than an answer machine.
-
+Effective prompt and response interaction is particularly valuable for [[concepts/complex-reasoning|complex reasoning]] tasks such as [[concepts/problem-solving|problem-solving]], research synthesis, strategic planning, and technical analysis. The technique requires intentional engagement rather than passive consumption of AI-generated [[concepts/output|output]], positioning Claude as a [[concepts/human-cognition|thinking]] partner rather than an answer machine.
 ## Source Notes
 - 2026-04-24: Strategies to Transform Claude AI · [▶ source](https://www.youtube.com/watch?v=c68ha7pY9aE)

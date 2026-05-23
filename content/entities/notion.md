@@ -1,15 +1,8 @@
 ---
 type: entity
-tags:
-  - "software"
-  - "productivity"
-  - "workspace"
-  - "ai-workflows"
-  - "project-management"
-  - "knowledge-management"
-  - "documentation"
-summary: "Notion is a collaborative workspace used for documentation, project management, and knowledge management."
-updated: 2026-04-26
+summary: Notion is a collaborative workspace used for documentation, project management, and knowledge management.
+updated: 2026-05-23
+stub: true
 ---
 # Notion
 
@@ -21,7 +14,6 @@ A collaborative workspace for documentation, Project Management, and [[concepts/
 - [[entities/gpt-image-2|GPT Image 2]] — [[concepts/json-prompting-workflow|JSON Prompting Workflow]] and [[concepts/storyboard-method|Storyboard Method]]
 	- Utilizes [[concepts/json]] and Storyboard Method workflows.
 	- Accessible via Web Ingestion and [[concepts/markdown]]-formatted captures.
-
 ## Source Notes
 - 2026-04-26: [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]] · [▶ source](https://www.notion.so/GPT-Image-2-JSON-Prompting-Workflow-and-Storyboard-Method-34a606421d128009acc7c617695ac68e)
 - 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)

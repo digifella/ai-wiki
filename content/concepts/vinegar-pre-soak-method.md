@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "poached-eggs"
   - "vinegar-cooking"
@@ -12,7 +11,8 @@ aliases:
   - "Vinegar Soak for Poached Eggs"
   - "Papa Mau's Poached Egg Method"
 summary: A method involving a vinegar pre-soak used to prepare poached eggs.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Vinegar Pre Soak Method
 

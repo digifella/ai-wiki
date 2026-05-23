@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "image-editing"
-  - "color"
-  - "camera-raw"
-  - "adobe"
-  - "variance-slider"
-  - "color-selection"
-  - "luminance-range"
-aliases:
-  - "color range"
-  - "adjustment spectrum"
-summary: "In image editing, range refers to the spectrum of values, such as color or luminance, targeted by adjustments and controlled via a variance slider."
-updated: 2026-04-14
+summary: In image editing, range refers to the spectrum of values, such as color or luminance, targeted by adjustments and controlled via a variance slider.
+updated: 2026-05-23
 group: scientific-modelling-discovery
 ---
 # Range
@@ -21,13 +10,12 @@ group: scientific-modelling-discovery
 In [[concepts/image-editing]], **Range** denotes the spectrum of values (e.g., color, luminance) within which [[concepts/adjustments|adjustments]] apply. A **[[concepts/color-contrast|variance slider]]** extends this by defining the tolerance for variation from a selected reference point.
 
 - **Color Selection**: Using the [[concepts/eyedropper-tool|eyedropper tool]] to define a base color (e.g., green from trees) as the center of the range.
-- **Variance Control**: Adjusting the variance slider to expand or contract the range of affected colors (e.g., including only precise hues or a broader spectrum of similar colors within Adobe [[concepts/camera-raw|Camera Raw]]'s [[concepts/point-color]] feature).
+- **Variance [[concepts/power|Control]]**: Adjusting the variance slider to expand or contract the range of affected colors (e.g., including only precise hues or a broader spectrum of similar colors within [[entities/adobe|Adobe]] [[concepts/camera-raw|Camera Raw]]'s [[concepts/point-color]] feature).
 - **[[entities/adobe-camera-raw|Adobe Camera Raw]] (Early Access)**: The **Variance** tool, located in the **[[concepts/point-color|Point Color]]** section of the **[[concepts/color-mixer|Color Mixer]]**, allows users to control the range of colors affected by a [[concepts/point-color|Point Color]] adjustment after sampling a specific color.
 
 2026 04 14 New [[concepts/variance-filter|Camera Raw Variance filter]]
 
-[[concepts/date-2026-04-13|2026]] 04 14 [[entities/julianne-kost|Julianne Kost]] using the new variance slider in Camera Raw
-
+[[concepts/date-2026-04-13|2026]] 04 14 [[entities/julianne-kost|Julianne Kost]] using the new variance slider in [[entities/camera-raw-filter|Camera Raw]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware|DeepSeek Engram Solving LLM Inefficiency Through Context Aware]] · [▶ source](https://www.youtube.com/watch?v=DmtoVnTkQnM)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

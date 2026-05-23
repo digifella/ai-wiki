@@ -1,22 +1,10 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "automotive"
-  - "engine"
-  - "mechanics"
-  - "sensors"
-  - "automotive-mechanics"
-  - "lubrication-system"
-  - "internal-combustion-engine"
-  - "engine-monitoring"
-  - "vehicle-safety"
-aliases:
-  - "oil pressure alert"
-  - "low oil pressure indicator"
-summary: "A dashboard indicator that signals a drop in oil pressure within an internal combustion engine to prevent mechanical failure."
-updated: 2026-04-26
+summary: A dashboard indicator that signals a drop in oil pressure within an internal combustion engine to prevent mechanical failure.
+updated: 2026-05-23
 group: physics-fundamental-theory
+stub: true
 ---
 # Oil pressure warning light
 
@@ -29,6 +17,5 @@ An indicator on a vehicle's dashboard signaling a drop in [[concepts/oil-pressur
 
 ### Sources
 - 2026 04 23 Engine Survival The Critical Role of Oil Pressure and Warning Lights
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

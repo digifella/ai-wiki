@@ -11,7 +11,7 @@ aliases:
   - "Flight TK1849"
   - "Melbourne to Bangkok"
 summary: Flight Tk1849 travels from Melbourne to Bangkok with an overnight stopover in Istanbul.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Tk1849 Airline
 
@@ -19,7 +19,7 @@ Tk1849 is a scheduled flight service operating between [[concepts/melbourne-regi
 
 ## Route and Schedule
 
-The flight departs Melbourne at 13:20 and arrives in Istanbul at 05:15 the following morning. Passengers remain in Istanbul overnight before continuing to Bangkok. The service is operated by [[entities/jq29-airline|JQ29 Airline]] under flight designation Tk1849.
+The flight departs Melbourne [[concepts/assistive-technology|at]] 13:20 and arrives in Istanbul at 05:15 the following morning. Passengers remain in Istanbul overnight before continuing to Bangkok. The service is operated by [[entities/jq29-airline|JQ29 Airline]] under flight designation Tk1849.
 
 ## Booking Details
 

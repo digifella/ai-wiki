@@ -1,24 +1,12 @@
 ---
 type: entity
-tags:
-  - "k-drama"
-  - "food"
-  - "Korean culture"
-  - "web novel adaptation"
-  - "author"
-  - "historical-fiction"
-  - "web-novel-adaptation"
-  - "korean-culture"
-  - "culinary-fiction"
-aliases:
-  - "Park Kook-jae"
-summary: "Park Kook-jae is an author known for historical fiction and culinary-themed works, including the web novel Surviving as Yeonsan-gun's Chef, adapted into the Netflix K-drama Bon Appétit, Your Majesty."
-updated: 2026-04-13
+summary: Park Kook-jae is an author known for historical fiction and culinary-themed works, including the web novel Surviving as Yeonsan-gun's Chef, adapted into the Netflix K-drama Bon Appétit, Your Majesty.
+updated: 2026-05-23
 ---
 # Park Kook-jae
 
 ## Overview
-Park Kook-jae is a notable author known for his works that blend historical fiction with culinary themes. His most celebrated work is the web novel *[[entities/bon-appétit-your-majesty|Surviving as Yeonsan-gun's Chef]]*, which has been adapted into the Netflix K-drama **[[entities/bon-appétit|Bon Appétit]], [[entities/your-majesty|Your Majesty]]**.
+Park Kook-jae is a notable author known for his works that blend historical fiction with culinary themes. His most celebrated work is the web novel *[[entities/bon-appétit-your-majesty|Surviving as Yeonsan-gun's Chef]]*, which has been adapted into the [[concepts/netflix|Netflix]] K-drama **[[entities/bon-appétit|Bon Appétit]], [[entities/your-majesty|Your Majesty]]**.
 
 ## Notable Works
 * *[[entities/your-majesty|Surviving as Yeonsan-gun's Chef]]* (web novel)

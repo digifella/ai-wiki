@@ -1,7 +1,8 @@
 ---
 type: entity
-updated: 2026-04-14
-summary: "Adam Lucek specializes in AI image generation using FLUX.1 LoRA adapters and provides tutorials on RAG mechanics, embedding model fine-tuning, domain-specific data optimization, and optimal RAG chunking strategies with C"
+summary: Adam Lucek specializes in AI image generation using FLUX.1 LoRA adapters and provides tutorials on RAG mechanics, embedding model fine-tuning, domain-specific data optimization, and optimal RAG chunking strategies with C
+updated: 2026-05-23
+stub: true
 ---
 ---
 
@@ -11,8 +12,8 @@ summary: "Adam Lucek specializes in AI image generation using FLUX.1 LoRA adapte
   - "lora"
   - "black-forest-[[entities/labs|labs]]"
   - "low-[[concepts/vram|vram]]"
-  - "ai-image-generation"
-  - "flux-models"
+  - "[[concepts/image-translation|ai-image-generation]]"
+  - "flux-[[concepts/models|models]]"
   - "lora-[[concepts/training|training]]"
   - "rag-mechanics"
   - "[[concepts/rag-embedding|rag-embedding]]"
@@ -23,7 +24,7 @@ summary: "Adam Lucek specializes in AI image generation using FLUX.1 LoRA adapte
   - "chromadb"
   - "[[concepts/quantisation|quantisation]]"
   - "[[concepts/large-language-models|large-language-models]]"
-  - "nvidia"
+  - "[[entities/nvidia|nvidia]]"
   - "[[entities/nemotron|nemotron]]"
   - "[[concepts/parameters|parameters]]"
 - "2026 04 14 Adam Lucek [[concepts/quantisation|quantisation]] of LLM"
@@ -36,7 +37,7 @@ Adam Lucek is known for his practical implementations in [[concepts/ai-image-gen
   - Explains [[concepts/quantisation|quantisation]] for [[concepts/large-language-models|LLMs]] like NVIDIA's [[entities/llama|Llama]] 3.1 [[entities/nemotron|Nemotron]] 70B (70.6 billion [[concepts/parameters|parameters]])
   - Covers [[concepts/storage-requirements|storage requirements]] (e.g., 30+ GB)
 
-- 2026-04-24 [2026-04-24-DeepSeek-V4-Next-Gen-Open-Source-LLM-Performance-and-Efficiency-Analysis](2026-04-24-DeepSeek-V4-Next-Gen-Open-Source-LLM-Performance-and-Efficiency-Analysis.md) ← Deepseek V4 Next Gen Open Source Llm Performance And Efficiency Analysis
-- 2026-04-30 [2026-04-30-NVIDIA-Nemotron-3-Nano-Omni-Unified-Multimodal-AI-Agent](2026-04-30-NVIDIA-Nemotron-3-Nano-Omni-Unified-Multimodal-AI-Agent.md) ← Nvidia Nemotron 3 Nano Omni Unified Multimodal Ai Agent
-- 2026-04-10 [2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test](2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test.md) ← Bonzai 8B Prismmls Revolutionary 1 Bit Llm First Look Test
+- 2026-04-24 [2026-04-24-DeepSeek-V4-Next-Gen-Open-Source-LLM-Performance-and-Efficiency-Analysis](2026-04-24-DeepSeek-V4-Next-Gen-Open-Source-LLM-Performance-and-Efficiency-Analysis.md) ← [[entities/deepseek-v4|Deepseek V4]] Next Gen [[concepts/open-source|Open Source]] Llm Performance And Efficiency Analysis
+- 2026-04-30 [2026-04-30-NVIDIA-Nemotron-3-Nano-Omni-Unified-Multimodal-AI-Agent](2026-04-30-NVIDIA-Nemotron-3-Nano-Omni-Unified-Multimodal-AI-Agent.md) ← Nvidia [[concepts/nemotron-3-nano-model|Nemotron 3 Nano Omni]] Unified [[concepts/multimodal-ai|Multimodal Ai]] [[entities/agent|Agent]]
+- 2026-04-10 [2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test](2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test.md) ← [[entities/bonzai-8b|Bonzai 8B]] Prismmls Revolutionary [[concepts/1-bit-llm|1 Bit Llm]] First Look Test
 ## Source Notes

@@ -1,12 +1,8 @@
 ---
-domain: history-anthropology
-group: everyday-objects-material-culture
 type: concept
-tags:
-  - "object-segmentation"
-  - "computer-vision"
-  - "video-understanding"
-updated: 2026-04-14
+domain: history-anthropology
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Object segmentation
 
@@ -18,6 +14,5 @@ Object segmentation identifies and delineates individual objects within an image
 - **[[concepts/local-deployment|Local deployment]]**: [Fahd Mirza's guide](https://www.youtube.com/watch?v=OZnfsJjLH5k) details [[concepts/local-installation|local installation]] for video object reference tasks.
 
 2026 04 14 [[entities/fahd-mirza|Fahd Mirza]] Videorefer model [[concepts/running|running]] locally
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

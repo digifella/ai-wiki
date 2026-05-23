@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "software-engineering"
-  - "ai-agents"
-  - "automation"
-  - "autonomy"
-  - "self-modifying-code"
-  - "agentic-ai"
-  - "code-generation"
-  - "autonomous-development"
-aliases:
-  - "self-evolving-software"
-  - "autonomous-code-optimization"
-summary: "The capability of software systems to independently iterate upon, optimize, and modify their own source code and logic without direct human intervention."
-updated: 2026-04-26
+summary: The capability of software systems to independently iterate upon, optimize, and modify their own source code and logic without direct human intervention.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Autonomous software improvement
@@ -29,9 +17,8 @@ The capability of [[concepts/software|software]] systems to independently iterat
 ## Trends & Observations
 - Massive shift in development paradigms: Projections suggest >41% of global code [[entities/will|will]] be [[concepts/ai-generated-code]] by [[concepts/date-2026-04-13|2026]].
 - Emergence of specialized [[concepts/agents|agents]] for autonomous development:
-    - Karpathy's [[concepts/autoresearch|AutoResearch]]: An [[concepts/open-source|open-source]] [[concepts/financial-analyst-ai|AI Agent]] facilitating independent [[concepts/llm]] program improvement.
-        - Reference: 2026 04 26 Karpathys AutoResearch An AI Agent for Independent LLM Program Improvement
-
+    - [[entities/andre-karpathy|Karpathy]]'s [[concepts/autoresearch|AutoResearch]]: An [[concepts/open-source|open-source]] [[concepts/financial-analyst-ai|AI Agent]] facilitating independent [[concepts/llm]] program improvement.
+        - Reference: 2026 04 26 Karpathys [[concepts/automated-code-modification|AutoResearch]] An [[concepts/ai-agent|AI Agent]] for Independent [[concepts/llm-program-improvement|LLM Program Improvement]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]

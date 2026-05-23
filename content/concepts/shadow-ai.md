@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "governance"
-  - "enterprise"
-  - "ai-governance"
-  - "enterprise-ai"
-  - "ai-security"
-  - "data-leakage"
-  - "unauthorized-ai"
-  - "it-compliance"
-aliases:
-  - "unauthorized AI"
-  - "unsanctioned AI"
-summary: "Shadow AI refers to unauthorized or undiscovered artificial intelligence projects operating within corporate environments without formal approval or oversight."
-updated: 2026-04-16
+summary: Shadow AI refers to unauthorized or undiscovered artificial intelligence projects operating within corporate environments without formal approval or oversight.
+updated: 2026-05-23
 group: safety-guardrails-governance
 ---
 # Shadow AI
@@ -24,12 +11,12 @@ group: safety-guardrails-governance
 
 **Risks**:
 - [[concepts/security|Security]] vulnerabilities from unsanctioned AI tool usage
-- [[concepts/data-leakage|Data leakage]] and intellectual property [[concepts/exposure|exposure]]
+- [[concepts/data-leakage|Data leakage]] and [[concepts/intellectual-property-rights|intellectual property]] [[concepts/exposure|exposure]]
 - [[concepts/compliance|Compliance]] failures due to unmonitored AI [[concepts/deployment|deployment]]
 - Inconsistent AI model quality and [[concepts/ethics|ethics]]
 
 **Management Strategy** (per [[entities/ibm]]'s [[entities/jeff-crume|Jeff Crume]]):
-- Implement proactive monitoring to identify shadow AI instances
+- Implement proactive monitoring to identify [[concepts/shadow-it|shadow AI]] instances
 - Establish clear AI usage [[concepts/policies|policies]] with sanctioned alternatives
 - Foster cross-functional collaboration between business units and IT
 - Create transparent [[concepts/governance|governance]] frameworks for AI [[concepts/adoption|adoption]]
@@ -41,7 +28,6 @@ group: safety-guardrails-governance
 - Unsanctioned Technology
 
 2026 04 14 IBM Shadow ai
-
 ## Source Notes
 
 - 2026-04-07: Photoshop Beta

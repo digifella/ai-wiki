@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "agent"
-  - "instruction"
-  - "workflow"
-updated: 2026-04-15
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Instruction Sets
@@ -19,19 +14,18 @@ Reusable, structured collections of [[concepts/instructions|instructions]] defin
 - **Modular**: Organized as folders (e.g., [[concepts/claude-code]])
 
 ## Example: Claude Skills
-[[concepts/instruction-reuse|Claude Skills]] ([[concepts/agent-skills|Agent Skills]]) are a specific implementation:
+[[concepts/instruction-reuse|Claude Skills]] ([[concepts/agent-skills|Agent Skills]]) are a specific [[concepts/adoption|implementation]]:
 - **Reusable instruction manuals**: Folders containing instructions, scripts, and resources teaching [[concepts/claude-ai|Claude]] *how* to perform tasks, what tools to use, and what standards to follow
-- **Structured format**: Typically includes `skill.json` and supporting files
+- **Structured format**: Typically includes `skill.json` and supporting [[concepts/files|files]]
 
-See [[entities/grace-leung|Grace Leung]] Claude skills for detailed implementation examples.
+See [[entities/grace-leung|Grace Leung]] [[concepts/progressive-disclosure|Claude skills]] for detailed implementation examples.
 
 ## Related
-- AI Agent
+- [[entities/agent|AI Agent]]
 - [[concepts/workflow-automation]]
 - [[entities/prompt-engineering]]
 
 2026 04 14 [[entities/grace-leung|Grace Leung]] Claude skills
-
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

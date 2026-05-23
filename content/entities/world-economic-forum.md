@@ -1,20 +1,7 @@
 ---
 type: entity
-tags:
-  - "World Economic Forum"
-  - "Mental Health"
-  - "Student Well-being"
-  - "Psychological Science"
-  - "world-economic-forum"
-  - "mental-health"
-  - "student-well-being"
-  - "psychological-science"
-  - "climate-change"
-aliases:
-  - "WEF"
-  - "Davos Forum"
-summary: "The World Economic Forum is an international organization that facilitates public-private cooperation and addresses global challenges through dialogue."
-updated: 2026-04-12
+summary: The World Economic Forum is an international organization that facilitates public-private cooperation and addresses global challenges through dialogue.
+updated: 2026-05-23
 ---
 # World Economic Forum
 
@@ -27,7 +14,7 @@ The World Economic Forum (WEF) is an international [[concepts/organization|organ
 
 ### Notable Events and Discussions
 - **[[entities/laurie-santos|Laurie Santos]] on [[concepts/happiness|Happiness]]: Student [[concepts/mental-health|Mental Health]] and [[concepts/wellbeing|Well-being]] Misconceptions**
-  - Clip title: What [[concepts/psychology|psychological science]] says about [[concepts/happiness|happiness]] | [[entities/laurie-santos|Laurie Santos]]
+  - [[concepts/clip-title|Clip title]]: What [[concepts/psychology|psychological science]] says about [[concepts/happiness|happiness]] | [[entities/laurie-santos|Laurie Santos]]
   - Author / channel: World Economic Forum
   - URL: https://www.youtube.com/watch?v=HStWtmSCAS8
 
@@ -40,7 +27,6 @@ The World Economic Forum (WEF) is an international [[concepts/organization|organ
 - student-[[concepts/wellbeing|well-being]]
 - [[concepts/psychology|psychology]]
 
-2026 04 11 Laurie Santos on Happiness Student Mental Health and Well being Miscon
-
+2026 04 11 Laurie Santos on Happiness Student Mental [[concepts/health|Health]] and Well being Miscon
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Laurie-Santos-on-Happiness-Student-Mental-Health-and-Well-being-Miscon|Laurie Santos on Happiness Student Mental Health and Well being Miscon]] · [▶ source](https://www.youtube.com/watch?v=HStWtmSCAS8)

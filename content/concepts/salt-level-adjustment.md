@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: food-science-nutrition-ingredients
 tags:
   - "salt-reduction"
   - "seasoning-adjustment"
@@ -14,11 +13,12 @@ aliases:
   - "salt reduction"
   - "seasoning balance"
 summary: The process of modifying salt content in food to achieve desired flavor intensity and nutritional targets.
-updated: 2026-05-01
+updated: 2026-05-23
+group: food-science-nutrition-ingredients
 ---
 # Salt Level Adjustment
 
-Salt level adjustment refers to the deliberate modification of sodium chloride content in food products during [[concepts/preparation|preparation]], processing, or formulation. This practice serves two primary purposes: controlling the intensity of salty flavor to meet consumer preferences and culinary objectives, and managing sodium intake for nutritional and [[concepts/health|health]] considerations. The adjustment can occur at multiple stages, from initial recipe development and ingredient selection through cooking, seasoning, and final plating.
+Salt level adjustment refers to the deliberate modification of sodium chloride content in food products during [[concepts/preparation|preparation]], processing, or formulation. This practice serves two primary purposes: controlling the intensity of salty flavor to meet consumer preferences and culinary objectives, and managing sodium intake for nutritional and [[concepts/health|health]] considerations. The adjustment can occur [[concepts/assistive-technology|at]] multiple stages, from initial recipe development and ingredient selection through cooking, seasoning, and final plating.
 
 ## Methods and Techniques
 

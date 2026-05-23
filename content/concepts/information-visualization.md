@@ -1,16 +1,10 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "information-visualization"
-  - "ai-tools"
-  - "mind-maps"
-  - "gemini-ai"
-  - "notebooklm"
-summary: "Information visualization is a method for representing abstract data in visual or graphical formats to aid understanding and communication."
-updated: 2026-04-11
+summary: Information visualization is a method for representing abstract data in visual or graphical formats to aid understanding and communication.
+updated: 2026-05-23
 group: interactive-visualisation
-title: "Information Visualization"
+title: Information Visualization
 ---
 # Information Visualization
 
@@ -37,7 +31,6 @@ title: "Information Visualization"
 ## Related Concepts
 data-visualization
 interactive-data-tools
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-08: How to Turn a NotebookLM Infographic into an Interactive

@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: science-physics
 tags:
   - "ai-governance"
   - "healthcare"
@@ -8,9 +8,9 @@ tags:
   - "research-methodology"
   - "healthcare-research"
   - "triangulation"
-summary: "A research methodology that combines multiple methods or approaches to address complex problems by leveraging their respective strengths and mitigating individual limitations."
-updated: 2026-04-28
-group: ai-foundations-concepts
+summary: A research methodology that combines multiple methods or approaches to address complex problems by leveraging their respective strengths and mitigating individual limitations.
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Multimethod Approach
 
@@ -29,7 +29,7 @@ A research methodology that combines multiple [[concepts/methods|methods]] or ap
 ## Related Concepts
 - [[concepts/ai-oversight]]
 - [[concepts/ethics]]
-- Healthcare [[concepts/innovation|Innovation]]
+- [[concepts/health|Healthcare]] [[concepts/innovation|Innovation]]
 
 ## References
 - 2026 04 14 [[entities/bmj|BMJ]] Review

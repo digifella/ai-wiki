@@ -1,13 +1,7 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "camera"
-  - "app"
-  - "adobe"
-  - "lightroom"
-  - "iphone"
-updated: 2026-04-15
+updated: 2026-05-23
 group: photography-cameras
 ---
 # Camera app
@@ -15,17 +9,16 @@ group: photography-cameras
 Mobile application enabling image capture and processing using device [[concepts/hardware|hardware]]. Notable examples include:
 
 ## Adobe Camera App (Beta)
-- Released by Adobe for [[entities/iphone-13-pro|iPhone 13 Pro]] and later
-- Targeted at [[concepts/lightroom]] users
+- Released by [[entities/adobe|Adobe]] for [[entities/iphone-13-pro|iPhone 13 Pro]] and later
+- Targeted [[concepts/assistive-technology|at]] [[concepts/lightroom]] users
 - Features:
-  - Advanced zoom capabilities
+  - Advanced zoom [[concepts/capabilities|capabilities]]
   - Enhanced [[concepts/night-photography|night photography]]
   - [[concepts/reflection-removal|Reflection removal]] from [[entities/windows|windows]]/glasses
 - Initial overheating issues resolved in recent update
 - [Video overview](https://youtu.be/BwwpxUsegeE)
 
 2026 04 14 For those using LR and [[concepts/running|running]] iPhones this new Camera App from Adobe is for YOU
-
 ## Source Notes
 - 2026-04-08: SNAPSEED - The best FREE photo editing app is now even
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

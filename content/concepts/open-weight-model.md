@@ -1,17 +1,12 @@
 ---
-domain: ai-agents
-group: open-systems-local-models
 type: concept
-tags:
-  - "open-weight"
-  - "model"
-  - "llm"
-  - "open-source"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # open-weight model
 
-A [[concepts/machine-learning|machine learning]] model whose [[concepts/weights|weights]] (learned [[concepts/parameters|parameters]]) are publicly accessible, enabling [[concepts/local-deployment|local deployment]], auditing, and [[concepts/personalization|customization]] without proprietary restrictions. Differs from closed-weight models (e.g., most commercial LLMs) where weights are withheld.
+A [[concepts/machine-learning|machine learning]] model whose [[concepts/weights|weights]] (learned [[concepts/parameters|parameters]]) are publicly accessible, enabling [[concepts/local-deployment|local deployment]], auditing, and [[concepts/personalization|customization]] without proprietary restrictions. Differs from closed-weight [[concepts/models|models]] (e.g., most commercial LLMs) where weights are withheld.
 
 Key characteristics:
 - Weights available for download (e.g., via public repositories)
@@ -30,7 +25,6 @@ Related concepts:
 - [[entities/hugging-face]] (platform for sharing [[concepts/open-weight-models|open-weight models]])
 
 Backlink: 2026 04 14 Jeredblu running LLM locally
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

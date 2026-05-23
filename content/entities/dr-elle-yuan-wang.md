@@ -1,17 +1,8 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "google"
-  - "tutorial"
-  - "google-ai-studio"
-  - "google-ai"
-  - "ai-tutorials"
-  - "software-tips"
-aliases:
-  - "Elle Wang"
-summary: "Dr. Elle Yuan Wang provides a video tour of Google AI Studio's interface and core functionalities."
-updated: 2026-04-20
+summary: Dr. Elle Yuan Wang provides a video tour of Google AI Studio's interface and core functionalities.
+updated: 2026-05-23
+stub: true
 ---
 # Dr. Elle Yuan Wang
 
@@ -20,7 +11,7 @@ updated: 2026-04-20
 
 [[concepts/date-2026-04-13|2026]] 04 14 [[entities/ai-studio|Google Ai studio]] tips [[entities/elle-wang|Elle wang]]
 
-- 2026-04-08 [2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of Leading Ai Models Capabilities Pricing Tiers And Optimal
+- 2026-04-08 [2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of [[concepts/frontier-models|Leading Ai Models]] [[concepts/capabilities|Capabilities]] [[concepts/pricing-tiers|Pricing Tiers]] And Optimal
 - 2026-04-10 [2026-04-10-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-10-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of Leading Ai Models Capabilities Pricing Tiers And Optimal
 - 2026-04-07 [2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of Leading Ai Models Capabilities Pricing Tiers And Optimal
 ## Source Notes

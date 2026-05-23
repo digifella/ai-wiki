@@ -1,18 +1,10 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "lightroom"
-  - "photo-editing"
-  - "masking"
-  - "adobe"
-  - "local-adjustments"
-aliases:
-  - "Lightroom masking operations"
-  - "Adobe Lightroom masking"
-summary: "Lightroom masking tools enable precise, non-destructive local adjustments through add, subtract, and intersect operations."
-updated: 2026-04-26
+summary: Lightroom masking tools enable precise, non-destructive local adjustments through add, subtract, and intersect operations.
+updated: 2026-05-23
 group: lightroom-color-workflows
+stub: true
 ---
 # Lightroom Masking Tools
 
@@ -25,7 +17,6 @@ Part of the [[entities/adobe-lightroom]] suite used for performing precise, non-
 	- Introduced in late 2023.
 	- Provides a high-precision method for complex selections by finding the common area between multiple masks.
 	- *Source: [[concepts/date-2026-04-13|2026]] 04 21 [[entities/lightroom-classic|Lightroom]] [[concepts/local-adjustments|Intersect Masking]] for Precise Local [[concepts/adjustments|Adjustments]]*
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape|Lightroom Classic Single Click Automated AI Mask Presets for Landscape]] · [▶ source](https://www.youtube.com/watch?v=tVCV0VmoZnw)
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-v15-AI-Powered-Enhancements-for-Creative-Control-and|Lightroom Classic v15 AI Powered Enhancements for Creative Control and]] · [▶ source](https://www.youtube.com/watch?v=dKXqg50v1sA)

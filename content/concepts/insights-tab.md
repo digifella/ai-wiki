@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "microsoft-365"
   - "copilot"
@@ -12,20 +11,20 @@ aliases:
   - "Microsoft 365 Copilot Insights"
   - "Copilot Insights Feature"
 summary: Nick Harris from Microsoft demonstrates recent updates to the Microsoft 365 Copilot Insights Tab.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Insights Tab
 
-The Insights Tab is a feature within [[concepts/document-insights|Microsoft 365 Copilot]] that provides users with analytics and summary information about their work and activities. Recent updates to this feature were demonstrated by [[entities/nick-harris|Nick Harris]], a Senior [[concepts/copilot-chat|Copilot]] Cloud [[concepts/solution|Solution]] Architect at Microsoft, in April 2026. The feature is part of Microsoft's ongoing effort to integrate AI-powered analytics into the Microsoft 365 suite of [[concepts/productivity-tools|productivity tools]].
+The Insights Tab is a feature within [[concepts/document-insights|Microsoft 365 Copilot]] that provides users with analytics and [[concepts/summary|summary]] information about their work and activities. Recent updates to this feature were demonstrated by [[entities/nick-harris|Nick Harris]], a Senior [[concepts/copilot-chat|Copilot]] Cloud [[concepts/solution|Solution]] Architect [[concepts/assistive-technology|at]] [[entities/microsoft|Microsoft]], in April 2026. The feature is part of Microsoft's ongoing effort to integrate AI-powered analytics into the [[entities/microsoft-365|Microsoft 365]] suite of [[concepts/productivity-tools|productivity tools]].
 
 ## Overview and Purpose
 
-The Insights Tab functions as a centralized location for users to view aggregated data and summaries relevant to their work context. By leveraging Copilot's analytical capabilities, it surfaces key information that would otherwise require manual compilation from multiple sources. This integration helps users understand patterns and trends in their workflow without requiring additional tool switching.
+The Insights Tab functions as a centralized location for users to view aggregated data and summaries relevant to their work context. By leveraging [[entities/copilot|Copilot]]'s analytical [[concepts/capabilities|capabilities]], it surfaces key information that would otherwise require manual compilation from multiple sources. This [[concepts/integration|integration]] helps users understand patterns and trends in their [[concepts/workflow|workflow]] without requiring additional tool switching.
 
 ## Recent Updates
 
-As of April 2026, Microsoft was actively rolling out updates to the Insights Tab functionality. These updates represent incremental improvements to how the feature surfaces and contextualizes information for end users, though specific details of the changes continue to be released across Microsoft's channels and documentation.
-
+As of April 2026, [[entities/microsoft|Microsoft]] was actively rolling out updates to the Insights Tab functionality. These updates represent incremental improvements to how the feature surfaces and contextualizes information for end users, though specific details of the changes continue to be released across Microsoft's channels and documentation.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-CoWork-Automating-Workflows-with-Local-File-Access-and-AI|Claude CoWork Automating Workflows with Local File Access and AI]] · [▶ source](https://www.youtube.com/watch?v=_ZpZ1cB67_Y)
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: deployment-docker-services
 tags:
   - "artemis-3"
   - "lunar-exploration"
@@ -12,11 +11,12 @@ aliases:
   - "Artemis III Payload Services"
   - "Lunar HLS/SLS Operations"
 summary: The document discusses the challenges and program outlook for Artemis 3 readiness regarding HLS and SLS.
-updated: 2026-05-01
+updated: 2026-05-23
+group: deployment-docker-services
 ---
 # Commercial Lunar Payload Services
 
-Commercial Lunar Payload Services (CLPS) refers to NASA's initiative to contract with private companies for the delivery of scientific instruments and equipment to the lunar surface. This program leverages commercial spaceflight providers to reduce costs and increase the frequency of lunar missions ahead of the crewed [[concepts/artemis-program|Artemis program]]. CLPS missions serve as a pathfinding effort, [[concepts/testing|testing]] technologies and operational procedures that will support sustained human presence on the Moon.
+Commercial Lunar Payload Services (CLPS) refers to [[concepts/nasa|NASA]]'s initiative to contract with private companies for the delivery of scientific instruments and equipment to the lunar surface. This program leverages commercial spaceflight providers to reduce costs and increase the frequency of lunar missions ahead of the crewed [[concepts/artemis-program|Artemis program]]. CLPS missions serve as a pathfinding effort, [[concepts/testing|testing]] technologies and operational procedures that [[entities/will|will]] support sustained human presence on the Moon.
 
 ## Artemis 3 Integration
 
@@ -24,7 +24,6 @@ The readiness of Artemis 3, NASA's planned crewed [[concepts/lunar-landing|lunar
 
 ## Technical Challenges
 
-The integration of HLS vehicles with SLS launch cadence, combined with the demands of commercial payload scheduling, presents ongoing program challenges. Issues with vehicle development, testing protocols, and launch facility availability have affected projected mission timelines. These constraints require careful coordination between NASA, commercial partners, and the broader Artemis program to maintain momentum toward the 2025-2026 target window for Artemis 3.
-
+The [[concepts/integration|integration]] of HLS vehicles with SLS launch cadence, combined with the demands of commercial payload scheduling, presents ongoing program challenges. Issues with vehicle development, testing protocols, and launch facility availability have affected projected mission timelines. These constraints require careful coordination between NASA, commercial partners, and the broader Artemis program to maintain momentum toward the 2025-2026 target window for Artemis 3.
 ## Source Notes
 - 2026-04-18: [[lab-notes/2026-04-18-Artemis-3-Readiness-HLSSLS-Challenges-and-Program-Outlook|Artemis 3 Readiness HLSSLS Challenges and Program Outlook]] · [▶ source](https://www.youtube.com/watch?v=n19xfIxu8_4)

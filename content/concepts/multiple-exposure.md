@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "focus-stacking"
   - "landscape-photography"
@@ -12,7 +11,8 @@ aliases:
   - "focus stacking"
   - "exposure stacking"
 summary: A technique used in landscape photography to achieve enhanced image sharpness through focus stacking.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Multiple Exposure
 
@@ -20,12 +20,11 @@ Multiple exposure is a photographic technique in which a photographer captures t
 
 ## Focus Stacking Application
 
-When applied as focus stacking, multiple exposure involves taking a series of photographs with the focal point shifted incrementally across the depth of the scene. Each image is exposed identically but focuses on a different distance plane. During post-processing, these images are layered and selectively blended, with only the sharpest portions of each photograph retained. This method overcomes the inherent limitation of shallow depth of field, allowing photographers to produce landscape images that are uniformly sharp from near to far.
+When applied as [[concepts/blur-correction|focus stacking]], multiple exposure involves taking a series of photographs with the focal point shifted incrementally across the depth of the scene. Each image is exposed identically but focuses on a different distance plane. During post-processing, these images are layered and selectively blended, with only the sharpest portions of each photograph retained. This method overcomes the inherent limitation of shallow depth of field, allowing photographers to produce landscape images that are uniformly sharp from near to far.
 
 ## Technical Execution
 
-The technique requires careful camera setup, typically using a tripod to ensure consistent framing across all shots. Photographers adjust focus manually between each [[concepts/exposure|exposure]], moving from the nearest subject element toward the background. Modern image editing [[concepts/software|software]] provides automated alignment and blending tools that facilitate the stacking process, though manual adjustment may be necessary for optimal results.
-
+The technique requires careful camera [[concepts/setup|setup]], typically using a tripod to ensure consistent framing across all shots. Photographers adjust focus manually between each [[concepts/exposure|exposure]], moving from the nearest subject element toward the background. Modern [[concepts/image-editing|image editing]] [[concepts/software|software]] provides automated alignment and blending tools that facilitate the stacking process, though manual adjustment may be necessary for optimal results.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape|Lightroom Classic Single Click Automated AI Mask Presets for Landscape]] · [▶ source](https://www.youtube.com/watch?v=tVCV0VmoZnw)
 - 2026-04-18: [[lab-notes/2026-04-18-Adobe-Camera-Raw-183-Depth-Masking-Lens-Correction-Film-Presets-Overvi|Adobe Camera Raw 183 Depth Masking Lens Correction Film Presets Overvi]] · [▶ source](https://www.youtube.com/watch?v=2WDnMKtmCeY)

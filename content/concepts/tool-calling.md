@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "llm"
-  - "automation"
-  - "gemini"
-  - "function-calling"
-  - "llm-capabilities"
-  - "api-integration"
-  - "agentic-ai"
-  - "software-interfacing"
-aliases:
-  - "function calling"
-  - "tool-use"
-summary: "Tool calling is the capability of large language models to interface with external software, APIs, or datasets to execute actions or retrieve real-time information."
-updated: 2026-04-20
+summary: Tool calling is the capability of large language models to interface with external software, APIs, or datasets to execute actions or retrieve real-time information.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Tool Calling
@@ -30,11 +17,10 @@ The capability of a [[concepts/large-language-model]] (LLM) to interface with ex
 ## Implementation & Examples
 - **[[entities/gemini]]**: Demonstrates [[concepts/programmatic-tool-calling|advanced tool calling]] through native [[entities/google-workspace]] [[concepts/integration|integration]].
     - **Workspace Integration**: Leverages the `@` symbol syntax to bridge [[concepts/llm-reasoning|LLM reasoning]] with live data from [[entities/gmail|Gmail]], Docs, and [[concepts/motivation|Drive]].
-    - **Ecosystem Synergy**: Uses native integration to act as an interface for the broader Google ecosystem.
+    - **Ecosystem Synergy**: Uses [[concepts/native-integration|native integration]] to act as an interface for the broader [[concepts/google-search|Google]] ecosystem.
 
 ---
 **Source**: 2026 04 14 New [[concepts/gemini|Gemini]] [[concepts/tutorial|Tutorial]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-OWASP-Top-10-Security-Risks-for-AI-Agentic-Applications-Report|OWASP Top 10 Security Risks for AI Agentic Applications Report]] · [▶ source](https://www.youtube.com/watch?v=soFWS8NBcSU)

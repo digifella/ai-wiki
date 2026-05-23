@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "manufacturing"
-  - "america"
-  - "supply-chain"
-  - "innovation"
-updated: 2026-04-15
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
 ---
 # American manufacturing
@@ -21,8 +16,7 @@ A sector of the U.S. economy focused on [[concepts/domestic-production|domestic 
 
 - [Smarter Scrubber: Manufacturing in America](https://www.youtube.com/watch?v=3ZTGwcHQfLY) ([[entities/smarter-every-day|Smarter Every Day]] video, 2026)
 
-2026 04 14 Destin manufacturing in America
-
+2026 04 14 Destin manufacturing in [[entities/united-states|America]]
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

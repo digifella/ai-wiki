@@ -14,17 +14,19 @@ aliases:
   - "Terafab 2nm AI Chip"
   - "Tesla-SpaceX Chip Strategy"
 summary: Details the vertical integration strategy of Tesla and SpaceX involving Terafab's 2nm AI chip.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Chips
 
-AI chips are specialized semiconductor [[concepts/central-processing-units|processors]] designed to accelerate [[concepts/ai-technologies|artificial intelligence]] and machine [[concepts/learning|learning]] workloads. Unlike general-[[concepts/motivation|purpose]] processors, these chips feature architectures optimized for the mathematical operations fundamental to [[concepts/neural-networks|neural networks]], including matrix multiplication, tensor operations, and [[concepts/parallel-processing|parallel processing]]. This [[concepts/specialization|specialization]] enables more efficient computation for both AI [[concepts/training|training]] and [[concepts/inference|inference]] tasks compared to conventional CPUs and GPUs.
+AI chips are specialized semiconductor processors designed to accelerate artificial intelligence and machine learning workloads. Unlike general-purpose processors, these chips feature architectures optimized for the mathematical operations fundamental to neural networks, including matrix multiplication, tensor operations, and parallel processing. This specialization enables manufacturers to achieve higher performance and energy efficiency compared to traditional CPUs when executing AI algorithms at scale.
 
-## Vertical Integration in AI Hardware
+## Architecture and Design
 
-Tesla and [[entities/spacex|SpaceX]] have pursued vertical integration strategies in semiconductor development to reduce dependency on external chip suppliers and maintain technological control over their AI systems. This approach reflects broader industry trends where companies with significant computational demands—particularly those in autonomous systems and [[concepts/robotics|robotics]]—seek to design custom [[concepts/silicon|silicon]] tailored to their specific [[concepts/software|applications]]. Vertical integration allows these companies to optimize chip design around their proprietary algorithms and operational requirements rather than adapting software to commercially available hardware.
+AI chips typically employ parallel processing architectures with thousands of cores designed to handle multiple calculations simultaneously. Common design approaches include graphics processing units (GPUs) adapted for AI tasks, tensor processing units (TPUs) built specifically for machine learning operations, and custom application-specific integrated circuits (ASICs). The choice of architecture depends on specific use cases, with considerations for inference speed, training efficiency, power consumption, and manufacturing costs.
 
-The development of advanced process nodes, such as those at the 2-nanometer scale, represents a significant undertaking requiring substantial capital investment and specialized manufacturing expertise. Companies pursuing this strategy typically partner with foundries or develop in-house fabrication capabilities to achieve performance targets while managing production costs at scale.
+## Vertical Integration Strategies
+
+Companies developing AI-intensive products have increasingly pursued vertical integration by designing proprietary chips rather than relying on third-party processors. This approach allows organizations to optimize chip design for their specific applications, reduce dependency on external suppliers, and potentially improve margins. Examples include companies investing in custom silicon development to power autonomous systems, data center operations, and edge AI applications, with advanced manufacturing processes like 2nm and 3nm nodes becoming critical for maintaining competitive performance advantages.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering|Space Based AI Data Centers Feasibility Techno Economics Engineering]] · [▶ source](https://www.youtube.com/watch?v=cLcF9UCD9-s)

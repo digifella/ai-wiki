@@ -1,27 +1,14 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "shark-evolution"
-  - "chondrichthyes"
-  - "golden-age-of-sharks"
-  - "golden-age-sharks"
-  - "marine-life-history"
-  - "evolutionary-adaptations"
-  - "cartilaginous-fish"
-aliases:
-  - "Evolution of Sharks"
-  - "Shark Ancestors"
-  - "Golden Age Sharks"
-  - "Chondrichthyan Evolution"
-summary: "The study of shark evolution provides insights into the diverse and adaptive history of cartilaginous fish, including their lineage from over 450 million years ago."
-updated: 2026-04-11
+summary: The study of shark evolution provides insights into the diverse and adaptive history of cartilaginous fish, including their lineage from over 450 million years ago.
+updated: 2026-05-23
 group: evolution-ecology-natural-systems
-title: "Shark Evolution"
+title: Shark Evolution
 ---
 # Shark Evolution
 
-The study of shark evolution offers a glimpse into the fascinating history of marine life. Sharks have existed for over 450 million years, and their lineage has been marked by numerous [[concepts/adaptations|adaptations]] and speciations. They are [[concepts/cartilaginous-fish|cartilaginous fish]] that belong to the class Chondrichthyes, which includes rays, skates, and [[concepts/chimaeras|chimaeras]].
+The study of shark evolution offers a glimpse into the fascinating history of marine life. Sharks have existed for over 450 million years, and their lineage has been marked by numerous [[concepts/adaptations|adaptations]] and speciations. They are [[concepts/cartilaginous-fish|cartilaginous fish]] that belong to the class Chondrichthyes, which includes [[concepts/rays|rays]], skates, and [[concepts/chimaeras|chimaeras]].
 
 ## Key Concepts
 
@@ -37,10 +24,9 @@ The study of shark evolution offers a glimpse into the fascinating history of ma
 ### Videos
 **[[entities/pbs-eons|PBS Eons]] - How Sharks Lost Their Buzzsaws, Anvils, and Spikes**
 - URL: https://www.youtube.com/watch?v=4ihYiTOIBT0
-- Summary: This video discusses the "Golden Age of Sharks," a time when shark diversity was immense and included many bizarre adaptations. The period precedes the dominance of modern predators like the Great White, showcasing an array of forms that have since vanished.
+- [[concepts/summary|Summary]]: This video discusses the "Golden Age of Sharks," a time when shark diversity was immense and included many bizarre adaptations. The period precedes the dominance of modern predators like the Great White, showcasing an array of forms that have since vanished.
 
 2026 04 10 The Golden Age of Shark Evolution and Bizarre Adaptations
-
 ## Source Notes
 - 2026-04-07: How Sharks Lost Their Buzzsaws, Anvils, and Spikes
 - 2026-04-30: [[lab-notes/2026-04-30-Asgard-Archaea-Recreating-Endosymbiosis-Origins-of-Compl|Asgard Archaea: Recreating Endosymbiosis, Origins of Complex Life]] · [▶ source](https://www.youtube.com/watch?v=vZBvT5brYZI)

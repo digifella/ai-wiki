@@ -7,7 +7,7 @@ tags:
   - "microsoft"
   - "topological-computing"
   - "physics"
-updated: 2026-04-30
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Qubits
@@ -21,11 +21,10 @@ The fundamental unit of information in [[entities/quantum-computing]], represent
 
 ## Advanced Architectures & Scaling
 - **Topological [[concepts/quantum-computing|Quantum Computing]]**: An approach utilizing Majorana Fermions to create qubits that are inherently protected from local noise by [[concepts/encoding|encoding]] information globally.
-- **Microsoft's Majorana Path**: Significant strides in developing a scalable roadmap toward million-qubit topological architectures: Microsoft's Majorana Path to Million Qubit Topological [[entities/quantum-computing|Quantum Computers]].
-- **Computational advantage**: The pursuit of algorithmic speedups that overcome the limitations of classical [[concepts/hardware|hardware]].
+- **[[entities/microsoft|Microsoft]]'s Majorana Path**: Significant strides in developing a scalable roadmap toward million-qubit topological architectures: Microsoft's Majorana Path to Million Qubit Topological [[entities/quantum-computing|Quantum Computers]].
+- **Computational advantage**: The [[entities/pursuitunimelbeduau|pursuit]] of algorithmic speedups that overcome the limitations of classical [[concepts/hardware|hardware]].
 
 ## Critical Perspectives
 - **Quantum Computing: Hype vs. Scientific Promise and Practical Challenges**: Distinguishes between the significant industry hype and the genuine scientific promise and operational mechanics of quantum systems.
-
 ## Source Notes
 - 2026-04-30: Microsoft

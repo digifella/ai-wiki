@@ -10,8 +10,9 @@ tags:
   - "instruction-following"
 aliases:
   - "Qwen 2 72B"
-summary: "Qwen 2 is a large language model developed by Qwen optimized for local inference and instruction following."
-updated: 2026-04-28
+summary: Qwen 2 is a large language model developed by Qwen optimized for local inference and instruction following.
+updated: 2026-05-23
+stub: true
 ---
 # Qwen 2
 
@@ -30,9 +31,8 @@ Qwen 2 is a [[concepts/large-language-models|Large Language Model (LLM)]] develo
 - [[entities/mistral|Mistral]] Large
 
 ## Use Cases
-- **[[concepts/instruction-following|Instruction Following]]**: Qwen 2 72B is noted as a viable option for [[concepts/running|running]] well-instructed small LLMs on a 48GB [[concepts/vram|VRAM]] NVIDIA GPU when properly quantized.
+- **[[concepts/instruction-following|Instruction Following]]**: Qwen 2 72B is noted as a viable option for [[concepts/running|running]] well-instructed small LLMs on a 48GB [[concepts/vram|VRAM]] [[entities/nvidia|NVIDIA]] GPU when properly quantized.
 
 ## References
-- 2026 04 14 Best small LLM for [[concepts/local-inference|local inference]] for [[concepts/instruction-following|instruction following]]
-
+- 2026 04 14 Best [[concepts/3-billion-parameter-model|small LLM]] for [[concepts/local-inference|local inference]] for [[concepts/instruction-following|instruction following]]
 ## Source Notes

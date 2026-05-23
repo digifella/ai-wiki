@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "automation"
-  - "google-workspace"
-  - "notebooklm"
-  - "gemini"
-  - "ai-agents"
-  - "no-code"
-  - "google-workspace-automation"
-  - "workflow-automation"
-  - "agentic-ai"
-  - "no-code-ai"
-aliases:
-  - "google-workspace-automation-strategies"
-summary: "Strategies for automating workflows and deploying no-code agentic AI within the Google Workspace ecosystem using Gemini and NotebookLM."
-updated: 2026-04-24
+summary: Strategies for automating workflows and deploying no-code agentic AI within the Google Workspace ecosystem using Gemini and NotebookLM.
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # Google Workspace automation
@@ -29,7 +16,6 @@ Strategies and frameworks for automating [[concepts/workflow|workflows]] and dep
 
 ---
 Backlink: 2026 04 14 [[concepts/ai-integrated-notebooks|NotebookLM]] as [[concepts/automated-information-pipelines|OpenClaw]] alternative Charles Terence [[entities/harper|Harper]] channel
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

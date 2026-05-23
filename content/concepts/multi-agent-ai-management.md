@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "AI"
   - "automation"
@@ -16,8 +15,9 @@ aliases:
   - "Agent Orchestration"
   - "Multi-Agent Orchestration"
   - "AI Agent Management"
-summary: "Centralized coordination and oversight of multiple autonomous AI agents to execute complex workflows through orchestration, automation, and interoperability."
-updated: 2026-04-30
+summary: Centralized coordination and oversight of multiple autonomous AI agents to execute complex workflows through orchestration, automation, and interoperability.
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Multi-Agent AI Management
 
@@ -29,10 +29,9 @@ The orchestration, [[concepts/deployment|deployment]], and centralized oversight
 - **Interoperability**: Enabling diverse model architectures to function within a unified management environment.
 
 ## Platforms & Tools
-- [[entities/aionui|AionUI]]: Free Desktop Platform for Multi-Agent AI Management and [[concepts/automation|Automation]]
+- [[entities/aionui|AionUI]]: Free Desktop Platform for Multi-[[entities/agent|Agent]] AI Management and [[concepts/automation|Automation]]
     - Free, [[concepts/open-source|open-source]], desktop-based platform designed for [[concepts/running|running]] and managing various [[concepts/ai-connectors|AI agents]].
     - Facilitates management of diverse agents including [[entities/hermes]], [[entities/claude-code]], OpenCode, and [[entities/gemini]].
-
 ## Source Notes
 - 2026-04-07: Claude Code 2.0 Upgrade: Enhanced AI Coding, Workflow Automation, and Team Features
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

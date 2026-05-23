@@ -1,34 +1,21 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "document-processing"
-  - "knowledge-graphs"
-  - "llm"
-  - "rag"
-  - "neo4j"
-  - "entity-extraction"
-  - "graph-rag"
-  - "real-time-graph"
-  - "agentic-rag"
-aliases:
-  - "Information Extraction"
-  - "Document Analysis"
-summary: "Document processing automates extraction, structuring, and analysis of information from unstructured documents for efficient retrieval, reasoning, and knowledge management."
-updated: 2026-04-15
+summary: Document processing automates extraction, structuring, and analysis of information from unstructured documents for efficient retrieval, reasoning, and knowledge management.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
-Document processing involves automated extraction, structuring, and analysis of information from unstructured documents to enable efficient retrieval, [[concepts/reasoning|reasoning]], and [[concepts/knowledge-management|knowledge management]].
+[[concepts/pdf-manipulation|Document processing]] involves automated extraction, structuring, and analysis of information from unstructured documents to enable efficient retrieval, [[concepts/reasoning|reasoning]], and [[concepts/knowledge-management|knowledge management]].
 
 **Key [[concepts/software|Applications]]**:
 - Entity and [[concepts/relationship-extraction|relationship extraction]] using LLM for semantic understanding
 - [[concepts/vector-store|Knowledge Graph]] construction from document collections
-- Enhanced [[concepts/rag]] (Retrieval-Augmented Generation) systems via graph-based [[concepts/natural-language-search|semantic search]]
+- Enhanced [[concepts/rag]] ([[concepts/answer-generation|Retrieval-Augmented Generation]]) systems via graph-based [[concepts/natural-language-search|semantic search]]
 - [[concepts/real-time-knowledge-graph|Real-time knowledge graph]] updates from document streams
 - [[concepts/agentic-rag|Agentic RAG]] systems enhanced with [[concepts/knowledge-graphs|knowledge graphs]] for dynamic [[concepts/reasoning-steps|agent reasoning]] ([[entities/cole-medin|Cole Medin]]'s [[concepts/rag-20|RAG 2.0]])
-- **[[concepts/graph-rag|Graph RAG]]**: Emerging technique using knowledge graphs for [[concepts/json-structuring|structured data]] querying, offering flexibility over [[concepts/vector-search|vector search]] (no requirement for same model for embedding/retrieval) as demonstrated in 2026 04 14 IBM Explainer creating [[concepts/graph-retrieval-augmented-generation|GraphRAG]]
+- **[[concepts/graph-rag|Graph RAG]]**: Emerging technique using knowledge graphs for [[concepts/json-structuring|structured data]] querying, offering flexibility over [[concepts/vector-search|vector search]] (no requirement for same model for embedding/retrieval) as demonstrated in 2026 04 14 [[entities/ibm|IBM]] Explainer creating [[concepts/graph-retrieval-augmented-generation|GraphRAG]]
 
-**Recent Implementation**:
+**Recent [[concepts/adoption|Implementation]]**:
 - Cocoindex channel and [[concepts/cocolndex-framework|Cocolndex framework]] for LLM-driven [[concepts/structured-representation|knowledge graph construction]]:
   - Processes [[concepts/markdown|markdown]] documents to extract entities/[[concepts/relationships|relationships]] via LLM
   - Builds graph in [[entities/neo4j|Neo4j]] for real-time [[concepts/rag]] augmentation
@@ -36,8 +23,7 @@ Document processing involves automated extraction, structuring, and analysis of 
 
 2026 04 14 Cocoindex channel and knowledge Graphs for [[concepts/llm-rag|LLM RAG]]
 
-2026 04 14 IBM Explainer creating GraphRAG
-
+2026 04 14 IBM Explainer creating [[concepts/graphrag|GraphRAG]]
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Open-Weight-Models-Apache-20-and-Enhanced-AI|Google Gemma 4 Open Weight Models Apache 20 and Enhanced AI]] · [▶ source](https://www.youtube.com/watch?v=5aqF1HVpjdc)

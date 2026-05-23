@@ -1,29 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "problem-solving"
-  - "small-language-models"
-  - "benchmarking"
-  - "general-purpose"
-  - "problem-solving-methods"
-  - "benchmarking-tools"
-  - "general-purpose-solutions"
-  - "memory-constrained-applications"
-  - "OCR"
-  - "RAG"
-aliases:
-  - "Problem Solving Techniques"
-  - "SLM Performance Guide"
-  - "Memory-Efficient AI Solutions"
-  - "4GB SLM Champions"
-summary: "Evaluates small language models (SLMs) under 4GB memory constraints for general-purpose problem-solving and explores efficient small OCR models for RAG pipelines."
-updated: 2026-04-14
+summary: Evaluates small language models (SLMs) under 4GB memory constraints for general-purpose problem-solving and explores efficient small OCR models for RAG pipelines.
+updated: 2026-05-23
 backlinks:
   - "2026 04 10 Benchmarking SLMs Identifying 4GB General Problem Solving Champions"
   - "2026 04 14 Nanonets OCR for tables to text for RAG"
 group: reasoning-context-prompting
-title: "Problem-Solving"
+title: Problem-Solving
 ---
 # Problem-Solving
 
@@ -40,17 +24,16 @@ Problem-solving is a process that involves discovering and analyzing a difficult
 
 - **[[concepts/benchmark-testing|Benchmarking]] [[concepts/llms|SLMs]]: Identifying 4GB General Problem-Solving Champions**
     - Date: 2026-04-07
-    - Clip title: Small Language Models (SLMs): The New 4GB Champion
+    - [[concepts/clip-title|Clip title]]: [[concepts/small-language-models-slms|Small Language Models (SLMs)]]: The New 4GB Champion
     - Author / channel: [[entities/next-tech-and-ai|Next Tech and AI]]
 
 ### Small OCR Models: Table-to-Text for RAG
 
 - **[[concepts/dataset-curation|Nanonets OCR Small]]**
     - Date: 2026-04-14
-    - Summary: A powerful, 3B parameter [[concepts/open-source-model|open-source model]] optimized for efficient table-to-text extraction in [[concepts/rag|RAG]] pipelines.
+    - [[concepts/summary|Summary]]: A powerful, 3B parameter [[concepts/open-source-model|open-source model]] optimized for efficient [[concepts/table-to-text-extraction|table-to-text extraction]] in [[concepts/rag|RAG]] pipelines.
     - Comparison: Contrasts with previous models such as [[concepts/llms|Llama OCR]] and [[concepts/llms|Mistral OCR]].
-    - Source: 2026 04 14 Nanonets OCR for tables to text for RAG
-
+    - Source: 2026 04 14 Nanonets [[concepts/diversity-of-documents|OCR for tables to text]] for RAG
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-08: [[lab-notes/2026-04-08-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)

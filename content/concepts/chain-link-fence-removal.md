@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
+domain: creative-pursuits
 tags:
   - "photography"
   - "photoshop"
@@ -13,9 +13,9 @@ tags:
 aliases:
   - "fence-removal-techniques"
   - "removing-fences-from-photos"
-summary: "Techniques for removing chain-link fences from photographs using traditional cloning or modern Adobe Photoshop tools."
-updated: 2026-04-28
-group: automation-scheduling-sync
+summary: Techniques for removing chain-link fences from photographs using traditional cloning or modern Adobe Photoshop tools.
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Chain-Link Fence Removal
 
@@ -29,9 +29,9 @@ group: automation-scheduling-sync
   - Demonstrated by [[entities/anthony-morganti|Anthony Morganti]] in a [[concepts/tutorial|tutorial]] video.
 
 ## Resources
-- Summary of [[entities/anthony-morganti|Anthony Morganti]]'s [[concepts/tutorial|tutorial]]: <https://www.youtube.com/watch?v=1C4-CIEFTcU>
+- [[concepts/summary|Summary]] of [[entities/anthony-morganti|Anthony Morganti]]'s [[concepts/tutorial|tutorial]]: <https://www.youtube.com/watch?v=1C4-CIEFTcU>
   - Focuses on efficient fence removal techniques.
-  - Highlights the ease of [[concepts/modern-photoshop-tools|modern Photoshop tools]] compared to older methods.
+  - [[concepts/highlights|Highlights]] the ease of [[concepts/modern-photoshop-tools|modern Photoshop tools]] compared to older methods.
 
 ## Related Concepts
 - photography editing
@@ -39,7 +39,6 @@ group: automation-scheduling-sync
 
 ## Backlinks
 - 2026 04 14 [[entities/anthony-morganti|Anthony Morganti]] remove chain link fence from photos
-
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

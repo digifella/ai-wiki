@@ -1,17 +1,12 @@
 ---
-domain: society-politics-institutions
-group: politics-governance-public-systems
 type: concept
-tags:
-  - "supply-chain"
-  - "pandemic"
-  - "manufacturing"
-  - "case-study"
-updated: 2026-04-14
+domain: society-politics-institutions
+updated: 2026-05-23
+group: politics-governance-public-systems
 ---
 # Pandemic supply chain disruption
 
-Disruptions in global [[concepts/supply-chains|supply chains]] during the pandemic (2020-2022) exposed systemic vulnerabilities in just-in-time manufacturing, causing shortages, cost surges, and shifts toward resilient supply chains. Key drivers included:
+Disruptions in global [[concepts/supply-chains|supply chains]] during the pandemic (2020-2022) exposed systemic vulnerabilities in just-in-time manufacturing, causing shortages, [[concepts/cost|cost]] surges, and shifts toward resilient supply chains. Key drivers included:
 
 - Geopolitical tensions and over-reliance on single-source suppliers
 - Logistical bottlenecks (port congestion, labor shortages)

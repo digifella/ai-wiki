@@ -13,8 +13,8 @@ tags:
 aliases:
   - "AI hallucination"
   - "model hallucination"
-summary: "A phenomenon where an AI system generates content not grounded in its training data or external knowledge, resulting in fabricated or incorrect information."
-updated: 2026-04-28
+summary: A phenomenon where an AI system generates content not grounded in its training data or external knowledge, resulting in fabricated or incorrect information.
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Hallucination
@@ -22,7 +22,7 @@ group: training-fine-tuning-evaluation
 A phenomenon where an AI system generates content that is not grounded in its [[concepts/training-data|training data]] or [[concepts/external-knowledge|external knowledge]] sources, often appearing as fabricated or incorrect information.
 
 ## Key Characteristics
-- **Non-factual output**: Information presented as factual but unverifiable or false.
+- **Non-factual [[concepts/output|output]]**: Information presented as factual but unverifiable or false.
 - **Confidence mismatch**: High confidence in incorrect statements.
 - **Contextual disconnect**: [[concepts/responses|Responses]] unrelated to input prompts.
 
@@ -33,11 +33,11 @@ A phenomenon where an AI system generates content that is not grounded in its [[
 
 ## Mitigation Strategies
 - **Multi-[[entities/agent|agent]] systems**: Combining multiple LLMs to cross-validate outputs.
-- **External [[concepts/verification|verification]]**: Integrating retrieval-augmented generation (RAG) for fact-checking.
+- **External [[concepts/verification|verification]]**: Integrating [[concepts/answer-generation|retrieval-augmented generation]] (RAG) for fact-checking.
 - **Human-in-the-[[concepts/loop|loop]]**: Manual review of critical outputs.
 
 ## Related Concepts
-- Retrieval-Augmented Generation
+- [[concepts/answer-generation|Retrieval-Augmented Generation]]
 - [[entities/prompt-engineering]]
 - [[concepts/multi-agent-systems]]
 
@@ -50,8 +50,7 @@ A phenomenon where an AI system generates content that is not grounded in its [[
   - Uses [[entities/flowise|Flowise]] for structured workflows.
   - Addresses limitations of single LLM queries.
   - [[concepts/tutorial|Tutorial]] by [[entities/leon-van-zyl|Leon van Zyl]]: <https://www.youtube.com/watch?v=GPsKnsYJPiI>.
-  - GitHub repository: <https://github.com/leonvanzyl/flowise-masterclass-2025/tree/master/Deep%20Research%20Agentflow>.
-
+  - [[entities/github|GitHub]] repository: <https://github.com/leonvanzyl/flowise-masterclass-2025/tree/master/Deep%20Research%20Agentflow>.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Next Evolution of Retrieval-Augmented Generation

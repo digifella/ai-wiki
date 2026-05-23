@@ -8,11 +8,11 @@ tags:
 aliases:
   - "Microsoft Game Studios"
 summary: Microsoft Studios is an entity associated with Microsoft.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Microsoft Studios
 
-Microsoft Studios is the video game development and publishing division of Microsoft. The entity oversees the creation and [[concepts/distribution|distribution]] of games across Microsoft's platforms, including Xbox consoles, PC, and cloud [[concepts/gaming|gaming]] services through Xbox Game Pass.
+[[entities/microsoft|Microsoft]] Studios is the video game development and publishing division of Microsoft. The entity oversees the creation and [[concepts/distribution|distribution]] of games across Microsoft's platforms, including Xbox consoles, PC, and cloud [[concepts/gaming|gaming]] services through Xbox Game Pass.
 
 ## History and Structure
 

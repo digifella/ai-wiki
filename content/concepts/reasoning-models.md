@@ -1,12 +1,12 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-30
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 - "ai"
   - "[[concepts/machine-learning|machine-learning]]"
-  - "[[concepts/reasoning|reasoning]]-models"
+  - "[[concepts/reasoning|reasoning]]-[[concepts/models|models]]"
   - "[[entities/gemma|gemma]]"
   - "[[concepts/google-search|google]]"
   - "ai-reasoning"
@@ -27,11 +27,10 @@ title: "[[concepts/open-source|Open-Source]] Models"
 Open-Source Models are [[concepts/ai-models|AI models]] with publicly available source [[concepts/code|code]] and [[concepts/weights|weights]], enabling [[concepts/local-deployment|local deployment]], [[concepts/cost|cost]] reduction, and enhanced [[concepts/privacy|privacy]], particularly for [[concepts/reasoning|reasoning]] tasks.
 
 ### Recent Developments
-- [[concepts/gemma-4|Google Gemma]] 4 represents a significant leap in open-source and [[concepts/open-weight|open-weights]] modeling, serving as Google's most intelligent open models to date.
+- [[concepts/gemma-4|Google Gemma]] 4 represents a significant leap in open-source and [[concepts/open-weight|open-weights]] modeling, serving as [[entities/google|Google]]'s most intelligent open models to date.
 - New advancements focus on optimizing high-intelligence models for efficient [[concepts/edge-deployment|edge deployment]].
 - The emergence of [[concepts/qwen-model|Qwen3-Coder-Flash]] demonstrates significant progress in [[concepts/agentic-ai]] and [[concepts/coding|coding]].
-- [[concepts/gemma-4|Gemma 4]] emphasizes significant advancements in performance, efficiency, and [[concepts/accessibility|accessibility]]: Google [[entities/deepmind|DeepMind]]'s [[concepts/23b-parameter-models|Gemma 4]]: High-Performance, Accessible Open-Source [[concepts/ai-models|AI Models]].
-
+- [[concepts/gemma-4|Gemma 4]] emphasizes significant advancements in performance, efficiency, and [[concepts/accessibility|accessibility]]: Google [[entities/deepmind|DeepMind]]'s [[concepts/23b-parameter-models|Gemma 4]]: [[entities/high-performance|High-Performance]], Accessible Open-Source [[concepts/ai-models|AI Models]].
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)
 - 2026-04-10: [[lab-notes/2026-04-10-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards|Alibaba Qwen 36 Plus Agentic Coding and Multimodal Reasoning Towards]] · [▶ source](https://www.youtube.com/watch?v=v8RokQY05Bo)

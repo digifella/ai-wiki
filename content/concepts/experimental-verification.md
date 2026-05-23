@@ -1,22 +1,12 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "scientific-method"
-  - "experimentation"
-  - "validation"
-  - "empirical-evidence"
-  - "hypothesis-testing"
-  - "data-analysis"
-aliases:
-  - "empirical verification"
-  - "experimental validation"
-summary: "Experimental verification is the process in the scientific method of testing hypotheses against empirical evidence through controlled experiments."
-updated: 2026-04-14
+summary: Experimental verification is the process in the scientific method of testing hypotheses against empirical evidence through controlled experiments.
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Experimental Verification
-Experimental verification is a crucial step in the [[concepts/scientific-method|scientific method]] where hypotheses or theories are tested against observable and measurable phenomena through controlled experiments. This process ensures that proposed ideas can withstand scrutiny by [[concepts/empirical-evidence|empirical evidence]], thereby enhancing their credibility within the scientific community.
+Experimental [[concepts/verification|verification]] is a crucial step in the [[concepts/scientific-method|scientific method]] where hypotheses or theories are tested against observable and measurable phenomena through controlled experiments. This process ensures that proposed [[concepts/ideas|ideas]] can withstand scrutiny by [[concepts/empirical-evidence|empirical evidence]], thereby enhancing their credibility within the scientific community.
 
 ## Related Concepts
 - [[concepts/hypothesis-testing]]
@@ -24,7 +14,7 @@ Experimental verification is a crucial step in the [[concepts/scientific-method|
 - data analysis
 
 ### Feynman's Three-Step Scientific Method: Guess, Compute, Compare, Validate with Nature
-**Clip title:** Feynman on Scientific Method.
+**[[concepts/clip-title|Clip title]]:** [[concepts/feynman|Feynman]] on Scientific Method.
 **Author / channel:** [[entities/seabala|seabala]]
 **URL:** https://www.youtube.com/watch?v=EYPapE-3FRw
 
@@ -37,7 +27,6 @@ Experimental verification is a crucial step in the [[concepts/scientific-method|
 - **Compare & Validate:** Test the hypotheses by comparing predicted outcomes against empirical evidence.
 
 ## Backlinks
-- 2026 04 12 Feynmans Three Step Scientific Method Guess Compute Compare Validate w
-
+- 2026 04 12 [[concepts/feynmans-three-step-scientific-method|Feynmans Three Step Scientific Method]] Guess [[concepts/compute|Compute]] Compare Validate w
 ## Source Notes
 - 2026-04-12: Feynman on Scientific Method.

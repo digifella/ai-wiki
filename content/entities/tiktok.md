@@ -11,7 +11,7 @@ aliases:
   - "TikTok"
   - "抖音"
 summary: Short-form video social media platform featuring user-generated and AI-automated content across multiple formats.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Tiktok
 
@@ -23,8 +23,7 @@ The platform supports a wide variety of content formats, including music clips, 
 
 ## User Base and Impact
 
-TikTok has accumulated a substantial user base across multiple demographic groups and geographic regions. The platform's influence extends beyond entertainment to include marketing, education, and news [[concepts/distribution|distribution]]. Its algorithmic approach to content discovery has made it a significant driver of viral trends and cultural phenomena.
-
+TikTok has accumulated a substantial user base across multiple demographic groups and geographic regions. The platform's [[concepts/power|influence]] extends beyond entertainment to include marketing, education, and news [[concepts/distribution|distribution]]. Its algorithmic approach to content discovery has made it a significant driver of viral trends and cultural phenomena.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation|Claude Code Blotato Automating AI Viral Video Creation]] · [▶ source](https://www.youtube.com/watch?v=ZXyjSufezL8)
 - 2026-04-26: [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]] · [▶ source](https://www.notion.so/GPT-Image-2-JSON-Prompting-Workflow-and-Storyboard-Method-34a606421d128009acc7c617695ac68e)

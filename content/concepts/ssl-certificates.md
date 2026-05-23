@@ -14,8 +14,8 @@ tags:
 aliases:
   - "SSL/TLS certificates"
   - "Digital certificates"
-summary: "A digital certificate that authenticates a website's identity and enables encrypted communication using the SSL/TLS protocol."
-updated: 2026-04-28
+summary: A digital certificate that authenticates a website's identity and enables encrypted communication using the SSL/TLS protocol.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # SSL Certificates
@@ -46,11 +46,10 @@ A SSL certificate is a digital certificate that authenticates the identity of a 
 
 ## Recent Updates
 
-- 2026-04-14: Cloudflare [[concepts/setup|setup]] for SSL certificates. (2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare setup)
+- 2026-04-14: Cloudflare [[concepts/setup|setup]] for SSL certificates. (2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare [[concepts/setup|setup]])
 
 ## Backlinks
 
-- 2026 04 14 Claude Cloudflare setup
-
+- 2026 04 14 [[concepts/claude|Claude]] Cloudflare setup
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)

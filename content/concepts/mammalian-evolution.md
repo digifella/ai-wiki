@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "platypus"
   - "mammalian-biology"
@@ -12,7 +11,8 @@ aliases:
   - "Platypus Evolution"
   - "Monotreme Biology"
 summary: Recent discoveries highlight the unique biology, evolution, and traits of the platypus.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Mammalian Evolution
 
@@ -25,6 +25,6 @@ Among living mammals, monotremes (egg-laying mammals) occupy a unique position i
 Recent research continues to reveal previously unknown details about monotreme biology and evolution, providing insights into the early [[concepts/adaptations|adaptations]] that allowed mammals to successfully colonize diverse environments. Understanding these distinctive lineages helps clarify the broader patterns of mammalian diversification and the selective pressures that shaped modern mammalian form and function.
 
 - 2026-04-14 [2026-04-14-Platypus-New-Discoveries-on-its-Unique-Biology-Evolution-and-Traits](2026-04-14-Platypus-New-Discoveries-on-its-Unique-Biology-Evolution-and-Traits.md) ← Platypus New Discoveries On Its Unique Biology Evolution And Traits
-- 2026-04-08 [2026-04-08-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations](2026-04-08-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations.md) ← The Golden Age Of Shark Evolution And Bizarre Adaptations
+- 2026-04-08 [2026-04-08-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations](2026-04-08-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations.md) ← The Golden Age Of [[concepts/shark-evolution|Shark Evolution]] And Bizarre Adaptations
 - 2026-04-10 [2026-04-10-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations](2026-04-10-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations.md) ← The Golden Age Of Shark Evolution And Bizarre Adaptations
 ## Source Notes

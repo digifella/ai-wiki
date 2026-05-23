@@ -7,21 +7,15 @@ tags:
   - "ai-coding"
   - "knowledge-management"
   - "claude-opus"
-updated: 2026-04-14
-group: coding-agents-dev-workflows
 aliases:
   - "claude-agent"
   - "obsidian-helper"
   - "second-brain-coding"
   - "ai-powered-notes"
-backlinks:
-  - "2026-04-14-BMAD-method-for-coding"
-  - "2026 04 14 Claude Code and agent Grace Leung"
-  - "2026 04 14 Claude Code for controlling Chrome"
-  - "2026 04 14 Claude Code updates and Claude Opus 41"
-  - "2026 04 14 Claude code Yifan Beyond the Hype channel"
-summary: "[[entities/claude-4|Claude]] [[concepts/code|Code]] is an AI [[entities/agent|agent]] designed to integrate with Obsidian, enhancing its functionality as a dynamic knowledge management system."
-title: "[[entities/claude|Claude]] code"
+summary: "Claude Code is an AI agent designed to integrate with Obsidian, enhancing its functionality as a dynamic knowledge management system."
+updated: 2026-05-23
+group: coding-agents-dev-workflows
+title: "Claude code"
 ---
 - "ai-[[concepts/agents|agents]]"
   - "[[concepts/knowledge-management|knowledge-management]]"
@@ -41,7 +35,6 @@ title: "[[entities/claude|Claude]] code"
 ### Analysis & Insights
 - **The "Secret Sauce"**: Analysis via [[concepts/reverse-engineering|reverse engineering]] suggests that [[concepts/claude|Claude]] [[concepts/code|Code]]'s superior feel compared to other [[concepts/ai-coding|ai-coding]] [[concepts/agents|agents]] (despite using similar LLMs) is primarily due to extensive and sophisticated [[concepts/prompt-engineering|prompt engineering]].
 - **Source**: [[entities/yifan|Yifan]] via [[entities/beyond-the-hype|Beyond the Hype]] ([https://www.youtube.com/watch?v=i0P56Pm1Q3U])
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-08: Claude Code: Build Your Full AI Marketing Team (Agents +

@@ -1,23 +1,18 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "research"
-  - "chatgpt"
-  - "legacy-model"
-updated: 2026-04-14
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Model Comparison
 
 ## Deep Research Implementation Comparison
-Comparison between previous [[concepts/visualization-generation|Deep Research]] implementation and current [[entities/chatgpt-deep-research|ChatGPT Deep Research]] model.
+Comparison between previous [[concepts/visualization-generation|Deep Research]] [[concepts/adoption|implementation]] and current [[entities/chatgpt-deep-research|ChatGPT Deep Research]] model.
 
 ### Key Differences
 
-- **Legacy Deep Research**:
-  - Limited source control (default academic databases only)
+- **Legacy [[entities/deep-research|Deep Research]]**:
+  - Limited source [[concepts/power|control]] (default academic databases only)
   - No [[concepts/third-party-app-integration|third-party app integration]]
   - Basic citation generation
 
@@ -42,4 +37,4 @@ This update supersedes the legacy research model, requiring Research [[concepts/
 - **Source**: [YouTube Video](https://www.youtube.com/watch?v=iUzrE3-FHgA)
 
 ## Backlinks
-- 2026 04 14 Compare of [[concepts/claude-ai|Claude]] [[entities/opus-45|Opus 45]] vs [[entities/chatgpt|ChatGPT]] 52 [[entities/matt-maher|Matt Maher]]
+- 2026 04 14 [[concepts/feynmans-three-step-scientific-method|Compare]] of [[concepts/claude-ai|Claude]] [[entities/opus-45|Opus 45]] vs [[entities/chatgpt|ChatGPT]] 52 [[entities/matt-maher|Matt Maher]]

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "natural-science"
   - "fundamental-theory"
@@ -11,11 +10,12 @@ aliases:
   - "Natural Philosophy"
   - "Physical Science"
 summary: The natural science discipline studying matter, energy, forces, and motion through observation and experimentation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Physics
 
-Physics is the natural science discipline that seeks to understand the fundamental [[entities/nature|nature]] of matter, energy, forces, and motion through systematic observation and experimentation. As one of the oldest and most foundational sciences, physics aims to describe how the universe works at every scale, from [[concepts/subatomic-particles|subatomic particles]] to galaxies, and to express these descriptions through mathematical laws and principles.
+Physics is the natural [[concepts/science|science]] discipline that seeks to understand the fundamental [[entities/nature|nature]] of matter, energy, forces, and motion through systematic observation and experimentation. As one of the oldest and most foundational sciences, physics aims to describe how the universe works [[concepts/assistive-technology|at]] every scale, from [[concepts/subatomic-particles|subatomic particles]] to galaxies, and to express these descriptions through mathematical laws and principles.
 
 ## Scope and Methodology
 
@@ -23,8 +23,7 @@ Physics investigates phenomena across multiple domains of scale and complexity. 
 
 ## Historical Development and Current Practice
 
-The discipline has evolved from natural philosophy into a rigorous, mathematically-based science. Key historical developments—including the work of figures like Newton, Maxwell, and Einstein—established foundational theories that remain central to contemporary practice. Today, physics encompasses specialized fields including [[concepts/granular-physics|particle physics]], condensed matter physics, [[concepts/astrophysics|astrophysics]], and plasma physics, with [[concepts/software|applications]] ranging from materials science to energy production to information technology.
-
+The discipline has evolved from natural [[concepts/philosophy|philosophy]] into a rigorous, mathematically-based science. Key historical developments—including the work of figures like Newton, Maxwell, and Einstein—established foundational theories that remain central to contemporary practice. Today, physics encompasses specialized fields including [[concepts/granular-physics|particle physics]], condensed matter physics, [[concepts/astrophysics|astrophysics]], and plasma physics, with [[concepts/software|applications]] ranging from materials science to energy production to information technology.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)
 - 2026-04-12: [[lab-notes/2026-04-12-Breaking-the-Angle-of-Repose-Self-Sorting-and-Stacking-of-Granular-Mat|Breaking the Angle of Repose Self Sorting and Stacking of Granular Mat]] · [▶ source](https://www.youtube.com/watch?v=G6pTelud5-E)

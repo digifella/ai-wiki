@@ -1,15 +1,15 @@
 ---
 type: entity
-updated: 2026-04-14
-summary: "Matthew Berman is an AI content creator and presenter who covers advancements in open-source AI, large language models, and edge deployment."
+summary: Matthew Berman is an AI content creator and presenter who covers advancements in open-source AI, large language models, and edge deployment.
+updated: 2026-05-23
 ---
 - "ai"
-  - "content-creator"
+  - "[[entities/video-creator|content-creator]]"
   - "[[concepts/open-source|open-source]]"
   - "ai-content-creator"
   - "open-source-ai"
   - "edge-[[concepts/deployment|deployment]]"
-  - "large-language-models"
+  - "[[concepts/large-language-model-llm|large-language-models]]"
   - "recursive-[[concepts/self-improvement|self-improvement]]"
   - "[[concepts/chatgpt-agent|chatgpt-agent]]"
 
@@ -18,8 +18,8 @@ summary: "Matthew Berman is an AI content creator and presenter who covers advan
 AI content [[concepts/creator|creator]] and presenter focusing on advancements in [[concepts/open-source]], [[concepts/large-language-models|Large Language Models]], and [[entities/bitnet|Edge AI]].
 
 ## Recent Coverage
-- Analyzed the release of Google [[entities/gemma-4|Gemma 4]], highlighting its status as [[concepts/google-search|Google]]'s "most intelligent open models to date" and its [[concepts/ai-workflow|optimization]] for efficient [[concepts/edge-deployment]].
-    - **Clip title:** [[concepts/open-source|Open-Source]] just LEVELED UP ([[entities/gemma|GEMMA]] 4)
+- Analyzed the release of [[entities/google|Google]] [[entities/gemma-4|Gemma 4]], highlighting its status as [[concepts/google-search|Google]]'s "most intelligent open models to date" and its [[concepts/ai-workflow|optimization]] for efficient [[concepts/edge-deployment]].
+    - **[[concepts/clip-title|Clip title]]:** [[concepts/open-source|Open-Source]] just LEVELED UP ([[entities/gemma|GEMMA]] 4)
     - **Author / channel:** Matthew Berman
     - **URL:** https://www.youtube.com/watch?v=BrJdGP21B5g
     - Google [[concepts/gemma-4|Gemma 4]]: Advanced Open-Source [[concepts/ai-models|AI Models]] for Efficient Edge Deployment. Commends the community's access to powerful AI.
@@ -28,7 +28,6 @@ AI content [[concepts/creator|creator]] and presenter focusing on advancements i
     - **URL:** https://www.youtube.com/watch?v=3GrG-dOmrLU
 
 2026 04 14 Clawbot Matthew Berman channel
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]] · [▶ source](https://www.youtube.com/watch?v=SQhfkWdxVvE)

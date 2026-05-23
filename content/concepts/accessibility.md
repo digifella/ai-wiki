@@ -1,7 +1,7 @@
 ---
 type: concept
-domain: creative-pursuits
-group: design-systems-ui-infographics
+domain: ux-design
+group: accessibility-inclusive-design
 tags:
   - "accessibility"
   - "design"
@@ -13,19 +13,19 @@ aliases:
   - "universal accessibility"
   - "inclusive design"
 summary: Design principle ensuring products and systems are usable by people with diverse abilities and disabilities.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Accessibility
 
-Accessibility is the design principle of creating products, systems, and content usable by people with diverse abilities, including those with disabilities. Rather than treating accessibility as an afterthought, contemporary practice integrates it throughout the design and development process from the beginning. This inclusive approach benefits not only people with permanent disabilities but also those with temporary impairments and situational limitations—such as someone using a device in bright sunlight or operating with one hand occupied.
+Accessibility is the [[concepts/design|design]] principle of creating products, systems, and content that are usable by people with diverse abilities, including those with disabilities. Rather than treating accessibility as an afterthought, contemporary practice integrates it throughout the design and development process from the beginning. This inclusive approach benefits not only people with permanent disabilities but also those with temporary impairments and situational limitations—such as someone using a device in bright sunlight or operating with one hand occupied.
 
-## Core Areas
+## Scope and Impact
 
-Accessibility spans multiple dimensions depending on the [[entities/medium|medium]]. For digital products, this includes providing text alternatives for [[concepts/images|images]], ensuring keyboard navigation, maintaining sufficient [[concepts/color-contrast|color contrast]], and designing interfaces compatible with screen readers. For physical spaces and products, it involves considerations like ramp access, readable signage, and ergonomic design. For creative and written work, it extends to captioning, transcripts, and clear language choices.
+Accessibility encompasses a broad range of considerations: visual design that maintains sufficient contrast for people with low vision, keyboard navigation for those who cannot use a mouse, captions and transcripts for deaf and hard of hearing users, and clear language for people with cognitive disabilities. By designing for these needs systematically, teams create interfaces that tend to be more intuitive and usable for everyone. This universal design approach often improves usability for the general population as well.
 
-## Implementation and Standards
+## Implementation
 
-Many countries have legal standards governing accessibility in digital and physical spaces, such as the Web Content Accessibility Guidelines (WCAG) and the Americans with Disabilities Act (ADA). Beyond [[concepts/compliance|compliance]], accessibility often improves usability for all users. Features developed for accessibility—such as captions or adjustable text sizes—frequently become standard expectations that enhance the experience across the user base.
+In practice, accessibility requires attention to technical standards, such as those outlined in the Web Content Accessibility Guidelines (WCAG), as well as regular testing with users who have disabilities. This involves both automated testing tools and direct user feedback. Accessibility is not a feature added at the end of a project but an ongoing commitment integrated into design decisions, development practices, and quality assurance.
 
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

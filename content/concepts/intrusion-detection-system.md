@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: privacy-security-guardrails
 tags:
   - "intrusion-detection"
   - "ids"
@@ -13,11 +12,12 @@ aliases:
   - "IDS"
   - "intrusion-detection-systems"
 summary: This concept discusses intrusion detection systems in the context of hardening airforce bases.
-updated: 2026-05-01
+updated: 2026-05-23
+group: privacy-security-guardrails
 ---
 # Intrusion Detection System
 
-An Intrusion Detection System (IDS) is a security tool that monitors network traffic and system activity to identify unauthorized access attempts or malicious behavior. IDS technology operates by analyzing data packets and log files against known attack signatures and behavioral anomalies, alerting security personnel when suspicious activity is detected. These systems function as a reactive layer of defense, identifying breaches that may have bypassed perimeter security measures.
+An Intrusion Detection System (IDS) is a [[concepts/security|security]] tool that monitors network traffic and system activity to identify unauthorized access attempts or malicious behavior. IDS technology operates by analyzing data packets and log [[concepts/files|files]] against known attack signatures and behavioral anomalies, alerting security personnel when suspicious activity is detected. These systems function as a reactive layer of defense, identifying breaches that may have bypassed perimeter security measures.
 
 ## Application in Military Infrastructure
 
@@ -25,4 +25,4 @@ In the context of airforce base security, IDS [[concepts/deployment|deployment]]
 
 ## Operational Considerations
 
-IDS systems require ongoing tuning and maintenance to remain effective, as they must balance sensitivity against false alarm rates. Security personnel must review alerts regularly and investigate anomalies to distinguish genuine threats from benign activities. For military [[concepts/software|applications]], integration with existing command and control systems and [[concepts/compliance|compliance]] with defense security protocols is essential for operational effectiveness.
+IDS systems require ongoing tuning and maintenance to remain effective, as they must balance sensitivity against false alarm rates. Security personnel must review alerts regularly and investigate anomalies to distinguish genuine threats from benign activities. For military [[concepts/software|applications]], [[concepts/integration|integration]] with existing command and [[concepts/power|control]] systems and [[concepts/compliance|compliance]] with defense security protocols is essential for operational effectiveness.

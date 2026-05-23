@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "scientific-method"
   - "knowledge-discovery"
@@ -11,11 +10,12 @@ aliases:
   - "science comprehension"
   - "scientific literacy"
 summary: The process of acquiring knowledge about natural phenomena through systematic observation, experimentation, and validation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # Understanding Science
 
-Understanding science is fundamentally the process of acquiring reliable knowledge about the natural world through systematic methods. At its core, this involves making careful observations of phenomena, forming testable hypotheses about how and why things work, and conducting experiments designed to validate or refute these hypotheses. This cyclical approach—observation, hypothesis, experimentation, and validation—forms the backbone of [[concepts/scientific-method|scientific inquiry]] across all disciplines.
+Understanding [[concepts/science|science]] is fundamentally the process of acquiring reliable knowledge about the natural world through systematic methods. [[concepts/assistive-technology|At]] its core, this involves making careful observations of phenomena, forming testable hypotheses about how and why things work, and conducting experiments designed to validate or refute these hypotheses. This cyclical approach—observation, hypothesis, experimentation, and validation—forms the backbone of [[concepts/scientific-method|scientific inquiry]] across all disciplines.
 
 ## The Role of Experimentation and Validation
 
@@ -23,8 +23,7 @@ Experimentation is central to scientific understanding because it allows researc
 
 ## Building Reliable Knowledge
 
-The iterative [[entities/nature|nature]] of science means that understanding is never final or absolute, but rather provisional and subject to refinement as new evidence emerges. Scientists build understanding through cumulative work, where previous findings provide foundations for new investigations. This process of continuous [[concepts/testing|testing]], revision, and improvement helps establish which [[concepts/explanations|explanations]] best account for observed phenomena and which must be modified or abandoned in light of new data.
-
+The iterative [[entities/nature|nature]] of science means that understanding is never final or absolute, but rather provisional and subject to refinement as new evidence emerges. Scientists build understanding through cumulative work, where previous findings provide foundations for new investigations. This process of continuous [[concepts/testing|testing]], revision, and improvement helps establish which [[concepts/explanations|explanations]] best account for observed phenomena and which must be modified or abandoned in [[concepts/light|light]] of new data.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)
 - 2026-04-11: [[lab-notes/2026-04-11-Laurie-Santos-on-Happiness-Student-Mental-Health-and-Well-being-Miscon|Laurie Santos on Happiness Student Mental Health and Well being Miscon]] · [▶ source](https://www.youtube.com/watch?v=HStWtmSCAS8)

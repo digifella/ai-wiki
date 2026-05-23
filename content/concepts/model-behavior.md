@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "machine-learning"
-  - "language-models"
-  - "interpretability"
-  - "model-behavior"
-  - "reasoning-process"
-  - "thought-tracing"
-  - "decision-pathways"
-summary: "Model behavior describes the observable actions and responses of a language model in interaction with inputs and contexts."
-updated: 2026-04-15
+summary: Model behavior describes the observable actions and responses of a language model in interaction with inputs and contexts.
+updated: 2026-05-23
 group: animals-cognition-behaviour
 ---
 # Model Behavior
@@ -22,7 +14,6 @@ Model behavior refers to the observable actions and [[concepts/responses|respons
 - Key question: "What exactly are we talking to when we interact with an LLM?" (Ritchie, 2026).
 
 2026 04 14 [[entities/anthropic-institute|Anthropic]] Discussion about how LLM think
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]

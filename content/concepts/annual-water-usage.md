@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "data-center-water-footprint"
-  - "ai-boom"
-  - "water-consumption"
-  - "cooling-challenges"
-  - "data-center-cooling"
-  - "ai-water-demand"
-  - "water-conservation"
-  - "cooling-technologies"
-aliases:
-  - "Yearly Water Consumption"
-  - "Annual Water Consumption"
-summary: "Data centers with 15 megawatts of IT capacity consume 80-130 million gallons of water annually for cooling, a usage pattern intensified by AI infrastructure growth."
-updated: 2026-04-14
+summary: Data centers with 15 megawatts of IT capacity consume 80-130 million gallons of water annually for cooling, a usage pattern intensified by AI infrastructure growth.
+updated: 2026-05-23
 group: climate-environment-surface-systems
 ---
 # Annual Water Usage
@@ -23,7 +11,7 @@ The annual water usage of various entities is a critical metric in understanding
 
 ## Key Considerations
 - Data centers are among the largest consumers of fresh water due to their cooling needs.
-- The advent of AI significantly increases the demand for computational power, leading to higher energy use and consequently more water usage in [[concepts/cooling-systems|cooling systems]].
+- The advent of AI significantly increases the demand for computational [[concepts/power|power]], leading to higher energy use and consequently more water usage in [[concepts/cooling-systems|cooling systems]].
 - [[concepts/water-conservation|Water conservation]] measures and alternative cooling technologies (such as air-cooled systems) are being explored to reduce reliance on precious water resources.
 
 ### Data Center Water Consumption
@@ -32,15 +20,14 @@ The annual water usage of various entities is a critical metric in understanding
 
 ### Related Concepts
 - [[concepts/energy-efficiency]]
-- water-conservation
-- cooling-systems
-- data-center-infrastructure
+- [[concepts/water-conservation|water-conservation]]
+- [[concepts/cooling-systems|cooling-systems]]
+- [[concepts/data-center-infrastructure|data-center-infrastructure]]
 
 ## References & Additional Resources
 - [The Data Center Water Problem]((https://www.youtube.com/watch?v=tJYSzc7YkY0)) - Asianometry
 
 ### Backlinks
 - 2026 04 13 [[concepts/data-center-water-footprint|Data Center Water Footprint]] AI Booms Growing Consumption Cooling Chall
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Irans-Water-Crisis-Ancient-Qanat-Management-and-20th-Century-Decline|Irans Water Crisis Ancient Qanat Management and 20th Century Decline]] · [▶ source](https://www.youtube.com/watch?v=aaEhNTpvEN8)

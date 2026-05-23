@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "concept"
   - "nvidia"
@@ -12,11 +11,12 @@ tags:
 aliases:
   - "CUDA"
 summary: Nvidia CUDA is a technology for GPU parallel computing used in AI advancement.
-updated: 2026-05-01
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Compute Unified Device Architecture
 
-Compute Unified Device Architecture (CUDA) is a [[concepts/general-purpose-computing|parallel computing]] platform and application programming interface (API) developed by Nvidia. It allows [[concepts/software|software]] developers to use certain graphics processing units (GPUs) for general-[[concepts/motivation|purpose]] processing, moving beyond their traditional role in rendering graphics. CUDA enables direct access to the GPU's virtual instruction set and [[concepts/memory|memory]] [[concepts/hierarchy|hierarchy]], facilitating faster computation for applications that can be parallelized across many processor cores.
+[[concepts/compute|Compute]] Unified Device Architecture ([[concepts/cuda|CUDA]]) is a [[concepts/general-purpose-computing|parallel computing]] platform and [[concepts/application-programming-interface-api|application programming interface (API)]] developed by [[entities/nvidia|Nvidia]]. It allows [[concepts/software|software]] developers to use certain [[concepts/graphics-processing-units-gpus|graphics processing units (GPUs)]] for general-[[concepts/motivation|purpose]] processing, moving beyond their traditional role in rendering graphics. CUDA enables direct access to the GPU's virtual instruction set and [[concepts/memory|memory]] [[concepts/hierarchy|hierarchy]], facilitating faster computation for applications that can be parallelized across many processor cores.
 
 ## GPU Parallel Computing
 
@@ -24,7 +24,6 @@ CUDA leverages the massively parallel [[entities/nature|nature]] of GPUs to acce
 
 ## Applications in Artificial Intelligence
 
-CUDA has become foundational to modern artificial intelligence development, particularly in [[concepts/training|training]] [[concepts/deep-neural-networks|deep neural networks]]. The [[concepts/parallel-processing|parallel processing]] capabilities of GPUs using CUDA significantly reduce training time for [[concepts/artificial-intelligence-models|machine learning models]] compared to CPU-only execution. Most major AI frameworks and libraries, including TensorFlow, PyTorch, and others, have built-in CUDA support, making it the de facto standard for [[concepts/gpu-acceleration|GPU acceleration]] in [[concepts/ai-research|AI research]] and [[concepts/deployment|deployment]].
-
+CUDA has become foundational to modern [[concepts/ai-technologies|artificial intelligence]] development, particularly in [[concepts/training|training]] [[concepts/deep-neural-networks|deep neural networks]]. The [[concepts/parallel-processing|parallel processing]] [[concepts/capabilities|capabilities]] of GPUs using CUDA significantly reduce training time for [[concepts/artificial-intelligence-models|machine learning models]] compared to CPU-only execution. Most major AI frameworks and libraries, including TensorFlow, PyTorch, and others, have built-in CUDA support, making it the de facto standard for [[concepts/gpu-acceleration|GPU acceleration]] in [[concepts/ai-research|AI research]] and [[concepts/deployment|deployment]].
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Nvidia-CUDA-GPU-Parallel-Computing-for-AI-Advancement|Nvidia CUDA GPU Parallel Computing for AI Advancement]] · [▶ source](https://www.youtube.com/watch?v=pPStdjuYzSI)

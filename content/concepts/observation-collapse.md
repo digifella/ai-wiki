@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "quantum-mechanics"
-  - "superdeterminism"
-  - "local-realism"
-  - "indeterminacy"
-updated: 2026-04-14
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Observation Collapse
@@ -16,10 +11,10 @@ group: physics-fundamental-theory
 ## Key Concepts
 - **Wave Function**: A mathematical description that encapsulates all information about a system.
 - **Collapse of Wave Function**: The process by which a wave function transitions from a superposition state to a single, definite state upon measurement.
-- **[[concepts/superdeterminism|Superdeterminism]]**: An interpretation suggesting the universe is fundamentally deterministic at a deeper level than quantum mechanics allows for.
+- **[[concepts/superdeterminism|Superdeterminism]]**: An interpretation suggesting the universe is fundamentally deterministic [[concepts/assistive-technology|at]] a deeper level than quantum mechanics allows for.
 
 ## Related Concepts
-- quantum-mechanics
+- [[concepts/quantum-mechanics|quantum-mechanics]]
 - [[concepts/local-realism]]
 - [[concepts/indeterminacy]]
 
@@ -29,7 +24,7 @@ The concept of observation collapse has significant implications on our understa
 
 ## New Insights
 - **Superdeterminism**: A radical idea suggesting that the universe operates under a pre-existing deterministic framework where every outcome, including measurements, is already set.
-  - Challenges: This interpretation undermines traditional notions of free will and causality in quantum mechanics.
+  - Challenges: This interpretation undermines traditional notions of free [[entities/will|will]] and causality in quantum mechanics.
   - Support: Some argue it offers a resolution to Bell's Theorem without invoking non-locality or hidden variables.
 
 ### PBS Space Time Video
@@ -38,10 +33,9 @@ The concept of observation collapse has significant implications on our understa
 - **Author / channel:** [[entities/pbs-space-time|PBS Space Time]]
 - **URL:** https://www.youtube.com/watch?v=JnKzt6Xq-w4
 
-**Summary**: The video delves into the implications of superdeterminism on our understanding of quantum reality and [[concepts/local-realism|local realism]], questioning established interpretations such as Copenhagen and de Broglie-Bohm.
+**[[concepts/summary|Summary]]**: The video delves into the implications of superdeterminism on our understanding of quantum reality and [[concepts/local-realism|local realism]], questioning established interpretations such as Copenhagen and de Broglie-Bohm.
 
 ## References
-2026 04 12 Superdeterminism and Quantum Reality Implications for Local Realism
-
+2026 04 12 [[concepts/superdeterminism|Superdeterminism]] and Quantum Reality Implications for Local Realism
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Superdeterminism-and-Quantum-Reality-Implications-for-Local-Realism|Superdeterminism and Quantum Reality Implications for Local Realism]] · [▶ source](https://www.youtube.com/watch?v=JnKzt6Xq-w4)

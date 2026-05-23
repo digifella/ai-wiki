@@ -8,7 +8,7 @@ tags:
 aliases:
   - "Kimi K2"
 summary: This page is a stub for Kimi K2.
-updated: 2026-05-01
+updated: 2026-05-23
 title: Kimi K2
 ---
 # Kimi
@@ -17,4 +17,4 @@ title: Kimi K2
 
 ## Kimi K2
 
-Kimi K2 is a system within the knowledge-systems domain. Further details about its specific function, [[concepts/architecture|architecture]], or [[concepts/scenarios|use cases]] would require additional documentation or source material to describe accurately.
+[[entities/kimi-k2|Kimi K2]] is a system within the knowledge-systems domain. Further details about its specific function, [[concepts/architecture|architecture]], or [[concepts/scenarios|use cases]] would require additional documentation or source material to describe accurately.

@@ -1,42 +1,30 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "multimodal"
-  - "reasoning"
-  - "ai"
-  - "google"
-updated: 2026-04-15
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Multimodal Reasoning Engine
 
-A system capable of processing and [[concepts/reasoning|reasoning]] across multiple input modalities (text, image, audio, video) to generate contextually coherent outputs. Combines capabilities of [[concepts/statistical-language-modeling|Language Model]], [[concepts/computer-vision|Computer Vision]], and [[concepts/audio-processing|Audio Processing]].
+System processing and [[concepts/reasoning|reasoning]] across multiple input modalities ([[concepts/text|text]], image, [[concepts/audio-modality|audio]], video) to generate contextually coherent outputs. Integrates [[concepts/capabilities|capabilities]] of [[concepts/statistical-language-modeling|Language Model]], [[concepts/computer-vision|Computer Vision]], and [[concepts/audio-processing|Audio Processing]].
 
 ## Core Capabilities
-- Processes cross-modal inputs (e.g., image + text query)
-- Generates unified outputs integrating multiple modalities
-- Maintains contextual coherence across input types
-- Reduces hallucinations via multimodal grounding
+- **Cross-modal processing**: Handles mixed inputs (e.g., image + text query) with semantic alignment.
+- **Unified [[concepts/output|output]] generation**: Produces results synthesizing information from all input types.
+- **Contextual coherence**: Maintains state and meaning across [[concepts/modality|modality]] boundaries.
+- **[[concepts/data-hallucination|Hallucination]] reduction**: Leverages multimodal grounding to verify claims against visual/audio evidence.
+- **[[concepts/local-inference|Local inference]] support**: Enables private, [[concepts/on-device-processing|on-device processing]] via [[concepts/open-source|open-source]] implementations.
 
-## Integration with Grounded Knowledge Engines
-The combination of [[concepts/multimodal-reasoning|Multimodal Reasoning]] Engine (e.g., [[entities/gemini]]) with [[concepts/grounded-knowledge-engine]] (e.g., [[entities/notebooklm]]) enables capabilities impossible with either tool alone:
+## Integration Workflows
+Combining multimodal engines with [[concepts/specialized-tools|specialized tools]] enables advanced [[entities/agent|agent]] behaviors and production pipelines:
 
-- **Grounded [[concepts/knowledge-base|knowledge base]]**: [[entities/notebooklm]] ingests user documents to create a context-aware knowledge repository
-- **Multimodal reasoning**: [[entities/gemini]] processes text, [[concepts/images|images]], and audio queries
-- **Unified workflow**:
-  - Upload documents to [[entities/notebooklm]]
-  - Pose multimodal questions (e.g., "Explain this diagram from my technical manual")
-  - [[entities/gemini]] analyzes image/audio + text, then queries [[entities/notebooklm]] for grounded answers
-
-## Key Benefits
-- **[[concepts/accuracy|Accuracy]]**: Grounded [[concepts/responses|responses]] prevent hallucinations (via [[entities/notebooklm]])
-- **Versatility**: Handles text, images, and audio in single workflow
-- **Efficiency**: Eliminates context-switching between tools
-- **Scalability**: Leverages user-specific [[concepts/knowledge-bases|knowledge bases]] without retraining
-
-2026 04 14 [[concepts/gemini|Gemini]] and [[concepts/automated-chat-organization|NotebookLM integration]] Channel [[concepts/ai-superpower|AI Superpower]]
-
-## Source Notes
-
-- 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
+- **Grounded [[concepts/knowledge-integration|Knowledge Integration]]**:
+  - Pairs [[concepts/multimodal-reasoning|Multimodal Reasoning]] engines (e.g., [[entities/gemini]]) with [[concepts/grounded-knowledge-engine|Grounded Knowledge Engines]] (e.g., [[entities/notebooklm]]).
+  - [[entities/notebooklm]] ingests user documents to create context-aware repositories.
+  - Engine processes multimodal queries against retrieved context.
+  - [[concepts/workflow|Workflow]]: Upload documents → Pose multimodal questions (e.g., "Explain diagram in technical manual") → Receive grounded, modality-rich [[concepts/explanations|explanations]].
+- **Creative & Video Production**:
+  - [[entities/ltx-desktop|LTX Desktop]] leverages the [[entities/ltx-2.3|LTX 2.3]] multimodal engine for native, free, [[concepts/local-ai|local AI]] [[concepts/video-editing|video editing]].
+  - Supports open-source, non-linear workflows with full modality [[concepts/power|control]].
+  - Enables [[concepts/local-video-generation|local video generation]] and editing without cloud dependency.
+  - See: [[lab-notes/2026-05-13-LTX-Desktop-First-Native-Free-Local-AI-Video-Editor-with|LTX Desktop: First Native, Free, Local AI Video Editor with LTX 2.3]]

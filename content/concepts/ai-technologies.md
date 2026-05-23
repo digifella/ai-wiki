@@ -15,8 +15,8 @@ tags:
 aliases:
   - "Artificial Intelligence"
   - "AI"
-summary: "AI technologies encompass systems such as machine learning, natural language processing, and computer vision used in sectors including healthcare, finance, and transportation."
-updated: 2026-04-28
+summary: AI technologies encompass systems such as machine learning, natural language processing, and computer vision used in sectors including healthcare, finance, and transportation.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI Technologies
@@ -27,7 +27,7 @@ AI technologies encompass a broad [[concepts/range|range]] of tools and systems 
 ## Key Areas
 - **[[concepts/machine-learning|Machine Learning]]**: Algorithms that improve through experience and data.
 - **[[concepts/natural-language-processing|Natural Language Processing]] ([[concepts/nlp|NLP]])**: Enables machines to understand and generate human language.
-- **[[concepts/computer-vision|Computer Vision]]**: Allows machines to interpret and make decisions based on visual input.
+- **[[concepts/computer-vision|Computer Vision]]**: Allows machines to interpret and [[entities/make|make]] decisions based on visual input.
 - **[[concepts/robotics|Robotics]]**: [[concepts/integration|Integration]] of AI with physical systems to automate tasks.
 
 ## Applications
@@ -40,7 +40,7 @@ AI technologies encompass a broad [[concepts/range|range]] of tools and systems 
 - **[[concepts/ai-delegation|AI Oversight]]**: Mechanisms to monitor and regulate AI systems to mitigate risks and ensure [[concepts/compliance|compliance]] with ethical [[concepts/open-standards|standards]].
 
 ## Challenges
-- **Bias and Fairness**: Ensuring AI systems do not perpetuate or amplify existing biases.
+- **Bias and Fairness**: Ensuring AI systems do not perpetuate or amplify existing [[concepts/biases|biases]].
 - **[[concepts/privacy|Privacy]] Concerns**: Balancing data utilization with individual [[concepts/privacy|privacy]] rights.
 - **Regulatory Frameworks**: Developing [[concepts/policies|policies]] that keep pace with technological advancements.
 
@@ -56,7 +56,6 @@ AI technologies encompass a broad [[concepts/range|range]] of tools and systems 
 
 ## Backlinks
 - 2026 04 14 [[entities/bmj-review|BMJ Review]]
-
 ## Source Notes
 - 2026-04-07: Google NotebookLM
 - 2026-04-10: [[lab-notes/2026-04-10-Google-NotebookLMs-Latest-Features-Enhanced-Infographics-AI-Videos|Google NotebookLMs Latest Features Enhanced Infographics AI Videos]] · [▶ source](https://www.youtube.com/watch?v=E71M74FIDHc)

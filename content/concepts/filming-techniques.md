@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: entertainment-games
-group: sports-athletics
+domain: ai-agents
 tags:
   - "concept"
   - "filming"
@@ -14,11 +13,12 @@ aliases:
   - "Video Production Methods"
   - "Digital Clone Creation"
 summary: Techniques for filming using AI tools like Heygen and Elevenlabs to create digital twin clones.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Filming Techniques
 
-Filming techniques utilizing [[entities/ai-tools|AI tools]] enable the creation of digital representations that can perform scripted content without requiring continuous human presence on set. Tools like [[concepts/heygen|HeyGen]] and [[entities/eleven-labs|ElevenLabs]] provide foundational capabilities for generating synthetic video and audio, respectively. HeyGen specializes in creating avatar-based videos from text input, while ElevenLabs focuses on [[concepts/text-to-speech-synthesis|text-to-speech synthesis]] with varied voice options. These tools can be combined to produce complete filmed content featuring digital characters.
+Filming techniques utilizing [[entities/ai-tools|AI tools]] enable the creation of digital representations that can perform scripted content without requiring continuous human presence on set. Tools like [[concepts/heygen|HeyGen]] and [[entities/eleven-labs|ElevenLabs]] provide foundational [[concepts/capabilities|capabilities]] for generating synthetic video and [[concepts/audio-modality|audio]], respectively. [[entities/heygen|HeyGen]] specializes in creating avatar-based videos from [[concepts/text|text]] input, while ElevenLabs focuses on [[concepts/text-to-speech-synthesis|text-to-speech synthesis]] with varied [[concepts/tone|voice]] options. These tools can be combined to produce complete filmed content featuring digital characters.
 
 ## Practical Applications
 
@@ -26,7 +26,6 @@ The primary use case involves creating [[concepts/ai-avatar-creation|digital twi
 
 ## Current Limitations and Costs
 
-Implementation of these techniques involves trade-offs in quality, [[concepts/customization|customization]], and expense. Solutions like [[concepts/automated-information-pipelines|OpenClaw]], which may offer more sophisticated digital twin capabilities, present significant cost barriers for many production [[concepts/scenarios|scenarios]]. Users must evaluate whether the investment in AI filming tools provides sufficient returns compared to traditional methods, particularly for projects with specific aesthetic or performance requirements that current systems may not adequately replicate.
-
+[[concepts/adoption|Implementation]] of these techniques involves trade-offs in quality, [[concepts/customization|customization]], and expense. Solutions like [[concepts/automated-information-pipelines|OpenClaw]], which may offer more sophisticated digital twin capabilities, present significant [[concepts/cost|cost]] barriers for many production [[concepts/scenarios|scenarios]]. Users must evaluate whether the investment in AI filming tools provides sufficient returns compared to traditional methods, particularly for projects with specific aesthetic or performance requirements that current systems may not adequately replicate.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

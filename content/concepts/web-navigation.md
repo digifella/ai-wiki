@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: tools-platforms
-updated: 2026-04-14
+summary: Web navigation refers to the methods and tools used to move through and interact with web pages.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
-summary: "Web navigation refers to the methods and tools used to move through and interact with web pages."
 ---
 - "web"
   - "browser"
@@ -22,7 +22,7 @@ group: web-publishing-quartz-websites
 
 Web navigation refers to the methods and tools used to move through and interact with web pages.
 
-* **Browser [[concepts/automation|automation]]**: Tools that control web browsers programmatically (e.g., Selenium, Puppeteer).
+* **Browser [[concepts/automation|automation]]**: Tools that [[concepts/power|control]] web browsers programmatically (e.g., Selenium, Puppeteer).
 * **Navigation patterns**: Common user flows (e.g., breadcrumbs, site maps).
 
 ## Recent Tools
@@ -30,7 +30,6 @@ Web navigation refers to the methods and tools used to move through and interact
 * **[[concepts/claude-code|Claude Code]] (2.0.70-2.0.72)**: Beta support for direct control of [[entities/claude-in-chrome|Claude in Chrome]] [[concepts/chrome-extension|browser extension]], enabling terminal-based navigation (e.g., clicking [[concepts/buttons|buttons]], site traversal) via CLI. [[entities/ray-amjad|Ray Amjad]] channel.
 
 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

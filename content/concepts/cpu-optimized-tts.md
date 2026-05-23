@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: multimodal-generative-media
 tags:
   - "text-to-speech"
   - "cpu-optimization"
@@ -13,20 +12,20 @@ aliases:
   - "Kitten TTS"
   - "Kitten ML TTS"
 summary: Kitten TTS is an open-source text-to-speech framework developed by Kitten ML that is optimized for CPU performance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Cpu Optimized Tts
 
-Kitten TTS is an [[concepts/open-source|open-source]] [[concepts/text-to-speech-framework|text-to-speech framework]] developed by [[entities/kitten-ml|Kitten ML]], designed with a primary focus on CPU [[concepts/software-performance|performance optimization]]. Rather than relying on [[concepts/gpu-acceleration|GPU acceleration]], the framework achieves efficient [[concepts/text-to-speech-generation|speech synthesis]] through CPU-based processing, making it accessible for [[concepts/deployment|deployment]] on resource-constrained environments and devices without specialized [[concepts/hardware|hardware]].
+[[concepts/text-to-speech-frameworks|Kitten TTS]] is an [[concepts/open-source|open-source]] [[concepts/text-to-speech-framework|text-to-speech framework]] developed by [[entities/kitten-ml|Kitten ML]], designed with a primary focus on [[concepts/cpu|CPU]] [[concepts/software-performance|performance optimization]]. Rather than relying on [[concepts/gpu-acceleration|GPU acceleration]], the framework achieves efficient [[concepts/text-to-speech-generation|speech synthesis]] through CPU-based processing, making it accessible for [[concepts/deployment|deployment]] on resource-constrained environments and devices without specialized [[concepts/hardware|hardware]].
 
 ## Framework Architecture
 
-The framework prioritizes [[concepts/computational-efficiency|computational efficiency]] without sacrificing output quality. By optimizing for CPU execution, Kitten TTS enables text-to-speech functionality on standard [[concepts/central-processing-units|processors]], reducing infrastructure costs and expanding deployment possibilities for [[concepts/agentic-ai|AI agents]] and [[concepts/software|applications]] that require real-time or near-real-time speech generation.
+The framework prioritizes [[concepts/computational-efficiency|computational efficiency]] without sacrificing [[concepts/output|output]] quality. By optimizing for CPU execution, Kitten TTS enables text-to-speech functionality on standard [[concepts/central-processing-units|processors]], reducing infrastructure costs and expanding deployment possibilities for [[concepts/agentic-ai|AI agents]] and [[concepts/software|applications]] that require real-time or near-real-time speech generation.
 
 ## Application Context
 
-As an open-source project, Kitten TTS is available for community use and contribution. Its CPU-optimized design makes it particularly relevant for [[concepts/edge-computing|edge computing]] [[concepts/scenarios|scenarios]], embedded systems, and applications where GPU availability is limited or impractical. The framework represents an approach to democratizing TTS capabilities by reducing hardware barriers to implementation.
-
+As an open-source project, Kitten TTS is available for community use and contribution. Its CPU-optimized [[concepts/design|design]] makes it particularly relevant for [[concepts/edge-computing|edge computing]] [[concepts/scenarios|scenarios]], embedded systems, and applications where GPU availability is limited or impractical. The framework represents an approach to democratizing TTS [[concepts/capabilities|capabilities]] by reducing hardware barriers to [[concepts/adoption|implementation]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

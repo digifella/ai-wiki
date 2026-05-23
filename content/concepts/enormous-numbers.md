@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "mathematics physics philosophy mayan culture enormous numbers procedural knowledge conceptual insight richard feynman"
-  - "mathematics"
-  - "physics"
-  - "philosophy"
-  - "mayan-culture"
-  - "procedural-knowledge"
-  - "conceptual-insight"
-summary: "Enormous numbers are used in physics to describe phenomena spanning scales from subatomic particles to cosmological structures."
-updated: 2026-04-14
+summary: Enormous numbers are used in physics to describe phenomena spanning scales from subatomic particles to cosmological structures.
+updated: 2026-05-23
 group: number-theory-prime-numbers
 ---
 # Enormous Numbers
@@ -19,7 +11,7 @@ Enormous numbers play a significant role in the field of [[concepts/physics|phys
 
 ### Related Concepts
 - [[concepts/mathematics]]
-- physics
+- [[concepts/physics|physics]]
 - [[concepts/philosophy|philosophy]]
 - [[concepts/mayan-culture|mayan culture]]
 
@@ -33,9 +25,8 @@ Enormous numbers play a significant role in the field of [[concepts/physics|phys
 
 ### New Note Integration
 - Feynman emphasizes that dealing with enormous numbers in physics requires more than just mathematical proficiency; it demands an intuitive grasp of the concepts involved.
-- The video Richard Feynman on - philosophy, Why question, Modern science and Mathematics.avi elaborates on these ideas, highlighting the importance of questioning and understanding beyond mere calculation.
+- The video [[concepts/feynman|Richard Feynman]] on - philosophy, Why question, Modern [[concepts/science|science]] and Mathematics.avi elaborates on these [[concepts/ideas|ideas]], highlighting the importance of questioning and understanding beyond mere calculation.
 
-2026 04 12 Feynman Mathematics as a Tool Not Understanding Mayan Example
-
+2026 04 12 Feynman [[concepts/physical-world-modeling|Mathematics as a Tool]] Not Understanding Mayan Example
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Feynman-Mathematics-as-a-Tool-Not-Understanding-Mayan-Example|Feynman Mathematics as a Tool Not Understanding Mayan Example]] · [▶ source](https://www.youtube.com/watch?v=E383eEA54DE)

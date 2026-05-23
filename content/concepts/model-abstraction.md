@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "model-abstraction"
   - "portal-intelligence-layer"
@@ -12,11 +11,12 @@ aliases:
   - "abstraction-model"
   - "PIL-model-abstraction"
 summary: The page covers the concept of model abstraction within the Portal Intelligence Layer implementation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Model Abstraction
 
-Model abstraction in cryptographic systems refers to the process of creating simplified, generalized representations of complex cryptographic models while preserving their essential security properties. Within the [[concepts/ollama-first-model|Portal Intelligence Layer]] implementation, model abstraction enables the systematic reduction of cryptographic protocols to their fundamental components, allowing for clearer analysis of their behavior and verification of their correctness.
+Model [[concepts/abstraction-layer|abstraction]] in cryptographic systems refers to the process of creating simplified, generalized representations of complex cryptographic [[concepts/models|models]] while preserving their essential [[concepts/security|security]] properties. Within the [[concepts/ollama-first-model|Portal Intelligence Layer]] [[concepts/adoption|implementation]], model abstraction enables the systematic reduction of cryptographic protocols to their fundamental components, allowing for clearer analysis of their behavior and [[concepts/verification|verification]] of their correctness.
 
 ## Application in Portal Intelligence Layer
 

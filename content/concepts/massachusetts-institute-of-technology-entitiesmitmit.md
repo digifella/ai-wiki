@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "mit"
   - "massachusetts-institute-of-technology"
@@ -13,11 +12,12 @@ aliases:
   - "MIT"
   - "Massachusetts Institute of Technology"
 summary: Major research university located in Cambridge, Massachusetts, known for education and research in science, engineering, and technology.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Massachusetts Institute Of Technology
 
-The Massachusetts Institute of Technology (MIT) is a major research university located in Cambridge, Massachusetts. Founded in 1861, MIT has become one of the world's leading institutions for education and research in science, engineering, and technology. The university's campus sits along the Charles River, adjacent to Boston, and serves approximately 1,000 faculty members and 1,100 students across its graduate and undergraduate [[concepts/software|programs]].
+The Massachusetts Institute of Technology ([[entities/mit|MIT]]) is a major research university located in Cambridge, Massachusetts. Founded in 1861, MIT has become one of the world's leading institutions for education and research in [[concepts/science|science]], engineering, and technology. The university's campus sits along the Charles River, adjacent to Boston, and serves approximately 1,000 faculty members and 1,100 students across its graduate and undergraduate [[concepts/software|programs]].
 
 ## Education and Research
 

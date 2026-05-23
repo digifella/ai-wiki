@@ -1,23 +1,10 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "software-engineering"
-  - "ai-security"
-  - "performance-breakthroughs"
-  - "anthropic-claude-mythos"
-  - "multimodal-applications"
-  - "anti-vibe-coding"
-aliases:
-  - "SE"
-  - "AI in SE"
-  - "Claude Mythos SE"
-summary: "Software engineering focuses on the design, development, and maintenance of software with an emphasis on reliability and efficiency."
-updated: 2026-04-14
+summary: Software engineering focuses on the design, development, and maintenance of software with an emphasis on reliability and efficiency.
+updated: 2026-05-23
 group: developer-tooling-clis
-title: "Software Engineering"
-backlinks:
-  - "2026 04 14 Anti Vibe coding IDE Sam Witteveen"
+title: Software Engineering
 ---
 # Software Engineering
 
@@ -25,8 +12,8 @@ backlinks:
 
 ## Recent Advances in AI Security and Performance
 
-- [[entities/anthropic|Anthropic]] has released preliminary details about their new AI model "[[entities/claude-mythos|Claude Mythos]]," which demonstrates significant advancements in security and performance for critical applications ([Anthropic Claude Mythos](https://www.youtube.com/watch?v=NOR4NHL-SiI)).
-- The video discusses [[entities/claude|Claude]] [[concepts/mythos|Mythos]]'s groundbreaking capabilities, especially in software engineering tasks and multimodal applications.
+- [[entities/anthropic|Anthropic]] has released preliminary details about their new AI model "[[entities/claude-mythos|Claude Mythos]]," which demonstrates significant advancements in [[concepts/security|security]] and performance for critical applications ([Anthropic Claude Mythos](https://www.youtube.com/watch?v=NOR4NHL-SiI)).
+- The video discusses [[entities/claude|Claude]] [[concepts/mythos|Mythos]]'s groundbreaking [[concepts/capabilities|capabilities]], especially in software engineering tasks and multimodal applications.
 - [[concepts/ai-benchmarks|Claude Mythos]] is designed with enhanced security features to address emerging AI risks.
 
 ## Emerging Tools and Methodologies
@@ -38,7 +25,6 @@ backlinks:
 - [[concepts/ai-security]]
 - Performance [[concepts/ai-workflow|Optimization]]
 - [[concepts/anti-vibe-coding]]
-
 ## Source Notes
 - 2026-04-09: Anthropic Built an AI So Dangerous They Won’t Release It
 - 2026-04-10: 5 [[entities/claude-code|Claude Code skills I use every single day]]

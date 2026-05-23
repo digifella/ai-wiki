@@ -1,30 +1,19 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "nlp"
-  - "retrieval"
-  - "rag"
-  - "vector-search"
-  - "semantic-similarity"
-  - "vector-databases"
-  - "information-extraction"
-  - "embedding-retrieval"
-aliases:
-  - "vector-based retrieval"
-  - "semantic retrieval"
-summary: "A retrieval mechanism that uses high-dimensional vector representations and mathematical distance measures to perform semantic searches within a vector database."
-updated: 2026-04-17
+summary: A retrieval mechanism that uses high-dimensional vector representations and mathematical distance measures to perform semantic searches within a vector database.
+updated: 2026-05-23
 group: applied-ai-workflows
+stub: true
 ---
 # Embedding-based retrieval
 
 A retrieval mechanism that utilizes high-dimensional [[concepts/vector-representations|vector representations]] (embeddings) to perform [[concepts/semantic-similarity|semantic similarity]] searches within a [[concepts/vector-database]].
 
 ## Core Mechanism
-- **Workflow**: Text $\to$ Chunking $\to$ Embedding $\to$ Vector Indexing.
+- **[[concepts/workflow|Workflow]]**: [[concepts/text|Text]] $\to$ Chunking $\to$ Embedding $\to$ Vector Indexing.
 - **Similarity Metrics**: Employs mathematical distance measures (e.g., Cosine Similarity, Euclidean Distance) to map queries to relevant document segments.
-- **Foundational Role**: Serves as the primary retrieval engine for [[concepts/rag]] (Retrieval-Augmented Generation) architectures.
+- **Foundational Role**: Serves as the primary retrieval engine for [[concepts/rag]] ([[concepts/answer-generation|Retrieval-Augmented Generation]]) architectures.
 
 ## Challenges in Traditional Systems
 - **Context Fragmentation**: Breaking text into chunks can lead to a loss of semantic [[concepts/continuity|continuity]].

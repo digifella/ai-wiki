@@ -14,9 +14,10 @@ tags:
 aliases:
   - "Software Release"
   - "Production Deployment"
-summary: "The process of releasing software into a production environment using continuous integration, continuous delivery, and infrastructure as code tools."
-updated: 2026-04-28
+summary: The process of releasing software into a production environment using continuous integration, continuous delivery, and infrastructure as code tools.
+updated: 2026-05-23
 group: deployment-docker-services
+stub: true
 ---
 # Deployment
 
@@ -42,8 +43,7 @@ A concept referring to the process of releasing [[concepts/software|software]] i
 
 ## Backlinks
 
-- 2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare setup
-
+- 2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare [[concepts/setup|setup]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)

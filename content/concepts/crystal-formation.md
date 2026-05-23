@@ -12,9 +12,9 @@ tags:
 aliases:
   - "crystallization"
   - "crystal-growth"
-summary: "Crystal formation is the process by which atoms, molecules, or ions arrange into a highly ordered, repeating three-dimensional lattice."
-updated: 2026-04-30
-group: physics-fundamental-theory
+summary: Crystal formation is the process by which atoms, molecules, or ions arrange into a highly ordered, repeating three-dimensional lattice.
+updated: 2026-05-23
+group: materials-chemistry-mechanisms
 ---
 # Crystal formation
 
@@ -31,7 +31,6 @@ Variations in crystal structure are a critical concern in pharmacology, as they 
 - Ritonavir [[concepts/crystalline-structure|Polymorph Crisis]]: Unraveling the Mystery of a Failing HIV Drug:
     - Illustrates the industrial impact of polymorphism using the [[concepts/hiv-medication|HIV medication]] Ritonavir (introduced 1996).
     - Details a crisis where a previously unknown, more stable polymorph emerged during production, leading to sudden [[concepts/quality-control]] failures.
-    - Highlights the difficulty of managing unexpected [[concepts/phase|phase]] transitions in large-scale chemical manufacturing.
-
+    - [[concepts/highlights|Highlights]] the difficulty of managing unexpected [[concepts/phase|phase]] transitions in large-scale chemical manufacturing.
 ## Source Notes
 - 2026-04-30: [[lab-notes/2026-04-30-Ritonavir-Polymorph-Crisis-Unraveling-the-Mystery-of-a-F|Ritonavir Polymorph Crisis: Unraveling the Mystery of a Failing HIV Drug]] · [▶ source](https://www.youtube.com/watch?v=ksn5yrsC3Wg)

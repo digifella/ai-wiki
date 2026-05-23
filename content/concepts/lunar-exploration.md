@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: space-systems-exploration-infrastructure
 tags:
   - "concept"
   - "artemis-program"
@@ -14,7 +13,8 @@ aliases:
   - "Moon Exploration"
   - "Artemis Missions"
 summary: Lunar exploration encompasses missions like Artemis II that test crewed spacecraft systems and operations for returning humans to the Moon.
-updated: 2026-05-01
+updated: 2026-05-23
+group: space-systems-exploration-infrastructure
 ---
 # Lunar Exploration
 
@@ -26,8 +26,7 @@ The [[concepts/artemis-program|Artemis program]] represents the current focal po
 
 ## Mission Architecture
 
-Lunar exploration missions require integrated systems spanning launch vehicles, crew capsules, and in some cases, lunar landers. The Artemis architecture incorporates the Space Launch System for initial launch capability and planned integration with additional elements for surface operations. Crews conduct extensive [[concepts/training|training]] on spacecraft systems and emergency procedures before flight, with missions generating operational data that informs refinements to [[concepts/vehicle-design|vehicle design]] and mission planning. This iterative approach—combining ground [[concepts/preparation|preparation]] with actual spaceflight experience—remains essential to developing reliable systems for human lunar operations.
-
+Lunar exploration missions require integrated systems spanning launch vehicles, crew capsules, and in some cases, lunar landers. The Artemis architecture incorporates the Space Launch System for initial launch capability and planned [[concepts/integration|integration]] with additional elements for surface operations. Crews conduct extensive [[concepts/training|training]] on spacecraft systems and emergency procedures before flight, with missions generating operational data that informs refinements to [[concepts/vehicle-design|vehicle design]] and mission planning. This iterative approach—combining ground [[concepts/preparation|preparation]] with actual spaceflight experience—remains essential to developing reliable systems for human lunar operations.
 ## Source Notes
 - 2026-04-11: We Just Watched Artemis II Come Back… That Was Intense
 - 2026-04-12: [[lab-notes/2026-04-12-Artemis-II-Human-Lunar-Flyby-Operations-Orion-Systems-and-In-flight-Ch|Artemis II Human Lunar Flyby Operations Orion Systems and In flight Ch]] · [▶ source](https://www.youtube.com/watch?v=CrzP6naZGKs)

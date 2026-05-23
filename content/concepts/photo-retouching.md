@@ -12,9 +12,10 @@ tags:
 aliases:
   - "photo-editing"
   - "image-compositing"
-summary: "A technique in Photoshop using image stacking, auto-alignment, and layer masks to combine elements from multiple photos or fix specific details."
-updated: 2026-04-28
+summary: A technique in Photoshop using image stacking, auto-alignment, and layer masks to combine elements from multiple photos or fix specific details.
+updated: 2026-05-23
 group: photography-cameras
+stub: true
 ---
 # Photo retouching
 
@@ -24,7 +25,6 @@ group: photography-cameras
 	- **Resource**: [[concepts/tutorial|Tutorial]] by [[entities/colin-smith|Colin Smith]] ([[entities/photoshopcafe|PhotoshopCAFE]]) <https://www.youtube.com/watch?v=_x4ywYieB8c>
 
 2026 04 14 [[concepts/combining-photos|Combining photos]] in [[concepts/photoshop|Photoshop]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro|Snapseed Overview Free Photo Editing App with New Camera and Pro]] · [▶ source](https://www.youtube.com/watch?v=mvcTq5uA6uo)
 - 2026-04-10: [[lab-notes/2026-04-10-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape|Lightroom Classic Single Click Automated AI Mask Presets for Landscape]] · [▶ source](https://www.youtube.com/watch?v=tVCV0VmoZnw)

@@ -11,8 +11,8 @@ tags:
 aliases:
   - "Hardware-driven AI"
   - "Edge AI strategy"
-summary: "A strategic deployment model that prioritizes local model inference and data processing on physical hardware over centralized cloud infrastructures."
-updated: 2026-04-27
+summary: A strategic deployment model that prioritizes local model inference and data processing on physical hardware over centralized cloud infrastructures.
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Hardware-centric AI strategy
@@ -26,7 +26,7 @@ A strategic [[concepts/deployment|deployment]] model where primary AI [[concepts
 - **[[concepts/hardware|Hardware]] [[concepts/specialization|Specialization]]**: Leveraging advancements in [[concepts/neural-processing-units|NPU]] ([[concepts/neural-engine|Neural Processing Unit]]) and specialized AI [[concepts/silicon|Silicon]] architectures to optimize performance-per-watt.
 
 ### Strategic Implementations
-- **Apple's [[concepts/leadership|Leadership]] Pivot**: Recent executive transitions at [[entities/apple]]—specifically the roles of [[entities/john-ternus|John Ternus]] (CEO) and [[entities/johny-srouji|Johny Srouji]] (Chief Hardware Officer)—signal a shift toward a hardware-driven AI ecosystem.
+- **Apple's [[concepts/leadership|Leadership]] Pivot**: Recent executive transitions [[concepts/assistive-technology|at]] [[entities/apple]]—specifically the roles of [[entities/john-ternus|John Ternus]] (CEO) and [[entities/johny-srouji|Johny Srouji]] (Chief Hardware Officer)—signal a shift toward a hardware-driven [[concepts/ai-ecosystem|AI ecosystem]].
 - **On-Device Focus**: Strategic prioritization of [[concepts/on-device-ai]] as a structural response to the economic and [[concepts/scaling|scaling]] limitations of cloud-dependent [[concepts/ai-models|AI models]].
 
 ---

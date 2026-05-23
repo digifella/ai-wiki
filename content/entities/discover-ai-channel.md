@@ -1,17 +1,7 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "rags"
-  - "knowledge-graphs"
-  - "rag-systems"
-  - "graph-rag"
-  - "pathrag"
-  - "lightrag"
-aliases:
-  - "Discover AI"
-summary: "A channel providing technical deep dives on AI advancements and practical implementations of Retrieval-Augmented Generation (RAG) systems using knowledge graphs."
-updated: 2026-04-20
+summary: A channel providing technical deep dives on AI advancements and practical implementations of Retrieval-Augmented Generation (RAG) systems using knowledge graphs.
+updated: 2026-05-23
 ---
 # Discover AI channel
 
@@ -25,7 +15,7 @@ Technical deep dives on AI advancements, with focus on practical implementations
 
 [[concepts/date-2026-04-13|2026]] 04 14 Discover AI channel [[concepts/entity-relation-graphs|Graph RAG]] evolved
 
-- 2026-04-07 [2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai Context Beyond Rag Limitations With Map First Architectu
-- 2026-04-10 [2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai Context Beyond Rag Limitations With Map First Architectu
+- 2026-04-07 [2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← [[concepts/hierarchical-ai-context|Structured Ai Context]] Beyond Rag Limitations With Map First Architectu
+- 2026-04-10 [2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai [[concepts/context-provisioning|Context Beyond Rag]] Limitations With Map First Architectu
 - 2026-04-08 [2026-04-08-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-08-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai Context Beyond Rag Limitations With Map First Architectu
 ## Source Notes

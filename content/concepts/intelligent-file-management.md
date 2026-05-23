@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "google-workspace"
@@ -13,15 +12,16 @@ tags:
 aliases:
   - "Gemini in Google Workspace"
 summary: Gemini AI integration introduces automated task execution updates for Google Workspace applications including Docs, Sheets, Slides, and Drive.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Intelligent File Management
 
-Intelligent File Management refers to the integration of [[entities/gemini-models|Gemini AI]] capabilities into [[entities/google-workspace|Google Workspace]] [[concepts/software|applications]] to automate routine file-related tasks. This feature set encompasses [[concepts/google-search|Google]] Docs, Sheets, [[entities/google-slides|Slides]], and Drive, enabling users to execute common workflows with reduced manual intervention. The implementation allows for streamlined operations across these interconnected applications through AI-assisted [[concepts/automation|automation]].
+Intelligent File Management refers to the [[concepts/integration|integration]] of [[entities/gemini-models|Gemini AI]] [[concepts/capabilities|capabilities]] into [[entities/google-workspace|Google Workspace]] [[concepts/software|applications]] to automate routine file-related tasks. This feature set encompasses [[concepts/google-search|Google]] Docs, Sheets, [[entities/google-slides|Slides]], and [[concepts/ambition|Drive]], enabling users to execute common workflows with reduced manual intervention. The [[concepts/adoption|implementation]] allows for streamlined operations across these interconnected applications through AI-assisted [[concepts/automation|automation]].
 
 ## Integration Scope
 
-The Gemini AI integration in Google Workspace enables [[concepts/automated-task-execution|automated task execution]] across multiple document and spreadsheet environments. Users can [[concepts/leverage-ai|leverage AI]] assistance within their existing workflows in Docs for [[concepts/writing|writing]] tasks, Sheets for data processing, Slides for presentation creation, and Drive for file [[concepts/organization|organization]] and management. This approach maintains compatibility with established Google Workspace practices while introducing automation capabilities.
+The [[concepts/gemini|Gemini]] [[concepts/ai-integration|AI integration]] in [[concepts/google-workspace|Google Workspace]] enables [[concepts/automated-task-execution|automated task execution]] across multiple document and spreadsheet environments. Users can [[concepts/leverage-ai|leverage AI]] assistance within their existing workflows in Docs for [[concepts/writing|writing]] tasks, Sheets for data processing, [[concepts/google-slides|Slides]] for presentation creation, and Drive for file [[concepts/organization|organization]] and management. This approach maintains compatibility with established Google Workspace practices while introducing automation capabilities.
 
 ## Functional Application
 

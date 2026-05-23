@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: deployment-docker-services
 tags:
   - "ai-coding-costs"
   - "vercel-deployment"
@@ -12,20 +11,20 @@ aliases:
   - "Vercel Deployment Costs"
   - "AI Coding Cost Overruns"
 summary: Matthew Berman discusses AI coding cost overruns related to Vercel deployment based on lessons from Journey Kits.
-updated: 2026-05-01
+updated: 2026-05-23
+group: deployment-docker-services
 ---
 # Deployment Settings
 
-Deployment settings refer to the configuration and infrastructure choices made when publishing [[concepts/software|applications]], particularly regarding cloud hosting platforms and resource allocation. These settings directly impact both operational costs and system performance, making them critical decisions in the development lifecycle.
+[[concepts/deployment|Deployment]] settings refer to the configuration and infrastructure choices made when publishing [[concepts/software|applications]], particularly regarding cloud hosting platforms and resource allocation. These settings directly impact both operational costs and system performance, making them critical decisions in the development lifecycle.
 
 ## Cost Implications in Cloud Deployment
 
-[[entities/matthew-berman|Matthew Berman]] documented significant cost overruns incurred through [[entities/vercel|Vercel]] deployments associated with the [[entities/journey-kits|Journey Kits]] project. His analysis, presented in the video "The dark side of [[concepts/3d-game-development|vibe coding]]," examines how deployment configuration decisions—when made without careful consideration of infrastructure costs—can result in unexpectedly high bills. This case study illustrates the financial risks of deploying applications without properly monitoring or limiting resource consumption during development and [[concepts/testing|testing]] phases.
+[[entities/matthew-berman|Matthew Berman]] documented significant [[concepts/cost|cost]] overruns incurred through [[entities/vercel|Vercel]] deployments associated with the [[entities/journey-kits|Journey Kits]] project. His analysis, presented in the video "The dark side of [[concepts/3d-game-development|vibe coding]]," examines how deployment configuration decisions—when made without careful consideration of infrastructure costs—can result in unexpectedly high bills. This case study illustrates the financial risks of deploying applications without properly monitoring or limiting resource consumption during development and [[concepts/testing|testing]] phases.
 
 ## Configuration and Monitoring
 
-Effective deployment settings require [[concepts/attention-mechanisms|attention]] to [[concepts/parameter-scaling|scaling parameters]], API [[concepts/rate-limits|usage limits]], and resource quotas before applications go live. The Journey Kits experience demonstrates that rapid development cycles, particularly those relying on [[concepts/ai-coding-assistance|AI-assisted coding]], can inadvertently create inefficient code patterns that compound costs at scale. Proper deployment configuration should include cost monitoring, usage alerts, and resource constraints to prevent financial surprises during the operational phase.
-
+Effective deployment settings require [[concepts/attention-mechanisms|attention]] to [[concepts/parameter-scaling|scaling parameters]], API [[concepts/rate-limits|usage limits]], and resource quotas before applications go live. The Journey Kits experience demonstrates that rapid development cycles, particularly those relying on [[concepts/ai-coding-assistance|AI-assisted coding]], can inadvertently create inefficient [[concepts/code|code]] patterns that compound costs [[concepts/assistive-technology|at]] scale. Proper deployment configuration should include cost monitoring, usage alerts, and resource constraints to prevent financial surprises during the operational [[concepts/phase|phase]].
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation|Claude Code Blotato Automating AI Viral Video Creation]] · [▶ source](https://www.youtube.com/watch?v=ZXyjSufezL8)
 - 2026-04-15: [[lab-notes/2026-04-15-Hermes-Agent-Self-Improving-AI-for-Adaptive-User-Learning|Hermes Agent Self Improving AI for Adaptive User Learning]] · [▶ source](https://www.youtube.com/watch?v=5PLDovsqKaQ)

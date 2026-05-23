@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "admin"
-  - "security"
-  - "ssh"
-  - "windows"
-  - "ssh-admin"
-  - "windows-openssh"
-  - "authorized-keys"
-  - "admin-config"
-aliases:
-  - "Admin Account"
-summary: "An account with elevated system privileges, typically required for system configuration and management tasks."
-updated: 2026-04-15
+summary: An account with elevated system privileges, typically required for system configuration and management tasks.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # Administrator account

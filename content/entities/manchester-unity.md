@@ -9,11 +9,11 @@ tags:
 aliases:
   - "Manchester Unity Building"
 summary: The Manchester Unity features a heritage preserved board table and a mosaic floor with 1.2m tiles.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Manchester Unity
 
-Manchester Unity is a [[concepts/cultural-heritage|heritage]] venue notable for its preserved architectural and design features. The establishment features a heritage-preserved board table and a distinctive mosaic floor composed of 1.2-meter tiles.
+Manchester Unity is a [[concepts/cultural-heritage|heritage]] venue notable for its preserved architectural and [[concepts/design|design]] features. The establishment features a heritage-preserved board table and a distinctive mosaic floor composed of 1.2-meter tiles.
 
 ## Interior Design
 

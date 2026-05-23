@@ -1,24 +1,9 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "physics"
-  - "mechanics"
-  - "granular-matter"
-  - "particle-dynamics"
-  - "classical-mechanics"
-  - "particle-interactions"
-  - "granular-behavior"
-  - "statistical-mechanics"
-  - "mechanical-forces"
-aliases:
-  - "Particle Mechanics"
-  - "Granular Dynamics"
-  - "Dynamics of Particles"
-  - "Interacting Particles"
-summary: "Particle dynamics is the study of discrete particle behavior and interactions in various states of matter, focusing on forces, energy exchange, and collective phenomena."
-updated: 2026-04-12
-group: scientific-modelling-discovery
+summary: Particle dynamics is the study of discrete particle behavior and interactions in various states of matter, focusing on forces, energy exchange, and collective phenomena.
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Particle Dynamics
 
@@ -30,7 +15,7 @@ Particle dynamics is a branch of classical mechanics that studies the behavior a
 - Statistical mechanics for large ensembles of particles
 
 ### Granular Materials
-Granular materials exhibit unique behaviors due to interparticle forces and friction. The [[concepts/angle-of-repose|angle of repose]] is a critical concept describing the maximum slope at which a material can rest without slumping.
+Granular materials exhibit unique behaviors due to interparticle forces and friction. The [[concepts/angle-of-repose|angle of repose]] is a critical concept describing the maximum slope [[concepts/assistive-technology|at]] which a material can rest without slumping.
 
 ## Related Concepts
 - mechanics
@@ -38,12 +23,11 @@ Granular materials exhibit unique behaviors due to interparticle forces and fric
 - statistical-mechanics
 
 ### New Insights from "Breaking the Angle of Repose"
-- **I Broke The Angle of Repose** - [[entities/the-action-lab|The Action Lab]] (2026)
+- **I Broke The [[concepts/granular-dynamics|Angle of Repose]]** - [[entities/the-action-lab|The Action Lab]] (2026)
   - [Video URL](https://www.youtube.com/watch?v=G6pTelud5-E)
     - Explores manipulation techniques to achieve [[concepts/self-sorting|self-sorting]] and [[concepts/vertical-stacking|vertical stacking]] beyond the angle of repose.
     - Demonstrates principles behind granular matter dynamics and particle interaction effects.
 
 2026 04 12 Breaking the Angle of Repose Self Sorting and Stacking of Granular Mat
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Breaking-the-Angle-of-Repose-Self-Sorting-and-Stacking-of-Granular-Mat|Breaking the Angle of Repose Self Sorting and Stacking of Granular Mat]] · [▶ source](https://www.youtube.com/watch?v=G6pTelud5-E)

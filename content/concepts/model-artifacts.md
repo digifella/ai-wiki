@@ -1,22 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ml"
-  - "llm"
-  - "deployment"
-  - "infrastructure"
-  - "machine-learning-models"
-  - "model-weights"
-  - "inference-engines"
-  - "memory-mapping"
-  - "model-deployment"
-aliases:
-  - "ML artifacts"
-  - "model components"
-summary: "Model artifacts are the files, tensors, and metadata, including weights and distributed data structures, that constitute a trained machine learning model."
-updated: 2026-04-26
-group: ai-foundations-concepts
+summary: Model artifacts are the files, tensors, and metadata, including weights and distributed data structures, that constitute a trained machine learning model.
+updated: 2026-05-23
+group: model-efficiency-compression
+stub: true
 ---
 # Model Artifacts
 
@@ -27,11 +15,10 @@ The constituent [[concepts/files|files]], tensors, and [[concepts/metadata|metad
 - **Execution**: Requires specialized LLM [[concepts/inference|Inference]] engines to interpret and run the model.
 - **Runtime Dynamics**:
     - Involves complex [[concepts/memory|Memory]] Mapping techniques to manage large-scale parameter loading.
-    - Highly dependent on Performance Optimization strategies for efficient deployment and execution.
+    - Highly dependent on Performance Optimization strategies for efficient [[concepts/deployment|deployment]] and execution.
 
 ## Related
 - 2026 04 22 [[concepts/llm-inference|LLM Inference Engines]] [[concepts/memory|Memory]] Mapping and [[concepts/software-performance|Performance Optimization]]
-
 ## Source Notes
 
 - 2026-04-22: LLM Inference · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)

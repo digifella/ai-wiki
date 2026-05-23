@@ -9,26 +9,28 @@ tags:
   - "agent-architecture"
   - "ai-systems"
   - "strategic-shift"
+  - "autonomous-systems"
+  - "tool-use"
+  - "ai-evolution"
 aliases:
   - "agent systems"
   - "agentic AI"
-  - "integrated agents"
+  - "autonomous agents"
 summary: "A concept page regarding the transition of LLMs toward integrated agentic strategies, including Anthropic's recent updates."
-updated: 2026-05-01
-stub: true
+updated: 2026-05-24
 title: agentic systems
 ---
 # Agentic Systems
 
-[[concepts/agentic-frameworks|Agentic systems]] represent a shift in [[concepts/ai-technologies|artificial intelligence]] [[concepts/architecture|architecture]] from passive language models that respond to queries toward integrated systems capable of autonomous [[concepts/goal-oriented-behavior|goal-directed behavior]]. Rather than simply generating text in response to user input, agentic systems are designed to plan tasks, take actions, and iterate toward objectives with minimal human intervention. This architectural evolution reflects broader efforts across the AI industry to move beyond [[concepts/conversational-interfaces|conversational interfaces]] toward more functional, autonomous tools.
+Agentic systems represent a shift in artificial intelligence architecture from passive language models that respond to queries toward integrated systems capable of autonomous goal-directed behavior. Rather than simply generating text in response to user input, agentic systems are designed to plan tasks, take actions, and iterate toward objectives with minimal human intervention. This architectural evolution reflects growing capabilities in reasoning, tool use, and sequential decision-making within large language models.
 
 ## Core Characteristics
 
-Agentic systems typically operate through iterative loops where an AI model perceives its environment, reasons about available actions, executes those actions, and evaluates results. This contrasts with standard [[concepts/statistical-language-modeling|language model]] deployments, where a single [[concepts/inference|forward pass]] produces output. Key components include task planning capabilities, access to [[concepts/external-tools|external tools]] or APIs, [[concepts/memory|memory]] mechanisms to track progress, and [[concepts/feedback|feedback]] loops that enable course correction. The degree of autonomy varies widely—some systems require human approval at decision points, while others operate with greater independence within defined [[concepts/parameters|parameters]].
+The defining features of agentic systems include the ability to decompose complex problems into subtasks, select and execute appropriate tools or actions, evaluate outcomes, and adjust strategies based on results. These systems typically incorporate planning mechanisms, memory systems for maintaining context across interactions, and integration with external tools or APIs. Unlike traditional chatbots constrained to single-turn responses, agentic systems operate across multiple steps and maintain agency over their action selection.
 
-## Industry Development
+## Recent Developments
 
-Major AI organizations, including [[entities/anthropic-institute|Anthropic]], have incorporated agentic capabilities into their recent [[concepts/model-releases|model releases]] and frameworks. These developments typically emphasize [[concepts/software-reliability|reliability]] and [[concepts/interpretability|interpretability]] alongside capability, addressing concerns about deploying autonomous systems. Current implementations include research assistants that conduct multi-step investigations, [[concepts/ai-coding-assistance|coding agents]] that write and test [[concepts/software|software]], and [[concepts/reasoning|reasoning]] systems that break down complex problems into manageable components. The transition toward agentic approaches remains experimental in many domains, with ongoing exploration of how to effectively constrain and align autonomous AI behavior.
+Major AI research organizations have invested in agentic frameworks and capabilities. Anthropic and other laboratories have released updates focusing on improved tool use, extended reasoning, and more reliable autonomous behavior in their models. These developments address key challenges in agentic systems, including maintaining alignment with intended objectives, handling uncertainty in complex environments, and ensuring transparency in autonomous decision-making.
 
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

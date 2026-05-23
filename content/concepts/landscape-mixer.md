@@ -1,18 +1,9 @@
 ---
 type: concept
-domain: earth-systems-geology-climate
-tags:
-  - "photoshop"
-  - "neural-filters"
-  - "landscape-mixer"
-  - "style-transfer"
-  - "image-editing"
-  - "adobe-photoshop"
-aliases:
-  - "Landscape Mixer feature"
-summary: "A feature within Adobe Photoshop's Neural Filters suite used for transferring the stylistic and atmospheric elements of one photograph onto another."
-updated: 2026-04-26
-group: geology-rocks-minerals
+domain: creative-pursuits
+summary: A feature within Adobe Photoshop's Neural Filters suite used for transferring the stylistic and atmospheric elements of one photograph onto another.
+updated: 2026-05-23
+group: ai-image-generation-editing
 ---
 # Landscape Mixer
 
@@ -25,7 +16,6 @@ A feature within [[entities/adobe-photoshop|Adobe Photoshop]]'s [[concepts/neura
 
 ### References
 - [[concepts/date-2026-04-13|2026]] 04 21 [[concepts/photoshop|Photoshop]] [[entities/neural-filter|Neural Filters]] [[concepts/seascape-transformation|Seascape Transformation]] to Sunset Photo [[concepts/style|Style]] (Source: Easy [[concepts/photoshop|Photoshop]])
-
 ## Source Notes
 
 - 2026-04-21: Photoshop · [▶ source](https://youtu.be/8Y1hBDaMr_U)

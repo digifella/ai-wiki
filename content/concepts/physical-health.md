@@ -1,29 +1,14 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "physical-health"
-  - "exercise"
-  - "sleep"
-  - "adolescent-well-being"
-  - "physical-health-diet"
-  - "exercise-benefits"
-  - "sleep-importance"
-  - "teen-well-being"
-  - "cardiovascular-impact"
-aliases:
-  - "wellness-practices"
-  - "health-improvement-strategies"
-  - "fitness-sleep-guide"
-  - "adolescent-health-habits"
-summary: "Physical health involves diet, exercise, and sleep to enhance overall well-being."
-updated: 2026-04-12
+summary: Physical health involves diet, exercise, and sleep to enhance overall well-being.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Physical Health
 
 ## Summary
-Physical health encompasses various aspects such as [[concepts/diet|diet]], [[concepts/exercise|exercise]], and sleep that contribute to overall [[concepts/wellbeing|well-being]].
+Physical [[concepts/health|health]] encompasses various aspects such as [[concepts/diet|diet]], [[concepts/exercise|exercise]], and [[concepts/sleep|sleep]] that contribute to overall [[concepts/wellbeing|well-being]].
 
 ### Key Points
 - Exercise is crucial for maintaining [[concepts/cardiovascular-health|cardiovascular health]], muscle strength, and mental [[concepts/lightroom|clarity]].
@@ -45,8 +30,7 @@ Physical health encompasses various aspects such as [[concepts/diet|diet]], [[co
 - [The Science of Well-Being for Teens](https://www.youtube.com/watch?v=jlWeeQul0VI)
 
 ## Backlinks
-- 2026 04 11 Dr Santos Science Backed Exercise and Sleep for Teen Well being
-
+- 2026 04 11 Dr Santos [[concepts/science|Science]] Backed [[concepts/exercise|Exercise]] and [[concepts/sleep|Sleep]] for Teen Well being
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-11: What is Public Health??

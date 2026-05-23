@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "llm-benchmarks"
@@ -14,20 +13,20 @@ aliases:
   - "LLM Performance Metrics"
   - "Model Benchmarking"
 summary: Guide to Qwen3-Coder-Flash model installation and testing with focus on agentic capabilities and tool use.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # LLM Benchmarks
 
-LLM benchmarks are standardized evaluation frameworks used to assess the performance, capabilities, and efficiency of [[concepts/large-language-model-llm|large language models]] across various tasks. These benchmarks measure metrics such as [[concepts/accuracy|accuracy]], [[concepts/reasoning|reasoning]] ability, code generation quality, and tool use—particularly important for evaluating agentic capabilities where models must interact with external systems and APIs. Benchmark results enable direct comparison between different models and help researchers identify strengths and limitations in specific domains.
+[[concepts/model-benchmarks|LLM benchmarks]] are standardized evaluation frameworks used to assess the performance, [[concepts/capabilities|capabilities]], and efficiency of [[concepts/large-language-model-llm|large language models]] across various tasks. These benchmarks measure metrics such as [[concepts/accuracy|accuracy]], [[concepts/reasoning|reasoning]] ability, [[concepts/code-generation|code generation]] quality, and tool use—particularly important for evaluating agentic capabilities where [[concepts/models|models]] must interact with external systems and APIs. Benchmark results enable direct comparison between different models and help researchers identify strengths and limitations in specific domains.
 
 ## Agentic Capabilities and Tool Use
 
-For [[concepts/agentic-ai|AI agents]], benchmarks increasingly focus on a model's ability to understand and utilize tools effectively. This includes assessing whether a model can correctly identify when to invoke external functions, generate appropriate [[concepts/parameters|parameters]], and handle [[concepts/responses|responses]] from tool calls. Models like [[concepts/qwen-model|Qwen3-Coder-Flash]] have been designed with particular [[concepts/attention-mechanisms|attention]] to these [[concepts/agentic-patterns|agentic workflows]], requiring specialized [[concepts/benchmark-testing|benchmarking]] approaches that simulate real-world agent [[concepts/scenarios|scenarios]] beyond standard language understanding tests.
+For [[concepts/agentic-ai|AI agents]], benchmarks increasingly focus on a model's ability to understand and utilize tools effectively. This includes assessing whether a model can correctly identify when to invoke external functions, generate appropriate [[concepts/parameters|parameters]], and handle [[concepts/responses|responses]] from tool calls. Models like [[concepts/qwen-model|Qwen3-Coder-Flash]] have been designed with particular [[concepts/attention-mechanisms|attention]] to these [[concepts/agentic-patterns|agentic workflows]], requiring specialized [[concepts/benchmark-testing|benchmarking]] approaches that simulate real-world [[entities/agent|agent]] [[concepts/scenarios|scenarios]] beyond standard language understanding tests.
 
 ## Model Comparison and Selection
 
-Recent developments in [[concepts/open-source|open-source]] and commercial models have expanded the landscape of options for [[concepts/deployment|deployment]]. Models such as [[concepts/23b-parameter-models|Google Gemma 4]], [[concepts/computational-reasoning|DeepSeek Engram]], and [[concepts/ai-model-harness|Meta-Harness]] represent different approaches to balancing performance with efficiency. Benchmark results help practitioners select appropriate models based on their specific constraints—whether prioritizing [[concepts/edge-deployment|edge deployment]] efficiency, enterprise security requirements, or agentic [[concepts/reasoning-capabilities|reasoning capabilities]].
-
+Recent developments in [[concepts/open-source|open-source]] and commercial models have expanded the landscape of options for [[concepts/deployment|deployment]]. Models such as [[concepts/23b-parameter-models|Google Gemma 4]], [[concepts/computational-reasoning|DeepSeek Engram]], and [[concepts/ai-model-harness|Meta-Harness]] represent different approaches to balancing performance with efficiency. Benchmark results help practitioners select appropriate models based on their specific constraints—whether prioritizing [[concepts/edge-deployment|edge deployment]] efficiency, enterprise [[concepts/security|security]] requirements, or agentic [[concepts/reasoning-capabilities|reasoning capabilities]].
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware|DeepSeek Engram Solving LLM Inefficiency Through Context Aware]] · [▶ source](https://www.youtube.com/watch?v=DmtoVnTkQnM)

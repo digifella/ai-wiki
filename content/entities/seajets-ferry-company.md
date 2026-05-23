@@ -7,7 +7,7 @@ tags:
 aliases:
   - "Seajets"
 summary: Seajets is a ferry company.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Seajets Ferry Company
 

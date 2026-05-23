@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "software"
-  - "ui"
-  - "photoshop"
-  - "heads-up-display"
-  - "user-interface"
-  - "adobe-photoshop"
-  - "ui-elements"
-  - "real-time-adjustment"
-aliases:
-  - "Heads Up Display"
-summary: "A Heads Up Display (HUD) is a temporary UI overlay used for real-time adjustments, such as modifying brush size and hardness in Adobe Photoshop."
-updated: 2026-04-16
+summary: A Heads Up Display (HUD) is a temporary UI overlay used for real-time adjustments, such as modifying brush size and hardness in Adobe Photoshop.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # HUD
@@ -22,7 +11,7 @@ A **[[concepts/hud-heads-up-display|Heads Up Display]] (HUD)** is a temporary ov
 
 In **[[entities/adobe-photoshop]]**, the HUD enables instant brush property adjustments:
 - **Activation:**
-  - *Mac:* `Ctrl + Option` + drag
+  - *[[entities/mac|Mac]]:* `Ctrl + Option` + drag
   - *[[entities/windows|Windows]]:* `Ctrl + Alt` + right-click drag
 - **Adjusts:** [[concepts/brush-size|brush size]] and hardness
 

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: ai-image-generation-editing
+domain: tools-platforms
 tags:
   - "concept"
   - "gemini-pro"
@@ -12,16 +11,20 @@ tags:
 aliases:
   - "Gemini Pro Slide Deck Creation"
 summary: The Canvas feature enables users to use Gemini Pro to create and export slide decks to Google Slides.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Canvas Feature
 
-[[entities/canvas|Canvas]] is a feature that integrates [[entities/gemini-pro|Gemini Pro]] with [[entities/google-slides|Google Slides]], allowing users to generate slide deck presentations through AI assistance. Users can access the feature by selecting "Canvas," entering a prompt such as "Please create a slide deck about..." followed by their desired topic, and then exporting the generated content directly to Google Slides.
+[[concepts/canvas|Canvas]] is a feature that integrates [[entities/gemini-app|Gemini Pro]] with [[concepts/google-slides|Google Slides]], enabling users to generate slide deck presentations through AI assistance. The feature streamlines the process of creating structured presentations by leveraging [[concepts/generative-ai|generative AI]] to produce slide content based on user prompts.
 
-## Workflow
+## How It Works
 
-The Canvas workflow is designed for simplicity. After providing a topic or prompt to Gemini Pro, users wait for the AI to generate the slide deck [[concepts/structure|structure]] and content. Once generation is complete, the output can be exported to Google Slides for further editing and refinement.
+To use Canvas, users select the Canvas option and enter a prompt describing their desired presentation topic, such as "Please create a slide deck about [topic]." Gemini Pro then generates the slide content, which users can review and refine. Once satisfied with the generated slides, users can export the presentation directly to Google Slides for further editing, sharing, or presentation purposes.
 
+## Use Cases
+
+Canvas is designed for users who need to create presentations quickly without starting from a blank template. The feature is particularly useful for generating initial drafts of presentations on various topics, which can then be customized with additional details, branding, or specific information relevant to the user's needs.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-14: [[lab-notes/2026-04-14-Transforming-NotebookLM-Mind-Maps-into-Engaging-Visuals-with-Google-Ge|Transforming NotebookLM Mind Maps into Engaging Visuals with Google Ge]] · [▶ source](https://www.youtube.com/watch?v=m25BiEBU7GU)

@@ -6,8 +6,9 @@ tags:
   - "claude-code"
   - "llm-agents"
   - "user-experience"
-summary: "An investigation into how Claude code uses sophisticated prompt engineering to provide a superior user experience."
-updated: 2026-04-28
+summary: An investigation into how Claude code uses sophisticated prompt engineering to provide a superior user experience.
+updated: 2026-05-23
+stub: true
 ---
 # webcrack
 

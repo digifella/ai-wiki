@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "demand-response"
-  - "power-grid-outage"
-  - "ercot"
-  - "texas-energy-crisis"
-  - "winter-storm"
-  - "load-management"
-  - "peak-shaving"
-  - "smart-grid"
-  - "distributed-energy-resources"
-summary: "Demand response is a program that incentivizes consumers to reduce electricity usage during peak times, shifting load to lower-demand periods to improve grid reliability and efficiency."
-updated: 2026-04-14
+summary: Demand response is a program that incentivizes consumers to reduce electricity usage during peak times, shifting load to lower-demand periods to improve grid reliability and efficiency.
+updated: 2026-05-23
 group: climate-environment-surface-systems
 ---
 # Demand Response
@@ -20,9 +10,9 @@ group: climate-environment-surface-systems
 Demand response is a program that incentivizes consumers to reduce their electricity usage during peak times. It aims to improve grid [[concepts/software-reliability|reliability]] and efficiency by shifting the load from high-demand periods to lower ones. This can be achieved through voluntary actions, such as reducing non-critical power use during certain hours or days, or automatic mechanisms like smart appliances adjusting settings based on real-time [[concepts/pricing|pricing]] signals.
 
 ## Key Concepts
-- Load management: Techniques used to control and manipulate the electric demand.
+- Load management: Techniques used to [[concepts/power|control]] and manipulate the electric demand.
 - Peak shaving: The practice of reducing peak electricity demand.
-- Smart grid: An [[concepts/electricity-grid|electrical grid]] that uses digital technology to detect and react to local changes in usage.
+- Smart grid: An [[concepts/electricity-grid|electrical grid]] that uses digital technology to detect and [[entities/react|react]] to local changes in usage.
 - Distributed energy resources (DER): Small-scale power generation technologies located close to where electricity is consumed.
 
 ## Related Entities
@@ -44,8 +34,7 @@ Demand response is a program that incentivizes consumers to reduce their electri
 - Detailed technical breakdown of contributing factors.
 - Impact on infrastructure and future [[concepts/preventive-care|prevention]] strategies.
 
-2026 04 13 2021 Texas [[concepts/power-grid-outage|Power Grid Outage]] Technical Analysis and ERCOT Actions
-
+2026 04 13 2021 [[entities/texas|Texas]] [[concepts/power-grid-outage|Power Grid Outage]] Technical Analysis and [[concepts/ercot-electric-reliability-council-of-texas|ERCOT]] Actions
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-29: OpenClaw · [▶ source](https://www.youtube.com/watch?v=L7FF8Zgab3M)

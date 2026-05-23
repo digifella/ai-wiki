@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "concept"
   - "image-editing"
@@ -13,20 +12,20 @@ aliases:
   - "Landscape Image Processing"
   - "Lightroom Landscape Editing"
 summary: A tutorial on using Lightroom Classic's landscape masking features for photo editing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Image Preparation
 
-Image preparation refers to the post-capture editing process used to optimize photographs for final delivery or display. In [[concepts/landscape-photography|landscape photography]] specifically, this involves adjusting [[concepts/exposure|exposure]], color balance, [[concepts/contrast|contrast]], and local details to enhance the scene while maintaining a natural appearance. Modern editing [[concepts/software|software]] provides both global [[concepts/adjustments|adjustments]] that affect an entire image and localized tools that target specific regions.
+Image [[concepts/preparation|preparation]] refers to the post-capture editing process used to optimize photographs for final delivery or display. In [[concepts/landscape-photography|landscape photography]] specifically, this involves adjusting [[concepts/exposure|exposure]], color balance, [[concepts/contrast|contrast]], and local details to enhance the scene while maintaining a natural appearance. Modern editing [[concepts/software|software]] provides both global [[concepts/adjustments|adjustments]] that affect an entire image and localized tools that target specific regions.
 
-## Masking in Landscape Photography
+## Masking Techniques in Landscape Photography
 
-[[concepts/landscape-masking|Landscape masking]] is a technique that applies selective edits to particular areas of a photograph rather than the whole image. This is particularly useful in landscape work, where skies often require different exposure and saturation adjustments than foreground elements. Lightroom Classic's landscape masking features allow photographers to isolate these zones—such as sky, water, or foliage—and adjust them independently, creating more balanced and visually compelling compositions.
+[[concepts/landscape-masking|Landscape masking]] allows photographers to apply adjustments selectively to specific areas of an image rather than globally. [[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]] includes [[concepts/automated-masking|automated masking]] features that can isolate elements like skies, foregrounds, or individual objects based on their tonal values and spatial location. These tools enable photographers to brighten an underexposed foreground while preserving sky detail, or to enhance foliage colors without affecting rock or water elements. Masks can be refined manually using brushes and adjustment sliders to achieve precise [[concepts/power|control]] over where edits are applied.
 
-## Practical Workflow
+## Workflow Considerations
 
-A typical image preparation workflow involves importing [[concepts/images|images]], applying foundational adjustments like white balance and exposure correction, then using masks to refine specific areas. Once masked regions are defined, adjustments to clarity, vibrance, and local contrast can be applied with precision. This layered approach to editing helps maintain [[concepts/logical-consistency|consistency]] across a series of photographs while addressing the unique characteristics of individual shots.
-
+Effective image preparation typically follows a structured [[concepts/workflow|workflow]]: initial global adjustments establish the overall [[concepts/tonal-music|tonality]] and color cast, followed by targeted masking and [[concepts/local-adjustments|local adjustments]] for specific areas. Photographers should consider the final intended use—whether for print, digital display, or web—as this affects optimal preparation decisions. The goal is to create [[concepts/images|images]] that appear polished and intentional while remaining true to the original scene's character.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-08: NotebookLM Mind Maps Are Bad! But Gemini Fixes Them

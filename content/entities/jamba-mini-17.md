@@ -10,8 +10,9 @@ tags:
   - "context-window"
 aliases:
   - "Jamba Mini 1.7"
-summary: "Jamba Mini 1.7 is a hybrid SSM-Transformer model from AI21 Labs with a 256k context window."
-updated: 2026-04-27
+summary: Jamba Mini 1.7 is a hybrid SSM-Transformer model from AI21 Labs with a 256k context window.
+updated: 2026-05-23
+stub: true
 ---
 # Jamba Mini 1.7
 

@@ -3,20 +3,31 @@ type: concept
 domain: ai-agents
 tags:
   - "reasoning"
-  - "ai"
-  - "cognitive_skills"
-  - "problem_solving"
-updated: 2026-04-15
+  - "logical-analysis"
+  - "problem-solving"
+  - "ai-capabilities"
+  - "cognitive-skills"
+  - "spatial-reasoning"
+  - "code-generation"
+aliases:
+  - "logical reasoning"
+  - "analytical thinking"
+  - "structured thought processes"
+summary: Cognitive abilities enabling logical analysis and complex problem-solving, demonstrated in GPT-5's generation of an interactive 3D Rubik's Cube simulator with advanced spatial reasoning.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
-# Reasoning skills
+# Reasoning Skills
 
-Cognitive abilities enabling logical analysis, evidence-based decision-making, and complex [[concepts/problem-solving|problem-solving]] through structured [[concepts/thought-processes|thought processes]].
+[[concepts/reasoning|Reasoning]] [[concepts/skills|skills]] in [[concepts/agentic-ai|AI agents]] refer to cognitive [[concepts/capabilities|capabilities]] that enable logical analysis, evidence-based [[concepts/decision-making|decision-making]], and systematic [[concepts/problem-solving|problem-solving]]. These skills involve structured [[concepts/thought-processes|thought processes]] that break down complex problems into manageable components, evaluate information critically, and derive conclusions through valid [[concepts/inference|inference]]. In the context of AI systems, reasoning encompasses both deductive logic (applying general rules to specific cases) and inductive reasoning (identifying patterns from examples).
 
-- **[[concepts/gpt-5|GPT-5]]'s [[concepts/reasoning|Reasoning]] Demonstration**: In [[entities/mathew-berman|Mathew Berman]]'s 2026 demonstration, GPT-5 generated a fully interactive Rubik's Cube simulator ([[concepts/htmljavascript|HTML/JavaScript]]/[[concepts/threejs|Three.js]]) featuring [[concepts/dynamic-sizing|dynamic sizing]] (20×20×20), [[concepts/color-coded-faces|color-coded faces]], camera controls, [[concepts/layer-rotation|layer rotation]], and a "Solve" button, showcasing advanced code generation and [[concepts/spatial-understanding|spatial reasoning]] capabilities.
+## Demonstration in Advanced AI Systems
 
-2026 04 14 GPT 5 [[entities/mathew-berman|Mathew Berman]]
+A notable demonstration of [[concepts/reasoning-capabilities|reasoning capabilities]] occurred in 2026 when [[concepts/3d-game-development|GPT-5]] generated a fully interactive 3D Rubik's Cube simulator in [[concepts/htmljavascript|HTML/JavaScript]] using [[concepts/threejs|Three.js]]. This [[concepts/adoption|implementation]] required spatial reasoning—the ability to mentally manipulate three-dimensional objects and understand their [[concepts/relationships|relationships]]—alongside logical problem-solving to ensure the simulator's mechanics accurately reflected real cube behavior. The system successfully handled [[concepts/dynamic-sizing|dynamic sizing]], including non-standard dimensions like 20×20×20 cubes, indicating the capacity to generalize spatial logic beyond standard configurations.
 
+## Significance for AI Development
+
+The application of reasoning skills to tasks like interactive simulator generation demonstrates the breadth of cognitive capabilities in contemporary AI systems. Rather than simply retrieving or recombining existing information, these systems engage in active reasoning to construct novel solutions that integrate multiple domains of knowledge—spatial [[concepts/mathematics|mathematics]], programming logic, and user interaction [[concepts/design|design]]. This represents a meaningful expansion of AI functionality beyond [[concepts/pattern-matching|pattern matching]] toward genuine problem-solving capability.
 ## Source Notes
 - 2026-04-14: GPT 5 - Mathew Berman
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)

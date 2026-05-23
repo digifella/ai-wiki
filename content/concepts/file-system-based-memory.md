@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "memory-systems"
   - "file-system-based"
@@ -13,15 +12,16 @@ aliases:
   - "filesystem memory"
   - "persistent memory storage"
 summary: Anthropic's Claude Opus 4.7 includes advancements in memory, agentic coding, and multimodal capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # File System Based Memory
 
-File system based memory is a persistent [[entities/storage|storage]] mechanism that leverages file systems to maintain state and context across agent interactions. Rather than storing information exclusively in [[concepts/memory|memory]] or database structures, this approach writes data to files that an agent can read, modify, and reference throughout its operations. This enables [[concepts/agents|agents]] to maintain long-term context about tasks, decisions, and information without relying solely on token-limited [[concepts/conversation-history|conversation history]].
+File system based memory is a persistent [[entities/storage|storage]] mechanism that leverages file systems to maintain state and context across [[entities/agent|agent]] interactions. Rather than storing information exclusively in [[concepts/memory|memory]] or database structures, this approach writes data to [[concepts/files|files]] that an agent can read, modify, and reference throughout its operations. This enables [[concepts/agents|agents]] to maintain long-term context about tasks, decisions, and information without relying solely on token-limited [[concepts/conversation-history|conversation history]].
 
 ## Integration with Agentic Systems
 
-[[concepts/anthropic-models|Claude Opus 4.7]] incorporates file system based memory as part of its [[concepts/tool-use-capabilities|agentic coding capabilities]], allowing the model to function more effectively as an [[concepts/ai-agent|autonomous agent]]. By accessing and updating files, agents can track project state, maintain logs of decisions, store intermediate results, and build upon previous work across multiple sessions. This is particularly valuable for [[concepts/coding|coding]] tasks where agents need to remember project [[concepts/structure|structure]], dependencies, and implementation decisions.
+[[concepts/anthropic-models|Claude Opus 4.7]] incorporates file system based memory as part of its [[concepts/tool-use-capabilities|agentic coding capabilities]], allowing the model to function more effectively as an [[concepts/ai-agent|autonomous agent]]. By accessing and updating files, agents can track project state, maintain logs of decisions, store intermediate results, and build upon previous work across multiple sessions. This is particularly valuable for [[concepts/coding|coding]] tasks where agents need to remember project [[concepts/structure|structure]], dependencies, and [[concepts/adoption|implementation]] decisions.
 
 ## Advantages and Use Cases
 

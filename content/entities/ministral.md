@@ -1,22 +1,11 @@
 ---
 type: entity
-tags:
-  - "open models"
-  - "Mistral"
-  - "small models"
-  - "small-models"
-  - "mistral-family"
-  - "compact-deployments"
-  - "lower-cost-inference"
-  - "open-source"
-aliases:
-  - "Ministral"
-summary: "Ministral is a smaller Mistral-family model line designed for compact deployments and lower-cost inference."
-updated: 2026-04-11
-title: "Ministral"
+summary: Ministral is a smaller Mistral-family model line designed for compact deployments and lower-cost inference.
+updated: 2026-05-23
+title: Ministral
 ---
 # Ministral
-A smaller [[entities/mistral|Mistral]]-family model line aimed at compact deployments and lower-cost [[concepts/inference|inference]].
+A smaller [[entities/mistral|Mistral]]-family model line aimed [[concepts/assistive-technology|at]] compact deployments and lower-[[concepts/cost|cost]] [[concepts/inference|inference]].
 
 ## Ecosystem
 - [[entities/mistral]]

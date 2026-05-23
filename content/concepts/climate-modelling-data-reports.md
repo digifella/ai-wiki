@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "climate-modelling"
   - "geological-history"
@@ -14,7 +13,8 @@ aliases:
   - "Red Centre Geology Report"
   - "Coal and Oil Formation Study"
 summary: This report covers climate modelling data concerning the formation of coal and oil during the high oxygen period and the oxidation of rocks in the red centre of Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Climate Modelling Data Reports
 
@@ -26,8 +26,7 @@ The reports examine why coal and oil deposits formed during a specific geologica
 
 ## Rock Oxidation in the Red Centre
 
-The oxidation of rocks in Australia's red centre serves as a key case study for understanding how high atmospheric oxygen levels affected mineral composition and weathering processes. The distinctive red coloration of these rock formations results from iron oxidation, providing visible evidence of the oxidation conditions that prevailed during the high oxygen period and their lasting geochemical signatures.
-
+The [[concepts/rock-oxidation|oxidation of rocks]] in Australia's red centre serves as a key case study for understanding how high atmospheric oxygen levels affected mineral composition and weathering processes. The distinctive red coloration of these rock formations results from iron oxidation, providing visible evidence of the oxidation conditions that prevailed during the high oxygen period and their lasting geochemical signatures.
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

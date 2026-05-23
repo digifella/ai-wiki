@@ -12,19 +12,19 @@ aliases:
   - "Claude-Obsidian Integration"
   - "Persistent AI Operating System"
 summary: This concept focuses on integrating Claude with Obsidian to create a persistent AI operating system.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
-# Ai Operating System
+# AI Operating System
 
-An [[concepts/ai-augmented-workflows|AI Operating System]] is an integrated framework that combines [[concepts/claude-ai|Claude]], an [[entities/ai-assistant|AI assistant]], with Obsidian, a note-taking and [[concepts/knowledge-management|knowledge management]] platform. The system creates a persistent computational environment where an AI can maintain [[concepts/continuity|continuity]] across multiple sessions by accessing and updating stored information. Rather than treating each conversation as isolated, the framework uses Obsidian's structured note system to enable the AI to reference previous work, build upon earlier decisions, and retain context across extended interactions.
+An AI Operating System is an integrated computational framework that combines Claude, an AI assistant, with Obsidian, a note-taking and knowledge management platform. This system creates a persistent environment where an AI can maintain continuity across multiple sessions by accessing and updating stored information in a structured format. Rather than treating each conversation as isolated, the framework leverages a persistent knowledge base to enable the AI to build context over time and reference previous interactions.
 
-## Architecture and Function
+## Core Architecture
 
-The system leverages Obsidian's vault [[concepts/structure|structure]] to store notes, documents, and [[concepts/metadata|metadata]] that Claude can read, update, and reference. This allows the AI to accumulate knowledge about specific projects, maintain task states, and access historical context without relying solely on token limits within individual conversations. Claude can be directed to review relevant notes before responding to queries, creating a [[concepts/feedback|feedback]] loop where new information is systematized and stored for future reference.
+The system operates by connecting Claude's conversational capabilities with Obsidian's structured note storage through integration layers or plugins. This allows the AI to retrieve relevant information from the knowledge base during conversations and write new findings or decisions back to the system. The bidirectional flow of information creates a feedback loop where the AI's interactions gradually shape and refine the stored knowledge base.
 
 ## Practical Applications
 
-This approach is suited for long-term projects requiring continuity, such as research management, [[concepts/writing|writing]] workflows, [[concepts/coding|software development]] tracking, or personal knowledge systems. The combination allows users to offload organizational tasks to the AI while maintaining human oversight through Obsidian's interface. The persistent [[entities/nature|nature]] of the system distinguishes it from stateless [[concepts/ai-chatbots|conversational AI]], enabling more complex collaborative workflows where the AI's [[concepts/memory|memory]] is explicit and auditable rather than implicit.
+This approach enables several practical uses: maintaining project context across multiple work sessions, building cumulative research repositories that improve with each interaction, automating documentation updates, and creating systems where an AI assistant can genuinely learn about a user's preferences and patterns over time. The persistent nature of Obsidian's vault provides a scalable foundation for this continuity, while Claude handles the language understanding and generation tasks.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)

@@ -1,17 +1,7 @@
 ---
 type: entity
-tags:
-  - "product"
-  - "manufacturing"
-  - "safety"
-  - "grill-brush"
-  - "american-manufacturing"
-  - "us-made"
-  - "safety-equipment"
-aliases:
-  - "grill brush"
-summary: "A US-manufactured grill brush designed as a safer and more durable alternative to traditional wire bristle brushes."
-updated: 2026-04-22
+summary: A US-manufactured grill brush designed as a safer and more durable alternative to traditional wire bristle brushes.
+updated: 2026-05-23
 ---
 # Smarter Scrubber
 
@@ -24,7 +14,7 @@ A grill brush designed as a safer, more durable alternative to traditional wire 
 
 [[concepts/date-2026-04-13|2026]] 04 14 Destin manufacturing in America
 
-- 2026-04-16 [2026-04-16-Tesla-SpaceX-Terafab-2nm-AI-Chip-Vertical-Integration-Strategy](2026-04-16-Tesla-SpaceX-Terafab-2nm-AI-Chip-Vertical-Integration-Strategy.md) ← Tesla Spacex Terafab 2Nm Ai Chip Vertical Integration Strategy
-- 2026-04-10 [2026-04-10-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch](2026-04-10-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch.md) ← Ai Tools Redefine Design And Creative Workflows Google Stitch
+- 2026-04-16 [2026-04-16-Tesla-SpaceX-Terafab-2nm-AI-Chip-Vertical-Integration-Strategy](2026-04-16-Tesla-SpaceX-Terafab-2nm-AI-Chip-Vertical-Integration-Strategy.md) ← [[entities/tesla|Tesla]] [[entities/spacex|Spacex]] [[concepts/ai-chips|Terafab 2Nm Ai Chip]] [[concepts/vertical-integration|Vertical Integration]] Strategy
+- 2026-04-10 [2026-04-10-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch](2026-04-10-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch.md) ← [[concepts/ai-tools|Ai Tools]] Redefine [[concepts/design|Design]] And Creative Workflows [[concepts/ai-assisted-prototyping|Google Stitch]]
 - 2026-04-08 [2026-04-08-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch](2026-04-08-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch.md) ← Ai Tools Redefine Design And Creative Workflows Google Stitch
 ## Source Notes

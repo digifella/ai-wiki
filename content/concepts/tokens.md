@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "claude-skills"
   - "agent-skills"
@@ -12,11 +11,12 @@ aliases:
   - "Claude Skills"
   - "Agent Skills"
 summary: A Markdown summary of a video by Rick Mulready regarding Claude Skills, also known as Agent Skills.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Tokens
 
-Tokens are the fundamental units of text that language models like [[concepts/claude-ai|Claude]] process and generate. They represent small chunks of text—typically individual words, subwords, or punctuation marks—that the model breaks input into before processing. Understanding tokens is essential when working with [[concepts/agentic-ai|AI agents]] and [[concepts/instruction-reuse|Claude Skills]], as token usage directly impacts both the cost and performance of [[entities/api-calls|API calls]].
+Tokens are the fundamental units of [[concepts/text|text]] that language [[concepts/models|models]] like [[concepts/claude-ai|Claude]] process and generate. They represent small chunks of text—typically individual words, subwords, or punctuation marks—that the model breaks input into before processing. Understanding tokens is essential when working with [[concepts/agentic-ai|AI agents]] and [[concepts/instruction-reuse|Claude Skills]], as token usage directly impacts both the [[concepts/cost|cost]] and performance of [[entities/api-calls|API calls]].
 
 ## Token Counting and Practical Implications
 
@@ -24,8 +24,7 @@ Different models use different tokenization schemes, and the same text may be br
 
 ## Tokens in Agent Workflows
 
-When building Claude Skills and [[concepts/agentic-systems|agent systems]], [[concepts/token-management|token management]] becomes a strategic concern. Verbose tool descriptions, lengthy [[concepts/system-prompts|system prompts]], and large [[concepts/context-windows|context windows]] increase [[concepts/token-consumption|token consumption]] per interaction. Effective agent design requires careful consideration of what information is truly necessary to include in each request, how to [[concepts/structure|structure]] prompts efficiently, and when to summarize or filter context to maintain both cost-effectiveness and response quality.
-
+When building [[concepts/progressive-disclosure|Claude Skills]] and [[concepts/agentic-systems|agent systems]], [[concepts/token-management|token management]] becomes a strategic concern. Verbose tool descriptions, lengthy [[concepts/system-prompts|system prompts]], and large [[concepts/context-windows|context windows]] increase [[concepts/token-consumption|token consumption]] per interaction. Effective [[entities/agent|agent]] [[concepts/design|design]] requires careful consideration of what information is truly necessary to include in each request, how to [[concepts/structure|structure]] prompts efficiently, and when to summarize or filter context to maintain both cost-effectiveness and response quality.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

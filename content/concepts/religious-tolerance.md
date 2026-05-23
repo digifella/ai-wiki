@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "concept"
   - "religious-tolerance"
@@ -12,7 +11,8 @@ aliases:
   - "tolerance-of-religions"
   - "interfaith-understanding"
 summary: Page documenting religious tolerance as a concept, currently containing a note about a historical video on the origins of zero in ancient India.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Religious Tolerance
 
@@ -24,7 +24,6 @@ The concept of religious tolerance has evolved significantly across different so
 
 ## Modern Practice
 
-Contemporary religious tolerance is typically embedded in international human rights frameworks and national laws that protect freedom of religion and belief. Many countries recognize religious tolerance as essential to social stability and individual liberty. Implementation varies widely, with some societies achieving greater pluralism than others, and ongoing tensions between religious communities and secular [[concepts/governance|governance]] structures remain common in many regions.
-
+Contemporary religious tolerance is typically embedded in international human rights frameworks and national laws that protect freedom of religion and belief. Many countries recognize religious tolerance as essential to social stability and individual liberty. [[concepts/adoption|Implementation]] varies widely, with some societies achieving greater pluralism than others, and ongoing tensions between religious communities and secular [[concepts/governance|governance]] structures remain common in many regions.
 ## Source Notes
 - 2026-04-11: The Bloody Origins of the Number Zero

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "coding-assistant"
   - "claude-code"
@@ -13,20 +12,20 @@ aliases:
   - "Claude Code"
   - "Local Coding Assistant"
 summary: A guide on running Claude Code locally using Ollama and GLM-4.7-Flash and repurposing the tool as an autonomous agent system.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Coding Assistant
 
-A Coding Assistant is a specialized AI tool designed to help with [[concepts/coding|software development]] tasks by providing code generation, [[concepts/debugging|debugging]], and analysis capabilities. [[concepts/ai-assisted-coding|Claude Code]] represents one implementation that can be deployed either through cloud APIs or run locally on personal [[concepts/hardware|hardware]]. The [[concepts/local-deployment|local deployment]] approach offers advantages in terms of data [[concepts/privacy|privacy]], reduced API costs, and offline functionality, making it particularly valuable for developers working with sensitive codebases or in environments with limited connectivity.
+A [[entities/codex|Coding Assistant]] is a specialized AI tool designed to help with [[concepts/coding|software development]] tasks by providing [[concepts/code-generation|code generation]], [[concepts/debugging|debugging]], and analysis [[concepts/capabilities|capabilities]]. [[concepts/ai-assisted-coding|Claude Code]] represents one [[concepts/adoption|implementation]] that can be deployed either through cloud APIs or run locally on personal [[concepts/hardware|hardware]]. The [[concepts/local-deployment|local deployment]] approach offers advantages in terms of data [[concepts/privacy|privacy]], reduced API costs, and offline functionality, making it particularly valuable for developers working with sensitive codebases or in environments with limited connectivity.
 
 ## Running Locally with Ollama
 
-Recent developments in API compatibility have enabled Claude Code to run locally using Ollama, an [[concepts/open-source|open-source]] tool that simplifies model [[concepts/deployment|deployment]] on personal machines. By leveraging [[entities/glm-47-flash|GLM-4.7-Flash]] or compatible models, developers can establish a [[concepts/local-inference|local inference]] server that mirrors the functionality of cloud-based coding assistants. This approach requires configuring Ollama to expose the [[entities/anthropic-institute|Anthropic]] API endpoint, allowing existing Claude Code integrations to communicate with the locally-running model without modification to client [[concepts/software|applications]].
+Recent developments in API compatibility have enabled [[concepts/claude-code|Claude Code]] to run locally using [[concepts/task-specific-modeling|Ollama]], an [[concepts/open-source|open-source]] tool that simplifies model [[concepts/deployment|deployment]] on personal machines. By leveraging [[entities/glm-47-flash|GLM-4.7-Flash]] or compatible [[concepts/models|models]], developers can establish a [[concepts/local-inference|local inference]] server that mirrors the functionality of cloud-based coding assistants. This approach requires configuring Ollama to expose the [[entities/anthropic-institute|Anthropic]] API endpoint, allowing existing Claude Code integrations to communicate with the locally-[[concepts/running|running]] model without modification to client [[concepts/software|applications]].
 
 ## Autonomous Agent Configuration
 
-Beyond basic code assistance, the local [[concepts/software-customization|Claude Code setup]] can be repurposed as an [[concepts/autonomous-agent-system|autonomous agent system]] capable of executing complex multi-step tasks. This involves configuring the model with extended [[concepts/context-windows|context windows]], [[concepts/tool-use-automation|tool-use]] capabilities, and [[concepts/iterative-execution-loops|iterative execution loops]] that allow the agent to plan actions, execute code, analyze results, and refine subsequent steps without constant human intervention. Such configurations are particularly useful for [[concepts/automated-software-testing|automated testing]], continuous integration workflows, and iterative [[concepts/problem-solving|problem-solving]] [[concepts/scenarios|scenarios]] where the agent can autonomously explore [[concepts/solution|solution]] spaces.
-
+Beyond basic code assistance, the local [[concepts/software-customization|Claude Code setup]] can be repurposed as an [[concepts/autonomous-agent-system|autonomous agent system]] capable of executing complex multi-step tasks. This involves configuring the model with extended [[concepts/context-windows|context windows]], [[concepts/tool-use-automation|tool-use]] capabilities, and [[concepts/iterative-execution-loops|iterative execution loops]] that allow the [[entities/agent|agent]] to plan actions, execute code, analyze results, and refine subsequent steps without constant human intervention. Such configurations are particularly useful for [[concepts/automated-software-testing|automated testing]], continuous [[concepts/integration|integration]] workflows, and iterative [[concepts/problem-solving|problem-solving]] [[concepts/scenarios|scenarios]] where the agent can autonomously explore [[concepts/solution|solution]] spaces.
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-07: Claude Code 2.0 Upgrade: Enhanced AI Coding, Workflow Automation, and Team Features

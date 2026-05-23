@@ -12,19 +12,19 @@ tags:
 aliases:
   - "SuperClaude"
 summary: SuperClaude is a configuration framework designed to enhance Claude Code using MCP servers.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Specialists
 
-AI Specialists refers to a configuration and workflow approach for enhancing [[concepts/claude-ai|Claude]]'s code assistance capabilities through the integration of MCP ([[concepts/external-tools|Model Context Protocol]]) servers. This framework enables Claude to connect with specialized server instances that extend its functionality beyond standalone operation, allowing it to access additional context, tools, and capabilities during development work. The approach treats individual server connections as specialized "[[concepts/agents|agents]]" or extensions that provide domain-specific functionality.
+AI Specialists refers to a configuration and workflow approach for enhancing Claude's code assistance capabilities through the integration of MCP (Model Context Protocol) servers. This framework enables Claude to connect with specialized server instances that extend its functionality beyond standalone operation, allowing it to access additional context, tools, and capabilities during development work.
 
-## SuperClaude Framework
+## Architecture and Integration
 
-SuperClaude is a [[concepts/configuration-framework|configuration framework]] that implements the AI Specialists approach. It provides a structured method for setting up [[concepts/ai-assisted-coding|Claude Code]] to work in conjunction with multiple [[concepts/mcp-servers|MCP servers]], enabling developers to compose specialized capabilities for specific development tasks. The framework handles the configuration and orchestration of these server connections, allowing Claude to leverage external tools and data sources seamlessly during code generation and [[concepts/problem-solving|problem-solving]].
+The SuperClaude framework operates by establishing connections between Claude and MCP servers, which act as intermediaries that provide domain-specific tools and information access. These servers can expose capabilities such as file system operations, database queries, API integrations, and specialized computing functions. By configuring these connections, developers can create tailored environments where Claude gains access to resources relevant to their specific coding tasks or project requirements.
 
-## Use Cases
+## Configuration and Deployment
 
-The AI Specialists approach is typically applied in [[concepts/developer-platforms|development environments]] where Claude requires access to specialized knowledge, real-time data, or particular tools beyond its base capabilities. By connecting to configured MCP servers, Claude can integrate with version control systems, documentation repositories, [[concepts/testing|testing]] frameworks, or domain-specific tools, making it more effective for particular project types or workflows.
+AI Specialists configurations typically involve setting up server definitions and connection parameters that Claude can invoke during conversation. The MCP protocol standardizes how these connections are established and how Claude requests and receives information from specialized servers. This allows for reproducible setups that can be shared across teams or projects, creating consistent development environments where Claude's assistance is enhanced with project-specific tools and context.
 
 ## Source Notes
 - 2026-04-07: Marc Benioff: Salesforce

@@ -1,22 +1,13 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "masking"
-  - "photoshop"
-  - "photo-editing"
-  - "hair-masking"
-  - "edge-control"
-  - "subject-selection"
-aliases:
-  - "manual masking techniques"
-summary: "Manual masking combines automated subject selection with manual pixel-level adjustments to achieve high-precision edge control."
-updated: 2026-04-21
+summary: Manual masking combines automated subject selection with manual pixel-level adjustments to achieve high-precision edge control.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Manual masking
 
-Techniques for isolating subjects from backgrounds, focusing on high-precision edge control for complex boundaries.
+Techniques for isolating subjects from backgrounds, focusing on high-precision edge [[concepts/power|control]] for complex boundaries.
 
 ## Core Methodologies
 - **Hybrid [[concepts/workflow|Workflow]]**: Achieving professional-grade [[concepts/hair-masking]] requires a combination of [[concepts/ai-masking]] (utilizing [[concepts/select-subject]]) and traditional manual refinement techniques.
@@ -27,8 +18,7 @@ Techniques for isolating subjects from backgrounds, focusing on high-precision e
 - [Comprehensive Guide: Precise Hair Masking in Photoshop](https://www.youtube.com/watch?v=WSfSs9wmbO8)
 
 ---
-**Backlinks**: 2026 04 14 New technique for masking hair in [[concepts/photoshop|photoshop]]
-
+**Backlinks**: 2026 04 14 New technique for [[concepts/masking|masking]] hair in [[concepts/photoshop|photoshop]]
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: science-physics
-group: physics-fundamental-theory
+domain: biology-life-sciences
 tags:
   - "concept"
   - "radiation-resistance"
@@ -14,7 +13,8 @@ aliases:
   - "Radioresistance"
   - "Radiation Tolerance"
 summary: The ability of organisms to survive and function in high-radiation environments, relevant to potential microbial life in Martian soil.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Radiation Resistance
 
@@ -26,8 +26,7 @@ Certain bacteria and archaea have evolved exceptional radiation resistance throu
 
 ## Implications for Mars
 
-Mars's surface environment presents extreme radiation exposure due to the planet's thin atmosphere and lack of a protective magnetic field. This hostile radiation environment was long considered incompatible with surface life. However, the same conditions that make [[concepts/martian-soil|Martian soil]] deadly to terrestrial organisms could select for radiation-resistant microbes if life originated there or arrived through panspermia. [[concepts/subsurface-habitats|Subsurface habitats]], where radiation levels diminish significantly with depth, represent more plausible niches for Martian microbial life, balancing protection from radiation with access to chemical energy sources.
-
+Mars's surface environment presents extreme radiation exposure due to the planet's thin atmosphere and lack of a protective magnetic field. This hostile radiation environment was long considered incompatible with surface life. However, the same conditions that [[entities/make|make]] [[concepts/martian-soil|Martian soil]] deadly to terrestrial organisms could select for radiation-resistant microbes if life originated there or arrived through panspermia. [[concepts/subsurface-habitats|Subsurface habitats]], where radiation levels diminish significantly with depth, represent more plausible niches for Martian microbial life, balancing protection from radiation with access to chemical energy sources.
 ## Source Notes
 - 2026-04-07: Martian Soil Is Deadly. And That's Why It Might Support
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "loss-functions"
   - "training"
@@ -14,7 +13,8 @@ aliases:
   - "cost functions"
   - "error metrics"
 summary: Mathematical functions that measure the difference between predicted and actual outputs during model training to guide optimization.
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # Loss Functions
 
@@ -26,8 +26,7 @@ Different tasks and model architectures require different loss functions. Regres
 
 ## Role in Training
 
-During the [[concepts/training-process|training process]], loss is computed on batches of data, and its gradient with respect to model parameters is calculated through [[concepts/backpropagation|backpropagation]]. Optimization algorithms like stochastic gradient descent use these gradients to update [[concepts/weights|weights]] in directions that reduce loss. The choice of loss function directly influences what behaviors the model learns to optimize for, making it a critical design decision in [[concepts/knowledge-acquisition|model development]].
-
+During the [[concepts/training-process|training process]], loss is computed on batches of data, and its gradient with respect to [[concepts/model-parameters|model parameters]] is calculated through [[concepts/backpropagation|backpropagation]]. Optimization algorithms like stochastic gradient descent use these gradients to update [[concepts/weights|weights]] in directions that reduce loss. The choice of loss function directly influences what behaviors the model learns to optimize for, making it a critical [[concepts/design|design]] decision in [[concepts/knowledge-acquisition|model development]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Lock-Feature-Comprehensive-Guide-and-Usage-Explained|Fujifilm Camera Lock Feature Comprehensive Guide and Usage Explained]] · [▶ source](https://www.youtube.com/watch?v=C2ZN6ByntPk)
 - 2026-04-12: [[lab-notes/2026-04-12-Google-TurboQuant-LLM-Memory-Efficiency-Breakthrough-Industry-Impact|Google TurboQuant LLM Memory Efficiency Breakthrough Industry Impact]] · [▶ source](https://www.youtube.com/watch?v=erV_8yrGMA8)

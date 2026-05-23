@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "earthquake-resistant-design"
-  - "base-isolation-systems"
-  - "infrastructure-resilience"
-updated: 2026-04-14
+updated: 2026-05-23
 group: earth-history-landscapes-tectonics
 ---
 # Base Isolation Systems
@@ -18,7 +14,7 @@ group: earth-history-landscapes-tectonics
 - **Critical Infrastructure [[concepts/resilience|Resilience]]**: The ability of essential services to maintain operations during and after a disaster.
 
 ### References
-- 2026 04 13 Earthquake Base Isolation Systems Functionality and Critical Infrastru
+- [[concepts/2026-04-13-earthquake-base-isolation-systems-functionality-and-critical-infrastru|2026 04 13 Earthquake Base Isolation Systems Functionality and Critical Infrastru]]
 - [Practical Engineering](https://www.youtube.com/watch?v=qt2j2gn0yWc)
 
 ### Summary
@@ -33,6 +29,5 @@ The video from Practical Engineering, presented by [[entities/grady|Grady]], exp
 - Seismic Retrofitting
 - Critical Infrastructure
 - [[concepts/earthquake-engineering|Earthquake Engineering]] Principles
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru|Earthquake Base Isolation Systems Functionality and Critical Infrastru]] · [▶ source](https://www.youtube.com/watch?v=qt2j2gn0yWc)

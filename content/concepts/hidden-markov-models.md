@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "hidden-markov-models"
   - "probabilistic-models"
@@ -12,7 +11,8 @@ aliases:
   - "HMM"
   - "Markov models"
 summary: A type of model within the ai-agents domain.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Hidden Markov Models
 
@@ -24,4 +24,4 @@ An HMM consists of three key probability distributions: the transition matrix, w
 
 ## Applications in AI Agents
 
-Hidden Markov Models are widely applied in [[concepts/ai-productivity-agents|AI agent systems]] for tasks such as part-of-speech tagging in [[concepts/nlp|natural language processing]], [[concepts/speech-recognition|speech recognition]], activity recognition, and temporal sequence analysis. [[concepts/agents|Agents]] using HMMs can make inferences about hidden states from noisy or partial observations, enabling them to understand and reason about underlying system dynamics. The Viterbi algorithm and forward-backward algorithm are standard [[concepts/inference|inference]] techniques used to find the most likely sequence of hidden states and [[concepts/compute|compute]] state probabilities respectively.
+Hidden Markov [[concepts/models|Models]] are widely applied in [[concepts/ai-productivity-agents|AI agent systems]] for tasks such as part-of-speech tagging in [[concepts/nlp|natural language processing]], [[concepts/speech-recognition|speech recognition]], activity recognition, and temporal sequence analysis. [[concepts/agents|Agents]] using HMMs can [[entities/make|make]] inferences about hidden states from noisy or partial observations, enabling them to understand and reason about underlying system dynamics. The Viterbi algorithm and forward-backward algorithm are standard [[concepts/inference|inference]] techniques used to find the most likely sequence of hidden states and [[concepts/compute|compute]] state probabilities respectively.

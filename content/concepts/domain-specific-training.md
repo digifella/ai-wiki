@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: sports-science-training-recovery
 tags:
   - "concept"
   - "domain-specific-training"
@@ -15,20 +14,20 @@ aliases:
   - "specialized-training"
   - "task-specific-fine-tuning"
 summary: Training approach that tailors models or skills to specific domains or tasks, as demonstrated in a Gemma-4 LLM fine-tuning tutorial using Unsloth.
-updated: 2026-05-01
+updated: 2026-05-23
+group: sports-science-training-recovery
 ---
 # Domain Specific Training
 
-Domain Specific Training is an approach to machine [[concepts/learning|learning]] where models or [[concepts/skills|skills]] are tailored and optimized for particular domains, tasks, or [[concepts/software|applications]] rather than trained as general-[[concepts/motivation|purpose]] systems. This [[concepts/specialization|specialization]] typically involves [[concepts/fine-tuning|fine-tuning]] pre-trained models on domain-relevant data or using [[concepts/training|training]] methodologies designed to emphasize task-specific performance.
+Domain Specific Training is an approach to machine [[concepts/learning|learning]] where [[concepts/models|models]] or [[concepts/skills|skills]] are tailored and optimized for particular domains, tasks, or [[concepts/software|applications]] rather than trained as general-[[concepts/motivation|purpose]] systems. This [[concepts/specialization|specialization]] typically involves [[concepts/fine-tuning|fine-tuning]] [[concepts/pre-trained-models|pre-trained models]] on domain-relevant data or using [[concepts/training|training]] methodologies designed to emphasize task-specific performance.
 
 ## Fine-Tuning Applications
 
-A practical example of domain specific training is fine-tuning [[concepts/large-language-model-llm|large language models]] like Gemma-4 on custom datasets using tools such as Unsloth. This process allows practitioners to adapt general-purpose models to specialized [[concepts/scenarios|use cases]] by training them on curated data relevant to their specific needs. The approach can be implemented locally, making it accessible for developers working with domain-specific applications without requiring extensive [[concepts/computational-resources|computational resources]] at scale.
+A practical example of domain specific training is fine-tuning [[concepts/large-language-model-llm|large language models]] like [[concepts/23b-parameter-models|Gemma-4]] on custom datasets using tools such as [[concepts/unsloth|Unsloth]]. This process allows practitioners to adapt [[concepts/general-purpose-models|general-purpose models]] to specialized [[concepts/scenarios|use cases]] by training them on curated data relevant to their specific needs. The approach can be implemented locally, making it accessible for developers working with domain-specific applications without requiring extensive [[concepts/computational-resources|computational resources]] [[concepts/assistive-technology|at]] scale.
 
 ## Advantages
 
 Domain specific training generally produces models with improved performance on target tasks compared to generic pre-trained systems. By concentrating training efforts on relevant data and task objectives, this approach can achieve better [[concepts/accuracy|accuracy]], faster [[concepts/inference|inference]], and more appropriate outputs for specialized applications. The technique balances the efficiency of transfer learning with the precision needed for domain-focused work.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]

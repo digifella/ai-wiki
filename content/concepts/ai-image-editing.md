@@ -1,15 +1,7 @@
 ---
-domain: creative-pursuits
 type: concept
-tags:
-  - "ai-image-editing"
-  - "image-manipulation"
-  - "json-control"
-  - "nano-banana-model"
-  - "gemiini-app"
-  - "creative-media"
-  - "photography"
-updated: 2026-04-10
+domain: creative-pursuits
+updated: 2026-05-23
 group: ai-image-generation-editing
 ---
 # AI Image Editing
@@ -17,20 +9,19 @@ group: ai-image-generation-editing
 
 ### Key Concepts
 - **[[concepts/ai-models|AI Models]]**: Advanced algorithms designed for image generation, editing, and manipulation.
-- **[[concepts/data-hallucination|Hallucination]] Issue**: A common problem where an AI model makes significant changes in areas unintended by the user during image editing.
-- **[[concepts/json|JSON Control]]**: Utilizing JavaScript Object Notation to provide precise control over image modifications.
+- **[[concepts/data-hallucination|Hallucination]] Issue**: A common problem where an AI model makes significant changes in areas unintended by the user during [[concepts/image-editing|image editing]].
+- **[[concepts/json|JSON Control]]**: Utilizing JavaScript Object Notation to provide precise [[concepts/power|control]] over image modifications.
 
 ### Related Technologies
-- [[entities/gemini]]: An app powered by Google's advanced [[concepts/ai-workflow|AI capabilities]], specifically [[entities/gemini-3|Gemini 3.1 Pro]].
+- [[entities/gemini]]: An app powered by [[concepts/google-search|Google]]'s advanced [[concepts/ai-workflow|AI capabilities]], specifically [[entities/gemini-3|Gemini 3.1 Pro]].
 - [[concepts/nano-banana-2|Nano Banana 2]] Model: A version of the [[entities/nano-banana|Nano Banana]] model designed for more accurate and precise image editing.
 
 ### New Information
 - The [[entities/nano-banana-2|Nano Banana 2]] [[concepts/lighting-control|JSON Control hack]] introduced in a video by [[entities/renderdrop|renderdrop]] offers a [[concepts/solution|solution]] to common issues with [[concepts/ai-models|AI models]] "hallucinating" during minor modifications.
-- Users can employ JavaScript Object Notation (JSON) code within the [[concepts/gemini|Gemini]] app, powered by the [[concepts/camera-angle-control|Nano Banana 2]] model (specifically [[entities/gemini-31-pro|Gemini 3.1 Pro]]), for precise control over image editing.
+- Users can employ JavaScript Object Notation (JSON) [[concepts/code|code]] within the [[concepts/gemini|Gemini]] app, powered by the [[concepts/camera-angle-control|Nano Banana 2]] model (specifically [[entities/gemini-31-pro|Gemini 3.1 Pro]]), for precise control over image editing.
 
 ### Backlinks
-- 2026 04 10 Nano Banana 2 JSON Control for Precise AI Image Editing in [[concepts/gemini|Gemini]]
-
+- 2026 04 10 [[concepts/camera-angle-manipulation|Nano Banana 2]] JSON [[concepts/power|Control]] for Precise [[concepts/image-data-manipulation|AI Image Editing]] in [[concepts/gemini|Gemini]]
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: Nano Banana 2: The JSON Control Hack

@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: philosophy-religion
-tags:
-  - "epistemology-healthcare"
-  - "knowledge-production-discrepancies"
-  - "patient-engagement-theory"
-  - "health-system-limits"
-  - "philosophy-knowledge-divide"
-aliases:
-  - "knowledge gap in healthcare"
-  - "perspective divide in medicine"
-  - "patient-professional knowledge difference"
-summary: "The epistemological gap describes the discrepancy between medical professionals' understanding and patients' lived experiences in healthcare."
-updated: 2026-04-07
+summary: The epistemological gap describes the discrepancy between medical professionals' understanding and patients' lived experiences in healthcare.
+updated: 2026-05-23
 group: philosophy-ethics-logic
-title: "Epistemological Gap"
+title: Epistemological Gap
 ---
 # Epistemological Gap
 
@@ -22,7 +12,7 @@ The **epistemological gap** refers to a philosophical and practical divide in un
 
 ## Related Concepts
 - [[concepts/patient-generated-knowledge]]
-- Healthcare system limitations
+- [[concepts/health|Healthcare]] system limitations
 
 ---
 
@@ -45,5 +35,5 @@ April 3, 2026 | 27 minutes
    - [[concepts/contrast|Contrast]] between clinical encounters and the patient's lived experience outside medical care
 
 ## References & Backlinks
-- 2026 04 07 [[entities/pulse-podcast|Pulse Podcast]] Summary   The Other [[concepts/8765-hours|8765 Hours]]   with [[entities/dr-sara-riggare|Sara Riggare]]
+- 2026 04 07 [[entities/pulse-podcast|Pulse Podcast]] [[concepts/summary|Summary]]   The Other [[concepts/8765-hours|8765 Hours]]   with [[entities/dr-sara-riggare|Sara Riggare]]
 - 2026 04 07 P

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "concept"
   - "frontier-models"
@@ -15,24 +14,24 @@ aliases:
   - "Leading AI Models"
   - "State-of-the-Art Models"
 summary: Analysis of cutting-edge AI models including their capabilities, pricing structures, and optimal applications.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Frontier Models
 
-Frontier models represent the most advanced [[concepts/ai-technologies|artificial intelligence]] systems currently available or in development, characterized by their state-of-the-art performance across multiple domains. These models serve as the cutting edge of AI capability, typically developed by leading research organizations and commercial labs. Frontier models are distinguished by their scale, architectural innovations, and [[concepts/performance-benchmarks|performance benchmarks]] that exceed previous generation systems.
+Frontier [[concepts/models|models]] represent the most advanced [[concepts/ai-technologies|artificial intelligence]] systems currently available or in development, characterized by their state-of-the-[[concepts/art|art]] performance across multiple domains. These models serve as the cutting edge of AI capability, typically developed by leading research organizations and commercial [[entities/labs|labs]]. Frontier models are distinguished by their scale, architectural innovations, and [[concepts/performance-benchmarks|performance benchmarks]] that exceed previous generation systems.
 
 ## Capabilities and Performance
 
-Frontier models demonstrate broad competency across language understanding, [[concepts/reasoning|reasoning]], code generation, and multimodal tasks. They exhibit improved performance in complex [[concepts/problem-solving|problem-solving]], long-context understanding, and instruction-following compared to earlier models. However, capabilities vary significantly between different frontier systems, with trade-offs between raw performance, reasoning ability, speed, and [[concepts/specialization|specialization]] for specific tasks.
+Frontier models demonstrate broad competency across language understanding, [[concepts/reasoning|reasoning]], [[concepts/code-generation|code generation]], and multimodal tasks. They exhibit improved performance in complex [[concepts/problem-solving|problem-solving]], long-context understanding, and [[concepts/instruction-following|instruction-following]] compared to earlier models. However, [[concepts/capabilities|capabilities]] vary significantly between different frontier systems, with trade-offs between raw performance, reasoning ability, [[concepts/speed|speed]], and [[concepts/specialization|specialization]] for specific tasks.
 
 ## Deployment and Accessibility
 
-Access to frontier models occurs through various channels including API endpoints, direct cloud deployments, and [[concepts/open-source|open-source]] releases. [[concepts/pricing|Pricing structures]] typically reflect [[concepts/code-size|model size]] and capability level, with usage-based pricing common for API access. Organizations must balance capability requirements against cost considerations and latency constraints when selecting between frontier models for specific [[concepts/software|applications]].
+Access to frontier models occurs through various channels including API endpoints, direct cloud deployments, and [[concepts/open-source|open-source]] releases. [[concepts/pricing|Pricing structures]] typically reflect [[concepts/code-size|model size]] and capability level, with usage-based pricing common for API access. Organizations must balance capability requirements against [[concepts/cost|cost]] considerations and latency constraints when selecting between frontier models for specific [[concepts/software|applications]].
 
 ## Development and Safety Considerations
 
-[[concepts/frontier-model|Frontier model]] development involves substantial [[concepts/computational-resources|computational resources]] and research investment. Organizations developing frontier models conduct safety evaluations and implement deployment restrictions based on risk assessments. Some frontier systems remain unreleased or have limited access due to identified safety concerns, reflecting ongoing debates within the [[concepts/ai-research|AI research]] community about appropriate deployment practices for advanced systems.
-
+[[concepts/frontier-model|Frontier model]] development involves substantial [[concepts/computational-resources|computational resources]] and research investment. Organizations developing frontier models conduct safety evaluations and implement [[concepts/deployment|deployment]] restrictions based on risk assessments. Some frontier systems remain unreleased or have limited access due to identified [[concepts/safety-concerns|safety concerns]], reflecting ongoing debates within the [[concepts/ai-research|AI research]] community about appropriate deployment practices for advanced systems.
 ## Source Notes
 - 2026-04-07: Every AI Model Explained in 20 Minutes
 - 2026-04-09: Anthropic Built an AI So Dangerous They Won’t Release It

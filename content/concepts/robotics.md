@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "robotics"
   - "autonomous-systems"
@@ -10,27 +9,27 @@ tags:
   - "mechanical-systems"
   - "control-systems"
   - "ai-applications"
+  - "social-robotics"
 aliases:
   - "robot engineering"
   - "robotic systems"
   - "automation technology"
-summary: Robotics is the engineering discipline concerned with designing, building, and controlling automated mechanical systems.
-updated: 2026-05-01
+summary: Robotics is the engineering discipline concerned with designing, building, and controlling automated mechanical systems, increasingly expanding into social and care domains.
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Robotics
 
-Robotics is the engineering discipline that integrates mechanical design, electronics, control systems, and computation to create automated machines capable of performing tasks with minimal human intervention. These systems range from industrial manufacturing arms to autonomous mobile platforms, each designed to accomplish specific functions in controlled or dynamic environments. The field synthesizes principles from mechanical engineering, electrical engineering, computer science, and control [[concepts/theory|theory]] to develop machines that can sense their surroundings, make decisions, and execute physical actions.
+Robotics is the engineering discipline that integrates mechanical [[concepts/design|design]], electronics, [[concepts/power|control]] systems, and computation to create automated machines capable of performing tasks with minimal human intervention. These systems [[concepts/range|range]] from industrial manufacturing arms to autonomous mobile platforms, each designed to accomplish specific functions in controlled or dynamic environments. The field synthesizes principles from mechanical engineering, electrical engineering, computer [[concepts/science|science]], and control [[concepts/theory|theory]] to develop machines that can sense their surroundings, [[entities/make|make]] decisions, and execute physical actions.
 
 ## Design and Implementation
 
-Robotic systems typically comprise mechanical structures, actuators (motors or pneumatic/hydraulic components), sensors for perception, and control algorithms that determine behavior. The design process requires careful consideration of the task requirements, operating environment, precision demands, and cost constraints. Modern robotics increasingly emphasizes modularity and adaptability, allowing systems to be reconfigured for different [[concepts/software|applications]] or to learn and improve performance over time.
+Robo
 
-## Applications and Impact
+## Emerging Applications
 
-Robotics has become fundamental to manufacturing, where robots perform repetitive, dangerous, or precision-critical tasks with [[concepts/logical-consistency|consistency]] and speed. Beyond factories, robotic systems are deployed in fields including [[concepts/health|healthcare]] (surgical robots, prosthetics), exploration (underwater and space probes), [[concepts/agriculture|agriculture]], and service industries. The integration of advanced sensing, machine [[concepts/learning|learning]], and [[concepts/ai-technologies|artificial intelligence]] continues to expand the scope of tasks that robotic systems can perform autonomously.
+Recent research expands the scope of robotics beyond industrial [[concepts/automation|automation]] into social and care domains. Key areas of investigation include:
 
-## Source Notes
-- 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
-- 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)
-- 2026-04-12: [[lab-notes/2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks|DreamDojo AI Bridging Robotics Sim2Real Gap for Complex Tasks]] · [▶ source](https://www.youtube.com/watch?v=mFSFvKquXwI)
-- 2026-04-26: NVIDIA Sonic · [▶ source](https://www.youtube.com/watch?v=Xf_v62TQOx4)
+- **[[concepts/systemic-inflammation|Social Robotics]]**: Assessing the viability of robots as companions for older adults to address [[concepts/loneliness|loneliness]] and provide care support.
+- **Human-Robot Interaction**: Developing systems that can navigate complex social cues and dynamic human environments effectively.
+- **[[concepts/ethical-considerations|Ethical Considerations]]**: Evaluating the psychological and ethical implications of integrating [[concepts/agentic-systems|autonomous agents]] into caregiving roles [[lab-notes/2026-05-23-Just-a-moment|URL Ingest Summary]].

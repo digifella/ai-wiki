@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "no-code"
-  - "ai-development"
-  - "interface-design"
-  - "software-creation"
-  - "node-based-logic"
-  - "prompt-chaining"
-aliases:
-  - "node-based-editing"
-  - "graphical-interface-interaction"
-summary: "Visual editing is a paradigm of software creation and interface interaction that utilizes graphical elements and interconnected nodes to represent complex logic and workflows."
-updated: 2026-04-24
+summary: Visual editing is a paradigm of software creation and interface interaction that utilizes graphical elements and interconnected nodes to represent complex logic and workflows.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Visual editing
@@ -26,17 +16,15 @@ A paradigm of [[concepts/software|software]] creation and interface interaction 
 
 ---
 **Backlink**: [[concepts/date-2026-04-13|2026]] 04 14 [[entities/opal-labs|Opal Labs]] [[entities/sam-witteveen|Sam Witteveen]]
-
 ## Source Notes
-- 2026-04-23: <https://www.youtube.com/watch?v=CJyg30kowg0> Google Labs has introduced Opal, an experimental [[concepts/no-code-ai-development|no-code AI]] tool designed to help users describe, create, and share [[concepts/ai-mini-applications|AI mini-applications]]. This platform is part of a growing trend in [[concepts/ai-development|AI development]] that aims to democratize [[concepts/software|software]] cre ([[entities/opal-labs|Opal Labs]]   [[entities/sam-witteveen|Sam Witteveen]])
-## Source Notes
-- 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)
 - 2026-04-10: [[lab-notes/2026-04-10-Qwen-36-Plus-Open-Source-AIs-Agentic-Capabilities-and-Frontier|Qwen 36 Plus Open Source AIs Agentic Capabilities and Frontier]] · [▶ source](https://www.youtube.com/watch?v=FuUISGqIC3k)
+- 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-18: [[lab-notes/2026-04-18-Adobe-Lightroom-April-2024-Updates-AI-Search-Workflow-Creative-Tools|Adobe Lightroom April 2024 Updates AI Search Workflow Creative Tools]] · [▶ source](https://www.youtube.com/watch?v=AMRmW7BicMk)
 - 2026-04-21: Adobe · [▶ source](https://www.youtube.com/watch?v=JgfxoI4HYH4)
 - 2026-04-22: OpenAI GPT Image 2 · [▶ source](https://www.youtube.com/watch?v=uvdRGC4cFhY)
+- 2026-04-23: <https://www.youtube.com/watch?v=CJyg30kowg0> Google Labs has introduced Opal, an experimental [[concepts/no-code-ai-development|no-code AI]] tool designed to help users describe, create, and share [[concepts/ai-mini-applications|AI mini-applications]]. This platform is part of a growing trend in [[concepts/ai-development|AI development]] that aims to democratize [[concepts/software|software]] cre ([[entities/opal-labs|Opal Labs]]   [[entities/sam-witteveen|Sam Witteveen]])
 - 2026-04-26: DeepSeek · [▶ source](https://www.youtube.com/watch?v=nHDnyNzvF50)
 - 2026-04-27: Correcting AI Infographic · [▶ source](https://www.youtube.com/watch?v=wsq6AbWVzbw)
 - 2026-04-30: [[lab-notes/2026-04-30-Asgard-Archaea-Recreating-Endosymbiosis-Origins-of-Compl|Asgard Archaea: Recreating Endosymbiosis, Origins of Complex Life]] · [▶ source](https://www.youtube.com/watch?v=vZBvT5brYZI)

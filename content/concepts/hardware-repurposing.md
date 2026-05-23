@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "concept"
   - "media-server"
@@ -14,7 +13,8 @@ aliases:
   - "DIY Media Server"
   - "Budget Server Build"
 summary: A project to build a media server using Ubuntu for under $100 to replace subscription services.
-updated: 2026-05-01
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Hardware Repurposing
 
@@ -22,11 +22,10 @@ Hardware repurposing refers to the practice of reusing existing computer equipme
 
 ## Media Server Applications
 
-One practical application of hardware repurposing is building a media server using free or low-cost operating systems like [[entities/ubuntu|Ubuntu]]. A functional media server capable of streaming video, audio, and other content can be assembled from older computer components for under $100, making it an economical alternative to subscription-based [[concepts/streaming-services|streaming services]]. Such systems typically run media server software that organizes and distributes digital content across a home network, allowing multiple devices to access the same library simultaneously.
+One practical application of hardware repurposing is building a [[concepts/media-server|media server]] using free or low-[[concepts/cost|cost]] operating systems like [[entities/ubuntu|Ubuntu]]. A functional media server capable of streaming video, [[concepts/audio-modality|audio]], and other content can be assembled from older computer components for under $100, making it an economical alternative to subscription-based [[concepts/streaming-services|streaming services]]. Such systems typically run media server software that organizes and distributes digital content across a home network, allowing multiple devices to access the same library simultaneously.
 
 ## Economic and Environmental Benefits
 
 The financial advantages of hardware repurposing are straightforward: reusing existing equipment avoids the expense of purchasing new hardware. Beyond cost savings, repurposing reduces electronic waste by extending the functional lifespan of devices that might otherwise be discarded. This approach requires only the investment of time and technical knowledge rather than significant capital, making it accessible to users with moderate technical [[concepts/skills|skills]] and budget constraints.
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

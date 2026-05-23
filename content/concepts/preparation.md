@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "contact-information"
   - "business-consulting"
@@ -13,7 +12,8 @@ aliases:
   - "Getting Ready"
   - "Preparation Notes"
 summary: Contains contact information for Dr. Paul Cooper of Longboardfella Pty Ltd regarding preparation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Preparation
 
@@ -25,8 +25,7 @@ Preparation typically involves several critical components: establishing clear g
 
 ## Application and Timing
 
-The timing of preparation activities is essential to strategy execution. Beginning preparation well in advance of implementation allows for [[concepts/iterative-refinement|iterative refinement]], stakeholder engagement, and adjustment based on emerging information or changed circumstances. Preparation that occurs too late or inadequately often results in implementation challenges, resource conflicts, and missed objectives.
-
+The timing of preparation activities is essential to strategy execution. Beginning preparation well in advance of [[concepts/adoption|implementation]] allows for [[concepts/iterative-refinement|iterative refinement]], stakeholder engagement, and adjustment based on emerging information or changed circumstances. Preparation that occurs too late or inadequately often results in implementation challenges, resource conflicts, and missed objectives.
 ## Source Notes
 - 2026-04-08: NotebookLM Mind Maps Are Bad! But Gemini Fixes Them
 - 2026-04-11: [[lab-notes/2026-04-11-Eric-Kims-Perfect-Dak-Bulgogi-Quick-Korean-BBQ-Chicken-Recipe|Eric Kims Perfect Dak Bulgogi Quick Korean BBQ Chicken Recipe]] · [▶ source](https://www.youtube.com/watch?v=7k8Yf1UEJOs)

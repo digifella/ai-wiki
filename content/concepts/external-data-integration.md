@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data-integration"
-  - "LLM"
-  - "AI-agents"
-  - "API"
-  - "MCP"
-  - "external-data-integration"
-  - "llm-tool-use"
-  - "agentic-ai"
-  - "api-integration"
-  - "model-context-protocol"
-aliases:
-  - "connecting-llms-to-external-sources"
-summary: "The process of connecting large language models and agentic AI to external data sources, services, and tools to extend utility beyond static training data."
-updated: 2026-04-14
+summary: The process of connecting large language models and agentic AI to external data sources, services, and tools to extend utility beyond static training data.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # External data integration
@@ -30,9 +17,8 @@ The process of connecting [[concepts/llm]]s and [[concepts/agentic-ai]] to [[con
 - [[concepts/llm]]s require external interaction with tools and services to be functionally useful in real-world [[concepts/software|applications]].
 
 ## Sources
-- 2026 04 14 MCP vs API for LLM by IBM
+- 2026 04 14 MCP vs API for LLM by [[entities/ibm|IBM]]
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] using powerful [[concepts/agentic-ai|AI agents]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

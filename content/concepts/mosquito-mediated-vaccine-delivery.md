@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "concept"
   - "vaccine-delivery"
@@ -13,11 +12,12 @@ aliases:
   - "Mosquito-based vaccination"
   - "Malaria vaccination via mosquitos"
 summary: A vaccination approach using mosquitos as vectors to deliver malaria vaccines, achieving lifelong protection despite short drug half-life.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Mosquito Mediated Vaccine Delivery
 
-Mosquito mediated vaccine delivery is a proposed [[concepts/vaccination|immunization]] strategy that uses mosquitoes as biological vectors to administer vaccines directly to humans. Rather than traditional injection or oral routes, the vaccine payload would be delivered through mosquito bites during a feeding interaction. This approach addresses a key challenge in [[concepts/malaria-vaccination|malaria vaccination]]: achieving durable [[concepts/immune-system-function|immunity]] despite the short biological half-life of current vaccine formulations.
+Mosquito mediated [[concepts/providing-vaccinations|vaccine delivery]] is a proposed [[concepts/vaccination|immunization]] strategy that uses mosquitoes as biological vectors to administer vaccines directly to humans. Rather than traditional injection or oral routes, the vaccine payload would be delivered through mosquito bites during a feeding interaction. This approach addresses a key challenge in [[concepts/malaria-vaccination|malaria vaccination]]: achieving durable [[concepts/immune-system-function|immunity]] despite the short biological half-life of current vaccine formulations.
 
 ## Mechanism and Rationale
 
@@ -26,6 +26,5 @@ The concept leverages the mosquito's natural feeding behavior and direct access 
 ## Current Status
 
 As of available information, this represents an emerging concept rather than a clinically established practice. Development would require advances in multiple areas, including mosquito genetic engineering, vaccine formulation stability within insects, safety protocols to prevent unintended transmission, and regulatory frameworks for releasing modified vectors into natural populations. The feasibility and practical viability of the approach remain subjects of ongoing research and theoretical discussion.
-
 ## Source Notes
 - 2026-04-14: The Starlink Breakthrough Everyone Missed

@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "digital infrastructure"
-  - "computational complexity"
-  - "computer science"
-updated: 2026-04-14
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Digital Infrastructure
@@ -32,11 +28,10 @@ The [[concepts/p-vs-np-problem|P vs NP problem]] is a major unsolved question in
 - **Revolutionary Impact**: A [[concepts/solution|solution]] could transform fields like medicine, [[concepts/ai-technologies|artificial intelligence]], and [[concepts/cryptography|cryptography]].
 
 ### Historical Context
-The problem was first described in a 1956 letter by Kurt Gödel to John von Neumann and has since been formalized as one of the [[concepts/millennium-prize-problems|Millennium Prize Problems]] by the Clay [[concepts/mathematics|Mathematics]] Institute.
+The problem was first described in a 1956 letter by Kurt Gödel to [[entities/chef-john|John]] von Neumann and has since been formalized as one of the [[concepts/millennium-prize-problems|Millennium Prize Problems]] by the Clay [[concepts/mathematics|Mathematics]] Institute.
 
 ## Backlinks
 - 2026 04 12 [[concepts/a-video-titled-p-vs-np|P vs NP Problem]] [[concepts/complexity-classes|Computational Complexity]] Implications and Historical C
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge|Google Gemma 4 Advanced Open Source AI Models for Efficient Edge]] · [▶ source](https://www.youtube.com/watch?v=BrJdGP21B5g)
 - 2026-04-12: [[lab-notes/2026-04-12-P-vs-NP-Problem-Computational-Complexity-Implications-and-Historical-C|P vs NP Problem Computational Complexity Implications and Historical C]] · [▶ source](https://www.youtube.com/watch?v=pQsdygaYcE4)

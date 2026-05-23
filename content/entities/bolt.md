@@ -10,15 +10,15 @@ aliases:
   - "Kiro"
   - "Amazon Kiro"
 summary: An analysis of Amazon's AI code editor, Kiro, focusing on its features and market positioning.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Bolt
 
-Bolt is Amazon's AI-powered code editor, designed to assist developers in [[concepts/writing|writing]] and [[concepts/debugging|debugging]] code through [[concepts/ai-technologies|artificial intelligence]] integration. The tool represents Amazon's entry into the competitive market of AI code editors, which has grown significantly with offerings from companies like GitHub, JetBrains, and others.
+Bolt is [[entities/amazon|Amazon]]'s AI-powered [[concepts/code|code]] editor, designed to assist developers in [[concepts/writing|writing]] and [[concepts/debugging|debugging]] code through [[concepts/ai-technologies|artificial intelligence]] [[concepts/integration|integration]]. The tool represents Amazon's entry into the competitive market of AI code editors, which has grown significantly with offerings from companies like [[entities/github|GitHub]], JetBrains, and others.
 
 ## Features and Functionality
 
-Bolt provides code completion, suggestion, and analysis capabilities powered by [[concepts/artificial-intelligence-models|machine learning models]]. The editor integrates AI assistance directly into the development workflow, aiming to increase [[concepts/developer-productivity|developer productivity]] and reduce time spent on routine [[concepts/coding|coding]] tasks.
+Bolt provides [[concepts/code|code]] completion, suggestion, and analysis [[concepts/capabilities|capabilities]] powered by [[concepts/artificial-intelligence-models|machine learning models]]. The editor integrates AI assistance directly into the development [[concepts/workflow|workflow]], aiming to increase [[concepts/developer-productivity|developer productivity]] and reduce time spent on routine [[concepts/coding|coding]] tasks.
 
 ## Market Positioning
 

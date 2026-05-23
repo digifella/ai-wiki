@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: society-politics-institutions
-group: politics-governance-public-systems
 tags:
   - "rail-transport"
   - "tourism"
@@ -12,7 +11,8 @@ aliases:
   - "rail-tourism"
   - "train journeys"
 summary: An exploration of rail journeys and train-based holidays in Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: politics-governance-public-systems
 ---
 # Public Transport Revival
 
@@ -20,7 +20,7 @@ Public transport revival in Australia refers to renewed interest in rail-based t
 
 ## Rail Tourism in Australia
 
-Train-based holidays have become an established tourism sector in Australia, featuring routes that range from heritage railways operated by volunteer organisations to luxury tourist trains offering multi-day journeys. These services traverse diverse landscapes, from coastal routes to inland regions, and often emphasise the experience of travel itself rather than rapid point-to-point transport. The appeal includes comfort, scenic viewing opportunities, and the distinctive social environment of [[concepts/rail-travel|train travel]].
+Train-based holidays have become an established tourism sector in Australia, featuring routes that [[concepts/range|range]] from heritage railways operated by volunteer organisations to luxury tourist trains offering multi-day journeys. These services traverse diverse landscapes, from coastal routes to inland regions, and often emphasise the experience of travel itself rather than rapid point-to-point transport. The appeal includes comfort, scenic viewing opportunities, and the distinctive social environment of [[concepts/rail-travel|train travel]].
 
 ## Contemporary Context
 

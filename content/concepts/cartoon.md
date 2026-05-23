@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "artificial-intelligence"
   - "google-ecosystem"
@@ -14,11 +13,12 @@ aliases:
   - "AI Product Updates"
   - "Google AI Ecosystem Overview"
 summary: The video provides an overview of recent artificial intelligence product updates across Google's ecosystem, including Gemini, NotebookLM, and Google Vids.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 ---
 # Cartoon
 
-Cartoon is a form of [[concepts/visual-art|visual art]] characterized by simplified, often exaggerated drawings that prioritize humor, expressiveness, or [[concepts/storytelling|storytelling]] over realistic representation. The style employs bold lines, limited color palettes, and distorted proportions to create distinctive characters and narratives. Cartoons have been a significant [[entities/medium|medium]] in entertainment and communication for over a century, spanning animation, comic strips, editorial illustration, and graphic novels.
+Cartoon is a form of [[concepts/visual-art|visual art]] characterized by simplified, often exaggerated drawings that prioritize humor, expressiveness, or [[concepts/storytelling|storytelling]] over realistic representation. The [[concepts/style|style]] employs bold lines, limited color palettes, and distorted proportions to create distinctive characters and narratives. Cartoons have been a significant [[entities/medium|medium]] in entertainment and communication for over a century, spanning animation, comic strips, editorial illustration, and graphic novels.
 
 ## Animation and Film
 
@@ -26,4 +26,4 @@ Animated cartoons represent the most widely recognized form of the medium, using
 
 ## Comic and Editorial Applications
 
-Beyond animation, cartoons function as a primary format for comic strips and editorial illustration. Political cartoons and editorial illustrations use the cartoon style to communicate commentary and satire, while comic strips and graphic novels employ cartooning techniques as their foundational visual language. These applications demonstrate the medium's effectiveness for narrative construction and social commentary across various genres and audiences.
+Beyond animation, cartoons function as a primary format for comic strips and editorial illustration. Political cartoons and editorial illustrations use the cartoon style to communicate commentary and satire, while comic strips and graphic novels employ cartooning techniques as their foundational visual language. These [[concepts/software|applications]] demonstrate the medium's effectiveness for narrative construction and social commentary across various genres and audiences.

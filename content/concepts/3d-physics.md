@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "physics"
-  - "3D"
-  - "simulation"
-  - "AI"
-  - "rigid-body-dynamics"
-  - "collision-detection"
-  - "physics-engine"
-  - "inverse-kinematics"
-  - "ai-integration"
-  - "game-physics"
-summary: "3D physics simulation governs motion, forces, collisions, and interactions in three-dimensional space and is core to game development, VR, and engineering simulations."
-updated: 2026-04-15
+summary: 3D physics simulation governs motion, forces, collisions, and interactions in three-dimensional space and is core to game development, VR, and engineering simulations.
+updated: 2026-05-23
 group: interactive-visualisation
 ---
 # 3D Physics
@@ -27,7 +16,7 @@ group: interactive-visualisation
 - inverse kinematics: Solving joint movements for articulated bodies
 
 ### AI Integration
-- [[concepts/gpt-5|GPT-5]] enables accelerated development of 3D physics code through [[concepts/ai-coding-assistance|AI-assisted coding]], as demonstrated in real-time [[concepts/simulation|simulation]] tools using [[concepts/xai|XAI]] APIs [[concepts/gpt-5-coding|GPT5 vibe coding]] - [[entities/creator-magic|Creator Magic]] channel
+- [[concepts/gpt-5|GPT-5]] enables accelerated development of 3D physics [[concepts/code|code]] through [[concepts/ai-coding-assistance|AI-assisted coding]], as demonstrated in real-time [[concepts/simulation|simulation]] tools using [[concepts/xai|XAI]] APIs [[concepts/gpt-5-coding|GPT5 vibe coding]] - [[entities/creator-magic|Creator Magic]] channel
 - Emerging "[[concepts/vibeops|VibeOps]]" paradigm streamlines physics engine [[concepts/debugging|debugging]] and optimization via [[concepts/ai-generated-code|AI-generated code]] snippets
 
 ### Key Applications
@@ -36,8 +25,7 @@ group: interactive-visualisation
 - Virtual prototyping in CAD
 - [[concepts/fluid-dynamics]] simulations
 
-2026 04 14 GPT5 vibe coding [[entities/creator-magic|Creator Magic]] channel
-
+2026 04 14 GPT5 [[concepts/3d-game-development|vibe coding]] [[entities/creator-magic|Creator Magic]] channel
 ## Source Notes
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)
 - 2026-04-07: [[lab-notes/2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "concept"
   - "infinite-monkey-experiment"
@@ -12,20 +11,20 @@ aliases:
   - "infinite monkey experiment"
   - "shakespeare probability"
 summary: An exploration of the probability of the infinite monkey experiment producing Shakespeare within the context of cosmic time.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Cosmic Time
 
-The [[concepts/crested-macaques|infinite monkey theorem]] posits that a monkey randomly striking keys on a typewriter for an infinite duration would eventually produce the complete works of Shakespeare. When examined within the context of cosmic timescales, this thought experiment reveals profound insights about probability, infinity, and the [[entities/nature|nature]] of time itself. The theorem demonstrates that given sufficient time, even extraordinarily improbable events become theoretically inevitable—though "sufficient time" in this case vastly exceeds any practical or even cosmic measure.
+The [[concepts/crested-macaques|infinite monkey theorem]] posits that a monkey randomly striking keys on a typewriter for an infinite duration would eventually produce the complete works of Shakespeare. When examined within the context of cosmic timescales, this thought experiment reveals profound insights about probability, infinity, and the [[entities/nature|nature]] of time itself. The theorem demonstrates that given sufficient time, even extraordinarily improbable events become [[entities/theoretically-media|theoretically]] inevitable—though "sufficient time" in this case vastly exceeds any practical or even cosmic measure.
 
 ## Probability and Scale
 
-Shakespeare's complete works comprise approximately 5 million characters. The probability of a monkey randomly typing this exact sequence approaches zero for any finite time frame. Even if a trillion monkeys each typed one character per second for the entire 13.8-billion-year age of the universe, the probability of producing even a single Shakespeare play would remain vanishingly small. The number of possible character combinations far exceeds the [[concepts/observable-universe|observable universe]]'s capacity to contain or execute such iterations.
+Shakespeare's complete works comprise approximately 5 million characters. The probability of a monkey randomly typing this exact sequence approaches [[concepts/concept-of-nothingness|zero]] for any finite time frame. Even if a trillion monkeys each typed one character per second for the entire 13.8-billion-year age of the universe, the probability of producing even a single Shakespeare play would remain vanishingly small. The number of possible character combinations far exceeds the [[concepts/observable-universe|observable universe]]'s capacity to contain or execute such iterations.
 
 ## Practical vs. Theoretical Infinity
 
-The infinite monkey theorem relies on true mathematical infinity, which differs fundamentally from cosmic time. While the universe may persist for an extraordinarily long duration—potentially trillions of years—it remains finite. This distinction means the theorem functions primarily as a mathematical principle about infinity rather than a prediction about actual events in physical reality. The gap between cosmic timescales and the timescales required for this scenario represents a collapse of meaning between the theoretical and practical domains.
-
+The [[concepts/infinite-monkey-theorem|infinite monkey theorem]] relies on true mathematical infinity, which differs fundamentally from cosmic time. While the universe may persist for an extraordinarily long duration—potentially trillions of years—it remains finite. This distinction means the theorem functions primarily as a mathematical principle about infinity rather than a prediction about actual events in [[concepts/physical-reality|physical reality]]. The gap between cosmic timescales and the timescales required for this scenario represents a collapse of meaning between the theoretical and practical domains.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats|Mars Life The Paradox of Deadly Soil and Hidden Habitats]] · [▶ source](https://www.youtube.com/watch?v=O5FqozA4IpA)
 - 2026-04-12: [[lab-notes/2026-04-12-Superdeterminism-and-Quantum-Reality-Implications-for-Local-Realism|Superdeterminism and Quantum Reality Implications for Local Realism]] · [▶ source](https://www.youtube.com/watch?v=JnKzt6Xq-w4)

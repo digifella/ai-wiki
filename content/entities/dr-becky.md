@@ -1,25 +1,7 @@
 ---
 type: entity
-tags:
-  - "astronomy"
-  - "astrophysics"
-  - "dark-matter"
-  - "dr-becky"
-  - "astronomy-research"
-  - "astrophysics-theory"
-  - "dark-matter-properties"
-  - "cosmic-structure"
-  - "exoplanet-study"
-  - "cosmology"
-  - "inflation-theory"
-  - "planck-data"
-aliases:
-  - "Dr. Becky"
-  - "Becky the Astronomer"
-  - "Dark Matter Expert"
-  - "Astro Dr. Becky"
-summary: "Dr. Becky is an astronomer and astrophysicist who discusses dark matter's inability to form dense structures due to its lack of electromagnetic interaction."
-updated: 2026-05-02
+summary: Dr. Becky is an astronomer and astrophysicist who discusses dark matter's inability to form dense structures due to its lack of electromagnetic interaction.
+updated: 2026-05-23
 ---
 # Dr. Becky
 
@@ -35,7 +17,7 @@ Dr. Becky is an astronomer and astrophysicist known for her engaging and insight
     - Dark matter lacks electromagnetic interaction which prevents it from forming compact structures.
     - Un
 
-- **Universe Curvature Tension: Planck Data Challenges Flatness, Impacts Inflation Theory**
+- **[[concepts/universe-curvature-tension|Universe Curvature Tension]]: [[entities/planck|Planck]] Data Challenges Flatness, Impacts Inflation [[concepts/theory|Theory]]**
   - Date: 2026-05-02
   - [Video](https://www.youtube.com/watch?v=Pd9P7CibbHc)
-  - **Summary:** Explores "the curvature tension," a significant cosmological problem where Planck data challenges the assumption of a flat universe, potentially impacting inflation theory.
+  - **Summary:** Explores "the curvature tension," a significant cosmological problem where Planck data challenges the assumption of a [[concepts/flatness-of-the-universe|flat universe]], potentially impacting inflation theory.

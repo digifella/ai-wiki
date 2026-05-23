@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "meat-chemistry"
   - "ground-meat"
@@ -13,7 +12,8 @@ aliases:
   - "ground meat chemistry"
   - "meat science basics"
 summary: The chemistry of ground meat.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 title: chemistry of ground meat
 ---
 # Chemistry Of Ground Meat
@@ -22,11 +22,10 @@ title: chemistry of ground meat
 
 ## Browning and Flavor Development
 
-The browning of ground meat occurs through the [[concepts/maillard-reaction|Maillard reaction]], a chemical process between amino acids and reducing sugars that occurs at high temperatures. This reaction creates hundreds of flavor compounds and brown pigments, developing the savory taste associated with cooked meat. The extent of browning depends on cooking temperature, surface moisture, and the presence of other ingredients. Salt applied before cooking accelerates protein denaturation and can enhance browning.
+The browning of ground meat occurs through the [[concepts/maillard-reaction|Maillard reaction]], a chemical process between amino acids and reducing sugars that occurs [[concepts/assistive-technology|at]] high temperatures. This reaction creates hundreds of flavor compounds and brown pigments, developing the savory taste associated with cooked meat. The extent of browning depends on cooking temperature, surface moisture, and the presence of other ingredients. Salt applied before cooking accelerates protein denaturation and can enhance browning.
 
 ## Moisture Retention
 
-Ground meat naturally loses moisture during cooking as water is expelled from denaturing proteins. Additives like [[concepts/baking-soda|baking soda]] can influence this process by raising the pH of the meat, which allows proteins to retain more water before they coagulate too tightly. This technique can help maintain juiciness in ground meat dishes, particularly in [[concepts/software|applications]] like meatballs or patties where texture is important to the final product.
-
+Ground meat naturally loses moisture during cooking as water is expelled from denaturing proteins. Additives like [[concepts/baking-soda|baking soda]] can [[concepts/power|influence]] this process by raising the pH of the meat, which allows proteins to retain more water before they coagulate too tightly. This technique can help maintain juiciness in ground meat dishes, particularly in [[concepts/software|applications]] like meatballs or patties where texture is important to the final product.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro|Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro]] · [▶ source](https://www.youtube.com/watch?v=b4QqU-RQZ4w)

@@ -9,8 +9,8 @@ tags:
   - "process-optimization"
 aliases:
   - "review ordering"
-summary: "Review prioritization is the process of determining the order in which reviews should be conducted based on urgency, importance, and resource availability."
-updated: 2026-04-28
+summary: Review prioritization is the process of determining the order in which reviews should be conducted based on urgency, importance, and resource availability.
+updated: 2026-05-23
 group: market-intelligence-geo-seo
 ---
 # Review Prioritization

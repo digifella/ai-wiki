@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "photography"
-  - "photoshop"
-  - "image-editing"
-  - "workflow"
-updated: 2026-04-15
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Fence Removal Workflow

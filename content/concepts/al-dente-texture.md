@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "culinary"
-  - "pasta"
-  - "texture"
-  - "pasta-texture"
-  - "culinary-techniques"
-  - "mouthfeel"
-  - "pasta-cooking"
-  - "structural-integrity"
-aliases:
-  - "al dente"
-summary: "A state of firmness in pasta characterized by resistance to the bite and providing structural integrity and mouthfeel."
-updated: 2026-04-26
+summary: A state of firmness in pasta characterized by resistance to the bite and providing structural integrity and mouthfeel.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Al dente texture
@@ -26,8 +15,7 @@ The state of firmness in Pasta characterized by a slight resistance to the bite,
 - Success is dependent on the interplay between [[concepts/cooking-techniques|cooking techniques]], pasta [[concepts/material-properties|physical properties]], and the sauce's ability to coat the surface.
 
 ### References
-- 2026 04 23 [[concepts/cooking-dried-pasta|Pasta Cooking Methods]] Optimizing Texture [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor Integration
-
+- 2026 04 23 [[concepts/cooking-dried-pasta|Pasta Cooking Methods]] Optimizing [[concepts/texture|Texture]] [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor [[concepts/integration|Integration]]
 ## Source Notes
 
 - 2026-04-23: Pasta Cooking Methods · [▶ source](https://www.youtube.com/watch?v=IANwP8_hwEk)

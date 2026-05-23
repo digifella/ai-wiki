@@ -14,9 +14,10 @@ tags:
   - "molecular-biology"
 aliases:
   - "evolutionary theory"
-summary: "Evolutionary biology encompasses the study of processes such as natural selection, genetic drift, and speciation, incorporating historical foundations from Charles Darwin and Gregor Mendel."
-updated: 2026-04-28
+summary: Evolutionary biology encompasses the study of processes such as natural selection, genetic drift, and speciation, incorporating historical foundations from Charles Darwin and Gregor Mendel.
+updated: 2026-05-23
 group: evolution-ecology-natural-systems
+stub: true
 ---
 # Evolutionary Biology
 
@@ -37,7 +38,7 @@ group: evolution-ecology-natural-systems
 - **Neo-Darwinism**: Combines natural selection with Mendelian inheritance to explain evolution.
 
 ## Historical Context
-- **Charles Darwin**: Proposed the [[concepts/theory|theory]] of evolution by natural selection in *On the Origin of Species* (1859).
+- **[[entities/charles-darwin|Charles Darwin]]**: Proposed the [[concepts/theory|theory]] of evolution by natural selection in *On the Origin of Species* (1859).
 - **Gregor Mendel**: Laid the foundation for genetics with his work on inheritance in pea plants.
 
 ## Modern Research
@@ -51,13 +52,12 @@ group: evolution-ecology-natural-systems
 
 ## New Research Areas
 - **[[concepts/prion|Prion]] and [[concepts/start-of-life|Start of Life]]**: Explores the role of [[concepts/infectious-proteins|prions]] in the origin of life, particularly through the [[concepts/protein-world-hypothesis|Protein World Hypothesis]].
-  - **Historical Context**: The [[entities/fore-tribe|Fore Tribe]] and [[concepts/kuru-disease|Kuru disease]] in [[entities/papua-new-guinea|Papua New Guinea]].
+  - **[[concepts/historical-context|Historical Context]]**: The [[entities/fore-tribe|Fore Tribe]] and [[concepts/kuru-disease|Kuru disease]] in [[entities/papua-new-guinea|Papua New Guinea]].
   - **[[concepts/protein-world-hypothesis|Protein World Hypothesis]]**: Did prions start life?
-  - **Video Summary**: 2026 04 14 [[entities/anton-petrov|Anton Petrov]] Prion and [[concepts/start-of-life|start of life]]
+  - **Video [[concepts/summary|Summary]]**: 2026 04 14 [[entities/anton-petrov|Anton Petrov]] Prion and [[concepts/start-of-life|start of life]]
 
 ## Backlinks
 - 2026 04 14 [[entities/anton-petrov|Anton Petrov]] [[concepts/prion|Prion]] and [[concepts/start-of-life|start of life]]
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)
 - 2026-04-14: [[lab-notes/2026-04-14-Platypus-New-Discoveries-on-its-Unique-Biology-Evolution-and-Traits|Platypus New Discoveries on its Unique Biology Evolution and Traits]] · [▶ source](https://www.youtube.com/watch?v=1ABN5dLK3L4)

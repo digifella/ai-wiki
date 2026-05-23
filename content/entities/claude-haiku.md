@@ -1,25 +1,12 @@
 ---
 type: entity
-tags:
-  - "Anthropic"
-  - "Claude"
-  - "AI model"
-  - "speed"
-  - "anthropic-claude"
-  - "ai-model-speed"
-  - "cl-la-light-tier"
-  - "cost-effective-tasks"
-  - "lower-latency-ai"
-aliases:
-  - "Claude Haiku"
-  - "Haiku 4.5"
-  - "Haiku model"
-summary: "Claude Haiku is Anthropic's faster and more cost-efficient version of the Claude AI model designed for lower-cost, lower-latency tasks."
-updated: 2026-04-11
-title: "Claude Haiku"
+summary: Claude Haiku is Anthropic's faster and more cost-efficient version of the Claude AI model designed for lower-cost, lower-latency tasks.
+updated: 2026-05-23
+stub: true
+title: Claude Haiku
 ---
 # Claude Haiku
-[[entities/anthropic-institute|Anthropic]]'s faster, lighter [[concepts/claude-ai|Claude]] model tier for lower-latency and lower-cost tasks.
+[[entities/anthropic-institute|Anthropic]]'s faster, lighter [[concepts/claude-ai|Claude]] model tier for lower-latency and lower-[[concepts/cost|cost]] tasks.
 
 ## Ecosystem
 - [[entities/anthropic]]
@@ -28,6 +15,5 @@ title: "Claude Haiku"
 - [[entities/claude-opus]]
 
 ## Related Notes
-- 2026 04 10 Meta Harness AI [[concepts/self-evolutionary-development|Self Evolution]] via [[concepts/autonomous-llm-optimization|Autonomous LLM Harness Optimization]]
-
+- 2026 04 10 [[entities/meta|Meta]] [[concepts/harness|Harness]] AI [[concepts/self-evolutionary-development|Self Evolution]] via [[concepts/autonomous-llm-optimization|Autonomous LLM Harness Optimization]]
 ## Source Notes

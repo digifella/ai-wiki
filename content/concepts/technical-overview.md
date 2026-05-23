@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "technical-overview"
-  - "minmax-m2et"
-  - "mistral-3-large"
-  - "open-source"
-  - "llm"
-  - "deployment"
-  - "mixture-of-experts"
-  - "moe-architecture"
-  - "self-evolution"
-aliases:
-  - "MiniMax M2.7"
-  - "M2.7"
-  - "Mistral 3 Large Comparison"
 summary: "Comparison of [[entities/mixture-of-experts|MoE]] models: [[entities/minimax|MiniMax]] M2.7 (229B) and [[entities/mistral|Mistral]] 3 Large (675B)."
-updated: 2026-04-14
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 ---
 # Technical Overview: MiniMax M2.7 & Mistral 3 Large
@@ -47,7 +33,6 @@ MiniMax M2.7 stands out due to its unique approach to continuous improvement and
 - [[entities/minimax|MiniMax]]
 - [[entities/mistral|Mistral AI]]
 -
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)

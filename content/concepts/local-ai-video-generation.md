@@ -1,24 +1,14 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "AI"
-  - "Video-Generation"
-  - "Local-Computing"
-  - "Open-Source"
-  - "local-ai"
-  - "open-source-models"
-  - "generative-video"
-aliases:
-  - "local-generative-video"
-  - "on-device-video-generation"
-summary: "The practice of executing generative video models on local hardware to bypass cloud-based constraints and subscription costs."
-updated: 2026-04-18
+summary: The practice of executing generative video models on local hardware to bypass cloud-based constraints and subscription costs.
+updated: 2026-05-23
 group: video-content-systems
+stub: true
 ---
 # Local AI video generation
 
-The practice of executing [[concepts/ai-generated-videos|generative video]] models on local [[concepts/hardware|hardware]] to bypass cloud-based constraints.
+The practice of executing [[concepts/ai-generated-videos|generative video]] [[concepts/models|models]] on local [[concepts/hardware|hardware]] to bypass cloud-based constraints.
 
 ## Key Benefits
 - **[[concepts/privacy]]**: Local processing ensures data [[concepts/secure|security]] and data residency.
@@ -35,7 +25,6 @@ The practice of executing [[concepts/ai-generated-videos|generative video]] mode
 ---
 **Backlinks:**
 - 2026 04 14 Making [[concepts/ai-videos|AI videos]] locally with [[concepts/pinokio-tool|Pinokio]] [[entities/kevin-stratvert|Kevin Stratvert]] channel
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)

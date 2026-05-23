@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: materials-chemistry-mechanisms
 tags:
   - "superheavy-nuclei"
   - "nuclear-stability"
@@ -12,7 +11,8 @@ aliases:
   - "Superheavy Element Stability"
   - "Nuclear Stability Theory"
 summary: A calculation regarding the stability of superheavy nuclei may impact the current understanding of the periodic table.
-updated: 2026-05-01
+updated: 2026-05-23
+group: materials-chemistry-mechanisms
 ---
 # Superheavy Nuclei Stability
 
@@ -24,7 +24,6 @@ The stability of nuclei depends on the balance between the strong nuclear force,
 
 ## Implications for the Periodic Table
 
-Recent calculations regarding superheavy nuclei stability may require revisions to current models of the periodic table's structure. Specifically, predictions about electron configuration and chemical properties of superheavy elements could be affected if the underlying nuclear stability differs from previous estimates. These findings have relevance for both fundamental nuclear [[concepts/physics|physics]] and the [[concepts/organization|organization]] of chemical elements.
-
+Recent calculations regarding superheavy nuclei stability may require revisions to current [[concepts/models|models]] of the periodic table's structure. Specifically, predictions about electron configuration and chemical properties of superheavy elements could be affected if the underlying nuclear stability differs from previous estimates. These findings have relevance for both fundamental nuclear [[concepts/physics|physics]] and the [[concepts/organization|organization]] of chemical elements.
 ## Source Notes
 - 2026-04-19: [[lab-notes/2026-04-19-Breakthrough-in-Superheavy-Nuclei-Stability-and-the-Periodic-Table|Breakthrough in Superheavy Nuclei Stability and the Periodic Table]] · [▶ source](https://www.youtube.com/watch?v=rTJJHIXRMnU)

@@ -12,16 +12,17 @@ tags:
 aliases:
   - "geometric tension"
   - "cosmological curvature tension"
-summary: "A discrepancy between Planck mission data and the assumption of a flat universe that impacts current inflation theory."
-updated: 2026-05-02
+summary: A discrepancy between Planck mission data and the assumption of a flat universe that impacts current inflation theory.
+updated: 2026-05-23
 group: physics-fundamental-theory
+stub: true
 ---
 # Universe curvature tension
 
 A significant unresolved problem in [[concepts/cosmology]] concerning the fundamental geometry of the Universe.
 
 ## Core Conflict
-- **Geometric Tension**: Recent data from the [[entities/planck|Planck]] mission challenges the long-held assumption of a flat universe.
+- **Geometric Tension**: Recent data from the [[entities/planck|Planck]] mission challenges the long-held assumption of a [[concepts/flatness-of-the-universe|flat universe]].
 - **Theoretical Impact**: This discrepancy has profound implications for the current understanding of Inflation [[concepts/theory|Theory]].
 - **Fundamental Uncertainty**: The tension questions the foundational understanding of the universe's curvature.
 

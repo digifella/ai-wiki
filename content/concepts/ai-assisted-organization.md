@@ -1,22 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai-assisted-organization"
-  - "knowledge-management"
-  - "obsidian-plugin"
-  - "claude-code-integration"
-  - "pkm-tools"
-aliases:
-  - "AI-aided organization"
-  - "Obsidian AI integration"
-  - "Claude Code setup"
-  - "PKM automation"
-  - "AI for notes"
-summary: "The page discusses the use of artificial intelligence tools, such as Obsidian and Claude Code, to enhance personal knowledge management (PKM) through features like data ingestion, summarization, retrieval, and organizati"
-updated: 2026-04-08
+summary: The page discusses the use of artificial intelligence tools, such as Obsidian and Claude Code, to enhance personal knowledge management (PKM) through features like data ingestion, summarization, retrieval, and organizati
+updated: 2026-05-23
 group: ai-foundations-concepts
-title: "ai assisted organization"
+title: ai assisted organization
 ---
 ## AI-Assisted Organization with Obsidian and Claude Code
 
@@ -34,8 +22,8 @@ AI-assisted organization involves leveraging [[concepts/ai-technologies|artifici
 #### Features
 - **Data Ingestion:** Automating the intake of information from various sources.
 - **Organization:** AI-driven categorization and tagging to enhance searchability.
-- **[[concepts/summarization|Summarization]]:** Intelligent summarization of notes for quick reference.
-- **Retrieval:** Enhanced query capabilities to locate relevant data swiftly.
+- **[[concepts/summarization|Summarization]]:** Intelligent summarization of [[concepts/notes|notes]] for quick reference.
+- **Retrieval:** Enhanced query [[concepts/capabilities|capabilities]] to locate relevant data swiftly.
 
 #### Tools
 - **[[concepts/obsidian|Obsidian]]:** A note-taking application that facilitates complex linking and organization.
@@ -44,7 +32,7 @@ AI-assisted organization involves leveraging [[concepts/ai-technologies|artifici
 ### Automation in PKM
 
 - Utilizing APIs and scripts to streamline repetitive tasks.
-- Integrating with external services like GitHub for synchronization and version control.
+- Integrating with external services like [[entities/github|GitHub]] for synchronization and version [[concepts/power|control]].
 
 ### References
 **Video Demonstration:**
@@ -54,8 +42,7 @@ AI-assisted organization involves leveraging [[concepts/ai-technologies|artifici
 
 ### Summary Points from Video (Eric Tech)
 - Constructing a robust [[concepts/second-brain|second brain]] or PKM system.
-- Demonstrating how to integrate [[entities/claude|Claude]] Code with Obsidian for automated data handling.
-- Highlighting features such as [[concepts/github-sync|GitHub Sync]] for version control and collaboration.
-
+- Demonstrating how to integrate [[entities/claude|Claude]] [[concepts/code|Code]] with [[concepts/obsidian|Obsidian]] for automated data handling.
+- Highlighting features such as [[concepts/github-sync|GitHub Sync]] for version [[concepts/power|control]] and collaboration.
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-Early-Access-AI-Powered-Assisted-Culling-and-Auto-St|Lightroom Classic Early Access AI Powered Assisted Culling and Auto St]] · [▶ source](https://www.youtube.com/watch?v=F5yy-XpLXOs)

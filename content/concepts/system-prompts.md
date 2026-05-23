@@ -1,28 +1,17 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "prompt-engineering"
-  - "ai-agents"
-  - "automation"
-  - "llm-instructions"
-  - "agentic-workflows"
-  - "sub-agents"
-  - "context-management"
-  - "ai-persona"
-aliases:
-  - "system-level instructions"
-  - "llm instructions"
-summary: "System prompts are instructions provided to a Large Language Model to establish persona, operational boundaries, and behavioral constraints."
-updated: 2026-04-18
+summary: System prompts are instructions provided to a Large Language Model to establish persona, operational boundaries, and behavioral constraints.
+updated: 2026-05-23
 group: reasoning-context-prompting
+stub: true
 ---
 # System prompts
 
 [[concepts/instructions|Instructions]] provided to a [[concepts/large-language-model|Large Language Model]] (LLM) to establish persona, operational boundaries, and behavioral constraints.
 
 ## Applications in Agentic systems
-- **Sub-[[concepts/agents|agents]]**: Within [[entities/claude-code]], [[concepts/specialized-ai-assistants|specialized AI assistants]] (sub-agents) use customized System prompts to handle specific task types efficiently.
+- **Sub-[[concepts/agents|agents]]**: Within [[entities/claude-code]], [[concepts/specialized-ai-assistants|specialized AI assistants]] ([[concepts/sub-agents|sub-agents]]) use customized System prompts to handle specific task types efficiently.
 - **Architectural Optimization**: Sub-agents address core challenges in [[concepts/agentic-patterns|agentic workflows]], specifically:
     - [[concepts/context-management]]
     - [[concepts/tool-selection]]
@@ -31,7 +20,6 @@ group: reasoning-context-prompting
 ## Related
 - [[entities/prompt-engineering]]
 - 2026 04 14 Mastering [[concepts/claude-code-sub-agents|Claude Code sub agents]]
-
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

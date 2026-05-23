@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "camera-settings"
-  - "autofocus"
-  - "fujifilm"
-  - "autofocus-modes"
-  - "single-autofocus"
-  - "focus-locking"
-aliases:
-  - "static-subjects"
-summary: "Stationary subjects are best captured using Single Autofocus (AF-S) to lock focus and avoid unnecessary refocusing."
-updated: 2026-04-16
+summary: Stationary subjects are best captured using Single Autofocus (AF-S) to lock focus and avoid unnecessary refocusing.
+updated: 2026-05-23
 group: photography-cameras
 ---
 Stationary subjects require precise focus locking without continuous adjustment. Optimal autofocus configuration minimizes refocusing errors.
@@ -24,6 +14,5 @@ Stationary subjects require precise focus locking without continuous adjustment.
 For [[entities/fujifilm|Fujifilm]]-specific optimization of these modes, see [[entities/fujifilm|Fujifilm]] Autofocus [[concepts/setup|Setup]] Guide: Modes, Features, and Optimization.
 
 2026 04 13 Fujifilm Autofocus Setup Guide Modes Features and Optimization
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Fujifilm-Autofocus-Setup-Guide-Modes-Features-and-Optimization|Fujifilm Autofocus Setup Guide Modes Features and Optimization]] · [▶ source](https://www.youtube.com/watch?v=C00MqhLjKnE)

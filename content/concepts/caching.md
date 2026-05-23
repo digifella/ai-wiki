@@ -12,8 +12,8 @@ tags:
   - "web-development"
 aliases:
   - "data-caching"
-summary: "Caching is a technique that stores copies of data in temporary storage to improve access times and reduce load on the original data source."
-updated: 2026-04-28
+summary: Caching is a technique that stores copies of data in temporary storage to improve access times and reduce load on the original data source.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Caching
@@ -46,8 +46,7 @@ Caching is a technique to store copies of data in a temporary [[entities/storage
 - **Cache Keys**: Use unique identifiers to avoid collisions.
 
 ## Backlinks
-- 2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare setup
-
+- 2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare [[concepts/setup|setup]]
 ## Source Notes
 
 - 2026-04-22: LLM Inference · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)

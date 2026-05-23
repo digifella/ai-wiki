@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "long-game"
-  - "strategy"
-  - "AI"
-  - "economics"
-updated: 2026-04-15
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # long game
@@ -15,12 +10,11 @@ group: products-operations-business-economics
 
 ## Key Insights
 - Market share eroding for [[entities/openai]] despite [[concepts/gpt-5|GPT-5]].2 [[concepts/innovation|innovation]] as competitors catch up
-- Critical risk: [[concepts/capital-structure|capital structure]] of [[concepts/ai-boom|AI boom]], specifically [[entities/openai]]-Oracle financial relationship
+- Critical risk: [[concepts/capital-structure|capital structure]] of [[concepts/ai-boom|AI boom]], specifically [[entities/openai]]-[[entities/oracle|Oracle]] financial relationship
 - Massive pre-commitments made to justify position now creating instability
-- [[concepts/ai-hyperscalers|AI hyperscalers]] require sustainable funding models beyond speculative capital
+- [[concepts/ai-hyperscalers|AI hyperscalers]] require sustainable funding [[concepts/models|models]] beyond speculative capital
 
-2026 04 14 Caleb writes code [[concepts/ai-hyperscalers|Ai hyperscalers]] and funding
-
+2026 04 14 [[entities/caleb-writes-code|Caleb writes code]] [[concepts/ai-hyperscalers|Ai hyperscalers]] and funding
 ## Source Notes
 
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)

@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "food-science"
-  - "ground-meat"
-  - "baking-soda"
-updated: 2026-04-14
+updated: 2026-05-23
 group: food-science-nutrition-ingredients
 ---
 # Experiment Results
@@ -19,7 +15,7 @@ group: food-science-nutrition-ingredients
 - [[concepts/baking-soda-in-cooking]]
 
 ### Summary
-- A technique using a common pantry ingredient ([[concepts/baking-soda|baking soda]]) to significantly improve the texture, flavor, and appearance of [[concepts/ground-meat|ground meat]].
+- A technique using a common pantry ingredient ([[concepts/baking-soda|baking soda]]) to significantly improve the [[concepts/texture|texture]], flavor, and appearance of [[concepts/ground-meat|ground meat]].
 - The experiment reveals how baking soda can transform typical ground meat dishes.
 
 ### Experiment Notes
@@ -34,7 +30,6 @@ group: food-science-nutrition-ingredients
 
 ### Backlinks
 - 2026 04 12 Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)

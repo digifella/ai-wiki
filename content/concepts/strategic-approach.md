@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: enterprise-strategy-future-work
 tags:
   - "ai-process-mapping"
   - "business-integration"
@@ -11,7 +10,8 @@ aliases:
   - "AI Process Mapping Strategy"
   - "Business Process AI Integration"
 summary: This concept explores using artificial intelligence for process mapping within business applications.
-updated: 2026-05-01
+updated: 2026-05-23
+group: enterprise-strategy-future-work
 ---
 # Strategic Approach
 
@@ -19,12 +19,11 @@ A strategic approach to implementing [[concepts/ai-technologies|artificial intel
 
 ## Process Mapping and AI Integration
 
-Effective process mapping involves identifying bottlenecks, redundancies, and manual tasks that consume significant time or resources. Once these processes are clearly documented, organizations can evaluate where AI can deliver measurable value—whether through automating repetitive tasks, improving decision-making, or enhancing data analysis. This methodical approach ensures that AI implementations are targeted and justified by business outcomes rather than pursued as [[concepts/adoption|technology adoption]] for its own sake.
+Effective [[concepts/process-mapping|process mapping]] involves identifying bottlenecks, redundancies, and manual tasks that consume significant time or resources. Once these processes are clearly documented, organizations can evaluate where AI can deliver measurable value—whether through automating repetitive tasks, improving [[concepts/decision-making|decision-making]], or enhancing data analysis. This methodical approach ensures that AI implementations are targeted and justified by business outcomes rather than pursued as [[concepts/adoption|technology adoption]] for its own sake.
 
 ## Implementation Considerations
 
-Organizations implementing this strategic approach should document their processes before selecting AI tools, rather than adopting AI platforms and then attempting to retrofit them into existing workflows. This sequence allows teams to understand their baseline performance, establish clear metrics for improvement, and select appropriate AI solutions that genuinely align with mapped requirements. Success depends on clear communication across departments about process changes and realistic timelines for integration and employee adaptation.
-
+Organizations implementing this strategic approach should document their processes before selecting [[concepts/ai-tools|AI tools]], rather than adopting AI platforms and then attempting to retrofit them into existing workflows. This sequence allows teams to understand their baseline performance, establish clear metrics for improvement, and select appropriate AI solutions that genuinely align with mapped requirements. Success depends on clear communication across departments about process changes and realistic timelines for [[concepts/integration|integration]] and employee adaptation.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]

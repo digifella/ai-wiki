@@ -1,44 +1,23 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "lightroom"
-  - "color-science"
-  - "photo-editing"
-  - "color-grading"
-  - "lightroom-calibration"
-  - "color-science-basics"
-  - "photo-editing-foundations"
-  - "cinematic-color-palette"
-  - "skin-tone-management"
-  - "photoshop"
-  - "neural-filters"
-  - "style-transfer"
-  - "camera-raw"
-  - "tonal-adjustments"
-aliases:
-  - "Lightroom color setup"
-  - "Calibration basics in Lightroom"
-  - "Foundational color settings"
-  - "Color theory primer"
-summary: "The Calibration Panel in Adobe Lightroom establishes fundamental color behavior, while the Photoshop Camera Raw Filter enables advanced color grading for tonal adjustments."
-updated: 2026-04-30
+summary: The Calibration Panel in Adobe Lightroom establishes fundamental color behavior, while the Photoshop Camera Raw Filter enables advanced color grading for tonal adjustments.
+updated: 2026-05-23
 group: lightroom-color-workflows
-title: "Lightroom calibration"
+title: Lightroom calibration
 ---
 # Lightroom calibration
 
-The [[entities/adobe-lightroom]] [[concepts/lightroom|Calibration Panel]] serves as the foundational layer for color science within an image, dictating the primary color behavior before secondary [[concepts/adjustments|adjustments]] are applied.
+The [[entities/adobe-lightroom]] [[concepts/lightroom|Calibration Panel]] serves as the foundational layer for color [[concepts/science|science]] within an image, dictating the primary color behavior before secondary [[concepts/adjustments|adjustments]] are applied.
 
 ### Core Principles
 - **The Ingredient Analogy**: Calibration represents the fundamental "ingredients" of a photo, whereas adjustment tools like [[concepts/contrast|Contrast]] and Saturation function as "seasoning."
 - **[[concepts/foundational-color|Foundational Color]]**: Used to establish the base color palette and achieve Cinematic aesthetics.
-- **Color Control**: Essential for managing the underlying color shifts that impact [[concepts/skin-tones]] and overall Color the
+- **Color [[concepts/power|Control]]**: Essential for managing the underlying color shifts that impact [[concepts/skin-tones]] and overall Color the
 
 ### Photoshop Camera Raw Filter
 - Utilizes the **[[concepts/photo-tonal-adjustments|Color Grading]] tab** for advanced color grading and [[concepts/tonal-adjustments|tonal adjustments]] within [[entities/adobe-photoshop|Photoshop]].
-- Reference: Photoshop Camera Raw Filter: Color Grading for Photo Tonal Adjustments ([[entities/phlearn|PHLEARN]]).
-
+- Reference: [[concepts/photoshop|Photoshop]] [[concepts/camera-raw-filter|Camera Raw Filter]]: Color Grading for Photo Tonal Adjustments ([[entities/phlearn|PHLEARN]]).
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Settings-Clarity-Impact-and-Aperture-Misuse|Fujifilm Camera Settings Clarity Impact and Aperture Misuse]] · [▶ source](https://www.youtube.com/watch?v=Sdxz5zmX8NM)
 - 2026-04-09: Photoshop

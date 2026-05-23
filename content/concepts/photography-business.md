@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "llm-prompts"
   - "photography-business"
@@ -12,11 +11,12 @@ aliases:
   - "LLM prompting for photographers"
   - "AI prompts in photography"
 summary: Kevin Patrick Robbins explains that using overly simplistic prompts leads to superficial results when using LLMs in a photography business.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Photography Business
 
-A photography business encompasses the commercial practice of creating [[concepts/images|images]] for clients across advertising, editorial, and commercial contexts. Like other creative businesses, modern photography practitioners increasingly incorporate [[concepts/ai-technologies|artificial intelligence]] tools into their workflows to improve efficiency and creative output.
+A photography business encompasses the commercial practice of creating [[concepts/images|images]] for clients across advertising, editorial, and commercial contexts. Like other creative businesses, modern photography practitioners increasingly incorporate [[concepts/ai-technologies|artificial intelligence]] tools into their workflows to improve efficiency and creative [[concepts/output|output]].
 
 ## Effective Use of AI in Photography Work
 

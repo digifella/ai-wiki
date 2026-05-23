@@ -1,27 +1,13 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "community-health-nursing"
-  - "nursing-roles"
-  - "terminology"
-  - "public-health-policies"
-  - "health-promotion"
-  - "preventive-care"
-  - "environmental-factors"
-  - "primary-prevention"
-  - "case-management"
-aliases:
-  - "Community Nursing"
-  - "Public Health Care"
-  - "Health Promotion Services"
-summary: "Community health nursing involves the promotion and maintenance of population health through direct care, education, and policy implementation."
-updated: 2026-04-14
+summary: Community health nursing involves the promotion and maintenance of population health through direct care, education, and policy implementation.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Community Health Nursing Overview
 
-[[concepts/community-health-nursing|Community health nursing]] focuses on promoting and maintaining the [[concepts/health|health]] of populations within communities through various interventions, education [[concepts/software|programs]], and [[concepts/preventive-care|preventive care]] strategies. It encompasses a broad spectrum of activities designed to address [[concepts/public-health|public health]] issues at local levels, emphasizing [[concepts/primary-prevention|primary prevention]] and [[concepts/health-promotion|health promotion]].
+[[concepts/community-health-nursing|Community health nursing]] focuses on promoting and maintaining the [[concepts/health|health]] of populations within communities through various interventions, education [[concepts/software|programs]], and [[concepts/preventive-care|preventive care]] strategies. It encompasses a broad spectrum of activities designed to address [[concepts/public-health|public health]] issues [[concepts/assistive-technology|at]] local levels, emphasizing [[concepts/primary-prevention|primary prevention]] and [[concepts/health-promotion|health promotion]].
 
 ## Core Concepts in Community Health Nursing
 - Population-focused healthcare
@@ -39,7 +25,7 @@ group: health-practice-patient-knowledge
 - [[concepts/community-health-programs|Community Health Programs]]
 
 ## New Note Integration (2026-04-11)
-- The video by [[entities/ellis-parker|Ellis Parker]] from [[entities/level-up-rn|Level Up RN]] offers a comprehensive look into the fundamental [[concepts/terminology|terminology]] and roles in community health nursing.
+- The video by [[entities/ellis-parker|Ellis Parker]] from [[entities/level-up-rn|Level Up RN]] offers a comprehensive look into the fundamental [[concepts/terminology|terminology]] and roles in [[concepts/fundamentals-of-nursing|community health nursing]].
   - **[[concepts/terminology|Terminology:]]**
     - **Primary Prevention:** Interventions designed to prevent disease before it occurs.
     - **[[concepts/secondary-prevention|Secondary Prevention]]:** Early detection and treatment of diseases to limit their progression.
@@ -50,7 +36,6 @@ group: health-practice-patient-knowledge
     - [[concepts/offering-counseling-services|Offering counseling services]]
 
 ### Backlinks
-- 2026 04 11 Community Health Nursing Core Terminology and [[concepts/nursing-roles|Nursing Roles]]
-
+- 2026 04 11 [[concepts/community-health-nursing|Community Health Nursing]] Core Terminology and [[concepts/nursing-roles|Nursing Roles]]
 ## Source Notes
 - 2026-04-11: how climate affects community health - full video

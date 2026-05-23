@@ -11,7 +11,7 @@ aliases:
   - "Engram"
   - "DeepSeek Engram"
 summary: DeepSeek Engram introduces conditional memory via scalable lookup as a new axis of sparsity.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Deepseek Engram
 
@@ -23,7 +23,6 @@ The core [[concepts/innovation|innovation]] centers on making memory retrieval c
 
 ## Technical Approach
 
-The technique leverages sparsity as an architectural principle, allowing the model to skip irrelevant computations and memory accesses. By implementing scalable lookup mechanisms, Deepseek Engram enables systems to maintain large memory capacities without proportional increases in computational cost during [[concepts/inference|inference]] or [[concepts/training|training]].
-
+The technique leverages sparsity as an architectural principle, allowing the model to skip irrelevant computations and memory accesses. By implementing scalable lookup mechanisms, [[concepts/engram|Deepseek Engram]] enables systems to maintain large memory capacities without proportional increases in computational [[concepts/cost|cost]] during [[concepts/inference|inference]] or [[concepts/training|training]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware|DeepSeek Engram Solving LLM Inefficiency Through Context Aware]] · [▶ source](https://www.youtube.com/watch?v=DmtoVnTkQnM)

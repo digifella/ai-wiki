@@ -11,8 +11,8 @@ tags:
 aliases:
   - "healthcare-entities"
   - "medical-organisations"
-summary: "Healthcare organisations are entities that provide medical services, manage healthcare systems, or support healthcare delivery."
-updated: 2026-04-28
+summary: Healthcare organisations are entities that provide medical services, manage healthcare systems, or support healthcare delivery.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Healthcare Organisations
@@ -21,8 +21,8 @@ group: health-practice-patient-knowledge
 Healthcare organisations are entities that provide medical services, manage [[concepts/health|healthcare]] systems, or support healthcare delivery.
 
 ## Key Characteristics
-- **[[concepts/structure|Structure]]**: Hierarchical or networked models
-- **Functions**: [[concepts/service-delivery|Service delivery]], research, policy implementation
+- **[[concepts/structure|Structure]]**: Hierarchical or networked [[concepts/models|models]]
+- **Functions**: [[concepts/service-delivery|Service delivery]], research, policy [[concepts/adoption|implementation]]
 - **Stakeholders**: Patients, clinicians, administrators, regulators
 
 ## Challenges
@@ -31,7 +31,7 @@ Healthcare organisations are entities that provide medical services, manage [[co
 - **Workforce Management**: [[concepts/training|Training]] and retaining skilled personnel
 
 ## Related Concepts
-- healthcare delivery
+- [[concepts/health|healthcare]] delivery
 - regulatory [[concepts/compliance|compliance]]
 - [[concepts/ai-oversight]]
 

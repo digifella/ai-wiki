@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: google-ai-ecosystem
 tags:
   - "concept"
   - "gemini-cli"
@@ -14,20 +13,20 @@ aliases:
   - "Gemini Command Line Setup"
   - "MCP Server Configuration for Gemini"
 summary: Configuration of Model Context Protocol (MCP) servers with the Gemini CLI for enhanced functionality.
-updated: 2026-05-01
+updated: 2026-05-23
+group: google-ai-ecosystem
 ---
 # Gemini CLI Configuration
 
-The [[concepts/autonomous-coding|Gemini CLI]] provides a [[concepts/command-line-interface|command-line interface]] for interacting with [[concepts/google-search|Google]]'s [[entities/gemini-models|Gemini models]] while supporting integration with [[concepts/external-tools|Model Context Protocol]] (MCP) servers. [[concepts/mcp-servers|MCP servers]] extend the capabilities of the CLI by exposing [[concepts/custom-tools|custom tools]] and resources that [[concepts/gemini|Gemini]] can access during [[concepts/inference|inference]]. Configuration of these servers enables [[concepts/agentic-ai|AI agents]] to perform specialized tasks beyond the model's native functionality, such as data retrieval, file operations, or domain-specific computations.
+The [[concepts/autonomous-coding|Gemini CLI]] provides a [[concepts/command-line-interface|command-line interface]] for interacting with [[concepts/google-search|Google]]'s [[entities/gemini-models|Gemini models]] while supporting integration with [[concepts/external-tools|Model Context Protocol]] (MCP) servers. [[concepts/mcp-servers|MCP servers]] extend the [[concepts/capabilities|capabilities]] of the CLI by exposing [[concepts/custom-tools|custom tools]] and resources that [[concepts/gemini|Gemini]] can access during [[concepts/inference|inference]]. Configuration of these servers enables [[concepts/agentic-ai|AI agents]] to perform specialized tasks beyond the model's native functionality, such as data retrieval, file operations, or domain-specific computations.
 
 ## Setting Up MCP Servers
 
-Configuring an [[concepts/mcp-server|MCP server]] with the Gemini CLI typically involves specifying server endpoints and [[concepts/authentication|authentication]] credentials in the CLI's configuration files. The CLI communicates with these servers using the MCP specification, allowing it to discover available tools and resources at runtime. Properly configured servers enable the model to request tool invocations and process their results as part of the [[concepts/conversation-flow|conversation flow]].
+Configuring an [[concepts/mcp-server|MCP server]] with the [[concepts/cli-tool|Gemini CLI]] typically involves specifying server endpoints and [[concepts/authentication|authentication]] credentials in the CLI's configuration [[concepts/files|files]]. The CLI communicates with these servers using the MCP specification, allowing it to discover available tools and resources [[concepts/assistive-technology|at]] runtime. Properly configured servers enable the model to request tool invocations and process their results as part of the [[concepts/conversation-flow|conversation flow]].
 
 ## Practical Integration Patterns
 
-Developers use Gemini CLI with MCP servers to build AI agents that combine [[concepts/statistical-language-modeling|language model]] [[concepts/reasoning|reasoning]] with executable code capabilities. This approach enhances efficiency compared to [[concepts/markdown|markdown]]-based [[concepts/instructions|instructions]] alone, particularly for tasks involving [[concepts/web-crawling|web scraping]], data export, or system integration. [[concepts/custom-instructions|Custom instructions]] and server configurations can be tailored for specific domains, such as [[concepts/legal-work|legal work]] or [[concepts/technical-documentation|technical documentation]], allowing the model to produce appropriately formatted output while maintaining access to necessary external functions.
-
+Developers use Gemini CLI with MCP servers to build [[concepts/ai-agents|AI agents]] that combine [[concepts/statistical-language-modeling|language model]] [[concepts/reasoning|reasoning]] with executable [[concepts/code|code]] capabilities. This approach enhances efficiency compared to [[concepts/markdown|markdown]]-based [[concepts/instructions|instructions]] alone, particularly for tasks involving [[concepts/web-crawling|web scraping]], data export, or [[concepts/integration|system integration]]. [[concepts/custom-instructions|Custom instructions]] and server configurations can be tailored for specific domains, such as [[concepts/legal-work|legal work]] or [[concepts/technical-documentation|technical documentation]], allowing the model to produce appropriately formatted [[concepts/output|output]] while maintaining access to necessary external functions.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

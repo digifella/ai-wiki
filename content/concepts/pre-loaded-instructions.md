@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "concept"
-  - "ai"
-  - "productivity"
-  - "context-aware"
-  - "reduced-cognitive-load"
-  - "scalable"
-  - "ai-instructions"
-  - "workflow-automation"
-aliases:
-  - "Embedded Instructions"
-  - "Pre-Loaded AI Instructions"
-summary: "Pre-loaded instructions are embedded within AI systems to enable immediate task execution without additional configuration, eliminating repetitive setup for recurring tasks."
-updated: 2026-04-15
+summary: Pre-loaded instructions are embedded within AI systems to enable immediate task execution without additional configuration, eliminating repetitive setup for recurring tasks.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Pre-loaded Instructions
@@ -31,8 +19,7 @@ group: reasoning-context-prompting
   - *[[concepts/meeting-prep-strategist|Meeting Prep Strategist]]*: Analyzes agendas and generates discussion points
   - *Automated Weekly Business Report*: Generates business reports automatically
 
-2026 04 14 Gemini Gems
-
+2026 04 14 [[concepts/gem-creation|Gemini Gems]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-22: AI Agent Skills · [▶ source](https://www.youtube.com/watch?v=Lg-meK5IU8Q)

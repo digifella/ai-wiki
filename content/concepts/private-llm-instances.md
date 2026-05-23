@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "llm"
-  - "privacy"
-  - "self-hosted"
-  - "ai-infrastructure"
-  - "self-hosted-llm"
-  - "data-privacy"
-  - "edge-computing"
-  - "local-inference"
-  - "ai-security"
-aliases:
-  - "local-llm-deployment"
-  - "private-llm-deployment"
-summary: "Deployment of large language models on isolated, user-controlled hardware or private clouds to ensure data sovereignty and security."
-updated: 2026-04-26
+summary: Deployment of large language models on isolated, user-controlled hardware or private clouds to ensure data sovereignty and security.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Private LLM instances
@@ -25,7 +12,7 @@ group: model-efficiency-compression
 ### Core Characteristics
 - **Self-hosting**: [[concepts/running|Running]] [[concepts/inference|model inference]] on local or private infrastructure to maintain total [[concepts/data-sovereignty|data sovereignty]].
 - **[[concepts/local-llm]]**: Utilization of [[concepts/open-weight-models|open-weight models]] (e.g., [[entities/llama|Llama]], [[entities/mistral-ai|Mistral]]) to avoid reliance on proprietary [[concepts/application-programming-interfaces-apis|APIs]].
-- **[[concepts/edge-computing]]**: [[concepts/remote-inference|Distributed inference]] capabilities that bring computation closer to the end-user.
+- **[[concepts/edge-computing]]**: [[concepts/remote-inference|Distributed inference]] [[concepts/capabilities|capabilities]] that bring computation closer to the end-user.
 
 ### Recent Developments
 - **Mobile [[concepts/accessibility|Accessibility]]**: Expansion of interaction capabilities beyond desktop environments.
@@ -33,7 +20,6 @@ group: model-efficiency-compression
 
 ---
 **Backlink:** [[concepts/date-2026-04-13|2026]] 04 22 [[entities/anythingllm|AnythingLLM]] 1.12 Channels Mobile Interaction with Private Self Hosted LLMs
-
 ## Source Notes
 - 2026-04-07: OpenClaw: The Autonomous AI Agent
 - 2026-04-10: [[lab-notes/2026-04-10-OpenClaw-The-Autonomous-AI-Agents-Rise-and-Critical-Security-Flaws|OpenClaw The Autonomous AI Agents Rise and Critical Security Flaws]] · [▶ source](https://www.youtube.com/watch?v=qKqrmS6dKDg)

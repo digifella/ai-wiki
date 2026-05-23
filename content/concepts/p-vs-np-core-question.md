@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "computational-complexity"
   - "p-vs-np"
@@ -14,7 +13,8 @@ aliases:
   - "NP-completeness problem"
   - "polynomial-time solvability"
 summary: The P vs NP problem questions whether all computational problems whose solutions can be quickly verified (NP) can also be quickly solved (P).
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # P Vs NP Core Question
 
@@ -26,8 +26,7 @@ P stands for "polynomial time"—problems that a deterministic computer can solv
 
 ## Implications for Cryptography and Practice
 
-The practical stakes of this problem are enormous. Most modern cryptographic systems rely on the assumption that P ≠ NP—specifically, that certain problems (like factoring large numbers) are hard to solve but easy to verify. If P were proven equal to NP, it would imply that every problem whose solution can be verified quickly can also be solved quickly, potentially breaking most current encryption schemes. Conversely, proving P ≠ NP would provide mathematical justification for the security of these systems. The problem carries a one-million-dollar Millennium Prize, reflecting its importance to mathematics and computer science.
-
+The practical stakes of this problem are enormous. Most modern cryptographic systems rely on the assumption that P ≠ NP—specifically, that certain problems (like factoring large numbers) are hard to solve but easy to verify. If P were proven equal to NP, it would imply that every problem whose solution can be verified quickly can also be solved quickly, potentially breaking most current encryption schemes. Conversely, proving P ≠ NP would provide mathematical justification for the [[concepts/security|security]] of these systems. The problem carries a one-million-dollar Millennium Prize, reflecting its importance to mathematics and computer [[concepts/science|science]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial|Gemma 4 E2B LLM Fine Tuning Custom Dataset Unsloth Local Tutorial]] · [▶ source](https://www.youtube.com/watch?v=cHpB0PTRx5A)
 - 2026-04-11: [[lab-notes/2026-04-11-Sineks-Start-With-Why-Inspiring-Leadership-Through-Purpose-Driven-Comm|Sineks Start With Why Inspiring Leadership Through Purpose Driven Comm]] · [▶ source](https://www.youtube.com/watch?v=u4ZoJKF_VuA)

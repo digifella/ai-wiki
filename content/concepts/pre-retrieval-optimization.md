@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "rag"
@@ -13,11 +12,12 @@ aliases:
   - "RAG Pre-Retrieval"
   - "Retrieval Optimization"
 summary: Technique for optimizing retrieval-augmented generation systems before the retrieval phase, part of the evolution from foundational RAG to GraphRAG approaches.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Pre Retrieval Optimization
 
-Pre Retrieval Optimization refers to techniques applied to retrieval-augmented generation (RAG) systems before the actual retrieval step executes. Rather than retrieving documents first and then processing them, these approaches refine the retrieval task itself—improving query formulation, expanding context awareness, or preparing the [[concepts/knowledge-base|knowledge base]] [[concepts/structure|structure]]—to make subsequent retrieval more effective. This represents an evolution in RAG system design, addressing limitations where naive retrieval often fails to surface the most relevant information for [[concepts/statistical-language-modeling|language model]] [[concepts/reasoning|reasoning]].
+Pre Retrieval Optimization refers to techniques applied to [[concepts/answer-generation|retrieval-augmented generation]] (RAG) systems before the actual retrieval step executes. Rather than retrieving documents first and then processing them, these approaches refine the retrieval task itself—improving query formulation, expanding context awareness, or preparing the [[concepts/knowledge-base|knowledge base]] [[concepts/structure|structure]]—to [[entities/make|make]] subsequent retrieval more effective. This represents an evolution in RAG system [[concepts/design|design]], addressing limitations where naive retrieval often fails to surface the most relevant information for [[concepts/statistical-language-modeling|language model]] [[concepts/reasoning|reasoning]].
 
 ## Query and Context Enhancement
 
@@ -25,8 +25,7 @@ Pre-retrieval methods focus on optimizing what gets retrieved by improving how r
 
 ## Knowledge Structure Preparation
 
-Another dimension involves structuring the underlying knowledge base to enable better retrieval. Graph-based approaches organize information as interconnected nodes rather than flat document collections, allowing retrieval systems to traverse meaningful [[concepts/relationships|relationships]]. This structural preparation phase determines the granularity and connectivity available during the retrieval step, influencing which information becomes accessible and how efficiently it can be found.
-
+Another dimension involves structuring the underlying knowledge base to enable better retrieval. Graph-based approaches organize information as interconnected [[concepts/nodes|nodes]] rather than flat document collections, allowing retrieval systems to traverse meaningful [[concepts/relationships|relationships]]. This structural [[concepts/preparation|preparation]] [[concepts/phase|phase]] determines the granularity and connectivity available during the retrieval step, influencing which information becomes accessible and how efficiently it can be found.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

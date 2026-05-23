@@ -1,31 +1,15 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "AI video creation"
-  - "automation"
-  - "viral videos"
-  - "multi-platform posting"
-  - "Claude Code"
-  - "Blotato"
-  - "ai-video-generation"
-  - "content-automation"
-  - "multi-platform-sharing"
-  - "viral-content-strategy"
-aliases:
-  - "AI video automation"
-  - "Viral clip creation"
-  - "Multi-channel posting"
-  - "AI content strategy"
-summary: "AI video creation involves using machine learning algorithms to generate and automate the production of video content for various digital platforms."
-updated: 2026-04-11
+summary: AI video creation involves using machine learning algorithms to generate and automate the production of video content for various digital platforms.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # AI Video Creation
 
 ## Overview
 
-[[concepts/ai-advertising|AI video creation]] is the process of generating video content using [[concepts/ai-technologies|artificial intelligence]]. This can involve everything from scriptwriting and storyboard generation to actual video rendering and editing. With advancements in [[concepts/machine-learning|machine learning]], [[concepts/ai-videos|AI-generated videos]] are becoming more sophisticated and are being used across various platforms including social media, YouTube, and beyond.
+[[concepts/ai-advertising|AI video creation]] is the process of generating video content using [[concepts/ai-technologies|artificial intelligence]]. This can involve everything from scriptwriting and storyboard generation to actual video rendering and editing. With advancements in [[concepts/machine-learning|machine learning]], [[concepts/ai-videos|AI-generated videos]] are becoming more sophisticated and are being used across various platforms including social media, [[entities/youtube|YouTube]], and beyond.
 
 ## Key Concepts
 
@@ -40,7 +24,7 @@ group: video-content-systems
 - 2026 04 10 [[concepts/ai-assisted-coding|Claude Code]] [[entities/blotato|Blotato]] Automating AI Viral [[concepts/video-creation|Video Creation]]
 
 - Leveraging [[concepts/ai-tools|AI tools]] like [[concepts/claude-code|Claude Code]] to automate the creation of viral videos.
-- Multi-platform posting made easy with [[entities/blotato|Blotato]] and other similar tools.
+- [[concepts/multi-platform-posting|Multi-platform posting]] made easy with [[entities/blotato|Blotato]] and other similar tools.
 
 ### Related Concepts
 - AI Scriptwriting
@@ -48,18 +32,17 @@ group: video-content-systems
 - Social Media [[concepts/automation|Automation]]
 
 ## Summary: Claude Code + Blotato = Automated Shorts in Minutes (Tutorial)
-**Clip title:** [[concepts/claude-code|Claude Code]] + [[entities/blotato|Blotato]] = Automated Shorts in Minutes ([[concepts/tutorial|Tutorial]])
-**Author / channel:**  AI Content Systems
+**[[concepts/clip-title|Clip title]]:** [[concepts/claude-code|Claude Code]] + [[entities/blotato|Blotato]] = [[entities/ai-content-systems|Automated Shorts]] in Minutes ([[concepts/tutorial|Tutorial]])
+**Author / channel:**  [[concepts/ai-content-systems|AI Content Systems]]
 **URL:** https://www.youtube.com/watch?v=ZXyjSufezL8
 
 - Presents a comprehensive guide on automating the creation and [[concepts/seo|multi-platform posting]] of viral videos.
-- Highlights the success of AI-produced content across YouTube, Instagram, and more.
+- [[concepts/highlights|Highlights]] the success of AI-produced content across [[entities/youtube|YouTube]], Instagram, and more.
 
 ### Key Points
-- **Automated Creation:** Use [[entities/claude|Claude]] Code to generate video content swiftly and efficiently.
+- **Automated Creation:** Use [[entities/claude|Claude]] [[concepts/code|Code]] to generate video content swiftly and efficiently.
 - **Multi-Platform Posting:** Utilize Blotato for seamless [[concepts/distribution|distribution]] on multiple platforms.
-- **High Viewership:** Discusses the high viewership of AI-generated videos online.
-
+- **High Viewership:** Discusses the high viewership of [[concepts/ai-generated-videos|AI-generated videos]] online.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "vector-databases"
-  - "ai"
-  - "rags"
-  - "knowledge-graphs"
-  - "similarity-search"
-  - "embeddings"
-  - "rag"
-  - "ann-search"
-  - "high-dimensional-data"
-aliases:
-  - "vector stores"
-  - "embedding databases"
-summary: "Vector databases are specialized databases optimized for the storage, indexing, and similarity-based retrieval of high-dimensional vector embeddings."
-updated: 2026-04-18
+summary: Vector databases are specialized databases optimized for the storage, indexing, and similarity-based retrieval of high-dimensional vector embeddings.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Vector Databases
@@ -24,7 +11,7 @@ Specialized databases optimized for storing, indexing, and retrieving high-dimen
 
 ## Core Functionality
 - **Approximate Nearest Neighbor (ANN) Search**: Uses algorithms like HNSW, IVF, or FAISS for scalable similarity matching.
-- **Embedding Support**: Stores vectors generated from text, [[concepts/images|images]], or other modalities via models like [[entities/bert|BERT]], CLIP, or Sentence [[concepts/transformers|Transformers]].
+- **Embedding Support**: Stores vectors generated from [[concepts/text|text]], [[concepts/images|images]], or other modalities via [[concepts/models|models]] like [[entities/bert|BERT]], CLIP, or Sentence [[concepts/transformers|Transformers]].
 - **Scalability**: Handles millions/billions of vectors with low-latency queries.
 
 ## Key Limitations
@@ -32,18 +19,17 @@ Specialized databases optimized for storing, indexing, and retrieving high-dimen
 - **Semantic Rigidity**: Struggles with complex [[concepts/relationships|relationships]] beyond vector similarity (e.g., hierarchical or causal links).
 
 ## GraphRAG: Flexible Alternative
-- GraphRAG leverages [[concepts/knowledge-graphs|knowledge graphs]] and LLMs to query [[concepts/json-structuring|structured data]], eliminating the model constraint of [[concepts/vector-search|vector search]].
+- [[concepts/graph-retrieval-augmented-generation|GraphRAG]] leverages [[concepts/knowledge-graphs|knowledge graphs]] and LLMs to query [[concepts/json-structuring|structured data]], eliminating the model constraint of [[concepts/vector-search|vector search]].
 - **Flexibility**: Uses different models for graph construction (e.g., GNNs) and retrieval (e.g., LLMs), enabling richer context.
 - **Advantage**: Better handles complex queries involving relationships (e.g., "Show me products similar to X that are also used with Y") compared to pure vector similarity.
 
 ## Integration Ecosystem
 - **RAG Pipelines**: Primary component in [[concepts/traditional-rag|Retrieval-Augmented Generation]] for LLM context retrieval.
 - **Knowledge Graphs**: Knowledge Graphs enhance [[concepts/vector-database-retrieval|vector search]] with structured relationships (e.g., [[entities/neo4j|Neo4j]] + vector DBs).
-- **Embedding Models**: [[concepts/embedding-models]] must align with vector DB capabilities (e.g., dimensionality, metric).
+- **Embedding Models**: [[concepts/embedding-models]] must align with vector DB [[concepts/capabilities|capabilities]] (e.g., dimensionality, metric).
 
 ## References
-- 2026 04 14 IBM Explainer creating GraphRAG
-
+- 2026 04 14 [[entities/ibm|IBM]] Explainer creating [[concepts/graph-retrieval-augmented-generation|GraphRAG]]
 ## Source Notes
 
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)

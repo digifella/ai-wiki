@@ -1,32 +1,17 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "software"
-  - "cloud"
-  - "business-model"
-  - "software-as-a-service"
-  - "cloud-computing"
-  - "subscription-models"
-  - "enterprise-strategy"
-  - "business-models"
-  - "internet-applications"
-aliases:
-  - "Software as a Service"
-  - "SaaS Model"
-  - "Cloud-Based Software"
-  - "Hosted Applications"
-summary: "SaaS is a cloud-based software delivery model where applications are hosted by a provider and made available to customers over the internet, eliminating the need for local installation and maintenance."
-updated: 2026-04-11
+summary: SaaS is a cloud-based software delivery model where applications are hosted by a provider and made available to customers over the internet, eliminating the need for local installation and maintenance.
+updated: 2026-05-23
 group: enterprise-strategy-future-work
-title: "SaaS"
+title: SaaS
 ---
 # SaaS
 
 [[concepts/software|Software]] as a Service (SaaS) is a cloud-based [[concepts/application-delivery|software delivery]] model where applications are hosted by a provider and made available to customers over the internet, eliminating the need for [[concepts/local-installation|local installation]] and maintenance.
 
 ## Market Intelligence
-- Atlassian announced a major acquisition; worth watching for impact on flow regarding a fix to local [[concepts/saas]].
+- Atlassian announced a major acquisition; worth watching for impact on [[concepts/flow|flow]] regarding a fix to local [[concepts/saas]].
 - Structured [[concepts/context-window|AI Context]]: Beyond [[concepts/rag-limitations|RAG Limitations]] with [[concepts/map-first-architecture|Map-First Architecture]]
   - [[entities/ante-ai-portas|Ante AI Portas]] argues for moving beyond [[concepts/unstructured-data|unstructured data]] upload methods, advocating instead for a structured [[concepts/hierarchical-system|hierarchical system]] (Map-First [[concepts/architecture|Architecture]]) to provide context more effectively.
 

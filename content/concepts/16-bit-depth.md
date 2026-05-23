@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "color-science"
-  - "digital-imaging"
-  - "compositing"
-  - "color-precision"
-  - "image-processing"
-aliases:
-  - "16-bit"
-  - "bit-depth"
-summary: "A measurement of the precision of color and luminance information stored per pixel that provides 65,536 discrete levels to reduce color banding."
-updated: 2026-04-16
+summary: A measurement of the precision of color and luminance information stored per pixel that provides 65,536 discrete levels to reduce color banding.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # 16-bit depth
@@ -24,11 +15,10 @@ A measurement of the precision of color and luminance information stored per pix
 
 ## Practical Application
 Derived from 2026 04 14 [[entities/julianne-kost|Julianne Kost]] Compositing in [[concepts/photoshop|Photoshop]]:
-- **Professional [[concepts/setup|Setup]]**: Recommended for [[entities/adobe-photoshop]] compositing environments (e.g., 300 ppi, [[concepts/adobe-rgb]] color space).
-- **Workflow Integration**: Critical for preserving fidelity when importing high-[[concepts/dynamic-range|dynamic-range]] assets from [[concepts/lightroom]].
+- **Professional [[concepts/setup|Setup]]**: Recommended for [[entities/adobe-photoshop]] compositing environments (e.g., 300 [[concepts/pixels-per-inch|ppi]], [[concepts/adobe-rgb]] color space).
+- **[[concepts/workflow|Workflow]] [[concepts/integration|Integration]]**: Critical for preserving fidelity when importing high-[[concepts/dynamic-range|dynamic-range]] assets from [[concepts/lightroom]].
 
 2026 04 14 Julianne Kost Compositing in Photoshop
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Claude Code 2.0 Upgrade: Enhanced AI Coding, Workflow Automation, and Team Features

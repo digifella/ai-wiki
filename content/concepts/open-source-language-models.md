@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "llm"
-  - "open-source"
-  - "machine-learning"
-  - "edge-computing"
-  - "open-source-llm"
-  - "edge-ai"
-  - "multimodal-models"
-  - "local-deployment"
-aliases:
-  - "open-source-llms"
-summary: "Language models with publicly accessible weights, training methodologies, and architectures that enable local deployment, fine-tuning, and multimodal processing."
-updated: 2026-04-26
+summary: Language models with publicly accessible weights, training methodologies, and architectures that enable local deployment, fine-tuning, and multimodal processing.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Open-source language models
@@ -24,17 +12,16 @@ group: developer-tooling-clis
 ## Key Characteristics
 - **[[concepts/accessibility|Accessibility]]**: Enables [[concepts/local-deployment|local deployment]], [[concepts/fine-tuning|fine-tuning]], and inspection of [[concepts/machine-learning]] [[concepts/weights|weights]].
 - **Efficiency**: Increasing focus on [[entities/bitnet|Edge AI]] and Parameter-efficient tuning to reduce computational overhead.
-- **Capabilities**: Evolution from text-only to Multimodal processing (text, image, etc.).
+- **[[concepts/capabilities|Capabilities]]**: Evolution from text-only to Multimodal processing ([[concepts/text|text]], image, etc.).
 
 ## Notable Developments
 - **[[concepts/gemma-4|Google Gemma]] 4** (2026-04-22):
-    - A new family of models optimized for Edge AI via "edge versions" (E2B and E4B).
+    - A new family of [[concepts/models|models]] optimized for Edge AI via "edge versions" ([[concepts/e2b|E2B]] and E4B).
     - Features a 2.3B parameter multimodal [[concepts/architecture|architecture]] designed to approximate the [[concepts/reasoning|reasoning]] capabilities of 70B [[concepts/parameter-models|parameter models]].
     - Released under the [[entities/apache-20]] [[concepts/license|license]].
 
 ## Backlinks
 - 2026 04 22 [[concepts/23b-parameter-models|Google Gemma 4]] Efficient 2.3B Parameter Multimodal [[concepts/edge-ai|Edge AI]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-10: [[lab-notes/2026-04-10-Marc-Benioff-Salesforces-AI-Strategy-Agents-Slack-and-Work|Marc Benioff Salesforces AI Strategy Agents Slack and Work]] · [▶ source](https://www.youtube.com/watch?v=OzUqfN4mcrM)

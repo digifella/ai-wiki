@@ -11,8 +11,8 @@ tags:
   - "quark-compositeness"
 aliases:
   - "Large Hadron Collider"
-summary: "The Large Hadron Collider is a high-energy particle accelerator designed to test the predictions of the standard model and explore the fundamental building blocks of particle physics."
-updated: 2026-04-30
+summary: The Large Hadron Collider is a high-energy particle accelerator designed to test the predictions of the standard model and explore the fundamental building blocks of particle physics.
+updated: 2026-05-23
 ---
 # LHC
 

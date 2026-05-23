@@ -1,27 +1,11 @@
 ---
 type: concept
-tags:
-  - "photo-editing-tools"
-  - "digital-retaching"
-  - "image-manipulation"
-  - "mobile-photo-apps"
-  - "snapseed-features"
-  - "adobe-lightroom"
-  - "ai-editing"
-  - "adobe-photoshop"
-  - "neural-filters"
-  - "style-transfer"
-aliases:
-  - "photography editing"
-  - "picture manipulation"
-  - "image retouching"
-  - "Snapseed overview"
-summary: "Photo Editing involves techniques for enhancing or altering digital images through adjustments like color correction, retouching, and applying filters or AI-driven style transfers (e.g., [[entities/adobe-photoshop|Photoshop]] Neural Filters) using tools such as Snapseed or [[entities/adobe-lightroom|Adobe Lightroom]]."
-updated: 2026-04-22
 domain: creative-pursuits
+summary: "Photo Editing involves techniques for enhancing or altering digital images through adjustments like color correction, retouching, and applying filters or AI-driven style transfers (e.g., Photoshop Neural Filters) using tools such as Snapseed or Adobe Lightroom."
+updated: 2026-05-23
 group: photography-cameras
 ---
-title: "Photo Editing"
+title: "[[concepts/photo-enhancement|Photo Editing]]"
 type: concept
 
 # Photo Editing
@@ -32,7 +16,6 @@ Photo editing encompasses a [[concepts/range|range]] of techniques used to manip
 - Rapid, powerful [[entities/adobe-photoshop|Photoshop]] techniques for instant photo improvement:
     - Correcting [[concepts/color-casts|color casts]]
     - Essential visual [[concepts/adjustments|adjustments]] to direct viewer [[concepts/attention-mechanisms|attention]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Lightroom Classic Trick: Multiple Masks in One Click

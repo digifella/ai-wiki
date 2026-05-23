@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: biology-life-sciences
+domain: food-nutrition
 tags:
   - "biology"
   - "prions"
@@ -10,9 +10,9 @@ tags:
   - "prion-diseases"
 aliases:
   - "Prions"
-summary: "Infectious proteins, or prions, are misfolded proteins capable of inducing other proteins to adopt the same misfolded conformation, leading to diseases such as Kuru and Creutzfeldt-Jakob disease."
-updated: 2026-04-28
-group: life-systems-adaptation-discovery
+summary: Infectious proteins, or prions, are misfolded proteins capable of inducing other proteins to adopt the same misfolded conformation, leading to diseases such as Kuru and Creutzfeldt-Jakob disease.
+updated: 2026-05-23
+group: food-science-nutrition-ingredients
 ---
 # Infectious Proteins
 

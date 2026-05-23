@@ -1,25 +1,15 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "patient-engagement"
-  - "health-literacy"
-  - "data-sharing-in-healthcare"
-  - "patient-generated-data"
-  - "collaborative-care"
-aliases:
-  - "patient-produced knowledge"
-  - "patient information generation"
-  - "active patient contribution"
-summary: "Patient-Generated Knowledge in Healthcare refers to the creation of information, insights, and data by patients themselves, emphasizing their role as active contributors to healthcare processes."
-updated: 2026-04-07
+summary: Patient-Generated Knowledge in Healthcare refers to the creation of information, insights, and data by patients themselves, emphasizing their role as active contributors to healthcare processes.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
-title: "Patient-Generated Knowledge in Healthcare"
+title: Patient-Generated Knowledge in Healthcare
 ---
 # Patient-Generated Knowledge in Healthcare
 
 ## Definition & Overview
-Patient-generated knowledge refers to information, insights, and data produced by patients themselves rather than [[concepts/health|healthcare]] providers or systems. It highlights how patients can actively contribute to their own care processes, fostering a more collaborative approach between patients and medical professionals.
+Patient-generated knowledge refers to information, insights, and data produced by patients themselves rather than [[concepts/health|healthcare]] providers or systems. It [[concepts/highlights|highlights]] how patients can actively contribute to their own care processes, fostering a more collaborative approach between patients and medical professionals.
 
 ---
 
@@ -42,6 +32,6 @@ Patient-generated knowledge refers to information, insights, and data produced b
 
 ## Recent Discussions & Insights
 
-1. **[[entities/pulse-podcast|PULSE Podcast]] Episode Summary: The Other 8,765 Hours - with Dr. [[entities/sara-riggare|Sara Riggare]]**
+1. **[[entities/pulse-podcast|PULSE Podcast]] Episode [[concepts/summary|Summary]]: The Other 8,765 Hours - with Dr. [[entities/sara-riggare|Sara Riggare]]**
    - Explores the potential for patients to act as active knowledge producers outside of clinical encounters.
    - Source: 2026 04 07 Pulse Podcast Summary   The Other [[concepts/8765-hours|8765 Hours]]   with [[entities/dr-sara-riggare|Sara Riggare]]

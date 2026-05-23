@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "cooking-methods"
   - "culinary-technique"
@@ -13,20 +12,20 @@ aliases:
   - "culinary techniques"
   - "food preparation methods"
 summary: Methods and procedures used to prepare food through heat application and ingredient manipulation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Cooking Techniques
 
-Cooking techniques are the fundamental methods and procedures used to transform raw ingredients into prepared food through heat application and ingredient manipulation. These techniques form the foundation of culinary practice across all cuisines and skill levels, from basic home cooking to professional kitchens. Understanding proper technique improves food safety, [[concepts/texture|texture]], flavor development, and [[concepts/logical-consistency|consistency]] in results.
+Cooking techniques are the fundamental methods and procedures used to transform raw ingredients into prepared food through [[concepts/cooking-time|heat application]] and ingredient manipulation. These techniques form the foundation of culinary practice across all cuisines and [[concepts/skill|skill]] levels, from basic home cooking to professional kitchens. Understanding proper technique improves food safety, [[concepts/texture|texture]], flavor development, and [[concepts/logical-consistency|consistency]] in results.
 
 ## Heat-Based Methods
 
-Heat application is central to most cooking techniques, with different methods suited to different ingredients and desired outcomes. Dry heat methods like roasting and [[concepts/pan-searing|searing]] develop complex flavors through browning reactions, while moist heat methods like steaming and poaching preserve delicate textures. Oven cooking allows for even heat [[concepts/distribution|distribution]] and uniform results—for example, cooking bacon in the oven achieves consistent crispness more reliably than stovetop methods. Proper temperature control prevents undesirable outcomes, such as the gray band that forms in steak when internal temperature rises too high during cooking.
+Heat application is central to most cooking techniques, with different methods suited to different ingredients and desired outcomes. Dry heat methods like roasting and [[concepts/pan-searing|searing]] develop complex flavors through browning reactions, while moist heat methods like steaming and poaching preserve delicate textures. Oven cooking allows for even heat [[concepts/distribution|distribution]] and uniform results—for example, cooking bacon in the oven achieves consistent crispness more reliably than stovetop methods. Proper temperature [[concepts/power|control]] prevents undesirable outcomes, such as the gray band that forms in steak when internal temperature rises too high during cooking.
 
 ## Ingredient Preparation and Timing
 
-Technique extends beyond heat application to include how ingredients are prepared and when they are combined or seasoned. The timing of salt addition affects texture: salting egg mixtures before cooking produces [[concepts/egg-texture|tender scrambled eggs]] by breaking down proteins at the right moment, while proper equipment and liquid consistency further refine results. Vegetable preparation benefits from restaurant-standard techniques like blanching followed by steaming, which preserves color, texture, and nutritional value while enabling efficient meal preparation.
-
+Technique extends beyond heat application to include how ingredients are prepared and when they are combined or seasoned. The timing of salt addition affects texture: salting egg mixtures before cooking produces [[concepts/egg-texture|tender scrambled eggs]] by breaking down proteins [[concepts/assistive-technology|at]] the right moment, while proper equipment and liquid consistency further refine results. Vegetable [[concepts/preparation|preparation]] benefits from restaurant-standard techniques like blanching followed by steaming, which preserves color, texture, and nutritional value while enabling efficient meal preparation.
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov|Bacon Cooking Techniques Achieving Uniform Crispness with Water and Ov]] · [▶ source](https://www.youtube.com/watch?v=tDBSQKEKrW4)
 - 2026-04-17: [[lab-notes/2026-04-17-Optimal-Steak-Cooking-Methods-Avoiding-Gray-Band-Enhancing-Crust|Optimal Steak Cooking Methods Avoiding Gray Band Enhancing Crust]] · [▶ source](https://www.youtube.com/watch?v=uJcO1W_TD74)

@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: science-physics
 tags:
   - "systems/llm"
   - "systems/interpretability"
@@ -12,9 +12,9 @@ tags:
   - "systems-theory"
 aliases:
   - "systems theory"
-summary: "A system is a set of interconnected components, either natural or artificial, that work together to achieve a common goal."
-updated: 2026-04-28
-group: ai-foundations-concepts
+summary: A system is a set of interconnected components, either natural or artificial, that work together to achieve a common goal.
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Systems
 
@@ -51,6 +51,5 @@ A system is a set of interconnected components that work together to achieve a c
 ## Backlinks
 
 - 2026 04 14 [[entities/anthropic|Anthropic]] Discussion about how LLM think
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

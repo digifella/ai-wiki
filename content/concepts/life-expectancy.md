@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "public-health"
-  - "life-expectancy"
-  - "social-determinants"
-  - "life-expectancy-factors"
-  - "public-health-influences"
-  - "healthcare-improvements"
-  - "historical-trends-life-expectancy"
-aliases:
-  - "Average Lifespan"
-  - "Health Expectancy Trends"
-  - "Public Health Impact"
-summary: "Life expectancy measures the average number of years a person is expected to live, influenced by factors such as healthcare access and public health initiatives."
-updated: 2026-04-12
+summary: Life expectancy measures the average number of years a person is expected to live, influenced by factors such as healthcare access and public health initiatives.
+updated: 2026-05-23
 group: media-society-daily-life
 ---
 # Life Expectancy
@@ -27,13 +15,12 @@ Life expectancy is a measure of the average number of years a person is expected
 
 ### Related Concepts
 - Social [[concepts/determinants-of-health|Determinants of Health]]
-- Healthcare Access
+- [[concepts/healthcare-access|Healthcare Access]]
 - [[concepts/epidemiology|Epidemiology]]
 
 ### Resources:
 - Video: What is Public Health? by Let's Learn Public Health ([https://www.youtube.com/watch?v=t_eWESXTnic](https://www.youtube.com/watch?v=t_eWESXTnic))
 
 2026 04 11 Introduction to Public Health Definition Role and Social Determinants
-
 ## Source Notes
 - 2026-04-11: What is Public Health??

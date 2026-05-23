@@ -4,7 +4,7 @@ tags:
   - "social-scientist"
   - "linkedin"
 summary: Yasmin Van Kasteren is a social scientist.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Yasmin Van Kasteren
 

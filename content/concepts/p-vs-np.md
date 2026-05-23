@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "computational-complexity"
   - "decision-problems"
@@ -15,7 +14,8 @@ aliases:
   - "P-NP problem"
   - "P=NP question"
 summary: A fundamental unsolved problem in computer science asking whether problems whose solutions can be quickly verified (NP) are equivalent to problems whose solutions can be quickly found (P).
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # P Vs Np
 
@@ -23,8 +23,8 @@ The [[concepts/a-video-titled-p-vs-np|P versus NP]] problem is a central unsolve
 
 ## Practical Implications
 
-The distinction between P and NP has profound implications for [[concepts/cryptography|cryptography]] and security. Modern encryption systems rely on the assumption that certain problems (such as factoring large numbers or solving the discrete logarithm problem) are in NP but not in P—meaning a solution can be verified quickly but cannot be found quickly. If P were equal to NP, these cryptographic systems would be broken, as adversaries could efficiently find solutions rather than merely verify them.
+The distinction between P and NP has profound implications for [[concepts/cryptography|cryptography]] and [[concepts/security|security]]. Modern encryption systems rely on the assumption that certain problems (such as factoring large numbers or solving the discrete logarithm problem) are in NP but not in P—meaning a solution can be verified quickly but cannot be found quickly. If P were equal to NP, these cryptographic systems would be broken, as adversaries could efficiently find solutions rather than merely verify them.
 
 ## Current Status
 
-Despite decades of research, the P versus NP question remains open. The Clay Mathematics Institute designated it one of seven [[concepts/millennium-prize-problems|Millennium Prize Problems]], offering a one-million-dollar reward for a proof either way. Most computer scientists conjecture that P ≠ NP, but no rigorous proof exists. The problem's difficulty has led to the development of [[concepts/wikilinkcomputational-complexity-theory|complexity theory]] as a discipline, including concepts like [[concepts/np-complete|NP-completeness]], which identify the "hardest" problems in NP.
+Despite decades of research, the [[concepts/p-vs-np-verification|P versus NP]] question remains open. The Clay Mathematics Institute designated it one of seven [[concepts/millennium-prize-problems|Millennium Prize Problems]], offering a one-million-dollar reward for a [[concepts/proof|proof]] either way. Most computer scientists conjecture that P ≠ NP, but no rigorous proof exists. The problem's difficulty has led to the development of [[concepts/wikilinkcomputational-complexity-theory|complexity theory]] as a discipline, including concepts like [[concepts/np-complete|NP-completeness]], which identify the "hardest" problems in NP.

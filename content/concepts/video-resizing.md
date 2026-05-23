@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "video"
-  - "resizing"
-  - "compression"
-  - "tools"
-  - "video-resizing"
-  - "video-compression"
-  - "video-processing"
-  - "handbrake"
-  - "video-transcoding"
-aliases:
-  - "resizing video dimensions"
-  - "adjusting video dimensions"
-summary: "The process of altering a video's dimensions to reduce file size or adapt for specific platforms."
-updated: 2026-04-18
+summary: The process of altering a video's dimensions to reduce file size or adapt for specific platforms.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # Video resizing
@@ -28,11 +15,10 @@ Process of altering a video's dimensions (width/height) to reduce file size or a
 
 ## Related concepts
 - [[concepts/video-compression]]
-- Transcoding
+- [[concepts/transcoding|Transcoding]]
 - File format conversion
 
 2026 04 14 Compressing Video
-
 ## Source Notes
 
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)

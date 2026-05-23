@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "cocktails"
   - "bitters"
@@ -13,7 +12,8 @@ aliases:
   - "Demetriou's Bitters"
   - "Heraklion Bitters"
 summary: A concept related to cocktail mixing by a former pharmacist in Heraklion.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # The Bitters
 
@@ -25,4 +25,4 @@ The modern application of bitters in mixology has roots in pharmaceutical practi
 
 ## Contemporary Use
 
-Bitters remain a staple ingredient in classic and contemporary cocktails. Their concentrated [[entities/nature|nature]] means only a few dashes are required per drink, making them an efficient way to layer aromatic and herbal notes into mixed beverages. The ingredient category continues to expand with craft bartenders and producers developing new flavor profiles beyond traditional varieties.
+Bitters remain a staple ingredient in classic and contemporary cocktails. Their concentrated [[entities/nature|nature]] means only a few dashes are required per drink, making them an efficient way to layer aromatic and herbal [[concepts/notes|notes]] into mixed beverages. The ingredient category continues to expand with craft bartenders and producers developing new flavor profiles beyond traditional varieties.

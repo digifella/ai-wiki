@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "ai-video-generation"
   - "text-to-video"
@@ -14,7 +13,8 @@ aliases:
   - "AI Video Creation Tools"
   - "Generative Video"
 summary: AI tools that enable the creation of realistic videos through text-based descriptions.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # AI Generated Videos
 
@@ -22,7 +22,7 @@ updated: 2026-05-01
 
 ## How It Works
 
-The underlying technology typically combines [[concepts/large-language-model-llm|large language models]] with diffusion models or other generative techniques. Users provide text descriptions of the video they want to create, specifying elements like scenes, actions, camera movements, and style. The AI system interprets these descriptions and generates video frames sequentially, maintaining [[concepts/logical-consistency|consistency]] across the output. The process generally takes minutes to hours depending on video length and complexity, producing results that range from simple animations to photorealistic footage.
+The underlying technology typically combines [[concepts/large-language-model-llm|large language models]] with diffusion [[concepts/models|models]] or other generative techniques. Users provide [[concepts/text|text]] descriptions of the video they want to create, specifying elements like scenes, actions, camera movements, and [[concepts/style|style]]. The AI system interprets these descriptions and generates video frames sequentially, maintaining [[concepts/logical-consistency|consistency]] across the [[concepts/output|output]]. The process generally takes minutes to hours depending on video length and complexity, producing results that [[concepts/range|range]] from simple animations to photorealistic footage.
 
 ## Current Capabilities and Limitations
 
@@ -30,8 +30,7 @@ Existing [[concepts/ai-driven-video-production|AI video generation]] tools can c
 
 ## Applications and Adoption
 
-AI video generation has applications across [[concepts/content-creation|content creation]], marketing, education, and entertainment. Organizations use the technology to produce social media content, product demonstrations, and explanatory videos more efficiently. The tools have also enabled independent creators to experiment with video production at lower cost and faster [[concepts/iteration|iteration]] speeds than traditional methods allow.
-
+[[concepts/ai-generated-video|AI video generation]] has [[concepts/software|applications]] across [[concepts/content-creation|content creation]], marketing, education, and entertainment. Organizations use the technology to produce social media content, product demonstrations, and explanatory videos more efficiently. The tools have also enabled independent creators to experiment with video production [[concepts/assistive-technology|at]] lower [[concepts/cost|cost]] and faster [[concepts/iteration|iteration]] speeds than traditional methods allow.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-19: [[lab-notes/2026-04-19-Seedance-20-AI-Video-Claude-AI-Prompting-Workflow-for-Professional-Com|Seedance 20 AI Video Claude AI Prompting Workflow for Professional Com]] · [▶ source](https://www.youtube.com/watch?v=ZMfz0UI9cag)

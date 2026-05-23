@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: animals-cognition-behaviour
 tags:
   - "platypus"
   - "monotreme"
@@ -11,7 +10,8 @@ tags:
 aliases:
   - "Ornithorhynchus anatinus"
 summary: Recent discoveries highlight the unique biology, evolution, and traits of the platypus.
-updated: 2026-05-01
+updated: 2026-05-23
+group: animals-cognition-behaviour
 ---
 # Duck Billed Platypus
 
@@ -19,7 +19,7 @@ The duck-billed [[concepts/egg-laying-mammal|platypus]] is a monotreme—one of 
 
 ## Unique Biological Features
 
-The platypus possesses several traits that make it exceptional among mammals. It lacks a functional stomach, with the esophagus connecting directly to the intestines. It is one of the few venomous mammals, with males producing venom during breeding season. Additionally, the platypus has ten sex chromosomes, compared to the typical two found in most mammals, and produces milk through pores in the skin rather than nipples, which lactates onto the skin for offspring to consume.
+The platypus possesses several traits that [[entities/make|make]] it exceptional among mammals. It lacks a functional stomach, with the esophagus connecting directly to the intestines. It is one of the few venomous mammals, with males producing venom during breeding season. Additionally, the platypus has ten sex chromosomes, compared to the typical two found in most mammals, and produces milk through pores in the skin rather than nipples, which lactates onto the skin for offspring to consume.
 
 ## Evolutionary Significance
 

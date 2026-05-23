@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "local-ai"
-  - "llm"
-  - "privacy"
-  - "edge-computing"
-  - "local-llm"
-  - "data-privacy"
-  - "on-device-ai"
-  - "inference-engines"
-aliases:
-  - "Local LLMs"
-  - "On-device LLMs"
-summary: "Execution of large language models on local hardware or edge devices to maintain data sovereignty and minimize reliance on cloud-based APIs."
-updated: 2026-04-26
+summary: Execution of large language models on local hardware or edge devices to maintain data sovereignty and minimize reliance on cloud-based APIs.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Desktop-based LLMs
@@ -39,7 +27,6 @@ Execution of [[concepts/large-language-models]] on local [[concepts/hardware|har
 - [[concepts/inference|Inference]] Engines
 
 Backlink: [[concepts/date-2026-04-13|2026]] 04 22 [[entities/anythingllm|AnythingLLM]] 1.12 Channels Mobile Interaction with Private [[concepts/self-hosted-llms|Self Hosted LLMs]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Optimizing-Claude-Code-Sub-Agents-for-Context-Management-in-Startup|Optimizing Claude Code Sub Agents for Context Management in Startup]] · [▶ source](https://www.youtube.com/watch?v=-O6MEtleOdA)
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

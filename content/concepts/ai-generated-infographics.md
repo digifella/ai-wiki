@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
+domain: ux-design
 tags:
   - "AI"
   - "infographics"
@@ -16,7 +16,7 @@ aliases:
   - "generative infographics"
 summary: "AI-generated infographics are efficient for data visualization but often require text correction using tools like Adobe Acrobat or Canva to address typographic inaccuracies."
 updated: 2026-04-27
-group: design-systems-ui-infographics
+group: infographics-visual-communication
 ---
 # AI-generated infographics
 

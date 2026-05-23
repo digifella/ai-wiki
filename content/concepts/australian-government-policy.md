@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "australia"
-  - "government-policy"
-  - "welfare"
-  - "automation"
-  - "administrative-law"
-  - "public-administration"
-  - "automated-decision-making"
-  - "social-security"
-aliases:
-  - "Australian policy frameworks"
-  - "Australian regulatory mechanisms"
-summary: "The strategic frameworks, regulatory mechanisms, and administrative actions used by the Australian government to manage public administration, social security, and automated decision-making systems."
-updated: 2026-04-26
+summary: The strategic frameworks, regulatory mechanisms, and administrative actions used by the Australian government to manage public administration, social security, and automated decision-making systems.
+updated: 2026-05-23
 group: safety-guardrails-governance
 ---
 # Australian government policy

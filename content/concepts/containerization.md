@@ -12,8 +12,8 @@ tags:
 aliases:
   - "software-containers"
   - "application-containers"
-summary: "Containerization is a method of packaging software applications and their dependencies into isolated, lightweight, and portable units."
-updated: 2026-04-28
+summary: Containerization is a method of packaging software applications and their dependencies into isolated, lightweight, and portable units.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Containerization
@@ -36,11 +36,11 @@ Containerization is a method of packaging and distributing [[concepts/software|s
 - Virtualization
 
 ## Bootable Containers
-- Introduced by IBM as a [[concepts/solution|solution]] to streamline the management and [[concepts/deployment|deployment]] of underlying operating systems.
+- Introduced by [[entities/ibm|IBM]] as a [[concepts/solution|solution]] to streamline the management and [[concepts/deployment|deployment]] of underlying operating systems.
 - Mirrors advancements seen in application containerization.
 - Key points from IBM's concept:
   1. **The Shift to Containers for Applications (0:00-0:45)**:
      - About a decade ago, [[concepts/application-delivery|software delivery]] underwent a fundamental shift.
 
 ## Backlinks
-- 2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from IBM
+- 2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from [[entities/ibm|IBM]]

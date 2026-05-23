@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: society-politics-institutions
-group: politics-governance-public-systems
+domain: history-anthropology
 tags:
   - "concept"
   - "mythology"
@@ -13,7 +12,8 @@ aliases:
   - "Social Interaction Patterns"
   - "Group Behavior Dynamics"
 summary: Exploration of how ancient Greek mythological narratives remain relevant and can be reimagined for modern audiences.
-updated: 2026-05-01
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Social Dynamics
 
@@ -21,11 +21,10 @@ updated: 2026-05-01
 
 ## Modern Reinterpretation
 
-Contemporary reimaginings of Greek mythological narratives typically involve shifting perspective, setting, or thematic emphasis to resonate with modern audiences. These [[concepts/adaptations|adaptations]] may relocate classical stories to contemporary urban environments, introduce diverse character representations absent from ancient sources, or emphasize previously marginalized viewpoints such as those of minor characters or antagonists. Such retellings serve both artistic and social purposes, allowing creators and audiences to interrogate how ancient narratives intersect with current debates around identity, power, and social justice.
+Contemporary reimaginings of Greek mythological narratives typically involve shifting perspective, setting, or thematic emphasis to resonate with modern audiences. These [[concepts/adaptations|adaptations]] may relocate classical stories to contemporary urban environments, introduce diverse character representations absent from ancient sources, or emphasize previously marginalized viewpoints such as those of minor characters or antagonists. Such retellings serve both artistic and social purposes, allowing creators and audiences to interrogate how ancient narratives intersect with current debates around identity, [[concepts/power|power]], and social justice.
 
 ## Cultural Persistence
 
 The continued engagement with Greek mythology in literature, theatre, film, and other media suggests that these stories retain explanatory power for understanding human social dynamics. Whether through straightforward retelling or radical reimagining, mythological frameworks continue to provide accessible language for exploring complex social phenomena, making them a persistent resource for cultural commentary and artistic expression.
-
 ## Source Notes
 - 2026-04-11: What’s so ancient about Greek mythology? | James Barton Steel | TEDxRoyalCentralSchool

@@ -1,19 +1,8 @@
 ---
 type: concept
-tags:
-  - "historic-preservation"
-  - "adaptive-reuse"
-  - "cultural-heritage"
-  - "architecture-conservation"
-  - "historical-documentation"
-aliases:
-  - "Historic Preservation"
-  - "Cultural Conservation"
-  - "Heritage Protection"
-  - "Architectural Preservation"
-summary: "Preservation involves protecting and maintaining historical artifacts, structures, or cultural heritage sites through methods such as restoration, adaptive reuse, conservation, and documentation."
-updated: 2026-04-11
 domain: history-anthropology
+summary: Preservation involves protecting and maintaining historical artifacts, structures, or cultural heritage sites through methods such as restoration, adaptive reuse, conservation, and documentation.
+updated: 2026-05-23
 group: people-institutions-cultural-history
 ---
 title: "Preservation"
@@ -38,12 +27,11 @@ Preservation refers to the practice of protecting and maintaining historical art
 #### 333 Collins Street Melbourne: Historic Banking Chamber Preservation and Resilience
 - **Date:** 2026-04-10
 - **Source:** [[entities/kens-museum|Ken's Museum]] (https://www.youtube.com/watch?v=zEPa_xbeX-c)
-- **Summary:**
-  - The video delves into [[concepts/melbourne-cbd-architecture|333 Collins Street]] in Melbourne, a skyscraper from 1990 that houses a hidden [[concepts/banking-chamber|banking chamber]] dating back to the late 19th century.
+- **[[concepts/summary|Summary]]:**
+  - The video delves into [[concepts/melbourne-cbd-architecture|333 Collins Street]] in [[concepts/melbourne-region|Melbourne]], a skyscraper from 1990 that houses a hidden [[concepts/banking-chamber|banking chamber]] dating back to the late 19th century.
   - This unique architectural blend is the result of the building's tumultuous past, marked by two significant [[concepts/financial-crises|financial crises]] and a hard-fought preservation battle.
 
-2026 04 10 333 Collins Street Melbourne Historic Banking Chamber Preservation and
-
+2026 04 10 [[concepts/modern-skyscraper-design|333 Collins Street]] Melbourne Historic [[concepts/banking-chamber-preservation|Banking Chamber Preservation]] and
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)
 - 2026-04-10: [[lab-notes/2026-04-10-LiteParse-LlamaIndexs-Agentic-Document-Processing-Solution-for-LLMs|LiteParse LlamaIndexs Agentic Document Processing Solution for LLMs]] · [▶ source](https://www.youtube.com/watch?v=_lpYx03VVBM)

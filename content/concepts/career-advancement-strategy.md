@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: business-strategy
-group: enterprise-strategy-future-work
+domain: ai-agents
 tags:
   - "concept"
   - "career-advancement"
@@ -11,15 +10,16 @@ tags:
 aliases:
   - "LinkedIn data analysis"
 summary: This concept discusses using Claude Code to analyze LinkedIn data for career advancement.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Career Advancement Strategy
 
-Career advancement strategy involves the deliberate planning and execution of steps to progress professionally within or across organizations. This includes identifying career goals, developing relevant [[concepts/skills|skills]], building professional networks, and positioning oneself for opportunities that align with long-term objectives. A well-defined strategy helps individuals make informed decisions about their career trajectory and allocate effort toward meaningful progress.
+Career advancement strategy involves the deliberate planning and execution of steps to progress professionally within or across organizations. This includes identifying career goals, developing relevant [[concepts/skills|skills]], building professional networks, and positioning oneself for opportunities that align with long-term objectives. A well-defined strategy helps individuals [[entities/make|make]] informed decisions about their career trajectory and allocate effort toward meaningful progress.
 
 ## Data-Driven Approach
 
-Modern career advancement increasingly leverages data analysis to inform decision-making. By analyzing professional data from platforms like LinkedIn, individuals can identify trends in their industry, understand [[concepts/skill-gaps|skill gaps]], benchmark their progress against peers, and discover emerging opportunities. Tools like [[concepts/ai-assisted-coding|Claude Code]] enable automated analysis of career-related datasets, allowing professionals to extract actionable insights from their professional profiles and networks without manual data processing.
+Modern career advancement increasingly leverages data analysis to inform [[concepts/decision-making|decision-making]]. By analyzing professional data from platforms like LinkedIn, individuals can identify trends in their industry, understand [[concepts/skill-gaps|skill gaps]], benchmark their progress against peers, and discover emerging opportunities. Tools like [[concepts/ai-assisted-coding|Claude Code]] enable automated analysis of career-related datasets, allowing professionals to extract actionable insights from their professional profiles and networks without manual data processing.
 
 ## Implementation and Tools
 

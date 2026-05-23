@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "reasoning"
   - "deep-thinking"
@@ -14,18 +13,18 @@ aliases:
   - "deep think mode"
   - "advanced reasoning"
 summary: Gemini 2.5 Pro Deep Think is an advanced AI model from Google focused on enhancing thinking and reasoning capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Thinking And Reasoning Capabilities
 
-Thinking and reasoning capabilities refer to an AI system's ability to engage in extended deliberation, multi-step problem solving, and logical [[concepts/inference|inference]]. These capabilities enable [[concepts/agentic-ai|AI agents]] to tackle complex questions that require breaking down problems into intermediate steps, evaluating different approaches, and arriving at well-justified conclusions. Rather than generating immediate [[concepts/responses|responses]], systems with advanced reasoning capabilities can allocate [[concepts/computational-resources|computational resources]] to [[concepts/human-cognition|thinking]] through problems more thoroughly.
+Thinking and reasoning [[concepts/capabilities|capabilities]] refer to an AI system's ability to engage in extended deliberation, multi-step [[concepts/problem-solving|problem solving]], and logical [[concepts/inference|inference]]. These capabilities enable [[concepts/agentic-ai|AI agents]] to tackle complex questions that require breaking down problems into intermediate steps, evaluating different approaches, and arriving [[concepts/assistive-technology|at]] well-justified conclusions. Rather than generating immediate [[concepts/responses|responses]], systems with [[concepts/advanced-reasoning|advanced reasoning]] capabilities can allocate [[concepts/computational-resources|computational resources]] to [[concepts/human-cognition|thinking]] through problems more thoroughly.
 
 ## Implementation in Modern AI Models
 
-Recent advances in [[concepts/ai-development|AI development]] have produced models specifically designed to enhance these capabilities. [[concepts/google-search|Google]]'s [[entities/gemini-2-5-pro|Gemini 2.5 Pro with Deep Think]] mode exemplifies this approach, offering users the ability to engage the model in extended [[concepts/reasoning|reasoning]] processes for challenging tasks. Such systems typically involve a thinking phase that is either visible to users or occurs internally before a final response is generated.
+Recent advances in [[concepts/ai-development|AI development]] have produced [[concepts/models|models]] specifically designed to enhance these capabilities. [[concepts/google-search|Google]]'s [[entities/gemini-2-5-pro|Gemini 2.5 Pro with Deep Think]] mode exemplifies this approach, offering users the ability to engage the model in extended [[concepts/reasoning|reasoning]] processes for challenging tasks. Such systems typically involve a thinking [[concepts/phase|phase]] that is either visible to users or occurs internally before a final response is generated.
 
-The development of enhanced [[concepts/reasoning-capabilities|reasoning capabilities]] represents a shift in AI design toward systems that can handle questions requiring deeper analysis, such as complex scientific problems, mathematical proofs, [[concepts/coding|coding]] challenges, and sophisticated decision-making [[concepts/scenarios|scenarios]]. This approach acknowledges that not all problems benefit from immediate responses and that computational investment in deliberation can improve output quality.
-
+The development of enhanced [[concepts/reasoning-capabilities|reasoning capabilities]] represents a shift in AI [[concepts/design|design]] toward systems that can handle questions requiring deeper analysis, such as complex scientific problems, mathematical proofs, [[concepts/coding|coding]] challenges, and sophisticated [[concepts/decision-making|decision-making]] [[concepts/scenarios|scenarios]]. This approach acknowledges that not all problems benefit from immediate responses and that computational investment in deliberation can improve [[concepts/output|output]] quality.
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-10: [[lab-notes/2026-04-10-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards|Alibaba Qwen 36 Plus Agentic Coding and Multimodal Reasoning Towards]] · [▶ source](https://www.youtube.com/watch?v=v8RokQY05Bo)

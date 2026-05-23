@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "physical-activity"
   - "exercise"
@@ -12,7 +11,8 @@ aliases:
   - "exercise guidelines"
   - "activity recommendations"
 summary: Established recommendations for physical activity levels and types to promote health and prevent disease.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Physical Activity Guidelines
 
@@ -20,7 +20,7 @@ Physical Activity Guidelines are evidence-based recommendations developed by [[c
 
 ## Recommended Standards
 
-Current guidelines for adults typically recommend at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity activity per week, along with resistance [[concepts/training|training]] on two or more days per week. For children and adolescents, guidelines generally recommend at least 60 minutes of daily physical activity. Guidelines also emphasize the importance of reducing sedentary time and incorporating movement throughout the day, recognizing that any physical activity is better than none.
+Current guidelines for adults typically recommend [[concepts/assistive-technology|at]] least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity activity per week, along with resistance [[concepts/training|training]] on two or more days per week. For children and adolescents, guidelines generally recommend at least 60 minutes of daily physical activity. Guidelines also emphasize the importance of reducing sedentary time and incorporating movement throughout the day, recognizing that any physical activity is better than none.
 
 ## Health Outcomes
 

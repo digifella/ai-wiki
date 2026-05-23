@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "Excel"
-  - "Data-Cleaning"
-  - "Productivity"
-  - "dynamic-ranges"
-  - "data-management"
-  - "microsoft-excel"
-aliases:
-  - "Trim Refs"
-  - "TRIMRANGE"
-summary: "An Excel feature that manages dynamic data ranges by automatically stripping empty cells from the edges of a selection."
-updated: 2026-04-26
+summary: An Excel feature that manages dynamic data ranges by automatically stripping empty cells from the edges of a selection.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Trim References
@@ -31,7 +21,6 @@ Backlink: [[concepts/date-2026-04-13|2026]] 04 22 Excels Trim References Dynamic
 - **Author**: [[entities/leila-gharani]]
 - **Video Title**: "You're ONE DOT Away from Cleaner Excel Reports | Before vs. After [[concepts/trimrange|TRIMRANGE]]"
 - **URL**: https://www.youtube.com/watch?v=5h4wRTbmsSw
-
 ## Source Notes
 
 - 2026-04-22: Excel · [▶ source](https://www.youtube.com/watch?v=5h4wRTbmsSw)

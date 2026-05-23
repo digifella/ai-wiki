@@ -1,21 +1,11 @@
 ---
 type: entity
-tags:
-  - "openai"
-  - "subscription"
-  - "ai-models"
-  - "chatgpt-plus"
-  - "agentic-ai"
-  - "generative-ai"
-aliases:
-  - "ChatGPT Premium"
-  - "OpenAI Plus"
-summary: "A premium subscription tier from OpenAI providing access to frontier language models and integration with agentic AI workflows."
-updated: 2026-04-26
+summary: A premium subscription tier from OpenAI providing access to frontier language models and integration with agentic AI workflows.
+updated: 2026-05-23
 ---
 # ChatGPT Plus
 
-Premium subscription tier from [[entities/openai]] providing advanced access to frontier language models and enhanced computational capabilities.
+Premium subscription tier from [[entities/openai]] providing advanced access to frontier language [[concepts/models|models]] and enhanced computational [[concepts/capabilities|capabilities]].
 
 ## Core Features
 - Access to flagship models, including [[entities/chatgpt-4o|GPT-4o]] and [[concepts/gpt-5-model|OpenAI GPT-5]].5.
@@ -30,9 +20,8 @@ Premium subscription tier from [[entities/openai]] providing advanced access to 
 - **2026-04-26**: Use of [[concepts/custom-gpts|Custom GPTs]] (e.g., "[[entities/json-image-creator-v3|JSON Image Creator V.3]]") to facilitate [[concepts/workflow|workflows]] for [[concepts/consistent-image-generation|consistent image generation]] and storyboarding via [[concepts/dall-e-3|DALL-E 3]].
 
 ## Backlinks
-- 2026 04 24 [[entities/openai|OpenAI]] GPT 5.5 Smartest [[concepts/frontier-model|Frontier Model]] Driving [[concepts/action-oriented-ai|Agentic AI]] and Efficiency
-- 2026 04 26 [[concepts/gemini|Gemini]] and DALL E 3 Workflow [[concepts/ai-storyboarding|Consistent AI Image Generation Using JSON]]
-
+- 2026 04 24 [[entities/openai|OpenAI]] [[concepts/gpt-5|GPT 5]].5 Smartest [[concepts/frontier-model|Frontier Model]] Driving [[concepts/action-oriented-ai|Agentic AI]] and Efficiency
+- 2026 04 26 [[concepts/gemini|Gemini]] and [[entities/dall-e-3|DALL E 3]] Workflow [[concepts/ai-storyboarding|Consistent AI Image Generation Using JSON]]
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-NemoClaw-vs-OpenClaw-NVIDIAs-Secure-AI-Agent-for-Enterprise|NemoClaw vs OpenClaw NVIDIAs Secure AI Agent for Enterprise]] · [▶ source](https://www.youtube.com/watch?v=LfvKkrVSO-U)

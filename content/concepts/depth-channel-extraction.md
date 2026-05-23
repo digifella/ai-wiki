@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "image-processing"
-  - "computer-vision"
-  - "photoshop"
-  - "depth-mapping"
-  - "digital-compositing"
-  - "grayscale-mapping"
-aliases:
-  - "depth-map-extraction"
-  - "isolating-spatial-distance"
-summary: "The process of isolating spatial distance information from an image to create a grayscale representation where pixel luminance corresponds to the distance from the camera lens."
-updated: 2026-04-26
+summary: The process of isolating spatial distance information from an image to create a grayscale representation where pixel luminance corresponds to the distance from the camera lens.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Depth channel extraction
@@ -30,8 +20,7 @@ The process of isolating spatial distance information from an image to create a 
 - **Reference**: [[entities/piximperfect]] ([[entities/unmesh-dinda|Unmesh Dinda]]) - *[[concepts/3d-photo-manipulation|Photoshop Depth Map]]: Mastering Precise 3D Photo [[concepts/adjustments|Adjustments]]*.
 
 ## Related Notes
-- 2026 04 22 Photoshop Depth Map Mastering Precise 3D Photo Adjustments
-
+- 2026 04 22 [[concepts/depth-maps|Photoshop Depth Map]] Mastering Precise [[concepts/3d-photo-adjustments|3D Photo Adjustments]]
 ## Source Notes
 - 2026-04-22: Photoshop · [▶ source](https://youtu.be/ljf8IhxqS20)
 - 2026-04-07: [[lab-notes/2026-04-07-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi|Google NotebookLM Customizing Design for Professional Presentations vi]] · [▶ source](https://www.youtube.com/watch?v=hqquu7H7X0w)

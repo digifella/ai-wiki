@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: apis-integrations-mcp
 tags:
   - "firebase"
   - "firestore"
@@ -14,7 +13,8 @@ aliases:
   - "Firestore Database"
   - "Firebase Realtime Database"
 summary: A guide on building a functional full-stack web application using Google AI Studio and Firebase Firestore.
-updated: 2026-05-01
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Firebase Firestore
 
@@ -22,8 +22,8 @@ Firebase Firestore is a cloud-hosted NoSQL database provided by [[concepts/googl
 
 ## Building Full-Stack Applications
 
-Firestore serves as the backend data layer in full-stack [[concepts/web-applications|web applications]], while frontend frameworks handle [[concepts/user-interface|user interface]] and interaction. When combined with [[entities/ai-studio|Google AI Studio]] for integrating [[concepts/capabilities|AI capabilities]] and Firebase Hosting for [[concepts/deployment|deployment]], developers can create functional applications that connect user input to stored data and AI-powered features. This [[concepts/architecture|architecture]] separates client-side logic from server-side [[concepts/data-persistence|data persistence]], enabling scalable application design.
+Firestore serves as the backend data layer in full-stack [[concepts/web-applications|web applications]], while frontend frameworks handle [[concepts/user-interface|user interface]] and interaction. When combined with [[entities/ai-studio|Google AI Studio]] for integrating [[concepts/capabilities|AI capabilities]] and Firebase Hosting for [[concepts/deployment|deployment]], developers can create functional applications that connect user input to stored data and AI-powered features. This [[concepts/architecture|architecture]] separates client-side logic from server-side [[concepts/data-persistence|data persistence]], enabling scalable application [[concepts/design|design]].
 
 ## Key Capabilities
 
-The database supports real-time listeners, allowing applications to automatically update when underlying data changes. Firestore's security rules provide fine-grained access control, enabling developers to restrict read and write operations based on [[concepts/user-accounts|user authentication]] and custom conditions. Queries can filter and order data across collections, and the platform handles scalability automatically without requiring manual database administration.
+The database supports real-time listeners, allowing applications to automatically update when underlying data changes. Firestore's [[concepts/security|security]] rules provide fine-grained access [[concepts/power|control]], enabling developers to restrict read and write operations based on [[concepts/user-accounts|user authentication]] and custom conditions. Queries can filter and order data across collections, and the platform handles scalability automatically without requiring manual database administration.

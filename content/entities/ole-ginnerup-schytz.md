@@ -9,7 +9,7 @@ tags:
 aliases:
   - "Ole Schytz"
 summary: The associated source discusses Denmark's use of private detectorists to uncover historical artifacts.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Ole Ginnerup Schytz
 
@@ -21,6 +21,6 @@ The [[entities/danish-government|Danish government]]'s use of deputized private 
 
 The program demonstrates how structured engagement with private enthusiasts can expand archaeological [[concepts/survey|survey]] capacity and generate new historical knowledge. The artifacts recovered through this initiative have provided insights into Denmark's past that might otherwise have remained undocumented.
 
-- 2026-04-20 [2026-04-20-Knowledge-Graphs-Advancing-Karpathys-LLM-Wiki-for-Deeper-Insights](2026-04-20-Knowledge-Graphs-Advancing-Karpathys-LLM-Wiki-for-Deeper-Insights.md) ← Knowledge Graphs Advancing Karpathys Llm Wiki For Deeper Insights
-- 2026-05-02 [2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i](2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i.md) ← Wangerrip Gold Deposit An Anomalous Geological Mystery I
+- 2026-04-20 [2026-04-20-Knowledge-Graphs-Advancing-Karpathys-LLM-Wiki-for-Deeper-Insights](2026-04-20-Knowledge-Graphs-Advancing-Karpathys-LLM-Wiki-for-Deeper-Insights.md) ← [[concepts/knowledge-graphs|Knowledge Graphs]] Advancing Karpathys [[concepts/llm-wiki|Llm Wiki]] For Deeper Insights
+- 2026-05-02 [2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i](2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i.md) ← Wangerrip [[concepts/gold-deposit|Gold Deposit]] An Anomalous Geological Mystery I
 ## Source Notes

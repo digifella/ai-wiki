@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "digital-preservation"
   - "archives"
@@ -12,7 +11,8 @@ aliases:
   - "digital archiving"
   - "digital stewardship"
 summary: The practice of maintaining digital records, as referenced by the University of Melbourne Archives.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Digital Preservation
 
@@ -25,6 +25,5 @@ The primary goals of digital preservation include preventing data loss, maintain
 ## Institutional Practice
 
 Universities and cultural institutions like the [[concepts/digital-repository|University of Melbourne Archives]] apply digital preservation principles to their digitized collections, making historical materials accessible to researchers while protecting the originals from handling damage. These institutions develop [[concepts/open-standards|standards]] and workflows for ingesting, storing, and providing access to digital materials, recognizing that preservation is not a one-time action but an ongoing institutional commitment.
-
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Photoshop-Betas-AI-Rotate-Object-3D-Manipulation-of-2D-Images|Photoshop Betas AI Rotate Object 3D Manipulation of 2D Images]] · [▶ source](https://www.youtube.com/watch?v=2k9lIsGazqc)

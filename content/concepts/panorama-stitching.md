@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "panorama-stitching"
   - "photography-technique"
@@ -12,7 +11,8 @@ aliases:
   - "pano stitching"
   - "panorama composition"
 summary: The video explains the use of panorama stitching in photography to create wide-angle compositions with long lens compression.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Panorama Stitching
 
@@ -24,8 +24,7 @@ One key advantage of panorama stitching is the ability to create wide-angle comp
 
 ## Practical Application
 
-The technique typically involves capturing a series of overlapping photographs across a scene, then using stitching [[concepts/software|software]] to align and blend them seamlessly. This approach offers advantages beyond simply capturing expansive landscapes, including greater resolution in the final image and improved control over perspective and composition compared to in-camera panorama functions found on smartphones and cameras.
-
+The technique typically involves capturing a series of overlapping photographs across a scene, then using stitching [[concepts/software|software]] to align and blend them seamlessly. This approach offers advantages beyond simply capturing expansive landscapes, including greater resolution in the final image and improved [[concepts/power|control]] over perspective and composition compared to in-camera panorama functions found on smartphones and cameras.
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: philosophy-religion
-tags:
-  - "decision-making"
-  - "psychology"
-  - "change-management"
-  - "cognitive-bias"
-  - "risk-aversion"
-aliases:
-  - "preference for the current state"
-  - "resistance to change"
-summary: "Status quo bias is a cognitive bias where individuals prefer the current state of affairs and show reluctance toward changing habits or making decisions that lead to uncertainty."
-updated: 2026-04-16
+summary: Status quo bias is a cognitive bias where individuals prefer the current state of affairs and show reluctance toward changing habits or making decisions that lead to uncertainty.
+updated: 2026-05-23
 group: philosophy-ethics-logic
 ---
 # Status Quo Bias
@@ -27,10 +18,10 @@ Status quo bias refers to the cognitive bias where individuals prefer things to 
 
 - **Implications**:
   - Can stifle [[concepts/innovation|innovation]] and growth
-  - May lead to suboptimal decision-making
+  - May lead to suboptimal [[concepts/decision-making|decision-making]]
 
 - **Innovations & Change**: [[entities/simon-sinek|Simon Sinek]] Driving Change Through [[concepts/diffusion-of-innovations|Diffusion of Innovations]]
-  - New ideas inherently threaten the status quo.
+  - New [[concepts/ideas|ideas]] inherently threaten the status quo.
   - Those who benefit from current systems resist change, perceiving it as a threat.
 
 - **Related Concepts**:
@@ -39,6 +30,5 @@ Status quo bias refers to the cognitive bias where individuals prefer things to 
 
 - Backlinks:
   - 2026 04 12 [[entities/simon-sinek|Simon Sinek]] Driving Change Through [[concepts/diffusion-of-innovations|Diffusion of Innovations]]
-
 ## Source Notes
 - 2026-04-12: How to Create Change | Simon Sinek

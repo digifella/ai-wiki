@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "computer-vision"
-  - "lidar"
-  - "3d-modeling"
-  - "spatial-computing"
-  - "photogrammetry"
-  - "3d-gaussian-splatting"
-aliases:
-  - "point clouds"
-  - "3d point cloud data"
-summary: "A collection of data points in a three-dimensional coordinate system representing the external surface of an object or environment."
-updated: 2026-04-17
+summary: A collection of data points in a three-dimensional coordinate system representing the external surface of an object or environment.
+updated: 2026-05-23
 group: interactive-visualisation
 ---
 # 3D point clouds
@@ -20,20 +10,19 @@ group: interactive-visualisation
 A collection of data points in a three-dimensional coordinate system ($X, Y, Z$) representing the external surface of an object or environment.
 
 ## Acquisition Technologies
-- [[concepts/lidar]] (Light Detection and Ranging): Emits laser beams to measure distance and generate 3D point clouds.
+- [[concepts/lidar]] ([[concepts/light|Light]] Detection and Ranging): Emits laser beams to measure distance and generate 3D point clouds.
 - Mobile-based Scanning:
-	- Utilizes ARKit on [[entities/iphone-pro|iPhone Pro]] [[concepts/hardware|hardware]] to capture spatial data.
-	- Workflow involves converting captured data into formats compatible with [[concepts/3d-gaussian-splatting|3D Gaussian Splatting]] (3DGS) [[concepts/training|training]] [[concepts/software|software]].
+	- Utilizes [[concepts/arkit|ARKit]] on [[entities/iphone-pro|iPhone Pro]] [[concepts/hardware|hardware]] to capture spatial data.
+	- [[concepts/workflow|Workflow]] involves converting captured data into formats compatible with [[concepts/3d-gaussian-splatting|3D Gaussian Splatting]] (3DGS) [[concepts/training|training]] [[concepts/software|software]].
 
 ## Related Concepts
 - [[concepts/3d-gaussian-splatting|3D Gaussian Splatting]] (3DGS)
-- ARKit
+- [[concepts/arkit|ARKit]]
 - Spatial Computing
 - Photogrammetry
 
 ## References
 - 2026 04 14 [[concepts/lidar-scanning|Lidar scanning]] via [[entities/iphone|iphone]]
-
 ## Source Notes
 
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)

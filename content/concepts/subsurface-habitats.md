@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "subsurface-environments"
-  - "mars-habitats"
-  - "planetary-biology"
-  - "extreme-survival"
-  - "hidden-refuges"
-aliases:
-  - "underground-mars-living-spaces"
-  - "martian-subterranean-worlds"
-  - "deep-earth-analogs-on-mars"
-  - "protected-ecosystems-under-surface"
-summary: "Subsurface habitats on Mars offer refuge from harsh surface conditions and may support microbial life due to the presence of liquid water."
-updated: 2026-04-11
+summary: Subsurface habitats on Mars offer refuge from harsh surface conditions and may support microbial life due to the presence of liquid water.
+updated: 2026-05-23
 group: planetary-environments-mars
-title: "subsurface habitats"
+title: subsurface habitats
 ---
 ## Subsurface Habitats
 
@@ -29,7 +18,7 @@ Subsurface habitats refer to environments beneath a planetary body's surface whe
 
 ### Related Concepts
 - [[concepts/extremophiles]]
-- tardigrades
+- [[concepts/tardigrades|tardigrades]]
 - [[concepts/perchlorates]]
 
 ### Resources
@@ -37,15 +26,14 @@ Subsurface habitats refer to environments beneath a planetary body's surface whe
   - URL: https://www.youtube.com/watch?v=O5FqozA4IpA
 
 ### Summary of Added Content
-- Tardigrades, Earth’s [[concepts/extremophiles|extremophiles]] capable of surviving extreme conditions but not Martian soil toxicity.
+- Tardigrades, Earth’s [[concepts/extremophiles|extremophiles]] capable of surviving extreme conditions but not [[concepts/martian-soil-toxicity|Martian soil toxicity]].
 - Subsurface environments may offer protection and resources necessary for life to exist on Mars.
-- The paradox lies in the very conditions that make surface life impossible also preserving potential subsurface habitats.
+- The paradox lies in the very conditions that [[entities/make|make]] surface life impossible also preserving potential subsurface habitats.
 
 ## Mars Life: The Paradox of Deadly Soil and Hidden Habitats
-The video delves into the intriguing question of where life might still exist on Mars, despite the planet's notoriously harsh surface conditions. It highlights tardigrades as Earth’s renowned extremophiles but notes their inability to survive in Martian soil toxicity.
+The video delves into the intriguing question of where life might still exist on Mars, despite the planet's notoriously harsh surface conditions. It [[concepts/highlights|highlights]] tardigrades as Earth’s renowned extremophiles but [[concepts/notes|notes]] their inability to survive in Martian soil toxicity.
 - Subsurface environments offer a unique niche for potential life due to protection from harmful radiation and extreme temperatures.
 
-2026 04 10 Mars Life The Paradox of Deadly Soil and [[concepts/hidden-habitats|Hidden Habitats]]
-
+2026 04 10 [[concepts/mars-life|Mars Life]] The Paradox of Deadly Soil and [[concepts/hidden-habitats|Hidden Habitats]]
 ## Source Notes
 - 2026-04-07: Martian Soil Is Deadly. And That's Why It Might Support

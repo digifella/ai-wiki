@@ -10,11 +10,11 @@ tags:
 aliases:
   - "NVIDIA Sonic"
 summary: NVIDIA Sonic is an AI system designed for nuanced teleoperation control of humanoid robots.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Sonic
 
-NVIDIA Sonic is an [[concepts/ai-technologies|artificial intelligence]] system developed for teleoperation control of [[concepts/humanoid-robots|humanoid robots]]. The system is designed to enable operators to control robots remotely with nuanced, precise movements and actions rather than relying solely on autonomous decision-making or high-level [[concepts/commands|commands]].
+[[concepts/nvidia-sonic|NVIDIA Sonic]] is an [[concepts/ai-technologies|artificial intelligence]] system developed for teleoperation control of [[concepts/humanoid-robots|humanoid robots]]. The system is designed to enable operators to control robots remotely with nuanced, precise movements and actions rather than relying solely on autonomous [[concepts/decision-making|decision-making]] or high-level [[concepts/commands|commands]].
 
 ## Technical Approach
 
@@ -24,7 +24,7 @@ Sonic operates as a [[concepts/neural-network|neural network]]-based control int
 
 The development of Sonic reflects NVIDIA's broader focus on [[concepts/robotics|robotic systems]] and AI-driven [[concepts/automation|automation]]. Teleoperation control systems like Sonic serve [[concepts/scenarios|use cases]] where direct human oversight is valuable, such as in hazardous environments, complex manipulation tasks, or scenarios where autonomous operation remains technically limited. The system represents an approach to bridging human expertise and robotic capability through real-time control interfaces.
 
-- 2026-04-26 [2026-04-26-NVIDIA-Sonic-Groundbreaking-AI-for-Nuanced-Humanoid-Robot-Teleoperation](2026-04-26-NVIDIA-Sonic-Groundbreaking-AI-for-Nuanced-Humanoid-Robot-Teleoperation.md) ← Nvidia Sonic Groundbreaking Ai For Nuanced Humanoid Robot Teleoperation
-- 2026-04-12 [2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks](2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks.md) ← Dreamdojo Ai Bridging Robotics Sim2Real Gap For Complex Tasks
-- 2026-04-07 [2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw](2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw.md) ← Anthropic Dispatch Remote Desktop Ai Integration Claude And Openclaw
+- 2026-04-26 [2026-04-26-NVIDIA-Sonic-Groundbreaking-AI-for-Nuanced-Humanoid-Robot-Teleoperation](2026-04-26-NVIDIA-Sonic-Groundbreaking-AI-for-Nuanced-Humanoid-Robot-Teleoperation.md) ← Nvidia Sonic Groundbreaking Ai For Nuanced [[concepts/robot-control-systems|Humanoid Robot Teleoperation]]
+- 2026-04-12 [2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks](2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks.md) ← [[concepts/dreamdojo-ai|Dreamdojo Ai]] Bridging Robotics [[concepts/sim2real|Sim2Real]] Gap For [[concepts/complex-tasks|Complex Tasks]]
+- 2026-04-07 [2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw](2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw.md) ← [[concepts/ai-driven-software-automation|Anthropic Dispatch]] [[concepts/mobile-to-desktop-ai-control|Remote Desktop Ai Integration]] Claude And [[concepts/automated-information-pipelines|Openclaw]]
 ## Source Notes

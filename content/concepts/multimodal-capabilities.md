@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "LLM"
-  - "Model-Architectures"
-  - "mistral-3-large"
-  - "mixture-of-experts"
-  - "moe-architecture"
-  - "open-source-licensing"
-  - "model-benchmarking"
-  - "multimodal-capabilities"
-aliases:
-  - "Mistral 3 Large"
-summary: "Mistral 3 Large is a 675B parameter mixture-of-experts model released under the Apache 2.0 license."
-updated: 2026-04-19
+summary: Mistral 3 Large is a 675B parameter mixture-of-experts model released under the Apache 2.0 license.
+updated: 2026-05-23
 group: multimodal-generative-media
+stub: true
 ---
 # Multimodal capabilities
 
@@ -24,11 +13,10 @@ group: multimodal-generative-media
 	- **[[concepts/architecture|Architecture]]**: [[entities/mixture-of-experts]] (MoE) with 675B [[concepts/parameters|parameters]].
 	- **[[concepts/licensing|Licensing]]**: [[concepts/open-source]] ([[entities/apache-20|Apache 2.0]]).
 	- **Competitive Landscape**: Benchmarked against [[entities/deepseek|DeepSeek]] V3 and [[entities/kimi-k2]].
-	- **Classification**: State-of-the-art non-[[concepts/reasoning|reasoning]] model.
+	- **Classification**: State-of-the-[[concepts/art|art]] non-[[concepts/reasoning|reasoning]] model.
 
 ## Backlinks
 - [[concepts/date-2026-04-13|2026]] 04 14 [[entities/mistral|Mistral]] latest model
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents

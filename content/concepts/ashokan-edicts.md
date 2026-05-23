@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: history-anthropology
-group: people-institutions-cultural-history
+domain: health-wellbeing
 tags:
   - "concept"
   - "ancient-india"
@@ -14,19 +13,19 @@ aliases:
   - "Ashoka's Edicts"
   - "Mauryan Edicts"
 summary: The video explores the historical origins of the number zero in ancient India.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Ashokan Edicts
 
 The Ashokan Edicts are a series of inscriptions commissioned by the Mauryan [[concepts/emperor-ashoka|Emperor Ashoka]] (circa 268–232 BCE) and carved into stone pillars, rocks, and cave walls throughout his empire in the Indian subcontinent. Dating to the 3rd century BCE, these edicts represent some of the earliest surviving written records of Indian history and provide direct evidence of Ashoka's reign, [[concepts/philosophy|philosophy]], and administrative [[concepts/policies|policies]]. The inscriptions were composed in multiple languages and scripts, reflecting the linguistic diversity of the [[concepts/mauryan-empire|Mauryan Empire]].
 
-## Content and Themes
+## Content and Purpose
 
-The edicts address a wide range of topics, including moral conduct, [[concepts/religious-tolerance|religious tolerance]], animal welfare, and administrative guidelines. Ashoka used them to communicate his [[concepts/computer-vision|vision]] of *Dhamma* (righteous law), which emerged following his conversion to [[concepts/buddhism|Buddhism]] after witnessing the devastation caused by his conquest of [[entities/kalinga|Kalinga]]. The edicts promote non-violence, honesty, respect for elders, and [[concepts/compassion|compassion]] toward all beings, serving as both philosophical statements and tools of imperial [[concepts/governance|governance]].
+The edicts convey Ashoka's policies on [[concepts/governance|governance]], morality, and religion, particularly his [[concepts/adoption|adoption]] of [[concepts/buddhism|Buddhism]] following the violent conquest of [[entities/kalinga|Kalinga]]. They address themes including [[concepts/religious-tolerance|religious tolerance]], animal welfare, [[concepts/population-health|public health]], and the promotion of dharma (righteous conduct). Many edicts emphasize Ashoka's remorse over warfare and his commitment to ruling through moral persuasion rather than force. The inscriptions served as official proclamations intended to reach the empire's diverse populations and standardize moral and administrative directives across distant territories.
 
-## Significance and Decipherment
+## Historical Significance
 
-The Ashokan Edicts remained largely undeciphered until the 19th century, when scholars developed methods to read the ancient scripts in which they were written. Their decryption was crucial to understanding Mauryan history, as they provided confirmation of Ashoka's existence and reign at a time when few other contemporaneous sources existed. Today, the edicts are recognized as valuable historical documents that illuminate ancient Indian society, governance, and the early spread of Buddhism.
-
+The Ashokan Edicts are invaluable sources for understanding Mauryan administration, ancient Indian society, and the early spread of Buddhism. They are among the oldest deciphered written records from India and have provided scholars with direct insights into 3rd-century BCE political thought and social organization. The edicts also represent an early example of large-scale public communication through stone inscription, demonstrating sophisticated administrative reach in the ancient world.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-The-Bloody-Origins-of-Number-Zero-in-Ancient-India|The Bloody Origins of Number Zero in Ancient India]] · [▶ source](https://www.youtube.com/watch?v=RSIsGomGZcc)

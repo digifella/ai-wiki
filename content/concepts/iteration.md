@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "ai-coding"
   - "software-development"
@@ -12,20 +11,20 @@ aliases:
   - "Ralph technique"
   - "Ralph AI coding"
 summary: A software development technique for AI coding named after the character Ralph Wiggum.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Iteration
 
-Iteration is a [[concepts/coding|software development]] technique used in [[concepts/ai-coding-assistance|AI-assisted coding]] that emphasizes repeated cycles of code generation, [[concepts/testing|testing]], and refinement. Rather than attempting to generate perfect code in a single pass, the technique leverages [[entities/ai-tools|AI tools]] to progressively improve code quality through multiple rounds of modification and evaluation. This approach has gained prominence as [[concepts/terminal-based-ai-coding-agents|AI coding assistants]] have become more capable of understanding context and making incremental improvements to existing code.
+Iteration is a [[concepts/coding|software development]] technique used in [[concepts/ai-coding-assistance|AI-assisted coding]] that emphasizes repeated cycles of [[concepts/code-generation|code generation]], [[concepts/testing|testing]], and refinement. Rather than attempting to generate perfect code in a single pass, the technique leverages [[entities/ai-tools|AI tools]] to progressively improve code quality through multiple rounds of modification and evaluation. This approach has gained prominence as [[concepts/terminal-based-ai-coding-agents|AI coding assistants]] have become more capable of understanding context and making incremental improvements to existing code.
 
 ## The "Ralph" Method
 
-The technique is informally named after [[entities/ralph-wiggum|Ralph Wiggum]], a character from the animated series *The Simpsons*, referencing an approach that may initially seem unconventional but proves effective in practice. The method involves [[concepts/prompting|prompting]] AI systems to generate code, then systematically iterating on that output based on test results, performance metrics, or functional requirements. Each iteration cycle provides the AI with [[concepts/feedback|feedback]] that informs subsequent refinements, creating a feedback loop that typically produces more robust solutions than single-attempt generation.
+The technique is informally named after [[entities/ralph-wiggum|Ralph Wiggum]], a character from the animated series *The Simpsons*, referencing an approach that may initially seem unconventional but proves effective in practice. The method involves [[concepts/prompting|prompting]] AI systems to generate code, then systematically iterating on that [[concepts/output|output]] based on test results, [[concepts/performance-data-gathering|performance metrics]], or functional requirements. Each iteration cycle provides the AI with [[concepts/feedback|feedback]] that informs subsequent refinements, creating a feedback [[concepts/loop|loop]] that typically produces more robust solutions than single-attempt generation.
 
 ## Application in Practice
 
 The iteration approach has proven particularly valuable for [[concepts/iterative-code-development|autonomous code improvement]] systems, where [[concepts/agentic-ai|AI agents]] autonomously generate code, test it against requirements, and generate new versions based on identified failures or inefficiencies. This technique reduces the burden on developers to perfect prompts on the first attempt and instead distributes the development work across multiple refinement stages, allowing both human oversight and AI capability to contribute meaningfully to the final result.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

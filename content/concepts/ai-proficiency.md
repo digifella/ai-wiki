@@ -13,19 +13,19 @@ aliases:
   - "AI skills"
   - "AI literacy"
 summary: Strategies for navigating the job market as artificial intelligence reshapes various industries.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Proficiency
 
-AI proficiency refers to the capability to work effectively with [[concepts/ai-technologies|artificial intelligence]] systems as they become integrated into workplace processes. Rather than a narrow technical skill limited to programmers or data scientists, it encompasses a broader set of competencies: understanding what AI systems can and cannot do, knowing when to deploy them appropriately, and recognizing how job functions may shift in response to technological change. Workers with AI proficiency can leverage these systems to enhance productivity while maintaining critical awareness of their limitations.
+AI proficiency refers to the capability to work effectively with artificial intelligence systems as they become integrated into workplace processes. Rather than a narrow technical skill limited to programmers or data scientists, it encompasses a broader set of competencies: understanding what AI systems can and cannot do, knowing when to deploy them appropriately, and recognizing how job functions may shift in response to technological change. Workers with AI proficiency can leverage these tools to enhance productivity while maintaining realistic expectations about their limitations and risks.
 
 ## Core Competencies
 
-Developing AI proficiency involves several interconnected [[concepts/skills|skills]]. Workers need practical familiarity with [[entities/ai-tools|AI tools]] relevant to their field—whether [[concepts/large-language-model-llm|large language models]], data analysis platforms, or domain-specific [[concepts/software|applications]]. Equally important is understanding AI's failure modes, including the tendency of language models to produce confident-sounding but false outputs (hallucinations), algorithmic biases that can perpetuate discrimination, and the systems' reliance on [[concepts/training-data|training data]] that may become outdated. Critical evaluation of AI outputs, rather than uncritical acceptance, forms a central part of competent use.
+Developing AI proficiency involves several interconnected abilities. These include basic literacy about how AI systems work, their training data limitations, and failure modes; the judgment to evaluate whether AI is the right solution for a given problem; and the adaptability to modify workflows as AI tools become available. Domain-specific proficiency—understanding AI applications within one's particular field—often matters more than generic technical knowledge. This might mean learning how AI affects diagnostic accuracy in healthcare, content generation in creative fields, or code review in software development.
 
-## Workplace Adaptation
+## Career Implications
 
-As AI integration accelerates, AI proficiency increasingly influences employment prospects across sectors. Rather than replacing entire job categories overnight, AI typically transforms the [[entities/nature|nature]] of work—changing which tasks are prioritized, which skills become more valuable, and which roles require human oversight of [[concepts/automations|automated systems]]. Workers who can adapt their expertise to incorporate AI tools, while maintaining judgment about their appropriate use, position themselves more effectively for evolving job markets. Conversely, awareness of how AI might affect one's industry helps workers anticipate and prepare for these transitions.
+As organizations adopt AI tools, workers face shifting job markets. Some roles may be partially automated, while others expand to include AI-related tasks. Workers who develop AI proficiency tend to have more flexibility in navigating these transitions, as they can learn new tools quickly and identify where their expertise complements rather than competes with automated systems. Conversely, workers without any engagement with AI technologies may find their current skills become less relevant without deliberate effort to update them.
 
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents

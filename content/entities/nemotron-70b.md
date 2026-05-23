@@ -8,12 +8,13 @@ tags:
   - "large-language-models"
 aliases:
   - "NVIDIA Nemotron 70B"
-summary: "Nemotron 70B is a large language model from NVIDIA with 70.6 billion parameters."
-updated: 2026-04-28
+summary: Nemotron 70B is a large language model from NVIDIA with 70.6 billion parameters.
+updated: 2026-05-23
+stub: true
 ---
 # Nemotron 70B
 
-NVIDIA's [[concepts/large-language-models|large language model]] with 70.6 billion [[concepts/parameters|parameters]].
+[[entities/nvidia|NVIDIA]]'s [[concepts/large-language-models|large language model]] with 70.6 billion [[concepts/parameters|parameters]].
 
 ## Key Features
 - Massive scale requiring significant [[entities/storage|storage]] (30+ GB).
@@ -25,5 +26,4 @@ NVIDIA's [[concepts/large-language-models|large language model]] with 70.6 billi
 
 ## Backlinks
 - 2026 04 14 [[entities/adam-lucek|Adam Lucek]] [[concepts/quantisation|quantisation]] of LLM
-
 ## Source Notes

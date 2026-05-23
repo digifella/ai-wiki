@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "rag"
   - "vector-databases"
@@ -12,7 +11,8 @@ aliases:
   - "RAG document chunking"
   - "vector database chunking strategy"
 summary: A technique for improving the effectiveness of RAG agents in n8n by addressing how documents are chunked and stored in vector databases.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Sliding Window Problem
 
@@ -20,11 +20,11 @@ The Sliding Window Problem refers to a critical challenge in [[concepts/answer-g
 
 ## The Core Issue
 
-Standard chunking approaches divide documents at fixed boundaries, which can split related information or context across separate [[concepts/vector-database|vector database]] entries. When a RAG agent retrieves chunks based on [[concepts/semantic-similarity|semantic similarity]], it may obtain fragments that lack sufficient surrounding context to provide meaningful answers. This results in incomplete or less effective [[concepts/responses|responses]] despite relevant information existing in the database.
+Standard chunking approaches divide documents [[concepts/assistive-technology|at]] fixed boundaries, which can split related information or context across separate [[concepts/vector-database|vector database]] entries. When a RAG [[entities/agent|agent]] retrieves chunks based on [[concepts/semantic-similarity|semantic similarity]], it may obtain fragments that lack sufficient surrounding context to provide meaningful answers. This results in incomplete or less effective [[concepts/responses|responses]] despite relevant information existing in the database.
 
 ## The Sliding Window Solution
 
-The sliding window approach addresses this by creating overlapping chunks as documents are processed. Rather than dividing text into non-overlapping segments, each chunk includes portions of the preceding and following sections. This overlap ensures that related concepts and context remain cohesive within individual chunks, improving the likelihood that retrieved results contain sufficient surrounding information for accurate processing.
+The sliding window approach addresses this by creating overlapping chunks as documents are processed. Rather than dividing [[concepts/text|text]] into non-overlapping segments, each chunk includes portions of the preceding and following sections. This overlap ensures that related concepts and context remain cohesive within individual chunks, improving the likelihood that retrieved results contain sufficient surrounding information for accurate processing.
 
 ## Practical Implementation
 

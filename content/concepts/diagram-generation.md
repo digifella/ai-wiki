@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: multimodal-generative-media
 tags:
   - "concept"
   - "diagram-generation"
@@ -15,7 +14,8 @@ aliases:
   - "chart generation"
   - "visual content creation"
 summary: Claude AI feature that generates interactive charts and visualizations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Diagram Generation
 
@@ -23,14 +23,13 @@ Diagram Generation is a feature of [[concepts/anthropic-ai|Claude AI]] that enab
 
 ## Functionality
 
-The feature generates interactive diagrams that users can view and potentially manipulate within the [[concepts/claude-ai|Claude]] interface. This includes various chart types and visualization formats suited to different data presentations. The diagrams are created through Claude's [[concepts/statistical-language-modeling|language model]] capabilities, translating user requests into visual representations.
+The feature generates interactive diagrams that users can view and potentially manipulate within the [[concepts/claude-ai|Claude]] interface. This includes various chart types and visualization formats suited to different data presentations. The diagrams are created through [[concepts/claudemd|Claude]]'s [[concepts/statistical-language-modeling|language model]] [[concepts/capabilities|capabilities]], translating user requests into visual representations.
 
 ## Use Cases
 
 Diagram Generation serves multiple purposes including data analysis, educational [[concepts/explanations|explanations]], business presentations, and conceptual visualization. Users can request diagrams for statistical data, process flows, organizational structures, and other information that benefits from [[concepts/visual-representation|visual representation]]. The interactive [[entities/nature|nature]] of the generated diagrams distinguishes this from static image generation.
 
-- 2026-04-07 [2026-04-07-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained](2026-04-07-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained.md) ← Claude Ai Interactive Chart And Visualization Generation Explained
+- 2026-04-07 [2026-04-07-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained](2026-04-07-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained.md) ← [[concepts/claude|Claude Ai]] Interactive Chart And [[concepts/visualization-generation|Visualization Generation]] Explained
 - 2026-04-08 [2026-04-08-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained](2026-04-08-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained.md) ← Claude Ai Interactive Chart And Visualization Generation Explained
 - 2026-04-10 [2026-04-10-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained](2026-04-10-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained.md) ← Claude Ai Interactive Chart And Visualization Generation Explained
 ## Source Notes
-

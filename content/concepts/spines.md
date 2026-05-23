@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: biology-life-sciences
 tags:
   - "concept"
   - "sharks"
@@ -13,7 +12,8 @@ aliases:
   - "shark spines"
   - "shark morphology"
 summary: Spines were prominent features in shark evolution during the Golden Age of Sharks, with various species developing diverse spike-like adaptations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Spines
 
@@ -26,7 +26,6 @@ Shark spines appeared in numerous configurations throughout different lineages. 
 ## Decline
 
 Despite their prevalence during the height of shark diversity, spines gradually became less common in shark lineages over evolutionary time. Many modern shark species lack the prominent spike-like structures characteristic of their Paleozoic ancestors, suggesting that alternative [[concepts/adaptations|adaptations]] eventually provided selective advantages. The reduction and loss of spines in subsequent [[concepts/shark-evolution|shark evolution]] represents a significant shift in the functional morphology of these predators.
-
 ## Source Notes
 - 2026-04-08: How Sharks Lost Their Buzzsaws, Anvils, and Spikes
 - 2026-04-07: [[lab-notes/2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)

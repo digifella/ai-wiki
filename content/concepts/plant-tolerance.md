@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "hydroponic-plants"
   - "water-cultivation"
@@ -12,7 +11,8 @@ aliases:
   - "hydroponic plant growth"
   - "water-based plant cultivation"
 summary: The ability of certain indoor plants to thrive in water without the use of soil.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Plant Tolerance
 
@@ -24,4 +24,4 @@ Several indoor plant species demonstrate consistent tolerance for water-based gr
 
 ## Practical Considerations
 
-Successfully cultivating water-tolerant plants requires [[concepts/attention-mechanisms|attention]] to water quality, nutrient supplementation, and oxygenation. While these plants can extract necessary minerals from water alone for short periods, long-term [[concepts/health|health]] typically benefits from liquid fertilizers formulated for hydroponic systems. Water changes and adequate light exposure remain important factors in maintaining plant vigor in purely aquatic settings.
+Successfully cultivating water-tolerant plants requires [[concepts/attention-mechanisms|attention]] to water quality, nutrient supplementation, and oxygenation. While these plants can extract necessary minerals from water alone for short periods, long-term [[concepts/health|health]] typically benefits from liquid fertilizers formulated for hydroponic systems. Water changes and adequate [[concepts/light|light]] exposure remain important factors in maintaining plant vigor in purely aquatic settings.

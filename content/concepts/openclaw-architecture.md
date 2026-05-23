@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: architecture-cities-heritage
 tags:
   - "concept"
   - "ai-architecture"
@@ -14,20 +13,20 @@ aliases:
   - "OpenClaw AI Assistant"
   - "NemoClaw"
 summary: OpenClaw is an AI personal assistant architecture with documented workflows, compared against NVIDIA's NemoClaw enterprise variant.
-updated: 2026-05-01
+updated: 2026-05-23
+group: architecture-cities-heritage
 ---
 # Openclaw Architecture
 
-[[concepts/automated-information-pipelines|OpenClaw]] is an AI [[concepts/personal-assistant|personal assistant]] [[concepts/architecture|architecture]] designed to provide documented workflows and integration patterns for individual users. As an accessible personal-scale implementation, OpenClaw emphasizes configuration flexibility and [[concepts/ai-agent|autonomous agent]] capabilities, enabling users to build customized AI assistants with defined operational [[concepts/parameters|parameters]] and [[concepts/recurring-actions|task automation]] workflows.
+[[concepts/automated-information-pipelines|OpenClaw]] is an AI [[concepts/personal-assistant|personal assistant]] [[concepts/architecture|architecture]] designed to provide documented workflows and [[concepts/integration|integration]] patterns for individual users. As an accessible personal-scale implementation, [[concepts/conversational-chatbots|OpenClaw]] emphasizes configuration flexibility and [[concepts/ai-agent|autonomous agent]] [[concepts/capabilities|capabilities]], enabling users to build customized AI assistants with defined operational [[concepts/parameters|parameters]] and [[concepts/recurring-actions|task automation]] workflows.
 
 ## Comparison with NemoClaw
 
-NemoClaw represents NVIDIA's enterprise-oriented variant of assistant architecture, positioning itself as a scaled-up alternative to OpenClaw for organizational [[concepts/deployment|deployment]]. The distinction between the two systems centers on deployment scale and target [[concepts/scenarios|use cases]], with OpenClaw serving individual and small-scale implementations while NemoClaw addresses enterprise requirements for [[concepts/decentralized-ai|distributed AI]] agent management and integration with existing corporate infrastructure.
+[[concepts/agent-toolkit|NemoClaw]] represents [[entities/nvidia|NVIDIA]]'s enterprise-oriented variant of assistant architecture, positioning itself as a scaled-up alternative to OpenClaw for organizational [[concepts/deployment|deployment]]. The distinction between the two systems centers on deployment scale and target [[concepts/scenarios|use cases]], with OpenClaw serving individual and small-scale implementations while NemoClaw addresses enterprise requirements for [[concepts/decentralized-ai|distributed AI]] [[entities/agent|agent]] management and integration with existing corporate infrastructure.
 
 ## Implementation Considerations
 
-OpenClaw implementation typically involves [[concepts/secure|secure]] configuration of a [[concepts/personalized-ai-second-brain|personalized AI system]], sometimes referred to as an "[[concepts/content-ideation|AI second brain]]," which can integrate with existing code environments and workflow tools. Cost considerations have been noted as a factor in OpenClaw [[concepts/adoption|adoption]], suggesting that setup and operational expenses may influence decisions between personal and enterprise architectural choices.
-
+OpenClaw implementation typically involves [[concepts/secure|secure]] configuration of a [[concepts/personalized-ai-second-brain|personalized AI system]], sometimes referred to as an "[[concepts/content-ideation|AI second brain]]," which can integrate with existing [[concepts/code|code]] environments and [[concepts/workflow|workflow]] tools. [[concepts/cost|Cost]] considerations have been noted as a factor in OpenClaw [[concepts/adoption|adoption]], suggesting that [[concepts/setup|setup]] and operational expenses may [[concepts/power|influence]] decisions between personal and enterprise architectural choices.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Does NemoClaw Replace OpenClaw? (Full Comparison)

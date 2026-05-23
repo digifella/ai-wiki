@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: automation-scheduling-sync
+domain: creative-pursuits
 tags:
   - "concept"
   - "webinar-production"
@@ -13,7 +12,8 @@ aliases:
   - "Webinar Video Production"
   - "NotebookLM Video Conversion"
 summary: Methods for converting NotebookLM slides into unwatermarked video formats for webinar distribution.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Webinar Production
 
@@ -21,11 +21,10 @@ Webinar production involves converting presentation [[entities/google-slides|sli
 
 ## NotebookLM to Google Vids Workflow
 
-NotebookLM generates presentation slides that can be exported to [[entities/google-vids|Google Vids]], a [[concepts/video-creation|video creation]] platform. The standard export process may include watermarks or branding from Google Vids. Removing these watermarks requires understanding the video export settings and post-processing options available within the platform, or utilizing alternative export methods that bypass automatic watermarking features.
+[[concepts/notebooklm|NotebookLM]] generates presentation [[concepts/google-slides|slides]] that can be exported to [[entities/google-vids|Google Vids]], a [[concepts/video-creation|video creation]] platform. The standard export process may include watermarks or branding from [[concepts/google-vids|Google Vids]]. Removing these watermarks requires understanding the video export settings and post-processing options available within the platform, or utilizing alternative export methods that bypass automatic watermarking features.
 
 ## Distribution Considerations
 
 The resulting unwatermarked videos can be distributed across webinar platforms, video hosting services, or direct to audiences without third-party branding interfering with the content. This approach is particularly useful for organizations seeking to maintain consistent branding or for creators who want their content to appear professionally produced without visible platform attribution.
-
 ## Source Notes
 - 2026-04-07: How to Turn NotebookLM Slides Into Unwatermarked Videos

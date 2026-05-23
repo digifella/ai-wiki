@@ -10,7 +10,7 @@ aliases:
   - "Dr. Paul Cooper"
   - "digitalfella"
 summary: Dr. Paul Cooper is the Director of Longboardfella Consulting Pty Ltd.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Paul Cooper
 
@@ -19,5 +19,4 @@ updated: 2026-05-01
 ## Professional Information
 
 Longboardfella Consulting Pty Ltd operates under Australian Company Number (ACN) 650 470 474.
-
 ## Source Notes

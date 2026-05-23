@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "portable-devices"
-  - "AI-models"
-  - "LM-Studio"
-  - "remote-access"
-  - "LLM"
-  - "mobile-computing"
-  - "battery-efficiency"
-  - "connectivity-options"
-  - "ai-portability"
-  - "remote-access-tools"
-aliases:
-  - "Mobile Gadgets"
-  - "Handheld Devices"
-  - "Portable Computing"
-  - "AI-on-the-go"
-summary: "Portable devices encompass a range of mobile computing tools like smartphones, tablets, and laptops that prioritize portability and ease-of-use."
-updated: 2026-04-11
+summary: Portable devices encompass a range of mobile computing tools like smartphones, tablets, and laptops that prioritize portability and ease-of-use.
+updated: 2026-05-23
 group: devices-access-networks
 ---
 # Portable Devices
@@ -28,14 +12,14 @@ Portable devices refer to a broad category of [[concepts/portable-computing|mobi
 - smartphones
 - tablets
 - laptops
-- wearable-devices
+- [[concepts/wearable-devices|wearable-devices]]
 
 ### Key Concepts
 
 - **Battery Life**: A crucial feature affecting the usability of portable devices.
-- **Portability**: Size, weight, and [[concepts/design|design]] considerations that make a device easy to carry around.
+- **Portability**: Size, weight, and [[concepts/design|design]] considerations that [[entities/make|make]] a device easy to carry around.
 - **Connectivity**: The ability to connect with other devices and networks, including Wi-Fi and cellular data.
-- **Performance**: Balancing processing power with [[concepts/energy-efficiency|energy efficiency]].
+- **Performance**: Balancing processing [[concepts/power|power]] with [[concepts/energy-efficiency|energy efficiency]].
 
 ### Advancements in AI on Portable Devices
 
@@ -48,14 +32,13 @@ The landscape of [[concepts/running|running]] large [[concepts/ai-models|AI mode
 
 **[[concepts/lm-studio-lm-link|LM Studio LM Link]]: [[concepts/distributed-ai-execution|Remote LLM Access]] for Portable Devices**
 - Demonstrated successful running of [[concepts/large-language-model-llm|large language models]] on a [[entities/macbook-pro|MacBook Pro]] with [[concepts/limited-resources|limited resources]].
-- Highlights the role of new tools in bridging the gap between high-end hardware and more portable devices.
+- [[concepts/highlights|Highlights]] the role of new tools in bridging the gap between high-end hardware and more portable devices.
 
-- **[[entities/gpt-oss-120b|GPT-OSS 120B]] (60GB) and Meta [[entities/llama|Llama]] 70B (70GB)**: Successfully run on a device with 128GB RAM, showcasing potential advancements.
+- **[[entities/gpt-oss-120b|GPT-OSS 120B]] (60GB) and [[entities/meta|Meta]] [[entities/llama|Llama]] 70B (70GB)**: Successfully run on a device with 128GB [[concepts/ram|RAM]], showcasing potential advancements.
 - [[entities/lm-studio]]
-- large-language-models
+- [[concepts/llm-models|large-language-models]]
 
 2026 04 10 LM Studio LM Link Remote LLM Access for Portable Devices
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)
 - 2026-04-10: [[lab-notes/2026-04-10-LM-Studio-LM-Link-Remote-LLM-Access-for-Portable-Devices|LM Studio LM Link Remote LLM Access for Portable Devices]] · [▶ source](https://www.youtube.com/watch?v=PqBrnip-ZLw)

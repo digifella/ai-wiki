@@ -1,19 +1,7 @@
 ---
 type: entity
-tags:
-  - "google"
-  - "cloud-computing"
-  - "ai-infrastructure"
-  - "technology"
-  - "google-cloud"
-  - "distributed-systems"
-  - "data-analytics"
-  - "tpu"
-aliases:
-  - "GCP"
-  - "Google Cloud Platform"
-summary: "A division of Google providing enterprise-grade computing services specializing in distributed systems, data analytics, and AI infrastructure."
-updated: 2026-04-26
+summary: A division of Google providing enterprise-grade computing services specializing in distributed systems, data analytics, and AI infrastructure.
+updated: 2026-05-23
 ---
 # Google Cloud
 
@@ -29,8 +17,7 @@ A division of [[entities/google]] providing enterprise-grade computing services,
 - **Monetization Strategy**: Developing frameworks for delivering value through AI-integrated [[concepts/cloud-based-solutions|cloud services]] and [[concepts/compute|compute]]-as-a-service.
 
 ## Related Notes
-- 2026 04 25 Google Cloud CEO on AI Infrastructure [[concepts/tpu-development|TPU Development]] and Monetization Strategy (Interview with [[entities/thomas-kurian]])
-
+- 2026 04 25 [[concepts/google-search|Google]] Cloud CEO on [[concepts/computing-architecture|AI Infrastructure]] [[concepts/tpu-development|TPU Development]] and Monetization Strategy (Interview with [[entities/thomas-kurian]])
 ## Source Notes
 
 - 2026-04-25: [[lab-notes/2026-04-25-Google-Cloud-CEO-on-AI-Infrastructure-TPU-Development-and-Monetization-Strategy|Google Cloud CEO on AI Infrastructure, TPU Development, and Monetization Strategy]] · [▶ source](https://www.youtube.com/watch?v=bNdiBwXbLNw)

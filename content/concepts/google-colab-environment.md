@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: planetary-environments-mars
 tags:
   - "google-colab"
   - "speech-recognition"
@@ -13,7 +12,8 @@ aliases:
   - "Colab Whisper Setup"
   - "Real-time Transcription in Colab"
 summary: A guide for performing approximate real-time live transcription using OpenAI's whisper-large-v3-turbo model within a Google Colab environment.
-updated: 2026-05-01
+updated: 2026-05-23
+group: planetary-environments-mars
 ---
 # Google Colab Environment
 
@@ -21,8 +21,8 @@ updated: 2026-05-01
 
 ## Real-Time Transcription Implementation
 
-The [[entities/whisper-ai|Whisper]] Large-V3-Turbo model from [[entities/openai|OpenAI]] can be deployed within a Google Colab environment to perform approximate real-time [[concepts/live-transcription|live transcription]] of audio streams. This approach leverages Colab's freely available [[concepts/gpu-acceleration|GPU acceleration]] to run the model efficiently, enabling near-immediate transcription of speech input. The setup requires loading the model [[concepts/weights|weights]] and configuring audio input pipelines, which can be accomplished through straightforward [[entities/python|Python]] scripting within the notebook interface.
+The [[entities/whisper-ai|Whisper]] Large-V3-Turbo model from [[entities/openai|OpenAI]] can be deployed within a [[entities/google|Google]] Colab environment to perform approximate real-time [[concepts/live-transcription|live transcription]] of [[concepts/audio-modality|audio]] streams. This approach leverages Colab's freely available [[concepts/gpu-acceleration|GPU acceleration]] to run the model efficiently, enabling near-immediate transcription of speech input. The [[concepts/setup|setup]] requires loading the model [[concepts/weights|weights]] and configuring audio input pipelines, which can be accomplished through straightforward [[entities/python|Python]] scripting within the notebook interface.
 
 ## Practical Considerations
 
-While Google Colab provides sufficient [[concepts/computational-resources|computational resources]] for [[concepts/running|running]] large [[concepts/speech-recognition|speech recognition]] models, the latency characteristics depend on audio chunk size, [[concepts/llm-optimization|model optimization]], and network connectivity. Users implementing this system should expect minor delays between speech capture and transcription output rather than true synchronous processing. The free tier of Colab includes [[concepts/usage-limits|usage restrictions]] and [[concepts/session|session]] timeouts, which may affect sustained transcription tasks.
+While Google Colab provides sufficient [[concepts/computational-resources|computational resources]] for [[concepts/running|running]] large [[concepts/speech-recognition|speech recognition]] [[concepts/models|models]], the latency characteristics depend on audio chunk size, [[concepts/llm-optimization|model optimization]], and network connectivity. Users implementing this system should expect minor delays between speech capture and transcription [[concepts/output|output]] rather than true synchronous processing. The free tier of Colab includes [[concepts/usage-limits|usage restrictions]] and [[concepts/session|session]] timeouts, which may affect sustained transcription tasks.

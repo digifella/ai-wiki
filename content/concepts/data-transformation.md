@@ -8,8 +8,8 @@ tags:
   - "knowledge-graph"
   - "neo4j"
   - "data-processing"
-summary: "The process of converting data from one format or structure to another to ensure compatibility, usability, or to enable complex downstream processing."
-updated: 2026-04-28
+summary: The process of converting data from one format or structure to another to ensure compatibility, usability, or to enable complex downstream processing.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data Transformation
@@ -23,7 +23,6 @@ The process of converting data from one format or [[concepts/structure|structure
 
 ## References
 - 2026 04 14 Cocoindex channel and [[concepts/knowledge-graphs|knowledge Graphs]] for [[concepts/llm-rag|LLM RAG]]
-
 ## Source Notes
 - 2026-04-10: What is Multimodal AI? How LLMs Process Text, Images, and
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "login-verification"
   - "company-portal"
@@ -13,11 +12,12 @@ aliases:
   - "Company Portal Login"
   - "ACN Verification"
 summary: A process for verifying login credentials on the Company Portal using a company's ACN.
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # Login Credentials Verification
 
-Login credentials verification is the process of authenticating user access to the Company Portal by validating company identification details. The primary verification method uses the Australian Company Number (ACN), a unique identifier assigned to all registered companies in Australia by the [[entities/asic-company|Australian Securities and Investments Commission]] (ASIC).
+Login credentials [[concepts/verification|verification]] is the process of authenticating user access to the Company Portal by validating company identification details. The primary verification method uses the Australian Company Number (ACN), a unique identifier assigned to all registered companies in Australia by the [[entities/asic-company|Australian Securities and Investments Commission]] (ASIC).
 
 ## Verification Process
 

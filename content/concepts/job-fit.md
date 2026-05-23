@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "linkedin-analysis"
   - "claude-code"
@@ -12,7 +11,8 @@ aliases:
   - "Claude Code LinkedIn Analysis"
   - "Job Market Analysis"
 summary: A summary of a YouTube video demonstrating the use of Claude Code to analyze LinkedIn data.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Job Fit
 
@@ -24,8 +24,7 @@ Organizations increasingly use data-driven approaches to assess job fit, leverag
 
 ## Practical Applications
 
-Job fit analysis has become particularly relevant in large organizations undergoing significant changes. When companies make large-scale workforce [[concepts/adjustments|adjustments]], understanding which remaining employees are well-matched to their current roles versus those in misaligned positions can inform redeployment and [[concepts/training|training]] decisions. Data-driven assessment of job fit can help organizations make more informed decisions about resource allocation and role assignments during transitions.
-
+Job fit analysis has become particularly relevant in large organizations undergoing significant changes. When companies [[entities/make|make]] large-scale workforce [[concepts/adjustments|adjustments]], understanding which remaining employees are well-matched to their current roles versus those in misaligned positions can inform redeployment and [[concepts/training|training]] decisions. Data-driven assessment of job fit can help organizations make more informed decisions about resource allocation and role assignments during transitions.
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

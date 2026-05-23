@@ -1,16 +1,12 @@
 ---
-domain: ai-agents
-group: google-ai-ecosystem
 type: concept
-tags:
-  - "notebooklm"
-  - "online-course"
-  - "google-classroom"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
+group: google-ai-ecosystem
 ---
 # NotebookLM notebook
 
-A [[entities/notebooklm]] [[concepts/notebook|notebook]] is a structured [[concepts/knowledge-base|knowledge base]] containing notes, sources, and AI-generated insights within Google's [[entities/notebooklm]] platform.
+A [[entities/notebooklm]] [[concepts/notebook|notebook]] is a structured [[concepts/knowledge-base|knowledge base]] containing [[concepts/notes|notes]], sources, and AI-generated insights within [[entities/google|Google]]'s [[entities/notebooklm]] platform.
 
 ## Creating an Online Course from NotebookLM
 
@@ -24,8 +20,7 @@ Turn a populated [[entities/notebooklm]] notebook into an interactive [[concepts
   2. Click "Create Class"
 - **Reference**: [Step-by-step video guide](https://youtu.be/67GoIe4PQIg)
 
-2026 04 14 Create online course from notebooklm
-
+2026 04 14 Create online course from [[concepts/ai-integrated-notebooks|notebooklm]]
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration|Google Gemini and NotebookLM Key Updates and Enhanced AI Integration]] · [▶ source](https://www.youtube.com/watch?v=6YWPGjqOEmk)

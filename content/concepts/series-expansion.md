@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: film-tv-streaming
 tags:
   - "concept"
   - "mathematical-series"
@@ -13,7 +12,8 @@ aliases:
   - "Pi Series Expansion"
   - "String Theory Pi Series"
 summary: Mathematical concept exploring series expansion methods for calculating pi, featuring historical development and significance in string theory.
-updated: 2026-05-01
+updated: 2026-05-23
+group: film-tv-streaming
 ---
 # Series Expansion
 
@@ -25,7 +25,6 @@ Different civilizations developed distinct series approaches to approximate pi. 
 
 ## Modern Applications and Significance
 
-Contemporary series expansion methods remain computationally important for verifying pi calculations and [[concepts/testing|testing]] new algorithms. Beyond pi itself, series expansions appear in [[concepts/theoretical-physics|theoretical physics]], particularly in [[concepts/string-theory|string theory]], where they provide mathematical frameworks for modeling fundamental interactions. The relationship between classical mathematical series and modern theoretical physics demonstrates how abstract numerical techniques can underpin descriptions of physical reality.
-
+Contemporary series expansion methods remain computationally important for verifying pi calculations and [[concepts/testing|testing]] new algorithms. Beyond pi itself, series expansions appear in [[concepts/theoretical-physics|theoretical physics]], particularly in [[concepts/string-theory|string theory]], where they provide mathematical frameworks for modeling fundamental interactions. The relationship between classical mathematical series and modern theoretical [[concepts/physics|physics]] demonstrates how abstract numerical techniques can underpin descriptions of [[concepts/physical-reality|physical reality]].
 ## Source Notes
 - 2026-04-10: New Recipe for Pi - [[entities/numberphile|Numberphile]]

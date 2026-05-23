@@ -6,7 +6,7 @@ tags:
   - "visual-system"
   - "idea-generator"
 summary: A note considering the potential use of a focus mechanism similar to the music genetic matching visual system.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Edward Taub
 

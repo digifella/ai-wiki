@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "desktop-automation"
@@ -12,12 +11,13 @@ tags:
 aliases:
   - "Desktop AI Automation"
   - "Claude Cowork Automation"
-summary: "Desktop application automation capabilities and features of Claude Cowork, an AI co-worker tool."
-updated: 2026-05-01
+summary: Desktop application automation capabilities and features of Claude Cowork, an AI co-worker tool.
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Desktop Application Automation
 
-Desktop application automation refers to the capabilities within [[concepts/ad-generation|Claude Cowork]] that enable the AI system to interact with and control desktop [[concepts/software|applications]] on a user's computer. These [[concepts/automation|automation]] features allow Claude Cowork to perform tasks across multiple applications by directly manipulating [[concepts/user-interface|user interface]] elements, executing [[concepts/commands|commands]], and managing workflows without requiring manual intervention for each step.
+Desktop [[concepts/application-automation|application automation]] refers to the [[concepts/capabilities|capabilities]] within [[concepts/ad-generation|Claude Cowork]] that enable the AI system to interact with and [[concepts/power|control]] desktop [[concepts/software|applications]] on a user's computer. These [[concepts/automation|automation]] features allow [[concepts/ai-co-worker|Claude Cowork]] to perform tasks across multiple applications by directly manipulating [[concepts/user-interface|user interface]] elements, executing [[concepts/commands|commands]], and managing workflows without requiring manual intervention for each step.
 
 ## Core Functionality
 
@@ -26,6 +26,5 @@ Claude Cowork's [[concepts/desktop-automation|desktop automation]] operates by m
 ## Practical Application
 
 The automation capabilities allow users to delegate repetitive or complex desktop tasks to Claude Cowork, reducing the need for manual data entry, copy-pasting between applications, or switching between multiple windows. This is particularly useful for workflows involving document [[concepts/preparation|preparation]], data processing, system administration, or any task requiring coordinated interaction with multiple desktop applications.
-
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

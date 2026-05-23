@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "proposal-system"
   - "sharepoint"
@@ -13,18 +12,18 @@ aliases:
   - "Platform Challenges"
   - "System Pain Points"
 summary: The note identifies challenges with the proposal system and SharePoint, and suggests using AI to accelerate analysis and automate manual tasks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Tool Issues
 
-The [[concepts/organization|organization]] faces significant operational [[concepts/friction|friction]] with its current tooling infrastructure. The [[concepts/proposal-system|proposal system]] has proven particularly challenging to work with, creating bottlenecks in the workflow. SharePoint similarly presents ongoing difficulties as a platform, impacting [[concepts/user-experience-design|user experience]] and efficiency across teams.
+The [[concepts/organization|organization]] [[concepts/faces|faces]] significant operational [[concepts/friction|friction]] with its current tooling infrastructure. The [[concepts/proposal-system|proposal system]] has proven particularly challenging to work with, creating bottlenecks in the [[concepts/workflow|workflow]]. SharePoint similarly presents ongoing difficulties as a platform, impacting [[concepts/user-experience-design|user experience]] and efficiency across teams.
 
 ## Potential Solutions Through AI
 
 There is recognition that [[concepts/ai-technologies|artificial intelligence]] could help address these tool-related challenges. Specifically, AI has potential to accelerate analysis work that currently requires manual effort, and to automate grunt work such as document review. This approach could help the organization work more quickly around the edges of its existing systems while longer-term infrastructure improvements are considered.
 
-The key [[concepts/scenarios|use cases]] center on improving speed and reducing manual effort in areas where the current tools create the most friction. By strategically applying [[concepts/capabilities|AI capabilities]], teams could potentially bypass some limitations of the proposal system and SharePoint while maintaining necessary workflows.
-
+The key [[concepts/scenarios|use cases]] center on improving [[concepts/speed|speed]] and reducing manual effort in areas where the current tools create the most friction. By strategically applying [[concepts/capabilities|AI capabilities]], teams could potentially bypass some limitations of the proposal system and SharePoint while maintaining necessary workflows.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)
 - 2026-04-08: Anthropic

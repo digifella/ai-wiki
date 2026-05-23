@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: safety-guardrails-governance
 tags:
   - "ai-agents"
   - "knowledge-systems"
@@ -14,7 +13,8 @@ aliases:
   - "governance-framework"
   - "ai-governance"
 summary: This page is a stub for information regarding governance within knowledge systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: safety-guardrails-governance
 title: governance
 ---
 # Governance
@@ -23,7 +23,7 @@ Governance in [[concepts/ai-productivity-agents|AI agent systems]] refers to the
 
 ## Control and Safety Mechanisms
 
-Governance frameworks typically incorporate technical safeguards and operational controls to manage agent behavior. This includes [[concepts/ai-safety|guardrails]] that constrain agent actions within acceptable boundaries, monitoring tools that track decision-making processes, and oversight mechanisms that allow human intervention when necessary. [[concepts/open-source|Open-source]] approaches to safety infrastructure, such as those providing accessible guardrail implementations, represent efforts to democratize governance capabilities beyond proprietary solutions.
+Governance frameworks typically incorporate technical safeguards and operational controls to manage [[entities/agent|agent]] behavior. This includes [[concepts/ai-safety|guardrails]] that constrain agent actions within acceptable boundaries, monitoring tools that track [[concepts/decision-making|decision-making]] processes, and oversight mechanisms that allow human intervention when necessary. [[concepts/open-source|Open-source]] approaches to safety infrastructure, such as those providing accessible guardrail implementations, represent efforts to democratize governance [[concepts/capabilities|capabilities]] beyond proprietary solutions.
 
 ## Transparency and Accountability
 
@@ -31,8 +31,7 @@ Effective governance requires visibility into how agents operate and the ability
 
 ## Implementation Approaches
 
-Governance implementations vary in their approach to balancing autonomy with control. Some systems employ managed agent architectures where human oversight is built into operational workflows, while others rely on advisory mechanisms that inform but do not directly constrain agent decisions. The choice of governance model depends on the risk profile, domain requirements, and organizational tolerance for autonomous operation.
-
+Governance implementations vary in their approach to balancing autonomy with [[concepts/power|control]]. Some systems employ managed agent architectures where human oversight is built into operational workflows, while others rely on advisory mechanisms that inform but do not directly constrain agent decisions. The choice of governance model depends on the risk profile, domain requirements, and organizational tolerance for autonomous operation.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)
 - 2026-04-10: [[lab-notes/2026-04-10-Nvidias-Open-Source-Guardrails-vs-OpenAIs-AI-Agent-Consulting-Strategy|Nvidias Open Source Guardrails vs OpenAIs AI Agent Consulting Strategy]] · [▶ source](https://www.youtube.com/watch?v=7AO4w4Y_L24)

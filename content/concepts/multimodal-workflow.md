@@ -1,37 +1,22 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "workflow"
-  - "automation"
-  - "multimodal"
-  - "generative-ai"
-  - "multimodal-workflow"
-  - "json-driven-automation"
-  - "image-generation-consistency"
-  - "automated-storyboarding"
-aliases:
-  - "JSON-Driven Image Generation"
-  - "Multimodal Pipeline"
-  - "JSON Image Creator"
-summary: "An automated pipeline that integrates text, image, and structured data using JSON to maintain consistency across generative media outputs."
-updated: 2026-04-26
+summary: An automated pipeline that integrates text, image, and structured data using JSON to maintain consistency across generative media outputs.
+updated: 2026-05-23
 group: multimodal-generative-media
 ---
 # Multimodal Workflow
 
-The [[concepts/integration|integration]] of multiple [[concepts/generative-ai]] modalities (text, image, and [[concepts/structured-data|structured data]]) within a single [[concepts/automated-pipeline|automated pipeline]] to achieve complex, cohesive outputs.
+The [[concepts/integration|integration]] of multiple [[concepts/generative-ai]] modalities ([[concepts/text|text]], image, and [[concepts/structured-data|structured data]]) within a single [[concepts/automated-pipeline|automated pipeline]] to achieve complex, cohesive outputs.
 
 ### Key Implementation: JSON-Driven Image Generation
-A specialized workflow leveraging [[entities/gemini]] and [[entities/dall-e-3|DALL-E 3]] to achieve Consistent [[concepts/ai-image-generation|AI Image Generation]] and Storyboarding:
-- **Structured Control**: Utilizes [[concepts/json]] as a bridge between text-based LLMs and image generators to maintain precise control over visual attributes.
+A specialized [[concepts/workflow|workflow]] leveraging [[entities/gemini]] and [[entities/dall-e-3|DALL-E 3]] to achieve Consistent [[concepts/ai-image-generation|AI Image Generation]] and Storyboarding:
+- **Structured [[concepts/power|Control]]**: Utilizes [[concepts/json]] as a bridge between text-based LLMs and image generators to maintain precise control over visual attributes.
 - **[[concepts/logical-consistency|Consistency]] Mechanism**: Uses a "JSON Image [[concepts/creator|Creator]]" approach to minimize prompt drift, ensuring characters and environments remain stable across multiple iterations.
 - **[[concepts/automation|Automation]]**: Transforms high-level creative intent into [[concepts/machine-readable-parameters|machine-readable parameters]] for repeatable, high-fidelity assets.
 
 ### Related Notes
-- 2026 04 26 [[concepts/gemini|Gemini]] and DALL E 3 Workflow [[concepts/ai-storyboarding|Consistent AI Image Generation Using JSON]]
-
+- 2026 04 26 [[concepts/gemini|Gemini]] and [[entities/dall-e-3|DALL E 3]] [[concepts/workflow|Workflow]] [[concepts/ai-storyboarding|Consistent AI Image Generation Using JSON]]
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-08: [[lab-notes/2026-04-08-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi|Google NotebookLM Customizing Design for Professional Presentations vi]] · [▶ source](https://www.youtube.com/watch?v=hqquu7H7X0w)

@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "entity-extraction"
-  - "llm"
-  - "knowledge-graph"
-  - "rag"
-updated: 2026-04-14
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # Entity Extraction
 
-The process of identifying and categorizing key information (entities) within [[concepts/unstructured-text|unstructured text]], enabling [[concepts/structured-data|structured data]] representation for downstream [[concepts/software|applications]] like [[concepts/rag|RAG]] (Retrieval-Augmented Generation).
+The process of identifying and categorizing key information (entities) within [[concepts/unstructured-text|unstructured text]], enabling [[concepts/structured-data|structured data]] representation for downstream [[concepts/software|applications]] like [[concepts/rag|RAG]] ([[concepts/answer-generation|Retrieval-Augmented Generation]]).
 
 **Key Applications:**
 - Extracting entities (e.g., people, organizations, concepts) and [[concepts/relationships|relationships]] from documents

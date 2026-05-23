@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "immunology"
   - "preventive-medicine"
@@ -12,7 +11,8 @@ aliases:
   - "immunization"
   - "vaccine-administration"
 summary: A medical procedure that stimulates immune system responses to prevent infectious diseases through exposure to antigens.
-updated: 2026-05-01
+updated: 2026-05-23
+group: life-systems-adaptation-discovery
 ---
 # Vaccination
 
@@ -24,7 +24,6 @@ Vaccines are formulated using various approaches. Live attenuated vaccines conta
 
 ## Public Health Impact
 
-Vaccination [[concepts/software|programs]] have become central to [[concepts/health-promotion|disease prevention]] strategies worldwide. Successful vaccination campaigns have eradicated diseases such as smallpox and substantially reduced the incidence of polio, measles, and numerous other infectious diseases. Population-level vaccination also provides indirect protection through herd immunity, reducing transmission rates even among unvaccinated individuals when vaccination coverage reaches sufficient thresholds. The effectiveness of vaccines depends on factors including vaccine design, administration timing, individual immune system variation, and pathogen characteristics.
-
+Vaccination [[concepts/software|programs]] have become central to [[concepts/health-promotion|disease prevention]] strategies worldwide. Successful vaccination campaigns have eradicated diseases such as smallpox and substantially reduced the incidence of polio, measles, and numerous other infectious diseases. Population-level vaccination also provides indirect protection through herd immunity, reducing transmission rates even among unvaccinated individuals when vaccination coverage reaches sufficient thresholds. The effectiveness of vaccines depends on factors including vaccine [[concepts/design|design]], administration timing, individual immune system variation, and pathogen characteristics.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Introduction-to-Public-Health-Definition-Role-and-Social-Determinants|Introduction to Public Health Definition Role and Social Determinants]] · [▶ source](https://www.youtube.com/watch?v=t_eWESXTnic)

@@ -11,13 +11,13 @@ tags:
 aliases:
   - "os deployment"
   - "bootable container concept"
-summary: "Operating system deployment is the process of installing and configuring operating systems using methods such as automation, imaging, configuration management, and bootable containers."
-updated: 2026-04-28
+summary: Operating system deployment is the process of installing and configuring operating systems using methods such as automation, imaging, configuration management, and bootable containers.
+updated: 2026-05-23
 group: deployment-docker-services
 ---
 # Operating System Deployment
 
-2026 04 14 Bootable container concept from IBM
+2026 04 14 [[concepts/software-management|Bootable container concept]] from IBM
 
 ## Overview
 Operating system [[concepts/deployment|deployment]] refers to the process of installing and configuring an operating system on a computer system. This can involve various [[concepts/methods|methods]] and tools designed to automate and streamline the process.
@@ -37,7 +37,6 @@ Operating system [[concepts/deployment|deployment]] refers to the process of ins
 - Key points from the video:
   1. **The Shift to Containers for [[concepts/software|Applications]] (0:00-0:45)**:
       - About a decade ago, [[concepts/software|software]] delivery underwent a fundamental shift.
-
 ## Source Notes
 - 2026-04-07: Bonzai 8B: PrismML
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

@@ -1,19 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "research"
-  - "notebooklm"
-  - "productivity"
-  - "automation"
-  - "source-discovery"
-  - "information-retrieval"
-  - "research-methods"
-aliases:
-  - "NotebookLM source discovery"
-summary: "A feature within NotebookLM used for rapid source discovery when user-provided documents are unavailable."
-updated: 2026-04-22
+summary: A feature within NotebookLM used for rapid source discovery when user-provided documents are unavailable.
+updated: 2026-05-23
 group: applied-ai-workflows
+stub: true
 ---
 # Fast Research
 
@@ -25,7 +16,6 @@ A capability within [[entities/notebooklm]] used for rapid [[concepts/source-dis
 
 ---
 **Backlink:** 2026 04 14 [[entities/notebook-lm|Notebook LM]] new features
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)

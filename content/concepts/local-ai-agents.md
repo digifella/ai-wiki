@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "local-ai"
@@ -11,25 +10,21 @@ tags:
   - "open-source-ai"
   - "private-inference"
   - "mcp"
+  - "model-benchmarks"
 aliases:
   - "Private Local AI"
   - "Offline AI Systems"
-summary: Local AI agents are open-source AI systems that run entirely on personal hardware without cloud connectivity, demonstrated through tools like InsightsLM and LM Studio with Model Context Protocol integration.
-updated: 2026-05-01
+summary: Local AI agents are open-source AI systems that run entirely on personal hardware without cloud connectivity, demonstrated through tools like InsightsLM and LM Studio with Model Context Protocol integration. Recent benchmarks highlight performance trade-offs in specific tasks like translation and coding across different parameter sizes.
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Local AI Agents
 
-Local AI agents are AI systems designed to operate entirely on personal [[concepts/hardware|hardware]]—such as laptops, desktops, or on-premise servers—without requiring [[concepts/cloud-integration|cloud connectivity]] or external [[entities/api-calls|API calls]]. This [[concepts/architecture|architecture]] prioritizes [[concepts/privacy|privacy]], latency reduction, and operational independence, as all computation occurs within the user's controlled environment. The approach is enabled by advances in [[concepts/open-source|open-source]] language models and frameworks that have made capable models viable for consumer-grade hardware.
+Local [[concepts/agentic-ai|AI agents]] are AI systems designed to operate entirely on personal [[concepts/hardware|hardware]]—such as laptops, desktops, or on-premise servers—without requiring [[concepts/cloud-integration|cloud connectivity]] or external [[entities/api-calls|API calls]]. This [[concepts/architecture|architecture]] prioritizes [[concepts/privacy|privacy]], latency reduction, and operational independence, as all computation occurs within the user's controlled environment. The approach is enabled by advances in [[concepts/open-source|open-source]] language [[concepts/models|models]] and frameworks that have made capable models viable for consumer-grade hardware.
 
 ## Implementation and Tools
 
-Common implementations include [[concepts/data-embedding|InsightsLM]] and [[entities/lm-studio|LM Studio]], which provide accessible interfaces for [[concepts/running|running]] language models locally. The integration of [[concepts/external-tools|Model Context Protocol]] (MCP) with these platforms extends [[concepts/agent-capabilities|agent capabilities]], allowing local systems to interact with external tools and data sources while maintaining [[concepts/local-execution|local execution]] of core [[concepts/reasoning|reasoning]]. This hybrid approach balances autonomy with practical integration needs.
+Common implementations include [[concepts/data-embedding|InsightsLM]] and [[entities/lm-studio|LM Studio]], which provide accessible interfaces for [[concepts/running|running]] language models locally. The [[concepts/integration|integration]] of [[concepts/external-tools|Model Context Protocol]] (MCP) with these platforms extends agent capabi
 
-## Tradeoffs and Adoption
-
-[[concepts/local-deployment|Local deployment]] trades cloud scalability and seamless updates for greater control over data retention and system behavior. The approach appeals to users prioritizing privacy, avoiding vendor lock-in, or operating in environments with limited external connectivity. However, local [[concepts/agents|agents]] require adequate hardware resources and manual model management, positioning them as more suitable for specialized [[concepts/scenarios|use cases]] than universally accessible cloud-based alternatives.
-
-## Source Notes
-- 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
-- 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)
-- 2026-04-08: [[lab-notes/2026-04-08-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)
+*   **Recent Benchmarking:** Specific evaluations of local agent capabilities highlight performance variances based on model size and architecture. See [[lab-notes/2026-05-23-Qwen-3.6-27B-vs-35B-Local-AI-Agents-Anki-Translation-Per|Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance]] for detailed comparisons of [[concepts/qwen3-model|Qwen 3.6]] variants in translation and [[concepts/coding|coding]] tasks.
+*   **Model Trade-offs:** [[concepts/testing|Testing]] indicates that while larger parameter counts (e.g., 35B) may offer nuanced improvements in [[concepts/complex-reasoning|complex reasoning]]]], smaller variants (e.g., 27B) often provide superior latency and efficiency on consumer hardware, influencing the choice of local [[concepts/agent-deployment|agent]] deployment]]]].

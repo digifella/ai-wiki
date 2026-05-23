@@ -1,24 +1,14 @@
 ---
 type: entity
-tags:
-  - "brené-brown"
-  - "vulnerability-research"
-  - "shame-studies"
-  - "motivational-speaker"
-  - "self-help-author"
-  - "social-work"
-aliases:
-  - "Brene Brown"
-  - "Dr. Brené Brown"
-summary: "Brené Brown is a research professor and TED speaker known for her work on vulnerability, shame, and human connection."
-updated: 2026-04-12
+summary: Brené Brown is a research professor and TED speaker known for her work on vulnerability, shame, and human connection.
+updated: 2026-05-23
 ---
 ---
 
 # Brené Brown
 
 ## Overview
-Brené Brown is a research professor at the University of Houston where she hosts a Graduate Curriculum in Social Work. She is also a [[entities/ted|TED]] [[entities/speaker|speaker]], author, and podcast host.
+Brené Brown is a research professor [[concepts/assistive-technology|at]] the University of Houston where she hosts a Graduate Curriculum in Social Work. She is also a [[entities/ted|TED]] [[entities/speaker|speaker]], author, and podcast host.
 
 ### Career Highlights
 - Conducted extensive [[concepts/qualitative-research|qualitative research]] on [[concepts/vulnerability|vulnerability]], [[concepts/courage|courage]], worthiness, and [[concepts/shame|shame]].
@@ -36,13 +26,13 @@ Brené Brown is a research professor at the University of Houston where she host
 - Daring Greatly - TEDxHouston
 
 ### New Note: Brené Browns Research Vulnerability Shame and Wholehearted Human Connection
-**Clip title:** The Power of Vulnerability | Brené Brown | TED
+**[[concepts/clip-title|Clip title]]:** The [[concepts/power|Power]] of Vulnerability | Brené Brown | TED
 **Author / channel:** TED
 **URL:** https://www.youtube.com/watch?v=iCvmsMzlF7o
 
-- **Summary:**
-  - A decade-long [[concepts/qualitative-research|qualitative research]] on human connection, vulnerability, and shame.
-  - Discovered that discussions about love and belonging inevitably involve heartbreak and exclusion.
+- **[[concepts/summary|Summary]]:**
+  - A decade-long [[concepts/qualitative-research|qualitative research]] on [[concepts/social-connection|human connection]], vulnerability, and shame.
+  - Discovered that discussions about [[concepts/love|love]] and belonging inevitably involve heartbreak and exclusion.
 
 ### New Note: Brené Brown on Vulnerability and Courage for Accountable Corporate Leadership
 **Clip title:** Brené Brown on How to Lead With Vulnerability at Work | [[entities/the-interview|The Interview]]
@@ -50,8 +40,8 @@ Brené Brown is a research professor at the University of Houston where she host
 **URL:** https://www.youtube.com/watch?v=6t6-npk5_9U
 
 - **Summary:**
-  - Discusses the importance of leadership through vulnerability.
+  - Discusses the importance of [[concepts/leadership|leadership]] through vulnerability.
   - Encourages corporate leaders to be authentic and embrace imperfection.
 
 ## Backlinks
-2026 04 11 Brené Browns Research Vulnerability Shame and Wholehearted Human Conne
+2026 04 11 Brené Browns Research Vulnerability [[concepts/shame|Shame]] and Wholehearted Human Conne

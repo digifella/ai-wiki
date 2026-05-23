@@ -1,25 +1,18 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "gemini"
-  - "notebooklm"
-  - "presentation"
-  - "design"
-  - "ai-tools"
-updated: 2026-04-15
+updated: 2026-05-23
 group: google-ai-ecosystem
 ---
 # Gemini integration
 
-Integration of [[entities/gemini]] into [[concepts/productivity-tools|productivity tools]] enables advanced capabilities like professional presentation [[concepts/design|design]]. Key developments include:
+[[concepts/integration|Integration]] of [[entities/gemini]] into [[concepts/productivity-tools|productivity tools]] enables advanced [[concepts/capabilities|capabilities]] like professional presentation [[concepts/design|design]]. Key developments include:
 
 - [[entities/notebooklm]] now leverages [[entities/gemini]] for customizable presentation design, eliminating reliance on [[concepts/external-tools|external tools]] like [[entities/canva]].
 - A single free update transformed [[concepts/notebooklm|NotebookLM]] from a basic content generator into a professional [[concepts/presentation-tool|presentation tool]] (per [[entities/vaibhav-sisinty]]'s demonstration).
 - [[entities/gemini]]-powered [[concepts/personalization|customization]] allows for direct design [[concepts/adjustments|adjustments]] within [[concepts/notebooklm-workflows|NotebookLM workflows]], enhancing research-to-presentation pipelines.
 
 2026 04 14 [[entities/gartner|Google NotebookLM]] Customizing Design for Professional Presentations via [[concepts/gemini|Gemini]]
-
 ## Source Notes
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]
 - 2026-04-07: NEW Gemini in Google Workspace Updates for Docs, Sheets,

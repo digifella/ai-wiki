@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "mathematical-concepts"
   - "foundational-math"
@@ -11,21 +10,21 @@ tags:
 aliases:
   - "Math"
   - "Mathematical reasoning"
-summary: "The study of numbers, patterns, and logical systems, including foundational concepts like zero that developed differently across cultures."
-updated: 2026-05-01
+summary: The study of numbers, patterns, and logical systems, including foundational concepts like zero that developed differently across cultures.
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Mathematics
 
-Mathematics is the formal study of numbers, quantities, patterns, structures, and logical systems. It encompasses the abstract principles underlying calculation, geometry, algebra, and countless other fields of inquiry. As both a practical tool for solving real-world problems and a theoretical discipline exploring pure logical [[concepts/relationships|relationships]], mathematics forms a foundational language for science, engineering, economics, and many other domains of human knowledge.
+Mathematics is the formal study of numbers, quantities, patterns, structures, and logical systems. It encompasses the abstract principles underlying calculation, geometry, algebra, and countless other fields of inquiry. As both a practical tool for solving real-world problems and a theoretical discipline exploring pure logical [[concepts/relationships|relationships]], mathematics forms a foundational language for [[concepts/science|science]], engineering, economics, and many other domains of human knowledge.
 
 ## Development Across Cultures
 
-The [[concepts/history-of-science-and-conceptsmathematicsmathematics|history of mathematics]] reveals significant variation in how different civilizations approached [[concepts/large-number-management|numerical systems]] and mathematical concepts. The concept of zero exemplifies this cultural divergence: while some Eastern and Islamic mathematical traditions developed sophisticated uses for zero as both a placeholder and a number in its own right, Western European mathematics resisted its [[concepts/adoption|adoption]] for over a millennium. This resistance reflected philosophical and theological concerns rather than purely mathematical ones, demonstrating how cultural and intellectual contexts shape the development of mathematical ideas.
+The [[concepts/history-of-science-and-conceptsmathematicsmathematics|history of mathematics]] reveals significant variation in how different civilizations approached [[concepts/large-number-management|numerical systems]] and [[concepts/mathematical-concepts|mathematical concepts]]. The concept of [[concepts/concept-of-nothingness|zero]] exemplifies this cultural divergence: while some Eastern and Islamic mathematical traditions developed sophisticated uses for zero as both a placeholder and a number in its own right, Western European mathematics resisted its [[concepts/adoption|adoption]] for over a millennium. This resistance reflected philosophical and theological concerns rather than purely mathematical ones, demonstrating how cultural and intellectual contexts shape the development of mathematical [[concepts/ideas|ideas]].
 
 ## Foundational Concepts
 
 The systems and symbols used in mathematics—from basic numerals to complex notations—were not universal or inevitable. Instead, they emerged through gradual refinement and cross-[[concepts/cultural-exchange|cultural exchange]]. Early human societies developed counting systems suited to their immediate needs, and these evolved into increasingly abstract mathematical frameworks. Understanding this historical development reveals that even seemingly elementary mathematical concepts represent sophisticated achievements in human thought, developed through both [[concepts/independent-discovery|independent discovery]] and cultural transmission.
-
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: [[lab-notes/2026-04-07-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution|Riemann Hypothesis Hidden Order in Prime Number Distribution]] · [▶ source](https://www.youtube.com/watch?v=59I84mWLK_c)

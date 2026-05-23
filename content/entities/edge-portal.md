@@ -10,7 +10,7 @@ aliases:
   - "ASIC Edge Portal"
   - "ASIC Company Portal"
 summary: A web portal provided by ASIC for accessing company information and services.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Edge Portal
 

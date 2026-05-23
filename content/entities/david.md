@@ -8,16 +8,15 @@ tags:
 aliases:
   - "Concert Lighting Tutorial Speaker"
 summary: David is the speaker in a tutorial regarding color correcting extreme concert lighting using Adobe Lightroom Classic.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # David
 
-David is an educator and [[concepts/tutorial|tutorial]] creator who specializes in digital photography post-processing techniques. He is known for producing instructional content focused on Adobe Lightroom Classic and addressing specific photographic challenges.
+David is an educator and [[concepts/tutorial|tutorial]] [[concepts/creator|creator]] who specializes in digital photography post-processing techniques. He is known for producing instructional content focused on [[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]] and addressing specific photographic challenges.
 
 ## Concert Lighting Color Correction
 
-David has created tutorial content addressing the technical challenges of color correcting photographs taken under extreme [[concepts/concert-lighting|concert lighting]] conditions. His work focuses on methods for correcting severe color casts that result from stage lighting in Adobe Lightroom Classic, providing practical guidance for photographers working in live performance environments.
-
+David has created tutorial content addressing the technical challenges of color correcting photographs taken under extreme [[concepts/concert-lighting|concert lighting]] conditions. His work focuses on methods for correcting severe [[concepts/color-casts|color casts]] that result from stage lighting in [[entities/adobe-lightroom|Adobe Lightroom]] Classic, providing practical guidance for photographers working in live performance environments.
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)

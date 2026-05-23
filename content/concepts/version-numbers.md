@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "version-control"
   - "software-engineering"
@@ -11,7 +10,8 @@ aliases:
   - "release-versions"
   - "version-management"
 summary: Retired Microsoft software engineer Dave Plummer provides an opinionated look at the state of large language models as of mid-2025.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # Version Numbers
 
@@ -23,8 +23,7 @@ The most prevalent versioning approach is semantic versioning, typically express
 
 ## Practical Applications
 
-Version numbers play a critical role in software maintenance, allowing developers to communicate the scope and [[entities/nature|nature]] of changes to users. They facilitate dependency management in complex systems where one program may rely on specific versions of libraries or frameworks. Clear versioning conventions also help users make informed decisions about whether to upgrade, particularly when updates address security vulnerabilities or introduce breaking changes that might affect their workflows.
-
+Version numbers play a critical role in software maintenance, allowing developers to communicate the scope and [[entities/nature|nature]] of changes to users. They facilitate dependency management in complex systems where one program may rely on specific versions of libraries or frameworks. Clear versioning conventions also help users [[entities/make|make]] informed decisions about whether to upgrade, particularly when updates address [[concepts/security|security]] vulnerabilities or introduce breaking changes that might affect their workflows.
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-P-vs-NP-Problem-Computational-Complexity-and-Implications-Summary|P vs NP Problem Computational Complexity and Implications Summary]] · [▶ source](https://www.youtube.com/watch?v=EHp4FPyajKQ)
 - 2026-04-19: [[lab-notes/2026-04-19-Qwen-36-35B-Full-Precision-vs-Ollama-Quantized-Performance-Memory-Trad|Qwen 36 35B Full Precision vs Ollama Quantized Performance Memory Trad]] · [▶ source](https://www.youtube.com/watch?v=RlGppgMDl9k)

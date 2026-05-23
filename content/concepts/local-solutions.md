@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "graphrag"
   - "llama-3.1"
@@ -13,22 +12,22 @@ aliases:
   - "GraphRAG with Llama 3.1"
   - "Local Graph-based Retrieval Augmented Generation"
 summary: This video demonstrates implementing GraphRAG using Llama 3.1 and the Neo4j graph database.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Local Solutions
 
-Local Solutions refers to approaches for implementing advanced AI retrieval systems entirely on [[concepts/local-infrastructure|local infrastructure]] without reliance on external APIs or [[concepts/cloud-computing|cloud services]]. This concept is particularly relevant for organizations requiring data [[concepts/privacy|privacy]], cost efficiency, or offline capability.
+Local Solutions refers to approaches for implementing advanced AI retrieval systems entirely on [[concepts/local-infrastructure|local infrastructure]] without reliance on external APIs or [[concepts/cloud-computing|cloud services]]. This concept is particularly relevant for organizations requiring data [[concepts/privacy|privacy]], [[concepts/cost|cost]] efficiency, or offline capability.
 
 ## GraphRAG Implementation
 
-GraphRAG (Graph-based [[concepts/answer-generation|Retrieval Augmented Generation]]) combines [[concepts/knowledge-graph|knowledge graph]] structures with retrieval augmented generation to improve context understanding in [[concepts/statistical-language-modeling|language model]] [[concepts/responses|responses]]. By organizing information as interconnected entities and [[concepts/relationships|relationships]] rather than flat documents, GraphRAG enables more nuanced and contextually accurate answers to user queries.
+[[concepts/graph-retrieval-augmented-generation|GraphRAG]] (Graph-based [[concepts/answer-generation|Retrieval Augmented Generation]]) combines [[concepts/knowledge-graph|knowledge graph]] structures with [[concepts/information-provision|retrieval augmented generation]] to improve context understanding in [[concepts/statistical-language-modeling|language model]] [[concepts/responses|responses]]. By organizing information as interconnected entities and [[concepts/relationships|relationships]] rather than flat documents, GraphRAG enables more nuanced and contextually accurate answers to user queries.
 
 ## Local Stack Components
 
-A practical local solutions stack typically combines three key components: a [[concepts/local-gpt|local large language model]] such as [[entities/llama-31|Llama 3.1]], a [[concepts/graph-database|graph database]] like Neo4j to [[concepts/structure|structure]] and query relational data, and supporting frameworks for RAG implementation. This [[concepts/architecture|architecture]] allows organizations to process sensitive information without sending data to external providers while maintaining reasonable [[concepts/inference|inference]] performance on consumer or enterprise [[concepts/hardware|hardware]].
+A practical local solutions stack typically combines three key components: a [[concepts/local-gpt|local large language model]] such as [[entities/llama-31|Llama 3.1]], a [[concepts/graph-database|graph database]] like [[entities/neo4j|Neo4j]] to [[concepts/structure|structure]] and query relational data, and supporting frameworks for RAG [[concepts/adoption|implementation]]. This [[concepts/architecture|architecture]] allows organizations to process sensitive information without sending data to external providers while maintaining reasonable [[concepts/inference|inference]] performance on consumer or enterprise [[concepts/hardware|hardware]].
 
-The approach trades some convenience and potential performance advantages of [[concepts/cloud-based-solutions|cloud-based solutions]] for greater control, privacy, and reduced operational costs. Local implementations are increasingly viable as [[concepts/open-source|open-source]] language models improve and graph database tools mature, making this pattern suitable for enterprises and developers building [[concepts/proprietary-ai|proprietary AI]] systems.
-
+The approach trades some convenience and potential performance advantages of [[concepts/cloud-based-solutions|cloud-based solutions]] for greater [[concepts/power|control]], privacy, and reduced operational costs. Local implementations are increasingly viable as [[concepts/open-source|open-source]] language [[concepts/models|models]] improve and graph database tools mature, making this pattern suitable for enterprises and developers building [[concepts/proprietary-ai|proprietary AI]] systems.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-13: [[lab-notes/2026-04-13-Photoshop-Lightroom-AI-Productivity-Tips-for-Photographers|Photoshop Lightroom AI Productivity Tips for Photographers]] · [▶ source](https://www.youtube.com/watch?v=TCV8KiZxWNM)

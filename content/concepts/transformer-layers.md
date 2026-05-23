@@ -1,27 +1,16 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "transformer"
-  - "neural-networks"
-  - "large-language-models"
-  - "efficiency"
-  - "transformer-layers"
-  - "self-attention"
-  - "sparse-computation"
-  - "deepseek-engram"
-aliases:
-  - "transformer-blocks"
-summary: "Transformer layers are fundamental components of large language models that utilize self-attention and feed-forward networks to enable parallel sequence processing."
-updated: 2026-04-17
+summary: Transformer layers are fundamental components of large language models that utilize self-attention and feed-forward networks to enable parallel sequence processing.
+updated: 2026-05-23
 group: photoshop-layer-workflows
 ---
 # Transformer Layers
 
 Fundamental building blocks of modern [[concepts/large-language-models|large language models (LLMs)]], enabling parallel sequence processing through [[concepts/self-attention|self-attention]] and feed-forward mechanisms. Each layer consists of:
-- **Self-Attention Sublayer**: Computes token [[concepts/relationships|relationships]] via query-key-value projections
+- **Self-[[concepts/attention|Attention]] Sublayer**: Computes token [[concepts/relationships|relationships]] via query-key-value projections
 - **Feed-Forward Network (FFN)**: Applies non-linear transformations independently per token
-- **Residual Connections**: Enable gradient flow and mitigate [[concepts/vanishing-gradient-problem|vanishing gradients]]
+- **Residual Connections**: Enable gradient [[concepts/flow|flow]] and mitigate [[concepts/vanishing-gradient-problem|vanishing gradients]]
 - **Layer Normalization**: Stabilizes [[concepts/training|training]] by normalizing activations
 
 ## Key Inefficiency Addressed by Recent Research
@@ -37,7 +26,6 @@ Fundamental building blocks of modern [[concepts/large-language-models|large lan
 - **Impact**: Demonstrates how Transformer layers can be optimized via selective memory access, advancing Sparse Computation techniques
 
 2026 04 14 DeepSAeek [[entities/deepseek-engram|Engram]] paper [[concepts/prompt-based-modeling|Prompt Engineering]] channel
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-MiniMax-M27-Open-Source-LLM-Technical-Overview-and-Deployment-Summary|MiniMax M27 Open Source LLM Technical Overview and Deployment Summary]] · [▶ source](https://www.youtube.com/watch?v=CUvb-i5niKA)
 - 2026-04-30: Google DeepMind

@@ -1,26 +1,14 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "user-feedback"
-  - "evernote"
-  - "pricing-changes"
-  - "migration-guide"
-  - "evernote-updates"
-  - "data-management"
-aliases:
-  - "evernote-user-input"
-  - "price-structure-update"
-  - "migration-advice"
-  - "dave-edwards-take"
-summary: "This page covers user feedback on Evernote's new pricing structure and provides guidance for data migration."
-updated: 2026-04-11
+summary: This page covers user feedback on Evernote's new pricing structure and provides guidance for data migration.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # User Feedback
 
 ## Overview
-User feedback plays a crucial role in the development and improvement of [[concepts/software|software]] products like [[entities/evernote|Evernote]]. It helps developers understand how users interact with their product and what changes are necessary to enhance [[concepts/user-experience-design|user experience]].
+User [[concepts/feedback|feedback]] plays a crucial role in the development and improvement of [[concepts/software|software]] products like [[entities/evernote|Evernote]]. It helps developers understand how users interact with their product and what changes are necessary to enhance [[concepts/user-experience-design|user experience]].
 
 ### Recent Developments
 - **Evernote [[concepts/pricing-structure|Pricing Structure]] Update**: In response to recent changes, there has been significant user feedback regarding the new [[concepts/tiered-pricing|tiered pricing]] [[concepts/structure|structure]] introduced by Evernote.
@@ -31,15 +19,14 @@ User feedback plays a crucial role in the development and improvement of [[conce
 - data-migration-guide
 
 ### New Note Integration (2026-04-10)
-- **Title:** Reactions To The Price Increase - Plus, How To Remove Files from Evernote
+- **Title:** Reactions To The Price Increase - Plus, How To Remove [[concepts/files|Files]] from Evernote
 - **Author / channel:** [[entities/dave-edwards|Dave Edwards]]
 - **URL:** https://www.youtube.com/watch?v=D04Z5s16QnE
 
-**Summary:**
-This video, presented by certified Evernote expert [[entities/dave-edwards|Dave Edwards]], addresses the widespread concern among Evernote users regarding its new tiered pricing structure and offers advice for those considering migrating their data. Edwards provides an unbiased perspective on the recent changes.
+**[[concepts/summary|Summary]]:**
+This video, presented by certified Evernote expert [[entities/dave-edwards|Dave Edwards]], addresses the widespread concern among Evernote users regarding its new tiered [[concepts/pricing|pricing]] structure and offers advice for those considering migrating their data. Edwards provides an unbiased perspective on the recent changes.
 
 2026 04 10 [[concepts/starter-plan|Evernote New Pricing]] Structure User Reactions and Migration Guidance
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

@@ -1,25 +1,16 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "edge-computing"
-  - "latency-reduction"
-  - "bandwidth-optimization"
-  - "cpu-optimized"
-  - "edge-deployment"
-  - "open-source"
-summary: "Edge computing processes data near the source to reduce latency and bandwidth, exemplified by CPU-optimized [[concepts/ai-models|AI models]] such as [[entities/kitten-tts|Kitten TTS]] and Google Gemma 4."
-updated: 2026-04-14
+summary: "Edge computing processes data near the source to reduce latency and bandwidth, exemplified by CPU-optimized AI models such as Kitten TTS and Google Gemma 4."
+updated: 2026-05-23
 group: platforms-runtimes-environments
-backlinks:
-  - "2026 04 14 CPU optimised TTS Kitten AI Sam Witteveen channel"
 ---
 group: research-practice-sensemaking
 
 # Edge Computing
 
 ## Summary
-Edge computing processes data near the source to reduce latency and bandwidth, exemplified by CPU-optimized [[concepts/ai-models|AI models]] like [[entities/kitten-tts|Kitten TTS]] and Google [[concepts/gemma-4|Gemma 4]].
+Edge computing processes data near the source to reduce latency and bandwidth, exemplified by CPU-optimized [[concepts/ai-models|AI models]] like [[entities/kitten-tts|Kitten TTS]] and [[concepts/google-search|Google]] [[concepts/gemma-4|Gemma 4]].
 
 ## Seed Sources
 - [[concepts/local-ai-cluster|Local Ai Cluster]]
@@ -29,7 +20,6 @@ Edge computing processes data near the source to reduce latency and bandwidth, e
   - Reviewed on [[entities/sam-witteveen|Sam Witteveen]] channel (2026-04-14).
   - Focus on extreme efficiency and small file sizes.
   - Video review available: [CPU optimised TTS - Kitten AI](https://www.youtube.com/watch?v=YpQWdrfzSzQ).
-
 ## Source Notes
 - 2026-04-08: What Is Llama.cpp? The LLM Inference Engine for [[concepts/local-ai|Local AI]]
 - 2026-04-10: What Is Llama.cpp? The LLM [[concepts/inference-engine|Inference Engine for Local AI]]

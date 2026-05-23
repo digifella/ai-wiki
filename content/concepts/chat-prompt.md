@@ -1,18 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "prompt-engineering"
-  - "google-ai-studio"
-  - "chat-prompting"
-  - "structured-input"
-  - "language-models"
-aliases:
-  - "chat-prompt"
-summary: "A structured input method used to guide language model responses during chat interactions in tools like Google AI Studio."
-updated: 2026-04-16
+summary: A structured input method used to guide language model responses during chat interactions in tools like Google AI Studio.
+updated: 2026-05-23
 group: reasoning-context-prompting
+stub: true
 ---
 # Chat Prompt
 
@@ -25,7 +17,6 @@ Structured input to guide [[concepts/statistical-language-modeling|language mode
 - Video tour emphasizes **Main Panel (Chat Prompt)** functionality.
 
 2026 04 14 [[entities/ai-studio|Google Ai studio]] tips [[entities/elle-wang|Elle wang]]
-
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]

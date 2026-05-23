@@ -13,16 +13,16 @@ aliases:
   - "Gemini Notebooks"
   - "NotebookLM and Gemini merger"
 summary: Gemini's new notebooks feature integrates AI research and chat organization following the merger of NotebookLM and Gemini.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Driven Notebooks
 
-AI Driven Notebooks refers to [[concepts/google-search|Google]]'s integrated [[concepts/notebook|notebook]] feature within [[concepts/gemini|Gemini]], created following the merger of the separate [[concepts/ai-integrated-notebooks|NotebookLM]] product into the main Gemini platform. This [[concepts/consolidation|consolidation]] brought together NotebookLM's specialized document analysis capabilities with Gemini's [[concepts/ai-chatbots|conversational AI]] interface. The resulting feature enables users to organize research materials, source documents, and chat interactions within a single notebook environment.
+AI Driven Notebooks refers to Google's integrated notebook feature within Gemini, created following the merger of the separate NotebookLM product into the main Gemini platform. This consolidation brought together NotebookLM's specialized document analysis capabilities with Gemini's conversational AI interface. The resulting feature enables users to organize research materials, source documents, and chat interactions within a unified workspace.
 
 ## Core Functionality
 
-The notebooks feature allows users to upload and organize documents, then interact with them through AI-powered analysis and conversation. Users can store PDFs, text files, web pages, and other source materials within a notebook, creating a centralized workspace for research and information gathering. Gemini's [[concepts/statistical-language-modeling|language model]] can then analyze these documents, answer questions about their content, and help synthesize information across multiple sources.
+The feature allows users to upload and analyze documents, then engage in AI-assisted research conversations. Users can reference source materials while interacting with the AI, which analyzes document content to provide contextual responses. The notebook maintains a structured record of both uploaded sources and the conversation history, allowing users to return to previous research sessions and build upon prior analysis.
 
 ## Integration with Gemini
 
-By integrating NotebookLM into Gemini rather than maintaining it as a separate product, Google consolidated its note-taking and research tools into a single AI platform. This approach allows users to leverage Gemini's general-[[concepts/motivation|purpose]] conversational abilities alongside document-specific analysis features, without switching between different [[concepts/software|applications]]. The notebooks remain tied to a user's Gemini account and [[concepts/conversation-history|conversation history]].
+By merging NotebookLM into Gemini rather than maintaining it as a separate product, Google positioned AI Driven Notebooks as part of its broader conversational AI platform. This integration means users can access notebook functionality alongside standard Gemini chat features, creating a more cohesive experience for both general queries and document-focused research tasks.

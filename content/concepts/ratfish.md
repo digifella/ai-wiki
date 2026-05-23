@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: animals-cognition-behaviour
 tags:
   - "concept"
   - "marine-biology"
@@ -12,11 +11,12 @@ aliases:
   - "Chimaera"
   - "Ghost shark"
 summary: A deep-sea fish related to sharks, featured in PBS Eons content about shark evolution and extinct morphological adaptations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Ratfish
 
-Ratfish are deep-sea fish belonging to the subclass Chimaera, making them distant relatives of sharks and rays rather than true fish. They are characterized by their elongated bodies, large eyes adapted to low-light environments, and venomous [[concepts/spines|spines]] on their dorsal fins. Their name derives from their rat-like appearance, particularly their pointed snouts and tapering tails. Ratfish inhabit the ocean depths, typically at depths ranging from 200 to 2,600 meters.
+Ratfish are deep-sea fish belonging to the subclass Chimaera, making them distant relatives of sharks and [[concepts/rays|rays]] rather than true fish. They are characterized by their elongated bodies, large eyes adapted to low-[[concepts/light|light]] environments, and venomous [[concepts/spines|spines]] on their dorsal fins. Their name derives from their rat-like appearance, particularly their pointed snouts and tapering tails. Ratfish inhabit the ocean depths, typically [[concepts/assistive-technology|at]] depths ranging from 200 to 2,600 meters.
 
 ## Evolutionary Significance
 
@@ -25,6 +25,5 @@ Ratfish have attracted [[concepts/attention-mechanisms|attention]] from paleonto
 ## Modern Distribution and Ecology
 
 Today's ratfish species occupy ecological niches in deep ocean environments across the world. They feed primarily on benthic invertebrates and small fish, using their specialized tooth plates to crush hard-shelled prey. Their survival in extreme deep-sea conditions, combined with their relatively unchanged basic body plan over millions of years, demonstrates the success of their evolutionary strategy in stable, deep-ocean environments.
-
 ## Source Notes
 - 2026-04-07: How Sharks Lost Their Buzzsaws, Anvils, and Spikes

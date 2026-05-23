@@ -9,7 +9,7 @@ tags:
 aliases:
   - "Elizabeth Anne Brown article subject"
 summary: Denmark's archaeology experiment involves private detectorists unearthing historical artifacts.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Alastair Philip Wiper
 

@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: creative-pursuits
-updated: 2026-04-14
+summary: A feature in Android 16 that dynamically adjusts Always-On Display clock colors to match the dominant hues of the current wallpaper.
+updated: 2026-05-23
 group: lightroom-color-workflows
-summary: "A feature in Android 16 that dynamically adjusts Always-On Display clock colors to match the dominant hues of the current wallpaper."
 ---
 - "[[entities/android|android]]"
   - "aod"

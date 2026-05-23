@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "agents"
-  - "automation"
-  - "software-architecture"
-  - "ai-agent-frameworks"
-  - "automation-tools"
-  - "api-integration"
-  - "software-execution"
-  - "business-applications"
-updated: 2026-04-14
+summary: A tool runner is an execution component that invokes and manages external functions, APIs, or computational processes within AI agent frameworks.
+updated: 2026-05-23
 group: developer-tooling-clis
-summary: "A tool runner is an execution component that invokes and manages external functions, APIs, or computational processes within AI agent frameworks."
 ---
-group: toolchains-apis-integrations
 title: "tool runner"
 ---
 
@@ -30,13 +19,12 @@ An execution component within [[concepts/agentic-ai]] responsible for invoking a
 
 ### RAG vs Agents: Role of Tool Runners
 - **RAG** enhances LLM [[concepts/responses|responses]] via retrieved knowledge but **cannot execute external actions** (e.g., [[entities/api-calls|API calls]], data processing).
-- **Agents** extend RAG by incorporating **tool execution** (via tool runners) to interact with external systems and perform tasks.
+- **[[concepts/agents|Agents]]** extend RAG by incorporating **tool execution** (via tool runners) to interact with external systems and perform tasks.
 - Tool runners are **essential for [[concepts/agent-capabilities|agent capabilities]]** (e.g., triggering workflows, accessing live data) but **irrelevant for [[concepts/contextualized-language-understanding|RAG systems]]**.
 
 ## Sources
-- 2026 04 10 Hermes and OpenClaw Complementary [[concepts/agentic-frameworks|AI Agent Frameworks]] for Business
+- 2026 04 10 [[entities/hermes-agent|Hermes]] and [[concepts/automated-information-pipelines|OpenClaw]] Complementary [[concepts/agentic-frameworks|AI Agent Frameworks]] for Business
 
-2026 04 14 Difference between RAG and Agents for workflow
-
+2026 04 14 Difference between RAG and Agents for [[concepts/workflow|workflow]]
 ## Source Notes
 - 2026-04-07: Hermes Just Solved the Biggest Problem With OpenClaw

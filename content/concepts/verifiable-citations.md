@@ -1,22 +1,9 @@
 ---
 type: concept
-domain: tools-platforms
-tags:
-  - "AI"
-  - "Research"
-  - "Verification"
-  - "Knowledge-Management"
-  - "ai-verification"
-  - "information-integrity"
-  - "hallucination-mitigation"
-  - "knowledge-curation"
-  - "agentic-research"
-aliases:
-  - "verifiable-claims"
-  - "citation-anchoring"
-summary: "The practice of anchoring AI-generated claims to traceable and authentic source material to ensure information integrity and mitigate hallucination."
-updated: 2026-04-26
-group: developer-tooling-clis
+domain: ai-agents
+summary: The practice of anchoring AI-generated claims to traceable and authentic source material to ensure information integrity and mitigate hallucination.
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Verifiable citations
 
@@ -30,7 +17,6 @@ The practice of anchoring AI-generated claims to traceable, authentic, and verif
 
 ---
 **Backlinks:**
-- 2026 04 22 Stanfords [[concepts/agent-based-knowledge-curation|STORM AI]] Verifiable Agent Based Research and Knowledge Curation
-
+- 2026 04 22 Stanfords [[concepts/agent-based-knowledge-curation|STORM AI]] Verifiable [[entities/agent|Agent]] Based Research and Knowledge Curation
 ## Source Notes
 - 2026-04-22: Stanford

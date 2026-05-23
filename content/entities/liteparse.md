@@ -1,36 +1,21 @@
 ---
 type: entity
-tags:
-  - "tool"
-  - "document-parsing"
-  - "LLMs"
-  - "open-source"
-  - "document-parsing-local"
-  - "llm-assistant"
-  - "privacy-focused-tool"
-  - "open-source-project"
-  - "local-operation"
-aliases:
-  - "Lite Parse"
-  - "Local DocuParse"
-  - "LlamaIndex Parsing"
-  - "Layout-Preserving Parser"
-summary: "LiteParse is a free, open-source document parsing tool that operates locally on users' machines to preserve layout and ensure data privacy."
-updated: 2026-04-11
+summary: LiteParse is a free, open-source document parsing tool that operates locally on users' machines to preserve layout and ensure data privacy.
+updated: 2026-05-23
 ---
 title: "[[concepts/chart-extraction|liteparse]]"
 
 ## LiteParse: Free, Local, Layout-Preserving Document Parsing for LLMs
 - **Introduction:** [[entities/liteparse|LiteParse]] is a free and [[concepts/open-source|open-source]] [[concepts/document-parsing|document parsing]] tool developed by the [[entities/llamaindex|LlamaIndex]] team.
 - **Features:**
-  - Locally parses various document types (PDFs, spreadsheets, [[concepts/images|images]]).
+  - Locally parses various document types ([[concepts/pdfs|PDFs]], spreadsheets, [[concepts/images|images]]).
   - Preserves layout during parsing.
   - Operates entirely on user's machine without reliance on paid APIs.
 
 ### Summary
-The video introduces [[concepts/liteparse|LiteParse]] as a new tool for efficiently and accurately reading and parsing documents. Its key advantage is the ability to operate locally, ensuring [[concepts/privacy|privacy]] and control over data.
+The video introduces [[concepts/liteparse|LiteParse]] as a new tool for efficiently and accurately reading and parsing documents. Its key advantage is the ability to operate locally, ensuring [[concepts/privacy|privacy]] and [[concepts/power|control]] over data.
 
-**Clip title:** Stop using paid APIs for [[concepts/document-parsing|document parsing]] (Here's what to use instead)
+**[[concepts/clip-title|Clip title]]:** Stop using paid APIs for [[concepts/document-parsing|document parsing]] (Here's what to use instead)
 - **Author / channel:** Getting Started with Jeff
 - **URL:** https://www.youtube.com/watch?v=1GOJn9xiCc4
 
@@ -41,7 +26,7 @@ The video introduces [[concepts/liteparse|LiteParse]] as a new tool for efficien
 **New Information:**
 - 100% local operation ensures [[concepts/ai-security|data privacy]] and control over user's machine.
 - Quick and accurate parsing of documents is enabled by LiteParse’s agentic processing [[concepts/solution|solution]], addressing challenges in AI-driven document extraction for LLMs.
-- Highlights the evolving landscape of [[concepts/ai-development|AI development]], focusing on the issues faced when [[concepts/coding|coding]] intelligent [[concepts/agentic-ai|agents]] to handle complex document formats.
+- [[concepts/highlights|Highlights]] the evolving landscape of [[concepts/ai-development|AI development]], focusing on the issues faced when [[concepts/coding|coding]] intelligent [[concepts/agentic-ai|agents]] to handle complex document formats.
 
 **Clip title:** LiteParse - The Local Document Parser
 **Author / channel:** [[entities/sam-witteveen|Sam Witteveen]]
@@ -55,9 +40,8 @@ The video introduces [[concepts/liteparse|LiteParse]] as a new tool for efficien
 - 2026 04 10 LlamaIndexs LiteParse [[concepts/numerical-data-extraction|Agentic Document Processing]] and the End of
 
 ## Related Notes
-- 2026 04 10 LlamaIndexs LiteParse Agentic Document Processing and the End of
+- 2026 04 10 LlamaIndexs [[concepts/chart-extraction|LiteParse]] Agentic [[concepts/document-processing|Document Processing]] and the End of
 - 2026 04 10 LiteParse Free Local [[concepts/layout-preserving-parsing|Layout Preserving Document Parsing]] for LLMs
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)
 - 2026-04-10: [[lab-notes/2026-04-10-LiteParse-LlamaIndexs-Agentic-Document-Processing-Solution-for-LLMs|LiteParse LlamaIndexs Agentic Document Processing Solution for LLMs]] · [▶ source](https://www.youtube.com/watch?v=_lpYx03VVBM)

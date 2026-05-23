@@ -11,12 +11,20 @@ aliases:
   - "Microsoft Foundry"
   - "Foundry Platform"
 summary: Microsoft Foundry is a platform for building AI applications and agents, introduced in a Microsoft Mechanics video from 2026.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI App
 
-An AI App is a [[concepts/software|software]] application built on AI-native development platforms designed to create and deploy AI-powered services and autonomous [[concepts/agents|agents]]. These applications integrate [[concepts/large-language-model-llm|large language models]], machine [[concepts/learning|learning]] components, and [[concepts/agentic-patterns|agentic workflows]] to perform [[concepts/complex-tasks|complex tasks]] with reduced manual intervention. AI Apps represent a shift in application [[concepts/architecture|architecture]] where [[concepts/agentic-ai|AI agents]] can operate with greater autonomy, make decisions based on learned patterns, and execute workflows with minimal human oversight.
+An AI App is a software application built on AI-native development platforms designed to create and deploy AI-powered services and autonomous agents. These applications integrate large language models, machine learning components, and agentic workflows to perform complex tasks with reduced manual intervention. AI Apps represent a shift in application architecture where AI agents form the core operational logic rather than serving as supplementary features.
 
-## Microsoft Foundry
+## Architecture and Components
 
-Microsoft Foundry is a platform introduced in 2026 for building [[concepts/ai-powered-applications|AI applications]] and agents. As an AI-native development platform, [[concepts/rich-tooling|Foundry]] enables developers to construct and deploy AI-powered services by providing integrated tools for incorporating language models and [[concepts/agentic-components|agentic components]] into applications.
+AI Apps typically combine multiple technical layers including language model APIs, task orchestration systems, and integration frameworks that enable agents to interact with external tools and data sources. Unlike traditional applications with fixed decision trees, AI Apps use neural language models to generate responses and determine actions dynamically based on context and goals. This architecture allows applications to handle novel situations and adapt their behavior without explicit programming for each scenario.
+
+## Development Platforms
+
+AI-native development platforms such as Microsoft Foundry provide infrastructure and tools specifically designed for building AI applications. These platforms offer pre-built components for model integration, agent frameworks, and deployment pipelines that reduce development time compared to building AI systems from scratch. They abstract away low-level machine learning implementation details, allowing developers to focus on application logic and agent behavior design.
+
+## Practical Applications
+
+AI Apps are deployed across various domains including customer service automation, data analysis, content generation, and process optimization. Organizations use them to scale operations that traditionally required human expertise, improve response times, and reduce operational costs. The effectiveness of any AI App depends on factors including model quality, training data, prompt engineering, and the sophistication of its agentic workflows.

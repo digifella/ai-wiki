@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "model-support"
   - "local-inference"
@@ -12,7 +11,8 @@ aliases:
   - "Model Compatibility"
   - "Multi-Backend Support"
 summary: Nexa SDK is an open-source developer toolkit that enables running AI models locally on NPUs, GPUs, and CPUs.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Broad Model Support
 
@@ -20,8 +20,8 @@ Broad model support refers to a development toolkit's ability to run diverse [[c
 
 ## Hardware Compatibility
 
-Nexa SDK achieves broad model support through compatibility with multiple processing backends. The toolkit can execute models on NPUs ([[concepts/neural-processing-units|Neural Processing Units]]), GPUs, and CPUs, allowing developers to choose hardware based on their specific performance requirements and available infrastructure. This flexibility means the same model can be deployed across different devices without requiring separate implementations.
+Nexa SDK achieves broad model support through compatibility with multiple processing backends, including NPUs ([[concepts/neural-processing-units|Neural Processing Units]]), GPUs, and CPUs. This multi-backend approach allows the same model to run on different hardware depending on availability and performance requirements. Developers can deploy models to consumer devices, edge hardware, or [[concepts/data-center-infrastructure|data center infrastructure]] using a consistent interface.
 
-## Model Flexibility
+## Model Formats and Optimization
 
-The toolkit supports a range of model types and architectures rather than restricting developers to particular formats or model families. This approach reduces [[concepts/friction|friction]] in the development workflow by eliminating the need to convert or rewrite models to fit toolkit-specific requirements. Developers can work with models from different sources and frameworks, integrating them into their [[concepts/software|applications]] more directly.
+The toolkit supports models in standard formats such as GGUF (GPT-Generated Unified Format), reducing the need for custom conversion pipelines. By handling format compatibility and hardware-specific optimizations internally, Nexa SDK enables developers to focus on application logic rather than infrastructure details. This [[concepts/abstraction-layer|abstraction layer]] simplifies [[concepts/integration|integration]] of new models as they become available.

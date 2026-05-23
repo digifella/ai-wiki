@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "specialized-ai"
-  - "gemini"
-  - "ai-agents"
-  - "automation"
-  - "task-optimization"
-  - "gemini-gems"
-  - "productivity"
-  - "image-generation"
-aliases:
-  - "domain-specific-ai"
-  - "task-specific-assistant"
-summary: "An AI assistant optimized for specific tasks or domains to provide targeted support and reduce repetitive task overhead."
-updated: 2026-04-26
+summary: An AI assistant optimized for specific tasks or domains to provide targeted support and reduce repetitive task overhead.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Specialized AI Assistant
@@ -25,7 +12,7 @@ An [[concepts/learning|AI assistant]] optimized for specific tasks or domains, m
 ## Key Examples
 - **[[concepts/meeting-prep-strategist|Meeting Prep Strategist]]**: [[concepts/gemini|Gemini]] Gems-built assistant automating agenda creation, participant analysis, and pre-meeting research
 - **Automated Weekly Business Report Generator**: [[entities/gemini|Gemini]] Gems-built system compiling data, generating insights, and formatting reports without manual intervention
-- **Consistent Image/Storyboard Creator**: [[entities/gemini|Gemini]] Gems-driven workflow using JSON to orchestrate [[entities/dall-e-3|DALL-E 3]] for uniform visual output and storyboarding
+- **Consistent Image/Storyboard [[concepts/creator|Creator]]**: [[entities/gemini|Gemini]] Gems-driven [[concepts/workflow|workflow]] using JSON to orchestrate [[entities/dall-e-3|DALL-E 3]] for uniform visual [[concepts/output|output]] and storyboarding
 
 ## Value Proposition
 - Eliminates repetitive task overhead (e.g., report generation, meeting prep)
@@ -33,7 +20,6 @@ An [[concepts/learning|AI assistant]] optimized for specific tasks or domains, m
 - Enables focus on high-value strategic work
 
 2026 04 14 [[concepts/automated-report-generator|Gemini Gems]]
-
 ## Source Notes
 
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)

@@ -13,19 +13,19 @@ aliases:
   - "agentic-file-search"
   - "exploration-based-search"
 summary: The fs-explorer project introduces agentic file search as a method to replace RAG with exploration.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Agentic Search
 
-Agentic search is an [[concepts/knowledge-bases|information retrieval]] approach where autonomous [[concepts/agents|agents]] actively explore file systems or knowledge bases instead of querying pre-indexed databases. Rather than matching a query against static indexed content, an agentic search system treats retrieval as an interactive navigation process. An agent iteratively examines files or documents, assesses their relevance to a given query, and determines which paths to explore next based on discovered content and learned patterns.
+Agentic search is an information retrieval approach where autonomous agents actively explore file systems or knowledge bases rather than relying on pre-indexed query-matching systems. Instead of retrieving results from a static database, the agent navigates through documents or files iteratively, assessing relevance and deciding which paths to explore next based on discovered content. This method treats retrieval as an interactive process of navigation and discovery rather than a lookup operation.
 
-## Distinction from Traditional Search
+## Distinction from RAG
 
-Traditional search methods rely on pre-computed indices and similarity ranking to return results. In [[concepts/contrast|contrast]], agentic search performs live exploration, allowing the agent to adapt its search strategy based on what it encounters. This approach can be particularly useful in unstructured or dynamically changing information environments where pre-indexing is impractical or where the agent needs to apply domain-specific [[concepts/reasoning|reasoning]] to navigate effectively.
+Traditional Retrieval-Augmented Generation (RAG) systems depend on pre-computed embeddings and indexed content to match user queries against stored documents. Agentic search replaces this static indexing with dynamic exploration, allowing agents to discover relevant information through examination and reasoning about file structure and content. This approach can be particularly useful in scenarios where file organization itself contains meaningful signals or where the search space changes frequently, making pre-indexing impractical or inefficient.
 
-## Relation to RAG
+## Practical Application
 
-Agentic search has been proposed as an alternative to Retrieval-Augmented Generation (RAG) systems. While RAG depends on pre-indexed vector stores and similarity search to retrieve context for language models, agentic search uses [[concepts/reasoning-steps|agent reasoning]] to navigate and select relevant information dynamically. Projects like [[entities/fs-explorer|fs-explorer]] explore how agent-driven exploration might replace the static retrieval component of RAG pipelines, potentially improving [[concepts/retrieval-quality|retrieval quality]] for complex or hierarchically organized information.
+The fs-explorer project exemplifies this concept by implementing agentic file search capabilities. Rather than searching a curated index, an agent can traverse a file system, read documents, and make intelligent decisions about which directories or files to investigate based on the task at hand. This enables more flexible information discovery while potentially reducing the overhead of maintaining and updating search indices.
 
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

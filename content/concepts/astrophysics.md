@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: cosmology-astronomy-astrophysics
 tags:
   - "stellar-physics"
   - "cosmology"
@@ -12,20 +11,20 @@ aliases:
   - "stellar astrophysics"
   - "astrophysical research"
 summary: The study of physical properties, formation, and evolution of stars, galaxies, and other celestial objects.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cosmology-astronomy-astrophysics
 ---
 # Astrophysics
 
-Astrophysics is the branch of [[concepts/astronomy|astronomy]] that applies the principles of [[concepts/physics|physics]] to understand celestial objects and cosmic phenomena. It combines [[concepts/empirical-evidence|observational data]] from telescopes and satellites with theoretical models grounded in mechanics, thermodynamics, nuclear physics, and [[concepts/electromagnetic-interaction|electromagnetism]]. By analyzing the light, radiation, and particles emitted by stars, galaxies, and other structures, astrophysicists determine fundamental properties such as temperature, density, chemical composition, and distance.
+Astrophysics is the branch of [[concepts/astronomy|astronomy]] that applies the principles of [[concepts/physics|physics]] to understand celestial objects and cosmic phenomena. It combines [[concepts/empirical-evidence|observational data]] from telescopes and satellites with theoretical [[concepts/models|models]] grounded in mechanics, thermodynamics, nuclear physics, and [[concepts/electromagnetic-interaction|electromagnetism]]. By analyzing the [[concepts/light|light]], radiation, and particles emitted by [[concepts/stellar-objects|stars]], galaxies, and other structures, astrophysicists determine fundamental properties such as temperature, density, composition, motion, and distance.
 
-## Formation and Evolution
+## Key Areas of Study
 
-A central focus of astrophysics is understanding how celestial objects form and change over time. Stars are born from collapsing clouds of gas and dust, undergo [[concepts/hydrogen-fusion|nuclear fusion]] in their cores, and eventually exhaust their fuel, ending their lives as white dwarfs, [[concepts/neutron-stars|neutron stars]], or [[concepts/black-holes|black holes]] depending on their mass. Galaxies evolve through interactions with one another and grow by accreting matter and merging with neighboring systems. These processes shape the large-scale [[concepts/structure|structure]] of the universe.
+Astrophysics encompasses the formation and evolution of stars across their lifecycles, from stellar nurseries to [[concepts/supernovae|supernovae]] and [[concepts/neutron-stars|neutron stars]]. It examines the [[concepts/structure|structure]] and dynamics of galaxies, including their rotation, gravitational interactions, and central supermassive [[concepts/black-holes|black holes]]. Astrophysicists also investigate the large-scale structure of the universe, the [[entities/nature|nature]] of [[concepts/dark-matter|dark matter]] and dark energy, and the physical conditions that existed in the early cosmos following the [[concepts/big-bang|Big Bang]].
 
-## Methods and Applications
+## Methods and Tools
 
-Astrophysicists employ multiple observational techniques across the electromagnetic spectrum, from radio waves to [[concepts/gamma-rays|gamma rays]], as well as particle and [[concepts/gravitational-waves|gravitational wave detection]]. These observations are paired with computational models and laboratory experiments to test theoretical predictions. The field addresses fundamental questions about the universe's origin, structure, and ultimate fate, while also studying phenomena ranging from exoplanet atmospheres to the behavior of matter near black holes.
-
+Modern astrophysics relies on observations across the entire electromagnetic spectrum, from radio waves to [[concepts/gamma-rays|gamma rays]], supplemented by neutrino and [[concepts/gravitational-waves|gravitational wave detection]]. Space-based observatories provide data unobstructed by Earth's atmosphere, while ground-based facilities offer complementary observations. Computational modeling allows astrophysicists to simulate stellar interiors, galaxy collisions, and cosmological evolution, [[concepts/testing|testing]] theoretical predictions against observational results.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-JWST-Detects-Evidence-of-Universes-Primordial-Population-III-Stars-in-|JWST Detects Evidence of Universes Primordial Population III Stars in ]] · [▶ source](https://www.youtube.com/watch?v=VGekUw84lxQ)
 - 2026-04-13: [[lab-notes/2026-04-13-LHAASOs-Confirmation-The-Universes-Most-Powerful-Cosmic-Ray-Sources|LHAASOs Confirmation The Universes Most Powerful Cosmic Ray Sources]] · [▶ source](https://www.youtube.com/watch?v=Y6slPVbwLhI)

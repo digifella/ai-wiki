@@ -1,13 +1,8 @@
 ---
-domain: ai-agents
-group: agent-systems-skills
 type: concept
-tags:
-  - "ai"
-  - "agent-system"
-  - "orchestration"
-  - "multi-agent"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Orchestrated System
 
@@ -21,10 +16,9 @@ A coordinated framework where multiple autonomous [[concepts/agentic-ai|agents]]
 
 ## Implementation Examples
 - **[[concepts/claude-code|Claude Code]] [[concepts/ai-work-team|AI Work Team]]**: Demonstrates building an [[concepts/orchestrated-system|orchestrated system]] using [[entities/claude-code]] where agents share workspace/files to collaborate on tasks (e.g., [[concepts/ai-coding|code generation]], analysis). Includes comprehensive [[concepts/tutorial|tutorial]] by [[entities/grace-leung|Grace Leung]]: [Building an Autonomous AI Work Team with Claude Code](https://youtu.be/0J2_YGuNrDo).
-- **IBM AI Trends**: [Multi-agent Orchestration in Practice](https://youtu.be/zt0JA5rxdfM) showing Planner/Worker/Critic [[concepts/agent-collaboration|agent collaboration]].
+- **[[entities/ibm|IBM]] AI Trends**: [Multi-agent Orchestration in Practice](https://youtu.be/zt0JA5rxdfM) showing Planner/Worker/Critic [[concepts/agent-collaboration|agent collaboration]].
 
 ## References
-- 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] and agent team [[entities/grace-leung|Grace Leung]]
-
+- 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] and [[entities/agent|agent]] team [[entities/grace-leung|Grace Leung]]
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Managed-Agents-API-Suite-for-Building-and-Deploying-Autonomous-|Claude Managed Agents API Suite for Building and Deploying Autonomous ]] · [▶ source](https://www.youtube.com/watch?v=NLWiIj47IdI)

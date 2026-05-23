@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "gui"
-  - "interface"
-  - "ollama"
-  - "local-ai"
-  - "llm"
-  - "local-execution"
-  - "open-source"
-  - "privacy"
-  - "secure"
-  - "custom-model"
-aliases:
-  - "graphical user interface"
-summary: "A GUI is a visual interface that allows users to interact with software through graphical elements such as icons and buttons, rather than text-based commands."
-updated: 2026-04-15
+summary: A GUI is a visual interface that allows users to interact with software through graphical elements such as icons and buttons, rather than text-based commands.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 A GUI (Graphical [[concepts/user-interface|User Interface]]) is a visual interface that allows users to interact with [[concepts/software|software]] through graphical elements like icons, [[concepts/buttons|buttons]], and [[entities/windows|windows]], rather than text-based [[concepts/commands|commands]].
@@ -25,7 +12,6 @@ A GUI (Graphical [[concepts/user-interface|User Interface]]) is a visual interfa
 * Demonstrates the trend toward [[entities/anythingllm|local AI execution]] for enhanced [[concepts/privacy|privacy]] and reduced reliance on external APIs.
 
 Backlink: 2026 04 14 About the new [[entities/ollama|Ollama]] gui interface
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

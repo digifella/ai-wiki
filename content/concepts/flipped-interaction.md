@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "concept"
-  - "ai"
-  - "coaching"
-  - "interaction"
-  - "clarity-problem"
-  - "ai-initiated"
-  - "structured-questioning"
-  - "time-clarity-interview"
-  - "reflective-interviewing"
-summary: "Flipped Interaction is a technique where the AI initiates structured questioning to guide the user, addressing underlying clarity problems instead of surface-level symptoms such as time management."
-updated: 2026-04-14
+summary: Flipped Interaction is a technique where the AI initiates structured questioning to guide the user, addressing underlying clarity problems instead of surface-level symptoms such as time management.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Flipped Interaction

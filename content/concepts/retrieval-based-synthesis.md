@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "research-automation"
-  - "retrieval-augmented-generation"
-  - "knowledge-management"
-  - "agents"
-  - "retrieval-synthesis"
-  - "knowledge-curation"
-  - "agentic-research"
-  - "information-integration"
-  - "automated-research"
-aliases:
-  - "retrieval synthesis"
-  - "automated synthesis"
-summary: "A computational process where AI systems retrieve information from external sources and integrate it into structured, coherent outputs."
-updated: 2026-04-26
+summary: A computational process where AI systems retrieve information from external sources and integrate it into structured, coherent outputs.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Retrieval-based synthesis
@@ -38,8 +24,7 @@ A computational process where an AI system retrieves information from [[concepts
 
 ---
 **Backlinks**:
-- 2026 04 22 Stanfords [[concepts/agent-based-knowledge-curation|STORM AI]] Verifiable Agent Based Research and Knowledge Curation
-
+- 2026 04 22 Stanfords [[concepts/agent-based-knowledge-curation|STORM AI]] Verifiable [[concepts/agent-based-research|Agent Based Research]] and Knowledge Curation
 ## Source Notes
 
 - 2026-04-22: Stanford · [▶ source](https://www.youtube.com/watch?v=GtGW9pExqV0)

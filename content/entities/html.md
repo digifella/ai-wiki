@@ -1,17 +1,7 @@
 ---
 type: entity
-tags:
-  - "html"
-  - "web-development"
-  - "markup"
-  - "markup-language"
-  - "frontend-development"
-  - "web-applications"
-aliases:
-  - "HyperText Markup Language"
-  - "HTML5"
-summary: "HTML is the standard markup language used to create web pages and web applications by defining content structure through elements and attributes."
-updated: 2026-04-21
+summary: HTML is the standard markup language used to create web pages and web applications by defining content structure through elements and attributes.
+updated: 2026-05-23
 ---
 # HTML
 
@@ -30,7 +20,7 @@ HTML (HyperText Markup Language) is the standard markup language for creating we
 - CSS
 - JavaScript
 - [[concepts/web-development]]
-- DOM
+- [[concepts/dom|DOM]]
 - Web Browser
 
-[[concepts/date-2026-04-13|2026]] 04 14 Google Stitch Channel [[entities/teachers-tech|Teachers Tech]]
+[[concepts/date-2026-04-13|2026]] 04 14 [[concepts/ai-assisted-prototyping|Google Stitch]] Channel [[entities/teachers-tech|Teachers Tech]]

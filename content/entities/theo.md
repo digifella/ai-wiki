@@ -1,19 +1,8 @@
 ---
 type: entity
-tags:
-  - "entity"
-  - "ai"
-  - "coding"
-  - "ai-coding"
-  - "ai-agents"
-  - "context-files"
-  - "eth-zurich"
-  - "agentsmd"
-  - "claudemd"
-aliases:
-  - "Theo Channel"
-summary: "An ETH Zurich study suggests that using agentsmd and claudemd context files may degrade the performance of AI coding agents."
-updated: 2026-04-14
+summary: An ETH Zurich study suggests that using agentsmd and claudemd context files may degrade the performance of AI coding agents.
+updated: 2026-05-23
+stub: true
 ---
 # Theo
 

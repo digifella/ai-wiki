@@ -1,26 +1,10 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "future-of-work"
-  - "artificial-intelligence"
-  - "automation"
-  - "agents"
-  - "digital-transformation"
-  - "autonomous-agents"
-  - "work-transformation"
-  - "ai-regulation"
-  - "agentic-workflows"
-aliases:
-  - "Work of Tomorrow"
-  - "AI and Work Evolution"
-  - "Automation in the Workplace"
-  - "Agents in Business Strategy"
-  - "Digital Workplace Revolution"
-summary: "The page discusses how advancements in artificial intelligence and autonomous systems are transforming productivity, organizational structures, and human-machine collaboration in the modern workplace."
-updated: 2026-04-11
+summary: The page discusses how advancements in artificial intelligence and autonomous systems are transforming productivity, organizational structures, and human-machine collaboration in the modern workplace.
+updated: 2026-05-23
 group: enterprise-strategy-future-work
-title: "Future of Work"
+title: Future of Work
 ---
 # Future of Work
 
@@ -28,8 +12,8 @@ The evolution of productivity, organizational structures, and human-machine coll
 
 ## Key Drivers & Trends
 - [[concepts/agentic-ai]]: The transition from static tools to [[concepts/agentic-ai|autonomous agents]] capable of executing [[concepts/complex-tasks|complex tasks]] and reshaping [[concepts/work-transformation|Work Transformation]].
-- Communication Evolution: The integration of intelligence into collaboration platforms like [[entities/slack]] to redefine real-time interaction.
-- Regulatory Landscape: The growing impact of [[concepts/ai-safety]] and the strategic maneuvers of major players such as Microsoft and [[entities/openai]] on the global [[concepts/innovation|innovation]] ecosystem.
+- Communication Evolution: The [[concepts/integration|integration]] of intelligence into collaboration platforms like [[entities/slack]] to redefine real-time interaction.
+- Regulatory Landscape: The growing impact of [[concepts/ai-safety]] and the strategic maneuvers of major players such as [[entities/microsoft|Microsoft]] and [[entities/openai]] on the global [[concepts/innovation|innovation]] ecosystem.
 
 ## Strategic Insights
 - [[entities/marc-benioff]] (Salesforce) discusses the profound impact of [[concepts/ai]] and [[concepts/agentic-ai|Agents]] on the fundamental [[entities/nature|nature]] of work and Communication.
@@ -37,7 +21,6 @@ The evolution of productivity, organizational structures, and human-machine coll
 
 ## Related Links
 - 2026 04 10 [[entities/marc-benioff|Marc Benioff]] Salesforces AI Strategy [[concepts/agents|Agents]] Slack and Work
-
 ## Source Notes
 - 2026-04-07: Marc Benioff: Salesforce
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]

@@ -1,12 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+summary: Anthropic researchers discuss the nature of large language models and their work in interpretability.
+updated: 2026-05-23
 group: applied-ai-workflows
-summary: "Anthropic researchers discuss the nature of large language models and their work in interpretability."
+stub: true
 ---
 - "concept"
-  - "large-language-models"
+  - "[[concepts/large-language-model-llm|large-language-models]]"
   - "[[concepts/interpretability|interpretability]]"
   - "[[entities/anthropic-institute|anthropic]]"
   - "[[concepts/ai-research|ai-research]]"
@@ -15,7 +16,6 @@ aliases:
 group: applied-ai-workflows
 
 # Internet Search Engine
-
 ## Source Notes
 - 2026-04-23: <https://www.youtube.com/watch?v=fGKNUvivvnc> <https://www.anthropic.com/news/tracing-thoughts-language-model> This video features a discussion among four researchers from [[entities/anthropic|Anthropic]] about the [[entities/nature|nature]] of [[concepts/large-language-models|large language models]] (LLMs) and their work in "[[concepts/interpretability|interpretability]]." **The Natur (Anthropic Discussion about how LLM think)
 - 2026-04-14: 2026 04 14 Anthropic Discussion about how LLM think

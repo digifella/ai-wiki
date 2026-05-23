@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "vision"
-  - "ai"
-  - "llm"
-  - "multimodal"
-  - "vision-capabilities"
-  - "multimodal-models"
-  - "visual-reasoning"
-  - "ai-vision"
-aliases:
-  - "multimodal-vision"
-  - "visual-intelligence"
-summary: "The capacity of large language models to interpret, process, and reason over visual inputs within a multimodal context."
-updated: 2026-04-18
+summary: The capacity of large language models to interpret, process, and reason over visual inputs within a multimodal context.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Vision capabilities
@@ -27,7 +15,6 @@ The capacity of [[concepts/large-language-models]] to interpret, process, and re
 
 ---
 Backlink: 2026 04 14 Local development coding
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge|Google Gemma 4 Advanced Open Source AI Models for Efficient Edge]] · [▶ source](https://www.youtube.com/watch?v=BrJdGP21B5g)

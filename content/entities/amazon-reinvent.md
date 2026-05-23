@@ -1,24 +1,25 @@
 ---
 type: entity
 tags:
-  - "conference"
-  - "amazon"
-  - "ai"
-  - "aws"
+  - "aws-conference"
   - "cloud-computing"
   - "machine-learning"
   - "generative-ai"
-  - "amazon-reinvent"
+  - "product-launches"
 aliases:
   - "AWS re:Invent"
-summary: "An annual AWS conference showcasing innovations in cloud computing, machine learning, and generative AI."
-updated: 2026-04-18
+  - "re:Invent"
+summary: An annual AWS conference showcasing innovations in cloud computing, machine learning, and generative AI.
+updated: 2026-05-23
 ---
-# Amazon re:Invent
+# Amazon Reinvent
 
-Annual AWS conference showcasing [[concepts/cloud-computing|cloud computing]], AI, and [[concepts/machine-learning|machine learning]] innovations. Features keynotes, technical sessions, and product launches across AWS services including Amazon Bedrock, Amazon SageMaker, and [[concepts/generative-ai|generative AI]] tools.
+[[entities/amazon|Amazon]] re:Invent is an annual conference organized by [[entities/amazon-web-services|Amazon Web Services]] (AWS) that brings together [[concepts/cloud-computing|cloud computing]] professionals, developers, and enterprise leaders. The event features keynote presentations, technical sessions, hands-on workshops, and product announcements across the full [[concepts/range|range]] of AWS services and solutions.
 
-## Recent Developments
-- On April 14, [[concepts/date-2026-04-13|2026]], a IBM [[entities/mixture-of-experts|Mixture of Experts]] panel discussion highlighted Amazon's decision to block [[entities/chatgpt|ChatGPT]]'s shopping agent, sparking debate on [[concepts/ai-agent|AI agent]] competition and platform [[concepts/policies|policies]].
+## Conference Focus
 
-Backlink: 2026 04 14 IBM [[concepts/mixture-of-experts|Mixture of Experts]]
+The conference showcases developments in cloud computing, [[concepts/machine-learning|machine learning]], and generative [[concepts/ai-technologies|AI technologies]]. Sessions cover practical [[concepts/software|applications]] of AWS services including Amazon SageMaker for machine learning, Amazon Bedrock for [[concepts/generative-ai|generative AI]] access, and broader cloud infrastructure offerings. The event serves as a primary venue for AWS to announce new services, features, and strategic directions in cloud technology.
+
+## Format and Attendance
+
+Re:Invent typically attracts thousands of attendees from organizations of various sizes and industries. The conference combines large-scale keynotes with smaller breakout sessions organized by technical topic and [[concepts/skill|skill]] level, allowing participants to customize their learning experience based on their roles and interests.

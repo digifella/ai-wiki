@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: anthropology-ethnography
 tags:
   - "indian-history"
   - "ancient-civilization"
@@ -11,7 +10,8 @@ aliases:
   - "Classical India"
   - "Indian subcontinent antiquity"
 summary: Historical period of the Indian subcontinent preceding the medieval era, referenced in connection with scientific and cultural advancement.
-updated: 2026-05-01
+updated: 2026-05-23
+group: anthropology-ethnography
 ---
 # Ancient India
 
@@ -19,7 +19,7 @@ Ancient India encompasses the historical period of the Indian subcontinent from 
 
 ## Scientific and Mathematical Contributions
 
-The period saw substantial advances in [[concepts/mathematics|mathematics]], [[concepts/astronomy|astronomy]], and [[concepts/physics|natural philosophy]]. Indian mathematicians developed the decimal system and the concept of zero as both a placeholder and a number in its own right—innovations that would eventually transform mathematical practice across the world. Scholars in ancient India made important observations in astronomy, created detailed medical texts such as the Sushruta Samhita, and developed systematic approaches to logic and epistemology within philosophical traditions.
+The period saw substantial advances in [[concepts/mathematics|mathematics]], [[concepts/astronomy|astronomy]], and [[concepts/physics|natural philosophy]]. Indian mathematicians developed the decimal system and the concept of [[concepts/concept-of-nothingness|zero]] as both a placeholder and a number in its own right—innovations that would eventually transform mathematical practice across the world. Scholars in ancient India made important observations in astronomy, created detailed medical texts such as the Sushruta Samhita, and developed systematic approaches to logic and epistemology within philosophical traditions.
 
 ## Cultural and Literary Development
 
@@ -27,7 +27,6 @@ Ancient India produced enduring literary works including the Rigveda, the earlie
 
 ## Political and Economic Structure
 
-The period encompassed various political entities ranging from small kingdoms to larger empires, most notably the [[concepts/mauryan-empire|Mauryan Empire]] (322–185 BCE) and the Gupta Empire (320–550 CE). Trade networks connected ancient India to Central Asia, China, and the Mediterranean world, facilitating exchange of goods, ideas, and technologies. Urban centers supported craft production, commerce, and administrative functions that sustained complex societies across the subcontinent.
-
+The period encompassed various political entities ranging from small kingdoms to larger empires, most notably the [[concepts/mauryan-empire|Mauryan Empire]] (322–185 BCE) and the Gupta Empire (320–550 CE). Trade networks connected ancient India to Central Asia, [[entities/china|China]], and the Mediterranean world, facilitating exchange of goods, [[concepts/ideas|ideas]], and technologies. Urban centers supported craft production, commerce, and administrative functions that sustained complex societies across the subcontinent.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-The-Bloody-Origins-of-Number-Zero-in-Ancient-India|The Bloody Origins of Number Zero in Ancient India]] · [▶ source](https://www.youtube.com/watch?v=RSIsGomGZcc)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: individual-sports-performance
 tags:
   - "tmux"
   - "background-processes"
@@ -13,7 +12,8 @@ aliases:
   - "background task running"
   - "persistent processes"
 summary: This note explains how to create and detach persistent tmux sessions to run processes such as Python, Docker, and Ollama in the background.
-updated: 2026-05-01
+updated: 2026-05-23
+group: individual-sports-performance
 ---
 # Running
 
@@ -21,12 +21,11 @@ Running processes in the background is essential for [[concepts/development-work
 
 ## Creating and Managing Sessions
 
-To create a new tmux session, use the command `tmux new -s [session-name]`. This establishes a named session—for example, `tmux new -s main`—where you can execute any process: Python jobs, [[entities/docker-desktop|Docker]] services, Ollama downloads, scripts, or text editors. The session operates as a standalone environment separate from your current shell.
+To create a new [[concepts/tmux-sessions|tmux]] session, use the command `tmux new -s [session-name]`. This establishes a named session—for example, `tmux new -s main`—where you can execute any process: [[concepts/python|Python]] jobs, [[entities/docker-desktop|Docker]] services, [[concepts/task-specific-modeling|Ollama]] downloads, scripts, or [[concepts/text|text]] editors. The session operates as a standalone environment separate from your current shell.
 
 ## Detaching and Background Operation
 
-Once a process is running within a tmux session, you can [[concepts/detach|detach]] from it without terminating the process. Press Ctrl+B followed by D to detach. The session persists in the background indefinitely, allowing you to disconnect from your machine, close your terminal, or start new sessions without affecting the running process. You can reconnect to a detached session at any time using `tmux attach-session -t [session-name]`.
-
+Once a process is running within a tmux session, you can [[concepts/detach|detach]] from it without terminating the process. Press Ctrl+B followed by D to detach. The session persists in the background indefinitely, allowing you to disconnect from your machine, close your terminal, or start new sessions without affecting the running process. You can reconnect to a detached session [[concepts/assistive-technology|at]] any time using `tmux attach-session -t [session-name]`.
 ## Source Notes
 - 2026-03-27: [[inbox/2026-03-27-Pre-sandbox-test|Pre-sandbox test]]
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)

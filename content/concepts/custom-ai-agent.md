@@ -1,29 +1,23 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "agent"
-  - "copilot"
-  - "m365"
-updated: 2026-04-15
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Custom AI Agent
 
-A Custom AI Agent is an AI system tailored to perform specific tasks within a defined context (e.g., customer service, internal support) without requiring extensive [[concepts/coding|coding]]. Designed for targeted [[concepts/scenarios|use cases]], it leverages existing tools like Microsoft 365 [[entities/copilot|Copilot]] to deliver domain-specific functionality.
+A Custom [[entities/agent|AI Agent]] is an AI system tailored to perform specific tasks within a defined context (e.g., customer service, internal support) without requiring extensive [[concepts/coding|coding]]. Designed for targeted [[concepts/scenarios|use cases]], it leverages existing tools like [[entities/microsoft-365|Microsoft 365]] [[entities/copilot|Copilot]] to deliver domain-specific functionality.
 
 ## Key Implementation Example
-- Built in [[entities/microsoft-365-copilot|Microsoft 365 Copilot]] for internal customer service ("PoochPal" agent) at fictional business "[[entities/pooch-haven-spa|Pooch Haven Spa]]", requiring [[concepts/no-code|no code]] (per [[entities/teachers-tech|Teachers Tech]] channel [[concepts/tutorial|tutorial]]).
+- Built in [[entities/microsoft-365-copilot|Microsoft 365 Copilot]] for internal customer service ("PoochPal" agent) [[concepts/assistive-technology|at]] fictional business "[[entities/pooch-haven-spa|Pooch Haven Spa]]", requiring [[concepts/no-code|no code]] (per [[entities/teachers-tech|Teachers Tech]] channel [[concepts/tutorial|tutorial]]).
 
 ## Related Concepts
 - [[concepts/ai-agent|AI Agent]]
-- Microsoft 365 [[entities/copilot|Copilot]]
-- Agent [[concepts/personalization|Customization]]
+- [[entities/microsoft-365|Microsoft 365]] [[entities/copilot|Copilot]]
+- [[entities/agent|Agent]] [[concepts/personalization|Customization]]
 - Internal Tooling
 
 Backlink: 2026 04 14 Create an AI chatbot in [[concepts/copilot-chat|CoPilot]] [[entities/teachers-tech|Teachers Tech]] channel
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)

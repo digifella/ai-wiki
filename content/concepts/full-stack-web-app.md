@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: tools-platforms
-updated: 2026-04-14
+summary: A full-stack web application integrates frontend, backend, database, and authentication systems into a cohesive user experience.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
-summary: "A full-stack web application integrates frontend, backend, database, and authentication systems into a cohesive user experience."
 ---
 - "full-stack"
   - "[[concepts/web-development|web-development]]"
@@ -38,9 +38,8 @@ The Build Full stack WebApp plus Firebase - Channel [[entities/profit-studio cha
 ## Core Features
 - [[concepts/user-authentication]] system for [[concepts/secure|secure]] access
 - [[concepts/database-storage|Database storage]] solutions for user data
-- File upload capabilities via Firebase Cloud Storage
+- File upload [[concepts/capabilities|capabilities]] via Firebase Cloud Storage
 - Realtime updates for dynamic content
-
 ## Source Notes
 - 2026-04-24: LTX-2: Usable Open-Source Local AI · [▶ source](https://www.youtube.com/watch?v=AUcYJczWXT4)
 - 2026-04-27: Apple

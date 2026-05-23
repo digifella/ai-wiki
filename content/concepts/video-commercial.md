@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "video-production"
   - "google-vids"
@@ -14,20 +13,20 @@ aliases:
   - "30-second commercial creation"
   - "NotebookLM to video workflow"
 summary: A guide on transforming a NotebookLM notebook into a 30-second video commercial using Google Vids, Gemini, and Google Veo.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Video Commercial
 
-A video commercial is a short-form promotional video, typically 30 seconds in length, designed to advertise a product, service, or business [[concepts/philosophy|philosophy]]. Creating video commercials has become more accessible through integration of AI-powered tools that streamline the production process from concept to final output.
+A video commercial is a short-form promotional video, typically 30 seconds in length, designed to advertise a product, service, or business [[concepts/philosophy|philosophy]]. Creating video commercials has become more accessible through [[concepts/integration|integration]] of [[concepts/ai-powered-tools|AI-powered tools]] that streamline the production process from concept to final [[concepts/output|output]].
 
 ## Process Overview
 
-The workflow for creating a video commercial begins with a [[concepts/ai-integrated-notebooks|NotebookLM]] [[concepts/notebook|notebook]], which serves as the source material containing business philosophy, key messaging, or product information. This content is then processed through [[entities/gemini-models|Google Gemini]] to generate a script tailored for video format. The script is subsequently input into [[entities/google-vids|Google Vids]], which structures the video composition and arranges visual elements. For enhanced visual quality, [[concepts/veo|Google Veo]] can be used to generate or enhance video footage, creating cinematic elements that match the commercial's messaging and brand identity.
+The [[concepts/workflow|workflow]] for creating a video commercial begins with a [[concepts/ai-integrated-notebooks|NotebookLM]] [[concepts/notebook|notebook]], which serves as the source material containing [[concepts/business-philosophy|business philosophy]], key messaging, or product information. This content is then processed through [[entities/gemini-models|Google Gemini]] to generate a script tailored for video format. The script is subsequently input into [[entities/google-vids|Google Vids]], which structures the video composition and arranges visual elements. For enhanced visual quality, [[concepts/veo|Google Veo]] can be used to generate or enhance video footage, creating cinematic elements that match the commercial's messaging and brand identity.
 
 ## Key Tools and Integration
 
-The three primary tools work in sequence: NotebookLM organizes and extracts source information, [[concepts/gemini|Gemini]] refines this content into a compelling narrative suitable for video, and Google Vids combines scripting with visual layout and timing. When advanced visuals are required, Google Veo generates AI-created video segments that can be integrated into the final commercial. This integrated approach reduces production time and technical barriers for creators without professional video production experience.
-
+The three primary tools work in sequence: [[concepts/notebooklm|NotebookLM]] organizes and extracts source information, [[concepts/gemini|Gemini]] refines this content into a compelling narrative suitable for video, and [[concepts/google-vids|Google Vids]] combines scripting with visual layout and timing. When advanced visuals are required, [[entities/google-veo|Google Veo]] generates AI-created video segments that can be integrated into the final commercial. This integrated approach reduces production time and technical barriers for creators without professional video production experience.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and|333 Collins Street Melbourne Historic Banking Chamber Preservation and]] · [▶ source](https://www.youtube.com/watch?v=zEPa_xbeX-c)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

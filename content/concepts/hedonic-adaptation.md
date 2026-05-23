@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "psychology"
-  - "happiness"
-  - "well-being"
-  - "hedonic-treadmill"
-  - "psychological-adaptation"
-  - "happiness-concepts"
-  - "well-being-theory"
-  - "life-satisfaction"
-aliases:
-  - "hedonic-set-point"
-  - "baseline-happiness"
-  - "emotional-homeostasis"
-summary: "Hedonic adaptation is a psychological principle where humans return to a stable level of happiness after positive or negative life changes, challenging the idea that external factors can lead to long-term happiness."
-updated: 2026-04-12
+summary: Hedonic adaptation is a psychological principle where humans return to a stable level of happiness after positive or negative life changes, challenging the idea that external factors can lead to long-term happiness.
+updated: 2026-05-23
 group: life-systems-adaptation-discovery
 ---
 # Hedonic Adaptation
@@ -26,7 +13,7 @@ group: life-systems-adaptation-discovery
 - This idea challenges the [[entities/notion|notion]] that material possessions or achievements can lead to long-term happiness.
 
 ## Related Concepts
-- Set Point Theory
+- [[concepts/set-point-theory|Set Point]] [[concepts/theory|Theory]]
 - Sustainable [[concepts/happiness|Happiness]]
 - Psychological [[concepts/wellbeing|Well-being]]
 
@@ -35,7 +22,6 @@ group: life-systems-adaptation-discovery
 - Provides examples of how people return to their [[concepts/happiness|baseline happiness]] levels despite significant changes.
 
 ## References
-2026 04 11 Report Understanding and Navigating Hedonic Adaptation for Sustainable
-
+2026 04 11 Report Understanding and Navigating [[concepts/happiness-baseline|Hedonic Adaptation]] for Sustainable
 ## Source Notes
 - 2026-04-11: Hedonic Adaptation | Why You'll Never Have Enough In Life

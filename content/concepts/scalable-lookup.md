@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "machine-learning"
-  - "llm"
-  - "optimization"
-  - "llm-optimization"
-  - "efficient-inference"
-  - "conditional-memory"
-  - "sparse-computation"
-  - "memory-access"
-  - "transformer-architecture"
-aliases:
-  - "conditional memory lookup"
-summary: "A technique for large language models that optimizes computation by distinguishing between simple recall and deep computational tasks."
-updated: 2026-04-22
+summary: A technique for large language models that optimizes computation by distinguishing between simple recall and deep computational tasks.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Scalable Lookup
@@ -34,10 +21,9 @@ A technique enabling efficient [[concepts/memory|memory]] access in [[concepts/l
 - Enables more efficient LLM [[concepts/inference|inference]] through selective
 
 ## Inference Infrastructure
-- LLM execution involves complex inference engines and [[concepts/memory-mapping|memory mapping]] rather than simple executable file execution.
+- LLM execution involves complex [[concepts/inference-engines|inference engines]] and [[concepts/memory-mapping|memory mapping]] rather than simple executable file execution.
 - Optimization requires managing the intricate loading and [[concepts/deployment|deployment]] of model components.
 - Related: 2026 04 22 [[concepts/llm-inference|LLM Inference Engines]] Memory Mapping and [[concepts/software-performance|Performance Optimization]]
-
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

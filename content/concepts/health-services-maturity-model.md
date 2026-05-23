@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "ai-maturity-model"
   - "health-services"
@@ -13,15 +12,16 @@ aliases:
   - "AIMM for Health Services"
   - "Health AI Maturity Framework"
 summary: Sandeep and Lemai are collaborating to develop an AI maturity model for health services using agentic AI for knowledge retrieval.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Health Services Maturity Model
 
-The Health Services Maturity Model is a framework under development by [[entities/sandeep|Sandeep]] and Lemai to assess and guide the [[concepts/adoption|adoption]] of [[concepts/ai-technologies|artificial intelligence]] within [[concepts/health|health]] service organizations. The model draws on maturity model methodologies—standardized approaches for measuring organizational capability across defined stages—and applies them specifically to AI implementation in healthcare contexts.
+The Health Services Maturity Model is a framework under development by [[entities/sandeep|Sandeep]] and [[entities/lemai|Lemai]] to assess and guide the [[concepts/adoption|adoption]] of [[concepts/ai-technologies|artificial intelligence]] within [[concepts/health|health]] service organizations. The model draws on maturity model methodologies—standardized approaches for measuring organizational capability across defined stages—and applies them specifically to AI implementation in healthcare contexts.
 
 ## Development Approach
 
-The project employs [[concepts/ai-agentic-applications|agentic AI systems]] to retrieve and synthesize knowledge relevant to health service operations and AI integration. This approach uses multiple [[concepts/large-language-model-llm|large language models]], with one system retrieving information while another validates findings as an expert reviewer. This dual-agent methodology aims to improve the [[concepts/accuracy|accuracy]] and [[concepts/software-reliability|reliability]] of knowledge used to construct the model framework.
+The project employs [[concepts/ai-agentic-applications|agentic AI systems]] to retrieve and synthesize knowledge relevant to health service operations and [[concepts/ai-integration|AI integration]]. This approach uses multiple [[concepts/large-language-model-llm|large language models]], with one system retrieving information while another validates findings as an expert reviewer. This dual-[[entities/agent|agent]] methodology aims to improve the [[concepts/accuracy|accuracy]] and [[concepts/software-reliability|reliability]] of knowledge used to construct the model framework.
 
 ## Academic Context
 

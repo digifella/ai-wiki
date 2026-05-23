@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "self-evolving-ai"
   - "autonomous-optimization"
@@ -13,7 +12,8 @@ aliases:
   - "Autonomous Optimization via Iterative Harness Modification"
   - "Self-Evolving AI Systems"
 summary: The text discusses self-evolving AI through autonomous optimization via iterative harness modification.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Test Diagnosis
 
@@ -25,8 +25,7 @@ The evaluation of diagnostic tests typically examines sensitivity (the test's ab
 
 ## Clinical Application
 
-Effective test diagnosis ensures that healthcare providers select appropriate diagnostic tools for specific clinical [[concepts/scenarios|scenarios]]. This involves comparing new or alternative tests against established [[concepts/open-standards|standards]], understanding how test results should influence clinical decision-making, and recognizing potential sources of error or bias. The goal is to improve diagnostic [[concepts/accuracy|accuracy]] while managing costs and minimizing unnecessary [[concepts/testing|testing]] or delays in treatment.
-
+Effective test diagnosis ensures that healthcare providers select appropriate diagnostic tools for specific clinical [[concepts/scenarios|scenarios]]. This involves comparing new or alternative tests against established [[concepts/open-standards|standards]], understanding how test results should [[concepts/power|influence]] [[concepts/clinical-reasoning|clinical decision-making]], and recognizing potential sources of error or bias. The goal is to improve diagnostic [[concepts/accuracy|accuracy]] while managing costs and minimizing unnecessary [[concepts/testing|testing]] or delays in treatment.
 ## Source Notes
 - 2026-04-08: Self-Evolving AI Is Here — And It's [[concepts/open-weight|Open Weight]]
 - 2026-04-07: [[lab-notes/2026-04-07-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions|Benchmarking SLMs Identifying 4GB General Problem Solving Champions]] · [▶ source](https://www.youtube.com/watch?v=wQxawC3sv68)

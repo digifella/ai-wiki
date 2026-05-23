@@ -1,27 +1,21 @@
 ---
-domain: tools-platforms
-group: developer-tooling-clis
 type: concept
-tags:
-  - "performance-testing"
-  - "ai"
-  - "benchmarking"
-  - "model-evaluation"
-updated: 2026-04-14
+domain: tools-platforms
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Performance Testing
 
-Evaluates system behavior under workload, focusing on speed, responsiveness, and stability.
+Evaluates system behavior under workload, focusing on [[concepts/speed|speed]], responsiveness, and stability.
 
 ## Example: AI Model Performance Test
-- [[entities/gary-explains]] channel tested [[concepts/nemotron-3-nano-model|Nemotron-3 Nano]] (30B [[concepts/parameters|parameters]], 3B active via Mixture-of-Experts).
+- [[entities/gary-explains]] channel tested [[concepts/nemotron-3-nano-model|Nemotron-3 Nano]] (30B [[concepts/parameters|parameters]], 3B active via [[concepts/mixture-of-experts|Mixture-of-Experts]]).
 - **[[concepts/nemotron-3-family|Nemotron-3 Family]]**:
-  - **Nano**: 30B [[concepts/parameters|parameters]] (3B active)
+  - **[[entities/nano|Nano]]**: 30B [[concepts/parameters|parameters]] (3B active)
   - **Super**: 100B parameters (10B active)
   - **Ultra**: 500B parameters (50B active)
 
 2026 04 14 [[entities/gary-explains|Gary Explains]] channel [[entities/nematron-3|Nematron 3]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-11: [[lab-notes/2026-04-11-Five-Interview-Techniques-to-Uncover-Genuine-Talent-in-the-GenAI-Age|Five Interview Techniques to Uncover Genuine Talent in the GenAI Age]] · [▶ source](https://www.youtube.com/watch?v=qgC--IUnr7I)

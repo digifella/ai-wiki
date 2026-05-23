@@ -1,24 +1,10 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "mathematics"
-  - "number-theory"
-  - "prime-numbers"
-  - "Riemann-Hypothesis"
-  - "prime-distribution"
-  - "number-theory-concepts"
-  - "riemann-hypothesis-explained"
-  - "randomness-prime-numbers"
-  - "mathematical-patterns"
-aliases:
-  - "Prime Number Patterns"
-  - "Distribution of Primes"
-  - "Riemann Hypothesis Explained"
-summary: "This page explores the distribution patterns of prime numbers, touching on concepts like the Riemann hypothesis and apparent randomness within these distributions."
-updated: 2026-04-11
+summary: This page explores the distribution patterns of prime numbers, touching on concepts like the Riemann hypothesis and apparent randomness within these distributions.
+updated: 2026-05-23
 group: probability-statistics-models
-title: "Distribution Patterns"
+title: Distribution Patterns
 ---
 # Distribution Patterns
 
@@ -26,7 +12,7 @@ title: "Distribution Patterns"
 
 ### Key Concepts
 - **[[concepts/prime-numbers|Prime Numbers]]**: Integers greater than 1 that cannot be formed by multiplying two smaller natural numbers.
-- **[[concepts/riemann-hypothesis|Riemann Hypothesis]]**: A conjecture about the distribution of the zeros of the [[concepts/riemann-zeta-function|Riemann zeta function]], which has implications for the distribution of prime numbers.
+- **[[concepts/riemann-hypothesis|Riemann Hypothesis]]**: A conjecture about the distribution of the zeros of the [[concepts/riemann-zeta-function|Riemann zeta function]], which has implications for the distribution of [[concepts/prime-lens|prime]] numbers.
 
 ## Related Ideas
 - [[concepts/prime-number-theorem|prime-number-theorem]]
@@ -38,20 +24,19 @@ title: "Distribution Patterns"
 - Despite their seemingly erratic behavior, there might be hidden order within the distribution of prime numbers.
 
 ## New Insights
-- **2026-04-08-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution**
-  - **Clip title:** Prime Numbers Might Not Be Random After All
+- **2026-04-08-Riemann-Hypothesis-Hidden-Order-in-[[concepts/prime-number-distribution|Prime-Number-Distribution]]**
+  - **[[concepts/clip-title|Clip title]]:** Prime Numbers Might Not Be Random After All
   - **Author / channel:** [not specified]
 
-- **2026-04-10-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates**
+- **2026-04-10-Awkward-Primes-[[concepts/prime-number-density-approximation|Minimal-Line-Coverage-of-Prime-Number-Coordinates]]**
   - **Clip title:** 4211 - [[concepts/awkward-primes|The Party Pooper Prime]] - [[entities/numberphile|Numberphile]]
   - **Author / channel:** [[entities/numberphile|Numberphile]]
   - **URL:** https://www.youtube.com/watch?v=VFoIPlUalRY
 
 ### Summary
 - This video with [[entities/neil-sloane|Neil Sloane]] explores the dual [[entities/nature|nature]] of [[concepts/prime-numbers|prime numbers]], their apparent irregularity versus an underlying order.
-- Prime numbers appear sporadically on a [[concepts/number-line|number line]], like "weeds," but there might be hidden patterns in their [[concepts/distribution|distribution]].
+- [[concepts/prime-lens|Prime]] numbers appear sporadically on a [[concepts/number-line|number line]], like "weeds," but there might be hidden patterns in their [[concepts/distribution|distribution]].
 
-2026 04 10 Awkward Primes Minimal Line Coverage of Prime Number Coordinates
-
+2026 04 10 [[concepts/prime-number-irregularity|Awkward Primes]] [[concepts/awkward-primes|Minimal Line Coverage of Prime Number Coordinates]]
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates|Awkward Primes Minimal Line Coverage of Prime Number Coordinates]] · [▶ source](https://www.youtube.com/watch?v=VFoIPlUalRY)

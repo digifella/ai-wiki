@@ -13,8 +13,8 @@ tags:
 aliases:
   - "tool-use"
   - "automated-tool-interaction"
-summary: "The capability of AI models to interact with external software, datasets, and environments to execute autonomous tasks and workflows."
-updated: 2026-04-28
+summary: The capability of AI models to interact with external software, datasets, and environments to execute autonomous tasks and workflows.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # tool-use automation
@@ -29,7 +29,6 @@ The capability of [[concepts/ai-models|AI models]] to interact with external [[c
 
 ## Related
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] using powerful [[concepts/agentic-ai|AI agents]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)

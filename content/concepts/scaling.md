@@ -1,32 +1,19 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "ai"
-  - "transformer"
-  - "scaling"
-  - "retro-computing"
-  - "pdp-11"
-  - "machine-learning"
-  - "parallel-processing"
-  - "computational-efficiency"
-  - "hardware-optimization"
-aliases:
-  - "computational scaling"
-  - "scaling techniques"
-summary: "Scaling refers to methods for managing the increase in computational requirements as machine learning models grow in size."
-updated: 2026-04-16
+summary: Scaling refers to methods for managing the increase in computational requirements as machine learning models grow in size.
+updated: 2026-05-23
 group: scientific-modelling-discovery
 ---
 # Scaling
 
-**[[concepts/computational-scaling|Scaling]]** refers to techniques and methods for efficiently managing the increase in computational requirements as [[concepts/machine-learning|machine learning]] models grow larger. This can involve everything from parallelization strategies on modern [[concepts/hardware|hardware]] like GPUs and TPUs to innovative approaches that leverage older or less powerful systems.
+**[[concepts/computational-scaling|Scaling]]** refers to techniques and methods for efficiently managing the increase in computational requirements as [[concepts/machine-learning|machine learning]] [[concepts/models|models]] grow larger. This can involve everything from parallelization strategies on modern [[concepts/hardware|hardware]] like GPUs and [[entities/tpus|TPUs]] to innovative approaches that leverage older or less powerful systems.
 
 ### Related Concepts
 - [[concepts/hardware|hardware]]
 - [[concepts/parallel-processing]]
-- retro-computing
-- transformer-models
+- [[concepts/historical-computing|retro-computing]]
+- [[concepts/transformer-architectures|transformer-models]]
 
 ### Notable Examples & Case Studies
 
@@ -35,8 +22,7 @@ group: scientific-modelling-discovery
 	+ Demonstrates that modern advancements are not inherently magical but rather the result of iterative improvements in technology and algorithms.
 
 ### Backlinks
-2026 04 13 [[concepts/transformer-training|Demystifying AI]] Transformer Training on a 1979 PDP 11
-
+2026 04 13 [[concepts/transformer-training|Demystifying AI]] Transformer [[concepts/training|Training]] on a 1979 PDP 11
 ## Source Notes
 - 2026-04-07: Bonzai 8B: PrismML
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

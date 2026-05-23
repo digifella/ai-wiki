@@ -1,26 +1,13 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "dark-and-moody-processing"
-  - "lightroom-tricks"
-  - "dramatic-photo-enhancement"
-  - "high-contrast-processing"
-  - "cool-colors-in-photography"
-  - "post-production-techniques"
-  - "shadow-emphasis"
-aliases:
-  - "moody-photo-style"
-  - "dark-toned-images"
-  - "emphasized-shadow-processing"
-  - "cool-tone-imaging"
-summary: "Dark and moody processing is a photography technique that uses deep shadows, cool tones, and high contrast to create somber or mysterious images."
-updated: 2026-04-14
+summary: Dark and moody processing is a photography technique that uses deep shadows, cool tones, and high contrast to create somber or mysterious images.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Dark and Moody Processing in Photography
 
-[[concepts/dark-and-moody-photo-processing|Dark and moody]] processing is a post-production technique used to create photographs with a somber or mysterious tone. This approach often contrasts traditional bright and vibrant [[concepts/images|images]] by emphasizing [[concepts/shadows|shadows]], cool tones, and high [[concepts/contrast|contrast]].
+[[concepts/dark-and-moody-photo-processing|Dark and moody]] processing is a post-production technique used to create photographs with a somber or mysterious [[concepts/tone|tone]]. This approach often contrasts traditional bright and vibrant [[concepts/images|images]] by emphasizing [[concepts/shadows|shadows]], cool tones, and high [[concepts/contrast|contrast]].
 
 ## Key Concepts
 - **Shadow Emphasis:** Enhances the depth and mystery of an image by deepening shadows.
@@ -34,18 +21,17 @@ group: design-systems-ui-infographics
 ## Tips and Tricks
 
 - Use [[entities/adobe-lightroom|Lightroom]]'s Tone Curve to selectively darken or lighten specific areas of the image.
-- Experiment with split toning in Lightroom to add color to shadows and highlights separately.
+- Experiment with split toning in Lightroom to add color to shadows and [[concepts/highlights|highlights]] separately.
 - Apply subtle noise reduction to maintain [[concepts/texture|texture]] without adding graininess.
 
 ### Example
-[[entities/simon-dentremont|Simon d'Entremont]], a professional wildlife and [[entities/nature|nature]] photographer, showcases how dark and moody processing can transform mundane or problematic photos into dramatic works of art. In his video titled "Master my LIGHTROOM TRICK to take your photos from BORING to AMAZING!", he reveals techniques for achieving stunning visual impact through this style.
+[[entities/simon-dentremont|Simon d'Entremont]], a professional wildlife and [[entities/nature|nature]] photographer, showcases how dark and moody processing can transform mundane or problematic photos into dramatic works of [[concepts/art|art]]. In his video titled "Master my LIGHTROOM TRICK to take your photos from BORING to AMAZING!", he reveals techniques for achieving stunning visual impact through this [[concepts/style|style]].
 
-- **Clip title:** Master my LIGHTROOM TRICK to take your photos from BORING to AMAZING!
+- **[[concepts/clip-title|Clip title]]:** Master my LIGHTROOM TRICK to take your photos from BORING to AMAZING!
 - **Author / channel:** [[entities/simon-dentremont|Simon d'Entremont]]
 - **URL:** https://www.youtube.com/watch?v=2Wemm9givsw
 
 ## Resources
 - 2026 04 10 Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme
-
 ## Source Notes
 - 2026-04-08: Master my LIGHTROOM TRICK to take your photos from BORING to AMAZING!

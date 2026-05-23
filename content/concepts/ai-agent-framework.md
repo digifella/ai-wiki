@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 - "ai"
@@ -10,12 +10,11 @@ group: ai-foundations-concepts
   - "[[concepts/coding|coding]]"
   - "bmad"
   - "agile"
-group: ai-foundations-concepts
 ---
 
 # AI agent framework
 
-A structured approach for designing, implementing, and deploying autonomous or semi-autonomous AI systems capable of performing [[concepts/complex-tasks|complex tasks]] through goal-oriented interactions with environments or users.
+A structured approach for designing, implementing, and deploying autonomous or semi-[[concepts/agentic-ai|autonomous AI systems]] capable of performing [[concepts/complex-tasks|complex tasks]] through goal-oriented interactions with environments or users.
 
 ## Key characteristics
 - Enables systematic [[concepts/task-decomposition|task decomposition]] and execution planning
@@ -29,9 +28,8 @@ A structured approach for designing, implementing, and deploying autonomous or s
 - Represents evolution from simple coding → sophisticated [[concepts/external-knowledge|context engineering]] (using tools like [[entities/cursor|Cursor]] and [[entities/claude-code]])
 - Streamlines entire software development lifecycle [[concepts/integration|integration]]
 - Introduces structured approach to prevent non-production-ready [[concepts/software|software]]
-- Highlights progression from simple coding to sophisticated context engineering
+- [[concepts/highlights|Highlights]] progression from simple coding to sophisticated context engineering
 - Backlink: 2026 04 14 [[concepts/bmad-method|BMAD method]] for coding
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

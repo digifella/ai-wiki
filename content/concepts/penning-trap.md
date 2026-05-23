@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: science-physics
 tags:
   - "concept"
   - "antimatter"
@@ -13,7 +12,8 @@ aliases:
   - "Penning ion trap"
   - "electromagnetic trap"
 summary: A device used to confine charged particles, notably used by CERN to transport antimatter by truck.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Penning Trap
 
@@ -25,7 +25,6 @@ The device typically consists of a cylindrical or hyperboloid electrode configur
 
 ## Application to Antimatter Transport
 
-In 2026, researchers at CERN successfully used a Penning trap to transport antimatter by truck, marking the first time antimatter has been moved outside a laboratory facility in this manner. The trap's ability to reliably confine charged antiparticles made it suitable for this unprecedented transport operation, demonstrating practical [[concepts/software|applications]] beyond stationary research environments.
-
+In 2026, researchers [[concepts/assistive-technology|at]] [[entities/cern|CERN]] successfully used a Penning trap to transport antimatter by truck, marking the first time antimatter has been moved outside a laboratory facility in this manner. The trap's ability to reliably confine charged [[concepts/antimatter|antiparticles]] made it suitable for this unprecedented transport operation, demonstrating practical [[concepts/software|applications]] beyond stationary research environments.
 ## Source Notes
 - 2026-04-12: Antimatter Transported in a Truck for the First Time in History

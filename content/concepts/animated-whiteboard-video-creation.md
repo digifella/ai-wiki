@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "concept"
   - "notebooklm"
@@ -11,16 +10,21 @@ tags:
 aliases:
   - "whiteboard-video-tutorial"
 summary: A method for creating animated whiteboard videos using NotebookLM.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Animated Whiteboard Video Creation
 
-Animated whiteboard video creation is a method for producing educational or explanatory videos that simulate the appearance of drawings being sketched on a [[concepts/whiteboard|whiteboard]] in real time. This approach combines visual clarity with narrative engagement, making it effective for tutorials, explainers, and presentations. The technique has become increasingly accessible through AI-assisted tools that automate parts of the production process.
+[[concepts/whiteboard|Animated whiteboard video creation]] is a method for producing educational or explanatory videos that simulate the appearance of drawings being sketched on a whiteboard in real time. This approach combines visual clarity with narrative engagement, making it effective for tutorials, explainers, and presentations. The technique has become increasingly accessible through AI-assisted tools that automate parts of the production process.
 
-## Process and Tools
+## Traditional Approach
 
-The creation process typically involves preparing source material—such as documents, articles, or outlines—and feeding them into a platform that generates both visual and audio content. [[concepts/ai-integrated-notebooks|NotebookLM]] is one such platform capable of producing animated whiteboard videos from uploaded source material. Users input documents or text, and the platform generates a script, voiceover, and synchronized animations that illustrate key points as if they were being drawn in real time.
+Conventional whiteboard video production requires manual creation of illustrations, either through live drawing or frame-by-frame animation. This process is labor-intensive, demanding both artistic [[concepts/skill|skill]] and significant time investment. Creators typically [[concepts/sketch|sketch]] visuals while narrating, or produce animations that simulate this effect using specialized [[concepts/software|software]].
 
-## Applications
+## AI-Assisted Creation
 
-Animated whiteboard videos are commonly used in educational contexts, corporate [[concepts/training|training]], and online marketing. Their effectiveness lies in combining kinetic visual elements with spoken explanation, which can aid retention and maintain viewer engagement. The format works well for conceptual [[concepts/explanations|explanations]], step-by-step tutorials, and presentations where visual clarity supports understanding of abstract or complex information.
+Recent developments in [[concepts/generative-ai|generative AI]] have introduced new methods for streamlining whiteboard video production. Tools like [[concepts/ai-integrated-notebooks|NotebookLM]] can process source documents and generate scripts, while complementary AI systems can create visual assets and coordinate timing with narration. This approach reduces the technical barriers to entry, allowing creators without animation expertise to produce polished whiteboard-[[concepts/style|style]] videos more efficiently.
+
+## Applications and Effectiveness
+
+Whiteboard videos remain popular for explaining complex concepts, business presentations, and instructional content. The format's effectiveness stems from its ability to focus viewer [[concepts/attention-mechanisms|attention]] on both visual and auditory information simultaneously, and from the psychological effect of watching content being created, which can enhance retention and engagement.

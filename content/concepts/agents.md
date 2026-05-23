@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "agent-trajectory"
   - "ai-agents"
@@ -9,26 +8,34 @@ tags:
   - "llm-capabilities"
   - "code-execution"
   - "agent-systems"
+  - "task-execution"
+  - "self-correction"
+  - "iterative-learning"
+  - "tool-use"
+  - "agent-adaptation"
 aliases:
   - "agent trajectory"
   - "agent path"
-  - "agent development path"
+  - "agent development"
 summary: Agent's trajectory refers to the path and skill development of AI agents as they execute tasks, iteratively improve through code, and leverage capabilities like tool use and multimodal reasoning.
-updated: 2026-05-01
-stub: true
+updated: 2026-05-23
+group: agent-systems-skills
 title: agent's trajectory
 ---
 # Agents
 
-An agent's trajectory refers to the path and sequence of actions an [[concepts/ai-agent|AI agent]] takes while executing tasks, combined with the skill development that occurs through repeated interactions. This trajectory encompasses both immediate task-level decisions—such as selecting appropriate tools, retrieving relevant information, and correcting errors—and longer-term improvements that emerge when agents receive [[concepts/feedback|feedback]] mechanisms. Rather than functioning as static systems, agents can adapt and refine their approaches when designed to learn from their experiences.
+An agent's trajectory refers to the path and sequence of actions an [[concepts/ai-agent|AI agent]] takes while executing tasks, combined with the [[concepts/skill|skill]] development that occurs through repeated interactions. Rather than functioning as static systems, agents can adapt and refine their approaches when designed to receive [[concepts/feedback|feedback]] and learn from experience. This trajectory encompasses both immediate task-level decisions—such as selecting appropriate tools, retrieving relevant information, and correcting errors—and longer-term improvements that emerge from [[concepts/iterative-refinement|iterative refinement]].
 
-## Iterative Execution and Self-Correction
+## Task Execution and Decision-Making
 
-During task execution, agents follow trajectories that involve multiple decision points and tool interactions. When an agent encounters errors or incomplete information, it can revise its approach within a single task by examining previous steps and adjusting its strategy. This capacity for self-correction depends on the agent's ability to reflect on its outputs and access appropriate feedback signals. Many modern agents use [[concepts/reasoning-steps|reasoning steps]], tool use, and verification loops to improve the quality of their [[concepts/responses|responses]] before finalizing results.
+During task execution, agents follow decision pathways shaped by their goals, available tools, and environmental constraints. An agent's trajectory [[concepts/assistive-technology|at]] this level includes the sequence of choices it makes: which tool to invoke, what information to retrieve, how to interpret results, and whether to revise its approach based on intermediate outcomes. These decisions accumulate to form the agent's execution path, which can be analyzed to understand [[concepts/reasoning|reasoning]] quality and efficiency.
 
-## Multi-Modal Capabilities and Adaptation
+## Skill Development Through Iteration
 
-Contemporary agents leverage various [[concepts/reasoning|reasoning]] approaches and modalities, including text, code generation, and multimodal information processing. These capabilities allow agents to approach problems from multiple angles and adapt their method based on task requirements. An agent's trajectory reflects not just what it accomplishes in a single [[concepts/session|session]], but how its performance characteristics and strategic choices may change as it interacts with different problems, [[concepts/user-feedback|user feedback]], and environmental conditions over time.
+Agents develop [[concepts/capabilities|capabilities]] over time when their architectures support [[concepts/learning|learning]] mechanisms. As agents encounter tasks, receive feedback, and adjust their strategies, they can improve performance on similar future tasks. This skill development is not automatic but depends on how feedback is integrated—whether through explicit retraining, in-context learning, or architectural modifications. The trajectory thus captures not just what an agent does in a single task, but how its capabilities evolve across multiple interactions.
 
+## Tool Use and Reasoning
+
+Agent trajectories often involve the strategic use of [[concepts/external-tools|external tools]] and multimodal [[concepts/reasoning-capabilities|reasoning capabilities]]. An agent may decide to call APIs, search databases, process [[concepts/images|images]], or combine information from multiple sources. The trajectory reveals how agents leverage these capabilities in sequence, how they handle tool failures, and whether they develop better strategies for [[concepts/tool-selection|tool selection]] over time. This aspect of the trajectory is particularly important for understanding how agents tackle complex, real-world problems that require [[concepts/integration|integration]] of multiple information types and external systems.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

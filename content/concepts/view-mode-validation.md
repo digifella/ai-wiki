@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: tools-platforms
 tags:
   - "api"
   - "validation"
@@ -11,9 +11,9 @@ tags:
   - "view-mode-logic"
 aliases:
   - "view_mode validation"
-summary: "This document describes the logic governing the validation and permitted types for various view modes within the API and job queue systems."
-updated: 2026-04-28
-group: safety-guardrails-governance
+summary: This document describes the logic governing the validation and permitted types for various view modes within the API and job queue systems.
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # view_mode validation
 
@@ -29,4 +29,4 @@ Logic governing the validation and permitted types for various view modes within
 	- 3 new `[[concepts/api-actions|API actions]]` implemented.
 
 ## Metadata
-- **Source**: 2026 04 14 [[concepts/claude-ai|Claude]] and Codex 17 March 2026
+- **Source**: 2026 04 14 [[concepts/claude-ai|Claude]] and [[concepts/codex|Codex]] 17 March 2026

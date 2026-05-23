@@ -13,19 +13,19 @@ aliases:
   - "AI Rotate Object"
   - "3D Manipulation of 2D Images"
 summary: Photoshop Beta includes an AI Rotate Object feature for the 3D manipulation of 2D images.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # 3D Object Manipulation
 
-3D Object Manipulation refers to techniques for rotating, repositioning, and transforming two-dimensional [[concepts/images|images]] to simulate three-dimensional space. Rather than creating true 3D models from scratch, these methods analyze existing 2D photographs and generate plausible views from different angles. This approach allows users to interact with flat photographic content as though it possessed depth and spatial dimensions, without requiring traditional 3D modeling expertise or [[concepts/software|software]].
+3D Object Manipulation refers to techniques for rotating, repositioning, and transforming two-dimensional [[concepts/images|images]] to simulate three-dimensional space. Rather than creating true 3D [[concepts/models|models]] from scratch, these methods analyze existing 2D photographs and generate plausible views from different angles. This approach allows users to interact with flat photographic content as though it possessed depth and spatial dimensions, without requiring traditional 3D modeling expertise or specialized [[concepts/software|software]].
 
-## AI Rotate Object in Photoshop
+## AI-Assisted Approaches
 
-[[concepts/beta-version|Photoshop Beta]] introduced an AI-powered feature called AI Rotate Object that uses machine [[concepts/learning|learning]] to manipulate objects within 2D images. The tool analyzes the visual characteristics of a selected object and generates new perspectives by predicting how that object would appear when rotated in three-dimensional space. This eliminates the need for manual repositioning or [[concepts/perspective-adjustment|perspective adjustment]], streamlining the workflow for photographers and digital artists who need to present objects from multiple viewpoints.
+Recent advances in artificial intelligence have introduced automated tools for 3D object manipulation. Adobe's Photoshop Beta includes an AI Rotate Object feature that enables users to reposition objects within images by inferring depth information and generating new perspectives. These systems analyze the original photograph to understand spatial relationships, then synthesize views from angles not captured in the source image. The technology applies machine learning models trained on large datasets of photographic and 3D data to produce realistic results.
 
-## Applications and Limitations
+## Practical Applications
 
-The technology finds practical use in product photography, e-commerce, and creative design where viewing an object from multiple angles enhances presentation or [[concepts/storytelling|storytelling]]. However, the generated views remain interpretations based on algorithmic prediction rather than actual three-dimensional data, which means results may vary in [[concepts/accuracy|accuracy]] depending on image complexity, lighting conditions, and object geometry. The feature works best with clearly defined subjects and standard lighting [[concepts/scenarios|scenarios]].
+3D object manipulation finds use in product photography, e-commerce, visual effects, and creative design workflows. Photographers and designers can adjust product angles for marketing materials without reshooting, modify scene composition after capture, or explore alternative perspectives on existing imagery. The technique bridges the gap between simple 2D image editing and full 3D modeling pipelines, offering a faster alternative for specific use cases where generating new viewpoints is the primary goal.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-JSON-Prompting-for-Gemini-Achieving-Total-Image-Control-and-Metadata|JSON Prompting for Gemini Achieving Total Image Control and Metadata]] · [▶ source](https://www.youtube.com/watch?v=gcXPW6eBB0w)

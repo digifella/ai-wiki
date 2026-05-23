@@ -18,7 +18,7 @@ aliases:
   - "Desktop Agent Manager"
   - "Multi-Agent Orchestration System"
 summary: A localized software environment for orchestrating, managing, and executing multiple AI agents and language models on desktop systems.
-updated: 2026-04-30
+updated: 2026-05-23
 group: multimodal-generative-media
 ---
 # Desktop AI Platform
@@ -31,8 +31,7 @@ A localized [[concepts/software|software]] environment designed for the orchestr
 - **[[concepts/open-source|Open-Source]] [[concepts/integration|Integration]]:** Leveraging free, community-driven tools for scalable AI management.
 
 ### Notable Implementations
-- [[entities/aionui|AionUI]]: Free Desktop Platform for Multi-Agent AI Management and [[concepts/automation|Automation]]: A free, [[concepts/open-source|open-source]], desktop-based platform specifically engineered for the management and automation of various [[concepts/ai-connectors|AI agents]].
-
+- [[entities/aionui|AionUI]]: Free Desktop Platform for [[concepts/multi-agent-ai-management|Multi-Agent AI Management]] and [[concepts/automation|Automation]]: A free, [[concepts/open-source|open-source]], desktop-based platform specifically engineered for the management and automation of various [[concepts/ai-connectors|AI agents]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)
 - 2026-04-10: [[lab-notes/2026-04-10-OpenClaw-The-Autonomous-AI-Agents-Rise-and-Critical-Security-Flaws|OpenClaw The Autonomous AI Agents Rise and Critical Security Flaws]] · [▶ source](https://www.youtube.com/watch?v=qKqrmS6dKDg)

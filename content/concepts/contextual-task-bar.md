@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "photoshop-beta"
   - "ui-feature"
@@ -12,11 +11,12 @@ aliases:
   - "Photoshop Contextual Task Bar"
   - "Harmonize Feature"
 summary: A context-sensitive tool feature available in Adobe Photoshop Beta.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Contextual Task Bar
 
-The Contextual Task Bar is a context-sensitive interface feature in [[entities/adobe-photoshop-beta|Adobe Photoshop Beta]] that dynamically presents relevant tools and options based on the user's current task or selected element. Rather than requiring users to navigate static menus, the task bar adapts to display the most applicable functions for the active operation, streamlining workflow and reducing interface clutter.
+The Contextual Task Bar is a context-sensitive interface feature in [[entities/adobe-photoshop-beta|Adobe Photoshop Beta]] that dynamically presents relevant tools and options based on the user's current task or selected element. Rather than requiring users to navigate static menus, the task bar adapts to display the most applicable functions for the active operation, streamlining [[concepts/workflow|workflow]] and reducing interface clutter.
 
 ## Implementation and Functionality
 
@@ -24,8 +24,7 @@ Available in [[concepts/photoshop|Photoshop]]'s beta releases, the Contextual Ta
 
 ## Integration with AI Features
 
-The task bar works alongside Photoshop's AI-powered capabilities, including generative features and adjustment tools. By presenting contextually relevant AI-assisted options—such as content harmonization or intelligent adjustments—the interface helps users discover and access advanced functionality more efficiently than traditional menu structures.
-
+The task bar works alongside Photoshop's AI-powered [[concepts/capabilities|capabilities]], including generative features and adjustment tools. By presenting contextually relevant AI-assisted options—such as content harmonization or intelligent adjustments—the interface helps users discover and access advanced functionality more efficiently than traditional menu structures.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Gemini-AI-Integration-Updates-for-Google-Workspace-Applications|Gemini AI Integration Updates for Google Workspace Applications]] · [▶ source](https://www.youtube.com/watch?v=bhIkY4g5_Sc)

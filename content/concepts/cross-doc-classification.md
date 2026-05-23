@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "portal-intelligence-layer"
   - "document-classification"
@@ -12,11 +11,12 @@ aliases:
   - "Portal Intelligence Layer Classification"
   - "Document Classification Tasks"
 summary: The document details the implementation and merging of ten tasks within the Portal Intelligence Layer for cross-document classification.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Cross Doc Classification
 
-Cross Doc Classification is a [[concepts/feature-implementation|feature implementation]] within the [[concepts/ollama-first-model|Portal Intelligence Layer]] that enables systematic categorization of documents across multiple sources. The system was completed in version 3.5.18, with all ten constituent tasks implemented and merged into the main [[concepts/code|codebase]] as of April 23, 2026.
+Cross Doc Classification is a [[concepts/feature-implementation|feature implementation]] within the [[concepts/ollama-first-model|Portal Intelligence Layer]] that enables systematic categorization of documents across multiple sources. The system was completed in [[concepts/version-3|version 3]].5.18, with all ten constituent tasks implemented and merged into the main [[concepts/code|codebase]] as of April 23, 2026.
 
 ## Implementation Scope
 

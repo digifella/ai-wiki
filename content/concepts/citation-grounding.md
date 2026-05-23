@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "citation"
-  - "grounding"
-  - "source-verification"
-  - "citable-claims"
-  - "retrieval-grounding"
-  - "hallucination-reduction"
-aliases:
-  - "Source-Grounded Responses"
-  - "Citation-Verified AI"
-summary: "Citation grounding ensures AI responses directly reference specific, verifiable sources to enhance transparency and reduce hallucinations."
-updated: 2026-04-15
+summary: Citation grounding ensures AI responses directly reference specific, verifiable sources to enhance transparency and reduce hallucinations.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Citation Grounding
@@ -28,7 +17,7 @@ Ensures AI [[concepts/responses|responses]] are directly supported by specific, 
 ## Integration Example: Gemini and NotebookLM
 - [[entities/notebooklm]] ([[concepts/grounded-knowledge-engine|grounded knowledge engine]]) organizes documents with explicit citations
 - [[entities/gemini]] ([[concepts/multimodal-reasoning-engine|multimodal reasoning engine]]) leverages [[concepts/ai-integrated-notebooks|NotebookLM]]'s knowledge to generate source-cited responses
-- Combined workflow enables **citation grounding in practice**: responses include [[concepts/verifiable-citations|verifiable citations]] from the [[concepts/knowledge-base|knowledge base]]
+- Combined [[concepts/workflow|workflow]] enables **citation grounding in practice**: responses include [[concepts/verifiable-citations|verifiable citations]] from the [[concepts/knowledge-base|knowledge base]]
 
 ## Related Concepts
 - Grounded AI

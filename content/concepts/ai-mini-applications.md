@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "no-code"
-  - "automation"
-  - "software-development"
-updated: 2026-04-23
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # AI mini-applications
@@ -20,8 +15,8 @@ Task-specific, lightweight [[concepts/software|software]] powered by [[concepts/
 
 ### Emerging Platforms
 - **[[entities/google-opal|Opal]] ([[entities/google-labs]]):** An experimental no-code tool for describing, creating, and sharing AI mini-applications.
-    - Enables users to chain together prompts, [[concepts/models]], and tools using natural language descriptions and [[concepts/visual-editing|visual editing]].
-    - Designed to lower the barrier to entry for [[concepts/app-creation|software development]], allowing individuals to build AI-powered applications without traditional programming [[concepts/skills|skills]].
+    - Enables users to chain together prompts, [[concepts/models]], and tools using [[concepts/natural-language-descriptions|natural language descriptions]] and [[concepts/visual-editing|visual editing]].
+    - Designed to lower the barrier to entry for [[concepts/app-creation|software development]], allowing individuals to build [[concepts/ai-powered-applications|AI-powered applications]] without traditional programming [[concepts/skills|skills]].
 
 ### Related Concepts
 - [[concepts/agentic-ai]]
@@ -29,7 +24,6 @@ Task-specific, lightweight [[concepts/software|software]] powered by [[concepts/
 - [[concepts/software|Software]] Democratization
 
 2026 04 14 [[entities/opal-labs|Opal Labs]] [[entities/sam-witteveen|Sam Witteveen]]
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

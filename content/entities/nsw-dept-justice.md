@@ -10,7 +10,7 @@ aliases:
   - "NSW DoJ"
   - "Department of Justice NSW"
 summary: NSW Department of Justice serves as a clearing house and an up-to-date research space focusing on areas such as children and family violence.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # NSW Department of Justice
 

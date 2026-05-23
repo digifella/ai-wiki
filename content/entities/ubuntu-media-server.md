@@ -10,7 +10,7 @@ aliases:
   - "subscription-killing server"
   - "ubuntu streaming server"
 summary: A project to build a media server using Ubuntu for under $100 as an alternative to subscription-based services.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Ubuntu Media Server
 
@@ -18,7 +18,7 @@ updated: 2026-05-01
 
 ## Purpose and Motivation
 
-The project addresses the growing cost of maintaining multiple streaming service subscriptions by providing a self-hosted [[concepts/solution|solution]]. Users can consolidate their media libraries and stream content across devices without relying on external subscription services. This approach appeals to users seeking greater control over their media and reduced ongoing subscription expenses.
+The project addresses the growing [[concepts/cost|cost]] of maintaining multiple streaming service subscriptions by providing a self-hosted [[concepts/solution|solution]]. Users can consolidate their media libraries and stream content across devices without relying on external subscription services. This approach appeals to users seeking greater [[concepts/power|control]] over their media and reduced ongoing subscription expenses.
 
 ## Technical Implementation
 

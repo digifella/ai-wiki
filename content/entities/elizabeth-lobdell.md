@@ -5,7 +5,7 @@ tags:
   - "bbc-future"
   - "earth-science"
 summary: Elizabeth Lobdell is associated with a BBC Future article regarding the impact of the Biosphere 2 experiment on our understanding of the Earth.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Elizabeth Lobdell
 

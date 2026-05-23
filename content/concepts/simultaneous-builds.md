@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "simultaneous-builds"
   - "parallel-execution"
@@ -13,15 +12,16 @@ aliases:
   - "parallel builds"
   - "concurrent project builds"
 summary: The page discusses performing simultaneous builds for two projects using Gemini and Claude Code.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Simultaneous Builds
 
-Simultaneous builds refer to the practice of executing build processes for multiple projects at the same time, rather than sequentially. This approach can improve development efficiency by reducing total build time when projects are independent or have non-conflicting resource requirements. In the context of [[concepts/development-speed|AI-assisted development]], simultaneous builds leverage tools like [[concepts/gemini|Gemini]] and [[concepts/ai-assisted-coding|Claude Code]] to parallelize compilation, [[concepts/testing|testing]], and [[concepts/deployment|deployment]] workflows across multiple codebases.
+Simultaneous builds refer to the practice of executing build processes for multiple projects [[concepts/assistive-technology|at]] the same time, rather than sequentially. This approach can improve development efficiency by reducing total build time when projects are independent or have non-conflicting resource requirements. In the context of [[concepts/development-speed|AI-assisted development]], simultaneous builds leverage tools like [[concepts/gemini|Gemini]] and [[concepts/ai-assisted-coding|Claude Code]] to parallelize compilation, [[concepts/testing|testing]], and [[concepts/deployment|deployment]] workflows across multiple codebases.
 
 ## Implementation with Gemini and Claude Code
 
-Using Gemini and Claude Code for simultaneous builds allows developers to coordinate multi-project workflows through AI-assisted [[concepts/automation|automation]]. These tools can manage [[concepts/recurring-tasks|task scheduling]], monitor resource allocation, and handle build orchestration across projects without manual intervention. This is particularly useful in monorepo structures or microservice architectures where multiple services need to be built and deployed together.
+Using [[entities/gemini-app|Gemini]] and [[concepts/claude-code|Claude Code]] for simultaneous builds allows developers to coordinate multi-project workflows through AI-assisted [[concepts/automation|automation]]. These tools can manage [[concepts/recurring-tasks|task scheduling]], monitor resource allocation, and handle build orchestration across projects without manual intervention. This is particularly useful in monorepo structures or microservice architectures where multiple services need to be built and deployed together.
 
 ## Considerations
 

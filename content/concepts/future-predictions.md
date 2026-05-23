@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: business-strategy
+domain: ai-agents
 tags:
   - "predictions"
   - "future"
@@ -13,9 +13,9 @@ tags:
 aliases:
   - "Technological Forecasts"
   - "Future Trends"
-summary: "This page outlines forecasts for technological advancements in AI and quantum computing, as well as societal and economic shifts related to sustainability and automation."
-updated: 2026-04-28
-group: enterprise-strategy-future-work
+summary: This page outlines forecasts for technological advancements in AI and quantum computing, as well as societal and economic shifts related to sustainability and automation.
+updated: 2026-05-23
+group: ai-futures-self-improvement
 ---
 # Future Predictions
 
@@ -37,7 +37,6 @@ Future predictions involve forecasting trends, technological advancements, and s
 
 ## Backlinks
 - 2026 04 14 [[concepts/claude-ai|Claude]] 18 march 2026
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Feynmans-Distinction-Equivalent-Theories-and-Progress-Through-Understa|Feynmans Distinction Equivalent Theories and Progress Through Understa]] · [▶ source](https://www.youtube.com/watch?v=NM-zWTU7X-k)
 - 2026-04-19: [[lab-notes/2026-04-19-Breakthrough-in-Superheavy-Nuclei-Stability-and-the-Periodic-Table|Breakthrough in Superheavy Nuclei Stability and the Periodic Table]] · [▶ source](https://www.youtube.com/watch?v=rTJJHIXRMnU)

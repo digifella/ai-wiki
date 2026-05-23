@@ -1,15 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "knowledge-graph"
-  - "llm"
-  - "rag"
-  - "data-transformation"
-  - "neo4j"
-  - "real-time"
-summary: "Cocolndex Framework processes markdown documents to extract entities and relationships using LLMs, then builds knowledge graphs in Neo4j for efficient RAG querying."
-updated: 2026-04-15
+summary: Cocolndex Framework processes markdown documents to extract entities and relationships using LLMs, then builds knowledge graphs in Neo4j for efficient RAG querying.
+updated: 2026-05-23
 group: apis-integrations-mcp
 ---
 # Cocolndex Framework

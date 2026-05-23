@@ -13,9 +13,9 @@ tags:
   - "exocannibalism"
 aliases:
   - "Ritual Cannibalism"
-summary: "Cannibalism rituals are cultural or religious practices involving the consumption of human flesh for purposes such as mourning, warfare, or spiritual belief."
-updated: 2026-04-28
-group: anthropology-ethnography
+summary: Cannibalism rituals are cultural or religious practices involving the consumption of human flesh for purposes such as mourning, warfare, or spiritual belief.
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Cannibalism Rituals
 
@@ -27,7 +27,7 @@ Cannibalism rituals are practices involving the consumption of human flesh, ofte
 ### Fore Tribe and Kuru Disease
 - **Location:** [[entities/papua-new-guinea|Papua New Guinea]]
 - **Ritual:** Funerary cannibalism, where deceased relatives were consumed as part of mourning rituals.
-- **Outcome:** Led to the spread of **kuru**, a fatal neurodegenerative disease caused by **[[concepts/infectious-proteins|prions]]**.
+- **Outcome:** Led to the spread of **[[concepts/kuru-disease|kuru]]**, a fatal neurodegenerative disease caused by **[[concepts/infectious-proteins|prions]]**.
 - **Scientific Impact:** Studied by **Dr. [[entities/michael|Michael]] Alpers** and others, contributing to the understanding of **[[concepts/prion-diseases|prion diseases]]**.
 
 ### Endocannibalism vs. Exocannibalism

@@ -1,22 +1,16 @@
 ---
 type: concept
-tags:
-  - "business-strategy"
-  - "enterprise-software"
-  - "ai-integration"
-  - "workplace-transformation"
-  - "slack-integration"
-updated: 2026-04-14
 domain: business-strategy
+summary: The concept of work transformation involves the strategic use of AI and agents by Salesforce to change how businesses operate, with a focus on communication tools like Slack and regulatory compliance.
+updated: 2026-05-23
 group: enterprise-strategy-future-work
-summary: "The concept of work transformation involves the strategic use of AI and agents by Salesforce to change how businesses operate, with a focus on communication tools like Slack and regulatory compliance."
 ---
 title: "work transformation"
 type: concept
 tags:
 - AI
 - WorkTransformation
-- Salesforce
+- [[entities/salesforce|Salesforce]]
 - [[entities/slack|Slack]]
 - MarcBenioff
 
@@ -26,11 +20,10 @@ In the context of 2026 04 10 [[entities/marc-benioff|Marc Benioff]] Salesforces 
 
 ### Key Points
 - **Strategic Positioning**: Salesforce's [[concepts/strategic-approach|strategic approach]] towards AI and its impact on work.
-  - A new interview highlights how Salesforce is positioning itself strategically in the landscape of AI and agents. (See: 2026 04 10 Marc Benioff Salesforces AI Strategy Agents Slack and Work)
-- **[[concepts/openclaw|OpenClaw]]**: Personal [[concepts/ai-assistant|AI assistant]] ([[concepts/local-ai-assistants|Clawdbot]]) [[concepts/running|running]] on user infrastructure with Slack/Gmail/Asana/[[entities/telegram|Telegram]] integration for real-world task execution via chat. (See: 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel)
+  - A new interview [[concepts/highlights|highlights]] how Salesforce is positioning itself strategically in the landscape of AI and agents. (See: 2026 04 10 Marc Benioff Salesforces AI Strategy Agents Slack and Work)
+- **[[concepts/openclaw|OpenClaw]]**: Personal [[concepts/ai-assistant|AI assistant]] ([[concepts/local-ai-assistants|Clawdbot]]) [[concepts/running|running]] on user infrastructure with Slack/Gmail/Asana/[[entities/telegram|Telegram]] [[concepts/integration|integration]] for real-world task execution via chat. (See: 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel)
 
 2026 04 14 Clawbot Matthew Berman channel
-
 ## Source Notes
 - 2026-04-07: Salesforce CEO on Microsoft Blocking OpenAI Investment, AI
 - 2026-04-10: Salesforce CEO on Microsoft Blocking OpenAI Investment, AI

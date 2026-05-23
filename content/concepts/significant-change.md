@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: enterprise-strategy-future-work
 tags:
   - "business-strategy"
   - "enterprise-strategy"
@@ -14,21 +13,21 @@ aliases:
   - "strategic-shift"
   - "transformational-change"
 summary: A concept within the business-strategy domain.
-updated: 2026-05-01
+updated: 2026-05-23
+group: enterprise-strategy-future-work
 title: Significant Change
 ---
 # Significant Change
 
-Significant change in business strategy refers to transformative shifts in organizational direction, operations, or market positioning that materially alter a company's competitive landscape or performance trajectory. These changes typically involve substantial resource reallocation, process restructuring, or [[concepts/strategic-pivot|strategic repositioning]] rather than incremental improvements. Significant changes may be driven by technological [[concepts/innovation|innovation]], market disruption, leadership transitions, or shifts in customer demand, and often require coordinated implementation across multiple business functions.
+Significant change in business strategy refers to transformative shifts in organizational direction, operations, or market positioning that materially alter a company's competitive landscape or performance trajectory. These changes typically involve substantial resource reallocation, process restructuring, or [[concepts/strategic-pivot|strategic repositioning]] rather than incremental improvements. Significant changes may be driven by technological [[concepts/innovation|innovation]], market disruption, [[concepts/leadership|leadership]] transitions, or shifts in customer demand, and often require coordinated [[concepts/adoption|implementation]] across multiple business functions.
 
 ## Characteristics and Scope
 
-Significant changes are distinguished by their scope and impact rather than their speed of implementation. They generally affect core business processes, require stakeholder alignment, and have measurable consequences for organizational performance. Such changes often involve risk and uncertainty, necessitating careful planning and change management. The identification of what constitutes "significant" varies by [[concepts/organization|organization]] and context, depending on industry dynamics, company size, and strategic objectives.
+Significant changes are distinguished by their scope and impact rather than their [[concepts/speed|speed]] of implementation. They generally affect core business processes, require stakeholder alignment, and have measurable consequences for organizational performance. Such changes often involve risk and uncertainty, necessitating careful planning and change management. The identification of what constitutes "significant" varies by [[concepts/organization|organization]] and context, depending on industry dynamics, company size, and strategic objectives.
 
 ## Implementation Considerations
 
-Organizations pursuing significant changes must address multiple dimensions including technological infrastructure, workforce capability, cultural alignment, and stakeholder communication. Successful implementation typically requires sustained commitment over extended periods and regular reassessment of strategy against evolving market conditions. The integration of new technologies—such as AI-driven tools and [[concepts/automation|automation]] platforms—has become increasingly central to significant organizational changes in contemporary business environments.
-
+Organizations pursuing significant changes must address multiple dimensions including technological infrastructure, workforce capability, cultural alignment, and stakeholder communication. Successful implementation typically requires sustained commitment over extended periods and regular reassessment of strategy against evolving market conditions. The [[concepts/integration|integration]] of new technologies—such as AI-driven tools and [[concepts/automation|automation]] platforms—has become increasingly central to significant organizational changes in contemporary business environments.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-08: Anthropic

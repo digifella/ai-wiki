@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "manufacturing"
   - "product-quality"
@@ -14,20 +13,20 @@ aliases:
   - "quality-assurance"
   - "product-testing"
 summary: A four-year experiment investigates whether a product can be manufactured entirely in America and remain competitive in the marketplace.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Quality Control
 
-Quality Control in the context of [[concepts/domestic-manufacturing|domestic manufacturing]] refers to the systematic processes and [[concepts/open-standards|standards]] applied to ensure products meet specified requirements while being produced entirely within a single country's borders. This approach combines traditional [[concepts/quality-assurance|quality assurance]] methods with the logistical and economic constraints of localized [[concepts/supply-chains|supply chains]], creating distinct challenges and trade-offs compared to globally distributed manufacturing networks.
+Quality [[concepts/power|Control]] in the context of [[concepts/domestic-manufacturing|domestic manufacturing]] refers to the systematic processes and [[concepts/open-standards|standards]] applied to ensure products meet specified requirements while being produced entirely within a single country's borders. This approach combines traditional [[concepts/quality-assurance|quality assurance]] methods with the logistical and economic constraints of localized [[concepts/supply-chains|supply chains]], creating distinct challenges and trade-offs compared to globally distributed manufacturing networks.
 
 ## The Manufacturing Competitiveness Question
 
-A notable four-year experiment, documented by content creator [[entities/destin-sandlin|Destin Sandlin]] through the [[entities/smarter-every-day|Smarter Every Day]] channel, investigated whether a consumer product could be manufactured entirely in [[entities/america|America]] while remaining cost-competitive in the broader marketplace. The experiment addresses a fundamental tension in modern manufacturing: whether domestic production, with its associated labor costs, regulatory [[concepts/compliance|compliance]], and supply chain limitations, can achieve the price points and quality standards expected by consumers accustomed to globally-sourced alternatives.
+A notable [[concepts/four-year-experiment|four-year experiment]], documented by [[entities/video-creator|content creator]] [[entities/destin-sandlin|Destin Sandlin]] through the [[entities/smarter-every-day|Smarter Every Day]] channel, investigated whether a consumer product could be manufactured entirely in [[entities/america|America]] while remaining cost-competitive in the broader marketplace. The experiment addresses a fundamental tension in modern manufacturing: whether [[concepts/domestic-production|domestic production]], with its associated labor costs, regulatory [[concepts/compliance|compliance]], and supply chain limitations, can achieve the price points and quality standards expected by consumers accustomed to globally-sourced alternatives.
 
 ## Implications for Business Strategy
 
-The outcomes of such experiments have broader implications for business strategy decisions around manufacturing location, supply chain [[concepts/resilience|resilience]], and market positioning. They reveal the actual economic trade-offs between domestic production benefits—such as reduced shipping times, greater quality oversight, and local economic contribution—and the cost advantages traditionally associated with offshoring. These findings inform whether "Made in America" or similar domestic manufacturing claims can serve as sustainable competitive advantages rather than merely marketing positioning.
-
+The outcomes of such experiments have broader implications for business strategy decisions around manufacturing location, supply chain [[concepts/resilience|resilience]], and market positioning. They reveal the actual economic trade-offs between domestic production benefits—such as reduced shipping times, greater quality oversight, and local economic contribution—and the [[concepts/cost|cost]] advantages traditionally associated with offshoring. These findings inform whether "Made in [[entities/united-states|America]]" or similar domestic manufacturing claims can serve as sustainable competitive advantages rather than merely marketing positioning.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions|Benchmarking SLMs Identifying 4GB General Problem Solving Champions]] · [▶ source](https://www.youtube.com/watch?v=wQxawC3sv68)
 - 2026-04-08: [[lab-notes/2026-04-08-Optimizing-AI-for-Legal-Work-Custom-Instructions-for-Professional-Outp|Optimizing AI for Legal Work Custom Instructions for Professional Outp]] · [▶ source](https://www.youtube.com/watch?v=BP6x_FRwZ3w)

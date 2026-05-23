@@ -6,8 +6,9 @@ tags:
   - "cybersecurity"
   - "quantum-computing"
   - "security-standards"
-updated: 2026-04-30
+updated: 2026-05-23
 group: cryptography-codes-ciphers
+stub: true
 ---
 # Encryption methods
 
@@ -19,9 +20,8 @@ Processes used to encode information to ensure data confidentiality and [[concep
 
 ## Quantum Threats and Mitigation
 - [[entities/quantum-computing]] poses a significant threat to the [[concepts/mathematical-concepts|mathematical foundations]] of current Asymmetric Encryption [[concepts/open-standards|standards]] (e.g., RSA, ECC).
-- [[concepts/post-quantum-cryptography]] (PQC) is a critical research priority aimed at developing algorithms resistant to [[concepts/quantum-attacks|quantum-based attacks]].
-- Further reading: [[concepts/post-quantum-security|Post-Quantum Cryptography]]: Addressing Quantum Computer Threats to Digital Security
-
+- [[concepts/post-quantum-cryptography]] (PQC) is a critical research priority aimed [[concepts/assistive-technology|at]] developing algorithms resistant to [[concepts/quantum-attacks|quantum-based attacks]].
+- Further reading: [[concepts/post-quantum-security|Post-Quantum Cryptography]]: Addressing Quantum Computer Threats to Digital [[concepts/security|Security]]
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-P-vs-NP-Problem-Computational-Complexity-Implications-and-Historical-C|P vs NP Problem Computational Complexity Implications and Historical C]] · [▶ source](https://www.youtube.com/watch?v=pQsdygaYcE4)
 - 2026-04-13: [[lab-notes/2026-04-13-P-vs-NP-Problem-Computational-Complexity-and-Implications-Summary|P vs NP Problem Computational Complexity and Implications Summary]] · [▶ source](https://www.youtube.com/watch?v=EHp4FPyajKQ)

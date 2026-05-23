@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: design-systems-ui-infographics
+domain: ai-agents
 tags:
   - "concept"
   - "ai-automation"
@@ -12,8 +11,9 @@ tags:
 aliases:
   - "AI-Powered Workflow Automation"
   - "Claude Cowork Use Cases"
-summary: "Advanced use cases for AI-powered workflow automation demonstrating application interaction patterns."
-updated: 2026-05-02
+summary: Advanced use cases for AI-powered workflow automation demonstrating application interaction patterns.
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Application Interaction
 
@@ -25,7 +25,6 @@ Application interaction refers to the patterns and methods through which AI syst
 
 ## Practical Implementation
 
-Effective application interaction requires clear definitions of how systems communicate, including data formats, error handling, and conditional logic. Real-world use cases span [[concepts/content-creation|content creation]] workflows, data processing pipelines, customer service automation, and [[concepts/document-management|document management]] systems. The sophistication of these interactions ranges from simple sequential operations to complex branching logic that adapts based on intermediate results, enabling flexible automation of processes that previously required manual oversight or custom integration work.
-
+Effective application interaction requires clear definitions of how systems communicate, including data formats, error handling, and conditional logic. Real-world [[concepts/use-cases|use cases]] span [[concepts/content-creation|content creation]] workflows, data processing pipelines, customer service automation, and [[concepts/document-management|document management]] systems. The sophistication of these interactions ranges from simple sequential operations to complex branching logic that adapts based on intermediate results, enabling flexible automation of processes that previously required manual oversight or custom [[concepts/integration|integration]] work.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Claude-Co-Work-8-Advanced-Use-Cases-for-AI-Powered-Workflow-Automation|Claude Co Work 8 Advanced Use Cases for AI Powered Workflow Automation]] · [▶ source](https://www.youtube.com/watch?v=gp3d7RAgFME)

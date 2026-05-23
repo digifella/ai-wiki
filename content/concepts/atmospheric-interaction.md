@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "astronomy"
-  - "physics"
-  - "cosmic-rays"
-  - "atmosphere-interaction"
-updated: 2026-04-14
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Atmospheric Interaction
@@ -15,6 +10,6 @@ Atmospheric interaction refers to the processes by which various particles and r
 
 - **[[concepts/lhaaso|LHAASO]]'s Confirmation: The Universe's Most Powerful [[concepts/high-energy-particles|Cosmic Ray Sources]]** introduces the significance of cosmic ray interaction with Earth's atmosphere:
   - [[concepts/cosmic-rays|Cosmic rays]] are high-energy particles predominantly composed of protons.
-  - Upon entering the atmosphere, these particles trigger a chain reaction that leads to [[concepts/ionization|ionization]] and can damage satellites. WikiLink
+  - Upon entering the atmosphere, these particles trigger a [[concepts/domino-effect|chain reaction]] that leads to [[concepts/ionization|ionization]] and can damage satellites. WikiLink
 
 - 2026 04 13 LHAASOs Confirmation The Universes Most Powerful Cosmic Ray Sources

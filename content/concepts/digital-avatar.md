@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "ai-cloning"
   - "video-generation"
@@ -14,19 +13,20 @@ aliases:
   - "synthetic creator"
   - "AI content generator"
 summary: A digital avatar uses AI video and voice cloning to generate content and earn revenue on behalf of a creator.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Digital Avatar
 
-A [[concepts/creator|digital avatar]] is a synthetic representation of a person created using [[concepts/ai-technologies|artificial intelligence]], specifically through video and [[concepts/ai-clone|voice cloning]] technologies. These avatars can generate content—such as videos, streams, or other media—that appears to feature the original creator, even when that creator is not physically present during production. The technology uses [[concepts/artificial-intelligence-models|machine learning models]] trained on samples of a person's appearance, speech patterns, and mannerisms to create convincing synthetic media.
+A [[concepts/creator|digital avatar]] is a synthetic representation of a person created using [[concepts/ai-technologies|artificial intelligence]], specifically through video and [[concepts/ai-clone|voice cloning]] technologies. These avatars can generate content—such as videos, streams, or other media—that appears to feature the original [[entities/creator|creator]], even when that creator is not physically present during production. The technology uses [[concepts/artificial-intelligence-models|machine learning models]] trained on samples of a person's appearance, speech patterns, and mannerisms to create convincing synthetic media.
 
 ## Content Generation and Revenue
 
-[[concepts/digital-avatars|Digital avatars]] enable creators to produce content at scale by automating the appearance and voice components of [[concepts/video-creation|video creation]]. This allows a creator to maintain an online presence and generate revenue through multiple channels—such as [[concepts/movie-streaming|streaming platforms]], social media, or sponsored content—without being physically available for every recording [[concepts/session|session]]. The avatar can respond to scripts, interact with audiences, or perform tasks that would traditionally require the creator's direct participation.
+[[concepts/digital-avatars|Digital avatars]] enable creators to produce content [[concepts/assistive-technology|at]] scale by automating the appearance and [[concepts/tone|voice]] components of [[concepts/video-creation|video creation]]. This allows a creator to maintain an online presence and generate revenue through multiple channels—such as [[concepts/movie-streaming|streaming platforms]], social media, or sponsored content—without being physically available for every recording [[concepts/session|session]]. The avatar can respond to scripts, interact with audiences, or perform tasks that would traditionally require the creator's direct participation.
 
 ## Technical Implementation
 
-The technology relies on deep [[concepts/learning|learning]] techniques including generative models and [[concepts/neural-networks|neural networks]] trained on video footage and audio recordings of the original person. Advanced systems can synchronize facial movements with synthesized speech, adjust for lighting and camera angles, and maintain [[concepts/logical-consistency|consistency]] across multiple videos. The quality and believability of digital avatars continues to improve as [[concepts/ai-models|AI models]] become more sophisticated.
+The technology relies on deep [[concepts/learning|learning]] techniques including generative [[concepts/models|models]] and [[concepts/neural-networks|neural networks]] trained on video footage and [[concepts/audio-modality|audio]] recordings of the original person. Advanced systems can synchronize facial movements with synthesized speech, adjust for lighting and camera angles, and maintain [[concepts/logical-consistency|consistency]] across multiple videos. The quality and believability of [[concepts/digital-clones|digital avatars]] continues to improve as [[concepts/ai-models|AI models]] become more sophisticated.
 
 ## Considerations and Implications
 

@@ -12,13 +12,13 @@ tags:
 aliases:
   - "Software Delivery"
   - "Software Deployment"
-summary: "Application delivery refers to the processes and technologies, such as containerization and CI/CD pipelines, used to deploy, manage, and maintain software applications."
-updated: 2026-04-28
+summary: Application delivery refers to the processes and technologies, such as containerization and CI/CD pipelines, used to deploy, manage, and maintain software applications.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Application Delivery
 
-2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from IBM
+2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from [[entities/ibm|IBM]]
 
 ## Overview
 Application delivery refers to the processes and technologies used to deploy, manage, and maintain [[concepts/software|software]] [[concepts/software|applications]] across various environments.
@@ -39,6 +39,5 @@ Application delivery refers to the processes and technologies used to deploy, ma
 - Key points:
   1. **The Shift to Containers for Applications (0:00-0:45)**:
       - Fundamental shift in software delivery about a decade ago.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-NotebookLM-Infographic-to-Interactive-Web-Application-Workflow-using|NotebookLM Infographic to Interactive Web Application Workflow using]] · [▶ source](https://www.youtube.com/watch?v=DQijzXADyiE)

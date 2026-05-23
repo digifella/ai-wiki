@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "concept"
   - "supervolcano"
@@ -13,11 +12,12 @@ aliases:
   - "Cerberean supervolcano"
   - "Victoria supervolcano"
 summary: The Cerberean Supervolcano is a 30km-wide geological feature located in northeast Melbourne, Victoria.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Cerberean Supervolcano
 
-The Cerberean Supervolcano is a large volcanic feature approximately 30 kilometres in diameter located in northeast [[concepts/melbourne-region|Melbourne]], Victoria, Australia. As a [[concepts/supervolcano|supervolcano]], it represents a geological [[concepts/structure|structure]] capable of producing eruptions of exceptional scale, though the volcano is not currently active. The feature lies within a region of Victoria that has experienced significant volcanic activity during its geological history.
+The [[concepts/explosive-history|Cerberean Supervolcano]] is a large volcanic feature approximately 30 kilometres in diameter located in northeast [[concepts/melbourne-region|Melbourne]], Victoria, Australia. As a [[concepts/supervolcano|supervolcano]], it represents a geological [[concepts/structure|structure]] capable of producing eruptions of exceptional scale, though the volcano is not currently active. The feature lies within a region of Victoria that has experienced significant volcanic activity during its geological history.
 
 ## Geological Characteristics
 
@@ -25,7 +25,8 @@ The Cerberean Supervolcano is part of the broader volcanic landscape of southeas
 
 ## Historical Significance
 
-The supervolcano's eruptive history demonstrates the dynamic geological past of the Melbourne region. Understanding its previous eruptions contributes to knowledge of Australia's Cenozoic volcanic activity and the role such events played in shaping the continent's landscape and climate. Despite its proximity to a major population centre, the feature remains a lesser-known aspect of Victoria's geological [[concepts/cultural-heritage|heritage]].
+The supervolcano's eruptive history demonstrates the dynamic geological past of the Melbourne region.
 
-## Source Notes
-- 2026-04-11: [[lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea|Cerberean Supervolcano Discovery Geology and Explosive History Northea]] · [▶ source](https://www.youtube.com/watch?v=ek0ASprm3Mw)
+*   This feature is considered one of Australia's largest and most powerful [[concepts/volcanic-eruptions|volcanic eruptions]].
+*   The eruptive history [[concepts/highlights|highlights]] the dynamic geological past of the Melbourne region during periods of intense volcanism.
+*   Further details on this ancient, explosive history can be found in [[lab-notes/2026-05-02-Cerberean-Supervolcano-Victorias-Ancient-Explosive-Geolo|Cerberean Supervolcano: Victoria's Ancient, Explosive Geological History]].

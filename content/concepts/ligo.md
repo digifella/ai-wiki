@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: cosmology-astronomy-astrophysics
 tags:
   - "gravitational-waves"
   - "primordial-black-holes"
@@ -12,7 +11,8 @@ aliases:
   - "LIGO gravitational wave detection"
   - "primordial black hole evidence"
 summary: The video discusses evidence of a primordial black hole through the detection of gravitational waves from a sub-solar mass object.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cosmology-astronomy-astrophysics
 ---
 # Ligo
 
@@ -20,8 +20,8 @@ LIGO (Laser Interferometer Gravitational-Wave Observatory) is a large-scale [[co
 
 ## Gravitational Wave Detection
 
-LIGO detects gravitational waves by measuring minute distortions in the fabric of spacetime using laser beams split between perpendicular arms several kilometers long. When a gravitational wave passes through the detector, it causes differential changes in the arm lengths on the order of 10^-18 meters. By comparing the interference patterns of laser light returning from each arm, scientists can identify these extraordinarily small perturbations and extract information about the source event.
+LIGO detects gravitational waves by measuring minute distortions in the fabric of spacetime using laser beams split between perpendicular arms several kilometers long. When a gravitational wave passes through the detector, it causes differential changes in the arm lengths on the order of 10^-18 meters. By comparing the interference patterns of laser [[concepts/light|light]] returning from each arm, scientists can identify these extraordinarily small perturbations and extract information about the source event.
 
 ## Primordial Black Hole Research
 
-LIGO observations have contributed to the search for primordial black holes—hypothetical [[concepts/black-holes|black holes]] formed in the [[concepts/early-universe|early universe]] rather than through stellar collapse. The detection of gravitational wave signals from mergers involving [[concepts/stellar-mass|sub-solar mass objects]] provides potential evidence for primordial black holes, since stellar processes are not expected to produce black holes lighter than roughly 5 solar masses. Analysis of such detections helps constrain theories about [[concepts/dark-matter|dark matter]] composition and the universe's primordial conditions.
+LIGO observations have contributed to the search for [[concepts/primordial-black-hole|primordial black holes]]—hypothetical [[concepts/black-holes|black holes]] formed in the [[concepts/early-universe|early universe]] rather than through stellar collapse. The detection of gravitational wave signals from mergers involving [[concepts/stellar-mass|sub-solar mass objects]] provides potential evidence for primordial black holes, since stellar processes are not expected to produce black holes lighter than roughly 5 solar masses. Analysis of such detections helps constrain theories about [[concepts/dark-matter|dark matter]] composition and the universe's primordial conditions.

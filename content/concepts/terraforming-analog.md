@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: space-systems-exploration-infrastructure
 tags:
   - "biosphere-2"
   - "closed-system-experiment"
@@ -12,7 +11,8 @@ aliases:
   - "Biosphere 2 Experiment"
   - "Closed Ecosystem Study"
 summary: The Biosphere 2 experiment changed the understanding of Earth.
-updated: 2026-05-01
+updated: 2026-05-23
+group: space-systems-exploration-infrastructure
 ---
 # Terraforming Analog
 
@@ -20,8 +20,8 @@ updated: 2026-05-01
 
 ## Ecological Insights
 
-The experiment revealed unexpected vulnerabilities in closed-system management. Oxygen levels declined unpredictably, nitrogen cycles became problematic, and pest species proliferated in ways models had not predicted. These findings demonstrated that Earth's biosphere is far more complex and interconnected than simplified models suggested, with [[concepts/feedback|feedback]] loops and microbial processes that proved difficult to replicate or control at smaller [[concepts/musical-scales|scales]].
+The experiment revealed unexpected vulnerabilities in closed-system management. Oxygen levels declined unpredictably, nitrogen cycles became problematic, and pest species proliferated in ways [[concepts/models|models]] had not predicted. These findings demonstrated that Earth's biosphere is far more complex and interconnected than simplified models suggested, with [[concepts/feedback|feedback]] [[concepts/loops|loops]] and microbial processes that proved difficult to replicate or [[concepts/power|control]] [[concepts/assistive-technology|at]] smaller [[concepts/musical-scales|scales]].
 
 ## Relevance to Space Exploration
 
-Biosphere 2 provided crucial empirical data for understanding the challenges of creating self-sustaining habitats beyond Earth. The experiment highlighted technical obstacles that would need to be addressed for long-term human presence on other planets or in space stations, including atmosphere management, waste recycling, and maintaining [[concepts/ecological-balance|ecological balance]]. While the facility's operational phases were relatively brief, the lessons learned influenced subsequent approaches to closed-environment research and informed [[concepts/theoretical-frameworks|theoretical frameworks]] for potential future terraforming efforts.
+[[entities/biosphere-2|Biosphere 2]] provided crucial empirical data for understanding the challenges of creating self-sustaining habitats beyond Earth. The experiment highlighted technical obstacles that would need to be addressed for long-term human presence on other planets or in space stations, including atmosphere management, waste recycling, and maintaining [[concepts/ecological-balance|ecological balance]]. While the facility's operational phases were relatively brief, the lessons learned influenced subsequent approaches to closed-environment research and informed [[concepts/theoretical-frameworks|theoretical frameworks]] for potential future terraforming efforts.

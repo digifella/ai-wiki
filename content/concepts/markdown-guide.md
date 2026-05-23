@@ -13,9 +13,10 @@ tags:
 aliases:
   - "Markdown Syntax"
   - "Markdown Documentation"
-summary: "A guide covering basic and advanced Markdown syntax, its integration with tools like Obsidian and GitHub, and its use in documenting AI agent creation processes within Azure AI."
-updated: 2026-04-28
+summary: A guide covering basic and advanced Markdown syntax, its integration with tools like Obsidian and GitHub, and its use in documenting AI agent creation processes within Azure AI.
+updated: 2026-05-23
 group: developer-tooling-clis
+stub: true
 ---
 # Markdown Guide
 
@@ -29,12 +30,12 @@ group: developer-tooling-clis
 ## Advanced Features
 - **Tables**: Use `|` for columns and `---` for headers.
 - **[[concepts/code|Code]] Blocks**: ```` ```language ``` ```` for syntax highlighting.
-- **Footnotes**: `[^1]` with `[^1]: text` at the bottom.
-- **Blockquotes**: `>` for quoted text.
+- **Footnotes**: `[^1]` with `[^1]: text` [[concepts/assistive-technology|at]] the bottom.
+- **Blockquotes**: `>` for quoted [[concepts/text|text]].
 
 ## Integration with Tools
 - **[[concepts/obsidian|Obsidian]]**: Supports WikiLink for internal linking.
-- **GitHub**: Renders [[concepts/markdown|markdown]] natively.
+- **[[entities/github|GitHub]]**: Renders [[concepts/markdown|markdown]] natively.
 - **[[concepts/agentic-rag-systems|Agentic RAG Systems]]**: Can process markdown for documentation.
 
 ## Related Concepts
@@ -48,7 +49,6 @@ group: developer-tooling-clis
 - **Video Reference**: [Azure Innovation Station channel](https://www.youtube.com/watch?v=xXTuxKdzZrI).
 
 2026 04 14 Build an agentic rag system in [[entities/azure|azure]] ai and [[concepts/foundry|foundry]]
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Heres-what-it-actually-does-how-to-build-it-yourself|Heres what it actually does how to build it yourself]]
 - 2026-04-07: Karpathy

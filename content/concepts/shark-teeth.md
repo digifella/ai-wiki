@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "shark-evolution"
@@ -13,7 +12,8 @@ aliases:
   - "shark-tooth-evolution"
   - "dental-adaptations-sharks"
 summary: Shark teeth evolved through various bizarre adaptations during the Golden Age of Shark Evolution, including lost features like buzzsaws, anvils, and spikes.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Shark Teeth
 
@@ -26,7 +26,6 @@ During what paleontologists term the Golden Age of [[concepts/shark-evolution|Sh
 ## Modern Simplification
 
 Many of these extreme tooth specializations disappeared from the shark fossil record, suggesting that simpler tooth designs often proved more functionally efficient or versatile. Modern sharks typically display more streamlined tooth morphologies, with forms ranging from sharp, triangular cutting teeth in species like great [[concepts/whites|whites]] to flattened grinding teeth in species that consume hard-shelled prey. This pattern of evolutionary loss and simplification indicates that the initial diversity of tooth designs represented experimental variations rather than universally superior adaptations.
-
 ## Source Notes
 - 2026-04-08: How Sharks Lost Their Buzzsaws, Anvils, and Spikes
 - 2026-04-07: [[lab-notes/2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)

@@ -1,23 +1,17 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "image-editing"
-  - "ai"
-  - "local-llm"
-  - "detail-removal"
-updated: 2026-04-15
+updated: 2026-05-23
 group: photoshop-layer-workflows
 ---
 # Detail Removal
 
 Technique for eliminating unwanted elements (e.g., raindrops, scratches) from [[concepts/images|images]] while preserving contextual [[concepts/integrity|integrity]] of surrounding areas.
 
-**Key Capabilities:**
+**Key [[concepts/capabilities|Capabilities]]:**
 - Effectively removes numerous raindrops from busy street scenes while maintaining background [[concepts/logical-consistency|consistency]] (demonstrated by [[concepts/image-editing|Image Editing]] using [[concepts/local-llm|Local LLM]]'s [[entities/hidream-e11|HiDream-E1.1]] model).
 
 2026 04 14 Image Editing using Local LLM
-
 ## Source Notes
 
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)

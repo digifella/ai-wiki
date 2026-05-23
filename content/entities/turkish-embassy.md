@@ -10,7 +10,7 @@ aliases:
   - "Turkey Visa Documents"
   - "TR E-Visa"
 summary: This page contains notes and electronic visa documents related to Turkey visas.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Turkish Embassy
 
@@ -18,7 +18,7 @@ The Turkish Embassy page serves as a repository for visa-related documentation a
 
 ## Electronic Visa Documents
 
-The page contains stored electronic visa documents associated with Turkish visa applications. As of April 23, 2026, two e-visa documents are maintained on file: TR_EVisa_259481466375 and TR_EVisa_294865867619. These documents represent issued Turkish visas in digital format.
+The page contains stored electronic visa documents associated with Turkish visa applications. As of April 23, 2026, two [[concepts/electronic-visa-system-e-visa|e-visa]] documents are maintained on file: TR_EVisa_259481466375 and TR_EVisa_294865867619. These documents represent issued Turkish visas in digital format.
 
 ## Turkey Visas
 

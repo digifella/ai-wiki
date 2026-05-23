@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "ai-agents"
   - "strategy"
@@ -11,25 +10,32 @@ tags:
   - "ai-strategy"
   - "multi-agent-workflows"
   - "agent-skills"
+  - "multi-step-workflows"
+  - "autonomous-agents"
+  - "tool-use"
+  - "reasoning"
+  - "task-automation"
 aliases:
-  - "Claude Agentic Pivot"
-  - "Anthropic Agent Strategy"
+  - "Agentic Architecture"
+  - "Autonomous Agent System"
+  - "Multi-component AI System"
 summary: Anthropic's 2026 Claude updates represent a strategic shift from single-assistant chat interface toward integrated agentic systems for multi-part workflows.
-updated: 2026-05-01
-stub: true
+updated: 2026-05-23
+group: agent-systems-skills
 title: Agentic Strategy
 ---
 # Agentic System
 
-An agentic system is an integrated [[concepts/architecture|architecture]] of [[concepts/capabilities|AI capabilities]] designed to execute multi-step workflows and [[concepts/complex-tasks|complex tasks]] beyond single-turn conversation. Rather than operating as a standalone [[concepts/chat-application|chat interface]], [[concepts/agentic-frameworks|agentic systems]] coordinate interconnected components—including code execution, tool use, planning, [[concepts/memory|memory]], and [[concepts/knowledge-bases|information retrieval]]—to accomplish objectives that require [[concepts/reasoning|reasoning]] across multiple stages and domains. This structural approach allows AI systems to decompose problems, execute actions, evaluate outcomes, and refine approaches iteratively with reduced human intervention.
+An agentic system is an integrated [[concepts/architecture|architecture]] of [[concepts/capabilities|AI capabilities]] designed to execute multi-step workflows and [[concepts/complex-tasks|complex tasks]] that extend beyond single-turn conversation. Unlike traditional [[concepts/chat-interfaces|chat interfaces]] where a user exchanges messages with an [[concepts/ai-assistant|AI assistant]] in isolation, [[concepts/agentic-frameworks|agentic systems]] coordinate multiple interconnected components—including [[concepts/code-execution|code execution]], tool use, planning mechanisms, [[concepts/memory|memory]] systems, and [[concepts/knowledge-bases|information retrieval]]—to accomplish objectives that require [[concepts/reasoning|reasoning]] across multiple steps and external interactions.
 
-## Core Components
+The core distinction of an agentic system lies in its autonomous [[concepts/decision-making|decision-making]] capability. Rather than waiting for user input after each response, an agentic system can decompose a problem into subtasks, determine which tools or actions are necessary, execute them, evaluate results, and adjust its approach iteratively. This requires the system to maintain context across multiple operations, manage dependencies between tasks, and handle errors or unexpected outcomes without constant human intervention.
 
-Agentic systems typically incorporate persistent memory to maintain context across extended interactions, access to [[concepts/external-tools|external tools]] and APIs for real-world action, reasoning engines for multi-step planning, and [[concepts/feedback|feedback]] loops that enable the system to assess and adjust its approach based on execution results. These components work together to create autonomous decision-making capacity appropriate for tasks like research coordination, [[concepts/coding|software development]], data analysis, and [[concepts/automated-business-operations|business process automation]].
+## Components and Architecture
 
-## Distinction from Assistants
+Typical agentic systems incorporate several functional elements working in concert. A planning component breaks down high-level objectives into actionable steps. Tool use modules enable interaction with external systems, APIs, or computational environments. Memory systems—both short-term [[concepts/context-windows|context windows]] and persistent knowledge stores—allow the system to track progress and apply [[concepts/learning|learning]] across sessions. [[concepts/integration|Integration]] points with code execution environments and retrieval systems provide grounding in concrete data and computational capability.
 
-The primary distinction between agentic systems and traditional chat assistants lies in autonomy and workflow complexity. Assistants respond to individual prompts with limited state [[concepts/data-persistence|persistence]] and typically require explicit human direction for each step. Agentic systems maintain continuous objectives, manage their own [[concepts/task-decomposition|task decomposition]], and can operate across multiple interactions and tool invocations to reach completion states without constant human steering.
+## Strategic Development
 
+[[entities/anthropic-institute|Anthropic]]'s 2026 [[concepts/claude-ai|Claude]] updates signal an industry shift toward agentic systems as a primary interaction paradigm. This represents a transition from viewing AI primarily as conversational assistants to positioning them as components within larger automated workflows. Organizations implementing agentic systems must address challenges including [[concepts/software-reliability|reliability]], [[concepts/interpretability|interpretability]] of multi-step decision chains, appropriate human oversight mechanisms, and integration with existing enterprise systems.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Meta-Muse-Spark-Features-Performance-and-Strategic-Shift-to-Proprietar|Meta Muse Spark Features Performance and Strategic Shift to Proprietar]] · [▶ source](https://www.youtube.com/watch?v=7vkybiVRSm0)

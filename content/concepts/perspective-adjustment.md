@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "perspective adjustment"
-  - "photoshop"
-  - "ai tools"
-  - "image editing"
-  - "perspective-correction"
-  - "image-manipulation"
-  - "graphic-design-tools"
-  - "architecture-editing"
-  - "product-photography"
-aliases:
-  - "persp adjustment"
-  - "photo perspective fix"
-  - "3d rotate tool"
-  - "ps rotate object"
-summary: "Perspective adjustment involves manipulating images to change the perceived angles and distances between objects, often using tools like Adobe Photoshop."
-updated: 2026-04-11
+summary: Perspective adjustment involves manipulating images to change the perceived angles and distances between objects, often using tools like Adobe Photoshop.
+updated: 2026-05-23
 group: photoshop-layer-workflows
 ---
 # Perspective Adjustment
@@ -28,7 +13,7 @@ Perspective adjustment is a technique in digital photography and [[concepts/desi
 - **[[concepts/software|Applications]]**:
   - [[concepts/architecture|Architecture]] and real estate
   - Product photography
-  - Fine art and graphic [[concepts/design|design]]
+  - Fine [[concepts/art|art]] and graphic [[concepts/design|design]]
 
 ### Related Concepts & Tools
 - wide angle lens
@@ -45,8 +30,7 @@ Perspective adjustment is a technique in digital photography and [[concepts/desi
 - [[entities/piximperfect|PiXimperfect]]: Insane NEW [[concepts/photoshop-tool|Photoshop Tool]]: Rotate ANY Photo in 3D! ([URL](https://www.youtube.com/watch?v=2k9lIsGazqc))
 
 ## Backlinks
-2026 04 10 Photoshop Betas [[concepts/2d-image-rotation|AI Rotate Object]] 3D Manipulation of 2D Images
-
+2026 04 10 [[concepts/photoshop|Photoshop]] Betas [[concepts/2d-image-rotation|AI Rotate Object]] [[concepts/2d-to-3d-transformation|3D Manipulation of 2D Images]]
 ## Source Notes
 - 2026-04-07: Insane NEW [[concepts/photoshop-tool|Photoshop Tool: Rotate ANY Photo in 3D!]]
 - 2026-04-10: [[lab-notes/2026-04-10-Photoshop-Betas-AI-Rotate-Object-3D-Manipulation-of-2D-Images|Photoshop Betas AI Rotate Object 3D Manipulation of 2D Images]] · [▶ source](https://www.youtube.com/watch?v=2k9lIsGazqc)

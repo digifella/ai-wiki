@@ -13,9 +13,10 @@ tags:
 aliases:
   - "Agent-Environment Co-evolution"
   - "Adaptive Agent Systems"
-summary: "A dynamic system where agents and environments co-evolve through continuous interaction, adaptation, and feedback loops."
-updated: 2026-04-28
+summary: A dynamic system where agents and environments co-evolve through continuous interaction, adaptation, and feedback loops.
+updated: 2026-05-23
 group: agent-systems-skills
+stub: true
 ---
 # Dynamic Agent-Environment
 
@@ -23,7 +24,7 @@ A dynamic system where [[entities/agents|agents]] and environments co-evolve thr
 
 ## Key Characteristics
 
-- **Co-evolution:** [[concepts/agents|Agents]] and environments influence each other's development.
+- **Co-evolution:** [[concepts/agents|Agents]] and environments [[concepts/power|influence]] each other's development.
 - **Adaptability:** Both [[concepts/agents|agents]] and environments adjust to changing conditions.
 - **[[concepts/feedback|Feedback]] Loops:** Information flows bidirectionally, enabling [[concepts/learning|learning]] and optimization.
 
@@ -46,7 +47,6 @@ A dynamic system where [[entities/agents|agents]] and environments co-evolve thr
 ## Backlinks
 
 - 2026 04 14 Antigravity AiStudio [[concepts/integration|integration]] world of AI
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Obsidian-Integration-Creating-a-Persistent-AI-Operating-System|Claude Obsidian Integration Creating a Persistent AI Operating System]] · [▶ source](https://www.youtube.com/watch?v=eIXheJcxDIg)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Managed-Agents-API-Suite-for-Building-and-Deploying-Autonomous-|Claude Managed Agents API Suite for Building and Deploying Autonomous ]] · [▶ source](https://www.youtube.com/watch?v=NLWiIj47IdI)

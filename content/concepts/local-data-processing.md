@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "data-processing"
   - "local-infrastructure"
@@ -12,7 +11,8 @@ aliases:
   - "On-Premises Data Processing"
   - "Local Computing"
 summary: Processing of data on local systems or infrastructure rather than remote cloud services.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Local Data Processing
 
@@ -20,16 +20,15 @@ Local Data Processing refers to the computational handling and analysis of data 
 
 ## Security and Privacy Considerations
 
-The primary advantage of local data processing is enhanced security and privacy control. Organizations maintain complete authority over where data resides, who can access it, and how it is handled. This is particularly critical for sensitive information subject to regulatory requirements or competitive concerns. By avoiding cloud transmission, local processing reduces [[concepts/attack-surface|attack surface]] area and eliminates dependencies on external service providers' security postures.
+The primary advantage of local data processing is enhanced [[concepts/security|security]] and [[concepts/privacy|privacy]] control. Organizations maintain complete [[concepts/power|authority]] over where data resides, who can access it, and how it is handled. This is particularly critical for sensitive information subject to regulatory requirements or competitive concerns. By avoiding cloud transmission, local processing reduces [[concepts/attack-surface|attack surface]] area and eliminates dependencies on external service providers' security postures.
 
 ## Technical Implementation
 
-Local data processing implementations range from simple [[concepts/edge-computing|edge computing]] on individual devices to sophisticated local computing clusters. Small Language Models (SLMs) and other AI systems can run locally on standard [[concepts/hardware|hardware]], enabling organizations to perform complex analysis without [[concepts/cloud-integration|cloud connectivity]]. This approach also offers advantages in latency and operational [[concepts/continuity|continuity]], as processing continues even during network outages or service disruptions.
+Local data processing implementations [[concepts/range|range]] from simple [[concepts/edge-computing|edge computing]] on individual devices to sophisticated local computing clusters. [[concepts/small-language-models-slms|Small Language Models (SLMs)]] and other AI systems can run locally on standard [[concepts/hardware|hardware]], enabling organizations to perform complex analysis without [[concepts/cloud-integration|cloud connectivity]]. This approach also offers advantages in latency and operational [[concepts/continuity|continuity]], as processing continues even during network outages or service disruptions.
 
 ## Trade-offs and Considerations
 
 While local processing provides security benefits, it requires organizations to maintain their own infrastructure, expertise, and [[concepts/computational-resources|computational resources]]. This contrasts with cloud services' scalability and reduced operational burden. The decision between local and cloud processing typically depends on data sensitivity, regulatory environment, available resources, and specific latency requirements.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

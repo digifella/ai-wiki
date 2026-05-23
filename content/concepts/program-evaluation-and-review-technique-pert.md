@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "project-management"
   - "pert"
@@ -12,11 +11,12 @@ aliases:
   - "PERT"
   - "Program Evaluation Review Technique"
 summary: Program Evaluation And Review Technique (PERT) is a project management methodology.
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # Program Evaluation And Review Technique (PERT)
 
-Program Evaluation and Review Technique (PERT) is a statistical project management methodology developed in the 1950s by the [[entities/us-navy|U.S. Navy]] for the Polaris missile program. It provides a framework for planning and managing projects with high uncertainty, particularly those involving novel or complex work where task durations cannot be predicted with precision. PERT is commonly used alongside the Critical Path Method (CPM) to estimate project timelines and manage risk.
+Program Evaluation and Review Technique (PERT) is a statistical project management methodology developed in the 1950s by the [[entities/us-navy|U.S. Navy]] for the Polaris missile program. It provides a framework for planning and managing projects with high uncertainty, particularly those involving novel or complex work where task durations cannot be predicted with precision. PERT is commonly used alongside the [[concepts/critical-path-method-cpm|Critical Path Method (CPM)]] to estimate project timelines and manage risk.
 
 ## Key Characteristics
 

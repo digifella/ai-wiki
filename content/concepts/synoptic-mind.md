@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "cognitive-strength"
-  - "diverse-interests"
-  - "quiet-panic"
-  - "synoptic-mind"
-  - "unlived-lives"
-aliases:
-  - "Synoptic Thinking"
-  - "Multi-disciplinary Mindset"
-  - "Holistic Cognition"
-  - "Diverse Knowledge Integration"
-summary: "The synoptic mind is a cognitive approach that integrates multiple perspectives and disciplines coherently, addressing the internal struggle of having too many interests."
-updated: 2026-04-11
+summary: The synoptic mind is a cognitive approach that integrates multiple perspectives and disciplines coherently, addressing the internal struggle of having too many interests.
+updated: 2026-05-23
 group: applied-ai-workflows
-title: "Synoptic Mind"
+title: Synoptic Mind
 ---
 # Synoptic Mind
 
@@ -32,13 +21,12 @@ The **[[concepts/diverse-interests|synoptic mind]]** refers to a cognitive appro
 
 ### References
 - 2026-04-07-The-Synoptic-Mind-Reframing-Diverse-Interests-as-a-[[concepts/cognitive-strength|Cognitive-Strength]]
-- If You Have Too Many Interests, You Have The 'Synoptic Mind' - [[entities/opt-out-mind|Opt Out Mind]] yOGW sq0b1s?si=dHvled8ME7YGKupj
+- If You Have Too Many Interests, You Have The '[[concepts/jack-of-all-trades|Synoptic Mind]]' - [[entities/opt-out-mind|Opt Out Mind]] yOGW sq0b1s?si=dHvled8ME7YGKupj
 
 ### Summary
 The video introduces the concept of the "[[concepts/quiet-panic|quiet panic]] of unlived lives," describing the internal struggle of individuals who feel they have too many interests and not enough time or focus to pursue them all. This feeling is often exacerbated by societal pressures that champion [[concepts/specialization|specialization]], leading many with diverse passions to feel like "[[concepts/jacks-of-all-trades|jacks-of-all-trades]]" rather than specialists.
 
 ### Backlinks
-- 2026 04 10 The Synoptic Mind Reframing Diverse Interests as a Cognitive Strength
-
+- 2026 04 10 The Synoptic Mind Reframing [[concepts/jack-of-all-trades|Diverse Interests]] as a Cognitive Strength
 ## Source Notes
 - 2026-04-07: If You Have Too Many Interests, You Have The 'Synoptic Mind'

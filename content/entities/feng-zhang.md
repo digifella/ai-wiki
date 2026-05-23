@@ -9,11 +9,11 @@ tags:
 aliases:
   - "Dr. Feng Zhang"
 summary: Dr. Feng Zhang is a researcher at the Broad Institute exploring the evolution of CRISPR and gene editing.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Feng Zhang
 
-Dr. Feng Zhang is a researcher at the [[entities/broad-institute|Broad Institute of MIT and Harvard]], where he leads work in the field of [[concepts/gene-editing|gene editing]] technologies. His research has focused on the development and application of [[concepts/crispr|CRISPR]]-based tools, contributing to the broader understanding of how these molecular systems function and can be adapted for therapeutic purposes.
+Dr. [[entities/dr-feng-zhang|Feng Zhang]] is a researcher [[concepts/assistive-technology|at]] the [[entities/broad-institute|Broad Institute of MIT and Harvard]], where he leads work in the field of [[concepts/gene-editing|gene editing]] technologies. His research has focused on the development and application of [[concepts/crispr|CRISPR]]-based tools, contributing to the broader understanding of how these molecular systems function and can be adapted for therapeutic purposes.
 
 ## CRISPR Research
 

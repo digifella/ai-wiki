@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: writing-publishing
 tags:
   - "semiotics"
   - "signs-symbols"
@@ -13,7 +12,8 @@ aliases:
   - "sign theory"
   - "study of signs"
 summary: Semiotics is the academic discipline that analyzes how signs and symbols function in human communication and meaning-making.
-updated: 2026-05-01
+updated: 2026-05-23
+group: writing-publishing
 ---
 # Semiotics: The Study Of Signs And Symbols Used For Communication
 
@@ -25,4 +25,4 @@ The field emerged as a formalized discipline in the late 19th and early 20th cen
 
 ## Applications
 
-Semiotics applies to numerous domains including linguistics, literature, film studies, [[concepts/aesthetic-design|visual design]], advertising, and cultural analysis. Practitioners use semiotic methods to decode how meaning is constructed and transmitted through various sign systems, whether in written text, [[concepts/images|images]], music, or social conventions. Understanding semiotics provides insights into how communication functions beyond its surface level and how shared systems of meaning enable human societies to organize experience and transmit knowledge across generations.
+Semiotics applies to numerous domains including linguistics, literature, film studies, [[concepts/aesthetic-design|visual design]], advertising, and cultural analysis. Practitioners use semiotic methods to decode how meaning is constructed and transmitted through various sign systems, whether in written [[concepts/text|text]], [[concepts/images|images]], music, or social conventions. Understanding semiotics provides insights into how communication functions beyond its surface level and how shared systems of meaning enable human societies to organize experience and transmit knowledge across generations.

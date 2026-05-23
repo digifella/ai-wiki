@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "masking"
-  - "photo-editing"
-  - "lightroom"
-  - "subtraction-masking"
-  - "adobe-lightroom"
-  - "mask-refinement"
-  - "local-adjustments"
-aliases:
-  - "mask subtraction"
-  - "subtract mask"
-summary: "A technique in Adobe Lightroom used to exclude specific areas from an existing mask for targeted local adjustments."
-updated: 2026-04-26
+summary: A technique in Adobe Lightroom used to exclude specific areas from an existing mask for targeted local adjustments.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Subtract masking
@@ -27,7 +16,6 @@ A [[concepts/layer-masks|masking]] technique in [[entities/adobe-lightroom]] use
 
 ### References
 - [[concepts/date-2026-04-13|2026]] 04 21 [[concepts/lightroom|Lightroom]] Intersect [[concepts/masking|Masking]] for Precise [[concepts/masking-tools|Local Adjustments]]
-
 ## Source Notes
 
 - 2026-04-21: Lightroom · [▶ source](https://youtu.be/HvCiSOkCoUk)

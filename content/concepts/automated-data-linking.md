@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "automation"
-  - "data-integration"
-  - "excel"
-  - "csv"
-  - "reporting"
-  - "data-synchronization"
-  - "etl"
-  - "workflow-automation"
-  - "dynamic-reporting"
-aliases:
-  - "programmatic-data-connection"
-  - "dynamic-data-linking"
-summary: "The practice of establishing programmatic or functional connections between disparate datasets to ensure real-time synchronization and facilitate data integration."
-updated: 2026-04-26
+summary: The practice of establishing programmatic or functional connections between disparate datasets to ensure real-time synchronization and facilitate data integration.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Automated data linking
@@ -36,7 +23,6 @@ The practice of establishing programmatic or functional connections between disp
 
 ### Sources
 - 2026 04 23 Excels IMPORTCSV Dynamic Multi CSV [[concepts/data-management|Data Management]] and Reporting
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-23: Excel

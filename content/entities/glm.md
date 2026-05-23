@@ -9,16 +9,16 @@ tags:
 aliases:
   - "GLM"
 summary: An open source large language model.
-updated: 2026-05-01
+updated: 2026-05-23
 title: Open Source LLM
 ---
 # Glm
 
-Glm is an open source [[concepts/large-language-model|large language model]] developed by researchers at Tsinghua University. It represents an alternative to proprietary models, making advanced language capabilities available for research, commercial, and community use under an open [[concepts/license|license]].
+Glm is an [[concepts/open-source|open source]] [[concepts/large-language-model|large language model]] developed by researchers [[concepts/assistive-technology|at]] Tsinghua University. It represents an alternative to proprietary [[concepts/models|models]], making advanced [[concepts/language-capabilities|language capabilities]] available for research, commercial, and community use under an open [[concepts/license|license]].
 
 ## Architecture and Design
 
-Glm uses an autoregressive blank-filling objective that differs from standard next-token prediction approaches. This [[concepts/training|training]] method allows the model to handle both natural language understanding and generation tasks within a unified framework. The architecture has been scaled across multiple model sizes to balance performance with computational requirements.
+Glm uses an autoregressive blank-filling objective that differs from standard next-token prediction approaches. This [[concepts/training|training]] method allows the model to handle both natural language understanding and generation tasks within a unified framework. The [[concepts/architecture|architecture]] has been scaled across multiple model sizes to balance performance with computational requirements.
 
 ## Development and Variants
 

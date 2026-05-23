@@ -1,26 +1,14 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "wellbeing philosophy ethics psychology"
-  - "wellbeing-concepts"
-  - "ethics-wellbeing"
-  - "philosophy-happiness"
-  - "psychology-quality-life"
-  - "public-policy-wellbeing"
-aliases:
-  - "quality-of-life"
-  - "life-fulfillment"
-  - "subjective-wellbeing"
-  - "welfare-theory"
-summary: "Wellbeing is a multifaceted concept involving hedonic, eudaimonic, social, and psychological aspects that contribute to an individual's quality of life."
-updated: 2026-04-12
+summary: Wellbeing is a multifaceted concept involving hedonic, eudaimonic, social, and psychological aspects that contribute to an individual's quality of life.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 ## Wellbeing
 
 ### Introduction
-Wellbeing encompasses a broad range of factors that contribute to an individual's [[concepts/quality-of-life|quality of life]] and overall sense of fulfillment. It is a multifaceted concept, often discussed in the realms of [[concepts/philosophy|philosophy]], [[concepts/ethics|ethics]], psychology, and public policy.
+[[concepts/health|Wellbeing]] encompasses a broad [[concepts/range|range]] of factors that contribute to an individual's [[concepts/quality-of-life|quality of life]] and overall sense of fulfillment. It is a multifaceted concept, often discussed in the realms of [[concepts/philosophy|philosophy]], [[concepts/ethics|ethics]], [[concepts/psychology|psychology]], and public policy.
 
 ### Key Components
 - **Hedonic wellbeing**: The presence of positive emotions and the absence of negative ones.
@@ -29,7 +17,7 @@ Wellbeing encompasses a broad range of factors that contribute to an individual'
 - **Psychological wellbeing**: Personal growth, self-acceptance, environmental mastery.
 
 ### Philosophical Accounts
-[[entities/kate-laffan|Kate Laffan]]'s [[entities/tedxlse|TEDxLSE]] talk explores the complexity of [[concepts/accounts-of-how-you-feel|defining wellbeing]]. She highlights:
+[[entities/kate-laffan|Kate Laffan]]'s [[entities/tedxlse|TEDxLSE]] talk explores the complexity of [[concepts/accounts-of-how-you-feel|defining wellbeing]]. She [[concepts/highlights|highlights]]:
 
 - The importance of consensus on what constitutes wellbeing for individuals and policymakers alike.
 - [[concepts/derek-parfit|Derek Parfit]]'s 1984 work that simplifies [[concepts/philosophical-debates|philosophical debates]] into three broad categories parfit derek.
@@ -37,19 +25,18 @@ Wellbeing encompasses a broad range of factors that contribute to an individual'
 ### Practical Challenges
 - **Measurement**: Quantifying subjective experiences such as [[concepts/happiness|happiness]] and fulfillment is challenging.
 - **Cultural Relativity**: What contributes to wellbeing varies across different cultural contexts.
-- **Policy Implementation**: Translating theoretical understandings of wellbeing into actionable policy measures remains difficult.
+- **Policy [[concepts/adoption|Implementation]]**: Translating theoretical understandings of wellbeing into actionable policy measures remains difficult.
 
 ### Related Concepts
 - [[concepts/happiness|happiness]]
-- quality-of-life
+- [[concepts/quality-of-life|quality-of-life]]
 - meaning-in-life
 
 ### References and Further Reading
-- [[entities/tedx-talks|TEDx Talks]]: [[entities/kate-laffan|Kate Laffan]]'s talk on "What is Wellbeing?"
+- [[entities/tedx-talks|TEDx Talks]]: [[entities/kate-laffan|Kate Laffan]]'s talk on "What is [[concepts/health|Wellbeing]]?"
   - **URL:** https://www.youtube.com/watch?v=vv4cW-NKjWI
 
 Backlinks:
-2026 04 11 Defining Wellbeing Laffans Philosophical Accounts and Practical Challe
-
+2026 04 11 [[concepts/accounts-of-how-you-feel|Defining Wellbeing]] Laffans Philosophical Accounts and Practical Challe
 ## Source Notes
 - 2026-04-11: What is wellbeing | Kate Laffan | TEDxLSE

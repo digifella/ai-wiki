@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "concert-photography"
   - "color-correction"
@@ -13,18 +12,20 @@ aliases:
   - "Concert Photography Color Correction"
   - "Lightroom Concert Photo Editing"
 summary: A tutorial on color correcting extreme lighting tints in concert photography using Adobe Lightroom Classic.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Black And White
 
-Concert photography presents distinctive color correction challenges due to the extreme and rapidly changing lighting conditions found in live music venues. Stage lighting systems commonly produce intense [[concepts/color-casts|color casts]] in blues, reds, greens, and magentas that can overwhelm a camera's automatic white balance, resulting in [[concepts/images|images]] with severe color shifts that are difficult to use. Adobe Lightroom Classic provides tools specifically suited to recovering proper color balance in these problematic lighting [[concepts/scenarios|scenarios]], allowing photographers to salvage otherwise well-composed shots.
+Concert photography presents distinctive color correction challenges due to the extreme and rapidly changing lighting conditions found in live music venues. Stage lighting systems commonly produce intense [[concepts/color-casts|color casts]] in blues, reds, greens, and magentas that can overwhelm a camera's automatic white balance, resulting in [[concepts/images|images]] with severe color shifts. These color problems are compounded by the dynamic [[entities/nature|nature]] of [[concepts/concert-lighting|concert lighting]], which may shift dramatically between shots or even within a single performance sequence.
 
-## Color Correction in Lightroom Classic
+## White Balance Correction
 
-The standard workflow in Lightroom Classic begins with the White Balance controls, which can be adjusted using the Temperature and Tint sliders to counteract dominant color casts. For concert photography, manual adjustment of these sliders often proves more effective than relying on auto white balance, as the [[concepts/software|software]] can struggle with mixed or extreme lighting. The Vibrance and Saturation sliders may also require adjustment to manage the intensity of color casts without losing overall image quality.
+[[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]] addresses these issues through its white balance tools, which allow photographers to manually correct color temperature and tint after capture. The [[concepts/temperature-slider|Temperature slider]] adjusts the blue-yellow axis, while the [[concepts/tint-slider|Tint slider]] manages the green-magenta axis. For concert images, these controls can be adjusted individually or used in combination to neutralize dominant color casts. The [[concepts/eyedropper-tool|eyedropper tool]] in Lightroom's white balance panel enables targeted correction by sampling a neutral area within the image, such as a performer's skin [[concepts/tone|tone]] or the background, to establish a proper reference point.
 
-Additional tools available in Lightroom Classic's [[concepts/adobe-lightroom-develop-module|Develop module]] include the HSL (Hue, Saturation, Luminance) panel, which allows targeted corrections to specific [[concepts/color-ranges|color ranges]]. This approach is particularly useful in concert settings where multiple competing color sources require selective adjustment. By isolating individual colors rather than applying global corrections, photographers can preserve natural [[concepts/skin-tones|skin tones]] while neutralizing problematic stage lighting colors.
+## Workflow Considerations
 
+Effective color correction in Lightroom for concert photography typically involves evaluating the overall color cast first, then making incremental [[concepts/adjustments|adjustments]] to Temperature and Tint values. Since concert lighting often varies significantly between images taken moments apart, corrections may need to be applied individually rather than as blanket adjustments across an entire shoot. Lightroom's ability to sync settings across multiple images can be useful when consecutive shots share similar lighting conditions, though manual [[concepts/verification|verification]] is recommended to ensure [[concepts/accuracy|accuracy]].
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)
 - 2026-04-09: Photoshop

@@ -11,13 +11,13 @@ tags:
   - "melody"
 aliases:
   - "harmony"
-summary: "Musical harmony is the simultaneous sounding of different notes to create chords and provide vertical structure to a melody."
-updated: 2026-04-27
-group: ai-image-generation-editing
+summary: Musical harmony is the simultaneous sounding of different notes to create chords and provide vertical structure to a melody.
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Musical harmony
 
-The simultaneous sounding of different notes to create Chords and provide vertical [[concepts/structure|structure]] to a [[concepts/melody|Melody]].
+The simultaneous sounding of different [[concepts/notes|notes]] to create Chords and provide vertical [[concepts/structure|structure]] to a [[concepts/melody|Melody]].
 
 ### Core Principles
 - Chords serve as the foundational building blocks of harmonic [[concepts/structure|structure]].
@@ -32,6 +32,5 @@ The simultaneous sounding of different notes to create Chords and provide vertic
 
 ---
 **Source:** 2026 04 27 [[concepts/music-chords|Music Chords]] Foundations Anatomy Harmony and Scale Relat
-
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Music-Chords-Foundations-Anatomy-Harmony-and-Scale-Relat|Music Chords: Foundations, Anatomy, Harmony, and Scale Relationships]] · [▶ source](https://www.youtube.com/watch?v=Uyr-GogTrls)

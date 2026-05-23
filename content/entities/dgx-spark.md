@@ -1,20 +1,11 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "cost-optimization"
-  - "privacy"
-  - "local-ai"
-  - "hybrid-cloud"
-  - "open-source"
-  - "ai-development"
-  - "data-privacy"
-summary: "DGX Spark is an AI development platform that utilizes local model execution and hybrid cloud architecture to optimize costs and data privacy."
-updated: 2026-04-20
+summary: DGX Spark is an AI development platform that utilizes local model execution and hybrid cloud architecture to optimize costs and data privacy.
+updated: 2026-05-23
 ---
 # DGX Spark
 
-A platform for [[concepts/ai-development|AI development]] prioritizing cost efficiency and data [[concepts/privacy|privacy]] through [[concepts/on-device-ai|local model execution]] and hybrid [[concepts/cloud-integration|cloud integration]].
+A platform for [[concepts/ai-development|AI development]] prioritizing [[concepts/cost|cost]] efficiency and data [[concepts/privacy|privacy]] through [[concepts/on-device-ai|local model execution]] and hybrid [[concepts/cloud-integration|cloud integration]].
 
 ## Key Strategies
 - Addresses escalating [[concepts/cloud-ai|cloud AI]] costs (up to $10,000/month for some users) via local processing
@@ -24,7 +15,6 @@ A platform for [[concepts/ai-development|AI development]] prioritizing cost effi
 - Reduces dependency on expensive services like [[entities/openclaw]] while maintaining [[concepts/data-sovereignty|data sovereignty]]
 
 ## Related Note
-[[concepts/date-2026-04-13|2026]] 04 14 Optimizing AI Costs and Privacy with Local [[concepts/open-source|Open Source]] Models and Hybr
-
+[[concepts/date-2026-04-13|2026]] 04 14 Optimizing AI Costs and Privacy with Local [[concepts/open-source|Open Source]] [[concepts/models|Models]] and Hybr
 ## Source Notes
 - 2026-04-14: [[lab-notes/2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr|Optimizing AI Costs and Privacy with Local Open Source Models and Hybr]] · [▶ source](https://www.youtube.com/watch?v=nt7dWOEFUB4)

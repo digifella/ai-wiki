@@ -1,27 +1,14 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "LLM"
-  - "MachineLearning"
-  - "FrontierModels"
-  - "artificial-intelligence"
-  - "machine-learning"
-  - "large-language-models"
-  - "agentic-ai"
-  - "emergent-capabilities"
-aliases:
-  - "frontier-models"
-  - "advanced-ai-models"
-summary: "Frontier models are large-scale artificial intelligence models characterized by extreme computational scale, advanced reasoning, and emergent capabilities."
-updated: 2026-04-26
+summary: Frontier models are large-scale artificial intelligence models characterized by extreme computational scale, advanced reasoning, and emergent capabilities.
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 # Frontier Model
 
 ## Definition
-A Frontier Model refers to the most advanced, large-scale [[entities/ai|artificial intelligence]] models that represent the state-of-the-[[concepts/art|art]] in [[concepts/machine-learning|machine learning]]. These models are characterized by extreme computational scale, high-level [[concepts/reasoning|reasoning]] capabilities, and the emergence of complex, unprecedented abilities.
+A Frontier Model refers to the most advanced, large-scale [[entities/ai|artificial intelligence]] [[concepts/models|models]] that represent the state-of-the-[[concepts/art|art]] in [[concepts/machine-learning|machine learning]]. These models are characterized by extreme computational scale, high-level [[concepts/reasoning|reasoning]] [[concepts/capabilities|capabilities]], and the emergence of complex, unprecedented abilities.
 
 ## Core Characteristics
 - **[[concepts/advanced-reasoning|Advanced Reasoning]]:** Capable of complex logic, multi-step [[concepts/problem-solving|problem solving]], and high-order cognitive tasks.
@@ -30,8 +17,7 @@ A Frontier Model refers to the most advanced, large-scale [[entities/ai|artifici
 - **Foundational for Autonomy:** Serves as the primary engine for [[concepts/agentic-ai]], enabling models to act as autonomous [[concepts/agents|agents]].
 
 ## Recent Developments
-- [[concepts/gpt-5-model|OpenAI GPT-5]].5: Recognized as a highly intuitive and smart frontier model specifically designed to [[concepts/motivation|drive]] [[concepts/agentic-ai]] and increase [[concepts/algorithm-efficiency|computational efficiency]]. (Ref: 2026 04 24 [[entities/openai|OpenAI]] GPT 5.5 Smartest Frontier Model Driving [[concepts/action-oriented-ai|Agentic AI]] and Efficiency)
-
+- [[concepts/gpt-5-model|OpenAI GPT-5]].5: Recognized as a highly intuitive and smart frontier model specifically designed to [[concepts/motivation|drive]] [[concepts/agentic-ai]] and increase [[concepts/algorithm-efficiency|computational efficiency]]. (Ref: 2026 04 24 [[entities/openai|OpenAI]] [[concepts/gpt-5|GPT 5]].5 Smartest Frontier Model Driving [[concepts/action-oriented-ai|Agentic AI]] and Efficiency)
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-08: Anthropic

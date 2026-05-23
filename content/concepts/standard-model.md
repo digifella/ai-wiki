@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "concept"
   - "particle-physics"
@@ -17,20 +16,20 @@ aliases:
   - "SM"
   - "particle-physics-standard-model"
 summary: Framework describing fundamental particles and three of the four known forces, with recent precision tests via muon g-2 experiments and investigations into quark substructure.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Standard Model
 
-The [[concepts/standard-model-of-particle-physics|Standard Model]] is the fundamental [[concepts/theory|theoretical framework]] in [[concepts/physics|physics]] that describes the [[concepts/elementary-particles|elementary particles]] and three of the four known fundamental forces: the electromagnetic force, the weak nuclear force, and the strong nuclear force. It does not incorporate [[concepts/gravitational-pull|gravity]]. The model classifies particles into quarks and leptons, with the interactions between them mediated by gauge bosons. Since its development in the mid-twentieth century, the Standard Model has achieved remarkable agreement with experimental data across a wide range of energy [[concepts/musical-scales|scales]].
+The [[concepts/standard-model-of-particle-physics|Standard Model]] is the fundamental [[concepts/theory|theoretical framework]] in [[concepts/physics|physics]] that describes the [[concepts/elementary-particles|elementary particles]] and three of the four known fundamental forces: the electromagnetic force, the weak nuclear force, and the strong nuclear force. It does not incorporate [[concepts/gravitational-pull|gravity]]. The model classifies particles into quarks and leptons, with the interactions between them mediated by gauge bosons. Since its development in the mid-twentieth century, the Standard Model has achieved remarkable agreement with experimental data across a wide [[concepts/range|range]] of energy [[concepts/musical-scales|scales]].
 
 ## Experimental Validation
 
-Precision measurements continue to test the Standard Model's predictions with increasing [[concepts/accuracy|accuracy]]. The [[concepts/muon-g-2-experiment|muon g-2]] experiments, which measure the [[concepts/anomalous-magnetic-moment|anomalous magnetic moment]] of the muon, have provided some of the most stringent tests of the theory. These experiments compare theoretical predictions with observed values to search for deviations that might indicate physics beyond the Standard Model.
+Precision measurements continue to test the Standard Model's predictions with increasing [[concepts/accuracy|accuracy]]. The [[concepts/muon-g-2-experiment|muon g-2]] experiments, which measure the [[concepts/anomalous-magnetic-moment|anomalous magnetic moment]] of the [[concepts/muon|muon]], have provided some of the most stringent tests of the theory. These experiments [[concepts/feynmans-three-step-scientific-method|compare]] theoretical predictions with observed values to search for deviations that might indicate physics beyond the Standard Model.
 
 ## Open Questions
 
-Despite its successes, the Standard Model remains incomplete. One area of active investigation concerns whether quarks, long assumed to be elementary particles, possess internal substructure. Experiments at facilities such as the [[entities/lhc|Large Hadron Collider]], including the CMS detector, search for evidence of compositeness or other deviations from the Standard Model at high energy scales. Additionally, the Standard Model's inability to account for gravity and [[concepts/dark-matter|dark matter]] suggests that deeper physical principles likely exist at higher energy scales.
-
+Despite its successes, the Standard Model remains incomplete. One area of active investigation concerns whether quarks, long assumed to be [[concepts/point-like-particles|elementary particles]], possess internal substructure. Experiments [[concepts/assistive-technology|at]] facilities such as the [[entities/lhc|Large Hadron Collider]], including the [[entities/cms-experiment|CMS]] detector, search for evidence of compositeness or other deviations from the Standard Model at high energy scales. Additionally, the Standard Model's inability to account for gravity and [[concepts/dark-matter|dark matter]] suggests that deeper physical principles likely exist at higher energy scales.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)
 - 2026-04-08: [[lab-notes/2026-04-08-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

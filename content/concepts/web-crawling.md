@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "concept"
   - "web-crawling"
@@ -14,7 +13,8 @@ aliases:
   - "web scraping"
   - "web data extraction"
 summary: Web crawling is the automated process of extracting data from websites, used by AI agents and platforms like Firecrawl AI to gather and structure web content.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Web Crawling
 
@@ -26,8 +26,7 @@ Web crawling has become essential infrastructure for [[concepts/agentic-ai|AI ag
 
 ## Technical Considerations
 
-Effective web crawling requires handling various technical challenges, including dynamic content rendering, handling JavaScript-heavy sites, respecting robots.txt and [[concepts/rate-limits|rate limits]], and managing IP blocking. Crawlers must also parse diverse HTML structures and adapt to website layout changes. Modern crawling platforms abstract these complexities, providing clean APIs and pre-processed data to downstream applications rather than requiring direct implementation.
-
+Effective web crawling requires handling various technical challenges, including dynamic content rendering, handling JavaScript-heavy sites, respecting robots.txt and [[concepts/rate-limits|rate limits]], and managing IP blocking. Crawlers must also parse diverse HTML structures and adapt to website layout changes. Modern crawling platforms abstract these complexities, providing clean APIs and pre-processed data to downstream applications rather than requiring direct [[concepts/adoption|implementation]].
 ## Source Notes
 - 2026-04-07: Firecrawl AI clearly explained (and how to make $$)
 - 2026-04-29: Hermes · [▶ source](https://www.youtube.com/watch?v=1ve4Atbqmoo)

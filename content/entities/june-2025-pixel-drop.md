@@ -9,13 +9,13 @@ tags:
   - "software-update"
 aliases:
   - "Google Pixel June 2025 Update"
-summary: "The June 2025 Pixel Drop is a software update for Google Pixel devices that introduces new home screen customization and always-on display improvements."
-updated: 2026-04-28
+summary: The June 2025 Pixel Drop is a software update for Google Pixel devices that introduces new home screen customization and always-on display improvements.
+updated: 2026-05-23
 ---
 # June 2025 Pixel Drop
 
 ## Overview
-The June 2025 Pixel Drop is a [[concepts/software|software]] update for Google Pixel devices, introducing new features and improvements.
+The June 2025 Pixel Drop is a [[concepts/software|software]] update for [[concepts/google-search|Google]] Pixel devices, introducing new features and improvements.
 
 ## Key Features
 - **Lock Screen & [[concepts/always-on-display|Always-On Display]] (AOD):** The AOD clock now dynamically matches the wallpaper's color palette.

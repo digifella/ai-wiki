@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: security-infrastructure
-updated: 2026-04-14
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 - "rag"
@@ -25,9 +25,8 @@ Splitting documents into smaller, contextually coherent segments for efficient p
   - Extracting [[concepts/nodes-and-relationships|nodes and relationships]] to build a [[concepts/knowledge-graph|knowledge graph]]
   - Storing chunks in a [[concepts/vector-store|vector store]] for [[concepts/natural-language-search|semantic search]]
   - Combining both graph and [[concepts/vector-representations|vector representations]] to augment LLM context
-- **[[concepts/contrast|Contrast]] with [[concepts/graph-rag|Graph RAG]]**: Light RAG integrates knowledge graph [[concepts/structure|structure]] with vector store embeddings, whereas [[concepts/entity-relation-graphs|Graph RAG]] relies solely on graph traversal
+- **[[concepts/contrast|Contrast]] with [[concepts/graph-rag|Graph RAG]]**: [[concepts/light-rag|Light RAG]] integrates knowledge graph [[concepts/structure|structure]] with vector store embeddings, whereas [[concepts/entity-relation-graphs|Graph RAG]] relies solely on graph traversal
 
 ## Advanced
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

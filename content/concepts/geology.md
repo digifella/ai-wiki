@@ -1,17 +1,7 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "geology"
-  - "mars"
-  - "astronomy"
-  - "planetary science"
-  - "mars-study"
-  - "terrestrial-planets"
-  - "geological-processes"
-  - "planetary-habitability"
-  - "astrobiology-research"
-updated: 2026-04-11
+updated: 2026-05-23
 group: geology-rocks-minerals
 ---
 # Geology
@@ -35,7 +25,6 @@ Geology is a branch of Earth sciences that studies the solid features of Earth a
 - Residents construct homes, businesses, and even churches directly into the earth to protect against harsh surface temperatures and weather.
 
 2026 04 11 [[entities/coober-pedy|Coober Pedy]] [[concepts/subterranean-living|Subterranean Living]] in Australias Desert Driven by Climate
-
 ## Source Notes
 - 2026-04-11: The 30km-Wide Supervolcano Victoria Never Talks About
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)

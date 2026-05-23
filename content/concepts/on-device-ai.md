@@ -1,31 +1,14 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "deployment"
-  - "edge-computing"
-  - "llm"
-  - "quantization"
-  - "bitnet"
-  - "on-device-computing"
-  - "edge-machine-learning"
-  - "model-quantization"
-  - "low-bit-models"
-  - "llm-efficiency"
-aliases:
-  - "local model execution"
-  - "mobile ml deployment"
-  - "efficient on-device inference"
-  - "bitnet models"
-  - "bonsai llms"
-summary: "On-device deployment involves running machine learning models directly on local hardware to reduce latency and bandwidth dependency."
-updated: 2026-04-27
+summary: On-device deployment involves running machine learning models directly on local hardware to reduce latency and bandwidth dependency.
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
-title: "on-device deployment"
+title: on-device deployment
 ---
 # on-device deployment
 
-The execution of [[concepts/machine-learning|machine learning]] models directly on local [[concepts/hardware|hardware]] (e.g., [[concepts/edge-computing|Edge Computing]], smartphones, IoT) to minimize latency, reduce bandwidth dependency, and enhance [[concepts/privacy|privacy]] by avoiding cloud-based [[concepts/gpu-clusters|GPU clusters]].
+The execution of [[concepts/machine-learning|machine learning]] [[concepts/models|models]] directly on local [[concepts/hardware|hardware]] (e.g., [[concepts/edge-computing|Edge Computing]], smartphones, IoT) to minimize latency, reduce bandwidth dependency, and enhance [[concepts/privacy|privacy]] by avoiding cloud-based [[concepts/gpu-clusters|GPU clusters]].
 
 ### Key Advancements & Trends
 - [[concepts/model-efficiency]] (specifically [[entities/bitnet]] and [[entities/bonsai]]) are driving a paradigm shift in [[concepts/model-efficiency|model efficiency]].
@@ -33,11 +16,7 @@ The execution of [[concepts/machine-learning|machine learning]] models directly 
     - Reduces file size by approximately 90%.
     - Reduces [[concepts/memory|memory]] consumption by approximately 15x compared to [[concepts/full-precision|full-precision]] models.
     - Potential for
-- [[concepts/23b-parameter-models|Google Gemma 4]]: [[concepts/open-weight|Open-weight]] [[concepts/models|models] designed for [[concepts/local-execution|local execution]] on computers and mobile phones, providing a subscription-free alternative to [[concepts/cloud-based-ai|cloud-based AI]].
-
-### Backlinks
-- 2026 04 27 Google Gemma 4 [[concepts/open-weight|Open Weight]] AI for Local Private Executio
-
+- [[concepts/23b-parameter-models|Google Gemma 4]]: [[concepts/open-weight|Open-weight]] [[concepts/models|models] designed for [[concepts/local-execution|local execution]] on computers and mobile phones, providing a subscription-free alternative to [[concepts/cloud-based-ai|cloud-based AI]]. ### Backlinks - 2026 04 27 [[concepts/e2b-model|gemma-4]]]]|[[entities/google-gemma|Gemma]] 4]]]]]]]]]]]]]]]]]]]]]] [[concepts/open-weight|Open Weight]] AI for Local Private Executio
 ## Source Notes
 - 2026-04-07: The End of the GPU Era? 1-Bit LLMs Are Here.
 - 2026-04-08: PrismML [[concepts/bonsai|Bonsai 8B First Look & Test - A TRUE 1-Bit LLM?]]

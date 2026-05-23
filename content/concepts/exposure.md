@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "photography"
   - "photo-editing"
@@ -11,13 +10,14 @@ tags:
 aliases:
   - "Exposure Control"
   - "Light Metering"
-summary: "Technical control in photography and photo editing software that adjusts the brightness and light intensity of an image."
-updated: 2026-05-01
+summary: Technical control in photography and photo editing software that adjusts the brightness and light intensity of an image.
+updated: 2026-05-23
+group: lightroom-color-workflows
 title: Exposure
 ---
 # Exposure
 
-Exposure refers to the amount of light captured by a camera's sensor or recorded on film, determining how bright or dark an image appears. In photography, exposure is controlled through three primary factors: aperture (the size of the lens opening), shutter speed (how long light reaches the sensor), and ISO (the sensor's light sensitivity). Proper exposure is fundamental to image quality, as underexposed [[concepts/images|images]] appear too dark with lost detail in [[concepts/shadows|shadows]], while overexposed images are too bright with blown-out highlights.
+Exposure refers to the amount of [[concepts/light|light]] captured by a camera's sensor or recorded on film, determining how bright or dark an image appears. In photography, exposure is controlled through three primary factors: aperture (the size of the lens opening), shutter [[concepts/speed|speed]] (how long light reaches the sensor), and ISO (the sensor's light sensitivity). Proper exposure is fundamental to image quality, as underexposed [[concepts/images|images]] appear too dark with lost detail in [[concepts/shadows|shadows]], while overexposed images are too bright with blown-out [[concepts/highlights|highlights]].
 
 ## In-Camera Control
 
@@ -25,8 +25,7 @@ Most [[concepts/digital-cameras|digital cameras]] provide [[concepts/exposure-ad
 
 ## Post-Processing Adjustment
 
-[[concepts/photo-editing|Photo editing]] [[concepts/software|software]] like Adobe Lightroom and [[entities/snapseed|Snapseed]] offer exposure sliders and curves that allow photographers to adjust brightness and light intensity after the image is captured. These tools can brighten underexposed photos, recover blown highlights, or create intentionally [[concepts/dark-and-moody-photo-processing|dark and moody]] images. Local adjustment features enable exposure changes to specific areas of an image, providing precise control over where light and shadow fall within the composition.
-
+[[concepts/photo-editing|Photo editing]] [[concepts/software|software]] like [[entities/adobe-lightroom|Adobe Lightroom]] and [[entities/snapseed|Snapseed]] offer exposure sliders and curves that allow photographers to adjust brightness and light intensity after the image is captured. These tools can brighten underexposed photos, recover blown highlights, or create intentionally [[concepts/dark-and-moody-photo-processing|dark and moody]] images. Local adjustment features enable exposure changes to specific areas of an image, providing precise [[concepts/power|control]] over where light and shadow fall within the composition.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Lock-Feature-Comprehensive-Guide-and-Usage-Explained|Fujifilm Camera Lock Feature Comprehensive Guide and Usage Explained]] · [▶ source](https://www.youtube.com/watch?v=C2ZN6ByntPk)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

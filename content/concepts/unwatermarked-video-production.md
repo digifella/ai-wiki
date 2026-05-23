@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "concept"
   - "video-production"
@@ -12,16 +11,17 @@ tags:
 aliases:
   - "removing watermarks from Google Vids"
   - "NotebookLM to video conversion"
-summary: "Process for converting NotebookLM-generated slides into videos without watermarks using Google Vids."
-updated: 2026-05-01
+summary: Process for converting NotebookLM-generated slides into videos without watermarks using Google Vids.
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Unwatermarked Video Production
 
-Unwatermarked video production is a workflow that combines [[concepts/ai-integrated-notebooks|NotebookLM]]-generated presentation [[entities/google-slides|slides]] with [[entities/google-vids|Google Vids]] to create videos without platform watermarks. This process leverages the content generation capabilities of NotebookLM—which produces structured [[concepts/slide-decks|slide decks]] from source materials—and integrates them into Google Vids' [[concepts/video-creation|video creation]] platform to produce finalized videos suitable for [[concepts/distribution|distribution]] without branding overlays.
+Unwatermarked video production is a [[concepts/workflow|workflow]] that combines [[concepts/ai-integrated-notebooks|NotebookLM]]-generated presentation [[entities/google-slides|slides]] with [[entities/google-vids|Google Vids]] to create videos without platform watermarks. This process leverages the content generation [[concepts/capabilities|capabilities]] of [[concepts/notebooklm|NotebookLM]]—which produces structured [[concepts/slide-decks|slide decks]] from source materials—and integrates them into [[concepts/google-vids|Google Vids]]' [[concepts/video-creation|video creation]] platform to produce finalized videos suitable for [[concepts/distribution|distribution]] without branding overlays.
 
 ## Workflow and Process
 
-The process involves exporting slides created in NotebookLM and importing them into Google Vids, where they can be enhanced with narration, transitions, and additional visual elements. Google Vids then renders these materials into a video format without applying its own watermark, distinguishing this approach from watermarked output that some [[concepts/video-creation-tools|video creation tools]] apply by default. This method is particularly useful for creators who want to maintain clean, professional-looking final products for sharing across platforms or for client work.
+The process involves exporting [[concepts/google-slides|slides]] created in NotebookLM and importing them into Google Vids, where they can be enhanced with narration, transitions, and additional visual elements. Google Vids then renders these materials into a video format without applying its own watermark, distinguishing this approach from watermarked [[concepts/output|output]] that some [[concepts/video-creation-tools|video creation tools]] apply by default. This method is particularly useful for creators who want to maintain clean, professional-looking final products for sharing across platforms or for client work.
 
 ## Practical Applications
 

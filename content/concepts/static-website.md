@@ -12,8 +12,8 @@ tags:
   - "content-delivery"
 aliases:
   - "Static Site"
-summary: "A web development approach where content is delivered to the client exactly as stored without server-side processing."
-updated: 2026-04-28
+summary: A web development approach where content is delivered to the client exactly as stored without server-side processing.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # Static Website
@@ -23,7 +23,7 @@ A [[concepts/web-development|web development]] approach where content is deliver
 ## Key Characteristics
 - **No server-side processing**: Content is static, pre-built, and served as-is.
 - **Fast performance**: Minimal server load and quick load times.
-- **Easy [[concepts/deployment|deployment]]**: Can be hosted on services like GitHub Pages, Netlify, or [[entities/vercel|Vercel]].
+- **Easy [[concepts/deployment|deployment]]**: Can be hosted on services like [[entities/github|GitHub]] Pages, Netlify, or [[entities/vercel|Vercel]].
 - **[[concepts/security|Security]]**: Reduced [[concepts/attack-surface|attack surface]] due to lack of server-side [[concepts/code|code]].
 
 ## Use Cases
@@ -35,7 +35,7 @@ A [[concepts/web-development|web development]] approach where content is deliver
 ## Tools & Technologies
 - [[concepts/markdown|Markdown]] for [[concepts/content-creation|content creation]]
 - Static site generators like Jekyll, Hugo, or Gatsby
-- Hosting platforms like Netlify, [[entities/vercel|Vercel]], or GitHub Pages
+- Hosting platforms like Netlify, [[entities/vercel|Vercel]], or [[entities/github|GitHub]] Pages
 
 ## Integration with Full-Stack Applications
 - Can be transformed into dynamic [[concepts/software|applications]] using frameworks like [[concepts/react|React]] or Vue.
@@ -52,7 +52,6 @@ A [[concepts/web-development|web development]] approach where content is deliver
 ## Additional Resources
 - [Comprehensive Markdown guide based on the video tutorial](https://www.youtube.com/watch?v=juEfJERgBE8)
 - Building a [[concepts/full-stack-web-app|Full-Stack Web App]] with [[entities/google-ai-studio|Google AI Studio]] & Firebase
-
 ## Source Notes
 - 2026-04-07: Bonzai 8B: PrismML
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

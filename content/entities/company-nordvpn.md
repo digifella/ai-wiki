@@ -7,7 +7,7 @@ tags:
 aliases:
   - "NordVPN"
 summary: Nordvpn is a company that provides dedicated VPN services.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Company Nordvpn
 
@@ -15,7 +15,7 @@ updated: 2026-05-01
 
 ## Service Offerings
 
-Nordvpn provides [[concepts/dedicated-vpn|dedicated VPN]] services with a focus on [[concepts/privacy|privacy]] and security. The platform operates servers across multiple countries, allowing users to route their internet connections through various geographic locations. The service includes features such as encryption protocols, DNS leak protection, and kill switch functionality.
+[[entities/nordvpn|Nordvpn]] provides [[concepts/dedicated-vpn|dedicated VPN]] services with a focus on [[concepts/privacy|privacy]] and [[concepts/security|security]]. The platform operates servers across multiple countries, allowing users to route their internet connections through various geographic locations. The service includes features such as encryption protocols, [[concepts/dns|DNS]] leak protection, and kill switch functionality.
 
 ## Operations
 

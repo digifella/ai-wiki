@@ -12,14 +12,14 @@ tags:
 aliases:
   - "autocomplete"
   - "predictive text"
-summary: "Auto-complete is a software feature that predicts the remainder of a word or phrase based on previously typed text or common patterns."
-updated: 2026-04-28
+summary: Auto-complete is a software feature that predicts the remainder of a word or phrase based on previously typed text or common patterns.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Auto-complete
 
 ## Definition
-Auto-complete is a feature in [[concepts/software|software]] that predicts the rest of a word or phrase a user is typing, based on previously typed text or common patterns.
+Auto-complete is a feature in [[concepts/software|software]] that predicts the rest of a word or phrase a user is typing, based on previously typed [[concepts/text|text]] or common patterns.
 
 ## Applications
 - **Text editors**: Suggests [[concepts/code|code]] completions.
@@ -32,7 +32,7 @@ Auto-complete is a feature in [[concepts/software|software]] that predicts the r
 - [[concepts/machine-learning|Machine Learning]]
 
 ## Key Points
-- Uses statistical models to predict likely continuations.
+- Uses statistical [[concepts/models|models]] to predict likely continuations.
 - Improves efficiency and [[concepts/user-experience-design|user experience]].
 - Can be enhanced with context-aware algorithms.
 

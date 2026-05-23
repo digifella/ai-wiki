@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: science-physics
 tags:
   - "concept"
   - "engine-maintenance"
@@ -12,7 +11,8 @@ aliases:
   - "Motor Oil"
   - "Lubricant Oil"
 summary: Engine oil maintains pressure and lubrication critical to engine survival, monitored through warning light systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Engine Oil
 
@@ -20,12 +20,11 @@ Engine oil serves as the lifeblood of internal combustion engines, performing mu
 
 ## Monitoring and Maintenance
 
-Modern vehicles use warning light systems to alert drivers when [[concepts/oil-pressure|oil pressure]] drops below safe operating levels. The oil pressure warning light typically illuminates when the engine is [[concepts/running|running]] and pressure falls below approximately 5-10 PSI, indicating either low oil volume or potential issues with the oil pump or pressure relief valve. Regular oil level checks using the dipstick and adherence to manufacturer-recommended oil change intervals are essential maintenance practices that preserve engine longevity.
+Modern vehicles use warning [[concepts/light|light]] systems to alert drivers when [[concepts/oil-pressure|oil pressure]] drops below safe operating levels. The [[concepts/oil-pressure-warning-light|oil pressure warning light]] typically illuminates when the engine is [[concepts/running|running]] and pressure falls below approximately 5-10 PSI, indicating either low oil volume or potential issues with the oil pump or pressure relief valve. Regular oil level checks using the dipstick and adherence to manufacturer-recommended oil change intervals are essential maintenance practices that preserve engine longevity.
 
 ## Oil Properties and Selection
 
-Engine oils are formulated with base oils and additives designed to meet specific viscosity grades and performance [[concepts/open-standards|standards]]. Viscosity—the oil's resistance to flow—varies by temperature and is typically indicated by ratings such as 5W-30 or 10W-40, where lower numbers indicate better cold-weather performance. Selecting the correct oil type and grade for a vehicle's engine is crucial, as incorrect choices can compromise lubrication effectiveness and engine protection.
-
+Engine oils are formulated with base oils and additives designed to meet specific viscosity grades and performance [[concepts/open-standards|standards]]. Viscosity—the oil's resistance to [[concepts/flow|flow]]—varies by temperature and is typically indicated by ratings such as 5W-30 or 10W-40, where lower numbers indicate better cold-weather performance. Selecting the correct oil type and grade for a vehicle's engine is crucial, as incorrect choices can compromise lubrication effectiveness and engine protection.
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)

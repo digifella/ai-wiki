@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 ---
 - "programming"
@@ -25,7 +25,7 @@ Collaborative development approach where an [[entities/ai-assistant|AI assistant
 - Specialized for professional [[concepts/software|software]] development, not for beginners
 
 ## Recent Developments
-- Junie by JetBrains exemplifies "anti-vibe" coding: designed for professionals to augment workflow, not replace coding [[concepts/skills|skills]]
+- [[concepts/professional-software-engineers|Junie]] by JetBrains exemplifies "anti-vibe" coding: designed for professionals to augment workflow, not replace coding [[concepts/skills|skills]]
 - Avoids generating thousands of lines of code from scratch
 - Acts as a deeply integrated intelligent pair programming assistant
 - Positioned as a specialized tool in a market flooded with "vibe coding" apps
@@ -36,7 +36,6 @@ Collaborative development approach where an [[entities/ai-assistant|AI assistant
 - [[concepts/ai-coding]]
 - [[concepts/ide-integration]]
 - [[concepts/anti-vibe-coding]]
-
 ## Source Notes
 - 2026-04-23: <https://www.youtube.com/watch?v=WHoTpk_BJys> Here is a summary and review of **Junie**, JetBrains' new [[concepts/smart-coding-agent|smart coding agent]], based on the provided video [[concepts/text-transcript|transcript]].
 

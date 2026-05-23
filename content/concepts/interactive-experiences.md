@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: interactive-visualisation
 tags:
   - "interactive-experiences"
   - "ai-automation"
@@ -12,12 +11,13 @@ tags:
 aliases:
   - "Interactive Visualisation"
   - "AI-Driven Experiences"
-summary: "Explores automating travel itineraries using AI tools and Google My Maps integration."
-updated: 2026-05-01
+summary: Explores automating travel itineraries using AI tools and Google My Maps integration.
+updated: 2026-05-23
+group: interactive-visualisation
 ---
 # Interactive Experiences
 
-Interactive Experiences refers to the integration of [[entities/ai-tools|AI tools]] with mapping and planning platforms to create dynamic, personalized travel itineraries. By combining [[concepts/ai-technologies|artificial intelligence]] with geospatial visualization tools like [[entities/google-my-maps|Google My Maps]], users can automate the process of route planning, destination selection, and activity scheduling. This approach reduces manual planning time while allowing for real-time [[concepts/adjustments|adjustments]] based on user preferences, travel constraints, and discovered points of interest.
+Interactive Experiences refers to the [[concepts/integration|integration]] of [[entities/ai-tools|AI tools]] with mapping and planning platforms to create dynamic, personalized travel itineraries. By combining [[concepts/ai-technologies|artificial intelligence]] with geospatial visualization tools like [[entities/google-my-maps|Google My Maps]], users can automate the process of route planning, destination selection, and activity scheduling. This approach reduces manual planning time while allowing for real-time [[concepts/adjustments|adjustments]] based on user preferences, travel constraints, and discovered points of interest.
 
 ## AI-Driven Itinerary Planning
 
@@ -25,6 +25,6 @@ AI systems can analyze travel data—including user interests, budget constraint
 
 ## Google My Maps Integration
 
-Google My Maps serves as the visualization and coordination layer for AI-generated itineraries. Users can import AI recommendations directly into custom maps, add waypoints, and share routes with travel companions. The platform's ability to layer information, adjust routing, and display offline content makes it a practical tool for executing automated travel plans in real-world conditions.
+[[concepts/google-search|Google]] My Maps serves as the visualization and coordination layer for AI-generated itineraries. Users can import AI recommendations directly into custom maps, add waypoints, and share routes with travel companions. The platform's ability to layer information, adjust routing, and display offline content makes it a practical tool for executing automated travel plans in real-world conditions.
 
 Interactive experiences created through this combination enhance both the planning and execution phases of travel, bridging the gap between [[concepts/software-algorithms|algorithmic optimization]] and practical, on-the-ground navigation.

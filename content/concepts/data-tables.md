@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data"
-  - "tables"
-  - "ai"
-  - "notebooklm"
-  - "simulations"
-  - "structured-data"
-  - "tabular-data"
-  - "data-visualization"
-  - "ai-integration"
-  - "data-analysis"
-summary: "Data tables are a structured format for organizing and analyzing data in rows and columns, enabling efficient storage, retrieval, and interpretation."
-updated: 2026-04-14
+summary: Data tables are a structured format for organizing and analyzing data in rows and columns, enabling efficient storage, retrieval, and interpretation.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data Tables
@@ -34,7 +23,6 @@ Recent frequent updates to [[entities/notebooklm|NotebookLM]] support advanced [
 
 ## Sources
 - 2026 04 14 [[entities/ai-with-surya|AI with Surya]] use of Data Tables and Simulations with [[concepts/ai-integrated-notebooks|NotebookLM]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi|Google NotebookLM Customizing Design for Professional Presentations vi]] · [▶ source](https://www.youtube.com/watch?v=hqquu7H7X0w)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

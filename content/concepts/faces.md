@@ -11,8 +11,8 @@ tags:
 aliases:
   - "facial representations"
   - "human faces"
-summary: "Faces are a fundamental aspect of human identity used in AI image generation and models such as FLUX.1."
-updated: 2026-04-27
+summary: Faces are a fundamental aspect of human identity used in AI image generation and models such as FLUX.1.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Faces
@@ -35,7 +35,6 @@ Faces are a fundamental aspect of human identity and communication, often used i
 
 ## Backlinks
 - 2026 04 14 [[entities/adam-lucek|Adam Lucek]] Flux model for Open AI generated image gen
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-NVIDIA-NemoClaw-Agent-Toolkit-for-Secure-Enterprise-AI-Deployment|NVIDIA NemoClaw Agent Toolkit for Secure Enterprise AI Deployment]] · [▶ source](https://www.youtube.com/watch?v=NY2uwmX3uGc)
 - 2026-04-10: [[lab-notes/2026-04-10-OpenAI-Soras-Demise-Compute-Costs-Strategic-Shift-and-Legal-Risks|OpenAI Soras Demise Compute Costs Strategic Shift and Legal Risks]] · [▶ source](https://www.youtube.com/watch?v=C7sagA2I-os)

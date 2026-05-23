@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "concept"
-  - "24/7"
-  - "automation"
-  - "ai"
-  - "24-7-operation"
-  - "zero-downtime"
-  - "autonomous-operation"
-  - "persistent-ai"
-aliases:
-  - "24/7 operation"
-summary: "24/7 operation is a system or service that operates continuously without interruption for 24 hours a day, 7 days a week."
-updated: 2026-04-15
+summary: 24/7 operation is a system or service that operates continuously without interruption for 24 hours a day, 7 days a week.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # 24/7 Operation
@@ -26,12 +15,11 @@ System or service availability without interruption, operating continuously 24 h
 - Critical for mission-critical services and persistent [[concepts/agentic-ai|AI agents]]
 
 **Examples:**
-- [[entities/openclaw]]: [[concepts/local-ai-assistant|Local AI assistant]] (formerly [[concepts/local-ai-assistants|ClawdBot]]/MoltBot) [[concepts/running|running]] 24/7 on [[entities/raspberry-pi|Raspberry Pi]], described as a "blank [[entities/canvas|canvas]]" with autonomous capabilities, similar to fictional [[entities/jarvis|Jarvis]] (Iron Man)
+- [[entities/openclaw]]: [[concepts/local-ai-assistant|Local AI assistant]] (formerly [[concepts/local-ai-assistants|ClawdBot]]/MoltBot) [[concepts/running|running]] 24/7 on [[entities/raspberry-pi|Raspberry Pi]], described as a "blank [[entities/canvas|canvas]]" with autonomous [[concepts/capabilities|capabilities]], similar to fictional [[entities/jarvis|Jarvis]] (Iron Man)
 - Raspberry Pi-based [[concepts/automation|automation]] systems requiring persistent [[concepts/background-processes|background processes]]
 - Cloud infrastructure with 99.999% [[concepts/uptime|uptime]] guarantees
 
-2026 04 14 [[entities/gary-explains|Gary Explains]] Clawdbot on Raspberry Pi
-
+2026 04 14 [[entities/gary-explains|Gary Explains]] [[concepts/remote-chat|Clawdbot]] on Raspberry Pi
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-13: [[lab-notes/2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru|Earthquake Base Isolation Systems Functionality and Critical Infrastru]] · [▶ source](https://www.youtube.com/watch?v=qt2j2gn0yWc)

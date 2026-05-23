@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "AI Masking"
-  - "Lightroom Classic"
-  - "Editing Workflow"
-  - "Automation"
-  - "ai-image-editing"
-  - "lightroom-classic-presets"
-  - "automation-tools"
-  - "image-masking"
-  - "photo-editing-workflow"
-  - "lightroom-catalog"
-aliases:
-  - "AI Mask Automation"
-  - "Lightroom AI Presets"
-  - "Julieanne Kost Lightroom Tips"
-  - "AI Landscape Editing"
-summary: "Covers AI masking automation in Lightroom Classic and the fundamental structure/function of the Lightroom catalog system."
-updated: 2026-04-14
+summary: Covers AI masking automation in Lightroom Classic and the fundamental structure/function of the Lightroom catalog system.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # AI Masking
@@ -43,8 +27,7 @@ This video introduces two new [[concepts/lightroom|presets]] for [[concepts/ligh
 **URL:** https://www.youtube.com/watch?v=Hv-gDVuNpbU
 - A [[concepts/catalog|Lightroom catalog]] does not contain actual photos; it functions as a "Cookbook" (storing [[concepts/metadata|metadata]] and [[concepts/instructions|instructions]]).
 - Understanding the catalog [[concepts/structure|structure]] is essential for managing a [[concepts/photography-workflow|photo workflow]].
-- Source: 202 04 14 Lightroom catalog system
-
+- Source: 202 04 14 [[concepts/lightroom-catalog|Lightroom catalog]] system
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-14: How to get TACK SHARP photos with any camera!

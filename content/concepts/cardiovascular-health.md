@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "cardiovascular-health"
   - "heart-health"
@@ -13,7 +12,8 @@ aliases:
   - "cardiovascular fitness"
   - "cardiac health"
 summary: The physiological state and function of the heart and circulatory system, connected to exercise and physical activity.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Cardiovascular Health
 
@@ -21,8 +21,8 @@ Cardiovascular health refers to the functional state of the heart and blood vess
 
 ## Physical Activity and Cardiovascular Function
 
-Regular exercise strengthens the heart muscle, improves circulation, and helps maintain healthy blood vessel function. Physical activity works to lower resting heart rate, reduce blood pressure, and improve cholesterol profiles—all markers of cardiovascular fitness. Different types of exercise contribute in various ways: aerobic activities like walking and [[concepts/running|running]] build [[concepts/physical-endurance|endurance]] capacity, while resistance [[concepts/training|training]] supports overall cardiovascular [[concepts/resilience|resilience]].
+Regular exercise strengthens the heart muscle, improves circulation, and helps maintain healthy blood vessel function. [[concepts/exercise|Physical activity]] works to lower resting heart rate, reduce blood pressure, and improve cholesterol profiles—all markers of cardiovascular fitness. Different types of exercise contribute in various ways: aerobic activities like walking and [[concepts/running|running]] build [[concepts/physical-endurance|endurance]] capacity, while resistance [[concepts/training|training]] supports overall cardiovascular [[concepts/resilience|resilience]].
 
 ## Broader Health Connections
 
-Cardiovascular health is interconnected with other aspects of wellbeing, including diet, [[concepts/stress-management|stress management]], [[concepts/sleep-quality|sleep quality]], and weight maintenance. These lifestyle factors collectively influence how well the cardiovascular system functions over time. Conversely, poor cardiovascular health can increase risk for other health complications, making it a central indicator of overall physical wellbeing.
+Cardiovascular health is interconnected with other aspects of [[concepts/health|wellbeing]], including [[concepts/diet|diet]], [[concepts/stress-management|stress management]], [[concepts/sleep-quality|sleep quality]], and weight maintenance. These lifestyle factors collectively [[concepts/power|influence]] how well the cardiovascular system functions over time. Conversely, poor cardiovascular health can increase risk for other health complications, making it a central indicator of overall physical wellbeing.

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "concept"
   - "cloud-ai-privacy"
@@ -13,7 +12,8 @@ aliases:
   - "Cloud AI Privacy Risks"
   - "AI Privacy"
 summary: The page explores privacy risks and mitigation strategies associated with using cloud-based AI compared to running AI agents locally.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Cloud Ai Privacy
 
@@ -21,11 +21,11 @@ updated: 2026-05-01
 
 ## Privacy Risks in Cloud Environments
 
-Cloud AI deployments introduce multiple [[concepts/vulnerability|vulnerability]] points. Data in transit can be intercepted despite encryption protocols, and data at rest on cloud infrastructure remains subject to the provider's security practices and legal obligations. Terms of service often permit data use for purposes beyond the user's original intent, including analytics and model [[concepts/training|training]]. [[concepts/compliance|Compliance]] with regulations like GDPR or HIPAA becomes dependent on the provider's infrastructure and [[concepts/policies|policies]] rather than direct user control.
+Cloud AI deployments introduce multiple [[concepts/vulnerability|vulnerability]] points. Data in transit can be intercepted despite encryption protocols, and data [[concepts/assistive-technology|at]] rest on cloud infrastructure remains subject to the provider's [[concepts/security|security]] practices and legal obligations. Terms of service often permit data use for purposes beyond the user's original intent, including analytics and model [[concepts/training|training]]. [[concepts/compliance|Compliance]] with regulations like GDPR or HIPAA becomes dependent on the provider's infrastructure and [[concepts/policies|policies]] rather than direct [[concepts/user-control|user control]].
 
 ## Local Deployment Considerations
 
-[[concepts/running|Running]] [[concepts/agentic-ai|AI agents]] locally eliminates transmission to external servers, but does not guarantee privacy. Local systems remain vulnerable to device compromise, malware, and unauthorized physical access. Users bear full responsibility for security infrastructure, updates, and data protection. Local processing also requires sufficient [[concepts/computational-resources|computational resources]], which may be impractical for resource-intensive models, pushing organizations back toward cloud solutions despite privacy preferences.
+[[concepts/running|Running]] [[concepts/agentic-ai|AI agents]] locally eliminates transmission to external servers, but does not guarantee privacy. Local systems remain vulnerable to device compromise, malware, and unauthorized physical access. Users bear full responsibility for security infrastructure, updates, and data protection. Local processing also requires sufficient [[concepts/computational-resources|computational resources]], which may be impractical for resource-intensive [[concepts/models|models]], pushing organizations back toward cloud solutions despite privacy preferences.
 
 ## Mitigation Approaches
 

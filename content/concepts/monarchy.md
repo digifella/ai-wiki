@@ -1,18 +1,13 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "monarchy"
-  - "k-drama"
-  - "food"
-  - "joseon-era"
-updated: 2026-04-14
+updated: 2026-05-23
 group: people-institutions-cultural-history
 ---
 # Monarchy
 
 ## Overview
-Monarchy is a form of government where supreme authority is vested in one person, typically called the monarch. This system often includes hereditary succession and varying degrees of power depending on cultural context.
+Monarchy is a form of government where supreme [[concepts/power|authority]] is vested in one person, typically called the monarch. This system often includes hereditary succession and varying degrees of power depending on cultural context.
 
 ## Related Concepts
 - history
@@ -23,7 +18,7 @@ Monarchy is a form of government where supreme authority is vested in one person
 ### Bon Appétit, Your Majesty (K-Drama)
 - **Premise:** A modern South Korean chef with French culinary [[concepts/training|training]] is transported back to the [[concepts/joseon-era|Joseon era]].
 - **Cast:** [[entities/im-yoon-ah|Im Yoon-ah]] as Yeon Ji-young
-- **Adapted from:** *Surviving as Yeonsan-gun's Chef* by [[entities/park-kook-jae|Park Kook-jae]]
+- **Adapted from:** *[[entities/your-majesty|Surviving as Yeonsan-gun's Chef]]* by [[entities/park-kook-jae|Park Kook-jae]]
 - **Director:** [[entities/jang-tae-yoo|Jang Tae-yoo]]
 - **Producer:** [[entities/studio-dragon|Studio Dragon]]
 - **Episodes:** 12

@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "computational-complexity"
-  - "theoretical-computer-science"
-  - "p-vs-np"
-  - "cryptography"
-  - "algorithm-design"
-  - "complexity-theory"
-aliases:
-  - "solution verification"
-  - "checking solutions"
-summary: "Verification is the process of checking whether a solution to a problem meets specified criteria or requirements, a fundamental concept in the P vs NP problem."
-updated: 2026-04-18
+summary: Verification is the process of checking whether a solution to a problem meets specified criteria or requirements, a fundamental concept in the P vs NP problem.
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Verification in Computing
@@ -25,7 +15,7 @@ Verification is a fundamental process in computing and [[concepts/mathematics|ma
   - WikiLink:[[concepts/np-completeness|NPC]]
 
 ### New Information
-- The P vs. NP problem is one of the most significant unsolved questions in [[concepts/mathematics|mathematics]] and computer science, with implications for [[concepts/cryptography|cryptography]], algorithm [[concepts/design|design]], and computational limits.
+- The P vs. NP problem is one of the most significant unsolved questions in [[concepts/mathematics|mathematics]] and computer [[concepts/science|science]], with implications for [[concepts/cryptography|cryptography]], algorithm [[concepts/design|design]], and computational limits.
 - It fundamentally asks whether problems whose solutions can be quickly verified (NP) can also be quickly solved (P).
 - A [[concepts/solution|solution]] to this problem could revolutionize fields such as medicine, [[concepts/ai-technologies|artificial intelligence]], and [[concepts/security|security]].
 
@@ -36,10 +26,9 @@ Verification is a fundamental process in computing and [[concepts/mathematics|ma
 - **[[concepts/millennium-prize-problems|Millennium Prize Problems]]**
 
 ### Summary of P vs. NP Problem
-- The video provides a clear and engaging explanation of the [[concepts/p-vs-np-core-question|P versus NP problem]], often considered the biggest unsolved problem in computer science, carrying a $1 million prize. The core question asks: if a problem's [[concepts/solution|solution]] is easy to verify, is it also easy to find? The presenter introduces this concept through analogies, starting with a Rubik's cube.
+- The video provides a clear and engaging explanation of the [[concepts/p-vs-np-core-question|P versus NP problem]], often considered the biggest unsolved problem in computer [[concepts/science|science]], carrying a $1 million prize. The core question asks: if a problem's [[concepts/solution|solution]] is easy to verify, is it also easy to find? The presenter introduces this concept through analogies, starting with a Rubik's cube.
 
-2026 04 13 [[concepts/a-video-titled-p-vs-np|P vs NP Problem]] [[concepts/complexity-classes|Computational Complexity]] and Implications Summary
-
+2026 04 13 [[concepts/a-video-titled-p-vs-np|P vs NP Problem]] [[concepts/complexity-classes|Computational Complexity]] and Implications [[concepts/summary|Summary]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-08: [[lab-notes/2026-04-08-Self-Evolving-AI-Autonomous-Optimization-via-Iterative-Harness|Self Evolving AI Autonomous Optimization via Iterative Harness]] · [▶ source](https://www.youtube.com/watch?v=WpcRm78KOvY)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "concept"
   - "content-management"
@@ -13,7 +12,8 @@ aliases:
   - "Cross-Platform Content Strategy"
   - "Unified Content Distribution"
 summary: A system for managing and distributing marketing content across multiple platforms using AI assistance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Multi Platform Content Management
 
@@ -25,8 +25,7 @@ Modern multi-platform systems increasingly incorporate [[entities/ai-tools|AI to
 
 ## Implementation Considerations
 
-Effective multi-platform content management requires understanding the technical capabilities and user expectations of each target platform. A video optimized for TikTok differs significantly in length, aspect ratio, and style from content designed for LinkedIn or YouTube. Systems that support this approach typically include content calendars, asset libraries, and analytics dashboards to track engagement metrics across platforms. The choice of which platforms to prioritize depends on where a creator's or brand's target audience is most active.
-
+Effective multi-platform content management requires understanding the technical [[concepts/capabilities|capabilities]] and user expectations of each target platform. A video optimized for [[entities/tiktok|TikTok]] differs significantly in length, aspect ratio, and [[concepts/style|style]] from content designed for LinkedIn or [[entities/youtube|YouTube]]. Systems that support this approach typically include content calendars, asset libraries, and analytics dashboards to track engagement metrics across platforms. The choice of which platforms to prioritize depends on where a [[concepts/creator|creator]]'s or brand's target audience is most active.
 ## Source Notes
 - 2026-04-07: Claude Cowork + [[concepts/skills|Skills is Your NEW Content System]]
 - 2026-04-22: Google · [▶ source](https://www.youtube.com/watch?v=2DlsrKlF7XQ)

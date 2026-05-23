@@ -12,19 +12,21 @@ aliases:
   - "Lightroom Adjustments"
   - "Color and Tone Adjustments"
 summary: A concept page documenting adjustments techniques from Will's Master of Editing course, covering Lightroom catalog management and photo editing practices.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Adjustments
 
-Adjustments in [[concepts/photo-editing|photo editing]] refer to modifications made to [[concepts/images|images]] within Lightroom to enhance [[concepts/exposure|exposure]], color, [[concepts/contrast|contrast]], and other visual properties. These techniques form a foundational part of the post-processing workflow, allowing photographers to correct technical issues and achieve desired aesthetic results. The adjustment system operates on a non-destructive basis: the original image file remains unchanged while all edits are recorded in the [[concepts/catalog|Lightroom catalog]] database, preserving the raw data for future re-editing or alternative interpretations.
+Adjustments in photo editing refer to modifications made to images within Lightroom to enhance exposure, color, contrast, and other visual properties. These techniques form a foundational part of the post-processing workflow, allowing photographers to correct technical issues and achieve desired aesthetic results. The adjustment system operates on a non-destructive basis: the original image file remains unchanged while all edits are recorded in the Lightroom catalog, preserving the photographer's ability to revert or modify changes at any point.
 
-## Core Adjustment Categories
+## Catalog Management
 
-Lightroom's adjustment tools are organized into several primary categories. Exposure adjustments control overall brightness and tonal range, including highlights, [[concepts/shadows|shadows]], and mid-tone values. Color adjustments allow modification of hue, saturation, and luminance across the full image or specific [[concepts/color-ranges|color ranges]]. Contrast and clarity adjustments affect the distinction between tonal values and the perceived [[concepts/sharpness|sharpness]] of detail. White balance adjustments correct [[concepts/color-temperature|color temperature]] issues introduced during capture or intentionally shift the warm-cool character of an image.
+Proper organization within the Lightroom catalog is essential for efficient adjustment workflows. This involves organizing images into collections and using metadata to track editing status and versions. The catalog structure allows photographers to group related images and apply consistent adjustments across multiple photos, which is particularly useful when processing images from the same shoot or session.
 
-## Catalog Management and Workflow
+## Common Adjustment Categories
 
-The integration of adjustments within Lightroom's catalog system creates a centralized [[concepts/photography-workflow|editing workflow]]. All adjustment data is stored as [[concepts/metadata|metadata]] rather than embedded in the image file, allowing photographers to maintain original files while experimenting with multiple editing approaches. This system supports efficient batch processing, where similar adjustments can be copied across multiple images, and enables non-linear editing practices where previous adjustments can be revisited, refined, or completely reversed without quality degradation.
+Lightroom provides adjustment tools organized into logical groups: exposure controls manage overall brightness and highlights/shadows; color adjustments include white balance, saturation, and vibrance; tone curve adjustments offer precise control over tonal ranges; and clarity and texture sliders affect localized contrast and surface detail. Additional tools address specific issues such as lens distortion correction, chromatic aberration removal, and noise reduction. Most adjustments can be applied selectively using masks and adjustment brushes rather than affecting the entire image uniformly.
+
+The non-destructive nature of Lightroom adjustments means photographers can safely experiment with different approaches to achieve their desired results, with the flexibility to compare before-and-after versions or return to the original unedited state at any stage of the editing process.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)

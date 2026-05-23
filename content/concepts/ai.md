@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "ai-foundations-concepts"
   - "ai-agents"
@@ -13,20 +12,20 @@ aliases:
   - "artificial-intelligence"
   - "ai-fundamentals"
 summary: Foundational concepts and applications of artificial intelligence, including machine learning systems, automation, and privacy considerations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Ai
 
-[[concepts/ai-technologies|Artificial intelligence]] refers to computer systems designed to perform tasks that conventionally require [[concepts/human-intelligence|human intelligence]]. These systems operate by processing data, identifying patterns, and making decisions based on learned information. [[concepts/ai-powered-applications|AI applications]] span a spectrum from narrow, specialized functions—such as image recognition, language translation, or recommendation systems—to broader systems capable of addressing multiple categories of problems. The field combines symbolic approaches that rely on explicit programmed rules with data-driven methods that learn patterns from [[concepts/training|training]] examples.
+[[concepts/ai-technologies|Artificial intelligence]] refers to computer systems designed to perform tasks that conventionally require [[concepts/human-intelligence|human intelligence]]. These systems operate by processing data, identifying patterns, and making decisions based on learned information. [[concepts/ai-powered-applications|AI applications]] span a spectrum from narrow, specialized functions—such as image recognition, language translation, or recommendation systems—to broader systems capable of addressing multiple categories of problems. The field combines symbolic approaches, which encode explicit rules, with [[concepts/machine-learning|machine learning]] methods that derive patterns from [[concepts/language-data|training data]].
 
 ## Machine Learning and Automation
 
-Machine learning, a core subset of AI, enables systems to improve their performance on specific tasks through [[concepts/exposure|exposure]] to data rather than through explicit programming. Supervised learning uses labeled examples to train models for prediction or classification, while [[concepts/unsupervised-learning|unsupervised learning]] identifies hidden patterns in unlabeled data. Reinforcement learning allows systems to learn through interaction with environments and [[concepts/feedback|feedback]]. These techniques have enabled practical automation in diverse domains, from industrial processes and logistics optimization to medical diagnostics and [[concepts/nlp|natural language processing]].
+Machine learning forms a core component of modern AI, enabling systems to improve performance through experience rather than explicit programming. Supervised learning trains [[concepts/models|models]] on labeled datasets, while [[concepts/unsupervised-learning|unsupervised learning]] identifies patterns in unlabeled data. These techniques power predictive systems, classification models, and [[concepts/automation|automation]] in domains ranging from [[concepts/health|healthcare]] diagnostics to manufacturing [[concepts/quality-control|quality control]]. The effectiveness of such systems depends heavily on [[concepts/data-conceptsintegrityintegrity|data quality]], representative training sets, and appropriate algorithm selection for the task.
 
-## Privacy and Societal Considerations
+## Privacy and Deployment Considerations
 
-The [[concepts/deployment|deployment]] of AI systems raises important questions regarding data privacy, algorithmic bias, and transparency. AI systems trained on historical data may perpetuate or amplify existing societal biases. The collection and processing of large datasets required for training creates privacy risks and raises questions about consent and data [[concepts/governance|governance]]. As AI systems increasingly influence decisions affecting individuals—in hiring, lending, criminal justice, and [[concepts/health|healthcare]]—understanding how these systems work and who is accountable for their outputs has become essential to responsible development and deployment.
-
+The [[concepts/deployment|deployment]] of AI systems raises practical concerns regarding data [[concepts/privacy|privacy]], algorithmic bias, and transparency. AI systems trained on historical data may perpetuate existing societal [[concepts/biases|biases]] present in that data. Large-scale AI applications often require substantial personal or proprietary information, creating [[concepts/security|security]] and privacy obligations. Organizations implementing AI must consider regulatory requirements, the [[concepts/interpretability|interpretability]] of model decisions in high-stakes contexts, and the potential for unintended consequences in complex environments.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

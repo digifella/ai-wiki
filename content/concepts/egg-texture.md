@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "concept"
   - "scrambled-eggs"
@@ -13,11 +12,12 @@ aliases:
   - "Scrambled Egg Techniques"
   - "Tender Scrambled Eggs"
 summary: A cooking technique guide covering salting, liquid ratios, and equipment methods for achieving tender scrambled eggs from America's Test Kitchen.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Egg Texture
 
-Achieving tender, [[concepts/perfect-scrambled-eggs|creamy scrambled eggs]] depends on three primary variables: salt timing, liquid ratio, and cooking method. According to [[entities/america|America]]'s Test Kitchen's approach, the foundation begins with proper seasoning and moisture balance before the eggs even hit the pan.
+Achieving tender, [[concepts/perfect-scrambled-eggs|creamy scrambled eggs]] depends on three primary variables: [[concepts/salt-timing|salt timing]], liquid ratio, and cooking method. According to [[entities/america|America]]'s Test Kitchen's approach, the foundation begins with proper seasoning and moisture balance before the eggs even hit the pan.
 
 ## Salt and Liquid
 
@@ -26,7 +26,6 @@ Salt should be added to raw eggs before cooking, as it breaks down proteins and 
 ## Equipment and Temperature Control
 
 Low to [[entities/medium|medium]] heat is essential for tender scrambled eggs. Using a non-stick pan or well-buttered traditional pan prevents sticking and allows for gentle, continuous [[concepts/stirring-technique|stirring]]. The cooking method emphasizes patience: frequent stirring over gentle heat produces small, tender curds rather than the large, rubbery chunks that result from high heat and infrequent stirring. Removing the pan from heat slightly before the eggs are fully set allows residual heat to finish cooking them without overcooking.
-
 ## Source Notes
 - 2026-04-13: The Only Scrambled Eggs Recipe You'll Ever Need | Techniquely with Lan Lam
 - 2026-04-07: [[lab-notes/2026-04-07-Nano-Banana-2-JSON-Control-for-Precise-AI-Image-Editing-in-Gemini|Nano Banana 2 JSON Control for Precise AI Image Editing in Gemini]] · [▶ source](https://www.youtube.com/watch?v=uQc4TGhvDHc)

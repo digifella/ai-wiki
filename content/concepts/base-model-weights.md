@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "machine-learning"
-  - "neural-networks"
-  - "llm"
-  - "weights"
-  - "large-language-models"
-  - "model-parameters"
-  - "fine-tuning"
-  - "inference-mechanics"
-aliases:
-  - "model weights"
-  - "learned parameters"
-  - "pretrained weights"
-summary: "Base model weights are the learned numerical parameters within neural networks or large language models that are optimized during the pre-training process."
-updated: 2026-04-26
+summary: Base model weights are the learned numerical parameters within neural networks or large language models that are optimized during the pre-training process.
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 # Base model weights
@@ -33,7 +20,6 @@ The learned [[concepts/parameters|parameters]] (numerical tensors) within a [[co
 
 ## Related Links
 - 2026 04 24 [[entities/deepseek-v4|DeepSeek V4]] Next Gen Open Source LLM Performance and Efficiency Analysis
-
 ## Source Notes
 
 - 2026-04-24: DeepSeek · [▶ source](https://www.youtube.com/watch?v=u3f35QQSLqE)

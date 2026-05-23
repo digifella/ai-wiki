@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "ai-tools"
   - "google-ai-studio"
@@ -13,20 +12,20 @@ aliases:
   - "Visual Style"
   - "Design Style"
 summary: Dr. Elle Yuan Wang introduces Google AI Studio as a platform offering powerful, free tools accessible to everyone.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 ---
 # Style
 
-Style refers to the distinctive and consistent application of creative choices in design, [[concepts/writing|writing]], communication, and other artistic disciplines. It encompasses the visual, tonal, and structural decisions that give a work its recognizable character and voice.
+Style refers to the distinctive and consistent application of creative choices in [[concepts/design|design]], [[concepts/writing|writing]], communication, and other artistic disciplines. It encompasses the visual, tonal, and structural decisions that give a work its recognizable character and [[concepts/tone|voice]].
 
 ## Core Elements
 
-Style emerges from intentional selection and repetition of techniques, aesthetics, and approaches. In visual media, this includes color palettes, [[concepts/typography|typography]], composition, and imagery choices. In writing and speech, style manifests through word choice, sentence [[concepts/structure|structure]], rhythm, and tone. These elements work together to create coherence and recognizability across a creator's work.
+Style emerges from intentional selection and repetition of techniques, aesthetics, and approaches. In visual media, this includes color palettes, [[concepts/typography|typography]], composition, and imagery choices. In writing and speech, style manifests through word choice, sentence [[concepts/structure|structure]], rhythm, and tone. These elements work together to create coherence and recognizability across a [[concepts/creator|creator]]'s work.
 
 ## Accessibility and Tools
 
-Modern creative tools have democratized style development. Platforms and AI systems now enable creators at all skill levels to experiment with stylistic choices, refine their voice, and produce consistent work. This shift means that developing a personal or professional style is no longer limited to those with extensive [[concepts/training|training]] or resources.
-
+Modern creative tools have democratized style development. Platforms and AI systems now enable creators [[concepts/assistive-technology|at]] all [[concepts/skill|skill]] levels to experiment with stylistic choices, refine their voice, and produce consistent work. This shift means that developing a personal or professional style is no longer limited to those with extensive [[concepts/training|training]] or resources.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Cowork-AI-Building-an-Efficient-Marketing-Content-System|Claude Cowork AI Building an Efficient Marketing Content System]] · [▶ source](https://www.youtube.com/watch?v=l1y3IeC_eJ0)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

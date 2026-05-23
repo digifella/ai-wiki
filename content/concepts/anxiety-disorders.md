@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "anxiety"
   - "mental-health"
@@ -12,11 +11,12 @@ aliases:
   - "Anxiety Conditions"
   - "Anxiety-Related Disorders"
 summary: A category of mental health conditions characterized by excessive worry and fear responses that impair functioning.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Anxiety Disorders
 
-Anxiety disorders are a group of [[concepts/mental-health|mental health]] conditions characterized by persistent, excessive worry and fear that interfere with daily functioning. Unlike ordinary [[concepts/anxiety|anxiety]]—a normal response to [[concepts/stress|stress]] that subsides once a stressor is resolved—anxiety disorders involve prolonged activation of the body's threat-detection systems even when no genuine danger is present. These conditions affect approximately 1 in 5 adults globally and represent among the most prevalent mental health disorders.
+Anxiety disorders are a group of [[concepts/mental-health|mental health]] conditions characterized by persistent, excessive worry and fear that interfere with daily functioning. Unlike ordinary [[concepts/anxiety|anxiety]]—a normal response to [[concepts/stress|stress]] that subsides once a stressor is resolved—anxiety disorders involve prolonged activation of the body's threat-detection systems even when no genuine danger is present. These conditions affect approximately 1 in 5 adults globally and represent among the most prevalent mental [[concepts/health|health]] disorders.
 
 ## Main Types
 

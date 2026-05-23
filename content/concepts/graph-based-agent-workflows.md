@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai-agents"
-  - "langgraph"
-  - "automation"
-  - "workflows"
-  - "agentic-ai"
-  - "state-management"
-  - "directed-graphs"
-aliases:
-  - "graph-based-workflows"
-  - "agentic-graphs"
-summary: "A structural paradigm for agentic AI where execution logic is represented as a directed graph capable of cycles and state management."
-updated: 2026-04-14
+summary: A structural paradigm for agentic AI where execution logic is represented as a directed graph capable of cycles and state management.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Graph-based agent workflows
@@ -30,10 +19,10 @@ A structural paradigm for [[concepts/agentic-ai]] where execution logic is repre
 
 ## Implementations & Examples
 - **[[concepts/multi-modal-researcher|Langchain researcher]] with [[concepts/gemini|Gemini]] 2.5**:
-    - A "[[entities/gemini|Gemini]] 2.5 [[concepts/multi-modal-researcher|Multi-modal researcher]]" built using LangGraph.
+    - A "[[entities/gemini|Gemini]] 2.5 [[concepts/multi-modal-researcher|Multi-modal researcher]]" built using [[concepts/langgraph-framework|LangGraph]].
     - D
-- **[[concepts/claude-code|Claude Code]] [[concepts/ai-coding|AI coding]] agent**:
-    - Utilization of [[concepts/test-driven-development|Test-Driven Development]] (TDD) and [[concepts/custom-tools|custom tools]] to optimize productivity workflows.
+- **[[concepts/claude-code|Claude Code]] [[concepts/ai-coding|AI coding]] [[entities/agent|agent]]**:
+    - Utilization of [[concepts/test-driven-development|Test-Driven Development]] ([[concepts/testing|TDD]]) and [[concepts/custom-tools|custom tools]] to optimize productivity workflows.
     - Source: [[entities/yifan|Yifan]] ([[entities/beyond-the-hype|Beyond the Hype]] channel).
 
 2026 04 14 [[concepts/developer-workflow|Claude Code workflow]] Yifan [[entities/beyond-the-hype|Beyond the Hype]] channel

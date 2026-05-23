@@ -1,41 +1,24 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "machine-learning"
-  - "multimodal"
-  - "LLM"
-  - "edge-computing"
-  - "multimodal-language-models"
-  - "cross-modal-attention"
-  - "generative-ai"
-  - "edge-ai"
-  - "small-language-models"
-aliases:
-  - "MLMs"
-  - "multimodal-models"
-summary: "Multimodal language models are architectures designed to process, integrate, and reason across multiple data modalities, such as text, images, audio, and video, within a unified latent space."
-updated: 2026-04-14
+summary: Multimodal language models are architectures designed to process, integrate, and reason across multiple data modalities, such as text, images, audio, and video, within a unified latent space.
+updated: 2026-05-23
 group: ai-foundations-concepts
-backlinks:
-  - "2026 04 14 Claude 18 march 2026"
 ---
 # Multimodal Language Models
 
-Multimodal Language Models are architectures capable of processing, integrating, and [[concepts/reasoning|reasoning]] across multiple data modalities (e.g., text, [[concepts/images|images]], audio, and video) within a unified latent space. Unlike unimodal [[concepts/large-language-models]], these models utilize cross-modal [[concepts/attention-mechanisms|attention mechanisms]] to establish semantic [[concepts/relationships|relationships]] between disparate input types.
+Multimodal Language [[concepts/models|Models]] are architectures capable of processing, integrating, and [[concepts/reasoning|reasoning]] across multiple data modalities (e.g., [[concepts/text|text]], [[concepts/images|images]], [[concepts/audio-modality|audio]], and video) within a unified latent space. Unlike unimodal [[concepts/large-language-models]], these models utilize cross-modal [[concepts/attention-mechanisms|attention mechanisms]] to establish semantic [[concepts/relationships|relationships]] between disparate input types.
 
 ## Core Architectures & Mechanics
 - **Cross-modal Embedding:** Mapping diverse inputs ([[concepts/tokens|tokens]], patches, waveforms) into a shared high-dimensional vector space.
 - **[[concepts/modality|Modality]] Encoders:** Use of specialized encoders (e.g., [[concepts/computer-vision|Vision]] [[concepts/transformers|Transformers]] for imagery) feeding into a central transformer backbone.
-- **[[concepts/scale-effect|Scaling Laws]]:** The transition from massive, cloud-reliant models to [[entities/high-performance|high-performance]] small language models optimized for [[concepts/edge-computing]].
-- **Generative Capabilities:** [[concepts/integration|Integration]] of [[concepts/generative-ai]] techniques for multimodal [[concepts/content-creation|content creation]].
+- **[[concepts/scale-effect|Scaling Laws]]:** The transition from massive, cloud-reliant models to [[entities/high-performance|high-performance]] [[concepts/small-language-models|small language models]] optimized for [[concepts/edge-computing]].
+- **Generative [[concepts/capabilities|Capabilities]]:** [[concepts/integration|Integration]] of [[concepts/generative-ai]] techniques for multimodal [[concepts/content-creation|content creation]].
 - **Cross-Modal [[concepts/attention|Attention]]:** Mechanisms like cross modal [[concepts/attention-mechanisms|attention]] for dynamic feature fusion.
 
 ## Recent Developments
 - **[[concepts/edge-deployment|Edge Deployment]]:** Advances in [[concepts/edge-ai|edge ai]] enabling real-time multimodal processing on resource-constrained devices.
 - **Small Language Models:** Emergence of compact small language models with near-cloud-level performance.
-
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

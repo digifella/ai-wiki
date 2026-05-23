@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "arid-regions"
   - "precipitation"
@@ -13,19 +12,19 @@ aliases:
   - "dry climate"
   - "desert climate"
 summary: A climate classification characterized by minimal precipitation and low moisture availability.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Arid Climate
 
-An arid climate is characterized by extremely low precipitation and minimal moisture availability, typically receiving less than 250 millimeters (10 inches) of annual rainfall. These conditions arise from several geographic and atmospheric factors, including positioning relative to major wind and pressure systems, rain shadow effects created by mountain ranges, or distance from significant moisture sources such as oceans and large bodies of water. Arid climates cover approximately one-third of Earth's land surface and are distributed across every continent except [[entities/europe|Europe]], encompassing true deserts, semi-arid regions, and certain grassland areas.
+An arid climate is characterized by extremely low precipitation and minimal moisture availability, typically receiving less than 250 millimeters (10 inches) of annual rainfall. These conditions result from specific geographic and atmospheric factors, including positioning relative to major wind and pressure systems, rain shadow effects created by mountain ranges, and distance from significant moisture sources such as oceans and large bodies of water. Arid climates cover approximately one-third of Earth's land surface and are distributed across every continent.
 
-## Formation and Distribution
+## Distribution and Formation
 
-Arid regions develop where atmospheric circulation patterns create persistent dry conditions. Subtropical high-pressure zones, which occur around 30 degrees latitude in both hemispheres, produce sinking air that inhibits cloud formation and precipitation. Additionally, when moisture-bearing winds encounter mountain ranges, they release their precipitation on windward slopes, leaving the leeward side arid—a phenomenon known as the rain shadow effect. Continental interiors and regions far from oceans also experience aridity due to limited atmospheric moisture transport.
+Arid regions are commonly found in subtropical latitudes between 15° and 35° north and south of the equator, where descending air masses create persistent high-pressure zones that inhibit cloud formation and precipitation. Major deserts such as the Sahara, Arabian, Kalahari, and Australian deserts occupy these latitudinal bands. Arid climates also develop in continental interiors far from ocean influences and on the leeward sides of mountain ranges, where moist air masses lose their moisture before reaching inland areas.
 
-## Characteristics and Variations
+## Environmental Characteristics
 
-Arid climates display considerable variation in temperature and [[concepts/precipitation-patterns|precipitation patterns]]. Hot deserts experience high daytime temperatures and significant daily temperature fluctuations, while cold deserts can have freezing winters. Annual rainfall, when it occurs, often comes in sporadic, intense events rather than regular distribution throughout the year. Vegetation is sparse or absent, and soil development is limited. Semi-arid regions, which receive between 250 and 500 millimeters of annual precipitation, support grasslands and shrublands with greater biological activity than true deserts.
-
+Arid climates feature sparse vegetation adapted to [[concepts/water-scarcity|water scarcity]], including drought-resistant shrubs, cacti, and grasses with deep root systems. Soil development is typically limited due to minimal organic matter accumulation and slow weathering processes. Diurnal temperature variations are often extreme, with large differences between daytime and nighttime temperatures resulting from low atmospheric water vapor content and cloud cover that would otherwise moderate temperature swings.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Coober-Pedy-An-Australian-Subterranean-Town-Forged-by-Climate-and-Geol|Coober Pedy An Australian Subterranean Town Forged by Climate and Geol]] · [▶ source](https://www.youtube.com/watch?v=MCXnKgSr1N0)

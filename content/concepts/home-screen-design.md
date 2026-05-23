@@ -12,8 +12,8 @@ tags:
   - "widgets"
 aliases:
   - "Home Screen UI"
-summary: "Home screen design refers to the layout, organization, and visual elements of a device's primary interface, including components like widgets and grid systems."
-updated: 2026-04-28
+summary: Home screen design refers to the layout, organization, and visual elements of a device's primary interface, including components like widgets and grid systems.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Home Screen Design

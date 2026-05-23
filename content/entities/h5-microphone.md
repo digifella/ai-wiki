@@ -7,7 +7,7 @@ tags:
 aliases:
   - "H5"
 summary: The H5 is a microphone associated with BT Panorama.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # H5 Microphone
 
@@ -17,5 +17,5 @@ The H5 is a microphone model associated with BT Panorama. While specific technic
 
 Visual documentation of the H5 microphone exists, with multiple [[concepts/images|images]] recorded as of April 2026. These materials form part of the broader [[concepts/technical-documentation|technical documentation]] for BT Panorama equipment and its associated components.
 
-- 2026-04-22 [2026-04-22-Lightroom-Classic-Targeted-HSL-Color-Adjustments-Using-the-Color-Mixer](2026-04-22-Lightroom-Classic-Targeted-HSL-Color-Adjustments-Using-the-Color-Mixer.md) ← Lightroom Classic Targeted Hsl Color Adjustments Using The Color Mixer
+- 2026-04-22 [2026-04-22-Lightroom-Classic-Targeted-HSL-Color-Adjustments-Using-the-Color-Mixer](2026-04-22-Lightroom-Classic-Targeted-HSL-Color-Adjustments-Using-the-Color-Mixer.md) ← [[entities/lightroom-classic|Lightroom Classic]] [[concepts/color-ranges|Targeted Hsl Color Adjustments]] Using The [[concepts/color-mixer|Color Mixer]]
 ## Source Notes

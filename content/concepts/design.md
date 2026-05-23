@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "visual-design"
-  - "ux-design"
-  - "branding-strategy"
-  - "interactive-media"
-  - "sustainable-practices"
-aliases:
-  - "creative-concepts"
-  - "interface-planning"
-  - "presentation-tools"
-  - "research-support"
-summary: "Design encompasses various disciplines including visual, UX, and interactive design to enhance usability and appeal through aesthetic elements."
-updated: 2026-04-11
+summary: Design encompasses various disciplines including visual, UX, and interactive design to enhance usability and appeal through aesthetic elements.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Design
@@ -36,7 +25,7 @@ Design is a broad field encompassing visual, industrial, [[concepts/user-experie
 
 ## Google NotebookLM Customizing Guide
 
-- Video: "Google's [[concepts/ai-integrated-notebooks|NotebookLM]] Just DESTROYED Canva With 1 Update"
+- Video: "[[concepts/google-search|Google]]'s [[concepts/ai-integrated-notebooks|NotebookLM]] Just DESTROYED Canva With 1 Update"
 - Author/Channel: [[entities/vaibhav-sisinty|Vaibhav Sisinty]]
 - Published Date: 2026-04-10
 - URL: https://www.youtube.com/watch?v=hqquu7H7X0w
@@ -53,7 +42,6 @@ Design is a broad field encompassing visual, industrial, [[concepts/user-experie
 
 ## Backlinks
 2026 04 10 [[entities/gartner|Google NotebookLM]] Customizing Design for Professional Presentations vi
-
 ## Source Notes
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)
 - 2026-04-14: Google Stitch - AI Native Design Canvas Evolution and Enhanced Workflow

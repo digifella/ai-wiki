@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "concept"
   - "ai-skill-format"
@@ -13,11 +12,12 @@ aliases:
   - "unified AI skill format"
   - "agent skill standardization"
 summary: A standardized file format for AI skills agreed upon by Anthropic, OpenAI, and Microsoft to enable agent-first organizational infrastructure.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # LLM Skill Ecosystem
 
-The LLM Skill Ecosystem is a standardized file format for defining and packaging [[concepts/ai-agent|AI agent]] capabilities, developed through collaboration between [[entities/anthropic-institute|Anthropic]], [[entities/openai|OpenAI]], and Microsoft. This format establishes a common language for describing [[concepts/agent-harnesses|agent skills]], enabling different AI systems to recognize and execute capabilities in a consistent manner. The agreement represents a significant step toward interoperability in the AI agent space.
+The LLM [[concepts/skill|Skill]] Ecosystem is a standardized file format for defining and packaging [[concepts/ai-agent|AI agent]] capabilities, developed through collaboration between [[entities/anthropic-institute|Anthropic]], [[entities/openai|OpenAI]], and [[entities/microsoft|Microsoft]]. This format establishes a common language for describing [[concepts/agent-harnesses|agent skills]], enabling different AI systems to recognize and execute capabilities in a consistent manner. The agreement represents a significant step toward interoperability in the [[entities/agent|AI agent]] space.
 
 ## Purpose and Implementation
 
@@ -25,8 +25,7 @@ The standardized format supports [[concepts/ai-agent-skill-calls|agent-first org
 
 ## Integration with Agent Frameworks
 
-The ecosystem works in conjunction with emerging agent platforms and tools that enable [[concepts/automation|automation]] at organizational scale. Integration with scheduling systems, workspace [[concepts/software|applications]], and [[concepts/ai-driven-workflow-automation|workflow automation]] tools allows skills to be invoked in various operational contexts. This infrastructure supports the development of more complex agent behaviors while maintaining a standardized underlying skill definition.
-
+The ecosystem works in conjunction with emerging agent platforms and tools that enable [[concepts/automation|automation]] [[concepts/assistive-technology|at]] organizational scale. [[concepts/integration|Integration]] with scheduling systems, workspace [[concepts/software|applications]], and [[concepts/ai-driven-workflow-automation|workflow automation]] tools allows skills to be invoked in various operational contexts. This infrastructure supports the development of more complex agent behaviors while maintaining a standardized underlying skill definition.
 ## Source Notes
 - 2026-04-07: Anthropic, OpenAI, and Microsoft Just Agreed on One File
 - 2026-04-15: [[lab-notes/2026-04-15-Hermes-Agent-Self-Improving-AI-for-Adaptive-User-Learning|Hermes Agent Self Improving AI for Adaptive User Learning]] · [▶ source](https://www.youtube.com/watch?v=5PLDovsqKaQ)

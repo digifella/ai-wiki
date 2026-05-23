@@ -1,19 +1,8 @@
 ---
 type: entity
-tags:
-  - "coding"
-  - "ai"
-  - "ide"
-  - "jetbrains"
-  - "junie"
-  - "coding-assistant"
-  - "software-engineering"
-  - "ai-tools"
-  - "developer-workflow"
-summary: "A JetBrains coding assistant designed for professional software engineers to augment workflows such as refactoring and debugging."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 Anti Vibe coding IDE Sam Witteveen"
+summary: A JetBrains coding assistant designed for professional software engineers to augment workflows such as refactoring and debugging.
+updated: 2026-05-23
+stub: true
 ---
 # Junie
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "morphological-adaptation"
@@ -12,8 +11,9 @@ tags:
 aliases:
   - "structural adaptations"
   - "body form adaptations"
-summary: "Physical and structural changes in organisms that develop through evolution to improve survival and function in their environments."
-updated: 2026-05-01
+summary: Physical and structural changes in organisms that develop through evolution to improve survival and function in their environments.
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Morphological Adaptations
 
@@ -26,6 +26,5 @@ Morphological adaptations vary widely across species and environmental contexts.
 ## Evolution and Trade-offs
 
 The development of morphological adaptations involves evolutionary trade-offs, as resources and developmental constraints limit how many traits can be optimized simultaneously. An organism may gain advantages in one area while becoming less efficient in another. For example, large body size might increase predatory capability but reduce agility or require greater energy intake. Understanding morphological adaptations requires considering both the benefits they confer in particular ecological niches and the costs they impose on overall organism function.
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)

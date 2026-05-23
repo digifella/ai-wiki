@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "cuisine"
-  - "culinary-history"
-  - "gastronomy"
-  - "cantonese-cuisine"
-  - "guangdong-cuisine"
-  - "dim-sum"
-  - "siu-mei"
-  - "culinary-tradition"
-aliases:
-  - "Guangdong cuisine"
-summary: "Cantonese cuisine is a culinary tradition from Guangdong province and Hong Kong that emphasizes the natural flavors of fresh ingredients through techniques such as steaming and stir-frying."
-updated: 2026-04-26
+summary: Cantonese cuisine is a culinary tradition from Guangdong province and Hong Kong that emphasizes the natural flavors of fresh ingredients through techniques such as steaming and stir-frying.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
 ---
 # Cantonese cuisine
@@ -28,8 +17,7 @@ Cantonese cuisine is a major culinary tradition originating from Guangdong provi
 ## Notable Dishes & Trivia
 - [[concepts/singapore-fried-vermicelli]]: A staple noodle dish frequently served in [[concepts/hong-kong-style-cafes|Hong Kong-style cafes]] (Cha Chaan Teng).
     - **Origin Clarification:** Despite its nomenclature, the dish does not originate from Singapore.
-    - **Reference:** 2026 04 23 Singapore Fried Vermicelli Recipe and Origin Clarification
-
+    - **Reference:** 2026 04 23 Singapore [[concepts/fried-vermicelli-recipe|Fried Vermicelli Recipe]] and Origin Clarification
 ## Source Notes
 
 - 2026-04-23: Singapore Fried Vermicelli Recipe · [▶ source](https://www.youtube.com/watch?v=6izDqbjmMMc)

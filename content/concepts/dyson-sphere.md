@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: cosmology-astronomy-astrophysics
 tags:
   - "megastructure"
   - "energy-capture"
@@ -13,16 +12,17 @@ aliases:
   - "Dyson shell"
   - "stellar energy collector"
 summary: A hypothetical megastructure designed to encompass a star to capture its energy output.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cosmology-astronomy-astrophysics
 title: dyson sphere
 ---
 # Dyson Sphere
 
-A Dyson sphere is a hypothetical megastructure designed to capture the energy output of a star by surrounding it partially or completely. The concept was first described by physicist Freeman Dyson in 1960, though the idea of harnessing stellar energy had been explored in earlier science fiction. A Dyson sphere would function as an artificial shell or swarm of structures positioned at a distance where collected energy could sustain a civilization far larger than would be possible with planetary resources alone.
+A Dyson sphere is a hypothetical megastructure designed to capture the energy [[concepts/output|output]] of a star by surrounding it partially or completely. The concept was first described by physicist Freeman Dyson in 1960, though the idea of harnessing stellar energy had been explored in earlier [[concepts/science|science]] fiction. A Dyson sphere would function as an artificial shell or swarm of structures positioned [[concepts/assistive-technology|at]] a distance where collected energy could sustain a civilization far larger than would be possible with planetary resources alone.
 
 ## Structure and Variants
 
-The original concept envisioned a solid spherical shell, but this design presents severe engineering challenges including structural [[concepts/integrity|integrity]] and the impossibility of achieving gravitational stability. More practical variants include the Dyson swarm—a collection of independent orbiting solar collectors—or Dyson rings, which would be rotating bands arranged in multiple planes around a star. These alternatives avoid the problems of a single rigid structure while maintaining the core function of [[concepts/energy-capture|energy capture]].
+The original concept envisioned a solid spherical shell, but this [[concepts/design|design]] presents severe engineering challenges including structural [[concepts/integrity|integrity]] and the impossibility of achieving gravitational stability. More practical variants include the Dyson swarm—a collection of independent orbiting solar collectors—or Dyson rings, which would be rotating bands arranged in multiple planes around a star. These alternatives avoid the problems of a single rigid [[concepts/structure|structure]] while maintaining the core function of [[concepts/energy-capture|energy capture]].
 
 ## Theoretical Significance
 

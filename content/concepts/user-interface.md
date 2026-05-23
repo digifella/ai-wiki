@@ -1,19 +1,9 @@
 ---
 type: concept
-domain: creative-pursuits
-tags:
-  - "user-interface"
-  - "claude-code"
-  - "beginner-guide"
-  - "ai-tools"
-  - "user-interface-elements"
-  - "graphical-user-experience"
-  - "command-line-basics"
-  - "responsive-design-strategy"
-  - "claude-code-intro"
-updated: 2026-04-14
-group: design-systems-ui-infographics
-summary: "The page provides an introduction to user interface concepts including graphical and command line interfaces, responsive design principles, and beginner-friendly explanations of Claude Code, with additional details on Ol"
+domain: ux-design
+summary: The page provides an introduction to user interface concepts including graphical and command line interfaces, responsive design principles, and beginner-friendly explanations of Claude Code, with additional details on Anthropic's interest in AI infrastructure.
+updated: 2026-05-23
+group: uiux-fundamentals
 ---
 # User Interface
 
@@ -21,22 +11,15 @@ summary: "The page provides an introduction to user interface concepts including
 
 ## Key Concepts
 - **[[concepts/gui-interface|Graphical User Interface]] (GUI):** Visual layout that allows users to interact with electronic devices through graphical icons and visual [[concepts/indicators|indicators]].
-- **[[concepts/cli|Command Line]] Interface (CLI):** Text-based interface where users give [[concepts/commands|commands]] via text for specific tasks like [[concepts/cli-tools|terminal]] or command prompt.
+- **[[concepts/cli|Command Line]] Interface (CLI):** Text-based interface where users give [[concepts/commands|commands]] via [[concepts/text|text]] for specific tasks like [[concepts/cli-tools|terminal]] or command prompt.
 - **Responsive [[concepts/design|Design]]:** UI design that adapts layouts and content based on the screen size of the device.
-- **[[entities/ollama|Ollama]] [[concepts/gui-interface|GUI Interface]]:** A new [[concepts/chat-application|chat application]] for [[concepts/running|running]] [[concepts/large-language-models|large language models (LLMs)]] locally, featuring [[concepts/custom-model-creation|custom model creation]] and interaction capabilities. 2026 04 14 About the new [[entities/ollama|Ollama]] gui interface
+- **[[entities/ollama|Ollama]] [[concepts/gui-interface]]**
 
-## Related Entities
-- [[entities/leon-van-zyl|Leon Van Zyl]] (YouTube channel covering Ollama's new GUI interface)
+## Context and Infrastructure
+The UI serves as the primary mechanism for interacting with complex systems, and the underlying infrastructure dictates the potential of that interaction.
 
-aliases:
-  - "UI Basics"
-  - "[[concepts/user-experience-design|User Experience]] Overview"
-  - "CLI Fundamentals"
-  - "Responsive Design Guide"
-  - "[[concepts/claude-code|Claude Code]] Simplified"
-
-## Source Notes
-- 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
-- 2026-04-07: An Entirely New Way to Work With AI
-- 2026-04-10: New [[entities/claude|Claude Visuals Explained in 4 Minutes]]
-- 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)
+- **The Paradox of Infrastructure:** The focus on UI design often exists alongside massive infrastructural shifts in the AI and software landscape. For example, the evolving state of tools like Jira (an issue tracker) being integrated into [[concepts/computing-architecture|AI infrastructure]] [[concepts/highlights|highlights]] this [[concepts/connection|connection]].
+- **AI Infrastructure Context:**
+    - We see interest in how powerful software systems, such as [[concepts/issue-trackers|issue trackers]], are becoming essential AI infrastructure.
+    - This trend suggests that the efficiency of human interaction (the UI) is increasingly tied to the [[concepts/robustness|robustness]] of the backend systems.
+    - Further reading on this shift can be found in [[lab-notes/2026-05-03-Anthropics-Interest-Atlassian-Issue-Trackers-as-Essentia|Anthropic's Interest: Atlassian Issue Trackers as Essential AI Infrastructure]].

@@ -1,22 +1,9 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "cooking"
-  - "seasoning"
-  - "ingredients"
-  - "culinary-techniques"
-  - "salt-varieties"
-  - "cooking-ingredients"
-  - "seasoning-techniques"
-  - "culinary-ingredients"
-  - "salt-properties"
-aliases:
-  - "types of salt"
-  - "salt varieties"
-summary: "Salt varieties differ by grain size, density, and mineral composition, which influences their use in cooking and seasoning."
-updated: 2026-04-26
-group: food-science-nutrition-ingredients
+summary: Salt varieties differ by grain size, density, and mineral composition, which influences their use in cooking and seasoning.
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Salt types
 
@@ -33,6 +20,5 @@ Salt varieties differ by [[concepts/film-grain|grain]] size, density, and minera
 * **Table Salt**: Fine, uniform crystals; high density; requires precise measurement to prevent over-salting.
 * **Sea Salt**: Produced through evaporation; contains trace minerals; [[concepts/texture|texture]] varies by source.
 * **Flaky Salt**: Large, thin crystals; used primarily as a finishing salt for [[concepts/texture|texture]] and immediate flavor impact.
-
 ## Source Notes
 - 2026-04-26: [[lab-notes/2026-04-26-Mastering-Salt-for-Home-Cooks-Types-Densities-and-Applic|Mastering Salt for Home Cooks: Types, Densities, and Application Techniques]] · [▶ source](https://www.youtube.com/watch?v=yqHvjNDNaKo)

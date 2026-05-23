@@ -1,7 +1,7 @@
 ---
 type: concept
-updated: 2026-04-14
 domain: ai-agents
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 - "machine-[[concepts/learning|learning]] [[concepts/automation|automation]] ai social-media [[concepts/video-content-generation|video-content-generation]]"
@@ -16,7 +16,7 @@ group: ai-foundations-concepts
 
 # Machine Learning
 
-Machine learning is a subfield of [[entities/ai|artificial intelligence]] that focuses on designing algorithms and statistical models which enable computers to perform tasks without explicit [[concepts/instructions|instructions]], instead relying on patterns and [[concepts/inference|inference]]. This includes areas like supervised learning, [[concepts/unsupervised-learning|unsupervised learning]], reinforcement learning, and deep learning.
+Machine learning is a subfield of [[entities/ai|artificial intelligence]] that focuses on designing algorithms and statistical [[concepts/models|models]] which enable computers to perform tasks without explicit [[concepts/instructions|instructions]], instead relying on patterns and [[concepts/inference|inference]]. This includes areas like supervised learning, [[concepts/unsupervised-learning|unsupervised learning]], reinforcement learning, and deep learning.
 
 ### Key Concepts
 - **Supervised Learning:** [[concepts/training|Training]] [[concepts/artificial-intelligence-models|machine learning models]] with labeled data.
@@ -26,11 +26,10 @@ Machine learning is a subfield of [[entities/ai|artificial intelligence]] that f
 
 ### Recent Advances
 - AI-Powered [[concepts/transformer-training|Transformer Training]] on Vintage [[concepts/hardware|Hardware]]: In an unconventional development, researchers have successfully trained [[concepts/transformer-models|transformer models]] on outdated [[concepts/hardware|hardware]], demonstrating the potential for [[concepts/ai-cost-optimization|cost-effective AI]] solutions.
-- AI Expert [[entities/harper|Harper]]: An AI expert with 10 years of experience in AI and [[concepts/machine-learning|machine learning]], [[entities/harper|Harper]] holds two degrees from [[entities/stanford|Stanford]] in Computer Science, focusing on AI. She previously worked at [[entities/meta-ai|Meta]] (formerly Facebook) for four years as a founding engineer, building [[concepts/machine-learning-systems|machine learning systems]], and was acquired by NVIDIA. She now teaches AI and related topics.
+- AI Expert [[entities/harper|Harper]]: An AI expert with 10 years of experience in AI and [[concepts/machine-learning|machine learning]], [[entities/harper|Harper]] holds two degrees from [[entities/stanford|Stanford]] in Computer [[concepts/science|Science]], focusing on AI. She previously worked [[concepts/assistive-technology|at]] [[entities/meta-ai|Meta]] (formerly Facebook) for four years as a founding engineer, building [[concepts/machine-learning-systems|machine learning systems]], and was acquired by [[entities/nvidia|NVIDIA]]. She now teaches AI and related topics.
 
 ### Related Notes
 - 2026 04 14 Ai fundamentals and [[concepts/privacy|privacy]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

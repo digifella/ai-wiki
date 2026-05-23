@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "cognitive-process"
-  - "productivity"
-  - "ai-limitations"
-  - "data-analysis"
-  - "pattern-recognition"
-  - "business-communication"
-aliases:
-  - "extracting actionable conclusions"
-  - "pattern extraction"
-summary: "Insight generation is the cognitive process of uncovering meaningful, actionable conclusions and patterns from raw data or observations."
-updated: 2026-04-18
+summary: Insight generation is the cognitive process of uncovering meaningful, actionable conclusions and patterns from raw data or observations.
+updated: 2026-05-23
 group: multimodal-generative-media
 ---
 # Insight Generation
@@ -20,8 +10,8 @@ group: multimodal-generative-media
 The cognitive process of uncovering meaningful, actionable conclusions and patterns from raw data or observations.
 
 ## Challenges in Automation
-- **The AI Gap**: While [[concepts/consumer-demand-drivers|AI Presentation Tools]] (e.g., Gamma, [[entities/pitch|Pitch]], [[entities/beautifulai|Beautiful.ai]]) are effective for "low-stakes presentations," they fail to address the core difficulty of the Insight Generation phase.
-- **Output vs. Substance**: There is a significant disconnect between [[concepts/ai-powerpoint-generator|automated slide creation]] and the ability to extract deep, critical truths required for high-stakes Business Communication.
+- **The AI Gap**: While [[concepts/consumer-demand-drivers|AI Presentation Tools]] (e.g., [[entities/gamma|Gamma]], [[entities/pitch|Pitch]], [[entities/beautifulai|Beautiful.ai]]) are effective for "low-stakes presentations," they fail to address the core difficulty of the Insight Generation [[concepts/phase|phase]].
+- **[[concepts/output|Output]] vs. Substance**: There is a significant disconnect between [[concepts/ai-powerpoint-generator|automated slide creation]] and the ability to extract deep, critical truths required for high-stakes Business Communication.
 
 ## Related Concepts
 - [[concepts/critical-thinking|Critical Thinking]]
@@ -30,8 +20,7 @@ The cognitive process of uncovering meaningful, actionable conclusions and patte
 - [[concepts/decision-making|Decision Making]]
 
 ## Sources
-- 2026 04 14 Make compelling presentations with Ai [[entities/jeff-su|Jeff Su]]
-
+- 2026 04 14 [[entities/make|Make]] compelling presentations with Ai [[entities/jeff-su|Jeff Su]]
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

@@ -1,16 +1,8 @@
 ---
 type: entity
-tags:
-  - "person"
-  - "computer-vision"
-  - "3d-reconstruction"
-  - "3d-gaussian-splatting"
-  - "lidar"
-  - "arkit"
-  - "point-clouds"
-  - "iphone-pro"
-summary: "Olli Huttunen develops workflows using iPhone Pro LiDAR and ARKit to generate data for 3D Gaussian Splatting models."
-updated: 2026-04-22
+summary: Olli Huttunen develops workflows using iPhone Pro LiDAR and ARKit to generate data for 3D Gaussian Splatting models.
+updated: 2026-05-23
+stub: true
 ---
 # Olli Huttunen
 
@@ -18,11 +10,11 @@ updated: 2026-04-22
 
 ## Technical Workflows
 * **[[concepts/3d-gaussian-splatting]] (3DGS)**: Implements workflows utilizing [[entities/iphone-pro|iPhone Pro]] [[concepts/lidar]] to generate essential data for 3DGS model generation.
-* **ARKit [[concepts/integration|Integration]]**: Investigates converting ARKit-derived spatial data and [[concepts/3d-point-clouds|point clouds]] into formats compatible with 3DGS [[concepts/training|training]] [[concepts/software|software]].
-* **Environmental [[concepts/testing|Testing]]**: Evaluates sensor and data conversion viability under challenging, low-light conditions (e.g., Finland in November).
+* **[[concepts/arkit|ARKit]] [[concepts/integration|Integration]]**: Investigates converting ARKit-derived spatial data and [[concepts/3d-point-clouds|point clouds]] into formats compatible with 3DGS [[concepts/training|training]] [[concepts/software|software]].
+* **Environmental [[concepts/testing|Testing]]**: Evaluates sensor and data conversion viability under challenging, low-[[concepts/light|light]] conditions (e.g., Finland in November).
 * **Reference**: [iPhone LiDAR to 3DGS Workflow Guide](https://www.youtube.com/watch?v=XmQpu1QvK1Q)
 
-- 2026-04-22 [2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities](2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities.md) ← Openai Gpt Image 2.0 Evaluating Next Gen Ai Image Generation Capabilities
-- 2026-04-22 [2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments](2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments.md) ← Photoshop Depth Map Mastering Precise 3D Photo Adjustments
-- 2026-04-21 [2026-04-21-Local-Mistral-LLM-Deployment-on-iPhone-and-iPad](2026-04-21-Local-Mistral-LLM-Deployment-on-iPhone-and-iPad.md) ← Local Mistral Llm Deployment On Iphone And Ipad
+- 2026-04-22 [2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities](2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities.md) ← [[entities/openai|Openai]] [[entities/gpt-image-20|Gpt Image 2.0]] Evaluating Next Gen [[concepts/ai-image-generation|Ai Image Generation]] [[concepts/capabilities|Capabilities]]
+- 2026-04-22 [2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments](2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments.md) ← [[concepts/depth-maps|Photoshop Depth Map]] Mastering Precise [[concepts/3d-photo-adjustments|3D Photo Adjustments]]
+- 2026-04-21 [2026-04-21-Local-Mistral-LLM-Deployment-on-iPhone-and-iPad](2026-04-21-Local-Mistral-LLM-Deployment-on-iPhone-and-iPad.md) ← Local [[entities/mistral|Mistral]] Llm [[concepts/deployment|Deployment]] On Iphone And [[entities/ipad|Ipad]]
 ## Source Notes

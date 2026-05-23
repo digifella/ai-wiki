@@ -1,22 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "large-language-models"
-  - "qwen-architecture"
-  - "prismml"
-  - "bonsai-8b"
-  - "1-bit-llm"
-aliases:
-  - "Qwen 3 Eight B"
-  - "LLM Architecture Qwen"
-  - "Bonsai 8B Model"
-  - "PrismML LLM"
-  - "Compressed LLM"
-summary: "Qwen 3 8B is an architectural framework for large language models designed to reduce computational requirements."
-updated: 2026-04-11
+summary: Qwen 3 8B is an architectural framework for large language models designed to reduce computational requirements.
+updated: 2026-05-23
 group: open-systems-local-models
-title: "Qwen 3 8B"
+title: Qwen 3 8B
 ---
 # Qwen 3 8B
 ## Overview
@@ -34,14 +22,13 @@ title: "Qwen 3 8B"
 - **Author / Channel:** [[entities/bijan-bowen|Bijan Bowen]]
 - **URL:** https://www.youtube.com/watch?v=aNg47-U_x6A
 
-**Summary:**
-- Bonzai 8B, a revolutionary 1-bit large language model (LLM) developed by PrismML.
-- Based on the Qwen 3 8B [[concepts/architecture|architecture]].
+**[[concepts/summary|Summary]]:**
+- Bonzai 8B, a revolutionary 1-bit [[concepts/large-language-model-llm|large language model (LLM)]] developed by PrismML.
+- Based on the [[entities/qwen3|Qwen 3]] 8B [[concepts/architecture|architecture]].
 - Meticulously compressed to an incredibly small footprint without significant loss in intelligence.
-- The first commercially viable 1-bit LLM.
+- The first commercially viable [[concepts/1-bit-llm|1-bit LLM]].
 
 **Backlinks:**
-
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

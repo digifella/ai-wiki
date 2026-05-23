@@ -1,38 +1,20 @@
 ---
 type: entity
-tags:
-  - "meta-artificial-intelligence"
-  - "proprietary-ai"
-  - "large-language-models"
-  - "natural-language-processing"
-  - "strategic-shifts"
-  - "open-source-platforms"
-  - "ai-workflows"
-aliases:
-  - "Meta"
-  - "Meta Platforms"
-  - "Meta Platforms Inc"
-  - "Meta Platforms Inc AI"
-  - "Meta AI Research"
-  - "Muse Spark Development"
-summary: "Meta Platforms Inc. — technology company and its AI division, known for Llama models, Muse Spark, and contributions to open-source AI."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 Ai fundamentals and privacy"
+summary: Meta Platforms Inc. — technology company and its AI division, known for Llama models, Muse Spark, and contributions to open-source AI.
+updated: 2026-05-23
 ---
 # Meta AI
-Meta AI is a division of Meta Platforms [[entities/inc|Inc.]], formerly known as Facebook. The company focuses on research and development in [[concepts/ai-technologies|artificial intelligence]] technologies. In recent years, Meta AI has gained significant [[concepts/attention|attention]] for its [[concepts/large-language-models|large language models]] like [[entities/llama|Llama]] and the more recent [[concepts/ai-model-performance|Muse Spark]].
+[[entities/meta|Meta]] AI is a division of Meta Platforms [[entities/inc|Inc.]], formerly known as Facebook. The company focuses on research and development in [[concepts/ai-technologies|artificial intelligence]] technologies. In recent years, Meta AI has gained significant [[concepts/attention|attention]] for its [[concepts/large-language-models|large language models]] like [[entities/llama|Llama]] and the more recent [[concepts/ai-model-performance|Muse Spark]].
 
 ### Key Models
-- **[[entities/llama-4|Llama 4]]**: A predecessor to Muse Spark that was widely anticipated but ultimately received negative [[concepts/feedback|feedback]] from users due to performance issues.
+- **[[entities/llama-4|Llama 4]]**: A predecessor to [[entities/muse-spark|Muse Spark]] that was widely anticipated but ultimately received negative [[concepts/feedback|feedback]] from users due to performance issues.
 - **Muse Spark**: Released in early [[concepts/date-2026-04-13|2026]], it was formerly known as "[[entities/avocado|Avocado]]." It represents a [[concepts/strategic-shift|strategic shift]] towards [[concepts/proprietary-ai|proprietary AI]] solutions.
 
 ### Strategic Shifts
-Meta's approach to AI has seen notable changes. The company is increasingly focused on developing closed-source models and [[concepts/proprietary-ai|proprietary AI]] solutions.
+Meta's approach to AI has seen notable changes. The company is increasingly focused on developing closed-source [[concepts/models|models]] and [[concepts/proprietary-ai|proprietary AI]] solutions.
 
 ### Notable Personnel
-- **[[entities/harper|Harper]]**: AI expert with 10 years of experience in AI and [[concepts/machine-learning|machine learning]]. Held a position as a founding engineer at Meta for four years, building [[concepts/machine-learning-systems|machine learning systems]] before being acquired by NVIDIA. Currently teaches AI and related topics.
-
+- **[[entities/harper|Harper]]**: AI expert with 10 years of experience in AI and [[concepts/machine-learning|machine learning]]. Held a position as a founding engineer [[concepts/assistive-technology|at]] Meta for four years, building [[concepts/machine-learning-systems|machine learning systems]] before being acquired by [[entities/nvidia|NVIDIA]]. Currently teaches AI and related topics.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-10: [[lab-notes/2026-04-10-LM-Studio-LM-Link-Remote-LLM-Access-for-Portable-Devices|LM Studio LM Link Remote LLM Access for Portable Devices]] · [▶ source](https://www.youtube.com/watch?v=PqBrnip-ZLw)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "concept"
   - "google-gemini"
@@ -11,7 +10,8 @@ tags:
 aliases:
   - "contextual-sync"
 summary: A summary of Google Gemini updates as presented by Rob the Ai guy.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Contextual Workspace Syncing
 
@@ -19,7 +19,7 @@ Contextual Workspace Syncing refers to a set of updates to [[entities/gemini-mod
 
 ## Core Functionality
 
-The feature allows Gemini to synchronize [[concepts/contextual-information|contextual information]]—such as project details, [[concepts/conversation-history|conversation history]], and user preferences—across different workspace applications. This means that when a user moves from one tool to another, Gemini can automatically surface relevant information without requiring manual re-entry or context re-establishment, streamlining workflows that depend on multiple integrated services.
+The feature allows [[entities/gemini-app|Gemini]] to synchronize [[concepts/contextual-information|contextual information]]—such as project details, [[concepts/conversation-history|conversation history]], and user preferences—across different workspace applications. This means that when a user moves from one tool to another, Gemini can automatically surface relevant information without requiring manual re-entry or context re-establishment, streamlining workflows that depend on multiple integrated services.
 
 ## Implementation and Scope
 

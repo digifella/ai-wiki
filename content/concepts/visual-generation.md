@@ -1,23 +1,14 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "generative-ai"
-  - "computer-vision"
-  - "automation"
-  - "neural-networks"
-  - "generative-models"
-  - "image-synthesis"
-aliases:
-  - "visual-synthesis"
-  - "algorithmic-synthesis"
-summary: "The algorithmic synthesis of imagery, video, and other visual media through neural networks and generative models."
-updated: 2026-04-24
+summary: The algorithmic synthesis of imagery, video, and other visual media through neural networks and generative models.
+updated: 2026-05-23
 group: design-systems-ui-infographics
+stub: true
 ---
 # Visual generation
 
-The algorithmic synthesis of imagery, video, and other visual media through [[concepts/neural-networks|neural networks]] and generative models.
+The algorithmic synthesis of imagery, video, and other visual media through [[concepts/neural-networks|neural networks]] and generative [[concepts/models|models]].
 
 ## Recent Developments
 - **[[entities/notebooklm]] Updates (2026-04-14):**
@@ -26,7 +17,6 @@ The algorithmic synthesis of imagery, video, and other visual media through [[co
 
 ## Related
 - [[concepts/date-2026-04-13|2026]] 04 14 [[entities/notebook-lm|Notebook LM]] new features
-
 ## Source Notes
 - 2026-04-08: Google’s NotebookLM Released New Features That Are Insane
 - 2026-04-29: Google Deep Research · [▶ source](https://www.youtube.com/watch?v=FVU4qLjy2jE)

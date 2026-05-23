@@ -9,12 +9,13 @@ tags:
   - "chord-progressions"
 aliases:
   - "Brad Harrison"
-summary: "An educational YouTube channel and resource focused on music theory, specifically harmony and chords."
-updated: 2026-04-27
+summary: An educational YouTube channel and resource focused on music theory, specifically harmony and chords.
+updated: 2026-05-23
+stub: true
 ---
 # Brad Harrison Music
 
-Educational resource and YouTube channel focused on Music [[concepts/theory|Theory]], specifically specializing in [[concepts/musical-harmony|Harmony]] and [[concepts/music-chords]].
+Educational resource and [[entities/youtube|YouTube]] channel focused on Music [[concepts/theory|Theory]], specifically specializing in [[concepts/musical-harmony|Harmony]] and [[concepts/music-chords]].
 
 ## Key Instructional Content
 - **The Complete Guide to Chords In Music**: A foundational guide providing instruction on:
@@ -23,7 +24,6 @@ Educational resource and YouTube channel focused on Music [[concepts/theory|Theo
 	- How Harmony and chord progression add emotional depth to [[concepts/melody]].
 
 ## Related Notes
-- 2026 04 27 [[concepts/music-chords|Music Chords]] Foundations Anatomy Harmony and Scale Relat
-
+- 2026 04 27 [[concepts/music-chords|Music Chords]] Foundations Anatomy [[concepts/musical-harmony|Harmony]] and Scale Relat
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Music-Chords-Foundations-Anatomy-Harmony-and-Scale-Relat|Music Chords: Foundations, Anatomy, Harmony, and Scale Relationships]] · [▶ source](https://www.youtube.com/watch?v=Uyr-GogTrls)

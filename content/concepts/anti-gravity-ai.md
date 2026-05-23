@@ -1,30 +1,13 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "anti-gravity ai"
-  - "data export"
-  - "github sync"
-  - "user experience"
-  - "terms of service"
-  - "anti-gravity-ai"
-  - "project-management"
-  - "user-experience"
-  - "data-security"
-  - "privacy-policies"
-aliases:
-  - "AG"
-  - "AG-AI"
-  - "AGAI"
-  - "Anti Gravity AI"
-  - "anti_gravity_ai"
-summary: "Anti-Gravity AI is an advanced artificial intelligence system designed to enhance human-machine interaction with a focus on personalized user interfaces, efficient project management tools, and robust data security."
-updated: 2026-04-11
+summary: Anti-Gravity AI is an advanced artificial intelligence system designed to enhance human-machine interaction with a focus on personalized user interfaces, efficient project management tools, and robust data security.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Anti-Gravity AI Overview
 
-Anti-Gravity AI is an advanced [[concepts/ai-technologies|artificial intelligence]] designed to enhance human-machine interaction through intuitive and efficient interfaces. It aims at providing a seamless and personalized digital environment for its users.
+[[entities/anti-gravity-ai|Anti-Gravity AI]] is an advanced [[concepts/ai-technologies|artificial intelligence]] designed to enhance human-machine interaction through intuitive and efficient interfaces. It aims [[concepts/assistive-technology|at]] providing a seamless and personalized digital environment for its users.
 
 ### Key Features
 - **Personalized [[concepts/user-interface|User Interface]]**: Customizable interface tailored to individual user preferences.
@@ -43,12 +26,12 @@ Anti-Gravity AI is an advanced [[concepts/ai-technologies|artificial intelligenc
 - user-experience-[[concepts/design|design]]
 
 ## New Note Integration
-- **Clip title:** Antigravity Locked Me Out. Best Thing That Ever Happened.
+- **[[concepts/clip-title|Clip title]]:** Antigravity Locked Me Out. Best Thing That Ever Happened.
 - **Author / channel:** [[entities/eric-michaud|Eric Michaud]]
 - **URL:** https://www.youtube.com/watch?v=x2uJdV00WgI
 
 ### Summary
-This video offers a detailed guide on backing up preferences and projects from [[concepts/agentic-ai|AI agents]], particularly addressing issues encountered by users of [[entities/google-anti-gravity|Google Anti-Gravity]]. The [[entities/speaker|speaker]] notes recent changes in terms of service and the introduction of bugs that have significantly impacted [[concepts/user-experience-design|user experience]], causing prolonged lockouts even for premium users.
+This video offers a detailed guide on backing up preferences and projects from [[concepts/agentic-ai|AI agents]], particularly addressing issues encountered by users of [[entities/google-anti-gravity|Google Anti-Gravity]]. The [[entities/speaker|speaker]] [[concepts/notes|notes]] recent changes in terms of service and the introduction of bugs that have significantly impacted [[concepts/user-experience-design|user experience]], causing prolonged lockouts even for premium users.
 
 ## Backlinks
-2026 04 10 Anti Gravity AI [[concepts/ai-agent-configuration-backup|Agent Data Export]] and [[concepts/ai-agent-data-export|GitHub Sync for Control]]
+2026 04 10 [[entities/anti-gravity-ai|Anti Gravity AI]] [[concepts/ai-agent-configuration-backup|Agent Data Export]] and [[concepts/ai-agent-data-export|GitHub Sync for Control]]

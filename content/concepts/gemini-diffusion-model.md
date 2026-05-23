@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: google-ai-ecosystem
 tags:
   - "diffusion-models"
   - "google-ai"
@@ -11,11 +10,12 @@ tags:
 aliases:
   - "Gemini Diffusion"
 summary: Google has opened access to the Gemini Diffusion experimental model.
-updated: 2026-05-01
+updated: 2026-05-23
+group: google-ai-ecosystem
 ---
 # Gemini Diffusion Model
 
-Gemini Diffusion is an experimental generative model developed by [[concepts/google-search|Google]] that uses diffusion-based [[concepts/architecture|architecture]] for image generation and synthesis tasks. The model represents Google's exploration of diffusion techniques as an alternative to other generative approaches within the [[concepts/gemini|Gemini]] family of AI systems.
+[[entities/gemini-diffusion|Gemini Diffusion]] is an experimental generative model developed by [[concepts/google-search|Google]] that uses diffusion-based [[concepts/architecture|architecture]] for image generation and synthesis tasks. The model represents [[entities/google|Google]]'s exploration of diffusion techniques as an alternative to other generative approaches within the [[concepts/gemini|Gemini]] family of AI systems.
 
 ## Access and Availability
 
@@ -23,7 +23,6 @@ Google opened experimental access to Gemini Diffusion to selected users in mid-2
 
 ## Technical Approach
 
-As a diffusion model, Gemini Diffusion operates through [[concepts/iterative-refinement|iterative refinement]] processes, starting from noise and progressively generating coherent outputs based on input conditions or prompts. This approach differs from transformer-based generative models and offers distinct trade-offs in terms of generation quality, speed, and computational requirements.
-
+As a diffusion model, Gemini Diffusion operates through [[concepts/iterative-refinement|iterative refinement]] processes, starting from noise and progressively generating coherent outputs based on input conditions or prompts. This approach differs from transformer-based generative [[concepts/models|models]] and offers distinct trade-offs in terms of generation quality, [[concepts/speed|speed]], and computational requirements.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)

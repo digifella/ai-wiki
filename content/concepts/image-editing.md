@@ -1,47 +1,30 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "ai"
-  - "image-generation"
-  - "google-ai"
-  - "image-control"
-  - "ai-image-control"
-  - "google-nano-banana"
-  - "json-prompting"
-  - "gemini-model"
-  - "adobe-photoshop"
-  - "neural-filters"
-  - "style-transfer"
-aliases:
-  - "image-manipulation-with-ai"
-  - "nano-banana-pro-update"
-  - "gimme-json-guide"
-summary: "Image Control refers to the precise manipulation of AI-generated and digital images using specialized models, [[concepts/neural-filters|neural filters]], [[concepts/parameters|parameters]], and advanced directing techniques."
-updated: 2026-04-21
+summary: "Image Control refers to the precise manipulation of AI-generated and digital images using specialized models, neural filters, parameters, and advanced directing techniques."
+updated: 2026-05-23
 group: lightroom-color-workflows
-title: "Image Control"
+title: Image Control
 ---
 # Image Control
 
-The precision-driven manipulation of [[concepts/ai-image-generation]] outputs and digital photography through specialized models, [[concepts/parameters|parameters]], and advanced directing techniques.
+The precision-driven manipulation of [[concepts/ai-image-generation]] outputs and digital photography through [[concepts/custom-models|specialized models]], [[concepts/parameters|parameters]], and advanced directing techniques.
 
 ### Recent Developments
-- **Google [[concepts/nano-banana-2|Nano Banana 2]]** (2026-04-07):
-    - Combines the [[concepts/generative-ai|rapid generation]] [[concepts/speed|speed]] of [[entities/nano-banana|Nano Banana]] with the professional-grade capabilities of [[entities/nano-banana-pro|Nano Banana Pro]].
-    - Features advanced control mechanisms and web-based [[concepts/integration|integration]] capabilities.
+- **[[concepts/google-search|Google]] [[concepts/nano-banana-2|Nano Banana 2]]** (2026-04-07):
+    - Combines the [[concepts/generative-ai|rapid generation]] [[concepts/speed|speed]] of [[entities/nano-banana|Nano Banana]] with the professional-grade [[concepts/capabilities|capabilities]] of [[entities/nano-banana-pro|Nano Banana Pro]].
+    - Features advanced [[concepts/power|control]] mechanisms and web-based [[concepts/integration|integration]] capabilities.
 - **[[concepts/json|JSON Prompting]] for [[concepts/gemini|Gemini]]**:
-    - Utilizes JSON format to achieve detailed image control and [[concepts/metadata|metadata]] management in Google's [[entities/gemini|Gemini]] model, providing structured interaction methods.
+    - Utilizes [[concepts/json-format|JSON format]] to achieve detailed image control and [[concepts/metadata|metadata]] management in Google's [[entities/gemini|Gemini]] model, providing structured interaction methods.
 - **[[entities/adobe-photoshop|Adobe Photoshop]] [[concepts/neural-filters|Neural Filters]]** (2026-04-21):
     - Utilizes the "[[concepts/landscape-mixer|Landscape Mixer]]" for style transfer, specifically for transforming elements like seascapes into sunset-[[concepts/style|style]] photography.
-    - Reference: 2026 04 21 Photoshop Neural Filters Seascape Transformation to Sunset Photo Style
+    - Reference: 2026 04 21 [[concepts/photoshop|Photoshop]] [[entities/neural-filter|Neural Filters]] [[concepts/seascape-transformation|Seascape Transformation]] to Sunset Photo Style
 
 ### Related Concepts
 - [[concepts/ai-image-generation]]
 - [[entities/prompt-engineering]]
 - [[concepts/style-transfer|style transfer]]
 - [[concepts/neural-filters]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Total Control: Why I Prompt Gemini with JSON (And Why You

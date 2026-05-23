@@ -2,19 +2,20 @@
 type: entity
 tags:
   - "music"
-  - "artist"
-  - "irish"
-  - "singer"
-  - "irish-singer"
-  - "music-artist"
-  - "wasteland-baby"
-  - "no-plan"
-summary: "The song 'No Plan' from the album *Wasteland, Baby!* is referenced in cosmological research notes."
-updated: 2026-04-21
+  - "cosmology"
+  - "dark-matter"
+  - "wimp-detection"
+  - "pop-culture-reference"
+aliases:
+  - "Hozier (musician)"
+  - "Andrew Hozier-Byrne"
+summary: The song 'No Plan' from the album *Wasteland, Baby!* is referenced in cosmological research notes.
+updated: 2026-05-23
 ---
 # Hozier
 
-- [[entities/katie-mack]] (astrophysicist at [[entities/perimeter-institute]]) references [[concepts/wimp]] detection using the [[entities/saber-detector|Saber detector]] at [[entities/stawell-gold-mine|Stawell gold mine]] (Victoria), collaborating with an Italian detector; [[entities/perimeter-institute|Perimeter Institute]] allows six annual collaborators per researcher, with two fully funded
-- Song "No Plan" (from album *Wasteland, Baby!*) referenced in [[entities/katie-mack]]'s [[concepts/date-2026-04-13|2026]] note on cosmological research
+Hozier is an Irish singer-songwriter known for his folk and indie rock music. His second studio album, *Wasteland, Baby!*, released in 2019, includes the track "No Plan," which has been referenced in academic contexts beyond the music industry.
 
-2026 04 14 [[entities/katie-mack|Katie Mack]]
+## Academic References
+
+The song "No Plan" from *Wasteland, Baby!* appears in cosmological research [[concepts/notes|notes]] by astrophysicist [[entities/katie-mack|Katie Mack]], who works [[concepts/assistive-technology|at]] [[entities/perimeter-institute|Perimeter Institute]]. The reference was documented in Mack's research notes from April 2026 regarding ongoing cosmological research and [[concepts/dark-matter-detection|dark matter detection]] collaborations.

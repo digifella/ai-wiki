@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "evolutionary-adaptation"
@@ -13,7 +12,8 @@ aliases:
   - "Adaptive Evolution"
   - "Biological Adaptation"
 summary: Evolutionary Adaptations are heritable traits that organisms develop over time to increase survival and reproductive success in their environments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Evolutionary Adaptations
 
@@ -26,6 +26,5 @@ Adaptations develop when genetic variations within a population interact with en
 ## Examples Across Species
 
 Different organisms display remarkably diverse adaptations reflecting their ecological niches. Sharks evolved specialized tooth structures and body forms suited to aquatic predation. [[concepts/bumblebees|Bumblebees]] developed advanced cognitive abilities and social behaviors that enable tool use, information sharing between generations, and [[concepts/responses|responses]] to environmental challenges like flooding. Such examples illustrate how adaptation operates across vastly different [[concepts/musical-scales|scales]] and types of organisms.
-
 ## Source Notes
 - 2026-04-07: How Sharks Lost Their Buzzsaws, Anvils, and Spikes

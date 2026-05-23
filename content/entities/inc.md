@@ -7,11 +7,11 @@ tags:
 aliases:
   - "Inc."
 summary: The page contains notes and images related to BT Panorama.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Inc
 
-Inc is referenced in documentation related to BT Panorama, a telecommunications service platform. The available materials consist primarily of visual documentation and notes dated April 23, 2026, which capture aspects of the system's interface or functionality.
+Inc is referenced in documentation related to BT Panorama, a telecommunications service platform. The available materials consist primarily of visual documentation and [[concepts/notes|notes]] dated April 23, 2026, which capture aspects of the system's interface or functionality.
 
 ## Visual Documentation
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: apis-integrations-mcp
 tags:
   - "rag"
   - "knowledge-graphs"
@@ -11,11 +10,12 @@ tags:
 aliases:
   - "RAG knowledge graph platform"
 summary: Graphiti is an open-source platform designed to address the limitations of Retrieval Augmented Generation (RAG) by using knowledge graphs.
-updated: 2026-05-01
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Graphiti
 
-Graphiti is an [[concepts/open-source|open-source]] platform that extends [[concepts/answer-generation|Retrieval Augmented Generation]] (RAG) systems by integrating [[concepts/knowledge-graphs|knowledge graphs]]. [[concepts/traditional-rag|Traditional RAG]] systems retrieve relevant documents or passages to provide context for language models, but Graphiti addresses inherent limitations of this approach by structuring information as interconnected entities and [[concepts/relationships|relationships]] rather than flat document collections. This graph-based [[concepts/architecture|architecture]] enables more sophisticated [[concepts/reasoning|reasoning]] and context retrieval.
+[[entities/graphiti|Graphiti]] is an [[concepts/open-source|open-source]] platform that extends [[concepts/answer-generation|Retrieval Augmented Generation]] (RAG) systems by integrating [[concepts/knowledge-graphs|knowledge graphs]]. [[concepts/traditional-rag|Traditional RAG]] systems retrieve relevant documents or passages to provide context for language [[concepts/models|models]], but Graphiti addresses inherent limitations of this approach by structuring information as interconnected entities and [[concepts/relationships|relationships]] rather than flat document collections. This graph-based [[concepts/architecture|architecture]] enables more sophisticated [[concepts/reasoning|reasoning]] and context retrieval.
 
 ## Architecture and Functionality
 

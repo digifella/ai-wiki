@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-futures-self-improvement
+domain: tools-platforms
 tags:
   - "concept"
   - "evernote"
@@ -12,11 +11,12 @@ aliases:
   - "Evernote Pricing Update"
   - "Evernote Migration Guide"
 summary: This content details user reactions to Evernote's new pricing structure and provides guidance on migrating files from the platform.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Advanced Plan
 
-The Advanced Plan is a [[concepts/pricing|pricing]] tier in Evernote's subscription model, positioned between the platform's free and premium offerings. It provides users with enhanced functionality including advanced search capabilities, increased [[entities/storage|storage]] allocation, and collaborative features designed for users whose needs exceed basic note-taking.
+The [[entities/advanced-plan|Advanced Plan]] is a [[concepts/pricing|pricing]] tier in [[entities/evernote|Evernote]]'s subscription model, positioned between the platform's free and premium offerings. It provides users with enhanced functionality including advanced search [[concepts/capabilities|capabilities]], increased [[entities/storage|storage]] allocation, and collaborative features designed for users whose needs exceed basic note-taking.
 
 ## Pricing and Market Position
 
@@ -24,12 +24,11 @@ The Advanced Plan was introduced as part of Evernote's broader restructuring of 
 
 ## User Reception
 
-The introduction of the Advanced Plan prompted considerable discussion within the Evernote community, with users evaluating whether the feature set justified the pricing. Reactions varied, with some users reconsidering their subscription levels in light of the new tier's positioning and cost.
+The introduction of the Advanced Plan prompted considerable discussion within the Evernote community, with users evaluating whether the feature set justified the pricing. Reactions varied, with some users reconsidering their subscription levels in [[concepts/light|light]] of the new tier's positioning and [[concepts/cost|cost]].
 
 ## Migration Considerations
 
-Following changes to Evernote's [[concepts/pricing-structure|pricing structure]], some users explored alternatives or investigated methods to export their data from the platform. This prompted increased interest in migration tools and guidance for transferring notes and attachments to other note-taking [[concepts/software|applications]].
-
+Following changes to Evernote's [[concepts/pricing-structure|pricing structure]], some users explored alternatives or investigated methods to export their data from the platform. This prompted increased interest in migration tools and guidance for transferring [[concepts/notes|notes]] and attachments to other note-taking [[concepts/software|applications]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-CoWork-Automating-Workflows-with-Local-File-Access-and-AI|Claude CoWork Automating Workflows with Local File Access and AI]] · [▶ source](https://www.youtube.com/watch?v=_ZpZ1cB67_Y)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-Agentic-Workflows-for-Parallel-Processing-and-Multi-Agent-|Claude Code Agentic Workflows for Parallel Processing and Multi Agent ]] · [▶ source](https://www.youtube.com/watch?v=38t5UBCa4OI)

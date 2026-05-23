@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "reusable-rocket"
-  - "space-technology"
-  - "SpaceX"
-  - "satellite-constellations"
-  - "cost-reduction"
-  - "orbital-launch"
-  - "starship-program"
-  - "rocket-recovery"
-aliases:
-  - "Rocket reusability"
-  - "Reusable launch vehicles"
-summary: "Reusable rocket technology reduces orbital launch costs by approximately 90% compared to traditional expendable rockets."
-updated: 2026-04-15
+summary: Reusable rocket technology reduces orbital launch costs by approximately 90% compared to traditional expendable rockets.
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Reusable rocket technology
@@ -27,6 +15,5 @@ Technology enabling rockets to be recovered, refurbished, and reflown, drastical
 - Reduces orbital launch costs by ~90% compared to traditional expendable rockets.
 
 2026 04 14 Starlinks Misunderstood Success Global Impact Connectivity and Societa
-
 ## Source Notes
 - 2026-04-14: [[lab-notes/2026-04-14-Starlinks-Misunderstood-Success-Global-Impact-Connectivity-and-Societa|Starlinks Misunderstood Success Global Impact Connectivity and Societa]] · [▶ source](https://www.youtube.com/watch?v=x0hpdMoEj20)

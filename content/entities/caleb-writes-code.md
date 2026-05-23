@@ -1,25 +1,8 @@
 ---
 type: entity
-tags:
-  - "AI"
-  - "Algorithmic Optimization"
-  - "Caleb Writes Code"
-  - "ai-driven-optimization"
-  - "iterative-learning"
-  - "inventory-management"
-  - "algorithmic-research"
-  - "autoresearch-methodology"
-  - "LLM"
-  - "Inference"
-  - "Performance Optimization"
-  - "Memory Mapping"
-aliases:
-  - "AutoResearch by Caleb"
-  - "Caleb's AI Coding"
-  - "Optimization Through Iteration"
-  - "AI in Inventory Management"
-summary: "The page details an AI-driven approach to algorithmic optimization and technical overviews of LLM inference, memory mapping, and performance optimization."
-updated: 2026-04-22
+summary: The page details an AI-driven approach to algorithmic optimization and technical overviews of LLM inference, memory mapping, and performance optimization.
+updated: 2026-05-23
+stub: true
 ---
 # Caleb Writes Code
 - [[concepts/self-improvement|Auto-research]]: Introduction to AI-driven algorithmic [[concepts/ai-workflow|optimization]] methodology.
@@ -27,28 +10,19 @@ updated: 2026-04-22
   - Demonstrated through a restaurant inventory [[concepts/simulation-technology|simulation]].
 
 ## Clips
-- **Clip title:** [[concepts/autoresearch|AutoResearch]] explained..
-  - **Author / channel:** Caleb Writes Code
+- **[[concepts/clip-title|Clip title]]:** [[concepts/autoresearch|AutoResearch]] explained..
+  - **Author / channel:** Caleb Writes [[concepts/code|Code]]
   - **URL:** https://www.youtube.com/watch?v=5-ekc3eXNvs
-  - **Summary:**
+  - **[[concepts/summary|Summary]]:**
     - Initial naive algorithm fails to keep ingredients stocked, leading to over 50% failed orders.
     - [[concepts/iterative-learning|Iterative learning]] process implemented to improve [[concepts/inventory-management|inventory management]].
   - **Additional Details from New Note:**
-    - Auto-research methodology is introduced as an AI-driven approach for optimizing algorithms.
-    - [[concepts/iterative-learning|Iterative learning]] and [[concepts/defined-metrics|defined metrics]] are key components of the method.
-    - The naive algorithm fails initially but improves through [[concepts/iterative-learning|iterative learning]].
+    - [[concepts/software-algorithms|Auto-research]] methodology is introduced as
 
-- **Clip title:** Why [[concepts/inference|Inference]] is hard..
-  - **Author / channel:** Caleb Writes Code
-  - **URL:** https://www.youtube.com/watch?v=B18zBnjZKmc
+- **Clip title:** World [[concepts/models|Models]] explained in 10min.
+  - **Author / channel:** Caleb Writes [[concepts/software|Code]]
+  - **URL:** https://www.youtube.com/watch?v=ECWC-YlAk1o
   - **Summary:**
-    - Detailed [[concepts/technical-overview|technical overview]] of how LLMs are loaded and run for inference.
-    - Dispels the misconception that LLMs are simple executable [[concepts/files|files]].
-    - Covers [[concepts/memory-mapping|memory mapping]] and performance optimization.
-
-## Backlinks
-- 2026 04 22 [[concepts/llm-inference|LLM Inference Engines]] [[concepts/memory|Memory]] Mapping and [[concepts/software-performance|Performance Optimization]]
-
-## Source Notes
-- 2026-04-08: [[lab-notes/2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni|Auto research AI Driven Algorithmic Optimization with Iterative Learni]] · [▶ source](https://www.youtube.com/watch?v=5-ekc3eXNvs)
-- 2026-04-22: [[lab-notes/2026-04-22-LLM-Inference-Engines-Memory-Mapping-and-Performance-Optimization|LLM Inference: Engines, Memory Mapping, and Performance Optimization]] · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)
+    - Analyzes divergence between [[concepts/human-cognition|human]] and [[concepts/llm]] perception of [[concepts/physical-reality|physical reality]].
+    - Introduces [[concepts/world-models|World Models]] to bridge representation gaps and enhance AI [[concepts/reasoning|reasoning]].
+  - **Reference:** [[lab-notes/2026-05-15-World-Models-Bridging-Human-AI-Understanding-of-Physical|World Models: Bridging Human-AI Understanding of Physical Reality]]

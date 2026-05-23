@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "computing"
-  - "memory-management"
-  - "machine-learning"
-  - "systems-programming"
-  - "memory-mapping"
-  - "operating-systems"
-  - "llm-inference"
-  - "weight-management"
-  - "virtual-address-space"
-  - "performance-optimization"
-aliases:
-  - "memory-mapped-files"
-summary: "A mechanism in operating systems that maps files or hardware devices into a process's virtual address space to allow the CPU to access disk-resident data as if it were in RAM."
-updated: 2026-04-26
+summary: A mechanism in operating systems that maps files or hardware devices into a process's virtual address space to allow the CPU to access disk-resident data as if it were in RAM.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # memory mapping
@@ -31,8 +18,7 @@ A mechanism in operating systems that maps [[concepts/files|files]] or [[concept
     - Facilitates more efficient use of [[concepts/vram]] and system memory during model execution.
 
 ---
-**Backlink**: 2026 04 22 LLM Inference Engines Memory Mapping and Performance Optimization
-
+**Backlink**: 2026 04 22 LLM [[concepts/inference-engines|Inference Engines]] Memory Mapping and Performance Optimization
 ## Source Notes
 
 - 2026-04-22: LLM Inference · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)

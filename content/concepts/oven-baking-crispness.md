@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "baking"
   - "crispness"
@@ -12,7 +11,8 @@ aliases:
   - "crispy baking"
   - "oven crispness"
 summary: The quality and techniques of achieving crispy textures through oven baking methods.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Oven Baking Crispness
 
@@ -26,7 +26,7 @@ The primary factors affecting crispness in oven baking are temperature and moist
 
 Oven baking crispness is widely used for items including bacon, chicken skin, root vegetable chips, and pastries. The method is particularly valued when consistent results across multiple servings are desired, as the oven environment provides more uniform heat [[concepts/distribution|distribution]] than stovetop methods. Baking also offers safety and convenience advantages by requiring less active monitoring than skillet frying and reducing the handling of hot oil.
 
-- 2026-04-13 [2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov](2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov.md) ← Bacon Cooking Techniques Achieving Uniform Crispness With Water And Ov
-- 2026-04-19 [2026-04-19-Crispy-Potatoes-Without-Deep-Frying-Science-and-Techniques-Summary](2026-04-19-Crispy-Potatoes-Without-Deep-Frying-Science-and-Techniques-Summary.md) ← Crispy Potatoes Without Deep Frying Science And Techniques Summary
-- 2026-04-12 [2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro](2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro.md) ← Enhancing Ground Meat Baking Sodas Effect On Texture Juiciness And Bro
+- [[concepts/date-2026-04-13|2026-04-13]] [2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov](2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov.md) ← Bacon [[concepts/cooking-techniques|Cooking Techniques]] Achieving [[concepts/uniform-crispness|Uniform Crispness]] With Water And Ov
+- 2026-04-19 [2026-04-19-Crispy-Potatoes-Without-Deep-Frying-Science-and-Techniques-Summary](2026-04-19-Crispy-Potatoes-Without-Deep-Frying-Science-and-Techniques-Summary.md) ← [[concepts/starch-absorption|Crispy Potatoes Without Deep Frying]] [[concepts/science|Science]] And Techniques [[concepts/summary|Summary]]
+- 2026-04-12 [2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro](2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro.md) ← Enhancing [[concepts/ground-meat|Ground Meat]] Baking Sodas Effect On [[concepts/texture|Texture]] Juiciness And Bro
 ## Source Notes

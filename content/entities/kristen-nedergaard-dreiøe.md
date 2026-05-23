@@ -1,13 +1,7 @@
 ---
 type: entity
-tags:
-  - "archaeology"
-  - "denmark"
-  - "metal-detecting"
-  - "amateur-archaeology"
-  - "artifact-recovery"
-summary: "Kristen Nedergaard Dreiøe is a Danish amateur archaeologist and metal detectorist active in Denmark's government-deputized metal detectorist program."
-updated: 2026-04-21
+summary: Kristen Nedergaard Dreiøe is a Danish amateur archaeologist and metal detectorist active in Denmark's government-deputized metal detectorist program.
+updated: 2026-05-23
 ---
 Kristen Nedergaard Dreiøe is a Danish amateur archaeologist and metal detectorist active in Denmark's government-deputized metal detectorist program, which has significantly advanced archaeological knowledge of the country through public participation.
 
@@ -19,5 +13,5 @@ Key Contributions:
 
 Backlink: [[concepts/date-2026-04-13|2026]] 04 14 Denmark Let Amateurs Dig for TreasureAnd It Paid Off Scientific American
 
-- 2026-04-10 [2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu](2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu.md) ← Mars Science Update Ancient Rainforests Geological Finds Mission Statu
+- 2026-04-10 [2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu](2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu.md) ← Mars [[concepts/science|Science]] Update [[concepts/ancient-rainforests|Ancient Rainforests]] Geological Finds Mission Statu
 ## Source Notes

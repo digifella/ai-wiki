@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "archaeology"
   - "artifact-detection"
@@ -13,11 +12,12 @@ aliases:
   - "metal-detecting"
   - "artifact-hunting"
 summary: The Danish government deputized private metal detectorists to unearth historical artifacts buried in farm fields.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Metal Detectors
 
-Metal detectors are electronic devices that locate metallic objects buried beneath soil and other surfaces. They operate by generating electromagnetic fields that interact with metal materials, producing audible or visual signals when metal is detected. These instruments have [[concepts/software|applications]] across archaeology, security, treasure hunting, and [[concepts/artifact-recovery|artifact recovery]].
+Metal detectors are electronic devices that locate metallic objects buried beneath soil and other surfaces. They operate by generating electromagnetic fields that interact with metal materials, producing audible or visual signals when metal is detected. These instruments have [[concepts/software|applications]] across archaeology, [[concepts/security|security]], treasure hunting, and [[concepts/artifact-recovery|artifact recovery]].
 
 ## Archaeological Use in Denmark
 

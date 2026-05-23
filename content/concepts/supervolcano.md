@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "geology"
-  - "australia"
-  - "volcanology"
-  - "volcanic-explosivity-index"
-  - "caldera-forming-event"
-  - "devonian-era-geology"
-  - "australian-volcanism"
-  - "supervolcano-study"
-aliases:
-  - "Cerberean Supervolcano"
-  - "Melbourne supervolcano"
-  - "Victoria's hidden supervolcano"
-  - "Northeastern Australian caldera"
-summary: "The Cerberean Supervolcano, located northeast of Melbourne, Australia, is a massive volcanic structure from the Devonian era with a collapsed caldera spanning approximately 27 kilometers."
-updated: 2026-04-12
+summary: The Cerberean Supervolcano, located northeast of Melbourne, Australia, is a massive volcanic structure from the Devonian era with a collapsed caldera spanning approximately 27 kilometers.
+updated: 2026-05-23
 group: earth-history-landscapes-tectonics
 ---
 # Supervolcano
@@ -35,6 +21,5 @@ A supervolcano is a volcano capable of producing an eruption of magnitude eight 
   - [Devonian Era](devonian-era)
 
 2026 04 11 Cerberean Supervolcano Discovery [[concepts/geology|Geology]] and [[concepts/explosive-history|Explosive History]] Northea
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea|Cerberean Supervolcano Discovery Geology and Explosive History Northea]] · [▶ source](https://www.youtube.com/watch?v=ek0ASprm3Mw)

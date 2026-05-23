@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "webinar-creation"
@@ -12,15 +11,16 @@ tags:
 aliases:
   - "Transforming NotebookLM Slides to Google Vids"
 summary: A method for converting NotebookLM slides into unwatermarked Google Vids.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Webinar Creation
 
-Webinar creation is a method for producing video presentations by converting [[entities/google-slides|slides]] generated in [[concepts/ai-integrated-notebooks|NotebookLM]] into video format using [[entities/google-vids|Google Vids]], while removing the watermark that typically appears in the output. This approach leverages NotebookLM's slide generation capabilities as a starting point for video production, streamlining the workflow from presentation design to final video output.
+Webinar creation is a method for producing video presentations by converting [[entities/google-slides|slides]] generated in [[concepts/ai-integrated-notebooks|NotebookLM]] into video format using [[entities/google-vids|Google Vids]], while removing the watermark that typically appears in the [[concepts/output|output]]. This approach leverages [[concepts/notebooklm|NotebookLM]]'s slide generation [[concepts/capabilities|capabilities]] as a starting point for video production, streamlining the [[concepts/workflow|workflow]] from presentation [[concepts/design|design]] to final video output.
 
 ## Process Overview
 
-The technique involves exporting slides from NotebookLM and importing them into Google Vids, a [[concepts/video-creation|video creation]] tool that can automatically generate video presentations from [[concepts/slide-decks|slide decks]]. The resulting videos would normally include a watermark identifying them as Google Vids productions. By applying specific techniques, creators can produce unwatermarked versions suitable for professional [[concepts/distribution|distribution]] or publication.
+The technique involves exporting [[concepts/google-slides|slides]] from NotebookLM and importing them into [[concepts/google-vids|Google Vids]], a [[concepts/video-creation|video creation]] tool that can automatically generate video presentations from [[concepts/slide-decks|slide decks]]. The resulting videos would normally include a watermark identifying them as Google Vids productions. By applying specific techniques, creators can produce unwatermarked versions suitable for professional [[concepts/distribution|distribution]] or publication.
 
 ## Applications
 

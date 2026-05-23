@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "collection-management"
   - "archives"
@@ -13,11 +12,12 @@ aliases:
   - "collections management"
   - "archive management systems"
 summary: A concept regarding systems for managing collections, documented with a reference to the University of Melbourne Archives.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Collection Management Systems
 
-Collection Management Systems (CMS) are [[concepts/software|software]] platforms and tools designed to organize, preserve, and provide access to digital and physical collections. These systems serve institutions such as archives, libraries, and museums by enabling staff to [[concepts/catalog|catalog]] items, manage [[concepts/metadata|metadata]], track provenance, and facilitate discovery by researchers and the public. The systems typically provide features for data entry, version control, and integration with other institutional software.
+Collection Management Systems ([[entities/cms-experiment|CMS]]) are [[concepts/software|software]] platforms and tools designed to organize, preserve, and provide access to digital and physical collections. These systems serve institutions such as archives, libraries, and museums by enabling staff to [[concepts/catalog|catalog]] items, manage [[concepts/metadata|metadata]], track provenance, and facilitate discovery by researchers and the public. The systems typically provide features for data entry, version [[concepts/power|control]], and [[concepts/integration|integration]] with other institutional software.
 
 ## Core Functions
 
@@ -25,8 +25,7 @@ A collection management system typically handles the documentation and descripti
 
 ## Implementation
 
-Institutions choose collection management systems based on their specific needs, budget constraints, and technical capacity. Solutions range from specialized [[concepts/open-source|open-source]] platforms to commercial enterprise systems. The [[concepts/digital-repository|University of Melbourne Archives]], for example, uses CMS tools to provide browsable access to digitized collection items. Implementation typically requires staff [[concepts/training|training]] and ongoing maintenance to ensure accurate cataloging and system performance.
-
+Institutions choose collection management systems based on their specific needs, budget constraints, and technical capacity. Solutions [[concepts/range|range]] from specialized [[concepts/open-source|open-source]] platforms to commercial enterprise systems. The [[concepts/digital-repository|University of Melbourne Archives]], for example, uses CMS tools to provide browsable access to digitized collection items. [[concepts/adoption|Implementation]] typically requires staff [[concepts/training|training]] and ongoing maintenance to ensure accurate cataloging and system performance.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and|Open Source AI Agents Revolutionizing Development Workflows and]] · [▶ source](https://www.youtube.com/watch?v=sXVbWkoCVaA)
 - 2026-04-08: [[lab-notes/2026-04-08-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)

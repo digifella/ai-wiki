@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "automated-planning"
-  - "ai-agents"
-  - "langchain"
-  - "langgraph"
-  - "task-decomposition"
-  - "llm-based-planning"
-  - "agentic-workflows"
-aliases:
-  - "LLM-based planning"
-summary: "The process of generating a sequence of actions to achieve a specific goal through task decomposition and environmental modeling."
-updated: 2026-04-17
+summary: The process of generating a sequence of actions to achieve a specific goal through task decomposition and environmental modeling.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Automated planning
@@ -21,17 +11,16 @@ The process of generating a sequence of actions to achieve a specific goal. In t
 
 ## Implementations
 - [[concepts/deep-research-agents|Langchain DeepResearch]]
-    - An [[concepts/open-source|open-source]], highly configurable agent built on the LangGraph framework.
+    - An [[concepts/open-source|open-source]], highly configurable [[entities/agent|agent]] built on the [[concepts/langgraph-framework|LangGraph framework]].
     - Capable of executing complex, multi-constraint planning tasks, such as generating cost-optimized, multi-destination travel itineraries.
 
 ## Related Concepts
 - Search [[concepts/agents|Agents]]
 - [[entities/react|ReAct]] pattern
-- Agentic Workflow
+- Agentic [[concepts/workflow|Workflow]]
 - Goal-Oriented Action Planning (GOAP)
 
-2026 04 14 Langchain DeepResearch
-
+2026 04 14 [[entities/langchain|Langchain]] DeepResearch
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-10: [[lab-notes/2026-04-10-NotebookLM-Deep-Research-to-AI-Generated-Professional-Websites-No-Code|NotebookLM Deep Research to AI Generated Professional Websites No Code]] · [▶ source](https://www.youtube.com/watch?v=-iCBETPQkuo)

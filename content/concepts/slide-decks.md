@@ -1,31 +1,20 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "slide-decks"
-  - "presentation-software"
-  - "video-conversion"
-  - "ai-tools"
-  - "tutorial-guides"
-aliases:
-  - "presentation-slides"
-  - "deck-transformations"
-  - "notebooklm-usage"
-  - "google-videos"
-summary: "A guide on using NotebookLM and Google Vids to convert slide decks into unwatermarked videos for dynamic content creation."
-updated: 2026-04-11
+summary: A guide on using NotebookLM and Google Vids to convert slide decks into unwatermarked videos for dynamic content creation.
+updated: 2026-05-23
 group: design-systems-ui-infographics
-title: "Slide Decks"
+title: Slide Decks
 ---
 # Slide Decks
 
 ## Definition
-A **slide deck** is a collection of [[entities/google-slides|slides]] that are typically used in presentations to convey information or ideas visually.
+A **slide deck** is a collection of [[entities/google-slides|slides]] that are typically used in presentations to convey information or [[concepts/ideas|ideas]] visually.
 
 ## Key Concepts
 - **[[concepts/motivation|Purpose]]**: To present data, explain concepts, and engage with an audience.
-- **Tools**: Various presentation [[concepts/software|software]] like Microsoft PowerPoint, Google Slides, [[entities/canva|Canva]], etc.
-- **Components**: Title slide, body content (text, [[concepts/images|images]], charts), footer with presenter name or company logo.
+- **Tools**: Various presentation [[concepts/software|software]] like [[entities/microsoft|Microsoft]] PowerPoint, [[concepts/google-slides|Google Slides]], [[entities/canva|Canva]], etc.
+- **Components**: Title slide, body content ([[concepts/text|text]], [[concepts/images|images]], charts), footer with presenter name or company logo.
 
 ## Related Concepts
 - [[entities/notebooklm]]
@@ -38,22 +27,21 @@ A **slide deck** is a collection of [[entities/google-slides|slides]] that are t
 - Use [[entities/google-vids|Google Vids]] to convert slides into unwatermarked videos efficiently.
 
 ## New Information (2026-04-08)
-- **Clip title:** How to Turn [[concepts/ai-integrated-notebooks|NotebookLM]] Slides Into Unwatermarked Videos
+- **[[concepts/clip-title|Clip title]]:** How to Turn [[concepts/ai-integrated-notebooks|NotebookLM]] Slides Into Unwatermarked Videos
 - **Author / channel:** Charles Terrence [[entities/harper|Harper]]
 - **URL:** https://www.youtube.com/watch?v=i2cFCqh1HIs
 
 ### Summary
-This video [[concepts/tutorial|tutorial]] focuses on leveraging Google's [[concepts/ai-tools|AI tools]], primarily [[concepts/notebooklm|NotebookLM]] and [[concepts/google-vids|Google Vids]], to efficiently repurpose existing coaching intellectual property, particularly slide decks, into various [[concepts/video-creation|video formats]]. The main topic revolves around transforming static content into dynamic, engaging video assets for purposes like [[concepts/infographic|infographics]].
+This video [[concepts/tutorial|tutorial]] focuses on leveraging [[concepts/google-search|Google]]'s [[concepts/ai-tools|AI tools]], primarily [[concepts/notebooklm|NotebookLM]] and [[concepts/google-vids|Google Vids]], to efficiently repurpose existing coaching [[concepts/intellectual-property-rights|intellectual property]], particularly slide decks, into various [[concepts/video-creation|video formats]]. The main topic revolves around transforming static content into dynamic, engaging video assets for purposes like [[concepts/infographic|infographics]].
 
 ## Backlinks
-- 2026 04 10 Transforming NotebookLM Slides to Unwatermarked Google Vids
+- 2026 04 10 Transforming [[entities/notebook-lm|NotebookLM]] [[concepts/google-slides|Slides]] to Unwatermarked [[entities/google-vids|Google Vids]]
 
 ---
 
 **Type:** concept
 **Tags:** slide-decks, [[concepts/presentation-tool|presentation-tools]], [[concepts/ai-integration|ai-integration]]
 **Updated:** 2026-04-08
-
 ## Source Notes
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]
 - 2026-04-07: [[lab-notes/2026-04-07-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi|Google NotebookLM Customizing Design for Professional Presentations vi]] · [▶ source](https://www.youtube.com/watch?v=hqquu7H7X0w)

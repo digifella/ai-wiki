@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: animals-cognition-behaviour
 tags:
   - "platypus"
   - "monotremes"
@@ -12,7 +11,8 @@ aliases:
   - "monotreme"
   - "platypus"
 summary: Recent discoveries provide new information regarding the biology, evolution, and traits of the platypus.
-updated: 2026-05-01
+updated: 2026-05-23
+group: animals-cognition-behaviour
 ---
 # Egg Laying Mammal
 
@@ -24,4 +24,4 @@ The platypus possesses a remarkable array of primitive and specialized features.
 
 ## Evolutionary Significance
 
-Monotremes provide crucial insights into early [[concepts/mammalian-evolution|mammalian evolution]]. Their genome contains unusual combinations of reptilian and mammalian genetic traits, including genes for both egg-laying and lactation. The presence of ten sex chromosomes—compared to the typical two found in other mammals—further highlights their evolutionary distinctiveness. Study of monotremes helps scientists understand how key mammalian features such as milk production evolved from reptilian precursors.
+Monotremes provide crucial insights into early [[concepts/mammalian-evolution|mammalian evolution]]. Their genome contains unusual combinations of reptilian and mammalian genetic traits, including genes for both egg-laying and lactation. The presence of ten sex chromosomes—compared to the typical two found in other mammals—further [[concepts/highlights|highlights]] their evolutionary distinctiveness. Study of monotremes helps scientists understand how key mammalian features such as milk production evolved from reptilian precursors.

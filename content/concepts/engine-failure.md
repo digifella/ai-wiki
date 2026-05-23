@@ -1,20 +1,9 @@
 ---
 type: concept
-domain: business-strategy
-tags:
-  - "engineering"
-  - "automotive"
-  - "failure-modes"
-  - "mechanics"
-  - "lubrication-failure"
-  - "oil-pressure-loss"
-  - "internal-combustion-engine"
-aliases:
-  - "mechanical failure"
-  - "lubrication failure"
-summary: "Engine failure is the cessation of normal operation in an engine, typically resulting from mechanical, thermal, or fluid-dynamic breakdown."
-updated: 2026-04-26
-group: enterprise-strategy-future-work
+domain: science-physics
+summary: Engine failure is the cessation of normal operation in an engine, typically resulting from mechanical, thermal, or fluid-dynamic breakdown.
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Engine failure
 
@@ -31,6 +20,5 @@ The cessation of normal operation in an engine, typically resulting from mechani
 
 ## Related Documentation
 * 2026 04 23 Engine Survival The Critical Role of [[concepts/oil-pressure|Oil Pressure]] and Warning Lights
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

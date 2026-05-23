@@ -9,13 +9,13 @@ tags:
   - "transcription"
 aliases:
   - "transcript"
-summary: "A text transcript is a written or printed version of spoken language, typically derived from audio or video recordings."
-updated: 2026-04-28
-group: developer-tooling-clis
+summary: A text transcript is a written or printed version of spoken language, typically derived from audio or video recordings.
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Text Transcript
 
-A text transcript is a written or printed version of spoken language, typically derived from audio or video recordings.
+A [[concepts/text|text]] transcript is a written or printed version of spoken language, typically derived from [[concepts/audio-modality|audio]] or video recordings.
 
 ## Related Concepts
 - [[entities/notebooklm]]
@@ -27,4 +27,4 @@ A text transcript is a written or printed version of spoken language, typically 
 - Download the audio file, then upload it back to [[concepts/ai-integrated-notebooks|NotebookLM]] as a new source to generate a text transcript.
 
 ## Backlinks
-- 2026 04 14 Change voice from [[concepts/notebooklm|NotebookLM]] using elevlabs
+- 2026 04 14 Change [[concepts/tone|voice]] from [[concepts/notebooklm|NotebookLM]] using elevlabs

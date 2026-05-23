@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: apis-integrations-mcp
 tags:
   - "concept"
   - "usb-c"
@@ -11,11 +10,12 @@ tags:
 aliases:
   - "usb-c anatomy"
 summary: The page discusses the complexities and various standards of USB-C cables.
-updated: 2026-05-01
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Connector Anatomy
 
-USB-C has become the standard connector for modern electronics, yet the cables themselves vary significantly in their capabilities and specifications. Despite a unified physical shape, [[concepts/usb-20|USB-C cables]] can differ substantially in power delivery capacity, data transfer speeds, and overall build quality. This variation stems from the complexity of the USB-C standard itself, which encompasses multiple protocols and power levels, allowing manufacturers considerable flexibility in how they implement the specification.
+[[entities/usb-c-port|USB-C]] has become the standard connector for modern electronics, yet the cables themselves vary significantly in their [[concepts/capabilities|capabilities]] and specifications. Despite a unified physical shape, [[concepts/usb-20|USB-C cables]] can differ substantially in [[concepts/power|power]] delivery capacity, data transfer speeds, and overall build quality. This variation stems from the complexity of the USB-C standard itself, which encompasses multiple protocols and power levels, allowing manufacturers considerable flexibility in how they implement the specification.
 
 ## Standards and Specifications
 
@@ -23,4 +23,4 @@ The confusion surrounding USB-C cables arises from the gap between the physical 
 
 ## Practical Implications
 
-Consumers often face challenges identifying what a cable can actually do based on its appearance alone. A poorly manufactured cable may have the correct connector but fail to meet [[concepts/product-safety|safety standards]] or deliver promised power and data rates. This has led to quality concerns, particularly with third-party manufacturers, and has prompted standards organizations to develop certification [[concepts/software|programs]] to help users identify reliable cables. Understanding the specifications required for your specific device is essential for safe and effective use.
+Consumers often face challenges identifying what a cable can actually do based on its appearance alone. A poorly manufactured cable may have the correct connector but fail to meet [[concepts/product-safety|safety standards]] or deliver promised power and data rates. This has led to quality concerns, particularly with third-party manufacturers, and has prompted [[concepts/open-standards|standards]] organizations to develop certification [[concepts/software|programs]] to help users identify reliable cables. Understanding the specifications required for your specific device is essential for safe and effective use.

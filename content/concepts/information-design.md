@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "concept"
   - "information-design"
@@ -14,20 +13,20 @@ aliases:
   - "visual information design"
   - "information visualization"
 summary: The practice of transforming information into engaging visual formats, exemplified by converting NotebookLM mind maps into interactive visuals using Google Gemini.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 ---
 # Information Design
 
-[[concepts/information-architecture|Information design]] is the practice of organizing and presenting data, concepts, and knowledge in visual formats that are both comprehensible and engaging to users. Rather than presenting raw information as text alone, information designers apply principles of [[concepts/hierarchy|visual hierarchy]], [[concepts/typography|typography]], layout, and color to make complex ideas accessible and memorable. The discipline bridges communication, design, and cognitive science, recognizing that how information is presented significantly affects how well it is understood and retained.
+[[concepts/information-architecture|Information design]] is the practice of organizing and presenting data, concepts, and knowledge in visual formats that are both comprehensible and engaging to users. Rather than presenting raw information as [[concepts/text|text]] alone, information designers apply principles of [[concepts/hierarchy|visual hierarchy]], [[concepts/typography|typography]], layout, and color to [[entities/make|make]] complex [[concepts/ideas|ideas]] accessible and memorable. The discipline bridges communication, [[concepts/design|design]], and cognitive [[concepts/science|science]], recognizing that how information is presented significantly affects how well it is understood and retained.
 
 ## Core Principles
 
-Effective information design relies on several foundational concepts. Visual hierarchy guides viewers through content by establishing what is most important through size, color, and positioning. Grid systems provide structural [[concepts/organization|organization]] and [[concepts/logical-consistency|consistency]] across layouts. Typography choices affect both readability and the tone of communication. [[concepts/affordances|Affordances]]—visual cues that suggest how elements should be used—help users navigate information intuitively without extensive instruction.
+Effective information design relies on several foundational concepts. [[concepts/visual-hierarchy|Visual hierarchy]] guides viewers through content by establishing what is most important through size, color, and positioning. Grid systems provide structural [[concepts/organization|organization]] and [[concepts/logical-consistency|consistency]] across layouts. Typography choices affect both readability and the [[concepts/tone|tone]] of communication. [[concepts/affordances|Affordances]]—visual cues that suggest how elements should be used—help users navigate information intuitively without extensive instruction.
 
 ## Contemporary Applications
 
-Modern information design increasingly leverages [[entities/ai-tools|AI tools]] to accelerate the transformation process. Tools like [[concepts/ai-integrated-notebooks|NotebookLM]] generate structured [[concepts/mind-maps|mind maps]] from source materials, which can then be converted into interactive visual formats using platforms such as [[entities/gemini-models|Google Gemini]]. This workflow enables rapid creation of professional visual documentation, educational materials, and website structures without requiring extensive manual design or [[concepts/coding|coding]]. The combination of AI-generated [[concepts/structure|structure]] and [[concepts/human-ai-collaboration|AI-assisted design]] makes sophisticated information visualization accessible to non-specialists.
-
+Modern information design increasingly leverages [[entities/ai-tools|AI tools]] to accelerate the transformation process. Tools like [[concepts/ai-integrated-notebooks|NotebookLM]] generate structured [[concepts/mind-maps|mind maps]] from source materials, which can then be converted into interactive visual formats using platforms such as [[entities/gemini-models|Google Gemini]]. This [[concepts/workflow|workflow]] enables rapid creation of professional visual documentation, educational materials, and website structures without requiring extensive manual design or [[concepts/coding|coding]]. The combination of AI-generated [[concepts/structure|structure]] and [[concepts/human-ai-collaboration|AI-assisted design]] makes sophisticated [[concepts/information-visualization|information visualization]] accessible to non-specialists.
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-10: [[lab-notes/2026-04-10-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids|Fundamental UIUX Design Concepts Affordances Hierarchy Grids]] · [▶ source](https://www.youtube.com/watch?v=EcbgbKtOELY)

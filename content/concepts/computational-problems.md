@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "computational-complexity"
   - "algorithmic-problems"
@@ -12,11 +11,12 @@ aliases:
   - "Computational Complexity Problems"
   - "Algorithm Problems"
 summary: Problems defined by their computational requirements and algorithmic solvability, often classified by complexity class and resource constraints.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Computational Problems
 
-Computational problems are mathematical or logical questions defined by their input specifications and desired output, along with the resources required to find a [[concepts/solution|solution]]. These problems form the foundation of [[concepts/theoretical-computer-science|theoretical computer science]] and [[concepts/cryptography|cryptography]], where understanding what can and cannot be computed efficiently determines the feasibility of both algorithms and cryptographic systems. A computational problem is typically considered solved when an algorithm exists that produces the correct answer, though the practical utility of that solution depends heavily on how many computational steps it requires.
+Computational problems are mathematical or logical questions defined by their input specifications and desired [[concepts/output|output]], along with the resources required to find a [[concepts/solution|solution]]. These problems form the foundation of [[concepts/theoretical-computer-science|theoretical computer science]] and [[concepts/cryptography|cryptography]], where understanding what can and cannot be computed efficiently determines the feasibility of both algorithms and cryptographic systems. A computational problem is typically considered solved when an algorithm exists that produces the correct answer, though the practical utility of that solution depends heavily on how many computational steps it requires.
 
 ## Complexity Classification
 
@@ -24,8 +24,7 @@ Computational problems are formally classified into [[concepts/complexity-classe
 
 ## Cryptographic Relevance
 
-In cryptography, computational problems are leveraged to create security. [[concepts/public-key-cryptography|Asymmetric cryptography]] typically relies on problems that are easy to verify but computationally hard to solve—such as integer factorization or the discrete logarithm problem. The security of these systems depends on the assumption that no efficient algorithm exists (or is known) to solve the underlying problem. As computational power and algorithmic techniques advance, previously hard problems may become tractable, necessitating migration to new cryptographic schemes based on problems believed to remain hard, such as lattice-based or post-quantum cryptographic problems.
-
+In cryptography, computational problems are leveraged to create [[concepts/security|security]]. [[concepts/public-key-cryptography|Asymmetric cryptography]] typically relies on problems that are easy to verify but computationally hard to solve—such as integer factorization or the discrete logarithm problem. The security of these systems depends on the assumption that no efficient algorithm exists (or is known) to solve the underlying problem. As computational [[concepts/power|power]] and algorithmic techniques advance, previously hard problems may become tractable, necessitating migration to new cryptographic schemes based on problems believed to remain hard, such as lattice-based or post-quantum cryptographic problems.
 ## Source Notes
 - 2026-04-24: OpenAI GPT-5 · [▶ source](https://www.youtube.com/watch?v=tNV9_I-zLO0)
 - 2026-04-30: Quantum Computing · [▶ source](https://www.youtube.com/watch?v=IhS6ecYZFdQ)

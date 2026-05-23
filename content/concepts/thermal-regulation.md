@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "thermal-regulation"
-  - "underground-living"
-  - "Coober-Pedy"
-  - "desert-climate"
-  - "thermal-regulation-methods"
-  - "environmental-design-strategies"
-  - "seasonal-adaptation"
-  - "underground-living-benefits"
-  - "desert-climate-survival"
-aliases:
-  - "Temperature Control"
-  - "Thermal Management"
-  - "Environmental Comfort Systems"
-  - "Subterranean Living"
-summary: "Coober Pedy, an Australian town, exemplifies thermal regulation by building homes underground to withstand extreme desert climates."
-updated: 2026-04-12
+summary: Coober Pedy, an Australian town, exemplifies thermal regulation by building homes underground to withstand extreme desert climates.
+updated: 2026-05-23
 group: safety-guardrails-governance
 ---
 # Thermal Regulation
@@ -41,7 +26,7 @@ Thermal [[concepts/regulation|regulation]] refers to the methods organisms and m
   **URL:** https://www.youtube.com/watch?v=MCXnKgSr1N0
 
 ### Summary:
-Videoen præsenterer den usædvanlige by [[entities/coober-pedy|Coober Pedy]] i den sydlige australske [[concepts/australian-outback|outback]], hvor beboerne bygger deres hjem ved at udhule direkte i jorden frem for at opføre dem over jorden. Fra overfladen ser området ud som en flad, tom ørken, men under jorden findes en hel by med stuer, soveværelser og køkkener – alt, hvad man finder nødvendigt i et normalt bo.
+Videoen præsenterer den usædvanlige by [[entities/coober-pedy|Coober Pedy]] i den sydlige australske [[concepts/australian-outback|outback]], hvor beboerne bygger deres hjem ved [[concepts/assistive-technology|at]] udhule direkte i jorden frem for [[concepts/assistive-technology|at]] opføre dem over jorden. Fra overfladen ser området ud som en flad, tom ørken, men under jorden findes en hel by med stuer, soveværelser og køkkener – alt, hvad man finder nødvendigt i et normalt bo.
 
 ### Key Points
 - **Thermal Stability:** Underground living provides natural insulation against extreme desert temperatures.
@@ -50,9 +35,8 @@ Videoen præsenterer den usædvanlige by [[entities/coober-pedy|Coober Pedy]] i 
 
 ### Related Concepts
 - [[concepts/underground-living]]
-- desert-climate
+- [[concepts/arid-climate|desert-climate]]
 
 2026 04 11 [[entities/coober-pedy|Coober Pedy]] Underjordiske hjem mod ørkenens varme
-
 ## Source Notes
 - 2026-04-11: An Entire Town Built Beneath the Australian Desert

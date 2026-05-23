@@ -10,9 +10,10 @@ tags:
   - "advanced-engineering"
 aliases:
   - "large-scale engineering projects"
-summary: "Megastructures are large-scale, highly advanced engineering projects that may be detectable through mathematical patterns in transcendental numbers."
-updated: 2026-04-27
+summary: Megastructures are large-scale, highly advanced engineering projects that may be detectable through mathematical patterns in transcendental numbers.
+updated: 2026-05-23
 group: physics-fundamental-theory
+stub: true
 ---
 # megastructures
 
@@ -23,6 +24,5 @@ Large-scale, highly advanced engineering projects.
 - The [[concepts/base-11-representation|base 11 representation]] of $\pi$ contains a sequence of ones and zeros that, when properly aligned, produces a visual message regarding their existence.
 
 2026 04 13 Patterns in pi in [[entities/contact|Contact]]
-
 ## Source Notes
 - 2026-04-13: A Very Interesting Story of Revelation in Carl Sagan's Science Fiction Novel, Contact. #shorts

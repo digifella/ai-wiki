@@ -1,19 +1,7 @@
 ---
 type: entity
-tags:
-  - "AI"
-  - "Research"
-  - "AGI"
-  - "Vision-Models"
-  - "agi-architectures"
-  - "vision-based-reasoning"
-  - "post-llm"
-  - "vl-jepa"
-  - "ai-research"
-aliases:
-  - "Aigrid"
-summary: "An entity focused on exploring AGI architectures that transition from LLM-centric paradigms toward vision-based reasoning."
-updated: 2026-04-22
+summary: An entity focused on exploring AGI architectures that transition from LLM-centric paradigms toward vision-based reasoning.
+updated: 2026-05-23
 ---
 # the AIGRID
 
@@ -24,10 +12,9 @@ An entity focused on the exploration of [[concepts/artificial-general-intelligen
     - Analysis of [[entities/meta-ai|Meta]] FAIR Lab research led by [[entities/yann-lecun|Yann LeCun]].
     - Examines the architectural departure from [[concepts/generative-ai]] and current [[concepts/llm]] hype.
     - Central Thesis: "Language is not Intelligence."
-    - Evaluation of emerging non-[[concepts/llm-reasoning|LLM reasoning]] architectures and vision-based approaches to AGI.
+    - Evaluation of emerging non-[[concepts/llm-reasoning|LLM reasoning]] architectures and vision-based approaches to [[concepts/agi|AGI]].
 
 ---
 **Backlinks**:
 - 2026 04 14 New paper for a vision approach to AGI not LLM
-
 ## Source Notes

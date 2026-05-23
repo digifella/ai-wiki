@@ -1,39 +1,24 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "astronomy"
-  - "cosmology"
-  - "big-bang-theory"
-  - "JWST"
-  - "population-iii-stars"
-updated: 2026-04-14
+updated: 2026-05-23
 group: cosmology-astronomy-astrophysics
 ---
-# Big Bang
+# Frozen Big Bang
 
-The Big Bang is a [[concepts/theory|scientific theory]] that describes the origin and early development of our universe. It suggests that around 13.8 billion years ago, all matter in existence was concentrated into an incredibly small point called a singularity. From this moment, the universe rapidly expanded, causing temperatures to drop and allowing particles to form.
+The "Frozen Big Bang" hypothesis posits that the center of a [[concepts/black-hole|black hole]] may not be a destructive singularity but rather a localized, static region resembling the state of the [[concepts/early-universe|early universe]], potentially resolving conflicts between general relativity and quantum mechanics. This concept recontextualizes the [[concepts/big-bang-theory|Big Bang]] not just as a cosmic origin event, but as a structural feature within [[concepts/black-holes|black hole]] interiors.
 
 ## Key Concepts
-- **Singularity**: The initial state of the universe where density and temperature were infinite.
-- **[[concepts/cosmic-microwave-background|Cosmic Microwave Background]] (CMB)**: Radiation left over from an early stage in the universe's history, providing critical evidence for the Big Bang model.
-- **Expansion of the Universe**: Observations showing that distant galaxies are moving away from us at speeds proportional to their distance.
+- **Singularity**: Traditionally defined as a point of infinite density where general relativity breaks down. In the "Frozen Big Bang" model, this is replaced by a finite-density core.
+- **[[concepts/cosmic-microwave-background|Cosmic Microwave Background]] (CMB)**: Radiation left over from an early stage in the universe's history, providing critical evidence for the standard Big Bang model.
+- **Expansion of the Universe**: Observations showing that distant galaxies are moving away from us [[concepts/assistive-technology|at]] speeds proportional to their distance.
 
 ## Recent Discoveries
-- In 2026, the [[concepts/jwst|James Webb Space Telescope]] ([[entities/jwst|JWST]]) detected compelling evidence for [[concepts/first-generation-of-stars|Population III stars]] in the galaxy [[entities/gn-z11|GN-z11]]. These primordial stars were formed during the universe's earliest stages and are theorized to have been composed entirely of hydrogen and helium.
-  - 2026 04 12 JWST Detects Evidence of Universe s [[concepts/primordial-stars|Primordial Population III]] Stars in GN z11
-  - Possible Discovery of First Ever Stars in the Universe
-    - Compelling evidence for Population III stars detected by JWST.
-    - These primordial stars are thought to be composed entirely of hydrogen and helium, representing foundational building blocks that began shaping the cosmos.
+- In 2026, the [[concepts/jwst|James Webb Space Telescope]] ([[entities/jwst|JWST]]) detected compelling evidence for [[concepts/first-generation-of-stars|Population III stars]] in the galaxy [[entities/gn-z11|GN-z11]]. These [[concepts/primordial-stars|primordial stars]] were formed during the universe's earliest stages and are theorized to have been composed entirely of hydrogen and helium.
+  - 2026 04 12 JWST Detects Evidence of Universe s p
 
-## Related Concepts
-- [[concepts/cosmology|cosmology]]
-- [[concepts/astronomy|astronomy]]
-- [[entities/jwst|JWST]]
-- [[concepts/population-iii-stars]]
-
-2026 04 12 JWST Detects Evidence of Universe s Primordial Population III Stars in GN z11
-
-## Source Notes
-- 2026-04-12: Possible Discovery of First Ever Stars in the Universe
-- 2026-04-14: [[lab-notes/2026-04-14-Gravitational-Wave-Detection-of-Sub-Solar-Mass-Object-Primordial-Black|Gravitational Wave Detection of Sub Solar Mass Object Primordial Black]] · [▶ source](https://www.youtube.com/watch?v=EK9wGYuGfYo)
+## Theoretical Developments: Frozen Big Bang & Quantum Gravity
+- **Black Hole Interior Structure**: Research suggests that instead of collapsing into a point of infinite density, matter within a [[concepts/black-hole|black hole]] may halt at a finite radius, creating a "frozen" state similar to the conditions of the early universe shortly after the [[concepts/big-bang-theory|Big Bang]].
+- **[[concepts/quantum-gravity|Quantum Gravity]]]] Solutions**: This model offers a potential pathway to reconcile [[concepts/general-relativity|General Relativity]] with [[concepts/quantum-mechanics|Quantum Mechanics]], avoiding the infinities that plague classical singularity theories.
+- **Event Horizon Dynamics**: The [[concepts/theory|theory]] addresses enduring challenges regarding information [[concepts/preservation|preservation]] and the [[entities/nature|nature]] of [[concepts/event-horizon|event horizons]], suggesting that the interior geometry may remain static and non-singular.
+- See [[lab-notes/2026-05-22-Black-Hole-Singularities-Frozen-Big-Bang-and-Quantum-Gra|Black Hole Singularities: Frozen Big Bang and Quantum Gravity Solutions]] for detailed analysis of [[entities/pbs-space-time|PBS Space Time]]'s exploration of these concepts.

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "open-source"
   - "philosophy"
@@ -13,12 +12,13 @@ aliases:
   - "open-source philosophy"
   - "philosophy of open-source"
 summary: A concept relating open-source principles to philosophy.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 title: open-source philosophy
 ---
 # Open Source Philosophy
 
-Open Source Philosophy refers to the application of [[concepts/open-source|open-source]] [[concepts/software|software]] principles to philosophical inquiry and practice. Drawing from the collaborative, transparent, and freely-shared ethos of open-source [[concepts/coding|software development]], this approach emphasizes making philosophical work, arguments, and ideas publicly accessible for critique, modification, and collective improvement. Rather than treating philosophical knowledge as proprietary or the domain of credentialed experts alone, open source philosophy advocates for distributed participation in intellectual discourse.
+Open Source [[concepts/philosophy|Philosophy]] refers to the application of [[concepts/open-source|open-source]] [[concepts/software|software]] principles to philosophical inquiry and practice. Drawing from the collaborative, transparent, and freely-shared ethos of open-source [[concepts/coding|software development]], this approach emphasizes making philosophical work, arguments, and [[concepts/ideas|ideas]] publicly accessible for critique, modification, and collective improvement. Rather than treating philosophical knowledge as proprietary or the domain of credentialed experts alone, open source philosophy advocates for distributed participation in intellectual discourse.
 
 ## Core Principles
 
@@ -26,7 +26,6 @@ The framework adopts several defining characteristics from open-source methodolo
 
 ## Practical Applications
 
-Open source philosophy manifests in various contemporary practices, including publicly maintained philosophical wikis and collaborative [[concepts/writing-projects|writing projects]], academic repositories that make research freely available, and online forums where thinkers from diverse backgrounds contribute to solving conceptual problems. Some philosophical communities have adopted version control systems originally designed for software to track how arguments evolve, enabling full visibility into intellectual development and making it easy to attribute contributions.
-
+Open source philosophy manifests in various contemporary practices, including publicly maintained philosophical wikis and collaborative [[concepts/writing-projects|writing projects]], academic repositories that [[entities/make|make]] research freely available, and online forums where thinkers from diverse backgrounds contribute to solving conceptual problems. Some philosophical communities have adopted version [[concepts/power|control]] systems originally designed for software to track how arguments evolve, enabling full visibility into intellectual development and making it easy to attribute contributions.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)

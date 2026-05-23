@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: space-systems-exploration-infrastructure
 tags:
   - "nasa-lunar-program"
   - "artemis-3"
@@ -12,20 +11,20 @@ aliases:
   - "NASA Artemis"
   - "Artemis Lunar Program"
 summary: NASA's program to return humans to the Moon, currently facing challenges with the Human Landing System and Space Launch System ahead of planned Artemis III mission.
-updated: 2026-05-01
+updated: 2026-05-23
+group: space-systems-exploration-infrastructure
 ---
 # Artemis Program
 
-The Artemis Program is NASA's initiative to return humans to the Moon and establish sustained [[concepts/lunar-exploration|lunar exploration]]. Named after the twin sister of Apollo in [[concepts/greek-mythology|Greek mythology]], the program builds on the legacy of the Apollo missions while incorporating modern technology and scientific objectives. A central focus of Artemis is the lunar south polar region, where water ice deposits offer potential resources for future exploration and habitation. The program is positioned as a stepping stone toward eventual human missions to Mars and broader deep [[concepts/space-exploration|space exploration]] capabilities.
+The Artemis Program is [[concepts/nasa|NASA]]'s initiative to return humans to the Moon and establish sustained [[concepts/lunar-exploration|lunar exploration]]. Named after the twin sister of Apollo in [[concepts/greek-mythology|Greek mythology]], the program represents a continuation of lunar [[concepts/science|science]] and exploration that began with the Apollo missions of the 1960s and 1970s. Artemis aims to land astronauts on the lunar surface, with particular emphasis on the south polar region where water ice deposits have been detected. These resources could support both scientific research and long-term human presence on the Moon.
 
 ## Mission Architecture
 
-Artemis missions utilize two primary systems: the Space Launch System (SLS), a heavy-lift launch vehicle, and the [[entities/orion|Orion spacecraft]], which carries astronauts to lunar orbit. The [[concepts/human-landing-system|Human Landing System]] (HLS) is responsible for transporting crews from orbit to the lunar surface. Artemis I, an uncrewed test flight, launched in November 2022 and successfully completed a [[concepts/lunar-flyby|lunar flyby]] mission. [[entities/artemis-ii|Artemis II]] is planned as a crewed lunar flyby test, with Artemis III aiming to land astronauts on the Moon's south polar region.
+The program relies on two primary systems currently in development: the Space Launch System (SLS), a heavy-lift launch vehicle, and the [[concepts/human-landing-system|Human Landing System]] (HLS), which [[entities/will|will]] transport astronauts from lunar orbit to the surface. The [[entities/orion|Orion spacecraft]] serves as the crew vehicle for lunar transit. Artemis I, an uncrewed test flight, launched in November 2022 to validate the SLS and [[concepts/orion-systems|Orion systems]]. Subsequent [[concepts/crewed-missions|crewed missions]], including [[entities/artemis-ii|Artemis II]] and the planned Artemis III, are scheduled to demonstrate [[concepts/lunar-landing|lunar landing]] [[concepts/capabilities|capabilities]].
 
 ## Current Status and Challenges
 
-The program faces significant technical and scheduling challenges. Development of the Human Landing System has encountered delays and cost overruns, with competing contractor designs requiring extended [[concepts/testing|testing]] and validation. The Space Launch System has experienced production delays and technical issues affecting launch readiness. These complications have pushed the timeline for subsequent Artemis missions beyond their originally planned dates, with Artemis III currently targeted for the mid-2020s rather than earlier projections.
-
+The program has experienced delays and technical challenges in recent years. Development of the Human Landing System has faced schedule pressures and [[concepts/cost|cost]] overruns, with multiple contractors involved in different [[concepts/design|design]] approaches. The Space Launch System has also encountered technical issues and scheduling setbacks. These challenges have pushed the timeline for Artemis III, which aims to land the first woman and the next man on the Moon, beyond its originally planned date. Despite these obstacles, NASA continues development with the goal of establishing a sustainable lunar exploration program that extends to eventual human missions to Mars.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Artemis-II-Human-Lunar-Flyby-Operations-Orion-Systems-and-In-flight-Ch|Artemis II Human Lunar Flyby Operations Orion Systems and In flight Ch]] · [▶ source](https://www.youtube.com/watch?v=CrzP6naZGKs)
 - 2026-04-14: [[lab-notes/2026-04-14-Deep-Space-Update-March-April-2024-Launch-Crewed-Mission-Summary|Deep Space Update March April 2024 Launch Crewed Mission Summary]] · [▶ source](https://www.youtube.com/watch?v=K0E8wyo3v-w)

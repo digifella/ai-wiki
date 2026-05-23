@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "history"
-  - "mathematics"
-  - "ancient india"
-  - "buddhism"
-  - "public edicts"
-  - "ancient-india"
-  - "buddhist-teachings"
-  - "historical-documents"
-  - "mathematical-concepts"
-  - "emperor-ashoka"
-aliases:
-  - "rock-edicts"
-  - "edicts-of-ashoka"
-summary: "Public edicts are official decrees issued by rulers to communicate policies, laws, and philosophical principles, exemplified by Emperor Ashoka's rock edicts promoting Buddhism and non-violence."
-updated: 2026-04-12
+summary: Public edicts are official decrees issued by rulers to communicate policies, laws, and philosophical principles, exemplified by Emperor Ashoka's rock edicts promoting Buddhism and non-violence.
+updated: 2026-05-23
 group: people-institutions-cultural-history
 ---
 # Public Edicts
@@ -26,7 +12,7 @@ Public edicts refer to official decrees and proclamations issued by authorities 
 ### Related Concepts
 - [[concepts/buddhism|buddhism]]
 - [[entities/emperor-ashoka|emperor-ashoka]]
-- mauryan-empire
+- [[concepts/mauryan-empire|mauryan-empire]]
 - global-trade-culture
 
 ## Overview
@@ -35,15 +21,14 @@ Public edicts have been a key method of communication throughout history, enabli
 
 ### Historical Significance
 - **Emperor Ashoka**: Issued edicts promoting Buddhism and the principles of Ahimsa (non-violence) after his conversion following the [[concepts/kalinga-war|Kalinga War]].
-- **Global Influence**: These edicts contributed to the spread of Buddhist teachings and influenced diplomatic relations with neighboring regions, impacting trade and cultural exchanges.
+- **Global [[concepts/power|Influence]]**: These edicts contributed to the spread of Buddhist teachings and influenced diplomatic relations with neighboring regions, impacting trade and cultural exchanges.
 
 ### New Information
-- The video "The Bloody Origins of the [[concepts/number-zero|Number Zero]]" by Nightshift – Kurzgesagt After Dark highlights how ancient India's contributions extend beyond just religion but also include foundational [[concepts/history-of-science-and-conceptsmathematicsmathematics|mathematical concepts]] like zero.
+- The video "The Bloody Origins of the [[concepts/number-zero|Number Zero]]" by Nightshift – Kurzgesagt After Dark [[concepts/highlights|highlights]] how ancient India's contributions extend beyond just religion but also include foundational [[concepts/history-of-science-and-conceptsmathematicsmathematics|mathematical concepts]] like [[concepts/concept-of-nothingness|zero]].
 - **Author / channel**: Nightshift – Kurzgesagt After Dark
 - **URL**: https://www.youtube.com/watch?v=RSIsGomGZcc
 
 ### Backlinks
-2026 04 11 The Bloody Origins of Number Zero in Ancient India
-
+2026 04 11 The Bloody Origins of [[concepts/number-zero|Number Zero]] in [[concepts/ancient-india|Ancient India]]
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-The-Bloody-Origins-of-Number-Zero-in-Ancient-India|The Bloody Origins of Number Zero in Ancient India]] · [▶ source](https://www.youtube.com/watch?v=RSIsGomGZcc)

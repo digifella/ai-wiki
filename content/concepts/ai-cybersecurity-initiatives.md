@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "AI"
-  - "cybersecurity"
-  - "vulnerability-discovery"
-  - "threat-intelligence"
-  - "ai-cybersecurity"
-  - "security-intelligence"
-  - "ai-risk-mitigation"
-aliases:
-  - "AI in cybersecurity"
-  - "AI security integration"
-summary: "The integration of Artificial Intelligence into cybersecurity frameworks focuses on automating vulnerability discovery, enhancing threat intelligence, and mitigating emerging risks."
-updated: 2026-04-26
+summary: The integration of Artificial Intelligence into cybersecurity frameworks focuses on automating vulnerability discovery, enhancing threat intelligence, and mitigating emerging risks.
+updated: 2026-05-23
 group: privacy-security-guardrails
+stub: true
 ---
 # AI cybersecurity initiatives
 

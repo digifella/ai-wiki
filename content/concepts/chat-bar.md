@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
+domain: ai-agents
 tags:
   - "chat-bar"
   - "chatgpt-deep-research"
@@ -11,13 +11,14 @@ tags:
   - "third-party-integration"
 aliases:
   - "chat interface element"
-summary: "A chat interface element that enables users to interact with AI models and supports Markdown formatting and third-party application integration."
-updated: 2026-04-28
-group: developer-tooling-clis
+summary: A chat interface element that enables users to interact with AI models and supports Markdown formatting and third-party application integration.
+updated: 2026-05-23
+group: ai-foundations-concepts
+stub: true
 ---
 # Chat Bar
 
-A [[concepts/chat-application|chat interface]] element that enables users to interact with AI models.
+A [[concepts/chat-application|chat interface]] element that enables users to interact with AI [[concepts/models|models]].
 
 ## Features
 - Real-time interaction with [[concepts/ai-models|AI models]]
@@ -39,7 +40,6 @@ A [[concepts/chat-application|chat interface]] element that enables users to int
 
 ## Backlinks
 - 2026 04 14 Chat [[entities/deep-research|Deep Research]] update Channel [[entities/rob-the-ai-guy|Rob the AI Guy]]
-
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

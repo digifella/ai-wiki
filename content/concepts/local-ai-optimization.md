@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "local-inference"
   - "model-compression"
@@ -13,20 +12,20 @@ aliases:
   - "On-Device AI Optimization"
   - "Local Model Efficiency"
 summary: Optimizing AI models for local execution across PC, macOS, and mobile platforms using bare-metal performance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Local AI Optimization
 
-Local AI optimization refers to the process of adapting and [[concepts/fine-tuning|fine-tuning]] [[concepts/ai-models|AI models]] to run efficiently on end-user devices such as personal computers, macOS systems, and mobile platforms, rather than relying on cloud-based [[concepts/inference|inference]]. This approach prioritizes leveraging bare-metal performance—direct access to [[concepts/hardware|hardware]] resources—to achieve low-latency inference while maintaining model [[concepts/accuracy|accuracy]] across diverse hardware configurations.
+[[concepts/local-ai|Local AI]] optimization refers to the process of adapting and [[concepts/fine-tuning|fine-tuning]] [[concepts/ai-models|AI models]] to run efficiently on end-user devices such as personal computers, [[entities/macos|macOS]] systems, and mobile platforms, rather than relying on cloud-based [[concepts/inference|inference]]. This approach prioritizes leveraging [[concepts/bare-metal-performance|bare-metal performance]]—direct access to [[concepts/hardware|hardware]] resources—to achieve low-latency inference while maintaining model [[concepts/accuracy|accuracy]] across diverse hardware configurations.
 
 ## Performance Considerations
 
-The primary challenge in local AI optimization involves balancing model capability with computational constraints. Different platforms present varying [[concepts/memory|memory]], processing power, and energy budgets. [[concepts/algorithm-optimization|Optimization techniques]] include [[concepts/llm-quantization|model quantization]], pruning, knowledge distillation, and [[concepts/architecture|architecture]] selection to ensure models remain functional across heterogeneous hardware while maximizing throughput and minimizing latency. Platform-specific implementations may further optimize for [[concepts/gpu-acceleration|GPU acceleration]], CPU [[concepts/instruction-sets|instruction sets]], or specialized [[concepts/neural-processing-units|neural processing units]] where available.
+The primary challenge in local AI optimization involves balancing model capability with computational constraints. Different platforms present varying [[concepts/memory|memory]], processing [[concepts/power|power]], and energy budgets. [[concepts/algorithm-optimization|Optimization techniques]] include [[concepts/llm-quantization|model quantization]], pruning, knowledge distillation, and [[concepts/architecture|architecture]] selection to ensure [[concepts/models|models]] remain functional across heterogeneous hardware while maximizing throughput and minimizing latency. Platform-specific implementations may further optimize for [[concepts/gpu-acceleration|GPU acceleration]], [[concepts/cpu|CPU]] [[concepts/instruction-sets|instruction sets]], or specialized [[concepts/neural-processing-units|neural processing units]] where available.
 
 ## Cross-Platform Deployment
 
 Deploying locally-optimized models across multiple platforms requires careful consideration of compatibility and performance variance. A model optimized for a high-end [[concepts/gaming|gaming]] PC may need significant adaptation for mobile execution. Frameworks and runtime environments that support multiple backends enable developers to maintain a single [[concepts/architecturetechnique|model architecture]] while deploying to different target platforms, though platform-specific tuning often remains necessary for optimal performance characteristics.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-08: Bonzai 8B: PrismML

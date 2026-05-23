@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "ai-intent-understanding"
@@ -12,7 +11,8 @@ tags:
 aliases:
   - "AI Intent Recognition"
 summary: The content explores Apple's AI strategy and the concept of AI intent understanding.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # AI Intent Understanding
 
@@ -24,11 +24,10 @@ Intent understanding typically relies on [[concepts/nlp|natural language process
 
 ## Practical Applications
 
-Modern [[concepts/voice-assistants|virtual assistants]] and voice-activated systems increasingly employ intent recognition to improve [[concepts/user-experience-design|user experience]]. Rather than requiring users to phrase requests in specific ways, these systems attempt to understand the broader context and underlying need. This capability becomes particularly valuable in smart home environments, mobile applications, and [[concepts/conversational-interfaces|conversational interfaces]] where natural language input is the primary mode of interaction.
+Modern [[concepts/voice-assistants|virtual assistants]] and voice-activated systems increasingly employ intent recognition to improve [[concepts/user-experience-design|user experience]]. Rather than requiring users to phrase requests in specific ways, these systems attempt to understand the broader context and underlying need. This capability becomes particularly valuable in smart home environments, mobile [[concepts/software|applications]], and [[concepts/conversational-interfaces|conversational interfaces]] where natural language input is the primary mode of interaction.
 
 ## Current Limitations
 
 Intent understanding remains an unsolved problem in artificial intelligence. [[concepts/ambiguity|Ambiguity]] in human language, cultural and individual variation in how intentions are expressed, and edge cases continue to pose challenges. Systems must balance between over-interpreting user intent and under-interpreting it, with different applications requiring different thresholds for confidence before acting on inferred intentions.
-
 ## Source Notes
 - 2026-04-28: Apple

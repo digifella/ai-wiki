@@ -1,23 +1,23 @@
 ---
 type: concept
 domain: science-physics
-updated: 2026-04-14
+updated: 2026-05-23
 group: scientific-modelling-discovery
 ---
 - "cooking"
-  - "science"
+  - "[[concepts/science|science]]"
   - "eggs"
   - "cooking-science"
   - "molecular-gastronomy"
   - "thermal-dynamics"
   - "culinary-science"
   - "scrambled-eggs"
-  - "large-language-models"
+  - "[[concepts/large-language-model-llm|large-language-models]]"
   - "[[concepts/interpretability|interpretability]]"
 aliases:
   - "Scientific Principles in Cooking"
   - "Culinary Science Principles"
-summary: "Scientific principles such as chemical reactions and thermal dynamics are applied in cooking to transform ingredients and control [[concepts/texture|texture]]."
+[[concepts/summary|summary]]: "Scientific principles such as chemical reactions and thermal dynamics are applied in cooking to transform ingredients and [[concepts/power|control]] [[concepts/texture|texture]]."
 group: scientific-modelling-discovery
 
 # Scientific Principles in Cooking
@@ -38,12 +38,11 @@ Cooking relies on a variety of scientific principles to transform ingredients in
 
 ### New Information from Anthropic Discussion
 
-- **Video Summary:** Anthropic Discussion about how [[concepts/large-language-models|LLMs]] think
+- **Video Summary:** [[entities/anthropic-institute|Anthropic]] Discussion about how [[concepts/large-language-models|LLMs]] think
 - **URL:** https://www.youtube.com/watch?v=fGKNUvivvnc
 - **Core Message:**
   - Discussion among four researchers from [[entities/anthropic|Anthropic]] about the [[entities/nature|nature]] of [[concepts/large-language-models|LLMs]] and their work in [[concepts/interpretability|interpretability]].
   - [[entities/stuart-ritchie|Stuart Ritchie]] from Anthropic's [[concepts/research-communications|Research Communications]] team opens the discussion.
-
 ## Source Notes
 - 2026-04-13: The Only Scrambled Eggs Recipe You'll Ever Need | Techniquely with Lan Lam
 - 2026-04-10: [[lab-notes/2026-04-10-Wirtz-Pump-Mechanics-Overcoming-Airlock-and-Hydrostatic-Pressure-Chall|Wirtz Pump Mechanics Overcoming Airlock and Hydrostatic Pressure Chall]] · [▶ source](https://www.youtube.com/watch?v=wCxRHueX6jQ)

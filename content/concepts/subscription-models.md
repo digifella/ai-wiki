@@ -1,43 +1,31 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "subscription-models"
-  - "ai-subscriptions"
-  - "usage-limits"
-  - "third-party-integration"
-  - "economic-models-for-ai-services"
-aliases:
-  - "Subscription Plans in AI"
-  - "AI Product Access Models"
-  - "Claude Subscription Details"
-  - "Usage Constraints in Subscriptions"
-summary: "This page outlines subscription models within the context of artificial intelligence, focusing on Anthropic's Claude product and related usage constraints."
-updated: 2026-04-11
+summary: This page outlines subscription models within the context of artificial intelligence, focusing on Anthropic's Claude product and related usage constraints.
+updated: 2026-05-23
 group: pricing-subscriptions-saas
-title: "Subscription Models"
+title: Subscription Models
 ---
 # Subscription Models
 
-Subscription models are recurring payment plans offered by companies for access to their products or services. This page focuses on the application of subscription models within the realm of [[concepts/ai-technologies|artificial intelligence]] and [[concepts/software|software]] tools.
+Subscription [[concepts/models|models]] are recurring payment plans offered by companies for access to their products or services. This page focuses on the application of subscription models within the realm of [[concepts/ai-technologies|artificial intelligence]] and [[concepts/software|software]] tools.
 
 ## Key Concepts
 - **[[concepts/usage-limits|Usage Limits]]:** Constraints placed on the amount of usage a user can have under a given plan.
 - **Additional Costs:** Fees incurred when users exceed the standard limits set by a provider’s subscription model.
-- **Third-party Tools Integration:** The ability for [[concepts/third-party-applications|external applications]] or [[concepts/plugins|plugins]] to integrate with and utilize services provided through subscriptions.
+- **Third-party Tools [[concepts/integration|Integration]]:** The ability for [[concepts/third-party-applications|external applications]] or [[concepts/plugins|plugins]] to integrate with and utilize services provided through subscriptions.
 
 ## Anthropic's Claude AI Subscription Model
 [[entities/anthropic-institute|Anthropic]] offers various subscription tiers that provide access to their AI product, [[concepts/claude-ai|Claude]]. These plans typically include [[concepts/rate-limits|usage limits]] and are designed to cater to different user needs and budgets.
 
 ### Recent Changes (2026-04-08)
-- **[[entities/openclaw|OpenClaw]] Ban:** As of April 4th, 2026, Anthropic has banned the use of [[concepts/openclaw|OpenClaw]] with Claude subscriptions.
+- **[[entities/openclaw|OpenClaw]] Ban:** As of April 4th, 2026, [[entities/anthropic|Anthropic]] has banned the use of [[concepts/openclaw|OpenClaw]] with [[concepts/claude|Claude]] subscriptions.
 - **Usage Limits Enforcement:** Users who were previously able to utilize third-party tools like [[concepts/automated-information-pipelines|OpenClaw]] are now required to either "turn on extra usage" (incurring additional costs) or cancel their subscriptions entirely.
 
 ## Related Concepts
 - [[concepts/ai-governance|AI Governance]]
 - Third-party Integrations
-- Economic Models for AI Services
-
+- Economic [[concepts/models|Models]] for AI Services
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-08: Anthropic

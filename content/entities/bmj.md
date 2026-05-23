@@ -1,26 +1,24 @@
 ---
 type: entity
 tags:
-  - "journal"
-  - "healthcare"
   - "medical-journal"
+  - "peer-reviewed"
   - "clinical-research"
-  - "healthcare-policy"
-  - "medical-education"
   - "ai-governance"
+  - "healthcare"
 aliases:
-  - "The British Medical Journal"
   - "British Medical Journal"
-summary: "BMJ is a peer-reviewed medical journal founded in 1840 that publishes clinical research, policy analysis, and medical education."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 BMJ Review"
+summary: BMJ is a peer-reviewed medical journal founded in 1840 that publishes clinical research, policy analysis, and medical education.
+updated: 2026-05-23
 ---
 # BMJ
 
-The British Medical Journal (BMJ) is a peer-reviewed medical journal published by BMJ Publishing Group, founded in 1840. It serves as a leading international publication for clinical research, policy analysis, and medical education.
+The British Medical Journal (BMJ) is a peer-reviewed medical journal founded in 1840 and published by BMJ Publishing Group. It is one of the world's most widely read medical journals, with a global audience of [[concepts/health|healthcare]] professionals, researchers, and policymakers. The journal publishes original research, reviews, editorials, and analysis across all areas of medicine and healthcare.
 
-## Recent Publications
+## Scope and Content
 
-- [[entities/bmj-review|BMJ Review]]: [[concepts/date-2026-04-13|2026]] study developed and validated a practice-oriented [[concepts/ai-governance|AI governance]] framework addressing [[concepts/health|healthcare]] organizations' struggle to translate high-level AI [[concepts/ethics|ethics]] principles into actionable processes for safe and [[concepts/responsible-ai-use|responsible AI]] [[concepts/adoption|adoption]].
-- [[entities/bmj-review|BMJ Review]]: [[entities/bmj|BMJ]] Review (2026-04-14) - Objective: New [[concepts/ai-technologies|AI technologies]] are being rapidly adopted by healthcare professionals, yet existing [[concepts/organisational-governance|organisational governance]] often lacks the processes necessary to oversee their safe and responsible use. Previous [[concepts/ai-governance|AI governance frameworks]] have largely focused on high-level AI [[concepts/ethics|ethics]] principles, leaving [[concepts/healthcare-organisations|healthcare organisations]] struggling to translate these principles into practice, assess risk, and embed [[concepts/ai-oversight|AI oversight]] into existing processes. This study aimed to develop and validate a practice-oriented [[concepts/ai-governance-framework|AI governance framework]].
+BMJ covers clinical research, [[concepts/population-health|public health]], medical policy, and healthcare education. The journal is known for publishing studies on diverse topics ranging from infectious diseases and oncology to primary care and global health. In addition to peer-reviewed articles, BMJ produces rapid response commentaries, practice guides, and analysis pieces intended to inform clinical practice and health policy.
+
+## Impact and Reach
+
+As a general medical journal with high impact factor and citation rates, BMJ influences clinical practice and healthcare [[concepts/decision-making|decision-making]] internationally. The journal maintains editorial offices in London and has an international editorial board. BMJ also operates related publications and digital platforms, including BMJ Open, which provides open-access publishing options for medical research.

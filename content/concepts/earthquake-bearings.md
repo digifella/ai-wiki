@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "concept"
   - "earthquake-engineering"
@@ -13,7 +12,8 @@ aliases:
   - "base isolation systems"
   - "seismic bearings"
 summary: Earthquake bearings are isolation systems that decouple structures from ground motion to protect buildings and critical infrastructure during seismic events.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Earthquake Bearings
 
@@ -27,5 +27,5 @@ Several bearing designs are used in seismic isolation [[concepts/software|applic
 
 Earthquake bearings are particularly valuable for critical infrastructure that must remain functional after seismic events, including hospitals, emergency response facilities, and utilities. They are also increasingly used in standard building construction in seismically active regions. The technology allows buildings to be constructed with less restrictive reinforcement requirements, potentially reducing construction costs while improving [[concepts/resilience|resilience]]. Performance during past earthquakes in regions like California, Japan, and New Zealand has demonstrated the effectiveness of isolation systems in protecting both structures and the people within them.
 
-- 2026-04-13 [2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru](2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru.md) ← Earthquake Base Isolation Systems Functionality And Critical Infrastru
+- [[concepts/date-2026-04-13|2026-04-13]] [2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru](2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru.md) ← Earthquake [[concepts/base-isolation-systems|Base Isolation Systems]] Functionality And Critical Infrastru
 ## Source Notes

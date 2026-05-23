@@ -1,23 +1,14 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "culinary-science"
-  - "emulsification"
-  - "starch-chemistry"
-  - "pasta"
-  - "sauce-adhesion"
-  - "viscosity-control"
-aliases:
-  - "Starch-based emulsion stabilization"
-summary: "Starch granules like amylose and amylopectin stabilize emulsions between lipids and aqueous liquids by increasing the viscosity of the aqueous phase."
-updated: 2026-04-26
-group: food-science-nutrition-ingredients
+summary: Starch granules like amylose and amylopectin stabilize emulsions between lipids and aqueous liquids by increasing the viscosity of the aqueous phase.
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Starch-based sauce emulsification
 
 ## Overview
-The process of utilizing suspended starch granules (primarily Amylose and Amylopectin) to stabilize an Emulsion between immiscible phases, typically lipids (oils/fats) and aqueous liquids (sauce bases). This increases the viscosity of the continuous aqueous phase and facilitates [[concepts/sauce-adhesion]].
+The process of utilizing suspended starch granules (primarily Amylose and Amylopectin) to stabilize an Emulsion between immiscible phases, typically lipids (oils/fats) and aqueous liquids (sauce [[concepts/number-systems|bases]]). This increases the viscosity of the continuous aqueous [[concepts/phase|phase]] and facilitates [[concepts/sauce-adhesion]].
 
 ## Mechanism
 - **Stabilization**: Starch molecules increase the viscosity of the aqueous phase, hindering the coalescence of lipid droplets.
@@ -30,4 +21,4 @@ The process of utilizing suspended starch granules (primarily Amylose and Amylop
 - Challenging traditional cooking "rules" allows for customized results based on the specific requirements of the pasta shape and sauce composition.
 
 ---
-**Backlink:** 2026 04 23 Pasta Cooking Methods Optimizing Texture [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor Integration
+**Backlink:** 2026 04 23 Pasta [[concepts/cooking-methods|Cooking Methods]] Optimizing Texture [[concepts/sauce-adhesion|Sauce Adhesion]] and Flavor [[concepts/integration|Integration]]

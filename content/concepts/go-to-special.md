@@ -1,20 +1,13 @@
 ---
 type: concept
 domain: entertainment-games
-tags:
-  - "Excel"
-  - "Data-Cleaning"
-  - "Productivity"
-  - "microsoft-excel"
-  - "cell-selection"
-  - "data-management"
-summary: "A Microsoft Excel feature used to select cells within a range based on specific criteria or attributes such as blanks, formulas, or constants."
-updated: 2026-04-26
+summary: A Microsoft Excel feature used to select cells within a range based on specific criteria or attributes such as blanks, formulas, or constants.
+updated: 2026-05-23
 group: board-card-tabletop-games
 ---
 # Go To Special
 
-A Microsoft [[entities/excel]] feature used to quickly select cells within a [[concepts/range|range]] that meet specific criteria or possess particular attributes.
+A [[entities/microsoft|Microsoft]] [[entities/excel]] feature used to quickly select cells within a [[concepts/range|range]] that meet specific criteria or possess particular attributes.
 
 ## Key Functionalities
 - Selects cells by property: Blanks, Formulas, Constants, Comments, etc.
@@ -27,8 +20,7 @@ A Microsoft [[entities/excel]] feature used to quickly select cells within a [[c
 	- [[concepts/power-query|Power Query]]: A more robust tool for complex, repeatable [[concepts/data-transformation|data transformation]] and cleaning [[concepts/workflow|workflows]].
 
 ## References
-- [[concepts/date-2026-04-13|2026]] 04 26 [[entities/microsoft-excel|Excel]] [[concepts/blank-row-deletion|Blank Row Deletion]] Go To Special Filter Power Quer
-
+- [[concepts/date-2026-04-13|2026]] 04 26 [[entities/microsoft-excel|Excel]] [[concepts/blank-row-deletion|Blank Row Deletion]] Go To Special Filter [[concepts/power|Power]] Quer
 ## Source Notes
 - 2026-04-26: Excel · [▶ source](https://www.youtube.com/watch?v=3mkfF1pNw0U)
 - 2026-04-12: [[lab-notes/2026-04-12-Nvidia-CUDA-GPU-Parallel-Computing-for-AI-Advancement|Nvidia CUDA GPU Parallel Computing for AI Advancement]] · [▶ source](https://www.youtube.com/watch?v=pPStdjuYzSI)

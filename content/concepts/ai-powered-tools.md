@@ -1,23 +1,12 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI-Powered Tools"
-  - "Photography"
-  - "Lightroom Classic"
-  - "assisted-culling"
-  - "auto-stacking"
-  - "photo-organization"
-  - "ai-in-photography"
-  - "lightroom-classic"
-aliases:
-  - "Lightroom AI Tools"
-summary: "Lightroom Classic uses AI-powered tools like assisted culling and auto stacking to automate photo culling and organization."
-updated: 2026-04-14
+summary: Lightroom Classic uses AI-powered tools like assisted culling and auto stacking to automate photo culling and organization.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 ## AI-Powered Tools in Lightroom Classic
-[[entities/lightroom-classic|Lightroom Classic]] has been at the forefront of integrating AI-powered tools to enhance photographers' workflow efficiency. These features leverage [[concepts/machine-learning|machine learning]] and [[concepts/ai-technologies|artificial intelligence]] to automate tasks that were previously time-consuming, such as culling through large photo collections and organizing them into stacks.
+[[entities/lightroom-classic|Lightroom Classic]] has been [[concepts/assistive-technology|at]] the forefront of integrating AI-powered tools to enhance photographers' [[concepts/efficiency-principles|workflow efficiency]]. These features leverage [[concepts/machine-learning|machine learning]] and [[concepts/ai-technologies|artificial intelligence]] to automate tasks that were previously time-consuming, such as culling through large photo collections and organizing them into stacks.
 
 ### Key Features
 
@@ -35,8 +24,7 @@ group: applied-ai-workflows
 - [[concepts/photo-organization-techniques|Photo Organization Techniques]]
 
 ### References
-- 2026 04 13 Lightroom Classic Early Access AI Powered [[concepts/assisted-culling|Assisted Culling]] and Auto St
-
+- 2026 04 13 [[entities/lightroom-classic|Lightroom Classic]] Early Access AI Powered [[concepts/assisted-culling|Assisted Culling]] and Auto St
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-AI-Marketing-Suite-Democratizing-Comprehensive-Audits-and|Claude Code AI Marketing Suite Democratizing Comprehensive Audits and]] · [▶ source](https://www.youtube.com/watch?v=eorc3jLBqIA)

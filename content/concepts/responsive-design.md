@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
+domain: ux-design
 tags:
   - "responsive-design"
   - "web-development"
@@ -11,13 +11,13 @@ tags:
   - "frontend-development"
   - "ui-ux"
   - "css-media-queries"
-summary: "An approach to web design that ensures web pages render effectively across various devices and screen sizes using fluid grids, flexible media, and CSS media queries."
-updated: 2026-04-28
-group: design-systems-ui-infographics
+summary: An approach to web design that ensures web pages render effectively across various devices and screen sizes using fluid grids, flexible media, and CSS media queries.
+updated: 2026-05-23
+group: typography-layout
 ---
 # Responsive Design
 
-**Responsive Design** is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures optimal viewing and interaction experience, facilitating easy navigation and reading across different environments (mobile, desktop, tablet).
+**Responsive [[concepts/design|Design]]** is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures optimal viewing and interaction experience, facilitating easy navigation and reading across different environments (mobile, desktop, tablet).
 
 Core principles include:
 *   Fluid [[concepts/grids|grids]] and layouts
@@ -27,15 +27,14 @@ Core principles include:
 ## Methodology: AI-Assisted Rapid Build
 This concept is currently implemented via the [[concepts/claude-code|Claude Code]] & [[concepts/nano-banana-2|Nano Banana 2]] methodology.
 
-*   **Clip Title:** [[entities/claude-code|Claude Code]] + [[entities/nano-banana-2|Nano Banana 2]] = Insane $10,000 Websites
+*   **[[concepts/clip-title|Clip Title]]:** [[entities/claude-code|Claude Code]] + [[entities/nano-banana-2|Nano Banana 2]] = Insane $10,000 Websites
 *   **Author / Channel:** [[entities/jack-roberts|Jack Roberts]]
-*   **Reference:** Summary & Source: [[concepts/no-code|No-Code]]
+*   **Reference:** [[concepts/summary|Summary]] & Source: [[concepts/no-code|No-Code]]
 *   **URL:** [https://www.youtube.com/watch?v=TZUTe7s11-I](https://www.youtube.com/watch?v=TZUTe7s11-I)
 *   **Key Capability:** Rapidly build aesthetically pleasing, responsive, and SEO-optimized websites with advanced features, even for individuals with no prior [[concepts/coding|coding]] experience.
 
 ---
 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] and [[concepts/camera-angle-control|nano Banana 2]]
-
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-10: [[lab-notes/2026-04-10-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids|Fundamental UIUX Design Concepts Affordances Hierarchy Grids]] · [▶ source](https://www.youtube.com/watch?v=EcbgbKtOELY)

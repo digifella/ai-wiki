@@ -17,6 +17,7 @@ aliases:
 summary: "The use of artificial intelligence to automate and scale the execution of cyberattacks through capabilities such as vulnerability discovery and enhanced social engineering."
 updated: 2026-04-26
 group: applied-ai-workflows
+stub: true
 ---
 # AI-driven cyberattacks
 

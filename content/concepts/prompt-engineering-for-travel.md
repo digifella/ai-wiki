@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "prompt-engineering"
@@ -14,11 +13,12 @@ aliases:
   - "AI Travel Planning Prompts"
   - "ChatGPT Flight Deal Prompts"
 summary: Guide on using ChatGPT with customizable plug-and-play prompts to find cheap flight deals.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Prompt Engineering For Travel
 
-Prompt engineering for travel refers to the practice of crafting and refining text [[concepts/instructions|instructions]] for AI language models like [[entities/chatgpt|ChatGPT]] to help users find affordable flight deals and plan travel itineraries. By using well-structured prompts, travelers can [[concepts/leverage-ai|leverage AI]] [[concepts/agents|agents]] to search across multiple variables—such as departure dates, flexible airports, and price thresholds—more efficiently than manual searching. The approach involves specifying preferences, constraints, and desired outputs in a way that guides the AI to provide relevant and actionable results.
+[[concepts/prompt-based-modeling|Prompt engineering]] for travel refers to the practice of crafting and refining [[concepts/text|text]] [[concepts/instructions|instructions]] for AI language [[concepts/models|models]] like [[entities/chatgpt|ChatGPT]] to help users find affordable flight deals and plan travel itineraries. By using well-structured prompts, travelers can [[concepts/leverage-ai|leverage AI]] [[concepts/agents|agents]] to search across multiple variables—such as departure dates, flexible airports, and price thresholds—more efficiently than manual searching. The approach involves specifying preferences, constraints, and desired outputs in a way that guides the AI to provide relevant and actionable results.
 
 ## Customizable Prompts and Reusability
 
@@ -26,8 +26,7 @@ A key advantage of this method is the development of plug-and-play prompts that 
 
 ## Practical Applications
 
-In practice, prompt engineering for travel can automate parts of the [[concepts/itinerary-planning|itinerary planning]] process, helping users identify price [[entities/windows|windows]], compare route options, and organize travel logistics. When combined with tools like [[entities/google-my-maps|Google My Maps]] and other [[concepts/travel-planning|travel planning]] APIs, [[concepts/agentic-ai|AI agents]] can generate more comprehensive travel plans. The technique is particularly useful for finding deals on budget airlines, identifying off-peak travel periods, and discovering alternative airports that may offer lower fares.
-
+In practice, prompt engineering for travel can automate parts of the [[concepts/itinerary-planning|itinerary planning]] process, helping users identify price [[entities/windows|windows]], [[concepts/feynmans-three-step-scientific-method|compare]] route options, and organize travel logistics. When combined with tools like [[entities/google-my-maps|Google My Maps]] and other [[concepts/travel-planning|travel planning]] APIs, [[concepts/agentic-ai|AI agents]] can generate more comprehensive travel plans. The technique is particularly useful for finding deals on budget airlines, identifying off-peak travel periods, and discovering alternative airports that may offer lower fares.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-10: [[lab-notes/2026-04-10-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)

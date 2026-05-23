@@ -1,25 +1,10 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "biology"
-  - "astrobiology"
-  - "extremophiles"
-  - "Mars"
-  - "extremophile-adaptations"
-  - "mars-environmental-challenges"
-  - "hidden-martian-habitats"
-  - "astrobiology-research"
-  - "tardigrade-resilience"
-aliases:
-  - "Extremophiles on Mars"
-  - "Life in Harsh Environments"
-  - "Subterranean Habitats"
-  - "Planetary Extremes"
-summary: "Organisms called extremophiles, known for surviving extreme conditions, are being studied for their potential to exist and thrive in hidden habitats beneath the Martian surface."
-updated: 2026-04-11
+summary: Organisms called extremophiles, known for surviving extreme conditions, are being studied for their potential to exist and thrive in hidden habitats beneath the Martian surface.
+updated: 2026-05-23
 group: planetary-environments-mars
-title: "Extremophiles"
+title: Extremophiles
 ---
 # Extremophiles
 
@@ -28,7 +13,7 @@ title: "Extremophiles"
 - **[[concepts/tardigrades|Tardigrades]]**: Known for their remarkable [[concepts/resilience|resilience]], tardigrades can withstand [[concepts/dehydration|dehydration]], freezing, radiation, and even the [[concepts/vacuum-of-space|vacuum of space]].
 
 ### Related Concepts
-- tardigrades
+- [[concepts/tardigrades|tardigrades]]
 - astrobiology
 - Mars
 
@@ -42,6 +27,5 @@ title: "Extremophiles"
 - 2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-[[concepts/hidden-habitats|Hidden-Habitats]]
 - 2026 04 10 [[concepts/mars-life|Mars Life]] The Paradox of Deadly Soil and Hidden Habitats
 - 2026 04 10 Mars Life The Paradox of Deadly Soil and Hidden Habitats
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats|Mars Life The Paradox of Deadly Soil and Hidden Habitats]] · [▶ source](https://www.youtube.com/watch?v=O5FqozA4IpA)

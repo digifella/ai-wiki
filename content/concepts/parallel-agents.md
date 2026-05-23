@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "claude-code"
   - "agent-systems"
@@ -12,20 +11,20 @@ aliases:
   - "Concurrent Agents"
   - "Multi-Agent Systems"
 summary: A guide to using Claude Code effectively, covering installation, features, and context engineering techniques.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Parallel Agents
 
-Parallel agents are AI systems that operate concurrently to handle multiple tasks or aspects of a problem simultaneously. In the context of [[concepts/ai-assisted-coding|Claude Code]], parallel agent execution enables developers to distribute computational work across multiple agent instances, improving efficiency and reducing latency for complex operations that can be decomposed into independent or loosely-coupled subtasks.
+Parallel agents are AI systems that operate concurrently to handle multiple tasks or aspects of a problem simultaneously. In the context of [[concepts/ai-assisted-coding|Claude Code]], parallel [[entities/agent|agent]] execution enables developers to distribute computational work across multiple agent instances, improving efficiency and reducing latency for complex operations that can be decomposed into independent or loosely-coupled subtasks.
 
 ## Implementation with Claude Code
 
-Using Claude Code effectively for parallel [[concepts/multi-agent-workflows|agent workflows]] requires understanding the API's capabilities for concurrent requests and proper [[concepts/external-knowledge|context engineering]]. Developers can instantiate multiple agent instances to process different data streams or problem branches in parallel, then synchronize results once all [[concepts/agents|agents]] complete their assigned work. This approach is particularly useful for [[concepts/scenarios|scenarios]] involving batch processing, multi-branch decision trees, or parallel data analysis pipelines.
+Using [[concepts/claude-code|Claude Code]] effectively for parallel [[concepts/multi-agent-workflows|agent workflows]] requires understanding the API's [[concepts/capabilities|capabilities]] for concurrent requests and proper [[concepts/external-knowledge|context engineering]]. Developers can instantiate multiple agent instances to process different data streams or problem branches in parallel, then synchronize results once all [[concepts/agents|agents]] complete their assigned work. This approach is particularly useful for [[concepts/scenarios|scenarios]] involving batch processing, multi-branch decision trees, or parallel data analysis pipelines.
 
 ## Context Engineering for Parallel Execution
 
-Effective parallel agent design depends on careful [[concepts/context-management|context management]] to ensure each agent receives sufficient information to operate independently while maintaining [[concepts/logical-consistency|consistency]] with the overall system goal. Developers should define clear boundaries between agent responsibilities, establish shared context where necessary, and design communication protocols for agents to coordinate results. Proper [[concepts/api-cost-optimization|API cost optimization]] becomes important when [[concepts/running|running]] multiple agents in parallel, as concurrent requests accumulate usage quickly.
-
+Effective parallel agent [[concepts/design|design]] depends on careful [[concepts/context-management|context management]] to ensure each agent receives sufficient information to operate independently while maintaining [[concepts/logical-consistency|consistency]] with the overall system goal. Developers should define clear boundaries between agent responsibilities, establish shared context where necessary, and design communication protocols for agents to coordinate results. Proper [[concepts/api-cost-optimization|API cost optimization]] becomes important when [[concepts/running|running]] multiple agents in parallel, as concurrent requests accumulate usage quickly.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)

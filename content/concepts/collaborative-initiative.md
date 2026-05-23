@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "collaborative-effort"
-  - "security-initiative"
-  - "ai-risk-management"
-  - "anthropic-project"
-  - "zero-day-vulnerabilities"
-aliases:
-  - "Project Glasswing"
-  - "Claude Mythos Initiative"
-  - "Security Collaboration"
-  - "AI Mitigation Effort"
-summary: "A collaborative initiative led by Anthropic to mitigate security risks associated with the next-generation AI model Claude Mythos."
-updated: 2026-04-11
+summary: A collaborative initiative led by Anthropic to mitigate security risks associated with the next-generation AI model Claude Mythos.
+updated: 2026-05-23
 group: enterprise-strategy-future-work
 ---
 ## Collaborative Initiative
@@ -26,12 +15,11 @@ A collaborative initiative focuses on a shared goal that requires coordination a
 - [[entities/claude-mythos|Claude Mythos]]
 
 ### New Information (2026-04-10)
-- [[entities/matthew-berman|Matthew Berman]] released a video discussing [[concepts/ai-driven-cybersecurity|Project Glasswing]], an initiative by [[entities/anthropic-institute|Anthropic]] aimed at mitigating the [[concepts/cybersecurity|zero-day vulnerabilities]] in their [[concepts/generative-ai|next-generation AI]] model, [[entities/claude|Claude]] [[concepts/mythos|Mythos]].
+- [[entities/matthew-berman|Matthew Berman]] released a video discussing [[concepts/ai-driven-cybersecurity|Project Glasswing]], an initiative by [[entities/anthropic-institute|Anthropic]] aimed [[concepts/assistive-technology|at]] mitigating the [[concepts/cybersecurity|zero-day vulnerabilities]] in their [[concepts/generative-ai|next-generation AI]] model, [[entities/claude|Claude]] [[concepts/mythos|Mythos]].
 - The project aims to address the unprecedented capabilities of [[concepts/ai-benchmarks|Claude Mythos]] that pose significant [[concepts/security|security risks]].
 
 ### Backlinks
-- 2026 04 10 Project Glasswing Mitigating Anthropic Mythos AIs Zero Day Vulnerabili
-
+- 2026 04 10 [[concepts/bug-identification|Project Glasswing]] Mitigating [[entities/anthropic-institute|Anthropic]] [[entities/mythos|Mythos]] AIs [[concepts/concept-of-nothingness|Zero]] Day Vulnerabili
 ## Source Notes
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Project-Glasswing-AIs-Dual-Role-in-Software-Cybersecurity|Anthropics Project Glasswing AIs Dual Role in Software Cybersecurity]] · [▶ source](https://www.youtube.com/watch?v=INGOC6-LLv0)

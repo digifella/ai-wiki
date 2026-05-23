@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "productivity"
-  - "skills"
-  - "autopilot"
-  - "ai-overreliance"
-  - "critical-engagement"
-  - "skill-development"
-  - "cockpit-rule"
-aliases:
-  - "AI Autopilot"
-summary: "Autopilot Mode describes over-reliance on AI without critical engagement, leading to diminished personal skills and potential errors."
-updated: 2026-04-14
+summary: Autopilot Mode describes over-reliance on AI without critical engagement, leading to diminished personal skills and potential errors.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Autopilot Mode
@@ -27,14 +16,13 @@ A mental model for intentional AI use:
 - **Avoid**: When human judgment is essential (e.g., ethical decisions).
 
 ## References
-- AI framework skills - [[entities/jeff-su|Jeff Su]] Channel
+- AI framework [[concepts/skills|skills]] - [[entities/jeff-su|Jeff Su]] Channel
 - 2026 04 14 AI framework skills [[entities/jeff-su|Jeff Su]] Channel
 
 ## Related Concepts
-- AI Literacy
+- [[concepts/ai-proficiency|AI Literacy]]
 - [[concepts/critical-thinking|Critical Thinking]]
 - [[concepts/workflow-automation]]
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

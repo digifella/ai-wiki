@@ -1,15 +1,8 @@
 ---
 type: entity
-tags:
-  - "research-facility"
-  - "particle-physics"
-  - "nuclear-physics"
-  - "quantum-mechanics"
-  - "quantum-chromodynamics"
-  - "rhic"
-  - "sns"
-summary: "Brookhaven Lab is a US research institution specializing in nuclear physics, particle physics, and quantum mechanics."
-updated: 2026-04-26
+summary: Brookhaven Lab is a US research institution specializing in nuclear physics, particle physics, and quantum mechanics.
+updated: 2026-05-23
+stub: true
 ---
 # Brookhaven Lab
 
@@ -22,8 +15,7 @@ A leading US research institution specializing in Nuclear [[concepts/physics|Phy
 - [[concepts/quantum-field-theory]]
 
 ## Recent Research & Observations
-- Experimental confirmation regarding the physical reality of [[concepts/virtual-particles]] (Ref: 2026 04 24 Experimental Confirmation of Virtual Particle Reality)
-
+- Experimental confirmation regarding the [[concepts/physical-reality|physical reality]] of [[concepts/virtual-particles]] (Ref: 2026 04 24 Experimental Confirmation of Virtual Particle Reality)
 ## Source Notes
 
 - 2026-04-24: [[lab-notes/2026-04-24-Experimental-Confirmation-of-Virtual-Particle-Reality|Experimental Confirmation of Virtual Particle Reality]] · [▶ source](https://www.youtube.com/watch?v=U4gpio58908)

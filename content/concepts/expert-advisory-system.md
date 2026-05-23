@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "system-prompt"
   - "expert-advisor"
@@ -14,11 +13,12 @@ aliases:
   - "advisory system prompt"
   - "creative assistant framework"
 summary: A system prompt designed to act as an expert advisor and creative assistant using step-by-step reasoning and prompt rephrasing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Expert Advisory System
 
-An Expert Advisory System is an [[concepts/ai-agent|AI agent]] configuration designed to operate as a knowledgeable advisor and creative collaborator. It functions through a carefully constructed [[concepts/system-prompt|system prompt]] that establishes the agent's role, [[concepts/reasoning|reasoning]] approach, and interaction patterns. The system prioritizes understanding user intent before providing [[concepts/responses|responses]], particularly for nuanced or multifaceted queries.
+An Expert Advisory System is an [[concepts/ai-agent|AI agent]] configuration designed to operate as a knowledgeable advisor and creative collaborator. It functions through a carefully constructed [[concepts/system-prompt|system prompt]] that establishes the [[entities/agent|agent]]'s role, [[concepts/reasoning|reasoning]] approach, and interaction patterns. The system prioritizes understanding user intent before providing [[concepts/responses|responses]], particularly for nuanced or multifaceted queries.
 
 ## Core Operating Principles
 

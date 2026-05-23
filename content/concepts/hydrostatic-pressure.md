@@ -1,25 +1,12 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "fluid-dynamics"
-  - "pumps"
-  - "physics"
-  - "fluid-dynamics-core"
-  - "plumbing-principles"
-  - "hydraulic-systems"
-  - "well-drilling-challenges"
-aliases:
-  - "Hydrostatic Fluid Pressure"
-  - "Pressure in Fluid Columns"
-  - "Equilibrium Fluid Pressure"
-  - "Gravity-Induced Pressure"
-summary: "Hydrostatic pressure is the pressure exerted by a fluid at equilibrium due to gravity, crucial for applications like plumbing and hydraulic lifts."
-updated: 2026-04-11
+summary: Hydrostatic pressure is the pressure exerted by a fluid at equilibrium due to gravity, crucial for applications like plumbing and hydraulic lifts.
+updated: 2026-05-23
 group: geology-rocks-minerals
 ---
 # Hydrostatic Pressure
-Hydrostatic pressure refers to the pressure exerted by a fluid at equilibrium due to [[concepts/gravitational-pull|gravity]]. It increases with depth and plays a critical role in various [[concepts/software|applications]] such as plumbing systems, hydraulic lifts, and water well drilling.
+Hydrostatic pressure refers to the pressure exerted by a fluid [[concepts/assistive-technology|at]] equilibrium due to [[concepts/gravitational-pull|gravity]]. It increases with depth and plays a critical role in various [[concepts/software|applications]] such as plumbing systems, hydraulic lifts, and water well drilling.
 
 ## Key Concepts
 - **Definition:** The pressure experienced by a fluid column of unit cross-sectional area.
@@ -31,7 +18,7 @@ Hydrostatic pressure refers to the pressure exerted by a fluid at equilibrium du
 - Deep wells face significant challenges due to high levels of hydrostatic pressure which can affect pump efficiency.
 
 ### Challenges in Pumping Systems
-- **[[concepts/airlock|Airlock]] Issues:** Air pockets within piping systems can impede the flow of water or fluid, creating a barrier that must be overcome by effective pump designs.
+- **[[concepts/airlock|Airlock]] Issues:** Air pockets within piping systems can impede the [[concepts/flow|flow]] of water or fluid, creating a barrier that must be overcome by effective pump designs.
 - **Hydrostatic Head:** The vertical height from the surface of a fluid to the intake point of a pump significantly affects its performance.
 
 ## Recent Developments
@@ -45,6 +32,5 @@ Hydrostatic pressure refers to the pressure exerted by a fluid at equilibrium du
 - [[concepts/fluid-dynamics|fluid-dynamics]]
 - pumps
 - Wirtz-pump-mechanics
-
 ## Source Notes
 - 2026-04-10: [[entities/wirtz-pumps|Wirtz pumps are really clever]]

@@ -11,8 +11,8 @@ tags:
   - "drug-dissolution"
 aliases:
   - "dissolution rate"
-summary: "Drug dissolution is the kinetic process of a solid solute entering a solvent to form a solution, which can act as the rate-limiting step for the systemic absorption of oral medications."
-updated: 2026-04-30
+summary: Drug dissolution is the kinetic process of a solid solute entering a solvent to form a solution, which can act as the rate-limiting step for the systemic absorption of oral medications.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Drug dissolution
@@ -29,8 +29,7 @@ The kinetic process by which a solid solute enters a solvent to form a homogeneo
 - **Bioavailability**: Inadequate dissolution can lead to insufficient plasma concentrations, rendering a drug therapeutically ineffective.
 - **Stability and [[concepts/quality-control|Quality Control]]**: Unexpected [[concepts/phase|phase]] transitions can compromise drug manufacturing and safety.
 - **Case Study**: Ritonavir [[concepts/crystalline-structure|Polymorph Crisis]]: Unraveling the Mystery of a Failing HIV Drug
-    - Highlights the catastrophic impact of spontaneous polymorphism shifts in a critical medication.
-    - Details how a sudden emergence of a less soluble polymorph in Ritonavir led to widespread failure in quality control and threatened the efficacy of a vital HIV treatment.
-
+    - [[concepts/highlights|Highlights]] the catastrophic impact of spontaneous polymorphism shifts in a critical medication.
+    - Details how a sudden emergence of a less soluble polymorph in Ritonavir led to widespread failure in quality [[concepts/power|control]] and threatened the efficacy of a vital HIV treatment.
 ## Source Notes
 - 2026-04-30: [[lab-notes/2026-04-30-Ritonavir-Polymorph-Crisis-Unraveling-the-Mystery-of-a-F|Ritonavir Polymorph Crisis: Unraveling the Mystery of a Failing HIV Drug]] · [▶ source](https://www.youtube.com/watch?v=ksn5yrsC3Wg)

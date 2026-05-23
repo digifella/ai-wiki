@@ -1,25 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "automation"
-  - "orchestration"
-  - "systems-design"
-  - "ai-orchestration"
-  - "autonomous-workflows"
-  - "ai-interaction-design"
-  - "ai-skills"
-aliases:
-  - "Integrated AI Frameworks"
-  - "Unified AI Architectures"
-summary: "Frameworks that unify models, custom instructions, and structural design to execute autonomous, multi-step workflows."
-updated: 2026-04-27
+summary: Frameworks that unify models, custom instructions, and structural design to execute autonomous, multi-step workflows.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Integrated AI Systems
 
-Frameworks where multiple [[concepts/capabilities|AI capabilities]]—including specialized models, [[concepts/custom-instructions|custom instructions]], and structural [[concepts/design|design]]—are unified to execute complex, autonomous, multi-step [[concepts/workflow|workflows]].
+Frameworks where multiple [[concepts/capabilities|AI capabilities]]—including [[concepts/custom-models|specialized models]], [[concepts/custom-instructions|custom instructions]], and structural [[concepts/design|design]]—are unified to execute complex, autonomous, multi-step [[concepts/workflow|workflows]].
 
 ## Key Architectures
 - **[[concepts/ai-orchestration]]**: The coordination of various models, tools, and [[concepts/agents|agents]] to manage end-to-end process execution.
@@ -31,7 +19,6 @@ Frameworks where multiple [[concepts/capabilities|AI capabilities]]—including 
 
 ## Sources
 - 2026 04 27 [[concepts/anthropic-ai|Claude AI]] Automated Marketing with Custom [[concepts/skills|Skills]] Design
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)
 - 2026-04-08: [[lab-notes/2026-04-08-The-Synoptic-Mind-Reframing-Diverse-Interests-as-a-Cognitive-Strength|The Synoptic Mind Reframing Diverse Interests as a Cognitive Strength]] · [▶ source](https://www.youtube.com/watch?v=yOGW-sq0b1s)

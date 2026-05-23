@@ -1,13 +1,8 @@
 ---
-domain: ai-agents
-group: applied-ai-workflows
 type: concept
-tags:
-  - "RAG"
-  - "GraphRAG"
-  - "PathRAG"
-  - "AI"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # PathRAG
 
@@ -16,14 +11,13 @@ PathRAG is an advanced [[concepts/rag]] technique that extends [[concepts/graph-
 ## Evolution of RAG Systems
 From the [Discover AI channel - Graph RAG evolved](https://www.youtube.com/watch?v=oetP9uksUwM):
 - **[[concepts/traditional-rag|Traditional RAG]]**: Limited by [[concepts/document-chunking|document chunking]] and lack of semantic connections despite [[concepts/algorithmic-optimization|optimization techniques]] (e.g., [[concepts/chunking-strategies|chunking strategies]], pre/post-[[concepts/pre-retrieval-optimization|retrieval optimization]]).
-- **GraphRAG**: Uses knowledge graphs to model [[concepts/entity-relationships|entity relationships]] for contextual retrieval.
+- **[[concepts/graphrag|GraphRAG]]**: Uses knowledge graphs to model [[concepts/entity-relationships|entity relationships]] for contextual retrieval.
 - **LightRAG**: Efficient, lightweight variant of GraphRAG optimized for scalability.
 - **PathRAG**: Retrieves along graph paths to capture multi-hop relationships, enabling deeper context for complex queries.
 
 For [[concepts/implementation-details|implementation details]], see the [video](https://www.youtube.com/watch?v=oetP9uksUwM).
 
 2026 04 14 [[entities/discover-ai-channel|Discover AI channel]] [[concepts/entity-relation-graphs|Graph RAG]] evolved
-
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

@@ -13,19 +13,19 @@ aliases:
   - "Photoshop Depth Map"
   - "3D Photo Adjustments"
 summary: Techniques for applying 3D photo adjustments using Photoshop depth maps.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # 3D Photo Manipulation
 
-3D photo manipulation refers to techniques that use depth information to create three-dimensional effects within two-dimensional photographs. In [[concepts/photoshop|Photoshop]], this is primarily achieved through [[concepts/depth-maps|depth maps]]—grayscale representations that assign depth values to different areas of an image. In these maps, lighter values indicate objects closer to the viewer while darker values represent distant elements. This depth information allows Photoshop's 3D processing tools to understand and manipulate the spatial [[concepts/relationships|relationships]] within a photograph.
+3D photo manipulation refers to techniques that use depth information to create three-dimensional effects within two-dimensional photographs. In Photoshop, this is primarily achieved through depth maps—grayscale representations that assign depth values to different areas of an image. In these maps, lighter values indicate objects closer to the viewer while darker values represent distant elements. This depth information allows Photoshop's 3D processing tools to understand and manipulate the spatial relationships within a photograph.
 
 ## Creating and Using Depth Maps
 
-Depth maps can be created through several methods. Manual approaches involve painting grayscale values directly onto a layer, requiring careful observation of the photograph's spatial composition. Alternatively, Photoshop's automated depth detection features can analyze an image and generate a [[concepts/depth-map|depth map]] based on visual cues such as focus, perspective, and object boundaries. Once created, a depth map becomes a foundation for applying 3D transformations—including rotations, tilts, and perspective shifts—that would be difficult or impossible to achieve through conventional 2D editing.
+Depth maps can be created through several methods. Photoshop can generate them automatically from layered compositions, or they can be manually painted to define custom depth values for different image regions. Users can also import depth maps from other sources, including 3D rendering software or depth-sensing cameras. Once applied, the depth map enables various adjustments: selective focus effects can be applied based on depth, portions of the image can be shifted or warped in 3D space, and lighting can be modified to interact with the perceived depth structure.
 
 ## Practical Applications
 
-Common applications of 3D photo manipulation include creating parallax effects for animated slideshows, generating tilted-shift miniature effects, and producing depth-of-field [[concepts/adjustments|adjustments]] that weren't captured during photography. The technique also enables artists to reposition virtual camera angles or create selective focus effects by modifying depth information. These adjustments can enhance compositional impact without requiring the original scene to be re-photographed.
+Common applications of 3D photo manipulation include creating tilt-shift effects, adjusting focus to isolate subjects at specific depth ranges, and generating parallax effects for slideshows or presentations. The technique also allows for repositioning elements within the photograph's depth space and applying depth-aware blur or sharpening. These tools are particularly useful in product photography, portrait retouching, and composite work where maintaining spatial coherence is important.
 
 ## Source Notes
 - 2026-04-07: Photoshop Beta

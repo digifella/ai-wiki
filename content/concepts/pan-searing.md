@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "pan-searing"
   - "steak-cooking"
@@ -12,7 +11,8 @@ aliases:
   - "searing"
   - "pan-cook"
 summary: A cooking method for steak focused on enhancing the crust and avoiding a gray band.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Pan Searing
 
@@ -20,11 +20,10 @@ Pan searing is a cooking technique used to develop a flavorful crust on meat, pa
 
 ## Avoiding the Gray Band
 
-One key advantage of proper pan searing is preventing the gray band—a zone of overcooked, pale meat that can form between the crust and the interior when heat penetrates too deeply into the meat during cooking. This problem is particularly common with thicker cuts. Pan searing, when combined with finishing techniques like oven cooking at lower temperatures, allows cooks to develop an excellent crust while maintaining a properly cooked interior with minimal gray band formation.
+One key advantage of proper pan searing is preventing the gray band—a zone of overcooked, pale meat that can form between the crust and the interior when heat penetrates too deeply into the meat during cooking. This problem is particularly common with thicker cuts. Pan searing, when combined with finishing techniques like oven cooking [[concepts/assistive-technology|at]] lower temperatures, allows cooks to develop an excellent crust while maintaining a properly cooked interior with minimal gray band formation.
 
 ## Technique and Application
 
 The method typically involves heating a pan until it reaches a high temperature, then placing the steak directly on the dry surface. The steak remains undisturbed for several minutes to allow proper browning before being flipped or moved. Some practitioners finish the seared steak in an oven to cook the interior evenly. Pan searing works best with thicker cuts of steak that benefit from a crisp exterior and can be controlled to avoid overcooking the meat within.
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Eric-Kims-Perfect-Dak-Bulgogi-Quick-Korean-BBQ-Chicken-Recipe|Eric Kims Perfect Dak Bulgogi Quick Korean BBQ Chicken Recipe]] · [▶ source](https://www.youtube.com/watch?v=7k8Yf1UEJOs)

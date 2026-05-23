@@ -1,21 +1,9 @@
 ---
 type: concept
-domain: business-strategy
-tags:
-  - "social-security"
-  - "public-policy"
-  - "automation"
-  - "ethics"
-  - "government-administration"
-  - "algorithmic-governance"
-  - "economic-safety-nets"
-aliases:
-  - "social-welfare"
-  - "government-assistance"
-  - "public-assistance"
-summary: "Welfare benefits are financial assistance provided by government administration to ensure access to essential resources and mitigate economic vulnerability."
-updated: 2026-04-26
-group: legal-finance-professional-work
+domain: society-politics-institutions
+summary: Welfare benefits are financial assistance provided by government administration to ensure access to essential resources and mitigate economic vulnerability.
+updated: 2026-05-23
+group: politics-governance-public-systems
 ---
 # Welfare benefits
 
@@ -35,6 +23,5 @@ Financial assistance provided by Government administration to individuals and ho
 
 ## Related Notes
 - 2026 04 24 [[concepts/algorithmic-error|Robodebt Scheme]] Australias Unlawful Algorithm Causing Deaths
-
 ## Source Notes
 - 2026-04-24: Robodebt Scheme: Australia

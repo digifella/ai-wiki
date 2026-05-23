@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "embedding"
-  - "machine learning"
-  - "NLP"
-  - "RAG"
-updated: 2026-04-15
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Embedding Model
 
-Vector representation of data (text, [[concepts/images|images]], etc.) capturing semantic meaning for similarity search, clustering, and model input. Used in [[concepts/rag]], [[concepts/natural-language-search|Semantic Search]], and [[concepts/natural-language-processing]].
+Vector representation of data ([[concepts/text|text]], [[concepts/images|images]], etc.) capturing semantic meaning for similarity search, clustering, and model input. Used in [[concepts/rag]], [[concepts/natural-language-search|Semantic Search]], and [[concepts/natural-language-processing]].
 
 ## Key Characteristics
 - Converts discrete data (e.g., text [[concepts/tokens|tokens]]) into continuous vectors
@@ -22,11 +17,10 @@ Vector representation of data (text, [[concepts/images|images]], etc.) capturing
 Optimizes [[concepts/document-retrieval|document retrieval]] in [[concepts/rag]] pipelines without full model retraining:
 - **Problem**: Base [[concepts/embedding-models|embedding models]] lack domain-specific optimization
 - **[[concepts/solution|Solution]]**: Use [[concepts/linear-adapters|linear adapters]] for efficient [[concepts/fine-tuning|fine-tuning]]
-  - Avoids full retraining of large models
+  - Avoids full retraining of large [[concepts/models|models]]
   - Eliminates need for re-embedding vast [[concepts/knowledge-bases|knowledge bases]]
   - Achieves domain-specific [[concepts/performance-gains|performance gains]] cost-effectively
 - **Reference**: 2026 04 14 [[concepts/domain-specific-fine-tuning|Fine Tuning RAG]] [[entities/adam-lucek|Adam Lucek]] ([[entities/adam-lucek|Adam Lucek]]'s guide on [[concepts/rag-embedding|embedding fine-tuning]])
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Multimodal-AI-Concepts-Approaches-and-Data-Processing-by-LLMs|Multimodal AI Concepts Approaches and Data Processing by LLMs]] · [▶ source](https://www.youtube.com/watch?v=J51oZYcNvP8)
 - 2026-04-12: [[lab-notes/2026-04-12-MiniMax-M27-Open-Source-LLM-Technical-Overview-and-Deployment-Summary|MiniMax M27 Open Source LLM Technical Overview and Deployment Summary]] · [▶ source](https://www.youtube.com/watch?v=CUvb-i5niKA)

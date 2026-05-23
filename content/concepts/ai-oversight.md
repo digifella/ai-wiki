@@ -1,8 +1,8 @@
 ---
 type: concept
-domain: ai-agents
-updated: 2026-04-14
-group: safety-guardrails-governance
+domain: health-wellbeing
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 - "ai"
   - "[[concepts/governance|governance]]"
@@ -22,7 +22,6 @@ Systematic monitoring and [[concepts/governance|governance]] of [[concepts/ai-de
 - **Study objective**: Development and validation of a practice-oriented [[concepts/ai-governance-framework|AI governance framework]] to address the gap between high-level principles and operational implementation.
 
 2026 04 14 [[entities/bmj-review|BMJ Review]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-11: [[lab-notes/2026-04-11-Claudes-Advisor-Strategy-Monitor-Tool-and-Managed-Agents-for-AI-Develo|Claudes Advisor Strategy Monitor Tool and Managed Agents for AI Develo]] · [▶ source](https://www.youtube.com/watch?v=Q-QznaH1WS0)

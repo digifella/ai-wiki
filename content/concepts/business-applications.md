@@ -1,32 +1,20 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "business-applications"
-  - "ai-agent-frameworks"
-  - "hermes-overview"
-  - "openclaw-benefits"
-  - "enterprise-integration"
-aliases:
-  - "Business Tools"
-  - "AI in Business"
-  - "Hermes and OpenClaw"
-  - "Enterprise AI Agents"
-  - "Automation Frameworks"
-summary: "The page discusses the use of AI agent frameworks, such as Hermes and OpenClaw, in business applications for automation and integration."
-updated: 2026-04-11
+summary: The page discusses the use of AI agent frameworks, such as Hermes and OpenClaw, in business applications for automation and integration.
+updated: 2026-05-23
 group: applied-ai-workflows
-title: "Business Applications"
+title: Business Applications
 ---
 # Business Applications
 
-Business applications encompass a wide range of tools and technologies designed to improve efficiency, productivity, and decision-making within an [[concepts/organization|organization]]. These [[concepts/software|applications]] can vary greatly in their scope and functionality, from customer relationship management (CRM) systems to enterprise resource planning (ERP) software.
+Business applications encompass a wide [[concepts/range|range]] of tools and technologies designed to improve efficiency, productivity, and [[concepts/decision-making|decision-making]] within an [[concepts/organization|organization]]. These [[concepts/software|applications]] can vary greatly in their scope and functionality, from customer relationship management (CRM) systems to enterprise resource planning (ERP) software.
 
 ## AI Agent Frameworks for Business
 [[concepts/agentic-frameworks|AI agent frameworks]] are increasingly being used in business contexts to automate [[concepts/complex-tasks|complex tasks]] such as data analysis, customer service interactions, and predictive maintenance. Two notable frameworks in this space are [[entities/hermes|Hermes]] and [[entities/openclaw|OpenClaw]], both of which offer unique features and benefits depending on the specific needs of a business.
 
 ### Hermes
-- **Overview:** An [[concepts/ai-agent|AI agent]] framework designed for high-level [[concepts/automation|automation]] and integration with various enterprise systems.
+- **Overview:** An [[concepts/ai-agent|AI agent]] framework designed for high-level [[concepts/automation|automation]] and [[concepts/integration|integration]] with various enterprise systems.
 - **[[concepts/use-cases|Use Cases]]:**
   - [[concepts/automated-trading-bots|Automated trading bots]]
   - [[concepts/content-creation|Content creation]]
@@ -40,15 +28,14 @@ Business applications encompass a wide range of tools and technologies designed 
 
 ## Hermes and OpenClaw: Complementary AI Agent Frameworks for Business
 Applications
-**Clip title:** Hermes Just Solved the Biggest Problem With [[concepts/automated-information-pipelines|OpenClaw]]
+**[[concepts/clip-title|Clip title]]:** [[entities/hermes-agent|Hermes]] Just Solved the Biggest Problem With [[concepts/automated-information-pipelines|OpenClaw]]
 **Author / channel:** [[entities/craig-hewitt|Craig Hewitt]]
 **URL:** https://www.youtube.com/watch?v=VoWi52lms3E
 
-- Video provides a detailed comparison between two prominent AI agent frameworks, highlighting distinct functionalities and ideal [[concepts/scenarios|use cases]].
+- Video provides a detailed comparison between two prominent [[concepts/autonomous-agent-system|AI agent frameworks]], highlighting distinct functionalities and ideal [[concepts/scenarios|use cases]].
 - The [[entities/speaker|speaker]] emphasizes that Hermes excels in business applications such as automated trading bots and [[concepts/content-creation|content creation]], suggesting these tools complement rather than compete with each other.
 
-2026 04 10 Hermes and OpenClaw Complementary AI Agent Frameworks for Business
-
+2026 04 10 Hermes and [[concepts/conversational-chatbots|OpenClaw]] Complementary AI Agent Frameworks for Business
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code|Building a Secure Personalized AI Second Brain using Claude Code]] · [▶ source](https://www.youtube.com/watch?v=1FiER-40zng)
 - 2026-04-10: [[lab-notes/2026-04-10-Karpathys-LLM-Wiki-Beyond-RAG-for-Persistent-Knowledge-Bases|Karpathys LLM Wiki Beyond RAG for Persistent Knowledge Bases]] · [▶ source](https://www.youtube.com/watch?v=zVEb19AwkqM)

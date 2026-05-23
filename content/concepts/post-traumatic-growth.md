@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: resilience-mental-performance-pain
 tags:
   - "trauma"
   - "psychological-growth"
@@ -13,11 +12,12 @@ aliases:
   - "PTG"
   - "growth-after-trauma"
 summary: A concept associated with social scientists.
-updated: 2026-05-01
+updated: 2026-05-23
+group: resilience-mental-performance-pain
 ---
 # Post Traumatic Growth
 
-Post Traumatic Growth (PTG) is a psychological concept describing positive psychological change that can occur following struggle with highly challenging life circumstances. Rather than viewing trauma exclusively through the lens of pathology, PTG acknowledges that some individuals report experiencing meaningful [[concepts/personal-development|personal development]], increased [[concepts/resilience|resilience]], and enhanced life perspective after traumatic events. The concept emerged prominently in psychological research during the 1990s and has since become a significant area of study within [[concepts/health|health]] and wellbeing disciplines.
+Post Traumatic Growth (PTG) is a psychological concept describing positive psychological change that can occur following struggle with highly challenging life circumstances. Rather than viewing trauma exclusively through the lens of pathology, PTG acknowledges that some individuals report experiencing meaningful [[concepts/personal-development|personal development]], increased [[concepts/resilience|resilience]], and enhanced life perspective after traumatic events. The concept emerged prominently in psychological research during the 1990s and has since become a significant area of study within [[concepts/health|health]] and [[concepts/wellbeing|wellbeing]] disciplines.
 
 ## Key Dimensions
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "tool-calling"
   - "anthropic"
@@ -14,11 +13,12 @@ aliases:
   - "tool search implementation"
   - "programmatic API calling"
 summary: This page discusses advanced tool-calling methods, specifically focusing on Anthropic's Tool Search Tool and programmatic tool calling.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Programmatic Tool Calling
 
-[[concepts/context-tokens|Programmatic tool calling]] represents an advanced approach to integrating [[concepts/external-tools|external tools]] and APIs with AI systems, moving beyond simple function invocation to enable more sophisticated, dynamic interactions. Rather than pre-defining fixed tool schemas, programmatic tool calling allows systems to construct, modify, and execute tool calls based on runtime conditions and contextual requirements. This approach is particularly valuable in [[concepts/complex-workflows|complex workflows]] where the specific tools needed may not be known in advance or where tool [[concepts/parameters|parameters]] must be determined dynamically.
+[[concepts/context-tokens|Programmatic tool calling]] represents an advanced approach to integrating [[concepts/external-tools|external tools]] and APIs with AI systems, moving beyond simple function invocation to enable more sophisticated, dynamic interactions. Rather than pre-defining fixed tool schemas, [[concepts/tool-search-tool|programmatic tool calling]] allows systems to construct, modify, and execute tool calls based on runtime conditions and contextual requirements. This approach is particularly valuable in [[concepts/complex-workflows|complex workflows]] where the specific tools needed may not be known in advance or where tool [[concepts/parameters|parameters]] must be determined dynamically.
 
 ## Tool Search and Discovery
 
@@ -26,8 +26,7 @@ A key component of programmatic tool calling is the ability to search and discov
 
 ## Implementation and Use Cases
 
-Programmatic tool calling is particularly useful in scenarios requiring adaptive behavior, such as multi-step [[concepts/reasoning|reasoning]] tasks, exploratory workflows, and systems that must operate across variable tool ecosystems. By abstracting tool invocation into a programmable layer, developers can build more resilient systems that can adjust to changes in available tools without requiring modifications to core logic. This approach facilitates integration with evolving tool landscapes and supports more sophisticated agent architectures that require autonomous [[concepts/tool-selection|tool selection]] and execution.
-
+Programmatic tool calling is particularly useful in [[concepts/scenarios|scenarios]] requiring adaptive behavior, such as multi-step [[concepts/reasoning|reasoning]] tasks, exploratory workflows, and systems that must operate across variable tool ecosystems. By abstracting tool invocation into a programmable layer, developers can build more resilient systems that can adjust to changes in available tools without requiring modifications to core logic. This approach facilitates [[concepts/integration|integration]] with evolving tool landscapes and supports more sophisticated [[entities/agent|agent]] architectures that require autonomous [[concepts/tool-selection|tool selection]] and execution.
 ## Source Notes
 
 - 2026-04-29: Optimizing LLM Agent · [▶ source](https://www.youtube.com/watch?v=rU6IYiQ1SdQ)

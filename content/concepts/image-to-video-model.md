@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: multimodal-generative-media
 tags:
   - "image-to-video"
   - "text-to-video"
@@ -14,11 +13,12 @@ aliases:
   - "image-to-video generation"
   - "video synthesis from images"
 summary: This concept covers image-to-video models including Wan 2.2 and Seedance 2.0, along with implementation workflows using ComfyUI and Claude AI.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Image To Video Model
 
-Image-to-video models are AI systems that generate video sequences from static image inputs, often conditioned on text prompts or other control signals. These models extend the capabilities of image generation systems by introducing temporal dimension and motion, enabling the creation of short video clips from a single frame. They are commonly used for animation, [[concepts/content-creation|content creation]], and visual effects workflows.
+[[concepts/image-to-video|Image-to-video]] [[concepts/models|models]] are AI systems that generate video sequences from static image inputs, often conditioned on [[concepts/text|text]] prompts or other [[concepts/power|control]] signals. These models extend the [[concepts/capabilities|capabilities]] of image generation systems by introducing temporal dimension and motion, enabling the creation of short video clips from a single frame. They are commonly used for animation, [[concepts/content-creation|content creation]], and visual effects workflows.
 
 ## Key Models
 
@@ -26,8 +26,7 @@ Image-to-video models are AI systems that generate video sequences from static i
 
 ## Implementation and Tools
 
-[[concepts/comfyui|ComfyUI]] has emerged as a popular framework for [[concepts/running|running]] image-to-video models locally, providing a node-based interface for model integration and workflow [[concepts/customization|customization]]. [[concepts/anthropic-ai|Claude AI]] can assist in configuring these workflows, helping users design generation pipelines and troubleshoot implementation challenges. This combination enables developers and creators to execute image-to-video generation without relying on cloud-based services.
-
+[[concepts/comfyui|ComfyUI]] has emerged as a popular framework for [[concepts/running|running]] image-to-video models locally, providing a node-based interface for model [[concepts/integration|integration]] and [[concepts/workflow|workflow]] [[concepts/customization|customization]]. [[concepts/anthropic-ai|Claude AI]] can assist in configuring these workflows, helping users [[concepts/design|design]] generation pipelines and troubleshoot [[concepts/adoption|implementation]] challenges. This combination enables developers and creators to execute image-to-video generation without relying on [[concepts/cloud-based-services|cloud-based services]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-08: [[lab-notes/2026-04-08-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

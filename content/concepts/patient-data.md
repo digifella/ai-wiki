@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "patient-data"
   - "digital-health"
@@ -13,11 +12,12 @@ aliases:
   - "Digital Health Familiarity Survey"
   - "Patient Data Survey Block 1"
 summary: The page contains questions from a Digital Health Survey regarding familiarity with the term digital health.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Patient Data
 
-Patient data refers to any information collected, stored, or processed about individuals within [[concepts/health|healthcare]] and digital health contexts. This encompasses personal identifiers, medical histories, diagnostic results, treatment plans, and ongoing [[concepts/health-metrics|health metrics]]. In digital health environments, patient data exists in electronic formats and becomes subject to specific security, [[concepts/privacy|privacy]], and regulatory requirements designed to protect sensitive personal information.
+Patient data refers to any information collected, stored, or processed about individuals within [[concepts/health|healthcare]] and [[concepts/digital-health|digital health]] contexts. This encompasses personal identifiers, medical histories, diagnostic results, treatment plans, and ongoing [[concepts/health-metrics|health metrics]]. In digital health environments, patient data exists in electronic formats and becomes subject to specific [[concepts/security|security]], [[concepts/privacy|privacy]], and regulatory requirements designed to protect sensitive personal information.
 
 ## Security and Privacy Considerations
 

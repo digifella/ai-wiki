@@ -1,17 +1,11 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "cloud-computing"
-  - "infrastructure"
-  - "hybrid-cloud"
-aliases:
-  - "hybrid cloud"
-summary: "This page is a stub awaiting enrichment regarding the concept of hybrid cloud."
-updated: 2026-04-25
-stub: false
-title: "hybrid cloud"
+summary: This page is a stub awaiting enrichment regarding the concept of hybrid cloud.
+updated: 2026-05-23
 group: platforms-runtimes-environments
+stub: false
+title: hybrid cloud
 ---
 # hybrid cloud
 
@@ -21,8 +15,7 @@ group: platforms-runtimes-environments
 - Ecosystem positioning relative to [[entities/nvidia]] and partners such as [[entities/anthropic]].
 - Focus on monetization strategy for [[concepts/cloud-based-ai-services|cloud-based AI services]].
 
-**Source:** 2026 04 25 Google Cloud CEO on AI Infrastructure [[concepts/tpu-development|TPU Development]] and Monetization Strategy
-
+**Source:** 2026 04 25 [[concepts/google-search|Google]] Cloud CEO on AI Infrastructure [[concepts/tpu-development|TPU Development]] and Monetization Strategy
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)
 - 2026-04-14: [[lab-notes/2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr|Optimizing AI Costs and Privacy with Local Open Source Models and Hybr]] · [▶ source](https://www.youtube.com/watch?v=nt7dWOEFUB4)

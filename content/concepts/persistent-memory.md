@@ -1,24 +1,10 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "AI"
-  - "Obsidian"
-  - "Persistent Memory"
-  - "persistent-memory"
-  - "ai-agents"
-  - "knowledge-management"
-  - "obsidian-plugin"
-  - "data-retrieval"
-  - "knowledge-graph"
-aliases:
-  - "Persistent Storage Tech"
-  - "AI Integration Obsidian"
-  - "Claude Code Integration"
-summary: "This page discusses persistent memory technology and its integration with AI agents in knowledge management tools like Obsidian, including tools like Graphify for enhanced context."
-updated: 2026-04-22
+summary: This page discusses persistent memory technology and its integration with AI agents in knowledge management tools like Obsidian, including tools like Graphify for enhanced context.
+updated: 2026-05-23
 group: platforms-runtimes-environments
-title: "Persistent Memory Concept Wiki Page"
+title: Persistent Memory Concept Wiki Page
 ---
 # Persistent Memory Concept Wiki Page
 
@@ -34,8 +20,7 @@ Persistent [[concepts/memory|memory]] refers to technology that allows data to b
 
 ### Related Technologies & Tools
 - [[concepts/claude-code|Claude Code]]: [[entities/claude-code]] - An [[concepts/ai-coding|AI coding]] [[entities/agent|agent]].
-- Graphify: A knowledge graph tool designed to enhance [[concepts/ai-coding|AI coding assistants]] (e.g., [[concepts/claude-code|Claude Code]], Antigravity) by providing persistent context and memory.
-
+- Graphify: A [[concepts/vector-store|knowledge graph]] tool designed to enhance [[concepts/ai-coding|AI coding assistants]] (e.g., [[concepts/claude-code|Claude Code]], Antigravity) by providing persistent context and memory.
 ## Source Notes
 - 2026-04-07: [[concepts/claude|Claude + Obsidian = Full AI Operating System]]
 - 2026-04-22: Graphify · [▶ source](https://www.youtube.com/watch?v=BkHps04qGgc)

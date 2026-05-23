@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "thematic-analysis"
   - "qualitative-research"
@@ -12,7 +11,8 @@ aliases:
   - "thematic analysis tips"
   - "findings chapter writing"
 summary: The page discusses common mistakes to avoid when writing the findings chapter of a qualitative research study using thematic analysis.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Flow
 

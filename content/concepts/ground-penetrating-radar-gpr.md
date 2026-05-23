@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "ground-penetrating-radar"
   - "archaeology"
@@ -13,11 +12,12 @@ aliases:
   - "GPR"
   - "ground penetration radar"
 summary: A Danish archaeology experiment involves private detectorists unearthing artifacts in farm fields.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Ground Penetrating Radar (GPR)
 
-Ground Penetrating Radar is a geophysical [[concepts/survey|survey]] technique that uses radar pulses to image the subsurface. The method transmits electromagnetic waves into the ground and records the reflected signals, creating a detailed map of buried structures and objects without requiring excavation. GPR operates across a range of frequencies, typically between 10 MHz and 2.6 GHz, with lower frequencies penetrating deeper but at reduced resolution, while higher frequencies provide finer detail in shallower surveys.
+Ground Penetrating Radar is a geophysical [[concepts/survey|survey]] technique that uses radar pulses to image the subsurface. The method transmits electromagnetic waves into the ground and records the reflected signals, creating a detailed map of buried structures and objects without requiring excavation. GPR operates across a [[concepts/range|range]] of frequencies, typically between 10 MHz and 2.6 GHz, with lower frequencies penetrating deeper but [[concepts/assistive-technology|at]] reduced resolution, while higher frequencies provide finer detail in shallower surveys.
 
 ## Applications in Archaeology
 

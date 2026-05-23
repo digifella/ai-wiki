@@ -1,20 +1,7 @@
 ---
 type: entity
-tags:
-  - "travel"
-  - "ai"
-  - "tools"
-  - "travel-planning"
-  - "ai-workflows"
-  - "notebooklm"
-  - "gemini"
-  - "google-my-maps"
-  - "itinerary-generation"
-  - "knowledge-management"
-aliases:
-  - "AI travel planner"
-summary: "A workflow using NotebookLM, Gemini, and Google My Maps to transform travel research into structured, visual, and shareable itineraries."
-updated: 2026-04-21
+summary: A workflow using NotebookLM, Gemini, and Google My Maps to transform travel research into structured, visual, and shareable itineraries.
+updated: 2026-05-23
 ---
 # Just Booked It
 
@@ -35,6 +22,5 @@ A method for leveraging [[entities/notebooklm]], [[entities/gemini]], and [[tool
 
 Backlink: [[concepts/date-2026-04-13|2026]] 04 14 Just Booked It tips for using [[concepts/notebooklm|NotebookLM]] and [[concepts/gemini|Gemini]] for trip booking
 Backlink: 2026 04 21 [[concepts/map-based-itinerary-creation|Automating Travel Itineraries]] with AI and [[entities/google-my-maps|Google My Maps]]
-
 ## Source Notes
 - 2026-04-21: [[lab-notes/2026-04-21-Automating-Travel-Itineraries-with-AI-and-Google-My-Maps|Automating Travel Itineraries with AI and Google My Maps]] · [▶ source](https://www.youtube.com/watch?v=fI8ygOauNNA)

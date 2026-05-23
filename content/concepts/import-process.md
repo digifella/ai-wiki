@@ -1,16 +1,12 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "Import Process"
-  - "Lightroom Classic"
-  - "AI Features"
-updated: 2026-04-14
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Import Process
 
-The **Import Process** in digital [[concepts/photography-workflow|photography workflow]] management refers to how photographs and multimedia files are brought into a [[concepts/photo-editing|photo editing]] or cataloging [[concepts/software|software]]. It encompasses the initial steps taken when integrating new content from various sources such as cameras, [[concepts/memory|memory]] cards, and cloud [[entities/storage|storage]] into a user's library.
+The **Import Process** in digital [[concepts/photography-workflow|photography workflow]] management refers to how photographs and multimedia [[concepts/files|files]] are brought into a [[concepts/photo-editing|photo editing]] or cataloging [[concepts/software|software]]. It encompasses the initial steps taken when integrating new content from various sources such as cameras, [[concepts/memory|memory]] cards, and cloud [[entities/storage|storage]] into a user's library.
 
 - Utilizes advanced features like AI-powered culling and auto-stacking for enhanced productivity.
 - Supports batch importing with customizable [[concepts/metadata|metadata]] tags for efficient categorization.
@@ -29,11 +25,10 @@ The **Import Process** in digital [[concepts/photography-workflow|photography wo
 ## References
 
 * [Lightroom Classic Early Access: AI-Powered Assisted Culling and Auto Stacking](https://www.youtube.com/watch?v=F5yy-XpLXOs)
-  *Clip title:* [[concepts/assisted-culling|Assisted Culling]] (Early Access) & Auto Stacking in [[concepts/lightroom|Lightroom]] Classic
+  *[[concepts/clip-title|Clip title]]:* [[concepts/assisted-culling|Assisted Culling]] (Early Access) & Auto Stacking in [[concepts/lightroom|Lightroom]] Classic
   *Author / channel:* [[entities/julieanne-kost|Julieanne Kost]]
 
-2026 04 13 Lightroom Classic Early Access AI Powered Assisted Culling and Auto St
-
+2026 04 13 [[entities/lightroom-classic|Lightroom Classic]] Early Access AI Powered Assisted Culling and Auto St
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration|Google Gemini and NotebookLM Key Updates and Enhanced AI Integration]] · [▶ source](https://www.youtube.com/watch?v=6YWPGjqOEmk)
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-Early-Access-AI-Powered-Assisted-Culling-and-Auto-St|Lightroom Classic Early Access AI Powered Assisted Culling and Auto St]] · [▶ source](https://www.youtube.com/watch?v=F5yy-XpLXOs)

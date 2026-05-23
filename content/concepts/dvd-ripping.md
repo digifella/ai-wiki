@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: everyday-objects-material-culture
 tags:
   - "dvd-extraction"
   - "video-conversion"
@@ -14,7 +13,8 @@ aliases:
   - "DVD copying"
   - "DVD conversion"
 summary: Methods and software tools for ripping DVDs, including VLC, Handbrake, and MakeMKV.
-updated: 2026-05-01
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # DVD Ripping
 
@@ -22,11 +22,10 @@ DVD ripping is the process of extracting video content from a Digital Versatile 
 
 ## Common Software Tools
 
-Several software solutions have become standard for DVD ripping. [[entities/vlc|VLC Media Player]], a widely-used [[concepts/open-source|open-source]] player, can perform basic DVD extraction when paired with the [[entities/libdvdcss|libdvdcss library]], which handles copy protection decryption. Handbrake is a popular free [[concepts/transcoding|transcoding]] tool that converts video files to various formats and works effectively for already-extracted DVD content. [[entities/makemkv|MakeMKV]] specializes in extracting DVDs to lossless MKV container files and can handle more complex copy protection schemes. Users typically try these tools in sequence based on the specific DVD's protection level and desired output quality.
+Several software solutions have become standard for DVD ripping. [[entities/vlc|VLC Media Player]], a widely-used [[concepts/open-source|open-source]] player, can perform basic DVD extraction when paired with the [[entities/libdvdcss|libdvdcss library]], which handles copy protection decryption. Handbrake is a popular free [[concepts/transcoding|transcoding]] tool that converts video [[concepts/files|files]] to various formats and works effectively for already-extracted DVD content. [[entities/makemkv|MakeMKV]] specializes in extracting DVDs to lossless MKV container files and can handle more complex copy protection schemes. Users typically try these tools in sequence based on the specific DVD's protection level and desired [[concepts/output|output]] quality.
 
 ## Technical Considerations
 
-The ripping process generally involves two steps: first extracting the raw video data from the disc (which may require decryption), and second, encoding or transcoding that data into a desired file format and quality level. Some tools combine these steps while others require separate applications. The choice of software often depends on the DVD's copy protection implementation, the desired output format, and the user's technical comfort level. File size and quality tradeoffs must be considered, as compressed video files occupy significantly less storage space than uncompressed DVD data.
-
+The ripping process generally involves two steps: first extracting the raw video data from the disc (which may require decryption), and second, encoding or transcoding that data into a desired file format and quality level. Some tools combine these steps while others require separate [[concepts/software|applications]]. The choice of software often depends on the DVD's copy protection [[concepts/adoption|implementation]], the desired output format, and the user's technical comfort level. File size and quality tradeoffs must be considered, as compressed video files occupy significantly less storage space than uncompressed DVD data.
 ## Source Notes
 - 2026-04-14: Compressing Video

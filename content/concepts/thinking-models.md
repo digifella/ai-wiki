@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "ai-models"
   - "thinking-models"
@@ -13,20 +12,20 @@ aliases:
   - "2.5 Thinking Models"
   - "Gemini Thinking Family"
 summary: Updates to the 2.5 family of thinking models include music generation capabilities using Lyria.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Thinking Models
 
-Thinking Models refer to a family of advanced language models designed to perform extended [[concepts/reasoning|reasoning]] and complex [[concepts/problem-solving|problem-solving]] tasks. The 2.5 family represents recent iterations that build upon earlier architectures, incorporating improvements in [[concepts/reasoning-capabilities|reasoning capabilities]] across mathematical, logical, and analytical domains.
+Thinking [[concepts/models|Models]] refer to a family of advanced language models designed to perform extended [[concepts/reasoning|reasoning]] and complex [[concepts/problem-solving|problem-solving]] tasks. The 2.5 family represents recent iterations that build upon earlier architectures, incorporating improvements in [[concepts/reasoning-capabilities|reasoning capabilities]] across mathematical, logical, and analytical domains.
 
 ## Music Generation Integration
 
-Recent updates to the 2.5 family of thinking models have expanded their capabilities to include music generation functionality through integration with Lyria, a specialized music generation system. This represents a broadening of the [[concepts/human-cognition|thinking]] model framework beyond traditional text-based reasoning tasks into creative and generative audio domains.
+Recent updates to the 2.5 family of thinking models have expanded their [[concepts/capabilities|capabilities]] to include music generation functionality through [[concepts/integration|integration]] with Lyria, a specialized music generation system. This represents a broadening of the [[concepts/human-cognition|thinking]] model framework beyond traditional text-based reasoning tasks into creative and generative [[concepts/audio-modality|audio]] domains.
 
 ## Current Applications
 
-The thinking models are actively used in cryptographic analysis, mathematical problem-solving, and increasingly in [[concepts/multimodal-reasoning|multimodal reasoning]] tasks. Competing implementations in this space, such as [[entities/alibaba|Alibaba]]'s [[concepts/qwen3-model|Qwen 3.6]]-Plus, have focused on [[concepts/autonomous-ai-coding-agent|agentic coding]] and multimodal reasoning capabilities aimed at real-world applications.
-
+The thinking models are actively used in cryptographic analysis, [[concepts/mathematical-reasoning|mathematical problem-solving]], and increasingly in [[concepts/multimodal-reasoning|multimodal reasoning]] tasks. Competing implementations in this space, such as [[entities/alibaba|Alibaba]]'s [[concepts/qwen3-model|Qwen 3.6]]-Plus, have focused on [[concepts/autonomous-ai-coding-agent|agentic coding]] and multimodal [[concepts/thinking-and-reasoning-capabilities|reasoning capabilities]] aimed [[concepts/assistive-technology|at]] real-world [[concepts/software|applications]].
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents

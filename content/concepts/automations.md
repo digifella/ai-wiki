@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
+domain: ai-agents
 tags:
   - "automation"
   - "ai"
@@ -11,9 +11,9 @@ tags:
   - "google-ai-studio"
 aliases:
   - "automated systems"
-summary: "Automation refers to the use of technology to perform tasks with minimal human intervention, ranging from simple scripting to complex agentic development environments."
-updated: 2026-04-28
-group: automation-scheduling-sync
+summary: Automation refers to the use of technology to perform tasks with minimal human intervention, ranging from simple scripting to complex agentic development environments.
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Automations
 
@@ -35,9 +35,9 @@ Automations refer to the use of technology to perform tasks with minimal human i
 ## Recent Developments
 
 - **Antigravity AiStudio [[concepts/integration|integration]] - world of AI (2026-04-14):**
-  - Google [[entities/ai-studio|AI Studio]] has undergone its most significant [[concepts/infrastructure-upgrade|infrastructure upgrade]] to date, transitioning from a simple [[concepts/model-playground|model playground]] into a dynamic, [[concepts/agent-powered-environment|agent-powered environment]] for building [[concepts/full-stack-applications|full-stack applications]].
+  - [[entities/google|Google]] [[entities/ai-studio|AI Studio]] has undergone its most significant [[concepts/infrastructure-upgrade|infrastructure upgrade]] to date, transitioning from a simple [[concepts/model-playground|model playground]] into a dynamic, [[concepts/agent-powered-environment|agent-powered environment]] for building [[concepts/full-stack-applications|full-stack applications]].
   - This transformation is driven by **Antigravity**, [[concepts/google-search|Google]]'s new [[concepts/code-management|agentic IDE framework]].
-  - **Key Highlights and New Features:**
+  - **Key [[concepts/highlights|Highlights]] and New Features:**
     - **Agentic Development:** Powered by Antigravity.
     - Write a complete updated wiki page in [[concepts/obsidian|Obsidian]] [[concepts/markdown|markdown]] that:
       - Preserves all existing content.
@@ -46,7 +46,6 @@ Automations refer to the use of technology to perform tasks with minimal human i
       - Includes a backlink: 2026 04 14 Antigravity AiStudio integration world of AI.
       - Has frontmatter with: type: concept, tags, updated: 2026-04-14.
       - Is concise and dense — no padding.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Cowork-AI-Building-an-Efficient-Marketing-Content-System|Claude Cowork AI Building an Efficient Marketing Content System]] · [▶ source](https://www.youtube.com/watch?v=l1y3IeC_eJ0)
 - 2026-04-08: [[lab-notes/2026-04-08-Meta-Harness-AI-Self-Evolution-via-Autonomous-LLM-Harness-Optimization|Meta Harness AI Self Evolution via Autonomous LLM Harness Optimization]] · [▶ source](https://www.youtube.com/watch?v=61JUHDK-em8)

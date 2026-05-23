@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: legal-finance-professional-work
 tags:
   - "regulatory-agency"
   - "agentic-ai"
@@ -12,14 +11,15 @@ aliases:
   - "Food and Drug Administration"
   - "U.S. FDA"
 summary: The FDA has started utilizing agentic AI for in-house operations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: legal-finance-professional-work
 ---
-# Fda
+# FDA
 
-The U.S. Food and Drug Administration (FDA) is a federal regulatory agency responsible for protecting [[concepts/population-health|public health]] by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, medical devices, food supply, cosmetics, and radiological products. Operating under the Department of [[concepts/health|Health]] and Human Services, the FDA conducts product reviews, inspections, and monitoring to enforce [[concepts/compliance|compliance]] with applicable laws and regulations.
+The U.S. [[entities/fda|Food and Drug Administration]] (FDA) is a federal regulatory agency responsible for protecting [[concepts/population-health|public health]] by ensuring the safety, efficacy, and [[concepts/security|security]] of human and veterinary drugs, biological products, medical devices, food supply, cosmetics, and radiological products. Operating under the Department of Health and Human Services, the FDA conducts product reviews, inspections, and monitoring to enforce [[concepts/compliance|compliance]] with applicable laws and regulations.
 
 ## Agentic AI Implementation
 
-As of late 2025, the FDA began integrating agentic [[concepts/ai-technologies|artificial intelligence]] systems into its internal operations. This [[concepts/adoption|adoption]] reflects the agency's effort to modernize its administrative and analytical processes, leveraging autonomous AI agents to handle routine tasks and support decision-making workflows. The implementation represents a broader trend of government agencies exploring [[concepts/capabilities|AI capabilities]] to improve [[concepts/cost|operational efficiency]] and resource allocation.
+In recent years, the FDA has begun integrating agentic [[concepts/ai-technologies|artificial intelligence]] systems into its internal operations. These [[concepts/action-oriented-ai|autonomous AI agents]] are designed to handle routine administrative and analytical tasks, potentially including [[concepts/document-processing|document processing]], data analysis, and compliance monitoring. The [[concepts/adoption|implementation]] reflects broader government efforts to modernize regulatory workflows and improve [[concepts/cost|operational efficiency]] within federal agencies.
 
-The specific [[concepts/software|applications]] and scope of the FDA's agentic AI [[concepts/deployment|deployment]] within its [[concepts/organization|organization]] remain under development, with the initiative part of the agency's ongoing digital transformation efforts in the regulatory technology landscape.
+The adoption of [[concepts/agentic-ai|agentic AI]] by the FDA remains limited to in-house operations rather than public-facing regulatory functions. This approach allows the agency to pilot autonomous systems in controlled environments while maintaining human oversight of critical regulatory decisions affecting drug approvals, device clearances, and food safety determinations.

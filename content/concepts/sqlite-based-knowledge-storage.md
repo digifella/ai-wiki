@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "sqlite"
-  - "knowledge-management"
-  - "ai-agents"
-  - "local-first"
-  - "automation"
-  - "data-sovereignty"
-  - "rag"
-  - "agentic-ai"
-aliases:
-  - "SQLite-based knowledge storage"
-  - "SQLite knowledge methodology"
-summary: "A methodology for managing personal knowledge and agentic memory using SQLite to support local-first principles and RAG."
-updated: 2026-04-24
+summary: A methodology for managing personal knowledge and agentic memory using SQLite to support local-first principles and RAG.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # SQLite-based knowledge storage
@@ -35,5 +23,5 @@ group: data-pipelines-sync-storage
 
 ## Architectural Patterns
 - **Ingestion Layer**: [[concepts/scraping|Scraping]] and API-driven data collection via Automated pipelines.
-- **[[entities/storage|Storage]] Layer**: Structured [[concepts/metadata|metadata]] paired with text/blobs within SQLite.
+- **[[entities/storage|Storage]] Layer**: Structured [[concepts/metadata|metadata]] paired with text/blobs within [[entities/sqlite|SQLite]].
 - **Query/Interface Layer**: Natural language interfaces mapping user intent to SQL queries for retrieval.

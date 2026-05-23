@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "concept"
   - "machine-learning"
@@ -13,15 +12,16 @@ aliases:
   - "AI-powered video content generation"
   - "Autonomous video creation systems"
 summary: An autonomous system for social video content generation and optimization utilizing machine learning tools such as Claude Code and Karpathy's Autoresearch.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Machine Learning Driven Content Creation
 
-Machine learning driven content creation refers to the use of [[concepts/ai-technologies|artificial intelligence]] systems to autonomously generate, edit, and optimize content for social media platforms, particularly video. Rather than requiring manual production at each stage, these systems leverage [[concepts/artificial-intelligence-models|machine learning models]] to handle tasks such as scriptwriting, visual composition, and [[concepts/software-performance|performance optimization]] based on audience engagement metrics.
+[[concepts/machine-learning|Machine learning]] driven content creation refers to the use of [[concepts/ai-technologies|artificial intelligence]] systems to autonomously generate, edit, and optimize content for social media platforms, particularly video. Rather than requiring manual production [[concepts/assistive-technology|at]] each stage, these systems leverage [[concepts/artificial-intelligence-models|machine learning models]] to handle tasks such as scriptwriting, visual composition, and [[concepts/software-performance|performance optimization]] based on audience engagement metrics.
 
 ## Core Components
 
-Systems of this type typically integrate multiple [[entities/ai-tools|AI tools]] to handle different aspects of the production pipeline. [[concepts/ai-assisted-coding|Claude Code]], an [[entities/ai-assistant|AI assistant]] capable of [[concepts/writing|writing]] and [[concepts/code-execution|executing code]], can automate technical tasks like video processing and data analysis. [[concepts/complementary-tools|Complementary tools]] like [[concepts/autonomous-program-improvement|Karpathy's Autoresearch]] provide capabilities for automated research and [[concepts/content-ideation|content ideation]], enabling the system to identify trending topics and generate relevant material without human intervention.
+Systems of this type typically integrate multiple [[entities/ai-tools|AI tools]] to handle different aspects of the production pipeline. [[concepts/ai-assisted-coding|Claude Code]], an [[entities/ai-assistant|AI assistant]] capable of [[concepts/writing|writing]] and [[concepts/code-execution|executing code]], can automate technical tasks like video processing and data analysis. [[concepts/complementary-tools|Complementary tools]] like [[concepts/autonomous-program-improvement|Karpathy's Autoresearch]] provide [[concepts/capabilities|capabilities]] for automated research and [[concepts/content-ideation|content ideation]], enabling the system to identify trending topics and generate relevant material without human intervention.
 
 ## Practical Application
 

@@ -11,12 +11,25 @@ tags:
 aliases:
   - "RAG performance"
   - "retrieval efficiency"
-summary: "This concept explores methods for optimizing retrieval-augmented generation through self-editing search agents and context-aware knowledge retrieval."
-updated: 2026-05-01
+summary: This concept explores methods for optimizing retrieval-augmented generation through self-editing search agents and context-aware knowledge retrieval.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Retrieval Performance
 
+Retrieval Performance refers to the effectiveness and efficiency of retrieving relevant information from [[concepts/knowledge-bases|knowledge bases]] in [[concepts/answer-generation|retrieval-augmented generation]] (RAG) systems. As [[concepts/agentic-ai|AI agents]] increasingly rely on [[concepts/external-knowledge|external knowledge]] sources to ground their [[concepts/responses|responses]], optimizing how information is located and selected becomes critical to overall system quality. Performance encompasses both the [[concepts/accuracy|accuracy]] of retrieved context and the computational [[concepts/cost|cost]] of the retrieval process.
+
+## Self-Editing Search Agents
+
+[[concepts/self-editing-search-agents|Self-editing search agents]] improve retrieval by iteratively refining queries and evaluating retrieved results. Rather than executing a single search pass, these agents examine whether the initially retrieved documents adequately address the query, then reformulate searches or adjust selection criteria as needed. This approach reduces irrelevant context from reaching downstream language [[concepts/models|models]], which can otherwise degrade response quality and increase processing costs.
+
+## Context-Aware Retrieval
+
+[[concepts/context-aware-knowledge-retrieval|Context-aware knowledge retrieval]] systems consider the broader conversation state, task requirements, and semantic [[concepts/relationships|relationships]] between documents when selecting information. By moving beyond simple keyword or embedding-based matching, these systems can identify relevant context that might not contain direct term overlap with a query. This becomes particularly important in multi-turn [[entities/agent|agent]] interactions where earlier context constrains what information is actually useful for subsequent steps.
+
+## Practical Implications
+
+Improvements in retrieval performance directly impact system efficiency and [[concepts/software-reliability|reliability]]. More precise retrieval reduces unnecessary context passed to language models, lowering latency and [[concepts/token-consumption|token consumption]]. Simultaneously, better-selected context improves answer quality by ensuring agents access genuinely relevant information rather than noise from the [[concepts/knowledge-base|knowledge base]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]]
 - 2026-04-08: [[lab-notes/2026-04-08-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]]

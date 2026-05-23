@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "vanishing-gradient"
   - "exploding-gradient"
@@ -13,7 +12,8 @@ aliases:
   - "gradient problem"
   - "Tesla multiplication-to-addition patent"
 summary: This page discusses the vanishing and exploding gradient problem and Tesla's AI patent involving a multiplication to addition breakthrough.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Vanishing/Exploding Gradient
 
@@ -23,6 +23,6 @@ This problem is especially acute in recurrent [[concepts/neural-networks|neural 
 
 ## Multiplication to Addition Approach
 
-Tesla's AI patent proposes a structural modification that converts multiplication operations into addition operations during gradient computation. Since adding numbers does not suffer from the same exponential [[concepts/computational-scaling|scaling]] effects as multiplication, this approach can mitigate both vanishing and exploding gradient problems. The conversion preserves the network's computational capability while altering how information propagates backward through layers during training.
+[[entities/tesla|Tesla]]'s AI patent proposes a structural modification that converts multiplication operations into addition operations during gradient computation. Since adding numbers does not suffer from the same exponential [[concepts/computational-scaling|scaling]] effects as multiplication, this approach can mitigate both vanishing and exploding gradient problems. The conversion preserves the network's computational capability while altering how information propagates backward through layers during training.
 
-This design principle represents a shift in how gradient flow is managed architecturally, rather than relying solely on techniques like gradient clipping, normalization layers, or careful weight initialization that have traditionally addressed these issues.
+This [[concepts/design|design]] principle represents a shift in how gradient [[concepts/flow|flow]] is managed architecturally, rather than relying solely on techniques like gradient clipping, normalization layers, or careful weight initialization that have traditionally addressed these issues.

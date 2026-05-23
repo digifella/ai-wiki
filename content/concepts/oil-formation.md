@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "petroleum-formation"
   - "coal-formation"
@@ -13,7 +12,8 @@ aliases:
   - "Fossil Fuel Formation"
   - "Hydrocarbon Genesis"
 summary: Oil and coal were formed during a high oxygen period that caused rocks to oxidize, contributing to the geological features of the red centre of Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Oil Formation
 
@@ -26,7 +26,6 @@ The elevated oxygen levels of this period caused widespread [[concepts/rock-oxid
 ## Significance for Understanding Geology
 
 The temporal clustering of oil and coal deposits in a single geological epoch demonstrates how atmospheric composition directly influences the types of deposits that form in the rock record. Once oxygen levels changed following the High Oxygen Period, the environmental conditions suitable for coal and oil formation no longer existed, which explains why these fossil fuel deposits are restricted to rocks of this specific age rather than being distributed throughout Earth's geological history.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)
 - 2026-04-11: [[lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea|Cerberean Supervolcano Discovery Geology and Explosive History Northea]] · [▶ source](https://www.youtube.com/watch?v=ek0ASprm3Mw)

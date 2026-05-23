@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: apis-integrations-mcp
 tags:
   - "concept"
   - "automation-connectors"
@@ -12,7 +11,8 @@ tags:
 aliases:
   - "chatgpt-workspace-agents"
 summary: Integration tools for automating business processes using ChatGPT Workspace Agents and Gemini 2.5 Flash.
-updated: 2026-05-01
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Automation Connectors
 
@@ -20,14 +20,13 @@ Automation Connectors are integration tools designed to link [[concepts/business
 
 ## Key Components
 
-ChatGPT Workspace Agents represent a significant shift in business [[concepts/automation|automation]] by embedding [[concepts/capabilities|AI capabilities]] directly into team workflows. These [[concepts/agents|agents]] can interpret [[concepts/instructions|instructions]], execute connected processes, and return results—effectively extending team capacity for repetitive work. The connectors enabling this integration standardize how agents interact with existing business tools and databases.
+[[entities/make|ChatGPT Workspace Agents]] represent a significant shift in business [[concepts/automation|automation]] by embedding [[concepts/capabilities|AI capabilities]] directly into team workflows. These [[concepts/agents|agents]] can interpret [[concepts/instructions|instructions]], execute connected processes, and return results—effectively extending team capacity for repetitive work. The connectors enabling this integration standardize how agents interact with existing business tools and databases.
 
-Gemini 2.5 Flash provides an alternative API layer for automation, offering different performance characteristics and integration patterns. The availability of multiple AI backends through unified connectors allows organizations to choose models based on specific use case requirements, cost considerations, and latency constraints.
+[[entities/gemini-25-flash|Gemini 2.5 Flash]] provides an alternative API layer for automation, offering different performance characteristics and integration patterns. The availability of multiple AI backends through unified connectors allows organizations to choose [[concepts/models|models]] based on specific use case requirements, [[concepts/cost|cost]] considerations, and latency constraints.
 
 ## Practical Application
 
-Automation Connectors reduce implementation [[concepts/friction|friction]] by providing pre-built pathways to common business systems rather than requiring bespoke [[concepts/integration|API integration]] for each workflow. This approach accelerates [[concepts/deployment|deployment]] timelines and lowers technical barriers for teams adopting AI-driven automation, making advanced process optimization accessible beyond specialized technical departments.
-
+Automation Connectors reduce implementation [[concepts/friction|friction]] by providing pre-built pathways to common business systems rather than requiring bespoke [[concepts/integration|API integration]] for each [[concepts/workflow|workflow]]. This approach accelerates [[concepts/deployment|deployment]] timelines and lowers technical barriers for teams adopting AI-driven automation, making advanced [[concepts/workflow-enhancements|process optimization]] accessible beyond specialized technical departments.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

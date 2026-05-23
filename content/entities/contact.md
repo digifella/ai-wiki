@@ -1,26 +1,16 @@
 ---
 type: entity
-tags:
-  - "science-fiction"
-  - "religion"
-  - "mathematics"
-  - "carl-sagan"
-  - "richard-dawkins"
-  - "intelligent-design"
-  - "pi"
-aliases:
-  - "Contact (novel)"
-summary: "Carl Sagan's novel *Contact* explores the concept of an intelligently designed pattern within the digits of Pi."
-updated: 2026-04-13
+summary: Carl Sagan's novel *Contact* explores the concept of an intelligently designed pattern within the digits of Pi.
+updated: 2026-05-23
 ---
 # Contact
 
-In [[entities/carl-sagan|Carl Sagan]]'s science fiction novel *Contact*, the concept of "God's Signature" in Pi is explored as a hypothetical scenario where an intelligently designed pattern is discovered within the mathematical constant. [[entities/richard-dawkins|Richard Dawkins]] discusses this idea, connecting it to debates on intelligent [[concepts/design|design]] and religious belief.
+In [[entities/carl-sagan|Carl Sagan]]'s [[concepts/science|science]] fiction novel *Contact*, the concept of "God's Signature" in Pi is explored as a hypothetical scenario where an intelligently designed pattern is discovered within the mathematical constant. [[entities/richard-dawkins|Richard Dawkins]] discusses this idea, connecting it to debates on intelligent [[concepts/design|design]] and religious belief.
 
 - The protagonist [[concepts/integrity|character]] ([[entities/ellie-arroway|Ellie Arroway]]) investigates messages embedded in [[concepts/transcendental-numbers|transcendental numbers]] left by an [[concepts/advanced-intelligence|advanced intelligence]].
 - This involves finding a specific sequence of ones and zeros within the [[concepts/base-11-representation|base 11 representation]] of $\pi$.
 
-- **Clip title:** A Very Interesting Story of Revelation in Carl Sagan's Science Fiction Novel, Contact.
+- **[[concepts/clip-title|Clip title]]:** A Very Interesting Story of Revelation in Carl Sagan's Science Fiction Novel, Contact.
 - **Author / channel:** The Poetry of Reality with [[entities/richard-dawkins|Richard Dawkins]]
 - **URL:** https://youtube.com/shorts/1UFdE-CCUk?si=WeLQ4MM1fUZCIViH
 
@@ -31,12 +21,11 @@ In [[entities/carl-sagan|Carl Sagan]]'s science fiction novel *Contact*, the con
 - [[entities/carl-sagan]]
 - [[concepts/intelligent-design]]
 - Pi (mathematical constant)
-- Religion and Science
+- Religion and [[concepts/science|Science]]
 
 2026 04 13 Patterns in pi in Contact
 
 [[concepts/date-2026-04-13|2026]] 04 13 Sagans Contact Gods Si
-
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)
 - 2026-04-11: [[lab-notes/2026-04-11-Eric-Kims-Perfect-Dak-Bulgogi-Quick-Korean-BBQ-Chicken-Recipe|Eric Kims Perfect Dak Bulgogi Quick Korean BBQ Chicken Recipe]] · [▶ source](https://www.youtube.com/watch?v=7k8Yf1UEJOs)

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: cosmology-space
-group: cosmology-astrophysics
+domain: science-physics
 tags:
   - "concept"
   - "dark-matter"
@@ -13,7 +12,8 @@ aliases:
   - "Dark Matter WIMPs"
   - "WIMP Annihilation"
 summary: WIMPs (Weakly Interacting Massive Particles) are dark matter candidates that may produce detectable gamma-ray signals through annihilation in the Milky Way.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Wimps
 
@@ -21,12 +21,11 @@ WIMPs ([[concepts/wimp-particles|Weakly Interacting Massive Particles]]) are hyp
 
 ## Detection Methods
 
-Scientists search for WIMPs through multiple approaches. Direct detection experiments attempt to observe WIMP collisions with atomic nuclei in underground detectors shielded from [[concepts/cosmic-rays|cosmic rays]]. Indirect detection focuses on observing the products of [[concepts/particle-annihilation|WIMP annihilation]], particularly gamma-ray emissions from regions of high dark matter concentration such as the galactic center and other parts of the [[concepts/milky-way|Milky Way]]. These [[concepts/annihilation-signals|annihilation signals]] would occur where WIMPs accumulate most densely in space.
+Scientists search for WIMPs through multiple approaches. Direct detection experiments attempt to observe [[concepts/wimp|WIMP]] collisions with atomic nuclei in underground detectors shielded from [[concepts/cosmic-rays|cosmic rays]]. Indirect detection focuses on observing the products of [[concepts/particle-annihilation|WIMP annihilation]], particularly gamma-ray emissions from regions of high dark matter concentration such as the [[concepts/galactic-center|galactic center]] and other parts of the [[concepts/milky-way|Milky Way]]. These [[concepts/annihilation-signals|annihilation signals]] would occur where WIMPs accumulate most densely in space.
 
 ## Status and Significance
 
 Despite decades of experimental effort, WIMPs have not been conclusively detected, though various experiments continue to search with increasing sensitivity. The WIMP hypothesis remains one of the leading dark matter theories, alongside alternative candidates like axions and [[concepts/primordial-black-hole|primordial black holes]]. The search for WIMPs is significant because confirming their existence would explain a fundamental mystery about the universe's composition and [[concepts/structure|structure]].
-
 ## Source Notes
 - 2026-04-14: Katie Mack
 - 2026-04-24: Dark Matter WIMP · [▶ source](https://www.youtube.com/watch?v=Sxyps-CIr8A)

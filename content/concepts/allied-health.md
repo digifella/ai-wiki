@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "concept"
   - "allied-health"
@@ -11,16 +10,17 @@ tags:
 aliases:
   - "Allied Healthcare"
 summary: Wearable devices equipped with embedded sensors are being used within allied health.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Allied Health
 
-Allied health refers to a diverse group of [[concepts/health|health]] professions that support and work alongside doctors and nurses in delivering patient care. These professions include physiotherapy, occupational therapy, speech pathology, podiatry, psychology, dietetics, and numerous other specialties. Allied health professionals focus on [[concepts/preventive-care|prevention]], diagnosis, treatment, and rehabilitation across physical, mental, and [[concepts/social-well-being|social health]] domains. They typically comprise a significant portion of the healthcare workforce and operate across hospitals, clinics, community services, and private practices.
+[[entities/allied-health|Allied health]] refers to a diverse group of health professions that support and work alongside doctors and nurses in delivering patient care. These professions include physiotherapy, occupational therapy, speech pathology, podiatry, [[concepts/psychology|psychology]], dietetics, and numerous other specialties. Allied health professionals focus on [[concepts/preventive-care|prevention]], diagnosis, treatment, and rehabilitation across physical, mental, and [[concepts/social-well-being|social health]] domains. They typically comprise a significant portion of the [[concepts/health|healthcare]] workforce in most developed healthcare systems.
 
-## Role in Healthcare Systems
+## Role in Patient Care
 
-Allied health professionals provide specialized services that address specific functional and health needs beyond the scope of medical doctors and nursing staff. Their interventions often involve hands-on therapy, behavioral support, or functional assessment. The scope of practice for each profession is defined by regulatory bodies and professional [[concepts/open-standards|standards]], which vary by country and region. Allied health practitioners frequently work as part of multidisciplinary teams, contributing distinct expertise to patient management and [[concepts/rehabilitation-planning|rehabilitation planning]].
+Allied health professionals work across multiple settings including hospitals, clinics, [[concepts/community-health|community health]] centers, and private practice. Their interventions often target functional improvement and [[concepts/quality-of-life|quality of life]], with many professions emphasizing patient independence and self-management. The breadth of allied health means practitioners address specialized needs—from restoring mobility after injury to managing swallowing disorders to optimizing [[concepts/nutrition|nutrition]] for chronic conditions.
 
 ## Technology Integration
 
-[[concepts/wearable-devices|Wearable devices]] equipped with [[concepts/embedded-sensors|embedded sensors]] are increasingly being adopted within allied health practice. These devices can track metrics such as [[concepts/exercise|movement]], posture, activity levels, and vital signs, providing objective data to support assessment and monitor patient progress. Physiotherapists use [[concepts/internet-of-things|wearables]] to analyze gait and movement patterns, while occupational therapists may employ them to monitor activity levels and functional recovery. The integration of sensor data into clinical practice supports evidence-based decision-making and enables remote monitoring of patients in community and home settings.
+[[concepts/wearable-devices|Wearable devices]] equipped with [[concepts/embedded-sensors|embedded sensors]] are increasingly being used within allied health practice. These technologies enable remote monitoring of patient progress, objective measurement of movement and [[concepts/exercise|physical activity]], and real-time [[concepts/feedback|feedback]] during rehabilitation. [[concepts/internet-of-things|Wearables]] support both [[concepts/clinical-reasoning|clinical decision-making]] and patient engagement by providing quantifiable data about functional capacity and recovery trajectories, though [[concepts/integration|integration]] of these tools into routine practice continues to evolve.

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: film-tv-streaming
 tags:
   - "ffmpeg"
   - "command-line-tools"
@@ -11,11 +10,12 @@ aliases:
   - "FFmpeg"
   - "FFmpeg Library"
 summary: A guide to using the FFmpeg command-line library.
-updated: 2026-05-01
+updated: 2026-05-23
+group: film-tv-streaming
 ---
 # Netflix
 
-Netflix is a subscription-based streaming entertainment service that offers a vast library of films, television series, documentaries, and interactive content. Founded in 1997 as a DVD rental service, Netflix transitioned to streaming in 2007 and has since become one of the world's largest media and entertainment companies. The platform operates globally across multiple regions, offering localized content and supporting numerous languages and subtitle options.
+[[entities/netflix|Netflix]] is a subscription-based streaming entertainment service that offers a vast library of films, television series, documentaries, and interactive content. Founded in 1997 as a DVD rental service, Netflix transitioned to streaming in 2007 and has since become one of the world's largest media and entertainment companies. The platform operates globally across multiple regions, offering localized content and supporting numerous languages and subtitle options.
 
 The service uses algorithmic recommendation systems to suggest content based on user viewing history and preferences. Netflix produces original content across various genres and has become a major producer of films and television series, competing with traditional studios. The platform supports multiple simultaneous streams depending on subscription tier, allowing different household members to watch different content concurrently.
 

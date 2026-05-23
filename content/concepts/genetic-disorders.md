@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "genetic-disorders"
@@ -14,7 +13,8 @@ aliases:
   - "hereditary-diseases"
   - "genetic-conditions"
 summary: Genetic disorders are heritable conditions explored through gene-editing technologies like CRISPR and successor approaches developed by researchers such as Feng Zhang.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Genetic Disorders
 
@@ -26,7 +26,6 @@ Genetic disorders are often categorized by inheritance pattern: autosomal domina
 
 ## Treatment and Research
 
-Historically, genetic disorder management focused on symptom treatment and genetic [[concepts/offering-counseling-services|counseling]]. Modern approaches increasingly employ gene-editing technologies, most notably [[concepts/crispr|CRISPR]]-Cas9, which allows researchers to directly modify or correct genetic sequences. Scientists like [[entities/dr-feng-zhang|Feng Zhang]] have contributed to developing and refining these technologies, expanding their precision and potential [[concepts/software|applications]]. Beyond CRISPR, ongoing research explores other therapeutic approaches including gene therapy, RNA-based treatments, and successor gene-editing platforms designed to address limitations of earlier technologies.
-
+Historically, genetic disorder management focused on symptom treatment and genetic [[concepts/offering-counseling-services|counseling]]. Modern approaches increasingly employ [[concepts/gene-editing|gene-editing]] technologies, most notably [[concepts/crispr|CRISPR]]-Cas9, which allows researchers to directly modify or correct genetic sequences. Scientists like [[entities/dr-feng-zhang|Feng Zhang]] have contributed to developing and refining these technologies, expanding their precision and potential [[concepts/software|applications]]. Beyond CRISPR, ongoing research explores other therapeutic approaches including gene therapy, RNA-based treatments, and successor gene-editing platforms designed to address limitations of earlier technologies.
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

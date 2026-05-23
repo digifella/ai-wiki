@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: anthropic-claude
 tags:
   - "claude-code"
   - "community-tools"
@@ -13,20 +12,20 @@ aliases:
   - "Claude Code Updates"
   - "Anthropic Tools"
 summary: Updates regarding Anthropic's Claude Code features, community-built tools, and mobile accessibility.
-updated: 2026-05-01
+updated: 2026-05-23
+group: anthropic-claude
 ---
 # Anthropic Features
 
-[[entities/anthropic-institute|Anthropic]] has expanded [[concepts/claude-ai|Claude]]'s capabilities through the development of [[concepts/ai-assisted-coding|Claude Code]], a feature enabling the [[entities/ai-assistant|AI assistant]] to write, execute, and iterate on code across various programming tasks. This functionality allows Claude to work with local files and automate workflows, extending its utility beyond conversational interaction into practical development and [[concepts/automation|automation]] [[concepts/scenarios|scenarios]]. The feature supports multiple programming languages and environments, making it applicable to a range of technical tasks from script development to system automation.
+[[entities/anthropic-institute|Anthropic]] has expanded [[concepts/claude-ai|Claude]]'s [[concepts/capabilities|capabilities]] through the development of [[concepts/ai-assisted-coding|Claude Code]], a feature enabling the [[concepts/ai-assistant|AI assistant]] to write, execute, and iterate on code across various programming tasks. This functionality allows Claude to work with local [[concepts/files|files]] and automate workflows, extending its utility beyond conversational interaction into practical development and [[concepts/automation|automation]] [[concepts/scenarios|scenarios]]. The feature supports multiple programming languages and enables [[concepts/iterative-refinement|iterative refinement]] of code based on execution results.
 
-## Community-Built Tools
+## Community Tools and Integrations
 
-Beyond its core offerings, Anthropic has fostered an ecosystem where community developers can create and share tools that extend Claude's functionality. These integrations allow Claude to interact with external services and custom [[concepts/software|applications]], enabling users to tailor the assistant's capabilities to specific use cases and workflows.
+Beyond core features, Anthropic has facilitated the development of [[concepts/community-built-tools|community-built tools]] that extend Claude's functionality. These third-party integrations and extensions allow users to customize Claude's behavior for specific [[concepts/use-cases|use cases]] and integrate the assistant into existing workflows and [[concepts/software|applications]]. This ecosystem approach enables broader [[concepts/adoption|adoption]] across different professional and technical domains.
 
-## Mobile and Platform Accessibility
+## Mobile and Cross-Platform Access
 
-Anthropic has worked to make Claude accessible across multiple platforms, including mobile devices. This expansion reflects an effort to reach users beyond desktop environments and integrate Claude into a broader range of computing contexts and daily workflows.
-
+Anthropic has worked to improve [[concepts/accessibility|accessibility]] to Claude across different platforms and devices. Efforts to expand mobile accessibility ensure users can interact with Claude's features beyond desktop environments, though the full extent of Claude Code's capabilities on mobile platforms remains limited compared to [[concepts/classical-computing|traditional computing]] environments.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-CoWork-Automating-Workflows-with-Local-File-Access-and-AI|Claude CoWork Automating Workflows with Local File Access and AI]] · [▶ source](https://www.youtube.com/watch?v=_ZpZ1cB67_Y)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

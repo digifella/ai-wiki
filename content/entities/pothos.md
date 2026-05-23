@@ -9,7 +9,7 @@ aliases:
   - "Devil's Ivy"
   - "Epipremnum aureum"
 summary: Pothos is an indoor plant that can thrive in water without the use of soil.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Pothos
 
@@ -17,7 +17,7 @@ Pothos is a popular indoor houseplant known for its ability to grow in water wit
 
 ## Growth and Care
 
-Pothos can be grown hydroponically by placing cuttings or rooted plants directly in water. The plant develops roots readily in water and can sustain growth indefinitely with periodic changes to maintain water quality. It tolerates a wide range of light conditions, though it typically performs best in moderate to bright indirect light. The plant grows relatively quickly under suitable conditions, with new leaves emerging regularly.
+Pothos can be grown hydroponically by placing cuttings or rooted plants directly in water. The plant develops roots readily in water and can sustain growth indefinitely with periodic changes to maintain water quality. It tolerates a wide [[concepts/range|range]] of [[concepts/light|light]] conditions, though it typically performs best in moderate to bright indirect light. The plant grows relatively quickly under suitable conditions, with new leaves emerging regularly.
 
 ## Uses
 

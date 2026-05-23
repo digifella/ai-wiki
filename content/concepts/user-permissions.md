@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "security"
-  - "permissions"
-  - "identity"
-  - "access-control"
-  - "identity-management"
-  - "role-based-access-control"
-  - "permission-granularity"
-  - "agentic-systems"
-aliases:
-  - "access rights"
-  - "user privileges"
-summary: "User permissions define the access rights and privileges granted to a user or group within a system to determine permissible actions."
-updated: 2026-04-18
+summary: User permissions define the access rights and privileges granted to a user or group within a system to determine permissible actions.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # User permissions
@@ -23,18 +11,17 @@ User permissions define the access rights and privileges granted to a user or gr
 
 ## Key Challenges
 - **[[concepts/identity-propagation|Identity Propagation]]**: Maintaining consistent user identity across distributed components in [[concepts/agentic-frameworks|agentic systems]].
-- **User Permissions**: Determining and enforcing appropriate permissions across [[concepts/complex-workflows|complex workflows]] in [[concepts/generative-ai]] and [[concepts/rag]]-based systems (as highlighted in IBM agentic [[concepts/security|security]]).
+- **User Permissions**: Determining and enforcing appropriate permissions across [[concepts/complex-workflows|complex workflows]] in [[concepts/generative-ai]] and [[concepts/rag]]-based systems (as highlighted in [[entities/ibm|IBM]] agentic [[concepts/security|security]]).
 - **Permission Granularity**: Balancing [[concepts/secure|security]] with usability when defining permission scopes.
 
 ## Related Concepts
 - Identity management
-- Access control
-- Role-based access control
+- Access [[concepts/power|control]]
+- Role-based access [[concepts/power|control]]
 - [[concepts/zero-trust]]
 - [[concepts/authentication|Authentication]]
 
-2026 04 14 IBM [[concepts/agentic-security|agentic security]]
-
+2026 04 14 [[entities/ibm|IBM]] [[concepts/agentic-security|agentic security]]
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

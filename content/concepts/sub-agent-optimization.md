@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "sub-agents"
   - "context-engineering"
@@ -13,11 +12,12 @@ aliases:
   - "Sub-Agent Best Practices"
   - "Claude Code Sub-Agent Optimization"
 summary: This concept covers best practices and common pitfalls for optimizing sub-agents within Claude Code using context engineering.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Sub Agent Optimization
 
-[[concepts/context-overload|Sub-agent optimization]] within [[concepts/ai-assisted-coding|Claude Code]] involves strategic use of [[concepts/external-knowledge|context engineering]] to improve performance and reduce computational overhead. When implementing sub-[[concepts/agents|agents]], developers must balance [[concepts/leadership|task delegation]] with the costs of maintaining separate agent instances and managing inter-agent communication. Poorly optimized sub-agent implementations can introduce unnecessary latency and increased [[concepts/token-consumption|token consumption]] without proportional gains in capability or response quality.
+[[concepts/context-overload|Sub-agent optimization]] within [[concepts/ai-assisted-coding|Claude Code]] involves strategic use of [[concepts/external-knowledge|context engineering]] to improve performance and reduce computational overhead. When implementing sub-[[concepts/agents|agents]], developers must balance [[concepts/leadership|task delegation]] with the costs of maintaining separate [[entities/agent|agent]] instances and managing inter-agent communication. Poorly optimized sub-agent implementations can introduce unnecessary latency and increased [[concepts/token-consumption|token consumption]] without proportional gains in capability or response quality.
 
 ## Context Engineering for Sub-Agents
 
@@ -25,8 +25,7 @@ Effective sub-agent optimization depends on carefully engineered context that pr
 
 ## Common Implementation Pitfalls
 
-A frequent mistake in early sub-agent implementations is creating sub-agents too readily or for tasks that don't genuinely benefit from delegation. Not all problems require multiple agents; in many cases, a well-designed single agent with appropriate context performs better and consumes fewer [[concepts/tokens|tokens]]. Additionally, insufficient monitoring of sub-agent interactions can create compounding errors, where mistakes from one agent propagate to others. Developers should establish clear evaluation criteria before implementing sub-agents to ensure they solve genuine bottlenecks rather than adding unnecessary complexity.
-
+A frequent mistake in early sub-agent implementations is creating [[concepts/sub-agents|sub-agents]] too readily or for tasks that don't genuinely benefit from delegation. Not all problems require multiple agents; in many cases, a well-designed single agent with appropriate context performs better and consumes fewer [[concepts/tokens|tokens]]. Additionally, insufficient monitoring of sub-agent interactions can create compounding errors, where mistakes from one agent propagate to others. Developers should establish clear evaluation criteria before implementing sub-agents to ensure they solve genuine bottlenecks rather than adding unnecessary complexity.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-10: [[lab-notes/2026-04-10-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)

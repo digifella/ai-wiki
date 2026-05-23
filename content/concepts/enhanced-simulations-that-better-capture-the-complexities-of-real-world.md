@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "simulation"
   - "real-world-complexity"
@@ -12,11 +11,12 @@ aliases:
   - "High-Fidelity Simulations"
   - "Realistic World Modeling"
 summary: Simulation systems designed to more accurately represent the complexities and interactions found in physical world environments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Enhanced Simulations That Better Capture The Complexities Of Real World
 
-Enhanced simulations are computational tools designed to more faithfully represent the multifaceted behaviors and interactions present in physical environments. Rather than relying on simplified models or reduced parameter sets, these systems incorporate greater fidelity in their representation of physical phenomena, environmental conditions, and system interactions. This allows researchers and engineers to test hypotheses, validate designs, and predict outcomes with greater confidence before implementation in real-world settings.
+Enhanced simulations are computational tools designed to more faithfully represent the multifaceted behaviors and interactions present in physical environments. Rather than relying on simplified [[concepts/models|models]] or reduced parameter sets, these systems incorporate greater fidelity in their representation of physical phenomena, environmental conditions, and system interactions. This allows researchers and engineers to test hypotheses, validate designs, and predict outcomes with greater confidence before [[concepts/adoption|implementation]] in real-world settings.
 
 ## Applications and Context
 

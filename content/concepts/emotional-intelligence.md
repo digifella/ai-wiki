@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: resilience-mental-performance-pain
 tags:
   - "emotional-intelligence"
   - "self-awareness"
@@ -16,7 +15,8 @@ aliases:
   - "emotional quotient"
   - "social-emotional intelligence"
 summary: The capacity to recognize, understand, and manage emotions in oneself and others.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Emotional Intelligence
 
@@ -28,8 +28,7 @@ Emotional intelligence typically involves four interrelated abilities: self-awar
 
 ## Relevance to Wellbeing
 
-Research has linked emotional intelligence to various health and wellbeing outcomes, including [[concepts/stress-management|stress management]], relationship satisfaction, and [[concepts/mental-health|mental health]] [[concepts/resilience|resilience]]. Individuals with higher emotional intelligence tend to make more effective decisions during emotionally charged situations and maintain more stable interpersonal [[concepts/relationships|relationships]]. The development of emotional intelligence [[concepts/skills|skills]] can support both individual psychological wellbeing and broader social functioning.
-
+Research has linked emotional intelligence to various health and [[concepts/wellbeing|wellbeing]] outcomes, including [[concepts/stress-management|stress management]], relationship satisfaction, and [[concepts/mental-health|mental health]] [[concepts/resilience|resilience]]. Individuals with higher emotional intelligence tend to [[entities/make|make]] more effective decisions during emotionally charged situations and maintain more stable interpersonal [[concepts/relationships|relationships]]. The development of emotional intelligence [[concepts/skills|skills]] can support both individual psychological wellbeing and broader social functioning.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-11: [[lab-notes/2026-04-11-Tony-Robbins-Five-Elements-Understanding-Personalities-to-Enhance-Infl|Tony Robbins Five Elements Understanding Personalities to Enhance Infl]] · [▶ source](https://www.youtube.com/watch?v=nyRnnn82ATg)

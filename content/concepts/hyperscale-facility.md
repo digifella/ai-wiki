@@ -1,13 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "hyperscale-facility"
-  - "data-center"
-  - "water-footprint"
-  - "ai"
-  - "cooling-challenges"
-updated: 2026-04-14
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Hyperscale Facility Concept
@@ -15,13 +9,13 @@ group: platforms-runtimes-environments
 A hyperscale facility refers to [[concepts/hyperscale-data-centers|large-scale data centers]] that are designed and built to accommodate the massive infrastructure requirements of [[concepts/cloud-based-services|cloud computing services]] and other high-demand [[concepts/software|applications]]. These facilities are characterized by their significant capacity, efficiency, and technological sophistication.
 
 ## Key Characteristics
-- **Capacity**: Can range from several thousand servers up to hundreds of thousands.
+- **Capacity**: Can [[concepts/range|range]] from several thousand servers up to hundreds of thousands.
 - **Efficiency**: Utilizes advanced technologies for [[concepts/energy-efficiency|energy efficiency]], such as liquid [[concepts/cooling-systems|cooling systems]].
 - **Scalability**: Designed to scale easily with increasing demand without major infrastructure changes.
 - **[[concepts/software-reliability|Reliability]]**: High [[concepts/uptime|uptime]] and redundancy features ensure continuous operation.
 
 ## Challenges
-- **Energy Consumption**: Hyperscale facilities consume vast amounts of electrical power, often leading to sustainability concerns.
+- **Energy Consumption**: Hyperscale facilities consume vast amounts of electrical [[concepts/power|power]], often leading to sustainability concerns.
 - **Environmental Impact**: Besides energy use, these centers also have a substantial environmental footprint due to water usage for cooling purposes. 2026 04 13 [[concepts/data-center-water-footprint|Data Center Water Footprint]] AI Booms Growing Consumption Cooling Chall
 
 ## Related Concepts

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "local-ai"
   - "personal-assistant"
@@ -15,7 +14,8 @@ aliases:
   - "OpenClaw Framework"
   - "Local AI Assistant Architecture"
 summary: OpenClaw is a local AI personal assistant architecture featuring automated pipelines and specific setup workflows.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Local Ai Framework
 
@@ -23,12 +23,11 @@ updated: 2026-05-01
 
 ## Architecture and Setup
 
-OpenClaw's architecture emphasizes specific setup workflows that establish the foundation for [[concepts/automated-task-execution|automated task execution]]. Rather than relying on cloud-based services, the framework operates on [[concepts/local-infrastructure|local infrastructure]], allowing for greater control over data processing and system configuration. The setup process defines how components integrate and how information flows through the various stages of task execution.
+[[concepts/conversational-chatbots|OpenClaw]]'s architecture emphasizes specific [[concepts/setup|setup]] workflows that establish the foundation for [[concepts/automated-task-execution|automated task execution]]. Rather than relying on [[concepts/cloud-based-services|cloud-based services]], the framework operates on [[concepts/local-infrastructure|local infrastructure]], allowing for greater [[concepts/power|control]] over data processing and system configuration. The [[concepts/setup-process|setup process]] defines how components integrate and how information flows through the various stages of task execution.
 
 ## Automated Pipelines
 
-The framework implements automated pipelines that handle [[concepts/recurring-tasks|recurring tasks]] and workflows without continuous manual intervention. These pipelines are configured during the initial setup phase and can process various types of requests by routing them through appropriate processing stages. This [[concepts/automation|automation]] layer enables the system to handle multiple concurrent operations while maintaining consistent execution patterns.
-
+The framework implements automated pipelines that handle [[concepts/recurring-tasks|recurring tasks]] and workflows without continuous manual intervention. These pipelines are configured during the initial setup [[concepts/phase|phase]] and can process various types of requests by routing them through appropriate processing stages. This [[concepts/automation|automation]] layer enables the system to handle multiple concurrent operations while maintaining consistent execution patterns.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Cowork-AI-Building-an-Efficient-Marketing-Content-System|Claude Cowork AI Building an Efficient Marketing Content System]] · [▶ source](https://www.youtube.com/watch?v=l1y3IeC_eJ0)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

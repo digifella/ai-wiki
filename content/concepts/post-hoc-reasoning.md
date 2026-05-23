@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "expert-systems"
   - "dreyfus-limitation"
@@ -12,7 +11,8 @@ aliases:
   - "Rationalization"
   - "After-the-fact justification"
 summary: The concept explores how the proposal by Dreyfus and Dreyfus foreshadowed limitations in the training of 1980s expert systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Post Hoc Reasoning
 
@@ -20,12 +20,11 @@ Post hoc reasoning refers to the practice of constructing [[concepts/explanation
 
 ## Connection to the Dreyfus Model
 
-The [[entities/dreyfus-and-dreyfus|Dreyfus and Dreyfus]] model of skill acquisition proposed that expertise develops through distinct stages, from novice to master, with increasing reliance on intuitive rather than rule-based processing. This framework foreshadowed a fundamental limitation in expert systems: while these systems could encode explicit rules and procedures, they struggled to capture or replicate the intuitive decision-making of human experts. When expert systems generated outputs, they often required post hoc rationalization—generating plausible-sounding explanations for conclusions that were actually derived through opaque processes rather than the transparent rule-following the systems purported to perform.
+The [[entities/dreyfus-and-dreyfus|Dreyfus and Dreyfus]] model of [[concepts/skill|skill]] acquisition proposed that expertise develops through distinct stages, from novice to master, with increasing reliance on intuitive rather than rule-based processing. This framework foreshadowed a fundamental limitation in expert systems: while these systems could encode explicit rules and procedures, they struggled to capture or replicate the intuitive [[concepts/decision-making|decision-making]] of human experts. When expert systems generated outputs, they often required post hoc rationalization—generating plausible-sounding explanations for conclusions that were actually derived through opaque processes rather than the transparent rule-following the systems purported to perform.
 
 ## Implications for Expert System Training
 
-The gap between how expert systems actually operated and how they could be explained highlighted problems in [[concepts/training|training]] methodologies. Developers attempting to distill expert knowledge into formal rules discovered that experts themselves often could not fully articulate their [[concepts/reasoning|reasoning]]. The systems thus relied on pattern-matching and heuristics that, while sometimes accurate, lacked genuine explanatory power. This meant that system outputs frequently required post hoc justification rather than deriving from clearly defined logical chains.
-
+The gap between how expert systems actually operated and how they could be explained highlighted problems in [[concepts/training|training]] methodologies. Developers attempting to distill expert knowledge into formal rules discovered that experts themselves often could not fully articulate their [[concepts/reasoning|reasoning]]. The systems thus relied on [[concepts/pattern-matching|pattern-matching]] and heuristics that, while sometimes accurate, lacked genuine explanatory [[concepts/power|power]]. This meant that system outputs frequently required post hoc justification rather than deriving from clearly defined logical chains.
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

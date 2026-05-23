@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "concept"
   - "data-backup"
@@ -13,11 +12,12 @@ aliases:
   - "data-backup-methods"
   - "ai-agent-export"
 summary: This guide details data backup strategies using Anti-Gravity AI Agent Data Export and GitHub Sync for control.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Data Backup Strategies
 
-Data backup strategies are systematic approaches to protecting digital information from loss, corruption, or unauthorized access. Effective backup practices form a critical component of security infrastructure by ensuring data can be recovered in the event of system failures, cyber incidents, or accidental deletion. The choice of backup strategy depends on factors including data sensitivity, recovery time requirements, [[entities/storage|storage]] capacity, and organizational [[concepts/policies|policies]].
+Data backup strategies are systematic approaches to protecting digital information from loss, corruption, or unauthorized access. Effective backup practices form a critical component of [[concepts/security|security]] infrastructure by ensuring data can be recovered in the event of system failures, cyber incidents, or accidental deletion. The choice of backup strategy depends on factors including data sensitivity, recovery time requirements, [[entities/storage|storage]] capacity, and organizational [[concepts/policies|policies]].
 
 ## Anti-Gravity AI Agent Data Export
 
@@ -25,8 +25,7 @@ One approach to [[concepts/data-backup|data backup]] involves exporting data fro
 
 ## GitHub Sync for Version Control
 
-Integrating backup strategies with version control systems like GitHub provides additional layers of control and auditability. By synchronizing critical data and configurations with a Git repository, organizations can maintain a complete history of changes, enable collaborative review, and leverage distributed storage across multiple locations. This approach is particularly effective for configuration files, documentation, and [[concepts/json-structuring|structured data]] that benefit from revision tracking.
-
+Integrating backup strategies with version [[concepts/power|control]] systems like [[entities/github|GitHub]] provides additional layers of control and auditability. By synchronizing critical data and configurations with a [[entities/git|Git]] repository, organizations can maintain a complete history of changes, enable collaborative review, and leverage distributed storage across multiple locations. This approach is particularly effective for configuration [[concepts/files|files]], documentation, and [[concepts/json-structuring|structured data]] that benefit from revision tracking.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)
 - 2026-04-13: [[lab-notes/2026-04-13-Photoshop-Lightroom-AI-Productivity-Tips-for-Photographers|Photoshop Lightroom AI Productivity Tips for Photographers]] · [▶ source](https://www.youtube.com/watch?v=TCV8KiZxWNM)

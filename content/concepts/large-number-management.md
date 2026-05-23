@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: maths-cryptography
 tags:
   - "concept"
   - "mathematics"
@@ -14,7 +13,8 @@ aliases:
   - "Numerical Systems"
   - "Mathematical Representation"
 summary: Exploration of how mathematics functions as a practical tool rather than inherent understanding, illustrated through Mayan numerical systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # Large Number Management
 
@@ -27,7 +27,6 @@ The gap between mathematical competence and conceptual understanding raises impo
 ## Modern Applications
 
 Contemporary challenges in computational systems—such as managing large numerical operations in machine [[concepts/learning|learning]] [[concepts/inference|inference]] and [[concepts/vram-optimization|memory optimization]]—reflect the same principle: effective management of large numbers requires systematic approaches and appropriate tools rather than necessarily implying deeper mathematical understanding. The practical success of various computational strategies suggests that mathematics continues to function primarily as a mechanism for organizing and manipulating information rather than as access to underlying reality.
-
 ## Source Notes
 - 2026-04-12: Richard Feynman on - [[concepts/philosophy|philosophy, Why question, Modern science and Mathematics.avi]]
 - 2026-04-22: LLM Inference · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)

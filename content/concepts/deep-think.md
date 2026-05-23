@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "reasoning"
-  - "deep-thinking"
-  - "gemini"
-updated: 2026-04-15
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Deep Think
@@ -15,7 +10,7 @@ A cognitive framework emphasizing systematic, multi-step [[concepts/reasoning|re
 
 ## Key Implementations
 
-* **[[concepts/gemini|Gemini]] 2.5 Pro [[concepts/deep-think-mode|Deep Think]]** mode: Google's latest AI capability leveraging cutting-edge research in [[concepts/human-cognition|thinking]] and [[concepts/reasoning|reasoning]], including [[concepts/parallel-thinking|Parallel thinking]] techniques. Achieved [[concepts/gold-medal-standard|gold-medal standard]] at the [[concepts/international-mathematical-olympiad|International Mathematical Olympiad]] (IMO) with a score of 24/25, demonstrating exceptional [[concepts/problem-solving|problem-solving]] in complex [[concepts/mathematical-reasoning|mathematical reasoning]].
+* **[[concepts/gemini|Gemini]] 2.5 Pro [[concepts/deep-think-mode|Deep Think]]** mode: [[concepts/google-search|Google]]'s latest AI capability leveraging cutting-edge research in [[concepts/human-cognition|thinking]] and [[concepts/reasoning|reasoning]], including [[concepts/parallel-thinking|Parallel thinking]] techniques. Achieved [[concepts/gold-medal-standard|gold-medal standard]] [[concepts/assistive-technology|at]] the [[concepts/international-mathematical-olympiad|International Mathematical Olympiad]] (IMO) with a score of 24/25, demonstrating exceptional [[concepts/problem-solving|problem-solving]] in complex [[concepts/mathematical-reasoning|mathematical reasoning]].
 * Designed for tasks demanding extended reasoning cycles and multi-faceted problem decomposition.
 
 ## Related Concepts
@@ -23,9 +18,8 @@ A cognitive framework emphasizing systematic, multi-step [[concepts/reasoning|re
 * [[concepts/parallel-thinking|Parallel thinking]]
 * Cognitive [[concepts/architecture|architecture]]
 
-Backlink: 2026 04 14 [[entities/gemini-pro|Gemini Pro]] Deep Think launch
+Backlink: 2026 04 14 [[entities/gemini-pro|Gemini Pro]] [[entities/deep-think|Deep Think]] launch
 Backlink: 2026 04 14 [[concepts/ai-consolidation|Gemini deep think]] [[entities/sam-witteveen|sam witteveen]]
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

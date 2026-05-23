@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "tool-orchestration"
@@ -13,11 +12,12 @@ aliases:
   - "orchestrating tools"
   - "tool coordination"
 summary: Technique for coordinating multiple tools and capabilities together, demonstrated through Google tools for marketing assistant creation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Tool Orchestration
 
-Tool orchestration is a technique for coordinating multiple [[concepts/specialized-tools|specialized tools]] and capabilities to work together toward a common objective. Rather than relying on a single monolithic system, tool orchestration distributes tasks across complementary platforms and services, with a central coordinator managing the workflow and data flow between them. This approach leverages the specific strengths of each tool while maintaining overall coherence in the process.
+Tool orchestration is a technique for coordinating multiple [[concepts/specialized-tools|specialized tools]] and capabilities to work together toward a common objective. Rather than relying on a single monolithic system, tool orchestration distributes tasks across complementary platforms and services, with a central coordinator managing the [[concepts/workflow|workflow]] and data [[concepts/flow|flow]] between them. This approach leverages the specific strengths of each tool while maintaining overall coherence in the process.
 
 ## Implementation Approaches
 
@@ -25,8 +25,7 @@ Tool orchestration can be implemented through various frameworks and platforms. 
 
 ## Context and Workflow Management
 
-Effective tool orchestration requires managing context across distributed tools and maintaining appropriate information flow. Sub-agents and [[concepts/context-management|context management]] techniques help prevent [[concepts/information-overload|information overload]] while ensuring each component has the specific data needed for its task. Output optimization and configuration settings allow orchestrators to tailor how tools communicate and format results for downstream consumers, supporting both individual contributor workflows and team-based [[concepts/software|applications]].
-
+Effective tool orchestration requires managing context across distributed tools and maintaining appropriate information flow. [[concepts/sub-agents|Sub-agents]] and [[concepts/context-management|context management]] techniques help prevent [[concepts/information-overload|information overload]] while ensuring each component has the specific data needed for its task. [[concepts/output|Output]] optimization and configuration settings allow orchestrators to tailor how tools communicate and format results for downstream consumers, supporting both individual contributor workflows and team-based [[concepts/software|applications]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

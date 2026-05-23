@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "architecture"
-  - "computing"
-  - "event-driven"
-  - "event-driven-architecture"
-  - "distributed-systems"
-  - "asynchronous-computing"
-  - "software-architecture"
-  - "decoupling-patterns"
-aliases:
-  - "EDA"
-  - "event-driven-design"
-summary: "An architectural pattern where the flow of execution is determined by the production and consumption of event objects to facilitate decoupled and scalable systems."
-updated: 2026-04-24
+summary: An architectural pattern where the flow of execution is determined by the production and consumption of event objects to facilitate decoupled and scalable systems.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Event-driven architecture
@@ -32,13 +20,12 @@ An architectural pattern where the [[concepts/flow|flow]] of execution is determ
 - **Event Consumers**: Services or entities that subscribe to events and execute logic based on their content.
 
 ## Implementation Examples
-- [[entities/openclaw]]: A system designed as a "pure and elegant" implementation of EDA.
+- [[entities/openclaw]]: A system designed as a "pure and elegant" [[concepts/adoption|implementation]] of EDA.
     - Uses a [[concepts/gateway|Gateway]] to function as a [[concepts/traffic-router|traffic router]].
     - Utilizes [[concepts/agentic-ai]] to house the core system logic.
 
 ---
 **Backlinks:**
 - 2026 04 14 [[entities/open-clawd|Open Clawd]] channel [[concepts/prompt-based-modeling|prompt engineering]]
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea|Cerberean Supervolcano Discovery Geology and Explosive History Northea]] · [▶ source](https://www.youtube.com/watch?v=ek0ASprm3Mw)

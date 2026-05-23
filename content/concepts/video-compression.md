@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "video"
-  - "compression"
-  - "tool"
-  - "video-compression"
-  - "video-encoding"
-  - "lossy-compression"
-  - "lossless-compression"
-  - "handbrake"
-aliases:
-  - "video-encoding"
-summary: "The process of reducing video file size through encoding techniques such as lossy and lossless compression."
-updated: 2026-04-18
+summary: The process of reducing video file size through encoding techniques such as lossy and lossless compression.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Video compression
@@ -34,7 +23,6 @@ Efficiently reducing video file size while preserving quality through [[concepts
 - [[concepts/solution|Resolution]]
 
 2026 04 14 Compressing Video
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "claude-code"
   - "best-practices"
@@ -12,16 +11,17 @@ aliases:
   - "Anthropic Applied AI Team"
   - "Claude Code Best Practices"
 summary: The Applied AI Team at Anthropic provides insights and best practices for using Claude Code.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Applied AI Team
 
-The Applied AI Team is a group at [[entities/anthropic-institute|Anthropic]] that helps developers and organizations effectively implement [[concepts/claude-ai|Claude]] in real-world [[concepts/software|applications]]. The team operates at the intersection of [[concepts/ai-research|AI research]] and practical [[concepts/deployment|deployment]], creating educational materials, conducting applied research, and documenting implementation patterns across different industries and [[concepts/scenarios|use cases]].
+The [[entities/applied-ai-team|Applied AI Team]] is a group at [[entities/anthropic-institute|Anthropic]] dedicated to helping developers and organizations implement [[concepts/claude-ai|Claude]] effectively in production environments. The team bridges the gap between [[concepts/ai-research|AI research]] and practical [[concepts/deployment|deployment]] by creating [[concepts/educational-resources|educational resources]], conducting applied research, and documenting [[concepts/adoption|implementation]] patterns across diverse industries and [[concepts/scenarios|use cases]].
 
-## Purpose and Focus
+## Focus Areas
 
-The team's primary function is to bridge the gap between Claude's capabilities and [[concepts/developer|developer]] needs. They provide guidance on using Claude's various tools and features, with particular emphasis on [[concepts/ai-assisted-coding|Claude Code]], which enables code generation and execution within Claude interactions. This work includes documenting [[concepts/best-practices|best practices]], creating tutorials, and sharing lessons learned from deployments in production environments.
+The team concentrates on [[concepts/ai-assisted-coding|Claude Code]] and broader [[concepts/developer|developer]] tools, providing guidance on [[concepts/integration|integration]], optimization, and [[concepts/best-practices|best practices]]. Their work includes publishing case studies, [[concepts/technical-documentation|technical documentation]], and implementation guides that address real-world challenges developers encounter when building [[concepts/ai-powered-applications|AI-powered applications]]. By studying how Claude performs across different domains and problem types, the team identifies effective patterns that benefit the broader developer community.
 
-## Role in the Anthropic Ecosystem
+## Role in Developer Support
 
-By focusing on practical application rather than core model research, the Applied AI Team helps ensure that Claude's capabilities translate effectively into user value. Their output informs both developers building with Claude and Anthropic's product decisions, creating [[concepts/feedback|feedback]] loops between implementation experience and capability development.
+Beyond documentation, the Applied AI Team contributes to Anthropic's developer relations efforts by gathering [[concepts/feedback|feedback]] from implementation work, identifying common pain points, and informing product development priorities. Their applied research helps validate Claude's [[concepts/capabilities|capabilities]] in practical contexts and informs recommendations for different use cases and architectural approaches.

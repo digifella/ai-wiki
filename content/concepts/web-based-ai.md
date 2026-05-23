@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "ai-tools"
   - "web-based-platforms"
@@ -11,7 +10,8 @@ aliases:
   - "Web AI"
   - "Browser-based AI"
 summary: AI systems and tools accessed through web browsers and internet-based platforms.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Web Based Ai
 
@@ -19,16 +19,15 @@ Web-based AI refers to [[concepts/ai-technologies|artificial intelligence]] syst
 
 ## Access and Delivery
 
-Web-based AI platforms typically operate through [[concepts/software|Software]]-as-a-Service (SaaS) models, where users connect to remote servers via standard web interfaces. This approach enables rapid [[concepts/deployment|deployment]] and updates without requiring users to manage installations or maintenance. The centralized [[entities/nature|nature]] of web-based AI allows providers to scale resources dynamically based on demand and maintain consistent versions across all users.
+Web-based AI platforms typically operate through [[concepts/software|Software]]-as-a-Service ([[concepts/saas|SaaS]]) [[concepts/models|models]], where users connect to remote servers via standard web interfaces. This approach enables rapid [[concepts/deployment|deployment]] and updates without requiring users to manage installations or maintenance. The centralized [[entities/nature|nature]] of web-based AI allows providers to scale resources dynamically based on demand and maintain consistent versions across all users.
 
 ## Common Applications
 
-Web-based [[entities/ai-tools|AI tools]] serve diverse purposes including content generation, data analysis, [[concepts/coding|coding]] assistance, and [[concepts/automation|automation]] of routine tasks. These platforms range from general-[[concepts/motivation|purpose]] AI assistants to [[concepts/specialized-tools|specialized tools]] designed for specific workflows, such as code integration with productivity applications or autonomous [[concepts/content-creation|content creation]] systems. The [[concepts/accessibility|accessibility]] of web-based interfaces has expanded AI [[concepts/adoption|adoption]] beyond specialized technical users to broader audiences.
+Web-based [[entities/ai-tools|AI tools]] serve diverse purposes including content generation, data analysis, [[concepts/coding|coding]] assistance, and [[concepts/automation|automation]] of routine tasks. These platforms [[concepts/range|range]] from general-[[concepts/motivation|purpose]] AI assistants to [[concepts/specialized-tools|specialized tools]] designed for specific workflows, such as [[concepts/code|code]] [[concepts/integration|integration]] with productivity applications or autonomous [[concepts/content-creation|content creation]] systems. The [[concepts/accessibility|accessibility]] of web-based interfaces has expanded AI [[concepts/adoption|adoption]] beyond specialized technical users to broader audiences.
 
 ## Operational Considerations
 
-The performance and [[concepts/software-reliability|reliability]] of web-based AI depends on both internet connectivity and the infrastructure supporting the platform. Organizations deploying web-based AI systems must consider factors such as data security, latency, and service availability when integrating these tools into their workflows.
-
+The performance and [[concepts/software-reliability|reliability]] of web-based AI depends on both internet connectivity and the infrastructure supporting the platform. Organizations deploying web-based AI systems must consider factors such as data [[concepts/security|security]], latency, and service availability when integrating these tools into their workflows.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

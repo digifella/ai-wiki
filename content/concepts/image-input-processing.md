@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "image processing"
-  - "computer vision"
-  - "ai"
-  - "image-processing"
-  - "computer-vision"
-  - "feature-extraction"
-  - "image-acquisition"
-  - "image-enhancement"
-  - "pattern-detection"
-aliases:
-  - "digital-image-processing"
-  - "image-analysis"
-summary: "The computational analysis and transformation of digital images to extract features, detect patterns, or prepare data for downstream tasks."
-updated: 2026-04-16
+summary: The computational analysis and transformation of digital images to extract features, detect patterns, or prepare data for downstream tasks.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Image input processing
@@ -28,10 +15,9 @@ The [[concepts/numerical-analysis|computational analysis]] and transformation of
 - [[concepts/photo-enhancement|Image enhancement]]: Improving quality (noise reduction, [[concepts/contrast|contrast]] adjustment)
 
 ## Tools and Technologies
-- [[entities/kombai|Kombai]] for [[concepts/design|Design]] of Front-ends: Specialized [[concepts/ai-agent|AI agent]] for [[concepts/front-end-development|frontend development]], outperforming general tools in frontend tasks (72% code review success vs. 30-50% for [[concepts/copilot-chat|Copilot]]/[[concepts/gemini|Gemini]]).
+- [[entities/kombai|Kombai]] for [[concepts/design|Design]] of Front-ends: Specialized [[concepts/ai-agent|AI agent]] for [[concepts/front-end-development|frontend development]], outperforming general tools in frontend tasks (72% [[concepts/code|code]] review success vs. 30-50% for [[concepts/copilot-chat|Copilot]]/[[concepts/gemini|Gemini]]).
 
-Backlink: 2026 04 14 [[entities/kombai|Kombai]] for Design of Front ends
-
+Backlink: 2026 04 14 [[entities/kombai|Kombai]] for [[concepts/design|Design]] of Front ends
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-Multimodal-AI-Concepts-Approaches-and-Data-Processing-by-LLMs|Multimodal AI Concepts Approaches and Data Processing by LLMs]] · [▶ source](https://www.youtube.com/watch?v=J51oZYcNvP8)

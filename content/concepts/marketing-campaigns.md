@@ -13,8 +13,8 @@ tags:
   - "business-strategy"
 aliases:
   - "Marketing Strategy"
-summary: "A marketing campaign is a coordinated series of steps designed to promote a product, service, or idea to a target audience through various channels and tactics."
-updated: 2026-04-28
+summary: A marketing campaign is a coordinated series of steps designed to promote a product, service, or idea to a target audience through various channels and tactics.
+updated: 2026-05-23
 group: market-intelligence-geo-seo
 ---
 # Marketing Campaigns
@@ -45,6 +45,5 @@ A marketing campaign is a coordinated series of steps designed to promote a prod
 
 ## Backlinks
 - 2026 04 14 [[entities/chatgpt-projects|ChatGPT Projects]]
-
 ## Source Notes
 - 2026-04-27: Claude AI · [▶ source](https://www.youtube.com/watch?v=Ph-maUAiSU8)

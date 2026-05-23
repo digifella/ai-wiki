@@ -1,18 +1,9 @@
 ---
 type: concept
-domain: security-infrastructure
-tags:
-  - "privacy"
-  - "internet"
-  - "security"
-  - "dns"
-  - "isp-tracking"
-  - "encrypted-dns"
-  - "domain-privacy"
-  - "domain-metadata"
-summary: "ISPs track user activity by logging unencrypted DNS requests, revealing visited domains despite HTTPS encryption of content."
-updated: 2026-04-15
-group: privacy-security-guardrails
+domain: ux-design
+summary: ISPs track user activity by logging unencrypted DNS requests, revealing visited domains despite HTTPS encryption of content.
+updated: 2026-05-23
+group: typography-layout
 ---
 # ISP tracking
 
@@ -22,17 +13,16 @@ Internet Service Providers (ISPs) monitor user activity by observing **[[concept
 - **VPNs are oversold**: Often paid services with logging risks; not a free or perfect [[concepts/privacy|privacy]] [[concepts/solution|solution]]
 - **[[concepts/dns-lookups|Encrypted DNS]]** (e.g., DNS over HTTPS/TLS) provides a **free, effective alternative**:
   - Encrypts DNS queries to prevent ISP visibility
-  - Stops being "the product" without cost or trust issues
+  - Stops being "the product" without [[concepts/cost|cost]] or trust issues
   - Complements HTTPS by protecting domain-level [[concepts/privacy|privacy]]
-- **Key insight**: HTTPS ≠ privacy (only secures content), while Encrypted DNS secures domain [[concepts/metadata|metadata]]
+- **Key insight**: HTTPS ≠ privacy (only secures content), while [[concepts/encrypted-dns|Encrypted DNS]] secures domain [[concepts/metadata|metadata]]
 
 Related concepts:
 - HTTPS: Encrypts content but not domain requests
 - VPNs: Often marketed as [[concepts/user-control|privacy tools]] but introduce new risks
 - Encrypted DNS: Recommended free [[concepts/solution|solution]] for domain-level privacy
 
-2026 04 14 Encrypted dns dave garage
-
+2026 04 14 Encrypted dns [[entities/dave|dave]] garage
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code|Building a Secure Personalized AI Second Brain using Claude Code]] · [▶ source](https://www.youtube.com/watch?v=1FiER-40zng)

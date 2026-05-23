@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "video-processing"
   - "ai-tools"
@@ -13,11 +12,12 @@ aliases:
   - "AI Video Analysis"
   - "Automated Design Processing"
 summary: This concept involves AI tools such as SuperDesign and Memories.ai for understanding video content and automating design tasks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Video Content Processing
 
-Video content processing refers to the automated analysis and manipulation of video data using [[concepts/ai-technologies|artificial intelligence]] tools and [[concepts/agents|agents]]. In the context of security infrastructure and design workflows, this involves specialized AI platforms capable of extracting meaningful information from video content, understanding visual elements, and automating associated tasks. The field combines [[concepts/computer-vision|computer vision]], machine [[concepts/learning|learning]], and design [[concepts/automation|automation]] to streamline workflows that would otherwise require manual intervention.
+Video content processing refers to the automated analysis and manipulation of video data using [[concepts/ai-technologies|artificial intelligence]] tools and [[concepts/agents|agents]]. In the context of [[concepts/security|security]] infrastructure and [[concepts/design-workflows|design workflows]], this involves specialized AI platforms capable of extracting meaningful information from video content, understanding visual elements, and automating associated tasks. The field combines [[concepts/computer-vision|computer vision]], machine [[concepts/learning|learning]], and design [[concepts/automation|automation]] to streamline workflows that would otherwise require manual intervention.
 
 ## AI Tools and Applications
 
@@ -25,8 +25,7 @@ Video content processing refers to the automated analysis and manipulation of vi
 
 ## Integration with Development Workflows
 
-The integration of video content processing tools into development environments demonstrates a broader trend of embedding [[concepts/capabilities|AI capabilities]] directly into existing [[concepts/developer|developer]] infrastructure. Rather than requiring separate applications, these tools function as [[concepts/plugins|plugins]] or agents that enhance IDE functionality, allowing design decisions and video analysis to occur within the same workspace where code development happens. This integration approach aims to reduce context-switching and streamline the relationship between design and development phases.
-
+The [[concepts/integration|integration]] of video content processing tools into development environments demonstrates a broader trend of embedding [[concepts/capabilities|AI capabilities]] directly into existing [[concepts/developer|developer]] infrastructure. Rather than requiring separate [[concepts/software|applications]], these tools function as [[concepts/plugins|plugins]] or agents that enhance IDE functionality, allowing design decisions and video analysis to occur within the same workspace where [[concepts/code|code]] development happens. This integration approach aims to reduce context-switching and streamline the relationship between design and development phases.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

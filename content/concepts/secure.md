@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "security"
-  - "ai"
-  - "shadow"
-  - "artificial-intelligence"
-  - "shadow-ai"
-  - "ai-governance"
-  - "data-protection"
-  - "risk-management"
-aliases:
-  - "security"
-summary: "A state of protection against unauthorized access, exploitation, or harm to information systems, data, or infrastructure."
-updated: 2026-04-16
+summary: A state of protection against unauthorized access, exploitation, or harm to information systems, data, or infrastructure.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # Secure
@@ -26,7 +15,6 @@ A state of protection against unauthorized access, exploitation, or harm to info
 - Management: Requires proactive identification and policy frameworks to mitigate risks (per [[entities/ibm]] Technology's [[entities/jeff-crume|Jeff Crume]]).
 
 2026 04 14 IBM Shadow ai
-
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)

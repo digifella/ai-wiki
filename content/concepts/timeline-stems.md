@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "concept"
   - "timeline"
@@ -14,7 +13,8 @@ aliases:
   - "Excel Timeline Chart"
   - "Dynamic Project Timeline"
 summary: A concept referencing an Excel timeline chart tutorial for creating dynamic project timelines.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Timeline Stems
 
@@ -27,6 +27,5 @@ In practical application, timeline stems function as visual connectors that orga
 ## Technical Characteristics
 
 The effectiveness of timeline stems depends on clear data [[concepts/organization|organization]] and conditional formatting rules within the spreadsheet. Projects using this approach typically employ helper columns to calculate task positions, duration bars, and milestone markers. This method provides an accessible alternative to specialized project management software while remaining flexible enough for teams already working within Excel-based workflows.
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: earth-systems-geology-climate
-group: geology-rocks-minerals
+domain: science-physics
 tags:
   - "concept"
   - "soilless-gardening"
@@ -13,7 +12,8 @@ aliases:
   - "hydroponic gardening"
   - "water-based plant cultivation"
 summary: A gardening method where plants grow in water or nutrient solutions without soil, with some species thriving entirely in water environments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Soil Less Gardening
 
@@ -28,6 +28,5 @@ The primary approaches to soil less gardening include [[concepts/water-propagati
 Soil less systems can produce faster growth rates and higher yields in controlled environments, require less water than traditional gardening, and eliminate soil-borne diseases. However, they demand more active management, including precise monitoring of nutrient levels, pH balance, and water quality. Equipment costs can be higher than conventional gardening, though small-scale home systems are accessible to hobbyists.
 
 Certain plant species adapt well to soil less environments, particularly leafy greens, herbs, and fruiting plants like tomatoes and strawberries. Other species with deep root systems or specific soil chemistry requirements may be less suitable for these methods.
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

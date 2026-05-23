@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-updated: 2026-04-14
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 ## Library Module
@@ -12,7 +12,7 @@ The **Library Module** is a key component of [[entities/adobe-lightroom|Adobe Li
 - **Collections**: Organizes photos into groups for easy access and management.
 - **[[concepts/keywords|Keywords]] & Tags**: Adds [[concepts/metadata|metadata]] to help locate images quickly.
 - **Ratings**: Uses [[concepts/star-ratings|star ratings]] to prioritize and sort photos.
-- **Develop Previews**: Creates previews for faster workflow.
+- **Develop Previews**: Creates previews for faster [[concepts/workflow|workflow]].
 
 ### New Early Access Features
 - **[[concepts/assisted-culling|Assisted Culling]] (Early Access)**: Utilizes AI technology to suggest which photos should be kept or discarded, enhancing the efficiency of [[concepts/photo-culling|photo selection]].
@@ -20,10 +20,9 @@ The **Library Module** is a key component of [[entities/adobe-lightroom|Adobe Li
 
 ### Related Concepts
 - [[concepts/lightroom]]
-- Adobe [[entities/creative-cloud|Creative Cloud]]
+- [[entities/adobe|Adobe]] [[entities/creative-cloud|Creative Cloud]]
 
 ### Backlinks
-2026 04 13 Lightroom Classic Early Access AI Powered [[concepts/assisted-culling|Assisted Culling]] and Auto St
-
+2026 04 13 [[entities/lightroom-classic|Lightroom Classic]] Early Access AI Powered [[concepts/assisted-culling|Assisted Culling]] and Auto St
 ## Source Notes
 - 2026-04-13: Assisted Culling (Early Access) & Auto Stacking in Lightroom Classic

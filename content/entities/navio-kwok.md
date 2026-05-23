@@ -1,30 +1,15 @@
 ---
 type: entity
-tags:
-  - "hr"
-  - "recruitment"
-  - "genai"
-  - "talent-management"
-  - "hr-strategy"
-  - "recruitment-trends"
-  - "ai-in-hr"
-  - "talent-evaluation"
-  - "workplace-future"
-aliases:
-  - "Navio K."
-  - "Kwok, Navio"
-  - "N Kwok"
-  - "Chief Talent Officer XYZ Corp"
-summary: "Navio Kwok is a Chief Talent Officer at XYZ Corporation with expertise in human resources and talent management, focusing on strategies to manage the impact of generative AI in recruitment."
-updated: 2026-04-12
+summary: Navio Kwok is a Chief Talent Officer at XYZ Corporation with expertise in human resources and talent management, focusing on strategies to manage the impact of generative AI in recruitment.
+updated: 2026-05-23
 ---
 # Navio Kwok
 ## Introduction
 Navio Kwok is a leading expert in human resources and talent management, particularly focusing on strategies to navigate the complexities introduced by generative AI (GenAI) in the recruitment process. His work emphasizes the importance of identifying genuine talent and evaluating candidates beyond surface-level criteria.
 
 ## Professional Background
-- **Current Position:** Chief Talent Officer at XYZ Corporation
-- **Education:** MBA from [[entities/stanford|Stanford]] Graduate School of Business, BSc in Computer Science from University of California, Berkeley
+- **Current Position:** Chief Talent Officer [[concepts/assistive-technology|at]] XYZ Corporation
+- **Education:** MBA from [[entities/stanford|Stanford]] Graduate School of Business, BSc in Computer [[concepts/science|Science]] from University of California, Berkeley
 
 ## Publications & Media Appearances
 ### Books
@@ -39,11 +24,11 @@ Navio Kwok is a leading expert in human resources and talent management, particu
 2. Development of AI-resistant [[concepts/interview-techniques|interview techniques]].
 
 ## Media Mentions
-This section includes references to media appearances and mentions where Navio Kwok's ideas and research have been discussed or featured, providing a broader context for his influence within the field.
+This section includes references to media appearances and mentions where Navio Kwok's [[concepts/ideas|ideas]] and research have been discussed or featured, providing a broader context for his [[concepts/power|influence]] within the field.
 
 ### New Note Integration: Five Interview Techniques to Uncover Genuine Talent in the GenAI Age
 - **Date:** 2026-04-11
-- **[[entities/medium|Medium]]:** YouTube Video by [[entities/mit|MIT]] Sloan Management Review
+- **[[entities/medium|Medium]]:** [[entities/youtube|YouTube]] Video by [[entities/mit|MIT]] Sloan Management Review
 - **URL:** https://www.youtube.com/watch?v=qgC--IUnr7I
 
 **Key Points:**
@@ -57,7 +42,6 @@ Talent Management
 Recruitment Strategies
 
 ## Backlinks
-2026 04 11 Five Interview Techniques to Uncover Genuine Talent in the GenAI Age
-
+2026 04 11 Five [[concepts/interview-techniques|Interview Techniques]] to Uncover Genuine Talent in the GenAI Age
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Five-Interview-Techniques-to-Uncover-Genuine-Talent-in-the-GenAI-Age|Five Interview Techniques to Uncover Genuine Talent in the GenAI Age]] · [▶ source](https://www.youtube.com/watch?v=qgC--IUnr7I)

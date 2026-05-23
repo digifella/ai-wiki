@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "data-synthesis"
   - "ai-research"
@@ -12,20 +11,20 @@ aliases:
   - "data composition"
   - "research data integration"
 summary: Process of combining and synthesizing proprietary data and visual information to enhance AI research capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Data Synthesis
 
-Data synthesis in security infrastructure refers to the process of combining and integrating proprietary datasets with visual information to improve the capabilities and performance of [[concepts/ai-technologies|artificial intelligence]] systems. This approach is particularly relevant in research contexts where organizations need to leverage their internal data assets—which may include confidential information, specialized datasets, or domain-specific knowledge—alongside multimodal inputs to train and enhance [[concepts/ai-models|AI models]].
+Data synthesis in [[concepts/security|security]] infrastructure refers to the process of combining and integrating proprietary datasets with visual information to improve the [[concepts/capabilities|capabilities]] and performance of [[concepts/ai-technologies|artificial intelligence]] systems. This approach is particularly relevant in research contexts where organizations need to leverage their internal data assets—which may include confidential information, specialized datasets, or [[concepts/domain-specific-knowledge|domain-specific knowledge]]—alongside multimodal inputs to train and enhance [[concepts/ai-models|AI models]].
 
 ## Integration of Proprietary and Visual Data
 
-The core function of data synthesis involves aggregating heterogeneous data sources, including structured proprietary databases and unstructured visual materials, into cohesive formats suitable for AI processing. This integration enables researchers to create more comprehensive [[concepts/training|training]] datasets that reflect real-world complexity while maintaining security controls over sensitive information. The synthesized data can support more robust [[concepts/knowledge-acquisition|model development]] by incorporating [[concepts/organization|organization]]-specific patterns and knowledge that public datasets alone cannot provide.
+The core function of data synthesis involves aggregating heterogeneous data sources, including structured proprietary databases and unstructured visual materials, into cohesive formats suitable for AI processing. This [[concepts/integration|integration]] enables researchers to create more comprehensive [[concepts/training|training]] datasets that reflect real-world complexity while maintaining security controls over sensitive information. The synthesized data can support more robust [[concepts/knowledge-acquisition|model development]] by incorporating [[concepts/organization|organization]]-specific patterns and knowledge that public datasets alone cannot provide.
 
 ## Applications in AI Research
 
-Data synthesis plays a foundational role in advancing AI research by enabling the development of models with deeper understanding of domain-specific problems. Organizations using data synthesis can ground their AI systems in factual, proprietary information relevant to their operations, reducing hallucinations and improving [[concepts/accuracy|accuracy]] in specialized applications. This is particularly important in security-sensitive domains where model [[concepts/software-reliability|reliability]] and information [[concepts/integrity|integrity]] are critical concerns.
-
+Data synthesis plays a foundational role in advancing [[concepts/ai-research|AI research]] by enabling the development of [[concepts/models|models]] with deeper understanding of domain-specific problems. Organizations using data synthesis can ground their AI systems in factual, proprietary information relevant to their operations, reducing hallucinations and improving [[concepts/accuracy|accuracy]] in specialized [[concepts/software|applications]]. This is particularly important in security-sensitive domains where model [[concepts/software-reliability|reliability]] and information [[concepts/integrity|integrity]] are critical concerns.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-NotebookLM-Infographic-to-Interactive-Web-Application-Workflow-using|NotebookLM Infographic to Interactive Web Application Workflow using]] · [▶ source](https://www.youtube.com/watch?v=DQijzXADyiE)

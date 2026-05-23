@@ -12,8 +12,8 @@ tags:
   - "full-stack-development"
 aliases:
   - "software-app-creation"
-summary: "Application building is the process of designing, developing, testing, and deploying software applications, including the use of agentic development frameworks like Antigravity."
-updated: 2026-04-28
+summary: Application building is the process of designing, developing, testing, and deploying software applications, including the use of agentic development frameworks like Antigravity.
+updated: 2026-05-23
 group: architecture-cities-heritage
 ---
 # Application-Building
@@ -30,8 +30,8 @@ Application-building refers to the process of creating [[concepts/software|softw
 ## Integration with Antigravity
 - **[[entities/google-ai-studio|Google AI Studio]] Update: Powered by Antigravity**
   - Transitioned from a simple [[concepts/model-playground|model playground]] to a dynamic, [[concepts/agent-powered-environment|agent-powered environment]].
-  - Driven by **Antigravity**, Google's new [[concepts/code-management|agentic IDE framework]].
-  - Key Highlights and New Features:
+  - Driven by **Antigravity**, [[concepts/google-search|Google]]'s new [[concepts/code-management|agentic IDE framework]].
+  - Key [[concepts/highlights|Highlights]] and New Features:
     - **[[concepts/agentic-development|Agentic Development]]:** Powered by Antigravity
     - Write a complete [[concepts/full-stack-applications|full-stack applications]].
 
@@ -41,7 +41,6 @@ Application-building refers to the process of creating [[concepts/software|softw
 
 ## Backlinks
 - 2026 04 14 Antigravity AiStudio [[concepts/integration|integration]] world of AI
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

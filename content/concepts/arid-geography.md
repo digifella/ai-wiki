@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "arid geography"
-  - "water management"
-  - "qanat"
-  - "iran"
-  - "arid-climate"
-  - "water-scarcity"
-  - "low-precipitation"
-  - "high-evaporation"
-  - "qanat-systems"
-aliases:
-  - "dryland geography"
-summary: "Arid geography describes regions with low average annual precipitation and high evaporation rates, resulting in dry climates with limited vegetation."
-updated: 2026-04-14
+summary: Arid geography describes regions with low average annual precipitation and high evaporation rates, resulting in dry climates with limited vegetation.
+updated: 2026-05-23
 group: climate-environment-surface-systems
 ---
 # Arid Geography
@@ -33,17 +21,16 @@ Ancient civilizations in arid regions, such as the [[concepts/persian-empire|Per
 ### Modern Challenges
 The 20th century saw significant changes in arid region management due to [[concepts/population-growth|population growth]], [[concepts/urbanization|urbanization]], and technological advancements. However, these developments have also led to increased pressure on natural resources, particularly water.
 
-- **Iran's Water Crisis**
+- **[[concepts/iran|Iran]]'s Water Crisis**
 	- Ranking 158th globally for average annual precipitation.
 	- Over 75% of Iran’s limited rainfall occurs in only a quarter of the country.
 	- Historically, central lands were uninhabitable without sophisticated [[concepts/qanat|qanat]] systems.
 
 ### Related Concepts
-- qanats
-- Persian Empire
-- water management
+- [[concepts/qanats|qanats]]
+- [[concepts/persian-empire|Persian Empire]]
+- [[concepts/water-management|water management]]
 
 2026 04 13 Irans Water Crisis Ancient [[concepts/qanat-management|Qanat Management]] and 20th Century Decline
-
 ## Source Notes
 - 2026-04-13: Iran's Alarming Water Crisis

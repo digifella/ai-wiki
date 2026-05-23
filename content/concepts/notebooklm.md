@@ -1,41 +1,29 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai-assistant"
-  - "google-gemini"
-  - "research-tool"
-  - "writing-support"
-  - "notebooklm-tutorial"
-aliases:
-  - "Google's NotebookLM"
-  - "AI-powered research assistant"
-  - "NotebookLM AI"
-  - "Gemini integrated notebook"
-summary: "NotebookLM is an AI-driven tool developed by Google that leverages Gemini to assist with research and writing tasks."
-updated: 2026-04-11
+summary: NotebookLM is an AI-driven tool developed by Google that leverages Gemini to assist with research and writing tasks.
+updated: 2026-05-23
 group: google-ai-ecosystem
 ---
 title: "[[concepts/ai-integrated-notebooks|NotebookLM]]"
 
 # NotebookLM
-NotebookLM is an [[concepts/ai-driven-research|AI-powered research]] and [[concepts/writing|writing]] assistant developed by [[entities/google]] that utilizes [[entities/google-gemini]] to provide source-grounded analysis, summaries, and insights based on user-provided documentation.
+[[entities/notebook-lm|NotebookLM]] is an [[concepts/ai-driven-research|AI-powered research]] and [[concepts/writing|writing]] assistant developed by [[entities/google]] that utilizes [[entities/google-gemini]] to provide [[concepts/source-grounded-analysis|source-grounded analysis]], summaries, and insights based on user-provided documentation.
 
 ## Key Updates & Ecosystem Integration
-- **Enhanced [[entities/google-gemini]] Integration:** Significant updates focus on deepening the synergy between [[concepts/gemini|Gemini]] and NotebookLM to increase processing power and [[concepts/reasoning|reasoning]] capabilities.
-- **Ecosystem Expansion:** Recent developments include major feature updates within [[concepts/google-workspace]] and [[entities/google-ai-studio|Google AI Studio]], aimed at creating a more powerful, unified AI-driven workflow.
+- **Enhanced [[entities/google-gemini]] [[concepts/integration|Integration]]:** Significant updates focus on deepening the synergy between [[concepts/gemini|Gemini]] and NotebookLM to increase processing [[concepts/power|power]] and [[concepts/reasoning|reasoning]] [[concepts/capabilities|capabilities]].
+- **Ecosystem Expansion:** Recent developments include major feature updates within [[concepts/google-workspace]] and [[entities/google-ai-studio|Google AI Studio]], aimed [[concepts/assistive-technology|at]] creating a more powerful, unified AI-driven [[concepts/workflow|workflow]].
 
 ### New Information
-- **Video [[concepts/tutorial|Tutorial]]:** Charles Terrence [[entities/harper|Harper]] on YouTube demonstrates how to turn a NotebookLM [[concepts/infographic|infographic]] into an interactive [[concepts/web-application|web application]] using [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini AI]] and [[entities/google-sites|Google Sites]].
-  - **Clip title:** How to Turn a [[concepts/notebooklm-infographic|NotebookLM Infographic]] into an Interactive Website
+- **Video [[concepts/tutorial|Tutorial]]:** Charles Terrence [[entities/harper|Harper]] on [[entities/youtube|YouTube]] demonstrates how to turn a NotebookLM [[concepts/infographic|infographic]] into an interactive [[concepts/web-application|web application]] using [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini AI]] and [[entities/google-sites|Google Sites]].
+  - **[[concepts/clip-title|Clip title]]:** How to Turn a [[concepts/notebooklm-infographic|NotebookLM Infographic]] into an Interactive Website
   - **Author / channel:** Charles Terrence Harper
   - **URL:** https://www.youtube.com/watch?v=DQijzXADyiE
 
 ### Summary
-This video demonstrates a comprehensive workflow for transforming a static [[concepts/infographic|infographic]] from a [[entities/notebooklm|Google NotebookLM]] [[concepts/notebook|notebook]] into a fully interactive, self-contained [[concepts/web-application|web application]] using Google's [[concepts/gemini|Gemini AI]] and [[entities/google-sites|Google Sites]]. The main topic revolves around leveraging AI-powered tools to bridge the gap between [[concepts/content-creation|content creation]] and [[concepts/interactive-html-web-applications|interactive web applications]].
+This video demonstrates a comprehensive [[concepts/workflow|workflow]] for transforming a static [[concepts/infographic|infographic]] from a [[entities/notebooklm|Google NotebookLM]] [[concepts/notebook|notebook]] into a fully interactive, self-contained [[concepts/web-application|web application]] using [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini AI]] and [[entities/google-sites|Google Sites]]. The main topic revolves around leveraging [[concepts/ai-powered-tools|AI-powered tools]] to bridge the gap between [[concepts/content-creation|content creation]] and [[concepts/interactive-html-web-applications|interactive web applications]].
 
 ![](notebooklm-webapp-workflow.png)
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)
 - 2026-04-08: NotebookLM Mind Maps Are Bad! But Gemini Fixes Them

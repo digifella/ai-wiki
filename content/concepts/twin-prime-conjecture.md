@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "number-theory"
   - "prime-numbers"
@@ -11,16 +10,17 @@ tags:
 aliases:
   - "twin primes"
 summary: This page is a stub regarding the twin primes conjecture.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 title: Twin primes conjecture
 ---
 # Twin Prime Conjecture
 
-The Twin Prime Conjecture is an unsolved problem in [[concepts/number-theory|number theory]] concerning the frequency of twin primes—pairs of [[concepts/prime-numbers|prime numbers]] that differ by exactly 2, such as (3, 5), (5, 7), (11, 13), and (29, 31). The conjecture asserts that there are infinitely many such pairs. Despite its simple statement, this question has remained open for over 150 years and resists proof using currently known mathematical techniques.
+The Twin [[concepts/prime-lens|Prime]] Conjecture is an unsolved problem in [[concepts/number-theory|number theory]] concerning the frequency of twin primes—pairs of [[concepts/prime-numbers|prime numbers]] that differ by exactly 2, such as (3, 5), (5, 7), (11, 13), and (29, 31). The conjecture asserts that there are infinitely many such pairs. Despite its simple statement, this question has remained open for over 150 years and resists [[concepts/proof|proof]] using currently known mathematical techniques.
 
 ## Historical Background and Significance
 
-The conjecture has been considered since at least the 17th century and became formally articulated in modern number theory during the 19th century. Its significance lies not only in the intrinsic interest of the question but also in its [[concepts/connection|connection]] to fundamental problems about the [[concepts/prime-number-distribution|distribution of primes]]. The difficulty of the Twin Prime Conjecture has made it a benchmark problem in analytic number theory, inspiring the development of sophisticated mathematical tools.
+The conjecture has been considered since [[concepts/assistive-technology|at]] least the 17th century and became formally articulated in modern number [[concepts/theory|theory]] during the 19th century. Its significance lies not only in the intrinsic interest of the question but also in its [[concepts/connection|connection]] to fundamental problems about the [[concepts/prime-number-distribution|distribution of primes]]. The difficulty of the Twin Prime Conjecture has made it a benchmark problem in analytic number theory, inspiring the development of sophisticated mathematical tools.
 
 ## Related Results
 

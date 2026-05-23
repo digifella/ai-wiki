@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: agriculture-food-trade
 tags:
   - "agriculture"
   - "northern-territory"
@@ -13,7 +12,8 @@ aliases:
   - "NT Agricultural Development"
   - "Northern Territory Farming Development"
 summary: Agricultural development initiatives in Australia's Northern Territory, including irrigation projects like the Ord River scheme.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agriculture-food-trade
 ---
 # Agricultural Development In Northern Territory
 
@@ -21,11 +21,11 @@ updated: 2026-05-01
 
 ## Pastoral Industries
 
-Cattle ranching emerged as the dominant agricultural activity in the Northern Territory from the late 19th century onwards. The vast grasslands of the interior supported large-scale grazing operations, and pastoral leasehold became the primary form of land use across much of the Territory. Beef production continues to be economically important, though pastoral development has fluctuated with market conditions, drought cycles, and changes in land management practices.
+Cattle ranching emerged as the dominant agricultural activity in the Northern Territory from the late 19th century onwards. The vast grasslands of the interior supported large-scale grazing operations, and pastoral leasehold became the primary form of [[concepts/land-use|land use]] across much of the Territory. Beef production continues to be economically important, though pastoral development has fluctuated with market conditions, drought cycles, and changes in land management practices.
 
 ## Irrigation Development
 
-The Ord River scheme in the Kimberley region represents one of Australia's most significant [[concepts/irrigation-schemes|irrigation projects]], with development extending into the Northern Territory's borders. Large-scale irrigation initiatives have been periodically proposed and implemented to harness the Territory's seasonal water flows for agricultural production, particularly during the wet season. These projects have aimed to support diverse crops including cotton, grains, and horticultural products, though results have been variable and dependent on sustained investment and viable market conditions.
+The Ord River scheme in the Kimberley region represents one of Australia's most significant [[concepts/irrigation-schemes|irrigation projects]], with development extending into the Northern Territory's borders. [[concepts/large-scale-irrigation|Large-scale irrigation]] initiatives have been periodically proposed and implemented to [[concepts/harness|harness]] the Territory's seasonal water flows for agricultural production, particularly during the wet season. These projects have aimed to support diverse crops including cotton, grains, and horticultural products, though results have been variable and dependent on sustained investment and viable market conditions.
 
 ## Contemporary Challenges
 

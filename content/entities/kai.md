@@ -11,7 +11,7 @@ aliases:
   - "Personal AI Infrastructure"
   - "Kai Project"
 summary: Personal AI infrastructure project by Daniel Miessler featuring Claude integration, documented via Unsupervised Learning Channel.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Kai
 
@@ -19,13 +19,13 @@ Kai is a [[concepts/aimm-ai-maturity-model|personal AI infrastructure]] project 
 
 ## Documentation and Distribution
 
-The Kai project is documented and shared through the [[entities/tldr-sec|Unsupervised Learning Channel]], Miessler's platform for discussing AI, security, and technology topics. This public documentation approach allows others to understand and potentially adapt the infrastructure concepts for their own use.
+The [[concepts/kai|Kai project]] is documented and shared through the [[entities/tldr-sec|Unsupervised Learning Channel]], Miessler's platform for discussing AI, [[concepts/security|security]], and technology topics. This public documentation approach allows others to understand and potentially adapt the infrastructure concepts for their own use.
 
 ## Context and Development
 
-Development of Kai has involved evaluation of various [[concepts/computing-architecture|AI infrastructure]] options, including consideration of alternatives and their associated costs and limitations. The project represents an approach to personal AI tooling that builds on existing models rather than requiring entirely custom [[concepts/knowledge-acquisition|model development]].
+Development of Kai has involved evaluation of various [[concepts/computing-architecture|AI infrastructure]] options, including consideration of alternatives and their associated costs and limitations. The project represents an approach to personal AI tooling that builds on existing [[concepts/models|models]] rather than requiring entirely custom [[concepts/knowledge-acquisition|model development]].
 
-- 2026-04-10 [2026-04-10-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure](2026-04-10-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure.md) ← Unified Ai Skill Format Agent First Organizational Infrastructure
+- 2026-04-10 [2026-04-10-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure](2026-04-10-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure.md) ← [[concepts/ai-agent-ecosystem|Unified Ai Skill Format]] [[concepts/agent-first-organizational-infrastructure|Agent First Organizational Infrastructure]]
 - 2026-04-07 [2026-04-07-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure](2026-04-07-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure.md) ← Unified Ai Skill Format Agent First Organizational Infrastructure
 - 2026-04-08 [2026-04-08-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure](2026-04-08-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure.md) ← Unified Ai Skill Format Agent First Organizational Infrastructure
 ## Source Notes

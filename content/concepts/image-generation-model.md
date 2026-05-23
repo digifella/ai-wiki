@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: multimodal-generative-media
 tags:
   - "flux-1"
   - "lora-adapter"
@@ -13,20 +12,20 @@ aliases:
   - "FLUX.1 Training"
   - "LoRA Fine-tuning"
 summary: This page covers the training of the FLUX.1 model from Black Forest Labs using a LoRA adapter.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Image Generation Model
 
-An image generation model is an [[concepts/ai-technologies|artificial intelligence]] system trained to create [[concepts/images|images]] from text descriptions or other input data. These models learn patterns from large datasets of images and their associated [[concepts/metadata|metadata]], enabling them to generate novel visual content that matches specified criteria. Image generation models form a key category of generative AI, alongside text and audio generation systems.
+An image generation model is an [[concepts/ai-technologies|artificial intelligence]] system trained to create [[concepts/images|images]] from [[concepts/text|text]] descriptions or other input data. These [[concepts/models|models]] learn patterns from large datasets of images and their associated [[concepts/metadata|metadata]], enabling them to generate novel visual content that matches specified criteria. Image generation models form a key category of [[concepts/generative-ai|generative AI]], alongside text and [[concepts/audio-modality|audio]] generation systems.
 
 ## FLUX.1 and LoRA Adaptation
 
-FLUX.1 is an image generation model developed by Black Forest Labs. Like other advanced image generation systems, FLUX.1 can be customized and adapted for specific [[concepts/scenarios|use cases]] through techniques such as LoRA (Low-Rank Adaptation). LoRA adapters allow users to fine-tune a [[concepts/pre-trained-model|pre-trained model]] on smaller datasets or specialized image styles without requiring full model retraining, making the process more computationally efficient and accessible to individual researchers and practitioners.
+[[entities/flux1|FLUX.1]] is an image generation model developed by [[entities/black-forest-labs|Black Forest Labs]]. Like other advanced image generation systems, FLUX.1 can be customized and adapted for specific [[concepts/scenarios|use cases]] through techniques such as LoRA ([[concepts/low-rank-adaptation|Low-Rank Adaptation]]). LoRA adapters allow users to fine-tune a [[concepts/pre-trained-model|pre-trained model]] on smaller datasets or specialized image styles without requiring full model retraining, making the process more computationally efficient and accessible to individual researchers and practitioners.
 
 ## Training and Implementation
 
-Training a [[concepts/lora-adapter|LoRA adapter]] for FLUX.1 involves preparing a curated dataset of example images, configuring training [[concepts/parameters|parameters]], and [[concepts/running|running]] the adaptation process on compatible [[concepts/hardware|hardware]]. This approach enables users to guide the model toward generating images with particular characteristics, artistic styles, or domain-specific content while retaining the general capabilities of the base model.
-
+[[concepts/training|Training]] a [[concepts/lora-adapter|LoRA adapter]] for FLUX.1 involves preparing a curated dataset of example images, configuring training [[concepts/parameters|parameters]], and [[concepts/running|running]] the adaptation process on compatible [[concepts/hardware|hardware]]. This approach enables users to guide the model toward generating images with particular characteristics, artistic styles, or domain-specific content while retaining the general [[concepts/capabilities|capabilities]] of the base model.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-08: [[lab-notes/2026-04-08-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

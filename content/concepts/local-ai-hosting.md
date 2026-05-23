@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "local-ai"
-  - "privacy"
-  - "cybersecurity"
-  - "ai-agents"
-  - "agentic-ai"
-  - "large-language-models"
-  - "hardware-security"
-aliases:
-  - "Local AI hosting"
-  - "On-premise AI"
-summary: "Local AI hosting is the practice of executing large language models and agentic AI on personal or private hardware rather than through cloud-based APIs."
-updated: 2026-04-17
+summary: Local AI hosting is the practice of executing large language models and agentic AI on personal or private hardware rather than through cloud-based APIs.
+updated: 2026-05-23
 group: open-systems-local-models
+stub: true
 ---
 # Local AI hosting
 
@@ -31,8 +21,7 @@ The practice of executing [[concepts/large-language-models]] (LLMs) and [[concep
 - [[concepts/cybersecurity]]
 
 ### References
-- 2026 04 14 [[concepts/local-ai-privacy-risks|Local AI Privacy Risks]] and Security Strategies
-
+- 2026 04 14 [[concepts/local-ai-privacy-risks|Local AI Privacy Risks]] and [[concepts/security|Security]] Strategies
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-10: [[lab-notes/2026-04-10-Integrating-Local-Gemma-4-LLMs-with-Claude-Code-Setup-and-Practical-Us|Integrating Local Gemma 4 LLMs with Claude Code Setup and Practical Us]] · [▶ source](https://www.youtube.com/watch?v=sKNq4CqWkT4)

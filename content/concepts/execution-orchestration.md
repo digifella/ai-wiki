@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "harness-engineering"
   - "ai-development"
@@ -14,11 +13,12 @@ aliases:
   - "AI Agent Orchestration"
   - "Execution Framework"
 summary: AI development is shifting from model selection and prompt engineering toward harness engineering.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Execution Orchestration
 
-Execution orchestration refers to the coordination and management of AI system components to achieve desired outcomes. Rather than relying primarily on model selection or [[concepts/prompt-based-modeling|prompt engineering]], execution orchestration emphasizes the design of the overall system [[concepts/architecture|architecture]]—the "harness"—that coordinates multiple elements including models, tools, workflows, and decision logic. This represents a conceptual shift in [[concepts/ai-development|AI development]] practices toward 2026, where the effectiveness of an AI system increasingly depends on how its components are organized and executed rather than the capabilities of any single model.
+Execution orchestration refers to the coordination and management of AI system components to achieve desired outcomes. Rather than relying primarily on model selection or [[concepts/prompt-based-modeling|prompt engineering]], execution orchestration emphasizes the [[concepts/design|design]] of the overall system [[concepts/architecture|architecture]]—the "[[concepts/harness|harness]]"—that coordinates multiple elements including [[concepts/models|models]], tools, workflows, and decision logic. This represents a conceptual shift in [[concepts/ai-development|AI development]] practices toward 2026, where the effectiveness of an AI system increasingly depends on how its components are organized and executed rather than the [[concepts/capabilities|capabilities]] of any single model.
 
 ## The Intelligence Paradox
 
@@ -26,8 +26,7 @@ A key insight driving this shift is that [[concepts/frontier-ai-models|frontier 
 
 ## Practical Implementation
 
-Execution orchestration involves designing systems that manage [[concepts/task-decomposition|task decomposition]], routing between different models or tools based on context, error handling, and [[concepts/iterative-refinement|iterative refinement]] of outputs. It encompasses workflow management, conditional logic, resource allocation, and [[concepts/feedback|feedback]] loops that together create a coherent system capable of handling complex, multi-step operations that a single model prompt cannot accomplish in isolation.
-
+Execution orchestration involves designing systems that manage [[concepts/task-decomposition|task decomposition]], routing between different models or tools based on context, error handling, and [[concepts/iterative-refinement|iterative refinement]] of outputs. It encompasses [[concepts/workflow|workflow]] management, conditional logic, resource allocation, and [[concepts/feedback|feedback]] [[concepts/loops|loops]] that together create a coherent system capable of handling complex, multi-step operations that a single model prompt cannot accomplish in isolation.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Obsidian-Integration-Creating-a-Persistent-AI-Operating-System|Claude Obsidian Integration Creating a Persistent AI Operating System]] · [▶ source](https://www.youtube.com/watch?v=eIXheJcxDIg)
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

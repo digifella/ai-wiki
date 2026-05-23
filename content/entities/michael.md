@@ -8,7 +8,7 @@ tags:
   - "shadow-ai"
   - "ai-services"
 summary: Michael is considering focusing services on addressing the cyber and governance risks introduced by ungoverned AI solutions, such as agentic frameworks and Shadow AI.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Michael
 
@@ -16,8 +16,7 @@ Michael is exploring a strategic focus on mitigating cyber and [[concepts/govern
 
 ## Focus Area
 
-The identified problem space addresses the organizational risks introduced when powerful but ungovernedAI tools proliferate without adequate security or [[concepts/compliance|compliance]] frameworks. This includes both deliberate deployments of agentic systems and ad-hoc Shadow AI usage by employees. Michael views this as an anticipated significant challenge for organizations as AI [[concepts/adoption|adoption]] accelerates.
-
+The identified problem space addresses the organizational risks introduced when powerful but ungovernedAI tools proliferate without adequate [[concepts/security|security]] or [[concepts/compliance|compliance]] frameworks. This includes both deliberate deployments of [[concepts/agentic-systems|agentic systems]] and ad-hoc [[concepts/shadow-it|Shadow AI]] usage by employees. Michael views this as an anticipated significant challenge for organizations as AI [[concepts/adoption|adoption]] accelerates.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution|Riemann Hypothesis Hidden Order in Prime Number Distribution]] · [▶ source](https://www.youtube.com/watch?v=59I84mWLK_c)
 - 2026-04-11: [[lab-notes/2026-04-11-Addressing-Leadership-Pitfalls-in-Organizational-AI-Strategy|Addressing Leadership Pitfalls in Organizational AI Strategy]] · [▶ source](https://www.youtube.com/watch?v=nHXahonlIBM)

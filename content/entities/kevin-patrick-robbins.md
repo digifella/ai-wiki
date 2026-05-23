@@ -9,7 +9,7 @@ tags:
 aliases:
   - "K.P. Robbins"
 summary: Kevin Patrick Robbins is an advertising, editorial, and commercial photographer who explains that simplistic prompts lead to superficial results from LLMs.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Kevin Patrick Robbins
 

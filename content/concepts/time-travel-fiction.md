@@ -12,9 +12,10 @@ tags:
   - "parallel-timelines"
 aliases:
   - "Time Travel"
-summary: "A genre of speculative fiction involving movement between different temporal points."
-updated: 2026-04-27
+summary: A genre of speculative fiction involving movement between different temporal points.
+updated: 2026-05-23
 group: journeys-routes-itineraries
+stub: true
 ---
 # Time Travel Fiction
 
@@ -30,7 +31,6 @@ A genre of speculative fiction involving [[concepts/exercise|movement]] between 
 
 ## Related Links
 - 2026 04 13 food featured on Bon Apetite [[entities/your-majesty|Your Majesty]] K Drama
-
 ## Source Notes
 
 - 2026-04-24: [[lab-notes/2026-04-24-Overlooked-1970s-Sci-Fi-Films-Prescient-AI-Environmental-and-Societal-Foresight|Overlooked 1970s Sci-Fi Films: Prescient AI, Environmental, and Societal Foresight]] · [▶ source](https://www.youtube.com/watch?v=ZoCEAxBBWy0)

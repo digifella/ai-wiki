@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "ai-coding"
   - "claude-code"
@@ -12,20 +11,20 @@ aliases:
   - "Claude Code Workflow"
   - "AI-Assisted Development"
 summary: A summary and guide based on a YouTube video regarding a workflow for building applications using Claude Code for Desktop.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Development Speed
 
-Development speed refers to the rate at which [[concepts/software|software]] applications can be built and deployed, a critical factor in competitive [[concepts/coding|software development]]. In modern [[concepts/development-workflows|development workflows]], speed is increasingly enabled by [[concepts/ai-coding-assistance|AI-assisted coding]] tools that can automate routine tasks, generate boilerplate code, and provide real-time suggestions to developers. The ability to accelerate development cycles directly impacts time-to-market and resource efficiency.
+Development [[concepts/speed|speed]] refers to the rate [[concepts/assistive-technology|at]] which software [[concepts/software|applications]] can be built and deployed, a critical factor in competitive [[concepts/coding|software development]]. In modern [[concepts/development-workflows|development workflows]], speed is increasingly enabled by [[concepts/ai-assisted-coding|AI-assisted coding]] tools that can automate routine tasks, generate boilerplate [[concepts/code|code]], and provide real-time suggestions to developers. The ability to accelerate development cycles directly impacts time-to-market and resource efficiency.
 
 ## AI-Assisted Development Workflows
 
-[[concepts/ai-assisted-coding|Claude Code]] for Desktop represents an approach to accelerating development by integrating [[concepts/capabilities|AI capabilities]] directly into the coding environment. Such tools can help developers by suggesting implementations, identifying errors, and generating code scaffolding, reducing the time spent on repetitive tasks. This integration allows developers to focus on architectural decisions and complex [[concepts/problem-solving|problem-solving]] rather than manual coding of standard components.
+Tools like [[concepts/claude-code|Claude Code]] for Desktop enable developers to work more efficiently by handling common coding patterns and reducing manual boilerplate creation. These tools integrate into existing [[concepts/developer-platforms|development environments]], allowing developers to maintain their preferred workflows while leveraging AI assistance for repetitive or [[concepts/complex-tasks|complex tasks]]. By automating lower-level coding work, developers can focus on architectural decisions and business logic rather than syntax and routine [[concepts/implementation-details|implementation details]].
 
-## Practical Impact
+## Impact on Project Delivery
 
-The use of [[concepts/terminal-based-ai-coding-agents|AI coding assistants]] can measurably reduce development timelines by automating portions of the coding process and providing immediate [[concepts/feedback|feedback]] during implementation. However, development speed must be balanced against code quality, maintainability, and architectural soundness. Teams adopting these tools typically experience faster [[concepts/iteration|iteration]] cycles and the ability to prototype features more rapidly, though effectiveness depends on how well the tools are integrated into existing workflows and processes.
-
+Faster development cycles allow teams to iterate more quickly, respond to changing requirements, and bring products to market sooner. This acceleration can reduce project costs by decreasing the number of [[concepts/developer|developer]] hours required for implementation. However, development speed must be balanced with code quality and maintainability to ensure that rapid development does not introduce technical debt or stability issues that create problems downstream.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

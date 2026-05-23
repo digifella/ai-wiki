@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "automation"
@@ -16,7 +15,8 @@ aliases:
   - "Task Automation"
   - "Workflow Routines"
 summary: Routine Automation encompasses the setup and configuration of autonomous systems to execute recurring tasks and workflows automatically.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Routine Automation
 
@@ -28,8 +28,7 @@ Effective routine automation requires three primary elements: task definition, w
 
 ## Implementation and Integration
 
-Routine automation systems typically operate through workflow builders, scripting interfaces, or visual configuration tools that enable users to define task sequences without extensive programming knowledge. These systems can interface with various applications including spreadsheet software, communication platforms, project management tools, and custom [[concepts/business-applications|business applications]]. Successful implementation depends on clear specification of task requirements and integration with existing organizational infrastructure.
-
+Routine automation systems typically operate through [[concepts/workflow|workflow]] builders, scripting interfaces, or visual configuration tools that enable users to define task sequences without extensive programming knowledge. These systems can interface with various applications including spreadsheet software, communication platforms, project management tools, and custom [[concepts/business-applications|business applications]]. Successful [[concepts/adoption|implementation]] depends on clear specification of task requirements and [[concepts/integration|integration]] with existing organizational infrastructure.
 ## Source Notes
 - 2026-04-07: OpenClaw [[concepts/tutorial|Tutorial for Beginners - Crash Course]]
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "concept"
   - "lightroom"
@@ -15,11 +14,12 @@ aliases:
   - "Lightroom metadata workflow"
   - "XMP-based photo organization"
 summary: A multi-stage workflow for organizing photos in Lightroom that uses XMP metadata, AI pipeline updates via ExifTool, and keyword filtering.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Lightroom Workflow
 
-A Lightroom workflow is a systematic process for importing, organizing, and processing digital photographs within Adobe Lightroom. The workflow typically begins with importing [[concepts/images|images]] into a [[concepts/catalog|catalog]] and assigning initial [[concepts/metadata|metadata]], including [[concepts/keywords|keywords]] and ratings that facilitate later retrieval and batch operations. XMP [[concepts/metadata-standards|metadata standards]] are used to embed this information directly into image files, ensuring that organizational data persists even when images are moved or shared across different systems.
+A [[concepts/lightroom|Lightroom]] [[concepts/workflow|workflow]] is a systematic process for importing, organizing, and processing digital photographs within [[entities/adobe-lightroom|Adobe Lightroom]]. The workflow typically begins with importing [[concepts/images|images]] into a [[concepts/catalog|catalog]] and assigning initial [[concepts/metadata|metadata]], including [[concepts/keywords|keywords]] and ratings that facilitate later retrieval and batch operations. [[concepts/xmp|XMP]] [[concepts/metadata-standards|metadata standards]] are used to embed this information directly into image [[concepts/files|files]], ensuring that organizational data persists even when images are moved or shared across different systems.
 
 ## Organization and Metadata Management
 
@@ -27,10 +27,9 @@ The core organizational layer relies on keyword filtering and hierarchical metad
 
 ## Processing and Refinement
 
-Modern Lightroom workflows often incorporate AI-assisted tools for culling and enhancement, including automated mask generation for landscape and portrait work, as well as assisted stacking and selection features. These capabilities reduce time spent on initial image selection and fundamental [[concepts/adjustments|adjustments]], allowing photographers to focus on creative decision-making. [[concepts/color-calibration|Color calibration]] through [[concepts/foundational-color|foundational color]] grading and skin tone adjustments provides a consistent foundation for further editing.
+Modern Lightroom workflows often incorporate AI-assisted tools for culling and enhancement, including automated mask generation for landscape and portrait work, as well as assisted stacking and selection features. These [[concepts/capabilities|capabilities]] reduce time spent on initial image selection and fundamental [[concepts/adjustments|adjustments]], allowing photographers to focus on creative [[concepts/decision-making|decision-making]]. [[concepts/color-calibration|Color calibration]] through [[concepts/foundational-color|foundational color]] grading and skin [[concepts/tone|tone]] adjustments provides a consistent foundation for further editing.
 
-By combining metadata discipline with AI-assisted processing, this workflow model balances [[concepts/automation|automation]] with manual control, creating an efficient pipeline suitable for both batch processing and individualized image treatment.
-
+By combining metadata discipline with AI-assisted processing, this workflow model balances [[concepts/automation|automation]] with manual [[concepts/power|control]], creating an efficient pipeline suitable for both batch processing and individualized image treatment.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Lightroom-Calibration-Panel-Foundational-Color-Skin-Tones-Cinematic|Lightroom Calibration Panel Foundational Color Skin Tones Cinematic]] · [▶ source](https://www.youtube.com/watch?v=tvBXN3Hnil0)

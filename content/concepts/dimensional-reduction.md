@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "embeddings"
   - "rag"
@@ -12,11 +11,12 @@ aliases:
   - "Matryoshka embeddings"
   - "embedding dimension reduction"
 summary: A technique for fine-tuning RAG embeddings using Matryoshka embeddings.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # Dimensional Reduction
 
-Dimensional reduction is a technique used to optimize embeddings for retrieval-augmented generation (RAG) systems. It involves [[concepts/training|training]] embeddings to maintain semantic meaning across multiple dimensionality levels, allowing the same [[concepts/embedding-model|embedding model]] to function effectively at different output sizes without retraining. This approach improves flexibility in RAG implementations by enabling users to trade off between embedding quality and [[concepts/computational-efficiency|computational efficiency]] based on their specific requirements.
+Dimensional reduction is a technique used to optimize embeddings for [[concepts/answer-generation|retrieval-augmented generation]] (RAG) systems. It involves [[concepts/training|training]] embeddings to maintain semantic meaning across multiple dimensionality levels, allowing the same [[concepts/embedding-model|embedding model]] to function effectively [[concepts/assistive-technology|at]] different [[concepts/output|output]] sizes without retraining. This approach improves flexibility in RAG implementations by enabling users to trade off between embedding quality and [[concepts/computational-efficiency|computational efficiency]] based on their specific requirements.
 
 ## Matryoshka Embeddings
 

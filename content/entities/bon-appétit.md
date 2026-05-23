@@ -10,8 +10,9 @@ tags:
   - "historical-drama"
 aliases:
   - "Bon Appétite: Your Majesty"
-summary: "A 12-episode Netflix K-drama adapted from the web novel Surviving as Yeonsan-gun's Chef, following a modern chef transported to the Joseon era."
-updated: 2026-04-27
+summary: A 12-episode Netflix K-drama adapted from the web novel Surviving as Yeonsan-gun's Chef, following a modern chef transported to the Joseon era.
+updated: 2026-05-23
+stub: true
 ---
 # Bon Appétit
 

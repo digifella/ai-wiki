@@ -11,7 +11,7 @@ aliases:
   - "DeepMind Aletheia"
   - "Aletheia AI"
 summary: DeepMind's Aletheia is a self-correcting AI system designed for scientific discovery.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Deep Think
 
@@ -19,11 +19,10 @@ updated: 2026-05-01
 
 ## Development and Purpose
 
-Aletheia was developed by DeepMind as a response to the challenges of applying [[concepts/large-language-model-llm|large language models]] and AI systems to scientific research. By incorporating self-correcting capabilities, the system aims to reduce hallucinations and improve the quality of outputs in scientific contexts where accuracy is paramount. The system's design reflects an understanding that scientific discovery requires not only pattern recognition but also the ability to verify and refine conclusions.
+[[entities/aletheia|Aletheia]] was developed by DeepMind as a response to the challenges of applying [[concepts/large-language-model-llm|large language models]] and AI systems to scientific research. By incorporating self-correcting [[concepts/capabilities|capabilities]], the system aims to reduce hallucinations and improve the quality of outputs in scientific contexts where accuracy is paramount. The system's [[concepts/design|design]] reflects an understanding that scientific discovery requires not only pattern recognition but also the ability to verify and refine conclusions.
 
 ## Scientific Applications
 
-The system was positioned as a tool for scientific discovery, suggesting applications across various research domains. Its self-correcting [[entities/nature|nature]] distinguishes it from earlier AI systems, as it can theoretically identify when its analyses or conclusions may be unreliable and adjust accordingly, rather than presenting unverified results with equal confidence.
-
+The system was positioned as a tool for scientific discovery, suggesting applications across various research domains. Its self-correcting [[entities/nature|nature]] distinguishes it from earlier AI systems, as it can [[entities/theoretically-media|theoretically]] identify when its analyses or conclusions may be unreliable and adjust accordingly, rather than presenting unverified results with equal confidence.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)

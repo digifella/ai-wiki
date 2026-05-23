@@ -1,18 +1,7 @@
 ---
 type: entity
-tags:
-  - "math"
-  - "competition"
-  - "usamo"
-  - "math-competition"
-  - "mathematical-olympiad"
-  - "high-school-math"
-  - "problem-solving"
-  - "mathematical-association-of-america"
-aliases:
-  - "United States of America Mathematical Olympiad"
-summary: "The United States of America Mathematical Olympiad (USAMO) is an annual high school mathematics competition administered by the Mathematical Association of America."
-updated: 2026-04-22
+summary: The United States of America Mathematical Olympiad (USAMO) is an annual high school mathematics competition administered by the Mathematical Association of America.
+updated: 2026-05-23
 ---
 # USAMO
 
@@ -20,7 +9,7 @@ The [[entities/united-states|United States of America]] Mathematical Olympiad (U
 
 ## Gemini Pro Deep Think
 - [[entities/gemini-2-5-pro|Gemini 2.5 Pro]] now includes a new mode called "[[concepts/deep-think-mode|Deep Think]]."
-- This mode leverages Google's latest cutting-edge research in [[concepts/human-cognition|thinking]] and [[concepts/reasoning|reasoning]], including [[concepts/parallel-thinking|parallel thinking]] techniques.
+- This mode leverages [[concepts/google-search|Google]]'s latest cutting-edge research in [[concepts/human-cognition|thinking]] and [[concepts/reasoning|reasoning]], including [[concepts/parallel-thinking|parallel thinking]] techniques.
 - It's designed to tackle highly complex problems that require
 
-Backlink: [[concepts/date-2026-04-13|2026]] 04 14 [[entities/gemini-app|Gemini Pro]] Deep Think launch
+Backlink: [[concepts/date-2026-04-13|2026]] 04 14 [[entities/gemini-app|Gemini Pro]] [[concepts/deep-think|Deep Think]] launch

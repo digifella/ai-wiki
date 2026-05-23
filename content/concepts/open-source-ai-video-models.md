@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "ai"
-  - "video-generation"
-  - "open-source"
-  - "local-execution"
-  - "open-source-ai"
-  - "local-deployment"
-  - "generative-video"
-  - "gpu-computing"
-aliases:
-  - "open-source video models"
-  - "local ai video generation"
-summary: "Open-source generative video models such as LTX-2 and Wan can be deployed on local hardware using Pinokio to ensure privacy and avoid subscription fees."
-updated: 2026-04-18
+summary: Open-source generative video models such as LTX-2 and Wan can be deployed on local hardware using Pinokio to ensure privacy and avoid subscription fees.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # Open-source AI video models
@@ -28,9 +16,9 @@ group: video-content-systems
 ## Local Deployment via Pinokio
 [[concepts/pinokio-tool|Pinokio]] is a tool used to install and run [[concepts/ai-models|AI models]] locally on a PC.
 - **Advantages**:
-    - **[[concepts/privacy|Privacy]]**: Processes data locally without cloud exposure.
+    - **[[concepts/privacy|Privacy]]**: Processes data locally without cloud [[concepts/exposure|exposure]].
     - **Cost-efficiency**: No subscription fees.
-    - **Unrestricted use**: No usage limits or rate-limiting.
+    - **Unrestricted use**: No [[concepts/rate-limits|usage limits]] or rate-limiting.
 - **[[concepts/hardware-requirements|Hardware Requirements]]**:
     - Requires a dedicated GPU due to high computational intensity.
 
@@ -40,8 +28,7 @@ group: video-content-systems
 - [[concepts/general-purpose-computing|GPU Computing]]
 
 ## Sources
-- 2026 04 14 Making [[concepts/ai-videos|AI videos]] locally with Pinokio [[entities/kevin-stratvert|Kevin Stratvert]] channel
-
+- 2026 04 14 Making [[concepts/ai-videos|AI videos]] locally with [[entities/pinokio|Pinokio]] [[entities/kevin-stratvert|Kevin Stratvert]] channel
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

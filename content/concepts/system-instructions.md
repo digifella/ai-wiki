@@ -2,27 +2,31 @@
 type: concept
 domain: ai-agents
 tags:
-  - "ai"
   - "prompt-engineering"
-  - "system-instructions"
-  - "ai-alignment"
+  - "ai-behavior"
+  - "model-alignment"
+  - "constraint-definition"
+  - "response-control"
   - "google-ai-studio"
-  - "model-behavior"
 aliases:
-  - "AI system instructions"
-  - "instructional prompts"
-summary: "System instructions define the behavior, tone, and constraints of an AI system to ensure alignment with user goals."
-updated: 2026-04-17
+  - "prompt system instructions"
+  - "AI behavior definition"
+  - "model constraints"
+summary: System instructions define the behavior, tone, and constraints of an AI system to ensure alignment with user goals.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # System Instructions
 
-System instructions define the behavior, tone, and constraints of an AI system. They are critical for guiding model [[concepts/responses|responses]] and ensuring alignment with user goals.
+[[concepts/custom-instructions|System instructions]] are foundational directives that define how an AI system behaves, communicates, and makes decisions. They establish the model's [[concepts/tone|tone]], [[concepts/style|style]], values, and operational constraints, serving as [[concepts/ai-safety|guardrails]] to ensure the AI's [[concepts/responses|responses]] align with intended [[concepts/scenarios|use cases]] and user expectations. Effective system instructions help prevent unintended outputs and guide the model toward producing more relevant, accurate, and contextually appropriate responses.
 
-- [[entities/google-ai-studio]] provides a free, user-friendly interface for crafting system instructions (demonstrated by [[entities/dr-elle-yuan-wang|Dr. Elle Yuan Wang]] in her [tutorial](<https://www.youtube.com/watch?v=gmprr12yveI>)), debunking the misconception that it's only for developers.
+## Purpose and Function
 
-2026 04 14 [[entities/ai-studio|Google Ai studio]] tips [[entities/elle-wang|Elle wang]]
+System instructions function as a form of [[concepts/prompt-based-modeling|prompt engineering]] [[concepts/assistive-technology|at]] the system level, distinct from individual user queries. They persist across conversations and shape every interaction the AI has with users. Well-crafted system instructions can specify domain expertise, enforce ethical boundaries, set communication preferences, and establish quality [[concepts/open-standards|standards]] without requiring users to repeat these [[concepts/parameters|parameters]] in every message.
 
+## Practical Implementation
+
+Creating system instructions does not require specialized technical expertise. Tools like [[entities/ai-studio|Google AI Studio]] provide accessible interfaces for users to define and test system instructions without [[concepts/coding|coding]] knowledge. This democratization of prompt engineering enables educators, content creators, and domain experts to customize AI behavior for specific [[concepts/software|applications]], from tutoring systems to specialized [[concepts/advanced-tools|professional tools]].
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]

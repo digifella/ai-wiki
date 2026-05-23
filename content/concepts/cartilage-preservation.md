@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "evolutionary-biology"
-  - "cartilage-structure"
-  - "fossilization-processes"
-  - "shark-evolution"
-  - "ancient-sharks"
-aliases:
-  - "Cartilage Evolution"
-  - "Shark Cartilage Preservation"
-  - "Fossilized Cartilage Study"
-  - "Marine Fossils"
-summary: "Cartilage preservation involves methods to maintain and study cartilaginous structures, crucial for understanding the evolutionary history of sharks and other fish."
-updated: 2026-04-11
+summary: Cartilage preservation involves methods to maintain and study cartilaginous structures, crucial for understanding the evolutionary history of sharks and other fish.
+updated: 2026-05-23
 group: life-systems-adaptation-discovery
-title: "Cartilage Preservation"
+title: Cartilage Preservation
 ---
 # Cartilage Preservation
 Cartilage [[concepts/preservation|preservation]] refers to methods of maintaining or studying cartilaginous structures such as those found in sharks and other fish. This is crucial for understanding evolutionary history and the biological mechanisms behind cartilage formation and degradation.

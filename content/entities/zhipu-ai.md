@@ -1,22 +1,11 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "open-source"
-  - "zhipu-ai"
-  - "glm"
-  - "large-language-models"
-  - "chinese-ai"
-  - "automation"
-aliases:
-  - "Zhipu"
-  - "GLM series"
-summary: "Zhipu AI is a Chinese company that develops the GLM series of large language models, focusing on open-source deployment and business automation capabilities."
-updated: 2026-04-24
+summary: Zhipu AI is a Chinese company that develops the GLM series of large language models, focusing on open-source deployment and business automation capabilities.
+updated: 2026-05-23
 ---
 # Zhipu AI
 
-Chinese AI company developing the [[entities/glm|GLM]] series of [[concepts/large-language-models|large language models]], emphasizing [[concepts/open-source|open-source]] [[concepts/deployment|deployment]] and business [[concepts/automation|automation]] capabilities.
+Chinese AI company developing the [[entities/glm|GLM]] series of [[concepts/large-language-models|large language models]], emphasizing [[concepts/open-source|open-source]] [[concepts/deployment|deployment]] and business [[concepts/automation|automation]] [[concepts/capabilities|capabilities]].
 
 ## Models
 
@@ -26,7 +15,7 @@ Chinese AI company developing the [[entities/glm|GLM]] series of [[concepts/larg
 
 [[concepts/date-2026-04-13|2026]] 04 14 [[entities/julian-goldie|Julian Goldie]] SEO channel GLM 47
 
-- 2026-04-13 [2026-04-13-Ollama-and-Zapier-MCP-Local-LLM-AI-Agent-Setup-and-Integration](2026-04-13-Ollama-and-Zapier-MCP-Local-LLM-AI-Agent-Setup-and-Integration.md) ← Ollama And Zapier Mcp Local Llm Ai Agent Setup And Integration
-- 2026-05-01 [2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M](2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M.md) ← Alibaba Qwen 3.6 27B Advanced Local Agentic Coding And M
-- 2026-04-07 [2026-04-07-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards](2026-04-07-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards.md) ← Alibaba Qwen 36 Plus Agentic Coding And Multimodal Reasoning Towards
+- 2026-04-13 [2026-04-13-Ollama-and-Zapier-MCP-Local-LLM-AI-Agent-Setup-and-Integration](2026-04-13-Ollama-and-Zapier-MCP-Local-LLM-AI-Agent-Setup-and-Integration.md) ← [[concepts/task-specific-modeling|Ollama]] And [[entities/zapier-mcp|Zapier Mcp]] [[concepts/local-llm|Local Llm]] [[concepts/ai-agent-setup|Ai Agent Setup]] And [[concepts/integration|Integration]]
+- 2026-05-01 [2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M](2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M.md) ← [[concepts/qwen-model|Alibaba Qwen]] 3.6 27B Advanced Local [[concepts/autonomous-ai-coding-agent|Agentic Coding]] And M
+- 2026-04-07 [2026-04-07-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards](2026-04-07-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards.md) ← Alibaba [[entities/qwen-36-plus|Qwen 36 Plus]] Agentic Coding And [[concepts/multimodal-reasoning|Multimodal Reasoning]] Towards
 ## Source Notes

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "obsidian"
@@ -14,20 +13,22 @@ aliases:
   - "Automated PKM"
   - "Obsidian and Claude Code Setup"
 summary: A demonstration of using Obsidian and Claude Code AI for automated personal knowledge management with GitHub synchronization.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Automated Retrieval
 
-Automated Retrieval is a [[concepts/knowledge-management|knowledge management]] approach that combines personal note-taking [[concepts/software|applications]] with AI assistance and version control systems to streamline the [[concepts/organization|organization]] and maintenance of information repositories. The system leverages Obsidian, a [[concepts/markdown|markdown]]-based note application, as the primary interface for storing and managing notes, while integrating [[concepts/ai-assisted-coding|Claude Code]] AI to assist with routine maintenance tasks such as formatting, organization, and cross-referencing. This integration reduces manual overhead in [[concepts/knowledge-base|knowledge base]] upkeep while maintaining human oversight of content and structural decisions.
+Automated Retrieval is a [[concepts/knowledge-management|knowledge management]] approach that uses AI assistance and version [[concepts/power|control]] to streamline the organization and maintenance of personal information repositories. The system typically combines a markdown-based note application—such as [[concepts/obsidian|Obsidian]]—with an [[entities/ai-coding-assistant|AI coding assistant]] to handle routine maintenance tasks including formatting, linking, and [[concepts/metadata|metadata]] management. This [[concepts/integration|integration]] reduces manual overhead while preserving the human-directed curation of knowledge.
 
 ## Core Components
 
-The approach typically operates through three integrated layers. Obsidian serves as the user-facing interface where notes are created and edited in markdown format. Claude Code AI functions as an [[concepts/automation|automation]] layer that can process bulk formatting tasks, suggest organizational improvements, and maintain [[concepts/logical-consistency|consistency]] across the knowledge base. GitHub provides version control and synchronization capabilities, enabling backup, change tracking, and multi-device access to the note repository.
+The approach relies on three primary elements working in conjunction. A local note application provides the interface for creating and reading information. An [[concepts/ai-assistant|AI assistant]] handles standardized maintenance operations that would otherwise require manual effort. Version control, typically through [[entities/github|GitHub]], creates an auditable record of changes and enables synchronization across devices or collaborative contexts.
 
-## Workflow and Benefits
+## Practical Implementation
 
-The workflow involves storing notes locally in Obsidian, using Claude Code AI to handle standardization and cross-linking tasks, and synchronizing changes through GitHub for [[concepts/data-persistence|persistence]] and version history. This arrangement allows individuals to focus on [[concepts/content-creation|content creation]] and [[concepts/knowledge-capture|knowledge capture]] while delegating routine maintenance work to [[concepts/automations|automated systems]]. The approach preserves the flexibility of personal knowledge management while reducing the [[concepts/friction|friction]] typically associated with keeping large note collections organized and discoverable.
+In practice, Automated Retrieval systems allow users to focus on [[concepts/content-creation|content creation]] while delegating repetitive organizational tasks to [[concepts/automation|automation]]. The AI assistant can standardize formatting conventions, update [[concepts/cross-references|cross-references]], and maintain consistent metadata structures across a growing [[concepts/knowledge-base|knowledge base]]. [[concepts/github-synchronization|GitHub synchronization]] ensures that changes are tracked and can be reverted if needed, while also serving as a backup mechanism.
 
+This approach sits between fully manual knowledge management and fully [[concepts/automations|automated systems]], preserving user agency in what information matters while automating the mechanical aspects of maintenance.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Gemini-AI-Integration-Updates-for-Google-Workspace-Applications|Gemini AI Integration Updates for Google Workspace Applications]] · [▶ source](https://www.youtube.com/watch?v=bhIkY4g5_Sc)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

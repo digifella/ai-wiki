@@ -11,13 +11,13 @@ tags:
   - "long-range-dependencies"
 aliases:
   - "State Space Models"
-summary: "State Space Models are a class of architectures designed for efficient sequence modeling and handling long-range dependencies."
-updated: 2026-04-27
-group: ai-foundations-concepts
+summary: State Space Models are a class of architectures designed for efficient sequence modeling and handling long-range dependencies.
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # SSM
 
-State Space Models (SSM) are a class of [[concepts/architecture|architectures]] designed for efficient sequence modeling and handling long-[[concepts/range|range]] dependencies.
+[[concepts/state-space-model-ssm|State Space Models]] (SSM) are a class of [[concepts/architecture|architectures]] designed for efficient sequence modeling and handling long-[[concepts/range|range]] dependencies.
 
 ## Recent Developments
 - **[[concepts/hybrid-ssm-transformer|hybrid SSM-Transformer]] architectures**: Emerging focus on combining the efficiency of SSMs with the performance of [[concepts/transformers|Transformers]].

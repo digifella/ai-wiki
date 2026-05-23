@@ -1,22 +1,11 @@
 ---
 type: concept
-tags:
-  - "evernote-pricing"
-  - "user-reactions"
-  - "migration-guidance"
-  - "saas-pricing"
-  - "data-export"
-aliases:
-  - "evernote-costs"
-  - "pricing-update-evernote"
-  - "migrating-from-evernote"
-  - "evernote-tiered-plan"
-summary: "Evernote has introduced a new tiered pricing structure that includes premium tiers with enhanced features and adjusted storage limits, leading to varied user reactions ranging from outrage over increased costs to anxiety"
-updated: 2026-04-11
 domain: business-strategy
+summary: Evernote has introduced a new tiered pricing structure that includes premium tiers with enhanced features and adjusted storage limits, leading to varied user reactions ranging from outrage over increased costs to anxiety
+updated: 2026-05-23
 group: pricing-subscriptions-saas
 ---
-title: "Evernote Pricing"
+title: "[[entities/evernote|Evernote]] [[concepts/pricing|Pricing]]"
 type: concept
 
 # Evernote Pricing
@@ -41,15 +30,14 @@ Evernote's recent shift in its [[concepts/pricing-model|pricing model]] has prom
 - Strategies for maintaining functionality without the need for premium subscriptions.
 
 ### Resource: Dave Edwards' Insights
-**Clip title:** Reactions To The Price Increase - Plus, How To Remove Files from Evernote
+**[[concepts/clip-title|Clip title]]:** Reactions To The Price Increase - Plus, How To Remove [[concepts/files|Files]] from Evernote
 **Author / channel:** [[entities/dave-edwards|Dave Edwards]]
 **URL:** https://www.youtube.com/watch?v=D04Z5s16QnE
 
 ### New Information:
-- **Summary**: This video addresses the widespread concern among Evernote users regarding its new tiered pricing structure and offers advice for those considering migrating their data.
+- **[[concepts/summary|Summary]]**: This video addresses the widespread concern among Evernote users regarding its new [[concepts/tiered-pricing|tiered pricing]] [[concepts/structure|structure]] and offers advice for those considering migrating their data.
   - The [[entities/speaker|speaker]] provides an unbiased perspective on the recent changes and offers practical guidance for dealing with these shifts.
 
 2026 04 10 [[concepts/starter-plan|Evernote New Pricing]] Structure User Reactions and Migration Guidance
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Evernote-New-Pricing-Structure-User-Reactions-and-Migration-Guidance|Evernote New Pricing Structure User Reactions and Migration Guidance]] · [▶ source](https://www.youtube.com/watch?v=D04Z5s16QnE)

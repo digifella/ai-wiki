@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: body-systems-recovery-function
 tags:
   - "sleep"
   - "circadian-rhythm"
@@ -12,8 +11,9 @@ aliases:
   - "body clock"
   - "circadian cycle"
   - "sleep-wake cycle"
-summary: "The biological rhythm that regulates sleep-wake cycles and other physiological processes in the body."
-updated: 2026-05-01
+summary: The biological rhythm that regulates sleep-wake cycles and other physiological processes in the body.
+updated: 2026-05-23
+group: body-systems-recovery-function
 ---
 # Circadian Rhythms
 
@@ -21,8 +21,8 @@ Circadian rhythms are biological cycles that repeat approximately every 24 hours
 
 ## Key Functions
 
-Circadian rhythms regulate sleep-wake cycles, hormone production, body temperature, digestion, and cognitive performance. Cortisol levels typically peak in the early morning to promote wakefulness, while melatonin increases in the evening to promote sleep. These rhythms influence alertness, metabolism, and [[concepts/immune-system-function|immune function]] throughout the day, with most people experiencing a dip in energy in the early afternoon.
+Circadian rhythms regulate sleep-wake cycles, hormone production, body temperature, digestion, and cognitive performance. Cortisol levels typically peak in the early morning to promote wakefulness, while melatonin increases in the evening to promote [[concepts/sleep|sleep]]. These rhythms [[concepts/power|influence]] alertness, metabolism, and [[concepts/immune-system-function|immune function]] throughout the day, with most people experiencing a dip in energy in the early afternoon.
 
 ## Disruption and Health
 
-When circadian rhythms become misaligned—through shift work, jet lag, or irregular sleep schedules—various health consequences can occur, including sleep disorders, mood disturbances, and metabolic issues. Maintaining consistent sleep and wake times, [[concepts/exposure|exposure]] to natural light during the day, and limiting artificial light in the evening help keep circadian rhythms aligned with the natural 24-hour cycle.
+When circadian rhythms become misaligned—through shift work, jet lag, or irregular sleep schedules—various [[concepts/health|health]] consequences can occur, including sleep disorders, mood disturbances, and metabolic issues. Maintaining consistent sleep and wake times, [[concepts/exposure|exposure]] to natural [[concepts/light|light]] during the day, and limiting artificial light in the evening help keep circadian rhythms aligned with the natural 24-hour cycle.

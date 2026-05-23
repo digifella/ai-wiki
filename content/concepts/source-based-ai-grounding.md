@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "RAG"
-  - "LLM"
-  - "Productivity"
-  - "ai-grounding"
-  - "hallucination-reduction"
-  - "information-synthesis"
-  - "data-accuracy"
-  - "content-transformation"
-aliases:
-  - "source-based grounding"
-  - "grounded-ai"
-summary: "A technique in artificial intelligence that constrains model responses to a user-provided dataset to ensure factual accuracy and minimize hallucinations."
-updated: 2026-04-24
+summary: A technique in artificial intelligence that constrains model responses to a user-provided dataset to ensure factual accuracy and minimize hallucinations.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Source-based AI grounding
@@ -28,7 +15,7 @@ A technique used in [[concepts/ai-technologies|Artificial Intelligence]] to cons
 	- PDF
 	- [[entities/google-docs]]
 	- [[concepts/google-slides]]
-	- Audio
+	- [[concepts/audio-modality|Audio]]
 	- URL
 - **[[concepts/content-transformation|Content Transformation]]**: Enables the conversion of grounded source material into structured outputs such as [[concepts/data-tables]], [[concepts/infographic]], [[entities/google-slides|slides]], and videos.
 

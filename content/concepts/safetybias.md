@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: safety-guardrails-governance
 tags:
   - "quality-assurance"
   - "critique-process"
@@ -16,7 +15,8 @@ aliases:
   - "task validation"
   - "CAIA"
 summary: A process for performing rigorous critiques of task responses to identify inaccuracies, biases, or areas for improvement.
-updated: 2026-05-01
+updated: 2026-05-23
+group: safety-guardrails-governance
 ---
 # Safetybias
 
@@ -28,4 +28,4 @@ The safetybias process typically involves reviewing a completed response against
 
 ## Integration with Prompt Design
 
-Safetybias functions as both a runtime [[concepts/task-review|quality check]] and a [[concepts/feedback|feedback]] mechanism for improving future [[concepts/prompting|prompting]] strategies. By documenting what errors or biases appeared in agent responses, teams can refine their initial [[concepts/instructions|instructions]] and constraints. This iterative relationship between [[concepts/practicality-assessment|response critique]] and prompt refinement helps gradually reduce the frequency and severity of problematic outputs over time.
+Safetybias functions as both a runtime [[concepts/task-review|quality check]] and a [[concepts/feedback|feedback]] mechanism for improving future [[concepts/prompting|prompting]] strategies. By documenting what errors or [[concepts/biases|biases]] appeared in [[entities/agent|agent]] responses, teams can refine their initial [[concepts/instructions|instructions]] and constraints. This iterative relationship between [[concepts/practicality-assessment|response critique]] and prompt refinement helps gradually reduce the frequency and severity of problematic outputs over time.

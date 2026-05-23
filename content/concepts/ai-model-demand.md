@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "compute-economics"
-  - "market-dynamics"
-  - "ai-demand"
-  - "compute-scarcity"
-  - "llm-infrastructure"
-  - "scaling-requirements"
-  - "compute-crunch"
-aliases:
-  - "AI model demand"
-  - "LLM demand"
-  - "computational demand"
-summary: "AI model demand is the measure of computational load and scaling requirements placed on LLM infrastructure."
-updated: 2026-04-26
+summary: AI model demand is the measure of computational load and scaling requirements placed on LLM infrastructure.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI model demand
@@ -30,8 +17,7 @@ The demand for [[concepts/ai-models]] is a measure of the computational load and
 ## Recent Updates
 - **[[entities/anthropic-labs|Anthropic]] [[concepts/compute|Compute]] Miscalculation (April [[concepts/date-2026-04-13|2026]]):**
     - A critical error in predicting [[entities/claude]] demand led to a significant "[[concepts/compute-crunch|compute crunch]]."
-    - Ref: 2026 04 23 Anthropics Compute Miscalculation Claude Demand and Strategic Impact
-
+    - Ref: 2026 04 23 Anthropics [[concepts/feynmans-three-step-scientific-method|Compute]] Miscalculation [[concepts/claude-ai|Claude]] Demand and Strategic Impact
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: [[lab-notes/2026-04-07-NVIDIA-NemoClaw-Agent-Toolkit-for-Secure-Enterprise-AI-Deployment|NVIDIA NemoClaw Agent Toolkit for Secure Enterprise AI Deployment]] · [▶ source](https://www.youtube.com/watch?v=NY2uwmX3uGc)

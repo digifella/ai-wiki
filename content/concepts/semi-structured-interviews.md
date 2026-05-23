@@ -1,18 +1,9 @@
 ---
 type: concept
-domain: tools-platforms
-tags:
-  - "research-methods"
-  - "qualitative-research"
-  - "interviews"
-  - "healthcare-research"
-  - "data-collection"
-  - "interview-techniques"
-aliases:
-  - "semi-structured interview technique"
-summary: "A qualitative research method using flexible interview guides with predetermined topics and open-ended questions to enable in-depth exploration."
-updated: 2026-04-16
-group: developer-tooling-clis
+domain: business-strategy
+summary: A qualitative research method using flexible interview guides with predetermined topics and open-ended questions to enable in-depth exploration.
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # semi-structured interviews
 
@@ -24,12 +15,12 @@ A [[concepts/qualitative-research|qualitative research]] method using flexible i
 - Generates rich, contextual data compared to structured interviews
 
 **[[concepts/software|Applications]]:**
-- Studying healthcare provider perspectives (e.g., [[concepts/ai-governance|AI governance]] implementation)
+- Studying healthcare provider perspectives (e.g., [[concepts/ai-governance|AI governance]] [[concepts/adoption|implementation]])
 - Developing practice-oriented frameworks (e.g., [[entities/bmj|BMJ]] Review)
 - Understanding patient experiences with new technologies
 
-**New note integration:**
-- [[entities/bmj-review|BMJ Review]] (2026): Developed a practice-oriented AI governance framework addressing gaps between high-level [[concepts/ethics|ethics]] principles and practical implementation in healthcare (e.g., [[concepts/risk-assessment|risk assessment]], embedding oversight).
+**New note [[concepts/integration|integration]]:**
+- [[entities/bmj-review|BMJ Review]] (2026): Developed a [[concepts/ai-governance-framework|practice-oriented AI governance]] framework addressing gaps between high-level [[concepts/ethics|ethics]] principles and practical implementation in healthcare (e.g., [[concepts/risk-assessment|risk assessment]], embedding oversight).
 
 **[[concepts/cross-references|Cross-references]]:**
 - [[concepts/qualitative-research]]

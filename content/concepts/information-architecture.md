@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: architecture-cities-heritage
 tags:
   - "concept"
   - "information-architecture"
@@ -15,20 +14,20 @@ aliases:
   - "information design"
   - "knowledge structure"
 summary: Information architecture is the practice of organizing and structuring information systems, demonstrated here through metadata enrichment and mindmap generation for wiki documentation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: architecture-cities-heritage
 ---
 # Information Architecture
 
-Information architecture (IA) is the discipline of organizing, structuring, and labeling content within information systems to support usability and findability. Originating in library science and evolving through web design practices, IA applies principles of taxonomy, [[concepts/metadata|metadata]], and spatial [[concepts/organization|organization]] to both digital and physical information environments. The field emerged formally in the 1990s as web complexity increased, though its conceptual foundations trace to earlier work in information science and [[concepts/knowledge-organization|knowledge organization]].
+Information [[concepts/architecture|architecture]] (IA) is the discipline of organizing, structuring, and labeling content within information systems to support usability and findability. Originating in library [[concepts/science|science]] and evolving through web [[concepts/design|design]] practices, IA applies principles of taxonomy, [[concepts/metadata|metadata]], and spatial [[concepts/organization|organization]] to both digital and physical information environments. The field emerged formally in the 1990s as web complexity increased, though its conceptual foundations trace to earlier work in information science and [[concepts/knowledge-organization|knowledge organization]].
 
 ## Core Practices
 
-The practice of information architecture involves several interconnected activities. Metadata enrichment—adding descriptive information to content—enables systems to categorize, retrieve, and contextualize information more effectively. Information modeling, another central practice, maps [[concepts/relationships|relationships]] between concepts and entities to reflect how users mentally organize knowledge. Practitioners use tools such as sitemaps, wireframes, and concept [[concepts/diagrams|diagrams]] to visualize and communicate structural decisions before implementation.
+The practice of information architecture involves several interconnected activities. Metadata enrichment—adding descriptive information to content—enables systems to categorize, retrieve, and contextualize information more effectively. Information modeling, another central practice, maps [[concepts/relationships|relationships]] between concepts and entities to reflect how users mentally organize knowledge. Practitioners use tools such as sitemaps, wireframes, and concept [[concepts/diagrams|diagrams]] to visualize and communicate structural decisions before [[concepts/adoption|implementation]].
 
 ## Applications and Scope
 
 Information architecture applies across diverse domains: website navigation hierarchies, database schema design, museum cataloging systems, and documentation organization. In contemporary settings, IA extends to managing complex knowledge systems, where structured metadata and interconnected information maps help users navigate large document collections or automated search environments. The discipline increasingly intersects with [[concepts/knowledge-management|knowledge management]], [[concepts/data-curation|data curation]], and AI-assisted [[concepts/knowledge-bases|information retrieval]], where clear structural foundations improve both human comprehension and machine processing.
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)

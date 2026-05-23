@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "machine-learning"
   - "photo-editing"
@@ -12,11 +11,12 @@ aliases:
   - "ML-accelerated photo culling"
   - "AI photo acceleration"
 summary: The use of machine learning tools such as Lightroom AI to accelerate photo culling processes.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Machine Learning Acceleration
 
-Machine Learning Acceleration refers to the application of machine [[concepts/learning|learning]] tools to expedite repetitive or time-consuming tasks in creative workflows. In photography and [[concepts/photo-management|image management]], this approach has emerged as a practical method for handling the labor-intensive process of [[concepts/photo-culling|photo culling]]—the selection and [[concepts/organization|organization]] of [[concepts/images|images]] from large shoots.
+[[concepts/machine-learning|Machine Learning]] Acceleration refers to the application of machine [[concepts/learning|learning]] tools to expedite repetitive or time-consuming tasks in creative workflows. In photography and [[concepts/photo-management|image management]], this approach has emerged as a practical method for handling the labor-intensive process of [[concepts/photo-culling|photo culling]]—the selection and [[concepts/organization|organization]] of [[concepts/images|images]] from large shoots.
 
 ## Photo Culling Applications
 
@@ -24,4 +24,4 @@ Machine Learning Acceleration refers to the application of machine [[concepts/le
 
 ## Practical Impact
 
-The acceleration achieved through these tools addresses a genuine bottleneck in photography workflows. Professional and amateur photographers alike spend considerable time reviewing similar shots to identify the best versions. [[concepts/machine-learning-systems|Machine learning systems]] can rapidly filter candidates based on learned patterns, reducing the manual workload while the photographer retains final decision-making authority over which images to keep or discard.
+The acceleration achieved through these tools addresses a genuine bottleneck in photography workflows. Professional and amateur photographers alike spend considerable time reviewing similar shots to identify the best versions. [[concepts/machine-learning-systems|Machine learning systems]] can rapidly filter candidates based on learned patterns, reducing the manual workload while the photographer retains final [[concepts/decision-making|decision-making]] [[concepts/power|authority]] over which images to keep or discard.

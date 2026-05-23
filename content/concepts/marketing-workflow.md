@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: market-intelligence-geo-seo
 tags:
   - "ai-marketing-automation"
   - "claude-ai"
@@ -12,20 +11,21 @@ tags:
 aliases:
   - "AI-Powered Marketing"
   - "Marketing Automation Workflow"
-summary: "A collection of marketing workflow approaches leveraging AI tools including Claude, NotebookLM, and design platforms for content creation and automation."
-updated: 2026-05-01
+summary: A collection of marketing workflow approaches leveraging AI tools including Claude, NotebookLM, and design platforms for content creation and automation.
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Marketing Workflow
 
-Marketing workflow refers to the systematic processes and sequences through which marketing teams plan, create, distribute, and optimize content and campaigns. Modern marketing workflows increasingly incorporate [[concepts/ai-technologies|artificial intelligence]] tools to enhance efficiency, reduce manual effort, and improve content quality across multiple channels and formats.
+Marketing [[concepts/workflow|workflow]] refers to the systematic processes and sequences through which marketing teams plan, create, distribute, and optimize content and campaigns. Modern marketing workflows increasingly incorporate [[concepts/ai-technologies|artificial intelligence]] tools to enhance efficiency, reduce manual effort, and improve content quality across multiple channels and formats.
 
 ## AI-Powered Content Creation
 
-Contemporary marketing workflows [[concepts/leverage-ai|leverage AI]] assistants like [[concepts/claude-ai|Claude]] to automate various stages of content development. These tools can generate copy, outline strategies, develop marketing frameworks, and even execute code-based tasks through [[concepts/agentic-ai|AI agents]] and [[concepts/skills|skills]]. This approach allows marketing teams to maintain consistent output while focusing human effort on strategic decisions and creative direction rather than routine production tasks.
+Contemporary marketing workflows [[concepts/leverage-ai|leverage AI]] assistants like [[concepts/claude-ai|Claude]] to automate various stages of content development. These tools can generate copy, outline strategies, develop marketing frameworks, and even execute code-based tasks through [[concepts/agentic-ai|AI agents]] and [[concepts/skills|skills]]. This approach allows marketing teams to maintain consistent [[concepts/output|output]] while focusing human effort on strategic decisions and creative direction rather than routine production tasks.
 
 ## Design and Visual Content Automation
 
-Integration of AI with design platforms such as Canva enables streamlined creation of visual marketing materials. Workflows that connect Claude with design tools allow for rapid [[concepts/iteration|iteration]] and production of graphics, social media assets, and promotional materials. This integration reduces the time between concept and execution while maintaining design quality and brand [[concepts/logical-consistency|consistency]].
+[[concepts/integration|Integration]] of AI with [[concepts/design|design]] platforms such as [[entities/canva|Canva]] enables streamlined creation of visual marketing materials. Workflows that connect [[concepts/claude|Claude]] with design tools allow for rapid [[concepts/iteration|iteration]] and production of graphics, social media assets, and promotional materials. This integration reduces the time between concept and execution while maintaining design quality and brand [[concepts/logical-consistency|consistency]].
 
 ## Multi-Format Content Optimization
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "ai-agents"
@@ -12,7 +11,8 @@ tags:
 aliases:
   - "AutoResearch"
 summary: AutoResearch is an autonomous AI agent that achieves self-improvement through code iteration and automated code modification.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Hypothesis Formulation
 
@@ -20,7 +20,7 @@ Hypothesis formulation is the process of constructing testable propositions or e
 
 ## Role in Autonomous Systems
 
-In the context of [[concepts/action-oriented-ai|autonomous AI agents]] like [[concepts/automated-code-modification|AutoResearch]], hypothesis formulation becomes a metacognitive process where the system generates predictions about code modifications and their effects before implementation. The agent proposes hypotheses about how specific code changes will improve performance, correctness, or efficiency, then tests these predictions through iterative [[concepts/code-modification|code modification]] and evaluation. This systematic approach enables self-directed improvement without external direction.
+In the context of [[concepts/action-oriented-ai|autonomous AI agents]] like [[concepts/automated-code-modification|AutoResearch]], hypothesis formulation becomes a metacognitive process where the system generates predictions about [[concepts/code|code]] modifications and their effects before [[concepts/adoption|implementation]]. The [[entities/agent|agent]] proposes hypotheses about how specific code changes [[entities/will|will]] improve performance, correctness, or efficiency, then tests these predictions through iterative [[concepts/code-modification|code modification]] and evaluation. This systematic approach enables self-directed improvement without external direction.
 
 ## Characteristics of Effective Hypotheses
 

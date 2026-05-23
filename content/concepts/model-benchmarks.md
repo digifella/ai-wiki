@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "concept"
   - "model-benchmarks"
@@ -13,20 +12,20 @@ aliases:
   - "LLM Benchmarks"
   - "AI Model Evaluation"
 summary: Documentation of model performance benchmarks including analysis of Gemini 3 Flash capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # Model Benchmarks
 
-Model benchmarks are standardized tests and evaluations used to measure the performance, capabilities, and limitations of [[concepts/artificial-intelligence-models|artificial intelligence models]]. These assessments provide quantitative and qualitative data on how models perform across different tasks, including [[concepts/reasoning|reasoning]], [[concepts/coding|coding]], language understanding, and agent-based operations. Benchmarks serve as essential tools for comparing models, tracking improvements across versions, and identifying specific strengths and weaknesses in [[concepts/model-behavior|model behavior]].
+Model benchmarks are standardized tests and evaluations used to measure the performance, [[concepts/capabilities|capabilities]], and limitations of [[concepts/artificial-intelligence-models|artificial intelligence models]]. These assessments provide quantitative and qualitative data on how [[concepts/models|models]] perform across different tasks, including [[concepts/reasoning|reasoning]], [[concepts/coding|coding]], language understanding, and agent-based operations. Benchmarks serve as essential tools for comparing models, tracking improvements across versions, and identifying specific strengths and weaknesses in [[concepts/model-behavior|model behavior]].
 
 ## Common Benchmark Categories
 
-Benchmarks typically fall into several categories depending on what aspects of model performance they measure. Task-specific benchmarks evaluate performance on coding tasks, [[concepts/mathematical-reasoning|mathematical reasoning]], or multi-step problem solving. Capability benchmarks assess general language understanding, [[concepts/instruction-following|instruction following]], and domain knowledge. Agent-oriented benchmarks test a model's ability to plan, use tools, and operate autonomously within defined environments. Performance metrics in these benchmarks often include [[concepts/accuracy|accuracy]] rates, response latency, [[concepts/token-optimization|token efficiency]], and cost-per-task execution.
+Benchmarks typically fall into several categories depending on what aspects of model performance they measure. Task-specific benchmarks evaluate performance on coding tasks, [[concepts/mathematical-reasoning|mathematical reasoning]], or multi-step [[concepts/problem-solving|problem solving]]. Capability benchmarks assess general language understanding, [[concepts/instruction-following|instruction following]], and domain knowledge. Agent-oriented benchmarks test a model's ability to plan, use tools, and operate autonomously within defined environments. [[concepts/performance-data-gathering|Performance metrics]] in these benchmarks often include [[concepts/accuracy|accuracy]] rates, response latency, [[concepts/token-optimization|token efficiency]], and cost-per-task execution.
 
 ## Industry Context
 
-The [[concepts/benchmark-testing|benchmarking]] landscape includes contributions from major organizations including [[concepts/google-search|Google]] ([[entities/gemini-models|Gemini models]]), [[entities/anthropic-institute|Anthropic]] ([[concepts/claude-ai|Claude]]), Meta, NVIDIA, and [[concepts/open-source|open-source]] initiatives like Qwen and Gemma. Recent developments have emphasized both proprietary model improvements and open-weight alternatives that aim to reduce dependency on commercial APIs. Benchmark results inform decisions about model selection for specific [[concepts/deployment|deployment]] contexts, particularly in enterprise environments where cost, latency, and security considerations carry significant weight.
-
+The [[concepts/benchmark-testing|benchmarking]] landscape includes contributions from major organizations including [[concepts/google-search|Google]] ([[entities/gemini-models|Gemini models]]), [[entities/anthropic-institute|Anthropic]] ([[concepts/claude-ai|Claude]]), [[entities/meta|Meta]], [[entities/nvidia|NVIDIA]], and [[concepts/open-source|open-source]] initiatives like [[entities/qwen|Qwen]] and [[entities/gemma|Gemma]]. Recent developments have emphasized both proprietary model improvements and [[concepts/open-weight|open-weight]] alternatives that aim to reduce dependency on commercial APIs. Benchmark results inform decisions about model selection for specific [[concepts/deployment|deployment]] contexts, particularly in enterprise environments where [[concepts/cost|cost]], latency, and [[concepts/security|security]] considerations carry significant weight.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Open-Weight-Models-Apache-20-and-Enhanced-AI|Google Gemma 4 Open Weight Models Apache 20 and Enhanced AI]] · [▶ source](https://www.youtube.com/watch?v=5aqF1HVpjdc)

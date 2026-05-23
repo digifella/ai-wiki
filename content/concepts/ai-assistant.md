@@ -1,24 +1,12 @@
 ---
-domain: ai-agents
 type: concept
-tags:
-  - "AI"
-  - "Photoshop"
-  - "Image Editing"
-  - "Automation"
-  - "Generative AI"
-  - "ai-assistance-tools"
-  - "image-editing-software"
-  - "automated-workflows"
-  - "personalized-recommendations"
-  - "generative-markup"
-  - "OpenClaw"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI Assistant
 
-An **AI Assistant** is a type of intelligent [[concepts/software|software]] that leverages [[concepts/ai-technologies|artificial intelligence]] to perform tasks and provide assistance across various domains. This can [[concepts/range|range]] from automating repetitive tasks, enhancing user productivity, providing personalized recommendations, or generating content. In the context of image editing tools like [[entities/adobe-photoshop|Adobe Photoshop]], an AI Assistant integrates with these [[concepts/software|applications]] to offer advanced [[concepts/capabilities|capabilities]] such as [[concepts/automated-layer-management|automated layer management]] and [[concepts/design|generative design]].
+An **[[concepts/digital-teammate|AI Assistant]]** is a type of intelligent [[concepts/software|software]] that leverages [[concepts/ai-technologies|artificial intelligence]] to perform tasks and provide assistance across various domains. This can [[concepts/range|range]] from automating repetitive tasks, enhancing user productivity, providing personalized recommendations, or generating content. In the context of [[concepts/image-editing|image editing]] tools like [[entities/adobe-photoshop|Adobe Photoshop]], an AI Assistant integrates with these [[concepts/software|applications]] to offer advanced [[concepts/capabilities|capabilities]] such as [[concepts/automated-layer-management|automated layer management]] and [[concepts/design|generative design]].
 
 ## Key Features
 - **[[concepts/automation|Automation]]**: Streamlines workflows by handling routine tasks automatically.
@@ -38,7 +26,6 @@ An **AI Assistant** is a type of intelligent [[concepts/software|software]] that
 ---
 **Backlinks:**
 - 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-08: Photoshop Renames All Your Layers Automatically (photoshop

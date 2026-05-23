@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "glm-47"
@@ -11,20 +10,24 @@ tags:
 aliases:
   - "GLM 4.7"
 summary: GLM-4.7 is a model designed to advance coding capability and business automation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Advanced Coding
 
-[[concepts/coding-excellence|GLM-4.7]] is an AI [[concepts/statistical-language-modeling|language model]] designed to enhance [[concepts/coding|coding]] capabilities and support business [[concepts/automation|automation]] workflows. As part of the GLM family of language models, it extends the foundational capabilities of its predecessors with a specific focus on software development tasks and enterprise automation. The model is intended for use by both professional developers tackling complex programming challenges and business users seeking to automate routine processes without requiring deep technical expertise.
+Advanced coding refers to the application of sophisticated programming techniques and AI-assisted tools to solve complex [[concepts/coding|software development]] challenges and automate business processes. [[concepts/coding-excellence|GLM-4.7]] is a statistical [[concepts/statistical-language-modeling|language model]] designed to support these advanced coding practices by providing intelligent [[concepts/code-generation|code generation]], analysis, and optimization [[concepts/capabilities|capabilities]].
 
-## Technical Capabilities
+## Technical Applications
 
-GLM-4.7 supports code generation, [[concepts/debugging|debugging]], and [[concepts/code-optimization|code optimization]] across multiple programming languages. The model can analyze existing codebases, identify potential issues, and suggest improvements. It is capable of generating functional code snippets and complete [[concepts/software|programs]] from [[concepts/natural-language-descriptions|natural language descriptions]], reducing the time required for routine development tasks. The system also provides [[concepts/explanations|explanations]] of code functionality, helping developers understand and learn from generated or existing solutions.
+GLM-4.7 assists developers by understanding natural language [[concepts/instructions|instructions]] and converting them into functional code across multiple programming languages. The model can help with [[concepts/code-debugging|code debugging]], refactoring [[concepts/vintage-computing|legacy systems]], and generating documentation. Its [[concepts/architecture|architecture]] enables it to maintain context across longer code sequences, making it suitable for working with substantial codebases and complex algorithmic problems.
 
 ## Business Automation
 
-Beyond traditional software development, GLM-4.7 is designed to facilitate business automation by enabling non-technical users to create scripts and automate repetitive workflows. This capability allows organizations to streamline operations without requiring specialized programming knowledge from all participants, potentially reducing development bottlenecks and lowering barriers to automation [[concepts/adoption|adoption]] across different departments.
+Beyond software development, GLM-4.7 supports business [[concepts/automation|automation]] by enabling non-technical users to create workflows and automate routine tasks through natural language interfaces. This expands the [[concepts/accessibility|accessibility]] of automation capabilities beyond specialized development teams, allowing organizations to streamline processes such as data processing, report generation, and [[concepts/integration|system integration]].
 
+## Integration and Use Cases
+
+The model operates within the broader [[entities/glm|GLM]] family of language [[concepts/models|models]], sharing underlying architectural principles while specializing in code-related tasks. Organizations employ it for [[concepts/scenarios|scenarios]] ranging from [[concepts/rapid-prototyping|rapid prototyping]] and internal tool development to augmenting existing development teams on time-sensitive projects.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

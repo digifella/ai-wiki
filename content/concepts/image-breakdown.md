@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: ai-image-generation-editing
+domain: ai-agents
 tags:
   - "concept"
   - "json-prompting"
@@ -14,11 +13,12 @@ aliases:
   - "JSON Prompting Techniques"
   - "Gemini Image Control"
 summary: A concept covering JSON-based prompting techniques for controlling image analysis and metadata extraction in Google's Gemini AI model.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Image Breakdown
 
-Image Breakdown refers to a [[concepts/prompting|prompting]] methodology that uses JSON (JavaScript Object Notation) structures to control how AI [[concepts/computer-vision|vision]] models, particularly [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini]], analyze and extract information from [[concepts/images|images]]. Rather than using [[concepts/natural-language-descriptions|natural language descriptions]] alone, practitioners format their [[concepts/image-analysis|image analysis]] requests as [[concepts/structured-data|structured JSON]] objects that specify exactly what [[concepts/metadata|metadata]], elements, or characteristics should be identified and returned. This approach provides more predictable and [[concepts/granular-control|granular control]] over the model's output format and analysis scope.
+Image Breakdown refers to a [[concepts/prompting|prompting]] methodology that uses [[concepts/json|JSON (JavaScript Object Notation)]] structures to [[concepts/power|control]] how AI [[concepts/computer-vision|vision]] [[concepts/models|models]], particularly [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini]], analyze and extract information from [[concepts/images|images]]. Rather than using [[concepts/natural-language-descriptions|natural language descriptions]] alone, practitioners format their [[concepts/image-analysis|image analysis]] requests as [[concepts/structured-data|structured JSON]] objects that specify exactly what [[concepts/metadata|metadata]], elements, or characteristics should be identified and returned. This approach provides more predictable and [[concepts/granular-control|granular control]] over the model's [[concepts/output|output]] format and analysis scope.
 
 ## Technical Implementation
 
@@ -26,8 +26,7 @@ The JSON-based approach involves defining request schemas that specify desired o
 
 ## Applications
 
-Image Breakdown techniques have been applied across creative and technical domains, including video production workflows, image editing [[concepts/automation|automation]], and [[concepts/asset-management|asset management]] systems. The methodology enables more efficient batch processing of visual content and supports [[concepts/iterative-refinement|iterative refinement]] of analysis [[concepts/parameters|parameters]]. By standardizing the request and response format, [[concepts/ai-translator-prompt|JSON prompting]] reduces [[concepts/ambiguity|ambiguity]] in what the model should examine and how findings should be presented.
-
+Image Breakdown techniques have been applied across creative and technical domains, including video production workflows, [[concepts/image-editing|image editing]] [[concepts/automation|automation]], and [[concepts/asset-management|asset management]] systems. The methodology enables more efficient batch processing of visual content and supports [[concepts/iterative-refinement|iterative refinement]] of analysis [[concepts/parameters|parameters]]. By standardizing the request and response format, [[concepts/ai-translator-prompt|JSON prompting]] reduces [[concepts/ambiguity|ambiguity]] in what the model should examine and how findings should be presented.
 ## Source Notes
 - 2026-04-07: Total Control: Why I Prompt Gemini with JSON (And Why You
 - 2026-04-09: Photoshop

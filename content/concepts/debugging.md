@@ -1,18 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "debugging"
-  - "ai-models"
-  - "autonomous-optimization"
-  - "self-evolution"
-  - "prompt-engineering"
-  - "debugging-practices"
-  - "ai-model-evolution"
-  - "autonomous-systems"
-  - "software-maintenance"
-  - "optimization-strategies"
-updated: 2026-04-14
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 ---
 ## Debugging Concepts
@@ -25,7 +14,7 @@ group: coding-agents-dev-workflows
 - [[concepts/prompt-engineering|Prompt Engineering]]
 
 ### New Insights (2026)
-- **Clip title:** [[concepts/automated-diagnostic-analysis|Self-Evolving AI]] Is Here — And It's [[concepts/open-weight|Open Weight]]
+- **[[concepts/clip-title|Clip title]]:** [[concepts/automated-diagnostic-analysis|Self-Evolving AI]] Is Here — And It's [[concepts/open-weight|Open Weight]]
 - **Author / channel:** [[concepts/prompt-engineering|Prompt Engineering]]
 - **URL:** https://www.youtube.com/watch?v=WpcRm78KOvY
 - **Clip title:** [[concepts/claude-code|Claude Code]] + [[entities/autoresearch|Karpathy's Autoresearch]] = GOD MODE!
@@ -33,7 +22,6 @@ group: coding-agents-dev-workflows
 - **URL:** https://www.youtube.com/watch?v=vjJwgXsMfjM
 
 2026 04 14 AI Powered Autonomous Social [[concepts/video-content-generation|Video Content Generation]] and Optimization System
-
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)

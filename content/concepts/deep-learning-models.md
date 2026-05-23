@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "deep-learning"
   - "ai-models"
@@ -13,11 +12,12 @@ aliases:
   - "LLM Models"
   - "Neural Network Architectures"
 summary: Google DeepMind released Gemma 4, an efficient AI model designed for local device execution.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Deep Learning Models
 
-Deep learning models are [[concepts/neural-networks|artificial neural networks]] with multiple layers that learn hierarchical representations of data through [[concepts/training|training]] on large datasets. These models form the foundation of modern AI systems, powering [[concepts/software|applications]] from [[concepts/nlp|natural language processing]] to [[concepts/computer-vision|computer vision]]. By processing information through successive layers of [[concepts/abstraction|abstraction]], deep learning models can identify complex patterns and [[concepts/relationships|relationships]] that would be difficult for traditional machine [[concepts/learning|learning]] approaches to capture.
+Deep learning [[concepts/models|models]] are [[concepts/neural-networks|artificial neural networks]] with multiple layers that learn hierarchical representations of data through [[concepts/training|training]] on large datasets. These models form the foundation of modern AI systems, powering [[concepts/software|applications]] from [[concepts/nlp|natural language processing]] to [[concepts/computer-vision|computer vision]]. By processing information through successive layers of [[concepts/abstraction|abstraction]], deep learning models can identify complex patterns and [[concepts/relationships|relationships]] that would be difficult for traditional machine [[concepts/learning|learning]] approaches to capture.
 
 ## Model Efficiency and Deployment
 
@@ -25,8 +25,7 @@ A significant trend in deep learning development focuses on creating efficient m
 
 ## Notable Recent Developments
 
-[[concepts/google-search|Google]] [[entities/deepmind|DeepMind]] released [[concepts/23b-parameter-models|Gemma 4]], an [[concepts/open-source|open-source]] [[concepts/deep-learning-model|deep learning model]] designed with efficiency as a core principle. Gemma 4 demonstrates the feasibility of creating capable AI systems that maintain practical performance while remaining lightweight enough for local device execution. Such developments reflect the industry's [[concepts/exercise|movement]] toward democratizing AI technology and reducing the infrastructure barriers for deployment.
-
+[[concepts/google-search|Google]] [[entities/deepmind|DeepMind]] released [[concepts/23b-parameter-models|Gemma 4]], an [[concepts/open-source|open-source]] [[concepts/deep-learning-model|deep learning model]] designed with efficiency as a core principle. [[concepts/e4b-model|Gemma 4]] demonstrates the feasibility of creating capable AI systems that maintain practical performance while remaining lightweight enough for local device execution. Such developments reflect the industry's [[concepts/exercise|movement]] toward democratizing AI technology and reducing the infrastructure barriers for [[concepts/deployment|deployment]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-12: [[lab-notes/2026-04-12-MiniMax-M27-Open-Source-LLM-Technical-Overview-and-Deployment-Summary|MiniMax M27 Open Source LLM Technical Overview and Deployment Summary]] · [▶ source](https://www.youtube.com/watch?v=CUvb-i5niKA)

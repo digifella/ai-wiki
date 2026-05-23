@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "small-language-models"
   - "model-benchmarking"
@@ -12,20 +11,20 @@ aliases:
   - "SLM Benchmarking"
   - "4GB Model Champions"
 summary: This concept focuses on benchmarking small language models (SLMs) to identify 4GB general problem-solving champions.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Minimal Size
 
-Minimal Size refers to the [[concepts/benchmark-testing|benchmarking]] and evaluation of small language models (SLMs) designed to operate efficiently within constrained computational environments, particularly those fitting within a [[concepts/4gb-memory-footprint|4GB memory footprint]]. This concept addresses the practical need for capable AI systems that can run on consumer-grade [[concepts/hardware|hardware]] and edge devices without requiring enterprise-level [[concepts/computational-resources|computational resources]].
+Minimal Size refers to the [[concepts/benchmark-testing|benchmarking]] and evaluation of [[concepts/small-language-models-slms|small language models (SLMs)]] designed to operate efficiently within constrained computational environments, particularly those fitting within a [[concepts/4gb-memory-footprint|4GB memory footprint]]. This concept addresses the practical need for capable AI systems that can run on consumer-grade [[concepts/hardware|hardware]] and edge devices without requiring enterprise-level [[concepts/computational-resources|computational resources]].
 
 ## Performance and Problem-Solving
 
-The focus of Minimal Size benchmarking is identifying which SLMs can deliver general problem-solving capabilities despite their reduced [[concepts/parameter-count|parameter count]] and [[concepts/ram-limitations|memory constraints]]. Rather than pursuing maximum [[concepts/code-size|model size]], this approach evaluates how effectively smaller models handle diverse tasks including [[concepts/reasoning|reasoning]], question-answering, and [[concepts/information-synthesis|information synthesis]]. The 4GB threshold serves as a practical constraint that balances model capability with real-world [[concepts/deployment|deployment]] feasibility.
+The focus of Minimal Size benchmarking is identifying which SLMs can deliver [[concepts/general-problem-solving-capabilities|general problem-solving capabilities]] despite their reduced [[concepts/parameter-count|parameter count]] and [[concepts/ram-limitations|memory constraints]]. Rather than pursuing maximum [[concepts/code-size|model size]], this approach evaluates how effectively smaller models handle diverse tasks including [[concepts/reasoning|reasoning]], [[concepts/fact-based-queries|question-answering]], and [[concepts/information-synthesis|information synthesis]]. The 4GB threshold serves as a practical constraint that balances model capability with real-world [[concepts/deployment|deployment]] feasibility.
 
 ## Practical Applications
 
-SLMs meeting Minimal Size criteria enable deployment [[concepts/scenarios|scenarios]] where larger models are impractical, such as on mobile devices, embedded systems, or offline environments. This democratizes access to [[concepts/capabilities|AI capabilities]] by reducing infrastructure costs and lowering barriers to implementation for individual developers and organizations with limited computational budgets. The benchmarking process helps identify which architectural approaches and [[concepts/training|training]] methodologies produce the most capable models within these size constraints.
-
+SLMs meeting Minimal Size criteria enable deployment [[concepts/scenarios|scenarios]] where larger models are impractical, such as on mobile devices, embedded systems, or offline environments. This democratizes access to [[concepts/capabilities|AI capabilities]] by reducing infrastructure costs and lowering barriers to [[concepts/adoption|implementation]] for individual developers and organizations with limited computational budgets. The benchmarking process helps identify which architectural approaches and [[concepts/training|training]] methodologies produce the most capable models within these size constraints.
 ## Source Notes
 
 - 2026-04-12: [[lab-notes/2026-04-12-RotorQuant-vs-TurboQuant-LLM-KV-Cache-Compression-Performance-Reality-|RotorQuant vs TurboQuant LLM KV Cache Compression Performance Reality ]] · [▶ source](https://www.youtube.com/watch?v=wSxsYjScRr0)

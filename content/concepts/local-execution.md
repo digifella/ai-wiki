@@ -1,14 +1,14 @@
 ---
 type: concept
 domain: tools-platforms
-updated: 2026-04-14
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 - "local-execution"
   - "autonomous-ai"
   - "[[concepts/privacy|privacy]]-enhancement"
   - "security-flaws"
-  - "data-compression"
+  - "[[concepts/data-compression|data-compression]]"
   - "[[concepts/gemma-4|gemma-4]]"
   - "gui-interface"
 group: [[concepts/automation|automation]]-scheduling-sync
@@ -29,13 +29,12 @@ Local execution refers to the process where tasks are performed directly on a us
 - Critical for [[concepts/agentic-ai|autonomous AI]] systems like [[concepts/openclaw|OpenClaw]].
 - [[concepts/23b-parameter-models|Google Gemma 4]] enables subscription-free, [[concepts/open-weight|open-weight]] execution on both computers and mobile phones.
 - [[entities/ollama|Ollama]] simplifies [[concepts/running|running]] [[concepts/large-language-models|large language models (LLMs)]] locally with a new [[concepts/gui-interface|GUI interface]].
-- Ollama's [[concepts/chat-application|chat application]] allows interaction with LLMs and creation of custom models.
+- [[concepts/task-specific-modeling|Ollama]]'s [[concepts/chat-application|chat application]] allows interaction with LLMs and creation of [[concepts/custom-models|custom models]].
 
 ### Additional Information:
 - **[[concepts/cost|Cost]] Efficiency**: Offloading AI processing to local [[concepts/reasoning-models|open-source models]] (e.g., using [[concepts/nvidia-rtx-gpus|NVIDIA RTX GPUs]], including older 30-series and 40-series) reduces cloud dependency.
 
-2026 04 14 About the new Ollama [[concepts/gui-interface|gui interface]]
-
+2026 04 14 About the new [[concepts/task-specific-modeling|Ollama]] [[concepts/gui-interface|gui interface]]
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: NVIDIA NemoClaw Explained in 5 Minutes (OpenClaw for

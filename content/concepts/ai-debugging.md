@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "debugging"
-  - "coding"
-  - "tool"
-updated: 2026-04-14
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # AI debugging
@@ -15,10 +10,9 @@ AI [[concepts/debugging|debugging]] involves techniques for identifying and reso
 
 Key tools for AI debugging include:
 
-- [[concepts/claude-code|Claude Code]] 4.1: An AI-powered code editor claiming 10x productivity through simplified application building, code fixing, and generation. Features dual modes of operation (as of 2026-04-14).
+- [[concepts/claude-code|Claude Code]] 4.1: An AI-powered [[concepts/code|code]] editor claiming 10x productivity through simplified [[concepts/application-building|application building]], code fixing, and generation. Features dual modes of operation (as of 2026-04-14).
 
-2026 04 14 [[concepts/ai-assisted-coding|AI coding]] with Claude Code 41 [[entities/rick-mulready|Rob the AI guy]]
-
+2026 04 14 [[concepts/ai-assisted-coding|AI coding]] with [[concepts/coding-assistant|Claude Code]] 41 [[entities/rick-mulready|Rob the AI guy]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-13: [[lab-notes/2026-04-13-MiniMax-M27-Open-Source-LLM-Rivaling-Opus-46-with-Agent-Capabilities|MiniMax M27 Open Source LLM Rivaling Opus 46 with Agent Capabilities]] · [▶ source](https://www.youtube.com/watch?v=qUGypBKW_sQ)

@@ -9,9 +9,10 @@ tags:
   - "devops"
   - "context-engineering"
   - "bmad-method"
-summary: "A structured approach to designing, developing, testing, and maintaining software, encompassing methodologies such as Agile, Waterfall, and DevOps."
-updated: 2026-04-28
+summary: A structured approach to designing, developing, testing, and maintaining software, encompassing methodologies such as Agile, Waterfall, and DevOps.
+updated: 2026-05-23
 group: developer-tooling-clis
+stub: true
 ---
 # Software Development Process
 
@@ -34,7 +35,6 @@ A structured approach to designing, developing, [[concepts/testing|testing]], an
 
 ## Backlinks
 - 2026 04 14 [[concepts/bmad-method|BMAD method]] for [[concepts/coding|coding]]
-
 ## Source Notes
 - 2026-04-08: Every Claude Code Concept Explained for Non-techies
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

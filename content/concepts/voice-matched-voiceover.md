@@ -1,23 +1,13 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "ai-video"
-  - "audio-production"
-  - "automation"
-  - "ai-audio"
-  - "documentary-production"
-  - "content-automation"
-aliases:
-  - "voice-matched audio"
-  - "ai-voiceover technique"
-summary: "A production technique for generating motion-synced, persona-consistent audio for AI-driven documentary videos using Google AI Studio and NotebookLM."
-updated: 2026-04-24
+summary: A production technique for generating motion-synced, persona-consistent audio for AI-driven documentary videos using Google AI Studio and NotebookLM.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # voice-matched voiceover
 
-A production technique used to generate high-retention, broadcast-quality audio for AI-driven documentary videos, specifically designed to avoid the low-quality "slideshow" aesthetic.
+A production technique used to generate high-retention, broadcast-quality [[concepts/audio-modality|audio]] for AI-driven documentary videos, specifically designed to avoid the low-quality "slideshow" aesthetic.
 
 ## Implementation
 - **[[concepts/workflow|Workflow]] Context:** A key component of the [[concepts/admin-privileges|Admin Privileges]] [[concepts/ai-video-animation|AI Video Workflow]].

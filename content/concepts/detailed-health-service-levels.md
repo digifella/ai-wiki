@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "health-services"
   - "service-levels"
@@ -11,11 +10,12 @@ aliases:
   - "Health Service Tiers"
   - "Service Level Classification"
 summary: This page details the various levels of health services documented within the Proposal Assembler.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Detailed Health Service Levels
 
-The [[concepts/proposal-assembler|Proposal Assembler]] documents a [[concepts/canvas|structured framework]] for categorising [[concepts/health|health]] services at different levels of complexity and scope. This framework enables consistent classification of health interventions, from basic [[concepts/preventive-care|preventive care]] through to specialized treatment services. The levels serve as a reference system for planning, budgeting, and resource allocation within health systems.
+The [[concepts/proposal-assembler|Proposal Assembler]] documents a [[concepts/canvas|structured framework]] for categorising [[concepts/health|health]] services [[concepts/assistive-technology|at]] different levels of complexity and scope. This framework enables consistent classification of health interventions, from basic [[concepts/preventive-care|preventive care]] through to specialized treatment services. The levels serve as a reference system for planning, budgeting, and resource allocation within health systems.
 
 ## Service Level Classification
 

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: business-strategy
-group: market-intelligence-geo-seo
+domain: creative-pursuits
 tags:
   - "concept"
   - "storytelling"
@@ -14,7 +13,8 @@ aliases:
   - "Emotional Perception"
   - "Storytelling Science"
 summary: Explores the neurochemical mechanisms through which storytelling influences emotional engagement and perception.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Value Perception
 
@@ -22,11 +22,10 @@ Value perception refers to how individuals assess and assign worth or significan
 
 ## Neurochemical Mechanisms in Storytelling
 
-Narratives activate specific neurochemical pathways that influence [[concepts/emotional-engagement|emotional engagement]] and [[concepts/memory|memory]] formation. When exposed to well-structured stories, listeners experience measurable changes in cortisol (associated with [[concepts/attention-mechanisms|attention]] and [[concepts/stress|stress]] response), dopamine (linked to reward and [[concepts/motivation|motivation]]), and oxytocin (related to [[concepts/empathy|empathy]] and social bonding). These chemical [[concepts/responses|responses]] can increase the perceived value of ideas or information presented within a narrative context compared to the same content delivered as abstract facts or statistics.
+Narratives activate specific neurochemical pathways that [[concepts/power|influence]] [[concepts/emotional-engagement|emotional engagement]] and [[concepts/memory|memory]] formation. When exposed to well-structured stories, listeners experience measurable changes in cortisol (associated with [[concepts/attention-mechanisms|attention]] and [[concepts/stress|stress]] response), dopamine (linked to reward and [[concepts/motivation|motivation]]), and oxytocin (related to [[concepts/empathy|empathy]] and social bonding). These chemical [[concepts/responses|responses]] can increase the perceived value of [[concepts/ideas|ideas]] or information presented within a narrative context compared to the same content delivered as abstract facts or statistics.
 
 ## Emotional Engagement and Perception
 
-The emotional dimension of storytelling significantly alters how audiences perceive and retain information. Stories that create emotional resonance tend to be remembered more vividly and have greater influence on subsequent behavior and belief formation. This occurs partly because emotional engagement triggers stronger [[concepts/encoding|encoding]] in memory systems and partly because the neurochemical states induced by narrative—particularly elevated dopamine and oxytocin—create conditions where new information is weighted as more valuable or trustworthy than it might otherwise appear.
-
+The emotional dimension of [[concepts/storytelling|storytelling]] significantly alters how audiences perceive and retain information. Stories that create emotional resonance tend to be remembered more vividly and have greater influence on subsequent behavior and belief formation. This occurs partly because emotional engagement triggers stronger [[concepts/encoding|encoding]] in memory systems and partly because the neurochemical states induced by narrative—particularly elevated dopamine and oxytocin—create conditions where new information is weighted as more valuable or trustworthy than it might otherwise appear.
 ## Source Notes
-- 2026-04-11: The magical science of storytelling | [[entities/david|David JP Phillips | TEDxStockholm]]
+- 2026-04-11: The magical science of storytelling | [[entities/david| TEDxStockholm]]

@@ -11,9 +11,10 @@ tags:
   - "data-integration"
 aliases:
   - "KG"
-summary: "A knowledge graph is a structured representation of information using nodes and relationships to enable efficient querying and reasoning."
-updated: 2026-04-28
+summary: A knowledge graph is a structured representation of information using nodes and relationships to enable efficient querying and reasoning.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
+stub: true
 ---
 # Knowledge Graph
 
@@ -41,7 +42,7 @@ A knowledge representation [[concepts/structure|structure]] that organizes infor
 
 ## Integration with Light RAG
 
-- **Light RAG System with Neo4j**:
+- **[[concepts/light|Light]] RAG System with Neo4j**:
   - Demonstrated in a [[entities/tech-with-homayoun]] video (2026-04-14).
   - Involves [[concepts/chunking-documents|chunking documents]] and extracting [[concepts/nodes-and-relationships]].
   - Stores data in both a [[concepts/vector-store]] and a knowledge graph.
@@ -50,7 +51,6 @@ A knowledge representation [[concepts/structure|structure]] that organizes infor
 ## Backlinks
 
 - 2026 04 14 Build a [[concepts/light-rag|light RAG]] system with [[entities/neo4j|neo4j]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-22: Graphify · [▶ source](https://www.youtube.com/watch?v=BkHps04qGgc)

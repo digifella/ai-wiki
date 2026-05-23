@@ -13,8 +13,8 @@ tags:
 aliases:
   - "API payload construction"
   - "Payload structuring"
-summary: "The process of defining and structuring data payloads for API requests, specifically regarding job queuing and market radar updates."
-updated: 2026-04-28
+summary: The process of defining and structuring data payloads for API requests, specifically regarding job queuing and market radar updates.
+updated: 2026-05-23
 group: apis-integrations-mcp
 ---
 # API payload building
@@ -31,4 +31,4 @@ The process of defining and structuring data payloads for API requests, specific
     - Integrated 3 new `[[concepts/api-actions|API actions]]`.
 
 ---
-**Backlink:** 2026 04 14 [[concepts/claude-ai|Claude]] and Codex 17 March 2026
+**Backlink:** 2026 04 14 [[concepts/claude-ai|Claude]] and [[concepts/codex|Codex]] 17 March 2026

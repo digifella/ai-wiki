@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "spacex"
   - "starlink"
@@ -13,11 +12,12 @@ aliases:
   - "Starlink IPO"
   - "SpaceX Public Offering"
 summary: The text discusses the potential SpaceX Starlink IPO and its interpretation by Wall Street analysts.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Light Web
 
-Light Web refers to emerging internet infrastructure platforms, particularly satellite-based systems, that represent a fundamental shift in [[concepts/global-connectivity|global connectivity]] [[concepts/architecture|architecture]]. Unlike traditional terrestrial internet infrastructure, these systems operate through low-earth orbit (LEO) satellite networks, enabling broadband coverage to remote and underserved regions. The term distinguishes this technological paradigm from both the conventional "dark web" and standard internet infrastructure.
+[[concepts/light|Light]] Web refers to emerging internet infrastructure platforms, particularly satellite-based systems, that represent a fundamental shift in [[concepts/global-connectivity|global connectivity]] [[concepts/architecture|architecture]]. Unlike traditional terrestrial internet infrastructure, these systems operate through low-earth orbit (LEO) satellite networks, enabling broadband coverage to remote and underserved regions. The term distinguishes this technological paradigm from both the conventional "dark web" and standard internet infrastructure.
 
 ## Market Misconceptions
 
@@ -25,8 +25,7 @@ Light Web refers to emerging internet infrastructure platforms, particularly sat
 
 ## Strategic Implications
 
-The development of Light Web infrastructure carries implications for decentralized systems, autonomous networks, and [[concepts/ai-powered-applications|AI applications]] that require reliable global connectivity independent of terrestrial infrastructure constraints. As these satellite networks mature, they create enabling conditions for technologies and services that were previously geographically limited, representing a technological inflection point comparable to earlier shifts in internet [[concepts/accessibility|accessibility]] and [[concepts/deployment|deployment]].
-
+The development of Light [[concepts/web-infrastructure|Web infrastructure]] carries implications for decentralized systems, autonomous networks, and [[concepts/ai-powered-applications|AI applications]] that require reliable global connectivity independent of terrestrial infrastructure constraints. As these satellite networks mature, they create enabling conditions for technologies and services that were previously geographically limited, representing a technological inflection point comparable to earlier shifts in internet [[concepts/accessibility|accessibility]] and [[concepts/deployment|deployment]].
 ## Source Notes
 - 2026-04-14: The Starlink Breakthrough Everyone Missed
 - 2026-04-07: [[lab-notes/2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)

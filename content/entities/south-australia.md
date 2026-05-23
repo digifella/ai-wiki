@@ -10,7 +10,7 @@ tags:
 aliases:
   - "SA"
 summary: South Australia is an Australian state containing Coober Pedy, a town built underground due to climate and geological conditions.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # South Australia
 
@@ -18,11 +18,11 @@ South Australia is a state located on the southern coast of Australia. It is the
 
 ## Coober Pedy
 
-Coober Pedy is a town located in the remote [[concepts/australian-outback|outback]] region of northern South Australia, approximately 840 kilometres north of Adelaide. The town is distinctive for its subterranean [[concepts/architecture|architecture]], with many buildings and residences constructed underground. This unusual settlement pattern emerged due to the region's extreme heat, with summer temperatures regularly exceeding 40°C, and the availability of opal-bearing rock that made [[concepts/subsurface-excavation|underground excavation]] practical. The town developed following the discovery of opals in the area in the early 20th century and has become a significant opal mining centre, earning it the nickname "opal capital of the world."
+[[entities/coober-pedy|Coober Pedy]] is a town located in the remote [[concepts/australian-outback|outback]] region of northern South Australia, approximately 840 kilometres north of Adelaide. The town is distinctive for its subterranean [[concepts/architecture|architecture]], with many buildings and residences constructed underground. This unusual settlement pattern emerged due to the region's extreme heat, with summer temperatures regularly exceeding 40°C, and the availability of opal-bearing rock that made [[concepts/subsurface-excavation|underground excavation]] practical. The town developed following the discovery of opals in the area in the early 20th century and has become a significant [[concepts/workflow-creation|opal]] mining centre, earning it the nickname "opal capital of the world."
 
-Underground living in Coober Pedy provides natural insulation, maintaining cooler temperatures year-round and reducing the need for air conditioning. Residents live in [[concepts/dugouts|dugouts]] carved into the hillsides, while shops, churches, and even a hotel operate beneath the surface. The unique geological and climatic conditions that initially drove the development of [[concepts/earth-sheltered-construction|underground construction]] have made Coober Pedy a notable example of human adaptation to extreme desert environments.
+[[concepts/underground-living|Underground living]] in Coober Pedy provides natural insulation, maintaining cooler temperatures year-[[concepts/rounding|round]] and reducing the need for air conditioning. Residents live in [[concepts/dugouts|dugouts]] carved into the hillsides, while shops, churches, and even a hotel operate beneath the surface. The unique geological and climatic conditions that initially drove the development of [[concepts/earth-sheltered-construction|underground construction]] have made Coober Pedy a notable example of human adaptation to extreme desert environments.
 
 - 2026-04-11 [2026-04-11-Coober-Pedy-An-Australian-Subterranean-Town-Forged-by-Climate-and-Geol](2026-04-11-Coober-Pedy-An-Australian-Subterranean-Town-Forged-by-Climate-and-Geol.md) ← Coober Pedy An Australian Subterranean Town Forged By Climate And Geol
-- 2026-04-11 [2026-04-11-Coober-Pedy-Subterranean-Living-in-Australias-Desert-Driven-by-Climate](2026-04-11-Coober-Pedy-Subterranean-Living-in-Australias-Desert-Driven-by-Climate.md) ← Coober Pedy Subterranean Living In Australias Desert Driven By Climate
-- 2026-05-02 [2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i](2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i.md) ← Wangerrip Gold Deposit An Anomalous Geological Mystery I
+- 2026-04-11 [2026-04-11-Coober-Pedy-Subterranean-Living-in-Australias-Desert-Driven-by-Climate](2026-04-11-Coober-Pedy-Subterranean-Living-in-Australias-Desert-Driven-by-Climate.md) ← Coober Pedy [[concepts/subterranean-living|Subterranean Living]] In Australias Desert Driven By Climate
+- 2026-05-02 [2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i](2026-05-02-Wangerrip-Gold-Deposit-An-Anomalous-Geological-Mystery-i.md) ← Wangerrip [[concepts/gold-deposit|Gold Deposit]] An Anomalous Geological Mystery I
 ## Source Notes

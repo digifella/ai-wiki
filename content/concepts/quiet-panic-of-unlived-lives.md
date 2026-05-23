@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: resilience-mental-performance-pain
 tags:
   - "concept"
   - "quiet-panic"
@@ -14,7 +13,8 @@ aliases:
   - "Anxiety of Unexplored Paths"
   - "Regret About Unlived Potential"
 summary: A state of anxiety arising from awareness of unlived life possibilities and paths not taken.
-updated: 2026-05-01
+updated: 2026-05-23
+group: resilience-mental-performance-pain
 ---
 # Quiet Panic Of Unlived Lives
 
@@ -29,6 +29,5 @@ The [[concepts/quiet-panic|quiet panic]] typically emerges during reflective mom
 ## Relationship to Choice and Identity
 
 The condition reflects deeper tensions around identity formation and the human tendency toward counterfactual [[concepts/human-cognition|thinking]]. Rather than representing pathological regret, it may signal a need to integrate or consciously grieve unrealized possibilities as part of psychological maturation and acceptance of life's inherent trade-offs.
-
 ## Source Notes
 - 2026-04-07: If You Have Too Many Interests, You Have The 'Synoptic Mind'

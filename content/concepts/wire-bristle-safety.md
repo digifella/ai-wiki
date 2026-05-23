@@ -2,25 +2,27 @@
 type: concept
 domain: ai-agents
 tags:
-  - "safety"
-  - "consumer-product"
-  - "manufacturing"
-  - "wire-bristle-safety"
-  - "consumer-product-safety"
+  - "product-safety"
   - "injury-prevention"
-  - "manufacturing-safety"
-  - "product-design"
+  - "wire-brushes"
+  - "manufacturing"
+  - "consumer-products"
+  - "domestic-manufacturing"
 aliases:
-  - "bristle detachment hazards"
+  - "bristle detachment safety"
   - "grill brush safety"
-summary: "Safety measures to prevent internal injuries and perforations caused by metal bristles detaching from products like grill brushes."
-updated: 2026-04-18
+summary: Safety measures to prevent internal injuries and perforations caused by metal bristles detaching from products like grill brushes.
+updated: 2026-05-23
 group: safety-guardrails-governance
 ---
-# Wire bristle safety
+# Wire Bristle Safety
 
-Prevents injuries from metal bristles detaching from wire brush products (e.g., grill brushes) and causing internal damage when ingested. Key risks include perforations requiring emergency surgery.
+Wire bristle safety addresses the risk of metal bristles detaching from wire brush products, particularly grill brushes, and causing serious internal injuries when accidentally ingested. Metal bristles can perforate the esophagus, stomach, or intestines, requiring emergency surgery and potentially resulting in severe complications or death. This hazard affects both direct users of wire brushes and consumers of food that may have been contaminated during [[concepts/preparation|preparation]].
 
-* **Destin's [[entities/smarter-scrubber|Smarter Scrubber]] project** (see 2026 04 14 Destin manufacturing in [[entities/america|America]]): A four-year U.S. manufacturing experiment by [[entities/destin-sandlin|Destin Sandlin]] ([[entities/smarter-every-day|Smarter Every Day]]) resulting in a grill brush with a [[concepts/secure|secure]], non-removable brush head. Eliminates bristle detachment hazards while proving [[concepts/domestic-manufacturing|domestic manufacturing]] competitiveness for safety-focused products.
+## Product Design Solutions
 
-2026 04 14 Destin manufacturing in America
+Manufacturers have developed [[concepts/design|design]] approaches to reduce bristle detachment risk. One notable example is the [[concepts/four-year-experiment|Smarter Scrubber project]], a four-year manufacturing initiative led by [[entities/video-creator|content creator]] [[entities/destin-sandlin|Destin Sandlin]] that produced a grill brush with a permanently secured brush head designed to prevent bristles from coming loose. Such designs prioritize mechanical [[concepts/integrity|integrity]] and durability to eliminate a fundamental source of the hazard.
+
+## Regulatory and Industry Context
+
+Wire bristle safety involves balancing product effectiveness with consumer protection. Traditional wire brushes remain widely used due to their cleaning efficiency, but their inherent brittleness creates ongoing [[concepts/safety-concerns|safety concerns]]. Industry [[concepts/open-standards|standards]] and consumer awareness campaigns work to inform users about proper brush handling and maintenance, while some manufacturers have shifted toward alternative brush materials or reinforced designs to reduce failure rates.

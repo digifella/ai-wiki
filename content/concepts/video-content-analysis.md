@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "video-analysis"
-  - "multimodal-ai"
-  - "computer-vision"
-  - "langchain"
-  - "automation"
-  - "agentic-workflows"
-  - "temporal-analysis"
-  - "feature-extraction"
-aliases:
-  - "automated video analysis"
-  - "multimodal video processing"
-summary: "The automated process of extracting, interpreting, and structuring information from video streams using computer vision and multimodal artificial intelligence."
-updated: 2026-04-18
+summary: The automated process of extracting, interpreting, and structuring information from video streams using computer vision and multimodal artificial intelligence.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # Video content analysis
@@ -25,10 +13,10 @@ The automated process of extracting, interpreting, and structuring meaningful in
 - Temporal analysis: Tracking motion, changes, and sequences over time.
 - Spatial analysis: Identifying objects, scenes, and Semantic segmentation.
 - Feature extraction: Isolating key [[concepts/metadata|metadata]] such as motion vectors or textures.
-- Multimodal integration: Correlating visual data with audio and text tracks.
+- Multimodal [[concepts/integration|integration]]: Correlating visual data with [[concepts/audio-modality|audio]] and [[concepts/text|text]] tracks.
 
 ## Advanced Agentic Workflows
-- **Multimodal Researchers**: Implementation of [[concepts/langgraph-workflows|LangGraph]] to create autonomous [[concepts/agents|agents]], such as the [[concepts/multi-modal-researcher|Langchain researcher]] with [[concepts/gemini|Gemini]] 2.5, which perform [[concepts/comprehensive-investigations|comprehensive investigations]].
+- **Multimodal Researchers**: [[concepts/adoption|Implementation]] of [[concepts/langgraph-workflows|LangGraph]] to create autonomous [[concepts/agents|agents]], such as the [[concepts/multi-modal-researcher|Langchain researcher]] with [[concepts/gemini|Gemini]] 2.5, which perform [[concepts/comprehensive-investigations|comprehensive investigations]].
 - **Native Multimodal Processing**: Leveraging [[entities/google-gemini|Google Gemini]] 2.5 to utilize [[concepts/native-capabilities|native capabilities]] for analyzing interleaved video, audio, and text data within a single [[concepts/inference|inference]] pass.
 - **Automated Topic-Driven Analysis**: Systems that take user-defined topics and execute deep-dive research through automated [[concepts/tool-use-automation|tool-use]] and [[concepts/data-modality|multimodal data]] synthesis.
 
@@ -38,8 +26,7 @@ The automated process of extracting, interpreting, and structuring meaningful in
 - Automated Content Tagging
 - [[concepts/agentic-ai]]
 
-2026 04 14 Langchain researcher with [[entities/gemini-25|Gemini 25]]
-
+2026 04 14 [[entities/langchain|Langchain]] researcher with [[entities/gemini-25|Gemini 25]]
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

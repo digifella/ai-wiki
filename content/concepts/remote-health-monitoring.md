@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "wearable-devices"
   - "embedded-sensors"
@@ -12,7 +11,8 @@ aliases:
   - "wearable health monitoring"
   - "remote patient monitoring"
 summary: Remote health monitoring involves the use of wearable devices equipped with embedded sensors.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Remote Health Monitoring
 
@@ -20,7 +20,7 @@ Remote health monitoring is the practice of collecting and analyzing patient [[c
 
 ## Wearable Devices and Sensors
 
-The core technology enabling remote health monitoring consists of wearable devices equipped with [[concepts/embedded-sensors|embedded sensors]]. These devices are worn on the body—commonly on the wrist, chest, or other accessible locations—and detect physiological signals such as heart rate, blood pressure, [[concepts/oxygen-saturation|oxygen saturation]], temperature, and [[concepts/exercise|movement]] patterns. The sensors convert these biological signals into electronic data that can be transmitted to healthcare providers or stored for later review.
+The core technology enabling remote health monitoring consists of [[entities/iot-devices|wearable devices]] equipped with [[concepts/embedded-sensors|embedded sensors]]. These devices are worn on the body—commonly on the wrist, chest, or other accessible locations—and detect physiological signals such as heart rate, blood pressure, [[concepts/oxygen-saturation|oxygen saturation]], temperature, and [[concepts/exercise|movement]] patterns. The sensors convert these biological signals into electronic data that can be transmitted to healthcare providers or stored for later review.
 
 ## Clinical Applications
 
@@ -28,8 +28,7 @@ Remote health monitoring supports various clinical [[concepts/scenarios|use case
 
 ## Data Transmission and Privacy
 
-Collected health data is typically transmitted wirelessly to [[concepts/secure|secure]] platforms where it can be accessed by healthcare providers, patients, or both. The systems must balance [[concepts/accessibility|accessibility]] with data security, as they handle sensitive personal health information subject to regulatory requirements in most jurisdictions.
-
+Collected health data is typically transmitted wirelessly to [[concepts/secure|secure]] platforms where it can be accessed by healthcare providers, patients, or both. The systems must balance [[concepts/accessibility|accessibility]] with data [[concepts/security|security]], as they handle sensitive personal health information subject to regulatory requirements in most jurisdictions.
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

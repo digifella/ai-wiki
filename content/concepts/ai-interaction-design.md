@@ -1,24 +1,14 @@
 ---
 type: concept
-domain: creative-pursuits
-tags:
-  - "ai-interaction-design"
-  - "prompt-engineering"
-  - "claude-ai"
-  - "cognitive-augmentation"
-  - "llm-reasoning"
-  - "human-ai-collaboration"
-  - "agentic-ai"
-aliases:
-  - "AI Interaction"
-  - "AI Design"
-summary: "The discipline of structuring communication, workflows, and feedback loops to optimize the reasoning capabilities and utility of large language models."
-updated: 2026-04-26
-group: design-systems-ui-infographics
+domain: ux-design
+summary: The discipline of structuring communication, workflows, and feedback loops to optimize the reasoning capabilities and utility of large language models.
+updated: 2026-05-23
+group: interaction-motion-design
+stub: true
 ---
 # AI Interaction Design
 
-The discipline of structuring communication, [[concepts/workflow|workflows]], and [[concepts/feedback|feedback]] [[concepts/loops|loops]] to optimize the [[concepts/reasoning|reasoning]] capabilities and utility of [[concepts/large-language-models]].
+The discipline of structuring communication, [[concepts/workflow|workflows]], and [[concepts/feedback|feedback]] [[concepts/loops|loops]] to optimize the [[concepts/reasoning|reasoning]] [[concepts/capabilities|capabilities]] and utility of [[concepts/large-language-models]].
 
 ## Core Paradigms
 - **Beyond [[concepts/basic-prompting|Basic Prompting]]**: Shifting from simple, transactional prompt-and-response interactions toward complex, multi-turn [[concepts/reasoning|reasoning]] partnerships.
@@ -34,7 +24,6 @@ The discipline of structuring communication, [[concepts/workflow|workflows]], an
 - [[concepts/agentic-ai]]
 - [[concepts/human-ai-collaboration]]
 - System [[concepts/prompting|Prompting]]
-
 ## Source Notes
 - 2026-04-07: Every UI/UX Concept Explained in Under 10 Minutes
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-Agentic-Workflows-for-Parallel-Processing-and-Multi-Agent-|Claude Code Agentic Workflows for Parallel Processing and Multi Agent ]] · [▶ source](https://www.youtube.com/watch?v=38t5UBCa4OI)

@@ -1,18 +1,9 @@
 ---
 type: concept
-domain: science-physics
-tags:
-  - "epistemology"
-  - "artificial-intelligence"
-  - "cognitive-science"
-  - "declarative-knowledge"
-  - "llm-capabilities"
-aliases:
-  - "declarative-knowledge"
-  - "the-what"
-summary: "Factual knowledge refers to the discrete, declarative information regarding the properties, characteristics, and truths of objects, events, and entities."
-updated: 2026-04-26
-group: physics-fundamental-theory
+domain: ai-agents
+summary: Factual knowledge refers to the discrete, declarative information regarding the properties, characteristics, and truths of objects, events, and entities.
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Factual knowledge
 
@@ -23,12 +14,11 @@ It is fundamentally distinct from [[concepts/procedural-knowledge]], which gover
 
 ## AI Agent Integration
 - While [[concepts/large-language-models]] possess extensive factual knowledge, they frequently encounter gaps in [[concepts/procedural-knowledge]].
-- [[concepts/ai-agent-skills]] serve as the bridge to close these procedural gaps, allowing models to perform structured tasks.
+- [[concepts/ai-agent-skills]] serve as the bridge to close these procedural gaps, allowing [[concepts/models|models]] to perform structured tasks.
 - These [[concepts/skills|skills]] are emerging as an open standard adopted by major [[concepts/ai-coding|AI coding]] platforms.
 
 ## Related Notes
 - [[concepts/date-2026-04-13|2026]] 04 22 AI [[concepts/agent-skills|Agent Skills]] Bridging LLM [[concepts/procedural-knowledge|Procedural Knowledge]] Gaps and [[concepts/structure|Structure]]
-
 ## Source Notes
 
 - 2026-04-22: AI Agent Skills · [▶ source](https://www.youtube.com/watch?v=Lg-meK5IU8Q)

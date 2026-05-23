@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: security-infrastructure
-updated: 2026-04-14
+summary: A specialized database for storing, indexing, and searching high-dimensional vector embeddings to enable efficient similarity search for applications like RAG and recommendation systems.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
-summary: "A specialized database for storing, indexing, and searching high-dimensional vector embeddings to enable efficient similarity search for applications like RAG and recommendation systems."
 ---
 group: data-pipelines-sync-[[entities/storage|storage]]
 ---
@@ -15,7 +15,7 @@ group: data-pipelines-sync-[[entities/storage|storage]]
   - "[[concepts/contextual-awareness|langextract]]"
   - "embeddings"
   - "similarity-search"
-  - "text-chunking"
+  - "[[concepts/chunking-documents|text-chunking]]"
   - "[[concepts/text-retrieval|semantic-search]]"
 aliases:
   - "[[concepts/vector-store|vector store]]"
@@ -32,7 +32,6 @@ Specialized database for storing, indexing, and searching high-dimensional [[con
 - [[entities/adam-lucek]]'s analysis of ChromaDB's [[concepts/chunking-strategies|chunking strategies]] demonstrates that context-aware splitting (e.g., preserving semantic boundaries) outperforms fixed-size
 - Inefficient chunking in [[concepts/contextualized-language-understanding|RAG systems]] can lead to degraded performance in [[entities/n8n|n8n]] and other applications
 - Proper chunking strategies are crucial for effective document storage and retrieval in [[concepts/vector-databases|vector databases]]
-
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

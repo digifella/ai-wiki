@@ -1,34 +1,20 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "Software"
-  - "Productivity"
-  - "Google_Gemini"
-  - "desktop-ai"
-  - "workflow-automation"
-  - "contextual-ai"
-  - "google-gemini"
-  - "native-software"
-aliases:
-  - "Desktop AI"
-  - "Native AI Software"
-summary: "Native software environments for desktop operating systems that leverage artificial intelligence for system-level utility, workflow automation, and contextual capabilities."
-updated: 2026-04-26
+summary: Native software environments for desktop operating systems that leverage artificial intelligence for system-level utility, workflow automation, and contextual capabilities.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Desktop AI Applications
 
-Native [[concepts/software|software]] environments designed for desktop operating systems that leverage [[entities/ai|Artificial Intelligence]] to provide system-level utility, [[concepts/automation-tools|workflow automation]], and [[concepts/contextual-ai]] capabilities.
+Native [[concepts/software|software]] environments designed for desktop operating systems that leverage [[entities/ai|Artificial Intelligence]] to provide system-level utility, [[concepts/automation-tools|workflow automation]], and [[concepts/contextual-ai]] [[concepts/capabilities|capabilities]].
 
 ## Recent Developments
 - **[[entities/gemini]]**
-    - Deployment of a new, dedicated **Desktop App**.
-    - Advanced implementation of **Contextual AI** for improved task relevance and workspace [[concepts/integration|integration]].
+    - [[concepts/deployment|Deployment]] of a new, dedicated **Desktop App**.
+    - Advanced [[concepts/adoption|implementation]] of **Contextual AI** for improved task relevance and workspace [[concepts/integration|integration]].
     - Significant platform-wide upgrades to the [[concepts/gemini|Gemini]] ecosystem.
     - Reference: [[concepts/date-2026-04-13|2026]] 04 22 [[entities/google-gemini|Google Gemini]] New Desktop App Contextual AI and Key Platform Upgrades Overview
-
 ## Source Notes
 - 2026-04-08: Learn 80% of Claude Cowork in Under 20 Minutes
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)

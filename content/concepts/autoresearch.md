@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "autonomous-optimization"
-  - "self-evolving-ai"
-  - "iterative-learning"
-  - "research-practice"
-  - "debugging-tools"
-aliases:
-  - "Self-Evolving AI"
-  - "Auto-OPT"
-  - "AI Autoresearch"
-  - "Automated Research Tools"
-summary: "Autoresearch involves using AI models to autonomously conduct research and development tasks, including iterative learning and parameter optimization."
-updated: 2026-04-11
+summary: Autoresearch involves using AI models to autonomously conduct research and development tasks, including iterative learning and parameter optimization.
+updated: 2026-05-23
 group: applied-ai-workflows
-title: "Autoresearch"
+title: Autoresearch
 ---
 # Autoresearch
 [[concepts/automated-code-modification|Autoresearch]] refers to the practice of leveraging [[concepts/ai-models|AI models]] to conduct research and development autonomously, without direct human intervention. This includes tasks such as [[concepts/debugging|debugging]] [[concepts/training|training]] processes, managing model [[concepts/deployment|deployment]], and diagnosing issues in test results.
@@ -26,12 +15,12 @@ title: "Autoresearch"
 
 ### Related Examples
 - 2026-04-08-[[concepts/automated-diagnostic-testing|Self-Evolving-AI]]-[[concepts/autonomous-experimentation|Autonomous-Optimization]]-via-[[concepts/iterative-harness|Iterative-Harness]]
-  - **Clip title:** Self-Evolving AI Is Here — And It's [[concepts/open-weight|Open Weight]]
+  - **[[concepts/clip-title|Clip title]]:** [[concepts/automated-test-result-diagnosis|Self-Evolving AI]] Is Here — And It's [[concepts/open-weight|Open Weight]]
   - **Author / channel:** [[concepts/prompt-engineering|Prompt Engineering]]
   - **URL:** https://www.youtube.com/watch?v=WpcRm78KOvY
 
-- [[entities/openai|OpenAI]]'s GPT-5.3 [[entities/codex|Codex]]
-  - **Clip title:** [[entities/codex|GPT-5.3 Codex]]: AutoResearch in Action
+- [[entities/openai|OpenAI]]'s [[concepts/3d-game-development|GPT-5]].3 [[entities/codex|Codex]]
+  - **Clip title:** [[entities/codex|GPT-5.3 Codex]]: [[concepts/automated-experimental-evaluation|AutoResearch]] in Action
   - **Author / channel:** [[entities/openai|OpenAI]]
   - **URL:** https://www.youtube.com/watch?v=WpcRm78KOvY
 
@@ -40,14 +29,13 @@ title: "Autoresearch"
 
 - AutoResearch: [[concepts/autonomous-ai-agent|Autonomous AI Agent]] Self-Improvement Through [[concepts/iterative-code-development|Code Iteration]]
   - **Clip title:** The only AutoResearch [[concepts/tutorial|tutorial]] you’ll ever need
-  - **Author / channel:** David Ondrej
+  - **Author / channel:** [[entities/david-ondrej|David Ondrej]]
   - **URL:** https://www.youtube.com/watch?v=uBWuKh1nZ2Y
 
 ### Summary
 This video provides a clear explanation of [[entities/autoresearch|AutoResearch]], an [[concepts/open-source|open-source]] tool developed by [[entities/andrej-karpathy|Andrej Karpathy]], a renowned AI researcher and co-founder of [[entities/openai|OpenAI]]. The central idea behind [[entities/autoresearch|AutoResearch]] is to enable [[concepts/agentic-ai|AI agents]] to autonomously improve themselves through continuous [[concepts/ai-coding|code iteration]].
 
-2026 04 10 AutoResearch Autonomous AI Agent [[concepts/self-improvement|Self Improvement]] Through Code Iterati
-
+2026 04 10 [[concepts/automated-code-modification|AutoResearch]] Autonomous [[concepts/ai-agent|AI Agent]] [[concepts/self-improvement|Self Improvement]] Through [[concepts/code|Code]] Iterati
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

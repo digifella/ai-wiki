@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai-coding"
-  - "context-management"
-  - "knowledge-graphs"
-  - "codebase-context"
-  - "rag"
-  - "ai-agents"
-aliases:
-  - "Repository Context"
-  - "AI Coding Context"
-summary: "Codebase context is the information state available to an AI coding assistant regarding a repository's structure, logic, and dependencies."
-updated: 2026-04-26
+summary: Codebase context is the information state available to an AI coding assistant regarding a repository's structure, logic, and dependencies.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Codebase Context
@@ -26,12 +16,11 @@ The information state available to an [[entities/ai-coding-assistant]] regarding
 
 ## Solutions & Implementation
 - [[concepts/rag]] ([[concepts/contextualized-language-understanding|Retrieval-Augmented Generation]]) using vector [[concepts/vector-representations|embeddings]] for snippet retrieval.
-- [[concepts/knowledge-graphs|Knowledge Graph]] implementation for mapping structured [[concepts/relationships|relationships]] (classes, functions, dependencies).
+- [[concepts/knowledge-graphs|Knowledge Graph]] [[concepts/adoption|implementation]] for mapping structured [[concepts/relationships|relationships]] (classes, functions, dependencies).
 - **[[concepts/codebase-indexing|Graphify]]**: A tool designed to enhance [[entities/claude-code]] and Antigravity by providing an instant [[concepts/knowledge-graph|Knowledge Graph]] to address contextual undersupply and provide persistent [[concepts/memory|memory]].
 
 ## Related Notes
-- 2026 04 22 Graphify Knowledge Graph for [[entities/ai-coding-assistant|AI Coding Assistant]] Context and [[concepts/memory|Memory]]
-
+- 2026 04 22 [[concepts/codebase-indexing|Graphify]] [[concepts/vector-store|Knowledge Graph]] for [[entities/ai-coding-assistant|AI Coding Assistant]] Context and [[concepts/memory|Memory]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Meta-Harness-AI-Self-Evolution-via-Autonomous-LLM-Harness-Optimization|Meta Harness AI Self Evolution via Autonomous LLM Harness Optimization]] · [▶ source](https://www.youtube.com/watch?v=61JUHDK-em8)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-Agentic-Workflows-for-Parallel-Processing-and-Multi-Agent-|Claude Code Agentic Workflows for Parallel Processing and Multi Agent ]] · [▶ source](https://www.youtube.com/watch?v=38t5UBCa4OI)

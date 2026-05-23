@@ -1,11 +1,11 @@
 ---
 type: concept
 domain: tools-platforms
-updated: 2026-04-14
+summary: Graph RAG uses knowledge graphs and LLMs to query structured relationships, enhancing retrieval precision over vector search methods.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
-summary: "Graph RAG uses knowledge graphs and LLMs to query structured relationships, enhancing retrieval precision over vector search methods."
 ---
-- "graph-rag"
+- "[[concepts/graphrag|graph-rag]]"
   - "[[concepts/knowledge-graph|knowledge-graph]]"
   - "rag"
   - "llm"
@@ -34,7 +34,6 @@ group: web-publishing-quartz-websites
 
 **Additional Insights:**
 - **[[concepts/light|Light]] RAG Comparison**: A [[concepts/light-rag|Light RAG]] system, as demonstrated in [[entities/tech-with-homayoun|Tech with Homayoun]]'s video, contrasts with Graph RAG by focusing on [[concepts/chunking-documents|chunking documents]] and extracting [[concepts/nodes-and-relationships|nodes and relationships]] for [[entities/storage|storage]] in both a [[concepts/vector-store|vector store]] and a [[concepts/knowledge-graph|knowledge graph]].
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

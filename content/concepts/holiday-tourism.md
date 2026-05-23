@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: travel-practice-logistics-experience
 tags:
   - "holiday-tourism"
   - "rail-travel"
@@ -12,11 +11,12 @@ aliases:
   - "vacation tourism"
   - "holiday travel"
 summary: Holiday tourism encompasses travel experiences such as rail journeys in Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: travel-practice-logistics-experience
 ---
 # Holiday Tourism
 
-Holiday tourism refers to travel undertaken primarily for leisure, relaxation, and recreational purposes during designated vacation periods. It encompasses a broad range of experiences and destinations, from beach resorts and mountain retreats to cultural city explorations and adventure activities. Holiday tourism represents a significant component of the global travel industry, driven by factors including seasonal breaks, cultural celebrations, and personal desires to experience new environments.
+Holiday tourism refers to travel undertaken primarily for leisure, relaxation, and recreational purposes during designated vacation periods. It encompasses a broad [[concepts/range|range]] of experiences and destinations, from beach resorts and mountain retreats to cultural city explorations and adventure activities. Holiday tourism represents a significant component of the global travel industry, driven by factors including seasonal breaks, cultural celebrations, and personal desires to experience new environments.
 
 ## Rail-Based Holiday Experiences
 
@@ -24,4 +24,4 @@ Holiday tourism refers to travel undertaken primarily for leisure, relaxation, a
 
 ## Key Characteristics
 
-Holiday tourism typically prioritizes experience over efficiency, with travelers selecting routes and destinations based on aesthetic appeal, cultural interest, or relaxation potential rather than speed or practicality. The sector supports local economies through accommodation, dining, attractions, and ancillary services. Holiday tourism can be distinguished from business travel, adventure tourism, and other specialized travel categories by its primary [[concepts/motivation|motivation]] of personal leisure and [[concepts/health|wellbeing]].
+Holiday tourism typically prioritizes experience over efficiency, with travelers selecting routes and destinations based on aesthetic appeal, cultural interest, or relaxation potential rather than [[concepts/speed|speed]] or practicality. The sector supports local economies through accommodation, dining, attractions, and ancillary services. Holiday tourism can be distinguished from business travel, adventure tourism, and other specialized travel categories by its primary [[concepts/motivation|motivation]] of personal leisure and [[concepts/health|wellbeing]].

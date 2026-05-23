@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "fatherhood"
   - "paternal-support"
@@ -14,11 +13,12 @@ aliases:
   - "father support services"
   - "postpartum father care"
 summary: This concept examines enhancing service delivery for fathers, specifically regarding men attending traumatic births.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Fatherhood Support
 
-Fatherhood support encompasses [[concepts/health|healthcare]] and social interventions designed to enhance the wellbeing and engagement of fathers, particularly during significant family events. A key area of focus involves supporting men who attend traumatic or complicated births, a circumstance that affects a substantial proportion of expectant fathers.
+Fatherhood support encompasses [[concepts/health|healthcare]] and social interventions designed to enhance the [[concepts/wellbeing|wellbeing]] and engagement of fathers, particularly during significant family events. A key area of focus involves supporting men who attend traumatic or complicated births, a circumstance that affects a substantial proportion of expectant fathers.
 
 ## Traumatic Birth Experiences
 

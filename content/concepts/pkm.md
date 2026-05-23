@@ -1,13 +1,7 @@
 ---
-domain: tools-platforms
 type: concept
-tags:
-  - "personal-knowledge-management"
-  - "obsidian-integration"
-  - "ai-assistance"
-  - "github-sync"
-  - "automation-tools"
-updated: 2026-04-12
+domain: tools-platforms
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 group: obsidian-vault-workflows
@@ -21,7 +15,7 @@ Personal [[concepts/knowledge-management|Knowledge Management]] (PKM) is a syste
 - Demonstrates how [[concepts/claude-code|Claude Code]], an [[concepts/ai-assistant|AI assistant]], can be integrated with [[entities/obsidian|Obsidian]] for [[concepts/ai-driven-note-taking|automated PKM]].
 - Focuses on automating data ingestion, [[concepts/organization|organization]], [[concepts/summarization|summarization]], and retrieval processes.
 - Useful for project management and other [[concepts/complex-tasks|complex tasks]] requiring efficient information handling.
-- Video by [[entities/eric-tech|Eric Tech]]: 2026 04 10 Obsidian and [[concepts/ai-assisted-coding|Claude Code]] AI for Automated PKM with [[concepts/github-synchronization|GitHub Sync]]
+- Video by [[entities/eric-tech|Eric Tech]]: 2026 04 10 Obsidian and [[concepts/ai-assisted-coding|Claude Code]] AI for [[concepts/automated-information-organization|Automated PKM]] with [[concepts/github-synchronization|GitHub Sync]]
 
 ### New Insights
 

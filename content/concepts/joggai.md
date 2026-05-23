@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "ai-tools"
   - "podcast-to-video"
@@ -12,11 +11,12 @@ aliases:
   - "JoggAi"
   - "Joggai"
 summary: A tool for automatically converting AI-generated audio podcasts into video episodes.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Joggai
 
-Joggai is an automated tool designed to convert audio-based [[entities/podcasts|podcasts]] into video content with minimal manual intervention. The platform addresses a common challenge in podcast [[concepts/distribution|distribution]] by enabling creators to repurpose audio content for video platforms without requiring traditional [[concepts/video-editing|video editing]] [[concepts/skills|skills]] or workflows.
+[[entities/joggai|Joggai]] is an automated tool designed to convert audio-based [[entities/podcasts|podcasts]] into video content with minimal manual intervention. The platform addresses a common challenge in podcast [[concepts/distribution|distribution]] by enabling creators to repurpose [[concepts/audio-modality|audio]] content for video platforms without requiring traditional [[concepts/video-editing|video editing]] [[concepts/skills|skills]] or workflows.
 
 ## Functionality
 

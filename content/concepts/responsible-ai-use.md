@@ -16,9 +16,10 @@ aliases:
   - "Responsible AI"
   - "AI Governance"
   - "Ethical AI"
-summary: "This concept outlines the principles, challenges, and implementation strategies for responsible AI use, with a specific focus on developing governance frameworks in healthcare."
-updated: 2026-04-28
-group: safety-guardrails-governance
+summary: This concept outlines the principles, challenges, and implementation strategies for responsible AI use, with a specific focus on developing governance frameworks in healthcare.
+updated: 2026-05-23
+group: ai-foundations-concepts
+stub: true
 ---
 # Responsible AI Use
 
@@ -47,15 +48,14 @@ group: safety-guardrails-governance
 - ai bias
 
 ## Healthcare Applications
-- New [[concepts/ai-technologies|AI technologies]] are being rapidly adopted by healthcare professionals
+- New [[concepts/ai-technologies|AI technologies]] are being rapidly adopted by [[concepts/health|healthcare]] professionals
 - Existing [[concepts/organisational-governance|organisational governance]] often lacks processes for safe and responsible use
-- Previous frameworks focused on high-level ethics principles without practical implementation
+- Previous frameworks focused on high-level ethics principles without practical [[concepts/adoption|implementation]]
 - Need to translate principles into practice, assess risk, and embed [[concepts/ai-delegation|AI oversight]]
 - Study aimed to develop and validate a practice-oriented [[concepts/ai-governance-framework|AI governance framework]]
 
 ## Backlinks
 - 2026 04 14 [[entities/bmj-review|BMJ Review]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Project-Glasswing-AIs-Dual-Role-in-Software-Cybersecurity|Anthropics Project Glasswing AIs Dual Role in Software Cybersecurity]] · [▶ source](https://www.youtube.com/watch?v=INGOC6-LLv0)

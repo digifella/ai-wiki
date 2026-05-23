@@ -1,17 +1,8 @@
 ---
 type: entity
-tags:
-  - "google"
-  - "productivity"
-  - "scheduling"
-  - "google-workspace"
-  - "ai-integration"
-  - "time-management"
-aliases:
-  - "Google Calendar"
-  - "GCal"
-summary: "A scheduling and time-management service within the Google Workspace ecosystem that integrates with Gemini."
-updated: 2026-04-21
+summary: A scheduling and time-management service within the Google Workspace ecosystem that integrates with Gemini.
+updated: 2026-05-23
+stub: true
 ---
 # Google Calendar
 
@@ -19,12 +10,11 @@ A primary scheduling and time-management service within the [[entities/google-wo
 
 ## Ecosystem & AI Integration
 - **[[entities/gemini]]**:
-    - Native [[entities/google-workspace]] [[concepts/integration|integration]] allows users to interact with calendar data using `@` commands.
-    - Utilizes [[concepts/advanced-reasoning|advanced reasoning]] capabilities for end-to-end functionality and task management.
-    - Source: 2026 04 14 New Gemini Tutorial
+    - Native [[entities/google-workspace]] [[concepts/integration|integration]] allows users to interact with calendar data using `@` [[concepts/commands|commands]].
+    - Utilizes [[concepts/advanced-reasoning|advanced reasoning]] [[concepts/capabilities|capabilities]] for end-to-end functionality and task management.
+    - Source: 2026 04 14 New [[concepts/gemini|Gemini]] [[concepts/tutorial|Tutorial]]
 
 [[entities/google-workspace]] | [[entities/gemini]]
-
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)

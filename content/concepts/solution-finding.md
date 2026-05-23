@@ -1,23 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "problem-solving"
-  - "computational-complexity"
-  - "mathematics"
-  - "computer-science"
-  - "p-vs-np-problem"
-  - "algorithm-design"
-  - "cryptography"
-aliases:
-  - "problem-solving strategies"
-summary: "Solution finding involves identifying effective strategies to resolve problems in fields such as mathematics, computer science, and engineering."
-updated: 2026-04-16
+summary: Solution finding involves identifying effective strategies to resolve problems in fields such as mathematics, computer science, and engineering.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Solution Finding
 
-Solution finding is a fundamental aspect of [[concepts/problem-solving|problem-solving]] in various fields including [[concepts/mathematics|mathematics]], computer science, and engineering. It involves identifying an effective approach or strategy to resolve given problems.
+Solution finding is a fundamental aspect of [[concepts/problem-solving|problem-solving]] in various fields including [[concepts/mathematics|mathematics]], computer [[concepts/science|science]], and engineering. It involves identifying an effective approach or strategy to resolve given problems.
 
 ### Key Concepts Related to Solution Finding
 - **[[concepts/p-vs-np-problem|P vs NP Problem]]**: A critical issue in [[concepts/computational-complexity|computational complexity]] [[concepts/theory|theory]] that seeks to determine whether every problem whose [[concepts/solution|solution]] can be quickly verified by a computer can also be quickly solved by a computer.
@@ -36,8 +26,7 @@ Solution finding is a fundamental aspect of [[concepts/problem-solving|problem-s
 
 ### Related Concepts
 - [[concepts/solution]]
-- 2026 04 13 P vs NP Problem Computational Complexity and Implications Summary
-
+- 2026 04 13 [[concepts/business-logistics|P vs NP Problem]] [[concepts/wikilinkcomputational-complexity-theory|Computational Complexity]] and Implications [[concepts/summary|Summary]]
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-P-vs-NP-Problem-Computational-Complexity-Implications-and-Historical-C|P vs NP Problem Computational Complexity Implications and Historical C]] · [▶ source](https://www.youtube.com/watch?v=pQsdygaYcE4)
 - 2026-04-13: [[lab-notes/2026-04-13-P-vs-NP-Problem-Computational-Complexity-and-Implications-Summary|P vs NP Problem Computational Complexity and Implications Summary]] · [▶ source](https://www.youtube.com/watch?v=EHp4FPyajKQ)

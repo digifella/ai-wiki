@@ -1,30 +1,17 @@
 ---
 type: entity
-tags:
-  - "messaging"
-  - "automation"
-  - "messaging-integration"
-  - "ai-agents"
-  - "workflow-automation"
-  - "open-source-tools"
-  - "telecommunication"
-aliases:
-  - "Telegram Messaging"
-  - "Note Transmission Service"
-  - "Nemoclaw Integration"
-  - "AI Agent Setup"
-summary: "Telegram is used for transmitting notes and integrating with Nemoclaw, an AI agent."
-updated: 2026-04-11
-title: "Telegram"
+summary: Telegram is used for transmitting notes and integrating with Nemoclaw, an AI agent.
+updated: 2026-05-23
+stub: true
+title: Telegram
 ---
 # Telegram
-- Integration: Used to transmit notes via [[entities/nemoclaw]].
+- [[concepts/integration|Integration]]: Used to transmit [[concepts/notes|notes]] via [[entities/nemoclaw]].
 
 ## Related Notes
-- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] [[concepts/autonomous-ai-agent|Autonomous AI Agent]] Setup Configuration and Advanced
-- 2026 04 10 Open Source [[concepts/agentic-ai|AI Agents]] Revolutionizing [[concepts/development-workflows|Development Workflows]] and
+- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] [[concepts/autonomous-ai-agent|Autonomous AI Agent]] [[concepts/setup|Setup]] Configuration and Advanced
+- 2026 04 10 [[concepts/open-source|Open Source]] [[concepts/agentic-ai|AI Agents]] Revolutionizing [[concepts/development-workflows|Development Workflows]] and
 - 2026 04 10 [[concepts/claude-code-20|Claude Code 20]] Upgrade Enhanced [[concepts/ai-assisted-coding|AI Coding]] [[concepts/ai-driven-workflow-automation|Workflow Automation]] and
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and|Open Source AI Agents Revolutionizing Development Workflows and]] · [▶ source](https://www.youtube.com/watch?v=sXVbWkoCVaA)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

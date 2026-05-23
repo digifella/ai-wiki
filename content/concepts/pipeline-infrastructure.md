@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "infrastructure"
   - "pipelines"
@@ -11,7 +10,8 @@ aliases:
   - "pipeline systems"
   - "pipeline networks"
 summary: Physical infrastructure systems for transporting fluids or gases through interconnected pipe networks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Pipeline Infrastructure
 
@@ -23,12 +23,11 @@ Pipelines are essential for moving crude oil, refined petroleum products, and na
 
 ## System Vulnerabilities
 
-Pipeline infrastructure faces various operational and external pressures that can disrupt supply. Maintenance requirements, equipment failures, weather events, and geopolitical tensions can interrupt flow and create supply shortages. Chokepoints—geographic locations where significant portions of global supply pass through single or limited infrastructure routes—create particular [[concepts/vulnerability|vulnerability]]. Disruptions to pipeline networks can have cascading effects on energy markets and dependent industries.
+Pipeline infrastructure [[concepts/faces|faces]] various operational and external pressures that can disrupt supply. Maintenance requirements, equipment failures, weather events, and geopolitical tensions can interrupt [[concepts/flow|flow]] and create supply shortages. Chokepoints—geographic locations where significant portions of global supply pass through single or limited infrastructure routes—create particular [[concepts/vulnerability|vulnerability]]. Disruptions to pipeline networks can have cascading effects on energy markets and dependent industries.
 
 ## Management and Regulation
 
-Pipeline operations require specialized technical expertise in materials science, [[concepts/fluid-dynamics|fluid dynamics]], and safety systems. Regulatory frameworks vary by jurisdiction but typically address [[concepts/product-safety|safety standards]], environmental protection, and [[concepts/infrastructure-scalability|capacity planning]]. Modern pipelines increasingly incorporate monitoring technologies to detect leaks and pressure anomalies, supporting both safety and [[concepts/cost|operational efficiency]].
-
+Pipeline operations require specialized technical expertise in materials [[concepts/science|science]], [[concepts/fluid-dynamics|fluid dynamics]], and safety systems. Regulatory frameworks vary by jurisdiction but typically address [[concepts/product-safety|safety standards]], environmental protection, and [[concepts/infrastructure-scalability|capacity planning]]. Modern pipelines increasingly incorporate monitoring technologies to detect leaks and pressure anomalies, supporting both safety and [[concepts/cost|operational efficiency]].
 ## Source Notes
 - 2026-04-17: [[lab-notes/2026-04-17-Bridging-the-AI-Agent-Speed-Gap-Rebuilding-Human-Centric-Web-Infrastru|Bridging the AI Agent Speed Gap Rebuilding Human Centric Web Infrastru]] · [▶ source](https://www.youtube.com/watch?v=XlfumXPPrLY)
 - 2026-04-18: [[lab-notes/2026-04-18-Strait-of-Hormuz-Closure-Oil-Market-Impact-Mitigation|Strait of Hormuz Closure Oil Market Impact Mitigation]] · [▶ source](https://www.youtube.com/watch?v=5qjvluMnyAw)

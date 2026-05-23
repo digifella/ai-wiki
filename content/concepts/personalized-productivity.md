@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "personalized-productivity ai-second-brain obsidian claude-code"
-  - "personalized-productivity"
-  - "second-brain"
-  - "ai-assisted"
-  - "knowledge-management"
-  - "automation-tools"
-aliases:
-  - "tailored productivity"
-  - "custom second brain"
-  - "efficiency system"
-  - "claude code integration"
-summary: "Personalized productivity involves customizing work and lifestyle practices to optimize efficiency and well-being through the use of technology like AI and automation tools."
-updated: 2026-04-11
+summary: Personalized productivity involves customizing work and lifestyle practices to optimize efficiency and well-being through the use of technology like AI and automation tools.
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # Personalized Productivity
@@ -30,12 +18,12 @@ Personalized productivity refers to tailoring one's work and lifestyle practices
 
 ### Building a Secure Personalized AI Second Brain using Claude Code
 - **Date:** 2026-04-10
-- **Clip Title:** Full Guide - Build Your Own [[concepts/content-ideation|AI Second Brain]] with [[entities/claude-code|Claude Code]]
+- **[[concepts/clip-title|Clip Title]]:** Full Guide - Build Your Own [[concepts/content-ideation|AI Second Brain]] with [[entities/claude-code|Claude Code]]
 - **Author / Channel:** [[entities/cole-medin|Cole Medin]]
 - **URL:** 1FiER 40zng?si=HxORZVwy058u5pil
-- **Summary:**
-  - The video explores the creation of a personalized "Second Brain" using AI, specifically [[entities/claude|Claude]] Code and [[concepts/obsidian|Obsidian]].
-  - Developed over three months, this system has saved at least a dozen hours weekly by automating low-leverage tasks.
+- **[[concepts/summary|Summary]]:**
+  - The video explores the creation of a personalized "[[concepts/second-brain|Second Brain]]" using AI, specifically [[entities/claude|Claude]] [[concepts/code|Code]] and [[concepts/obsidian|Obsidian]].
+  - Developed over three months, this system has saved [[concepts/assistive-technology|at]] least a dozen hours weekly by automating low-leverage tasks.
 
 ### Related Concepts
 - obsidian-reference-manager
@@ -43,8 +31,7 @@ Personalized productivity refers to tailoring one's work and lifestyle practices
 - personal-[[concepts/knowledge-management|knowledge-management]]
 
 ## Backlinks
-2026 04 10 Building a Secure [[concepts/personalized-ai-second-brain|Personalized AI Second Brain]] using [[concepts/ai-assisted-coding|Claude Code]]
-
+2026 04 10 Building a [[concepts/secure|Secure]] [[concepts/personalized-ai-second-brain|Personalized AI Second Brain]] using [[concepts/ai-assisted-coding|Claude Code]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Obsidian-Integration-Creating-a-Persistent-AI-Operating-System|Claude Obsidian Integration Creating a Persistent AI Operating System]] · [▶ source](https://www.youtube.com/watch?v=eIXheJcxDIg)
 - 2026-04-10: [[lab-notes/2026-04-10-Geminis-New-Notebooks-Feature-Integrated-AI-Research-and-Chat-Organiza|Geminis New Notebooks Feature Integrated AI Research and Chat Organiza]] · [▶ source](https://www.youtube.com/watch?v=Y-LTxr1bv9M)

@@ -12,8 +12,8 @@ tags:
 aliases:
   - "DSLR"
   - "Digital Single-Lens Reflex"
-summary: "DSLR photography utilizes a mechanical mirror system to reflect light into an optical viewfinder before the sensor captures the image."
-updated: 2026-04-28
+summary: DSLR photography utilizes a mechanical mirror system to reflect light into an optical viewfinder before the sensor captures the image.
+updated: 2026-05-23
 group: photography-cameras
 ---
 # DSLR photography
@@ -32,7 +32,6 @@ Digital Single-Lens Reflex (DSLR) photography utilizes a mechanical mirror syste
 
 ## Related
 - 2026 04 14 [[entities/colin-smith-channel|Colin Smith]] founder of PhotoshopCAFE introduces [[concepts/camera-app-design|Adobe Project Indigo]]
-
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

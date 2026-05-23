@@ -8,7 +8,7 @@ tags:
 aliases:
   - "Google NotebookLM"
 summary: A breakdown of seven ways to use Google NotebookLM for productivity based on a video transcript.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Gartner
 

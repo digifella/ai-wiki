@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "malaria-prevention"
   - "vaccination"
@@ -12,11 +11,12 @@ aliases:
   - "malaria-reinfection-prevention"
   - "antimalarial-vaccination"
 summary: This concept involves reinfection prevention through malaria vaccination against mosquito transmission.
-updated: 2026-05-01
+updated: 2026-05-23
+group: life-systems-adaptation-discovery
 ---
 # Reinfection Prevention
 
-Reinfection prevention in the context of malaria refers to strategies designed to protect individuals from contracting malaria parasites again after an initial infection or treatment. This is particularly important in endemic regions where repeated [[concepts/exposure|exposure]] to malaria-carrying mosquitoes creates high risk of reinfection. [[concepts/vaccination|Vaccination]] approaches represent one mechanism through which reinfection can be mitigated by priming the immune system to recognize and respond more effectively to parasitic antigens upon subsequent exposure.
+Reinfection [[concepts/preventive-care|prevention]] in the context of malaria refers to strategies designed to protect individuals from contracting malaria parasites again after an initial infection or treatment. This is particularly important in endemic regions where repeated [[concepts/exposure|exposure]] to malaria-carrying mosquitoes creates high risk of reinfection. [[concepts/vaccination|Vaccination]] approaches represent one mechanism through which reinfection can be mitigated by priming the immune system to recognize and respond more effectively to parasitic antigens upon subsequent exposure.
 
 ## Malaria Vaccination Approaches
 
@@ -24,8 +24,7 @@ Malaria vaccines work by targeting different stages of the parasite lifecycle, i
 
 ## Integration with Vector Control
 
-Reinfection prevention is most effective when vaccination is combined with other malaria control measures, particularly mosquito vector management. Reducing mosquito populations through bed nets, insecticide spraying, and habitat modification decreases overall transmission pressure, thereby reducing the risk of reinfection in vaccinated populations. This integrated approach addresses both the parasite reservoir and transmission pathways simultaneously.
-
+Reinfection prevention is most effective when vaccination is combined with other malaria [[concepts/power|control]] measures, particularly mosquito vector management. Reducing mosquito populations through bed nets, insecticide spraying, and habitat modification decreases overall transmission pressure, thereby reducing the risk of reinfection in vaccinated populations. This integrated approach addresses both the parasite reservoir and transmission pathways simultaneously.
 ## Source Notes
 
 - 2026-04-14: The Starlink Breakthrough Everyone Missed

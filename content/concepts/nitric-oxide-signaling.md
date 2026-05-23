@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "nitric-oxide"
   - "cell-signaling"
@@ -11,15 +10,16 @@ aliases:
   - "NO signaling"
   - "nitric oxide pathway"
 summary: This page provides a link to a GitHub repository for a Nano banana gallery.
-updated: 2026-05-01
+updated: 2026-05-23
+group: life-systems-adaptation-discovery
 ---
 # Nitric Oxide Signaling
 
-Nitric oxide (NO) is a small gaseous signaling molecule that plays a critical role in numerous physiological processes in living organisms. Produced by the enzyme nitric oxide synthase from the amino acid L-arginine, NO diffuses across cell membranes and acts as a messenger between cells. Its discovery as a biological signaling agent earned the 1998 Nobel Prize in Physiology or Medicine, fundamentally changing our understanding of cell communication.
+Nitric oxide (NO) is a small gaseous signaling molecule that plays a critical role in numerous physiological processes in living organisms. Produced by the enzyme nitric oxide synthase from the amino acid L-arginine, NO diffuses across cell membranes and acts as a messenger between cells. Its discovery as a biological signaling [[entities/agent|agent]] earned the 1998 Nobel Prize in Physiology or Medicine, fundamentally changing our understanding of cell communication.
 
 ## Mechanisms and Targets
 
-Nitric oxide primarily exerts its effects by binding to soluble guanylate cyclase, an enzyme that catalyzes the production of cyclic GMP (cGMP), a second messenger. This pathway is central to NO's regulatory functions. Additionally, NO can directly modify proteins through a process called nitrosylation, affecting their [[concepts/structure|structure]] and function. These mechanisms allow NO to influence diverse cellular processes including vasodilation, neurotransmission, and immune [[concepts/responses|responses]].
+Nitric oxide primarily exerts its effects by binding to soluble guanylate cyclase, an enzyme that catalyzes the production of cyclic GMP (cGMP), a second messenger. This pathway is central to NO's regulatory functions. Additionally, NO can directly modify proteins through a process called nitrosylation, affecting their [[concepts/structure|structure]] and function. These mechanisms allow NO to [[concepts/power|influence]] diverse cellular processes including vasodilation, neurotransmission, and immune [[concepts/responses|responses]].
 
 ## Physiological Significance
 

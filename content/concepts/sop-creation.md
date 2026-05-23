@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "gemini-3.0"
   - "ai-tools"
@@ -12,7 +11,8 @@ aliases:
   - "Gemini 3.0 Key Changes"
   - "Gemini 3.0 Review"
 summary: Jeff Su reviews five key changes in Gemini 3.0 after a month of testing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Sop Creation
 
@@ -20,10 +20,9 @@ Sop Creation refers to the process of developing Standard Operating Procedures (
 
 ## Key Findings from Gemini 3.0 Testing
 
-Su's analysis distilled the numerous updates and features in Gemini 3.0 down to five substantive changes that demonstrated practical impact for users and developers. Rather than cataloging every modification, this evaluation focused on which changes actually influenced how the model could be deployed and utilized in real-world [[concepts/software|applications]]. The testing methodology involved extended hands-on use across different scenarios to assess genuine functional improvements rather than incremental [[concepts/adjustments|adjustments]].
+Su's analysis distilled the numerous updates and features in [[concepts/gemini-30|Gemini 3.0]] down to five substantive changes that demonstrated practical impact for users and developers. Rather than cataloging every modification, this evaluation focused on which changes actually influenced how the model could be deployed and utilized in real-world [[concepts/software|applications]]. The testing methodology involved extended hands-on use across different scenarios to assess genuine functional improvements rather than incremental [[concepts/adjustments|adjustments]].
 
-The significance of this SOP creation process lies in its role as a quality gate for [[concepts/capabilities|AI capabilities]]. By establishing clear procedures for evaluating and documenting meaningful changes in AI systems, developers and users can better understand which updates warrant [[concepts/adoption|adoption]] and integration into existing workflows. This approach helps translate complex technical updates into actionable insights for the broader AI-[[concepts/agents|agents]] domain.
-
+The significance of this SOP creation process lies in its role as a quality gate for [[concepts/capabilities|AI capabilities]]. By establishing clear procedures for evaluating and documenting meaningful changes in AI systems, developers and users can better understand which updates warrant [[concepts/adoption|adoption]] and [[concepts/integration|integration]] into existing workflows. This approach helps translate complex technical updates into actionable insights for the broader AI-[[concepts/agents|agents]] domain.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape|Lightroom Classic Single Click Automated AI Mask Presets for Landscape]] · [▶ source](https://www.youtube.com/watch?v=tVCV0VmoZnw)

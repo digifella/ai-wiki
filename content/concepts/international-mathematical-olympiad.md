@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "math"
-  - "competition"
-  - "ai"
-  - "olympiad"
-updated: 2026-04-15
+updated: 2026-05-23
 group: mathematical-reasoning-proof
 ---
 # International Mathematical Olympiad
@@ -20,11 +15,10 @@ The International Mathematical Olympiad (IMO) is an annual [[concepts/mathematic
 - Participants must be under 20 and not enrolled in university
 
 **Recent AI Achievement (2026):**
-- [[entities/google-deepmind]]'s [[entities/gemini-25-pro]] model with [[concepts/deep-think]] achieved a [[concepts/gold-medal-standard|gold-medal standard]] at the IMO
+- [[entities/google-deepmind]]'s [[entities/gemini-25-pro]] model with [[concepts/deep-think]] achieved a [[concepts/gold-medal-standard|gold-medal standard]] [[concepts/assistive-technology|at]] the IMO
 - Outperformed previous AI attempts and was compared to a concurrent achievement by [[entities/openai]]
-- Demonstrated human-level [[concepts/mathematical-reasoning|mathematical reasoning]] capabilities
+- Demonstrated human-level [[concepts/mathematical-reasoning|mathematical reasoning]] [[concepts/capabilities|capabilities]]
 
 See also: 2026 04 14 [[concepts/ai-consolidation|Gemini deep think]] [[entities/sam-witteveen|sam witteveen]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-DeepMind-Aletheia-Groundbreaking-Self-Correcting-AI-for-Scientific|DeepMind Aletheia Groundbreaking Self Correcting AI for Scientific]] · [▶ source](https://www.youtube.com/watch?v=Io_GqmbNBbY)

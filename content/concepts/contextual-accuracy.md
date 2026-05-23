@@ -13,12 +13,9 @@ tags:
   - "n8n"
 aliases:
   - "context-aware accuracy"
-summary: "Contextual accuracy is the precision and relevance of information within a specific context to ensure that outputs are appropriate and meaningful for a given situation."
-updated: 2026-04-14
+summary: Contextual accuracy is the precision and relevance of information within a specific context to ensure that outputs are appropriate and meaningful for a given situation.
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
-backlinks:
-  - "2026 04 14 Build an agentic rag system in azure ai and foundry"
-  - "2026 04 14 Channel the AI Automators Improving RAG"
 ---
 # Contextual Accuracy
 
@@ -29,7 +26,7 @@ Contextual [[concepts/accuracy|accuracy]] refers to the precision and relevance 
 - **Relevance:** Information must be pertinent to the current context.
 - **Precision:** Details should be accurate and specific to the situation.
 - **Dynamic Adaptation:** Ability to adjust based on changing contextual factors.
-- **[[concepts/agentic-rag-systems|Agentic RAG Systems]]:** Implementation of [[concepts/agentic-rag|agentic RAG]] in [[concepts/azure-ai|Azure AI]] for dynamic and context-aware [[concepts/responses|responses]].
+- **[[concepts/agentic-rag-systems|Agentic RAG Systems]]:** [[concepts/adoption|Implementation]] of [[concepts/agentic-rag|agentic RAG]] in [[concepts/azure-ai|Azure AI]] for dynamic and context-aware [[concepts/responses|responses]].
 - **Chunking Efficiency:** Improving RAG effectiveness by optimizing [[concepts/document-chunking|document chunking]] and vector [[entities/storage|storage]] in [[concepts/vector-databases|vector databases]], particularly within [[entities/n8n|n8n]].
 
 ## Related Concepts
@@ -43,8 +40,6 @@ Contextual [[concepts/accuracy|accuracy]] refers to the precision and relevance 
 - [[entities/n8n|n8n]]
 
 ## Applications
-
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: LlamaIndex

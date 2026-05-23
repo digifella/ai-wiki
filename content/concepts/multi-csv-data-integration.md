@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data-integration"
-  - "csv"
-  - "excel"
-  - "automation"
-  - "reporting"
-  - "csv-integration"
-  - "data-aggregation"
-  - "automated-data-management"
-  - "data-synchronization"
-  - "multi-format-synthesis"
-aliases:
-  - "multi-csv-aggregation"
-  - "csv-data-consolidation"
-summary: "The process of aggregating and synchronizing data from multiple CSV files into a single unified dataset for analysis and reporting."
-updated: 2026-04-26
+summary: The process of aggregating and synchronizing data from multiple CSV files into a single unified dataset for analysis and reporting.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Multi-CSV data integration
@@ -29,7 +15,6 @@ The process of aggregating, consolidating, and synchronizing data from multiple 
 
 ## Related Notes
 - 2026 04 23 Excels IMPORTCSV Dynamic Multi CSV [[concepts/data-management|Data Management]] and Reporting
-
 ## Source Notes
 
 - 2026-04-23: Excel · [▶ source](https://www.youtube.com/watch?v=jWE3ypXpuTY)

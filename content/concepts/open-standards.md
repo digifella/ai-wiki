@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "open-standards"
@@ -14,7 +13,8 @@ aliases:
   - "Standards"
   - "Open Specifications"
 summary: Concept exploring how code-based implementations provide greater efficiency than markdown approaches for LLM agent skills and data scraping tasks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Open Standards
 
@@ -22,12 +22,11 @@ Open Standards refers to publicly documented technical specifications and protoc
 
 ## Code-Based Implementation vs. Markdown Approaches
 
-Research into LLM agent architectures has demonstrated that code-based implementations of [[concepts/agent-harnesses|agent skills]] outperform markdown-based approaches in terms of execution efficiency and data [[concepts/scraping|scraping]] [[concepts/accuracy|accuracy]]. Code implementations allow for explicit type definitions, error handling, and complex logic flows that markdown specifications cannot reliably express. This becomes particularly important when [[concepts/agents|agents]] must handle edge cases or interact with external APIs during [[concepts/information-extraction|data extraction]] tasks. Markdown approaches, while easier to write and read, often result in ambiguous [[concepts/instructions|instructions]] that require additional LLM interpretation at runtime, introducing latency and potential errors.
+Research into LLM [[entities/agent|agent]] architectures has demonstrated that code-based implementations of [[concepts/agent-harnesses|agent skills]] outperform markdown-based approaches in terms of execution efficiency and data [[concepts/scraping|scraping]] [[concepts/accuracy|accuracy]]. [[concepts/code|Code]] implementations allow for explicit type definitions, error handling, and complex logic flows that [[concepts/markdown|markdown]] specifications cannot reliably express. This becomes particularly important when [[concepts/agents|agents]] must handle edge cases or interact with external APIs during [[concepts/information-extraction|data extraction]] tasks. Markdown approaches, while easier to write and read, often result in ambiguous [[concepts/instructions|instructions]] that require additional LLM interpretation [[concepts/assistive-technology|at]] runtime, introducing latency and potential errors.
 
 ## Practical Implications
 
-For organizations deploying [[concepts/llm-based-agents|LLM agents]] at scale, adopting open standards around code-based skill definitions reduces integration overhead and improves agent [[concepts/software-reliability|reliability]]. When skills are defined in executable code rather than descriptive text, the agent can validate inputs and outputs deterministically, and other systems can more easily integrate with or extend the skill definitions. This standardization becomes increasingly valuable as agent ecosystems grow more complex, particularly in [[concepts/scenarios|scenarios]] involving [[concepts/web-crawling|web scraping]], API interactions, or multi-step workflows where failure tolerance is low.
-
+For organizations deploying [[concepts/llm-based-agents|LLM agents]] at scale, adopting open standards around code-based [[concepts/skill|skill]] definitions reduces [[concepts/integration|integration]] overhead and improves agent [[concepts/software-reliability|reliability]]. When skills are defined in executable code rather than descriptive [[concepts/text|text]], the agent can validate inputs and outputs deterministically, and other systems can more easily integrate with or extend the skill definitions. This standardization becomes increasingly valuable as agent ecosystems grow more complex, particularly in [[concepts/scenarios|scenarios]] involving [[concepts/web-crawling|web scraping]], API interactions, or multi-step workflows where failure tolerance is low.
 ## Source Notes
 - 2026-04-07: Agent Skills: Code Beats Markdown (Here's Why)
 - 2026-04-08: [[lab-notes/2026-04-08-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

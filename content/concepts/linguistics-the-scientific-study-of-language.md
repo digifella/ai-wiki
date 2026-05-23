@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "linguistics"
   - "language-science"
@@ -12,7 +11,8 @@ aliases:
   - "scientific study of language"
   - "language science"
 summary: Linguistics is the scientific discipline that systematically studies the structure, use, and evolution of human language.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # Linguistics: The Scientific Study Of Language
 
@@ -24,4 +24,4 @@ The field encompasses several interconnected domains. Phonetics and phonology ex
 
 ## Broader Applications
 
-Beyond examining [[concepts/language-grammar|language structure]] itself, linguistics intersects with psychology, [[concepts/neuroscience|neuroscience]], and anthropology to understand how humans acquire language, process it mentally, and use it to communicate. Applied linguistics draws on these insights to inform fields such as language education, clinical speech-language pathology, and [[concepts/nlp|natural language processing]] in computer science. The discipline also contributes to documentation and [[concepts/preservation|preservation]] efforts for endangered languages.
+Beyond examining [[concepts/language-grammar|language structure]] itself, linguistics intersects with [[concepts/psychology|psychology]], [[concepts/neuroscience|neuroscience]], and anthropology to understand how humans acquire language, process it mentally, and use it to communicate. Applied linguistics draws on these insights to inform fields such as language education, clinical speech-language pathology, and [[concepts/nlp|natural language processing]] in computer [[concepts/science|science]]. The discipline also contributes to documentation and [[concepts/preservation|preservation]] efforts for endangered languages.

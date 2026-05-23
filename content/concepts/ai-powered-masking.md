@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "image-processing"
-  - "masking"
-  - "photoshop"
-  - "ai-masking"
-  - "machine-learning"
-  - "computer-vision"
-  - "automated-selection"
-  - "photoshop-tools"
-aliases:
-  - "Automated Masking"
-  - "AI Selection"
-summary: "The application of machine learning and computer vision algorithms to automate the identification and isolation of complex boundaries within an image."
-updated: 2026-04-21
+summary: The application of machine learning and computer vision algorithms to automate the identification and isolation of complex boundaries within an image.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # AI-powered masking

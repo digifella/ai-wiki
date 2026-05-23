@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: biology-life-sciences
-group: evolution-ecology-natural-systems
+domain: ai-agents
 tags:
   - "concept"
   - "medical-imaging"
@@ -13,11 +12,12 @@ aliases:
   - "MedGemma 27B"
   - "Google MedGemma"
 summary: The MedGemma 27B model from Google demonstrates capabilities in medical text and image comprehension.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Dermatology Images
 
-MedGemma 27B is a [[concepts/multimodal-medical-ai|multimodal medical AI]] model developed by [[concepts/google-search|Google]] that processes both text and [[concepts/images|images]]. The model represents an advancement in specialized medical language understanding, designed to handle the visual and textual components common in clinical practice. With 27 billion [[concepts/parameters|parameters]], it operates at a scale intended to balance capability with practical [[concepts/deployment|deployment]] considerations.
+[[entities/medgemma-27b|MedGemma 27B]] is a [[concepts/multimodal-medical-ai|multimodal medical AI]] model developed by [[concepts/google-search|Google]] that processes both [[concepts/text|text]] and [[concepts/images|images]]. The model represents an advancement in specialized medical language understanding, designed to handle the visual and textual components common in clinical practice. With 27 billion [[concepts/parameters|parameters]], it operates [[concepts/assistive-technology|at]] a scale intended to balance capability with practical [[concepts/deployment|deployment]] considerations.
 
 ## Medical Image Analysis
 
@@ -25,4 +25,4 @@ The model demonstrates capabilities in analyzing dermatological imagery alongsid
 
 ## Development and Access
 
-MedGemma 27B was released by Google as part of broader efforts to advance medical [[concepts/capabilities|AI capabilities]]. Documentation and demonstrations of the model's functionality have been made available to researchers and practitioners, though practical integration into clinical workflows requires careful validation and regulatory consideration.
+MedGemma 27B was released by [[entities/google|Google]] as part of broader efforts to advance medical [[concepts/capabilities|AI capabilities]]. Documentation and demonstrations of the model's functionality have been made available to researchers and practitioners, though practical [[concepts/integration|integration]] into clinical workflows requires careful validation and regulatory consideration.

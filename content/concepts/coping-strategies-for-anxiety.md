@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: resilience-mental-performance-pain
 tags:
   - "anxiety-management"
   - "mental-health"
@@ -12,7 +11,8 @@ aliases:
   - "anxiety-management-techniques"
   - "anxiety-relief-strategies"
 summary: Methods and practices for managing and reducing anxiety symptoms.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Coping Strategies For Anxiety
 
@@ -24,7 +24,7 @@ Common cognitive and behavioral strategies include identifying and challenging a
 
 ## Lifestyle and Physical Practices
 
-Regular [[concepts/exercise|physical activity]], adequate sleep, and reduced caffeine consumption can significantly influence anxiety levels. [[concepts/human-connection|Social connection]] and maintaining supportive [[concepts/relationships|relationships]] provide emotional grounding during periods of heightened anxiety. Some individuals find benefit in structured activities such as journaling, creative pursuits, or time in natural environments as part of their anxiety management routine.
+Regular [[concepts/exercise|physical activity]], adequate [[concepts/sleep|sleep]], and reduced caffeine consumption can significantly [[concepts/power|influence]] anxiety levels. [[concepts/human-connection|Social connection]] and maintaining supportive [[concepts/relationships|relationships]] provide emotional grounding during periods of heightened anxiety. Some individuals find benefit in structured activities such as journaling, creative pursuits, or time in natural environments as part of their anxiety management routine.
 
 ## Professional Support
 

@@ -1,24 +1,17 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "computational-complexity"
-  - "computer-science"
-  - "mathematics"
-  - "logical-consistency"
-aliases:
-  - "mathematical-proof"
-summary: "In mathematics and computer science, a proof is a step-by-step demonstration of the truth of a mathematical statement."
-updated: 2026-04-15
+summary: In mathematics and computer science, a proof is a step-by-step demonstration of the truth of a mathematical statement.
+updated: 2026-05-23
 group: mathematical-reasoning-proof
 ---
 # Proof
 
-In [[concepts/mathematics|mathematics]] and computer science, a proof is a step-by-step demonstration of the truth of a mathematical statement. It provides a rigorous method to establish the validity of conjectures or hypotheses.
+In [[concepts/mathematics|mathematics]] and computer [[concepts/science|science]], a proof is a step-by-step demonstration of the truth of a mathematical statement. It provides a rigorous method to establish the validity of conjectures or hypotheses.
 
 ### Related Concepts
 - logical-[[concepts/logical-consistency|consistency]]
-- theoretical-computer-science
+- [[concepts/theoretical-computer-science|theoretical-computer-science]]
 - [[concepts/np-complete|NP-completeness]]
 
 ### P vs NP Problem: Computational Complexity, Implications, and Historical Context
@@ -28,15 +21,14 @@ The [[concepts/a-video-titled-p-vs-np|P vs NP problem]] is one of the most signi
 ### Key Points
 - **[[concepts/verification|Verification]] vs [[concepts/solution|Solution]]**: The core question is whether the class of problems that have efficiently verifiable solutions (NP) are equivalent to those with [[concepts/algorithmic-optimization|efficient algorithms]] for solving them (P).
 - **Million-Dollar Prize**: One of the seven [[concepts/millennium-prize-problems|Millennium Prize Problems]] by the Clay Mathematics Institute.
-- **Historical Context and Implications**:
+- **[[concepts/historical-context|Historical Context]] and Implications**:
   - [[concepts/computational-complexity]]
   - Potential impacts on [[concepts/cryptography|cryptography]], algorithm [[concepts/design|design]], and [[concepts/problem-solving|problem-solving]] in various industries.
 
 ### References
 - [[entities/quanta-magazine|Quanta Magazine]]: [Biggest Puzzle in Computer Science: P vs NP](https://www.youtube.com/watch?v=pQsdygaYcE4)
 
-2026 04 12 P vs NP Problem Computational Complexity Implications and Historical C
-
+2026 04 12 [[concepts/business-logistics|P vs NP Problem]] [[concepts/complexity-classes|Computational Complexity]] Implications and Historical C
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution|Riemann Hypothesis Hidden Order in Prime Number Distribution]] · [▶ source](https://www.youtube.com/watch?v=59I84mWLK_c)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: food-science-nutrition-ingredients
 tags:
   - "ai-tools"
   - "presentation-software"
@@ -13,7 +12,8 @@ aliases:
   - "AI presentation tools comparison"
   - "presentation creation tools"
 summary: A head-to-head comparison of the AI-powered presentation creation tools Skywork, ChatGPT, and Manus.
-updated: 2026-05-01
+updated: 2026-05-23
+group: food-science-nutrition-ingredients
 ---
 # Clean Beauty
 

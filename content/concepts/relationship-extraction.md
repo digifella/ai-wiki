@@ -11,8 +11,8 @@ tags:
 aliases:
   - "relation-extraction"
   - "entity-relationship-extraction"
-summary: "Relationship extraction is the process of identifying and characterizing the semantic links and predicates between entities within unstructured text."
-updated: 2026-04-28
+summary: Relationship extraction is the process of identifying and characterizing the semantic links and predicates between entities within unstructured text.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Relationship Extraction
@@ -28,7 +28,6 @@ The process of identifying and characterizing the semantic links and predicates 
 
 **Backlinks**:
 - 2026 04 14 Cocoindex channel and [[concepts/knowledge-graphs|knowledge Graphs]] for LLM RAG
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Heres-what-it-actually-does-how-to-build-it-yourself|Heres what it actually does how to build it yourself]]
 - 2026-04-22: Graphify · [▶ source](https://www.youtube.com/watch?v=BkHps04qGgc)

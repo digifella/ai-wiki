@@ -1,18 +1,7 @@
 ---
 type: entity
-tags:
-  - "software-engineering"
-  - "ai-guided-development"
-  - "claude-code-agent"
-  - "ai-assisted-development"
-  - "process-management"
-  - "code-generation"
-aliases:
-  - "Matt the Engineer"
-  - "AI Process Guru"
-  - "Claude Code Advocate"
-summary: "Matt Pocock is an experienced engineer who focuses on integrating AI, particularly large language models like Claude Code, into software engineering processes."
-updated: 2026-04-11
+summary: Matt Pocock is an experienced engineer who focuses on integrating AI, particularly large language models like Claude Code, into software engineering processes.
+updated: 2026-05-23
 ---
 title: "Matt Pocock"
 
@@ -27,22 +16,22 @@ Matt Pocock is a seasoned engineer known for his insights on leveraging [[concep
 
 ### Skills Utilized Daily with Claude Code Agent
 - **Process Management:** Integrating AI into existing workflows to streamline engineering processes.
-- **[[concepts/ai-coding|Code Generation]]:** Using [[concepts/ai-assisted-coding|Claude Code]] for rapid code generation based on detailed specifications.
+- **[[concepts/ai-coding|Code Generation]]:** Using [[concepts/ai-assisted-coding|Claude Code]] for rapid [[concepts/code-generation|code generation]] based on detailed specifications.
 - **[[concepts/debugging|Debugging]] Assistance:** Leveraging the model's understanding of common programming pitfalls and suggestions for solutions.
 - **Documentation Creation:** Automatically generating documentation from code comments and project descriptions.
 - **Performance [[concepts/ai-workflow|Optimization]]:** Identifying bottlenecks and suggesting performance improvements through intelligent analysis.
 
 ### New Information
-- The critical importance of process in leveraging AI, particularly [[concepts/large-language-models|large language models (LLMs)]] like Claude Code for [[concepts/software|software]] engineering.
-- Matt highlights that while AI offers a fleet of "middling to good engineers" at one's fingertips, these [[concepts/agents|agents]] lack memory and context retention across sessions.
+- The critical importance of process in leveraging AI, particularly [[concepts/large-language-models|large language models (LLMs)]] like [[concepts/coding-assistant|Claude Code]] for [[concepts/software|software]] engineering.
+- Matt [[concepts/highlights|highlights]] that while AI offers a fleet of "middling to good engineers" [[concepts/assistive-technology|at]] one's fingertips, these [[concepts/agents|agents]] lack memory and context retention across sessions.
 
 ## AI-Guided Software Development: Leveraging Claude Code Agent Skills for Process-Driven Engineering
-**Clip title:** 5 [[concepts/claude-code-agent-skills|Claude Code skills]] I use every single day
+**[[concepts/clip-title|Clip title]]:** 5 [[concepts/claude-code-agent-skills|Claude Code skills]] I use every single day
 **Author / channel:** Matt Pocock
 **URL:** https://www.youtube.com/watch?v=EJyuu6zlQCg
 
 ### Summary
-The video's central theme revolves around the critical importance of process in leveraging AI, particularly [[concepts/large-language-models|large language models (LLMs)]] like [[entities/claude-code|Claude Code]] for software engineering. The [[entities/speaker|speaker]], a seasoned engineer, highlights that while AI offers a fleet of "middling to good engineers" at one's fingertips, these [[concepts/agentic-ai|agents]] lack memory and [[concepts/context-window|context retention]] across sessions.
+The video's central theme revolves around the critical importance of process in leveraging AI, particularly [[concepts/large-language-models|large language models (LLMs)]] like [[entities/claude-code|Claude Code]] for software engineering. The [[entities/speaker|speaker]], a seasoned engineer, [[concepts/highlights|highlights]] that while AI offers a fleet of "middling to good engineers" at one's fingertips, these [[concepts/agentic-ai|agents]] lack memory and [[concepts/context-window|context retention]] across sessions.
 
 ### Related Concepts
 - [[concepts/software-engineering|Software Engineering]]
@@ -50,10 +39,9 @@ The video's central theme revolves around the critical importance of process in 
 - [[concepts/claude-code|Claude Code]]
 
 ### Backlinks
-- 2026 04 10 [[concepts/ai-guided-software-development|AI Guided Software Development]] Leveraging Claude Code Agent Skills for
+- 2026 04 10 [[concepts/ai-guided-software-development|AI Guided Software Development]] Leveraging [[concepts/agent-steering|Claude Code Agent Skills]] for
 
 ## Related Notes
-- 2026 04 10 AI Guided Software Development Leveraging Claude Code Agent Skills for
-
+- 2026 04 10 AI Guided Software Development Leveraging Claude Code [[concepts/agent-harnesses|Agent Skills]] for
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

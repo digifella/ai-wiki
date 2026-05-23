@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "dugouts"
-  - "subterranean living"
-  - "australia"
-  - "coober pedy"
-  - "desert architecture"
-  - "climate adaptation"
-  - "subterranean-shelter"
-  - "climate-adaptation"
-  - "desert-architecture"
-  - "coober-pedy-living"
-aliases:
-  - "dugout-homes"
-  - "underground-dwellings"
-  - "coober-pedy-dugouts"
-  - "subterranean-residences"
-summary: "Dugouts are subterranean dwellings in Coober Pedy, Australia, designed to provide shelter from extreme desert conditions."
-updated: 2026-04-12
+summary: Dugouts are subterranean dwellings in Coober Pedy, Australia, designed to provide shelter from extreme desert conditions.
+updated: 2026-05-23
 group: climate-environment-surface-systems
 ---
 # Dugouts
@@ -29,6 +13,5 @@ Dugouts are [[concepts/underground-dwellings|subterranean dwellings]] created by
 - Dugouts provide complete living spaces including bedrooms, kitchens, and communal areas, all invisible from above ground.
 
 2026 04 11 [[entities/coober-pedy|Coober Pedy]] [[concepts/subterranean-living|Subterranean Living]] in Australias Desert Driven by Climate
-
 ## Source Notes
 - 2026-04-11: An Entire Town Built Beneath the Australian Desert

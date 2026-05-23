@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-futures-self-improvement
+group: ai-foundations-concepts
 tags:
   - "concept"
   - "notebooklm-updates"
@@ -11,19 +11,19 @@ tags:
 aliases:
   - "NotebookLM Updates"
 summary: The video reviews the latest feature updates to Google's NotebookLM.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Adaptive Strategy
 
-Adaptive strategy refers to an approach to planning and decision-making that prioritizes flexibility and responsiveness to changing circumstances. Rather than adhering rigidly to predetermined plans, adaptive strategies involve [[concepts/continuous-monitoring|continuous monitoring]] of conditions, evaluation of outcomes, and real-time adjustment of tactics based on new information or shifts in environmental factors. This methodology is particularly valuable in contexts characterized by high uncertainty or unpredictable changes in conditions.
+Adaptive strategy refers to an approach to planning and decision-making that prioritizes flexibility and responsiveness to changing circumstances. Rather than adhering to fixed, predetermined plans, adaptive strategies involve continuous monitoring of conditions, evaluation of outcomes, and real-time adjustment of tactics based on new information or shifts in environmental factors. This methodology is particularly valuable in contexts characterized by high uncertainty or unpredictable changes.
 
-## Core Characteristics
+## Application in AI Agents
 
-Adaptive strategies operate through iterative cycles of assessment and adjustment. Organizations or decision-makers using this approach establish baseline plans while building in mechanisms to detect when conditions diverge from expectations. When such divergences occur, tactics are modified to address new realities while maintaining alignment with broader objectives. This differs fundamentally from static planning, which assumes conditions will remain relatively stable throughout implementation.
+In the context of AI agents, adaptive strategy describes the capacity of autonomous systems to modify their behavior and approach in response to dynamic environmental conditions or task requirements. AI agents employing adaptive strategies can recalibrate their objectives, reassess available options, and select alternative actions when initial approaches prove ineffective or when new information becomes available. This capability is essential for agents operating in real-world settings where perfect information is unavailable and conditions frequently deviate from initial assumptions.
 
-## Applications
+## Core Mechanisms
 
-Adaptive strategies are employed across various domains including business management, military operations, environmental policy, and product development. In rapidly changing markets, companies may adopt adaptive strategies to adjust product features, [[concepts/pricing|pricing]], or [[concepts/distribution|distribution]] channels based on customer [[concepts/feedback|feedback]] and competitive movements. Similarly, conservation efforts often require adaptive management when dealing with complex ecosystems where outcomes of interventions cannot be fully predicted in advance.
+Adaptive strategies typically rely on feedback loops that enable systems to learn from outcomes and adjust subsequent decisions accordingly. This may involve monitoring performance metrics, detecting changes in the operating environment, or identifying when predetermined assumptions no longer hold. The effectiveness of an adaptive strategy depends on both the speed of detection—how quickly new conditions are recognized—and the efficiency of the response mechanism that translates that recognition into behavioral adjustment.
 
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Addressing-Leadership-Pitfalls-in-Organizational-AI-Strategy|Addressing Leadership Pitfalls in Organizational AI Strategy]] · [▶ source](https://www.youtube.com/watch?v=nHXahonlIBM)

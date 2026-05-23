@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: food-science-nutrition-ingredients
 tags:
   - "acidity"
   - "alkalinity"
@@ -13,7 +12,8 @@ aliases:
   - "alkalinity levels"
   - "pH measurement"
 summary: A logarithmic measurement scale from 0-14 indicating the acidity or alkalinity of food and substances, with 7 as neutral.
-updated: 2026-05-01
+updated: 2026-05-23
+group: food-science-nutrition-ingredients
 ---
 # pH Levels
 
@@ -21,12 +21,11 @@ pH is a logarithmic scale that measures the concentration of hydrogen ions in a 
 
 ## Relevance to Food and Nutrition
 
-pH levels are significant in food science and nutrition for several reasons. Acidic foods (pH below 7) include citrus fruits, vinegar, and fermented products, while alkaline foods include [[concepts/baking-soda|baking soda]] and certain minerals. The pH of food affects taste, [[concepts/preservation|preservation]], food safety—particularly regarding bacterial growth and shelf life—and can influence nutrient absorption in the digestive system. Water and milk are close to neutral at approximately pH 7.
+pH levels are significant in food [[concepts/science|science]] and [[concepts/nutrition|nutrition]] for several reasons. Acidic foods (pH below 7) include citrus fruits, vinegar, and fermented products, while alkaline foods include [[concepts/baking-soda|baking soda]] and certain minerals. The pH of food affects taste, [[concepts/preservation|preservation]], food safety—particularly regarding bacterial growth and shelf life—and can [[concepts/power|influence]] nutrient absorption in the digestive system. Water and milk are close to neutral [[concepts/assistive-technology|at]] approximately pH 7.
 
 ## Measurement and Context
 
 pH can be measured using pH strips, meters, or laboratory analysis. In culinary and food manufacturing contexts, maintaining specific pH levels is important for both safety and desired sensory characteristics. For example, canning and pickling rely on acidic conditions to prevent pathogenic bacteria growth, while baking may require alkaline conditions for proper chemical reactions.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-09: Photoshop

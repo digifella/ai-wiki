@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "concept"
   - "black-holes"
@@ -11,18 +10,20 @@ tags:
 aliases:
   - "black hole"
 summary: The lack of electromagnetic interaction prevents dark matter from collapsing into black holes.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Black Holes
 
-A black hole is a region of spacetime where [[concepts/gravitational-pull|gravity]] is so intense that nothing, not even light, can escape beyond the event horizon. Black holes form when massive stars collapse at the end of their lifespans, compressing matter into an infinitely dense point called a singularity. The event horizon marks the boundary beyond which no information or objects can return to the [[concepts/observable-universe|observable universe]]. Black holes are detected indirectly through their [[concepts/gravitational-effects|gravitational effects]] on nearby matter and radiation.
+A black hole is a region of spacetime where [[concepts/gravitational-pull|gravity]] is so intense that nothing, not even [[concepts/light|light]], can escape beyond the [[concepts/event-horizon|event horizon]]. Black holes form when massive [[concepts/stellar-objects|stars]] collapse [[concepts/assistive-technology|at]] the end of their lifespans, compressing matter into an infinitely dense point called a singularity. The event horizon marks the boundary beyond which no information or objects can return to the [[concepts/observable-universe|observable universe]].
 
-## Dark Matter and Black Hole Formation
+## Formation and Detection
 
-Dark matter comprises approximately 85% of the matter in the universe, yet it does not interact through electromagnetic forces. Because dark matter does not emit, absorb, or reflect light, and cannot interact electromagnetically with other dark matter particles, it cannot radiate away energy. This absence of [[concepts/electromagnetic-interaction|electromagnetic interaction]] prevents dark matter from cooling and collapsing into sufficiently dense objects like black holes, which require matter to lose energy through radiation to undergo [[concepts/gravitational-collapse|gravitational collapse]]. Consequently, dark matter remains distributed throughout the universe rather than forming discrete collapsed objects.
+Black holes are detected indirectly through their [[concepts/gravitational-effects|gravitational effects]] on nearby matter and radiation. As material spirals into a black hole, it heats to extreme temperatures and emits X-[[concepts/rays|rays]] and other radiation before crossing the event horizon. Astronomers also observe black holes through their [[concepts/power|influence]] on nearby stars and gas clouds, and more recently, through [[concepts/gravitational-waves|gravitational wave detection]] from merging black holes.
 
-In [[concepts/contrast|contrast]], ordinary [[concepts/baryonic-matter|baryonic matter]] can lose energy through [[concepts/light|electromagnetic radiation]], allowing it to collapse under gravity and form black holes when sufficient mass is concentrated in a small region. This fundamental difference between dark and ordinary matter shapes the large-scale [[concepts/structure|structure]] of the universe and explains why observed black holes arise from stellar collapse rather than from dark matter accumulation.
+## Types and Behavior
 
+Black holes vary in size depending on their formation process. Stellar-mass black holes result from the collapse of individual stars, while supermassive black holes, millions to billions of times the Sun's mass, occupy the centers of most galaxies. According to general relativity, black holes are not entirely black; they emit Hawking radiation, a quantum effect causing them to slowly evaporate over extremely long timescales.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Dark-Matter-Non-Collapse-The-Lack-of-Electromagnetic-Interaction|Dark Matter Non Collapse The Lack of Electromagnetic Interaction]] · [▶ source](https://www.youtube.com/watch?v=VmWNTlVFcJw)
 - 2026-04-12: [[lab-notes/2026-04-12-JWST-Detects-Evidence-of-Universes-Primordial-Population-III-Stars-in-|JWST Detects Evidence of Universes Primordial Population III Stars in ]] · [▶ source](https://www.youtube.com/watch?v=VGekUw84lxQ)

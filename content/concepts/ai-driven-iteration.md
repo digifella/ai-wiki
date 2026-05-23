@@ -13,19 +13,19 @@ aliases:
   - "AI-Powered Iteration"
   - "Iterative AI Workflows"
 summary: A design and workflow approach utilizing AI tools like Google Stitch to enable rapid iterative cycles in creative and productive processes.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Driven Iteration
 
-AI Driven Iteration is a design and development methodology that leverages AI-powered tools to accelerate [[concepts/feedback|feedback]] and refinement cycles in creative and productive work. Rather than following traditional sequential stages where conception, review, and revision occur as distinct phases, this approach integrates AI assistance directly into the working process. This integration enables practitioners to generate multiple variations, evaluate alternatives, and implement refinements more rapidly than conventional workflows typically allow.
+AI Driven Iteration is a design and development methodology that leverages AI-powered tools to accelerate feedback and refinement cycles in creative and productive work. Rather than following traditional sequential stages where conception, review, and revision occur as distinct phases, this approach integrates AI assistance directly into the working process. By embedding AI tools into workflows, practitioners can generate multiple variations, evaluate alternatives, and implement refinements more rapidly than conventional methods typically allow.
 
 ## Workflow Integration
 
-The methodology treats [[entities/ai-tools|AI tools]] as active participants in the iterative cycle rather than as final-stage output generators. Designers and creators use AI assistance to explore concept variations, receive immediate feedback on drafts, and test modifications in real time. This tightens the feedback loop between ideation and implementation, reducing the time between creative decisions and their evaluation. Tools like [[concepts/ai-assisted-prototyping|Google Stitch]] exemplify this approach by enabling seamless integration of [[concepts/capabilities|AI capabilities]] into existing design and production environments.
+The core principle of AI Driven Iteration involves treating AI systems as active participants in the creative process rather than end-stage tools. Tools like Google Stitch and similar platforms enable users to request variations, critique outputs, and refine direction through iterative cycles without context-switching or manual rework between stages. This reduces friction between ideation and execution, allowing designers and developers to test assumptions and validate directions more frequently within a single session.
 
-## Practical Application
+## Practical Applications
 
-AI Driven Iteration applies across multiple domains including product design, [[concepts/content-creation|content creation]], [[concepts/coding|software development]], and [[concepts/aesthetic-design|visual design]]. The methodology is particularly effective when rapid exploration of [[concepts/solution|solution]] space is valuable—situations where multiple viable approaches exist and comparative analysis informs better outcomes. By enabling creators to test more variations within the same time frame, the approach increases the likelihood of discovering effective solutions while reducing [[concepts/iteration|iteration]] cycles.
+This approach has relevance across multiple domains including product design, content creation, software development, and strategic planning. Teams using AI Driven Iteration typically report faster iteration velocity and more exhaustive exploration of design space, as the computational cost of generating and evaluating alternatives decreases. The methodology works best when practitioners maintain clear feedback criteria and actively guide the AI system toward specific goals rather than relying on automated refinement alone.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Stitch-AI-Native-Design-Canvas-Evolution-and-Enhanced-Workflow|Google Stitch AI Native Design Canvas Evolution and Enhanced Workflow]] · [▶ source](https://www.youtube.com/watch?v=J7XpscQqCYw)

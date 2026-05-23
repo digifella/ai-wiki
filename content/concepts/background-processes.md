@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: tools-platforms
 tags:
   - "concept"
   - "tmux"
@@ -12,7 +11,8 @@ aliases:
   - "tmux sessions"
   - "persistent sessions"
 summary: This note explains how to create and detach from persistent tmux sessions to run processes such as Python, Docker, and Ollama in the background.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Background Processes
 
@@ -26,8 +26,7 @@ To reconnect to an existing session, use `tmux attach -t <session-name>`. You ca
 
 ## Practical Considerations
 
-Using tmux is preferable to background operators like `&` or `nohup` because it preserves the full terminal environment and allows you to monitor output or interact with the process later. Each tmux session maintains its own shell state, so you can run multiple independent services simultaneously without conflicts. This approach is particularly useful when working over SSH connections, as tmux sessions persist even if your network [[concepts/connection|connection]] drops.
-
+Using tmux is preferable to background operators like `&` or `nohup` because it preserves the full terminal environment and allows you to monitor [[concepts/output|output]] or interact with the process later. Each tmux session maintains its own shell state, so you can run multiple independent services simultaneously without conflicts. This approach is particularly useful when working over [[concepts/ssh|SSH]] connections, as [[concepts/persistent-computing|tmux sessions]] persist even if your network [[concepts/connection|connection]] drops.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Claudes-Advisor-Strategy-Monitor-Tool-and-Managed-Agents-for-AI-Develo|Claudes Advisor Strategy Monitor Tool and Managed Agents for AI Develo]] · [▶ source](https://www.youtube.com/watch?v=Q-QznaH1WS0)
 - 2026-04-14: [[lab-notes/2026-04-14-Transforming-NotebookLM-Mind-Maps-into-Engaging-Visuals-with-Google-Ge|Transforming NotebookLM Mind Maps into Engaging Visuals with Google Ge]] · [▶ source](https://www.youtube.com/watch?v=m25BiEBU7GU)

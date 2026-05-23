@@ -7,17 +7,24 @@ tags:
   - "ai-knowledge-architectures"
   - "ai-maintained-knowledge-bases"
   - "ai-context-layer-architectures"
-summary: "Andre Karpathy proposes AI-maintained knowledge bases and AI context layer architectures."
-updated: 2026-04-27
+  - "knowledge-bases"
+  - "context-layer-architectures"
+  - "ai-systems"
+aliases:
+  - "Karpathy"
+summary: Andre Karpathy proposes AI-maintained knowledge bases and AI context layer architectures.
+updated: 2026-05-23
 ---
 # Andre Karpathy
 
-## AI Knowledge Architectures
-- Proponent of a "wiki idea" regarding the development of [[concepts/ai-maintained-knowledge-bases]].
-- His architectural approach to [[concepts/ai-context-layer-architectures]] is a key point of comparison against [[concepts/openbrain-system|OpenBrain]] architectures, specifically regarding structural [[concepts/software-reliability|reliability]] in critical contexts.
+Andre Karpathy is a computer scientist and AI researcher known for his work on [[concepts/neural-networks|neural networks]] and deep [[concepts/learning|learning]] systems. He has been influential in shaping discussions around practical architectures for AI systems, particularly regarding how AI systems can maintain and reference knowledge.
 
-## Related Notes
-- 2026 04 27 [[concepts/ai-context-layer-architectures|AI Context Layer Architectures]] Karpathys Wiki vs. OpenBr
+## AI-Maintained Knowledge Bases
 
+Karpathy has advocated for approaches to [[concepts/ai-maintained-knowledge-bases|AI-maintained knowledge bases]], proposing a "wiki idea" as a conceptual framework for how AI systems might organize and preserve information. This work addresses the challenge of enabling AI systems to reliably store, update, and retrieve knowledge over time rather than relying solely on parametric [[concepts/memory|memory]] encoded in [[concepts/model-weights|model weights]].
+
+## Context Layer Architectures
+
+His architectural approach to AI context layer systems represents an alternative [[concepts/design|design]] [[concepts/philosophy|philosophy]] for building AI systems. This approach has been examined comparatively against other systems like [[concepts/openbrain-system|OpenBrain]] architectures, particularly with respect to how different designs handle structural [[concepts/software-reliability|reliability]] requirements in critical [[concepts/software|applications]] where [[concepts/logical-consistency|consistency]] and verifiability are important.
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-AI-Context-Layer-Architectures-Karpathys-Wiki-vs.-OpenBr|AI Context Layer Architectures: Karpathy's Wiki vs. OpenBrain Comparison]] · [▶ source](https://www.youtube.com/watch?v=dxq7WtWxi44)

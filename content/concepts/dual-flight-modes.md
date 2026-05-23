@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
+domain: science-physics
 tags:
   - "aeronautics"
   - "engineering"
@@ -12,9 +12,9 @@ tags:
 aliases:
   - "transition-flight"
   - "dual-mode-flight"
-summary: "The ability of an aircraft to transition between vertical lift and horizontal lift aerodynamic configurations."
-updated: 2026-04-27
-group: apis-integrations-mcp
+summary: The ability of an aircraft to transition between vertical lift and horizontal lift aerodynamic configurations.
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Dual flight modes
 
@@ -29,6 +29,5 @@ The [[concepts/vertical-takeoff-and-landing|V-22 Osprey]] utilizes [[concepts/ti
 
 ## Backlinks
 - 2026 04 27 V 22 [[entities/v-22-osprey|Osprey]] [[concepts/tiltrotor-technology|Tiltrotor]] Engineering Its Complex Dual Fligh
-
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-V-22-Osprey-Tiltrotor-Engineering-Its-Complex-Dual-Fligh|V-22 Osprey Tiltrotor: Engineering Its Complex Dual Flight Modes]] · [▶ source](https://www.youtube.com/watch?v=FYMdllTCrc0)

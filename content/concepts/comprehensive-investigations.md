@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: enterprise-strategy-future-work
 tags:
   - "multi-modal-research"
   - "gemini-2-5"
@@ -14,16 +13,17 @@ aliases:
   - "Gemini 2.5 Multi-modal Researcher"
   - "LangGraph Researcher"
 summary: A multi-modal researcher tool built using Google's Gemini 2.5 models and LangGraph via LangChain.
-updated: 2026-05-01
+updated: 2026-05-23
+group: enterprise-strategy-future-work
 ---
 # Comprehensive Investigations
 
-Comprehensive Investigations is a multi-modal researcher tool developed using [[concepts/google-search|Google]]'s [[concepts/gemini-25-models|Gemini 2.5]] models integrated with [[concepts/langgraph-framework|LangGraph]], a [[concepts/llm-orchestration|workflow orchestration]] framework available through [[entities/langchain|LangChain]]. The system is designed to conduct in-depth research tasks by combining language models with structured [[concepts/reasoning|reasoning]] workflows. It represents an application of [[concepts/large-language-model-llm|large language models]] to automate and enhance investigative research processes.
+Comprehensive Investigations is a [[concepts/multi-modal-research|multi-modal research]] tool designed to automate and enhance business intelligence and research workflows. Built on [[concepts/google-search|Google]]'s [[concepts/gemini-25-models|Gemini 2.5]] models and [[concepts/langgraph-framework|LangGraph]] (accessed through [[entities/langchain|LangChain]]), the system combines [[concepts/statistical-language-modeling|language model]] [[concepts/capabilities|capabilities]] with structured [[concepts/llm-orchestration|workflow orchestration]] to conduct complex, multi-step research tasks.
 
-## Architecture and Components
+## Technical Architecture
 
-The tool leverages Gemini 2.5's capabilities as its core [[concepts/statistical-language-modeling|language model]], processing multiple modalities of input data. LangGraph provides the underlying workflow management system, enabling the tool to [[concepts/structure|structure]] complex research tasks into discrete, orchestrated steps. This integration through LangChain creates a system capable of executing sequential and conditional logic in pursuit of research objectives.
+The tool leverages LangGraph's workflow orchestration framework to coordinate research activities across multiple stages and [[concepts/reasoning|reasoning]] patterns. By integrating Gemini 2.5 models—which support multimodal inputs and outputs—Comprehensive Investigations can process various data types including [[concepts/text|text]], [[concepts/images|images]], and structured information. LangChain provides the [[concepts/integration|integration]] layer that connects these components into a cohesive research pipeline.
 
-## Functionality
+## Business Application
 
-The system generates various research outputs as part of its investigative workflow. By combining model reasoning with explicit workflow design, Comprehensive Investigations can break down research problems, gather information from multiple sources or perspectives, and synthesize findings. The multi-modal approach allows it to work with diverse input types beyond simple text queries, enhancing the depth of analysis possible during investigations.
+Comprehensive Investigations is positioned for business-strategy contexts where organizations need systematic, evidence-based research capabilities. The system's [[concepts/step-by-step-reasoning|structured reasoning approach]] helps reduce bias and inconsistency in research outputs, making it suitable for tasks such as market analysis, competitive intelligence gathering, and strategic planning where reliable, traceable reasoning is important.

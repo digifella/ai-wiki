@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "concept"
   - "ai-image-editing"
@@ -11,19 +10,19 @@ tags:
 aliases:
   - "Nano Banana 2"
 summary: Nano Banana 2 utilizes JSON control to enable precise AI image editing within Gemini.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Camera Angle Manipulation
 
-Camera angle manipulation refers to techniques for controlling and adjusting camera perspectives in AI-generated imagery. Within the context of [[concepts/ai-image-editing|AI image editing]] tools like [[concepts/gemini|Gemini]], this capability allows creators to specify precise framing, viewpoint, and compositional elements through structured control systems.
+Camera angle manipulation refers to techniques for controlling and adjusting camera perspectives in AI-generated imagery. Within [[concepts/ai-image-editing|AI image editing]] tools like [[concepts/gemini|Gemini]], this capability allows creators to specify precise framing, viewpoint, and compositional elements through structured [[concepts/power|control]] systems. Rather than relying on [[concepts/natural-language-descriptions|natural language descriptions]] alone, these systems use formal control mechanisms to achieve consistent and predictable results when adjusting how a scene is viewed.
 
-## JSON Control Implementation
+## JSON-Based Control Systems
 
-[[concepts/camera-angle-control|Nano Banana 2]] introduces a JSON-based control system that enables detailed specification of camera [[concepts/parameters|parameters]] during [[concepts/ai-image-generation|AI image generation]] and editing. This approach allows users to define camera angles, positioning, and perspective settings programmatically, rather than relying solely on [[concepts/natural-language-descriptions|natural language descriptions]]. The JSON [[concepts/structure|structure]] provides a standardized format for communicating complex spatial and compositional requirements to the [[concepts/image-generation-model|image generation model]].
+[[concepts/camera-angle-control|Nano Banana 2]] implements a JSON control framework that enables detailed specification of camera [[concepts/parameters|parameters]] during the image generation or editing process. This structured approach allows users to define viewpoint characteristics—such as angle, distance, and orientation—in a standardized format that the AI system can reliably interpret and apply. The use of JSON provides a machine-readable format that reduces [[concepts/ambiguity|ambiguity]] compared to text-only [[concepts/instructions|instructions]].
 
-## Practical Application
+## Applications in Creative Work
 
-This technique represents a significant advancement in precision AI image editing, as it bridges the gap between human creative intent and algorithmic image synthesis. By using [[concepts/json-structuring|structured data]] formats, creators can achieve more consistent and reproducible results when working with specific camera angles and compositions, reducing the [[concepts/iteration|iteration]] cycles often required with purely [[concepts/natural-language-prompting|text-based prompting]].
-
+Camera angle manipulation through these control systems supports various creative [[concepts/software|applications]], from adjusting composition in existing [[concepts/images|images]] to controlling perspective in newly generated scenes. Creators can experiment with different viewpoints—overhead shots, low angles, side profiles, or dynamic perspectives—without manually recreating imagery. This capability is particularly useful for iterative creative workflows where multiple compositional variations are needed.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Nano-Banana-2-JSON-Control-for-Precise-AI-Image-Editing-in-Gemini|Nano Banana 2 JSON Control for Precise AI Image Editing in Gemini]] · [▶ source](https://www.youtube.com/watch?v=uQc4TGhvDHc)

@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "autonomous"
-  - "ai"
-  - "task"
-  - "execution"
-  - "local"
-  - "privacy-preserving"
-  - "on-device"
-  - "local-processing"
-  - "resource-efficient"
-summary: "Autonomous task execution systems perform complex operations without human intervention, leveraging local processing for privacy, reliability, and continuous operation."
-updated: 2026-04-15
+summary: Autonomous task execution systems perform complex operations without human intervention, leveraging local processing for privacy, reliability, and continuous operation.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Autonomous Task Execution
@@ -26,8 +16,7 @@ Systems that perform complex operations without human intervention, leveraging l
 - [[concepts/automation]]: Core capability of autonomous systems, including scheduled and event-triggered workflows.
 - Raspberry Pi: Common [[concepts/hardware|hardware]] platform for resource-efficient autonomous task execution.
 
-Backlink: 2026 04 14 [[entities/gary-explains|Gary Explains]] Clawdbot on Raspberry Pi
-
+Backlink: 2026 04 14 [[entities/gary-explains|Gary Explains]] [[concepts/remote-chat|Clawdbot]] on Raspberry Pi
 ## Source Notes
 - 2026-04-29: OpenClaw · [▶ source](https://www.youtube.com/watch?v=L7FF8Zgab3M)
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-CoWork-Automating-Workflows-with-Local-File-Access-and-AI|Claude CoWork Automating Workflows with Local File Access and AI]] · [▶ source](https://www.youtube.com/watch?v=_ZpZ1cB67_Y)

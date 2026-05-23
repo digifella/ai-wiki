@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "concept"
   - "retrieval-augmented-generation"
@@ -12,12 +11,13 @@ tags:
 aliases:
   - "RAG Optimization"
   - "Self-Editing Search Agent"
-summary: "An approach to improving retrieval-augmented generation systems through self-editing search agents."
-updated: 2026-05-01
+summary: An approach to improving retrieval-augmented generation systems through self-editing search agents.
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Efficient Rag
 
-Efficient RAG is an approach to improving retrieval-augmented generation (RAG) systems by incorporating self-editing capabilities into search [[concepts/agents|agents]]. Rather than treating retrieval as a static process where an agent simply fetches documents and passes them to a [[concepts/statistical-language-modeling|language model]], Efficient RAG enables agents to iteratively refine and validate retrieved information before use. This self-editing mechanism reduces the likelihood of propagating irrelevant or contradictory information through the generation pipeline.
+Efficient RAG is an approach to improving [[concepts/answer-generation|retrieval-augmented generation]] (RAG) systems by incorporating self-editing [[concepts/capabilities|capabilities]] into search [[concepts/agents|agents]]. Rather than treating retrieval as a static process where an [[entities/agent|agent]] simply fetches documents and passes them to a [[concepts/statistical-language-modeling|language model]], Efficient RAG enables agents to iteratively refine and validate retrieved information before use. This self-editing mechanism reduces the likelihood of propagating irrelevant or contradictory information through the generation pipeline.
 
 ## Core Mechanism
 
@@ -25,7 +25,6 @@ The approach centers on agents that can examine retrieved search results, assess
 
 ## Applications
 
-Efficient RAG is particularly relevant for systems that need to process complex queries or operate under token budget constraints. By minimizing unnecessary retrievals and focusing on high-quality information sources, the approach can reduce computational overhead while improving the [[concepts/accuracy|accuracy]] of generated [[concepts/responses|responses]]. This makes it applicable to production systems where both cost efficiency and response quality are important considerations.
-
+Efficient RAG is particularly relevant for systems that need to process complex queries or operate under token budget constraints. By minimizing unnecessary retrievals and focusing on high-quality information sources, the approach can reduce computational overhead while improving the [[concepts/accuracy|accuracy]] of generated [[concepts/responses|responses]]. This makes it applicable to production systems where both [[concepts/cost|cost]] efficiency and response quality are important considerations.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)

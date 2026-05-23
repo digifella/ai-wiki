@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "ai-tools"
   - "large-language-models"
@@ -15,21 +14,21 @@ aliases:
   - "ai-assisted-output"
   - "optimized-ai-setup"
 summary: This concept covers the setup of ChatGPT, Claude, and Gemini for legal work.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 title: professional output
 ---
 # Professional Output
 
-Professional Output refers to the configuration and optimization of [[concepts/large-language-model-llm|large language models]]—specifically [[entities/chatgpt|ChatGPT]], [[concepts/claude-ai|Claude]], and [[concepts/gemini|Gemini]]—for use in legal and business-critical work. This involves establishing [[concepts/system-prompts|system prompts]], [[concepts/custom-instructions|custom instructions]], and operational [[concepts/parameters|parameters]] that ensure these [[entities/ai-tools|AI tools]] produce output meeting professional [[concepts/open-standards|standards]] of [[concepts/accuracy|accuracy]], confidentiality, and relevance. The setup process addresses the specific requirements of legal practice, where output quality directly impacts client outcomes and professional liability.
+Professional [[concepts/output|Output]] refers to the configuration and optimization of [[concepts/large-language-model-llm|large language models]]—specifically [[entities/chatgpt|ChatGPT]], [[concepts/claude-ai|Claude]], and [[concepts/gemini|Gemini]]—for use in legal and business-critical work. This involves establishing [[concepts/system-prompts|system prompts]], [[concepts/custom-instructions|custom instructions]], and operational [[concepts/parameters|parameters]] that ensure these [[entities/ai-tools|AI tools]] produce output meeting professional [[concepts/open-standards|standards]] of [[concepts/accuracy|accuracy]], confidentiality, and relevance. The [[concepts/setup-process|setup process]] addresses the specific requirements of legal practice, where output quality directly impacts client outcomes and professional liability.
 
 ## Configuration Best Practices
 
-Effective professional setup requires defining clear scopes of work, establishing quality thresholds, and implementing safeguards around sensitive information. This includes crafting custom instructions that communicate domain expertise requirements, preferred output formats, and handling protocols for confidential materials. Different models offer varying strengths—Claude's extended [[concepts/context-windows|context windows]] suit document analysis, ChatGPT's integration ecosystem supports [[concepts/ai-driven-workflow-automation|workflow automation]], and Gemini's [[concepts/multimodal-capabilities|multimodal capabilities]] enable handling of visual legal materials.
+Effective professional setup requires defining clear scopes of work, establishing quality thresholds, and implementing safeguards around sensitive information. This includes crafting custom [[concepts/instructions|instructions]] that communicate domain expertise requirements, preferred output formats, and handling protocols for confidential materials. Different [[concepts/models|models]] offer varying strengths—[[concepts/claude|Claude]]'s extended [[concepts/context-windows|context windows]] suit document analysis, ChatGPT's [[concepts/integration|integration]] ecosystem supports [[concepts/ai-driven-workflow-automation|workflow automation]], and [[entities/gemini-app|Gemini]]'s [[concepts/multimodal-capabilities|multimodal capabilities]] enable handling of visual legal materials.
 
 ## Implementation Considerations
 
-Organizations deploying these tools for professional work must establish [[concepts/governance|governance]] frameworks distinguishing between appropriate and inappropriate [[concepts/scenarios|use cases]]. [[concepts/legal-work|Legal work]] presents particular sensitivities around attorney-client privilege, data retention, and accuracy verification. Professional output setup therefore typically includes protocols for human review, output validation against authoritative sources, and clear documentation of AI involvement in work product.
-
+Organizations deploying these tools for professional work must establish [[concepts/governance|governance]] frameworks distinguishing between appropriate and inappropriate [[concepts/scenarios|use cases]]. [[concepts/legal-work|Legal work]] presents particular sensitivities around attorney-client privilege, data retention, and accuracy [[concepts/verification|verification]]. Professional output setup therefore typically includes protocols for human review, output validation against authoritative sources, and clear documentation of AI involvement in work product.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Generative-Engine-Optimization-Adapting-Websites-for-AI-Search-Using|Generative Engine Optimization Adapting Websites for AI Search Using]] · [▶ source](https://www.youtube.com/watch?v=46vC7-BwJ_o)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

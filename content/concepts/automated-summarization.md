@@ -14,8 +14,8 @@ tags:
   - "information-retrieval"
 aliases:
   - "Automatic Summarization"
-summary: "Automated summarization is a subfield of natural language processing that involves condensing long texts into shorter versions while retaining key information."
-updated: 2026-04-28
+summary: Automated summarization is a subfield of natural language processing that involves condensing long texts into shorter versions while retaining key information.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Automated Summarization
@@ -24,7 +24,7 @@ Automated [[concepts/summarization|Summarization]] is a subfield of [[concepts/n
 
 ## Types of Automated Summarization
 
-- **Extractive Summarization**: Selects and combines sentences or phrases from the original text.
+- **Extractive Summarization**: Selects and combines sentences or phrases from the original [[concepts/text|text]].
 - **Abstractive Summarization**: Generates new sentences that capture the essence of the original text.
 
 ## Applications
@@ -35,8 +35,8 @@ Automated [[concepts/summarization|Summarization]] is a subfield of [[concepts/n
 
 ## Challenges
 
-- **Context [[concepts/preservation|Preservation]]**: Ensuring the summary retains the context and meaning of the original text.
-- **Bias and Fairness**: Avoiding biases in the summarization process.
+- **Context [[concepts/preservation|Preservation]]**: Ensuring the [[concepts/summary|summary]] retains the context and meaning of the original text.
+- **Bias and Fairness**: Avoiding [[concepts/biases|biases]] in the summarization process.
 - **Multilingual Summarization**: Handling summarization across different languages.
 
 ## Related Concepts
@@ -54,12 +54,11 @@ Automated [[concepts/summarization|Summarization]] is a subfield of [[concepts/n
 ## Potential Use Cases
 
 - Automated summarization of Podcast episodes to save time for listeners.
-- Summarizing Meeting Notes for quick review.
+- Summarizing Meeting [[concepts/notes|Notes]] for quick review.
 
 ## Backlinks
 
-- 2026 04 14 Automated podcast summary [[entities/agent|agent]] this might help you get some time back
-
+- 2026 04 14 Automated podcast [[concepts/summary|summary]] [[entities/agent|agent]] this might help you get some time back
 ## Source Notes
 - 2026-04-08: Obsidian + Claude Code: The Second Brain [[concepts/setup|Setup That Actually Works]]
 - 2026-04-07: Google NotebookLM

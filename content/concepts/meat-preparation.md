@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "meat-preparation"
   - "food-preparation"
@@ -15,8 +14,9 @@ aliases:
   - "preparing meat"
   - "meat cooking techniques"
   - "protein preparation"
-summary: "Meat preparation encompasses techniques for cooking various proteins including chicken, bacon, and salmon through methods such as grilling, poaching, marinading, and oven-cooking."
-updated: 2026-05-01
+summary: Meat preparation encompasses techniques for cooking various proteins including chicken, bacon, and salmon through methods such as grilling, poaching, marinading, and oven-cooking.
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 title: meat preparation
 ---
 # Meat Preparation
@@ -30,7 +30,6 @@ Meat preparation refers to the techniques and methods used to cook various prote
 ## Technique Considerations
 
 The juiciness and texture of cooked meat depend on several factors including marinade composition, cut selection, and cooking temperature. For example, poultry benefits from marinades that allow flavors to penetrate while maintaining moisture during cooking. Achieving uniform results, as with bacon cooked via oven methods or water-assisted techniques, requires [[concepts/attention-mechanisms|attention]] to heat distribution and timing. Different proteins—chicken, salmon, and pork—respond variably to these methods and benefit from technique [[concepts/adjustments|adjustments]] suited to their composition and [[concepts/structure|structure]].
-
 ## Source Notes
 - 2026-04-22: Normandy-Style · [▶ source](https://www.youtube.com/watch?v=oAHUSd5mzq4)
 - 2026-04-27: [[lab-notes/2026-04-27-Grilled-Chicken-Juiciness-Marinade-Cut-and-Cook-Techniqu|Grilled Chicken Juiciness: Marinade, Cut, and Cook Techniques Summary Report]] · [▶ source](https://www.youtube.com/watch?v=S8970CUbwVs)

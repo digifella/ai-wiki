@@ -7,7 +7,7 @@ tags:
   - "collaboration"
   - "llm"
 summary: Lemai is collaborating with Sandeep to develop an AI maturity model for health services using agentic AI.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Lemai
 

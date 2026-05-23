@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "baking-soda"
   - "food-chemistry"
@@ -13,13 +12,14 @@ aliases:
   - "sodium bicarbonate in cooking"
   - "baking soda culinary uses"
 summary: This page covers the use of baking soda in cooking and its relation to food chemistry.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 stub: true
 title: baking soda in cooking
 ---
 # Baking Soda In Cooking
 
-[[concepts/baking-soda|Baking soda]] (sodium bicarbonate) is a chemical leavening agent that produces carbon dioxide gas when heated or activated by acidic ingredients, causing batters and doughs to rise. Beyond its primary role in baking, baking soda has [[concepts/software|applications]] across cooking that exploit its chemical properties to modify [[concepts/texture|texture]], browning, and moisture retention in savory dishes.
+[[concepts/baking-soda|Baking soda]] (sodium bicarbonate) is a chemical leavening [[entities/agent|agent]] that produces carbon dioxide gas when heated or activated by acidic ingredients, causing batters and doughs to rise. Beyond its primary role in baking, baking soda has [[concepts/software|applications]] across cooking that exploit its chemical properties to modify [[concepts/texture|texture]], browning, and moisture retention in savory dishes.
 
 ## Meat Preparation
 
@@ -29,8 +29,7 @@ When applied to [[concepts/ground-meat|ground meat]] before cooking, baking soda
 
 Baking soda can be used in small quantities when cooking vegetables to accelerate softening by breaking down cell wall components. In potato [[concepts/preparation|preparation]], coating cut potatoes with a small amount of baking soda before cooking increases surface alkalinity, promoting moisture evaporation and [[concepts/crust-formation|crust formation]] that produces crispier results without deep-frying.
 
-The effectiveness of baking soda in cooking depends on precise dosing; excessive amounts can impart a soapy taste and cause undesirable textural changes. Its use in savory cooking represents an intersection of [[concepts/chemical-reactions-in-culinary-science|food chemistry]] and technique, where understanding the science enables cooks to manipulate fundamental food properties.
-
+The effectiveness of baking soda in cooking depends on precise dosing; excessive amounts can impart a soapy taste and cause undesirable textural changes. Its use in savory cooking represents an intersection of [[concepts/chemical-reactions-in-culinary-science|food chemistry]] and technique, where understanding the [[concepts/science|science]] enables cooks to manipulate fundamental food properties.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro|Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro]] · [▶ source](https://www.youtube.com/watch?v=b4QqU-RQZ4w)
 - 2026-04-19: [[lab-notes/2026-04-19-Crispy-Potatoes-Without-Deep-Frying-Science-and-Techniques-Summary|Crispy Potatoes Without Deep Frying Science and Techniques Summary]] · [▶ source](https://www.youtube.com/watch?v=FykplzYrHvM)

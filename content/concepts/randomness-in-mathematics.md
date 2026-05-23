@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "probability-theory"
   - "mathematical-randomness"
@@ -12,7 +11,8 @@ tags:
 aliases:
   - "mathematical randomness"
 summary: A concept exploring the nature of randomness within the field of mathematics.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 title: Randomness in Mathematics
 ---
 # Randomness In Mathematics
@@ -29,8 +29,7 @@ The [[concepts/distribution|distribution]] of [[concepts/prime-numbers|prime num
 
 ## Applications in Cryptography
 
-Randomness is foundational to cryptographic systems, which rely on the computational difficulty of distinguishing pseudo-random sequences from truly random ones. [[concepts/secure|Secure]] encryption depends on generating sequences that are unpredictable and non-repetitive, even when produced by deterministic algorithms. The quality of randomness in cryptographic applications directly affects the security of protected information.
-
+Randomness is foundational to cryptographic systems, which rely on the computational difficulty of distinguishing pseudo-random sequences from truly random ones. [[concepts/secure|Secure]] encryption depends on generating sequences that are unpredictable and non-repetitive, even when produced by deterministic algorithms. The quality of randomness in cryptographic applications directly affects the [[concepts/security|security]] of protected information.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Riemann-Hypothesis-Hidden-Order-in-Prime-Number-Distribution|Riemann Hypothesis Hidden Order in Prime Number Distribution]] · [▶ source](https://www.youtube.com/watch?v=59I84mWLK_c)
 - 2026-04-13: [[lab-notes/2026-04-13-Sagans-Contact-Gods-Signature-in-Pi-and-Dawkins-Scientific-View|Sagans Contact Gods Signature in Pi and Dawkins Scientific View]] · [▶ source](https://youtube.com/shorts/1UFdE-CCoUk?si=WeLQ4MM1fUZCIViH)

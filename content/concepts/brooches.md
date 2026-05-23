@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: design-systems-ui-infographics
+domain: history-anthropology
 tags:
   - "concept"
   - "fasteners"
@@ -11,8 +10,9 @@ tags:
 aliases:
   - "clasps"
   - "brooch pins"
-summary: "Decorative or functional fastening devices for clothing and accessories."
-updated: 2026-05-01
+summary: Decorative or functional fastening devices for clothing and accessories.
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Brooches
 
@@ -24,7 +24,6 @@ Brooches date back to ancient civilizations, where they were essential for secur
 
 ## Materials and Design
 
-Brooches have been crafted from virtually every available material, including precious metals, gemstones, enamel, wood, and base metals. The design possibilities are extensive, ranging from geometric and abstract forms to representational shapes of animals, plants, and figures. The diversity of brooch design reflects both the craftsmanship traditions of their periods and the cultural contexts in which they were produced.
-
+Brooches have been crafted from virtually every available material, including precious metals, gemstones, enamel, wood, and base metals. The [[concepts/design|design]] possibilities are extensive, ranging from geometric and abstract forms to representational shapes of animals, plants, and figures. The diversity of brooch design reflects both the craftsmanship traditions of their periods and the cultural contexts in which they were produced.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-From-Clasp-Locker-to-YKK-The-History-and-Engineering-of-Zippers|From Clasp Locker to YKK The History and Engineering of Zippers]] · [▶ source](https://www.youtube.com/watch?v=9szhjhO9epA)

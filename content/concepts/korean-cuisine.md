@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "korean-food"
   - "cuisine"
@@ -12,7 +11,8 @@ aliases:
   - "Korean Food"
   - "Korean Cooking"
 summary: Korean cuisine encompasses traditional cooking practices and dishes from Korea, including marinated grilled meats like dak bulgogi.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Korean Cuisine
 
@@ -20,12 +20,11 @@ Korean cuisine represents the traditional cooking practices and food culture of 
 
 ## Key Ingredients and Flavors
 
-Fermentation plays a central role in Korean cooking, with kimchi and doenjang (soybean paste) serving as foundational ingredients in many dishes. Gochugaru (red chili pepper flakes) and gochujang (red chili paste) provide the characteristic spice and depth that define much of Korean flavor profiles. Sesame, garlic, and soy sauce round out the core seasoning palette, appearing across both traditional and contemporary Korean dishes.
+Fermentation plays a central role in Korean cooking, with kimchi and doenjang (soybean paste) serving as foundational ingredients in many dishes. Gochugaru (red chili pepper flakes) and gochujang (red chili paste) provide the characteristic spice and depth that define much of Korean flavor profiles. Sesame, garlic, and soy sauce [[concepts/rounding|round]] out the core seasoning palette, appearing across both traditional and contemporary Korean dishes.
 
 ## Notable Dishes
 
 Korean cuisine includes marinated and grilled meat preparations such as [[concepts/dak-bulgogi|dak bulgogi]], a sweet and savory chicken dish, as well as beef bulgogi and galbi. Beyond grilled meats, the cuisine encompasses soups, stews, rice dishes, and vegetable preparations. Bibimbap, a mixed rice bowl with vegetables and protein, and various noodle dishes represent other significant categories within the broader culinary tradition.
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Eric-Kims-Perfect-Dak-Bulgogi-Quick-Korean-BBQ-Chicken-Recipe|Eric Kims Perfect Dak Bulgogi Quick Korean BBQ Chicken Recipe]] · [▶ source](https://www.youtube.com/watch?v=7k8Yf1UEJOs)
 - 2026-04-20: [[lab-notes/2026-04-20-Fried-Rice-Formula-Essential-Techniques-for-Rice-Treatment-and-Mix-ins|Fried Rice Formula Essential Techniques for Rice Treatment and Mix ins]] · [▶ source](https://www.youtube.com/watch?v=_ODdLLEKo24)

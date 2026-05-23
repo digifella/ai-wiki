@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "cooking"
-  - "ingredients"
-  - "meat-preparation"
-  - "baking-soda-in-meat"
-  - "meat-texture-improvement"
-  - "moisture-retention-methods"
-  - "ground-meat-enhancement"
-  - "cooking-techniques"
-aliases:
-  - "bicarbonate-of-soda-in-meats"
-  - "meat-tenderizer-baking-soda"
-  - "juicy-ground-meat-trick"
-  - "browning-enhancer"
-summary: "Baking soda can improve the texture and juiciness of ground meat, enhancing its moisture retention and browning properties."
-updated: 2026-04-13
+summary: Baking soda can improve the texture and juiciness of ground meat, enhancing its moisture retention and browning properties.
+updated: 2026-05-23
 group: food-science-nutrition-ingredients
 ---
 # Baking Soda
@@ -28,7 +14,7 @@ This page covers how baking soda interacts with meat, enhancing its flavor profi
 
 ### Enhancing Ground Meat: Baking Soda's Effect on Texture, Juiciness, and Browning
 
-- **Clip title:** The Simple Ingredient that Will Improve Any [[concepts/ground-meat|Ground Meat]] | Techniquely with [[entities/lan-lam|Lan Lam]]
+- **[[concepts/clip-title|Clip title]]:** The Simple Ingredient that [[entities/will|Will]] Improve Any [[concepts/ground-meat|Ground Meat]] | Techniquely with [[entities/lan-lam|Lan Lam]]
 - **Author / channel:** [[entities/americas-test-kitchen|America's Test Kitchen]]
 - **URL:** https://www.youtube.com/watch?v=b4QqU-RQZ4w
 
@@ -37,11 +23,10 @@ This page covers how baking soda interacts with meat, enhancing its flavor profi
 - It helps in retaining moisture, resulting in juicier final products like burgers or meatballs.
 - The video explains how baking soda affects browning, enhancing color and flavor.
 
-summary
+[[concepts/summary|summary]]
 
 Backlinks:
 - 2026 04 12 Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro
-
 ## Source Notes
-- 2026-04-12: The Simple Ingredient that [[entities/will|Will Improve Any Ground Meat | Techniquely with Lan Lam]]
+- 2026-04-12: The Simple Ingredient that [[entities/will| Techniquely with Lan Lam]]
 - 2026-04-19: [[lab-notes/2026-04-19-Crispy-Potatoes-Without-Deep-Frying-Science-and-Techniques-Summary|Crispy Potatoes Without Deep Frying Science and Techniques Summary]] · [▶ source](https://www.youtube.com/watch?v=FykplzYrHvM)

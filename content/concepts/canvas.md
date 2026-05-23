@@ -15,9 +15,10 @@ tags:
 aliases:
   - "structured framework"
   - "business model canvas"
-summary: "A structured framework or template used for organizing ideas, projects, or processes through visual layouts and modular components."
-updated: 2026-04-28
-group: ai-image-generation-editing
+summary: A structured framework or template used for organizing ideas, projects, or processes through visual layouts and modular components.
+updated: 2026-05-23
+group: design-systems-ui-infographics
+stub: true
 ---
 # Canvas
 
@@ -30,7 +31,7 @@ A concept representing a structured framework or template for organizing [[conce
 
 ## Related Concepts
 - business model [[entities/canvas|canvas]]
-- [[concepts/lean|lean]] canvas
+- [[concepts/lean|lean]] [[entities/canvas|canvas]]
 - value proposition canvas
 
 ## Applications
@@ -42,12 +43,11 @@ A concept representing a structured framework or template for organizing [[conce
 - **Building a video from [[concepts/notebooklm|NotebookLM]] and [[entities/google-veo|Google Veo]] - Charles Terence [[entities/harper|Harper]] channel**
   - [Video Guide](https://www.youtube.com/watch?v=g6w4Pz_urDg)
   - **Goal:** Create a cinematic [[concepts/30-second-ad|30-second ad]] based on [[concepts/business-philosophy|business philosophy]] stored in [[concepts/ai-integrated-notebooks|NotebookLM]].
-  - **Tools Used:** NotebookLM, [[concepts/gemini|Gemini]] (Advanced), [[concepts/google-vids|Google Vids]].
+  - **Tools Used:** [[entities/notebook-lm|NotebookLM]], [[concepts/gemini|Gemini]] (Advanced), [[concepts/google-vids|Google Vids]].
   - **Process:** Step-by-step guide on turning a [[concepts/notebooklm-notebook|NotebookLM notebook]] into a 30-second [[concepts/video-commercial|video commercial]].
 
 ## Backlinks
 - 2026 04 14 Building a video from [[concepts/notebooklm|NotebookLM]] and [[entities/google-veo|Google Veo]] Charles Terence [[entities/harper|Harper]] channel
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

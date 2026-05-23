@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "ai-adoption"
@@ -13,23 +12,23 @@ aliases:
   - "AI tool adoption"
   - "developer AI trends"
 summary: This page discusses trends in AI tool and tech stack adoption among developers based on recent surveys.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # AI Adoption Trends
 
-Recent [[concepts/developer|developer]] surveys have begun tracking which [[entities/ai-tools|AI tools]] and technologies are gaining traction within [[concepts/coding|software development]] workflows. These surveys provide insight into how practitioners are integrating AI into their daily work, from code generation to [[concepts/debugging|debugging]] and documentation. Understanding [[concepts/adoption|adoption]] patterns helps identify which tools are becoming industry [[concepts/open-standards|standards]] versus niche solutions.
+Recent [[concepts/developer|developer]] surveys have begun tracking which [[entities/ai-tools|AI tools]] and technologies are gaining traction within [[concepts/coding|software development]] workflows. These surveys provide insight into how practitioners are integrating AI into their daily work, from [[concepts/code-generation|code generation]] to [[concepts/debugging|debugging]] and documentation. Understanding [[concepts/adoption|adoption]] patterns helps identify which tools are becoming industry [[concepts/open-standards|standards]] versus niche solutions.
 
 ## Survey Methodology
 
-Developer surveys examining AI adoption typically gather data from working engineers across different experience levels and specializations. Most major surveys are conducted by established developer platforms and research organizations, with sample sizes ranging from hundreds to thousands of respondents. Data collection methods include online questionnaires, interviews, and usage analytics from development platforms. Surveys generally ask about tools currently in use, frequency of adoption, perceived effectiveness, and barriers to implementation.
+[[entities/developer|Developer]] surveys examining AI adoption typically gather data from working engineers across different experience levels and specializations. Most major surveys are conducted by established developer platforms and research organizations, with sample sizes ranging from hundreds to thousands of respondents. Data collection methods include online questionnaires, interviews, and usage analytics from development platforms. Surveys generally ask about tools currently in use, frequency of adoption, perceived effectiveness, and barriers to implementation.
 
 ## Key Adoption Patterns
 
-Early adoption data shows variation in AI tool usage based on developer roles and project types. Code generation tools have achieved relatively high awareness among surveyed developers, though regular usage varies. Adoption patterns are influenced by factors including organizational [[concepts/policies|policies]], project requirements, familiarity with specific tools, and perceived [[concepts/software-reliability|reliability]]. Developers working in certain domains, such as [[concepts/website-building|web development]] and data science, report higher integration of AI tools into their workflows compared to other specializations.
+Early adoption data shows variation in AI tool usage based on developer roles and project types. Code generation tools have achieved relatively high awareness among surveyed developers, though regular usage varies. Adoption patterns are influenced by factors including organizational [[concepts/policies|policies]], project requirements, familiarity with specific tools, and perceived [[concepts/software-reliability|reliability]]. Developers working in certain domains, such as [[concepts/website-building|web development]] and data [[concepts/science|science]], report higher [[concepts/integration|integration]] of [[concepts/ai-tools|AI tools]] into their workflows compared to other specializations.
 
 ## Industry Implications
 
 Tracking adoption trends provides context for tool development priorities and industry standardization efforts. As AI tools mature and integrate with existing [[concepts/developer-platforms|development environments]], adoption rates continue to shift. Data on adoption patterns informs decisions by platform providers about [[concepts/feature-development|feature development]] and by organizations about technology strategy.
-
 ## Source Notes
 - 2026-04-21: Claude Mythos · [▶ source](https://www.youtube.com/watch?v=x_fBn7lto4Q)

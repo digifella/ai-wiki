@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "statistics"
-  - "ranking"
-  - "machine-learning"
-  - "benchmarking"
-  - "rating-system"
-  - "skill-assessment"
-  - "llm-benchmarking"
-  - "pairwise-comparison"
-  - "zero-sum-games"
-aliases:
-  - "Elo rating"
-  - "Elo rating system"
-summary: "A rating system used to calculate relative skill levels in zero-sum games and competitive environments by adjusting ratings based on the discrepancy between predicted and actual outcomes."
-updated: 2026-04-26
+summary: A rating system used to calculate relative skill levels in zero-sum games and competitive environments by adjusting ratings based on the discrepancy between predicted and actual outcomes.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Elo score
@@ -28,10 +15,9 @@ A [[concepts/star-ratings|rating system]] used to calculate the relative [[conce
 - **[[concepts/software|Applications]]:** Extensively used in Chess, eSports, and [[concepts/machine-learning]] leaderboards.
 
 ## Applications in AI Evaluation
-- Utilized in LLM [[concepts/benchmark-testing|Benchmarking]] (e.g., [[entities/lm-arena|LMSYS Chatbot Arena]]) to rank models via pairwise human preference comparisons.
+- Utilized in LLM [[concepts/benchmark-testing|Benchmarking]] (e.g., [[entities/lm-arena|LMSYS Chatbot Arena]]) to rank [[concepts/models|models]] via pairwise human preference comparisons.
 - **Recent Developments:**
-    - Evaluation of [[entities/openai|OpenAI]] [[entities/gpt-image-20|GPT Image 2.0]] serves as a benchmark for assessing next-gen [[concepts/generative-ai]] and [[concepts/ai-image-generation]] capabilities (Ref: 2026 04 22 OpenAI GPT Image 2.0 Evaluating Next Gen AI Image Generation Capabilities).
-
+    - Evaluation of [[entities/openai|OpenAI]] [[entities/gpt-image-20|GPT Image 2.0]] serves as a benchmark for assessing next-gen [[concepts/generative-ai]] and [[concepts/ai-image-generation]] [[concepts/capabilities|capabilities]] (Ref: 2026 04 22 OpenAI [[entities/gpt-image-2|GPT Image 2]].0 Evaluating Next Gen [[concepts/image-translation|AI Image Generation]] Capabilities).
 ## Source Notes
 - 2026-04-22: OpenAI GPT Image 2 · [▶ source](https://www.youtube.com/watch?v=uvdRGC4cFhY)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

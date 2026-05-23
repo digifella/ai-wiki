@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
+domain: food-nutrition
 tags:
   - "mixology"
   - "technique"
@@ -14,9 +14,9 @@ tags:
 aliases:
   - "cocktail shaking"
   - "shaking method"
-summary: "A cocktail preparation method involving rapid agitation with ice to achieve aeration, dilution, and temperature reduction."
-updated: 2026-04-27
-group: ai-image-generation-editing
+summary: A cocktail preparation method involving rapid agitation with ice to achieve aeration, dilution, and temperature reduction.
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Shaking Technique
 
@@ -29,7 +29,7 @@ A method of cocktail [[concepts/preparation|preparation]] involving rapid agitat
 - **Comparison**: Unlike the [[concepts/stirring-technique]], which prioritizes clarity and minimal dilution, shaking focuses on [[concepts/texture|texture]] and vigorous [[concepts/integration|integration]].
 
 ## Application: The Martini
-- Investigates the science and theoretical implications of the "shaken, not stirred" preference associated with [[entities/james-bond|James Bond]].
+- Investigates the [[concepts/science|science]] and theoretical implications of the "shaken, not stirred" preference associated with [[entities/james-bond|James Bond]].
 - Explores how agitation alters the standard [[concepts/preparation|preparation]] of a Martini compared to traditional [[concepts/stirring-technique|stirring]] methods.
 
 ## Related Links
@@ -37,6 +37,5 @@ A method of cocktail [[concepts/preparation|preparation]] involving rapid agitat
 - [[concepts/stirring-technique]]
 - Dilution
 - Aeration
-
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Martini-Shaken-Not-Stirred-Bonds-Preference-and-Preparat|Martini Shaken Not Stirred: Bond's Preference and Preparation Science]] · [▶ source](https://www.youtube.com/watch?v=vRX7MiHXG2g)

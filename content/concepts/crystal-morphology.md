@@ -11,8 +11,8 @@ tags:
 aliases:
   - "crystal-shape"
   - "crystal-habit"
-summary: "Crystal morphology is the external shape of a crystal determined by the relative growth rates of its crystallographic faces and its underlying structure."
-updated: 2026-04-30
+summary: Crystal morphology is the external shape of a crystal determined by the relative growth rates of its crystallographic faces and its underlying structure.
+updated: 2026-05-23
 group: materials-chemistry-mechanisms
 ---
 # Crystal morphology
@@ -31,6 +31,5 @@ Changes in morphology and polymorphic stability can lead to significant challeng
 - **Case Study**: Ritonavir [[concepts/crystalline-structure|Polymorph Crisis]]: Unraveling the Mystery of a Failing HIV Drug
     - Illustrates the catastrophic impact of unexpected polymorphism in the production of life-saving medication.
     - Demonstrates how a sudden transition to a different crystalline form can cause a drug to fail [[concepts/quality-control|quality control]] tests due to changes in stability and solubility.
-
 ## Source Notes
 - 2026-04-30: [[lab-notes/2026-04-30-Ritonavir-Polymorph-Crisis-Unraveling-the-Mystery-of-a-F|Ritonavir Polymorph Crisis: Unraveling the Mystery of a Failing HIV Drug]] · [▶ source](https://www.youtube.com/watch?v=ksn5yrsC3Wg)

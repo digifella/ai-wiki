@@ -15,13 +15,13 @@ tags:
 aliases:
   - "command-line-integration"
   - "terminal-browser-bridge"
-summary: "CLI terminal integration refers to the architecture and practices enabling command-line interfaces to orchestrate workflows and bridge terminal sessions with external services."
-updated: 2026-04-28
+summary: CLI terminal integration refers to the architecture and practices enabling command-line interfaces to orchestrate workflows and bridge terminal sessions with external services.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # CLI terminal integration
 
-CLI terminal integration refers to the [[concepts/architecture|architecture]] and practices enabling [[concepts/command-line-interface|command-line]] interfaces to orchestrate workflows, control [[concepts/software|applications]], and bridge gaps between [[concepts/terminal-multiplexing|terminal sessions]] and external services.
+CLI terminal [[concepts/integration|integration]] refers to the [[concepts/architecture|architecture]] and practices enabling [[concepts/command-line-interface|command-line]] interfaces to orchestrate workflows, [[concepts/power|control]] [[concepts/software|applications]], and bridge gaps between [[concepts/terminal-multiplexing|terminal sessions]] and external services.
 
 ## Active Integrations
 
@@ -34,9 +34,8 @@ Recent [[concepts/version-updates|version updates]] (2.0.70–2.0.72) have expan
 
 #### Resources
 
-*   Detailed [[concepts/workflow|workflow]] notes: 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome
+*   Detailed [[concepts/workflow|workflow]] [[concepts/notes|notes]]: 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome
 *   Presentation: [[entities/ray-amjad|Ray Amjad]] channel <https://www.youtube.com/watch?v=rXTvax9pyhs>
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

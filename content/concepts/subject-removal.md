@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photoshop-layer-workflows
 tags:
   - "photoshop"
   - "subject-removal"
@@ -13,7 +12,8 @@ aliases:
   - "Harmonize feature"
   - "Photoshop subject removal"
 summary: This page provides an overview of the Harmonize feature in Photoshop Beta, including its functionality, limitations, and potential workarounds.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Subject Removal
 
@@ -26,6 +26,5 @@ The feature integrates into [[concepts/photoshop|Photoshop]]'s standard editing 
 ## Limitations and Considerations
 
 Like many generative tools, Subject Removal has limitations depending on image complexity, background detail, and subject size. Results vary based on the surrounding context—simpler backgrounds with uniform colors typically yield better results than complex scenes. Users may need to apply additional retouching or use workarounds for more challenging removals, such as adjusting selection boundaries or working in stages on particularly intricate areas.
-
 ## Source Notes
 - 2026-04-22: Photoshop · [▶ source](https://youtu.be/SYUfAfvsQzI)

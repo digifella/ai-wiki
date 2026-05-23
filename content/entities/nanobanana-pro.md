@@ -9,7 +9,7 @@ aliases:
   - "Nanobanana Pro API"
   - "Nanobanana Pro"
 summary: An AI tool with an API interface used in workflows to reduce expenses by replacing specialized tools.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Nanobanana Pro
 
@@ -17,13 +17,13 @@ Nanobanana Pro is an AI tool designed to streamline workflows through an API int
 
 ## Usage and Integration
 
-The tool is integrated into workflows via API, allowing users to incorporate [[concepts/capabilities|AI capabilities]] directly into their existing processes. A documented workflow tip suggests using [[entities/gemini-pro|Gemini Pro]] to generate prompts optimized for Nanobanana Pro's API, which can improve both the quality of outputs and the efficiency of implementation.
+The tool is integrated into workflows via API, allowing users to incorporate [[concepts/capabilities|AI capabilities]] directly into their existing processes. A documented [[concepts/workflow|workflow]] tip suggests using [[entities/gemini-pro|Gemini Pro]] to generate prompts optimized for Nanobanana Pro's API, which can improve both the quality of outputs and the efficiency of [[concepts/adoption|implementation]].
 
 ## Cost Optimization
 
 The primary value proposition of Nanobanana Pro centers on expense reduction. By replacing several specialized tools with a unified AI solution, users can lower their overall [[concepts/software|software]] and subscription costs while maintaining comparable functionality across different [[concepts/scenarios|use cases]].
 
-- 2026-04-30 [2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme](2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme.md) ← Aionui Free Desktop Platform For Multi Agent Ai Manageme
-- 2026-04-07 [2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration](2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration.md) ← Google Gemini And Notebooklm Key Updates And Enhanced Ai Integration
+- 2026-04-30 [2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme](2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme.md) ← [[entities/aionui|Aionui]] Free Desktop Platform For Multi [[entities/agent|Agent]] Ai Manageme
+- 2026-04-07 [2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration](2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration.md) ← [[entities/gemini-models|Google Gemini]] And [[concepts/ai-integrated-notebooks|Notebooklm]] Key Updates And Enhanced [[concepts/ai-integration|Ai Integration]]
 - 2026-04-10 [2026-04-10-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration](2026-04-10-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration.md) ← Google Gemini And Notebooklm Key Updates And Enhanced Ai Integration
 ## Source Notes

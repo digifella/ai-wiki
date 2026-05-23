@@ -1,27 +1,15 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "parallel-processing"
-  - "distributed-computing"
-  - "multi-threading"
-  - "ai-workflows"
-  - "machine-learning"
-  - "data-analysis"
-aliases:
-  - "concurrent processing"
-  - "simultaneous computation"
-  - "multi-core computing"
-  - "parallel algorithms"
-summary: "Parallel processing is a computational technique that divides tasks among multiple processors or threads to execute concurrently, enhancing performance in data analysis and machine learning applications."
-updated: 2026-04-11
+summary: Parallel processing is a computational technique that divides tasks among multiple processors or threads to execute concurrently, enhancing performance in data analysis and machine learning applications.
+updated: 2026-05-23
 backlinks:
   - "2026 04 10 Claude Code Agentic Workflows for Parallel Processing and Multi Agent"
 group: data-pipelines-sync-storage
 ---
 # Parallel Processing
 
-*This page outlines the principles and [[concepts/software|applications]] of parallel processing, focusing on its implementation in advanced [[concepts/ai-workflow|AI workflows]].*
+*This page outlines the principles and [[concepts/software|applications]] of parallel processing, focusing on its [[concepts/adoption|implementation]] in advanced [[concepts/ai-workflow|AI workflows]].*
 
 ### Overview
 Parallel processing is a form of computation where tasks are divided among multiple [[concepts/central-processing-units|processors]] or threads to execute concurrently. This technique significantly enhances performance by reducing the time required for complex computations.
@@ -43,12 +31,12 @@ Parallel processing is a form of computation where tasks are divided among multi
 ## Recent Developments
 
 ### Claude Code Agentic Workflows for Parallel Processing and Multi-Agent Efficiency (2026-04-10)
-- **Clip title:** Every [[entities/claude|Claude]] Code [[concepts/workflow|Workflow]] Explained (& When to Use Each)
+- **[[concepts/clip-title|Clip title]]:** Every [[entities/claude|Claude]] [[concepts/code|Code]] [[concepts/workflow|Workflow]] Explained (& When to Use Each)
 - **Author / channel:** [[entities/simon-scrapes|Simon Scrapes]]
 - **URL:** https://www.youtube.com/watch?v=38t5UBCa4OI
 
 ### Summary
-This video explores five distinct "[[concepts/agentic-patterns|agentic patterns]]" for effectively utilizing [[concepts/claude-code|Claude Code]], moving beyond the common practice of single, sequential conversations to leverage its powerful parallel processing capabilities. The core premise is that [[entities/claude-code|Claude Code]] is designed to work like a team, bringing in specialized "[[concepts/agentic-ai|sub-agents]]" when required.
+This video explores five distinct "[[concepts/agentic-patterns|agentic patterns]]" for effectively utilizing [[concepts/claude-code|Claude Code]], moving beyond the common practice of single, sequential conversations to leverage its powerful parallel processing [[concepts/capabilities|capabilities]]. The core premise is that [[entities/claude-code|Claude Code]] is designed to work like a team, bringing in specialized "[[concepts/agentic-ai|sub-agents]]" when required.
 
 ### Key Points
 - **Pattern 1:** Direct Sequential Communication
@@ -58,8 +46,7 @@ This video explores five distinct "[[concepts/agentic-patterns|agentic patterns]
 - **Pattern 5:** Collaborative Learning Across Agents
 
 ### Related Concepts
-[[entities/claude-code]], multi-agent-systems
-
+[[entities/claude-code]], [[concepts/expertise-based-ai-assistants|multi-agent-systems]]
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Nvidia-CUDA-GPU-Parallel-Computing-for-AI-Advancement|Nvidia CUDA GPU Parallel Computing for AI Advancement]] · [▶ source](https://www.youtube.com/watch?v=pPStdjuYzSI)
 - 2026-05-01: [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]] · [▶ source](https://www.youtube.com/watch?v=nWzXyjXCoCE)

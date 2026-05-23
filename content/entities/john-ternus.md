@@ -5,8 +5,9 @@ tags:
   - "leadership"
   - "on-device-ai"
   - "strategic-shift"
-summary: "John Ternus is the CEO of Apple, leading a strategic shift toward on-device AI."
-updated: 2026-04-27
+summary: John Ternus is the CEO of Apple, leading a strategic shift toward on-device AI.
+updated: 2026-05-23
+stub: true
 ---
 # John Ternus
 
@@ -19,8 +20,7 @@ updated: 2026-04-27
 - Transition includes the appointment of [[entities/johny-srouji|Johny Srouji]] as Chief [[concepts/hardware|Hardware]] Officer.
 
 ## References
-- 2026 04 27 Apples [[concepts/hardware|Hardware]] CEO [[concepts/strategic-pivot|Strategic Shift]] to On Device AI Amid
-
+- 2026 04 27 Apples [[concepts/hardware|Hardware]] CEO [[concepts/strategic-pivot|Strategic Shift]] to [[concepts/on-device-ai|On Device AI]] Amid
 ## Source Notes
 
 - 2026-04-27: [[lab-notes/2026-04-27-Apples-Hardware-CEO-Strategic-Shift-to-On-Device-AI-Amid|Apple's Hardware CEO: Strategic Shift to On-Device AI Amid Cloud Economics]]
