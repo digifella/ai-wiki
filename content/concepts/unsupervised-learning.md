@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "personal-ai"
   - "infrastructure"
@@ -14,11 +13,12 @@ aliases:
   - "Kai"
   - "AI Infrastructure Strategy"
 summary: Aggregated insights on AI infrastructure, covering Personal AI (Kai) and enterprise cloud strategies (TPUs, Google Cloud).
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # Unsupervised Learning
 
-Unsupervised learning is a machine [[concepts/learning|learning]] approach in which algorithms identify patterns, structures, and [[concepts/relationships|relationships]] within data without requiring labeled [[concepts/training|training]] examples. Unlike supervised learning, where models learn from input-output pairs, unsupervised learning operates on raw, unlabeled datasets to discover inherent [[concepts/organization|organization]]. Common [[concepts/software|applications]] include clustering (grouping similar data points), dimensionality reduction (simplifying high-dimensional data), and anomaly detection (identifying outliers).
+Unsupervised learning is a machine [[concepts/learning|learning]] approach in which algorithms identify patterns, structures, and [[concepts/relationships|relationships]] within data without requiring labeled [[concepts/training|training]] examples. Unlike supervised learning, where [[concepts/models|models]] learn from input-[[concepts/output|output]] pairs, unsupervised learning operates on raw, unlabeled datasets to discover inherent [[concepts/organization|organization]]. Common [[concepts/software|applications]] include clustering (grouping similar data points), dimensionality reduction (simplifying high-dimensional data), and [[concepts/anomaly|anomaly]] detection (identifying outliers).
 
 ## Key Techniques
 
@@ -26,4 +26,4 @@ Primary unsupervised learning methods include k-means clustering, hierarchical c
 
 ## Practical Applications in AI Infrastructure
 
-Unsupervised learning plays a critical role in modern AI infrastructure, from personal AI systems to enterprise cloud deployments. In personal AI contexts, unsupervised techniques help organize user data and identify patterns without explicit training labels. At scale, unsupervised methods on platforms like [[entities/google-cloud|Google Cloud]] with TPU acceleration enable efficient processing of vast, unlabeled datasets for feature extraction and [[concepts/data-cleaning|data preparation]], reducing the computational cost of subsequent supervised training phases.
+Unsupervised learning plays a critical role in modern [[concepts/computing-architecture|AI infrastructure]], from personal AI systems to enterprise cloud deployments. In personal AI contexts, unsupervised techniques help organize user data and identify patterns without explicit training labels. [[concepts/assistive-technology|At]] scale, unsupervised methods on platforms like [[entities/google-cloud|Google Cloud]] with TPU acceleration enable efficient processing of vast, unlabeled datasets for feature extraction and [[concepts/data-cleaning|data preparation]], reducing the computational [[concepts/cost|cost]] of subsequent supervised training phases.

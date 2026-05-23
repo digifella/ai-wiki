@@ -1,19 +1,7 @@
 ---
 type: entity
-tags:
-  - "deity"
-  - "hinduism"
-  - "surya"
-  - "ai"
-  - "hindu-deity"
-  - "sun-god"
-  - "vedic-tradition"
-  - "solar-worship"
-  - "hindu-mythology"
-aliases:
-  - "Sūrya"
-summary: "Surya is the Hindu god of the sun, depicted as a charioteer driving a seven-horse chariot across the sky."
-updated: 2026-04-14
+summary: Surya is the Hindu god of the sun, depicted as a charioteer driving a seven-horse chariot across the sky.
+updated: 2026-05-23
 ---
 # Surya
 
@@ -26,7 +14,7 @@ Modern research on Surya leverages [[entities/notebooklm]] for data-driven analy
 
 2026 04 14 [[entities/ai-with-surya|AI with Surya]] use of [[concepts/data-tables|Data Tables]] and Simulations with [[concepts/ai-integrated-notebooks|NotebookLM]]
 
-- 2026-04-10 [2026-04-10-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial](2026-04-10-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial.md) ← Gemma 4 E2B Llm Fine Tuning Custom Dataset Unsloth Local Tutorial
+- 2026-04-10 [2026-04-10-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial](2026-04-10-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial.md) ← [[concepts/gemma-4-e2b|Gemma 4 E2B]] Llm [[concepts/fine-tuning|Fine Tuning]] [[concepts/custom-dataset|Custom Dataset]] [[concepts/unsloth|Unsloth]] Local [[concepts/tutorial|Tutorial]]
 - 2026-04-08 [2026-04-08-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial](2026-04-08-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial.md) ← Gemma 4 E2B Llm Fine Tuning Custom Dataset Unsloth Local Tutorial
 - 2026-04-07 [2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial](2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial.md) ← Gemma 4 E2B Llm Fine Tuning Custom Dataset Unsloth Local Tutorial
 ## Source Notes

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "usage-limits"
   - "automated-information-pipelines"
@@ -17,21 +16,21 @@ aliases:
   - "access bans"
   - "service limitations"
 summary: Anthropic has implemented usage limits by banning OpenClaw from using automated information pipelines.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 title: usage limits
 ---
 # Usage Limits
 
-[[concepts/rate-limits|Usage limits]] refer to constraints or restrictions placed on how users or services can access and utilize platform resources or capabilities. In business strategy, usage limits serve as a tool for managing resource allocation, controlling costs, and enforcing [[concepts/compliance|compliance]] with terms of service.
+[[concepts/rate-limits|Usage limits]] refer to constraints or restrictions placed on how users or services can access and utilize platform resources or [[concepts/capabilities|capabilities]]. In business strategy, usage limits serve as a tool for managing resource allocation, controlling costs, and enforcing [[concepts/compliance|compliance]] with terms of service.
 
 ## Implementation and Enforcement
 
-Organizations implement usage limits through various mechanisms, including rate limiting, access restrictions, and feature availability controls. These limits can be applied at the user, account, or organizational level depending on business objectives. Enforcement may be technical, contractual, or both, with violations typically resulting in service suspension or account termination.
+Organizations implement usage limits through various mechanisms, including rate limiting, access restrictions, and feature availability controls. These limits can be applied [[concepts/assistive-technology|at]] the user, account, or organizational level depending on business objectives. Enforcement may be technical, contractual, or both, with violations typically resulting in service suspension or account termination.
 
 ## Strategic Applications
 
-Usage limits enable companies to protect system infrastructure from overload, prevent abuse of services, and create differentiated service tiers for [[concepts/pricing|pricing]] models. They also serve as a mechanism to enforce policy compliance, such as restricting access to certain tools or capabilities when they [[concepts/conflict|conflict]] with organizational guidelines or regulatory requirements.
-
+Usage limits enable companies to protect system infrastructure from overload, prevent abuse of services, and create differentiated service tiers for [[concepts/pricing|pricing]] [[concepts/models|models]]. They also serve as a mechanism to enforce policy compliance, such as restricting access to certain tools or capabilities when they [[concepts/conflict|conflict]] with organizational guidelines or regulatory requirements.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: Anthropic

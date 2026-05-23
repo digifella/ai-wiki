@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photoshop"
-  - "masking"
-  - "ai-selection"
-  - "image-editing"
-  - "adobe-photoshop"
-  - "subject-isolation"
-  - "hair-masking"
-aliases:
-  - "subject-selection"
-  - "automated-selection"
-summary: "An Adobe Photoshop feature that utilizes machine learning to automatically isolate subjects or people from backgrounds."
-updated: 2026-04-21
+summary: An Adobe Photoshop feature that utilizes machine learning to automatically isolate subjects or people from backgrounds.
+updated: 2026-05-23
 group: photoshop-layer-workflows
+stub: true
 ---
 # Select Subject
 
@@ -39,8 +29,7 @@ An [[entities/adobe-photoshop]] feature designed to automatically isolate subjec
 - [[entities/adobe-photoshop]]
 
 ## Backlinks
-- 2026 04 14 New technique for masking hair in [[concepts/photoshop|photoshop]]
-
+- 2026 04 14 New technique for [[concepts/layer-masks|masking]] hair in [[concepts/photoshop|photoshop]]
 ## Source Notes
 
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)

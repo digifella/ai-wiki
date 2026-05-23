@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "machine-learning"
-  - "llm"
-  - "fine-tuning"
-  - "deepseek"
-  - "supervised-fine-tuning"
-  - "peft"
-  - "rlhf"
-  - "instruction-tuning"
-aliases:
-  - "fine-tuning"
-  - "model adaptation"
-summary: "Model fine-tuning is the process of adapting pre-trained large language models to specific datasets or tasks to enhance performance, accuracy, and specialization."
-updated: 2026-04-26
+summary: Model fine-tuning is the process of adapting pre-trained large language models to specific datasets or tasks to enhance performance, accuracy, and specialization.
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Model fine-tuning
@@ -24,7 +12,7 @@ The process of adapting a pre-trained [[concepts/large-language-models]] to a sp
 ## Methodologies
 - [[concepts/supervised-fine-tuning|Supervised Fine-Tuning]] (SFT)
 - Parameter-Efficient [[concepts/fine-tuning|Fine-Tuning]] (PEFT)
-    - LoRA (Low-Rank Adaptation)
+    - LoRA ([[concepts/low-rank-adaptation|Low-Rank Adaptation]])
     - QLoRA
 - Reinforcement [[concepts/learning|Learning]] from Human [[concepts/feedback|Feedback]] (RLHF)
 - [[concepts/instruction-tuning]]
@@ -35,7 +23,6 @@ The process of adapting a pre-trained [[concepts/large-language-models]] to a sp
 
 ## Related Notes
 - 2026 04 24 [[entities/deepseek-v4|DeepSeek V4]] Next Gen Open Source LLM Performance and Efficiency Analysis
-
 ## Source Notes
 
 - 2026-04-21: [[lab-notes/2026-04-21-Hugging-Face-Open-Source-AI-Platform-Overview-and-Application-Customization|Hugging Face: Open-Source AI Platform Overview and Application Customization]] · [▶ source](https://www.youtube.com/watch?v=3kRB2TXewus)

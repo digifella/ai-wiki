@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "knowledge-graph"
-  - "llm"
-  - "rag"
-  - "neo4j"
-  - "real-time"
-  - "document-processing"
-aliases:
-  - "Real-time Knowledge Graph"
-summary: "A real-time knowledge graph dynamically structures entities and relationships from streaming data, enabling immediate query responses and adaptive AI reasoning without batch processing delays."
-updated: 2026-04-15
+summary: A real-time knowledge graph dynamically structures entities and relationships from streaming data, enabling immediate query responses and adaptive AI reasoning without batch processing delays.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # Real-time Knowledge Graph

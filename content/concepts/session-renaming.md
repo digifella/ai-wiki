@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "claude-code"
-  - "productivity"
-  - "workflow"
-  - "session-management"
-  - "interaction-history"
-  - "feature-organization"
-aliases:
-  - "Renaming Sessions"
-  - "Session Title Modification"
-summary: "A feature within Claude Code used to organize and identify interaction histories by modifying session titles."
-updated: 2026-04-18
+summary: A feature within Claude Code used to organize and identify interaction histories by modifying session titles.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Session renaming
@@ -26,7 +16,6 @@ A feature within [[entities/claude-code]] used to organize and identify specific
 
 ---
 **Backlink**: 2026 04 14 Major updates for [[concepts/ai-assisted-coding|Claude Code]] [[entities/alex-finn|Alex Finn]]
-
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

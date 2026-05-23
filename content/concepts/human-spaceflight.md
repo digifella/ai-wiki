@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: space-systems-exploration-infrastructure
 tags:
   - "human-spaceflight"
   - "space-exploration"
@@ -13,11 +12,12 @@ aliases:
   - "human space travel"
   - "manned spaceflight"
 summary: Human spaceflight encompasses the technologies, systems, and missions that enable people to travel and work in space.
-updated: 2026-05-01
+updated: 2026-05-23
+group: space-systems-exploration-infrastructure
 ---
 # Human Spaceflight
 
-Human spaceflight refers to the technologies, systems, and operational procedures that enable people to travel beyond Earth's atmosphere and work in the [[concepts/vacuum-of-space|space environment]]. This field encompasses spacecraft design, life support systems, launch vehicles, orbital mechanics, and the [[concepts/training|training]] and safety protocols necessary to protect astronauts during missions. Human spaceflight [[concepts/software|programs]] are conducted by government space agencies and, increasingly, by private commercial companies.
+Human spaceflight refers to the technologies, systems, and operational procedures that enable people to travel beyond Earth's atmosphere and work in the [[concepts/vacuum-of-space|space environment]]. This field encompasses spacecraft [[concepts/design|design]], life support systems, launch vehicles, orbital mechanics, and the [[concepts/training|training]] and safety protocols necessary to protect astronauts during missions. Human spaceflight [[concepts/software|programs]] are conducted by government space agencies and, increasingly, by private commercial companies.
 
 ## History and Development
 
@@ -25,8 +25,7 @@ The first human spaceflight occurred in 1961 with Yuri Gagarin's orbital mission
 
 ## Current Systems and Missions
 
-Contemporary human spaceflight relies on a range of spacecraft and launch systems. The [[entities/orion|Orion spacecraft]] represents current-generation technology designed for deep space missions, including lunar missions under programs such as Artemis. These systems incorporate advanced life support, propulsion, and guidance technologies to enable missions of extended duration beyond Earth orbit. Human spaceflight programs continue to address technical challenges including in-flight system performance, crew safety, and the effects of prolonged microgravity on human physiology.
-
+Contemporary human spaceflight relies on a [[concepts/range|range]] of spacecraft and launch systems. The [[entities/orion|Orion spacecraft]] represents current-generation technology designed for deep space missions, including lunar missions under programs such as Artemis. These systems incorporate advanced life support, propulsion, and guidance technologies to enable missions of extended duration beyond Earth orbit. Human spaceflight programs continue to address technical challenges including in-flight system performance, crew safety, and the effects of prolonged microgravity on human physiology.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Artemis-II-Human-Lunar-Flyby-Operations-Orion-Systems-and-In-flight-Ch|Artemis II Human Lunar Flyby Operations Orion Systems and In flight Ch]] · [▶ source](https://www.youtube.com/watch?v=CrzP6naZGKs)
 - 2026-04-14: [[lab-notes/2026-04-14-Deep-Space-Update-March-April-2024-Launch-Crewed-Mission-Summary|Deep Space Update March April 2024 Launch Crewed Mission Summary]] · [▶ source](https://www.youtube.com/watch?v=K0E8wyo3v-w)

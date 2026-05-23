@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # advanced_intelligence
@@ -11,15 +11,15 @@ Advanced intelligence refers to a level of cognitive capability that surpasses h
 
 ## Related Concepts
 - [[concepts/ai-technologies|Artificial Intelligence]]
-- Cognitive Science
+- Cognitive [[concepts/science|Science]]
 - [[concepts/philosophy-of-mind]]
 
 ## References in Literature and Media
-- In [[entities/carl-sagan|Carl Sagan]]'s novel *[[entities/contact|Contact]]*, the concept of advanced intelligence is explored through [[entities/ellie-arroway|Ellie Arroway]]'s discovery of patterns within the mathematical constant π. The alien suggests that certain structures in the universe were built by an unknown entity to communicate with intelligent beings, embedding messages within [[concepts/transcendental-numbers|transcendental numbers]] like π.
+- In [[entities/carl-sagan|Carl Sagan]]'s novel *[[entities/contact|Contact]]*, the concept of advanced intelligence is explored through [[entities/ellie-arroway|Ellie Arroway]]'s discovery of patterns within the mathematical constant π. The [[entities/alien|alien]] suggests that certain structures in the universe were built by an unknown entity to communicate with intelligent beings, embedding messages within [[concepts/transcendental-numbers|transcendental numbers]] like π.
 
 ### New Information
 - **[[concepts/messaging-in-numbers|Patterns in pi in "Contact"]]**: 2026 04 13 Patterns in pi in [[entities/contact|Contact]]
-  - Ellie Arroway writes a program that computes the digits of π in various bases.
+  - Ellie Arroway writes a program that computes the digits of π in various [[concepts/number-systems|bases]].
   - [[concepts/base-11-representation|Base 11 representation]] reveals a sequence of ones and zeros forming a [[concepts/circular-pattern|circular pattern]] when aligned properly on a page.
 
 ## Tags
@@ -27,7 +27,6 @@ advanced_intelligence, contact_carl_sagan, pi_patterns
 
 ## Updated
 [[concepts/date-2026-04-13|2026-04-13]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

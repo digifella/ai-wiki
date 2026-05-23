@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "concept"
   - "ai-agent-configuration"
@@ -12,11 +11,12 @@ aliases:
   - "OpenClaw Configuration"
   - "Agent Setup"
 summary: This concept covers the setup, configuration, and advanced integration of the OpenClaw autonomous AI agent.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Agent Configuration
 
-Agent configuration refers to the process of setting up and customizing an [[concepts/autonomous-ai-agent|autonomous AI agent]] to function within a specific environment or workflow. This includes defining the agent's capabilities, constraints, and operational [[concepts/parameters|parameters]] that determine how it will interact with systems and users. Proper configuration is essential for ensuring the agent operates reliably and achieves its intended objectives.
+[[concepts/interactive-agent-design|Agent configuration]] refers to the process of setting up and customizing an [[concepts/autonomous-ai-agent|autonomous AI agent]] to function within a specific environment or [[concepts/workflow|workflow]]. This includes defining the agent's [[concepts/capabilities|capabilities]], constraints, and operational [[concepts/parameters|parameters]] that determine how it [[entities/will|will]] interact with systems and users. Proper configuration is essential for ensuring the agent operates reliably and achieves its intended objectives.
 
 ## Core Setup Elements
 
@@ -24,12 +24,11 @@ Initial agent configuration involves establishing foundational settings such as 
 
 ## Advanced Integration
 
-Beyond basic setup, advanced configuration allows for sophisticated integration patterns where [[concepts/agents|agents]] can coordinate with multiple systems, handle [[concepts/complex-workflows|complex workflows]], and adapt to varying operational contexts. This may involve configuring fallback behaviors, error handling protocols, and performance monitoring. [[concepts/fine-tuning|Fine-tuning]] how an agent processes information—whether through code-based [[concepts/skills|skills]] or other mechanisms—affects its efficiency and ability to complete tasks effectively.
+Beyond basic [[concepts/setup|setup]], advanced configuration allows for sophisticated [[concepts/integration|integration]] patterns where [[concepts/agents|agents]] can coordinate with multiple systems, handle [[concepts/complex-workflows|complex workflows]], and adapt to varying operational contexts. This may involve configuring fallback behaviors, error handling protocols, and performance monitoring. [[concepts/fine-tuning|Fine-tuning]] how an agent processes information—whether through code-based [[concepts/skills|skills]] or other mechanisms—affects its efficiency and ability to complete tasks effectively.
 
 ## Maintenance and Iteration
 
 Agent configuration is not static. Regular review and adjustment of settings ensure the agent continues to perform optimally as requirements change or new capabilities are needed. Documentation of configuration choices helps teams understand agent behavior and troubleshoot issues when they arise.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)

@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "computing"
-  - "infrastructure"
-  - "AI-scaling"
-  - "compute-economics"
-  - "computing-infrastructure"
-  - "ai-compute"
-  - "cloud-computing"
-  - "capacity-planning"
-  - "distributed-training"
-aliases:
-  - "compute-infrastructure"
-  - "infrastructure-layer"
-summary: "The foundational layer of hardware, software, and networking resources required to support large-scale computational workloads for AI model training and inference."
-updated: 2026-04-26
+summary: The foundational layer of hardware, software, and networking resources required to support large-scale computational workloads for AI model training and inference.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Computing Infrastructure
@@ -23,9 +10,9 @@ group: platforms-runtimes-environments
 The foundational layer of [[concepts/hardware|hardware]], [[concepts/software|software]], and networking resources required to support large-scale computational workloads. In the context of modern [[entities/ai|Artificial Intelligence]], this encompasses the orchestration of massive [[concepts/compute|Compute]] Resources to facilitate [[concepts/training-process|Model Training]] and [[concepts/inference]].
 
 ## Core Components
-- [[concepts/compute|Compute]] Resources: Specialized [[concepts/hardware|hardware]], primarily GPUs (e.g., NVIDIA architectures) and [[entities/tpus|TPUs]], optimized for tensor operations.
-- [[concepts/cloud-computing]]: On-demand, scalable environments provided by Cloud Service Providers (e.g., AWS, [[entities/azure]], GCP).
-- Data Centers: Physical facilities providing the necessary Power Infrastructure, cooling, and high-density server housing.
+- [[concepts/compute|Compute]] Resources: Specialized [[concepts/hardware|hardware]], primarily GPUs (e.g., [[entities/nvidia|NVIDIA]] architectures) and [[entities/tpus|TPUs]], optimized for tensor operations.
+- [[concepts/cloud-computing]]: On-demand, scalable environments provided by Cloud Service Providers (e.g., [[entities/amazon-web-services|AWS]], [[entities/azure]], GCP).
+- Data Centers: Physical facilities providing the necessary [[concepts/power|Power]] Infrastructure, cooling, and high-density server housing.
 - Networking: High-bandwidth, low-latency interconnects (e.g., InfiniBand) essential for Distributed [[concepts/training|Training]].
 
 ## Strategic Dynamics
@@ -34,10 +21,9 @@ The foundational layer of [[concepts/hardware|hardware]], [[concepts/software|so
 - [[concepts/inference|Inference]] [[concepts/scaling|Scaling]]: The shifting demand from [[concepts/training|training]]-intensive workloads to high-throughput, low-latency inference environments.
 
 ## Case Studies & Observations
-- 2026 04 23 Anthropics Compute Miscalculation [[concepts/claude-ai|Claude]] Demand and Strategic Impact
+- 2026 04 23 Anthropics [[concepts/feynmans-three-step-scientific-method|Compute]] Miscalculation [[concepts/claude-ai|Claude]] Demand and Strategic Impact
     - **[[entities/anthropic-labs|Anthropic]] [[concepts/compute-crunch|Compute Crunch]]**: A significant instance of Capacity Planning failure where underestimating demand for [[entities/claude]] led to a critical shortage of available compute.
     - **Competitive Impact**: The resulting "compute crunch" created a public relations crisis and allowed [[entities/openai]] to leverage their infrastructure position to exploit the market gap.
-
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: OpenClaw: The Autonomous AI Agent

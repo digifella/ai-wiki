@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "mechanics"
-  - "automotive"
-  - "lubrication"
-  - "engineering"
-  - "internal-combustion-engine"
-aliases:
-  - "engine oil pressure"
-summary: "Oil pressure is the measurement of force exerted by engine oil within the lubrication system of an internal combustion engine to prevent mechanical failure from friction and heat."
-updated: 2026-04-26
+summary: Oil pressure is the measurement of force exerted by engine oil within the lubrication system of an internal combustion engine to prevent mechanical failure from friction and heat.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Oil pressure
@@ -24,7 +16,6 @@ The measurement of force exerted by [[concepts/engine-oil|engine oil]] within th
 
 ### References
 - 2026 04 23 Engine Survival The Critical Role of Oil Pressure and Warning Lights (Source: Technology Connections)
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and|333 Collins Street Melbourne Historic Banking Chamber Preservation and]] · [▶ source](https://www.youtube.com/watch?v=zEPa_xbeX-c)

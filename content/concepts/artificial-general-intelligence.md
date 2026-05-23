@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AGI"
-  - "AI"
-  - "MachineLearning"
-  - "NeuroAI"
-  - "artificial-general-intelligence"
-  - "machine-learning"
-  - "large-language-models"
-  - "world-models"
-  - "self-supervised-learning"
-  - "generative-ai"
-aliases:
-  - "AGI"
-summary: "Artificial General Intelligence refers to the development of autonomous systems capable of performing any human intellectual task through capabilities such as reasoning, transfer learning, and problem-solving."
-updated: 2026-04-21
+summary: Artificial General Intelligence refers to the development of autonomous systems capable of performing any human intellectual task through capabilities such as reasoning, transfer learning, and problem-solving.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Artificial General Intelligence
@@ -25,19 +12,18 @@ group: ai-foundations-concepts
 
 ## Current Paradigms
 - **[[concepts/large-language-models]] (LLMs)**: The dominant current approach, utilizing [[concepts/generative-ai]] to predict sequences of [[concepts/tokens|tokens]] based on massive linguistic [[concepts/training-data|datasets]].
-- **World Models**: Architectures designed to understand and simulate the causal and [[concepts/material-properties|physical properties]] of reality.
+- **[[concepts/world-models|World Models]]**: Architectures designed to understand and simulate the causal and [[concepts/material-properties|physical properties]] of reality.
 - **Self-Supervised Learning**: A [[concepts/training|training]] methodology where models learn representations from unlabeled data by predicting missing parts of the input.
 
 ## Emerging Architectures & Research
 - **[[concepts/vl-jepa]] ([[entities/meta-ai|Meta]] FAIR Lab)**:
     - **Lead Researcher**: [[entities/yann-lecun|Yann LeCun]].
-    - **Shift in Approach**: Represents a strategic movement away from purely linguistic [[concepts/generative-ai]] toward vision-centric intelligence.
+    - **Shift in Approach**: Represents a strategic [[concepts/exercise|movement]] away from purely linguistic [[concepts/generative-ai]] toward vision-centric intelligence.
     - **Core [[concepts/philosophy|Philosophy]]**: Operates on the thesis that "Language is not Intelligence"; argues that linguistic prediction alone is insufficient for true cognitive competence.
-    - **Mechanism**: Focuses on predictive modeling within a latent space (Joint-Embedding Predictive [[concepts/architecture|Architecture]]) rather than generative token production.
+    - **Mechanism**: Focuses on [[concepts/predictive-modeling|predictive modeling]] within a latent space (Joint-Embedding Predictive [[concepts/architecture|Architecture]]) rather than generative token production.
 
 ---
 **Backlink**: 2026 04 14 New paper for a [[concepts/computer-vision|vision]] approach to AGI not LLM
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-08: Anthropic

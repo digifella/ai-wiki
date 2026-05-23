@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "concept"
   - "ai-image-editing"
@@ -11,19 +10,19 @@ tags:
 aliases:
   - "Nano Banana 2"
 summary: Nano Banana 2 utilizes JSON control for precise camera angle adjustments in Gemini AI image editing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Camera Angle Control
 
-Camera Angle Control refers to a technique for managing precise camera positioning and orientation [[concepts/adjustments|adjustments]] within [[concepts/ai-image-editing|AI image editing]] workflows. In the context of [[entities/gemini-models|Gemini AI]] image editing, this functionality is implemented through JSON-based control structures that allow users to specify exact camera angles and perspectives programmatically.
+Camera Angle [[concepts/power|Control]] refers to techniques for managing precise camera positioning and orientation within [[concepts/ai-image-editing|AI image editing]] workflows. In [[entities/gemini-ai|Gemini AI]] image editing contexts, this functionality is implemented through JSON-based control structures that allow users to specify exact camera angles and perspectives programmatically rather than through manual adjustment interfaces.
 
-## Implementation in Nano Banana 2
+## Technical Implementation
 
-Nano Banana 2 demonstrates a practical application of JSON control for camera angle adjustments in [[concepts/gemini|Gemini]]. This approach enables more [[concepts/granular-control|granular control]] over how generated or edited [[concepts/images|images]] are framed and viewed compared to standard UI-based controls. Users can specify camera [[concepts/parameters|parameters]] through [[concepts/json-structuring|structured data]] formats, allowing for reproducible and precise angle modifications.
+[[concepts/camera-angle-manipulation|Nano Banana 2]] demonstrates how JSON control structures can be applied to camera angle adjustments in generative image editing. This approach enables users to define camera [[concepts/parameters|parameters]] such as [[entities/pitch|pitch]], yaw, and roll values, as well as [[concepts/focal-length|focal length]] and perspective settings, through [[concepts/json-structuring|structured data]] format. The JSON-based method provides [[concepts/logical-consistency|consistency]] and reproducibility when applying specific camera orientations across multiple image generation or editing operations.
 
-## Significance for AI Image Editing
+## Practical Applications
 
-The JSON-based control method represents a shift toward more technical, code-driven approaches in AI image editing tools. Rather than relying solely on slider interfaces or dropdown menus, this method provides flexibility for advanced users who need consistent, repeatable camera positioning across multiple image generations or edits within Gemini's platform.
-
+By using JSON control for camera angles, users can establish precise visual compositions programmatically, integrate camera specifications into automated workflows, and maintain exact camera parameters across iterations or batch operations. This is particularly useful in contexts where consistency in perspective is essential, such as product visualization, architectural renderings, or scene composition in generative image work.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Nano-Banana-2-JSON-Control-for-Precise-AI-Image-Editing-in-Gemini|Nano Banana 2 JSON Control for Precise AI Image Editing in Gemini]] · [▶ source](https://www.youtube.com/watch?v=uQc4TGhvDHc)

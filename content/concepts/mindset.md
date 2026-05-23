@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "mindset"
   - "social-science"
@@ -11,11 +10,12 @@ aliases:
   - "mental-models"
   - "cognitive-frameworks"
 summary: The entry contains LinkedIn profiles for social scientists.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Mindset
 
-Mindset refers to an established set of attitudes, beliefs, and assumptions that an individual or group holds about themselves, others, and the world. These mental frameworks shape how people interpret information, respond to challenges, and approach [[concepts/learning|learning]] and development. Mindsets operate largely on an unconscious level but significantly influence behavior, decision-making, and personal outcomes.
+Mindset refers to an established set of attitudes, beliefs, and assumptions that an individual or group holds about themselves, others, and the world. These mental frameworks shape how people interpret information, respond to challenges, and approach [[concepts/learning|learning]] and development. Mindsets operate largely on an unconscious level but significantly [[concepts/power|influence]] behavior, [[concepts/decision-making|decision-making]], and personal outcomes.
 
 ## Fixed versus Growth Mindsets
 

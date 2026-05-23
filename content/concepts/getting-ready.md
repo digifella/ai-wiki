@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "contact-information"
   - "consulting"
@@ -11,16 +10,17 @@ aliases:
   - "Dr. Paul Cooper Contact"
   - "Longboardfella Consulting"
 summary: This entry contains contact information for Dr. Paul Cooper of Longboardfella Consulting Pty Ltd and a reference to a forwarded message regarding preparation for the following week.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Getting Ready
 
-Getting Ready is a business strategy concept referring to the preparatory phase undertaken before commencing a new operational period or project cycle. This entry documents [[entities/contact|contact]] information and consultation details for [[entities/dr-paul-cooper|Dr. Paul Cooper]], Director of Longboardfella Consulting Pty Ltd, who provides guidance on [[concepts/preparation|preparation]] activities.
+[[concepts/preparation|Getting Ready]] is a business strategy concept that encompasses the preparatory activities and planning undertaken before commencing a new operational period, project cycle, or significant business initiative. The concept emphasizes the importance of systematic preparation in establishing conditions for successful execution and [[concepts/adoption|implementation]] of strategic objectives.
 
-## Contact Information
+## Preparation Framework
 
-Dr. Paul Cooper holds qualifications including a Ph.D, FAIDH, CHIA, AFHEA, and GAICD credentials. He operates Longboardfella Consulting Pty Ltd, an Australian [[concepts/consulting|consulting]] firm registered with ACN 650 470 474. Dr. Cooper can be reached via telephone at +61 487 198 798 or email at paul@longboardfella.com.au. Additional professional information is available through his LinkedIn profile at linkedin.com/in/[[entities/paul-cooper|digitalfella]]/ and Twitter account @longboar.
+The Getting Ready framework involves assessing organizational readiness, aligning resources, and establishing clear objectives for the upcoming period. This preparatory [[concepts/phase|phase]] typically includes reviewing previous performance data, identifying potential challenges, and ensuring stakeholder alignment before moving into active execution phases. The approach recognizes that adequate preparation reduces implementation risks and improves [[concepts/cost|operational efficiency]].
 
-## Reference
+## Professional Guidance
 
-This entry originated from a forwarded message dated 23 April 2026 regarding preparation strategies for the following week, suggesting the concept is applied as a practical framework for short-term organizational readiness.
+[[entities/dr-paul-cooper|Dr. Paul Cooper]], Director of Longboardfella [[concepts/consulting|Consulting]] Pty Ltd, provides specialized consulting services on preparation and readiness activities for organizations. Dr. Cooper holds qualifications including a Ph.D, FAIDH, CHIA, AFHEA, and GAICD credentials, bringing expertise in organizational development and [[concepts/governance|governance]] to consultation on preparation strategies.

@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "research"
-  - "information-retrieval"
-  - "notebooklm"
-  - "data-discovery"
-  - "visual-discovery"
-  - "research-workflows"
-aliases:
-  - "finding sources"
-  - "data retrieval"
-summary: "The process of identifying and retrieving relevant documents, data, or information to serve as context for analytical tools and research workflows."
-updated: 2026-04-22
+summary: The process of identifying and retrieving relevant documents, data, or information to serve as context for analytical tools and research workflows.
+updated: 2026-05-23
 group: life-systems-adaptation-discovery
 ---
 # Source Discovery
@@ -24,7 +14,7 @@ Recent updates to [[entities/notebooklm]] have introduced [[concepts/native-capa
 
 - **[[concepts/fast-research]]**: An existing feature used for rapid identification of information.
 - **[[entities/deep-research]]**: A new, intensive method for comprehensive investigation and source gathering.
-- **Visual Discovery**: Integration of [[entities/nano-banana-pro]] to enhance the discovery of visual-based information.
+- **Visual Discovery**: [[concepts/integration|Integration]] of [[entities/nano-banana-pro]] to enhance the discovery of visual-based information.
 
 ## Related Concepts
 - [[concepts/knowledge-bases|Information Retrieval]]
@@ -33,7 +23,6 @@ Recent updates to [[entities/notebooklm]] have introduced [[concepts/native-capa
 
 ## Backlinks
 - 2026 04 14 [[entities/notebook-lm|Notebook LM]] new features
-
 ## Source Notes
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]
 - 2026-04-07: [[lab-notes/2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)

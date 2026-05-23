@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "ai-second-brain"
@@ -12,7 +11,8 @@ aliases:
   - "AI Second Brain Guide"
   - "Claude Code Tutorial"
 summary: A guide by Cole Medin on building a secure, personalized AI second brain using Claude Code.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Automated Thumbnail Generation
 
@@ -20,8 +20,8 @@ Automated thumbnail generation refers to the process of using [[entities/ai-tool
 
 ## Implementation with Claude Code
 
-[[entities/cole-medin|Cole Medin]]'s guide demonstrates building [[concepts/thumbnail-generation|thumbnail generation]] systems using Claude Code, an [[concepts/ai-coding-assistance|AI-assisted coding]] platform. The approach emphasizes creating personalized, [[concepts/secure|secure]] workflows that can be integrated into larger content management systems. By leveraging [[concepts/claude-ai|Claude]]'s code generation capabilities, users can develop custom solutions that align with specific branding requirements and content strategies, rather than relying on generic templating approaches.
+[[entities/cole-medin|Cole Medin]]'s guide demonstrates building [[concepts/thumbnail-generation|thumbnail generation]] systems using [[concepts/ai-assisted-coding|Claude Code]], an [[concepts/ai-coding-assistance|AI-assisted coding]] platform. The approach emphasizes creating personalized, [[concepts/secure|secure]] workflows that can be integrated into larger content management systems. By leveraging [[concepts/claude-ai|Claude]]'s [[concepts/code-generation|code generation]] [[concepts/capabilities|capabilities]], users can develop custom solutions that align with specific branding requirements and content strategies, rather than relying on generic templating approaches.
 
 ## Integration with AI Second Brain Systems
 
-Thumbnail generation is presented as a component within broader AI second brain architectures—systems designed to augment human productivity and [[concepts/knowledge-management|knowledge management]]. In this context, automated thumbnails support content ideation and [[concepts/organization|organization]] workflows, enabling faster [[concepts/iteration|iteration]] on content strategies. The security-first approach emphasized in the guide ensures that sensitive content and proprietary designs remain protected while benefiting from AI acceleration.
+Thumbnail generation is presented as a component within broader [[concepts/personalized-ai-second-brain|AI second brain]] architectures—systems designed to augment human productivity and [[concepts/knowledge-management|knowledge management]]. In this context, automated thumbnails support [[concepts/content-ideation|content ideation]] and [[concepts/organization|organization]] workflows, enabling faster [[concepts/iteration|iteration]] on content strategies. The security-first approach emphasized in the guide ensures that sensitive content and proprietary designs remain protected while benefiting from AI acceleration.

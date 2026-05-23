@@ -1,16 +1,10 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "inventory-management"
-  - "demand-forecasting"
-  - "safety-stock"
-  - "reorder-point"
-  - "just-in-time"
-summary: "Inventory management involves overseeing stock levels to balance product availability and holding costs through practices like demand forecasting, safety stock, reorder points, and just-in-time strategies."
-updated: 2026-04-11
+summary: Inventory management involves overseeing stock levels to balance product availability and holding costs through practices like demand forecasting, safety stock, reorder points, and just-in-time strategies.
+updated: 2026-05-23
 group: products-operations-business-economics
-title: "Inventory Management"
+title: Inventory Management
 ---
 # Inventory Management
 
@@ -29,11 +23,11 @@ Inventory management is the practice of overseeing and controlling stock levels 
 ## AI Applications
 AI plays a crucial role in inventory management through:
 - **Predictive Analytics**: Using historical data to predict future demand trends.
-- **Inventory [[concepts/ai-workflow|Optimization]]**: Reducing stock levels by accurately predicting when new orders will be needed.
-- **Automated Ordering Systems**: Implementing AI-driven systems that order products based on real-time data and predictive models.
+- **Inventory [[concepts/ai-workflow|Optimization]]**: Reducing stock levels by accurately predicting when new orders [[entities/will|will]] be needed.
+- **Automated Ordering Systems**: Implementing AI-driven systems that order products based on real-time data and predictive [[concepts/models|models]].
 
 ### Auto-research
-- An AI-driven methodology for optimizing software algorithms, contrasted with traditional human-led "[[concepts/3d-game-development|vibe coding]]".
+- An AI-driven methodology for optimizing [[concepts/software-algorithms|software algorithms]], contrasted with traditional human-led "[[concepts/3d-game-development|vibe coding]]".
 - Demonstrated through a restaurant [[concepts/inventory-simulation|inventory simulation]] where an initial naive algorithm failed to maintain adequate stock levels (over 50% of orders were unsatisfied).
 - The system employs [[concepts/iterative-learning|iterative learning]] and [[concepts/defined-metrics|defined metrics]] to refine its predictions over time.
 
@@ -41,6 +35,5 @@ AI plays a crucial role in inventory management through:
 - demand-forecasting
 - just-in-time-jit
 - reorder-points
-
 ## Source Notes
 - 2026-04-08: [[concepts/autoresearch|AutoResearch explained..]]

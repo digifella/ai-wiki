@@ -11,16 +11,16 @@ aliases:
   - "administrative-access"
   - "elevated-permissions"
 summary: Administrative privileges are elevated system access levels that grant users authority to perform configuration and control functions.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Admin Privileges
 
-Administrative privileges are elevated access levels that grant authorized users the authority to perform configuration, maintenance, and control functions on computer systems, networks, and [[concepts/software|applications]]. These privileges enable administrators to install software, modify system settings, manage [[concepts/user-accounts|user accounts]], access restricted files, and implement changes that directly affect system operation. Administrative access is essential for routine system management, security updates, and operational [[concepts/continuity|continuity]].
+Administrative privileges are elevated access levels granted to authorized users that enable them to perform system configuration, maintenance, and control functions. Users holding admin privileges can install and remove software, modify system settings, manage user accounts, access restricted files and directories, and implement changes that directly affect system operation and security. These elevated permissions are necessary for routine system administration tasks that standard users cannot perform.
 
-## Scope and Responsibilities
+## Scope and Capabilities
 
-Users with administrative privileges typically manage user account creation and deletion, install and update software, configure network settings, perform system backups, and troubleshoot technical issues. The scope of administrative authority varies depending on the role and [[concepts/organizational-structure|organizational structure]], ranging from local machine administrators to enterprise-wide system administrators. Administrative responsibilities include maintaining system security, ensuring [[concepts/data-conceptsintegrityintegrity|data integrity]], and implementing organizational [[concepts/policies|policies]] across managed systems.
+The specific capabilities conferred by admin privileges vary depending on the operating system and application. On Windows systems, administrators can modify the registry, install drivers, and change security policies. On Unix-like systems, the root user or users with sudo access can modify core system files and configurations. Application-level admin privileges typically allow management of user roles, data access controls, and feature configuration within that specific software.
 
 ## Security Considerations
 
-Administrative privileges present a significant security risk if granted excessively or to unauthorized individuals. Compromised administrative accounts can allow attackers to gain complete control over systems, install malware, access sensitive data, and modify security configurations. Organizations typically implement the principle of least privilege, granting administrators only the specific permissions necessary for their role and limiting the duration of elevated access when possible. Regular auditing of administrative activities and periodic review of privilege assignments help mitigate unauthorized use and detect compromised accounts.
+Admin privileges represent a significant security risk if granted excessively or to inappropriate users. Compromised admin accounts provide attackers with broad control over systems and access to sensitive data. Best practice approaches include limiting the number of users with admin rights, using separate accounts for administrative tasks rather than performing daily work as an administrator, and implementing multi-factor authentication for privileged accounts. Regular auditing of who holds admin privileges and what actions they perform helps detect and prevent misuse.

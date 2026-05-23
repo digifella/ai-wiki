@@ -1,23 +1,7 @@
 ---
 type: entity
-tags:
-  - "chronic-pain"
-  - "mental-toughness"
-  - "resilience"
-  - "bdnf"
-  - "tedx-talks"
-  - "mental-toughness-resilience"
-  - "chronic-pain-management"
-  - "brain-neuroscience"
-  - "tedx-speaker"
-  - "research-expertise"
-aliases:
-  - "Dr. Joe Risser"
-  - "Joe Hood's mentor"
-  - "Mental Toughness Expert"
-  - "joe_risser"
-summary: "Dr. Joe Risser is a recognized expert in mental toughness and resilience, especially in the context of chronic pain management."
-updated: 2026-04-11
+summary: Dr. Joe Risser is a recognized expert in mental toughness and resilience, especially in the context of chronic pain management.
+updated: 2026-05-23
 ---
 title: "joe risser"
 
@@ -32,12 +16,12 @@ Dr. [[entities/joe-risser|Joe Risser]] is a renowned expert in the field of [[co
 
 ### TEDx Talks
 Dr. Risser has delivered several impactful talks, including:
-- **The Secrets and Science of Mental Toughness | Joe Risser**
+- **The Secrets and [[concepts/science|Science]] of Mental Toughness | Joe Risser**
   - URL: https://www.youtube.com/watch?v=rNxC16mlO60
 
-**Summary**
-- Clip title: The Secrets and Science of Mental Toughness | Joe Risser
-- Author / channel: TEDx Talks
+**[[concepts/summary|Summary]]**
+- [[concepts/clip-title|Clip title]]: The Secrets and Science of Mental Toughness | Joe Risser
+- Author / channel: [[entities/tedx-talks|TEDx Talks]]
 - Date: MD, MPH | TEDxSanDiego
 
 ### Related Concepts/Entities
@@ -61,7 +45,6 @@ Dr. Risser has delivered several impactful talks, including:
 
 ## Related Notes
 - 2026 04 10 Joe Risser Mental Toughness BDNF and Resilience for Chronic Pain
-
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain|Joe Risser Mental Toughness BDNF and Resilience for Chronic Pain]] · [▶ source](https://www.youtube.com/watch?v=rNxC16mlO60)

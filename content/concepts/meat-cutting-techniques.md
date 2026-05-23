@@ -10,9 +10,10 @@ tags:
 aliases:
   - "meat-partitioning"
   - "butchery-techniques"
-summary: "Meat cutting techniques involve partitioning animal protein to manipulate texture, heat transfer, and food chemistry."
-updated: 2026-04-27
+summary: Meat cutting techniques involve partitioning animal protein to manipulate texture, heat transfer, and food chemistry.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
+stub: true
 ---
 # Meat cutting techniques
 
@@ -28,8 +29,7 @@ Methods of partitioning animal protein to manipulate [[concepts/texture]], Heat 
 - **Pitfall Mitigation**: Utilizing specific cutting techniques is fundamental to avoiding common errors that lead to Dry Meat during high-heat cooking.
 
 ## Backlinks
-- 2026 04 27 Grilled Chicken Juiciness Marinade Cut and Cook Techniqu
-
+- 2026 04 27 [[concepts/meat-moisture-retention|Grilled Chicken Juiciness]] Marinade Cut and Cook Techniqu
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Grilled-Chicken-Juiciness-Marinade-Cut-and-Cook-Techniqu|Grilled Chicken Juiciness: Marinade, Cut, and Cook Techniques Summary Report]] · [▶ source](https://www.youtube.com/watch?v=S8970CUbwVs)
 - 2026-04-12: [[lab-notes/2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro|Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro]] · [▶ source](https://www.youtube.com/watch?v=b4QqU-RQZ4w)

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: multimodal-generative-media
+domain: creative-pursuits
 tags:
   - "concept"
   - "photoshop"
@@ -13,7 +12,8 @@ aliases:
   - "Photoshop Depth Map"
   - "Depth Mask"
 summary: A technique in Photoshop using depth maps to perform precise 3D photo adjustments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Depth Maps
 
@@ -25,9 +25,9 @@ Depth maps can be generated through several methods: extracted from cameras with
 
 ## Practical Applications
 
-The technique proves particularly valuable in [[concepts/portrait-photography|portrait photography]], where depth maps allow precise control over background separation and bokeh effects. It also enables non-destructive adjustments to architectural and [[concepts/landscape-photography|landscape photography]] by targeting adjustments to specific spatial layers. By working with depth information rather than traditional [[concepts/layer-masks|layer masks]], photographers can achieve more natural and physically accurate results when simulating depth-of-field changes or applying location-specific corrections.
+The technique proves particularly valuable in [[concepts/portrait-photography|portrait photography]], where depth maps allow precise [[concepts/power|control]] over background separation and bokeh effects. It also enables non-destructive adjustments to architectural and [[concepts/landscape-photography|landscape photography]] by targeting adjustments to specific spatial layers. By working with depth information rather than traditional [[concepts/layer-masks|layer masks]], photographers can achieve more natural and physically accurate results when simulating depth-of-field changes or applying location-specific corrections.
 
-- 2026-04-22 [2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments](2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments.md) ← Photoshop Depth Map Mastering Precise 3D Photo Adjustments
-- 2026-04-18 [2026-04-18-Adobe-Camera-Raw-183-Depth-Masking-Lens-Correction-Film-Presets-Overvi](2026-04-18-Adobe-Camera-Raw-183-Depth-Masking-Lens-Correction-Film-Presets-Overvi.md) ← Adobe Camera Raw 183 Depth Masking Lens Correction Film Presets Overvi
-- 2026-04-16 [2026-04-16-Precise-Dehazing-Hazy-Backgrounds-using-Photoshops-Object-Selection](2026-04-16-Precise-Dehazing-Hazy-Backgrounds-using-Photoshops-Object-Selection.md) ← Precise Dehazing Hazy Backgrounds Using Photoshops Object Selection
+- 2026-04-22 [2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments](2026-04-22-Photoshop-Depth-Map-Mastering-Precise-3D-Photo-Adjustments.md) ← Photoshop [[concepts/depth-map|Depth Map]] Mastering Precise [[concepts/3d-photo-adjustments|3D Photo Adjustments]]
+- 2026-04-18 [2026-04-18-Adobe-Camera-Raw-183-Depth-Masking-Lens-Correction-Film-Presets-Overvi](2026-04-18-Adobe-Camera-Raw-183-Depth-Masking-Lens-Correction-Film-Presets-Overvi.md) ← [[entities/adobe-camera-raw|Adobe Camera Raw]] 183 [[concepts/depth-range-masking|Depth Masking]] [[concepts/lens-correction|Lens Correction]] [[concepts/film-presets|Film Presets]] Overvi
+- 2026-04-16 [2026-04-16-Precise-Dehazing-Hazy-Backgrounds-using-Photoshops-Object-Selection](2026-04-16-Precise-Dehazing-Hazy-Backgrounds-using-Photoshops-Object-Selection.md) ← Precise Dehazing [[concepts/hazy-backgrounds|Hazy Backgrounds]] Using Photoshops Object Selection
 ## Source Notes

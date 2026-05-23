@@ -1,22 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "native-app"
-  - "software"
-  - "software-development"
-  - "platform-specific"
-  - "operating-systems"
-  - "application-architecture"
-aliases:
-  - "native application"
-summary: "A native app is a software application developed for a specific target platform that runs directly on the operating system with direct access to hardware."
-updated: 2026-04-16
+summary: A native app is a software application developed for a specific target platform that runs directly on the operating system with direct access to hardware.
+updated: 2026-05-23
 group: app-builders-no-code-tools
 ---
 # Native app
 
-A [[concepts/software|software]] application developed specifically for a target platform (e.g., iOS, [[entities/android|Android]], [[entities/windows|Windows]], macOS), [[concepts/running|running]] directly on the operating system without relying on web browsers or [[concepts/virtual-machines|virtual machines]].
+A [[concepts/software|software]] application developed specifically for a target platform (e.g., [[entities/ios|iOS]], [[entities/android|Android]], [[entities/windows|Windows]], [[entities/macos|macOS]]), [[concepts/running|running]] directly on the operating system without relying on web browsers or [[concepts/virtual-machines|virtual machines]].
 
 ## Characteristics
 - Built with platform-specific languages (Swift, Kotlin, C#)
@@ -26,11 +17,10 @@ A [[concepts/software|software]] application developed specifically for a target
 
 ## Examples
 - Twitter (mobile/desktop)
-- Spotify (multi-platform native client)
-- [[entities/kiro|Kiro]]: Amazon's [[concepts/ai-code-editor|AI code editor]], built as a native [[concepts/desktop-application|desktop application]] via [[concepts/vs-code-fork|VS Code fork]]
+- [[entities/spotify|Spotify]] (multi-platform native client)
+- [[entities/kiro|Kiro]]: [[entities/amazon|Amazon]]'s [[concepts/ai-code-editor|AI code editor]], built as a native [[concepts/desktop-application|desktop application]] via [[concepts/vs-code-fork|VS Code fork]]
 
-2026 04 14 Kiro
-
+2026 04 14 [[entities/bolt|Kiro]]
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)

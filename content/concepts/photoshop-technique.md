@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photoshop-layer-workflows
 tags:
   - "photoshop"
   - "focus-stacking"
@@ -13,7 +12,8 @@ aliases:
   - "Focus Stacking in Photoshop"
   - "Photoshop Focus Stacking"
 summary: The focus stacking technique is used in landscape photography to achieve enhanced sharpness by addressing blur.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Photoshop Technique
 
@@ -25,8 +25,7 @@ The technique begins in-camera by capturing a series of photographs without movi
 
 ## Practical Applications
 
-Focus stacking addresses a fundamental limitation of traditional landscape photography: the inability to maintain sharp focus from foreground to background using standard aperture and [[concepts/focal-length|focal length]] settings alone. This is particularly valuable when photographing scenes with prominent foreground elements, such as rocks or flowers, while also keeping distant mountains or horizons in focus. The technique has become increasingly common among landscape photographers seeking to maximize technical image quality.
-
+[[concepts/focus-stacking|Focus stacking]] addresses a fundamental limitation of traditional landscape photography: the inability to maintain sharp focus from foreground to background using standard aperture and [[concepts/focal-length|focal length]] settings alone. This is particularly valuable when photographing scenes with prominent foreground elements, such as rocks or flowers, while also keeping distant mountains or horizons in focus. The technique has become increasingly common among landscape photographers seeking to maximize technical image quality.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Photoshops-Blend-If-Pixel-Perfect-Transparency-via-Brightness-and-Colo|Photoshops Blend If Pixel Perfect Transparency via Brightness and Colo]] · [▶ source](https://www.youtube.com/watch?v=Wkti_IX3Qzk)
 - 2026-04-21: Adobe · [▶ source](https://www.youtube.com/watch?v=JgfxoI4HYH4)

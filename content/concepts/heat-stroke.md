@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "health"
-  - "climate-change"
-  - "extreme-weather"
-  - "vulnerable-populations"
-  - "heat-stroke"
-  - "heat-stroke-prevention"
-  - "extreme-weather-health"
-  - "vulnerable-populations-care"
-  - "climate-change-effects"
-  - "hyperthermia-treatment"
-aliases:
-  - "severe hyperthermia"
-  - "sun stroke"
-  - "high temperature emergency"
-  - "overheating illness"
-summary: "Heat stroke is a dangerous condition where the body's temperature regulation fails, leading to high fever and potential organ damage if not treated quickly."
-updated: 2026-04-12
+summary: Heat stroke is a dangerous condition where the body's temperature regulation fails, leading to high fever and potential organ damage if not treated quickly.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Heat Stroke
@@ -56,16 +40,15 @@ Heat stroke is a severe form of hyperthermia that occurs when the body's tempera
 - Regular checks on [[concepts/vulnerable-populations|vulnerable populations]] (elderly, children)
 
 ## Related Concepts
-- heat-exhaustion
+- [[concepts/heat-stress|heat-exhaustion]]
 - [[concepts/dehydration|dehydration]]
 - [[concepts/climate-change]]
-- extreme-weather
+- [[concepts/severe-weather-events|extreme-weather]]
 
 ### Additional Resources
-- [How Climate Affects Community Health](https://www.youtube.com/watch?v=JywsWktvODc) - CDC video on climate change impacts on [[concepts/population-health|community health]]
+- [How Climate Affects Community Health](https://www.youtube.com/watch?v=JywsWktvODc) - [[entities/cdc|CDC]] video on climate change impacts on [[concepts/population-health|community health]]
 
 ## Backlinks
 2026 04 11 Climate Change [[concepts/health|Health]] Risks to US Communities and Vulnerable Populatio
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Climate-Change-Health-Risks-to-US-Communities-and-Vulnerable-Populatio|Climate Change Health Risks to US Communities and Vulnerable Populatio]] · [▶ source](https://www.youtube.com/watch?v=JywsWktvODc)

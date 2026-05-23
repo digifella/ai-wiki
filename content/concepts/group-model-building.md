@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: architecture-cities-heritage
 tags:
   - "focus-groups"
   - "research-methodology"
@@ -12,7 +11,8 @@ aliases:
   - "GMB"
   - "focus group modeling"
 summary: A research space used for focus groups in clearing houses and contexts regarding children and family violence.
-updated: 2026-05-01
+updated: 2026-05-23
+group: architecture-cities-heritage
 ---
 # Group Model Building
 
@@ -24,8 +24,7 @@ Group Model Building has been utilized by organizations including the [[entities
 
 ## Contemporary Development
 
-As an evolving research practice, Group Model Building continues to adapt to contemporary contexts and emerging technologies. Recent interest has focused on the integration of [[concepts/ai-technologies|artificial intelligence]] tools within the GMB framework, exploring how computational approaches might enhance data analysis, pattern recognition, and stakeholder engagement in focus group settings. This extension reflects broader trends toward hybrid methodologies combining [[concepts/qualitative-research|qualitative research]] with technological [[concepts/innovation|innovation]].
-
+As an evolving research practice, Group Model Building continues to adapt to contemporary contexts and emerging technologies. Recent interest has focused on the [[concepts/integration|integration]] of [[concepts/ai-technologies|artificial intelligence]] tools within the GMB framework, exploring how computational approaches might enhance data analysis, pattern recognition, and stakeholder engagement in focus group settings. This extension reflects broader trends toward hybrid methodologies combining [[concepts/qualitative-research|qualitative research]] with technological [[concepts/innovation|innovation]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-10: [[lab-notes/2026-04-10-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards|Alibaba Qwen 36 Plus Agentic Coding and Multimodal Reasoning Towards]] · [▶ source](https://www.youtube.com/watch?v=v8RokQY05Bo)

@@ -1,17 +1,12 @@
 ---
 type: concept
-domain: creative-pursuits
-tags:
-  - "conversational-interface"
-  - "ai"
-  - "coding"
-  - "productivity"
-updated: 2026-04-14
-group: design-systems-ui-infographics
+domain: ai-agents
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Conversational interface
 
-A [[concepts/user-interface|user interface]] that enables interaction through natural language (text or voice), mimicking human conversation to reduce cognitive load and improve [[concepts/accessibility|accessibility]]. Common in [[concepts/ai-assistant]] systems for intuitive task execution.
+A [[concepts/user-interface|user interface]] that enables interaction through natural language ([[concepts/text|text]] or [[concepts/tone|voice]]), mimicking human conversation to reduce cognitive load and improve [[concepts/accessibility|accessibility]]. Common in [[concepts/ai-assistant]] systems for intuitive task execution.
 
 ## Key characteristics
 - Natural language understanding (NLU) for processing user input
@@ -20,7 +15,7 @@ A [[concepts/user-interface|user interface]] that enables interaction through na
 - Error recovery via conversational follow-up
 
 ## Examples
-- **[[entities/codellm|CodeLLM]]**: AI-powered code editor using conversational interface to boost productivity (10x claimed) for developers/non-coders; enables application building, code fixing, and code generation via natural language (dual modes of operation).
+- **[[entities/codellm|CodeLLM]]**: AI-powered [[concepts/code|code]] editor using conversational interface to boost productivity (10x claimed) for developers/non-coders; enables [[concepts/application-building|application building]], code fixing, and [[concepts/code-generation|code generation]] via natural language (dual modes of operation).
 - [[concepts/ai-assistant]] tools for general [[entities/claude-co-work|task automation]]
 - [[concepts/ai-coding]] platforms with chat-based workflows
 
@@ -29,8 +24,7 @@ A [[concepts/user-interface|user interface]] that enables interaction through na
 - [[concepts/ai-coding]]
 - Productivity
 
-2026 04 14 [[concepts/ai-assisted-coding|AI coding]] with Claude Code 41 [[entities/rick-mulready|Rob the AI guy]]
-
+2026 04 14 [[concepts/ai-assisted-coding|AI coding]] with [[concepts/claude-code|Claude Code]] 41 [[entities/rick-mulready|Rob the AI guy]]
 ## Source Notes
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Stitch-AI-Native-Design-Canvas-for-Conversational-UIUX-Creation|Google Stitch AI Native Design Canvas for Conversational UIUX Creation]] · [▶ source](https://www.youtube.com/watch?v=jV-E2nxpSjQ)

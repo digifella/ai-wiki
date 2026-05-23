@@ -1,31 +1,18 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "medical-ai"
-  - "multimodal"
-  - "nlp"
-  - "deep-learning"
-  - "multimodal-learning"
-  - "clinical-nlp"
-  - "computer-vision"
-  - "instruction-tuning"
-  - "medical-data-analysis"
-aliases:
-  - "clinical intelligence extraction"
-  - "multimodal medical analysis"
-summary: "The capability of artificial intelligence models to interpret, analyze, and extract clinical intelligence from heterogeneous medical data, including unstructured text and medical imagery."
-updated: 2026-04-19
+summary: The capability of artificial intelligence models to interpret, analyze, and extract clinical intelligence from heterogeneous medical data, including unstructured text and medical imagery.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Medical text comprehension
 
-The capability of [[concepts/ai-technologies|artificial intelligence]] models to interpret, analyze, and extract clinical intelligence from heterogeneous medical data, including unstructured clinical documentation and medical imagery.
+The capability of [[concepts/ai-technologies|artificial intelligence]] [[concepts/models|models]] to interpret, analyze, and extract clinical intelligence from heterogeneous medical data, including unstructured clinical documentation and medical imagery.
 
 ## Key Implementations
-- [[concepts/dermatology-images|MedGemma 27B]] (Google):
+- [[concepts/dermatology-images|MedGemma 27B]] ([[concepts/google-search|Google]]):
 	- Built on [[concepts/gemma-3-architecture]].
-	- Specialized for multimodal tasks involving both text and image comprehension.
+	- Specialized for multimodal tasks involving both [[concepts/text|text]] and image comprehension.
 	- Variants include:
 		- 4B multimodal model (available in pre-trained and instruction-tuned versions).
 		- 27B parameter model.
@@ -37,8 +24,7 @@ The capability of [[concepts/ai-technologies|artificial intelligence]] models to
 - [[concepts/instruction-tuning|Instruction Tuning]] for specialized medical task execution.
 
 ## Backlinks
-- [[concepts/date-2026-04-13|2026]] 04 14 MedGemma 27B [[entities/fahd-merza|Fahd Merza]]
-
+- [[concepts/date-2026-04-13|2026]] 04 14 [[entities/medgemma-27b|MedGemma 27B]] [[entities/fahd-merza|Fahd Merza]]
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

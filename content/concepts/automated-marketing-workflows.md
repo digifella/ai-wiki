@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "marketing"
-  - "automation"
-  - "ai"
-  - "workflows"
-  - "claude-ai"
-  - "marketing-automation"
-  - "agentic-ai"
-  - "ai-orchestration"
-  - "workflow-automation"
-  - "ai-integration"
-aliases:
-  - "AI-driven marketing workflows"
-  - "automated marketing systems"
-summary: "Systems and processes that utilize agentic AI, orchestration, and custom skills to execute marketing tasks with minimal manual intervention."
-updated: 2026-04-27
+summary: Systems and processes that utilize agentic AI, orchestration, and custom skills to execute marketing tasks with minimal manual intervention.
+updated: 2026-05-23
 group: market-intelligence-geo-seo
 ---
 # Automated Marketing Workflows
@@ -24,14 +10,13 @@ group: market-intelligence-geo-seo
 Systems and processes designed to execute marketing tasks with minimal manual intervention through [[concepts/agentic-ai]] and Orchestration.
 
 ### Core Methodologies
-- **[[entities/claude-ai]] [[concepts/integration|Integration]]**: Utilizing [[entities/qwen-36-plus|advanced LLM]] capabilities to power autonomous marketing actions and [[concepts/decision-making|decision-making]].
+- **[[entities/claude-ai]] [[concepts/integration|Integration]]**: Utilizing [[entities/qwen-36-plus|advanced LLM]] capabilities to [[concepts/power|power]] autonomous marketing actions and [[concepts/decision-making|decision-making]].
 - **Custom [[concepts/skills|Skills]]**: Developing specialized, tool-augmented [[concepts/capabilities|AI capabilities]] to perform discrete, repeatable marketing tasks.
 - **[[concepts/design|Design]] Systems Alignment**: Integrating structured design frameworks into [[concepts/automation-tools|automated workflows]] to ensure brand [[concepts/logical-consistency|consistency]] across all AI-generated outputs.
 - **Orchestration**: Managing the complex coordination of multiple [[concepts/ai-models|AI models]], tools, and interconnected processes to execute multi-step campaigns.
 
 ### Related Sources
 - 2026 04 27 [[concepts/anthropic-ai|Claude AI]] Automated Marketing with Custom [[concepts/skills|Skills]] Design
-
 ## Source Notes
 - 2026-04-07: Claude Code: Build Your Full AI Marketing Team (Agents +
 - 2026-04-27: Claude AI · [▶ source](https://www.youtube.com/watch?v=Ph-maUAiSU8)

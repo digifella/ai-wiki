@@ -1,13 +1,9 @@
 ---
 type: concept
-tags:
-  - "ai-agents"
-  - "context-management"
-  - "context-engineering"
-updated: 2026-04-14
 domain: ai-agents
+updated: 2026-05-23
 group: reasoning-context-prompting
-title: "Context Management"
+title: Context Management
 ---
 # Context Management
 
@@ -17,7 +13,7 @@ Context management is a critical aspect of handling information in systems or [[
 
 - **[[concepts/claude-code|Claude Code]]**: A hypothetical [[concepts/code|codebase]] or framework used as an example for context management [[concepts/ai-workflow|optimization]]; it extends beyond simple [[concepts/ai-coding|AI coding]] through a structured approach using [[concepts/subagents|sub-agents]].
 - **[[concepts/sub-agents|Sub-Agents]]**: [[concepts/specialized-ai-assistants|Specialized AI assistants]] (e.g., within [[concepts/claude-code|Claude Code]]) designed for [[concepts/task-specific-workflows|task-specific workflows]] and improved [[concepts/context-management|context management]]. They address challenges in context management and [[concepts/tool-selection|tool selection]] by providing [[concepts/task-specific-configurations|task-specific configurations]], including customized [[concepts/system-prompts|system prompts]] and [[concepts/specialized-tools|specialized tools]], thereby reducing the cognitive load on the main [[entities/agent|agent]].
-- **[[concepts/context-engineering|Context Engineering]]**: The [[concepts/art|art]] and science of filling the [[concepts/context-window|context window]] with precisely the right information ([[concepts/instructions|instructions]], [[concepts/external-knowledge|external knowledge]], and [[concepts/tool-feedback|tool feedback]]) at each step of an [[concepts/agents|agent's trajectory]]. 2026 04 14 [[entities/langchain|Langchain]] context engineering
+- **[[concepts/context-engineering|Context Engineering]]**: The [[concepts/art|art]] and [[concepts/science|science]] of filling the [[concepts/context-window|context window]] with precisely the right information ([[concepts/instructions|instructions]], [[concepts/external-knowledge|external knowledge]], and [[concepts/tool-feedback|tool feedback]]) [[concepts/assistive-technology|at]] each step of an [[concepts/agents|agent's trajectory]]. 2026 04 14 [[entities/langchain|Langchain]] context engineering
 
 ## Optimization Techniques
 
@@ -27,7 +23,6 @@ Context management is a critical aspect of handling information in systems or [[
 ## Related
 - 2026 04 14 [[concepts/developer-workflow|Claude Code workflow]] using [[concepts/sub-agents|sub agents]]
 - [[entities/ai-labs|AI Labs]] (<https://www.youtube.com/watch?v=7Sx0o-41r2k>)
-
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-20: # Your Lab job is complete — YouTube Summariser (#1454) YouTube Summariser job #1454 is complete. Completed: 2026-04-20T12:26:43 UTC View result: https://longboardfella.com.au/lab/result.php?id=1454 ──────────────────────────────────────────────────────────── --- title: Karpathy (Your Lab job is complete — YouTube Summariser (#1454))

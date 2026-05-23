@@ -1,25 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "AI"
-  - "Agents"
-  - "Architecture"
-  - "agentic-ai"
-  - "ai-architecture"
-  - "persistent-context"
-  - "knowledge-structures"
-  - "context-management"
-aliases:
-  - "domain-specific persistence"
-  - "specialized agent memory"
-summary: "Domain Memory is an architectural paradigm for agentic AI that utilizes persistent, domain-specific knowledge structures to provide long-term context."
-updated: 2026-04-20
+summary: Domain Memory is an architectural paradigm for agentic AI that utilizes persistent, domain-specific knowledge structures to provide long-term context.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Domain Memory
 
-A specialized architectural paradigm for [[concepts/agentic-ai]] designed to overcome the limitations of generalized context by implementing persistent, domain-specific knowledge structures.
+A specialized architectural paradigm for [[concepts/agentic-ai]] designed to overcome the limitations of generalized context by implementing persistent, [[concepts/domain-specific-knowledge|domain-specific knowledge]] structures.
 
 ## The Problem: Generalized Agents
 - Often characterized as "**amnesiacs with tool belts**."
@@ -32,7 +20,6 @@ A specialized architectural paradigm for [[concepts/agentic-ai]] designed to ove
 
 ## Sources
 - 2026 04 14 [[entities/nate-jones|Nate Jones]] [[concepts/agentic-ai|Ai agents]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

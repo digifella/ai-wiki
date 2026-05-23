@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: travel-practice-logistics-experience
 tags:
   - "concept"
   - "destination-selection"
@@ -14,7 +13,8 @@ aliases:
   - "travel-destination-selection"
   - "comparing-travel-options"
 summary: Concept for systematically evaluating and comparing travel destinations using AI prompts to identify flight deals and travel options.
-updated: 2026-05-01
+updated: 2026-05-23
+group: travel-practice-logistics-experience
 ---
 # Destination Comparison
 
@@ -22,8 +22,8 @@ Destination comparison is a systematic approach to evaluating and contrasting di
 
 ## Flight Deal Identification
 
-A primary application of destination comparison involves identifying and comparing flight deals across multiple routes and airlines. AI prompts can be engineered to search for cost-effective options by analyzing fare patterns, timing considerations, and airport alternatives. By comparing flight prices to similar destinations or the same destination across different travel dates, travelers can identify when prices are unusually low and make informed purchasing decisions aligned with their budget and schedule.
+A primary application of destination comparison involves identifying and comparing flight deals across multiple routes and airlines. AI prompts can be engineered to search for cost-effective options by analyzing fare patterns, timing considerations, and airport alternatives. By comparing flight prices to similar destinations or the same destination across different travel dates, travelers can identify when prices are unusually low and [[entities/make|make]] informed purchasing decisions aligned with their budget and schedule.
 
 ## Travel Options and Logistics
 
-Beyond flight costs, destination comparison frameworks evaluate broader travel logistics including ground transportation, accommodation availability, visa requirements, and overall trip feasibility. Structured AI prompts help travelers weigh factors like flight duration, layover patterns, and [[concepts/connection|connection]] times alongside destination-specific considerations. This comprehensive approach enables more informed choices that account for the total travel experience rather than isolated cost metrics.
+Beyond flight costs, destination comparison frameworks evaluate broader travel logistics including ground transportation, accommodation availability, visa requirements, and overall trip feasibility. Structured AI prompts help travelers weigh factors like flight duration, layover patterns, and [[concepts/connection|connection]] times alongside destination-specific considerations. This comprehensive approach enables more informed choices that account for the total travel experience rather than isolated [[concepts/cost|cost]] metrics.

@@ -1,17 +1,7 @@
 ---
-domain: cosmology-space
 type: concept
-tags:
-  - "space-exploration"
-  - "artemis-program"
-  - "starship"
-  - "nasa"
-  - "nasa-missions"
-  - "lunar-exploration"
-  - "orion-spacecraft"
-  - "starship-developments"
-  - "crew-training"
-updated: 2026-04-12
+domain: cosmology-space
+updated: 2026-05-23
 group: space-systems-exploration-infrastructure
 ---
 group: [[concepts/cosmology|cosmology]]-[[concepts/astronomy|astronomy]]-[[concepts/astrophysics|astrophysics]]
@@ -28,23 +18,22 @@ group: [[concepts/cosmology|cosmology]]-[[concepts/astronomy|astronomy]]-[[conce
 ## Recent Developments
 
 ### 2026 Mission Simulation Report
-- **Clip title:** We Just Watched Artemis II Come Back… That Was Intense
+- **[[concepts/clip-title|Clip title]]:** We Just Watched Artemis II Come Back… That Was Intense
 - **Author / channel:** [[entities/marcus-house|Marcus House]]
 - **URL:** https://www.youtube.com/watch?v=CrzP6naZGKs
 
 ### Summary
-The video provides a comprehensive recap of the uncrewed **Artemis II mission**, highlighting its historical significance as the first [[concepts/human-lunar-flyby|human lunar flyby]] in over five decades. The mission successfully completed its trans-lunar injection burn on Day 2, propelling the crew toward the moon with remarkable precision. Early in the journey, [[concepts/nasa|NASA]] revealed several [[concepts/orion-systems|Orion systems]] challenges and operational insights.
+The video provides a comprehensive recap of the uncrewed **[[entities/artemis-ii|Artemis II mission]]**, highlighting its historical significance as the first [[concepts/human-lunar-flyby|human lunar flyby]] in over five decades. The mission successfully completed its [[concepts/trans-lunar-injection|trans-lunar injection]] burn on Day 2, propelling the crew toward the moon with remarkable precision. Early in the journey, [[concepts/nasa|NASA]] revealed several [[concepts/orion-systems|Orion systems]] challenges and operational insights.
 
-- **Clip title:** Artemis II Just Revealed Much More Than You Think…
+- **[[concepts/clip-title|Clip title]]:** Artemis II Just Revealed Much More Than You Think…
 - **Author / channel:** [[entities/marcus-house|Marcus House]]
 - **URL:** https://www.youtube.com/watch?v=CrzP6naZGKs
 
 ### Summary
-The mission's Orion systems faced numerous in-flight challenges, showcasing the [[concepts/resilience|resilience]] and technological advancements of [[concepts/nasa|NASA]]’s spacecraft. The crew demonstrated exceptional [[concepts/skills|skills]] during simulations, essential for future human lunar exploration.
+The mission's [[concepts/spacecraft-systems|Orion systems]] faced numerous in-flight challenges, showcasing the [[concepts/resilience|resilience]] and technological advancements of [[concepts/nasa|NASA]]’s spacecraft. The crew demonstrated exceptional [[concepts/skills|skills]] during simulations, essential for future human [[concepts/lunar-exploration|lunar exploration]].
 
 ## Related Notes
-- 2026 04 12 Artemis II [[concepts/lunar-flyby|Human Lunar Flyby Operations]] Orion Systems and In flight Ch
-
+- 2026 04 12 Artemis II [[concepts/lunar-flyby|Human Lunar Flyby Operations]] [[concepts/spacecraft-systems|Orion Systems]] and In flight Ch
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Artemis-II-Simulated-Mission-Report-Crew-Operations-Orion-Systems-Star|Artemis II Simulated Mission Report Crew Operations Orion Systems Star]] · [▶ source](https://www.youtube.com/watch?v=CrzP6naZGKs)
 - 2026-04-14: [[lab-notes/2026-04-14-Deep-Space-Update-March-April-2024-Launch-Crewed-Mission-Summary|Deep Space Update March April 2024 Launch Crewed Mission Summary]] · [▶ source](https://www.youtube.com/watch?v=K0E8wyo3v-w)

@@ -14,9 +14,10 @@ tags:
 aliases:
   - "iterative process"
   - "refinement cycle"
-summary: "A process of progressively improving a solution through repeated cycles of evaluation and adjustment."
-updated: 2026-04-28
-group: ai-futures-self-improvement
+summary: A process of progressively improving a solution through repeated cycles of evaluation and adjustment.
+updated: 2026-05-23
+group: ai-foundations-concepts
+stub: true
 ---
 # Iterative Refinement
 
@@ -45,7 +46,6 @@ Process of progressively improving a [[concepts/solution|solution]] through repe
 
 ## Backlinks
 - 2026 04 14 [[entities/adobe-firefly|Adobe Firefly]] [[concepts/prompt-to-edit|Prompt to edit]] feature [[entities/julianne-kost|Julianne Kost]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)

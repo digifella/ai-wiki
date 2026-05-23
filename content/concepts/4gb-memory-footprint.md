@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "small-language-models"
   - "memory-optimization"
@@ -13,15 +12,16 @@ aliases:
   - "4GB Memory Champions"
   - "SLM General Problem-Solving"
 summary: Benchmarking small language models (SLMs) to identify those capable of general problem-solving within a 4GB memory footprint.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # 4GB Memory Footprint
 
-The 4GB memory footprint represents a practical constraint for deploying language models on consumer-grade and edge devices, including smartphones, tablets, and modest laptops. This limitation has become increasingly relevant as the field explores efficient model architectures that can deliver reasonable performance without requiring high-end [[concepts/hardware|hardware]].
+The [[concepts/4gb-memory|4GB memory]] footprint represents a practical constraint for deploying language [[concepts/models|models]] on consumer-grade and edge devices, including smartphones, tablets, and modest laptops. This limitation has become increasingly relevant as the field explores efficient model architectures that can deliver reasonable performance without requiring high-end [[concepts/hardware|hardware]].
 
 ## Benchmarking Small Language Models
 
-Small Language Models (SLMs) are being systematically evaluated to determine which architectures can perform general [[concepts/problem-solving|problem-solving]] tasks within a 4GB [[concepts/memory|memory]] constraint. These benchmarks measure [[concepts/speed|inference speed]], [[concepts/accuracy|accuracy]] on standard tasks, and practical usability across common [[concepts/software|applications]]. The goal is identifying models that maintain functional capability despite significant [[concepts/parameter-reduction|parameter reduction]] compared to larger alternatives.
+[[concepts/small-language-models-slms|Small Language Models (SLMs)]] are being systematically evaluated to determine which architectures can perform general [[concepts/problem-solving|problem-solving]] tasks within a 4GB [[concepts/memory|memory]] constraint. These benchmarks measure [[concepts/speed|inference speed]], [[concepts/accuracy|accuracy]] on standard tasks, and practical usability across common [[concepts/software|applications]]. The goal is identifying models that maintain functional capability despite significant [[concepts/parameter-reduction|parameter reduction]] compared to larger alternatives.
 
 ## Practical Applications
 
@@ -29,8 +29,7 @@ A 4GB footprint enables [[concepts/deployment|deployment]] [[concepts/scenarios|
 
 ## Technical Considerations
 
-Achieving viable performance within 4GB typically involves quantization, pruning, knowledge distillation, and architectural innovations rather than simply [[concepts/computational-scaling|scaling]] down existing large models. Trade-offs between [[concepts/code-size|model size]], [[concepts/inference|inference]] latency, and accuracy remain central to this engineering challenge, and real-world performance varies significantly depending on the specific task domain and hardware configuration.
-
+Achieving viable performance within 4GB typically involves [[concepts/precision-reduction|quantization]], pruning, knowledge distillation, and architectural innovations rather than simply [[concepts/computational-scaling|scaling]] down existing large models. Trade-offs between [[concepts/code-size|model size]], [[concepts/inference|inference]] latency, and accuracy remain central to this engineering challenge, and real-world performance varies significantly depending on the specific task domain and hardware configuration.
 ## Source Notes
 - 2026-04-08: [[concepts/small-language-models|Small Language Models (SLMs): The New 4GB Champion]]
 - 2026-04-07: [[lab-notes/2026-04-07-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions|Benchmarking SLMs Identifying 4GB General Problem Solving Champions]] · [▶ source](https://www.youtube.com/watch?v=wQxawC3sv68)

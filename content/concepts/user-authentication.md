@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: security-infrastructure
-updated: 2026-04-14
+summary: The process of verifying user identity through credentials or tokens to enable secure access to user-specific data and features.
+updated: 2026-05-23
 group: privacy-security-guardrails
-summary: "The process of verifying user identity through credentials or tokens to enable secure access to user-specific data and features."
 ---
 - "[[concepts/authentication|authentication]]"
   - "[[concepts/security|security]]"
@@ -27,7 +27,7 @@ group: [[concepts/privacy|privacy]]-security-[[concepts/ai-safety|guardrails]]
 [[concepts/verification|Verification]] of user identity through credentials or [[concepts/tokens|tokens]]. Enables [[concepts/secure|secure]] access to user-specific data and features.
 
 ## Key Implementation Approaches
-- Firebase Authentication provides built-in support for email/password, Google, Facebook, and phone sign-in
+- Firebase Authentication provides built-in support for email/password, [[concepts/google-search|Google]], Facebook, and phone sign-in
 - After authentication, enforce User [[concepts/authorization|Authorization]] to restrict data access (e.g., each user only sees their own uploads and information)
 - Integrates seamlessly with Firebase Database for storing user-specific data
 - Handles [[concepts/secure|secure]] [[concepts/session-management|session management]] and token validation
@@ -40,7 +40,6 @@ group: [[concepts/privacy|privacy]]-security-[[concepts/ai-safety|guardrails]]
 3. Subsequent requests include authentication token
 4. Backend validates token and serves only user's data
 5. [[concepts/file-uploads|File uploads]] stored in [[concepts/firebase-storage|Firebase Storage]] with user-specific permissions
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Stitch-AI-Native-Design-Canvas-Evolution-and-Enhanced-Workflow|Google Stitch AI Native Design Canvas Evolution and Enhanced Workflow]] · [▶ source](https://www.youtube.com/watch?v=J7XpscQqCYw)
 - 2026-04-22: [[lab-notes/2026-04-22-AnythingLLM-1.12-Channels-Mobile-Interaction-with-Private-Self-Hosted-LLMs|AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs]] · [▶ source](https://youtu.be/Ei5nB5fyn7g)

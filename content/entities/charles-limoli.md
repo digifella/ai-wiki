@@ -6,11 +6,11 @@ tags:
   - "visual-system"
   - "idea-generation"
 summary: An idea generator exploring the potential use of a focus mechanism similar to the music genetic matching visual system.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Charles Limoli
 
-Charles Limoli is associated with exploratory work in system design and ideation, particularly concerning focus mechanisms and pattern-matching approaches in visual systems.
+Charles Limoli is associated with exploratory work in system [[concepts/design|design]] and ideation, particularly concerning focus mechanisms and [[concepts/pattern-matching|pattern-matching]] approaches in visual systems.
 
 ## Focus Mechanism Research
 

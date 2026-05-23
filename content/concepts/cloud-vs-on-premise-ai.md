@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "cloud-ai"
   - "on-premise-ai"
@@ -13,11 +12,12 @@ aliases:
   - "Cloud AI vs On-Premise AI"
   - "On-Premise vs Cloud AI"
 summary: Comparison of deployment models for AI systems between cloud-hosted and locally-managed infrastructure.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Cloud Vs On-Premise AI
 
-[[concepts/cloud-ai|Cloud-based AI]] and on-premise AI represent two distinct [[concepts/deployment|deployment]] models for [[concepts/ai-technologies|artificial intelligence]] systems, each with different trade-offs in terms of infrastructure, cost, control, and [[concepts/accessibility|accessibility]]. Cloud AI leverages remote servers managed by providers like AWS, [[entities/google-cloud|Google Cloud]], or Azure, while on-premise AI runs on local [[concepts/hardware|hardware]] owned and operated by the [[concepts/organization|organization]]. The choice between these models depends on factors including data sensitivity, computational requirements, latency tolerance, and budget constraints.
+[[concepts/cloud-ai|Cloud-based AI]] and on-premise AI represent two distinct [[concepts/deployment|deployment]] [[concepts/models|models]] for [[concepts/ai-technologies|artificial intelligence]] systems, each with different trade-offs in terms of infrastructure, [[concepts/cost|cost]], [[concepts/power|control]], and [[concepts/accessibility|accessibility]]. Cloud AI leverages remote servers managed by providers like [[entities/amazon-web-services|AWS]], [[entities/google-cloud|Google Cloud]], or [[entities/azure|Azure]], while on-premise AI runs on local [[concepts/hardware|hardware]] owned and operated by the [[concepts/organization|organization]]. The choice between these models depends on factors including data sensitivity, computational requirements, latency tolerance, and budget constraints.
 
 ## Infrastructure and Control
 
@@ -29,7 +29,6 @@ On-premise deployments can offer lower latency for real-time [[concepts/software
 
 ## Data Privacy and Cost Considerations
 
-Data never leaves the organization's infrastructure with on-premise solutions, addressing privacy concerns for proprietary or regulated information. [[concepts/cloud-computing|Cloud services]] simplify deployment and [[concepts/computational-scaling|scaling]] but require trusting external providers with data handling. Cost structures differ significantly: cloud AI involves variable operational expenses, while on-premise AI represents fixed capital and maintenance costs. The optimal choice varies by use case, with some organizations adopting hybrid approaches that combine both models.
-
+Data never leaves the organization's infrastructure with on-premise solutions, addressing [[concepts/privacy|privacy]] concerns for proprietary or regulated information. [[concepts/cloud-computing|Cloud services]] simplify deployment and [[concepts/computational-scaling|scaling]] but require trusting external providers with data handling. Cost structures differ significantly: cloud AI involves variable operational expenses, while on-premise AI represents fixed capital and maintenance costs. The optimal choice varies by use case, with some organizations adopting hybrid approaches that combine both models.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

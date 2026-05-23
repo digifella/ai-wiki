@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: interactive-visualisation
 tags:
   - "concept"
   - "tiltrotor"
@@ -13,7 +12,8 @@ aliases:
   - "tiltrotor nacelle rotation"
   - "osprey rotor transition"
 summary: The nacelle rotation mechanism in the V-22 Osprey enables transition between helicopter and fixed-wing flight modes.
-updated: 2026-05-01
+updated: 2026-05-23
+group: interactive-visualisation
 ---
 # Nacelle Rotation
 
@@ -21,11 +21,10 @@ Nacelle rotation is a mechanical system that allows the engines and rotors of a 
 
 ## Mechanical Function
 
-The rotation is controlled by hydraulic actuators that pivot the nacelles around a central axis on each wing. Pilots can gradually adjust the nacelle angle during transition, allowing the aircraft to shift from [[concepts/vertical-takeoff-and-landing-vtol|vertical takeoff and landing]] capabilities to forward flight cruise speeds. The system requires precise synchronization between both nacelles to maintain stable flight during the transition phase.
+The rotation is controlled by hydraulic actuators that pivot the nacelles around a central axis on each wing. Pilots can gradually adjust the nacelle angle during transition, allowing the aircraft to shift from [[concepts/vertical-takeoff-and-landing-vtol|vertical takeoff and landing]] [[concepts/capabilities|capabilities]] to forward flight cruise speeds. The system requires precise synchronization between both nacelles to maintain stable flight during the transition [[concepts/phase|phase]].
 
 ## Operational Significance
 
-This mechanism enables the V-22 to combine the vertical landing capabilities of a helicopter with the speed and range of a fixed-wing aircraft. Without nacelle rotation, the aircraft would be limited to either one flight mode or the other, making it less versatile for military transport and operational flexibility. The complexity of managing this transition has made the V-22 a technically demanding aircraft to operate and maintain.
-
+This mechanism enables the [[entities/v-22-osprey|V-22]] to combine the vertical landing capabilities of a helicopter with the [[concepts/speed|speed]] and [[concepts/range|range]] of a fixed-wing aircraft. Without nacelle rotation, the aircraft would be limited to either one flight mode or the other, making it less versatile for military transport and operational flexibility. The complexity of managing this transition has made the V-22 a technically demanding aircraft to operate and maintain.
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-V-22-Osprey-Tiltrotor-Engineering-Its-Complex-Dual-Fligh|V-22 Osprey Tiltrotor: Engineering Its Complex Dual Flight Modes]] · [▶ source](https://www.youtube.com/watch?v=FYMdllTCrc0)

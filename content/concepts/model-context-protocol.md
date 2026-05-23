@@ -1,20 +1,9 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "interoperability"
-  - "standardization"
-  - "automation"
-  - "ai-interoperability"
-  - "automation-tools"
-  - "command-line-integration"
-  - "creative-workflows"
-  - "data-sources"
-  - "hardware-integration"
-  - "ipad-productivity"
-updated: 2026-04-14
+updated: 2026-05-23
 group: reasoning-context-prompting
+stub: true
 ---
 title: "[[concepts/context-window-overload|Model Context Protocol]] (MCP)"
 
@@ -32,7 +21,6 @@ A [[concepts/universal-standard|universal standard]] for [[concepts/ai-connector
 
 ## Sources
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] using powerful [[concepts/agentic-ai|AI agents]]
-
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-07: A [[concepts/markdown|Markdown File Just Replaced Your Most Expensive Design]]

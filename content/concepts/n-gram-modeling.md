@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "natural-language-processing"
   - "probabilistic-modeling"
@@ -12,11 +11,12 @@ aliases:
   - "n-gram model"
   - "ngram modeling"
 summary: N Gram Modeling is a technique used in AI tagging and probabilistic modeling.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # N Gram Modeling
 
-N Gram Modeling is a statistical technique for analyzing sequences of n items (typically words or characters) from a given text or dataset. It forms the basis for probabilistic language models by calculating the likelihood of sequences occurring in natural language. The approach breaks down text into contiguous subsequences of length n, enabling prediction of the next item in a sequence based on the probabilities observed in [[concepts/training-data|training data]].
+N Gram Modeling is a statistical technique for analyzing sequences of n items (typically words or characters) from a given [[concepts/text|text]] or dataset. It forms the basis for probabilistic language [[concepts/models|models]] by calculating the likelihood of sequences occurring in natural language. The approach breaks down text into contiguous subsequences of length n, enabling prediction of the next item in a sequence based on the probabilities observed in [[concepts/training-data|training data]].
 
 ## Applications in Language Processing
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "local-models"
@@ -13,7 +12,8 @@ aliases:
   - "GGUF format"
   - "Nexa SDK"
 summary: A file format and toolkit for running AI models locally across different hardware backends including NPUs, GPUs, and CPUs.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Gguf
 
@@ -21,11 +21,10 @@ Gguf is a file format designed for storing and distributing quantized [[concepts
 
 ## Technical Characteristics
 
-The [[concepts/gguf-format|Gguf format]] supports [[concepts/parameter-reduction|quantization]], a compression technique that reduces [[concepts/code-size|model size]] and computational requirements while maintaining reasonable inference quality. Models stored in Gguf can run on various hardware backends, including CPUs, GPUs (via frameworks like CUDA or Metal), and specialized [[concepts/neural-processing-units|neural processing units]] (NPUs). This flexibility makes it possible to optimize inference for different devices—from resource-constrained embedded systems to high-performance servers.
+The [[concepts/gguf-format|Gguf format]] supports [[concepts/parameter-reduction|quantization]], a compression technique that reduces [[concepts/code-size|model size]] and computational requirements while maintaining reasonable inference quality. [[concepts/models|Models]] stored in Gguf can run on various hardware backends, including CPUs, GPUs (via frameworks like [[concepts/compute-unified-device-architecture|CUDA]] or Metal), and specialized [[concepts/neural-processing-units|neural processing units]] (NPUs). This flexibility makes it possible to optimize inference for different devices—from resource-constrained embedded systems to [[entities/high-performance|high-performance]] servers.
 
 ## Ecosystem and Adoption
 
-Gguf emerged as a practical [[concepts/solution|solution]] for the growing interest in [[concepts/llm-inference|local AI inference]], particularly around [[concepts/open-source|open-source]] language models. The format is supported by several inference engines and frameworks that handle the actual model execution. Its adoption reflects broader trends toward reducing reliance on [[concepts/cloud-ai|cloud-based AI]] services for [[concepts/privacy|privacy]], cost, or latency reasons.
-
+Gguf emerged as a practical [[concepts/solution|solution]] for the growing interest in [[concepts/llm-inference|local AI inference]], particularly around [[concepts/open-source|open-source]] language models. The format is supported by several [[concepts/inference-engines|inference engines]] and frameworks that handle the actual model execution. Its [[concepts/adoption|adoption]] reflects broader trends toward reducing reliance on [[concepts/cloud-ai|cloud-based AI]] services for [[concepts/privacy|privacy]], [[concepts/cost|cost]], or latency reasons.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

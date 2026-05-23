@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: ai-image-generation-editing
 tags:
   - "concept"
   - "digital-art"
@@ -12,7 +11,8 @@ aliases:
   - "digital painting technique"
   - "photoshop painting"
 summary: Digital painting technique using brush tools in Adobe Photoshop, demonstrated by Julianne Kost.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Digital Painting
 
@@ -20,11 +20,10 @@ Digital painting is a [[concepts/visual-art|visual art]] technique created using
 
 ## Technique and Tools
 
-The brush tool is fundamental to digital painting, allowing artists to simulate traditional painting techniques digitally. Adobe Photoshop provides a range of brush settings and options that enable artists to control factors such as [[concepts/brush-size|brush size]], [[concepts/opacity|opacity]], and [[concepts/texture|texture]]. These tools can replicate the effects of various traditional media, from watercolor to oil paint, or create entirely new artistic effects unique to the digital [[entities/medium|medium]].
+The brush tool is fundamental to digital painting, allowing artists to simulate traditional painting techniques digitally. [[entities/adobe-photoshop|Adobe Photoshop]] provides a [[concepts/range|range]] of brush settings and options that enable artists to [[concepts/power|control]] factors such as [[concepts/brush-size|brush size]], [[concepts/opacity|opacity]], and [[concepts/texture|texture]]. These tools can replicate the effects of various traditional media, from watercolor to oil paint, or create entirely new artistic effects unique to the digital [[entities/medium|medium]].
 
 ## Learning and Practice
 
 Digital painting [[concepts/skills|skills]] can be developed through targeted instruction and practice. [[concepts/educational-resources|Educational resources]], such as instructional videos demonstrating painting techniques in Adobe Photoshop, provide practical guidance for both beginners and experienced artists looking to refine their digital painting abilities.
-
 ## Source Notes
 - 2026-04-29: Kim Percy

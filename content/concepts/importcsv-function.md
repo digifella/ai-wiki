@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "excel"
-  - "csv"
-  - "automation"
-  - "data-management"
-  - "microsoft-excel"
-  - "csv-integration"
-  - "data-automation"
-  - "automated-reporting"
-aliases:
-  - "IMPORTCSV"
-summary: "A Microsoft Excel function used for dynamic CSV data management, multi-file integration, and automated reporting."
-updated: 2026-04-26
+summary: A Microsoft Excel function used for dynamic CSV data management, multi-file integration, and automated reporting.
+updated: 2026-05-23
 group: body-systems-recovery-function
+stub: true
 ---
 # IMPORTCSV function
 
@@ -28,7 +18,6 @@ A [[entities/microsoft-excel]] function used for dynamic CSV [[concepts/data-man
 ## References
 - 2026 04 23 Excels IMPORTCSV Dynamic Multi CSV Data Management and Reporting
 - [[concepts/tutorial|Tutorial]] by [[entities/leila-gharani|Leila Gharani]]: [The New Excel Trick to Link CSV Files Instantly](https://www.youtube.com/watch?v=jWE3ypXpuTY)
-
 ## Source Notes
 
 - 2026-04-23: Excel · [▶ source](https://www.youtube.com/watch?v=jWE3ypXpuTY)

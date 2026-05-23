@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "shark-evolution"
@@ -14,7 +13,8 @@ aliases:
   - "Shark Evolution Golden Age"
   - "Golden Age of Shark Diversity"
 summary: A historical period during which sharks evolved diverse and specialized forms including species with unusual defensive and predatory adaptations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Golden Age Of Sharks
 
@@ -26,7 +26,6 @@ Sharks of this period exhibited morphological innovations that have largely disa
 
 ## Evolutionary Decline
 
-Over time, many of these specialized shark lineages went extinct, replaced by more generalist species that proved more adaptable to changing environmental conditions. The extinction of these diverse forms marks the end of the Golden Age, after which [[concepts/shark-evolution|shark evolution]] followed more conservative trajectories. Modern shark diversity, while significant, represents a smaller range of body plans and adaptations compared to the breadth of forms that existed during this earlier period.
-
+Over time, many of these specialized shark lineages went extinct, replaced by more generalist species that proved more adaptable to changing environmental conditions. The extinction of these diverse forms marks the end of the Golden Age, after which [[concepts/shark-evolution|shark evolution]] followed more conservative trajectories. Modern shark diversity, while significant, represents a smaller [[concepts/range|range]] of body plans and adaptations compared to the breadth of forms that existed during this earlier period.
 ## Source Notes
 - 2026-04-07: How Sharks Lost Their Buzzsaws, Anvils, and Spikes

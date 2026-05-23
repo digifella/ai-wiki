@@ -1,17 +1,13 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "hardware"
-  - "fujifilm"
-updated: 2026-04-11
+updated: 2026-05-23
 group: photography-cameras
-title: "Camera Settings"
+title: Camera Settings
 ---
 # Camera Settings
 
-Fundamental [[concepts/parameters|parameters]] used to manipulate light, focus, and image rendering characteristics.
+Fundamental [[concepts/parameters|parameters]] used to manipulate [[concepts/light|light]], focus, and image rendering characteristics.
 
 ## Key Parameters
 
@@ -26,18 +22,17 @@ Fundamental [[concepts/parameters|parameters]] used to manipulate light, focus, 
 
 ## Fujifilm Camera Lock Feature: Comprehensive Guide and Usage Explained
 
-**Clip title:** [[concepts/drive-mode|Fujifilm Lock Feature]] EXPLAINED (53 [[concepts/camera-settings|Camera Controls]]!)
+**[[concepts/clip-title|Clip title]]:** [[concepts/drive-mode|Fujifilm Lock Feature]] EXPLAINED (53 [[concepts/camera-settings|Camera Controls]]!)
 **Author / channel:** [[entities/pal2tech|pal2tech]]
 **URL:** https://www.youtube.com/watch?v=C2ZN6ByntPk
 
 ### Summary
-This video from [[entities/pal2tech|Pal2Tech]] provides a comprehensive guide to [[entities/fujifilm|Fujifilm]]'s often misunderstood "Lock" feature, designed to prevent [[concepts/accidental-changes|accidental changes]] to [[concepts/camera-settings|camera]] settings. The presenter demonstrates how to access and utilize this feature on [[entities/fujifilm-x-t5|Fujifilm X-T5]] and [[entities/x-s20|X-S20]] cameras, emphasizing that the principles apply across various Fujifilm models.
+This video from [[entities/pal2tech|Pal2Tech]] provides a comprehensive guide to [[entities/fujifilm|Fujifilm]]'s often misunderstood "Lock" feature, designed to prevent [[concepts/accidental-changes|accidental changes]] to [[concepts/camera-settings|camera]] settings. The presenter demonstrates how to access and utilize this feature on [[entities/fujifilm-x-t5|Fujifilm X-T5]] and [[entities/x-s20|X-S20]] cameras, emphasizing that the principles apply across various Fujifilm [[concepts/models|models]].
 
 - Prevents [[concepts/accidental-changes|accidental changes]] to camera settings
 - Demonstrates access and usage on Fujifilm [[entities/x-t5|X-T5]] and [[entities/x-s20|X-S20]] cameras
 
 2026 04 10 Fujifilm [[concepts/accidental-setting-prevention|Camera Lock Feature]] Comprehensive Guide and Usage Explained
-
 ## Source Notes
 - 2026-04-07: Fujifilm Lock Feature EXPLAINED (53 Camera Controls!)
 - 2026-04-13: [[lab-notes/2026-04-13-Fujifilm-Autofocus-Setup-Guide-Modes-Features-and-Optimization|Fujifilm Autofocus Setup Guide Modes Features and Optimization]] · [▶ source](https://www.youtube.com/watch?v=C00MqhLjKnE)

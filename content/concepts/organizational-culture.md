@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "organizational-behavior"
   - "culture"
@@ -13,15 +12,16 @@ aliases:
   - "institutional-culture"
   - "workplace-culture"
 summary: The shared values, beliefs, and behavioral norms that characterize how an organization functions and operates.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Organizational Culture
 
-Organizational culture refers to the shared values, beliefs, norms, and behavioral patterns that develop within an [[concepts/organization|organization]] over time. These informal guidelines shape how members interact with one another, make decisions, and approach their work. Culture is transmitted through socialization processes, stories, symbols, rituals, and leadership practices, becoming embedded in an organization's identity and influencing everything from employee [[concepts/motivation|motivation]] to customer relations.
+Organizational culture refers to the shared values, beliefs, norms, and behavioral patterns that develop within an [[concepts/organization|organization]] over time. These informal guidelines shape how members interact with one another, [[entities/make|make]] decisions, and approach their work. Culture is transmitted through socialization processes, stories, symbols, rituals, and [[concepts/leadership|leadership]] practices, becoming embedded in an organization's identity and influencing everything from employee [[concepts/motivation|motivation]] to customer relations.
 
 ## Formation and Evolution
 
-Organizational cultures typically develop through the combined influence of founding leadership, historical experiences, industry pressures, and member interactions. As organizations grow and change, their cultures may reinforce existing patterns or shift in response to new circumstances, external competition, or deliberate management initiatives. The concept gained prominence in organizational studies during the mid-twentieth century, particularly through work examining how companies with distinct cultures performed differently in their markets and industries.
+Organizational cultures typically develop through the combined [[concepts/power|influence]] of founding leadership, historical experiences, industry pressures, and member interactions. As organizations grow and change, their cultures may reinforce existing patterns or shift in response to new circumstances, external competition, or deliberate management initiatives. The concept gained prominence in organizational studies during the mid-twentieth century, particularly through work examining how companies with distinct cultures performed differently in their markets and industries.
 
 ## Impact on Organizational Functioning
 

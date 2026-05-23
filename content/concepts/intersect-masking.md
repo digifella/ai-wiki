@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photo-editing"
-  - "lightroom"
-  - "masking"
-  - "post-processing"
-  - "adobe-lightroom"
-  - "mask-refinement"
-  - "local-adjustments"
-aliases:
-  - "Intersect Mask"
-  - "Intersection Masking"
-summary: "A masking operation in Adobe Lightroom that isolates the area where two or more overlapping masks coincide."
-updated: 2026-04-26
+summary: A masking operation in Adobe Lightroom that isolates the area where two or more overlapping masks coincide.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Intersect masking
@@ -27,7 +16,6 @@ A specialized [[concepts/layer-masks|masking]] operation in [[entities/adobe-lig
 ### References
 - **Source:** [[entities/andy-hutchinson|Andy Hutchinson]], *"The Incredible [[entities/lr-lightroom|Adobe Lightroom]] Tool You’re Probably Not Using"*
 - **Related Note:** [[concepts/date-2026-04-13|2026]] 04 21 [[concepts/lightroom|Lightroom]] Intersect [[concepts/masking|Masking]] for Precise Local [[concepts/adjustments|Adjustments]]
-
 ## Source Notes
 
 - 2026-04-21: Lightroom · [▶ source](https://youtu.be/HvCiSOkCoUk)

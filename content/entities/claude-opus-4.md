@@ -9,16 +9,15 @@ aliases:
   - "Opus 4"
   - "Claude Opus 4"
 summary: Claude Opus 4 is an AI model evaluated alongside models such as Qwen3 and Deepseek-V3-0324 for performance on coding benchmarks.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Claude Opus 4
 
-Claude Opus 4 is an [[concepts/ai-technologies|artificial intelligence]] [[concepts/statistical-language-modeling|language model]] that has been evaluated in comparative [[concepts/benchmark-testing|benchmarking]] studies alongside other contemporary [[concepts/large-language-model-llm|large language models]]. It has been assessed for performance on [[concepts/coding|coding]]-related tasks and benchmarks, positioning it within the broader landscape of [[concepts/model-benchmarks|AI model evaluation]].
+[[entities/claude-opus|Claude Opus]] 4 is an [[concepts/ai-technologies|artificial intelligence]] [[concepts/statistical-language-modeling|language model]] that has been evaluated in comparative [[concepts/benchmark-testing|benchmarking]] studies alongside other contemporary [[concepts/large-language-model-llm|large language models]]. It has been assessed for performance on [[concepts/coding|coding]]-related tasks and benchmarks, positioning it within the broader landscape of [[concepts/model-benchmarks|AI model evaluation]].
 
 ## Benchmark Comparisons
 
-Claude Opus 4 has been included in performance comparisons with other notable models including Qwen3, [[concepts/kimi-k2|Kimi K2]], and Deepseek-V3-0324. These evaluations focus particularly on coding capabilities and benchmark performance metrics, reflecting the growing interest in assessing how different [[concepts/ai-models|AI models]] perform on technical programming tasks.
-
+Claude Opus 4 has been included in performance comparisons with other notable [[concepts/models|models]] including [[concepts/qwen3-model|Qwen3]], [[concepts/kimi-k2|Kimi K2]], and Deepseek-V3-0324. These evaluations focus particularly on coding [[concepts/capabilities|capabilities]] and benchmark [[concepts/performance-data-gathering|performance metrics]], reflecting the growing interest in assessing how different [[concepts/ai-models|AI models]] perform on technical programming tasks.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced|OpenClaw Autonomous AI Agent Setup Configuration and Advanced]] · [▶ source](https://www.youtube.com/watch?v=u4ydH-QvPeg)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

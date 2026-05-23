@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "hydroponics"
   - "indoor-plants"
@@ -12,7 +11,8 @@ aliases:
   - "Hydroponic Plant Growth"
   - "Water-Based Plant Cultivation"
 summary: A report detailing seven indoor plants that thrive in water without the use of soil.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Water Only Nutrient Solution
 
@@ -24,4 +24,4 @@ Numerous common houseplants adapt well to water-only environments. These include
 
 ## Practical Considerations
 
-Successful water cultivation requires regular water changes to prevent stagnation and the accumulation of waste products. Depending on the plant species and desired growth rate, nutrient supplementation may be necessary to ensure adequate phosphorus, nitrogen, and potassium levels. Adequate light remains essential, as does ensuring that water temperature stays within a range suitable for root [[concepts/health|health]]. Container choice and water clarity can influence plant performance and ease of monitoring root development.
+Successful water cultivation requires regular water changes to prevent stagnation and the accumulation of waste products. Depending on the plant species and desired growth rate, nutrient supplementation may be necessary to ensure adequate phosphorus, nitrogen, and potassium levels. Adequate [[concepts/light|light]] remains essential, as does ensuring that water temperature stays within a [[concepts/range|range]] suitable for root [[concepts/health|health]]. Container choice and water clarity can [[concepts/power|influence]] plant performance and ease of monitoring root development.

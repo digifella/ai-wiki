@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "ai-agents"
   - "customizability"
@@ -12,25 +11,25 @@ aliases:
   - "Customizability"
   - "AI Agent Customization"
 summary: This concept pertains to the customizability of AI agents.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 title: customizability
 ---
 # Customization
 
-Customization in [[concepts/agentic-ai|AI agents]] refers to the ability to modify, configure, and adapt an agent's behavior, capabilities, and outputs to meet specific user needs or organizational requirements. This encompasses [[concepts/adjustments|adjustments]] ranging from simple parameter tuning to more comprehensive modifications of the agent's underlying models, [[concepts/training-data|training data]], and integration points. The degree and scope of customization available varies significantly across different [[concepts/ai-agent-platforms|AI agent platforms]] and implementations.
+Customization in [[concepts/agentic-ai|AI agents]] refers to the ability to modify, configure, and adapt an [[entities/agent|agent]]'s behavior, [[concepts/capabilities|capabilities]], and outputs to meet specific user needs or organizational requirements. This encompasses [[concepts/adjustments|adjustments]] ranging from simple parameter tuning to more comprehensive modifications of the agent's underlying [[concepts/models|models]], [[concepts/training-data|training data]], and [[concepts/integration|integration]] points. The degree and scope of customization available varies significantly across different [[concepts/ai-agent-platforms|AI agent platforms]] and implementations.
 
 ## Configuration and Parameter Adjustment
 
-Many AI agents allow users to customize behavior through configuration settings without requiring access to underlying code or models. This includes adjusting response tone, output format, domain-specific [[concepts/terminology|terminology]], and task-specific [[concepts/parameters|parameters]]. Integration customization—connecting [[concepts/agents|agents]] to specific tools, APIs, and data sources—enables agents to operate within particular workflows and access relevant information for their intended [[concepts/scenarios|use cases]].
+Many [[concepts/ai-agents|AI agents]] allow users to customize behavior through configuration settings without requiring access to underlying [[concepts/code|code]] or models. This includes adjusting response [[concepts/tone|tone]], [[concepts/output|output]] format, domain-specific [[concepts/terminology|terminology]], and task-specific [[concepts/parameters|parameters]]. Integration customization—connecting [[concepts/agents|agents]] to specific tools, APIs, and data sources—enables agents to operate within particular workflows and access relevant information for their intended [[concepts/scenarios|use cases]].
 
 ## Model and Training Customization
 
-More advanced customization involves [[concepts/fine-tuning|fine-tuning]] language models on custom datasets or modifying agents' training procedures to specialize in particular domains or tasks. This approach requires greater technical capability but can significantly improve agent performance for specialized [[concepts/software|applications]]. Fine-tuning can be performed locally on specialized [[concepts/hardware|hardware]] or through cloud-based services that manage the technical infrastructure.
+More advanced customization involves [[concepts/fine-tuning|fine-tuning]] language models on custom datasets or modifying agents' [[concepts/training|training]] procedures to specialize in particular domains or tasks. This approach requires greater technical capability but can significantly improve agent performance for specialized [[concepts/software|applications]]. Fine-tuning can be performed locally on specialized [[concepts/hardware|hardware]] or through [[concepts/cloud-based-services|cloud-based services]] that manage the technical infrastructure.
 
 ## Persistent and Contextual Customization
 
-Some platforms support persistent customization through integration with external systems—such as note-taking applications, design software, or specialized [[concepts/advanced-tools|professional tools]]—creating customized operating environments. This enables AI agents to maintain context across sessions and adapt their functionality based on the specific workflows and tools users rely on in their regular work.
-
+Some platforms support persistent customization through integration with external systems—such as note-taking applications, [[concepts/design|design]] software, or specialized [[concepts/advanced-tools|professional tools]]—creating customized operating environments. This enables AI agents to maintain context across sessions and adapt their functionality based on the specific workflows and tools users rely on in their regular work.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-and-Canva-Integration-for-Streamlined-Graphic-Design|Claude AI and Canva Integration for Streamlined Graphic Design]] · [▶ source](https://www.youtube.com/watch?v=gBV5FT40N_M)
 - 2026-04-10: [[lab-notes/2026-04-10-Google-NotebookLMs-Latest-Features-Enhanced-Infographics-AI-Videos|Google NotebookLMs Latest Features Enhanced Infographics AI Videos]] · [▶ source](https://www.youtube.com/watch?v=E71M74FIDHc)

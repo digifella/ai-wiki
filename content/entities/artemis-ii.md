@@ -11,11 +11,11 @@ aliases:
   - "Artemis II Mission"
   - "Artemis 2"
 summary: Artemis II is a NASA human lunar flyby mission involving crew operations and Orion spacecraft systems.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Artemis II
 
-Artemis II is a NASA crewed [[concepts/lunar-flyby|lunar flyby]] mission that serves as the second flight of the Space Launch System (SLS) and [[entities/orion|Orion spacecraft]]. The mission carries a crew of astronauts on a trajectory around the Moon, [[concepts/testing|testing]] critical systems and procedures for human deep [[concepts/space-exploration|space exploration]] without landing on the lunar surface.
+Artemis II is a [[concepts/nasa|NASA]] crewed [[concepts/lunar-flyby|lunar flyby]] mission that serves as the second flight of the Space Launch System (SLS) and [[entities/orion|Orion spacecraft]]. The mission carries a crew of astronauts on a trajectory around the Moon, [[concepts/testing|testing]] critical systems and procedures for human deep [[concepts/space-exploration|space exploration]] without landing on the lunar surface.
 
 ## Mission Objectives
 
@@ -23,8 +23,7 @@ The primary goals of Artemis II include validating human-rated systems on both t
 
 ## Spacecraft Systems
 
-Artemis II relies on the Orion spacecraft, which is designed to safely transport crew to cislunar space and return them to Earth. The mission tests Orion's life support systems, navigation capabilities, and in-flight operations under conditions that will be encountered during longer-duration [[concepts/lunar-exploration|lunar exploration]] missions. Integration with supporting vehicles and ground systems is critical to mission success.
-
+Artemis II relies on the Orion spacecraft, which is designed to safely transport crew to cislunar space and return them to Earth. The mission tests Orion's life support systems, navigation [[concepts/capabilities|capabilities]], and in-flight operations under conditions that [[entities/will|will]] be encountered during longer-duration [[concepts/lunar-exploration|lunar exploration]] missions. [[concepts/integration|Integration]] with supporting vehicles and ground systems is critical to mission success.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Artemis-II-Simulated-Mission-Report-Crew-Operations-Orion-Systems-Star|Artemis II Simulated Mission Report Crew Operations Orion Systems Star]] · [▶ source](https://www.youtube.com/watch?v=CrzP6naZGKs)
 - 2026-04-14: [[lab-notes/2026-04-14-Deep-Space-Update-March-April-2024-Launch-Crewed-Mission-Summary|Deep Space Update March April 2024 Launch Crewed Mission Summary]] · [▶ source](https://www.youtube.com/watch?v=K0E8wyo3v-w)

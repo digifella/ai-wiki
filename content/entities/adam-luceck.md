@@ -1,18 +1,7 @@
 ---
 type: entity
-tags:
-  - "RAG"
-  - "chunking"
-  - "ChromaDB"
-  - "Adam Luceck"
-  - "text-chunking"
-  - "vector-databases"
-  - "semantic-chunking"
-  - "information-retrieval"
-aliases:
-  - "Adam Lucek"
-summary: "Adam Luceck specializes in optimizing text chunking strategies for vector databases, focusing on semantic and hybrid approaches for retrieval tasks."
-updated: 2026-04-18
+summary: Adam Luceck specializes in optimizing text chunking strategies for vector databases, focusing on semantic and hybrid approaches for retrieval tasks.
+updated: 2026-05-23
 ---
 Adam Luceck specializes in optimizing [[concepts/rag]] [[concepts/text-chunking|text chunking]] strategies for [[concepts/vector-databases|vector databases]], with key contributions detailed in the ChromaDB technical report "Evaluating [[concepts/chunking-strategies|Chunking Strategies]] for Retrieval." His work demonstrates:
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "health-concept"
   - "wellness"
@@ -11,20 +10,20 @@ aliases:
   - "healthcare"
   - "wellbeing"
 summary: Foundational concept encompassing health practices and patient knowledge, with connections to dietary factors.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Health
 
-Health encompasses the state of physical, mental, and social well-being, extending beyond the mere absence of disease or infirmity. It represents a foundational concept in understanding human wellness and encompasses both individual health practices and the knowledge systems that support them. Health outcomes are influenced by numerous interconnected factors, including genetics, environment, behavior, and [[concepts/healthcare-access|access to healthcare]] resources.
+Health encompasses the state of physical, mental, and [[concepts/social-well-being|social well-being]], extending beyond the mere absence of disease or infirmity. It represents a foundational concept in understanding human wellness and encompasses both individual health practices and the knowledge systems that support them. Health outcomes are influenced by numerous interconnected factors, including genetics, environment, behavior, and [[concepts/healthcare-access|access to healthcare]] resources.
 
 ## Diet and Nutrition
 
-Dietary factors play a significant role in health maintenance and [[concepts/health-promotion|disease prevention]]. Nutritional choices influence metabolic function, energy levels, and susceptibility to chronic conditions. The relationship between diet and health has evolved considerably throughout human history, reflecting changes in food availability, agricultural practices, and cultural practices. Understanding the [[concepts/connection|connection]] between specific dietary components and health outcomes remains an active area of medical and nutritional research.
+Dietary factors play a significant role in health maintenance and [[concepts/health-promotion|disease prevention]]. Nutritional choices [[concepts/power|influence]] metabolic function, energy levels, and susceptibility to chronic conditions. The relationship between [[concepts/diet|diet]] and health has evolved considerably throughout human history, reflecting changes in food availability, agricultural practices, and cultural practices. Understanding the [[concepts/connection|connection]] between specific dietary components and health outcomes remains an active area of medical and nutritional research.
 
 ## Health Knowledge and Practice
 
 Patient knowledge and health literacy directly impact health outcomes and the effectiveness of medical interventions. Health practices—ranging from [[concepts/preventive-care|preventive care]] to [[concepts/chronic-disease-management|disease management]]—are shaped by both individual understanding and broader [[concepts/population-health|public health]] guidance. The ability to access, comprehend, and act upon health information has become increasingly important as individuals take more active roles in managing their own wellness.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-10: [[lab-notes/2026-04-10-Japanese-20-Year-Mammalian-Serial-Cloning-Study-A-Genetic-Dead-End|Japanese 20 Year Mammalian Serial Cloning Study A Genetic Dead End]] · [▶ source](https://www.youtube.com/watch?v=m_WhG8yeH0E)

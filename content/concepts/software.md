@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "software"
   - "applications"
@@ -15,7 +14,8 @@ aliases:
   - "programs"
   - "code"
 summary: Software comprises programs and applications that run on computational resources to perform specific functions.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Software
 
@@ -23,11 +23,10 @@ Software comprises the programs, applications, and systems that execute on [[con
 
 ## Categories and Scope
 
-Software exists across multiple categories based on function and [[concepts/distribution|distribution]] model. System software, such as operating systems and drivers, manages hardware and provides foundational services. Application software performs end-user tasks like document editing, communication, or creative work. Development tools enable programmers to write, test, and maintain software itself. The landscape also includes both proprietary software with restricted access and [[concepts/open-source|open-source]] software with publicly available code.
+Software exists across multiple categories based on function and [[concepts/distribution|distribution]] model. System software, such as operating systems and drivers, manages hardware and provides foundational services. Application software performs end-user tasks like document editing, communication, or creative work. Development tools enable programmers to write, test, and maintain software itself. The landscape also includes both proprietary software with restricted access and [[concepts/open-source|open-source]] software with publicly available [[concepts/code|code]].
 
 ## Modern Development Practices
 
-Contemporary [[concepts/coding|software development]] increasingly incorporates automated tools and AI-assisted capabilities that enhance the engineering process. Code generation, [[concepts/testing|testing]] [[concepts/automation|automation]], and agent-based systems have become standard components of professional [[concepts/development-workflows|development workflows]]. These tools help developers manage complexity in larger codebases and accelerate iterative cycles, though human expertise remains essential for [[concepts/architecture|architecture]], design decisions, and [[concepts/quality-assurance|quality assurance]].
-
+Contemporary [[concepts/coding|software development]] increasingly incorporates automated tools and AI-assisted [[concepts/capabilities|capabilities]] that enhance the engineering process. [[concepts/code-generation|Code generation]], [[concepts/testing|testing]] [[concepts/automation|automation]], and agent-based systems have become standard components of professional [[concepts/development-workflows|development workflows]]. These tools help developers manage complexity in larger codebases and accelerate iterative cycles, though human expertise remains essential for [[concepts/architecture|architecture]], [[concepts/design|design]] decisions, and [[concepts/quality-assurance|quality assurance]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

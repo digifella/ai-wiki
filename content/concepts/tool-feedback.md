@@ -1,26 +1,15 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "agents"
-  - "context-engineering"
-  - "ai-agents"
-  - "feedback-loops"
-  - "tool-use"
-  - "function-execution"
-aliases:
-  - "agent-feedback-loop"
-  - "tool-use-feedback"
-summary: "Tool feedback provides the feedback loop necessary for autonomous AI agents to refine actions based on the outcomes of executed functions."
-updated: 2026-04-17
+summary: Tool feedback provides the feedback loop necessary for autonomous AI agents to refine actions based on the outcomes of executed functions.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Tool feedback
 
-A critical component of [[concepts/context-engineering]], providing the necessary [[concepts/feedback|feedback]] loop for [[concepts/agentic-ai]] to refine their actions based on the outcomes of executed functions.
+A critical component of [[concepts/context-engineering]], providing the necessary [[concepts/feedback|feedback]] [[concepts/loop|loop]] for [[concepts/agentic-ai]] to refine their actions based on the outcomes of executed functions.
 
-- **[[concepts/external-knowledge|Context Engineering]] Context**: The [[concepts/art|art and science]] of optimizing the [[concepts/context-window]] with precise information at each step of an agent's trajectory.
+- **[[concepts/external-knowledge|Context Engineering]] Context**: The [[concepts/art|art and science]] of optimizing the [[concepts/context-window]] with precise information [[concepts/assistive-technology|at]] each step of an [[entities/agent|agent]]'s trajectory.
 - **Essential Context Components**:
 	- [[concepts/instructions|Instructions]]
 	- External Knowledge
@@ -30,7 +19,6 @@ A critical component of [[concepts/context-engineering]], providing the necessar
 **Source**:
 - 2026 04 14 [[entities/langchain|Langchain]] context engineering
 - https://www.youtube.com/watch?v=4GiqzUHD5AA
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

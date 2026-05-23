@@ -13,19 +13,19 @@ aliases:
   - "Adobe Integration"
   - "Adobe Ecosystem"
 summary: This page covers AI-powered enhancements and workflow updates in Lightroom Classic v15 within the Adobe ecosystem.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Adobe Ecosystem Integration
 
-Adobe Ecosystem Integration refers to the interconnected features and workflows within Adobe's creative [[concepts/software|software]] suite, particularly as enhanced in [[concepts/camera-system-integration|Lightroom Classic v15]]. This integration enables photographers and creative professionals to work across multiple Adobe applications while maintaining access to shared resources, libraries, and editing capabilities. The ecosystem approach reduces [[concepts/friction|friction]] when moving between applications such as [[concepts/photoshop|Photoshop]], Lightroom, and Bridge, allowing users to access consistent tools and maintain project [[concepts/continuity|continuity]].
+Adobe Ecosystem Integration refers to the interconnected features and workflows within Adobe's creative software suite, with significant enhancements introduced in Lightroom Classic v15. This integration enables photographers and creative professionals to work across multiple Adobe applications—including Photoshop, Bridge, and cloud services—while maintaining access to shared resources, libraries, and editing capabilities. By centralizing workflows across these applications, the ecosystem reduces friction when switching between tools and simplifies asset management for users working on complex projects.
 
-## Key Features in Lightroom Classic v15
+## Workflow Connectivity
 
-Lightroom Classic v15 introduced several AI-powered enhancements that extend across the broader Adobe ecosystem. These include improved cloud synchronization with other [[entities/creative-cloud|Creative Cloud]] applications, enhanced [[concepts/metadata|metadata]] handling that carries forward between programs, and streamlined export workflows. The update also improved integration with Adobe's cloud-based services, making it easier for users to leverage cloud [[entities/storage|storage]] and collaborate on projects within the suite.
+The integration allows users to move assets, metadata, and edits between Lightroom Classic and other Adobe applications with minimal manual intervention. Libraries, collections, and organizational structures can be accessed across the suite, enabling photographers to begin work in Lightroom Classic and transition to Photoshop or other tools without reimporting or reorganizing files. This connectivity is particularly valuable for professionals managing large image collections or coordinating between editing and design phases.
 
-## Cross-Application Workflows
+## Shared Resources and Cloud Synchronization
 
-The integration allows photographers to edit [[concepts/images|images]] in Lightroom Classic, refine them in Photoshop, and organize assets through Bridge without duplicating effort or losing [[concepts/organizational-structure|organizational structure]]. Smart object linking and dynamic library updates mean changes made in one application can propagate across connected projects. This interconnected approach is designed to reduce the time spent on file management and context-switching, allowing professionals to focus on creative work rather than administrative tasks.
+The ecosystem leverages cloud services to maintain consistency across devices and applications. User preferences, presets, and certain library information can synchronize across the Adobe Creative Cloud, allowing for continuity whether working on desktop or mobile versions of supported applications. This approach centralizes creative assets in a way that accommodates both local and cloud-based workflows.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

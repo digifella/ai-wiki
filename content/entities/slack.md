@@ -1,23 +1,7 @@
 ---
 type: entity
-tags:
-  - "collaboration"
-  - "communication"
-  - "enterprise-software"
-  - "ai"
-  - "salesforce"
-  - "collaboration-tools"
-  - "enterprise-communication"
-  - "ai-integration"
-  - "work-transformation"
-  - "salesforce-strategy"
-aliases:
-  - "Slack by Salesforce"
-  - "Salesforce's Slack"
-  - "AI in Slack"
-  - "Work Redefinition via Slack"
-summary: "Slack is a cloud-based collaboration and communication platform owned by Salesforce, highlighting its role in AI-driven work transformation."
-updated: 2026-04-14
+summary: Slack is a cloud-based collaboration and communication platform owned by Salesforce, highlighting its role in AI-driven work transformation.
+updated: 2026-05-23
 ---
 # Slack
 
@@ -33,7 +17,6 @@ updated: 2026-04-14
 
 **Backlinks:**
 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code|Building a Secure Personalized AI Second Brain using Claude Code]] · [▶ source](https://www.youtube.com/watch?v=1FiER-40zng)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Managed-Agents-API-Suite-for-Building-and-Deploying-Autonomous-|Claude Managed Agents API Suite for Building and Deploying Autonomous ]] · [▶ source](https://www.youtube.com/watch?v=NLWiIj47IdI)

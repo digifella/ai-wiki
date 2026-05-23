@@ -1,27 +1,13 @@
 ---
 type: concept
-domain: creative-pursuits
-tags:
-  - "design"
-  - "ui"
-  - "ai"
-  - "layered-ui"
-  - "design-systems"
-  - "accessibility-focused"
-  - "responsive-design"
-  - "ai-driven"
-  - "automation"
-  - "marketing-automation"
-  - "orchestration"
-aliases:
-  - "Layered UI"
-summary: "Layered UI design organizes interface elements into distinct layers for efficient iteration and accessibility, serving as a structural foundation for AI-driven automation and design system orchestration."
-updated: 2026-04-27
-group: design-systems-ui-infographics
+domain: ux-design
+summary: Layered UI design organizes interface elements into distinct layers for efficient iteration and accessibility, serving as a structural foundation for AI-driven automation and design system orchestration.
+updated: 2026-05-23
+group: uiux-fundamentals
 ---
 # Layered UI Design
 
-Layered UI design organizes interface elements into distinct, manageable layers (e.g., background, content, overlays, animations) for efficient [[concepts/iteration|iteration]], [[concepts/accessibility|accessibility]], and responsive behavior across devices.
+Layered UI [[concepts/design|design]] organizes interface elements into distinct, manageable layers (e.g., background, content, overlays, animations) for efficient [[concepts/iteration|iteration]], [[concepts/accessibility|accessibility]], and responsive behavior across devices.
 
 ## Key Principles
 - **[[concepts/disconnection|Separation]] of Concerns**: Each layer handles specific aspects (e.g., visual [[concepts/hierarchy|hierarchy]], interaction, data [[concepts/flow|flow]])
@@ -37,7 +23,6 @@ Layered UI design organizes interface elements into distinct, manageable layers 
 - Design Systems: Foundation for consistent layer implemen
 - [[entities/claude-ai|Claude AI]]: Automating marketing [[concepts/workflow|workflows]] through **custom [[concepts/skills|skills]]**, **design systems**, and **orchestration** for end-to-end [[concepts/content-creation|content production]].
   - Source: 2026 04 27 [[concepts/anthropic-ai|Claude AI]] Automated Marketing with Custom [[concepts/skills|Skills]] Design
-
 ## Source Notes
 
 - 2026-04-14: Google Stitch - Channel Teacher's Tech

@@ -1,18 +1,12 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "api-emulation"
-  - "ollama"
-  - "anthropic-api"
-  - "llm-orchestration"
-  - "local-llm"
-updated: 2026-04-23
+updated: 2026-05-23
 group: apis-integrations-mcp
 ---
 # API Emulation
 
-The process of mimicking the request/response [[concepts/structure|structure]], endpoints, and interface behavior of a specific API (e.g., [[entities/anthropic|Anthropic]] API) to allow [[concepts/software|software]] designed for one provider to function with alternative or local models.
+The process of mimicking the request/response [[concepts/structure|structure]], endpoints, and interface behavior of a specific API (e.g., [[entities/anthropic|Anthropic]] API) to allow [[concepts/software|software]] designed for one provider to function with alternative or local [[concepts/models|models]].
 
 ## Core Applications & Implementation
 
@@ -31,7 +25,6 @@ The process of mimicking the request/response [[concepts/structure|structure]], 
 - [[concepts/llm-orchestration|LLM Orchestration]]
 
 ---
-**Backlink**: 2026 04 14 [[entities/ollama|Ollama]] [[concepts/claude-ai|Claude]] GLM Channel [[entities/sam-witteveen|Sam Witteveen]]
-
+**Backlink**: 2026 04 14 [[entities/ollama|Ollama]] [[concepts/claude-ai|Claude]] [[entities/glm|GLM]] Channel [[entities/sam-witteveen|Sam Witteveen]]
 ## Source Notes
 - 2026-04-18: [[lab-notes/2026-04-18-Adobe-Camera-Raw-183-Depth-Masking-Lens-Correction-Film-Presets-Overvi|Adobe Camera Raw 183 Depth Masking Lens Correction Film Presets Overvi]] · [▶ source](https://www.youtube.com/watch?v=2WDnMKtmCeY)

@@ -1,39 +1,25 @@
 ---
 type: entity
-tags:
-  - "astronomy"
-  - "astrophysics"
-  - "jwst"
-  - "population_iii_stars"
-  - "gn-z11"
-  - "space-telescope"
-  - "nasa"
-  - "distant-galaxies"
-  - "population-iii-stars"
-aliases:
-  - "James Webb Space Telescope"
-  - "JWST"
-summary: "The James Webb Space Telescope, operated by NASA, ESA, and CSA, has observed distant galaxies and detected evidence for Population III stars in GN-z11."
-updated: 2026-04-21
+summary: The James Webb Space Telescope, operated by NASA, ESA, and CSA, has observed distant galaxies and detected evidence for Population III stars in GN-z11.
+updated: 2026-05-23
 ---
 # JWST Observations and Discoveries
 
 **JWST ([[concepts/jwst|James Webb Space Telescope]])** is a powerful telescope launched by [[concepts/nasa|NASA]], ESA, and CSA designed to explore the universe with unprecedented [[concepts/lightroom|clarity]]. It has made numerous groundbreaking discoveries since its [[concepts/deployment|deployment]].
 
 ### Key Discoveries
-- **First Light Detection**: first-light-detection JWST detected the earliest light in the universe.
+- **First [[concepts/light|Light]] Detection**: first-light-detection JWST detected the earliest light in the universe.
 - **Distant Galaxies**: distant-galaxies-discovery The telescope observed some of the most distant galaxies, providing insights into early cosmic structures.
 - **Evidence for [[concepts/first-generation-of-stars|Primordial Stars]] in [[entities/gn-z11|GN-z11]]**:
-  - [[entities/anton-petrov|Anton Petrov]]'s video "Possible Discovery of First Ever Stars in the Universe" discusses compelling evidence for Population III stars in GN-z11.
+  - [[entities/anton-petrov|Anton Petrov]]'s video "Possible Discovery of First Ever [[concepts/stellar-objects|Stars]] in the Universe" discusses compelling evidence for Population III stars in GN-z11.
   - VGekUw84lxQ?si=aAYPHa8tnKTfKbQf (2026-04-12)
 
 ### Related Concepts
-- **[[concepts/population-iii-stars|Population III Stars]]**: Theoretical first generation of stars formed from primordial matter, [[concepts/population-iii-stars]]
-- **[[concepts/gn-z11-galaxy|GN-z11 Galaxy]]**: One of the most distant galaxies observed by [[concepts/jwst|JWST]], gn-z11
+- **[[concepts/population-iii-stars|Population III Stars]]**: Theoretical [[concepts/first-generation-of-stars|first generation of stars]] formed from primordial matter, [[concepts/population-iii-stars]]
+- **[[concepts/gn-z11-galaxy|GN-z11 Galaxy]]**: One of the most distant galaxies observed by [[concepts/jwst|JWST]], [[entities/gn-z11|gn-z11]]
 
 Backlinks:
 [[concepts/date-2026-04-13|2026]] 04 12 JWST Detects Evidence of Universes [[concepts/primordial-stars|Primordial Population III]] Stars in
-
 ## Source Notes
 
 - 2026-04-12: [[lab-notes/2026-04-12-JWST-Detects-Evidence-of-Universes-Primordial-Population-III-Stars-in-|JWST Detects Evidence of Universes Primordial Population III Stars in ]] · [▶ source](https://www.youtube.com/watch?v=VGekUw84lxQ)

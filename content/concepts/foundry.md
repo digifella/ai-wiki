@@ -8,8 +8,8 @@ tags:
   - "ai-agents"
   - "automation"
   - "deployment"
-summary: "Foundry is a platform designed to facilitate the creation, deployment, and management of AI agents and applications."
-updated: 2026-04-28
+summary: Foundry is a platform designed to facilitate the creation, deployment, and management of AI agents and applications.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Foundry
@@ -19,14 +19,14 @@ A [[concepts/foundry|foundry]] is a system or platform designed to facilitate th
 ## Key Features
 
 - **[[entities/agent|Agent]] Development**: Provides tools and environments for building AI [[concepts/agents|agents]].
-- **[[concepts/integration|Integration]] Capabilities**: Supports integration with other platforms and services.
+- **[[concepts/integration|Integration]] [[concepts/capabilities|Capabilities]]**: Supports integration with other platforms and services.
 - **Scalability**: Designed to handle large-scale deployments and [[concepts/complex-workflows|complex workflows]].
 
 ## Related Concepts
 
 - [[concepts/azure-ai|Azure AI]]
 - [[concepts/agentic-rag|Agentic RAG]]
-- Microsoft
+- [[entities/microsoft|Microsoft]]
 
 ## Use Cases
 
@@ -41,4 +41,4 @@ A [[concepts/foundry|foundry]] is a system or platform designed to facilitate th
 ## Additional Information
 
 - **[[concepts/tutorial|Tutorial]]**: [How to Create an Agentic RAG AI Agent in Azure](https://www.youtube.com/watch?v=xXTuxKdzZrI)
-- **Guide**: [[concepts/markdown|Markdown]] guide based on the video [[concepts/tutorial|tutorial]] for creating an [[concepts/ai-agent|AI Agent]] using [[concepts/agentic-rag|Agentic RAG]] in Microsoft [[entities/azure|Azure]].
+- **Guide**: [[concepts/markdown|Markdown]] guide based on the video [[concepts/tutorial|tutorial]] for creating an [[concepts/ai-agent|AI Agent]] using [[concepts/agentic-rag|Agentic RAG]] in [[entities/microsoft|Microsoft]] [[entities/azure|Azure]].

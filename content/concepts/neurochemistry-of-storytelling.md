@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: books-storytelling-media-culture
 tags:
   - "concept"
   - "neurochemistry"
@@ -14,11 +13,12 @@ aliases:
   - "Science of Storytelling"
   - "Neurochemical Effects of Narrative"
 summary: Explores the neurochemical mechanisms through which storytelling creates emotional engagement in audiences.
-updated: 2026-05-01
+updated: 2026-05-23
+group: books-storytelling-media-culture
 ---
 # Neurochemistry Of Storytelling
 
-[[concepts/storytelling|Storytelling]] activates multiple neurochemical systems in the listener's brain, creating measurable physiological [[concepts/responses|responses]] that underpin [[concepts/emotional-engagement|emotional engagement]]. When audiences encounter compelling narratives, their brains release neurotransmitters and hormones including dopamine, cortisol, and oxytocin. These chemical cascades are not incidental to storytelling but fundamental to how narratives create lasting impressions and influence behavior.
+[[concepts/storytelling|Storytelling]] activates multiple neurochemical systems in the listener's brain, creating measurable physiological [[concepts/responses|responses]] that underpin [[concepts/emotional-engagement|emotional engagement]]. When audiences encounter compelling narratives, their brains release neurotransmitters and hormones including dopamine, cortisol, and oxytocin. These chemical cascades are not incidental to storytelling but fundamental to how narratives create lasting impressions and [[concepts/power|influence]] behavior.
 
 ## Neurochemical Mechanisms
 
@@ -26,7 +26,6 @@ Dopamine release occurs during moments of tension, suspense, or anticipation wit
 
 ## Applications in Entertainment and Games
 
-Understanding these neurochemical pathways has practical implications for narrative design in entertainment and [[concepts/gaming|gaming]]. Story designers can leverage knowledge of emotional pacing to modulate neurotransmitter release, timing revelations or conflicts to maintain dopamine-driven engagement. Games and interactive media benefit particularly from this understanding, as they allow dynamic control over narrative pacing and can more precisely calibrate the neurochemical responses of individual players through branching storylines and variable difficulty.
-
+Understanding these neurochemical pathways has practical implications for narrative [[concepts/design|design]] in entertainment and [[concepts/gaming|gaming]]. Story designers can leverage knowledge of emotional pacing to modulate neurotransmitter release, timing revelations or conflicts to maintain dopamine-driven engagement. Games and interactive media benefit particularly from this understanding, as they allow dynamic control over narrative pacing and can more precisely calibrate the neurochemical responses of individual players through branching storylines and variable difficulty.
 ## Source Notes
-- 2026-04-11: The magical science of storytelling | [[entities/david|David JP Phillips | TEDxStockholm]]
+- 2026-04-11: The magical science of storytelling | [[entities/david| TEDxStockholm]]

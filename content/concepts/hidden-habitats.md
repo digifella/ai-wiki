@@ -1,16 +1,10 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "mars-exploration"
-  - "extraterrestrial-life"
-  - "extreme-environments"
-  - "hidden-habitats"
-  - "subsurface-environments"
-summary: "The concept of hidden habitats on Mars suggests that extremophile organisms could survive in subsurface environments protected from harsh surface conditions."
-updated: 2026-04-11
+summary: The concept of hidden habitats on Mars suggests that extremophile organisms could survive in subsurface environments protected from harsh surface conditions.
+updated: 2026-05-23
 group: planetary-environments-mars
-title: "Hidden Habitats"
+title: Hidden Habitats
 ---
 - Mars Exploration
 - [[concepts/extraterrestrial-life|Extraterrestrial Life]]
@@ -28,7 +22,7 @@ The concept of hidden habitats refers to the idea that life, particularly microb
 - **Permafrost/Ice Caps:** Ice formations that may harbor liquid water pockets, offering potential habitats.
 
 ### Related Concepts
-[[concepts/extremophiles]], mars-surface-characteristics, search-for-life-on-mars
+[[concepts/extremophiles]], mars-surface-characteristics, search-for-[[concepts/mars-life|life-on-mars]]
 
 ## New Information
 
@@ -36,7 +30,6 @@ The concept of hidden habitats refers to the idea that life, particularly microb
   - [[concepts/martian-soil|Martian soil]] is highly toxic due to its high concentration of [[concepts/perchlorates|perchlorates]], making it lethal for most known forms of life. However, subsurface environments could provide refuge.
   - [[concepts/tardigrades|Tardigrades]] and similar extremophiles highlight Earth's limits but also suggest possible [[concepts/adaptations|adaptations]] needed for survival on Mars.
   - The video discusses the paradox that conditions considered deadly might actually support specialized forms of life in hidden habitats.
-
 ## Source Notes
 
 - 2026-04-10: Martian Soil Is Deadly. And That's Why It Might Support

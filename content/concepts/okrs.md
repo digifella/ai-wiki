@@ -1,12 +1,8 @@
 ---
-domain: business-strategy
-group: products-operations-business-economics
 type: concept
-tags:
-  - "okr"
-  - "ai"
-  - "strategy"
-updated: 2026-04-14
+domain: business-strategy
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # OKRs
 
@@ -29,8 +25,7 @@ Objectives and Key Results (OKRs) are a goal-setting framework for defining meas
 
 Backlink: 2026 04 14 Detailed use of agents for a SME business
 
-- 2026-04-08 [2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni](2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni.md) ← Auto Research Ai Driven Algorithmic Optimization With Iterative Learni
-- 2026-04-11 [2026-04-11-Claudes-Advisor-Strategy-Monitor-Tool-and-Managed-Agents-for-AI-Develo](2026-04-11-Claudes-Advisor-Strategy-Monitor-Tool-and-Managed-Agents-for-AI-Develo.md) ← Claudes Advisor Strategy Monitor Tool And Managed Agents For Ai Develo
+- 2026-04-08 [2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni](2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni.md) ← Auto Research Ai Driven [[concepts/algorithmic-optimization|Algorithmic Optimization]] With Iterative Learni
+- 2026-04-11 [2026-04-11-Claudes-Advisor-Strategy-Monitor-Tool-and-Managed-Agents-for-AI-Develo](2026-04-11-Claudes-Advisor-Strategy-Monitor-Tool-and-Managed-Agents-for-AI-Develo.md) ← Claudes [[concepts/advisor-strategy|Advisor Strategy]] [[concepts/monitor-tool|Monitor Tool]] And [[concepts/managed-agents|Managed Agents]] For Ai Develo
 - 2026-04-10 [2026-04-10-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni](2026-04-10-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni.md) ← Auto Research Ai Driven Algorithmic Optimization With Iterative Learni
 ## Source Notes
-

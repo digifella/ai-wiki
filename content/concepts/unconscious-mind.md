@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: philosophy-religion
-tags:
-  - "psychology"
-  - "cognition"
-  - "consciousness"
-  - "unconscious-mind"
-  - "mental-processes"
-  - "inner-space"
-aliases:
-  - "unconscious"
-summary: "The unconscious mind comprises the mental processes, structures, and information that operate outside of immediate awareness."
-updated: 2026-04-26
+summary: The unconscious mind comprises the mental processes, structures, and information that operate outside of immediate awareness.
+updated: 2026-05-23
 group: philosophy-ethics-logic
 ---
 # Unconscious mind
@@ -25,6 +16,5 @@ The Unconscious mind comprises the mental processes, structures, and information
 
 ### Related References
 - 2026 04 22 The Minds Evolution [[concepts/inner-space|Inner Space]] Consciousness and Human Animal Differences
-
 ## Source Notes
 - 2026-04-22: [[lab-notes/2026-04-22-The-Minds-Evolution-Inner-Space-Consciousness-and-Human-Animal-Differences|The Mind's Evolution: Inner Space, Consciousness, and Human-Animal Differences]] · [▶ source](https://www.youtube.com/watch?v=dl0-TveDDGA)

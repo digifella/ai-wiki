@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "bacon"
   - "pan-frying"
@@ -12,7 +11,8 @@ aliases:
   - "frying bacon in a pan"
   - "stovetop bacon"
 summary: A cooking method for preparing bacon by cooking strips in a pan on the stovetop.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Pan Frying Bacon
 
@@ -20,7 +20,7 @@ Pan frying bacon is a stovetop cooking method in which bacon strips are placed i
 
 ## Basic Technique
 
-The process typically begins with placing bacon strips in a cold or room-temperature pan, then applying heat—usually medium or medium-high depending on desired crispness and the pan's material. As the bacon cooks, it should be monitored and sometimes turned to ensure even browning on both sides. Cooking time ranges from approximately 5 to 15 minutes depending on thickness, desired doneness, and heat level. Once cooked to the preferred [[concepts/texture|texture]], strips are typically transferred to paper towels or a wire rack to drain excess fat.
+The process typically begins with placing bacon strips in a cold or room-temperature pan, then applying heat—usually medium or medium-high depending on desired crispness and the pan's material. As the bacon cooks, it should be monitored and sometimes turned to ensure even browning on both sides. [[concepts/cooking-time|Cooking time]] ranges from approximately 5 to 15 minutes depending on thickness, desired doneness, and heat level. Once cooked to the preferred [[concepts/texture|texture]], strips are typically transferred to paper towels or a wire rack to drain excess fat.
 
 ## Considerations
 

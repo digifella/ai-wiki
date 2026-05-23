@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: architecture-cities-heritage
 tags:
   - "heritage-preservation"
   - "dunlop-rubber-floors"
@@ -12,7 +11,8 @@ aliases:
   - "Preservation Techniques"
   - "Heritage Conservation Methods"
 summary: The notes detail specific examples of heritage preservation, including Dunlop rubber floors and mosaic tiling.
-updated: 2026-05-01
+updated: 2026-05-23
+group: architecture-cities-heritage
 ---
 # Heritage Preservation Methods
 
@@ -20,7 +20,7 @@ updated: 2026-05-01
 
 ## Physical Spaces and Fixtures
 
-One documented example of heritage preservation involves the retention of original architectural and design elements within heritage-listed establishments. The [[entities/south-seas-cafe|South Seas Cafe]] demonstrates preservation practices applied to interior features, including mosaic tile work and specialized flooring materials such as [[concepts/dunlop-rubber-floors|Dunlop rubber floors]]. These structural elements represent both the aesthetic choices and manufacturing techniques characteristic of their period, making their preservation valuable for understanding historical design practices and material culture.
+One documented example of heritage preservation involves the retention of original architectural and [[concepts/design|design]] elements within heritage-listed establishments. The [[entities/south-seas-cafe|South Seas Cafe]] demonstrates preservation practices applied to interior features, including mosaic tile work and specialized flooring materials such as [[concepts/dunlop-rubber-floors|Dunlop rubber floors]]. These structural elements represent both the aesthetic choices and manufacturing techniques characteristic of their period, making their preservation valuable for understanding historical design practices and material culture.
 
 ## Documentation and Cultural Context
 

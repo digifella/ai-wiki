@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "ai-platform"
   - "developer-tools"
@@ -11,7 +10,8 @@ tags:
 aliases:
   - "Microsoft Foundry"
 summary: Microsoft Foundry is a platform designed to help developers build AI applications and agents.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Unified Platform
 
@@ -19,12 +19,11 @@ updated: 2026-05-01
 
 ## Core Purpose
 
-The platform addresses the fragmentation developers typically encounter when constructing AI systems by consolidating essential capabilities into a single environment. This unified approach reduces complexity in the development workflow and enables faster [[concepts/iteration|iteration]] on AI applications.
+The platform addresses the fragmentation developers typically encounter when constructing AI systems by consolidating essential [[concepts/capabilities|capabilities]] into a single environment. This unified approach reduces complexity in the development [[concepts/workflow|workflow]] and enables faster [[concepts/iteration|iteration]] on AI [[concepts/software|applications]].
 
 ## Developer Focus
 
-Microsoft Foundry is specifically architected to support both traditional [[concepts/ai-application-development|AI application development]] and the emerging category of autonomous agents. The platform abstracts underlying complexity while maintaining the flexibility required for diverse implementation approaches, making it accessible to developers with varying levels of [[concepts/ai-expertise|AI expertise]].
-
+[[concepts/ai-app-factory|Microsoft Foundry]] is specifically architected to support both traditional [[concepts/ai-application-development|AI application development]] and the emerging category of [[concepts/agentic-systems|autonomous agents]]. The platform abstracts underlying complexity while maintaining the flexibility required for diverse [[concepts/adoption|implementation]] approaches, making it accessible to developers with varying levels of [[concepts/ai-expertise|AI expertise]].
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Nvidia-CUDA-GPU-Parallel-Computing-for-AI-Advancement|Nvidia CUDA GPU Parallel Computing for AI Advancement]] · [▶ source](https://www.youtube.com/watch?v=pPStdjuYzSI)
 - 2026-04-13: [[lab-notes/2026-04-13-Ollama-and-Zapier-MCP-Local-LLM-AI-Agent-Setup-and-Integration|Ollama and Zapier MCP Local LLM AI Agent Setup and Integration]] · [▶ source](https://www.youtube.com/watch?v=GAyNvq6Ayps)

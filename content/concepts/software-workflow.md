@@ -1,27 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "software"
-  - "workflow"
-  - "ai"
-  - "digital-twin"
-  - "automation"
-  - "software-workflows"
-  - "process-automation"
-  - "digital-twin-cloning"
-  - "ci-cd-pipelines"
-  - "content-generation"
-aliases:
-  - "automated-workflows"
-  - "software-processes"
-summary: "A structured sequence of automated or semi-automated steps designed to transform input into a desired output through modular and traceable processes."
-updated: 2026-04-16
+summary: A structured sequence of automated or semi-automated steps designed to transform input into a desired output through modular and traceable processes.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Software Workflow
 
-A structured sequence of automated or semi-automated steps that transform input into desired output within a [[concepts/software|software]] system, emphasizing efficiency, reproducibility, and integration between components.
+A structured sequence of automated or semi-automated steps that transform input into desired [[concepts/output|output]] within a [[concepts/software|software]] system, emphasizing efficiency, reproducibility, and [[concepts/integration|integration]] between components.
 
 ## Key Characteristics
 - **Modular**: Discrete, reusable steps (e.g., data ingestion, AI processing)
@@ -30,18 +16,17 @@ A structured sequence of automated or semi-automated steps that transform input 
 
 ## Example Workflows
 - **[[concepts/digital-twin-cloning|Digital twin cloning]]**:
-  - Film subject with proper lighting/angles → Process via [[entities/heygen|Heygen]] for video avatar → Synthesize voice via [[entities/eleven-labs|ElevenLabs]] → Final output avoids "[[concepts/uncanny-valley|Uncanny Valley]]" (see 2026 04 14 [[concepts/heygen|Heygen]] and Elevenlabs for [[concepts/ai-avatar-creation|digital twin]] [[concepts/cloning|cloning]])
-- **CI/CD pipelines**: Code commit → [[concepts/automated-software-testing|Automated testing]] → [[concepts/containerization|Containerization]] → [[concepts/deployment|Deployment]]
-- **Content generation**: Text input → [[concepts/generative-ai]] → Style refinement → Output delivery
+  - Film subject with proper lighting/angles → Process via [[entities/heygen|Heygen]] for video avatar → Synthesize [[concepts/tone|voice]] via [[entities/eleven-labs|ElevenLabs]] → Final output avoids "[[concepts/uncanny-valley|Uncanny Valley]]" (see 2026 04 14 [[concepts/heygen|Heygen]] and Elevenlabs for [[concepts/ai-avatar-creation|digital twin]] [[concepts/cloning|cloning]])
+- **[[concepts/cicd-pipelines|CI/CD]] pipelines**: [[concepts/code|Code]] commit → [[concepts/automated-software-testing|Automated testing]] → [[concepts/containerization|Containerization]] → [[concepts/deployment|Deployment]]
+- **Content generation**: [[concepts/text|Text]] input → [[concepts/generative-ai]] → [[concepts/style|Style]] refinement → Output delivery
 
 ## Best Practices
 - Document all dependencies (e.g., tool versions, [[concepts/api-keys|API keys]])
-- Implement version control for workflow definitions
-- Include validation checkpoints at each step
+- Implement version [[concepts/power|control]] for [[concepts/workflow|workflow]] definitions
+- Include validation checkpoints [[concepts/assistive-technology|at]] each step
 - Use error handling strategies for failure recovery
 
 Backlink: 2026 04 14 Heygen and Elevenlabs for digital twin cloning
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents

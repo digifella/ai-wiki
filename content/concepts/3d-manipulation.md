@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: creative-pursuits
-updated: 2026-04-11
+updated: 2026-05-23
 group: interactive-visualisation
 ---
 # 3D Manipulation
@@ -23,15 +23,14 @@ group: interactive-visualisation
 
 - **[[concepts/beta-version|Photoshop Beta]]'s [[concepts/ai-rotate-object|AI Rotate Object]]**
     - **Date Introduced:** April 10, 2026
-    - **Version Required:** Photoshop Beta version 27.5.0 or higher
+    - **Version Required:** [[entities/adobe-photoshop-beta|Photoshop Beta version]] 27.5.0 or higher
     - **Description:** This feature allows users to manipulate 2D objects within an image as if they exist in a 3D space.
         - Users can rotate objects along different axes and adjust perspective.
         - The tool is AI-powered, providing intelligent assistance for precise manipulation.
 
 ### Additional Resources
 
-- 2026 04 10 [[concepts/photoshop|Photoshop]] Betas [[concepts/2d-image-rotation|AI Rotate Object]] 3D Manipulation of 2D Images
-
+- 2026 04 10 [[concepts/photoshop|Photoshop]] Betas [[concepts/2d-image-rotation|AI Rotate Object]] [[concepts/2d-to-3d-transformation|3D Manipulation of 2D Images]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

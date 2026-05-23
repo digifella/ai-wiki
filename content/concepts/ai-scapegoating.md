@@ -1,7 +1,7 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-futures-self-improvement
+domain: business-strategy
+group: enterprise-strategy-future-work
 tags:
   - "concept"
   - "ai-scapegoating"
@@ -15,19 +15,19 @@ aliases:
   - "AI scapegoating in enterprise"
   - "Benioff on AI accountability"
 summary: Marc Benioff discusses Salesforce's AI strategy, agents, and the concept of AI scapegoating.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Scapegoating
 
-AI scapegoating refers to the practice of attributing organizational or societal problems to [[concepts/ai-technologies|artificial intelligence]] systems as a convenient explanation, often while avoiding examination of underlying causes or acknowledgment of human responsibility. When AI implementations produce disappointing results or cause measurable harm, institutions may deflect [[concepts/accountability|accountability]] by framing the technology itself as the primary source of failure, rather than addressing contributing factors such as poor implementation practices, inadequate or biased [[concepts/training-data|training data]], misaligned performance objectives, or flawed human decision-making in system [[concepts/deployment|deployment]] and ongoing use.
+AI scapegoating refers to the practice of attributing organizational or societal problems to artificial intelligence systems as a convenient explanation, often while deflecting attention from underlying causes or human responsibility. When AI implementations produce disappointing results or measurable harm, institutions may blame the technology itself as the primary source of failure rather than examining contributing factors such as poor implementation, inadequate training, flawed deployment strategies, or misaligned organizational processes.
 
-## Mechanisms and Context
+## Organizational Context
 
-The phenomenon typically emerges when organizations experience failures or negative outcomes involving AI systems. Rather than conducting thorough post-mortems examining organizational processes, [[concepts/governance|governance]] structures, or human choices, responsibility is shifted to the AI itself. This can occur regardless of whether the technology functioned as designed—the focus becomes the tool rather than how it was built, trained, integrated, or monitored. The practice may reflect broader organizational pressures to protect human decision-makers from scrutiny or to avoid admitting resource constraints, insufficient expertise, or strategic misjudgments.
+Within business settings, AI scapegoating commonly occurs when companies deploy AI systems without proper change management, adequate data quality preparation, or staff readiness. Rather than acknowledging these implementation gaps, organizations may attribute failures to inherent limitations of the AI technology. This allows decision-makers to avoid accountability for planning shortcomings while potentially avoiding necessary investments in proper adoption infrastructure, workforce training, and process redesign that successful AI integration requires.
 
-## Implications
+## Broader Implications
 
-AI scapegoating can obscure patterns of repeated failure and prevent [[concepts/learning|learning]] at both organizational and industry levels. By treating AI problems as technical issues inherent to the systems themselves rather than as sociotechnical failures, institutions may implement ineffective solutions or avoid necessary changes to their processes, data practices, or governance structures. The concept gained broader [[concepts/attention-mechanisms|attention]] as AI systems became more prevalent in consequential domains, with critics noting that concentrating blame on AI rather than examining human oversight, institutional design, and accountability structures can undermine responsible technology governance.
+The practice can obscure genuine technical limitations and appropriate caution regarding AI capabilities, making it difficult to have honest discussions about where AI is genuinely unsuitable or where human oversight is critical. Simultaneously, it may delay necessary organizational changes and learning that could improve outcomes. Understanding AI scapegoating requires distinguishing between legitimate concerns about AI system failures and instances where technology becomes a convenient target for avoiding deeper institutional accountability.
 
 ## Source Notes
 - 2026-04-07: Marc Benioff: Salesforce

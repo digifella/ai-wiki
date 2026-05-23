@@ -1,19 +1,8 @@
 ---
 type: entity
-tags:
-  - "tech"
-  - "reviews"
-  - "android"
-  - "tech-reviews"
-  - "android-analysis"
-  - "device-analysis"
-  - "in-depth-tech-reviews"
-aliases:
-  - "In-Depth Tech Reviews creator"
-summary: "Emad Hussien is the creator of the In-Depth Tech Reviews channel, specializing in Android and device analysis."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 Android 16 review"
+summary: Emad Hussien is the creator of the In-Depth Tech Reviews channel, specializing in Android and device analysis.
+updated: 2026-05-23
+stub: true
 ---
 # Emad Hussien
 
@@ -27,8 +16,7 @@ backlinks:
 
 [[concepts/date-2026-04-13|2026]] 04 14 [[entities/android|Android]] 16 review
 
-- 2026-04-22 [2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities](2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities.md) ← Openai Gpt Image 2.0 Evaluating Next Gen Ai Image Generation Capabilities
-- 2026-04-07 [2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro](2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro.md) ← Snapseed Overview Free Photo Editing App With New Camera And Pro
+- 2026-04-22 [2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities](2026-04-22-OpenAI-GPT-Image-2.0-Evaluating-Next-Gen-AI-Image-Generation-Capabilities.md) ← [[entities/openai|Openai]] [[entities/gpt-image-20|Gpt Image 2.0]] Evaluating Next Gen [[concepts/ai-image-generation|Ai Image Generation]] [[concepts/capabilities|Capabilities]]
+- 2026-04-07 [2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro](2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro.md) ← [[entities/snapseed|Snapseed]] Overview Free [[concepts/photo-editing|Photo Editing]] App With New Camera And Pro
 - 2026-04-08 [2026-04-08-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro](2026-04-08-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro.md) ← Snapseed Overview Free Photo Editing App With New Camera And Pro
 ## Source Notes
-

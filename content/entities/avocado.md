@@ -8,7 +8,7 @@ tags:
 aliases:
   - "avocado pear"
 summary: A fruit commonly consumed for culinary and nutritional purposes.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Avocado
 
@@ -21,6 +21,5 @@ The fruit is widely consumed in cuisines around the world, particularly in Latin
 ## Cultivation and Production
 
 Major producers of avocados include Mexico, Indonesia, Colombia, and California. The crop requires specific climate conditions, preferring subtropical to tropical environments with moderate rainfall. Commercial cultivation has expanded significantly since the mid-20th century in response to growing international demand, though the crop remains sensitive to environmental factors such as water availability and frost.
-
 ## Source Notes
 - 2026-04-28: [[lab-notes/2026-04-28-Nutritious-Chickpea-Salad-Satiety-and-Weight-Loss-Recipe|Nutritious Chickpea Salad: Satiety and Weight Loss Recipe]] · [▶ source](https://www.youtube.com/watch?v=vfmjk6L4tfw)

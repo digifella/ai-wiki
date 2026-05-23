@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "communication-strategies"
   - "discourse-methods"
@@ -13,7 +12,8 @@ aliases:
   - "communication-tactics"
   - "dialogue-techniques"
 summary: This page covers communication strategies.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 title: communication strategies
 ---
 # Communication Strategies
@@ -26,8 +26,7 @@ Effective communication requires clarity of [[concepts/motivation|purpose]] and 
 
 ## Practical Application
 
-Communication strategies vary significantly depending on whether the goal is to inform, persuade, build consensus, or facilitate mutual understanding. Different contexts—whether educational, institutional, or interpersonal—call for adapted approaches. The choice of directness versus indirectness, literal versus metaphorical language, and formal versus informal tone all constitute strategic decisions that influence how messages are received and acted upon.
-
+Communication strategies vary significantly depending on whether the goal is to inform, persuade, build consensus, or facilitate mutual understanding. Different contexts—whether educational, institutional, or interpersonal—call for adapted approaches. The choice of directness versus indirectness, literal versus metaphorical language, and formal versus informal [[concepts/tone|tone]] all constitute strategic decisions that [[concepts/power|influence]] how messages are received and acted upon.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Claude-Co-Work-8-Advanced-Use-Cases-for-AI-Powered-Workflow-Automation|Claude Co Work 8 Advanced Use Cases for AI Powered Workflow Automation]] · [▶ source](https://www.youtube.com/watch?v=gp3d7RAgFME)
 - 2026-04-29: Hermes · [▶ source](https://www.youtube.com/watch?v=1ve4Atbqmoo)

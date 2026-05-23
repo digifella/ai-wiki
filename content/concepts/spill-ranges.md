@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: tools-platforms
 tags:
   - "data-ranges"
   - "spillover"
@@ -12,8 +11,9 @@ tags:
 aliases:
   - "spillover ranges"
   - "spill capacity"
-summary: "A concept related to dynamic data ranges that handles overflow or excess capacity in data range management systems."
-updated: 2026-05-01
+summary: A concept related to dynamic data ranges that handles overflow or excess capacity in data range management systems.
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Spill Ranges
 
@@ -21,7 +21,7 @@ Spill ranges are a [[concepts/data-management|data management]] mechanism used i
 
 ## Function and Implementation
 
-The concept typically applies to situations where formulas, queries, or data operations generate results larger than their target range can accommodate. Instead of truncating or rejecting the overflow, a spill range extends the data presentation across additional cells or [[concepts/memory|memory]] locations in a structured manner. This allows users and systems to work with complete result sets without requiring manual intervention to resize containers or adjust formulas.
+The concept typically applies to situations where formulas, queries, or data operations generate results larger than their target [[concepts/range|range]] can accommodate. Instead of truncating or rejecting the overflow, a spill range extends the data presentation across additional cells or [[concepts/memory|memory]] locations in a structured manner. This allows users and systems to work with complete result sets without requiring manual intervention to resize containers or adjust formulas.
 
 ## Relationship to Dynamic Data Ranges
 

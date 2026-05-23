@@ -9,9 +9,10 @@ tags:
   - "risk-analysis"
   - "risk-evaluation"
   - "cybersecurity"
-summary: "A systematic process of evaluating potential risks and their impacts through hazard identification, risk analysis, and risk evaluation."
-updated: 2026-04-28
+summary: A systematic process of evaluating potential risks and their impacts through hazard identification, risk analysis, and risk evaluation.
+updated: 2026-05-23
 group: privacy-security-guardrails
+stub: true
 ---
 # Risk Assessment
 
@@ -35,11 +36,10 @@ A systematic process of evaluating potential risks and their impacts.
 
 ## Notes
 - New [[concepts/ai-technologies|AI technologies]] in healthcare require updated [[concepts/governance|governance]] frameworks.
-- Existing frameworks often lack practical implementation for risk assessment.
+- Existing frameworks often lack practical [[concepts/adoption|implementation]] for risk assessment.
 - [[concepts/ai-governance|AI governance]] needs to be embedded into existing processes for safe and responsible use.
 
 ## Backlinks
 - 2026 04 14 [[entities/bmj-review|BMJ Review]]
-
 ## Source Notes
 - 2026-04-24: Strategies to Transform Claude AI · [▶ source](https://www.youtube.com/watch?v=c68ha7pY9aE)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "prompt-engineering"
@@ -14,7 +13,8 @@ aliases:
   - "CAIA"
   - "Response Review"
 summary: A technique for improving AI responses through systematic critique and iterative refinement of prompts.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Prompt Improvement
 
@@ -22,12 +22,11 @@ Prompt improvement is a systematic approach to enhancing AI model outputs by ite
 
 ## Iterative Refinement Process
 
-The core mechanism of prompt improvement involves a [[concepts/feedback|feedback]] loop: an initial prompt produces a response, which is then evaluated for quality and relevance. Based on this evaluation, the prompt is modified—whether by adding constraints, clarifying intent, providing better context, or restructuring the request—and resubmitted. This cycle can repeat multiple times until the outputs meet desired [[concepts/open-standards|standards]]. The technique is particularly effective when combined with [[concepts/agents|agents]] that can autonomously modify and test prompts without human intervention between iterations.
+The core mechanism of prompt improvement involves a [[concepts/feedback|feedback]] [[concepts/loop|loop]]: an initial prompt produces a response, which is then evaluated for quality and relevance. Based on this evaluation, the prompt is modified—whether by adding constraints, clarifying intent, providing better context, or restructuring the request—and resubmitted. This cycle can repeat multiple times until the outputs meet desired [[concepts/open-standards|standards]]. The technique is particularly effective when combined with [[concepts/agents|agents]] that can autonomously modify and test prompts without human intervention between iterations.
 
 ## Applications in AI Systems
 
-Prompt improvement has proven valuable in [[concepts/agentic-ai|autonomous AI systems]] where agents need to optimize their own performance over time. Self-editing search agents, content generation systems, and other intelligent workflows have incorporated prompt refinement mechanisms to improve [[concepts/accuracy|accuracy]], relevance, and efficiency. By treating prompts as modifiable components rather than fixed inputs, these systems can adapt to task requirements and learn from suboptimal outputs without requiring external retraining.
-
+Prompt improvement has proven valuable in [[concepts/agentic-ai|autonomous AI systems]] where agents need to optimize their own performance over time. [[concepts/self-editing-search-agents|Self-editing search agents]], content generation systems, and other intelligent workflows have incorporated prompt refinement mechanisms to improve [[concepts/accuracy|accuracy]], relevance, and efficiency. By treating prompts as modifiable components rather than fixed inputs, these systems can adapt to task requirements and learn from suboptimal outputs without requiring external retraining.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

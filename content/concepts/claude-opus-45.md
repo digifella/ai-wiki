@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: anthropic-claude
 tags:
   - "claude-opus-45"
   - "gpt-52"
@@ -14,20 +13,20 @@ aliases:
   - "Claude Opus 4.5 vs GPT-5.2"
   - "One-Shot Build Benchmark"
 summary: A comparison of Anthropic's Claude Opus 4.5 and OpenAI's GPT-5.2 using a 'One-Shot Build' benchmark.
-updated: 2026-05-01
+updated: 2026-05-23
+group: anthropic-claude
 ---
 # Claude Opus 4.5
 
-Claude Opus 4.5 is [[entities/anthropic-institute|Anthropic]]'s [[concepts/large-language-model|large language model]], positioned as a competitor to [[entities/openai|OpenAI]]'s GPT series. It has been evaluated against [[concepts/gpt-52|GPT-5.2]] using specialized [[concepts/benchmark-testing|benchmarking]] methodologies designed to test real-world [[concepts/app-creation|application development]] [[concepts/scenarios|scenarios]].
+[[entities/claude-opus-45|Claude Opus 4.5]] is [[entities/anthropic-institute|Anthropic]]'s [[concepts/large-language-model|large language model]], positioned as a competitor to [[entities/openai|OpenAI]]'s GPT series. It has been evaluated against [[concepts/gpt-52|GPT-5.2]] using specialized [[concepts/benchmark-testing|benchmarking]] methodologies designed to test real-world [[concepts/app-creation|application development]] [[concepts/scenarios|scenarios]].
 
 ## One-Shot Build Benchmark
 
-A notable comparison between Claude Opus 4.5 and GPT-5.2 employed a "[[concepts/one-shot-build|One-Shot Build]]" benchmark—a complex evaluation framework that tests model performance on intricate, multi-step tasks rather than isolated capability metrics. This approach aims to measure how effectively each model can execute comprehensive development work from minimal initial instruction, reflecting practical use cases in [[concepts/coding|software development]] and agent design.
+A notable comparison between Claude Opus 4.5 and [[entities/chatgpt-52|GPT-5.2]] employed a "[[concepts/one-shot-build|One-Shot Build]]" benchmark—a complex evaluation framework that tests model performance on intricate, multi-step tasks rather than isolated capability metrics. This approach aims to measure how effectively each model can execute comprehensive development work from minimal initial instruction, reflecting practical [[concepts/use-cases|use cases]] in [[concepts/coding|software development]] and [[entities/agent|agent]] [[concepts/design|design]].
 
 ## Comparative Performance
 
-Benchmark results from such evaluations provide insight into the relative strengths of each model across [[concepts/reasoning|reasoning]], code generation, and task completion capabilities. The one-shot methodology is particularly relevant for assessing [[concepts/agentic-ai|AI agents]], where a model's ability to execute [[concepts/complex-workflows|complex workflows]] with limited guidance directly impacts utility and efficiency.
-
+Benchmark results from such evaluations provide insight into the relative strengths of each model across [[concepts/reasoning|reasoning]], [[concepts/code-generation|code generation]], and task completion [[concepts/capabilities|capabilities]]. The one-shot methodology is particularly relevant for assessing [[concepts/agentic-ai|AI agents]], where a model's ability to execute [[concepts/complex-workflows|complex workflows]] with limited guidance directly impacts utility and efficiency.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

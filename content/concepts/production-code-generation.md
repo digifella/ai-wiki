@@ -1,41 +1,29 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ai"
-  - "code-generation"
-  - "ui-design"
-  - "ai-driven"
-  - "design-to-code"
-  - "production-ready"
-  - "low-code"
-aliases:
-  - "Production-Ready Code Generation"
-  - "Automated Production Code Generation"
-summary: "Production Code Generation automates the creation of production-ready code from high-level specifications such as text, sketches, or design files using AI without manual coding."
-updated: 2026-04-15
+summary: Production Code Generation automates the creation of production-ready code from high-level specifications such as text, sketches, or design files using AI without manual coding.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Production Code Generation
 
-Automated generation of executable, maintainable code from high-level specifications (text, sketches, or [[concepts/design|design]] files), typically using AI to produce production-ready outputs without manual [[concepts/coding|coding]].
+Automated generation of executable, maintainable [[concepts/code|code]] from high-level specifications ([[concepts/text|text]], sketches, or [[concepts/design|design]] [[concepts/files|files]]), typically using AI to produce production-ready outputs without manual [[concepts/coding|coding]].
 
 ## Key Examples
 
-- [[entities/google-stitch]]: [[concepts/ai-design-agent|AI design agent]] converting text/sketches into professional UI designs and production-ready code in <60 seconds. Features:
+- [[entities/google-stitch]]: [[concepts/ai-design-agent|AI design agent]] converting text/sketches into professional UI designs and [[concepts/production-ready-code|production-ready code]] in <60 seconds. Features:
   - Powered by [[entities/gemini-3|Gemini 3]].0 Pro for complex layout [[concepts/reasoning|reasoning]]
   - Predicts user [[concepts/attention-mechanisms|attention]] via heatmaps
   - Builds click-optimized interfaces
 
 ## Related Concepts
 
-- AI code generation
+- AI [[concepts/code-generation|code generation]]
 - UI [[concepts/design|design]] [[concepts/automation|automation]]
-- Low-code development
+- Low-[[concepts/code|code]] development
 - [[entities/gemini-3|Gemini 3]].0 Pro
 
 2026 04 14 [[concepts/ai-assisted-prototyping|Google Stitch]] Channel [[entities/teachers-tech|Teachers Tech]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: Google Stitch - Channel Teacher's Tech

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "visual-ai"
   - "multimodal-models"
@@ -12,20 +11,20 @@ aliases:
   - "Visual AI"
   - "Multimodal Understanding"
 summary: Claude Opus 4.7 includes enhanced performance, visual understanding, and pricing adjustments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 ---
 # Visual Understanding
 
-Visual understanding refers to the ability of AI systems to process, analyze, and interpret visual information such as [[concepts/images|images]] and [[concepts/diagrams|diagrams]]. This capability allows [[concepts/ai-models|AI models]] to answer questions about images, describe visual content, extract text from images, and understand spatial [[concepts/relationships|relationships]] and visual context.
+Visual understanding refers to the ability of AI systems to process, analyze, and interpret visual information such as [[concepts/images|images]] and [[concepts/diagrams|diagrams]]. This capability allows [[concepts/ai-models|AI models]] to answer questions about images, describe visual content, extract [[concepts/text|text]] from images, and understand spatial [[concepts/relationships|relationships]] and visual context.
 
 ## Integration in Modern AI Models
 
-Recent advances in [[concepts/large-language-model-llm|large language models]] have incorporated visual understanding as a core feature. [[concepts/anthropic-models|Claude Opus 4.7]] represents one implementation of this capability, enabling the model to handle multimodal tasks that combine text and [[concepts/image-analysis|image analysis]]. This integration allows users to submit images alongside text prompts and receive detailed analysis or answers based on the visual content.
+Recent advances in [[concepts/large-language-model-llm|large language models]] have incorporated visual understanding as a core feature. [[concepts/anthropic-models|Claude Opus 4.7]] represents one [[concepts/adoption|implementation]] of this capability, enabling the model to handle multimodal tasks that combine text and [[concepts/image-analysis|image analysis]]. This [[concepts/integration|integration]] allows users to submit images alongside text prompts and receive detailed analysis or answers based on the visual content.
 
 ## Practical Applications
 
-Visual understanding expands the practical utility of AI systems across numerous domains. Users can leverage this capability for tasks including document analysis, technical diagram interpretation, image-based research, [[concepts/accessibility|accessibility]] support for describing images, and creative projects that require analyzing visual elements. The [[concepts/accuracy|accuracy]] and speed of visual understanding has become an important factor in evaluating [[concepts/ai-model-performance|AI model performance]].
-
+Visual understanding expands the practical utility of AI systems across numerous domains. Users can leverage this capability for tasks including document analysis, technical diagram interpretation, image-based research, [[concepts/accessibility|accessibility]] support for describing images, and creative projects that require analyzing visual elements. The [[concepts/accuracy|accuracy]] and [[concepts/speed|speed]] of visual understanding has become an important factor in evaluating [[concepts/ai-model-performance|AI model performance]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

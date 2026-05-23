@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "robotics"
-  - "humanoid"
-  - "AI"
-  - "teleoperation"
-  - "NVIDIA"
-  - "humanoid-robotics"
-  - "robot-control"
-  - "autonomous-control"
-  - "motion-planning"
-  - "sensorimotor-learning"
-aliases:
-  - "humanoid control"
-  - "robotic control"
-summary: "The field involves the engineering and software architectures used to manage the locomotion, manipulation, and stability of humanoid robotic platforms."
-updated: 2026-04-26
+summary: The field involves the engineering and software architectures used to manage the locomotion, manipulation, and stability of humanoid robotic platforms.
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Humanoid robot control
@@ -25,7 +11,7 @@ The field of engineering and [[concepts/software|software]] [[concepts/architect
 
 ## Control Paradigms
 - Teleoperation: Remote manipulation of robots by human operators to facilitate complex or unstructured tasks.
-- Autonomous control: [[concepts/autonomous-operations|Self-governing systems]] using [[entities/ai]] and sensorimotor [[concepts/feedback|feedback]] to navigate and interact with environments.
+- Autonomous [[concepts/power|control]]: [[concepts/autonomous-operations|Self-governing systems]] using [[entities/ai]] and sensorimotor [[concepts/feedback|feedback]] to navigate and interact with environments.
 
 ## Recent Advancements
 - **[[concepts/nvidia-sonic|NVIDIA Sonic]]** (2026-04-26):
@@ -40,6 +26,5 @@ The field of engineering and [[concepts/software|software]] [[concepts/architect
 
 ## Backlinks
 - 2026 04 26 [[entities/sonic|NVIDIA Sonic]] Groundbreaking AI for Nuanced [[concepts/humanoid-robots|Humanoid Robot Teleoperation]]
-
 ## Source Notes
 - 2026-04-26: NVIDIA Sonic · [▶ source](https://www.youtube.com/watch?v=Xf_v62TQOx4)

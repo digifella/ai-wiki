@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: legal-finance-professional-work
 tags:
   - "research-space"
   - "nsw-justice"
@@ -12,7 +11,8 @@ aliases:
   - "NSW Justice Clearing Houses"
   - "Family Violence Research Space"
 summary: Clearing Houses serve as an up-to-date research space related to NSW Dept Justice and children and family violence.
-updated: 2026-05-01
+updated: 2026-05-23
+group: legal-finance-professional-work
 ---
 # Clearing Houses
 
@@ -24,7 +24,7 @@ The primary function of a Clearing House is to synthesize existing research, dat
 
 ## Application to Children and Family Violence
 
-Within the NSW Department of Justice context, Clearing Houses related to children and family violence serve to support evidence-informed policy development and [[concepts/service-delivery|service delivery]]. These spaces bring together [[concepts/flow-management|research findings]], practice insights, and emerging data to inform decisions about interventions, service design, and resource allocation in this critical policy area.
+Within the NSW Department of Justice context, Clearing Houses related to children and family violence serve to support evidence-informed policy development and [[concepts/service-delivery|service delivery]]. These spaces bring together [[concepts/flow-management|research findings]], practice insights, and emerging data to inform decisions about interventions, service [[concepts/design|design]], and resource allocation in this critical policy area.
 
 ## Methodological Approaches
 

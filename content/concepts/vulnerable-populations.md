@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "health"
-  - "climate-change"
-  - "vulnerable-populations"
-  - "climate-change-health"
-  - "vulnerable-communities"
-  - "environmental-stressors"
-  - "public-health-risk"
-  - "disaster-vulnerability"
-aliases:
-  - "at-risk populations"
-  - "sensitive groups"
-  - "disadvantaged communities"
-  - "health-impacted-populations"
-summary: "Vulnerable populations are individuals or groups that face heightened health risks due to environmental changes, including extreme weather events and air pollution."
-updated: 2026-04-12
+summary: Vulnerable populations are individuals or groups that face heightened health risks due to environmental changes, including extreme weather events and air pollution.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Vulnerable Populations
@@ -37,18 +23,17 @@ Vulnerable populations are groups of people who may experience greater impacts f
 - [[concepts/extreme-weather-events|Extreme weather events]] disrupting [[concepts/healthcare-access|access to healthcare]] services and essential supplies.
 
 ## Related Concepts
-- environmental-health
+- environmental-[[concepts/health|health]]
 - [[concepts/public-health|public-health]]
 - disaster-preparedness
 
 ### New Information
-- **[[concepts/climate-change|Climate Change]] Health Risks**: The CDC released a video detailing how climate change intensifies health risks for U.S. communities, particularly vulnerable populations. Key takeaways include:
+- **[[concepts/climate-change|Climate Change]] Health Risks**: The [[entities/cdc|CDC]] released a video detailing how climate change intensifies health risks for U.S. communities, particularly vulnerable populations. Key takeaways include:
   - More frequent and severe [[concepts/extreme-weather-events|extreme weather events]].
   - [[concepts/unhealthy-air-quality|Unhealthy air quality]] becoming more prevalent due to increased [[concepts/wildfires|wildfires]] and industrial emissions.
   - Heightened risk of vector-borne diseases as temperatures rise.
 
 2026 04 11 Climate Change Health Risks to US Communities and Vulnerable Populatio
-
 ## Source Notes
 - 2026-04-11: how climate affects community health - full video
 - 2026-04-07: [[lab-notes/2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)

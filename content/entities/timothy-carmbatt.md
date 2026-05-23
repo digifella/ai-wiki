@@ -1,22 +1,8 @@
 ---
 type: entity
-tags:
-  - "TurboQuant"
-  - "Local LLMs"
-  - "AnythingLLM"
-  - "AI efficiency"
-  - "extreme compression"
-  - "local-llms"
-  - "ai-efficiency"
-  - "extreme-compression"
-aliases:
-  - "Tim Carmbatt"
-  - "Timo Carmbatt"
-  - "Carmbatt"
-  - "Anything LLM Founder"
-summary: "Timothy Carmbatt is the founder of AnythingLLM and a key figure in advancing AI efficiency through techniques like TurboQuant."
-updated: 2026-04-11
-title: "Timothy Carmbatt"
+summary: Timothy Carmbatt is the founder of AnythingLLM and a key figure in advancing AI efficiency through techniques like TurboQuant.
+updated: 2026-05-23
+title: Timothy Carmbatt
 ---
 # Timothy Carmbatt
 
@@ -28,29 +14,28 @@ Timothy Carmbatt is the founder of [[entities/anythingllm|AnythingLLM]], an appl
 - **[[concepts/local-ai|Local AI]] [[concepts/ai-workflow|Optimization]]:** Advocates for improving the performance of [[concepts/local-llm|local LLMs]].
 
 ## Recent Activity
-- Presented on "[[concepts/model-efficiency|TurboQuant: Extreme Compression for Local LLM Efficiency and Context]]" at a public event.
+- Presented on "[[concepts/model-efficiency|TurboQuant: Extreme Compression for Local LLM Efficiency and Context]]" [[concepts/assistive-technology|at]] a public event.
 
 ### Links
 [[entities/anythingllm|AnythingLLM]]
 
 ### Summary (2026-04-07)
-- **Title:** [[concepts/model-efficiency|TurboQuant]] will change [[concepts/local-ai|Local AI]] for everyone.
+- **Title:** [[concepts/model-efficiency|TurboQuant]] [[entities/will|will]] change [[concepts/local-ai|Local AI]] for everyone.
 - **Author / channel:** [[entities/timothy-carmbatt|Timothy Carmbatt]]
 - **URL:** https://www.youtube.com/watch?v=GY7q9ZqM8bw
 
 ### Key Points
-- Google's publication of "TurboQuant: Redefining AI efficiency with [[concepts/model-efficiency|extreme compression]]" marks a significant advancement for the world of [[concepts/local-large-language-models|local large language models]] (LLMs).
+- [[entities/google|Google]]'s publication of "[[concepts/data-compression|TurboQuant]]: Redefining AI efficiency with [[concepts/model-efficiency|extreme compression]]" marks a significant advancement for the world of [[concepts/local-large-language-models|local large language models]] (LLMs).
 - Carmbatt emphasizes that TurboQuant is poised to revolutionize how we run local LLMs, making them more efficient and context-aware.
-- The presentation highlights the importance of reducing [[concepts/code-size|model size]] and improving execution speed on local devices.
+- The presentation [[concepts/highlights|highlights]] the importance of reducing [[concepts/code-size|model size]] and improving execution [[concepts/speed|speed]] on local devices.
 
 ### New Information
-- [[concepts/google-search|Google]]'s recent publication of "TurboQuant: Redefining AI efficiency with extreme compression" marks a significant advancement for the world of local large language models (LLMs).
+- [[concepts/google-search|Google]]'s recent publication of "TurboQuant: Redefining AI efficiency with extreme compression" marks a significant advancement for the world of local [[concepts/large-language-model-llm|large language models]] (LLMs).
 - Carmbatt emphasizes that TurboQuant is poised to revolutionize how we run local LLMs, making them more efficient and context-aware.
 
 ## Related Notes
-- 2026 04 10 TurboQuant Extreme Compression for Local LLM Efficiency and Context
+- 2026 04 10 [[concepts/ai-efficiency|TurboQuant]] Extreme Compression for Local [[concepts/llm-optimization|LLM Efficiency]] and Context
 
 ## Related Notes
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context|TurboQuant Extreme Compression for Local LLM Efficiency and Context]] · [▶ source](https://www.youtube.com/watch?v=GY7q9ZqM8bw)

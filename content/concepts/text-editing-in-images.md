@@ -1,35 +1,24 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "image-editing"
-  - "ai-generation"
-  - "typography"
-  - "infographic-design"
-  - "text-manipulation"
-  - "content-refinement"
-aliases:
-  - "image text editing"
-  - "modifying embedded text"
-summary: "The process of modifying embedded text within static images or AI-generated infographics to correct spelling errors or factual inaccuracies."
-updated: 2026-04-27
+summary: The process of modifying embedded text within static images or AI-generated infographics to correct spelling errors or factual inaccuracies.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Text Editing in Images
 
-The process of modifying embedded text within static image formats or [[concepts/ai-generated-infographics]] to rectify spelling errors, typos, or factual inaccuracies.
+The process of modifying embedded [[concepts/text|text]] within static image formats or [[concepts/ai-generated-infographics]] to rectify spelling errors, typos, or factual inaccuracies.
 
 ## Techniques & Toolsets
 - **[[entities/canva]] 'Grab Text'**: A feature used to extract and enable direct editing of text layers within a graphic.
-- **Adobe Acrobat**: A method for manipulating text within PDF-based visual assets.
+- **[[entities/adobe-acrobat|Adobe Acrobat]]**: A method for manipulating text within PDF-based visual assets.
 
 ## Key Applications
-- **AI-generated content Refinement**: Addressing common inaccuracies and "hallucinated" text artifacts produced by models such as [[entities/gemini]].
+- **AI-generated content Refinement**: Addressing common inaccuracies and "hallucinated" text artifacts produced by [[concepts/models|models]] such as [[entities/gemini]].
 - **[[concepts/infographic]] Correction**: Post-production editing of complex visual data presentations to ensure professional [[concepts/accuracy|accuracy]].
 
 ## Related Research
 - 2026 04 27 Correcting AI Infographic Text Adobe Acrobat vs. Canva G
-
 ## Source Notes
 - 2026-04-27: Correcting AI Infographic · [▶ source](https://www.youtube.com/watch?v=wsq6AbWVzbw)
 - 2026-04-07: Photoshop Beta

@@ -1,23 +1,9 @@
 ---
 type: entity
-tags:
-  - "open models"
-  - "Llama"
-  - "Meta"
-  - "local AI"
-  - "open-weight-models"
-  - "local-inference"
-  - "ai-benchmarking"
-  - "llm-performance"
-  - "document-processing"
-aliases:
-  - "Llama"
-  - "Meta Llama"
-  - "Llamacpp"
-  - "Ollama"
-summary: "The Llama family of open-weight models developed by Meta is widely used for local inference and benchmarking purposes."
-updated: 2026-04-11
-title: "Llama"
+summary: The Llama family of open-weight models developed by Meta is widely used for local inference and benchmarking purposes.
+updated: 2026-05-23
+stub: true
+title: Llama
 ---
 # Llama
 Meta's Llama family of [[concepts/open-weight-models|open-weight models]] used widely in [[concepts/local-inference|local inference]] and open-[[concepts/llm-benchmarks|model benchmarking]].
@@ -27,19 +13,18 @@ Meta's Llama family of [[concepts/open-weight-models|open-weight models]] used w
 
 ## Related Notes
 - 2026 04 10 [[concepts/ai-efficiency|TurboQuant]] Reducing LLM [[concepts/memory|Memory]] Footprint via [[concepts/data-compression|KV Cache Compression]]
-- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] [[concepts/autonomous-ai-agent|Autonomous AI Agent]] Setup Configuration and Advanced
-- 2026 04 10 [[concepts/agent-toolkit|NVIDIA NemoClaw]] [[concepts/enterprise-ai-agent-platform|Secure Enterprise AI Agent Platform]] Solving OpenClaw
+- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] [[concepts/autonomous-ai-agent|Autonomous AI Agent]] [[concepts/setup|Setup]] Configuration and Advanced
+- 2026 04 10 [[concepts/agent-toolkit|NVIDIA NemoClaw]] [[concepts/enterprise-ai-agent-platform|Secure Enterprise AI Agent Platform]] Solving [[concepts/conversational-chatbots|OpenClaw]]
 - 2026 04 10 [[concepts/ai-model-performance|Meta Muse Spark]] Features Performance and [[concepts/strategic-pivot|Strategic Shift]] to Proprietar
 - 2026 04 10 [[entities/llamacpp|Llamacpp]] Local [[concepts/llm-inference|LLM Inference]] for Accessible Private AI
 - 2026 04 10 LlamaIndexs [[concepts/chart-extraction|LiteParse]] [[concepts/numerical-data-extraction|Agentic Document Processing]] and the End of
-- 2026 04 10 LiteParse Free Local [[concepts/layout-preserving-parsing|Layout Preserving Document Parsing]] for LLMs
+- 2026 04 10 [[concepts/liteparse|LiteParse]] Free Local [[concepts/layout-preserving-parsing|Layout Preserving Document Parsing]] for LLMs
 - 2026 04 10 [[concepts/lm-studio-lm-link|LM Studio LM Link]] [[concepts/distributed-ai-execution|Remote LLM Access]] for [[concepts/portable-devices|Portable Devices]]
 - 2026 04 10 Integrating Local [[concepts/23b-parameter-models|Gemma 4]] LLMs with [[concepts/software-customization|Claude Code Setup]] and Practical Us
-- 2026 04 10 Google Gemma 4 Advanced Open Source [[concepts/ai-models|AI Models]] for Efficient Edge
-- 2026 04 10 [[concepts/benchmark-testing|Benchmarking]] SLMs Identifying 4GB General Problem Solving Champions
-- 2026 04 10 Analysis of [[concepts/frontier-models|Leading AI Models]] Capabilities [[concepts/pricing-tiers|Pricing Tiers]] and Optimal
-- 2026 04 10 1 Bit LLMs BitNet [[concepts/bonsai|Bonsai]] and Efficient On Device [[concepts/deployment|Deployment]]
-
+- 2026 04 10 [[concepts/e2b-model|Google Gemma 4]] Advanced [[concepts/open-source|Open Source]] [[concepts/ai-models|AI Models]] for Efficient Edge
+- 2026 04 10 [[concepts/benchmark-testing|Benchmarking]] [[concepts/slms|SLMs]] Identifying 4GB General [[concepts/problem-solving|Problem Solving]] Champions
+- 2026 04 10 Analysis of [[concepts/frontier-models|Leading AI Models]] [[concepts/capabilities|Capabilities]] [[concepts/pricing-tiers|Pricing Tiers]] and Optimal
+- 2026 04 10 1 Bit LLMs [[entities/bitnet|BitNet]] [[concepts/bonsai|Bonsai]] and Efficient On Device [[concepts/deployment|Deployment]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

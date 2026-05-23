@@ -13,16 +13,16 @@ aliases:
   - "Claude AI usage limits"
   - "Anthropic subscription updates"
 summary: Anthropic has implemented changes to its Claude AI subscription model, including usage limits and a ban on OpenClaw.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
-# Ai Usage Limits
+# AI Usage Limits
 
-[[entities/anthropic-institute|Anthropic]] has implemented [[concepts/rate-limits|usage limits]] as part of changes to its [[concepts/anthropic-ai|Claude AI]] subscription model. These limits define how frequently and extensively users can access [[concepts/claude-ai|Claude]] across different subscription tiers, establishing boundaries on request rates and [[concepts/token-consumption|token consumption]] within specified time periods.
+AI usage limits are restrictions implemented by AI service providers to control how frequently and extensively users can access their models. These limits typically define boundaries on request rates and token consumption within specified time periods, with different thresholds applied across various subscription tiers. Usage limits serve multiple purposes including managing server load, preventing abuse, ensuring fair resource distribution among users, and creating differentiated service offerings.
+
+## Claude AI Implementation
+
+Anthropic has incorporated usage limits into its Claude AI subscription model as part of broader changes to how the service is delivered to different user segments. These limits establish clear parameters around how much users can interact with Claude depending on their subscription level, affecting both the frequency of requests and the total volume of tokens they can consume within defined periods.
 
 ## OpenClaw Ban
 
-In conjunction with usage limit changes, Anthropic banned OpenClaw, an automated information pipeline tool. This action reflected the company's approach to managing how Claude is accessed and deployed, particularly regarding automated or bulk usage patterns that may exceed intended subscription [[concepts/parameters|parameters]].
-
-## Subscription Model Context
-
-These changes occurred within the broader context of Anthropic's evolving business strategy around Claude AI monetization and [[concepts/service-delivery|service delivery]]. The combination of usage limits and tool restrictions indicates the company's effort to balance [[concepts/accessibility|accessibility]] with sustainable service provision across its user base.
+As part of its policy adjustments, Anthropic implemented a ban on OpenClaw, an automated information pipeline tool. This restriction reflects the company's approach to controlling how its AI models are accessed and used at scale, preventing certain categories of automated usage that may fall outside intended use cases or create excessive demand on infrastructure.

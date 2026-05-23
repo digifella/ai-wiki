@@ -1,20 +1,10 @@
 ---
 type: entity
-tags:
-  - "space-exploration"
-  - "nasa"
-  - "artemis-program"
-  - "starship"
-  - "moon-mission"
-  - "nasa-missions"
-  - "lunar-research"
-  - "shuttle-retirement"
-  - "international-cooperation"
-updated: 2026-04-12
+updated: 2026-05-23
 ---
 # NASA
 ## Overview
-NASA (National Aeronautics and Space Administration) is an independent agency of the [[entities/united-states|United States]] Federal Government responsible for the civilian space program as well as aeronautics and aerospace research.
+NASA ([[concepts/nasa|National Aeronautics and Space Administration]]) is an independent agency of the [[entities/united-states|United States]] Federal Government responsible for the civilian space program as well as aeronautics and aerospace research.
 
 ### Major Projects
 - **[[concepts/artemis-program|Artemis Program]]**: [[concepts/human-spaceflight|Human exploration]] of the Moon, with plans to establish sustainable lunar missions.
@@ -32,21 +22,20 @@ NASA (National Aeronautics and Space Administration) is an independent agency of
 - Early in the journey, NASA encountered several challenges that were addressed through meticulous planning and real-time [[concepts/adjustments|adjustments]].
 
 ## News and Reports
-- **2026-04-11:** 2026 04 11 Artemis II Simulated Mission Report [[concepts/crew-operations|Crew Operations]] Orion Systems Star
+- **2026-04-11:** 2026 04 11 [[concepts/artemis-ii-mission-simulation|Artemis II Simulated Mission Report]] [[concepts/crew-operations|Crew Operations]] [[concepts/spacecraft-systems|Orion Systems]] Star
   - A comprehensive video update on the [[concepts/artemis-ii-mission|Artemis II Mission]]
 
 ## Related Media
 - **Artemis II Human Lunar Flyby: Operations, Orion Systems, and In-flight Challenges**
-  - Clip title: Artemis II Just Revealed Much More Than You Think…
+  - [[concepts/clip-title|Clip title]]: Artemis II Just Revealed Much More Than You Think…
   - Author / channel: [[entities/marcus-house|Marcus House]]
   - URL: https://www.youtube.com/watch?v=CrzP6naZGKs
 
 ### Summary:
 - Provides a comprehensive recap of the uncrewed **[[concepts/artemis-ii-mission|Artemis II mission]]**.
-- Highlights its historical significance as the first human lunar flyby in over five decades.
+- [[concepts/highlights|Highlights]] its historical significance as the first [[concepts/human-lunar-flyby|human lunar flyby]] in over five decades.
 
-2026 04 12 Artemis II [[concepts/lunar-flyby|Human Lunar Flyby Operations]] Orion Systems and In flight Ch
-
+2026 04 12 [[entities/artemis-ii|Artemis II]] [[concepts/lunar-flyby|Human Lunar Flyby Operations]] [[concepts/orion-systems|Orion Systems]] and In flight Ch
 ## Source Notes
 
 - 2026-04-18: ## Artemis 3 Readiness: HLS/SLS Challenges and Program Outlook **Clip title:** What Happens Next For Artemis? Can NASA Launch Artemis III Next Year? **Author / channel:** Scott Manley **URL:** https://www.youtube.com/watch?v=n19xfIxu8_4 ### Summary The video by Scott Manley provi (Artemis 3 Readiness HLSSLS Challenges and Program Outlook)

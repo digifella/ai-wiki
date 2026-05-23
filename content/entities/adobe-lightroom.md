@@ -1,23 +1,9 @@
 ---
 type: entity
-tags:
-  - "adobe-lightroom"
-  - "photo-editing"
-  - "color-grading"
-  - "photo-editing-software"
-  - "color-calibration"
-  - "skin-tones-adjustment"
-  - "cinematic-styles"
-  - "masking"
-  - "local-adjustments"
-aliases:
-  - "Lightroom"
-  - "Adobe LR"
-  - "LR"
-  - "Photo Edit"
-summary: "Adobe Lightroom is a photo editing software featuring the Calibration Panel for foundational color and advanced masking tools like Interloc for precise local adjustments."
-updated: 2026-04-21
-title: "Adobe Lightroom"
+summary: Adobe Lightroom is a photo editing software featuring the Calibration Panel for foundational color and advanced masking tools like Interloc for precise local adjustments.
+updated: 2026-05-23
+stub: true
+title: Adobe Lightroom
 ---
 # Adobe Lightroom
 
@@ -32,12 +18,11 @@ title: "Adobe Lightroom"
 
 ## Related Notes
 - 2026 04 10 [[concepts/photo-editing|Snapseed Overview]] Free [[concepts/photo-editing|Photo Editing]] App with New Camera and Pro
-- 2026 04 10 Lightroom [[concepts/dark-and-moody|Dark and Moody]] Photo Processing for Dramatic Photo Enhanceme
+- 2026 04 10 [[concepts/lightroom|Lightroom]] [[concepts/dark-and-moody|Dark and Moody]] Photo Processing for Dramatic Photo Enhanceme
 - 2026 04 10 [[entities/lightroom-classic|Lightroom Classic]] Single Click [[concepts/single-click-editing|Automated AI Mask Presets]] for Landscape
-- 2026 04 10 Lightroom Calibration Panel Foundational Color Skin Tones Cinematic
-- 2026 04 21 Lightroom Intersect Masking for Precise Local Adjustments
-- 2026 04 21 Lightroom Intersect Masking for Precise Local Adjustments
-
+- 2026 04 10 [[concepts/lightroom-calibration-panel|Lightroom Calibration Panel]] Foundational Color Skin Tones Cinematic
+- 2026 04 21 Lightroom Intersect [[concepts/layer-masks|Masking]] for Precise [[concepts/local-adjustments|Local Adjustments]]
+- 2026 04 21 Lightroom [[concepts/intersect-masking|Intersect Masking]] for Precise Local Adjustments
 ## Source Notes
 - 2026-04-18: [[lab-notes/2026-04-18-Adobe-Lightroom-April-2024-Updates-AI-Search-Workflow-Creative-Tools|Adobe Lightroom April 2024 Updates AI Search Workflow Creative Tools]] · [▶ source](https://www.youtube.com/watch?v=AMRmW7BicMk)
 - 2026-04-21: Lightroom · [▶ source](https://youtu.be/HvCiSOkCoUk)

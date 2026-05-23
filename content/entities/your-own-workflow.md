@@ -1,23 +1,13 @@
 ---
 type: entity
-tags:
-  - "channel"
-  - "ai"
-  - "workflow"
-  - "productivity-tools"
-  - "google-ecosystem"
-  - "ai-updates"
-  - "workflow-optimization"
-aliases:
-  - "Your Own Workflow Channel"
-summary: "A productivity-focused channel delivering AI tool insights and workflow optimization strategies."
-updated: 2026-04-14
+summary: A productivity-focused channel delivering AI tool insights and workflow optimization strategies.
+updated: 2026-05-23
 ---
 # Your Own Workflow
 
 Productivity-focused channel delivering AI tool insights and [[concepts/smart-workflows|workflow optimization]] strategies.
 
-- **[[concepts/video-editing|AI Updates Overview]] (2026-04-14):** Video covers Google ecosystem AI updates including:
+- **[[concepts/video-editing|AI Updates Overview]] (2026-04-14):** Video covers [[entities/google|Google]] ecosystem AI updates including:
   * [[entities/google-photos|Google Photos]]: **[[concepts/image-to-video|Image to Video]]** feature
   * [[entities/google-workspace]] (specifically [[concepts/google-vids|Google Vids]])
   * [[concepts/gemini|Gemini]]
@@ -25,14 +15,11 @@ Productivity-focused channel delivering AI tool insights and [[concepts/smart-wo
   * [[entities/notebooklm|NotebookLM]]
   * [[entities/google-ai-studio|Google AI Studio]]
 
-2026 04 14 [[concepts/6-second-clips|AI round up]] by Your Own Workflow channel
+2026 04 14 [[concepts/6-second-clips|AI round up]] by Your Own [[concepts/workflow|Workflow]] channel
 
-[[concepts/date-2026-04-13|2026]] 04 14 AI round up by Your Own Workflow channel
+[[concepts/date-2026-04-13|2026]] 04 14 AI [[concepts/rounding|round]] up by Your Own Workflow channel
 
-- 2026-04-10 [2026-04-10-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and](2026-04-10-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and.md) ← Open Source Ai Agents Revolutionizing Development Workflows And
+- 2026-04-10 [2026-04-10-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and](2026-04-10-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and.md) ← [[concepts/open-source|Open Source]] [[concepts/agentic-ai|Ai Agents]] Revolutionizing [[concepts/development-workflows|Development Workflows]] And
 - 2026-04-07 [2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and](2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and.md) ← Open Source Ai Agents Revolutionizing Development Workflows And
 - 2026-04-08 [2026-04-08-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and](2026-04-08-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and.md) ← Open Source Ai Agents Revolutionizing Development Workflows And
-## Source Notes
-
-
 ## Source Notes

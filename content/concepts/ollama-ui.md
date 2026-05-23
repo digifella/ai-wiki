@@ -1,22 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ollama"
-  - "local-ai"
-  - "user-interface"
-  - "ollama-ui"
-  - "native-interface"
-aliases:
-  - "Ollama User Interface"
-  - "Ollama Native UI"
-summary: "The Ollama UI is a native interface layer for Ollama that expands its capabilities beyond the CLI and API to make local AI more accessible."
-updated: 2026-04-20
+summary: The Ollama UI is a native interface layer for Ollama that expands its capabilities beyond the CLI and API to make local AI more accessible.
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 # Ollama UI
 
-The native interface layer for [[entities/ollama]], expanding its capabilities beyond the traditional [[concepts/cli]] and [[concepts/api]] to make [[concepts/local-ai]] more accessible.
+The native interface layer for [[entities/ollama]], expanding its [[concepts/capabilities|capabilities]] beyond the traditional [[concepts/cli]] and [[concepts/api]] to [[entities/make|make]] [[concepts/local-ai]] more accessible.
 
 ## Features & Updates
 - **Native UI Release**: A polished "first version" release designed to significantly lower the barrier to entry for [[concepts/local-ai]] interaction.
@@ -30,7 +21,6 @@ The native interface layer for [[entities/ollama]], expanding its capabilities b
 
 ## Sources
 - 2026 04 14 New [[entities/ollama|Ollama]] UI [[entities/matt-williams|Matt Williams]] channel
-
 ## Source Notes
 - 2026-04-05: [[inbox/2026-04-05-Ollama-Version|Ollama Version]]
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge|Google Gemma 4 Advanced Open Source AI Models for Efficient Edge]] · [▶ source](https://www.youtube.com/watch?v=BrJdGP21B5g)

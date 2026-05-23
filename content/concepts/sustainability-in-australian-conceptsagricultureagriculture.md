@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "australian-agriculture"
   - "sustainability"
@@ -12,11 +11,12 @@ aliases:
   - "Sustainable Agriculture in Australia"
   - "Australian Agricultural Sustainability"
 summary: Examines sustainability practices and principles within Australian agricultural systems, with connections to major irrigation projects like the Ord River Irrigation Project.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Sustainability in Australian Agriculture
 
-Australian [[concepts/agriculture|agriculture]] operates across diverse climates and ecosystems, from tropical north to arid interior, making sustainability practices highly context-dependent. The sector faces challenges including [[concepts/water-scarcity|water scarcity]], soil degradation, and climate variability, which drive ongoing development of more efficient farming methods. Sustainability in this context typically encompasses [[concepts/water-management|water management]], soil [[concepts/health|health]], [[concepts/biodiversity|biodiversity]] conservation, and economic viability of farming operations.
+Australian [[concepts/agriculture|agriculture]] operates across diverse climates and ecosystems, from tropical north to arid interior, making sustainability practices highly context-dependent. The sector [[concepts/faces|faces]] challenges including [[concepts/water-scarcity|water scarcity]], soil degradation, and climate variability, which [[concepts/ambition|drive]] ongoing development of more efficient farming methods. Sustainability in this context typically encompasses [[concepts/water-management|water management]], soil [[concepts/health|health]], [[concepts/biodiversity|biodiversity]] conservation, and economic viability of farming operations.
 
 ## Water Management and Irrigation
 

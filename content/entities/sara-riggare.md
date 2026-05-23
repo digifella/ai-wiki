@@ -1,22 +1,8 @@
 ---
 type: entity
-tags:
-  - "Sara Riggare"
-  - "Healthcare Innovation"
-  - "Patient Advocacy"
-  - "patient-generated-knowledge"
-  - "healthcare-innovation"
-  - "patient-advocacy"
-  - "physician-patient-relationship"
-  - "medical-systems-challenges"
-aliases:
-  - "Sara Riggare MD"
-  - "Patient Advocate Sara Riggare"
-  - "Healthcare Innovator Sara Riggare"
-  - "Swedish Physician Sara Riggare"
-summary: "Dr. Sara Riggare is a Swedish physician and patient advocate who works on integrating patient-generated knowledge into healthcare systems."
-updated: 2026-04-11
-title: "sara riggare"
+summary: Dr. Sara Riggare is a Swedish physician and patient advocate who works on integrating patient-generated knowledge into healthcare systems.
+updated: 2026-05-23
+title: sara riggare
 ---
 ## Overview
 
@@ -39,9 +25,9 @@ Dr. [[entities/sara-riggare|Sara Riggare]] is a Swedish physician and patient ad
 
 ## Related Concepts and Entities
 
-- Healthcare [[concepts/innovation|Innovation]]
+- [[concepts/health|Healthcare]] [[concepts/innovation|Innovation]]
 - Patient Advocacy
 
 ## Backlinks
 
-2026 04 07 Pulse Podcast Summary   The Other [[concepts/8765-hours|8765 Hours]]   with Sara Riggare
+2026 04 07 [[entities/pulse-podcast|Pulse Podcast]] [[concepts/summary|Summary]]   The Other [[concepts/8765-hours|8765 Hours]]   with [[entities/dr-sara-riggare|Sara Riggare]]

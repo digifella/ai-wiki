@@ -2,31 +2,29 @@
 type: concept
 domain: ai-agents
 tags:
-  - "terminal-agent"
-  - "ai"
-  - "cli"
-  - "gemini"
-  - "ai-agents"
-  - "command-line-interface"
+  - "cli-interface"
+  - "ai-automation"
+  - "code-assistance"
   - "workflow-automation"
-  - "cli-tools"
+  - "command-line-tools"
 aliases:
-  - "CLI AI agent"
-  - "Terminal-based AI agent"
-summary: "A terminal agent is software that enables interaction with AI models through command-line interfaces to automate workflows and provide code assistance."
-updated: 2026-04-17
+  - "CLI agent"
+  - "command-line AI agent"
+summary: A terminal agent is software that enables interaction with AI models through command-line interfaces to automate workflows and provide code assistance.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Terminal Agent
 
-A terminal agent is a [[concepts/software|software]] tool that operates directly within a terminal environment, enabling users to interact with [[concepts/ai-models|AI models]] through [[concepts/cli|command-line]] interfaces. These [[concepts/agents|agents]] automate workflows, provide code assistance, and handle [[concepts/natural-language-search|natural language queries]] without leaving the terminal.
+A terminal [[entities/agent|agent]] is a software tool that operates within [[concepts/command-line-interface|command-line]] interfaces, enabling users to interact with [[concepts/ai-models|AI models]] directly from the terminal environment. Rather than requiring graphical interfaces or web browsers, terminal [[concepts/agents|agents]] allow developers and users to leverage [[concepts/capabilities|AI capabilities]] through [[concepts/text|text]] [[concepts/commands|commands]] and natural [[concepts/natural-language-prompting|language prompts]]. These tools integrate AI functionality into existing terminal workflows, making them accessible to users who spend significant time in command-line environments.
 
-## Recent Developments
+## Functionality and Use Cases
 
-- **[[entities/google-gemini|Google Gemini]] CLI v2**: [[concepts/open-source|Open-source]] terminal agent released by Google ~1 month ago. Provides free access to [[entities/gemini-25-pro]] with [[concepts/1-million-token-context|1 million token context]] window. Offers 60 requests/minute [[concepts/rate-limits|usage limits]]. [Video overview](https://www.youtube.com/watch?v=un1WZk3ziFc)
+Terminal agents automate routine workflows and provide real-time [[concepts/code|code]] assistance without requiring users to switch [[concepts/software|applications]]. They handle [[concepts/natural-language-search|natural language queries]], interpret user intent from text input, and generate contextual [[concepts/responses|responses]] or code suggestions. Common applications include [[concepts/debugging|debugging]] assistance, documentation lookup, [[concepts/code-generation|code generation]], system administration tasks, and general [[concepts/knowledge-bases|information retrieval]]. By operating within the terminal, these agents reduce context-switching and maintain productivity within developers' existing work environments.
 
-2026 04 14 [[concepts/gemini-cli|Google Gemini CLI]] update to V2
+## Architecture and Integration
 
+Terminal agents typically function as command-line wrappers or [[concepts/plugins|plugins]] that communicate with underlying AI models through APIs. They process user input, send requests to AI backends, and format responses for terminal display. This [[concepts/architecture|architecture]] allows them to work with various AI models and service providers while remaining lightweight and responsive. Some terminal agents are designed as standalone tools, while others integrate into existing terminal environments like shells or text editors.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-20-Loops-Scheduled-Tasks-Google-Workspace-and-Skills|Claude Code 20 Loops Scheduled Tasks Google Workspace and Skills]] · [▶ source](https://www.youtube.com/watch?v=F4zSxfBe5R0)

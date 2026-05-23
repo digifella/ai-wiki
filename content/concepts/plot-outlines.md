@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "ai-assistant"
   - "capabilities"
@@ -12,7 +11,8 @@ aliases:
   - "Nematron capabilities"
   - "AI assistant features"
 summary: The page details the core capabilities of the AI assistant Nematron.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # Plot Outlines
 
@@ -25,6 +25,5 @@ Effective plot outlines typically identify key story moments such as the incitin
 ## Applications
 
 Plot outlines are used across multiple formats including novels, short stories, films, television series, and games. They can be developed before writing begins as a planning document, created after writing as a mapping tool, or adjusted iteratively as a project evolves. Many professional writers use outlines to maintain narrative coherence across longer works or collaborative projects.
-
 ## Source Notes
 - 2026-04-21: [[lab-notes/2026-04-21-Automating-Travel-Itineraries-with-AI-and-Google-My-Maps|Automating Travel Itineraries with AI and Google My Maps]] · [▶ source](https://www.youtube.com/watch?v=fI8ygOauNNA)

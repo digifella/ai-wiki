@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "economics"
-  - "LLM"
-  - "geopolitics"
-  - "efficiency"
-  - "ai-efficiency"
-  - "llm-optimization"
-  - "compute-efficiency"
-  - "algorithmic-optimization"
-  - "open-source-ai"
-aliases:
-  - "AI efficiency"
-  - "model optimization"
-  - "cost-efficient AI"
-summary: "The strategic optimization of large language models to maximize intelligence-per-unit-of-compute by reducing financial, energetic, and hardware requirements."
-updated: 2026-04-26
+summary: The strategic optimization of large language models to maximize intelligence-per-unit-of-compute by reducing financial, energetic, and hardware requirements.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # AI Cost-Efficiency
@@ -25,19 +10,18 @@ group: model-efficiency-compression
 The strategic optimization of [[concepts/large-language-models]] to maximize intelligence-per-unit-of-[[concepts/compute|compute]], reducing the financial, energetic, and [[concepts/hardware|hardware]]-[[concepts/scaling|scaling]] requirements for [[entities/high-performance|high-performance]] AI.
 
 ## Core Drivers
-- **[[concepts/algorithmic-optimization|Algorithmic Optimization]]:** Developing architectures (e.g., [[entities/mixture-of-experts|Mixture of Experts]], sparse [[concepts/attention-mechanisms|attention]]) that maintain high [[concepts/reasoning|reasoning]] capabilities while reducing total FLOPs.
-- **[[concepts/open-source|Open-Source]] [[concepts/accessibility|Accessibility]]:** Utilizing [[concepts/open-source]] to democratize high-performance capabilities without the massive capital expenditure required for proprietary frontier models.
+- **[[concepts/algorithmic-optimization|Algorithmic Optimization]]:** Developing architectures (e.g., [[entities/mixture-of-experts|Mixture of Experts]], sparse [[concepts/attention-mechanisms|attention]]) that maintain high [[concepts/reasoning|reasoning]] [[concepts/capabilities|capabilities]] while reducing total FLOPs.
+- **[[concepts/open-source|Open-Source]] [[concepts/accessibility|Accessibility]]:** Utilizing [[concepts/open-source]] to democratize high-performance capabilities without the massive capital expenditure required for proprietary [[concepts/frontier-models|frontier models]].
 - **Hardware-[[concepts/software|Software]] Co-[[concepts/design|design]]:** Improving the efficiency of [[concepts/inference|inference]] and [[concepts/training|training]] on available [[concepts/compute]] resources to bypass [[concepts/hardware|hardware]] bottlenecks.
 
 ## Recent Developments
 - **[[entities/deepseek-v4]] and Geopolitical Competition:**
 	- Demonstrates how [[entities/china|China]] [[concepts/ai-development|AI Development]] can leverage cost-efficiency to directly challenge US AI Dominance.
 	- Illustrates a shift where high-quality, low-[[concepts/cost|cost]] models threaten the competitive advantage of capital-intensive, closed-source models.
-	- Highlights the role of [[concepts/open-source]] as a tool for disrupting established market [[concepts/leadership|leadership]] through economic efficiency rather than raw scale.
+	- [[concepts/highlights|Highlights]] the role of [[concepts/open-source]] as a tool for disrupting established market [[concepts/leadership|leadership]] through economic efficiency rather than raw scale.
 
 ## Related References
 - 2026 04 26 [[entities/deepseek-v4|DeepSeek V4]] Chinas Cost Efficient Open Source AI Challenges US Dominance
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

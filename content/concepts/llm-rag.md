@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "rag"
-  - "llm"
-  - "knowledge-graph"
-  - "neo4j"
-updated: 2026-04-14
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # LLM RAG
@@ -14,7 +9,7 @@ group: model-efficiency-compression
 2026 04 14 Cocoindex channel and [[concepts/knowledge-graphs|knowledge Graphs]] for LLM RAG
 
 ## Core Concept
-Retrieval-Augmented Generation (RAG) enhances LLM outputs by dynamically retrieving relevant [[concepts/external-knowledge|external knowledge]] during generation, improving factual [[concepts/accuracy|accuracy]] and reducing hallucinations.
+[[concepts/answer-generation|Retrieval-Augmented Generation]] (RAG) enhances LLM outputs by dynamically retrieving relevant [[concepts/external-knowledge|external knowledge]] during generation, improving factual [[concepts/accuracy|accuracy]] and reducing hallucinations.
 
 ## Key Components
 - **[[concepts/vector-store|Knowledge Graph]] [[concepts/integration|Integration]]**: Using Neo4j to [[concepts/structure|structure]] retrieved information as interconnected entities and [[concepts/relationships|relationships]]
@@ -33,7 +28,7 @@ Retrieval-Augmented Generation (RAG) enhances LLM outputs by dynamically retriev
 - [[concepts/vector-store|Knowledge Graph]]
 - [[entities/neo4j|Neo4j]]
 - Cocoindex
-- Retrieval-Augmented Generation
+- [[concepts/answer-generation|Retrieval-Augmented Generation]]
 
 ---
 **Source:** 2026 04 14 Cocoindex channel and knowledge Graphs for LLM RAG

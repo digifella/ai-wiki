@@ -1,27 +1,12 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "automation"
-  - "web-scraping"
-  - "agents"
-  - "ai-models"
-  - "web-interaction"
-  - "data-acquisition"
-  - "autonomous-agents"
-  - "machine-readable-content"
-aliases:
-  - "Firecrawl Web Crawler"
-  - "AI Browser Tool"
-  - "Web Data Fetcher AI"
-  - "Agent Era Enabler"
-summary: "Firecrawl AI is a tool that enables AI models to browse and interact with the web, collecting data for agentic workflows."
-updated: 2026-04-11
+summary: Firecrawl AI is a tool that enables AI models to browse and interact with the web, collecting data for agentic workflows.
+updated: 2026-05-23
 ---
 title: "[[entities/firecrawl|Firecrawl]] AI"
 
 # Firecrawl AI
-Firecrawl AI is a specialized tool designed to provide [[concepts/agentic-ai]] with the ability to "see" and interact with the live internet, addressing the "blindness" of current [[concepts/deep-learning-models|LLM models]] regarding native web browsing.
+[[concepts/firecrawl-ai|Firecrawl AI]] is a specialized tool designed to provide [[concepts/agentic-ai]] with the ability to "see" and interact with the live internet, addressing the "blindness" of current [[concepts/deep-learning-models|LLM models]] regarding native web browsing.
 
 ### Key Capabilities
 - Bridges the gap between [[concepts/ai-models|AI models]] and the web by enabling them to browse websites, gather data, and perform web-based actions.
@@ -30,18 +15,17 @@ Firecrawl AI is a specialized tool designed to provide [[concepts/agentic-ai]] w
 
 ### Sources & References
 - 2026 04 10 Firecrawl AI Essential Web Data for [[concepts/action-oriented-ai|Autonomous AI Agents]]
-- [[entities/greg-isenberg]]: "Firecrawl AI clearly explained (and how to make $$)" ([YouTube](https://www.youtube.com/watch?v=eH8JdttKIdA))
-- 2026 04 10 Firecrawl AI Essential Web Data for Autonomous AI Agents
+- [[entities/greg-isenberg]]: "Firecrawl AI clearly explained (and how to [[entities/make|make]] $$)" ([YouTube](https://www.youtube.com/watch?v=eH8JdttKIdA))
+- 2026 04 10 Firecrawl AI Essential Web Data for [[concepts/autonomous-ai-agents|Autonomous AI Agents]]
 
 ### New Information
-- Firecrawl AI is positioned as a crucial tool for the current "AI Agent Era" by giving [[concepts/artificial-intelligence-models|artificial intelligence models]] the ability to "see" and interact with the internet.
+- Firecrawl AI is positioned as a crucial tool for the current "[[entities/agent|AI Agent]] Era" by giving [[concepts/artificial-intelligence-models|artificial intelligence models]] the ability to "see" and interact with the internet.
   - Browsing
   - Data gathering
   - Performing web-based actions
 
 ## Related Notes
-- 2026 04 10 Firecrawl AI Essential Web Data for Autonomous AI Agents
-
+- 2026 04 10 [[concepts/firecrawl-ai|Firecrawl AI]] Essential Web Data for [[concepts/action-oriented-ai|Autonomous AI Agents]]
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents|Firecrawl AI Essential Web Data for Autonomous AI Agents]] · [▶ source](https://www.youtube.com/watch?v=eH8JdttKIdA)

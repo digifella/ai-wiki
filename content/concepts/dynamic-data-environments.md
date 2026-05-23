@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "rag"
   - "knowledge-graphs"
@@ -13,11 +12,12 @@ aliases:
   - "RAG in Dynamic Contexts"
   - "Knowledge Graph-Enhanced Retrieval"
 summary: Graphiti is an open-source platform designed to address the limitations of Retrieval Augmented Generation (RAG) within dynamic data environments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Dynamic Data Environments
 
-Dynamic data environments refer to systems where information is constantly changing, being updated, or evolving in real-time. These contexts present significant challenges for traditional [[concepts/knowledge-bases|information retrieval]] and [[concepts/statistical-language-modeling|language model]] [[concepts/software|applications]], particularly for [[concepts/answer-generation|Retrieval Augmented Generation]] (RAG) systems, which typically rely on static or infrequently updated knowledge bases. In dynamic environments, the gap between the data used to train or index a system and current ground truth widens rapidly, making it difficult to maintain [[concepts/accuracy|accuracy]] and relevance.
+Dynamic data environments refer to systems where information is constantly changing, being updated, or evolving in real-time. These contexts present significant challenges for traditional [[concepts/knowledge-bases|information retrieval]] and [[concepts/statistical-language-modeling|language model]] [[concepts/software|applications]], particularly for [[concepts/answer-generation|Retrieval Augmented Generation]] (RAG) systems, which typically rely on static or infrequently updated knowledge [[concepts/number-systems|bases]]. In dynamic environments, the gap between the data used to train or index a system and current ground truth widens rapidly, making it difficult to maintain [[concepts/accuracy|accuracy]] and relevance.
 
 ## RAG Limitations in Dynamic Contexts
 
@@ -25,8 +25,7 @@ Standard RAG implementations struggle with dynamic data because they require per
 
 ## Addressing the Challenge with Knowledge Graphs
 
-[[concepts/graphiti|Graphiti]], an [[concepts/open-source|open-source]] platform, addresses these limitations by integrating knowledge graphs with [[concepts/contextualized-language-understanding|RAG systems]]. This approach enables better representation of relationships between data elements and allows for more dynamic updates without requiring complete system reindexing. By maintaining explicit connections between pieces of information, [[concepts/knowledge-graph|knowledge graph]]-based systems can more flexibly adapt to changes and provide more contextually aware retrieval in environments where data relationships and facts are constantly evolving.
-
+[[concepts/graphiti|Graphiti]], an [[concepts/open-source|open-source]] platform, addresses these limitations by integrating [[concepts/knowledge-graphs|knowledge graphs]] with [[concepts/contextualized-language-understanding|RAG systems]]. This approach enables better representation of relationships between data elements and allows for more dynamic updates without requiring complete system reindexing. By maintaining explicit connections between pieces of information, [[concepts/knowledge-graph|knowledge graph]]-based systems can more flexibly adapt to changes and provide more contextually aware retrieval in environments where data relationships and facts are constantly evolving.
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Managed-Agents-API-Suite-for-Building-and-Deploying-Autonomous-|Claude Managed Agents API Suite for Building and Deploying Autonomous ]] · [▶ source](https://www.youtube.com/watch?v=NLWiIj47IdI)

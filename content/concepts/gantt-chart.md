@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: automation-scheduling-sync
+domain: business-strategy
 tags:
   - "project-management"
   - "scheduling"
@@ -11,16 +10,17 @@ aliases:
   - "Gantt diagram"
   - "project timeline chart"
 summary: A concept used within project management methodologies.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Gantt Chart
 
-A Gantt chart is a visual project management tool that displays project tasks as horizontal bars along a timeline. Each bar represents a task or activity, with its length indicating the task's duration. The chart's horizontal axis represents time (measured in days, weeks, or months), while the vertical axis lists the project tasks or work packages. This visual format allows project managers and team members to quickly understand project scope, task sequencing, and overall project duration at a glance.
+A Gantt chart is a horizontal bar chart used in project management to visualize project schedules and task timelines. Each task or activity is represented as a horizontal bar positioned along a timeline, with the bar's length corresponding to the task's duration. The chart's horizontal axis represents time in increments such as days, weeks, or months, while the vertical axis lists individual tasks or work packages. This format enables project managers and team members to quickly assess project scope, task dependencies, and overall project duration.
 
-## Core Components and Function
+## Structure and Components
 
-Gantt charts typically include start dates, end dates, task dependencies, and milestones for each activity. They show which tasks can run in parallel and which must be completed sequentially, making them particularly useful for identifying the critical path—the longest sequence of dependent tasks that determines the minimum project duration. Many modern Gantt charts also display resource allocation, showing which team members are assigned to specific tasks and helping prevent resource conflicts or overallocation.
+Gantt charts typically display several key elements including task names, start dates, end dates, task duration, and progress [[concepts/indicators|indicators]]. Many charts also show task dependencies, indicating which tasks must be completed before others can begin. Resource assignments may be included to show which team members are responsible for specific tasks. Modern digital Gantt charts often incorporate features such as milestone markers, critical path highlighting, and progress tracking to reflect actual completion status against planned schedules.
 
 ## Practical Application
 
-Gantt charts are widely used across industries and project types, from construction and [[concepts/coding|software development]] to [[concepts/marketing-campaigns|marketing campaigns]] and event planning. They serve both as planning tools during the project initiation phase and as tracking mechanisms during execution, allowing managers to monitor progress against the original schedule. While traditional Gantt charts were created manually on paper, digital tools now enable real-time updates and easier collaboration among distributed teams, though the fundamental principle of visualizing tasks against time remains unchanged.
+Gantt charts are widely used across industries and project types, from [[concepts/coding|software development]] and construction to [[concepts/marketing-campaigns|marketing campaigns]] and event planning. They serve as communication tools for stakeholders to understand project timelines and identify potential scheduling conflicts or resource constraints. While Gantt charts [[entities/excel|excel]] [[concepts/assistive-technology|at]] displaying sequential [[concepts/relationships|relationships]] and overall schedules, they are less effective for depicting complex task dependencies or agile projects with frequently changing requirements. Project managers typically combine Gantt charts with other planning tools and methodologies to manage projects comprehensively.

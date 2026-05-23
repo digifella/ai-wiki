@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "pathogen-exposure"
   - "disease-transmission"
@@ -12,7 +11,8 @@ aliases:
   - "exposure to pathogens"
   - "pathogenic exposure"
 summary: The state or event of coming into contact with disease-causing organisms that may lead to infection.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Pathogen Exposure
 

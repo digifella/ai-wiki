@@ -13,19 +13,19 @@ aliases:
   - "WAN2.2"
   - "Wan 2.2"
 summary: The WAN2.2 video model enables local text-to-video and image-to-video generation using ComfyUI.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # 14b Parameter Model
 
-The 14b Parameter Model refers to [[concepts/deep-learning-models|neural network architectures]] containing approximately 14 billion trainable [[concepts/parameters|parameters]]. Models at this scale occupy a middle position in the spectrum of [[concepts/large-language-model-llm|large language models]] and multimodal systems, balancing [[concepts/computational-efficiency|computational efficiency]] with substantial capability. This [[concepts/parameter-count|parameter count]] represents a practical compromise for [[concepts/deployment|deployment]] [[concepts/scenarios|scenarios]] where [[concepts/computational-resources|computational resources]] are limited but performance requirements remain significant, making [[concepts/local-execution|local execution]] on consumer-grade [[concepts/hardware|hardware]] feasible.
+The 14b Parameter Model refers to [[concepts/deep-learning-models|neural network architectures]] containing approximately 14 billion trainable [[concepts/parameters|parameters]]. Models at this scale occupy a middle position in the spectrum of [[concepts/large-language-model-llm|large language models]] and multimodal systems, balancing [[concepts/computational-efficiency|computational efficiency]] with substantial capability. This [[concepts/parameter-count|parameter count]] represents a practical compromise for [[concepts/deployment|deployment]] in resource-constrained environments while maintaining meaningful performance across various tasks.
 
-## Computational Characteristics
+## Performance and Applications
 
-A 14-billion parameter model typically requires between 28-56 GB of [[concepts/memory|memory]] depending on precision format ([[concepts/full-precision|full precision]], half precision, or [[concepts/parameter-reduction|quantization]] techniques). This scale allows for meaningful performance on natural language and multimodal tasks while remaining deployable on high-end consumer GPUs or CPU systems with adequate RAM. [[concepts/speed|Inference speed]] and memory requirements vary significantly based on [[concepts/algorithm-optimization|optimization techniques]] and hardware specifications.
+14b parameter models have become increasingly relevant in both [[concepts/natural-language-processing|natural language processing]] and multimodal domains. Models in this category can perform text generation, instruction following, and in some cases image-to-video or video generation tasks with reasonable quality. The scale allows for [[concepts/fine-tuning|fine-tuning]] and local [[concepts/inference|inference]] on consumer hardware, making them accessible for both research and practical deployment scenarios.
 
-## Applications in Video Generation
+## Computational Requirements
 
-The [[concepts/text-to-video-model|WAN2.2 video model]] represents an application of the 14b parameter [[concepts/architecture|architecture]] to video synthesis tasks. It enables both [[concepts/text-to-video|text-to-video]] and [[concepts/image-to-video-model|image-to-video generation]] workflows and integrates with [[concepts/comfyui|ComfyUI]], a node-based interface for [[concepts/generative-ai-workflows|generative AI workflows]]. This integration allows users to perform local video generation without reliance on [[concepts/cloud-computing|cloud services]], providing practical utility for creative and technical applications where computational resources are available locally.
+Models of this size typically require 28-56 GB of memory for full precision inference, though [[concepts/quantization|quantization]] techniques can reduce this substantially. The computational footprint makes 14b parameter models suitable for edge deployment and local applications where larger models would be prohibitively expensive, while remaining substantially more capable than smaller models with billions of parameters.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)

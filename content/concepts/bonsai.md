@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: ai-image-generation-editing
+domain: ai-agents
 tags:
   - "concept"
   - "1-bit-llms"
@@ -14,19 +13,19 @@ aliases:
   - "Bonsai LLM"
   - "Bonsai 8B"
 summary: Bonsai is a concept associated with 1-bit LLMs and efficient on-device deployment.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Bonsai
 
-Bonsai is a 1-bit [[concepts/large-language-model|large language model]] [[concepts/architecture|architecture]] designed for efficient [[concepts/deployment|deployment]] on resource-constrained devices. By representing model [[concepts/weights|weights]] and activations as single-bit values rather than conventional floating-point or multi-bit formats, Bonsai achieves extreme [[concepts/parameter-reduction|quantization]] that reduces [[concepts/memory|memory]] footprint and computational requirements substantially. This approach enables [[concepts/statistical-language-modeling|language model]] [[concepts/inference|inference]] on edge devices—such as mobile phones, embedded systems, or [[concepts/internet-of-things|IoT devices]]—where traditional LLMs would be impractical due to size and power constraints.
+[[entities/bonsai|Bonsai]] is a 1-bit [[concepts/large-language-model|large language model]] [[concepts/architecture|architecture]] designed to enable efficient [[concepts/deployment|deployment]] of language [[concepts/models|models]] on resource-constrained devices. The architecture represents [[concepts/model-weights|model weights]] and activations using single-bit values rather than conventional floating-point or multi-bit [[concepts/precision-reduction|quantization]] formats. This extreme quantization approach significantly reduces [[concepts/memory|memory]] footprint and computational requirements, making it feasible to run capable language models on edge devices with limited processing [[concepts/power|power]] and [[entities/storage|storage]].
 
-## Technical Characteristics
+## Technical Approach
 
-The core [[concepts/innovation|innovation]] of Bonsai lies in its aggressive quantization strategy, converting the continuous values typically used in [[concepts/neural-networks|neural networks]] into discrete 1-bit representations. This compression is achieved through specialized [[concepts/training|training]] and inference techniques that preserve sufficient model expressivity despite the severe reduction in parameter precision. The trade-off involves accepting some degradation in model capability compared to full-precision or multi-bit quantized alternatives, with performance suitable for tasks where [[concepts/speed|inference speed]] and deployment simplicity outweigh the need for state-of-the-art [[concepts/accuracy|accuracy]].
+The core [[concepts/innovation|innovation]] of Bonsai lies in its aggressive [[concepts/parameter-reduction|parameter reduction]] through [[concepts/1-bit-llm|1-bit quantization]]. By converting weights and activations to binary representations, the model achieves substantial compression compared to standard LLM formats while maintaining functional language modeling [[concepts/capabilities|capabilities]]. This quantization strategy allows for faster inference and lower power consumption, which are critical constraints for [[concepts/on-device-ai|on-device deployment]] [[concepts/scenarios|scenarios]].
 
-## Practical Applications
+## Applications and Use Cases
 
-Bonsai targets [[concepts/scenarios|scenarios]] where [[concepts/on-device-ai|on-device deployment]] is essential—whether for [[concepts/privacy|privacy]], latency, or connectivity reasons. By enabling [[concepts/llm-inference|LLM inference]] without [[concepts/cloud-integration|cloud connectivity]] or specialized [[concepts/hardware|hardware]] accelerators, Bonsai expands the range of devices capable of [[concepts/running|running]] language models. This makes it relevant for applications in personal devices, offline systems, and environments where model updates or data transmission are restricted.
-
+Bonsai targets scenarios where deploying full-scale language models is impractical or impossible due to [[concepts/hardware-limitations|hardware limitations]]. Potential [[concepts/software|applications]] include mobile devices, embedded systems, [[concepts/internet-of-things|IoT devices]], and other [[concepts/edge-computing|edge computing]] environments where bandwidth, latency, and [[concepts/energy-efficiency|energy efficiency]] are primary concerns. The architecture enables local language [[concepts/inference|model inference]] without requiring constant [[concepts/connection|connection]] to [[concepts/cloud-based-services|cloud-based services]].
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

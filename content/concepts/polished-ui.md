@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: web-publishing-quartz-websites
+domain: ux-design
 tags:
   - "ollama"
   - "user-interface"
@@ -12,11 +11,12 @@ aliases:
   - "Ollama Native UI"
   - "Ollama UI Release"
 summary: Ollama has released a native user interface to complement its existing command-line interface and API.
-updated: 2026-05-01
+updated: 2026-05-23
+group: uiux-fundamentals
 ---
 # Polished Ui
 
-[[entities/ollama|Ollama]] has developed and released a native [[concepts/user-interface|user interface]] to accompany its established [[concepts/command-line-interface|command-line interface]] and API. This represents an expansion of the platform's [[concepts/accessibility|accessibility]], allowing users who prefer graphical interfaces to interact with Ollama's capabilities without relying solely on terminal [[concepts/commands|commands]].
+[[entities/ollama|Ollama]] has developed and released a native [[concepts/user-interface|user interface]] to accompany its established [[concepts/command-line-interface|command-line interface]] and API. This represents an expansion of the platform's [[concepts/accessibility|accessibility]], allowing users who prefer graphical interfaces to interact with [[concepts/task-specific-modeling|Ollama]]'s [[concepts/capabilities|capabilities]] without relying solely on terminal [[concepts/commands|commands]].
 
 ## Background
 
@@ -25,7 +25,6 @@ Ollama previously operated as a CLI-first and API-driven platform, primarily ser
 ## Functionality
 
 The native UI maintains compatibility with Ollama's existing command-line and API systems, providing an alternative interface layer rather than replacing established workflows. This allows both experienced users and newcomers to work within their preferred environments.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)
 - 2026-04-11: [[lab-notes/2026-04-11-Five-Interview-Techniques-to-Uncover-Genuine-Talent-in-the-GenAI-Age|Five Interview Techniques to Uncover Genuine Talent in the GenAI Age]] · [▶ source](https://www.youtube.com/watch?v=qgC--IUnr7I)

@@ -1,23 +1,16 @@
 ---
-domain: security-infrastructure
 type: concept
-tags:
-  - "character-encoding"
-  - "binary-representation"
-  - "url-transformation"
-  - "data-compression"
-  - "encryption-methods"
-  - "file-format-optimization"
-updated: 2026-04-13
+domain: security-infrastructure
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Encoding
 
-Encoding refers to the process of converting information or data into a specific format for [[entities/storage|storage]] or transmission. It plays a crucial role in various fields such as computer science, telecommunications, and linguistics.
+Encoding refers to the process of converting information or data into a specific format for [[entities/storage|storage]] or transmission. It plays a crucial role in various fields such as computer [[concepts/science|science]], telecommunications, and linguistics.
 
 ## Key Concepts
 
-- **[[concepts/integrity|Character]] Encoding**: Converts characters from a character set (like ASCII or Unicode) into binary code.
+- **[[concepts/integrity|Character]] Encoding**: Converts characters from a character set (like ASCII or Unicode) into binary [[concepts/code|code]].
   - ASCII
   - Unicode
 
@@ -38,11 +31,10 @@ Encoding refers to the process of converting information or data into a specific
 ## Related Concepts and Examples
 
 - **Sagan's [[entities/contact|Contact]]**: "God's Signature" in Pi and Dawkins' Scientific View
-  - In this video, [[entities/richard-dawkins|Richard Dawkins]] discusses a hypothetical scenario where an intelligent [[concepts/design|design]] is found embedded within the fundamental mathematical constant π, as described in [[entities/carl-sagan|Carl Sagan]]’s science fiction novel *Contact*. This concept challenges traditional views on the existence of divine signatures or patterns in [[entities/nature|nature]].
+  - In this video, [[entities/richard-dawkins|Richard Dawkins]] discusses a hypothetical scenario where an intelligent [[concepts/design|design]] is found embedded within the fundamental mathematical constant π, as described in [[entities/carl-sagan|Carl Sagan]]’s [[concepts/science|science]] fiction novel *[[entities/contact|Contact]]*. This concept challenges traditional views on the existence of divine signatures or patterns in [[entities/nature|nature]].
   - 2026 04 13 Sagans Contact Gods Signature in Pi and Dawkins Scientific View
 
 - encoding
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Unified-AI-Skill-Format-Agent-First-Organizational-Infrastructure|Unified AI Skill Format Agent First Organizational Infrastructure]] · [▶ source](https://www.youtube.com/watch?v=0cVuMHaYEHE)
 - 2026-04-13: [[lab-notes/2026-04-13-Communicating-with-Extraterrestrial-Life-Decoding-Universal-Language-P|Communicating with Extraterrestrial Life Decoding Universal Language P]] · [▶ source](https://www.youtube.com/watch?v=hbFq0I7YrYQ)

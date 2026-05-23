@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "chinese-philosophy"
   - "geomancy"
@@ -11,11 +10,12 @@ tags:
 aliases:
   - "feng-shui"
 summary: Chinese philosophical system for arranging spaces and environments based on principles of balance and natural elements.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Feng Shui
 
-Feng Shui is a Chinese philosophical and design system developed over millennia to harmonize human environments with natural forces. The name literally means "wind-water" in Chinese, referring to the two natural elements considered most influential in shaping landscapes. Practitioners believe that arranging physical spaces according to Feng Shui principles can enhance [[concepts/health|wellbeing]], prosperity, and fortune by optimizing the flow of chi (life force energy) through a given environment.
+Feng Shui is a Chinese philosophical and [[concepts/design|design]] system developed over millennia to harmonize human environments with natural forces. The name literally means "wind-water" in Chinese, referring to the two natural elements considered most influential in shaping landscapes. Practitioners believe that arranging physical spaces according to Feng Shui principles can enhance [[concepts/health|wellbeing]], [[concepts/prosperity|prosperity]], and fortune by optimizing the [[concepts/flow|flow]] of chi (life force energy) through a given environment.
 
 ## Core Principles
 
@@ -23,4 +23,4 @@ The system draws on several foundational concepts, particularly the [[concepts/f
 
 ## Historical Context and Practice
 
-Feng Shui emerged from ancient Chinese [[concepts/cosmology|cosmology]] and was historically applied to temple placement, city planning, and tomb construction. In contemporary practice, it influences residential and commercial interior design across East Asia and increasingly in Western contexts, though approaches range from literal adherence to selective aesthetic integration. While rooted in philosophical traditions rather than empirical science, Feng Shui remains a significant aspect of Chinese [[concepts/cultural-heritage|cultural heritage]] and continues to shape architectural and design decisions globally.
+Feng Shui emerged from ancient Chinese [[concepts/cosmology|cosmology]] and was historically applied to temple placement, [[concepts/city-planning|city planning]], and tomb construction. In contemporary practice, it influences residential and commercial interior design across East Asia and increasingly in Western contexts, though approaches [[concepts/range|range]] from literal adherence to selective aesthetic [[concepts/integration|integration]]. While rooted in philosophical traditions rather than empirical [[concepts/science|science]], Feng Shui remains a significant aspect of Chinese [[concepts/cultural-heritage|cultural heritage]] and continues to shape architectural and design decisions globally.

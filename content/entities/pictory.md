@@ -1,26 +1,16 @@
 ---
 type: entity
-tags:
-  - "video-creation"
-  - "ai"
-  - "content-creation"
-  - "notebooklm"
-  - "pictury"
-  - "text-to-video"
-  - "whiteboard-animation"
-aliases:
-  - "Pictory AI"
-summary: "An AI-powered platform for converting text, scripts, and presentations into video content and animated whiteboard videos."
-updated: 2026-04-22
+summary: An AI-powered platform for converting text, scripts, and presentations into video content and animated whiteboard videos.
+updated: 2026-05-23
 ---
 # Pictory
 
-AI-powered platform for transforming text into engaging video content, including animated [[concepts/whiteboard|whiteboard]] videos. Specializes in converting scripts, presentations, and articles into shareable video assets.
+[[concepts/ai-powered-platform|AI-powered platform]] for transforming [[concepts/text|text]] into engaging video content, including animated [[concepts/whiteboard|whiteboard]] videos. Specializes in converting scripts, presentations, and articles into shareable video assets.
 
 ## Workflow Integration
 
-- **[[concepts/audio-integration|NotebookLM integration]]**: Upload scripts to [[entities/notebooklm]] to generate [[concepts/slide-decks|slide decks]] (via "Add Source" > "Upload Files"), then use the output in Pictory for video rendering.
-- **Workflow example**:
+- **[[concepts/audio-integration|NotebookLM integration]]**: Upload scripts to [[entities/notebooklm]] to generate [[concepts/slide-decks|slide decks]] (via "Add Source" > "Upload [[concepts/files|Files]]"), then use the [[concepts/output|output]] in Pictory for video rendering.
+- **[[concepts/workflow|Workflow]] example**:
   - Create new [[concepts/notebook|notebook]] in [[entities/notebooklm]]
   - Upload script via "Add Source" > "Upload Files"
   - Generate slide deck
@@ -31,12 +21,12 @@ AI-powered platform for transforming text into engaging video content, including
 - Automated whiteboard animation from text
 - Script-to-video conversion
 - Customizable [[concepts/templates|templates]]
-- Branding integration
+- Branding [[concepts/integration|integration]]
 
 ## Backlink
 [[concepts/date-2026-04-13|2026]] 04 14 Create an animated whiteboard video using [[concepts/notebooklm|NotebookLM]]
 
-- 2026-04-08 [2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
+- 2026-04-08 [2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming [[concepts/ai-integrated-notebooks|Notebooklm]] [[concepts/google-slides|Slides]] To Unwatermarked [[concepts/google-vids|Google Vids]]
 - 2026-04-07 [2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
 - 2026-04-10 [2026-04-10-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-10-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
 ## Source Notes

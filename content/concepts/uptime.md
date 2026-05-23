@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "ai-assistant"
   - "clawdbot"
@@ -14,7 +13,8 @@ aliases:
   - "OpenClaw"
   - "Local AI Assistant Setup"
 summary: A guide detailing the setup and configuration of the Clawdbot (OpenClaw) personal AI assistant.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Uptime
 
@@ -26,8 +26,7 @@ Uptime is typically expressed as a percentage over a specific period, such as mo
 
 ## Factors Affecting Uptime
 
-Several elements influence the uptime of an [[entities/ai-assistant|AI assistant]] platform. System maintenance, software updates, and bug fixes may require scheduled downtime. Unplanned outages can result from hardware failures, network issues, or software errors. For locally-hosted solutions like OpenClaw, uptime is heavily influenced by the host machine's stability and the user's network reliability. For cloud-based deployments, the service provider's infrastructure redundancy and failover mechanisms become primary determinants.
-
+Several elements [[concepts/power|influence]] the uptime of an [[entities/ai-assistant|AI assistant]] platform. System maintenance, software updates, and bug fixes may require scheduled downtime. Unplanned outages can result from hardware failures, network issues, or software errors. For locally-hosted solutions like [[concepts/conversational-chatbots|OpenClaw]], uptime is heavily influenced by the host machine's stability and the user's network reliability. For cloud-based deployments, the service provider's infrastructure redundancy and failover mechanisms become primary determinants.
 ## Source Notes
 - 2026-04-08: Anthropic
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an|Anthropics Claude AI Subscription Changes OpenClaw Ban Usage Limits an]] · [▶ source](https://www.youtube.com/watch?v=a4hdPWSUzsE)

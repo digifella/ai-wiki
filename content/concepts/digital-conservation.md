@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: enterprise-strategy-future-work
 tags:
   - "digital-preservation"
   - "archives"
@@ -11,16 +10,17 @@ aliases:
   - "digital-preservation"
   - "digitisation-conservation"
 summary: The University of Melbourne Archives references the concept of digital conservation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: enterprise-strategy-future-work
 ---
 # Digital Conservation
 
 Digital conservation refers to the strategies and practices employed to preserve digital materials and digitized content for long-term access and usability. As organizations increasingly convert physical archives and records into digital formats, the challenge of maintaining these materials over extended periods becomes a significant concern. Digital conservation encompasses technical, organizational, and strategic approaches to ensure that digital assets remain readable, accessible, and authentic across changing technological landscapes.
 
-## Organizational Implementation
-
-In institutional contexts such as university archives and libraries, digital conservation involves ongoing maintenance of digitized collections, [[concepts/metadata|metadata]] management, and format migration strategies. Organizations like the [[concepts/digital-repository|University of Melbourne Archives]] implement digital conservation practices to preserve culturally and historically significant materials in digital form. This work ensures that digitized items—whether documents, photographs, or other archival materials—can be discovered and accessed by researchers and the public over time.
-
 ## Key Challenges
 
-The field addresses several persistent challenges, including technological obsolescence, data degradation, and the proliferation of file formats. Digital materials face risks that physical archives do not encounter, such as [[concepts/software|software]] compatibility issues and [[entities/storage|storage]] media failure. Effective digital conservation requires institutions to continuously evaluate and update their [[concepts/preservation|preservation]] approaches to account for evolving technology and emerging [[concepts/best-practices|best practices]] in the field.
+[[concepts/digital-preservation|Digital preservation]] [[concepts/faces|faces]] distinct challenges compared to physical conservation. Digital formats depend on specific [[concepts/hardware|hardware]], [[concepts/software|software]], and file formats that become obsolete as technology evolves. Media degradation, format obsolescence, and the sheer volume of digital content created annually present ongoing difficulties. Organizations must also address issues of authenticity and provenance in digital environments, ensuring that preserved materials maintain their [[concepts/integrity|integrity]] and can be verified as genuine records.
+
+## Organizational Approaches
+
+Institutions implementing digital conservation typically establish multiple preservation strategies. These include maintaining redundant copies across geographically dispersed locations, regularly migrating [[concepts/files|files]] to current formats and [[entities/storage|storage]] systems, and documenting [[concepts/metadata|metadata]] that describes the content and its preservation history. Organizations like the [[concepts/digital-repository|University of Melbourne Archives]] develop preservation [[concepts/policies|policies]] that balance [[concepts/accessibility|accessibility]] with long-term sustainability, ensuring that digital collections remain usable for researchers and the public over decades or longer.

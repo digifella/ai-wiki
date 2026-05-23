@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "research"
-  - "productivity"
-  - "NotebookLM"
-  - "ai-research"
-  - "information-synthesis"
-  - "multi-modal-input"
-  - "content-automation"
-  - "source-grounding"
-aliases:
-  - "Deep Research"
-  - "Automated Information Synthesis"
-summary: "An AI-driven capability for intensive information synthesis and discovery using multi-modal inputs and source grounding."
-updated: 2026-04-24
+summary: An AI-driven capability for intensive information synthesis and discovery using multi-modal inputs and source grounding.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Deep Research function
@@ -24,11 +11,11 @@ An advanced capability within AI-driven content systems (e.g., [[entities/notebo
 
 ### Key Characteristics
 - **Source Grounding:** Minimizes hallucinations by anchoring [[concepts/responses|responses]] strictly to user-provided [[concepts/training-data|datasets]].
-- **[[concepts/multi-modal-input|Multi-modal Input]]:** Capable of processing and synthesizing diverse formats including PDF, [[entities/google-docs]], [[concepts/google-slides]], Audio, and URLs.
+- **[[concepts/multi-modal-input|Multi-modal Input]]:** Capable of processing and synthesizing diverse formats including PDF, [[entities/google-docs]], [[concepts/google-slides]], [[concepts/audio-modality|Audio]], and URLs.
 - **[[concepts/automated-synthesis|Automated Synthesis]]:** Transforms raw information into structured, actionable outputs:
     - [[concepts/data-tables]]
     - [[concepts/infographic]]
-    - Slides
+    - [[entities/google-slides|Slides]]
     - Videos
 
 ### Productivity Application
@@ -36,7 +23,6 @@ An advanced capability within AI-driven content systems (e.g., [[entities/notebo
 
 ---
 **Backlink:** 2026 04 14 [[concepts/ai-integrated-notebooks|NotebookLM]] 2026 [[entities/grace-leung|Grace Leung]] channel
-
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

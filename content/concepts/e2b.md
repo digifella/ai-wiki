@@ -1,0 +1,46 @@
+---
+type: concept
+domain: undecided
+tags:
+  - "e2b"
+  - "ai-agents"
+  - "sandbox"
+  - "cloud-infrastructure"
+  - "code-execution"
+  - "serverless"
+  - "sandboxed-execution"
+  - "ai-agent-infrastructure"
+  - "code-execution-environment"
+  - "serverless-compute"
+  - "cloud-native"
+  - "container-isolation"
+aliases:
+  - "E2B sandbox"
+  - "AI agent execution platform"
+summary: E2B is a cloud-native sandbox platform that provides isolated, ephemeral compute environments for AI agents to execute code and perform tasks with built-in resource limits and language support.
+updated: 2026-05-23
+group: needs-review
+---
+# E2B
+
+## Definition
+E2B provides [[concepts/secure|secure]], cloud-native sandboxed environments for [[concepts/ai-agent]]s to execute [[concepts/code|code]], browse, and perform tasks. Delivers isolated [[concepts/compute|compute]] instances with pre-installed toolchains, enabling deterministic [[concepts/automation|automation]] without host [[concepts/infrastructure-risk|infrastructure risk]].
+
+## Core Capabilities
+- **Isolated Sandboxes:** Ephemeral containers with strict resource limits and network [[concepts/policies|policies]] for safe execution.
+- **Agent-Native APIs:** Programmatic [[concepts/power|control]] over processes, [[concepts/files|files]], and stdout/stderr tailored for LLM-driven workflows.
+- **Multi-[[concepts/multilingual-support|Language Support]]:** [[concepts/python|Python]], [[entities/nodejs|Node.js]], and Jupyter environments for diverse [[entities/agent|agent]] implementations.
+- **Scalable Orchestration:** Serverless [[concepts/computational-scaling|scaling]] for high-concurrency agent deployments; cost-optimized for bursty workloads.
+
+## Integrations
+- Frameworks: [[entities/langchain]], [[entities/llamaindex]], CrewAI, Autogen.
+- [[concepts/models|Models]]: Compatible with [[entities/gpt-4]], [[entities/claude]], [[concepts/local-llm]]s via external [[concepts/inference|inference]].
+- [[concepts/scenarios|Use Cases]]: Code Interpreter, data analysis, [[concepts/web-crawling|web scraping]], [[concepts/software|software]] [[concepts/testing|testing]].
+
+## Related Developments
+- **[[concepts/local-execution|Local Execution]] Alternatives:**
+- [[lab-notes/2026-05-10-Google-Gemma-4-Local-Chrome-AI-Agent-Private-Cost-Free-A|Google Gemma 4 Local Chrome AI Agent: Private, Cost-Free Automation]]
+    - [[concepts/transformers|Transformers]].js [[concepts/adoption|implementation]] of [[entities/gemma-4]] [[concepts/running|running]] as a [[concepts/chrome-extension|Chrome extension]].
+    - Fully [[concepts/local-inference|local inference]]; no [[concepts/api-keys|API keys]] or cloud dependency required.
+    - Privacy-first [[concepts/browser-automation|browser automation]]; developed by Nic (AI Stack Engineer).
+    - Demonstrates viable client-side automation for lightweight, cost-free agent tasks.

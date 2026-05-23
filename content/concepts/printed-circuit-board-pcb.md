@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "circuit-board"
   - "electronics"
@@ -12,7 +11,8 @@ aliases:
   - "Printed Circuit Board"
   - "PCB board"
 summary: This page contains a concept entry for Printed Circuit Boards (PCB) and references a YouTube video.
-updated: 2026-05-01
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Printed Circuit Board (PCB)
 
@@ -20,7 +20,7 @@ A Printed Circuit Board (PCB) is a flat board made of insulating material, typic
 
 ## Manufacturing and Design
 
-PCBs are manufactured through a series of processes that involve etching copper layers, drilling holes for component leads, and applying solder masks and labels. The design phase uses specialized [[concepts/software|software]] to create circuit layouts before manufacturing begins. Single-sided boards contain conductive traces on one surface, while multi-layer boards stack multiple conductive layers with insulation between them, allowing for more complex circuitry in compact spaces.
+PCBs are manufactured through a series of processes that involve etching copper layers, drilling holes for component leads, and applying solder masks and labels. The [[concepts/design|design]] [[concepts/phase|phase]] uses specialized [[concepts/software|software]] to create circuit layouts before manufacturing begins. Single-sided boards contain conductive traces on one surface, while multi-layer boards stack multiple conductive layers with insulation between them, allowing for more complex circuitry in compact spaces.
 
 ## Function and Applications
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "hydroponics"
   - "indoor-gardening"
@@ -13,7 +12,8 @@ aliases:
   - "hydroponic gardening"
   - "water-based plant growth"
 summary: Soilless cultivation refers to the practice of growing certain indoor plants in water without the use of soil.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Soilless Cultivation
 

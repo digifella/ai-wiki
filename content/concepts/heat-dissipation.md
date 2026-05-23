@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "thermal-management"
   - "heat-transfer"
@@ -13,7 +12,8 @@ aliases:
   - "heat removal"
   - "cooling management"
 summary: The process of transferring and removing heat from mechanical systems to maintain operational efficiency and prevent damage.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Heat Dissipation
 
@@ -25,7 +25,6 @@ Heat dissipation relies on several established mechanisms. Conductive pathways t
 
 ## Applications
 
-The importance of heat dissipation varies by domain. In automotive engines, [[concepts/cooling-systems|cooling systems]] manage combustion heat. Electronic devices use heat sinks and thermal paste to protect [[concepts/central-processing-units|processors]] and power components. Industrial machinery depends on coolant systems to maintain bearing and fluid temperatures. Power generation equipment requires substantial cooling infrastructure to handle thermal loads efficiently.
-
+The importance of heat dissipation varies by domain. In automotive engines, [[concepts/cooling-systems|cooling systems]] manage combustion heat. Electronic devices use heat sinks and thermal paste to protect [[concepts/central-processing-units|processors]] and [[concepts/power|power]] components. Industrial machinery depends on coolant systems to maintain bearing and fluid temperatures. Power generation equipment requires substantial cooling infrastructure to handle thermal loads efficiently.
 ## Source Notes
 - 2026-04-28: Apple

@@ -15,24 +15,23 @@ tags:
 aliases:
   - "vps-setup"
   - "server-configuration"
-summary: "The process of installing, configuring, and managing software services on a Virtual Private Server to maintain control over data, privacy, and computational resources."
-updated: 2026-04-28
+summary: The process of installing, configuring, and managing software services on a Virtual Private Server to maintain control over data, privacy, and computational resources.
+updated: 2026-05-23
 group: deployment-docker-services
 ---
 # VPS deployment
 
-The process of installing, configuring, and managing [[concepts/software|software]] services on a Virtual Private Server to maintain control over data, [[concepts/privacy|privacy]], and [[concepts/computational-resources|computational resources]].
+The process of installing, configuring, and managing [[concepts/software|software]] services on a Virtual Private Server to maintain [[concepts/power|control]] over data, [[concepts/privacy|privacy]], and [[concepts/computational-resources|computational resources]].
 
 ### Key Use Cases
 - **[[concepts/self-hosted-ai|Private AI Infrastructure]]**:
-    - [[concepts/openclaw|OpenClaw]] (Clawdbot): A personal [[concepts/ai-assistant|AI assistant]] deployed on private, self-managed infrastructure.
+    - [[concepts/openclaw|OpenClaw]] ([[concepts/remote-chat|Clawdbot]]): A personal [[concepts/ai-assistant|AI assistant]] deployed on private, self-managed infrastructure.
     - **[[concepts/capabilities|Capabilities]]**: Enables real-world task execution through integrations with [[entities/gmail|Gmail]], [[entities/asana|Asana]], [[entities/slack|Slack]], and [[entities/telegram|Telegram]].
     - **Reference**: 2026 04 14 Clawbot Matthew Berman channel (via [[entities/matthew-berman|Matthew Berman]]).
 
 ---
 **Backlinks**:
 - 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel
-
 ## Source Notes
 - 2026-04-08: OpenClaw [[concepts/tutorial|Tutorial for Beginners - Crash Course]]
 - 2026-04-10: What Is Llama.cpp? The LLM [[concepts/inference-engine|Inference Engine for Local AI]]

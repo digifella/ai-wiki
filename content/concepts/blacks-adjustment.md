@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "concept"
   - "lightroom-classic"
@@ -12,19 +11,19 @@ tags:
 aliases:
   - "adjusting-blacks"
 summary: A technique used for adjusting black levels during landscape processing in Lightroom Classic.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 ---
 # Blacks Adjustment
 
-The Blacks adjustment is a tonal control slider in Lightroom Classic that modifies the darkest values in an image during post-processing. Unlike the [[concepts/shadows|Shadows]] slider which affects a broader range of mid-dark tones, the Blacks adjustment specifically targets the [[concepts/black-point-adjustment|black point]]—the deepest shadow areas of a photograph. Moving the slider to the right deepens [[concepts/blacks|blacks]] and increases [[concepts/contrast|contrast]], while moving it to the left recovers detail in shadow regions and lightens dark areas.
+The [[concepts/blacks|Blacks]] adjustment is a tonal [[concepts/power|control]] slider in [[entities/lightroom-classic|Lightroom Classic]] that modifies the darkest values in an image during post-processing. Unlike the [[concepts/shadows|Shadows]] slider, which affects a broader [[concepts/range|range]] of mid-dark tones, the Blacks adjustment specifically targets the [[concepts/black-point-adjustment|black point]]—the deepest shadow areas of a photograph. This distinction makes it a precise tool for controlling the darkest regions without affecting the overall shadow [[concepts/tonal-music|tonality]].
 
-## Function and Workflow
+## Function and Application
 
-In typical [[concepts/landscape-photography|landscape photography]] processing, the Blacks adjustment is applied after initial [[concepts/exposure|exposure]] and contrast corrections have been made. It works in conjunction with other tonal controls like Exposure, Contrast, and Shadows to shape the overall tonal range. The adjustment is particularly effective for controlling mood and depth in [[concepts/images|images]] with significant shadow areas, such as landscapes containing forests, mountains, or water reflections.
+Moving the Blacks slider to the right deepens the black tones and increases overall [[concepts/contrast|contrast]], which can add visual punch to an image and enhance definition in shadow areas. Conversely, moving the slider to the left lightens the darkest values and can recover detail that would otherwise appear as pure black. This recovery technique is particularly useful when working with [[concepts/images|images]] that have been slightly underexposed or when the photographer wishes to preserve shadow detail for a softer tonal range.
 
-## Practical Use
+## Usage in Landscape Processing
 
-Photographers use the Blacks adjustment to either increase visual impact by deepening shadows for more dramatic contrast, or to preserve shadow detail in challenging lighting conditions. The adjustment can be monitored using Lightroom's clipping [[concepts/indicators|indicators]], which highlight areas where shadow detail is being lost. A common approach is to increase blacks gradually while watching for unwanted clipping in important shadow regions.
-
+In [[concepts/landscape-photography|landscape photography]], the Blacks adjustment is commonly used to refine the tonal [[concepts/structure|structure]] after initial [[concepts/exposure|exposure]] correction. By [[concepts/fine-tuning|fine-tuning]] the black point, photographers can enhance the separation between dark landscape elements—such as shadows in foliage or terrain—while maintaining natural appearance. The adjustment works in conjunction with other tonal controls like Exposure, Contrast, and Shadows to achieve a cohesive final image.
 ## Source Notes
 - 2026-04-21: Adobe · [▶ source](https://www.youtube.com/watch?v=JgfxoI4HYH4)

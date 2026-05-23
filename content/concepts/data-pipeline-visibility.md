@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data-pipeline"
-  - "visibility"
-  - "observability"
-updated: 2026-04-15
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data Pipeline Visibility
@@ -13,7 +9,7 @@ group: data-pipelines-sync-storage
 The ability to monitor, trace, and understand data flows across all stages of a pipeline — from ingestion to consumption — including dependencies, transformations, and downstream impacts.
 
 **Key Insights**:
-- **The [[concepts/farah-jama-principle|Farah Jama Principle]]**: AI/data initiatives fail when lacking "whole-of-case visibility" (mirroring forensic science's [[entities/farah-jama|Farah Jama]] case), requiring understanding of *both* upstream and [[concepts/downstream-processes|downstream processes]] beyond isolated segments AI Project Transparency
+- **The [[concepts/farah-jama-principle|Farah Jama Principle]]**: AI/data initiatives fail when lacking "[[concepts/whole-of-case-visibility|whole-of-case visibility]]" (mirroring forensic [[concepts/science|science]]'s [[entities/farah-jama|Farah Jama]] case), requiring understanding of *both* upstream and [[concepts/downstream-processes|downstream processes]] beyond isolated segments AI Project Transparency
 - Organizations treat pipelines like traditional IT projects, ignoring end-to-end traceability leading to opaque failures
 - Visibility must include data lineage, schema evolution, and real-time impact assessment
 
@@ -24,7 +20,6 @@ The ability to monitor, trace, and understand data flows across all stages of a 
 - [[concepts/data-conceptsintegrityintegrity|Data Quality]] Management
 
 2026 04 14 [[entities/it|I Feel Lucky]] Generate insights from All Topics
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

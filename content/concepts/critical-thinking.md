@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "critical-thinking"
   - "engine-survival"
@@ -13,21 +12,21 @@ aliases:
   - "critical analysis"
   - "analytical thinking"
 summary: This page is a stub regarding the concept of critical thinking.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 title: critical-thinking
 ---
 # Critical Thinking
 
-Critical thinking is the disciplined process of actively analyzing, evaluating, and synthesizing information to form reasoned judgments and solve problems effectively. In [[concepts/mathematics|mathematics]] and [[concepts/cryptography|cryptography]], critical thinking is essential for understanding the logical foundations of algorithms, identifying potential weaknesses in security protocols, and validating proofs and theoretical claims. Rather than accepting information at face value, critical thinkers examine evidence, question assumptions, and consider alternative [[concepts/explanations|explanations]] before drawing conclusions.
+Critical [[concepts/human-cognition|thinking]] is the disciplined process of actively analyzing, evaluating, and synthesizing information to form reasoned judgments and solve problems effectively. In [[concepts/mathematics|mathematics]] and [[concepts/cryptography|cryptography]], critical thinking is essential for understanding the logical foundations of algorithms, identifying potential weaknesses in [[concepts/security|security]] protocols, and validating proofs and theoretical claims. Rather than accepting information [[concepts/assistive-technology|at]] face value, critical thinkers examine evidence, question assumptions, and consider alternative [[concepts/explanations|explanations]] before drawing conclusions.
 
 ## Application in Cryptography
 
-In cryptographic systems, critical thinking enables practitioners to assess the strength of encryption methods, evaluate threat models realistically, and recognize when established protocols may be vulnerable to novel attack vectors. Cryptographers must think critically about both the mathematical properties of their systems and the practical contexts in which they are deployed, considering how theoretical security guarantees translate to real-world protection. This [[concepts/mindset|mindset]] is particularly important given that cryptographic security often depends on assumptions that may shift as computational capabilities evolve.
+In cryptographic systems, critical thinking enables practitioners to assess the strength of [[concepts/encryption-methods|encryption methods]], evaluate threat [[concepts/models|models]] realistically, and recognize when established protocols may be vulnerable to novel [[concepts/cybersecurity-threats|attack vectors]]. Cryptographers must think critically about both the mathematical properties of their systems and the practical contexts in which they are deployed, considering how theoretical security guarantees translate to real-world protection. This [[concepts/mindset|mindset]] is particularly important given that cryptographic security often depends on assumptions that may shift as computational [[concepts/capabilities|capabilities]] evolve.
 
 ## Development and Practice
 
 Critical thinking develops through sustained practice: asking [[concepts/clarifying-questions|clarifying questions]], breaking complex problems into smaller components, examining the logic of arguments, and [[concepts/testing|testing]] conclusions against [[concepts/empirical-evidence|empirical evidence]]. In educational and professional contexts, it involves distinguishing between reliable sources and unreliable ones, recognizing [[concepts/cognitive-biases|cognitive biases]] that distort judgment, and maintaining intellectual humility about the limits of one's knowledge. The ability to think critically is foundational to [[concepts/scientific-method|scientific inquiry]] and rigorous [[concepts/problem-solving|problem-solving]] across mathematical disciplines.
-
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Meta-Muse-Spark-Features-Performance-and-Strategic-Shift-to-Proprietar|Meta Muse Spark Features Performance and Strategic Shift to Proprietar]] · [▶ source](https://www.youtube.com/watch?v=7vkybiVRSm0)
 - 2026-04-16: [[lab-notes/2026-04-16-Tesla-SpaceX-Terafab-2nm-AI-Chip-Vertical-Integration-Strategy|Tesla SpaceX Terafab 2nm AI Chip Vertical Integration Strategy]] · [▶ source](https://www.youtube.com/watch?v=FQhoQ4bRbe8)

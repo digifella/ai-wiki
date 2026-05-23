@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: apis-integrations-mcp
 tags:
   - "api-authentication"
   - "openai"
@@ -14,20 +13,20 @@ aliases:
   - "API credentials"
   - "OpenAI API keys"
 summary: Credentials and keys required to authenticate and access APIs for services like OpenAI, N8N, and local AI models.
-updated: 2026-05-01
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Api Keys
 
-API keys are credentials that authenticate and authorize access to third-party services and APIs. They function as security [[concepts/tokens|tokens]], allowing [[concepts/software|applications]] and workflows to interact with external platforms without exposing user passwords or account details. API keys are typically unique alphanumeric strings issued by service providers and must be stored securely within configuration files or [[concepts/environment-variables|environment variables]] to prevent unauthorized access.
+API keys are credentials that authenticate and authorize access to third-party services and APIs. They function as [[concepts/security|security]] [[concepts/tokens|tokens]], allowing [[concepts/software|applications]] and workflows to interact with external platforms without exposing user passwords or account details. API keys are typically unique alphanumeric strings issued by service providers and must be stored securely within configuration [[concepts/files|files]] or [[concepts/environment-variables|environment variables]] to prevent unauthorized access.
 
 ## Common Use Cases
 
-API keys enable integration across various platforms and services. [[entities/openai|OpenAI]] requires API keys to access language models and GPT services. [[concepts/automation|Automation]] platforms like N8N use API keys to connect with [[concepts/external-data|external data]] sources and [[concepts/third-party-applications|third-party applications]]. [[concepts/mobile-ai|Local AI models]] may also require [[concepts/authentication|authentication]] keys for certain operations. Other common applications include cloud [[entities/storage|storage]] services, payment [[concepts/central-processing-units|processors]], content delivery networks, and analytics platforms.
+API keys enable [[concepts/integration|integration]] across various platforms and services. Development teams use them to access [[concepts/cloud-computing|cloud services]] like [[entities/openai|OpenAI]]'s language [[concepts/models|models]], [[concepts/automation|automation]] platforms like [[entities/n8n|N8N]], and local [[concepts/model-repositories|AI model repositories]]. Each service typically issues unique keys that grant specific permissions and usage quotas, allowing developers to authenticate requests while maintaining [[concepts/separation-of-concerns|separation of concerns]] between different integrations.
 
 ## Security Considerations
 
-API keys should never be hardcoded directly into application source code or stored in version control systems. Instead, they should be managed through environment variables, [[concepts/secure|secure]] vaults, or [[concepts/configuration-management|configuration management]] tools that restrict access to authorized personnel. Rotating API keys periodically and monitoring their usage helps prevent unauthorized access. If a key is compromised, it should be revoked immediately and replaced with a new one. Different API keys should be used for different environments—such as development, [[concepts/testing|testing]], and production—to limit the impact of potential breaches.
-
+Proper API key management is essential for system security. Keys should never be hardcoded into source [[concepts/code|code]] or committed to version [[concepts/power|control]] systems. Instead, they should be stored in environment variables, [[concepts/configuration-management|configuration management]] systems, or secret vaults. Access to keys should be restricted to authorized personnel and systems, and unused or compromised keys should be revoked immediately. Many service providers allow key rotation and granular permission scoping to limit potential damage if a key is exposed.
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-10: [[lab-notes/2026-04-10-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards|Alibaba Qwen 36 Plus Agentic Coding and Multimodal Reasoning Towards]] · [▶ source](https://www.youtube.com/watch?v=v8RokQY05Bo)

@@ -1,19 +1,20 @@
 ---
 type: concept
-domain: ai-agents
+domain: tools-platforms
 tags:
   - "cursor"
   - "software-development"
   - "ai-agent-framework"
   - "user-interface"
   - "input-device"
-summary: "A control device that positions a pointer or cursor on a computer screen."
-updated: 2026-04-28
-group: ai-foundations-concepts
+summary: A control device that positions a pointer or cursor on a computer screen.
+updated: 2026-05-23
+group: developer-tooling-clis
+stub: true
 ---
 # Cursor
 
-A [[entities/cursor]] is a control device that positions a pointer or cursor on a computer screen.
+A [[entities/cursor]] is a [[concepts/power|control]] device that positions a pointer or cursor on a computer screen.
 
 ## Related Concepts
 - [[concepts/user-interface]]
@@ -22,12 +23,11 @@ A [[entities/cursor]] is a control device that positions a pointer or cursor on 
 
 ## Additional Information
 - The [[concepts/bmad-method|BMAD method]] for [[concepts/coding|coding]] introduces a universal [[concepts/ai-agent-framework|AI agent framework]] for [[concepts/agile-ai-driven-development|Agile AI-driven development]].
-- Highlights the evolution from simple [[concepts/coding|coding]] to sophisticated [[concepts/context-engineering|context engineering]].
+- [[concepts/highlights|Highlights]] the evolution from simple [[concepts/coding|coding]] to sophisticated [[concepts/context-engineering|context engineering]].
 - Emphasizes the need for proper [[concepts/software|software]] development processes to create production-ready [[concepts/software|applications]].
 
 ## Backlinks
 - 2026 04 14 [[concepts/bmad-method|BMAD method]] for [[concepts/coding|coding]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-and-Canva-Integration-for-Streamlined-Graphic-Design|Claude AI and Canva Integration for Streamlined Graphic Design]] · [▶ source](https://www.youtube.com/watch?v=gBV5FT40N_M)
 - 2026-04-08: Anthropic

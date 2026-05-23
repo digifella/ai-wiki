@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "ai"
-  - "coaching"
-  - "time-management"
-  - "productivity"
-  - "ai-coaching"
-  - "time-audit"
-  - "strategic-alignment"
-  - "productivity-optimization"
-aliases:
-  - "Time Clarity Method"
-  - "AI Time Audit"
-summary: "A method using AI-driven structured interviews to identify misalignments between time usage and strategic goals."
-updated: 2026-04-14
+summary: A method using AI-driven structured interviews to identify misalignments between time usage and strategic goals.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Time Clarity Interview System
@@ -30,7 +18,7 @@ A method for resolving time-related challenges by addressing underlying **clarit
 - Reveals hidden time sinks (distractions, low-value activities) and misaligned efforts.
 - Generates actionable audit report showing time vs. strategic priorities.
 
-**Implementation**
+**[[concepts/adoption|Implementation]]**
 1. **Prompt AI (e.g., [[entities/chatgpt|ChatGPT]] 5.2)** with:
    *"Act as a [[concepts/time-clarity|time clarity]] coach. Interview me to identify misalignment between my time usage and strategic goals. Ask 5 targeted questions..."*
 

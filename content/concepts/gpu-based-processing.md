@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "concept"
   - "gpu-acceleration"
@@ -14,20 +13,20 @@ aliases:
   - "GPU Acceleration"
   - "Graphics Processing for AI"
 summary: Using GPU acceleration for running open-source AI models locally to reduce costs and improve privacy compared to cloud-based alternatives.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # GPU Based Processing
 
-GPU-based processing leverages graphics processing units to accelerate computational workloads, particularly for [[concepts/running|running]] [[concepts/artificial-intelligence-models|artificial intelligence models]]. Unlike traditional [[concepts/cpu-based-inference|CPU-based inference]], GPUs excel at [[concepts/parallel-processing|parallel processing]] tasks, making them well-suited for the matrix operations fundamental to [[concepts/large-language-model-llm|large language models]] and other machine [[concepts/learning|learning]] [[concepts/software|applications]]. This acceleration capability enables organizations to run sophisticated [[concepts/ai-models|AI models]] with significantly improved performance compared to standard computing architectures.
+GPU-based processing leverages graphics processing units to accelerate computational workloads, particularly for [[concepts/running|running]] [[concepts/artificial-intelligence-models|artificial intelligence models]]. Unlike traditional [[concepts/cpu-based-inference|CPU-based inference]], GPUs [[entities/excel|excel]] [[concepts/assistive-technology|at]] [[concepts/parallel-processing|parallel processing]] tasks, making them well-suited for the matrix operations fundamental to [[concepts/large-language-model-llm|large language models]] and other machine [[concepts/learning|learning]] [[concepts/software|applications]]. This acceleration capability enables organizations to run sophisticated [[concepts/ai-models|AI models]] with significantly improved performance compared to standard computing architectures.
 
 ## Cost and Privacy Advantages
 
-Deploying [[concepts/open-source|open-source]] AI models locally via [[concepts/gpu-acceleration|GPU acceleration]] offers economic and security benefits over cloud-based alternatives. Organizations avoid recurring API costs and data transfer fees associated with commercial services, while maintaining full control over sensitive information that would otherwise be transmitted to external providers. This approach is particularly valuable for enterprises handling confidential documents, proprietary code, or regulated data that cannot be safely processed through third-party services.
+Deploying [[concepts/open-source|open-source]] AI [[concepts/models|models]] locally via [[concepts/gpu-acceleration|GPU acceleration]] offers economic and [[concepts/security|security]] benefits over cloud-based alternatives. Organizations avoid recurring API costs and data transfer fees associated with commercial services, while maintaining full [[concepts/power|control]] over sensitive information that would otherwise be transmitted to external providers. This approach is particularly valuable for enterprises handling confidential documents, proprietary [[concepts/code|code]], or regulated data that cannot be safely processed through third-party services.
 
 ## Practical Implementation
 
-Local GPU-based processing requires appropriate [[concepts/hardware|hardware]] investment—typically [[concepts/nvidia-server-chips|NVIDIA GPUs]] with sufficient VRAM for the [[concepts/code-size|model size]]—but enables immediate cost recovery through eliminated cloud service subscriptions. Tools supporting this approach include [[concepts/document-parsing|document parsing]] systems, local code assistants, and specialized model optimizations designed to reduce computational requirements while maintaining performance. The feasibility of this model has expanded as smaller, efficient [[concepts/reasoning-models|open-source models]] become available, making GPU acceleration accessible beyond large-scale infrastructure deployments.
-
+Local GPU-based processing requires appropriate [[concepts/hardware|hardware]] investment—typically [[concepts/nvidia-server-chips|NVIDIA GPUs]] with sufficient [[concepts/vram|VRAM]] for the [[concepts/code-size|model size]]—but enables immediate [[concepts/cost|cost]] recovery through eliminated cloud service subscriptions. Tools supporting this approach include [[concepts/document-parsing|document parsing]] systems, local code assistants, and specialized model optimizations designed to reduce computational requirements while maintaining performance. The feasibility of this model has expanded as smaller, efficient [[concepts/reasoning-models|open-source models]] become available, making GPU acceleration accessible beyond [[concepts/large-scale-infrastructure|large-scale infrastructure]] deployments.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

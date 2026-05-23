@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "protocols"
-  - "interoperability"
-  - "AI"
-  - "technology"
-  - "open-standards"
-  - "data-exchange"
-  - "api-integration"
-  - "model-context-protocol"
-  - "system-extensibility"
-aliases:
-  - "standardized protocols"
-  - "non-proprietary specifications"
-summary: "Open standard protocols are non-proprietary, publicly available specifications that enable communication and data exchange between disparate systems and software components."
-updated: 2026-04-18
+summary: Open standard protocols are non-proprietary, publicly available specifications that enable communication and data exchange between disparate systems and software components.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Open standard protocols
@@ -28,12 +15,11 @@ Non-proprietary, publicly available [[concepts/technical-specs|specifications]] 
 
 ## Core Principles
 - Interoperability
-- Data Integration
+- Data [[concepts/integration|Integration]]
 - System Extensibility
 
 ## Sources
-- 2026 04 14 MCP vs API for LLM by IBM
-
+- 2026 04 14 MCP vs API for LLM by [[entities/ibm|IBM]]
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

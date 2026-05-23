@@ -10,18 +10,18 @@ tags:
 aliases:
   - "podcasting"
   - "digital audio series"
-summary: "Podcasts are digital audio files, typically part of a series, that users can download and listen to at their convenience."
-updated: 2026-04-28
+summary: Podcasts are digital audio files, typically part of a series, that users can download and listen to at their convenience.
+updated: 2026-05-23
 ---
 # Podcasts
 
 ## Overview
-Podcasts are digital audio [[concepts/files|files]], typically part of a series, that users can download and listen to at their convenience. They cover a wide [[concepts/range|range]] of topics, including news, education, entertainment, and more.
+Podcasts are digital [[concepts/audio-modality|audio]] [[concepts/files|files]], typically part of a series, that users can download and listen to [[concepts/assistive-technology|at]] their convenience. They cover a wide [[concepts/range|range]] of topics, including news, education, entertainment, and more.
 
 ## Key Features
 - **On-demand listening**: Users can subscribe and download episodes.
 - **Diverse content**: Covers various genres and topics.
-- **[[concepts/accessibility|Accessibility]]**: Available on multiple platforms like [[entities/spotify]], Apple Podcasts, and Google Podcasts.
+- **[[concepts/accessibility|Accessibility]]**: Available on multiple platforms like [[entities/spotify]], [[entities/apple|Apple]] Podcasts, and [[concepts/google-search|Google]] Podcasts.
 
 ## Benefits
 - **Educational**: Many podcasts provide in-depth information on specific subjects.
@@ -33,7 +33,7 @@ Podcasts are digital audio [[concepts/files|files]], typically part of a series,
 - **[[concepts/information-overload|Information overload]]**: Keeping up with multiple podcasts can be overwhelming.
 
 ## Tools and Automation
-- **Automated podcast summary [[entities/agent|agent]]**: This might help you get some time back. 2026 04 14 Automated podcast summary [[entities/agent|agent]] this might help you get some time back
+- **Automated podcast [[concepts/summary|summary]] [[entities/agent|agent]]**: This might help you get some time back. 2026 04 14 Automated podcast [[concepts/summary|summary]] [[entities/agent|agent]] this might help you get some time back
 
 ## Related Entities
 - Audio Content
@@ -42,6 +42,5 @@ Podcasts are digital audio [[concepts/files|files]], typically part of a series,
 
 ## Backlinks
 - 2026 04 14 Automated [[concepts/automated-workflow|podcast summary agent]] this might help you get some time back
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)

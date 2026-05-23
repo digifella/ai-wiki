@@ -10,7 +10,7 @@ tags:
 aliases:
   - "Melbourne Central Business District"
 summary: Melbourne's central business district, including notable historic structures like the banking chamber at 333 Collins Street.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Melbourne Cbd
 
@@ -24,7 +24,7 @@ The CBD preserves numerous examples of 19th and early 20th-century banking and c
 
 The CBD continues to function as Melbourne's primary business precinct, hosting major corporations, financial institutions, government offices, and cultural institutions. The district has been subject to ongoing urban renewal and [[concepts/infrastructure-development|infrastructure development]], balancing the retention of heritage structures with modern commercial requirements.
 
-- 2026-04-10 [2026-04-10-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and](2026-04-10-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md) ← 333 Collins Street Melbourne Historic Banking Chamber Preservation And
-- 2026-04-07 [2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and](2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md) ← 333 Collins Street Melbourne Historic Banking Chamber Preservation And
+- 2026-04-10 [2026-04-10-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and](2026-04-10-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md) ← [[concepts/modern-skyscraper-design|333 Collins Street]] Melbourne Historic [[concepts/banking-chamber-preservation|Banking Chamber Preservation]] And
+- 2026-04-07 [2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and](2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md) ← 333 Collins Street Melbourne [[concepts/historic-banking-chamber|Historic Banking Chamber]] Preservation And
 - 2026-04-08 [2026-04-08-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and](2026-04-08-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and.md) ← 333 Collins Street Melbourne Historic Banking Chamber Preservation And
 ## Source Notes

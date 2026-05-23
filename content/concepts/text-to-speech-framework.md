@@ -12,13 +12,13 @@ tags:
   - "natural-language-processing"
 aliases:
   - "TTS Framework"
-summary: "A software system designed to convert written text into spoken words using tools, libraries, and APIs."
-updated: 2026-04-28
+summary: A software system designed to convert written text into spoken words using tools, libraries, and APIs.
+updated: 2026-05-23
 group: multimodal-generative-media
 ---
 # Text-to-Speech Framework
 
-A text-to-speech framework is a [[concepts/software|software]] system designed to convert written text into spoken words. These frameworks typically include tools, libraries, and APIs that enable developers to integrate text-to-speech functionality into [[concepts/software|applications]].
+A text-to-speech framework is a [[concepts/software|software]] system designed to convert written [[concepts/text|text]] into spoken words. These frameworks typically include tools, libraries, and APIs that enable developers to integrate text-to-speech functionality into [[concepts/software|applications]].
 
 ## Key Features
 - **[[concepts/multilingual-speech-synthesis|Voice Synthesis]]**: Converts text into audible speech.
@@ -28,7 +28,7 @@ A text-to-speech framework is a [[concepts/software|software]] system designed t
 
 ## Related Concepts
 - text-to-speech
-- voice synthesis
+- [[concepts/voice-cloning|voice synthesis]]
 - [[concepts/natural-language-processing]]
 
 ## Notable Implementations

@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "ai"
-  - "video"
-  - "character-consistency"
-  - "content-creation"
-  - "visual-consistency"
-  - "vocal-consistency"
-  - "behavioral-continuity"
-  - "ai-video-generation"
-  - "custom-voice"
-summary: "Character consistency maintains uniform visual, vocal, and behavioral traits across all media representations to ensure authentic audience engagement and prevent immersion-breaking inconsistencies in AI-generated content"
-updated: 2026-04-15
+summary: Character consistency maintains uniform visual, vocal, and behavioral traits across all media representations to ensure authentic audience engagement and prevent immersion-breaking inconsistencies in AI-generated content
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Character Consistency
@@ -20,17 +10,16 @@ group: design-systems-ui-infographics
 Maintaining uniform visual, vocal, and behavioral traits across all media representations of a character to ensure authentic audience engagement. Critical for AI-generated content where inconsistencies break immersion.
 
 ## Key Applications
-- Enables realistic **[[concepts/ai-video-automation|AI video generation]]** with consistent facial expressions, voice tone, and mannerisms across scenes
-- Essential for **[[concepts/custom-voice-narration|custom voice narration]]** integration in professional advertising and personal projects
+- Enables realistic **[[concepts/ai-video-automation|AI video generation]]** with consistent facial expressions, [[concepts/tone|voice]] tone, and mannerisms across scenes
+- Essential for **[[concepts/custom-voice-narration|custom voice narration]]** [[concepts/integration|integration]] in professional advertising and personal projects
 - Prevents "[[concepts/uncanny-valley|uncanny valley]]" effects by preserving identity coherence in AI [[concepts/video-generation|video generation]]
 
 ## Implementation Requirements
 - **Visual [[concepts/logical-consistency|consistency]]**: Same facial [[concepts/structure|structure]], lighting, and background in all scenes
-- **Auditory consistency**: Matching voice pitch, speed, and accent across all audio outputs
+- **Auditory consistency**: Matching voice [[entities/pitch|pitch]], [[concepts/speed|speed]], and accent across all [[concepts/audio-modality|audio]] outputs
 - **Behavioral [[concepts/continuity|continuity]]**: Consistent gestures and speech patterns in character-driven content
 
-2026 04 14 Create Ai video with your face and any text
-
+2026 04 14 Create Ai video with your face and any [[concepts/text|text]]
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

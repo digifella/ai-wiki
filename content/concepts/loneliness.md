@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "mental-health"
-  - "happiness"
-  - "college-students"
-  - "psychological-science"
-  - "mental-health-crisis"
-  - "college-student-wellbeing"
-  - "loneliness-perception"
-  - "social-isolation-risk"
-  - "academic-pressures"
-aliases:
-  - "isolated-feeling"
-  - "desire-for-connection"
-  - "happiness-gap"
-  - "student-distress-levels"
-  - "emotional-disconnect"
-summary: "Loneliness is a distinct emotional state characterized by distress over the perceived gap between desired and actual social connections, affecting up to 40% of college students as reported in mental health assessments."
-updated: 2026-04-12
+summary: Loneliness is a distinct emotional state characterized by distress over the perceived gap between desired and actual social connections, affecting up to 40% of college students as reported in mental health assessments.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Loneliness
@@ -36,7 +20,6 @@ Loneliness is a complex subjective feeling of distress about one's social [[conc
 - According to a 2017 National College [[concepts/conducting-health-screenings|Health Assessment]], approximately 40% of students are too depressed to function effectively.
 
 ### References
-- 2026 04 11 [[entities/laurie-santos|Laurie Santos]] on Happiness Student Mental Health and Well being Miscon
-
+- 2026 04 11 [[entities/laurie-santos|Laurie Santos]] on Happiness Student Mental [[concepts/health|Health]] and Well being Miscon
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Laurie-Santos-on-Happiness-Student-Mental-Health-and-Well-being-Miscon|Laurie Santos on Happiness Student Mental Health and Well being Miscon]] · [▶ source](https://www.youtube.com/watch?v=HStWtmSCAS8)

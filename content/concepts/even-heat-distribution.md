@@ -1,15 +1,8 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "heat-distribution"
-  - "cooking-techniques"
-  - "bacon-cooking"
-  - "thermal-uniformity"
-aliases:
-  - "Thermal Uniformity"
-summary: "Even heat distribution prevents hotspots during cooking, ensuring uniform browning and preventing burning or undercooking in delicate foods such as bacon."
-updated: 2026-04-14
+summary: Even heat distribution prevents hotspots during cooking, ensuring uniform browning and preventing burning or undercooking in delicate foods such as bacon.
+updated: 2026-05-23
 group: probability-statistics-models
 ---
 # Even Heat Distribution
@@ -17,8 +10,8 @@ group: probability-statistics-models
 Even heat [[concepts/distribution|distribution]] is a critical factor in achieving uniform results in cooking, especially for delicate or time-sensitive foods like bacon. It involves spreading thermal energy evenly across the cooking surface to prevent hotspots that can lead to uneven browning, burning, or undercooked spots.
 
 ### Key Points:
-- Achieving even heat distribution often requires precise control over cooking temperature and method.
-- Techniques range from using high-quality cookware with good heat conductivity to employing indirect heating methods.
+- Achieving even heat distribution often requires precise [[concepts/power|control]] over cooking temperature and method.
+- Techniques [[concepts/range|range]] from using high-quality cookware with good heat conductivity to employing indirect heating methods.
 - The goal is to maintain a consistent surface temperature across the entire cooking area for optimal results.
 
 ### Related Concepts
@@ -31,12 +24,11 @@ Even heat [[concepts/distribution|distribution]] is a critical factor in achievi
 - **Author / channel:** [[entities/americas-test-kitchen|America's Test Kitchen]], hosted by [[entities/lan-lam|Lan Lam]]
 - **URL:** https://www.youtube.com/watch?v=tDBSQKEKrW4
 
-**Summary:**
+**[[concepts/summary|Summary]]:**
 This video explores strategies for cooking bacon to achieve uniformly crispy results. It emphasizes the importance of even heat distribution in both water and oven methods, addressing common issues such as uneven crispness or overcooking.
 
 ### Backlinks
-2026 04 13 Bacon Cooking Techniques Achieving Uniform Crispness with Water and Ov
-
+2026 04 13 Bacon [[concepts/cooking-techniques|Cooking Techniques]] Achieving [[concepts/uniform-crispness|Uniform Crispness]] with Water and Ov
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro|Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro]] · [▶ source](https://www.youtube.com/watch?v=b4QqU-RQZ4w)
 - 2026-04-13: [[lab-notes/2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov|Bacon Cooking Techniques Achieving Uniform Crispness with Water and Ov]] · [▶ source](https://www.youtube.com/watch?v=tDBSQKEKrW4)

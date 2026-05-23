@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: society-politics-institutions
-group: politics-governance-public-systems
 tags:
   - "green-computing"
   - "sustainability"
@@ -12,7 +11,8 @@ aliases:
   - "sustainable IT"
   - "eco-friendly computing"
 summary: Green IT refers to environmentally sustainable practices and technologies in information and communications technology.
-updated: 2026-05-01
+updated: 2026-05-23
+group: politics-governance-public-systems
 ---
 # Green IT
 
@@ -20,16 +20,15 @@ Green IT refers to the practice of designing, manufacturing, using, and disposin
 
 ## Energy Efficiency and Operations
 
-A primary focus of Green IT is reducing the energy consumption of ICT systems. This includes optimizing [[concepts/data-center-infrastructure|data center operations]] through improved [[concepts/cooling-systems|cooling systems]], server virtualization, and the [[concepts/adoption|adoption]] of renewable energy sources. Organizations implement power management strategies such as enabling sleep modes on devices, consolidating servers, and upgrading to more efficient [[concepts/hardware|hardware]]. The [[concepts/cost|operational efficiency]] of ICT infrastructure directly impacts both environmental sustainability and operating costs.
+A primary focus of Green IT is reducing the energy consumption of ICT systems. This includes optimizing [[concepts/data-center-infrastructure|data center operations]] through improved [[concepts/cooling-systems|cooling systems]], server virtualization, and the [[concepts/adoption|adoption]] of renewable energy sources. Organizations implement [[concepts/power|power]] management strategies such as enabling [[concepts/sleep|sleep]] modes on devices, consolidating servers, and upgrading to more efficient [[concepts/hardware|hardware]]. The [[concepts/cost|operational efficiency]] of ICT infrastructure directly impacts both environmental sustainability and operating costs.
 
 ## Hardware and Lifecycle Management
 
-Green IT also addresses the environmental challenges associated with manufacturing and disposing of electronic devices. This involves promoting the design of longer-lasting equipment, facilitating device refurbishment and reuse, and ensuring proper recycling of components containing hazardous materials. Responsible sourcing of raw materials and reduction of packaging waste are additional considerations in the hardware lifecycle. Extended producer responsibility [[concepts/software|programs]] increasingly require manufacturers to manage the end-of-life phase of their products.
+Green IT also addresses the environmental challenges associated with manufacturing and disposing of electronic devices. This involves promoting the [[concepts/design|design]] of longer-lasting equipment, facilitating device refurbishment and reuse, and ensuring proper recycling of components containing hazardous materials. Responsible sourcing of raw materials and reduction of packaging waste are additional considerations in the hardware lifecycle. Extended producer responsibility [[concepts/software|programs]] increasingly require manufacturers to manage the end-of-life [[concepts/phase|phase]] of their products.
 
 ## Broader Implications
 
 Beyond direct operational concerns, Green IT intersects with broader questions about technology's role in sustainability. The sector's ability to enable remote work, optimize resource use in other industries, and support environmental monitoring demonstrates that ICT can contribute to wider sustainability goals when designed and deployed with environmental considerations in mind.
-
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

@@ -1,24 +1,9 @@
 ---
 type: concept
-domain: science-physics
-tags:
-  - "astronomy"
-  - "space-exploration"
-  - "geology"
-  - "mars"
-  - "extraterrestrial-materials"
-  - "planetary-evolution"
-  - "martian-meteorites"
-  - "organic-compounds"
-  - "ancient-water-flows"
-aliases:
-  - "space-rocks"
-  - "cosmic-debris"
-  - "fallen-stars"
-  - "sky-stones"
-summary: "Meteorites are extraterrestrial materials that reach Earth's surface after surviving atmospheric entry, offering insights into solar system formation and planetary habitability."
-updated: 2026-04-11
-group: physics-fundamental-theory
+domain: earth-systems-geology-climate
+summary: Meteorites are extraterrestrial materials that reach Earth's surface after surviving atmospheric entry, offering insights into solar system formation and planetary habitability.
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Meteorites
 
@@ -42,7 +27,6 @@ Meteorites are extraterrestrial materials that survive the entry through Earth's
 - [[concepts/space-exploration|Space Exploration]]
 
 ## Backlinks
-- 2026 04 10 Mars Science Update [[concepts/ancient-rainforests|Ancient Rainforests]] Geological Finds Mission Statu
-
+- 2026 04 10 Mars [[concepts/science|Science]] Update [[concepts/ancient-rainforests|Ancient Rainforests]] Geological Finds Mission Statu
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)

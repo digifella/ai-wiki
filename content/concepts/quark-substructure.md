@@ -10,8 +10,8 @@ tags:
   - "quark-substructure"
 aliases:
   - "quark compositeness"
-summary: "The hypothesis that quarks possess an internal composition of smaller constituents rather than being fundamental point-like particles."
-updated: 2026-04-30
+summary: The hypothesis that quarks possess an internal composition of smaller constituents rather than being fundamental point-like particles.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Quark Substructure
@@ -24,7 +24,6 @@ The hypothesis that quarks are not fundamental, [[concepts/point-like-particles|
 
 ## Experimental Investigations
 - High-energy particle collisions are used to probe for deviations from point-like behavior:
-    - [[entities/lhc|LHC]] [[entities/cms-experiment|CMS Experiment]] Tests for Quark Substructure: Analyzes data from the CMS Experiment at the LHC to investigate whether quarks possess any internal structure or if there are even smaller particles beneath them.
-
+    - [[entities/lhc|LHC]] [[entities/cms-experiment|CMS Experiment]] Tests for Quark Substructure: Analyzes data from the [[entities/lhc-cms-experiment|CMS Experiment]] [[concepts/assistive-technology|at]] the LHC to investigate whether quarks possess any internal structure or if there are even smaller particles beneath them.
 ## Source Notes
 - 2026-04-30: [[lab-notes/2026-04-30-LHC-CMS-Experiment-Tests-for-Quark-Substructure|LHC CMS Experiment Tests for Quark Substructure]] · [▶ source](https://www.youtube.com/watch?v=THuOlazRwx4)

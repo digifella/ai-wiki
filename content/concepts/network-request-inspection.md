@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "network"
-  - "debugging"
-  - "security"
-  - "network-debugging"
-  - "security-analysis"
-  - "performance-optimization"
-  - "http-inspection"
-aliases:
-  - "http-request-inspection"
-  - "network-traffic-inspection"
-summary: "Network request inspection analyzes HTTP/HTTPS traffic between client and server for debugging, performance optimization, and security analysis."
-updated: 2026-04-15
+summary: Network request inspection analyzes HTTP/HTTPS traffic between client and server for debugging, performance optimization, and security analysis.
+updated: 2026-05-23
 group: devices-access-networks
 ---
 # Network request inspection
@@ -32,7 +21,6 @@ Analyzing HTTP/HTTPS traffic between client and server for [[concepts/debugging|
 - [[concepts/claude-code|Claude Code]] for controlling Chrome (automates browser interactions via CLI to trigger and inspect network requests)
 
 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome
-
 ## Source Notes
 
 - 2026-04-23: Excel · [▶ source](https://www.youtube.com/watch?v=jWE3ypXpuTY)

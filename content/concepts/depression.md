@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "mental-health psychology wellness depression education student-wellbeing"
-  - "mental-health-overview"
-  - "depression-definition"
-  - "student-wellbeing-issues"
-  - "academic-performance-factors"
-  - "psychological-misconceptions"
-aliases:
-  - "depressive-disorder"
-  - "major-depression"
-  - "sadness-condition"
-  - "emotional-distress"
-summary: "Depression is a serious medical condition characterized by persistent sadness and loss of interest in activities, affecting emotional and physical well-being."
-updated: 2026-04-12
+summary: Depression is a serious medical condition characterized by persistent sadness and loss of interest in activities, affecting emotional and physical well-being.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Depression
@@ -31,7 +19,7 @@ Depression is a common and serious medical illness characterized by persistent f
 - Approximately 40% of students are too depressed to function effectively in their daily lives ([[entities/world-economic-forum|World Economic Forum]]).
 
 ### Misconceptions About Happiness and Mental Health
-- [[entities/dr-laurie-santos|Dr. Laurie Santos]], a psychologist from [[entities/yale-university|Yale University]], addresses misconceptions regarding [[concepts/happiness|happiness]] and mental health among college students.
+- [[entities/dr-laurie-santos|Dr. Laurie Santos]], a psychologist from [[entities/yale-university|Yale University]], addresses misconceptions regarding [[concepts/happiness|happiness]] and mental [[concepts/health|health]] among college students.
 - Reveals insights from [[concepts/psychology|psychological science]] about what truly contributes to [[concepts/wellbeing|well-being]].
 - Emphasizes the importance of understanding depression's impact on [[concepts/academic-performance|academic performance]] and overall student success.
 
@@ -46,7 +34,6 @@ Depression is a serious medical condition involving persistent feelings of sadne
 
 ### Resources and Further Reading
 - 2026 04 11 [[entities/laurie-santos|Laurie Santos]] on Happiness Student Mental Health and Well being Miscon
-
 ## Source Notes
 - 2026-04-11: What psychological science says about happiness | Laurie Santos
 - 2026-04-07: [[lab-notes/2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and|333 Collins Street Melbourne Historic Banking Chamber Preservation and]] · [▶ source](https://www.youtube.com/watch?v=zEPa_xbeX-c)

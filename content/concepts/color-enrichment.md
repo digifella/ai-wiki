@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "digital-imaging"
-  - "color-theory"
-  - "color-correction"
-  - "photo-editing"
-  - "chromatic-intensity"
-  - "tonal-balance"
-aliases:
-  - "color-enhancement"
-summary: "Color enrichment is the process of enhancing chromatic intensity and tonal balance to improve visual impact, depth, and accuracy."
-updated: 2026-04-26
+summary: Color enrichment is the process of enhancing chromatic intensity and tonal balance to improve visual impact, depth, and accuracy.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Color enrichment
@@ -26,7 +16,6 @@ The process of enhancing chromatic intensity and tonal balance to improve visual
 
 ### References
 * 2026 04 22 [[concepts/photoshop|Photoshop]] [[concepts/photo-enhancement|Photo Enhancement]] Top 5 Instant Improvement Techniques
-
 ## Source Notes
 
 - 2026-04-22: Photoshop · [▶ source](https://youtu.be/SYUfAfvsQzI)

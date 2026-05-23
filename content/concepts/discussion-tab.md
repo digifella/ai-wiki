@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "microsoft-365"
   - "copilot"
@@ -12,18 +11,18 @@ aliases:
   - "Copilot Discussion Tab"
   - "Microsoft 365 Discussion Feature"
 summary: Nick Harris demonstrates recent updates to Microsoft 365 Copilot, including the rollout of a discussion tab.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Discussion Tab
 
-The Discussion Tab is a feature within [[concepts/document-insights|Microsoft 365 Copilot]] that was demonstrated by [[entities/nick-harris|Nick Harris]], a Senior [[concepts/copilot-chat|Copilot]] Cloud [[concepts/solution|Solution]] Architect at Microsoft, in April 2026. The feature was presented as part of an active rollout of updates to the Microsoft 365 Copilot platform, shared through the Microsoft 365 Copilot [[concepts/connection|Connection]] channel.
+The Discussion Tab is a feature within [[concepts/document-insights|Microsoft 365 Copilot]] that was demonstrated by [[entities/nick-harris|Nick Harris]], a Senior [[concepts/copilot-chat|Copilot]] Cloud [[concepts/solution|Solution]] Architect [[concepts/assistive-technology|at]] [[entities/microsoft|Microsoft]], in April 2026. The feature was presented as part of an active rollout of updates to the [[concepts/microsoft-applications|Microsoft 365 Copilot]] platform, shared through the Microsoft 365 Copilot [[concepts/connection|Connection]] channel.
 
 ## Purpose and Context
 
-The Discussion Tab functions as a collaborative interface within the Microsoft 365 Copilot ecosystem, enabling users to engage in structured conversations with the [[entities/ai-assistant|AI assistant]]. As part of the broader suite of recent updates to Microsoft 365 Copilot, the Discussion Tab reflects ongoing development efforts to enhance user interaction patterns and workflow integration within the platform.
+The Discussion Tab functions as a collaborative interface within the Microsoft 365 Copilot ecosystem, enabling users to engage in structured conversations with the [[entities/ai-assistant|AI assistant]]. As part of the broader suite of recent updates to Microsoft 365 Copilot, the Discussion Tab reflects ongoing development efforts to enhance user interaction patterns and [[concepts/workflow|workflow]] [[concepts/integration|integration]] within the platform.
 
 The feature was demonstrated as part of a series of actively rolling out updates to Microsoft 365 Copilot, indicating it was in active [[concepts/deployment|deployment]] across Microsoft's user base during the period of the demonstration.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-10: [[lab-notes/2026-04-10-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids|Fundamental UIUX Design Concepts Affordances Hierarchy Grids]] · [▶ source](https://www.youtube.com/watch?v=EcbgbKtOELY)

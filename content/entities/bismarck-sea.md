@@ -9,7 +9,7 @@ tags:
 aliases:
   - "Bismarck Sea"
 summary: A body of water in Oceania associated with Ritter Island, which experienced a major volcanic flank collapse and mega-tsunami in 1888.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Bismarck Sea
 
@@ -22,6 +22,5 @@ The Bismarck Sea is historically notable as the site of a catastrophic volcanic 
 ## Modern Significance
 
 Today, the Bismarck Sea remains an important body of water for regional shipping and maritime activity in Oceania. The sea's history of volcanic and seismic activity continues to be studied by geologists and oceanographers as a significant case study in understanding volcanic hazards and tsunami generation in the Pacific region.
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Ritter-Island-1888-Volcanic-Flank-Collapse-and-Mega-Tsunami-Devastatio|Ritter Island 1888 Volcanic Flank Collapse and Mega Tsunami Devastatio]] · [▶ source](https://www.youtube.com/watch?v=TxgWK-I6SVs)

@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "llm"
-  - "mobile-computing"
-  - "anythingllm"
-  - "self-hosted"
-  - "productivity"
-  - "mobile-llm"
-  - "self-hosted-ai"
-  - "privacy-protection"
-aliases:
-  - "Mobile LLM access"
-  - "Mobile LLM interfacing"
-summary: "Mobile LLM interaction is the practice of interfacing with self-hosted large language models via mobile devices to ensure privacy and reduce setup complexity."
-updated: 2026-04-26
+summary: Mobile LLM interaction is the practice of interfacing with self-hosted large language models via mobile devices to ensure privacy and reduce setup complexity.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Mobile LLM interaction
@@ -23,8 +11,8 @@ The practice of accessing and interfacing with [[concepts/large-language-models]
 
 ## Key Technologies & Features
 - [[entities/anythingllm]] (v1.12+):
-	- **Channels [[concepts/integration|Integration]]**: A new feature designed to enable seamless mobile interaction with private, self-hosted models.
-	- **Reduced Complexity**: Aimed at providing mobile access to AI assistants without the need for complex network or [[concepts/setup|setup]] configurations.
+	- **Channels [[concepts/integration|Integration]]**: A new feature designed to enable seamless mobile interaction with private, self-hosted [[concepts/models|models]].
+	- **Reduced Complexity**: Aimed [[concepts/assistive-technology|at]] providing mobile access to AI assistants without the need for complex network or [[concepts/setup|setup]] configurations.
 	- Source: [[concepts/date-2026-04-13|2026]] 04 22 [[entities/anythingllm|AnythingLLM]] 1.12 Channels Mobile Interaction with Private [[concepts/self-hosted-llms|Self Hosted LLMs]]
 
 ## Core Objectives
@@ -37,7 +25,6 @@ The practice of accessing and interfacing with [[concepts/large-language-models]
 - [[concepts/local-llm]]
 - [[entities/anythingllm]]
 - [[concepts/portable-computing|Mobile Computing]]
-
 ## Source Notes
 - 2026-04-22: [[lab-notes/2026-04-22-AnythingLLM-1.12-Channels-Mobile-Interaction-with-Private-Self-Hosted-LLMs|AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs]] · [▶ source](https://youtu.be/Ei5nB5fyn7g)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

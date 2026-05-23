@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "LLM"
-  - "Multimodal"
-  - "AI-Models"
-  - "Computer-Vision"
-  - "multimodal-llms"
-  - "visual-reasoning"
-  - "ai-coding"
-aliases:
-  - "multimodal-vision"
-  - "visual-capabilities"
-summary: "Multimodal LLMs can interpret, process, and reason over visual inputs such as images, diagrams, and UI screenshots."
-updated: 2026-04-17
+summary: Multimodal LLMs can interpret, process, and reason over visual inputs such as images, diagrams, and UI screenshots.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # LLM vision capabilities
@@ -25,7 +14,6 @@ The ability of [[concepts/multimodal-large-language-models|Multimodal LLMs]] to 
 - **[[entities/claude|Claude]] 4**: Currently the most proficient model for complex [[concepts/ai-coding]] and managing large-scale [[concepts/software-engineering]] tasks.
 
 **Related:** 2026 04 14 Local development coding
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge|Google Gemma 4 Advanced Open Source AI Models for Efficient Edge]] · [▶ source](https://www.youtube.com/watch?v=BrJdGP21B5g)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

@@ -10,19 +10,19 @@ tags:
   - "os-management"
 aliases:
   - "Bootable Container Concept"
-summary: "Software management encompasses the processes and tools used to develop, deploy, and maintain software, including IBM's concept of using bootable containers to streamline operating system management."
-updated: 2026-04-28
+summary: Software management encompasses the processes and tools used to develop, deploy, and maintain software, including IBM's concept of using bootable containers to streamline operating system management.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Software Management
 
-2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from IBM
+2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from [[entities/ibm|IBM]]
 
 ## Overview
 Software management encompasses the processes and tools used to develop, deploy, and maintain [[concepts/software|software]] systems efficiently.
 
 ## Key Concepts
-- **[[concepts/containerization|Containerization]]**: A method of packaging software applications with their dependencies into isolated environments.
+- **[[concepts/containerization|Containerization]]**: A method of packaging software applications with their dependencies into [[concepts/isolated-environments|isolated environments]].
 - **[[concepts/bootable-containers|Bootable Containers]]**: A concept introduced by IBM to streamline the management and [[concepts/deployment|deployment]] of underlying operating systems, similar to application containerization.
 
 ## Bootable Container Concept from IBM
@@ -39,7 +39,6 @@ Software management encompasses the processes and tools used to develop, deploy,
 - [[concepts/containerization]]
 - operating systems
 - [[concepts/deployment|deployment]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni|Auto research AI Driven Algorithmic Optimization with Iterative Learni]] · [▶ source](https://www.youtube.com/watch?v=5-ekc3eXNvs)

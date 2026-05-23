@@ -1,16 +1,12 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "image-editing"
-  - "photoshop"
-updated: 2026-04-15
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Layer masking
 
-Non-destructive editing technique using grayscale masks to selectively reveal or hide parts of a layer (white = reveal, black = hide).
+[[concepts/non-destructive-editing|Non-destructive editing]] technique using grayscale masks to selectively reveal or hide parts of a layer (white = reveal, black = hide).
 
 ## Key applications
 - **Compositing multiple [[concepts/images|images]]**: Combine optimal elements from similar shots (e.g., fixing closed eyes in group photos)
@@ -25,8 +21,7 @@ Non-destructive editing technique using grayscale masks to selectively reveal or
   - Use mask to selectively reveal best elements (e.g., open eyes from one layer, clear background from another)
 - **Key insight**: Works without tripod alignment; relies on auto-alignment and [[concepts/mask-refinement|mask refinement]]
 
-2026 04 14 Combining photos in Photoshop
-
+2026 04 14 [[concepts/combining-photos|Combining photos]] in [[concepts/photoshop|Photoshop]]
 ## Source Notes
 - 2026-04-14: [[lab-notes/2026-04-14-Dark-Code-AI-Generated-Softwares-Comprehension-Gap-and-Untraceable-Ris|Dark Code AI Generated Softwares Comprehension Gap and Untraceable Ris]] · [▶ source](https://www.youtube.com/watch?v=E1idsrv79tI)
 - 2026-04-21: Adobe · [▶ source](https://www.youtube.com/watch?v=JgfxoI4HYH4)

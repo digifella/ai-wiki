@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "physical-components"
   - "engineering"
@@ -14,7 +13,8 @@ aliases:
   - "hardware components"
   - "mechanical systems"
 summary: Physical components and devices that form the material basis of computational and robotic systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Hardware
 
@@ -22,12 +22,11 @@ Hardware refers to the physical components and devices that constitute the mater
 
 ## Computational Hardware
 
-Modern computational hardware encompasses a wide range of device types and [[concepts/musical-scales|scales]], from large-scale data center servers to embedded processors in edge devices and mobile systems. Key components include central processing units (CPUs), graphics processing units (GPUs), and specialized accelerators designed for specific computational tasks. The efficiency and capability of computational hardware directly determines the speed, power consumption, and feasibility of [[concepts/running|running]] particular software applications and algorithms.
+Modern computational hardware encompasses a wide [[concepts/range|range]] of device types and [[concepts/musical-scales|scales]], from large-scale data center servers to embedded processors in edge devices and mobile systems. Key components include central processing units (CPUs), [[concepts/graphics-processing-units-gpus|graphics processing units (GPUs)]], and specialized accelerators designed for specific computational tasks. The efficiency and capability of computational hardware directly determines the [[concepts/speed|speed]], power consumption, and feasibility of [[concepts/running|running]] particular software applications and algorithms.
 
 ## Hardware-Software Relationship
 
-Hardware and software form an interdependent pair in computational systems. While software provides the [[concepts/instructions|instructions]] and logic for computation, hardware executes those instructions through physical processes. Design decisions in hardware [[concepts/architecture|architecture]] influence what software can efficiently run, just as software requirements drive hardware development. This relationship is particularly significant in contexts such as [[concepts/edge-deployment|edge deployment]], where computational constraints require careful optimization between [[concepts/algorithm-optimization|algorithmic efficiency]] and hardware capabilities.
-
+Hardware and software form an interdependent pair in computational systems. While software provides the [[concepts/instructions|instructions]] and logic for computation, hardware executes those instructions through physical processes. [[concepts/design|Design]] decisions in hardware [[concepts/architecture|architecture]] [[concepts/power|influence]] what software can efficiently run, just as software requirements [[concepts/ambition|drive]] hardware development. This relationship is particularly significant in contexts such as [[concepts/edge-deployment|edge deployment]], where computational constraints require careful optimization between [[concepts/algorithm-optimization|algorithmic efficiency]] and hardware [[concepts/capabilities|capabilities]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

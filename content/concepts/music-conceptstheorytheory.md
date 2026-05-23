@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: music-audio-performance
 tags:
   - "music-theory"
   - "musical-harmony"
@@ -13,7 +12,8 @@ aliases:
   - "Music Concepts"
   - "Theory Fundamentals"
 summary: The foundational principles and concepts that underpin music composition, harmony, and performance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: music-audio-performance
 ---
 # Music Concepts/Theory
 
@@ -21,7 +21,7 @@ Music theory is the study of the principles and elements that govern music compo
 
 ## Foundational Elements
 
-The core building blocks of music theory include pitch, which describes the frequency of a sound; rhythm, the [[concepts/organization|organization]] of sounds and silences in time; and dynamics, the relative loudness or softness of musical elements. These elements combine to form [[concepts/musical-scales|scales]], intervals, and chords, which are the basic units from which melodies and harmonies are constructed. The study of how these elements relate to one another forms the basis for understanding musical [[concepts/structure|structure]] and style.
+The core building blocks of music theory include [[entities/pitch|pitch]], which describes the frequency of a sound; rhythm, the [[concepts/organization|organization]] of sounds and silences in time; and dynamics, the relative loudness or softness of musical elements. These elements combine to form [[concepts/musical-scales|scales]], intervals, and chords, which are the basic units from which melodies and harmonies are constructed. The study of how these elements relate to one another forms the basis for understanding musical [[concepts/structure|structure]] and [[concepts/style|style]].
 
 ## Harmony and Composition
 
@@ -29,4 +29,4 @@ Harmonic [[concepts/theory|theory]] examines how multiple pitches sound together
 
 ## Practical Application
 
-Music theory functions as a shared language among musicians, enabling precise communication about musical ideas and facilitating the [[concepts/learning|learning]] and performance of written music. It bridges the intuitive, creative aspects of music-making with systematic knowledge, helping performers and composers develop their craft with greater awareness and intentionality.
+Music theory functions as a shared language among musicians, enabling precise communication about musical [[concepts/ideas|ideas]] and facilitating the [[concepts/learning|learning]] and performance of written music. It bridges the intuitive, creative aspects of music-making with systematic knowledge, helping performers and composers develop their craft with greater awareness and intentionality.

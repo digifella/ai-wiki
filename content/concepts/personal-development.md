@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: market-intelligence-geo-seo
 tags:
   - "personal-growth"
   - "self-improvement"
@@ -12,20 +11,20 @@ aliases:
   - "self-development"
   - "personal-growth"
 summary: The process of improving oneself through deliberate practices, often informed by behavioral psychology research and personal habit frameworks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Personal Development
 
-Personal development refers to the deliberate process of self-improvement through structured practices and intentional habit formation. Rooted in behavioral psychology research, it encompasses efforts to enhance [[concepts/skills|skills]], knowledge, mental well-being, and overall [[concepts/quality-of-life|life satisfaction]]. The field draws on evidence-based frameworks that explain how individuals can modify behaviors, build [[concepts/resilience|resilience]], and achieve sustained change.
+Personal development refers to the deliberate process of [[concepts/self-improvement|self-improvement]] through structured practices and intentional habit formation. Rooted in behavioral [[concepts/psychology|psychology]] research, it encompasses efforts to enhance [[concepts/skills|skills]], knowledge, mental well-being, and overall [[concepts/quality-of-life|life satisfaction]]. The field draws on evidence-based frameworks that explain how individuals can modify behaviors, build [[concepts/resilience|resilience]], and achieve sustained change.
 
 ## Core Mechanisms
 
-Effective personal development relies on understanding how [[concepts/habits|habits]] form and persist. Research in behavioral psychology has identified key mechanisms including habit stacking, environmental design, and [[concepts/accountability|accountability]] systems that support lasting change. Rather than relying on willpower alone, modern approaches emphasize creating conditions—through routines, social support, and clear tracking—that make desired behaviors easier to maintain over time.
+Effective personal development relies on understanding how [[concepts/habits|habits]] form and persist. Research in behavioral psychology has identified key mechanisms including habit stacking, environmental [[concepts/design|design]], and [[concepts/accountability|accountability]] systems that support lasting change. Rather than relying on willpower alone, modern approaches emphasize creating conditions—through routines, social support, and clear tracking—that [[entities/make|make]] desired behaviors easier to maintain over time.
 
 ## Practical Application
 
-Personal development is typically pursued through concrete practices such as goal-setting, journaling, skill acquisition, [[concepts/exercise|exercise]] routines, and deliberate practice. These activities are most effective when aligned with an individual's values and circumstances. Practitioners often combine multiple approaches, adjusting methods based on what works for their particular temperament and life context rather than following a single universal formula.
-
+Personal development is typically pursued through concrete practices such as goal-setting, journaling, [[concepts/skill|skill]] acquisition, [[concepts/exercise|exercise]] routines, and deliberate practice. These activities are most effective when aligned with an individual's values and circumstances. Practitioners often combine multiple approaches, adjusting methods based on what works for their particular temperament and life context rather than following a single universal formula.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Maximizing-Claude-Code-20-Features-and-Tips-for-AI-Automation|Maximizing Claude Code 20 Features and Tips for AI Automation]] · [▶ source](https://www.youtube.com/watch?v=fUShvacDLtw)

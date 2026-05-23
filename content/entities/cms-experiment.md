@@ -8,8 +8,8 @@ tags:
   - "standard-model"
 aliases:
   - "CMS"
-summary: "The CMS experiment is a component of the Large Hadron Collider dedicated to probing particle physics and testing the validity of the Standard Model."
-updated: 2026-04-30
+summary: The CMS experiment is a component of the Large Hadron Collider dedicated to probing particle physics and testing the validity of the Standard Model.
+updated: 2026-05-23
 ---
 # CMS experiment
 

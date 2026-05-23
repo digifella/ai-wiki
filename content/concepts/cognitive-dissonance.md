@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "psychology"
   - "cognition"
@@ -15,7 +14,8 @@ aliases:
   - "mental dissonance"
   - "belief inconsistency"
 summary: A psychological state arising when holding contradictory beliefs or when actions conflict with values.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Cognitive Dissonance
 

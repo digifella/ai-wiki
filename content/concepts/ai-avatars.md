@@ -12,14 +12,16 @@ tags:
 aliases:
   - "google-ai-avatars"
 summary: An overview of VEO3 and the integration of avatars within Google products such as Google Vids and NotebookLM.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Avatars
 
-AI avatars are digital representations powered by [[concepts/ai-technologies|artificial intelligence]] that serve as interactive visual interfaces within [[concepts/software|applications]] and software platforms. These avatars can respond to user input, deliver content, and execute specific tasks, functioning as intermediaries between users and underlying AI systems. By combining visual presentation with [[concepts/capabilities|AI capabilities]], avatars create more engaging interaction patterns compared to text-based interfaces alone.
+AI avatars are digital representations powered by artificial intelligence that serve as visual interfaces within applications and software platforms. Rather than interacting solely through text, users engage with animated or rendered characters that respond to input, deliver content, and perform tasks. These avatars function as intermediaries between users and underlying AI systems, combining visual presentation with computational capabilities to create a more structured and personable interaction model compared to traditional text-based interfaces.
 
-## Google Implementation
+## VEO3 and Video Generation
 
-Google has integrated avatar functionality into several of its applications, most notably through VEO3 and related generative systems. [[entities/google-vids|Google Vids]] uses AI avatars to generate video content, allowing users to create presentations and videos with digital presenters without requiring human actors or extensive video production. [[concepts/ai-integrated-notebooks|NotebookLM]] similarly incorporates avatars as part of its [[concepts/conversational-interface|conversational interface]], enhancing user engagement when delivering study materials and [[concepts/explanations|explanations]].
+Google's VEO3 represents a significant advancement in AI avatar technology, focusing on the generation and manipulation of video content featuring digital characters. This technology enables the creation of realistic avatar-driven videos that can be synthesized from text descriptions or adapted from existing footage. VEO3's capabilities extend to realistic motion synthesis and expression control, allowing avatars to communicate dynamic content with greater fidelity and nuance.
 
-These implementations reflect a broader trend in [[concepts/ai-development|AI development]] toward multimodal interfaces that combine text, audio, and visual elements. Rather than relying solely on text [[concepts/responses|responses]] or disembodied AI assistants, avatar-based systems provide a more unified presentation of AI capabilities, which can improve [[concepts/user-experience-design|user experience]] and retention of information in educational and [[concepts/content-creation|content creation]] contexts.
+## Integration in Google Products
+
+AI avatars have been integrated into Google's productivity and educational tools, most notably Google Vids and NotebookLM. In Google Vids, avatars can narrate and present video content automatically generated from user input, streamlining video production workflows. NotebookLM employs avatars in its audio overview feature, where digital characters engage in conversational summaries of research materials, transforming static notes into dynamic audio-visual presentations. These implementations demonstrate how avatar technology extends beyond entertainment to support productivity use cases.

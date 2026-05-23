@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: anthropology-ethnography
 tags:
   - "metal-detecting"
   - "denmark"
@@ -13,7 +12,8 @@ aliases:
   - "Danish metal detecting program"
   - "deputized detectorists"
 summary: The Danish government deputized private detectorists to unearth artifacts from farm fields.
-updated: 2026-05-01
+updated: 2026-05-23
+group: anthropology-ethnography
 ---
 # Private Archaeology
 

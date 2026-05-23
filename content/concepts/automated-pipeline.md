@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "obsidian-pipeline"
@@ -11,20 +10,20 @@ tags:
 aliases:
   - "Obsidian Pipeline"
 summary: A test of an Obsidian pipeline incorporating note-saving functionality.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Automated Pipeline
 
-An Automated Pipeline is a systematic workflow that executes a sequence of predefined tasks with minimal manual intervention. In [[concepts/coding|software development]], pipelines typically automate repetitive processes such as code compilation, [[concepts/testing|testing]], and [[concepts/deployment|deployment]]. These workflows are fundamental to continuous integration and continuous deployment (CI/CD) practices, allowing teams to validate and release code changes reliably and frequently.
+An Automated Pipeline is a systematic [[concepts/workflow|workflow]] that executes a sequence of predefined tasks with minimal manual intervention. In [[concepts/coding|software development]], pipelines typically automate repetitive processes such as [[concepts/code|code]] compilation, [[concepts/testing|testing]], and [[concepts/deployment|deployment]]. These workflows are fundamental to continuous [[concepts/integration|integration]] and continuous deployment ([[concepts/cicd-pipelines|CI/CD]]) practices, allowing teams to validate and release code changes reliably and frequently.
 
 ## Core Components
 
-Automated pipelines consist of a series of stages, each performing specific operations on input data or code. Each stage passes its output to the next stage in the sequence, creating a chain of dependent tasks. Common pipeline stages include source code compilation, [[concepts/automated-software-testing|automated testing]], security scanning, and artifact generation. Pipelines are triggered by specific events, such as code [[concepts/commits|commits]] or scheduled intervals, and can halt execution if any stage fails, preventing problematic changes from progressing further.
+Automated pipelines consist of a series of stages, each performing specific operations on input data or code. A typical software pipeline might include stages for source [[concepts/code-retrieval|code retrieval]], build compilation, [[concepts/automated-software-testing|automated testing]], [[concepts/security|security]] scanning, and artifact deployment. Each stage processes its [[concepts/output|output]] to the next, with failure conditions triggering alerts or rollbacks. This sequential processing reduces human error and ensures [[concepts/logical-consistency|consistency]] across repeated executions.
 
-## Applications Beyond Software Development
+## Practical Applications
 
-The pipeline concept extends beyond traditional software engineering into other domains requiring structured, repeatable workflows. [[concepts/knowledge-management|Knowledge management]] systems and note-taking applications can implement pipeline functionality to automate [[concepts/document-processing|document processing]], [[concepts/metadata|metadata]] extraction, and content [[concepts/organization|organization]]. These adapted pipelines can incorporate steps such as note formatting, cross-referencing, and archival, reducing manual overhead in information management tasks.
-
+Beyond software development, automated pipelines are used across data engineering, [[concepts/machine-learning|machine learning]], and infrastructure management. Data pipelines extract, transform, and load information between systems. Machine learning pipelines automate feature engineering, model [[concepts/training|training]], and evaluation. Infrastructure pipelines provision and configure cloud resources automatically. The underlying principle remains consistent: defining workflows once and executing them reliably across multiple iterations.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-Agentic-Workflows-for-Parallel-Processing-and-Multi-Agent-|Claude Code Agentic Workflows for Parallel Processing and Multi Agent ]] · [▶ source](https://www.youtube.com/watch?v=38t5UBCa4OI)

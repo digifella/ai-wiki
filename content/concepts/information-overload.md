@@ -1,24 +1,16 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "information-overload"
-  - "cognitive-science"
-  - "technology"
-  - "information-retrieval"
-  - "decision-paralysis"
-  - "attention-spans"
-  - "cognitive-load"
-summary: "Information overload is a state where excessive information overwhelms individuals or systems, impairing decision-making and cognitive processing, commonly occurring in digital environments with constant data streams."
-updated: 2026-04-15
+summary: Information overload is a state where excessive information overwhelms individuals or systems, impairing decision-making and cognitive processing, commonly occurring in digital environments with constant data streams.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Information Overload
 
-The state where individuals or systems are overwhelmed by excessive information, impairing decision-making and cognitive processing. Common in digital environments with constant data streams.
+The state where individuals or systems are overwhelmed by excessive information, impairing [[concepts/decision-making|decision-making]] and cognitive processing. Common in digital environments with constant data streams.
 
 ## Causes
-- Digital proliferation (social media, email, news)
+- Digital proliferation (social media, [[entities/email|email]], news)
 - Poor information [[concepts/organization|organization]]
 - Inefficient retrieval systems
 
@@ -36,7 +28,6 @@ The state where individuals or systems are overwhelmed by excessive information,
   * **[[concepts/pathrag|PathRAG]]**: Latest development focusing on path-based retrieval for complex queries
 
 2026 04 14 [[entities/discover-ai-channel|Discover AI channel]] [[concepts/entity-relation-graphs|Graph RAG]] evolved
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

@@ -10,11 +10,11 @@ aliases:
   - "Cortex API Setup"
   - "Cloudflare Tunnel for Cortex"
 summary: Instructions for setting up the Cortex API using Cloudflare Tunnel and WSL2.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Cortex Api
 
-Cortex Api is a service that can be exposed to the internet using Cloudflare [[concepts/tunnel|Tunnel]], a [[concepts/secure|secure]] tunneling [[concepts/solution|solution]] that eliminates the need for open ports or complex firewall configuration. This setup is particularly useful for [[concepts/developer-platforms|development environments]] [[concepts/running|running]] on [[entities/windows|Windows]] Subsystem for Linux 2 (WSL2), where direct network access may be restricted or inconvenient to manage.
+Cortex Api is a service that can be exposed to the internet using Cloudflare [[concepts/tunnel|Tunnel]], a [[concepts/secure|secure]] tunneling [[concepts/solution|solution]] that eliminates the need for open ports or complex firewall configuration. This [[concepts/setup|setup]] is particularly useful for [[concepts/developer-platforms|development environments]] [[concepts/running|running]] on [[entities/windows|Windows]] Subsystem for [[entities/linux|Linux]] 2 ([[entities/wsl2|WSL2]]), where direct network access may be restricted or inconvenient to manage.
 
 ## Installation on WSL2
 

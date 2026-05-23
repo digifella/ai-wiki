@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "mental-model"
-  - "framework"
-  - "ai-delegation"
-  - "ai-collaboration"
-  - "ai-avoidance"
-  - "decision-framework"
-summary: "The Cockpit Rule is a mental model for deciding when to delegate to AI, collaborate with an AI, or avoid AI entirely."
-updated: 2026-04-14
+summary: The Cockpit Rule is a mental model for deciding when to delegate to AI, collaborate with an AI, or avoid AI entirely.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Cockpit Rule

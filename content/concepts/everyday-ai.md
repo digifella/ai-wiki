@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: media-society-daily-life
 tags:
   - "ai-tools"
   - "productivity"
@@ -12,7 +11,8 @@ aliases:
   - "AI Tools for Daily Use"
   - "Everyday AI Tools"
 summary: A summary of AI tools used by Jeff Su for daily tasks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: media-society-daily-life
 ---
 # Everyday AI
 
@@ -20,12 +20,11 @@ Everyday AI refers to the practical application of [[concepts/ai-technologies|ar
 
 ## Common Use Cases
 
-Everyday AI tools are employed across a range of common activities, including [[concepts/content-creation|content creation]], data analysis, [[concepts/coding|coding]] assistance, [[concepts/writing|writing]], and research. These tools operate at the intersection of [[concepts/accessibility|accessibility]] and functionality, designed to be adopted by users without specialized technical [[concepts/training|training]]. The [[concepts/adoption|adoption]] of everyday AI reflects a broader shift toward [[concepts/augmentation-of-human-capabilities|human-AI collaboration]] in routine work rather than full [[concepts/automation|automation]].
+Everyday [[concepts/ai-tools|AI tools]] are employed across a [[concepts/range|range]] of common activities, including [[concepts/content-creation|content creation]], data analysis, [[concepts/coding|coding]] assistance, [[concepts/writing|writing]], and research. These tools operate [[concepts/assistive-technology|at]] the intersection of [[concepts/accessibility|accessibility]] and functionality, designed to be adopted by users without specialized technical [[concepts/training|training]]. The [[concepts/adoption|adoption]] of everyday AI reflects a broader shift toward [[concepts/augmentation-of-human-capabilities|human-AI collaboration]] in routine work rather than full [[concepts/automation|automation]].
 
 ## Tool Selection and Evaluation
 
-The choice of everyday AI tools depends on specific use cases, cost considerations, and integration with existing workflows. Different tools offer varying trade-offs between capability, expense, and ease of use. Users often maintain a curated collection of tools rather than relying on a single platform, selecting applications that best fit particular tasks or projects.
-
+The choice of everyday AI tools depends on specific [[concepts/scenarios|use cases]], [[concepts/cost|cost]] considerations, and [[concepts/integration|integration]] with existing workflows. Different tools offer varying trade-offs between capability, expense, and ease of use. Users often maintain a curated collection of tools rather than relying on a single platform, selecting applications that best fit particular tasks or projects.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Bonzai 8B: PrismML

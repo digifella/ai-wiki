@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: biology-life-sciences
-group: evolution-ecology-natural-systems
+domain: earth-systems-geology-climate
 tags:
   - "oxygen-levels"
   - "coal-formation"
@@ -13,7 +12,8 @@ aliases:
   - "High O2 Period"
   - "High Oxygen Epoch"
 summary: A period of high oxygen levels when coal and oil were formed and rocks underwent oxidation, contributing to the geological features of the red centre of Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # High Oxygen Period
 
@@ -26,7 +26,6 @@ The abundance of atmospheric oxygen during this period caused widespread [[conce
 ## Significance for Understanding Deposits
 
 The High Oxygen Period is notable for being the primary epoch in which coal and oil deposits were laid down. The specific atmospheric and environmental conditions of this time—particularly the elevated oxygen levels combined with suitable organic preservation mechanisms—were essential for the formation of these fossil fuel deposits. Understanding this period is therefore crucial for explaining both the [[concepts/distribution|distribution]] of economic mineral resources and the major features of Earth's geological landscape.
-
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

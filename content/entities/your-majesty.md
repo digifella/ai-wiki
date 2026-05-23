@@ -9,8 +9,9 @@ tags:
   - "web-novel-adaptation"
 aliases:
   - "Surviving as Yeonsan-gun's Chef"
-summary: "A 12-episode Netflix K-drama about a modern South Korean chef transported to the Joseon era who applies French culinary techniques to period cuisine."
-updated: 2026-04-27
+summary: A 12-episode Netflix K-drama about a modern South Korean chef transported to the Joseon era who applies French culinary techniques to period cuisine.
+updated: 2026-05-23
+stub: true
 ---
 # Your Majesty
 

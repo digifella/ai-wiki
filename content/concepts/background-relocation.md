@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "image-editing"
-  - "ai"
-  - "background"
-  - "background-replacement"
-  - "foreground-preservation"
-  - "depth-aware"
-  - "lighting-consistency"
-  - "edge-transition"
-aliases:
-  - "Background Replacement"
-summary: "Background relocation replaces or modifies an image's background while preserving foreground elements and maintaining visual coherence."
-updated: 2026-04-15
+summary: Background relocation replaces or modifies an image's background while preserving foreground elements and maintaining visual coherence.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Background Relocation
@@ -21,6 +10,6 @@ group: lightroom-color-workflows
 Background relocation is the process of replacing or modifying an image's background while preserving foreground elements and maintaining visual coherence. It is a specialized technique within [[concepts/image-editing]] that requires precise handling of depth, lighting, and edge transitions.
 
 **Recent Tools:**
-- [[entities/hidream-e11|HiDream-E1.1]]: [[concepts/open-source|Open-source]] instruction-based AI editor (v1.1) supporting [[concepts/dynamic-resolution|dynamic resolution]], improved image quality, and editing [[concepts/accuracy|accuracy]]. Excels at [[concepts/detail-removal|detail removal]] (e.g., raindrops from street scenes) while maintaining background [[concepts/logical-consistency|consistency]], enabling cleaner pre-processing for relocation workflows.
+- [[entities/hidream-e11|HiDream-E1.1]]: [[concepts/open-source|Open-source]] instruction-based AI editor (v1.1) supporting [[concepts/dynamic-resolution|dynamic resolution]], improved image quality, and editing [[concepts/accuracy|accuracy]]. Excels [[concepts/assistive-technology|at]] [[concepts/detail-removal|detail removal]] (e.g., raindrops from street scenes) while maintaining background [[concepts/logical-consistency|consistency]], enabling cleaner pre-processing for relocation workflows.
 
-2026 04 14 Image Editing using Local LLM
+2026 04 14 Image Editing using [[concepts/local-llm|Local LLM]]

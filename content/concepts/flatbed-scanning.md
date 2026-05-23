@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: creative-pursuits
 tags:
   - "concept"
   - "film-scanning"
@@ -13,7 +12,8 @@ aliases:
   - "film scanning at home"
   - "home film digitization"
 summary: A process for digitizing film negatives and slides using flatbed scanners at home.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Flatbed Scanning
 
@@ -21,11 +21,10 @@ Flatbed scanning is a method of digitizing film negatives and [[entities/google-
 
 ## Basic Process
 
-To scan film on a flatbed scanner, the negative or slide is placed directly on the scanner's glass bed, usually with the transparency adapter positioned above it. The adapter contains a light source that shines through the film, allowing the scanner's sensor to capture the image. The scanner's software then converts this optical information into a digital file. The resolution and quality of the resulting image depend on the scanner's optical resolution and the quality of the original film material.
+To scan film on a flatbed scanner, the negative or slide is placed directly on the scanner's glass bed, usually with the transparency adapter positioned above it. The adapter contains a [[concepts/light|light]] source that shines through the film, allowing the scanner's sensor to capture the image. The scanner's software then converts this optical information into a digital file. The resolution and quality of the resulting image depend on the scanner's optical resolution and the quality of the original film material.
 
 ## Advantages and Limitations
 
-Flatbed scanning offers convenience and cost-effectiveness compared to drum scanning or sending film to commercial digitization services. However, flatbed scanners typically produce lower quality results than dedicated film scanners or professional services, particularly for 35mm film. Image [[concepts/sharpness|sharpness]], color [[concepts/accuracy|accuracy]], and detail recovery are generally more limited, and the process can be time-consuming when scanning large numbers of negatives or slides. The quality of results varies significantly depending on the scanner model and the condition of the original film.
-
+Flatbed scanning offers convenience and cost-effectiveness compared to drum scanning or sending film to commercial digitization services. However, flatbed scanners typically produce lower quality results than dedicated film scanners or professional services, particularly for 35mm film. Image [[concepts/sharpness|sharpness]], color [[concepts/accuracy|accuracy]], and detail recovery are generally more limited, and the process can be time-consuming when scanning large numbers of negatives or [[concepts/google-slides|slides]]. The quality of results varies significantly depending on the scanner model and the condition of the original film.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

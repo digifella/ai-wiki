@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "coding"
-  - "agents"
-  - "context"
-updated: 2026-04-14
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 ---
 # CLAUDE
@@ -22,7 +17,7 @@ Repository-level context file intended to guide [[concepts/ai-coding|AI coding]]
 
 ## Implications
 
-- **Avoid using context files**: `CLAUDE.md` and `AGENTS.md` should be omitted from repositories to prevent degraded agent output.
+- **Avoid using context files**: `CLAUDE.md` and `AGENTS.md` should be omitted from repositories to prevent degraded agent [[concepts/output|output]].
 - **Alternative approaches**: Prioritize structured codebases, explicit prompts, or direct [[concepts/code|codebase]] analysis over context files.
 - **Industry shift**: Challenges widespread [[concepts/adoption|adoption]] of repository-level context files in [[concepts/ai-coding-workflows|AI coding tools]].
 
@@ -34,4 +29,4 @@ Repository-level context file intended to guide [[concepts/ai-coding|AI coding]]
 
 ## Backlinks
 
-- 2026 04 14 AI can work worse with Claudemd and agentsmd files Channel Theo
+- 2026 04 14 AI can work worse with Claudemd and agentsmd [[concepts/files|files]] Channel [[entities/theo|Theo]]

@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "internal-knowledge"
-  - "copilot"
-  - "no-code"
-  - "microsoft-365"
-aliases:
-  - "Internal Knowledge Bot"
-  - "Internal Knowledge Assistant"
-summary: "An AI-powered chatbot providing instant access to an organization's internal knowledge base without external internet access."
-updated: 2026-04-15
+summary: An AI-powered chatbot providing instant access to an organization's internal knowledge base without external internet access.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Internal Knowledge Base Bot
@@ -19,8 +10,8 @@ group: applied-ai-workflows
 An AI-powered chatbot providing instant access to an [[concepts/organization|organization]]'s internal knowledge ([[concepts/policies|policies]], procedures, resources) without external internet access.
 
 ## Key Features
-- **[[concepts/no-code|No-code development]]** via Microsoft 365 [[entities/copilot|Copilot]] (demonstrated in [Teachers Tech tutorial](https://www.youtube.com/watch?v=Iz3ul6hSeTs))
-- **Customizable** for specific business contexts (e.g., "PoochPal" for internal customer service at "[[entities/pooch-haven-spa|Pooch Haven Spa]]")
+- **[[concepts/no-code|No-code development]]** via [[entities/microsoft-365|Microsoft 365]] [[entities/copilot|Copilot]] (demonstrated in [Teachers Tech tutorial](https://www.youtube.com/watch?v=Iz3ul6hSeTs))
+- **Customizable** for specific business contexts (e.g., "PoochPal" for internal customer service [[concepts/assistive-technology|at]] "[[entities/pooch-haven-spa|Pooch Haven Spa]]")
 - **[[concepts/secure|Secure]] internal operation** accessing Internal [[concepts/knowledge-base|Knowledge Base]] content within organizational boundaries
 - **Context-aware [[concepts/responses|responses]]** to employee queries about internal processes
 
@@ -30,7 +21,6 @@ An AI-powered chatbot providing instant access to an [[concepts/organization|org
 - Tests with fictional business cases (e.g., "Pooch Haven Spa" customer service [[concepts/scenarios|scenarios]])
 - Deploys as internal tool for employee knowledge access
 
-2026 04 14 Create an AI chatbot in CoPilot [[entities/teachers-tech|Teachers Tech]] channel
-
+2026 04 14 Create an AI chatbot in [[concepts/copilot-chat|CoPilot]] [[entities/teachers-tech|Teachers Tech]] channel
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu|Structured AI Context Beyond RAG Limitations with Map First Architectu]] · [▶ source](https://www.youtube.com/watch?v=SjqfDcGZOHg)

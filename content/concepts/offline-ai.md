@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-futures-self-improvement
 tags:
   - "offline-ai"
   - "local-models"
@@ -12,7 +11,8 @@ aliases:
   - "Local AI"
   - "On-device AI"
 summary: Running AI models on local hardware to ensure data privacy and functionality in disconnected environments.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Offline AI
 
@@ -20,12 +20,11 @@ Offline AI refers to the [[concepts/deployment|deployment]] and execution of [[c
 
 ## Technical Implementation
 
-[[concepts/running|Running]] [[concepts/ai-models|AI models]] offline requires selecting appropriately sized models for available hardware constraints. Small language models (SLMs) and efficient architectures—such as quantized models and parameter-reduced variants—have become practical for [[concepts/local-execution|local execution]]. [[concepts/model-customization|Open-weight models]] like [[concepts/23b-parameter-models|Google Gemma 4]], along with approaches such as [[concepts/1-bit-llm|1-bit quantization]] and other compression techniques, enable broader access to capable AI systems that can run on standard consumer hardware with limited [[concepts/computational-resources|computational resources]].
+[[concepts/running|Running]] [[concepts/ai-models|AI models]] offline requires selecting appropriately sized [[concepts/models|models]] for available hardware constraints. [[concepts/small-language-models-slms|Small language models (SLMs)]] and efficient architectures—such as quantized models and parameter-reduced variants—have become practical for [[concepts/local-execution|local execution]]. [[concepts/model-customization|Open-weight models]] like [[concepts/23b-parameter-models|Google Gemma 4]], along with approaches such as [[concepts/1-bit-llm|1-bit quantization]] and other [[concepts/file-size-reduction|compression techniques]], enable broader access to capable AI systems that can run on standard consumer hardware with limited [[concepts/computational-resources|computational resources]].
 
 ## Use Cases and Constraints
 
-Offline AI is particularly valuable in scenarios where network availability is unreliable, latency must be minimized, or data cannot leave a local environment due to privacy regulations or organizational policy. However, offline systems face inherent limitations: local hardware typically has less processing power than cloud infrastructure, model capabilities are constrained by available [[concepts/memory|memory]] and [[concepts/compute|compute]], and updates or improvements to models require manual [[concepts/distribution|distribution]]. The trade-off between capability and local execution remains a key consideration in deployment decisions.
-
+Offline AI is particularly valuable in [[concepts/scenarios|scenarios]] where network availability is unreliable, latency must be minimized, or data cannot leave a local environment due to privacy regulations or organizational policy. However, offline systems face inherent limitations: local hardware typically has less processing [[concepts/power|power]] than cloud infrastructure, model [[concepts/capabilities|capabilities]] are constrained by available [[concepts/memory|memory]] and [[concepts/compute|compute]], and updates or improvements to models require manual [[concepts/distribution|distribution]]. The trade-off between capability and local execution remains a key consideration in deployment decisions.
 ## Source Notes
 - 2026-04-07: [[concepts/running|Running AI Agents Locally = Safe...? Think Again]]
 - 2026-04-22: Google Gemma · [▶ source](https://www.youtube.com/watch?v=ZxQ2DuejRhU)

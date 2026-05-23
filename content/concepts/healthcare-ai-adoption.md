@@ -15,8 +15,8 @@ tags:
 aliases:
   - "AI adoption in healthcare"
   - "Integrating AI in medical practices"
-summary: "The integration of artificial intelligence into medical practices involves using technology to improve diagnostics, treatment planning, and operational efficiency through robust governance frameworks."
-updated: 2026-04-28
+summary: The integration of artificial intelligence into medical practices involves using technology to improve diagnostics, treatment planning, and operational efficiency through robust governance frameworks.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Healthcare AI Adoption
@@ -25,7 +25,7 @@ group: ai-foundations-concepts
 [[concepts/health|Healthcare]] AI [[concepts/adoption|adoption]] refers to the [[concepts/integration|integration]] of [[concepts/ai-technologies|artificial intelligence]] technologies into medical practices, improving diagnostics, treatment planning, and [[concepts/cost|operational efficiency]].
 
 ## Key Aspects
-- **[[concepts/software|Applications]]**: AI in healthcare includes diagnostic imaging, predictive analytics, personalized medicine, and administrative [[concepts/automation|automation]].
+- **[[concepts/software|Applications]]**: [[entities/george|AI in healthcare]] includes diagnostic imaging, predictive analytics, personalized medicine, and administrative [[concepts/automation|automation]].
 - **Challenges**: Data [[concepts/privacy|privacy]] concerns, regulatory hurdles, and the need for robust [[concepts/ai-oversight|AI oversight]] frameworks.
 - **[[concepts/ethical-considerations|Ethical Considerations]]**: Ensuring fairness, transparency, and [[concepts/accountability|accountability]] in AI-driven healthcare solutions.
 
@@ -39,6 +39,5 @@ group: ai-foundations-concepts
 
 ## Backlinks
 - 2026 04 14 [[entities/bmj-review|BMJ Review]]
-
 ## Source Notes
 - 2026-04-24: OpenAI GPT-5 · [▶ source](https://www.youtube.com/watch?v=tNV9_I-zLO0)

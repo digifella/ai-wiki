@@ -9,21 +9,21 @@ tags:
 aliases:
   - "lazy git"
 summary: A command-line tool used within AI coding workflows such as Claude Code.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Lazygit
 
-Lazygit is a [[concepts/command-line-interface|command-line interface]] tool designed to simplify Git operations through an interactive, keyboard-driven interface. It provides a terminal-based UI that displays Git status, branches, [[concepts/commits|commits]], and staged changes in an organized layout, allowing users to navigate and perform Git actions without memorizing complex command syntax.
+Lazygit is a [[concepts/command-line-interface|command-line interface]] tool designed to simplify [[entities/git|Git]] operations through an interactive, keyboard-driven interface. It provides a terminal-based UI that displays Git status, branches, [[concepts/commits|commits]], and staged changes in an organized layout, allowing users to navigate and perform Git actions without memorizing complex command syntax.
 
 ## Use in AI Coding Workflows
 
-Lazygit has become a useful tool within [[concepts/ai-coding-assistance|AI-assisted coding]] workflows, particularly in environments like [[concepts/ai-assisted-coding|Claude Code]]. It enables developers to manage version control efficiently while working alongside [[concepts/terminal-based-ai-coding-agents|AI coding assistants]], reducing context switching between code editing and Git management. The tool's visual approach to Git operations makes it accessible for developers who prefer graphical [[concepts/feedback|feedback]] within a terminal environment.
+Lazygit has become a useful tool within [[concepts/ai-coding-assistance|AI-assisted coding]] workflows, particularly in environments like [[concepts/ai-assisted-coding|Claude Code]]. It enables developers to manage version [[concepts/power|control]] efficiently while working alongside [[concepts/terminal-based-ai-coding-agents|AI coding assistants]], reducing context switching between [[concepts/code|code]] editing and Git management. The tool's visual approach to Git operations makes it accessible for developers who prefer graphical [[concepts/feedback|feedback]] within a terminal environment.
 
 ## Core Features
 
-The tool streamlines common Git workflows such as staging and committing changes, viewing diffs, managing branches, and resolving conflicts. Its interactive interface allows users to perform these operations using keyboard shortcuts rather than typing full [[entities/git-commands|Git commands]], which can reduce [[concepts/friction|friction]] during rapid development cycles typical of AI-assisted coding sessions.
+The tool streamlines common Git workflows such as staging and committing changes, viewing diffs, managing branches, and resolving conflicts. Its interactive interface allows users to perform these operations using keyboard shortcuts rather than typing full [[entities/git-commands|Git commands]], which can reduce [[concepts/friction|friction]] during rapid development cycles typical of [[concepts/coding|AI-assisted coding]] sessions.
 
-- 2026-04-07 [2026-04-07-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users](2026-04-07-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users.md) ← Demystifying Claude Code Key Concepts For Non Technical Users
+- 2026-04-07 [2026-04-07-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users](2026-04-07-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users.md) ← Demystifying [[concepts/claude-code|Claude Code]] Key Concepts For Non Technical Users
 - 2026-04-08 [2026-04-08-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users](2026-04-08-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users.md) ← Demystifying Claude Code Key Concepts For Non Technical Users
 - 2026-04-10 [2026-04-10-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users](2026-04-10-Demystifying-Claude-Code-Key-Concepts-for-Non-Technical-Users.md) ← Demystifying Claude Code Key Concepts For Non Technical Users
 ## Source Notes

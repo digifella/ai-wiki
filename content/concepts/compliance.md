@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: enterprise-security-risk
 tags:
   - "privacy"
   - "local-ai"
@@ -13,25 +12,25 @@ aliases:
   - "Compliance Management"
   - "Security Compliance"
   - "Enterprise Compliance"
-summary: "Framework for ensuring local AI systems and private RAG implementations meet security and regulatory requirements."
-updated: 2026-05-01
+summary: Framework for ensuring local AI systems and private RAG implementations meet security and regulatory requirements.
+updated: 2026-05-23
+group: enterprise-security-risk
 ---
 # Compliance
 
-Compliance in the context of [[concepts/offline-ai|local AI]] systems and [[concepts/private-rag|private RAG]] (Retrieval-Augmented Generation) implementations refers to the processes and controls necessary to ensure these systems meet applicable security [[concepts/open-standards|standards]] and regulatory requirements. As organizations increasingly deploy [[concepts/ai-models|AI models]] locally rather than relying on cloud-based services, they must address compliance obligations across data protection, [[concepts/privacy|privacy]], and security frameworks specific to their operational environment and jurisdiction.
+Compliance in the context of [[concepts/offline-ai|local AI]] systems and [[concepts/private-rag|private RAG]] ([[concepts/answer-generation|Retrieval-Augmented Generation]]) implementations refers to the processes and controls necessary to ensure these systems meet applicable [[concepts/security|security]] [[concepts/open-standards|standards]] and regulatory requirements. As organizations increasingly deploy [[concepts/ai-models|AI models]] locally rather than relying on [[concepts/cloud-based-services|cloud-based services]], they must address compliance obligations across data protection, [[concepts/privacy|privacy]], and security frameworks specific to their operational environment and jurisdiction.
 
 ## Security Requirements
 
-Local AI deployments require documented security controls covering data isolation, access management, and system auditing. These systems must be designed to minimize [[concepts/exposure|exposure]] of sensitive information used in RAG implementations, particularly when processing proprietary or regulated data. Documentation of security measures, including encryption protocols, [[concepts/authentication|authentication]] mechanisms, and logging practices, forms the foundation for demonstrating compliance to internal stakeholders and external auditors.
+[[concepts/local-ai|Local AI]] deployments require documented security controls covering data isolation, access management, and system auditing. These systems must be designed to minimize [[concepts/exposure|exposure]] of sensitive information used in RAG implementations, particularly when processing proprietary or regulated data. Documentation of security measures, including encryption protocols, [[concepts/authentication|authentication]] mechanisms, and logging practices, forms the foundation for demonstrating compliance to internal stakeholders and external auditors.
 
 ## Regulatory Alignment
 
-The specific compliance obligations depend on the [[concepts/organization|organization]]'s industry, geographic location, and data classification. [[concepts/health|Healthcare]] systems must align with standards like HIPAA, financial institutions with relevant banking regulations, and organizations handling personal data with GDPR or similar privacy frameworks. [[concepts/open-source|Open-source]] implementations of [[concepts/contextualized-language-understanding|RAG systems]] can provide transparency advantages for compliance verification, as the underlying [[concepts/architecture|architecture]] can be audited and validated against regulatory requirements.
+The specific compliance obligations depend on the [[concepts/organization|organization]]'s industry, geographic location, and data classification. [[concepts/health|Healthcare]] systems must align with standards like HIPAA, financial institutions with relevant banking regulations, and organizations handling personal data with GDPR or similar privacy frameworks. [[concepts/open-source|Open-source]] implementations of [[concepts/contextualized-language-understanding|RAG systems]] can provide transparency advantages for compliance [[concepts/verification|verification]], as the underlying [[concepts/architecture|architecture]] can be audited and validated against regulatory requirements.
 
 ## Documentation and Assessment
 
 Maintaining compliance requires ongoing documentation of system configurations, data handling procedures, and security updates. Regular assessments should verify that local AI implementations continue to meet defined compliance standards as the systems evolve and new regulatory guidance emerges.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

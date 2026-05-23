@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: design-systems-ui-infographics
+domain: tools-platforms
 tags:
   - "concept"
   - "terminal-ui"
@@ -15,11 +14,12 @@ aliases:
   - "Terminal UI"
   - "CLI interface"
 summary: Terminal user interfaces are command-line tools designed to work with AI coding workflows.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Terminal User Interface Tui
 
-A Terminal [[concepts/user-interface|User Interface]] (TUI) is a [[concepts/software|software]] application that runs in [[concepts/command-line-interface|command-line]] environments, providing interactive graphical elements like [[entities/windows|windows]], menus, and text fields within the terminal itself. Unlike traditional command-line interfaces that rely solely on text [[concepts/commands|commands]], TUIs offer a more structured and navigable [[concepts/user-experience-design|user experience]] while remaining accessible to users working in terminal-based environments.
+A Terminal [[concepts/user-interface|User Interface]] (TUI) is a [[concepts/software|software]] application that runs in [[concepts/command-line-interface|command-line]] environments, providing interactive graphical elements like [[entities/windows|windows]], menus, and [[concepts/text|text]] fields within the terminal itself. Unlike traditional command-line interfaces that rely solely on text [[concepts/commands|commands]], TUIs offer a more structured and navigable [[concepts/user-experience-design|user experience]] while remaining accessible to users working in terminal-based environments.
 
 ## Integration with AI Workflows
 
@@ -27,8 +27,7 @@ TUIs have become increasingly relevant in [[concepts/development-speed|AI-assist
 
 ## Accessibility and Adoption
 
-The appeal of TUIs in creative and technical pursuits stems from their lightweight [[entities/nature|nature]] and accessibility. They require minimal system resources compared to graphical user interfaces, making them suitable for remote development work, resource-constrained environments, and users who prefer keyboard-driven interactions. For developers already comfortable in terminal environments, TUIs eliminate the [[concepts/friction|friction]] of switching between different application types.
-
+The appeal of TUIs in creative and technical pursuits stems from their lightweight [[entities/nature|nature]] and [[concepts/accessibility|accessibility]]. They require minimal system resources compared to graphical user interfaces, making them suitable for remote development work, resource-constrained environments, and users who prefer keyboard-driven interactions. For developers already comfortable in terminal environments, TUIs eliminate the [[concepts/friction|friction]] of switching between different application types.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and|Open Source AI Agents Revolutionizing Development Workflows and]] · [▶ source](https://www.youtube.com/watch?v=sXVbWkoCVaA)

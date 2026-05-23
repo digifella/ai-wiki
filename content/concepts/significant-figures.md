@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "measurement-precision"
   - "decimal-representation"
@@ -12,11 +11,12 @@ aliases:
   - "sig figs"
   - "significant digits"
 summary: Significant figures represent the digits in a number that carry meaningful information about its precision and measurement accuracy.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # Significant Figures
 
-Significant figures are the digits in a number that convey meaningful information about its precision and [[concepts/accuracy|accuracy]]. They include all non-zero digits, zeros between non-zero digits, and trailing zeros in decimal numbers. For example, the number 0.00456 has three significant figures (4, 5, and 6), while 1,050 may have three or four depending on whether the trailing zero is considered significant. The concept is fundamental to expressing measurement uncertainty and communicating the [[concepts/software-reliability|reliability]] of numerical data.
+Significant figures are the digits in a number that convey meaningful information about its precision and [[concepts/accuracy|accuracy]]. They include all non-[[concepts/concept-of-nothingness|zero]] digits, zeros between non-zero digits, and trailing zeros in decimal numbers. For example, the number 0.00456 has three significant figures (4, 5, and 6), while 1,050 may have three or four depending on whether the trailing zero is considered significant. The concept is fundamental to expressing measurement uncertainty and communicating the [[concepts/software-reliability|reliability]] of numerical data.
 
 ## Measurement and Precision
 
@@ -24,8 +24,7 @@ In scientific measurement, significant figures directly reflect the precision of
 
 ## Calculations and Rounding
 
-When performing arithmetic operations, the rules for significant figures help maintain appropriate precision in results. Multiplication and division should yield results with significant figures matching the input with the fewest significant figures. Addition and subtraction are governed by decimal place position rather than digit count. Proper rounding of final results according to significant figure rules ensures that reported answers reflect the actual precision of the underlying measurements rather than spurious accuracy.
-
+When performing arithmetic operations, the rules for significant figures help maintain appropriate precision in results. Multiplication and division should yield results with significant figures matching the input with the fewest significant figures. Addition and subtraction are governed by decimal place position rather than [[entities/digit|digit]] count. Proper [[concepts/rounding|rounding]] of final results according to significant figure rules ensures that reported answers reflect the actual precision of the underlying measurements rather than spurious accuracy.
 ## Source Notes
 - 2026-04-07: Photoshop Beta
 - 2026-04-08: Anthropic

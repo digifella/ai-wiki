@@ -1,7 +1,8 @@
 ---
 type: entity
-updated: 2026-04-14
-summary: "A guide by Alicia on utilizing ChatGPT Projects to improve productivity and marketing efforts."
+summary: A guide by Alicia on utilizing ChatGPT Projects to improve productivity and marketing efforts.
+updated: 2026-05-23
+stub: true
 ---
 - "entity"
   - "[[entities/chatgpt|chatgpt]]-projects"
@@ -12,10 +13,7 @@ aliases:
   - "using-chatgpt-projects"
 
 # Chatgpt Projects
-
 ## Source Notes
-- 2026-04-23: <https://www.youtube.com/watch?v=We5RZBECvPs> The video, presented by **[[entities/alicia|Alicia]]**, is a comprehensive guide to using **ChatGPT Projects** like a professional, aiming to boost productivity and marketing efforts. **What are ChatGPT Projects?**[[entities/alicia|Alicia]] explains that projects are like d (ChatGPT Projects)
-- 2026-04-14: <https://www.youtube.com/watch?v=We5RZBECvPs> The video, presented by **[[entities/alicia|Alicia]]**, is a comprehensive guide to using **ChatGPT Projects** like a professional, aiming to boost productivity and marketing efforts. **What are ChatGPT Projects?**Alicia explains that projects are like dedicated "[[concepts/smart-workspaces|smart workspaces]]" or "[[concepts/intelligent-folders|intelligent folders]]" within ChatGPT. They are designed to keep all relevant work for an ongoing task (like client projects, [[concepts/marketing-campaigns|marketing campaigns]], or [[concepts/writing|writing]] a book) organized and in context. This me
-
 2026 04 14 ChatGPT Projects
-## Source Notes
+- 2026-04-14: <https://www.youtube.com/watch?v=We5RZBECvPs> The video, presented by **[[entities/alicia|Alicia]]**, is a comprehensive guide to using **ChatGPT Projects** like a professional, aiming to boost productivity and marketing efforts. **What are ChatGPT Projects?**Alicia explains that projects are like dedicated "[[concepts/smart-workspaces|smart workspaces]]" or "[[concepts/intelligent-folders|intelligent folders]]" within ChatGPT. They are designed to keep all relevant work for an ongoing task (like client projects, [[concepts/marketing-campaigns|marketing campaigns]], or [[concepts/writing|writing]] a book) organized and in context. This me
+- 2026-04-23: <https://www.youtube.com/watch?v=We5RZBECvPs> The video, presented by **[[entities/alicia|Alicia]]**, is a comprehensive guide to using **ChatGPT Projects** like a professional, aiming to boost productivity and marketing efforts. **What are ChatGPT Projects?**[[entities/alicia|Alicia]] explains that projects are like d (ChatGPT Projects)

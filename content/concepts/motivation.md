@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "motivation"
   - "psychology"
@@ -15,7 +14,8 @@ aliases:
   - "incentive"
   - "purpose"
 summary: Motivation is the psychological force that drives individuals to take action toward goals, influencing academic and health-related performance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Motivation
 
@@ -31,8 +31,7 @@ Motivation significantly influences both academic and health outcomes. In educat
 
 ## Psychological Mechanisms
 
-Motivation is mediated by multiple neurochemical systems, including dopamine pathways associated with reward and [[concepts/goal-oriented-behavior|goal-directed behavior]]. Goal-setting, perceived competence, and a sense of autonomy all contribute to sustained motivation. Individual differences in motivation reflect variations in personality, temperament, and learned patterns of goal pursuit shaped by past experiences and cultural context.
-
+Motivation is mediated by multiple neurochemical systems, including dopamine pathways associated with reward and [[concepts/goal-oriented-behavior|goal-directed behavior]]. Goal-setting, perceived competence, and a sense of autonomy all contribute to sustained motivation. Individual differences in motivation reflect variations in personality, temperament, and learned patterns of goal [[entities/pursuitunimelbeduau|pursuit]] shaped by past experiences and cultural context.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)
 - 2026-04-11: [[lab-notes/2026-04-11-The-Neurochemical-Science-of-Storytelling-and-Emotional-Engagement|The Neurochemical Science of Storytelling and Emotional Engagement]] · [▶ source](https://www.youtube.com/watch?v=Nj-hdQMa3uA)

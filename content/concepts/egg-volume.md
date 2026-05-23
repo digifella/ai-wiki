@@ -1,18 +1,13 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "egg-size-variability"
-  - "raw-vs-cooked"
-  - "recipe-impact"
-  - "scrambled-eggs-techniques"
-summary: "Egg volume, the physical space occupied by an egg in raw or cooked states, affects culinary outcomes such as texture and cooking time."
-updated: 2026-04-14
+summary: Egg volume, the physical space occupied by an egg in raw or cooked states, affects culinary outcomes such as texture and cooking time.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
 ---
 # Egg Volume
 
-Egg volume refers to the physical space occupied by an egg, whether raw or cooked. Understanding egg volume is crucial in culinary [[concepts/software|applications]] as it affects cooking time and outcomes such as [[concepts/texture|texture]] and [[concepts/logical-consistency|consistency]].
+Egg volume refers to the physical space occupied by an egg, whether raw or cooked. Understanding egg volume is crucial in culinary [[concepts/software|applications]] as it affects [[concepts/cooking-time|cooking time]] and outcomes such as [[concepts/texture|texture]] and [[concepts/logical-consistency|consistency]].
 
 ## Key Points
 
@@ -22,7 +17,7 @@ Egg volume refers to the physical space occupied by an egg, whether raw or cooke
 
 ## Related Concepts
 
-- egg-cooking-methods
+- [[concepts/egg-cooking-methods|egg-cooking-methods]]
 - egg-[[concepts/nutrition|nutrition]]
 - scrambled-eggs
 
@@ -35,7 +30,6 @@ Egg volume refers to the physical space occupied by an egg, whether raw or cooke
 ## References
 
 2026 04 13 [[concepts/egg-texture|Scrambled Egg Techniques]] Salting Liquid and Equipment for Tender Resul
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-NotebookLM-Deep-Research-to-AI-Generated-Professional-Websites-No-Code|NotebookLM Deep Research to AI Generated Professional Websites No Code]] · [▶ source](https://www.youtube.com/watch?v=-iCBETPQkuo)
 - 2026-04-11: [[lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea|Cerberean Supervolcano Discovery Geology and Explosive History Northea]] · [▶ source](https://www.youtube.com/watch?v=ek0ASprm3Mw)

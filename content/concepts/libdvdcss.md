@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "dvd-ripping"
@@ -13,11 +12,12 @@ tags:
 aliases:
   - "DVD CSS decryption library"
 summary: Library that enables DVD content access and ripping using tools like VLC, Handbrake, and MakeMKV.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Libdvdcss
 
-Libdvdcss is a [[concepts/software|software]] library that provides the ability to decrypt and access the contents of DVDs protected by CSS (Content Scramble System). It serves as a foundational component for various media playback and conversion applications, enabling users to read encrypted DVD data on computers [[concepts/running|running]] Linux, macOS, and [[entities/windows|Windows]].
+[[entities/libdvdcss|Libdvdcss]] is a [[concepts/software|software]] library that provides the ability to decrypt and access the contents of DVDs protected by CSS (Content Scramble System). It serves as a foundational component for various media playback and conversion applications, enabling users to read encrypted DVD data on computers [[concepts/running|running]] [[entities/linux|Linux]], [[entities/macos|macOS]], and [[entities/windows|Windows]].
 
 ## Usage and Applications
 
@@ -27,7 +27,7 @@ The library is commonly integrated into popular [[concepts/open-source|open-sour
 
 The legal standing of libdvdcss varies by jurisdiction. In many regions it is distributed and used freely, while in others—particularly those with strict anti-circumvention laws—its status remains contested. The library is maintained as an open-source project and is packaged in repositories for various Linux distributions, though some distributions [[concepts/exercise|exercise]] discretion about whether to include it by default due to regional legal considerations.
 
-- 2026-04-07 [2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
+- 2026-04-07 [2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming [[concepts/ai-integrated-notebooks|Notebooklm]] [[concepts/google-slides|Slides]] To Unwatermarked [[concepts/google-vids|Google Vids]]
 - 2026-04-08 [2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
 - 2026-04-10 [2026-04-10-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-10-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
 ## Source Notes

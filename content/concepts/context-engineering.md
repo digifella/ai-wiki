@@ -1,20 +1,9 @@
 ---
-group: engineering-systems-robotics-autonomous-vehicles
 type: concept
 domain: science-physics
-tags:
-  - "context-engineering"
-  - "ai"
-  - "software-development"
-  - "agile"
-  - "context-management"
-  - "production-ready"
-  - "development-process"
-  - "complex-environments"
-summary: "Context engineering structures contextual information to guide AI systems toward production-ready software outputs."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 BMAD method for coding"
+summary: Context engineering structures contextual information to guide AI systems toward production-ready software outputs.
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Context engineering
 
@@ -24,9 +13,8 @@ The practice of structuring and managing [[concepts/contextual-information|conte
 - **[[concepts/bmad-method|BMAD method]] for [[concepts/coding|coding]]**: A universal [[concepts/ai-agent-framework|AI agent framework]] for [[concepts/agile-ai-driven-development|Agile AI-driven development]], introduced via [video](https://youtu.be/fD8NLPU0WYU) (see [[concepts/date-2026-04-13|2026]] 04 14 [[entities/bmad-code|BMAD method]] for [[concepts/coding|coding]]).
   - Addresses evolution from simple [[concepts/ai-coding|AI coding]] to sophisticated [[concepts/external-knowledge|context engineering]] (tools: [[entities/cursor|Cursor]], [[entities/claude-code]])
   - Prevents non-production-ready [[concepts/software|software]] by integrating full [[concepts/app-creation|software]] development processes
-  - Highlights progression from basic [[concepts/ai-assisted-coding|AI coding]] to advanced [[concepts/context-engineering|context engineering]]
+  - [[concepts/highlights|Highlights]] progression from basic [[concepts/ai-assisted-coding|AI coding]] to advanced [[concepts/context-engineering|context engineering]]
   - Demonstrates how AI enables website and [[concepts/app-creation|app creation]] but often lacks proper software development processes
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Tools-Redefine-Design-and-Creative-Workflows-Google-Stitch|AI Tools Redefine Design and Creative Workflows Google Stitch]] · [▶ source](https://www.youtube.com/watch?v=CDClFY-R0dI)

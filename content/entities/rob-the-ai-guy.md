@@ -1,31 +1,7 @@
 ---
 type: entity
-tags:
-  - "AI"
-  - "Google"
-  - "Rob The AI Guy"
-  - "NotebookLM"
-  - "Infographics"
-  - "Videos"
-  - "ai-tools"
-  - "google-notebooklm"
-  - "infographics-generation"
-  - "video-content"
-  - "google-gemini"
-  - "desktop-app"
-  - "contextual-ai"
-  - "claude-code"
-  - "ai-coding"
-  - "chatgpt-deep-research"
-aliases:
-  - "Rob The AI Guy"
-  - "NotebookLM features"
-  - "AI content creator"
-  - "Google AI tools"
-summary: "Rob The AI Guy provides detailed analysis of recent enhancements in Google's NotebookLM, the rollout of the new Google Gemini desktop app, and the productivity potential of [[concepts/claude-code|Claude Code]] 4.1 via [[entities/codellm|CodeLLM]]."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 Chat Deep Research update Channel Rob the AI Guy"
+summary: "Rob The AI Guy provides detailed analysis of recent enhancements in Google's NotebookLM, the rollout of the new Google Gemini desktop app, and the productivity potential of Claude Code 4.1 via CodeLLM."
+updated: 2026-05-23
 ---
 # Rob The AI Guy Wiki Page
 
@@ -35,7 +11,7 @@ backlinks:
 ## Recent Activity & Updates
 
 ### Google’s NotebookLM Released New Features That Are Insane 🤯 (FREE UPDATES)
-- **Clip title:** [[concepts/google-search|Google]]’s [[entities/gartner|NotebookLM]] Released New Features That Are Insane 🤯 (FREE UPDATES)
+- **[[concepts/clip-title|Clip title]]:** [[concepts/google-search|Google]]’s [[entities/gartner|NotebookLM]] Released New Features That Are Insane 🤯 (FREE UPDATES)
 - **Author / channel:** [[entities/claude-rob-the-ai-guy|Rob The AI Guy]]
 - **URL:** https://www.youtube.com/watch?v=E71M74FIDHc
 
@@ -49,7 +25,6 @@ The video offers a comprehensive overview of recent, unannounced updates to [[en
 
 #### Summary
 This update provides users with [[concepts/granular-control|granular control]] over research sources and integrates directly with [[concepts/third-party-applications|third-party applications]], making it significantly more powerful than the [[concepts/legacy-deep-research-model|legacy Deep Research model]].
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration|Google Gemini and NotebookLM Key Updates and Enhanced AI Integration]] · [▶ source](https://www.youtube.com/watch?v=6YWPGjqOEmk)
 - 2026-04-22: [[lab-notes/2026-04-22-Google-Gemini-New-Desktop-App-Contextual-AI-and-Key-Platform-Upgrades-Overview|Google Gemini: New Desktop App, Contextual AI, and Key Platform Upgrades Overview]] · [▶ source](https://www.youtube.com/watch?v=2DlsrKlF7XQ)

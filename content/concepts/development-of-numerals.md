@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "numeral-systems"
   - "mathematical-history"
@@ -15,7 +14,8 @@ aliases:
   - "Numeral Systems Development"
   - "Number Notation Evolution"
 summary: The historical evolution of systems for representing and manipulating quantities, including early tallying methods and the development of formal numeral notation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Development Of Numerals
 
@@ -23,8 +23,8 @@ The development of numerals represents one of humanity's fundamental intellectua
 
 ## Early Numeral Systems
 
-The earliest known formal numeral systems developed independently in several ancient civilizations. The Sumerians created a sexagesimal (base-60) system around 3400 BCE, which survives in modern measurements of time and angles. The Egyptians developed a decimal (base-10) system using hieroglyphic symbols, while the Mayans employed a vigesimal (base-20) system with a sophisticated concept of zero. Each system reflected both practical needs—such as tracking trade goods or astronomical cycles—and the mathematical sophistication of its culture.
+The earliest known formal [[concepts/number-systems|numeral systems]] developed independently in several ancient civilizations. The Sumerians created a sexagesimal (base-60) system around 3400 BCE, which survives in modern measurements of time and angles. The Egyptians developed a decimal (base-10) system using hieroglyphic symbols, while the Mayans employed a vigesimal (base-20) system with a sophisticated concept of [[concepts/concept-of-nothingness|zero]]. Each system reflected both practical needs—such as tracking trade goods or astronomical cycles—and the mathematical sophistication of its culture.
 
 ## The Rise of Positional Notation
 
-A critical [[concepts/innovation|innovation]] came with the development of positional notation, where the value of a symbol depends on its position within a number. The Hindu-Arabic numeral system, which emerged in India by approximately the 6th century CE, combined positional notation with the concept of zero as a placeholder and numerical value. This system proved far more efficient for calculation than earlier additive systems like Roman numerals, ultimately facilitating advances in [[concepts/mathematics|mathematics]], commerce, and science. Arab mathematicians further refined and transmitted this system westward, where it gradually replaced Roman numerals in medieval [[entities/europe|Europe]] by the Renaissance period.
+A critical [[concepts/innovation|innovation]] came with the development of positional notation, where the value of a symbol depends on its position within a number. The Hindu-Arabic numeral system, which emerged in India by approximately the 6th century CE, combined positional notation with the concept of zero as a placeholder and numerical value. This system proved far more efficient for calculation than earlier additive systems like Roman numerals, ultimately facilitating advances in [[concepts/mathematics|mathematics]], commerce, and [[concepts/science|science]]. Arab mathematicians further refined and transmitted this system westward, where it gradually replaced Roman numerals in medieval [[entities/europe|Europe]] by the Renaissance period.

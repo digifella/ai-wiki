@@ -1,29 +1,21 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "performance-benchmarks ai-security software-engineering multimodal-tasks"
-  - "ai-research"
-  - "performance-benchmarks"
-  - "security-enhancements"
-  - "software-engineering"
-  - "multimodal-tasks"
-updated: 2026-04-14
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Performance Benchmarks
-Performance benchmarks are standardized measures used to evaluate and compare the capabilities of different systems or models, particularly in computational contexts. In [[concepts/ai-research|AI research]], benchmarks provide critical insights into a model's performance across various tasks, from [[concepts/natural-language-processing|natural language processing]] to image recognition.
+Performance benchmarks are standardized measures used to evaluate and [[concepts/feynmans-three-step-scientific-method|compare]] the [[concepts/capabilities|capabilities]] of different systems or [[concepts/models|models]], particularly in computational contexts. In [[concepts/ai-research|AI research]], benchmarks provide critical insights into a model's performance across various tasks, from [[concepts/natural-language-processing|natural language processing]] to image recognition.
 
 ## Key Points
 - **[[entities/claude-mythos|Claude Mythos]]**: [[entities/anthropic|Anthropic]]’s latest [[concepts/frontier-ai|frontier AI]] model has set new [[concepts/open-standards|standards]] in several performance benchmarks.
 - **[[concepts/security|Security]] Enhancements**: [[entities/claude|Claude]] [[concepts/mythos|Mythos]] includes significant advancements in [[concepts/ai-security|AI security]], marking it as one of the most [[concepts/secure|secure]] models available.
 - **[[concepts/software-engineering|Software Engineering]] Tasks
-- **[[entities/minimax|MiniMax]] M2.7**: A newly released [[concepts/large-language-model|large language model]] from Chinese AI company MiniMax, which has quickly established itself as a highly capable [[concepts/open-source|open-source]] contender rivaling [[entities/opus|Opus]] 4.6 in performance and [[entities/agent|agent]] capabilities.
+- **[[entities/minimax|MiniMax]] [[entities/m27|M2.7]]**: A newly released [[concepts/large-language-model|large language model]] from Chinese AI company MiniMax, which has quickly established itself as a highly capable [[concepts/open-source|open-source]] contender rivaling [[entities/opus|Opus]] 4.6 in performance and [[entities/agent|agent]] capabilities.
 - **[[entities/claude-opus|Claude Opus]] 4.1**: Recent release improving [[concepts/performance-benchmarks|performance benchmarks]] and [[concepts/claude-code|Claude Code]] environment capabilities, offering detailed [[concepts/pricing|pricing]] and overview updates.
 
 ## References
-- Source: 2026 04 14 [[concepts/anthropic-features|Claude Code updates]] and [[concepts/claude-ai|Claude]] Opus 41
-
+- Source: 2026 04 14 [[concepts/anthropic-features|Claude Code updates]] and [[concepts/claude-ai|Claude]] [[concepts/opus|Opus]] 41
 ## Source Notes
 - 2026-04-07: Qwen Coder Next Locally: Can It Replace Paid [[concepts/ai-models|AI Models?]]
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

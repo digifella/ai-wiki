@@ -11,9 +11,10 @@ tags:
 aliases:
   - "Software Changelog"
   - "Release Notes"
-summary: "A record of software versioning, feature releases, and CLI updates within the knowledge base."
-updated: 2026-04-28
-group: ai-futures-self-improvement
+summary: A record of software versioning, feature releases, and CLI updates within the knowledge base.
+updated: 2026-05-23
+group: ai-foundations-concepts
+stub: true
 ---
 # Version updates
 
@@ -28,12 +29,11 @@ Tracking [[concepts/software|software]] [[concepts/version-numbers|versioning]],
 
 #### Key Features
 *   **[[entities/claude-in-chrome|Claude in Chrome]] (Beta)**
-    *   Direct CLI control over the [[concepts/claude|Claude]] in Chrome browser extension.
+    *   Direct CLI [[concepts/power|control]] over the [[concepts/claude|Claude]] in Chrome browser extension.
     *   Bridges terminal [[concepts/commands|commands]] with web browser workflows.
 
 ## Backlinks
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-v15-AI-Powered-Enhancements-for-Creative-Control-and|Lightroom Classic v15 AI Powered Enhancements for Creative Control and]] · [▶ source](https://www.youtube.com/watch?v=dKXqg50v1sA)

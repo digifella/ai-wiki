@@ -12,19 +12,19 @@ aliases:
   - "Agentic RAG"
   - "OpenRAG Systems"
 summary: Agentic RAG systems combine retrieval-augmented generation with agent capabilities to improve LLM performance on knowledge-intensive tasks.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
-# Agentic RAG Systems
+# Agentic Rag Systems
 
-Agentic RAG systems extend retrieval-augmented generation (RAG) by integrating agent-based [[concepts/reasoning|reasoning]] and decision-making capabilities. While standard [[concepts/contextualized-language-understanding|RAG systems]] retrieve relevant documents from a [[concepts/knowledge-base|knowledge base]] and immediately pass them to a [[concepts/statistical-language-modeling|language model]] for [[concepts/answer-generation|answer generation]], [[concepts/agentic-frameworks|agentic systems]] introduce an intermediate reasoning layer. This layer enables the language model to assess retrieval strategies, evaluate whether retrieved information adequately addresses a query, and iteratively refine both search queries and content selection based on intermediate results.
+Agentic RAG systems enhance retrieval-augmented generation by introducing agent-based reasoning between document retrieval and answer generation. Unlike standard RAG pipelines that retrieve relevant documents and immediately pass them to a language model, agentic systems employ an intermediate reasoning layer. This layer allows the model to evaluate retrieved information, decide whether additional retrieval is needed, reformulate queries, or decompose complex questions into simpler sub-tasks before producing a final answer.
 
-## Key Differences from Standard RAG
+## Architecture and Workflow
 
-The primary distinction between agentic RAG and conventional RAG lies in autonomy and [[concepts/iteration|iteration]]. Standard RAG follows a fixed pipeline: query → retrieve → generate. Agentic RAG treats retrieval as a dynamic process where the model determines when additional information is needed, what to search for, and when sufficient evidence has been gathered. The agent can modify its search strategy, combine results from multiple retrievals, or decide that the knowledge base lacks necessary information before generating a response.
+An agentic RAG system typically operates as a loop where a language model acts as the decision-making agent. The agent examines user queries, determines what information is needed, initiates retrieval operations, assesses the relevance and sufficiency of results, and iteratively refines its approach. This contrasts with static RAG systems where the retrieval strategy is predetermined. The agent can employ multiple reasoning strategies, including chain-of-thought prompting, task decomposition, or evidence evaluation, adapting its retrieval behavior based on intermediate results.
 
-## Practical Applications
+## Applications and Benefits
 
-Agentic RAG systems are particularly effective for complex, multi-step queries that require synthesis across multiple documents or decision-making about information relevance. They are well-suited for question-answering systems, technical support, research assistance, and other knowledge-intensive tasks where query complexity varies significantly. By enabling the model to reason about its own information needs, these systems can reduce hallucinations and improve answer [[concepts/accuracy|accuracy]] compared to standard RAG approaches.
+Agentic RAG systems are particularly effective for complex, multi-step knowledge-intensive tasks such as research synthesis, technical support, and domain-specific question answering. By allowing the model to reason about what information is genuinely needed rather than retrieving based on keyword similarity alone, these systems can handle questions requiring information from multiple sources, contradictory information resolution, and tasks where the initial query formulation is ambiguous. The adaptive nature of agent-based retrieval can also reduce unnecessary retrievals, potentially improving efficiency and answer quality.
 
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

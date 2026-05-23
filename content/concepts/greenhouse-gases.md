@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "greenhouse-gases"
   - "climate-change"
@@ -15,7 +14,8 @@ aliases:
   - "heat-trapping gases"
   - "climate forcers"
 summary: Atmospheric gases that trap heat and contribute to climate change, referenced in relation to unhealthy air quality impacts.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Greenhouse Gases
 
@@ -27,4 +27,4 @@ The accumulation of greenhouse gases in the atmosphere contributes to both globa
 
 ## Sources and Distribution
 
-Major anthropogenic sources of greenhouse gases include energy production, transportation, manufacturing, and agriculture. The distribution of these emissions varies geographically, with developed nations historically responsible for larger cumulative emissions, though rapidly industrializing regions now contribute significantly to global totals. Understanding source attribution is essential for developing effective emissions reduction strategies at local, regional, and global [[concepts/musical-scales|scales]].
+Major anthropogenic sources of greenhouse gases include energy production, transportation, manufacturing, and agriculture. The [[concepts/distribution|distribution]] of these emissions varies geographically, with developed nations historically responsible for larger cumulative emissions, though rapidly industrializing regions now contribute significantly to global totals. Understanding source attribution is essential for developing effective [[concepts/emissions-reduction|emissions reduction]] strategies [[concepts/assistive-technology|at]] local, regional, and global [[concepts/musical-scales|scales]].

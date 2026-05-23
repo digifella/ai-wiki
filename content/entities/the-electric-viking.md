@@ -1,17 +1,8 @@
 ---
 type: entity
-tags:
-  - "creator"
-  - "ev-analysis"
-  - "automotive"
-  - "electric-vehicles"
-  - "ev-market-analysis"
-  - "consumer-advocacy"
-  - "automotive-analysis"
-aliases:
-  - "Sam Evans"
-summary: "A platform focused on electric vehicle market analysis and consumer advocacy led by Sam Evans."
-updated: 2026-04-26
+summary: A platform focused on electric vehicle market analysis and consumer advocacy led by Sam Evans.
+updated: 2026-05-23
+stub: true
 ---
 # The Electric Viking
 
@@ -19,10 +10,9 @@ updated: 2026-04-26
 **Focus:** Electric Vehicles, EV Market analysis, and consumer advocacy.
 
 ## Commentary & Reports
-- **EV Avoidance Analysis (2026-04-24):** Published "The 10 WORST Electric Cars - AVOID These EVs, even if they are discounted!", providing critical evaluations of specific Electric Vehicles based on performance metrics and value retention.
+- **EV Avoidance Analysis (2026-04-24):** Published "The 10 WORST Electric Cars - AVOID These EVs, even if they are discounted!", providing critical evaluations of specific Electric Vehicles based on [[concepts/performance-data-gathering|performance metrics]] and value retention.
 
 ## References
 - 2026 04 24 Report Top 10 Worst EVs to Avoid   Analysis of Performance and Value
-
 ## Source Notes
 - 2026-04-24: [[lab-notes/2026-04-24-Report-Top-10-Worst-EVs-to-Avoid---Analysis-of-Performance-and-Value|Report: Top 10 Worst EVs to Avoid - Analysis of Performance and Value]] · [▶ source](https://www.youtube.com/watch?v=QJuwX8H7Pss)

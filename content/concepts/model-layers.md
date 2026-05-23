@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "llm"
-  - "neural-networks"
-  - "architecture"
-  - "inference"
-  - "transformer-architecture"
-  - "self-attention"
-  - "inference-optimization"
-  - "memory-management"
-  - "neural-network-layers"
-aliases:
-  - "transformer-layers"
-  - "neural-network-layers"
-summary: "Model layers are the sequential structural units in transformer architectures comprising self-attention, feed-forward networks, and layer normalization."
-updated: 2026-04-26
+summary: Model layers are the sequential structural units in transformer architectures comprising self-attention, feed-forward networks, and layer normalization.
+updated: 2026-05-23
 group: photoshop-layer-workflows
 ---
 # model layers
@@ -24,17 +11,16 @@ The fundamental structural units of a [[concepts/neural-network]], specifically 
 
 ### Architecture & Composition
 - Each layer consists of specialized operations, including Self-[[concepts/attention-mechanisms|Attention mechanisms]], Feed-Forward Networks, and Layer Normalization.
-- Layers are defined by learned [[concepts/parameters|parameters]] ([[concepts/weights|weights]] and biases) that are processed during both [[concepts/training|training]] and LLM [[concepts/inference|Inference]].
+- Layers are defined by learned [[concepts/parameters|parameters]] ([[concepts/weights|weights]] and [[concepts/biases|biases]]) that are processed during both [[concepts/training|training]] and LLM [[concepts/inference|Inference]].
 
 ### Inference & Hardware Execution
-- **Execution Logic**: During inference, layers are not treated as simple standalone executables; rather, they are part of a complex collection of [[concepts/weights|weights]] managed by specialized Inference Engines.
+- **Execution Logic**: During inference, layers are not treated as simple standalone executables; rather, they are part of a complex collection of [[concepts/weights|weights]] managed by specialized [[concepts/inference-engines|Inference Engines]].
 - **[[concepts/memory-management|Memory Management]]**: The efficient [[concepts/running|running]] of these layers relies heavily on [[concepts/memory-mapping|Memory Mapping]] to handle the massive data requirements of [[concepts/model-weights|model weights]].
 - **[[concepts/software-performance|Performance Optimization]]**: Optimization focuses on the technical challenges of loading and [[concepts/running|running]] these weight collections, specifically managing the interplay between [[concepts/hardware|hardware]] bandwidth and the structural complexity of the layers.
 
 ---
 **Backlinks:**
 - 2026 04 22 [[concepts/llm-inference|LLM Inference Engines]] [[concepts/memory|Memory]] Mapping and Performance Optimization
-
 ## Source Notes
 - 2026-04-22: LLM Inference · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)
 - 2026-04-07: Karpathy

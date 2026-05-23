@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "concept"
   - "particle-physics"
@@ -13,7 +12,8 @@ aliases:
   - "proton particles"
   - "cosmic-ray protons"
 summary: Subatomic particles with positive charge, studied as components of cosmic rays detected by LHAASO observatory.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Protons
 
@@ -21,12 +21,11 @@ Protons are positively charged [[concepts/subatomic-particles|subatomic particle
 
 ## Detection and Study
 
-Protons are studied across multiple experimental contexts. The LHAASO observatory detects protons as components of [[concepts/cosmic-rays|cosmic rays]] originating from sources throughout the universe, providing insights into high-energy astrophysical processes. In terrestrial experiments such as those conducted at the [[entities/lhc|Large Hadron Collider]], protons are accelerated to near-light speeds and collided to investigate fundamental [[concepts/granular-physics|particle physics]] and subatomic [[concepts/structure|structure]].
+Protons are studied across multiple experimental contexts. The [[concepts/lhaaso|LHAASO]] observatory detects protons as components of [[concepts/cosmic-rays|cosmic rays]] originating from sources throughout the universe, providing insights into high-energy astrophysical processes. In terrestrial experiments such as those conducted [[concepts/assistive-technology|at]] the [[entities/lhc|Large Hadron Collider]], protons are accelerated to near-[[concepts/light|light]] speeds and collided to investigate fundamental [[concepts/granular-physics|particle physics]] and subatomic [[concepts/structure|structure]].
 
 ## Composition and Properties
 
 Protons are composite particles consisting of two up quarks and one down quark, bound together by gluons through the strong nuclear force. Despite their internal structure, protons are remarkably stable; a free proton has never been observed to decay, though some theories predict extremely long lifetimes for proton decay. In combination with neutrons, protons form atomic nuclei and are essential to all [[concepts/baryonic-matter|ordinary matter]] in the universe.
-
 ## Source Notes
 - 2026-04-13: We Found the Most Powerful Object In the Universe
 - 2026-04-19: [[lab-notes/2026-04-19-Breakthrough-in-Superheavy-Nuclei-Stability-and-the-Periodic-Table|Breakthrough in Superheavy Nuclei Stability and the Periodic Table]] · [▶ source](https://www.youtube.com/watch?v=rTJJHIXRMnU)

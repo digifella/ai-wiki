@@ -1,49 +1,34 @@
 ---
 type: entity
-tags:
-  - "software"
-  - "knowledge-management"
-  - "markdown"
-  - "AI"
-  - "automation"
-  - "knowledge-management-system"
-  - "markdown-notes"
-  - "ai-assisted-writing"
-  - "networked-thoughts"
-  - "zettelkasten-method"
-aliases:
-  - "Obsidian Notes"
-  - "Zettelkasten App"
-  - "Personal Wiki"
-summary: "Obsidian is a knowledge management platform that uses Markdown files for bi-directional linking and graph visualization, enhanced with an AI-powered plugin ecosystem."
-updated: 2026-04-11
+summary: Obsidian is a knowledge management platform that uses Markdown files for bi-directional linking and graph visualization, enhanced with an AI-powered plugin ecosystem.
+updated: 2026-05-23
 ---
-title: "Obsidian"
+title: "[[concepts/obsidian|Obsidian]]"
 
 # Obsidian
-A [[concepts/knowledge-management]] platform built on [[concepts/markdown|Markdown]]-based local files, designed for Zettelkasten and networked thought.
+A [[concepts/knowledge-management]] platform built on [[concepts/markdown|Markdown]]-based local [[concepts/files|files]], designed for Zettelkasten and networked thought.
 
 ## Core Features
 - Bi-directional linking
 - Graph View visualization
 - Plugin ecosystem
-- [[entities/canvas|Canvas]] integration
+- [[entities/canvas|Canvas]] [[concepts/integration|integration]]
 
 ## Workflows
 - [[concepts/ai]] [[concepts/second-brain|Second Brain]] construction using [[entities/claude-code]] to [[concepts/automation]] low-leverage tasks
 
 ## Recent Activity
-- [[concepts/second-brain]]: [[entities/claude-code]] implementation via 2026 04 10 Building a [[concepts/secure|Secure]] [[concepts/personalized-ai-second-brain|Personalized AI Second Brain]] using [[concepts/ai-assisted-coding|Claude Code]]
+- [[concepts/second-brain]]: [[entities/claude-code]] [[concepts/adoption|implementation]] via 2026 04 10 Building a [[concepts/secure|Secure]] [[concepts/personalized-ai-second-brain|Personalized AI Second Brain]] using [[concepts/ai-assisted-coding|Claude Code]]
 - [[concepts/ai-augmented-workflows|Claude-Obsidian Integration]]: Creating a [[concepts/ai-operating-system|Persistent AI Operating System]] via 2026 04 10 [[concepts/claude-obsidian-integration|Claude Obsidian Integration]] Creating a Persistent AI Operating System
-- Building a Secure, Personalized AI Second Brain using [[concepts/claude-code|Claude Code]]
-  - Clip title: [[entities/claude|Claude]] + Obsidian = Full AI Operating System
+- Building a Secure, Personalized [[concepts/content-ideation|AI Second Brain]] using [[concepts/claude-code|Claude Code]]
+  - [[concepts/clip-title|Clip title]]: [[entities/claude|Claude]] + Obsidian = Full AI Operating System
   - Author / channel: [[entities/eric-michaud|Eric Michaud]]
   - URL: https://www.youtube.com/watch?v=eIXheJcxDIg
-- **Claude-Obsidian Integration:**
-  - Clip title: Obsidian + Claude Code: The Second Brain [[concepts/setup|Setup]] That Actually Works
+- **[[concepts/persistent-ai-memory|Claude-Obsidian Integration]]:**
+  - Clip title: Obsidian + [[concepts/coding-assistant|Claude Code]]: The Second Brain [[concepts/setup|Setup]] That Actually Works
   - Author / channel: [[entities/eric-tech|Eric Tech]]
   - URL: https://www.youtube.com/watch?v=Y2rpFa43jTo
-  - Summary: Demonstrates how to construct a "second brain" or personal knowledge management
+  - [[concepts/summary|Summary]]: Demonstrates how to construct a "second brain" or personal knowledge management
 
 - **Claude-Obsidian Integration: Creating a Persistent AI Operating System**
   - Clip title: [[concepts/claude-ai|Claude]] + Obsidian = Full AI Operating System
@@ -55,15 +40,14 @@ A [[concepts/knowledge-management]] platform built on [[concepts/markdown|Markdo
 
 ## Related Notes
 - 2026 04 10 [[concepts/hierarchical-ai-context|Structured AI Context]] [[concepts/structured-ai-context|Beyond RAG]] Limitations with Map First Architectu
-- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] and Obsidian Integration for Enhanced [[concepts/ai-agent-memory|AI Agent Memory]] and Col
-- 2026 04 10 Obsidian and Claude Code AI for [[concepts/ai-driven-note-taking|Automated PKM]] with [[concepts/github-synchronization|GitHub Sync]]
+- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] and [[concepts/obsidian|Obsidian]] [[concepts/integration|Integration]] for Enhanced [[concepts/ai-agent-memory|AI Agent Memory]] and Col
+- 2026 04 10 Obsidian and [[concepts/ai-assisted-coding|Claude Code]] AI for [[concepts/ai-driven-note-taking|Automated PKM]] with [[concepts/github-synchronization|GitHub Sync]]
 - 2026 04 10 Karpathys [[concepts/llm-wiki|LLM Wiki]] Beyond RAG for [[concepts/compounding-knowledge|Persistent Knowledge Bases]]
 - 2026 04 10 [[concepts/starter-plan|Evernote New Pricing]] [[concepts/structure|Structure]] User Reactions and Migration Guidance
 - 2026 04 10 Claude Obsidian Integration Creating a Persistent AI Operating System
 - 2026 04 10 Building a Secure Personalized AI Second Brain using Claude Code
 - 2026 04 10 [[entities/anti-gravity-ai|Anti Gravity AI]] [[concepts/ai-agent-configuration-backup|Agent Data Export]] and [[concepts/ai-agent-data-export|GitHub Sync for Control]]
 - 2026 04 10 AI Powered Second Brain Claude Code Integration with Obsidian
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

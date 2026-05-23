@@ -1,13 +1,7 @@
 ---
 type: entity
-tags:
-  - "south-korean-production-company"
-  - "k-drama"
-  - "television-dramas"
-  - "films"
-  - "food culture"
-summary: "Studio Dragon is a South Korean production company known for its contributions to television dramas and films."
-updated: 2026-04-13
+summary: Studio Dragon is a South Korean production company known for its contributions to television dramas and films.
+updated: 2026-05-23
 ---
 # Studio Dragon
 
@@ -21,7 +15,7 @@ Studio Dragon is a South Korean production company known for its contributions t
   - *Starring [[entities/im-yoon-ah|Im Yoon-ah]] as Yeon Ji-young*
 
 ## Notes
-- **[[entities/bon-appétit|Bon Appétit]], [[entities/your-majesty|Your Majesty]]** is a 12-episode Netflix K-drama that features the protagonist, Yeon Ji-young, a modern South Korean chef with French culinary [[concepts/training|training]] who travels back to the [[concepts/joseon-era|Joseon era]] after an accident involving an antique bowl.
+- **[[entities/bon-appétit|Bon Appétit]], [[entities/your-majesty|Your Majesty]]** is a 12-episode [[concepts/netflix|Netflix]] K-drama that features the protagonist, Yeon Ji-young, a modern South Korean chef with French culinary [[concepts/training|training]] who travels back to the [[concepts/joseon-era|Joseon era]] after an accident involving an antique bowl.
 
 ### Food Featured on Bon Appétit, Your Majesty
 - Overview of dishes and culinary elements featured in the drama.

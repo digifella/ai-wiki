@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "concept"
   - "irrigation"
@@ -16,7 +15,8 @@ aliases:
   - "Water Schemes"
   - "Agricultural Water Systems"
 summary: Large-scale irrigation projects designed to develop arid and semi-arid regions, exemplified by Australia's Ord River project which faced significant economic and practical challenges.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Irrigation Schemes
 
@@ -24,11 +24,10 @@ Irrigation schemes are large-scale [[concepts/water-management|water management]
 
 ## Economic and Practical Challenges
 
-While irrigation schemes offer potential benefits, implementation often encounters substantial obstacles. Australia's [[concepts/large-scale-infrastructure|Ord River project]] in Western Australia exemplifies these challenges. Despite initial optimism about developing the region's agricultural potential, the scheme faced significant economic difficulties and unforeseen practical constraints. The project struggled to achieve its projected returns on investment and encountered complications related to land suitability, operating costs, and market conditions. These difficulties revealed the gap between theoretical projections and on-the-ground realities in large-scale irrigation development.
+While irrigation schemes offer potential benefits, [[concepts/adoption|implementation]] often encounters substantial obstacles. Australia's [[concepts/large-scale-infrastructure|Ord River project]] in Western Australia exemplifies these challenges. Despite initial optimism about developing the region's agricultural potential, the scheme faced significant economic difficulties and unforeseen practical constraints. The project struggled to achieve its projected returns on investment and encountered complications related to land suitability, operating costs, and market conditions. These difficulties revealed the gap between theoretical projections and on-the-ground realities in [[concepts/large-scale-irrigation|large-scale irrigation]] development.
 
 ## Broader Considerations
 
-The experience of major irrigation projects demonstrates that technical feasibility and theoretical water availability do not automatically translate to economic viability or successful [[concepts/agricultural-development|agricultural development]]. Long-term sustainability requires careful assessment of soil conditions, climate patterns, infrastructure maintenance costs, and market demand for irrigated crops. Contemporary irrigation schemes must balance developmental ambitions with realistic cost-benefit analysis and environmental considerations.
-
+The experience of major irrigation projects demonstrates that technical feasibility and theoretical water availability do not automatically translate to economic viability or successful [[concepts/agricultural-development|agricultural development]]. Long-term sustainability requires careful assessment of soil conditions, climate patterns, infrastructure maintenance costs, and market demand for irrigated crops. Contemporary irrigation schemes must balance developmental ambitions with realistic [[concepts/cost-benefit-analysis|cost-benefit analysis]] and environmental considerations.
 ## Source Notes
 - 2026-04-13: Australia's Water Project Failure: An Economic Breakdown

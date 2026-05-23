@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "conversation"
-  - "ai"
-  - "coding"
-  - "workflow"
-  - "context-window"
-  - "history-management"
-  - "iterative-refinement"
-  - "token-limits"
-  - "ai-coding"
-aliases:
-  - "Conversation Log"
-  - "Chat History"
-summary: "A record of interactions in a conversational AI system, critical for maintaining context and continuity in complex or extended dialogues."
-updated: 2026-04-15
+summary: A record of interactions in a conversational AI system, critical for maintaining context and continuity in complex or extended dialogues.
+updated: 2026-05-23
 group: people-institutions-cultural-history
 ---
 # Conversation History
@@ -24,7 +11,7 @@ A record of interactions in a [[concepts/ai-chatbots|conversational AI]] system,
 
 ## Key Considerations
 - **[[concepts/context-window|Context Window]] Constraints**: [[concepts/ai-models|AI models]] have finite token limits; exceeding this causes loss of [[concepts/historical-context|historical context]].
-- **Long-Running Task Management**: Requires [[concepts/iterative-refinement|iterative refinement]] to avoid context overflow (e.g., code generation).
+- **Long-Running Task Management**: Requires [[concepts/iterative-refinement|iterative refinement]] to avoid context overflow (e.g., [[concepts/code-generation|code generation]]).
 - **History [[concepts/preservation|Preservation]]**: Essential for [[concepts/debugging|debugging]], [[concepts/iteration|iteration]], and maintaining coherent state across sessions.
 
 ## Example: Claude Code Sessions Workflow
@@ -37,8 +24,7 @@ A [[concepts/solution|solution]] for [[concepts/ai-coding|AI coding]] [[concepts
 - **Outcome**: Enables handling of large-scale codebases without [[concepts/context-loss|context loss]].
 
 [[concepts/context-window]] [[concepts/ai-coding-agents]] Iterative Refinement
-2026 04 14 Fixing long running Claude code sessions
-
+2026 04 14 Fixing long running [[concepts/claude-code|Claude code]] sessions
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: 12 Hidden Settings To Enable In Your Claude Code [[concepts/setup|Setup]]

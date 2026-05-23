@@ -11,8 +11,8 @@ tags:
   - "natural-language-processing"
 aliases:
   - "prompt-to-edit"
-summary: "A concept involving the use of natural language prompts and AI models to interpret and execute direct edits to digital content."
-updated: 2026-04-28
+summary: A concept involving the use of natural language prompts and AI models to interpret and execute direct edits to digital content.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Prompt-to-Edit
@@ -21,7 +21,7 @@ A concept involving the use of natural [[concepts/natural-language-prompting|lan
 
 ## Key Characteristics
 - **Natural Language Interface**: Users describe desired edits in plain language.
-- **AI-Driven Execution**: Underlying models interpret prompts and apply changes.
+- **AI-Driven Execution**: Underlying [[concepts/models|models]] interpret prompts and apply changes.
 - **Context-Aware**: Understands surrounding content to produce coherent results.
 
 ## Related Tools & Features
@@ -29,9 +29,9 @@ A concept involving the use of natural [[concepts/natural-language-prompting|lan
 - [[concepts/photoshop|Photoshop]]'s [[concepts/generative-fill|Generative Fill]]
 
 ## Implementation Examples
-- **Adobe Firefly**:
+- **[[entities/adobe|Adobe]] Firefly**:
   - Introduced as part of Adobe's AI-powered creative tools
-  - Allows [[concepts/non-destructive-editing|non-destructive editing]] via text prompts
+  - Allows [[concepts/non-destructive-editing|non-destructive editing]] via [[concepts/text|text]] prompts
   - Presented by [[entities/julianne-kost|Julianne Kost]] in 2026-04-14 video
   - Compared favorably to [[concepts/photoshop|Photoshop]]'s Generative Fill for [[concepts/texture|texture]] generation
 
@@ -47,7 +47,6 @@ A concept involving the use of natural [[concepts/natural-language-prompting|lan
 - [[concepts/generative-fill]]
 - [[concepts/ai-assisted-editing]]
 - [[concepts/natural-language-processing]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)
 - 2026-04-26: [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]] · [▶ source](https://www.notion.so/GPT-Image-2-JSON-Prompting-Workflow-and-Storyboard-Method-34a606421d128009acc7c617695ac68e)

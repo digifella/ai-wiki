@@ -1,41 +1,28 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "model"
-  - "experts"
-  - "scaling"
-  - "agent"
-  - "moe-architecture"
-  - "neural-networks"
-  - "gating-mechanism"
-  - "model-scaling"
-aliases:
-  - "MoE"
-summary: "A Mixture of Experts (MoE) architecture utilizes a gating mechanism to route input data to specialized neural network sub-models for efficient capacity scaling."
-updated: 2026-04-22
+summary: A Mixture of Experts (MoE) architecture utilizes a gating mechanism to route input data to specialized neural network sub-models for efficient capacity scaling.
+updated: 2026-05-23
 ---
 # Mixture of Experts
 
-A Mixture of Experts (MoE) [[concepts/architecture|architecture]] combines multiple specialized [[concepts/neural-network|neural network]] sub-models (experts), with a gating mechanism routing input data to the most relevant experts. This enables efficient [[concepts/scaling|scaling]] of model capacity without linear computational cost increases.
+A [[concepts/mixture-of-experts|Mixture of Experts]] (MoE) [[concepts/architecture|architecture]] combines multiple specialized [[concepts/neural-network|neural network]] sub-models (experts), with a gating mechanism routing input data to the most relevant experts. This enables efficient [[concepts/scaling|scaling]] of model capacity without linear computational [[concepts/cost|cost]] increases.
 
 ## Recent Developments
 
-- **IBM Panel Discussion (2026-04-14)**:
+- **[[entities/ibm|IBM]] Panel Discussion (2026-04-14)**:
   * Host: [[entities/tim|Tim]] Hwang
   * Panelists:
     - [[entities/gabe-goodhart|Gabe Goodhart]] (Chief Architect, AI Open [[concepts/innovation|Innovation]])
     - [[entities/abraham-daniels|Abraham Daniels]] (Sr. Technical Product Manager, [[entities/granite|Granite]])
-    - [[entities/aaron-baughman|Aaron Baughman]] (IBM Fellow, Master Inventor)
+    - [[entities/aaron-baughman|Aaron Baughman]] (IBM [[entities/fellow|Fellow]], Master Inventor)
   * Key Topics:
-    - "Fun-cember": Sudden influx of major [[concepts/model-releases|model releases]] at year-end
+    - "Fun-cember": Sudden influx of major [[concepts/model-releases|model releases]] [[concepts/assistive-technology|at]] year-end
     - Validity debate of [[concepts/scaling-laws]]
     - [[concepts/agent-wars]] implications in AI competition
     - [[entities/amazon]] blocking [[entities/chatgpt]] and market dynamics
   * Video: [IBM Panel Discussion](https://www.youtube.com/watch?v=_lZgapJzFho)
 
 [[concepts/date-2026-04-13|2026]] 04 14 Ibm panel
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions|Benchmarking SLMs Identifying 4GB General Problem Solving Champions]] · [▶ source](https://www.youtube.com/watch?v=wQxawC3sv68)
 - 2026-04-10: [[lab-notes/2026-04-10-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware|DeepSeek Engram Solving LLM Inefficiency Through Context Aware]] · [▶ source](https://www.youtube.com/watch?v=DmtoVnTkQnM)

@@ -1,18 +1,20 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "telomere-biology"
   - "cellular-aging"
   - "longevity"
   - "ageism"
   - "gerontology"
+  - "social-robotics"
+  - "elder-care"
 aliases:
   - "telomere maintenance"
   - "cellular senescence"
-summary: The concept relates to longevity and the impact of ageism on the aging process.
-updated: 2026-05-01
+summary: The concept relates to longevity, the impact of ageism, and emerging roles of technology in aging populations.
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Telomere Lengthening
 
@@ -20,8 +22,8 @@ Telomeres are protective caps on the ends of chromosomes that gradually shorten 
 
 ## Connection to Aging and Longevity
 
-The relationship between telomere length and human aging remains complex and incompletely understood. While shorter telomeres correlate with age-related diseases and mortality in some studies, telomere length alone does not determine lifespan or [[concepts/health|health]] outcomes. Environmental factors, genetics, [[concepts/stress|stress]], and lifestyle choices all influence both telomere dynamics and aging. Some research suggests that psychological factors, including social engagement and positive attitudes toward aging, may affect telomere [[concepts/preservation|preservation]].
+The relationship between telomere length and human aging remains complex and incompletely understood. While shorter telomeres correlate with age-related diseases and mortality in some studies, telomere length alone does not determine lifespan or [[concepts/health|health]] outcomes. Environmental factors, genetics, [[concepts/stress|stress]], and lifestyle choices all [[concepts/power|influence]] both telomere dynamics and aging. Some research suggests that psychological factors, including social engagement and positive attitudes toward aging, play a critical role in mitigating biological aging markers.
 
-## Ageism and Health Outcomes
+## Technological and Social Interventions
 
-Evidence indicates that experiences of ageism—discrimination and prejudice based on age—can negatively impact health markers including telomere length. Conversely, reducing ageism and promoting positive perceptions of aging may support better biological aging outcomes. This suggests that social and psychological factors influencing how people experience and perceive aging can have measurable physiological effects, connecting cellular biology to broader social [[concepts/determinants-of-health|determinants of health]].
+Beyond biological mechanisms, gerontology increasingly examines technological solutions for elderly care, such as the use of social robots to combat isolation among older adults. Recent ingestion attempts to analyze discourse on robot [[concepts/companionship|companionship]] for seniors encountered access restrictions, highlighting potential barriers to open information in this niche [[lab-notes/2026-05-23-Just-a-moment|URL Ingest Summary]].

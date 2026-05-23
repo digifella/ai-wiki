@@ -1,15 +1,7 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "vintage-computing"
-  - "transformer-models"
-  - "neural-networks"
-  - "pdp-11"
-aliases:
-  - "Dave's Garage"
-summary: "Dave demonstrates the training of a transformer model on a 1979 PDP-11 computer."
-updated: 2026-04-20
+summary: Dave demonstrates the training of a transformer model on a 1979 PDP-11 computer.
+updated: 2026-05-23
 ---
 - AI
 - PDP-11
@@ -31,7 +23,6 @@ Dave is an individual who has garnered [[concepts/attention|attention]] for his 
 - **PDP-11** - A series of minicomputers introduced in 1970 by Digital Equipment Corporation.
 - [[concepts/vintage-computing|vintage-computing]]
 - [[concepts/transformer-models|transformer-models]]
-
 ## Source Notes
 
 - 2026-04-13: [[lab-notes/2026-04-13-Demystifying-AI-Transformer-Training-on-a-1979-PDP-11|Demystifying AI Transformer Training on a 1979 PDP 11]] · [▶ source](https://www.youtube.com/watch?v=OUE3FSIk46g)

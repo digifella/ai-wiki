@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "dvd-ripping"
@@ -15,7 +14,8 @@ aliases:
   - "DVD ISO ripping"
   - "DVD to ISO"
 summary: Methods for ripping DVDs to ISO format using VLC, Handbrake, or MakeMKV, with notes on playback requirements.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # DVD ISO
 
@@ -23,7 +23,7 @@ A DVD ISO is a complete disc image file containing all data from a physical DVD,
 
 ## Ripping Methods
 
-Several tools can create DVD ISO files. VLC is the most straightforward option when the [[entities/libdvdcss|libdvdcss library]] is installed, as it handles DVD decryption and can save the full disc image. Handbrake offers similar functionality with the same prerequisites. [[entities/makemkv|MakeMKV]] provides an alternative approach, first backing up the DVD to ISO format before further processing with other tools if needed.
+Several tools can create DVD ISO [[concepts/files|files]]. [[entities/vlc|VLC]] is the most straightforward option when the [[entities/libdvdcss|libdvdcss library]] is installed, as it handles DVD decryption and can save the full disc image. Handbrake offers similar functionality with the same prerequisites. [[entities/makemkv|MakeMKV]] provides an alternative approach, first backing up the DVD to ISO format before further processing with other tools if needed.
 
 ## Playback
 

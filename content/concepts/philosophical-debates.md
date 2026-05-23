@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: philosophy-religion
-tags:
-  - "philosophy"
-  - "wellbeing"
-  - "ethics"
-  - "ted-talks"
-  - "philosophical-debates"
-  - "wellbeing-concepts"
-  - "ethics-theories"
-  - "subjective-objective-wellbeing"
-  - "desire-satisfaction"
-aliases:
-  - "Wellbeing Philosophical Accounts"
-  - "Kate Laffan TEDx Talk Summary"
-  - "Philosophy of Wellbeing"
-  - "Wellbeing Theoretical Frameworks"
-summary: "The page discusses Kate Laffan's TEDxLSE talk on the complexity and philosophical debates surrounding the concept of wellbeing."
-updated: 2026-04-12
+summary: The page discusses Kate Laffan's TEDxLSE talk on the complexity and philosophical debates surrounding the concept of wellbeing.
+updated: 2026-05-23
 group: philosophy-ethics-logic
 ---
 # Philosophical Debates
@@ -32,14 +17,14 @@ group: philosophy-ethics-logic
 ### Summary of Key Points
 Kate references [[concepts/derek-parfit|Derek Parfit]]'s work from 1984, which simplifies the philosophical debates about [[concepts/wellbeing|wellbeing]] into three broad categories:
 
-- **Subjective Wellbeing:** Focuses on personal experiences and feelings.
+- **Subjective [[concepts/health|Wellbeing]]:** Focuses on personal experiences and feelings.
 - **Objective List Theories:** Emphasizes a list of objectively desirable states or conditions.
 - **Desire Satisfaction Theories:** Argues that wellbeing is tied to the satisfaction of one's desires.
 
 ### Related Concepts
 - [[concepts/ethics]]
 - [[concepts/philosophy|philosophy]]-of-mind
-- derek-parfit
+- [[entities/derek-parfit|derek-parfit]]
 
 ### Challenges in Practical Application
 Laffan discusses practical challenges in implementing philosophical [[concepts/philosophical-accounts-of-wellbeing|theories of wellbeing]], including issues with measurement and individual variability.
@@ -49,7 +34,6 @@ Laffan discusses practical challenges in implementing philosophical [[concepts/p
 
 ### Backlinks
 2026 04 11 [[concepts/accounts-of-how-you-feel|Defining Wellbeing]] Laffans Philosophical Accounts and Practical Challe
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Defining-Wellbeing-Laffans-Philosophical-Accounts-and-Practical-Challe|Defining Wellbeing Laffans Philosophical Accounts and Practical Challe]] · [▶ source](https://www.youtube.com/watch?v=vv4cW-NKjWI)
 - 2026-04-12: [[lab-notes/2026-04-12-Feynman-Mathematics-as-a-Tool-Not-Understanding-Mayan-Example|Feynman Mathematics as a Tool Not Understanding Mayan Example]] · [▶ source](https://www.youtube.com/watch?v=E383eEA54DE)

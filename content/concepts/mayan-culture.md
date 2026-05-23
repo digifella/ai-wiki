@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "mesoamerican-civilization"
   - "pre-columbian-history"
@@ -13,7 +12,8 @@ aliases:
   - "Ancient Maya"
   - "Maya society"
 summary: Mayan culture refers to the civilization and cultural practices of the Maya people in Mesoamerica.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Mayan Culture
 
@@ -21,7 +21,7 @@ Mayan culture encompasses the civilization and practices of the Maya people, who
 
 ## Intellectual and Artistic Achievements
 
-The Maya made remarkable contributions to [[concepts/mathematics|mathematics]], [[concepts/astronomy|astronomy]], and [[concepts/writing|writing]]. They developed a vigesimal (base-20) numbering system and the concept of zero centuries before these innovations appeared in [[entities/europe|Europe]]. Mayan astronomers tracked celestial bodies with precision and created complex calendrical systems, including the famous Long Count calendar. The Maya also developed one of Mesoamerica's few true writing systems, which combined logographic and phonetic elements and survives partially deciphered today.
+The Maya made remarkable contributions to [[concepts/mathematics|mathematics]], [[concepts/astronomy|astronomy]], and [[concepts/writing|writing]]. They developed a vigesimal (base-20) numbering system and the concept of [[concepts/concept-of-nothingness|zero]] centuries before these innovations appeared in [[entities/europe|Europe]]. Mayan astronomers tracked celestial bodies with precision and created complex calendrical systems, including the famous Long Count calendar. The Maya also developed one of Mesoamerica's few true writing systems, which combined logographic and phonetic elements and survives partially deciphered today.
 
 ## Society and Religion
 

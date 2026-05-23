@@ -10,7 +10,7 @@ aliases:
   - "Mac OS"
   - "Macintosh"
 summary: A collection of notes on video compression and Adobe Photoshop techniques, including tutorials from Julianne Kost.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Mac
 
@@ -18,13 +18,13 @@ Mac is a personal knowledge collection documenting practical techniques in [[con
 
 ## Video Compression
 
-The collection contains notes on video file compression, covering methods for reducing video file sizes while maintaining image quality. Resources include tutorials from YouTube and other sources that demonstrate free and [[concepts/open-source|open-source]] tools for video compression tasks.
+The collection contains [[concepts/notes|notes]] on video file compression, covering methods for reducing video file sizes while maintaining image quality. Resources include tutorials from [[entities/youtube|YouTube]] and other sources that demonstrate free and [[concepts/open-source|open-source]] tools for video compression tasks.
 
 ## Related Resources
 
 The notes reference complementary [[concepts/learning|learning]] tools such as [[entities/notebook-lm|Notebook LM]] and [[entities/gemini-models|Google Gemini]], which can be used to create [[concepts/mind-maps|mind maps]] and interactive visual representations of the collected information.
 
 - 2026-04-10 [2026-04-10-Video-1](2026-04-10-Video-1.md) ← Video 1
-- 2026-04-08 [2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
+- 2026-04-08 [2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-08-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming [[concepts/ai-integrated-notebooks|Notebooklm]] [[concepts/google-slides|Slides]] To Unwatermarked [[concepts/google-vids|Google Vids]]
 - 2026-04-07 [2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids](2026-04-07-Transforming-NotebookLM-Slides-to-Unwatermarked-Google-Vids.md) ← Transforming Notebooklm Slides To Unwatermarked Google Vids
 ## Source Notes

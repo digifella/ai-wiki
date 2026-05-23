@@ -1,24 +1,14 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "cybersecurity"
-  - "ai"
-  - "software-vulnerabilities"
-  - "llm"
-  - "cybersecurity-overview"
-  - "vulnerability-management"
-  - "risk-assessment"
-  - "encryption-methods"
-  - "firewall-techniques"
-updated: 2026-04-14
+summary: Cybersecurity encompasses the protection of internet-connected systems from cyber threats through various strategies including risk management and use of technologies like encryption and firewalls.
+updated: 2026-05-23
 group: privacy-security-guardrails
-summary: "Cybersecurity encompasses the protection of internet-connected systems from cyber threats through various strategies including risk management and use of technologies like encryption and firewalls."
 ---
 group: research-practice-sensemaking
 
 ## Cybersecurity
-Cybersecurity involves protecting internet-connected systems, including [[concepts/hardware|hardware]], [[concepts/software|software]], and data, from cyber threats. It encompasses a broad range of strategies to prevent unauthorized access, misuse, disclosure, disruption, modification, or destruction of information. As technology advances, so do the methods employed by attackers, necessitating constant vigilance and [[concepts/innovation|innovation]] in [[concepts/security|security]] measures.
+Cybersecurity involves protecting internet-connected systems, including [[concepts/hardware|hardware]], [[concepts/software|software]], and data, from cyber threats. It encompasses a broad [[concepts/range|range]] of strategies to prevent unauthorized access, misuse, disclosure, disruption, modification, or destruction of information. As technology advances, so do the methods employed by attackers, necessitating constant vigilance and [[concepts/innovation|innovation]] in [[concepts/security|security]] measures.
 ### Key Concepts
 - **Vulnerabilities**: Weaknesses within software that can be exploited by an attacker.
 - **Threats**: Potential dangers to a system's security.
@@ -27,12 +17,11 @@ Cybersecurity involves protecting internet-connected systems, including [[concep
 
 ### Related Technologies
 - Encryption: Techniques for securing data.
-- Firewalls: Network security systems that monitor and control incoming and outgoing network traffic.
+- Firewalls: Network security systems that monitor and [[concepts/power|control]] incoming and outgoing network traffic.
 
-2026 04 14 BMJ Review
-
+2026 04 14 [[entities/bmj|BMJ]] Review
 ## Source Notes
-- 2026-04-10: An initiative to [[concepts/secure|secure the world's software | Project]]
+- 2026-04-10: An initiative to [[concepts/secure| Project]]
 - 2026-04-09: [[lab-notes/2026-04-09-Project-Glasswing-Mitigating-Anthropic-Mythos-AIs-Zero-Day-Vulnerability-Capabilities|Project Glasswing: Mitigating Anthropic Mythos AI's Zero-Day Vulnerability Capabilities]]
 - 2026-04-11: [[lab-notes/2026-04-11-Addressing-Leadership-Pitfalls-in-Organizational-AI-Strategy|Addressing Leadership Pitfalls in Organizational AI Strategy]] · [▶ source](https://www.youtube.com/watch?v=nHXahonlIBM)
 - 2026-04-15: [[lab-notes/2026-04-15-Anthropic-Claude-Mythos-Cybersecurity-Capabilities-Benchmark-Gaming-an|Anthropic Claude Mythos Cybersecurity Capabilities Benchmark Gaming an]] · [▶ source](https://www.youtube.com/watch?v=Ersv1ogj7Jo)

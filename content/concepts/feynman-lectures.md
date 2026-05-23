@@ -1,15 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "feynman-lectures"
-  - "philosophy-of-science"
-  - "mathematics-in-physics"
-  - "conceptual-understanding"
-aliases:
-  - "Feynman Physics Lectures"
-summary: "Feynman's lectures emphasize conceptual understanding over procedural knowledge in physics."
-updated: 2026-04-14
+summary: Feynman's lectures emphasize conceptual understanding over procedural knowledge in physics.
+updated: 2026-05-23
 group: people-institutions-cultural-history
 ---
 # Feynman Lectures Overview
@@ -25,14 +18,14 @@ Richard P. [[concepts/feynman|Feynman]]'s lectures on [[concepts/physics|physics
 
 **Date:** 2026-04-12
 **Title:** Feynman: [[concepts/mathematics|Mathematics]] as a Tool, Not Understanding – Mayan Example
-**Clip title:** [[entities/richard-feynman|Richard Feynman]] on - [[concepts/philosophy|philosophy]], Why question, Modern science and [[concepts/mathematics|Mathematics]].avi
+**[[concepts/clip-title|Clip title]]:** [[entities/richard-feynman|Richard Feynman]] on - [[concepts/philosophy|philosophy]], Why question, Modern [[concepts/science|science]] and [[concepts/mathematics|Mathematics]].avi
 **Author / channel:** [[entities/praveen-kulkarni|Praveen Kulkarni]]
 **URL:** https://www.youtube.com/watch?v=E383eEA54DE
 
 ### Summary
 [[entities/richard-feynman|Richard Feynman]] critically examines the role of [[concepts/mathematics|mathematics]] in [[concepts/understanding-the-physical-world|understanding the physical world]], distinguishing [[concepts/procedural-knowledge|procedural knowledge]] from true [[concepts/conceptual-insight|conceptual insight]]. Using the historical example of Mayan civilization's advanced calendrical system as an illustration, he argues that:
 
-- Physics often deals with "[[concepts/enormous-numbers|enormous numbers]]," necessitating sophisticated mathematical tools.
+- [[concepts/physics|Physics]] often deals with "[[concepts/enormous-numbers|enormous numbers]]," necessitating sophisticated mathematical tools.
 - The ability to use these tools does not guarantee deep understanding of underlying phenomena.
 
 ### Related Concepts

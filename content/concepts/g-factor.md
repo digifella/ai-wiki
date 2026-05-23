@@ -1,13 +1,7 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "physics"
-  - "particle-physics"
-  - "standard-model"
-  - "muon"
-  - "g-factor"
-updated: 2026-04-15
+updated: 2026-05-23
 group: body-systems-recovery-function
 ---
 # g-factor
@@ -18,13 +12,12 @@ The **[[concepts/muon|muon]] g-factor** is exceptionally sensitive to contributi
 
 ## Fermilab Muon g-2 Experiment
 
-- Measures the muon's [[concepts/anomalous-magnetic-moment|anomalous magnetic moment]] via spin precession in a 14-meter diameter magnetic [[entities/storage|storage]] ring at Fermilab.
-- Combined analysis of Brookhaven (2001–2005) and Fermilab (2017–2023) data shows a **4.2σ discrepancy** with the Standard Model prediction.
-- The 2025 results (final dataset) confirmed the anomaly, with $a_\mu = 116592061(41) \times 10^{-11}$ versus Standard Model $a_\mu = 116591810(43) \times 10^{-11}$.
+- Measures the muon's [[concepts/anomalous-magnetic-moment|anomalous magnetic moment]] via spin precession in a 14-meter diameter magnetic [[entities/storage|storage]] ring [[concepts/assistive-technology|at]] Fermilab.
+- Combined analysis of Brookhaven (2001–2005) and Fermilab (2017–2023) data shows a **4.2σ discrepancy** with the [[concepts/standard-model|Standard Model]] prediction.
+- The 2025 results (final dataset) confirmed the [[concepts/anomaly|anomaly]], with $a_\mu = 116592061(41) \times 10^{-11}$ versus Standard Model $a_\mu = 116591810(43) \times 10^{-11}$.
 - This tension suggests potential new [[concepts/physics|physics]], such as undiscovered particles or forces beyond the Standard Model.
 
-2026 04 14 Fermilabs Muon g 2 measurement
-
+2026 04 14 Fermilabs [[concepts/muon-g-2|Muon g 2]] measurement
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-10: [[lab-notes/2026-04-10-Tesla-Semi-Production-Readiness-and-Engineering-Enhancements-Report|Tesla Semi Production Readiness and Engineering Enhancements Report]] · [▶ source](https://www.youtube.com/watch?v=P83Mrm2m4KM)

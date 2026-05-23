@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "concept"
   - "web-scraping"
@@ -13,7 +12,8 @@ aliases:
   - "web-data-extraction"
   - "automated-web-crawling"
 summary: Firecrawl AI is a tool that extracts web data for use by autonomous AI agents.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Web Screenshotting
 
@@ -21,11 +21,10 @@ Web screenshotting is the process of capturing visual representations of web pag
 
 ## Firecrawl AI
 
-Firecrawl AI is a platform designed to extract web data in formats suitable for [[concepts/action-oriented-ai|autonomous AI agents]]. The tool handles the technical challenges of web data collection, including rendering JavaScript-heavy pages, handling dynamic content, and converting unstructured HTML into clean, structured outputs. By automating the [[concepts/information-extraction|data extraction]] process, it enables AI systems to understand and interact with web content at scale.
+[[concepts/firecrawl-ai|Firecrawl AI]] is a platform designed to extract web data in formats suitable for [[concepts/action-oriented-ai|autonomous AI agents]]. The tool handles the technical challenges of web data collection, including rendering JavaScript-heavy pages, handling dynamic content, and converting unstructured HTML into clean, structured outputs. By automating the [[concepts/information-extraction|data extraction]] process, it enables AI systems to understand and interact with web content [[concepts/assistive-technology|at]] scale.
 
 ## Use Cases
 
-Web screenshotting tools serve multiple purposes: enabling AI agents to gather information from websites without API access, automating competitive intelligence collection, and allowing systems to monitor web content changes. The extracted data can be fed directly into language models and decision-making systems, reducing the need for manual [[concepts/data-cleaning|data preparation]] or custom integration work.
-
+Web screenshotting tools serve multiple purposes: enabling [[concepts/ai-agents|AI agents]] to gather information from websites without API access, automating competitive intelligence collection, and allowing systems to monitor web content changes. The extracted data can be fed directly into language [[concepts/models|models]] and [[concepts/decision-making|decision-making]] systems, reducing the need for manual [[concepts/data-cleaning|data preparation]] or custom [[concepts/integration|integration]] work.
 ## Source Notes
 - 2026-04-08: Firecrawl AI clearly explained (and how to make $$)

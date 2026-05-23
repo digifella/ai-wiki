@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "model-compression"
   - "quantization"
@@ -11,7 +10,8 @@ tags:
 aliases:
   - "GGML format"
 summary: A machine learning library and format for efficient model storage and inference, related to GGUF format.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # GGML
 
@@ -23,8 +23,8 @@ The library emphasizes [[concepts/parameter-reduction|quantization]] and [[conce
 
 ## GGUF Format
 
-GGML is closely associated with the GGUF (GGML Universal Format), a standardized file format for storing quantized models. GGUF superseded earlier GGML formats and provides a flexible, efficient way to package models with [[concepts/metadata|metadata]], [[concepts/weights|weights]], and configuration information in a single file. This format has become widely adopted in the [[concepts/open-source|open-source]] AI community for distributing quantized versions of popular language models.
+GGML is closely associated with the [[concepts/gguf|GGUF]] (GGML Universal Format), a standardized file format for storing quantized [[concepts/models|models]]. GGUF superseded earlier GGML formats and provides a flexible, efficient way to package models with [[concepts/metadata|metadata]], [[concepts/weights|weights]], and configuration information in a single file. This format has become widely adopted in the [[concepts/open-source|open-source]] AI community for distributing quantized versions of popular language models.
 
 ## Practical Applications
 
-GGML and GGUF have enabled accessible AI inference, allowing researchers and developers to run models locally without cloud infrastructure. Notable projects including [[entities/ollama|Ollama]] and [[concepts/inference-engine|llama.cpp]] have built upon GGML to create user-friendly interfaces for [[concepts/native-support|local model execution]], expanding the [[concepts/accessibility|accessibility]] of large language models beyond enterprise settings.
+GGML and GGUF have enabled accessible AI inference, allowing researchers and developers to run models locally without cloud infrastructure. Notable projects including [[entities/ollama|Ollama]] and [[concepts/inference-engine|llama.cpp]] have built upon GGML to create user-friendly interfaces for [[concepts/native-support|local model execution]], expanding the [[concepts/accessibility|accessibility]] of [[concepts/large-language-models|large language models]] beyond enterprise settings.

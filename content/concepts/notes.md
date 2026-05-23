@@ -1,12 +1,8 @@
 ---
-domain: tools-platforms
-group: platforms-runtimes-environments
 type: concept
-tags:
-  - "notes"
-  - "knowledge management"
-  - "productivity"
-updated: 2026-04-14
+domain: tools-platforms
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Notes
 
@@ -19,12 +15,11 @@ A note is a digital or physical record of information, typically brief and writt
 
 ### Evernote v11 Highlights
 - First major release since v10 (2020), rebuilt core infrastructure
-- Three AI features focused on [[concepts/second-brain]] capabilities
+- Three AI features focused on [[concepts/second-brain]] [[concepts/capabilities|capabilities]]
 - Improved sync performance and reliability
 - New visual brand identity
 
-2026 04 14 Evernote v11 features
-
+2026 04 14 [[concepts/data-synchronization|Evernote v11]] features
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-06: [[inbox/2026-04-06-Voice 19:09|Voice 19:09]]

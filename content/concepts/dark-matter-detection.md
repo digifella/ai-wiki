@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "dark-matter"
-  - "detection"
-  - "particle-physics"
-  - "wimp-detection"
-  - "experimental-physics"
-  - "astrophysics"
-aliases:
-  - "dark-matter-search"
-  - "detection-methods"
-summary: "Dark matter detection involves direct, indirect, and collider-based approaches, with current research focusing on WIMP particles."
-updated: 2026-04-16
+summary: Dark matter detection involves direct, indirect, and collider-based approaches, with current research focusing on WIMP particles.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Dark matter detection
@@ -20,11 +10,10 @@ group: physics-fundamental-theory
 Primary detection methods include direct (searching for rare particle interactions in underground detectors), indirect (observing annihilation products from astrophysical sources), and collider-based approaches. Current experiments focus on [[concepts/wimp]] particles.
 
 Recent developments:
-- [[entities/katie-mack|Katie Mack]] ([[entities/perimeter-institute|Perimeter Institute]]) collaborates on the [[entities/saber-detector|SABER detector]] at [[entities/stawell-gold-mine|Stawell gold mine]], Victoria, to complement an Italian detector in the search for [[concepts/wimp]] particles.
+- [[entities/katie-mack|Katie Mack]] ([[entities/perimeter-institute|Perimeter Institute]]) collaborates on the [[entities/saber-detector|SABER detector]] [[concepts/assistive-technology|at]] [[entities/stawell-gold-mine|Stawell gold mine]], Victoria, to complement an Italian detector in the search for [[concepts/wimp]] particles.
 - [[entities/perimeter-institute|Perimeter Institute]] enables collaborative research with annual funding for up to two invited collaborators per researcher.
 
 2026 04 14 [[entities/katie-mack|Katie Mack]]
-
 ## Source Notes
 - 2026-04-14: [[lab-notes/2026-04-14-Gravitational-Wave-Detection-of-Sub-Solar-Mass-Object-Primordial-Black|Gravitational Wave Detection of Sub Solar Mass Object Primordial Black]] · [▶ source](https://www.youtube.com/watch?v=EK9wGYuGfYo)
 - 2026-04-24: Dark Matter WIMP · [▶ source](https://www.youtube.com/watch?v=Sxyps-CIr8A)

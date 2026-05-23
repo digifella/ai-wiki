@@ -1,25 +1,14 @@
 ---
 type: entity
-tags:
-  - "food-and-beverage"
-  - "multinational-corporation"
-  - "snacks-and-drinks"
-  - "sustainability-initiatives"
-  - "agriculture-practices"
-aliases:
-  - "PepsiCo Inc."
-  - "Pepsi Corporation"
-  - "Frito-Lay Parent Company"
-  - "Global Beverage Giant"
-summary: "PepsiCo is a multinational food and beverage corporation headquartered in Purchase, New York, known for its wide range of products including Pepsi-Cola, Lay's chips, and Gatorade."
-updated: 2026-04-11
+summary: PepsiCo is a multinational food and beverage corporation headquartered in Purchase, New York, known for its wide range of products including Pepsi-Cola, Lay's chips, and Gatorade.
+updated: 2026-05-23
 ---
-2026 04 10 [[entities/tesla-semi|Tesla Semi]] Production Readiness and Engineering Enhancements Report
+2026 04 10 [[entities/tesla-semi|Tesla Semi]] [[concepts/developer-readiness|Production Readiness]] and Engineering Enhancements Report
 
 ## PepsiCo
 
 **Overview**
-PepsiCo is a multinational food, snack and beverage corporation headquartered in Purchase, New York. It operates in over 200 countries and produces a wide range of products including soft drinks (such as Pepsi-Cola), snacks (like Lay's chips and Doritos), and other beverages.
+PepsiCo is a multinational food, snack and beverage corporation headquartered in Purchase, New York. It operates in over 200 countries and produces a wide [[concepts/range|range]] of products including soft drinks (such as Pepsi-Cola), snacks (like Lay's chips and Doritos), and other beverages.
 
 ### Key Products
 - **Soft Drinks:** Pepsi-Cola, Mountain Dew, Mirinda, Aquafina
@@ -27,7 +16,7 @@ PepsiCo is a multinational food, snack and beverage corporation headquartered in
 - **Bottled Water & Beverages:** Gatorade, Lipton Tea, Pure Leaf Iced Teas
 
 ### Corporate History
-PepsiCo was founded in 1965 as a result of the merger between Pepsi-Cola Company and Frito-Lay Inc. It has since grown to become one of the world's largest food and beverage companies through strategic [[concepts/acquisitions|acquisitions]] and organic growth.
+PepsiCo was founded in 1965 as a result of the merger between Pepsi-Cola Company and Frito-Lay [[entities/inc|Inc.]] It has since grown to become one of the world's largest food and beverage companies through strategic [[concepts/acquisitions|acquisitions]] and organic growth.
 
 ### Sustainability Initiatives
 - **Circular Economy:** Focus on sustainable packaging, recycling [[concepts/software|programs]], and reducing carbon footprint.
@@ -39,7 +28,7 @@ PepsiCo was founded in 1965 as a result of the merger between Pepsi-Cola Company
 - **Partnerships with Renewable Energy Providers**
 
 **Additional Resources:**
-- Tesla Semi Production Readiness and Engineering Enhancements Report
+- [[entities/tesla|Tesla]] Semi Production Readiness and Engineering Enhancements Report
 - Official Website: https://www.pepsico.com/
 
 ### Related Entities
@@ -48,10 +37,9 @@ PepsiCo was founded in 1965 as a result of the merger between Pepsi-Cola Company
 - Unilever
 
 ### Backlinks:
-2026 04 10 Tesla Semi Production Readiness and Engineering Enhancements Report
+2026 04 10 [[entities/tesla-semi|Tesla Semi]] [[concepts/developer-readiness|Production Readiness]] and Engineering Enhancements Report
 
 ## Related Notes
 - 2026 04 10 Tesla Semi Production Readiness and Engineering Enhancements Report
-
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Tesla-Semi-Production-Readiness-and-Engineering-Enhancements-Report|Tesla Semi Production Readiness and Engineering Enhancements Report]] · [▶ source](https://www.youtube.com/watch?v=P83Mrm2m4KM)

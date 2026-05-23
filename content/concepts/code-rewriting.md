@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "claude-cli"
   - "session-management"
@@ -12,15 +11,16 @@ aliases:
   - "Claude Code CLI Sessions"
   - "Context Resume"
 summary: The Claude Code CLI allows users to resume previous sessions, monitor context usage, and add custom memories.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Code Rewriting
 
-Code Rewriting is a feature set within the [[concepts/ai-assisted-coding|Claude Code]] CLI that enables developers to maintain [[concepts/continuity|continuity]] and efficiency across multiple [[concepts/coding|coding]] sessions. The tooling addresses the practical challenge of [[concepts/context-loss|context loss]] and resource management when working on extended projects.
+[[concepts/code|Code]] Rewriting is a feature set within the [[concepts/ai-assisted-coding|Claude Code]] CLI that enables developers to maintain [[concepts/continuity|continuity]] and efficiency across multiple [[concepts/coding|coding]] sessions. The tooling addresses the practical challenge of [[concepts/context-loss|context loss]] and resource management when working on extended projects.
 
 ## Session Management
 
-The Claude Code CLI allows users to resume previous sessions rather than starting from scratch each time. By [[concepts/running|running]] the `[[concepts/claude-ai|claude]] —resume` command within a project directory, developers can view a list of all prior Claude Code sessions and select one to continue from, preserving the conversational context and project state without losing accumulated progress or [[concepts/reasoning|reasoning]].
+The [[concepts/claude-code|Claude Code]] CLI allows users to resume previous sessions rather than starting from scratch each time. By [[concepts/running|running]] the `[[concepts/claude-ai|claude]] —resume` command within a project directory, developers can view a list of all prior Claude Code sessions and select one to continue from, preserving the conversational context and project state without losing accumulated progress or [[concepts/reasoning|reasoning]].
 
 ## Context Monitoring and Custom Memory
 

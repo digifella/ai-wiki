@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "Lightroom"
-  - "Photoshop"
-  - "AI"
-updated: 2026-04-14
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Lightroom AI Tips
 ## Overview
-Adobe's [[entities/adobe-lightroom|Lightroom]] has been a cornerstone in digital photography for years. With the introduction of AI and [[concepts/machine-learning|machine learning]] features, photographers can achieve more with less effort, making editing and managing [[concepts/images|images]] faster and more intuitive.
+[[entities/adobe|Adobe]]'s [[entities/adobe-lightroom|Lightroom]] has been a cornerstone in digital photography for years. With the introduction of AI and [[concepts/machine-learning|machine learning]] features, photographers can achieve more with less effort, making editing and managing [[concepts/images|images]] faster and more intuitive.
 
 ## Related Concepts
 * [[concepts/photo-editing|Photo Editing]] Workflows
@@ -19,7 +14,7 @@ Adobe's [[entities/adobe-lightroom|Lightroom]] has been a cornerstone in digital
 * Photography [[concepts/automation|Automation]]
 
 ### Summary
-- **Adobe’s Principal Digital Imaging Evangelist [[entities/julianne-kost|Julianne Kost]]** shares five power tips to enhance productivity within [[entities/adobe-photoshop|Adobe Photoshop]] and [[entities/adobe-lightroom|Lightroom]].
+- **[[entities/adobe|Adobe]]’s Principal Digital Imaging Evangelist [[entities/julianne-kost|Julianne Kost]]** shares five [[concepts/power|power]] tips to enhance productivity within [[entities/adobe-photoshop|Adobe Photoshop]] and [[entities/adobe-lightroom|Lightroom]].
 - The [[concepts/session|session]], recorded live from [[entities/imaging-usa-2026|Imaging USA 2026]], is featured on the Professional Photographer Podcast hosted by [[entities/pat-miller|Pat Miller]].
 
 ## Tips Overview
@@ -31,7 +26,6 @@ Adobe's [[entities/adobe-lightroom|Lightroom]] has been a cornerstone in digital
 
 ### Additional Resources
 * 2026 04 13 [[entities/ppa|Photoshop Lightroom AI Productivity Tips]] for Photographers
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Photoshop-Lightroom-AI-Productivity-Tips-for-Photographers|Photoshop Lightroom AI Productivity Tips for Photographers]] · [▶ source](https://www.youtube.com/watch?v=TCV8KiZxWNM)
 - 2026-04-22: Lightroom Classic · [▶ source](https://youtu.be/vMqQBPffFbQ)

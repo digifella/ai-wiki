@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "appearance"
-  - "transformation"
-  - "image-editing"
-  - "ai"
-  - "local-llm"
-  - "dynamic-resolution"
-  - "detail-removal"
-  - "real-time-adjustments"
-  - "image-quality"
-summary: "Appearance Transformation is the computational alteration of visual characteristics in digital media, encompassing both artistic modification and AI-driven real-time adjustments."
-updated: 2026-04-15
+summary: Appearance Transformation is the computational alteration of visual characteristics in digital media, encompassing both artistic modification and AI-driven real-time adjustments.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Appearance Transformation

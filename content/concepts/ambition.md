@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: business-strategy
-group: enterprise-strategy-future-work
+domain: philosophy-religion
 tags:
   - "concept"
   - "ambition"
@@ -12,12 +11,13 @@ tags:
 aliases:
   - "drive"
   - "aspiration"
-summary: "A motivational force explored through the lens of ancient Greek mythology and its relevance to modern audiences."
-updated: 2026-05-02
+summary: A motivational force explored through the lens of ancient Greek mythology and its relevance to modern audiences.
+updated: 2026-05-23
+group: meaning-consciousness-worldviews
 ---
 # Ambition
 
-Ambition, understood as the drive to achieve goals and pursue advancement, has been a central theme in human culture since ancient times. In [[concepts/greek-mythology|Greek mythology]], ambition appears as both a creative and destructive force. Figures like Prometheus, who stole fire for humanity, and Icarus, who flew too close to the sun, exemplify the dual [[entities/nature|nature]] of ambitious striving—the potential for meaningful accomplishment alongside the risks of overreach and failure.
+Ambition, understood as the [[concepts/motivation|drive]] to achieve goals and pursue advancement, has been a central theme in human culture since ancient times. In [[concepts/greek-mythology|Greek mythology]], ambition appears as both a creative and destructive force. Figures like Prometheus, who stole fire for humanity, and Icarus, who flew too close to the sun, exemplify the dual [[entities/nature|nature]] of ambitious striving—the potential for meaningful accomplishment alongside the risks of overreach and failure.
 
 ## Ancient Perspectives
 
@@ -26,6 +26,5 @@ The ancient Greeks recognized ambition's complexity through their philosophical 
 ## Modern Relevance
 
 Contemporary audiences continue to engage with these mythological frameworks when reflecting on ambition in their own lives. The tension between striving for achievement and accepting limits remains relevant in modern contexts—whether in professional careers, [[concepts/personal-development|personal development]], or social expectations. Greek mythology provides narrative [[concepts/templates|templates]] and moral frameworks that help people process their own ambitious impulses and the consequences of pursuing them.
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Reinventing-Greek-Mythology-Timeless-Stories-for-Contemporary-Audience|Reinventing Greek Mythology Timeless Stories for Contemporary Audience]] · [▶ source](https://www.youtube.com/watch?v=3mez8FqPR60)

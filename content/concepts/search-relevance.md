@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "search-ranking"
   - "bm25"
@@ -13,7 +12,8 @@ aliases:
   - "Search Quality"
   - "Relevance Ranking"
 summary: pg_textsearch is an open-source extension for Postgres that provides BM25 ranking and enhanced text search capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Search Relevance
 
@@ -21,12 +21,11 @@ Search relevance refers to how well search results match a user's query in terms
 
 ## BM25 Ranking
 
-BM25 is a probabilistic ranking function widely used in information retrieval to score and rank documents based on query terms. It accounts for term frequency, inverse document frequency, and document length normalization, making it more sophisticated than simple keyword matching. BM25 has become an industry standard for text search because it produces more intuitive results in many practical [[concepts/scenarios|scenarios]].
+[[concepts/bm25|BM25]] is a probabilistic ranking function widely used in information retrieval to score and rank documents based on query terms. It accounts for term frequency, inverse document frequency, and document length normalization, making it more sophisticated than simple keyword matching. BM25 has become an industry standard for [[concepts/text|text]] search because it produces more intuitive results in many practical [[concepts/scenarios|scenarios]].
 
 ## pg_textsearch
 
-pg_textsearch is an [[concepts/open-source|open-source]] [[concepts/postgresql-extension|PostgreSQL extension]] that brings BM25 ranking capabilities and enhanced text search features directly into relational databases. By integrating advanced ranking algorithms into Postgres, it enables developers to perform more sophisticated full-text searches without requiring separate search infrastructure. This approach simplifies [[concepts/deployment|deployment]] and reduces operational complexity for [[concepts/software|applications]] that need both relational [[concepts/data-management|data management]] and high-quality text search functionality.
-
+[[entities/pg-textsearch|pg_textsearch]] is an [[concepts/open-source|open-source]] [[concepts/postgresql-extension|PostgreSQL extension]] that brings [[concepts/bm25-ranking|BM25 ranking]] [[concepts/capabilities|capabilities]] and enhanced text search features directly into relational databases. By integrating advanced ranking algorithms into Postgres, it enables developers to perform more sophisticated full-text searches without requiring separate search infrastructure. This approach simplifies [[concepts/deployment|deployment]] and reduces operational complexity for [[concepts/software|applications]] that need both relational [[concepts/data-management|data management]] and high-quality text search functionality.
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

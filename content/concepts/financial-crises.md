@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "finance history architecture preservation"
-  - "financial-markets"
-  - "economic-history"
-  - "banking-failures"
-  - "stock-market-crashes"
-  - "recessions"
-aliases:
-  - "money crises"
-  - "economy breakdowns"
-  - "financial turmoil"
-  - "credit crunches"
-summary: "Financial crises are severe disruptions in financial markets that lead to economic downturns, including banking failures and stock market crashes."
-updated: 2026-04-11
+summary: Financial crises are severe disruptions in financial markets that lead to economic downturns, including banking failures and stock market crashes.
+updated: 2026-05-23
 group: legal-finance-professional-work
 ---
 # Financial Crises
@@ -43,8 +31,7 @@ Financial crises are severe disturbances in [[entities/wall-street|financial mar
 - [[concepts/preservation]]
 
 ## Backlinks
-2026 04 10 [[concepts/melbourne-cbd-architecture|333 Collins Street]] Melbourne Historic Banking Chamber Preservation and
-
+2026 04 10 [[concepts/melbourne-cbd-architecture|333 Collins Street]] [[concepts/melbourne-region|Melbourne]] Historic [[concepts/banking-chamber-preservation|Banking Chamber Preservation]] and
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and|333 Collins Street Melbourne Historic Banking Chamber Preservation and]] · [▶ source](https://www.youtube.com/watch?v=zEPa_xbeX-c)

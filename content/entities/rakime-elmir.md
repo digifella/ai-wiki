@@ -7,7 +7,7 @@ tags:
   - "birth-outcomes"
   - "father-engagement"
 summary: Rakime Elmir is associated with the context of men attending traumatic births and the enhancement of service delivery for fathers.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Rakime Elmir
 
@@ -15,4 +15,4 @@ Rakime Elmir is a researcher and scholar associated with work examining the expe
 
 ## Service Delivery for Fathers
 
-A key focus of Elmir's work has been the enhancement of service delivery to support fathers during and after childbirth. Her research has identified that approximately 30% of births involve traumatic elements, highlighting the need for improved clinical and psychological support systems tailored to paternal needs. This work emphasizes how [[concepts/health|healthcare]] services can better prepare and support men in their role as birth partners, addressing gaps in current service provision.
+A key focus of Elmir's work has been the enhancement of service delivery to support fathers during and after childbirth. Her research has identified that approximately 30% of births involve traumatic elements, highlighting the need for improved clinical and psychological support systems tailored to paternal needs. This work emphasizes how [[concepts/health|healthcare]] services can better prepare and support men in their role as birth partners, addressing gaps in current [[concepts/service-delivery|service provision]].

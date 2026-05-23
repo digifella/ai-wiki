@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "prime-numbers"
-  - "riemann-hypothesis"
-  - "distribution-theory"
-  - "complex-analysis"
-  - "number-theory"
-aliases:
-  - "Riemann's Hypothesis"
-  - "Prime Distribution Theory"
-  - "Generalized Functions"
-  - "Fourier Transform in Physics"
-summary: "The Riemann Hypothesis is a conjecture that proposes the non-trivial zeros of the Riemann zeta function lie on the critical line, aiming to reveal an underlying order within prime number distribution."
-updated: 2026-04-11
+summary: The Riemann Hypothesis is a conjecture that proposes the non-trivial zeros of the Riemann zeta function lie on the critical line, aiming to reveal an underlying order within prime number distribution.
+updated: 2026-05-23
 group: mathematical-reasoning-proof
-title: "Distribution"
+title: Distribution
 ---
 # Distribution
 
@@ -28,16 +17,15 @@ title: "Distribution"
 
 ## Riemann Hypothesis: Hidden Order in Prime Number Distribution
 
-The **Riemann Hypothesis** is a conjecture about the distribution of [[concepts/prime-numbers|prime numbers]], which are the building blocks of all whole numbers. Proposed by [[entities/bernhard-riemann|Bernhard Riemann]] in 1859, this hypothesis asserts that the non-trivial zeros of the [[concepts/riemann-zeta-function|Riemann zeta function]] lie on the critical line with real part 1/2. If proven true, it would reveal a hidden order within prime number distribution.
+The **Riemann Hypothesis** is a conjecture about the distribution of [[concepts/prime-numbers|prime numbers]], which are the building blocks of all whole numbers. Proposed by [[entities/bernhard-riemann|Bernhard Riemann]] in 1859, this hypothesis asserts that the non-trivial zeros of the [[concepts/riemann-zeta-function|Riemann zeta function]] lie on the critical line with real part 1/2. If proven true, it would reveal a hidden order within [[concepts/prime-number-distribution|prime number distribution]].
 
 ### Summary and Context
-- **Proposition:** The hypothesis links the frequency and distribution of [[concepts/prime-numbers|prime numbers]] to complex analysis through the non-trivial zeros of the Riemann zeta function.
-- **Importance:** It has profound implications for understanding [[concepts/prime-numbers|prime numbers]]' behavior, impacting [[concepts/cryptography|cryptography]], computer science, and theoretical [[concepts/mathematics|mathematics]].
-- **Reward:** A $1 million prize is offered by The Clay Mathematics Institute as part of their [[concepts/millennium-prize-problems|Millennium Prize Problems]].
+- **Proposition:** The hypothesis links the frequency and distribution of [[concepts/prime-numbers|prime numbers]] to complex analysis through the non-trivial zeros of the [[concepts/riemann-zeta-function|Riemann zeta function]].
+- **Importance:** It has profound implications for understanding [[concepts/prime-numbers|prime numbers]]' behavior, impacting [[concepts/cryptography|cryptography]], computer [[concepts/science|science]], and theoretical [[concepts/mathematics|mathematics]].
+- **Reward:** A $1 million prize is offered by The Clay [[concepts/mathematics|Mathematics]] Institute as part of their [[concepts/millennium-prize-problems|Millennium Prize Problems]].
 
 ### Recent Developments
-- **2026 Update:** Research suggests that while primes may appear random at face value, the Riemann Hypothesis posits a deeper, underlying order. This could unlock new ways to predict prime numbers and enhance our understanding of [[concepts/number-theory|number theory]]. 2026 04 10 Riemann Hypothesis Hidden Order in Prime Number Distribution
-
+- **2026 Update:** Research suggests that while primes may appear random [[concepts/assistive-technology|at]] face value, the Riemann Hypothesis posits a deeper, underlying order. This could unlock new ways to predict prime numbers and enhance our understanding of [[concepts/number-theory|number theory]]. 2026 04 10 Riemann Hypothesis Hidden Order in Prime Number Distribution
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation|Claude Code Blotato Automating AI Viral Video Creation]] · [▶ source](https://www.youtube.com/watch?v=ZXyjSufezL8)
 - 2026-04-08: [[lab-notes/2026-04-08-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates|Awkward Primes Minimal Line Coverage of Prime Number Coordinates]] · [▶ source](https://www.youtube.com/watch?v=VFoIPlUalRY)

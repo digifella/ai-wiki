@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data center"
-  - "water consumption"
-  - "AI"
-  - "cooling challenges"
-  - "water-consumption"
-  - "data-center-cooling"
-  - "ai-boom"
-  - "energy-efficiency"
-  - "sustainable-computing"
-  - "water-footprint"
-aliases:
-  - "Data Center Water Footprint"
-summary: "A data center with 15 megawatts of IT capacity uses between 80 and 130 million gallons of water annually for cooling."
-updated: 2026-04-14
+summary: A data center with 15 megawatts of IT capacity uses between 80 and 130 million gallons of water annually for cooling.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data Center Water Consumption
@@ -34,12 +21,11 @@ The amount of water used by data centers is a critical environmental issue, espe
 
 ### References & Resources
 **[[concepts/data-center-water-footprint|Data Center Water Footprint]]: [[concepts/ai-boom|AI Boom]]'s Growing Consumption & Cooling Challenges**
-- **Clip title:** The [[concepts/big-data|Big Data]] Center Water Problem
+- **[[concepts/clip-title|Clip title]]:** The [[concepts/big-data|Big Data]] Center Water Problem
 - **Author / channel:** Asianometry
 - **URL:** https://www.youtube.com/watch?v=tJYSzc7YkY0
 
 Backlinks:
-2026 04 13 Data Center Water Footprint AI Booms Growing Consumption Cooling Chall
-
+2026 04 13 [[concepts/data-center-water-footprint|Data Center Water Footprint]] AI Booms Growing Consumption Cooling Chall
 ## Source Notes
 - 2026-04-13: The [[concepts/big-data|Big Data Center Water Problem]]

@@ -8,8 +8,9 @@ tags:
   - "knowledge-management"
 aliases:
   - "Pulse"
-summary: "A podcast series exploring shifts in healthcare paradigms, patient agency, and systemic innovation."
-updated: 2026-04-27
+summary: A podcast series exploring shifts in healthcare paradigms, patient agency, and systemic innovation.
+updated: 2026-05-23
+stub: true
 ---
 # PULSE Podcast
 
@@ -25,9 +26,9 @@ A podcast series exploring shifts in [[concepts/health|Healthcare]] paradigms, p
 	- **Guest:** Dr. [[entities/dr-sara-riggare|Sara Riggare]]
 
 ## Related Concepts
-- Healthcare [[concepts/innovation|Innovation]]
+- [[concepts/health|Healthcare]] [[concepts/innovation|Innovation]]
 - Patient Empowerment
 - Clinical [[concepts/knowledge-management|Knowledge Management]]
 
 ## Metadata
-- **Source:** 2026 04 07 Pulse Podcast Summary   The Other [[concepts/8765-hours|8765 Hours]]   with Sara Riggare
+- **Source:** 2026 04 07 Pulse Podcast [[concepts/summary|Summary]]   The Other [[concepts/8765-hours|8765 Hours]]   with Sara Riggare

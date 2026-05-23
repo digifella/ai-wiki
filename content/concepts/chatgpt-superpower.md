@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: openai-chatgpt
 tags:
   - "ai-tools"
   - "chatgpt"
@@ -13,7 +12,8 @@ aliases:
   - "AI Tools You Need"
   - "Jeff Su AI Stack"
 summary: A summary of a video by Jeff Su detailing the specific AI tools used for the majority of his work.
-updated: 2026-05-01
+updated: 2026-05-23
+group: openai-chatgpt
 ---
 # ChatGPT Superpower
 
@@ -21,7 +21,7 @@ ChatGPT Superpower refers to a framework presented by [[entities/jeff-su|Jeff Su
 
 ## Core Approach
 
-Su's methodology emphasizes depth over breadth, arguing that mastering a small number of well-integrated AI tools proves more effective than superficially exploring dozens of alternatives. This approach reduces context-switching, creates stable workflows, and allows for deeper optimization of individual tools. The framework categorizes these tools by function, with [[entities/chatgpt|ChatGPT]] serving as a central component alongside [[concepts/motivation|purpose]]-specific [[concepts/software|applications]] for tasks like content generation, analysis, and [[concepts/automation|automation]].
+Su's methodology emphasizes depth over breadth, arguing that mastering a small number of well-integrated [[concepts/ai-tools|AI tools]] proves more effective than superficially exploring dozens of alternatives. This approach reduces context-switching, creates stable workflows, and allows for deeper optimization of individual tools. The framework categorizes these tools by function, with [[entities/chatgpt|ChatGPT]] serving as a central component alongside [[concepts/motivation|purpose]]-specific [[concepts/software|applications]] for tasks like content generation, analysis, and [[concepts/automation|automation]].
 
 ## Practical Application
 

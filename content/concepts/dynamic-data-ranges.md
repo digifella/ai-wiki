@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "excel"
-  - "data-management"
-  - "automation"
-  - "excel-functions"
-  - "data-cleaning"
-  - "dynamic-ranges"
-  - "spill-ranges"
-  - "trim-references"
-aliases:
-  - "auto-expanding ranges"
-  - "trimmed references"
-summary: "Dynamic data ranges automatically expand or contract based on the presence of data to exclude empty cells from Excel processing."
-updated: 2026-04-26
+summary: Dynamic data ranges automatically expand or contract based on the presence of data to exclude empty cells from Excel processing.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # dynamic data ranges
@@ -30,10 +18,9 @@ Ranges that automatically expand or contract based on the presence of data, ensu
 
 ### Related Concepts
 - [[entities/microsoft-excel|Excel]] functions
-- Spill ranges
+- [[concepts/spill-ranges|Spill ranges]]
 - [[concepts/structured-references|Structured references]]
 - [[concepts/data-cleaning|Data cleaning]]
-
 ## Source Notes
 
 - 2026-04-22: Excel · [▶ source](https://www.youtube.com/watch?v=5h4wRTbmsSw)

@@ -1,32 +1,18 @@
 ---
 type: entity
-tags:
-  - "gemini"
-  - "ai"
-  - "professional-tools"
-  - "gemini-3-0"
-  - "google-ai"
-  - "multimodal-understanding"
-  - "professional-productivity"
-  - "code-generation"
-  - "ai-agents"
-aliases:
-  - "Gemini 3.0"
-  - "Gemini 3"
-summary: "Gemini 3.0 is a Google AI model designed for professional productivity featuring multimodal understanding, enhanced code generation, and integration with Google Workspace and Microsoft 365."
-updated: 2026-04-21
+summary: Gemini 3.0 is a Google AI model designed for professional productivity featuring multimodal understanding, enhanced code generation, and integration with Google Workspace and Microsoft 365.
+updated: 2026-05-23
 ---
 # Gemini 3.0
 
-Google's latest AI model focused on [[concepts/on-the-job-performance|professional productivity]]. Key improvements:
+[[concepts/google-search|Google]]'s latest AI model focused on [[concepts/on-the-job-performance|professional productivity]]. Key improvements:
 
-- **Improved [[concepts/multimodal-understanding|Multimodal Understanding]]**: Processes [[concepts/images|images]], video, and audio simultaneously (not separately), enhancing context for [[concepts/complex-tasks|complex tasks]]
+- **Improved [[concepts/multimodal-understanding|Multimodal Understanding]]**: Processes [[concepts/images|images]], video, and [[concepts/audio-modality|audio]] simultaneously (not separately), enhancing context for [[concepts/complex-tasks|complex tasks]]
 - **Enhanced [[concepts/ai-coding|Code Generation]]**: Supports 20+ programming languages with better [[concepts/debugging|debugging]] and documentation
 - **Optimized Workflow [[concepts/integration|Integration]]**: Seamlessly connects with [[entities/google-workspace]] and [[entities/microsoft-365]] for document collaboration
 - **Reduced [[concepts/hallucination-rate|Hallucination Rate]]**: 40% fewer factual inaccuracies in professional contexts
 - **Customizable [[entities/agent|Agent]] [[concepts/templates|Templates]]**: Pre-built [[concepts/workflow|workflows]] for sales, research, and project management
 
-Full [[concepts/implementation-details|implementation details]] in [[concepts/date-2026-04-13|2026]] 04 14 [[concepts/gemini|Gemini]] Pro for professional work flow [[entities/jeff-su|Jeff Su]].
-
+Full [[concepts/implementation-details|implementation details]] in [[concepts/date-2026-04-13|2026]] 04 14 [[concepts/gemini|Gemini]] Pro for professional work [[concepts/flow|flow]] [[entities/jeff-su|Jeff Su]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

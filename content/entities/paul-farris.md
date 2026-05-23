@@ -1,35 +1,25 @@
 ---
 type: entity
-tags:
-  - "mobile-photo-editing"
-  - "photo-tutorials"
-  - "snapseed-expert"
-  - "google-products"
-aliases:
-  - "Paul F"
-  - "P. Farris"
-  - "Photo Genius Paul"
-  - "Snapseed Guru"
-summary: "Paul Farris is a recognized expert in mobile photo editing, particularly with the Snapseed app."
-updated: 2026-04-11
+summary: Paul Farris is a recognized expert in mobile photo editing, particularly with the Snapseed app.
+updated: 2026-05-23
 ---
-title: "Paul Farris"
+title: "[[entities/paul|Paul]] Farris"
 ---
 
 # Paul Farris
 ## Overview
-Paul Farris is a renowned figure in the field of photography and [[concepts/photo-editing|photo editing]]. He has been instrumental in promoting [[concepts/photo-editing|mobile photo editing]] through his contributions on various platforms, including YouTube.
+Paul Farris is a renowned figure in the field of photography and [[concepts/photo-editing|photo editing]]. He has been instrumental in promoting [[concepts/photo-editing|mobile photo editing]] through his contributions on various platforms, including [[entities/youtube|YouTube]].
 
 ### Contributions
-- **[[entities/snapseed|Snapseed]] Advocate:** Known for his expertise with Snapseed, a powerful free [[concepts/photo-editing|photo editing]] application developed by Google.
-- **Educator:** Provides tutorials and overviews to help users maximize the utility of photo editing apps like Snapseed.
+- **[[entities/snapseed|Snapseed]] Advocate:** Known for his expertise with Snapseed, a powerful free [[concepts/photo-editing|photo editing]] application developed by [[concepts/google-search|Google]].
+- **Educator:** Provides tutorials and overviews to help users maximize the utility of [[concepts/photo-enhancement|photo editing]] apps like Snapseed.
 
 ### Recent Activity
 - **2026-04-08** - Paul Farris from [[entities/photo-genius|Photo Genius]] published a video providing a comprehensive overview of the latest features in Snapseed, including its new [[concepts/camera-settings|Camera]] and Pro functionalities.
-- **2026-04-10** - Published a detailed [[concepts/tutorial|tutorial]] on Snapseed’s capabilities as an on-the-go photo editing [[concepts/solution|solution]].
+- **2026-04-10** - Published a detailed [[concepts/tutorial|tutorial]] on Snapseed’s [[concepts/capabilities|capabilities]] as an on-the-go photo editing [[concepts/solution|solution]].
 
 #### Key Points:
-- Highlights Snapseed's capabilities as an on-the-go photo editing solution.
+- [[concepts/highlights|Highlights]] Snapseed's capabilities as an on-the-go photo editing solution.
 - Explains how to effectively use the app’s various tools for professional results.
 - Emphasizes the addition of new features that enhance the [[concepts/user-experience-design|user experience]].
 
@@ -39,8 +29,7 @@ Paul Farris is a renowned figure in the field of photography and [[concepts/phot
 - Photo Editing Apps
 
 ## Related Notes
-- 2026 04 10 Snapseed Overview Free Photo Editing App with New Camera and Pro
-
+- 2026 04 10 Snapseed Overview Free [[concepts/photo-enhancement|Photo Editing]] App with New Camera and Pro
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro|Snapseed Overview Free Photo Editing App with New Camera and Pro]] · [▶ source](https://www.youtube.com/watch?v=mvcTq5uA6uo)

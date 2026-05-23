@@ -1,19 +1,18 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 - "rag"
-  - "knowledge-graph"
+  - "[[concepts/knowledge-graph|knowledge-graph]]"
   - "neo4j"
   - "light-rag"
-group: applied-ai-workflows
 ---
 
 # Light RAG
 
-A lightweight variant of Retrieval-Augmented Generation (RAG) that combines [[concepts/vector-search|vector search]] with a [[concepts/vector-store|knowledge graph]] for efficient context retrieval, contrasting with heavier [[concepts/graph-rag|Graph RAG]] implementations. Prioritizes simplicity while maintaining structural context through graph [[concepts/relationships|relationships]].
+A lightweight variant of [[concepts/answer-generation|Retrieval-Augmented Generation]] (RAG) that combines [[concepts/vector-search|vector search]] with a [[concepts/vector-store|knowledge graph]] for efficient context retrieval, contrasting with heavier [[concepts/graph-rag|Graph RAG]] implementations. Prioritizes simplicity while maintaining structural context through graph [[concepts/relationships|relationships]].
 
 ## Key Implementation Details
 
@@ -22,16 +21,14 @@ A lightweight variant of Retrieval-Augmented Generation (RAG) that combines [[co
     - [[concepts/document-chunking|Document chunking]] → node/relationship extraction → dual [[entities/storage|storage]] (vector store + [[entities/neo4j|neo4j]] knowledge graph)
     - LLM generation using retrieved context from both sources
   - Benefits:
-    - More efficient than full Graph RAG (avoids complex graph traversal)
-    - Retains [[concepts/interpretability|interpretability]] via graph [[concepts/structure|structure]] while leveraging vector search
-    - Simpler implementation using existing neo4j infrastructure
+    - More efficient than full [[concepts/entity-relationships|Graph RAG]] (avoids complex graph traversal)
+    - Retains [[concepts/interpretability|interpretability]] via graph [[concepts/structure|structure]] while leveraging [[concepts/vector-database-retrieval|vector search]]
+    - Simpler [[concepts/adoption|implementation]] using existing neo4j infrastructure
   - [[concepts/contrast|Contrast]] with [[concepts/entity-relation-graphs|Graph RAG]]:
-    - Light RAG avoids complex graph traversal while maintaining structural context
+    - [[concepts/light|Light]] RAG avoids complex graph traversal while maintaining structural context
     - Focuses on simplicity and efficiency
 
 Backlink: 2026 04 14 Build a light RAG system with neo4j
-
-## Source Notes
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

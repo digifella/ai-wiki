@@ -9,7 +9,7 @@ tags:
 aliases:
   - "Meg's mother"
 summary: Debbie is interested in AI research within the context of children and family violence, group model building, and clearing houses.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Debbie
 
@@ -17,4 +17,4 @@ Debbie is a researcher with interests in applied social research methodologies a
 
 ## Professional Context
 
-Debbie's work has connections to the [[entities/nsw-dept-justice|NSW Department of Justice]] through her engagement with [[concepts/clearing-houses|clearing houses]]—institutional structures for collecting, organizing, and disseminating research and information. Her professional network includes family connections to the child welfare sector; her daughter, Meg, works as the partnership manager for the Cats partnership.
+Debbie's work has connections to the [[entities/nsw-dept-justice|NSW Department of Justice]] through her engagement with [[concepts/clearing-houses|clearing houses]]—institutional structures for collecting, organizing, and disseminating research and information. Her professional network includes family connections to the child welfare sector; her daughter, [[entities/meg|Meg]], works as the partnership manager for the Cats partnership.

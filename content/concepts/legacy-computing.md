@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: business-strategy
-group: enterprise-strategy-future-work
+domain: history-anthropology
 tags:
   - "concept"
   - "legacy-computing"
@@ -13,7 +12,8 @@ aliases:
   - "Retro Computing"
   - "Classic Computing Systems"
 summary: Computing practices and systems from earlier eras, exemplified by running modern AI transformer models on 1979 hardware like the PDP-11.
-updated: 2026-05-01
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Legacy Computing
 
@@ -25,7 +25,6 @@ updated: 2026-05-01
 
 ## Contemporary Interest
 
-Modern interest in legacy computing encompasses multiple motivations. Hobbyists and enthusiasts maintain and restore vintage hardware for historical documentation and nostalgia. Researchers have explored the theoretical and practical limits of legacy systems, including demonstrations of running computationally intensive modern algorithms—such as [[concepts/transformer-architectures|transformer neural networks]]—on machines with severe [[concepts/memory|memory]] and processing constraints. These experiments reveal both the engineering ingenuity of earlier designs and the relative efficiency requirements of contemporary software.
-
+Modern interest in [[concepts/retro-computing|legacy computing]] encompasses multiple motivations. Hobbyists and enthusiasts maintain and restore vintage hardware for historical documentation and nostalgia. Researchers have explored the theoretical and practical limits of legacy systems, including demonstrations of running computationally intensive modern algorithms—such as [[concepts/transformer-architectures|transformer neural networks]]—on machines with severe [[concepts/memory|memory]] and processing constraints. These experiments reveal both the engineering ingenuity of earlier designs and the relative efficiency requirements of contemporary software.
 ## Source Notes
 - 2026-04-13: EXPOSED: The Dirty Little Secret of AI (On a 1979 PDP-11)

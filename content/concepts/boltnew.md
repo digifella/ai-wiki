@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "claude-code"
   - "product-development"
@@ -14,16 +13,17 @@ aliases:
   - "Bolt.New"
   - "Claude Product Build Method"
 summary: A method for using Claude code to build products by creating a markdown-based product requirements document and a task manager for subagents.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Boltnew
 
-Boltnew is a method for building [[concepts/software|software]] products using [[concepts/ai-assisted-coding|Claude code]] generation. The approach is structured around [[concepts/markdown|markdown]]-based documentation that serves as the foundation for product development. Rather than relying solely on conversational prompts, Boltnew establishes written specifications that guide both the initial design and ongoing development work.
+[[entities/boltnew|Boltnew]] is a structured method for building [[concepts/software|software]] products using [[concepts/claude-ai|Claude]] [[concepts/code-generation|code generation]]. It prioritizes written specifications over conversational prompts, using markdown-based documentation as the foundation for product development. This approach aims to provide clarity and [[concepts/logical-consistency|consistency]] across both initial [[concepts/design|design]] and ongoing iterations.
 
-## Core Components
+## Documentation and Planning
 
-The method begins with creating a [[concepts/product-requirements-document|Product Requirements Document]] (PRD) in markdown format. This document specifies the product's functionality, features, and requirements in structured text. Once the PRD is established, a task manager file (typically named [[concepts/taskmanagermd|Taskmanager]].md) is generated to break down the overall product development into discrete, manageable tasks. This task manager acts as a coordination tool that [[concepts/claude-ai|Claude]] references when working on specific components or features, helping to maintain [[concepts/logical-consistency|consistency]] and clarity across the development process.
+The method centers on creating a [[concepts/product-requirements-document|Product Requirements Document]] ([[concepts/prd|PRD]]) in [[concepts/markdown|markdown]] format. This document captures the product [[concepts/computer-vision|vision]], feature specifications, and development requirements in a structured, written form. By establishing clear written specifications upfront, Boltnew seeks to reduce [[concepts/ambiguity|ambiguity]] in communication with AI code generation systems and maintain consistency across development phases.
 
-## Workflow
+## Task Management
 
-The markdown-based approach allows Claude to reference both high-level product specifications and task-specific [[concepts/instructions|instructions]] throughout the development cycle. The task manager enables Claude to understand dependencies between components, track progress through different work items, and organize subagent responsibilities for larger projects. This structured method aims to improve coherence and maintainability compared to conversation-driven development alone.
+Boltnew incorporates a task manager for coordinating work across [[concepts/subagents|subagents]]. This allows different components of development to be distributed and tracked, with each [[entities/agent|agent]] working from the same documented specification. The task management system helps ensure that [[concepts/parallel-work-streams|parallel work streams]] remain aligned with the original PRD and established requirements.

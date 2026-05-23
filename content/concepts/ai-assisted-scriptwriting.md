@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai-writing"
-  - "automation"
-  - "video-production"
-  - "workflow"
-updated: 2026-04-23
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI-assisted scriptwriting
@@ -21,7 +16,7 @@ A specific workflow designed to create broadcast-quality documentary videos (hig
 ### Implementation Details
 * **Goal**: Produce high-retention, professional-grade video content using a free/freemium [[concepts/tech-stack|tech stack]].
 * **Research & Scripting**: Utilizing [[entities/notebooklm]] for [[entities/chatgpt-deep-research|deep research]] synthesis and advanced prompt-based script drafting.
-* **Voiceover**: Leveraging [[entities/google-ai-studio]] to generate high-fidelity, voice-matched audio.
+* **Voiceover**: Leveraging [[entities/google-ai-studio]] to generate high-fidelity, voice-matched [[concepts/audio-modality|audio]].
 * **Visual Strategy**: Focusing on high-resolution motion to complement the scripted content.
 
 ## Core Tech Stack

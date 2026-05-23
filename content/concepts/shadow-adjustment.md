@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "post-processing"
-  - "editing"
-  - "shadow-adjustment"
-  - "tonal-range"
-  - "image-editing"
-  - "lightroom-workflow"
-  - "landscape-processing"
-aliases:
-  - "shadows manipulation"
-summary: "Shadow adjustment is the manipulation of darker tonal ranges in an image to reveal hidden detail or modify contrast."
-updated: 2026-04-17
+summary: Shadow adjustment is the manipulation of darker tonal ranges in an image to reveal hidden detail or modify contrast.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Shadow adjustment
@@ -23,7 +12,7 @@ The manipulation of darker tonal ranges in an image to reveal hidden detail or m
 ## Adobe Lightroom Classic Workflow
 In the Basic panel (including [[entities/lightroom-cc|Lightroom CC]] and [[concepts/camera-raw|Camera Raw]]), shadow adjustment is a key component of initial [[concepts/image-preparation|image preparation]]. It is typically applied alongside:
 - [[concepts/exposure|Exposure]]
-- Highlights
+- [[concepts/highlights|Highlights]]
 - [[concepts/whites|Whites]]
 - [[concepts/blacks|Blacks]]
 - [[concepts/image-straightening|Image straightening]]
@@ -32,8 +21,7 @@ In the Basic panel (including [[entities/lightroom-cc|Lightroom CC]] and [[conce
 - **Landscape Processing**: Shadow [[concepts/adjustments|adjustments]] serve as a foundational step before utilizing advanced features such as [[concepts/landscape-masking]].
 
 ## Backlinks
-- 2026 04 14 Landscape processing in Lightroom Classic [[entities/anthony-morganti|Anthony Morganti]]
-
+- 2026 04 14 Landscape processing in [[entities/lightroom-classic|Lightroom Classic]] [[entities/anthony-morganti|Anthony Morganti]]
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

@@ -1,24 +1,13 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "image-processing"
-  - "retouching"
-  - "photoshop"
-  - "masking"
-  - "image-manipulation"
-  - "masking-techniques"
-  - "ai-methods"
-aliases:
-  - "image manipulation settings"
-  - "image processing methodologies"
-summary: "This concept covers methodologies and configurations for manipulating image data using both AI-powered and manual techniques."
-updated: 2026-04-21
+summary: This concept covers methodologies and configurations for manipulating image data using both AI-powered and manual techniques.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Image processing settings
 
-Methodologies and configurations used to manipulate Image data, ranging from AI-powered methods to Manual techniques.
+Methodologies and configurations used to manipulate Image data, ranging from [[concepts/ai-powered-methods|AI-powered methods]] to Manual techniques.
 
 ## Techniques & Workflows
 - **[[concepts/hair-masking|Hair Masking]] in [[concepts/photoshop|Photoshop]]**
@@ -27,7 +16,6 @@ Methodologies and configurations used to manipulate Image data, ranging from AI-
     - Resource: [Video Guide](https://www.youtube.com/watch?v=WSfSs9wmbO8)
 
 2026 04 14 New technique for [[concepts/layer-masks|masking]] hair in [[concepts/photoshop|photoshop]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Settings-Clarity-Impact-and-Aperture-Misuse|Fujifilm Camera Settings Clarity Impact and Aperture Misuse]] · [▶ source](https://www.youtube.com/watch?v=Sdxz5zmX8NM)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Calibration-Panel-Foundational-Color-Skin-Tones-Cinematic|Lightroom Calibration Panel Foundational Color Skin Tones Cinematic]] · [▶ source](https://www.youtube.com/watch?v=tvBXN3Hnil0)

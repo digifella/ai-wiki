@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: body-systems-recovery-function
 tags:
   - "mitochondrial-health"
   - "aging"
@@ -13,7 +12,8 @@ aliases:
   - "mitochondria"
   - "cellular energy production"
 summary: The concept is linked to research on how defying ageism can help individuals live longer.
-updated: 2026-05-01
+updated: 2026-05-23
+group: body-systems-recovery-function
 ---
 # Mitochondrial Function
 
@@ -25,4 +25,4 @@ Mitochondrial function naturally declines with age, a process linked to the accu
 
 ## Ageism and Cellular Health
 
-Psychological factors associated with ageism may influence mitochondrial health through [[concepts/stress|stress]]-related pathways. Negative self-perceptions about ageing and experiences of age discrimination can trigger chronic stress [[concepts/responses|responses]] that impair cellular function. Conversely, individuals who resist ageist attitudes and maintain engagement in physical and social activities may better preserve mitochondrial function, supporting longevity and [[concepts/quality-of-life|quality of life]] in later years.
+Psychological factors associated with ageism may [[concepts/power|influence]] mitochondrial [[concepts/health|health]] through [[concepts/stress|stress]]-related pathways. Negative self-perceptions about ageing and experiences of age discrimination can trigger chronic stress [[concepts/responses|responses]] that impair cellular function. Conversely, individuals who resist ageist attitudes and maintain engagement in physical and social activities may better preserve mitochondrial function, supporting longevity and [[concepts/quality-of-life|quality of life]] in later years.

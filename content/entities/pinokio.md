@@ -1,20 +1,11 @@
 ---
 type: entity
-tags:
-  - "AI"
-  - "automation"
-  - "local-computing"
-  - "software"
-  - "ai-automation"
-  - "open-source-models"
-  - "video-generation"
-  - "software-installation"
-summary: "Pinokio is a tool designed to automate the installation and execution of open-source AI models on local hardware."
-updated: 2026-04-22
+summary: Pinokio is a tool designed to automate the installation and execution of open-source AI models on local hardware.
+updated: 2026-05-23
 ---
 # Pinokio
 
-[[concepts/pinokio-tool|Pinokio]] is a tool designed to run [[concepts/open-source]] models directly on a local computer, automating the installation and execution of complex AI environments.
+[[concepts/pinokio-tool|Pinokio]] is a tool designed to run [[concepts/open-source]] [[concepts/models|models]] directly on a local computer, automating the installation and execution of complex AI environments.
 
 ## Key Features & Benefits
 - **[[concepts/local-execution|Local Execution]]:** Enables [[concepts/running|running]] advanced models, such as [[entities/ltx-2|LTX-2]] and [[entities/wan|Wan]], directly on personal [[concepts/hardware|hardware]].
@@ -27,9 +18,9 @@ updated: 2026-04-22
 - **[[concepts/hardware|Hardware]]:** Requires a dedicated GPU to handle the intensive computational demands of local [[concepts/ai-models|AI models]].
 
 ## References
-- [[concepts/date-2026-04-13|2026]] 04 14 Making [[concepts/ai-videos|AI videos]] locally with Pinokio [[entities/kevin-stratvert|Kevin Stratvert]] channel
+- [[concepts/date-2026-04-13|2026]] 04 14 Making [[concepts/ai-videos|AI videos]] locally with [[concepts/pinokio-tool|Pinokio]] [[entities/kevin-stratvert|Kevin Stratvert]] channel
 
-- 2026-04-24 [2026-04-24-LTX-2-Usable-Open-Source-Local-AI-Video-with-Synchronized-Audio](2026-04-24-LTX-2-Usable-Open-Source-Local-AI-Video-with-Synchronized-Audio.md) ← Ltx 2 Usable Open Source Local Ai Video With Synchronized Audio
-- 2026-04-17 [2026-04-17-DeepMind-Gemma-4-Open-Efficient-AI-Empowering-Local-Device-Execution](2026-04-17-DeepMind-Gemma-4-Open-Efficient-AI-Empowering-Local-Device-Execution.md) ← Deepmind Gemma 4 Open Efficient Ai Empowering Local Device Execution
-- 2026-04-14 [2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr](2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr.md) ← Optimizing Ai Costs And Privacy With Local Open Source Models And Hybr
+- 2026-04-24 [2026-04-24-LTX-2-Usable-Open-Source-Local-AI-Video-with-Synchronized-Audio](2026-04-24-LTX-2-Usable-Open-Source-Local-AI-Video-with-Synchronized-Audio.md) ← [[concepts/ltx-2|Ltx 2]] Usable [[concepts/open-source|Open Source]] [[concepts/local-ai|Local Ai]] Video With [[concepts/synchronized-audio|Synchronized Audio]]
+- 2026-04-17 [2026-04-17-DeepMind-Gemma-4-Open-Efficient-AI-Empowering-Local-Device-Execution](2026-04-17-DeepMind-Gemma-4-Open-Efficient-AI-Empowering-Local-Device-Execution.md) ← [[entities/nintendo-switch|Deepmind Gemma 4]] Open Efficient Ai Empowering Local Device Execution
+- 2026-04-14 [2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr](2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr.md) ← Optimizing Ai Costs And [[concepts/privacy|Privacy]] With Local Open Source [[concepts/models|Models]] And Hybr
 ## Source Notes

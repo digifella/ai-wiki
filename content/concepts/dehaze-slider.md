@@ -1,25 +1,14 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "lightroom"
-  - "post-processing"
-  - "adobe-lightroom-classic"
-  - "presence-panel"
-  - "haze-reduction"
-  - "atmospheric-effects"
-  - "photo-editing"
-aliases:
-  - "Dehaze"
-  - "Dehaze tool"
-summary: "A tool in the Adobe Lightroom Classic Presence panel used to manipulate atmospheric effects, haze, and contrast."
-updated: 2026-04-26
+summary: A tool in the Adobe Lightroom Classic Presence panel used to manipulate atmospheric effects, haze, and contrast.
+updated: 2026-05-23
 group: lightroom-color-workflows
+stub: true
 ---
 # Dehaze slider
 
-A tool within the Presence panel of Adobe [[entities/lightroom-classic|Lightroom Classic]] used to manipulate atmospheric effects, haze, and [[concepts/contrast|contrast]].
+A tool within the Presence panel of [[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]] used to manipulate atmospheric effects, haze, and [[concepts/contrast|contrast]].
 
 ### Details
 - Functions as part of a specific trio of "Presence" sliders alongside [[concepts/texture|Texture]] and [[concepts/lightroom]].
@@ -28,13 +17,12 @@ A tool within the Presence panel of Adobe [[entities/lightroom-classic|Lightroom
 
 ### Related Concepts
 - Presence
-- Texture
+- [[concepts/texture|Texture]]
 - [[concepts/lightroom]]
 - [[entities/adobe-lightroom|Adobe Lightroom]] Classic
 
 ### Sources
 - 2026 04 22 Lightroom Classic [[concepts/presence-sliders|Texture Clarity and Dehaze]] Sliders Explained
-
 ## Source Notes
 
 - 2026-04-22: Lightroom Classic · [▶ source](https://youtu.be/vMqQBPffFbQ)

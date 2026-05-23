@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "microbiome"
   - "gut-health"
@@ -12,11 +11,12 @@ aliases:
   - "gut microbiome"
   - "microbial health"
 summary: A concept regarding microbiome health and its relationship to longevity.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Microbiome Health
 
-The human microbiome—the community of microorganisms inhabiting the gut and other body sites—plays a significant role in overall [[concepts/health|health]] and aging processes. A diverse and balanced microbiome supports digestive function, immune system [[concepts/regulation|regulation]], and the production of essential metabolites, particularly short-chain fatty acids that influence metabolic health and inflammation levels.
+The human microbiome—the community of microorganisms inhabiting the gut and other body sites—plays a significant role in overall [[concepts/health|health]] and aging processes. A diverse and balanced microbiome supports digestive function, immune system [[concepts/regulation|regulation]], and the production of essential metabolites, particularly short-chain fatty acids that [[concepts/power|influence]] metabolic health and inflammation levels.
 
 ## Microbiome and Longevity
 
@@ -24,4 +24,4 @@ Research indicates correlations between microbiome composition and lifespan pote
 
 ## Factors Affecting Microbiome Health
 
-Microbiome composition is shaped by diet, [[concepts/exercise|physical activity]], sleep patterns, [[concepts/stress|stress]] levels, and antibiotic [[concepts/exposure|exposure]]. A diet rich in fiber and plant diversity promotes beneficial bacterial species, while ultra-processed foods and prolonged antibiotic use can reduce microbial diversity. These modifiable factors suggest that microbiome health represents an actionable component of longevity strategies.
+Microbiome composition is shaped by [[concepts/diet|diet]], [[concepts/exercise|physical activity]], [[concepts/sleep|sleep]] patterns, [[concepts/stress|stress]] levels, and antibiotic [[concepts/exposure|exposure]]. A diet rich in fiber and plant diversity promotes beneficial bacterial species, while ultra-processed foods and prolonged antibiotic use can reduce microbial diversity. These modifiable factors suggest that microbiome health represents an actionable component of longevity strategies.

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "cocktail-mixing"
   - "heraklion"
@@ -12,7 +11,8 @@ aliases:
   - "Demetriou Cocktails"
   - "Helen's Cocktail Mixing"
 summary: Helen, a former pharmacist, transitioned into cocktail mixing in Heraklion.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Demetrious Cocktail Mixing
 

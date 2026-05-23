@@ -10,12 +10,12 @@ aliases:
   - "AI Video Workflow"
   - "Documentary Video Guide"
 summary: A Markdown guide detailing an AI-driven workflow for creating high-retention documentary videos.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Admin Privileges
 
-Admin Privileges is an AI-driven workflow designed for producing high-retention documentary videos with broadcast-quality [[concepts/open-standards|standards]]. The methodology emphasizes motion graphics, high-resolution visuals, and synchronized voice work to create engaging content. This workflow represents a systematic approach to video production that leverages [[concepts/ai-technologies|artificial intelligence]] tools to streamline the creation process while maintaining [[concepts/professional-output-standards|professional output standards]].
+[[concepts/admin-privileges|Admin Privileges]] is an AI-driven [[concepts/workflow|workflow]] designed for producing high-retention documentary videos with broadcast-quality [[concepts/open-standards|standards]]. The methodology emphasizes motion graphics, high-resolution visuals, and synchronized [[concepts/tone|voice]] work to create engaging content. This workflow represents a systematic approach to video production that leverages [[concepts/ai-technologies|artificial intelligence]] tools to streamline the creation process while maintaining [[concepts/professional-output-standards|professional output standards]].
 
 ## Workflow Applications
 
-The workflow is documented through practical video demonstrations and [[concepts/markdown|markdown]] guides that detail each stage of production. It addresses the technical and creative requirements for documentary-style [[concepts/content-creation|content creation]], focusing on achieving viewer retention through coordinated visual and audio elements. The approach is designed to be reproducible and adaptable across different documentary subjects and formats.
+The workflow is documented through practical video demonstrations and [[concepts/markdown|markdown]] guides that detail each stage of production. It addresses the technical and creative requirements for documentary-[[concepts/style|style]] [[concepts/content-creation|content creation]], focusing on achieving viewer retention through coordinated visual and [[concepts/audio-modality|audio]] elements. The approach is designed to be reproducible and adaptable across different documentary subjects and formats.

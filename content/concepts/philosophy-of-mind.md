@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "consciousness"
   - "mind-body-problem"
@@ -14,7 +13,8 @@ aliases:
   - "Mind Philosophy"
   - "Mental Philosophy"
 summary: The philosophical study of consciousness, mental states, and the relationship between mind and physical reality.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Philosophy Of Mind
 
@@ -26,7 +26,6 @@ The field encompasses several competing [[concepts/theoretical-frameworks|theore
 
 ## Key Questions
 
-Philosophers of mind investigate the **hard problem of consciousness**: why physical processes give rise to subjective experience at all. They also examine the nature of qualia (the intrinsic felt qualities of experiences), the basis of personal identity and [[concepts/continuity|continuity]] of consciousness, and whether concepts like belief, desire, and intention can be rigorously defined within our understanding of physical reality. These inquiries have significant implications for [[concepts/ai-technologies|artificial intelligence]], [[concepts/neuroscience|neuroscience]], and theories of human behavior.
-
+Philosophers of mind investigate the **hard problem of consciousness**: why physical processes give rise to subjective experience [[concepts/assistive-technology|at]] all. They also examine the nature of qualia (the intrinsic felt qualities of experiences), the basis of personal identity and [[concepts/continuity|continuity]] of consciousness, and whether concepts like belief, desire, and intention can be rigorously defined within our understanding of [[concepts/physical-reality|physical reality]]. These inquiries have significant implications for [[concepts/ai-technologies|artificial intelligence]], [[concepts/neuroscience|neuroscience]], and theories of human behavior.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Feynmans-Distinction-Equivalent-Theories-and-Progress-Through-Understa|Feynmans Distinction Equivalent Theories and Progress Through Understa]] · [▶ source](https://www.youtube.com/watch?v=NM-zWTU7X-k)

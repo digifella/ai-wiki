@@ -1,13 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "avatar"
-  - "digital-twin"
-  - "cloning"
-  - "uncanny-valley"
-updated: 2026-04-15
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI Avatar
@@ -15,7 +9,7 @@ group: ai-foundations-concepts
 A digital representation of a person, created using [[concepts/ai-technologies|artificial intelligence]], designed to interact in a human-like manner. Common [[concepts/software|applications]] include [[concepts/voice-assistants|virtual assistants]], customer service, and personal branding.
 
 ## Key Characteristics
-- **Realism**: Requires avoiding the [[concepts/uncanny-valley]] through proper filming and [[concepts/software|software]] workflow.
+- **Realism**: Requires avoiding the [[concepts/uncanny-valley]] through proper filming and [[concepts/software|software]] [[concepts/workflow|workflow]].
 - **Ethical Use**: Must consider philosophical implications of digital duplication.
 - **Efficiency**: Saves time compared to traditional [[concepts/video-creation|video production]].
 
@@ -31,4 +25,4 @@ A digital representation of a person, created using [[concepts/ai-technologies|a
 - [[concepts/cloning]]
 - [[concepts/uncanny-valley]]
 
-2026 04 14 [[concepts/heygen|Heygen]] and Elevenlabs for digital twin [[concepts/cloning|cloning]]
+2026 04 14 [[concepts/heygen|Heygen]] and [[entities/eleven-labs|Elevenlabs]] for [[concepts/ai-avatar-creation|digital twin]] [[concepts/cloning|cloning]]

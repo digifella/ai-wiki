@@ -1,7 +1,7 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: ux-design
+group: uiux-fundamentals
 tags:
   - "concept"
   - "ui-ux"
@@ -13,17 +13,19 @@ tags:
 aliases:
   - "UI/UX Fundamentals"
 summary: A video by Kole Jain explaining fundamental UI/UX design concepts including affordances, hierarchy, grids, and typography.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Active Tabs
 
-Active Tabs is an educational video by [[entities/kole-jain|Kole Jain]] that introduces fundamental principles of [[concepts/user-interface|user interface]] and [[concepts/user-experience-design|user experience]] (UI/UX) design. The content targets beginners seeking to understand core design concepts while serving as a reference for those with existing design knowledge. Rather than exploring specialized techniques, the video emphasizes practical, universally-applicable design principles.
+Active Tabs is an educational video by Kole Jain that introduces fundamental principles of user interface and user experience (UI/UX) design. The content is structured to serve beginners seeking foundational knowledge while remaining accessible as a reference for designers with existing experience. Rather than exploring specialized or advanced techniques, the video emphasizes practical, universally-applicable design principles that form the basis of effective digital design work.
 
-## Core Design Principles
+## Core Concepts Covered
 
-The video presents four foundational concepts essential to [[concepts/uiux-design|UI/UX design]]. [[concepts/affordances|Affordances]] are the visual and functional properties that signal to users how they should interact with interface elements—for example, a button's appearance suggesting it can be clicked. [[concepts/hierarchy|Visual hierarchy]] organizes information by importance, guiding users' [[concepts/attention-mechanisms|attention]] through variations in size, color, and positioning. Grids provide structural frameworks for arranging content consistently across designs. [[concepts/typography|Typography]] involves selecting and implementing typefaces and text styling to enhance readability and establish design coherence.
+The video addresses several interconnected design fundamentals. Affordances—visual cues that communicate how an interface element functions—are explored as essential to intuitive design. The concept of visual hierarchy is presented as a method for organizing information so users can understand priorities and navigate content effectively. The video also covers grids as structural frameworks that create consistency and alignment, and typography as a tool for establishing hierarchy, readability, and visual tone within digital spaces.
 
-These principles work together to create interfaces that are both intuitive and visually organized, allowing users to navigate and understand digital products with minimal [[concepts/friction|friction]].
+## Approach and Audience
+
+Active Tabs takes a foundational approach suitable for designers beginning their study of UX/UI principles. The explanations prioritize clarity and practical application over theoretical depth, making the concepts immediately relevant to real design work. The video serves as both an introductory resource for novices and a reference point for practitioners reviewing established design conventions.
 
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained

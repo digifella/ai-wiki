@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "multimodal-ai"
@@ -12,11 +11,12 @@ tags:
 aliases:
   - "multimodality"
 summary: Modality refers to the various types of data, such as text and images, that multimodal AI models process.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Modality
 
-Modality refers to a distinct type or channel of data input that AI systems process. In the context of machine [[concepts/learning|learning]] and [[concepts/ai-technologies|artificial intelligence]], common modalities include text, [[concepts/images|images]], audio, and video. Each modality represents information encoded in different formats, requiring different computational approaches for processing and interpretation.
+Modality refers to a distinct type or channel of data input that AI systems process. In the context of machine [[concepts/learning|learning]] and [[concepts/ai-technologies|artificial intelligence]], common modalities include [[concepts/text|text]], [[concepts/images|images]], [[concepts/audio-modality|audio]], and video. Each modality represents information encoded in different formats, requiring different computational approaches for processing and interpretation.
 
 ## Multimodal AI
 

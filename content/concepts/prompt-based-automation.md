@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "prompt-engineering"
@@ -13,20 +12,20 @@ aliases:
   - "Prompt-Driven Automation"
   - "AI Task Automation"
 summary: Using AI prompts to automate tasks like slide deck creation and scheduling actions within AI tools like Google Gemini.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Prompt Based Automation
 
-Prompt based automation refers to the use of structured text [[concepts/instructions|instructions]] (prompts) to direct AI systems to perform repetitive or [[concepts/complex-tasks|complex tasks]] with minimal human intervention. Rather than manually executing each step of a workflow, users provide detailed prompts that guide [[entities/ai-tools|AI tools]] through task sequences, enabling [[concepts/automation|automation]] of processes that traditionally required manual effort or custom code.
+Prompt based automation refers to the use of structured [[concepts/text|text]] [[concepts/instructions|instructions]] (prompts) to direct AI systems to perform repetitive or [[concepts/complex-tasks|complex tasks]] with minimal human intervention. Rather than manually executing each step of a [[concepts/workflow|workflow]], users provide detailed prompts that guide [[entities/ai-tools|AI tools]] through task sequences, enabling [[concepts/automation|automation]] of processes that traditionally required manual effort or custom [[concepts/code|code]].
 
 ## Common Applications
 
-Practical applications include generating presentation decks, scheduling automated actions, creating visual content, and producing structured outputs from [[concepts/unstructured-data|unstructured data]]. Tools like [[entities/gemini-models|Google Gemini]] and [[entities/notebook-lm|Notebook LM]] support these workflows by accepting detailed prompts that specify formatting requirements, output [[concepts/structure|structure]], and processing steps. For example, a user might provide a prompt to transform document content into an interactive mindmap or to generate multiple variations of marketing content.
+Practical [[concepts/software|applications]] include generating presentation decks, scheduling automated actions, creating visual content, and producing structured outputs from [[concepts/unstructured-data|unstructured data]]. Tools like [[entities/gemini-models|Google Gemini]] and [[entities/notebook-lm|Notebook LM]] support these workflows by accepting detailed prompts that specify formatting requirements, [[concepts/output|output]] [[concepts/structure|structure]], and processing steps. For example, a user might provide a prompt to transform document content into an interactive mindmap or to generate multiple variations of marketing content.
 
 ## Implementation Considerations
 
-Effectiveness of prompt-based automation depends on prompt clarity, specificity, and alignment with the AI tool's capabilities. Cost implications vary significantly between services—some enterprise-grade tools like [[concepts/automated-information-pipelines|OpenClaw]] present substantial expenses compared to other platforms. The approach works best for tasks with well-defined inputs and outputs, though more complex multi-step workflows may require chaining multiple prompts or integrating several AI tools together.
-
+Effectiveness of prompt-based automation depends on prompt clarity, specificity, and alignment with the AI tool's [[concepts/capabilities|capabilities]]. [[concepts/cost|Cost]] implications vary significantly between services—some enterprise-grade tools like [[concepts/automated-information-pipelines|OpenClaw]] present substantial expenses compared to other platforms. The approach works best for tasks with well-defined inputs and outputs, though more complex multi-step workflows may require chaining multiple prompts or integrating several [[concepts/ai-tools|AI tools]] together.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

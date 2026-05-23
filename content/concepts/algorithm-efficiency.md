@@ -1,20 +1,12 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "time-complexity"
-  - "space-complexity"
-  - "algorithm-optimization"
-  - "computational-efficiency"
-aliases:
-  - "Algorithmic Efficiency"
-  - "Computational Efficiency"
-summary: "Algorithm efficiency measures computational performance through time and space complexity metrics."
-updated: 2026-04-14
+summary: Algorithm efficiency measures computational performance through time and space complexity metrics.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 ## Algorithm Efficiency
-**Definition:** Algorithm efficiency refers to the performance of an algorithm in terms of time complexity and space complexity.
+**Definition:** [[concepts/computational-efficiency|Algorithm efficiency]] refers to the performance of an algorithm in terms of time complexity and space complexity.
 
 ### Key Aspects
 - **Time Complexity**: The amount of time required for a program to run, as a function of its input size.
@@ -36,11 +28,11 @@ group: model-efficiency-compression
 - **URL:** https://www.youtube.com/watch?v=OUE3FSIk46g
 
 #### Summary
-The video, presented by [[entities/dave|Dave]], aims to demystify the [[concepts/training-process|training process]] of a [[concepts/neural-network|neural network]] by [[concepts/running|running]] a transformer on a vintage 1979 [[concepts/pdp-1144|PDP-11/44]] computer. Unlike modern cloud clusters with thousands of GPUs, this system operates with a single 6MHz processor. This unconventional [[concepts/setup|setup]] highlights the fundamental principles of algorithm efficiency and underscores the importance of optimizing code for legacy hardware.
+The video, presented by [[entities/dave|Dave]], aims to demystify the [[concepts/training-process|training process]] of a [[concepts/neural-network|neural network]] by [[concepts/running|running]] a transformer on a vintage 1979 [[concepts/pdp-1144|PDP-11/44]] computer. Unlike modern cloud clusters with thousands of GPUs, this system operates with a single 6MHz processor. This unconventional [[concepts/setup|setup]] [[concepts/highlights|highlights]] the fundamental principles of [[concepts/computational-efficiency|algorithm efficiency]] and underscores the importance of optimizing [[concepts/code|code]] for legacy [[concepts/hardware|hardware]].
 
 #### Key Takeaways
 - Demonstration that significant computational tasks can be achieved with minimal resources.
-- Insight into the [[concepts/historical-context|historical context]] of [[concepts/ai-development|AI development]] and its progression to modern capabilities.
+- Insight into the [[concepts/historical-context|historical context]] of [[concepts/ai-development|AI development]] and its progression to modern [[concepts/capabilities|capabilities]].
 - Emphasis on [[concepts/algorithm-optimization|algorithm optimization]] as a critical factor in achieving efficient performance across diverse computing environments.
 
 ### Related Concepts & Entities
@@ -50,8 +42,7 @@ The video, presented by [[entities/dave|Dave]], aims to demystify the [[concepts
 [[concepts/pdp-1144]]
 
 ### Backlinks
-2026 04 13 Demystifying AI Transformer Training on a 1979 PDP 11
-
+2026 04 13 Demystifying [[concepts/transformer-training|AI Transformer Training]] on a 1979 PDP 11
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Pi-39-Digits-for-Universe-Measurement-Trillions-for-Computational-Test|Pi 39 Digits for Universe Measurement Trillions for Computational Test]] · [▶ source](https://www.youtube.com/watch?v=FpyrF_Ci2TQ)
 - 2026-04-23: Anthropic

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: food-nutrition
-group: cooking-recipes-culinary-practice
+domain: creative-pursuits
 tags:
   - "lightroom"
   - "photo-editing"
@@ -12,11 +11,12 @@ aliases:
   - "Lightroom Catalog Mastery"
   - "Catalog Management in Lightroom"
 summary: A detailed summary of a Lightroom Catalog lesson from Will's Master of Editing course.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Keywords
 
-Keywords in Lightroom are [[concepts/metadata|metadata]] tags assigned to [[concepts/images|images]] that enable efficient [[concepts/organization|organization]], searchability, and retrieval within a [[concepts/catalog|catalog]]. They function as descriptive labels that can be applied individually or in hierarchical structures, allowing photographers and editors to categorize images by subject matter, location, person, technical attributes, or any custom classification system.
+Keywords in [[concepts/lightroom|Lightroom]] are [[concepts/metadata|metadata]] tags assigned to [[concepts/images|images]] that enable efficient [[concepts/organization|organization]], searchability, and retrieval within a [[concepts/catalog|catalog]]. They function as descriptive labels that can be applied individually or in hierarchical structures, allowing photographers and editors to categorize images by subject matter, location, person, technical attributes, or any custom classification system.
 
 ## Application and Workflow
 
@@ -24,8 +24,7 @@ Within Lightroom's catalog system, keywords are applied through the Keywording p
 
 ## Practical Benefits
 
-Implementing a consistent keyword strategy significantly reduces the time required to locate images later, particularly valuable when managing large catalogs. Keywords work in conjunction with other metadata fields—such as ratings, flags, and collections—to create a comprehensive organizational framework. The searchable [[entities/nature|nature]] of keyword metadata also facilitates client work, archival management, and content management workflows where images need to be retrieved by specific criteria.
-
+Implementing a consistent keyword strategy significantly reduces the time required to locate images later, particularly valuable when managing large catalogs. Keywords work in conjunction with other metadata fields—such as ratings, [[concepts/flags|flags]], and collections—to create a comprehensive organizational framework. The searchable [[entities/nature|nature]] of keyword metadata also facilitates client work, archival management, and content management workflows where images need to be retrieved by specific criteria.
 ## Source Notes
 - 2026-04-18: [[lab-notes/2026-04-18-Adobe-Lightroom-April-2024-Updates-AI-Search-Workflow-Creative-Tools|Adobe Lightroom April 2024 Updates AI Search Workflow Creative Tools]] · [▶ source](https://www.youtube.com/watch?v=AMRmW7BicMk)
 - 2026-04-21: 12 Advanced Google Search · [▶ source](https://www.youtube.com/watch?v=C-2YMhMu5Lc)

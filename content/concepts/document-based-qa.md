@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "agentic-rag"
-  - "azure"
-  - "document-based-qa"
-  - "rag"
-updated: 2026-04-15
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Document-based Q&A
 
-A question-answering approach that retrieves and synthesizes information from specific documents rather than relying on a model's pre-trained knowledge. Enables precise, context-aware [[concepts/responses|responses]] grounded in source material.
+A [[concepts/fact-based-queries|question-answering]] approach that retrieves and synthesizes information from specific documents rather than relying on a model's pre-trained knowledge. Enables precise, context-aware [[concepts/responses|responses]] grounded in source material.
 
 ## Key Features
 - **Document-specific context**: Answers derived exclusively from provided documents (e.g., [[concepts/e-books|e-books]], internal docs)
@@ -23,10 +18,10 @@ A question-answering approach that retrieves and synthesizes information from sp
 - Active [[concepts/azure-ai]] subscription
 - [[concepts/file-ingestion|Document ingestion]] pipeline (e.g., PDF/[[concepts/text-modality|text processing]])
 - [[concepts/rag]] pipeline configuration with document [[concepts/metadata|metadata]] tagging
-- [[concepts/rich-tooling|Foundry]] integration for enterprise-grade [[concepts/deployment|deployment]]
+- [[concepts/rich-tooling|Foundry]] [[concepts/integration|integration]] for enterprise-grade [[concepts/deployment|deployment]]
 
 ## Integration Notes
-- Built using [[entities/azure-ai|Azure AI]] services and Foundry (per [Azure Innovation Station tutorial](https://www.youtube.com/watch?v=xXTuxKdzZrI))
+- Built using [[entities/azure-ai|Azure AI]] services and [[concepts/foundry|Foundry]] (per [Azure Innovation Station tutorial](https://www.youtube.com/watch?v=xXTuxKdzZrI))
 - Designed specifically for e-book [[concepts/knowledge-bases|knowledge bases]]
 - Requires document-specific indexing for retrieval [[concepts/accuracy|accuracy]]
 
@@ -37,8 +32,7 @@ A question-answering approach that retrieves and synthesizes information from sp
 - [[concepts/document-retrieval|Document Retrieval]]
 - Enterprise [[concepts/knowledge-base|Knowledge Base]]
 
-2026 04 14 Build an [[concepts/agentic-rag-systems|agentic rag]] system in [[concepts/azure-cognitive-services|azure ai]] and foundry
-
+2026 04 14 Build an [[concepts/agentic-rag-systems|agentic rag]] system in [[concepts/azure-cognitive-services|azure ai]] and [[concepts/foundry|foundry]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)
 - 2026-04-18: [[lab-notes/2026-04-18-Anthropic-Claude-Opus-47-Agentic-Coding-Multimodal-and-Memory-Advancem|Anthropic Claude Opus 47 Agentic Coding Multimodal and Memory Advancem]] · [▶ source](https://www.youtube.com/watch?v=uXF6bR4_5RY)

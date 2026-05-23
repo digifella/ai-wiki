@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "machine-learning"
-  - "agi"
-  - "cognitive-science"
-  - "vision"
-  - "world-models"
-  - "predictive-modeling"
-  - "latent-space"
-  - "computer-vision"
-aliases:
-  - "predictive-dynamics"
-  - "latent-representation-models"
-summary: "A computational framework where an agent learns to predict the future states of its environment by modeling underlying dynamics to enable planning and reasoning."
-updated: 2026-04-21
+summary: A computational framework where an agent learns to predict the future states of its environment by modeling underlying dynamics to enable planning and reasoning.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # World Models
@@ -29,21 +16,20 @@ A computational framework where an [[entities/agent|agent]] learns to predict th
 
 ## Key Architectures & Approaches
 - [[concepts/llms]]: Autoregressive prediction of discrete linguistic [[concepts/tokens|tokens]]; primarily limited by the scope of text-based data.
-- [[concepts/vl-jepa]]: A recent [[concepts/computer-vision|vision]]-centric approach to AGI emerging from [[entities/meta-ai|Meta]] FAIR Lab and [[entities/yann-lecun|Yann LeCun]].
-	- **Core Thesis**: "Language is not intelligence"; moves the focus from generative text to visual/sensory world modeling.
+- [[concepts/vl-jepa]]: A recent [[concepts/computer-vision|vision]]-centric approach to [[concepts/agi|AGI]] emerging from [[entities/meta-ai|Meta]] FAIR Lab and [[entities/yann-lecun|Yann LeCun]].
+	- **Core Thesis**: "Language is not intelligence"; moves the focus from generative [[concepts/text|text]] to visual/sensory world modeling.
 	- **Departure from Generative AI**: Aims to move away from the limitations of [[entities/chatgpt]] and purely generative paradigms.
 	- **Mechanism**: Utilizes Joint-Embedding Predictive [[concepts/architecture|Architecture]] to predict information in a latent space, avoiding the computational overhead of pixel-by-pixel generation.
 	- **Objective**: Establishing non-[[concepts/llm-reasoning|LLM reasoning]] architectures through visual [[concepts/predictive-modeling|predictive modeling]].
 
 ## Related Concepts
-- AGI
+- [[concepts/agi|AGI]]
 - [[concepts/generative-ai]]
 - Latent Space
 - Joint-Embedding Predictive [[concepts/architecture|Architecture]]
 
 ---
-**Backlink:** 2026 04 14 New paper for a vision approach to AGI not LLM
-
+**Backlink:** 2026 04 14 New paper for a [[concepts/computer-vision|vision]] approach to AGI not LLM
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents

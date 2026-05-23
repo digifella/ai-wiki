@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "automata-theory"
   - "computational-model"
@@ -12,7 +11,8 @@ aliases:
   - "Turing machine model"
   - "universal computing device"
 summary: A theoretical computational model consisting of an infinite tape and a state machine that defines what is algorithmically computable.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Turing Machine
 
@@ -25,6 +25,5 @@ The machine operates by reading symbols from the tape, [[concepts/consulting|con
 ## Computational Significance
 
 [[concepts/turing-machines|Turing machines]] formalize the intuitive [[entities/notion|notion]] of an algorithm and establish a theoretical boundary for computability. The Church-Turing thesis—a widely accepted principle—states that any function computable by any reasonable computational device is computable by a Turing machine. This equivalence allows researchers to classify problems by their computational difficulty and to prove that certain problems, like the halting problem, are undecidable. Modern computers, while vastly more practical, are not fundamentally more powerful than Turing machines in terms of what they can [[concepts/compute|compute]].
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-P-vs-NP-Problem-Computational-Complexity-Implications-and-Historical-C|P vs NP Problem Computational Complexity Implications and Historical C]] · [▶ source](https://www.youtube.com/watch?v=pQsdygaYcE4)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: multimodal-generative-media
 tags:
   - "natural-language-processing"
   - "ai-automation"
@@ -11,16 +10,17 @@ tags:
 aliases:
   - "natural language processing"
 summary: This concept refers to natural language processing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 title: NLP
 ---
 # NLP
 
-Natural Language Processing (NLP) is a branch of [[concepts/ai-technologies|artificial intelligence]] concerned with enabling computers to understand, interpret, and generate human language in meaningful ways. NLP combines techniques from linguistics, computer science, and machine [[concepts/learning|learning]] to process text and speech data, making it a foundational technology for [[concepts/agentic-ai|AI agents]] that need to interact with users or analyze language-based information.
+[[concepts/natural-language-processing|Natural Language Processing (NLP)]] is a branch of [[concepts/ai-technologies|artificial intelligence]] concerned with enabling computers to understand, interpret, and generate human language in meaningful ways. NLP combines techniques from linguistics, computer [[concepts/science|science]], and machine [[concepts/learning|learning]] to process [[concepts/text|text]] and speech data, making it a foundational technology for [[concepts/agentic-ai|AI agents]] that need to interact with users or analyze language-based information.
 
 ## Core Capabilities
 
-NLP systems perform various tasks including [[concepts/text-classification|text classification]], [[concepts/sentiment-analysis|sentiment analysis]], [[concepts/named-entity-recognition|named entity recognition]], machine translation, and question-answering. These capabilities allow AI agents to extract information from [[concepts/unstructured-text|unstructured text]], understand user intent, and generate coherent [[concepts/responses|responses]]. Modern NLP approaches rely heavily on [[concepts/large-language-model-llm|large language models]] that have been trained on vast amounts of text data to recognize patterns in language.
+NLP systems perform various tasks including [[concepts/text-classification|text classification]], [[concepts/sentiment-analysis|sentiment analysis]], [[concepts/named-entity-recognition|named entity recognition]], machine translation, and [[concepts/fact-based-queries|question-answering]]. These [[concepts/capabilities|capabilities]] allow [[concepts/ai-agents|AI agents]] to extract information from [[concepts/unstructured-text|unstructured text]], understand user intent, and generate coherent [[concepts/responses|responses]]. Modern NLP approaches rely heavily on [[concepts/large-language-model-llm|large language models]] that have been trained on vast amounts of text data to recognize patterns in language.
 
 ## Applications in AI Agents
 

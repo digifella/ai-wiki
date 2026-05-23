@@ -9,15 +9,15 @@ tags:
 aliases:
   - "TIGR gene editing"
 summary: Tigr is a successor to CRISPR featured in a SciShow episode involving Dr. Feng Zhang at the Broad Institute.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Tigr
 
-Tigr is a gene-editing technology that represents a successor to [[concepts/crispr|CRISPR]]-Cas9. The system was featured in a [[entities/scishow-channel|SciShow]] episode titled "[[entities/scishow|SciShow Field Trip: Feng Zhang]] and the Future of [[concepts/gene-editing|Gene Editing]]," which documented research at the [[entities/broad-institute|Broad Institute]].
+Tigr is a gene-editing technology that represents a successor to [[concepts/crispr|CRISPR]]-Cas9. The system was featured in a [[entities/scishow-channel|SciShow]] episode titled "[[entities/scishow|SciShow Field Trip: Feng Zhang]] and the Future of [[concepts/gene-editing|Gene Editing]]," which documented research [[concepts/assistive-technology|at]] the [[entities/broad-institute|Broad Institute]].
 
 ## Research and Development
 
-[[entities/feng-zhang|Dr. Feng Zhang]], a prominent researcher at the Broad Institute, is associated with the development and advancement of Tigr technology. The research explores improvements and extensions to existing gene-editing capabilities beyond what CRISPR systems offer.
+[[entities/feng-zhang|Dr. Feng Zhang]], a prominent researcher at the Broad Institute, is associated with the development and advancement of Tigr technology. The research explores improvements and extensions to existing gene-editing [[concepts/capabilities|capabilities]] beyond what CRISPR systems offer.
 
 ## Public Coverage
 

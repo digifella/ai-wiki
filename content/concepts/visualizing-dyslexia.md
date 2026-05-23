@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: ai-image-generation-editing
 tags:
   - "concept"
   - "dyslexia"
@@ -13,11 +12,12 @@ aliases:
   - "Visualising the Invisible Exhibition"
   - "Art and Dyslexia Strengths"
 summary: Kim Percy's art exhibition explores visual representations of dyslexia and associated cognitive strengths.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-image-generation-editing
 ---
 # Visualizing Dyslexia
 
-Visualizing Dyslexia refers to [[concepts/visual-arts|Kim Percy]]'s art exhibition titled "[[concepts/visual-art|Visualising the Invisible]]," which explores how dyslexia can be represented and understood through visual art. The exhibition examines the cognitive experience of dyslexia, moving beyond deficit-focused perspectives to highlight the distinctive strengths and ways of processing information associated with the condition.
+Visualizing Dyslexia refers to [[concepts/visual-arts|Kim Percy]]'s [[concepts/art|art]] exhibition titled "[[concepts/visual-art|Visualising the Invisible]]," which explores how dyslexia can be represented and understood through visual art. The exhibition examines the cognitive experience of dyslexia, moving beyond deficit-focused perspectives to highlight the distinctive strengths and ways of processing information associated with the condition.
 
 ## Artistic Approach
 
@@ -25,7 +25,6 @@ Percy's work uses [[concepts/visual-representation|visual representation]] to co
 
 ## Focus on Strengths
 
-Rather than emphasizing difficulties, the exhibition centers on cognitive strengths frequently associated with dyslexia, such as spatial [[concepts/reasoning|reasoning]], creative [[concepts/human-cognition|thinking]], and pattern recognition. This approach challenges conventional narratives around [[concepts/learning|learning]] differences and contributes to broader conversations about neurodiversity and cognitive diversity in [[concepts/health|health]] and wellbeing contexts.
-
+Rather than emphasizing difficulties, the exhibition centers on cognitive strengths frequently associated with dyslexia, such as spatial [[concepts/reasoning|reasoning]], creative [[concepts/human-cognition|thinking]], and pattern recognition. This approach challenges conventional narratives around [[concepts/learning|learning]] differences and contributes to broader conversations about neurodiversity and cognitive diversity in [[concepts/health|health]] and [[concepts/wellbeing|wellbeing]] contexts.
 ## Source Notes
 - 2026-04-29: [[lab-notes/2026-04-29-Kim-Percys-Visualising-the-Invisible-Exhibition-Art-and|Kim Percy's Visualising the Invisible Exhibition: Art and Dyslexia Strengths]] · [▶ source](https://www.youtube.com/watch?v=ss57GR1CMjs)

@@ -12,19 +12,19 @@ aliases:
   - "Ralph technique"
   - "Ralph Wiggum loops"
 summary: The 'Ralph' technique is an AI coding method that utilizes agentic loops.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # Agentic Loops
 
-Agentic loops are a pattern in AI-assisted [[concepts/coding|software development]] where an [[concepts/ai-agent|AI agent]] iteratively performs tasks, evaluates results, and refines its approach based on [[concepts/feedback|feedback]]. Rather than executing a single instruction and halting, the agent enters a cycle of action and reflection, allowing it to correct errors, handle unexpected outcomes, and progressively improve its output toward a goal. This approach mirrors human [[concepts/problem-solving|problem-solving]] by incorporating self-correction and adaptation.
+Agentic loops are a pattern in AI-assisted software development where an AI agent iteratively performs tasks, evaluates results, and refines its approach based on feedback. Rather than executing a single instruction and halting, the agent enters a cycle of action and reflection, allowing it to correct errors, handle unexpected outcomes, and progressively improve its output toward a goal. This approach mirrors human problem-solving by incorporating evaluation and adaptation into the development process.
 
-## Core Mechanism
+## Mechanism and Structure
 
-The fundamental [[concepts/structure|structure]] of an [[concepts/agentic-loop|agentic loop]] consists of repeating steps: the agent takes an action, observes the result, evaluates whether the outcome matches the intended goal, and determines whether to continue, modify, or abandon its current approach. This cycle continues until the agent reaches a satisfactory [[concepts/solution|solution]] or determines that further [[concepts/iteration|iteration]] is unproductive. The feedback mechanism—whether from environment observation, code execution, [[concepts/testing|testing]] results, or explicit evaluation—provides the agent with information necessary to adjust its subsequent actions.
+In a typical agentic loop, an agent receives a task or goal, takes an action (such as writing code or modifying existing code), then evaluates whether the result meets requirements or solves the problem. If the output is incomplete or incorrect, the agent analyzes what went wrong and attempts a refined approach. This cycle continues until the agent either produces satisfactory results or reaches defined stopping conditions. The feedback mechanism—whether from automated testing, error messages, or explicit human input—drives the refinement process.
 
-## Application in Software Development
+## Applications
 
-In coding contexts, agentic loops enable [[concepts/agentic-ai|AI agents]] to handle complex development tasks that require problem-solving beyond simple code generation. An agent might write code, execute it to identify bugs, analyze error messages, and iteratively refine the implementation. This pattern is particularly useful for tasks where requirements are ambiguous, solutions require [[concepts/debugging|debugging]], or multiple approaches need evaluation. The technique allows [[concepts/agents|agents]] to work more autonomously while reducing the need for human intervention at each step.
+Agentic loops are particularly useful in coding scenarios where multiple attempts or iterative refinement is natural, such as debugging, test-driven development, or solving complex algorithmic problems. The 'Ralph' technique exemplifies one application of this pattern, using agentic loops to structure AI-assisted coding workflows. This approach enables agents to handle ambiguity and complexity more effectively than single-pass generation methods.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "system-prompts"
@@ -13,20 +12,20 @@ aliases:
   - "prompt templates"
   - "system instructions"
 summary: System prompting is a technique for directing AI model behavior through initial instructions, demonstrated in Claude Code 2.0's enhanced coding and automation capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # System Prompting
 
-System prompting is a technique for controlling AI [[concepts/model-behavior|model behavior]] through structured initial [[concepts/instructions|instructions]] provided before user interaction. Rather than relying solely on individual user prompts, [[concepts/system-prompts|system prompts]] establish context, define operational [[concepts/parameters|parameters]], and guide how an AI model should approach tasks. These instructions form part of the model's initial [[concepts/context-window|context window]] and influence all subsequent [[concepts/responses|responses]] within a conversation [[concepts/session|session]].
+System [[concepts/prompting|prompting]] is a technique for controlling AI [[concepts/model-behavior|model behavior]] through structured initial [[concepts/instructions|instructions]] provided before user interaction. Rather than relying solely on individual user prompts, [[concepts/system-prompts|system prompts]] establish context, define operational [[concepts/parameters|parameters]], and guide how an AI model should approach tasks. These instructions form part of the model's initial [[concepts/context-window|context window]] and [[concepts/power|influence]] all subsequent [[concepts/responses|responses]] within a conversation [[concepts/session|session]].
 
 ## Application in AI Coding and Automation
 
-System prompting has become increasingly relevant in specialized [[concepts/ai-powered-applications|AI applications]], particularly in [[concepts/coding|coding]] environments. Tools like [[concepts/claude-code-20|Claude Code 2.0]] demonstrate how effective system prompts enable [[concepts/agentic-ai|AI agents]] to handle complex technical tasks such as code generation, [[concepts/debugging|debugging]], and automation workflow design. By establishing clear instructions about coding [[concepts/open-standards|standards]], tool usage, and task prioritization, system prompts allow AI systems to operate with greater autonomy and produce more reliable outputs in professional contexts.
+System prompting has become increasingly relevant in specialized [[concepts/ai-powered-applications|AI applications]], particularly in [[concepts/coding|coding]] environments. Tools like [[concepts/claude-code-20|Claude Code 2.0]] demonstrate how effective system prompts enable [[concepts/agentic-ai|AI agents]] to handle complex technical tasks such as [[concepts/code-generation|code generation]], [[concepts/debugging|debugging]], and [[concepts/automation-workflow|automation workflow]] [[concepts/design|design]]. By establishing clear instructions about coding [[concepts/open-standards|standards]], tool usage, and task prioritization, system prompts allow AI systems to operate with greater autonomy and produce more reliable outputs in professional contexts.
 
 ## Role in Structured Output and Workflows
 
-System prompts are also utilized to enforce structured outputs and optimize multi-step workflows. When combined with [[entities/ai-tools|AI tools]] like [[concepts/ai-integrated-notebooks|NotebookLM]] and [[concepts/gemini|Gemini]], carefully designed system prompts can guide models to produce consistently formatted responses suitable for downstream processing or integration into larger systems. This capability is particularly valuable in [[concepts/scenarios|scenarios]] requiring reproducible results across multiple interactions or when feeding AI outputs into automated pipelines.
-
+System prompts are also utilized to enforce structured outputs and optimize multi-step workflows. When combined with [[entities/ai-tools|AI tools]] like [[concepts/ai-integrated-notebooks|NotebookLM]] and [[concepts/gemini|Gemini]], carefully designed system prompts can guide [[concepts/models|models]] to produce consistently formatted responses suitable for downstream processing or [[concepts/integration|integration]] into larger systems. This capability is particularly valuable in [[concepts/scenarios|scenarios]] requiring reproducible results across multiple interactions or when feeding AI outputs into automated pipelines.
 ## Source Notes
 - 2026-04-07: Claude Code 2.0 MASSIVE Upgrade! (Game Changer)
 - 2026-04-08: [[lab-notes/2026-04-08-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)

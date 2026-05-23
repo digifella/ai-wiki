@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "ssh"
-  - "windows"
-  - "wsl"
-  - "administration"
-  - "admin-ssh-keys"
-  - "key-placement"
-  - "windows-openssh"
-  - "ssh-admin"
-aliases:
-  - "Admin Authorized Keys"
-  - "Admin SSH Keys"
 summary: "Windows OpenSSH requires administrator SSH keys to be placed in C://ProgramData//ssh//administrators_authorized_keys instead of the standard .ssh/authorized_keys file."
-updated: 2026-04-15
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # administrators_authorized_keys
@@ -29,11 +17,10 @@ group: privacy-security-guardrails
 ## Related Concepts
 - [[concepts/ssh]]
 - [[entities/wsl|WSL]]
-- OpenSSH
+- [[entities/openssh|OpenSSH]]
 - [[entities/windows|Windows]] OpenSSH
 
-2026 04 14 Install SSH and configure to access WSL
-
+2026 04 14 Install [[concepts/ssh|SSH]] and configure to access [[entities/wsl|WSL]]
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

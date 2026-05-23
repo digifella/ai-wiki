@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "color-grading"
-  - "photo-editing"
-  - "adobe-camera-raw"
-  - "color-modification"
-  - "digital-imaging"
-aliases:
-  - "color range"
-  - "color adjustment boundaries"
-summary: "Color range control is a mechanism used to define the specific boundaries of color modification within a digital image to prevent unintended shifts in adjacent pixels."
-updated: 2026-04-20
+summary: Color range control is a mechanism used to define the specific boundaries of color modification within a digital image to prevent unintended shifts in adjacent pixels.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Color range control
@@ -21,16 +12,15 @@ The mechanism of defining the specific boundaries of color modification within a
 ## Core Mechanisms
 - [[concepts/point-color]]: Targeted adjustment via specific [[concepts/color-sampling|color sampling]].
 - [[concepts/color-mixer]]: Broad-spectrum adjustments using [[concepts/hue]], Saturation, and Luminance [[concepts/parameters|parameters]].
-- Variance: A tool for regulating the breadth of influence for a specific color sample.
+- Variance: A tool for regulating the breadth of [[concepts/power|influence]] for a specific color sample.
 
 ## Recent Developments
 - **[[entities/adobe-camera-raw|Adobe Camera Raw]]: [[concepts/color-contrast|Variance Slider]]** (2026-04-14)
     - Located within the [[concepts/point-color]] section of the [[concepts/color-mixer]].
-    - Allows users to control the range of colors affected by a [[concepts/point-color]] adjustment after sampling a specific color in an image.
+    - Allows users to control the [[concepts/range|range]] of colors affected by a [[concepts/point-color]] adjustment after sampling a specific color in an image.
     - Documentation source: [[entities/glyn-dewis|Glyn Dewis]]
 
 2026 04 14 New [[concepts/variance-filter|Camera Raw Variance filter]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-v15-AI-Powered-Enhancements-for-Creative-Control-and|Lightroom Classic v15 AI Powered Enhancements for Creative Control and]] · [▶ source](https://www.youtube.com/watch?v=dKXqg50v1sA)

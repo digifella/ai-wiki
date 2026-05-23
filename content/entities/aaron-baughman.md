@@ -1,21 +1,12 @@
 ---
 type: entity
-tags:
-  - "ai"
-  - "ibm"
-  - "experts"
-  - "panel"
-  - "ai-systems"
-  - "ibm-fellow"
-  - "ai-architecture"
-  - "mixture-of-experts"
-  - "ai-scaling-laws"
-summary: "Aaron Baughman is an IBM Fellow and Master Inventor specializing in AI systems architecture."
-updated: 2026-04-18
+summary: Aaron Baughman is an IBM Fellow and Master Inventor specializing in AI systems architecture.
+updated: 2026-05-23
+stub: true
 ---
 # Aaron Baughman
 
-IBM [[entities/fellow|Fellow]] and Master Inventor specializing in AI systems [[concepts/architecture|architecture]].
+[[entities/ibm|IBM]] [[entities/fellow|Fellow]] and Master Inventor specializing in AI systems [[concepts/architecture|architecture]].
 
 ## Key Participation
 - **[[entities/mixture-of-experts]]** panel discussion (December 2025):
@@ -27,7 +18,7 @@ IBM [[entities/fellow|Fellow]] and Master Inventor specializing in AI systems [[
 
 2026 04 14 Ibm panel
 
-- 2026-04-28 [2026-04-28-Apples-New-CEO-AI-Strategy-and-AI-Intent-Understanding](2026-04-28-Apples-New-CEO-AI-Strategy-and-AI-Intent-Understanding.md) ← Apples New Ceo Ai Strategy And Ai Intent Understanding
-- 2026-04-22 [2026-04-22-Stanfords-STORM-AI-Verifiable-Agent-Based-Research-and-Knowledge-Curation](2026-04-22-Stanfords-STORM-AI-Verifiable-Agent-Based-Research-and-Knowledge-Curation.md) ← Stanfords Storm Ai Verifiable Agent Based Research And Knowledge Curation
-- 2026-04-07 [2026-04-07-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute](2026-04-07-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute.md) ← Nvidia Gtc Openai Pivot Shopify Agents And Anthropic Institute
+- 2026-04-28 [2026-04-28-Apples-New-CEO-AI-Strategy-and-AI-Intent-Understanding](2026-04-28-Apples-New-CEO-AI-Strategy-and-AI-Intent-Understanding.md) ← Apples New Ceo Ai Strategy And [[concepts/ai-driven-marketing|Ai Intent Understanding]]
+- 2026-04-22 [2026-04-22-Stanfords-STORM-AI-Verifiable-Agent-Based-Research-and-Knowledge-Curation](2026-04-22-Stanfords-STORM-AI-Verifiable-Agent-Based-Research-and-Knowledge-Curation.md) ← Stanfords [[concepts/agent-based-knowledge-curation|Storm Ai]] Verifiable [[concepts/agent-based-research|Agent Based Research]] And Knowledge Curation
+- 2026-04-07 [2026-04-07-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute](2026-04-07-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute.md) ← [[entities/nvidia|Nvidia]] [[entities/gtc-conference|Gtc]] [[entities/openai|Openai]] Pivot [[entities/shopify|Shopify]] [[concepts/agents|Agents]] And [[entities/anthropic-institute|Anthropic Institute]]
 ## Source Notes

@@ -1,35 +1,23 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "generative-ai"
-  - "computer-vision"
-  - "ai-models"
-  - "text-to-image"
-  - "diffusion-models"
-  - "prompt-engineering"
-  - "visual-synthesis"
-  - "neural-networks"
-aliases:
-  - "image-synthesis"
-  - "text-to-visual"
-summary: "The process of using generative AI and diffusion models to synthesize visual imagery from natural language descriptions."
-updated: 2026-04-26
+summary: The process of using generative AI and diffusion models to synthesize visual imagery from natural language descriptions.
+updated: 2026-05-23
 group: ai-image-generation-editing
+stub: true
 ---
 # text-to-image generation
 
-The process of utilizing [[concepts/generative-ai]] and Diffusion Models to synthesize visual imagery from [[concepts/natural-language-descriptions|natural language descriptions]].
+The process of utilizing [[concepts/generative-ai]] and Diffusion [[concepts/models|Models]] to synthesize visual imagery from [[concepts/natural-language-descriptions|natural language descriptions]].
 
 ## Core Mechanisms
 - **[[concepts/prompt-engineering|Prompt Engineering]]**: The optimization of natural language inputs to guide the Latent Space toward specific visual outputs.
 - **[[concepts/neural-networks|Neural Networks]]**: The underlying [[concepts/architecture|architecture]] used to map [[concepts/text-embeddings|text embeddings]] to pixel distributions.
 
 ## Recent Developments
-- **[[entities/openai|OpenAI]] [[entities/gpt-image-2|GPT Image 2]].0**: A significant advancement in [[concepts/ai-image-generation]] capabilities, noted for groundbreaking performance in visual synthesis.
+- **[[entities/openai|OpenAI]] [[entities/gpt-image-2|GPT Image 2]].0**: A significant advancement in [[concepts/ai-image-generation]] [[concepts/capabilities|capabilities]], noted for groundbreaking performance in visual synthesis.
 	- Evaluated as a next-generation leap in the field.
 	- Primary evaluation reference: 2026 04 22 [[entities/openai|OpenAI]] [[entities/gpt-image-2|GPT Image 2]].0 Evaluating Next Gen [[concepts/ai-image-generation|AI Image Generation]] Capabilities (Analysis by [[entities/matthew-berman]]).
-
 ## Source Notes
 - 2026-04-22: OpenAI GPT Image 2 · [▶ source](https://www.youtube.com/watch?v=uvdRGC4cFhY)
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

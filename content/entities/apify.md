@@ -8,11 +8,11 @@ tags:
 aliases:
   - "Apify automation tool"
 summary: Apify is an automation tool used for web scraping.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Apify
 
-Apify is a cloud-based [[concepts/automation|automation]] platform designed primarily for [[concepts/web-crawling|web scraping]] and web data extraction. It provides tools and infrastructure for users to automate the process of collecting data from websites, whether for business intelligence, price monitoring, lead generation, or other data-driven [[concepts/software|applications]].
+[[concepts/apify|Apify]] is a cloud-based [[concepts/automation|automation]] platform designed primarily for [[concepts/web-crawling|web scraping]] and web [[concepts/data-extraction|data extraction]]. It provides tools and infrastructure for users to automate the process of collecting data from websites, whether for business intelligence, price monitoring, lead generation, or other data-driven [[concepts/software|applications]].
 
 ## Key Features
 
@@ -22,7 +22,7 @@ The platform offers both visual and code-based approaches to building scrapers. 
 
 Apify serves various practical applications including e-commerce price tracking, real estate data collection, job listing aggregation, and competitive intelligence gathering. Organizations use it to automate repetitive data collection tasks that would otherwise require manual effort or custom development.
 
-- 2026-04-12 [2026-04-12-Googles-Free-AI-Workflow-WebMobile-App-Design-and-Development](2026-04-12-Googles-Free-AI-Workflow-WebMobile-App-Design-and-Development.md) ← Googles Free Ai Workflow Webmobile App Design And Development
-- 2026-04-07 [2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents](2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents.md) ← Firecrawl Ai Essential Web Data For Autonomous Ai Agents
+- 2026-04-12 [2026-04-12-Googles-Free-AI-Workflow-WebMobile-App-Design-and-Development](2026-04-12-Googles-Free-AI-Workflow-WebMobile-App-Design-and-Development.md) ← Googles Free [[concepts/advanced-ai-processing|Ai Workflow]] [[concepts/webmobile-app-design|Webmobile App Design]] And Development
+- 2026-04-07 [2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents](2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents.md) ← [[concepts/firecrawl-ai|Firecrawl Ai]] Essential Web Data For [[concepts/action-oriented-ai|Autonomous Ai Agents]]
 - 2026-04-08 [2026-04-08-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents](2026-04-08-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents.md) ← Firecrawl Ai Essential Web Data For Autonomous Ai Agents
 ## Source Notes

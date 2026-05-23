@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: design-systems-ui-infographics
+domain: ux-design
 tags:
   - "concept"
   - "text-to-ui"
@@ -13,20 +12,20 @@ aliases:
   - "Google Stitch 2.0"
   - "Text-based UI Design"
 summary: A design approach using Google Stitch that converts text and markdown into UI elements.
-updated: 2026-05-01
+updated: 2026-05-23
+group: uiux-fundamentals
 ---
 # Text To Ui Design
 
-Text To UI Design is a [[concepts/design-thinking|design methodology]] that leverages [[concepts/automation-tools|automation tools]] to convert written content, particularly text and [[concepts/markdown|markdown]] formatting, directly into functional [[concepts/user-interface|user interface]] elements. This approach streamlines the design workflow by reducing manual markup and styling work, allowing designers and developers to focus on content and logic rather than repetitive formatting tasks.
+[[concepts/text|Text]] To UI [[concepts/design|Design]] is a [[concepts/design-thinking|design methodology]] that leverages [[concepts/automation-tools|automation tools]] to convert written content, particularly text and [[concepts/markdown|markdown]] formatting, directly into functional [[concepts/user-interface|user interface]] elements. This approach streamlines the [[concepts/visual-strategy-development|design workflow]] by reducing manual markup and styling work, allowing designers and developers to focus on content and logic rather than repetitive formatting tasks.
 
 ## Google Stitch
 
-Google Stitch is a primary tool enabling this workflow, facilitating the transformation of plaintext and markdown inputs into structured UI components. The tool interprets formatting conventions and semantic markers within text to generate corresponding visual and interactive elements, effectively bridging the gap between [[concepts/content-creation|content creation]] and interface design.
+[[concepts/ai-assisted-prototyping|Google Stitch]] is a primary tool enabling this workflow, facilitating the transformation of plaintext and markdown inputs into structured UI components. The tool interprets formatting conventions and semantic markers within text to generate corresponding visual and interactive elements, effectively bridging the gap between [[concepts/content-creation|content creation]] and interface design.
 
 ## Application and Benefits
 
-This design approach is particularly useful in rapid prototyping and iterative design processes where quick visual [[concepts/feedback|feedback]] on text-based content is valuable. By automating the conversion from text to UI, teams can iterate more quickly and maintain [[concepts/logical-consistency|consistency]] across interface elements without manual redesign of each component.
-
+This design approach is particularly useful in [[concepts/rapid-prototyping|rapid prototyping]] and iterative design processes where quick visual [[concepts/feedback|feedback]] on text-based content is valuable. By automating the conversion from text to UI, teams can iterate more quickly and maintain [[concepts/logical-consistency|consistency]] across interface elements without manual redesign of each component.
 ## Source Notes
 - 2026-04-14: Google Stitch - Channel Teacher's Tech
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-and-Canva-Integration-for-Streamlined-Graphic-Design|Claude AI and Canva Integration for Streamlined Graphic Design]] · [▶ source](https://www.youtube.com/watch?v=gBV5FT40N_M)

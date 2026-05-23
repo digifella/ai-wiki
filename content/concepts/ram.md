@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "computer-memory"
-  - "volatile-memory"
-  - "ai-hardware"
-  - "vintage-computing"
-aliases:
-  - "random-access-memory"
-  - "main-memory"
-summary: "RAM is volatile computer memory that temporarily stores data and instructions currently in use by a system."
-updated: 2026-04-15
+summary: RAM is volatile computer memory that temporarily stores data and instructions currently in use by a system.
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 ## RAM
@@ -19,8 +11,8 @@ group: open-systems-local-models
 ### Key Points:
 - **[[concepts/purpose|Purpose]]**: Acts as a temporary workspace for [[concepts/software|programs]] and data.
 - **Types**: Includes DRAM (Dynamic RAM) and SRAM (Static RAM).
-- **Capacity**: Can range from small devices with a few kilobytes to servers with terabytes.
-- **Speed**: Critical factor in determining system performance.
+- **Capacity**: Can [[concepts/range|range]] from small devices with a few kilobytes to servers with terabytes.
+- **[[concepts/speed|Speed]]**: Critical factor in determining system performance.
 
 ### Related Concepts:
 - [[concepts/cpu]]
@@ -31,8 +23,7 @@ group: open-systems-local-models
 - In the context of [[concepts/running|running]] modern [[concepts/ai-models|AI models]] on vintage [[concepts/hardware|hardware]], such as the 1979 [[concepts/pdp-1144|PDP-11/44]], RAM capacity is a significant bottleneck. The original [[concepts/setup|setup]] featured only 64KB of memory, which was later upgraded to 4MB.
 
 ### References and Further Reading:
-- 2026 04 13 [[concepts/transformer-training|Demystifying AI]] Transformer Training on a 1979 PDP 11
+- 2026 04 13 [[concepts/transformer-training|Demystifying AI]] Transformer [[concepts/training|Training]] on a 1979 PDP 11
 - [[entities/dave|Dave]]'s Garage: [Demystifying AI Transformer Training on a 1979 PDP-11](https://www.youtube.com/watch?v=OUE3FSIk46g)
-
 ## Source Notes
 - 2026-04-13: EXPOSED: The Dirty Little Secret of AI (On a 1979 PDP-11)

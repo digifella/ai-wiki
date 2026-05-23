@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data-privacy"
-  - "ai-security"
-  - "cybersecurity"
-  - "ai-vulnerabilities"
-  - "local-ai-security"
-  - "data-exposure"
-aliases:
-  - "privacy risks"
-  - "ai privacy vulnerabilities"
-summary: "Data privacy risks involve the potential for unauthorized access, exposure, or misuse of sensitive information within various computational environments."
-updated: 2026-04-17
+summary: Data privacy risks involve the potential for unauthorized access, exposure, or misuse of sensitive information within various computational environments.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data privacy risks
@@ -22,10 +12,9 @@ The potential for unauthorized access, [[concepts/exposure|exposure]], or misuse
 ## AI-Specific Vulnerabilities
 - **[[concepts/local-ai]] [[concepts/privacy|Privacy]] Misconception**: The false belief that hosting [[concepts/agentic-ai]] on local [[concepts/hardware|hardware]] automatically ensures privacy and [[concepts/secure|security]].
 - **Infrastructure Comparison**:
-    - Cloud AI usage is analogous to renting an apartment where the landlord retains a copy of your keys.
+    - [[concepts/cloud-ai|Cloud AI]] usage is analogous to renting an apartment where the landlord retains a copy of your keys.
     - [[concepts/local-execution|Local execution]] may mitigate third-party data harvesting but does not eliminate all [[concepts/cybersecurity]] vectors.
-- *Reference:* 2026 04 14 [[concepts/local-ai-privacy-risks|Local AI Privacy Risks]] and Security Strategies
-
+- *Reference:* 2026 04 14 [[concepts/local-ai-privacy-risks|Local AI Privacy Risks]] and [[concepts/security|Security]] Strategies
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

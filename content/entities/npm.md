@@ -1,16 +1,8 @@
 ---
 type: entity
-tags:
-  - "npm"
-  - "nodejs"
-  - "cli"
-  - "package-manager"
-  - "javascript"
-  - "dependency-management"
-aliases:
-  - "Node Package Manager"
-summary: "The default package manager for Node.js used to manage JavaScript dependencies and package lifecycles."
-updated: 2026-04-22
+summary: The default package manager for Node.js used to manage JavaScript dependencies and package lifecycles.
+updated: 2026-05-23
+stub: true
 ---
 # npm
 
@@ -29,5 +21,4 @@ Node [[concepts/package-manager|Package Manager]]; the default package manager f
 
 ## Backlinks
 - 2026 04 14 New [[concepts/ai-assisted-coding|Claude Code]] features 1
-
 ## Source Notes

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "personal-identity"
   - "consequentialism"
@@ -12,11 +11,12 @@ tags:
 aliases:
   - "Parfit"
 summary: Philosopher known for work on personal identity, consequentialism, and population ethics.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Derek Parfit
 
-Derek Parfit (1942–2017) was a British philosopher whose work fundamentally shaped contemporary discussions of personal identity, [[concepts/ethics|ethics]], and rationality. He spent most of his career at All Souls College, Oxford, and is best known for his groundbreaking books *Reasons and Persons* (1984) and *On What Matters* (2011). His contributions span multiple areas of [[concepts/philosophy|philosophy]], but his influence has been most profound in three interconnected domains: metaphysics of personal identity, consequentialist ethics, and population ethics.
+[[entities/derek-parfit|Derek Parfit]] (1942–2017) was a British philosopher whose work fundamentally shaped contemporary discussions of personal identity, [[concepts/ethics|ethics]], and rationality. He spent most of his career [[concepts/assistive-technology|at]] All Souls College, Oxford, and is best known for his groundbreaking books *Reasons and Persons* (1984) and *On What Matters* (2011). His contributions span multiple areas of [[concepts/philosophy|philosophy]], but his [[concepts/power|influence]] has been most profound in three interconnected domains: metaphysics of personal identity, consequentialist ethics, and population ethics.
 
 ## Personal Identity and the Reductionist View
 
@@ -28,7 +28,6 @@ In *Reasons and Persons*, Parfit developed sophisticated versions of consequenti
 
 ## Legacy
 
-Parfit's work is characterized by rigorous argument and willingness to embrace counterintuitive conclusions when logic demands it. His ideas continue to influence discussions in metaphysics, normative ethics, and practical philosophy, particularly regarding longtermism, [[concepts/ai-technologies|artificial intelligence]] ethics, and global priorities.
-
+Parfit's work is characterized by rigorous argument and willingness to embrace counterintuitive conclusions when logic demands it. His [[concepts/ideas|ideas]] continue to influence discussions in metaphysics, normative ethics, and practical philosophy, particularly regarding longtermism, [[concepts/ai-technologies|artificial intelligence]] ethics, and global priorities.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Defining-Wellbeing-Laffans-Philosophical-Accounts-and-Practical-Challe|Defining Wellbeing Laffans Philosophical Accounts and Practical Challe]] · [▶ source](https://www.youtube.com/watch?v=vv4cW-NKjWI)

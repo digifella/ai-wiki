@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "concept"
   - "virtual-machines"
@@ -13,7 +12,8 @@ aliases:
   - "VMs"
   - "Virtual Computing Environments"
 summary: Virtual machines enable running multiple operating systems on a single physical host computer.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Virtual Machines
 
@@ -21,12 +21,11 @@ A virtual machine (VM) is a [[concepts/software|software]] emulation of a physic
 
 ## Common Applications
 
-Virtual machines are widely used in [[concepts/coding|software development]], [[concepts/testing|testing]], and [[concepts/deployment|deployment]]. Developers use them to test applications across different operating systems without requiring separate physical hardware. Organizations use VMs to consolidate server infrastructure, reducing physical hardware requirements and energy costs while improving system flexibility. They also enable [[concepts/secure|secure]] sandboxing for [[concepts/running|running]] untrusted code or legacy applications without affecting the host system.
+Virtual machines are widely used in [[concepts/coding|software development]], [[concepts/testing|testing]], and [[concepts/deployment|deployment]]. Developers use them to test applications across different operating systems without requiring separate physical hardware. Organizations use VMs to consolidate server infrastructure, reducing physical [[concepts/hardware-requirements|hardware requirements]] and energy costs while improving system flexibility. They also enable [[concepts/secure|secure]] sandboxing for [[concepts/running|running]] untrusted [[concepts/code|code]] or legacy applications without affecting the host system.
 
 ## Technical Considerations
 
-The performance of a virtual machine depends on the underlying host hardware and hypervisor efficiency. VMs consume disk space, [[concepts/memory|memory]], and processing power proportional to their configured resources, so careful allocation is necessary. Popular hypervisors include VirtualBox, VMware, Hyper-V, and KVM, each offering different features and performance characteristics. While VMs provide strong isolation between operating systems, they incur overhead compared to running applications directly on native hardware.
-
+The performance of a virtual machine depends on the underlying host hardware and hypervisor efficiency. VMs consume disk space, [[concepts/memory|memory]], and processing [[concepts/power|power]] proportional to their configured resources, so careful allocation is necessary. Popular hypervisors include VirtualBox, VMware, Hyper-V, and KVM, each offering different features and performance characteristics. While VMs provide strong isolation between operating systems, they incur overhead compared to running applications directly on native hardware.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-12: [[lab-notes/2026-04-12-Hugging-Face-Platform-Overview-Components-and-Practical-Applications|Hugging Face Platform Overview Components and Practical Applications]] · [▶ source](https://www.youtube.com/watch?v=3kRB2TXewus)

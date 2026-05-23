@@ -11,12 +11,13 @@ tags:
   - "ai-integration"
 aliases:
   - "Google Search Engine"
-summary: "Google Search is a web search engine operated by Google that is integrated into the company's artificial intelligence ecosystem."
-updated: 2026-04-27
+summary: Google Search is a web search engine operated by Google that is integrated into the company's artificial intelligence ecosystem.
+updated: 2026-05-23
+stub: true
 ---
 # Google Search
 
-Core web search engine and service operated by Google.
+Core web search engine and service operated by [[concepts/google-search|Google]].
 
 ## Recent AI Ecosystem Updates
 - Integrated into the latest [[concepts/ai-technologies|artificial intelligence]] (AI) product updates across the Google ecosystem, which includes:
@@ -26,8 +27,7 @@ Core web search engine and service operated by Google.
 	- [[entities/google-ai-studio|Google AI Studio]]
 
 ## Sources
-- 2026 04 14 [[concepts/6-second-clips|AI round up]] by Your Own Workflow channel
-
+- 2026 04 14 [[concepts/6-second-clips|AI round up]] by [[entities/your-own-workflow|Your Own Workflow]] channel
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Nano-Banana-2-Rapid-Professional-AI-Image-Generation-and-Contro|Google Nano Banana 2 Rapid Professional AI Image Generation and Contro]] · [▶ source](https://www.youtube.com/watch?v=enTnJJHtIGs)

@@ -14,8 +14,8 @@ tags:
 aliases:
   - "Web Automation"
   - "Automated Browser Control"
-summary: "Techniques and tools for programmatically automating web browser interactions to improve workflow efficiency and testing."
-updated: 2026-04-28
+summary: Techniques and tools for programmatically automating web browser interactions to improve workflow efficiency and testing.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Browser automation
@@ -29,13 +29,12 @@ Recent CLI features allow direct [[concepts/browser-control|browser control]] vi
 - **Update:** Versions 2.0.70 through 2.0.72 (December 2025)
 - **Feature:** [[entities/claude-in-chrome|Claude in Chrome]] (Beta) [[concepts/integration|integration]]
 - **Functionality:** CLI bridges the gap between terminal and the web browser
-- **Reference:** [[entities/ray-amjad|Ray Amjad]] YouTube channel
+- **Reference:** [[entities/ray-amjad|Ray Amjad]] [[entities/youtube|YouTube]] channel
 - **Video:** <https://www.youtube.com/watch?v=rXTvax9pyhs>
 
 ## Backlinks
 
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome
-
 ## Source Notes
 - 2026-04-11: 8 Insane [[entities/claude-cowork|Claude Cowork Use Cases! (automate anything)]]
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)

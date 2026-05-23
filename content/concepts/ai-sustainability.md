@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "sustainability"
-  - "deepmind"
-  - "gemini"
-  - "frontier-ai"
-  - "ai-sustainability"
-  - "scaling-intelligence"
-  - "google-deepmind"
-  - "model-efficiency"
-  - "computational-requirements"
-aliases:
-  - "Sustainable AI"
-summary: "The challenge of balancing the advancement of frontier AI and scaling intelligence with environmental and computational sustainability requirements."
-updated: 2026-04-21
+summary: The challenge of balancing the advancement of frontier AI and scaling intelligence with environmental and computational sustainability requirements.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI Sustainability
@@ -29,9 +16,8 @@ The ongoing challenge of balancing the advancement of [[concepts/frontier-ai|Fro
 - Exploring the "next frontier" of [[entities/gemini]] development through advancements in embedding technology (via [[entities/ai-engineer|AI Engineer]]).
 
 ## Related Sources
-- 2026 04 21 [[concepts/google-search|Google]] DeepMinds Frontier AI Research [[concepts/gemini|Gemini]] Embeddings Sustainability and Intelligence (Presentation: "How Google [[entities/deepmind|DeepMind]] is researching the next Frontier of AI for [[concepts/gemini|Gemini]]" by [[entities/ai-engineer|AI Engineer]])
-- [[concepts/date-2026-04-13|2026]] 04 21 Your Lab job is complete _ YouTube Summariser __1456
-
+- 2026 04 21 [[concepts/google-search|Google]] DeepMinds Frontier [[concepts/ai-research|AI Research]] [[concepts/gemini|Gemini]] Embeddings Sustainability and Intelligence (Presentation: "How [[entities/google|Google]] [[entities/deepmind|DeepMind]] is researching the next Frontier of AI for [[concepts/gemini|Gemini]]" by [[entities/ai-engineer|AI Engineer]])
+- [[concepts/date-2026-04-13|2026]] 04 21 Your Lab job is complete _ [[entities/youtube|YouTube]] Summariser __1456
 ## Source Notes
 - 2026-04-21: Google · [▶ source](https://www.youtube.com/watch?v=zZsTVBXcbow)
 - 2026-04-13: [[lab-notes/2026-04-13-Data-Center-Water-Footprint-AI-Booms-Growing-Consumption-Cooling-Chall|Data Center Water Footprint AI Booms Growing Consumption Cooling Chall]] · [▶ source](https://www.youtube.com/watch?v=tJYSzc7YkY0)

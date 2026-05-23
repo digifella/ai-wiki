@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "advanced-tools"
   - "software-tools"
@@ -12,11 +11,12 @@ aliases:
   - "Professional Tools"
   - "Enhanced Toolsets"
 summary: A concept hub for sophisticated tools and platforms that extend core functionality, seeded from mentions in related technical documentation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Advanced Tools
 
-Advanced tools and platforms are sophisticated [[concepts/software|software]] systems designed to extend, enhance, or build upon core functionality in specialized domains. These tools typically offer greater depth of features, [[concepts/customization|customization]] options, and integration capabilities compared to basic or foundational alternatives. They serve professionals, developers, and [[concepts/power-users|power users]] who require precision control, advanced [[concepts/automation|automation]], or specialized workflows beyond standard offerings.
+Advanced tools and platforms are sophisticated [[concepts/software|software]] systems designed to extend, enhance, or build upon core functionality in specialized domains. These tools typically offer greater depth of features, [[concepts/customization|customization]] options, and [[concepts/integration|integration]] [[concepts/capabilities|capabilities]] compared to basic or foundational alternatives. They serve professionals, developers, and [[concepts/power-users|power users]] who require precision [[concepts/power|control]], advanced [[concepts/automation|automation]], or specialized workflows beyond standard offerings.
 
 ## Characteristics
 
@@ -24,12 +24,11 @@ Advanced tools are distinguished by their depth rather than breadth. They genera
 
 ## Application and Scope
 
-In practice, advanced tools span numerous domains: [[concepts/coding|software development]] environments with sophisticated [[concepts/debugging|debugging]] and profiling capabilities, data analysis platforms supporting custom algorithms and large-scale processing, design applications with precision controls and automation scripting, and infrastructure management systems enabling fine-grained resource orchestration. The distinction between a "basic" and "advanced" tool is often contextual—determined by use case requirements rather than inherent complexity.
+In practice, advanced tools span numerous domains: [[concepts/coding|software development]] environments with sophisticated [[concepts/debugging|debugging]] and profiling capabilities, data analysis platforms supporting custom algorithms and large-scale processing, [[concepts/design|design]] applications with precision controls and automation scripting, and infrastructure management systems enabling fine-grained resource orchestration. The distinction between a "basic" and "advanced" tool is often contextual—determined by use case requirements rather than inherent complexity.
 
 ## Relationship to Core Systems
 
 Advanced tools typically build upon or integrate with foundational platforms rather than replacing them entirely. They may wrap, extend, or [[concepts/provide-alternative|provide alternative]] interfaces to core functionality. This relationship means advanced tools often require understanding both the underlying system and the specialized tool itself, making them most effective when adopted within their intended technical and organizational context.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

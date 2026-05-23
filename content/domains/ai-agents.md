@@ -5,9 +5,9 @@ tags:
   - "domain"
   - "ai-agents"
 cssclasses: [domain-page]
-updated: 2026-05-02
-concept_count: 1414
-entity_count: 945
+updated: 2026-05-24
+concept_count: 1696
+entity_count: 1085
 ---
 # AI & Agents
 
@@ -15,15 +15,15 @@ AI models, labs, agent systems, prompting, reasoning, and model capabilities.
 
 <div class="domain-summary-bar">
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">1414</span>
+    <span class="domain-summary-value">1696</span>
     <span class="domain-summary-label">concepts</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">945</span>
+    <span class="domain-summary-value">1085</span>
     <span class="domain-summary-label">entities</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">2</span>
+    <span class="domain-summary-value">390</span>
     <span class="domain-summary-label">linked notes</span>
   </div>
   <div class="domain-summary-stat">
@@ -38,100 +38,100 @@ AI models, labs, agent systems, prompting, reasoning, and model capabilities.
 <a class="domain-group-card" href="#ai-foundations-concepts">
   <span class="domain-group-kicker">Thread</span>
   <h3>AI Foundations &amp; Concepts</h3>
-  <p class="domain-group-stats">140 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">2026 04 22 Google Gemini New Desktop App Contextual Ai And Key Platform Upgrades, Advanced Intelligence, Ai</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">266 concepts · 196 linked notes</p>
+  <p class="domain-group-samples">2026 04 10 Openclaw Autonomous Ai Agent Setup Configuration And Advanced, 2026 04 10 Openclaw Conceptsautonomous Ai Agentautonomous Ai Agent Setup, 2026 04 22 Google Gemini New Desktop App Contextual Ai And Key Platform Upgrades</p>
+  <p class="domain-group-notes">Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance · Optimizing LLM Coding Output Quality with Karpathy&#x27;s Claude.md File</p>
 </a>
 <a class="domain-group-card" href="#anthropic-claude">
   <span class="domain-group-kicker">Thread</span>
   <h3>Anthropic &amp; Claude</h3>
-  <p class="domain-group-stats">35 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Anthropic Acceleration, Anthropic Ai, Anthropic Api Compatibility</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">42 concepts · 44 linked notes</p>
+  <p class="domain-group-samples">2026 04 07 Claude Code Build Your Full Ai Marketing Team Agents, 2026 04 08 Anthropic, 2026 04 09 Lab Notes2026 04 09 Project Glasswing Mitigating Anthropic Mythos Ais</p>
+  <p class="domain-group-notes">Anthropic 2028 AI Leadership: US-China Geopolitical Competition Analysis · OpenAI Codex Agentic AI Outperforms Claude in GTM Research &amp; Automation</p>
 </a>
 <a class="domain-group-card" href="#google-ai-ecosystem">
   <span class="domain-group-kicker">Thread</span>
   <h3>Google AI Ecosystem</h3>
-  <p class="domain-group-stats">34 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Gemini, Gemini 2.5 Flash Lite, Gemini 25 Models</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">41 concepts · 36 linked notes</p>
+  <p class="domain-group-samples">2026 04 07 Total Control Why I Prompt Gemini With Json And Why You, 2026 04 29 Google Deepmind, 2026 04 30 Google Deepmind</p>
+  <p class="domain-group-notes">Google Omni: Reviewing the \&quot;Nanobanana\&quot; Multimodal Video AI Capabilities · Google Gemini 3.5 Flash: Robust AI Model Capabilities and Developer Readiness</p>
 </a>
 <a class="domain-group-card" href="#openai-chatgpt">
   <span class="domain-group-kicker">Thread</span>
   <h3>OpenAI / ChatGPT</h3>
-  <p class="domain-group-stats">15 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Chatgpt Agent, Chatgpt Superpower, Codex</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">17 concepts · 17 linked notes</p>
+  <p class="domain-group-samples">Chatgpt Agent, Chatgpt Style Interface, Chatgpt Superpower</p>
+  <p class="domain-group-notes">OpenAI Codex Agentic AI Outperforms Claude in GTM Research &amp; Automation · OpenAI GPT-5.5 Instant: Capabilities, Safety Concerns, and Real-World Impact Analysis</p>
 </a>
 <a class="domain-group-card" href="#open-systems-local-models">
   <span class="domain-group-kicker">Thread</span>
   <h3>Open Systems &amp; Local Models</h3>
-  <p class="domain-group-stats">89 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Ai Model Factory, Ai Models, Base Model Weights</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">101 concepts · 87 linked notes</p>
+  <p class="domain-group-samples">2026 04 10 Conceptsclaudeclaude Code With Gemma 4 How I Use It, 2026 04 10 Conceptscode Specialized Modelsqwen Coder Local Ai Replacing Paid, 2026 04 10 Conceptslm Studio Lm Linklm Studio Lm Link Conceptsdistributed Ai</p>
+  <p class="domain-group-notes">Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance · llama.cpp Router Mode: Native Hot-Swappable Local LLM Switching</p>
 </a>
 <a class="domain-group-card" href="#agent-systems-skills">
   <span class="domain-group-kicker">Thread</span>
   <h3>Agent Systems &amp; Skills</h3>
-  <p class="domain-group-stats">189 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">2026 04 23 Httpswwwyoutubecomwatchvvnt5C Rlwie Here Is A Summary Of The Openclaw, Agent Based Knowledge Curation, Agent Based Logic</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">199 concepts · 117 linked notes</p>
+  <p class="domain-group-samples">2026 04 10 Conceptsai Driven Software Automationanthropic Dispatch, 2026 04 23 Httpswwwyoutubecomwatchvvnt5C Rlwie Here Is A Summary Of The Openclaw, 2026 04 30 Lab Notes2026 04 30 Aionui Free Desktop Platform For Multi Agent Ai</p>
+  <p class="domain-group-notes">Docker Sandboxes: Secure AI Agent Execution via Isolated Environments · OpenShell: Secure Runtime for AI Agents with Out-of-Process Enforcement</p>
 </a>
 <a class="domain-group-card" href="#coding-agents-dev-workflows">
   <span class="domain-group-kicker">Thread</span>
   <h3>Coding Agents &amp; Dev Workflows</h3>
-  <p class="domain-group-stats">62 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Ai Coding, Ai Coding Assistance, Ai Coding Cost Overruns</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">66 concepts · 49 linked notes</p>
+  <p class="domain-group-samples">2026 04 10 Conceptsad Generationclaude Cowork Desktop Ai Co Worker Core, Ai Coding, Ai Coding Assistance</p>
+  <p class="domain-group-notes">Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance · Optimizing AI Coding Agents: Harness Design Over LLM Choice</p>
 </a>
 <a class="domain-group-card" href="#reasoning-context-prompting">
   <span class="domain-group-kicker">Thread</span>
   <h3>Reasoning Context &amp; Prompting</h3>
-  <p class="domain-group-stats">200 concepts · 1 linked notes</p>
+  <p class="domain-group-stats">213 concepts · 154 linked notes</p>
   <p class="domain-group-samples">1 Million Token Context, 200K Context Window, 200K Token Context Window</p>
-  <p class="domain-group-notes">Google DeepMind&#x27;s Gemma 4: Open-Source AI Models and Architectural Innovations</p>
+  <p class="domain-group-notes">Hermes Agent /goal: Delegating Complex, Long-Running Tasks to Autonomous AI · Energy-Based Models: Genuine AI Reasoning via Constraint Satisfaction, Beyond LLMs</p>
 </a>
 <a class="domain-group-card" href="#multimodal-generative-media">
   <span class="domain-group-kicker">Thread</span>
   <h3>Multimodal &amp; Generative Media</h3>
-  <p class="domain-group-stats">105 concepts · 1 linked notes</p>
+  <p class="domain-group-stats">126 concepts · 96 linked notes</p>
   <p class="domain-group-samples">Ad Generation, Ad Generation Workflows, Ai Carousel Generation</p>
-  <p class="domain-group-notes">ai research</p>
+  <p class="domain-group-notes">DeepSeek&#x27;s AI: Thinking with Visual Primitives for Precise Multimodal Reasoning · Google Omni: Reviewing the \&quot;Nanobanana\&quot; Multimodal Video AI Capabilities</p>
 </a>
 <a class="domain-group-card" href="#model-efficiency-compression">
   <span class="domain-group-kicker">Thread</span>
   <h3>Model Efficiency &amp; Compression</h3>
-  <p class="domain-group-stats">164 concepts · 1 linked notes</p>
+  <p class="domain-group-stats">187 concepts · 125 linked notes</p>
   <p class="domain-group-samples">06B Parameter Model, 1 Bit Llm, 14B Parameter Model</p>
-  <p class="domain-group-notes">Google DeepMind&#x27;s Gemma 4: Open-Source AI Models and Architectural Innovations</p>
+  <p class="domain-group-notes">Optimizing LLM Coding Output Quality with Karpathy&#x27;s Claude.md File · MTP + Ngram Stacked Speculative Decoding in Llama.cpp for LLM Inference</p>
 </a>
 <a class="domain-group-card" href="#training-fine-tuning-evaluation">
   <span class="domain-group-kicker">Thread</span>
   <h3>Training Fine-Tuning &amp; Evaluation</h3>
-  <p class="domain-group-stats">58 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">62 concepts · 52 linked notes</p>
   <p class="domain-group-samples">Accuracy, Adaptive Learning, Agentbench</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">IBM Granite Speech 4.1 ASR Models: Features, Accuracy, and Enterprise Applications · URL Ingest Summary</p>
 </a>
 <a class="domain-group-card" href="#ai-futures-self-improvement">
   <span class="domain-group-kicker">Thread</span>
   <h3>AI Futures &amp; Self-Improvement</h3>
-  <p class="domain-group-stats">17 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Ai Recursive Self Improvement, Hard Takeoff, Hard Takeoff Phase</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">30 concepts · 25 linked notes</p>
+  <p class="domain-group-samples">Agi, Ai Model Harness, Ai Recursive Self Improvement</p>
+  <p class="domain-group-notes">Modern AI Agentic Harness: Architecture, Components, and Framework Differences · Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task</p>
 </a>
 <a class="domain-group-card" href="#safety-guardrails-governance">
   <span class="domain-group-kicker">Thread</span>
   <h3>Safety Guardrails &amp; Governance</h3>
-  <p class="domain-group-stats">44 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">50 concepts · 37 linked notes</p>
   <p class="domain-group-samples">Accountability, Ai Governance, Ai Governance Framework</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Anthropic&#x27;s Research: Translating Claude&#x27;s Internal Thoughts and Ethical Decision-Making · OpenAI GPT-5.5 Instant: Capabilities, Safety Concerns, and Real-World Impact Analysis</p>
 </a>
 <a class="domain-group-card" href="#applied-ai-workflows">
   <span class="domain-group-kicker">Thread</span>
   <h3>Applied AI Workflows</h3>
-  <p class="domain-group-stats">262 concepts · 1 linked notes</p>
-  <p class="domain-group-samples">Advanced Analytics, Advanced Google Search, Advanced Search Techniques</p>
-  <p class="domain-group-notes">ai research</p>
+  <p class="domain-group-stats">296 concepts · 197 linked notes</p>
+  <p class="domain-group-samples">2026 04 13 P Vs Np Problem Computational Complexity And Implications Summary, 2026 04 23 Httpswwwyoutubecomwatchvvnt5C Rlwie Here Is A Summary Of The, Advanced Analytics</p>
+  <p class="domain-group-notes">Understand Anything: AI Tool for Interactive Codebase Mapping and Onboarding · EdgeQuake: Local Rust Graph-RAG with Ollama for Improved Knowledge Retrieval</p>
 </a>
 </div>
 
@@ -140,13 +140,23 @@ AI models, labs, agent systems, prompting, reasoning, and model capabilities.
 <div id="ai-foundations-concepts" class="domain-group-anchor"></div>
 ## AI Foundations & Concepts
 
-<div class="domain-group-meta">140 concepts · 0 linked notes</div>
+<div class="domain-group-meta">266 concepts · 196 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Qwen-3.6-27B-vs-35B-Local-AI-Agents-Anki-Translation-Per|Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance]]
+- [[lab-notes/2026-05-23-Optimizing-LLM-Coding-Output-Quality-with-Karpathys-Clau|Optimizing LLM Coding Output Quality with Karpathy's Claude.md File]]
+- [[lab-notes/2026-05-23-Docker-Sandboxes-Secure-AI-Agent-Execution-via-Isolated|Docker Sandboxes: Secure AI Agent Execution via Isolated Environments]]
+- [[lab-notes/2026-05-22-llama.cpp-Router-Mode-Native-Hot-Swappable-Local-LLM-Swi|llama.cpp Router Mode: Native Hot-Swappable Local LLM Switching]]
+- [[lab-notes/2026-05-17-Anthropic-Claudes-Real-World-Impact-Bitcoin-Recovery-AI|Anthropic Claude's Real-World Impact: Bitcoin Recovery & AI Agent Integration]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-10-openclaw-autonomous-ai-agent-setup-configuration-and-advanced|2026 04 10 Openclaw Autonomous Ai Agent Setup Configuration And Advanced]]
+- [[concepts/2026-04-10-openclaw-conceptsautonomous-ai-agentautonomous-ai-agent-setup|2026 04 10 Openclaw Conceptsautonomous Ai Agentautonomous Ai Agent Setup]]
 - [[concepts/2026-04-22-google-gemini-new-desktop-app-contextual-ai-and-key-platform-upgrades|2026 04 22 Google Gemini New Desktop App Contextual Ai And Key Platform Upgrades]]
+- [[concepts/action-oriented-ai|Action Oriented Ai]]
+- [[concepts/adaptive-strategy|Adaptive Strategy]]
 - [[concepts/advanced-intelligence|Advanced Intelligence]]
 - [[concepts/ai|Ai]]
 - [[concepts/ai-a|Ai A]]
@@ -164,6 +174,7 @@ _No notes in this thread yet._
 - [[concepts/ai-agent-data-export|Ai Agent Data Export]]
 - [[concepts/ai-agent-ecosystem|Ai Agent Ecosystem]]
 - [[concepts/ai-agent-evolution|Ai Agent Evolution]]
+- [[concepts/ai-agent-execution|Ai Agent Execution]]
 - [[concepts/ai-agent-framework|Ai Agent Framework]]
 - [[concepts/ai-agent-implementation|Ai Agent Implementation]]
 - [[concepts/ai-agent-integration|Ai Agent Integration]]
@@ -183,6 +194,7 @@ _No notes in this thread yet._
 - [[concepts/ai-agent-vulnerabilities|Ai Agent Vulnerabilities]]
 - [[concepts/ai-agent-workflows|Ai Agent Workflows]]
 - [[concepts/ai-agentic-applications|Ai Agentic Applications]]
+- [[concepts/ai-api-key-theft|Ai Api Key Theft]]
 - [[concepts/ai-app|Ai App]]
 - [[concepts/ai-app-factory|Ai App Factory]]
 - [[concepts/ai-application|Ai Application]]
@@ -191,9 +203,11 @@ _No notes in this thread yet._
 - [[concepts/ai-assistant|Ai Assistant]]
 - [[concepts/ai-assistant-mobility|Ai Assistant Mobility]]
 - [[concepts/ai-assisted-coding|Ai Assisted Coding]]
+- [[concepts/ai-assisted-conceptspkmpkm|Ai Assisted Conceptspkmpkm]]
 - [[concepts/ai-assisted-editing|Ai Assisted Editing]]
 - [[concepts/ai-assisted-image-selection|Ai Assisted Image Selection]]
 - [[concepts/ai-assisted-itinerary-creation|Ai Assisted Itinerary Creation]]
+- [[concepts/ai-assisted-note-taking|Ai Assisted Note Taking]]
 - [[concepts/ai-assisted-organization|Ai Assisted Organization]]
 - [[concepts/ai-assisted-planning|Ai Assisted Planning]]
 - [[concepts/ai-assisted-prototyping|Ai Assisted Prototyping]]
@@ -207,118 +221,247 @@ _No notes in this thread yet._
 - [[concepts/ai-avatar-creation|Ai Avatar Creation]]
 - [[concepts/ai-avatars|Ai Avatars]]
 - [[concepts/ai-boom|Ai Boom]]
+- [[concepts/ai-chatbots|Ai Chatbots]]
 - [[concepts/ai-chips|Ai Chips]]
 - [[concepts/ai-clone|Ai Clone]]
 - [[concepts/ai-cloning|Ai Cloning]]
 - [[concepts/ai-conceptscost-optimizationcost-optimization|Ai Conceptscost Optimizationcost Optimization]]
+- [[concepts/ai-conceptsethicsethics|Ai Conceptsethicsethics]]
+- [[concepts/ai-conceptshardwarehardware-evolution|Ai Conceptshardwarehardware Evolution]]
 - [[concepts/ai-consolidation|Ai Consolidation]]
+- [[concepts/ai-delegation|Ai Delegation]]
+- [[concepts/ai-ecosystem|Ai Ecosystem]]
+- [[concepts/ai-generated-answers|Ai Generated Answers]]
+- [[concepts/ai-guardrails|Ai Guardrails]]
 - [[concepts/ai-hallucinations|Ai Hallucinations]]
+- [[concepts/ai-hedging-reduction|Ai Hedging Reduction]]
+- [[concepts/ai-human-collaboration|Ai Human Collaboration]]
 - [[concepts/ai-hyperscalers|Ai Hyperscalers]]
 - [[concepts/ai-influencers|Ai Influencers]]
+- [[concepts/ai-intent-understanding|Ai Intent Understanding]]
 - [[concepts/ai-landscape|Ai Landscape]]
 - [[concepts/ai-laziness|Ai Laziness]]
 - [[concepts/ai-licensing|Ai Licensing]]
 - [[concepts/ai-markup|Ai Markup]]
+- [[concepts/ai-model-demand|Ai Model Demand]]
+- [[concepts/ai-model-performance|Ai Model Performance]]
+- [[concepts/ai-observability|Ai Observability]]
+- [[concepts/ai-operating-system|Ai Operating System]]
+- [[concepts/ai-output-refinement|Ai Output Refinement]]
 - [[concepts/ai-overviews|Ai Overviews]]
 - [[concepts/ai-ownership|Ai Ownership]]
+- [[concepts/ai-persona-setting|Ai Persona Setting]]
+- [[concepts/ai-product-development|Ai Product Development]]
+- [[concepts/ai-proficiency|Ai Proficiency]]
+- [[concepts/ai-project-backup|Ai Project Backup]]
+- [[concepts/ai-reflection|Ai Reflection]]
+- [[concepts/ai-specialists|Ai Specialists]]
 - [[concepts/ai-superpower|Ai Superpower]]
 - [[concepts/ai-sustainability|Ai Sustainability]]
+- [[concepts/ai-technologies|Ai Technologies]]
+- [[concepts/algorithmic-filtering|Algorithmic Filtering]]
+- [[concepts/anythingllm-channels|Anythingllm Channels]]
 - [[concepts/artificial-general-intelligence|Artificial General Intelligence]]
 - [[concepts/artificial-intelligence-models|Artificial Intelligence Models]]
 - [[concepts/attention-mechanisms|Attention Mechanisms]]
+- [[concepts/auto-complete|Auto Complete]]
+- [[concepts/automations|Automations]]
 - [[concepts/autonomous-ai-agent|Autonomous Ai Agent]]
 - [[concepts/autonomous-ai-agents|Autonomous Ai Agents]]
+- [[concepts/autoround-algorithm|Autoround Algorithm]]
 - [[concepts/backpropagation|Backpropagation]]
+- [[concepts/bug-identification|Bug Identification]]
+- [[concepts/bus-bandwidth|Bus Bandwidth]]
+- [[concepts/career-advancement-strategy|Career Advancement Strategy]]
+- [[concepts/cause-and-effect|Cause And Effect]]
+- [[concepts/character-development|Character Development]]
+- [[concepts/chat-bar|Chat Bar]]
+- [[concepts/chunking-strategies|Chunking Strategies]]
 - [[concepts/claude-ai-and-canva-integration|Claude Ai And Canva Integration]]
+- [[concepts/compounding-knowledge|Compounding Knowledge]]
+- [[concepts/computer-integrated-ai|Computer Integrated Ai]]
+- [[concepts/consumer-demand-drivers|Consumer Demand Drivers]]
+- [[concepts/consumer-grade-gpus|Consumer Grade Gpus]]
 - [[concepts/conversational-ai|Conversational Ai]]
 - [[concepts/custom-ai-agent|Custom Ai Agent]]
 - [[concepts/custom-ai-assistants|Custom Ai Assistants]]
+- [[concepts/custom-gems|Custom Gems]]
+- [[concepts/daily-summaries|Daily Summaries]]
+- [[concepts/daring-greatly|Daring Greatly]]
 - [[concepts/decentralized-ai|Decentralized Ai]]
 - [[concepts/decentralized-ai-supercomputer|Decentralized Ai Supercomputer]]
 - [[concepts/deep-learning-model|Deep Learning Model]]
 - [[concepts/deep-learning-models|Deep Learning Models]]
 - [[concepts/deep-neural-networks|Deep Neural Networks]]
 - [[concepts/democratization-of-ai|Democratization Of Ai]]
+- [[concepts/deobfuscation|Deobfuscation]]
 - [[concepts/desktop-ai-applications|Desktop Ai Applications]]
+- [[concepts/domain-expertise-packaging|Domain Expertise Packaging]]
+- [[concepts/dreyfus-model|Dreyfus Model]]
+- [[concepts/e4b-model|E4B Model]]
+- [[concepts/edge-ai|Edge Ai]]
+- [[concepts/effective-harnesses|Effective Harnesses]]
+- [[concepts/elo-score|Elo Score]]
+- [[concepts/enhanced-refinement-conceptsleverage-aileverage-ai-algorithms-for-better-control|Enhanced Refinement Conceptsleverage Aileverage Ai Algorithms For Better Control]]
+- [[concepts/enhancing-ai-conceptscontextual-understandingcontextual-understanding|Enhancing Ai Conceptscontextual Understandingcontextual Understanding]]
 - [[concepts/enterprise-ai-agent-platform|Enterprise Ai Agent Platform]]
 - [[concepts/eu-ai-act|Eu Ai Act]]
 - [[concepts/expert-systems|Expert Systems]]
 - [[concepts/expertise-based-ai-assistants|Expertise Based Ai Assistants]]
+- [[concepts/exploding-gradient-problem|Exploding Gradient Problem]]
+- [[concepts/external-ai-harnesses|External Ai Harnesses]]
+- [[concepts/external-knowledge|External Knowledge]]
+- [[concepts/f1-score|F1 Score]]
+- [[concepts/faces|Faces]]
+- [[concepts/factual-knowledge|Factual Knowledge]]
+- [[concepts/file-exploration|File Exploration]]
+- [[concepts/foundation-model|Foundation Model]]
 - [[concepts/frontend-specific-ai-agent|Frontend Specific Ai Agent]]
 - [[concepts/general-purpose-ai-agent|General Purpose Ai Agent]]
+- [[concepts/harness|Harness]]
 - [[concepts/healthcare-ai-adoption|Healthcare Ai Adoption]]
+- [[concepts/high-performance-ai|High Performance Ai]]
+- [[concepts/honest-ai|Honest Ai]]
+- [[concepts/hypothesis-formulation|Hypothesis Formulation]]
+- [[concepts/image-breakdown|Image Breakdown]]
+- [[concepts/images|Images]]
+- [[concepts/information-pruning|Information Pruning]]
+- [[concepts/input-tagging|Input Tagging]]
 - [[concepts/instruct-model|Instruct Model]]
 - [[concepts/instruct-models|Instruct Models]]
 - [[concepts/integrated-ai-systems|Integrated Ai Systems]]
+- [[concepts/internet-connected-ai|Internet Connected Ai]]
+- [[concepts/internet-crime-trends|Internet Crime Trends]]
+- [[concepts/iterative-refinement|Iterative Refinement]]
+- [[concepts/jepa|Jepa]]
 - [[concepts/large-language-model|Large Language Model]]
 - [[concepts/large-language-model-integration|Large Language Model Integration]]
 - [[concepts/large-language-model-llm|Large Language Model Llm]]
+- [[concepts/large-language-model-optimization|Large Language Model Optimization]]
 - [[concepts/large-language-models|Large Language Models]]
 - [[concepts/large-language-models-llm|Large Language Models Llm]]
+- [[concepts/linear-technology|Linear Technology]]
+- [[concepts/local-ai-agent|Local Ai Agent]]
 - [[concepts/local-ai-agents|Local Ai Agents]]
 - [[concepts/local-ai-assistant|Local Ai Assistant]]
-- [[concepts/local-ai-assistants|Local Ai Assistants]]
 - [[concepts/local-large-language-models|Local Large Language Models]]
+- [[concepts/luce-pflash|Luce Pflash]]
 - [[concepts/machine-intelligence|Machine Intelligence]]
 - [[concepts/machine-learning|Machine Learning]]
 - [[concepts/machine-learning-acceleration|Machine Learning Acceleration]]
 - [[concepts/machine-learning-model|Machine Learning Model]]
 - [[concepts/machine-learning-models|Machine Learning Models]]
 - [[concepts/machine-learning-systems|Machine Learning Systems]]
+- [[concepts/methods|Methods]]
+- [[concepts/mobile-ai|Mobile Ai]]
+- [[concepts/mobile-to-desktop-remote-control|Mobile To Desktop Remote Control]]
+- [[concepts/model-repositories|Model Repositories]]
 - [[concepts/multimodal-ai-agents|Multimodal Ai Agents]]
 - [[concepts/multimodal-language-models|Multimodal Language Models]]
 - [[concepts/multimodal-large-language-models|Multimodal Large Language Models]]
+- [[concepts/neural-engine|Neural Engine]]
 - [[concepts/neural-networks|Neural Networks]]
 - [[concepts/neural-networks-nns|Neural Networks Nns]]
 - [[concepts/no-code-ai-agent|No Code Ai Agent]]
+- [[concepts/nvidias-recent-ai-advancements-demonstrate-unexpected-success-in-bridging-this|Nvidias Recent Ai Advancements Demonstrate Unexpected Success In Bridging This]]
+- [[concepts/offline-ai|Offline Ai]]
 - [[concepts/offline-large-language-models|Offline Large Language Models]]
 - [[concepts/open-weight-language-models|Open Weight Language Models]]
+- [[concepts/openbrain-system|Openbrain System]]
+- [[concepts/output|Output]]
+- [[concepts/output-limit-adjustment|Output Limit Adjustment]]
+- [[concepts/output-limit-management|Output Limit Management]]
+- [[concepts/performance-variation|Performance Variation]]
+- [[concepts/persistent-ai-conversations|Persistent Ai Conversations]]
 - [[concepts/personal-ai-assistant|Personal Ai Assistant]]
 - [[concepts/personalized-ai-systems|Personalized Ai Systems]]
+- [[concepts/physical-reality|Physical Reality]]
+- [[concepts/portable-computing|Portable Computing]]
+- [[concepts/practicality-assessment|Practicality Assessment]]
+- [[concepts/practice-oriented-framework|Practice Oriented Framework]]
+- [[concepts/pre-trained-model|Pre Trained Model]]
+- [[concepts/preference-backup|Preference Backup]]
+- [[concepts/qkv-system|Qkv System]]
+- [[concepts/rapid-implementation|Rapid Implementation]]
+- [[concepts/reactive-ai|Reactive Ai]]
+- [[concepts/recurring-actions|Recurring Actions]]
+- [[concepts/reducing-ai-hedging|Reducing Ai Hedging]]
+- [[concepts/responsible-ai-use|Responsible Ai Use]]
+- [[concepts/safe-ai-use|Safe Ai Use]]
 - [[concepts/secure-ai-agent|Secure Ai Agent]]
-- [[concepts/secure-ai-agents|Secure Ai Agents]]
 - [[concepts/secure-ai-systems|Secure Ai Systems]]
 - [[concepts/secure-enterprise-ai-agent-platforms|Secure Enterprise Ai Agent Platforms]]
+- [[concepts/self-improving-ai|Self Improving Ai]]
+- [[concepts/single-modality-ai|Single Modality Ai]]
+- [[concepts/slide-deck-creation|Slide Deck Creation]]
 - [[concepts/small-language-models|Small Language Models]]
 - [[concepts/small-language-models-slms|Small Language Models Slms]]
+- [[concepts/source-grounded-analysis|Source Grounded Analysis]]
 - [[concepts/specialized-ai-assistant|Specialized Ai Assistant]]
 - [[concepts/specialized-ai-assistants|Specialized Ai Assistants]]
+- [[concepts/system-connectivity|System Connectivity]]
+- [[concepts/system-message-modification|System Message Modification]]
+- [[concepts/taskmanagermd|Taskmanagermd]]
+- [[concepts/technical-documentation|Technical Documentation]]
+- [[concepts/text|Text]]
+- [[concepts/tpu-development|Tpu Development]]
+- [[concepts/transformer-architectures|Transformer Architectures]]
 - [[concepts/ubiquitous-ai-assistant|Ubiquitous Ai Assistant]]
 - [[concepts/ubiquitous-ai-assistants|Ubiquitous Ai Assistants]]
+- [[concepts/unfiltered-biases|Unfiltered Biases]]
+- [[concepts/unrestricted-ai|Unrestricted Ai]]
+- [[concepts/unsloth-library|Unsloth Library]]
+- [[concepts/vanishing-gradient-problem|Vanishing Gradient Problem]]
+- [[concepts/verifiable-citations|Verifiable Citations]]
+- [[concepts/version-updates|Version Updates]]
+- [[concepts/virtual-private-servers|Virtual Private Servers]]
 - [[concepts/vision-language-models|Vision Language Models]]
+- [[concepts/vocabulary-size|Vocabulary Size]]
+- [[concepts/weight-calculation|Weight Calculation]]
 
 <div id="anthropic-claude" class="domain-group-anchor"></div>
 ## Anthropic & Claude
 
-<div class="domain-group-meta">35 concepts · 0 linked notes</div>
+<div class="domain-group-meta">42 concepts · 44 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-18-Anthropic-2028-AI-Leadership-US-China-Geopolitical-Compe|Anthropic 2028 AI Leadership: US-China Geopolitical Competition Analysis]]
+- [[lab-notes/2026-05-17-OpenAI-Codex-Agentic-AI-Outperforms-Claude-in-GTM-Resear|OpenAI Codex Agentic AI Outperforms Claude in GTM Research & Automation]]
+- [[lab-notes/2026-05-17-Anthropic-Engineers-Claude-Prompting-Skills-Based-AI-Int|Anthropic Engineers' Claude Prompting: Skills-Based AI Interaction Principles]]
+- [[lab-notes/2026-05-06-SubQ-AI-12M-Token-Context-Sparse-Attention-Architecture|SubQ AI: 12M Token Context, Sparse Attention Architecture, and Verification Concerns]]
+- [[lab-notes/2026-05-03-Qwen-3.6-Ollama-Local-Agentic-Coding-Performance-Against|Qwen 3.6 + Ollama Local Agentic Coding: Performance Against Claude Code]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-07-claude-code-build-your-full-ai-marketing-team-agents|2026 04 07 Claude Code Build Your Full Ai Marketing Team Agents]]
+- [[concepts/2026-04-08-anthropic|2026 04 08 Anthropic]]
+- [[concepts/2026-04-09-lab-notes2026-04-09-project-glasswing-mitigating-anthropic-mythos-ais|2026 04 09 Lab Notes2026 04 09 Project Glasswing Mitigating Anthropic Mythos Ais]]
+- [[concepts/2026-04-10-anthropic-dispatch-remote-desktop-ai-integration-claude-and-openclaw|2026 04 10 Anthropic Dispatch Remote Desktop Ai Integration Claude And Openclaw]]
+- [[concepts/2026-04-10-claude-cowork-ai-building-an-efficient-marketing-content-system|2026 04 10 Claude Cowork Ai Building An Efficient Marketing Content System]]
+- [[concepts/2026-04-10-claude-cowork-automating-workflows-with-local-file-access-and-ai|2026 04 10 Claude Cowork Automating Workflows With Local File Access And Ai]]
+- [[concepts/2026-04-11-claude-co-work-8-advanced-use-cases-for-ai-powered-workflow|2026 04 11 Claude Co Work 8 Advanced Use Cases For Ai Powered Workflow]]
+- [[concepts/2026-04-12-kimi-k25-on-a-conceptsoffline-ailocal-ai-cluster-vs-chatgpt-claude|2026 04 12 Kimi K25 On A Conceptsoffline Ailocal Ai Cluster Vs Chatgpt Claude]]
+- [[concepts/anthropic-2028-scenarios|Anthropic 2028 Scenarios]]
 - [[concepts/anthropic-acceleration|Anthropic Acceleration]]
 - [[concepts/anthropic-ai|Anthropic Ai]]
 - [[concepts/anthropic-api-compatibility|Anthropic Api Compatibility]]
 - [[concepts/anthropic-features|Anthropic Features]]
 - [[concepts/anthropic-models|Anthropic Models]]
 - [[concepts/claude|Claude]]
-- [[concepts/claude-37-sonnet|Claude 37 Sonnet]]
 - [[concepts/claude-agent|Claude Agent]]
 - [[concepts/claude-ai|Claude Ai]]
-- [[concepts/claude-ai-integration|Claude Ai Integration]]
-- [[concepts/claude-ai-optimization|Claude Ai Optimization]]
 - [[concepts/claude-ai-subscription-policy|Claude Ai Subscription Policy]]
 - [[concepts/claude-ai-subscriptions|Claude Ai Subscriptions]]
 - [[concepts/claude-chat|Claude Chat]]
 - [[concepts/claude-chatbot|Claude Chatbot]]
+- [[concepts/claude-co-work-documentation|Claude Co Work Documentation]]
 - [[concepts/claude-code-agent-skills|Claude Code Agent Skills]]
 - [[concepts/claude-code-alternative|Claude Code Alternative]]
-- [[concepts/claude-code-configuration|Claude Code Configuration]]
 - [[concepts/claude-code-desktop-workflow|Claude Code Desktop Workflow]]
 - [[concepts/claude-code-read-tool|Claude Code Read Tool]]
 - [[concepts/claude-code-sub-agents|Claude Code Sub Agents]]
 - [[concepts/claude-code-templates|Claude Code Templates]]
-- [[concepts/claude-code-workspace|Claude Code Workspace]]
 - [[concepts/claude-in-excel-integration|Claude In Excel Integration]]
 - [[concepts/claude-notebooklm-integration|Claude Notebooklm Integration]]
 - [[concepts/claude-obsidian-integration|Claude Obsidian Integration]]
@@ -326,27 +469,40 @@ _No notes in this thread yet._
 - [[concepts/claude-opus-45|Claude Opus 45]]
 - [[concepts/claude-plugins|Claude Plugins]]
 - [[concepts/claude-projects|Claude Projects]]
+- [[concepts/claude-prompting|Claude Prompting]]
 - [[concepts/clip-title-kimi-k25-on-a-local-ai-cluster-vs-chatgpt-claude-its-over|Clip Title Kimi K25 On A Local Ai Cluster Vs Chatgpt Claude Its Over]]
 - [[concepts/comparison-studies-between-opus-46-and-conceptsminimax-m27minimax-m27|Comparison Studies Between Opus 46 And Conceptsminimax M27Minimax M27]]
 - [[concepts/concept1|Concept1]]
 - [[concepts/concept2|Concept2]]
 - [[concepts/concept3|Concept3]]
+- [[concepts/opus|Opus]]
 
 <div id="google-ai-ecosystem" class="domain-group-anchor"></div>
 ## Google AI Ecosystem
 
-<div class="domain-group-meta">34 concepts · 0 linked notes</div>
+<div class="domain-group-meta">41 concepts · 36 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-21-Google-Omni-Reviewing-the-Nanobanana-Multimodal-Video-AI|Google Omni: Reviewing the \"Nanobanana\" Multimodal Video AI Capabilities]]
+- [[lab-notes/2026-05-21-Google-Gemini-3.5-Flash-Robust-AI-Model-Capabilities-and|Google Gemini 3.5 Flash: Robust AI Model Capabilities and Developer Readiness]]
+- [[lab-notes/2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme|AionUI: Free Desktop Platform for Multi-Agent AI Management and Automation]]
+- [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]]
+- [[lab-notes/2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control|Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-07-total-control-why-i-prompt-gemini-with-json-and-why-you|2026 04 07 Total Control Why I Prompt Gemini With Json And Why You]]
+- [[concepts/2026-04-29-google-deepmind|2026 04 29 Google Deepmind]]
+- [[concepts/2026-04-30-google-deepmind|2026 04 30 Google Deepmind]]
+- [[concepts/developer-readiness|Developer Readiness]]
 - [[concepts/gemini|Gemini]]
 - [[concepts/gemini-2.5-flash-lite|Gemini 2.5 Flash Lite]]
 - [[concepts/gemini-25-models|Gemini 25 Models]]
 - [[concepts/gemini-25-pro|Gemini 25 Pro]]
 - [[concepts/gemini-30|Gemini 30]]
 - [[concepts/gemini-30-pro|Gemini 30 Pro]]
+- [[concepts/gemini-35-flash|Gemini 35 Flash]]
 - [[concepts/gemini-api|Gemini Api]]
 - [[concepts/gemini-canvas|Gemini Canvas]]
 - [[concepts/gemini-cli|Gemini Cli]]
@@ -363,38 +519,48 @@ _No notes in this thread yet._
 - [[concepts/gemini-powered-extraction|Gemini Powered Extraction]]
 - [[concepts/gemini-text-models|Gemini Text Models]]
 - [[concepts/google-gemini-gems|Google Gemini Gems]]
+- [[concepts/google-omni|Google Omni]]
 - [[concepts/nano-banana-2|Nano Banana 2]]
 - [[concepts/notebooklm|Notebooklm]]
 - [[concepts/notebooklm-course-creation|Notebooklm Course Creation]]
 - [[concepts/notebooklm-customization|Notebooklm Customization]]
 - [[concepts/notebooklm-gemini-integration|Notebooklm Gemini Integration]]
 - [[concepts/notebooklm-gemini-workflow|Notebooklm Gemini Workflow]]
-- [[concepts/notebooklm-infographics|Notebooklm Infographics]]
 - [[concepts/notebooklm-notebook|Notebooklm Notebook]]
 - [[concepts/notebooklm-slide-transformation|Notebooklm Slide Transformation]]
 - [[concepts/notebooklm-slides-transformation|Notebooklm Slides Transformation]]
 - [[concepts/notebooklm-sources|Notebooklm Sources]]
+- [[concepts/notebooklm-ui|Notebooklm Ui]]
 - [[concepts/notebooklm-workflows|Notebooklm Workflows]]
+- [[concepts/robustness|Robustness]]
 
 <div id="openai-chatgpt" class="domain-group-anchor"></div>
 ## OpenAI / ChatGPT
 
-<div class="domain-group-meta">15 concepts · 0 linked notes</div>
+<div class="domain-group-meta">17 concepts · 17 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-17-OpenAI-Codex-Agentic-AI-Outperforms-Claude-in-GTM-Resear|OpenAI Codex Agentic AI Outperforms Claude in GTM Research & Automation]]
+- [[lab-notes/2026-05-09-OpenAI-GPT-5.5-Instant-Capabilities-Safety-Concerns-and|OpenAI GPT-5.5 Instant: Capabilities, Safety Concerns, and Real-World Impact Analysis]]
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
+- [[lab-notes/2026-05-01-Local-vs.-Cloud-LLMs-for-Code-Generation-Performance-Com|Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task]]
+- [[lab-notes/2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme|AionUI: Free Desktop Platform for Multi-Agent AI Management and Automation]]
 
 **Concepts in this thread**
 
 - [[concepts/chatgpt-agent|Chatgpt Agent]]
+- [[concepts/chatgpt-style-interface|Chatgpt Style Interface]]
 - [[concepts/chatgpt-superpower|Chatgpt Superpower]]
 - [[concepts/codex|Codex]]
+- [[concepts/codex-desktop-application|Codex Desktop Application]]
 - [[concepts/gpt-35|Gpt 35]]
 - [[concepts/gpt-4|Gpt 4]]
-- [[concepts/gpt-41|Gpt 41]]
 - [[concepts/gpt-5|Gpt 5]]
 - [[concepts/gpt-5-coding|Gpt 5 Coding]]
 - [[concepts/gpt-5-model|Gpt 5 Model]]
 - [[concepts/gpt-52|Gpt 52]]
+- [[concepts/gpt-55-instant|Gpt 55 Instant]]
 - [[concepts/gpt-image-20-workflow|Gpt Image 20 Workflow]]
 - [[concepts/gpt-oss-20b|Gpt Oss 20B]]
 - [[concepts/local-gpt|Local Gpt]]
@@ -404,12 +570,22 @@ _No notes in this thread yet._
 <div id="open-systems-local-models" class="domain-group-anchor"></div>
 ## Open Systems & Local Models
 
-<div class="domain-group-meta">89 concepts · 0 linked notes</div>
+<div class="domain-group-meta">101 concepts · 87 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Qwen-3.6-27B-vs-35B-Local-AI-Agents-Anki-Translation-Per|Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance]]
+- [[lab-notes/2026-05-22-llama.cpp-Router-Mode-Native-Hot-Swappable-Local-LLM-Swi|llama.cpp Router Mode: Native Hot-Swappable Local LLM Switching]]
+- [[lab-notes/2026-05-22-DeepSeeks-AI-Thinking-with-Visual-Primitives-for-Precise|DeepSeek's AI: Thinking with Visual Primitives for Precise Multimodal Reasoning]]
+- [[lab-notes/2026-05-21-Google-Gemini-3.5-Flash-Robust-AI-Model-Capabilities-and|Google Gemini 3.5 Flash: Robust AI Model Capabilities and Developer Readiness]]
+- [[lab-notes/2026-05-20-MiniCPM-V-4.6-Efficient-On-Device-Vision-for-AI-Agents|MiniCPM-V 4.6: Efficient On-Device Vision for AI Agents]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-10-conceptsclaudeclaude-code-with-gemma-4-how-i-use-it|2026 04 10 Conceptsclaudeclaude Code With Gemma 4 How I Use It]]
+- [[concepts/2026-04-10-conceptscode-specialized-modelsqwen-coder-local-ai-replacing-paid|2026 04 10 Conceptscode Specialized Modelsqwen Coder Local Ai Replacing Paid]]
+- [[concepts/2026-04-10-conceptslm-studio-lm-linklm-studio-lm-link-conceptsdistributed-ai|2026 04 10 Conceptslm Studio Lm Linklm Studio Lm Link Conceptsdistributed Ai]]
+- [[concepts/2026-04-22-concepts23b-parameter-modelsgoogle-gemma-4-efficient-23b-parameter|2026 04 22 Concepts23B Parameter Modelsgoogle Gemma 4 Efficient 23B Parameter]]
 - [[concepts/ai-model-factory|Ai Model Factory]]
 - [[concepts/ai-models|Ai Models]]
 - [[concepts/base-model-weights|Base Model Weights]]
@@ -419,17 +595,18 @@ _No notes in this thread yet._
 - [[concepts/compute-costs|Compute Costs]]
 - [[concepts/compute-crunch|Compute Crunch]]
 - [[concepts/compute-scarcity|Compute Scarcity]]
+- [[concepts/container-management|Container Management]]
+- [[concepts/core-library|Core Library]]
 - [[concepts/cpu|Cpu]]
 - [[concepts/cuda|Cuda]]
 - [[concepts/cuda-kernel|Cuda Kernel]]
 - [[concepts/custom-model-creation|Custom Model Creation]]
 - [[concepts/custom-models|Custom Models]]
 - [[concepts/ddr5-ram|Ddr5 Ram]]
-- [[concepts/deepseek-engram|Deepseek Engram]]
+- [[concepts/deepseek-ai|Deepseek Ai]]
 - [[concepts/deepseek-r2|Deepseek R2]]
 - [[concepts/deepseek-v3|Deepseek V3]]
 - [[concepts/experimental-model|Experimental Model]]
-- [[concepts/foundational-models|Foundational Models]]
 - [[concepts/frontier-model|Frontier Model]]
 - [[concepts/frontier-models|Frontier Models]]
 - [[concepts/gema-3-model|Gema 3 Model]]
@@ -437,13 +614,14 @@ _No notes in this thread yet._
 - [[concepts/gemma-4|Gemma 4]]
 - [[concepts/gemma-4-e2b|Gemma 4 E2B]]
 - [[concepts/gguf-format|Gguf Format]]
+- [[concepts/granite-suite|Granite Suite]]
 - [[concepts/grok|Grok]]
-- [[concepts/grok-3-beta|Grok 3 Beta]]
 - [[concepts/integrated-model-selection|Integrated Model Selection]]
 - [[concepts/intel-qwen-30b-model|Intel Qwen 30B Model]]
 - [[concepts/jina-embeddings-v4|Jina Embeddings V4]]
 - [[concepts/kimi-k2|Kimi K2]]
 - [[concepts/lightweight-models|Lightweight Models]]
+- [[concepts/llama-3|Llama 3]]
 - [[concepts/llama-31|Llama 31]]
 - [[concepts/lm-studio-lm-link|Lm Studio Lm Link]]
 - [[concepts/local-ai|Local Ai]]
@@ -460,15 +638,17 @@ _No notes in this thread yet._
 - [[concepts/local-rl|Local Rl]]
 - [[concepts/local-solutions|Local Solutions]]
 - [[concepts/low-vram-requirements|Low Vram Requirements]]
-- [[concepts/manus|Manus]]
+- [[concepts/minicpm-v-46|Minicpm V 46]]
 - [[concepts/minimax-m27|Minimax M27]]
 - [[concepts/mistral-7b|Mistral 7B]]
 - [[concepts/mlx-format|Mlx Format]]
 - [[concepts/model-releases|Model Releases]]
+- [[concepts/model-switching|Model Switching]]
 - [[concepts/model-weights|Model Weights]]
 - [[concepts/moe-models|Moe Models]]
 - [[concepts/nemotron-3-family|Nemotron 3 Family]]
 - [[concepts/nemotron-3-nano-model|Nemotron 3 Nano Model]]
+- [[concepts/nemotron-elastic|Nemotron Elastic]]
 - [[concepts/niche-models|Niche Models]]
 - [[concepts/npu-support|Npu Support]]
 - [[concepts/nvlink|Nvlink]]
@@ -480,12 +660,16 @@ _No notes in this thread yet._
 - [[concepts/open-weight-models|Open Weight Models]]
 - [[concepts/open-weights|Open Weights]]
 - [[concepts/open-weights-models|Open Weights Models]]
+- [[concepts/openbmb|Openbmb]]
 - [[concepts/phi-models|Phi Models]]
 - [[concepts/private-ai-model-installation|Private Ai Model Installation]]
 - [[concepts/proprietary-ai|Proprietary Ai]]
 - [[concepts/qwen-3-8b|Qwen 3 8B]]
 - [[concepts/qwen-3-8b-architecture|Qwen 3 8B Architecture]]
+- [[concepts/qwen-36-27b|Qwen 36 27B]]
+- [[concepts/qwen-36-35b-a3b|Qwen 36 35B A3B]]
 - [[concepts/qwen-code|Qwen Code]]
+- [[concepts/qwen-llms|Qwen Llms]]
 - [[concepts/qwen-model|Qwen Model]]
 - [[concepts/qwen3-model|Qwen3 Model]]
 - [[concepts/ram|Ram]]
@@ -503,13 +687,21 @@ _No notes in this thread yet._
 <div id="agent-systems-skills" class="domain-group-anchor"></div>
 ## Agent Systems & Skills
 
-<div class="domain-group-meta">189 concepts · 0 linked notes</div>
+<div class="domain-group-meta">199 concepts · 117 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Docker-Sandboxes-Secure-AI-Agent-Execution-via-Isolated|Docker Sandboxes: Secure AI Agent Execution via Isolated Environments]]
+- [[lab-notes/2026-05-22-OpenShell-Secure-Runtime-for-AI-Agents-with-Out-of-Proce|OpenShell: Secure Runtime for AI Agents with Out-of-Process Enforcement]]
+- [[lab-notes/2026-05-22-Hermes-Agent-and-Vapi-Integration-for-Autonomous-AI-Phon|Hermes Agent and Vapi Integration for Autonomous AI Phone Calls]]
+- [[lab-notes/2026-05-18-Optimizing-AI-Coding-Agents-Harness-Design-Over-LLM-Choi|Optimizing AI Coding Agents: Harness Design Over LLM Choice]]
+- [[lab-notes/2026-05-17-Anthropic-Engineers-Claude-Prompting-Skills-Based-AI-Int|Anthropic Engineers' Claude Prompting: Skills-Based AI Interaction Principles]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-10-conceptsai-driven-software-automationanthropic-dispatch|2026 04 10 Conceptsai Driven Software Automationanthropic Dispatch]]
 - [[concepts/2026-04-23-httpswwwyoutubecomwatchvvnt5c-rlwie-here-is-a-summary-of-the-openclaw|2026 04 23 Httpswwwyoutubecomwatchvvnt5C Rlwie Here Is A Summary Of The Openclaw]]
+- [[concepts/2026-04-30-lab-notes2026-04-30-aionui-free-desktop-platform-for-multi-agent-ai|2026 04 30 Lab Notes2026 04 30 Aionui Free Desktop Platform For Multi Agent Ai]]
 - [[concepts/agent-based-knowledge-curation|Agent Based Knowledge Curation]]
 - [[concepts/agent-based-logic|Agent Based Logic]]
 - [[concepts/agent-based-research|Agent Based Research]]
@@ -534,6 +726,8 @@ _No notes in this thread yet._
 - [[concepts/agent-selection|Agent Selection]]
 - [[concepts/agent-skills|Agent Skills]]
 - [[concepts/agent-steering|Agent Steering]]
+- [[concepts/agent-substrate|Agent Substrate]]
+- [[concepts/agent-substrates|Agent Substrates]]
 - [[concepts/agent-toolkit|Agent Toolkit]]
 - [[concepts/agent-toolkits|Agent Toolkits]]
 - [[concepts/agent-tools|Agent Tools]]
@@ -547,7 +741,6 @@ _No notes in this thread yet._
 - [[concepts/agentic-components|Agentic Components]]
 - [[concepts/agentic-development|Agentic Development]]
 - [[concepts/agentic-exploration|Agentic Exploration]]
-- [[concepts/agentic-file-search|Agentic File Search]]
 - [[concepts/agentic-framework|Agentic Framework]]
 - [[concepts/agentic-frameworks|Agentic Frameworks]]
 - [[concepts/agentic-harness|Agentic Harness]]
@@ -567,6 +760,7 @@ _No notes in this thread yet._
 - [[concepts/agentic-visual-reasoning-pipeline|Agentic Visual Reasoning Pipeline]]
 - [[concepts/agents|Agents]]
 - [[concepts/agentsmd|Agentsmd]]
+- [[concepts/ai-agents|Ai Agents]]
 - [[concepts/ai-coding-agents|Ai Coding Agents]]
 - [[concepts/ai-consultant|Ai Consultant]]
 - [[concepts/ai-consultant-development|Ai Consultant Development]]
@@ -588,6 +782,7 @@ _No notes in this thread yet._
 - [[concepts/autonomous-agent-system|Autonomous Agent System]]
 - [[concepts/autonomous-ai-co-worker|Autonomous Ai Co Worker]]
 - [[concepts/autonomous-ai-coding-agent|Autonomous Ai Coding Agent]]
+- [[concepts/autonomous-ai-phone-calls|Autonomous Ai Phone Calls]]
 - [[concepts/autonomous-coding-agent|Autonomous Coding Agent]]
 - [[concepts/autonomous-driving-safety-standards|Autonomous Driving Safety Standards]]
 - [[concepts/autonomous-driving-technology|Autonomous Driving Technology]]
@@ -624,6 +819,7 @@ _No notes in this thread yet._
 - [[concepts/interactive-agent-design|Interactive Agent Design]]
 - [[concepts/interconnected-parts|Interconnected Parts]]
 - [[concepts/internal-bot|Internal Bot]]
+- [[concepts/leavening-agents|Leavening Agents]]
 - [[concepts/llm-agent-token-usage|Llm Agent Token Usage]]
 - [[concepts/llm-based-agents|Llm Based Agents]]
 - [[concepts/llm-orchestration|Llm Orchestration]]
@@ -642,13 +838,14 @@ _No notes in this thread yet._
 - [[concepts/multi-agent-workflows|Multi Agent Workflows]]
 - [[concepts/multi-format-synthesis|Multi Format Synthesis]]
 - [[concepts/multi-horse-race|Multi Horse Race]]
+- [[concepts/multi-stage-flash-conceptsmsf-technologymsf-technology|Multi Stage Flash Conceptsmsf Technologymsf Technology]]
 - [[concepts/multi-stage-flash-msf-technology|Multi Stage Flash Msf Technology]]
 - [[concepts/multi-step-agentic-workflows|Multi Step Agentic Workflows]]
-- [[concepts/multiple-expertise|Multiple Expertise]]
 - [[concepts/no-code-ai-agents|No Code Ai Agents]]
 - [[concepts/open-agent-system|Open Agent System]]
 - [[concepts/open-agent-system-architecture|Open Agent System Architecture]]
 - [[concepts/openclaw|Openclaw]]
+- [[concepts/openclaw-agents|Openclaw Agents]]
 - [[concepts/openclaw-strategy|Openclaw Strategy]]
 - [[concepts/orchestrated-system|Orchestrated System]]
 - [[concepts/orchestration-agents|Orchestration Agents]]
@@ -669,11 +866,13 @@ _No notes in this thread yet._
 - [[concepts/shopping-agents|Shopping Agents]]
 - [[concepts/skill|Skill]]
 - [[concepts/skill-call-frequency|Skill Call Frequency]]
+- [[concepts/skill-development-framework|Skill Development Framework]]
 - [[concepts/skill-format-standardization|Skill Format Standardization]]
 - [[concepts/skill-gaps|Skill Gaps]]
 - [[concepts/skill-portability|Skill Portability]]
 - [[concepts/skills|Skills]]
 - [[concepts/skills-20|Skills 20]]
+- [[concepts/skills-based-interaction|Skills Based Interaction]]
 - [[concepts/skills-gap|Skills Gap]]
 - [[concepts/smart-coding-agent|Smart Coding Agent]]
 - [[concepts/smart-model|Smart Model]]
@@ -686,6 +885,7 @@ _No notes in this thread yet._
 - [[concepts/sub-agents|Sub Agents]]
 - [[concepts/subagent-orchestration|Subagent Orchestration]]
 - [[concepts/subagents|Subagents]]
+- [[concepts/suburban-rail-loop|Suburban Rail Loop]]
 - [[concepts/supervised-autonomy|Supervised Autonomy]]
 - [[concepts/swarm-intelligence|Swarm Intelligence]]
 - [[concepts/swarm-of-ais|Swarm Of Ais]]
@@ -694,20 +894,27 @@ _No notes in this thread yet._
 - [[concepts/task-specific-configurations|Task Specific Configurations]]
 - [[concepts/terminal-agent|Terminal Agent]]
 - [[concepts/the-cockpit-rule|The Cockpit Rule]]
+- [[concepts/topic-outline-synthesis|Topic Outline Synthesis]]
 - [[concepts/unified-ai-skill-format|Unified Ai Skill Format]]
-- [[concepts/video-agent|Video Agent]]
 - [[concepts/video-agent-tool|Video Agent Tool]]
 - [[concepts/when-to-use-each-agentic-pattern-based-on-task-requirements|When To Use Each Agentic Pattern Based On Task Requirements]]
 
 <div id="coding-agents-dev-workflows" class="domain-group-anchor"></div>
 ## Coding Agents & Dev Workflows
 
-<div class="domain-group-meta">62 concepts · 0 linked notes</div>
+<div class="domain-group-meta">66 concepts · 49 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Qwen-3.6-27B-vs-35B-Local-AI-Agents-Anki-Translation-Per|Qwen 3.6 27B vs 35B Local AI Agents: Anki Translation Performance]]
+- [[lab-notes/2026-05-18-Optimizing-AI-Coding-Agents-Harness-Design-Over-LLM-Choi|Optimizing AI Coding Agents: Harness Design Over LLM Choice]]
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
+- [[lab-notes/2026-05-01-Local-vs.-Cloud-LLMs-for-Code-Generation-Performance-Com|Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task]]
+- [[lab-notes/2026-05-01-Claude-AI-Productivity-Seven-Secret-Prompts-Summary-Repo|Claude AI Productivity: Seven Secret Prompts Summary Report]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-10-conceptsad-generationclaude-cowork-desktop-ai-co-worker-core|2026 04 10 Conceptsad Generationclaude Cowork Desktop Ai Co Worker Core]]
 - [[concepts/ai-coding|Ai Coding]]
 - [[concepts/ai-coding-assistance|Ai Coding Assistance]]
 - [[concepts/ai-coding-cost-overruns|Ai Coding Cost Overruns]]
@@ -715,8 +922,10 @@ _No notes in this thread yet._
 - [[concepts/ai-coding-models|Ai Coding Models]]
 - [[concepts/ai-coding-platforms|Ai Coding Platforms]]
 - [[concepts/ai-coding-workflows|Ai Coding Workflows]]
+- [[concepts/anki-flashcard-add-on|Anki Flashcard Add On]]
 - [[concepts/apache-2-0|Apache 2 0]]
 - [[concepts/apache-2.0|Apache 2.0]]
+- [[concepts/auto-completion-suggestions|Auto Completion Suggestions]]
 - [[concepts/bmad-method|Bmad Method]]
 - [[concepts/c-language|C Language]]
 - [[concepts/claude-code|Claude Code]]
@@ -725,23 +934,22 @@ _No notes in this thread yet._
 - [[concepts/claudemd|Claudemd]]
 - [[concepts/claudemd-file|Claudemd File]]
 - [[concepts/code-generation|Code Generation]]
+- [[concepts/codebase-indexing|Codebase Indexing]]
 - [[concepts/cowork|Cowork]]
 - [[concepts/cowork-mode|Cowork Mode]]
 - [[concepts/debugging|Debugging]]
-- [[concepts/dependency-tracking|Dependency Tracking]]
 - [[concepts/developer-trends|Developer Trends]]
+- [[concepts/extension-management|Extension Management]]
 - [[concepts/feature-development|Feature Development]]
 - [[concepts/feature-implementation|Feature Implementation]]
-- [[concepts/front-end-components|Front End Components]]
 - [[concepts/front-end-development|Front End Development]]
 - [[concepts/front-end-hacks|Front End Hacks]]
-- [[concepts/front-end-lifehacks|Front End Lifehacks]]
 - [[concepts/frontend-development|Frontend Development]]
 - [[concepts/full-stack-developer|Full Stack Developer]]
 - [[concepts/full-stack-development|Full Stack Development]]
 - [[concepts/gcc-countries|Gcc Countries]]
 - [[concepts/global-rules|Global Rules]]
-- [[concepts/gulf-cooperation-council-gcc|Gulf Cooperation Council Gcc]]
+- [[concepts/harness-design|Harness Design]]
 - [[concepts/htmlcss|Htmlcss]]
 - [[concepts/htmlcss-based-presentations|Htmlcss Based Presentations]]
 - [[concepts/htmljavascript|Htmljavascript]]
@@ -754,6 +962,7 @@ _No notes in this thread yet._
 - [[concepts/iterative-process-modification|Iterative Process Modification]]
 - [[concepts/job-implementation|Job Implementation]]
 - [[concepts/karpathy-loop|Karpathy Loop]]
+- [[concepts/model-mixing|Model Mixing]]
 - [[concepts/package-manager|Package Manager]]
 - [[concepts/package-managers|Package Managers]]
 - [[concepts/plan-driven-development|Plan Driven Development]]
@@ -769,16 +978,21 @@ _No notes in this thread yet._
 - [[concepts/technical-overview|Technical Overview]]
 - [[concepts/technical-specs|Technical Specs]]
 - [[concepts/test-driven-development|Test Driven Development]]
+- [[concepts/translation-performance|Translation Performance]]
 - [[concepts/vibeops|Vibeops]]
 
 <div id="reasoning-context-prompting" class="domain-group-anchor"></div>
 ## Reasoning Context & Prompting
 
-<div class="domain-group-meta">200 concepts · 1 linked notes</div>
+<div class="domain-group-meta">213 concepts · 154 linked notes</div>
 
 **Representative notes**
 
-- [[lab-notes/2026-04-29-Google-DeepMinds-Gemma-4-Open-Source-AI-Models-and-Archi|Google DeepMind's Gemma 4: Open-Source AI Models and Architectural Innovations]]
+- [[lab-notes/2026-05-18-Hermes-Agent-goal-Delegating-Complex-Long-Running-Tasks|Hermes Agent /goal: Delegating Complex, Long-Running Tasks to Autonomous AI]]
+- [[lab-notes/2026-05-17-Energy-Based-Models-Genuine-AI-Reasoning-via-Constraint|Energy-Based Models: Genuine AI Reasoning via Constraint Satisfaction, Beyond LLMs]]
+- [[lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla|URL Ingest Summary]]
+- [[lab-notes/2026-05-14-AI-in-Clinical-Reasoning-Medical-Paradox-and-OpenEvidenc|AI in Clinical Reasoning, Medical Paradox, and OpenEvidence Europe Exit]]
+- [[lab-notes/2026-05-13-TurboQuant-DFlash-Accelerating-Local-LLM-Inference-with|TurboQuant & DFlash: Accelerating Local LLM Inference with Enhanced Context]]
 
 **Concepts in this thread**
 
@@ -789,6 +1003,7 @@ _No notes in this thread yet._
 - [[concepts/advanced-prompt-commands|Advanced Prompt Commands]]
 - [[concepts/advanced-reasoning|Advanced Reasoning]]
 - [[concepts/ai-context-layer-architectures|Ai Context Layer Architectures]]
+- [[concepts/ai-in-clinical-reasoning|Ai In Clinical Reasoning]]
 - [[concepts/ai-personal-assistant-framework|Ai Personal Assistant Framework]]
 - [[concepts/ai-prompt-engineering|Ai Prompt Engineering]]
 - [[concepts/ai-prompt-optimization|Ai Prompt Optimization]]
@@ -810,6 +1025,7 @@ _No notes in this thread yet._
 - [[concepts/citation-grounding|Citation Grounding]]
 - [[concepts/clarifying-prompts|Clarifying Prompts]]
 - [[concepts/clarifying-questions|Clarifying Questions]]
+- [[concepts/clinical-reasoning|Clinical Reasoning]]
 - [[concepts/co-pilot-ceo|Co Pilot Ceo]]
 - [[concepts/co-pilot-use|Co Pilot Use]]
 - [[concepts/codebase-context|Codebase Context]]
@@ -820,11 +1036,13 @@ _No notes in this thread yet._
 - [[concepts/computational-reasoning|Computational Reasoning]]
 - [[concepts/conceptual-understanding|Conceptual Understanding]]
 - [[concepts/consistent-ai-responses|Consistent Ai Responses]]
+- [[concepts/context-aware-ai-interaction|Context Aware Ai Interaction]]
 - [[concepts/context-aware-knowledge-retrieval|Context Aware Knowledge Retrieval]]
 - [[concepts/context-aware-retrieval|Context Aware Retrieval]]
 - [[concepts/context-aware-systems|Context Aware Systems]]
 - [[concepts/context-compaction|Context Compaction]]
 - [[concepts/context-drift|Context Drift]]
+- [[concepts/context-efficiency|Context Efficiency]]
 - [[concepts/context-injection|Context Injection]]
 - [[concepts/context-loss|Context Loss]]
 - [[concepts/context-management|Context Management]]
@@ -847,10 +1065,10 @@ _No notes in this thread yet._
 - [[concepts/contextual-ai|Contextual Ai]]
 - [[concepts/contextual-awareness|Contextual Awareness]]
 - [[concepts/contextual-chat-management|Contextual Chat Management]]
+- [[concepts/contextual-embeddings|Contextual Embeddings]]
 - [[concepts/contextual-information|Contextual Information]]
 - [[concepts/contextual-prompting|Contextual Prompting]]
 - [[concepts/contextual-task-bar|Contextual Task Bar]]
-- [[concepts/contextual-taskbar|Contextual Taskbar]]
 - [[concepts/contextual-understanding|Contextual Understanding]]
 - [[concepts/contextual-window|Contextual Window]]
 - [[concepts/contextualized-language-understanding|Contextualized Language Understanding]]
@@ -858,11 +1076,12 @@ _No notes in this thread yet._
 - [[concepts/conversation-rewinding|Conversation Rewinding]]
 - [[concepts/conversational-chatbots|Conversational Chatbots]]
 - [[concepts/conversational-fluency|Conversational Fluency]]
+- [[concepts/conversational-interface|Conversational Interface]]
 - [[concepts/conversational-interfaces|Conversational Interfaces]]
 - [[concepts/copilot-chat|Copilot Chat]]
 - [[concepts/copilot-chat-capabilities|Copilot Chat Capabilities]]
 - [[concepts/creative-brainstorming|Creative Brainstorming]]
-- [[concepts/creative-ideas|Creative Ideas]]
+- [[concepts/cross-attention|Cross Attention]]
 - [[concepts/custom-instructions|Custom Instructions]]
 - [[concepts/deep-reasoning|Deep Reasoning]]
 - [[concepts/deep-think|Deep Think]]
@@ -874,6 +1093,7 @@ _No notes in this thread yet._
 - [[concepts/feedback|Feedback]]
 - [[concepts/feedback-driven-prompting|Feedback Driven Prompting]]
 - [[concepts/few-shot-examples|Few Shot Examples]]
+- [[concepts/focuses-on-increasing-llm-context-window-size-and-improving-inference-speed|Focuses On Increasing Llm Context Window Size And Improving Inference Speed]]
 - [[concepts/gem-instruction-set|Gem Instruction Set]]
 - [[concepts/general-purpose-problem-solving|General Purpose Problem Solving]]
 - [[concepts/global-context-awareness|Global Context Awareness]]
@@ -903,6 +1123,7 @@ _No notes in this thread yet._
 - [[concepts/limited-insight|Limited Insight]]
 - [[concepts/llm-reasoning|Llm Reasoning]]
 - [[concepts/logic-manuals|Logic Manuals]]
+- [[concepts/logical-conceptslogical-consistencyconsistency|Logical Conceptslogical Consistencyconsistency]]
 - [[concepts/logical-consistency|Logical Consistency]]
 - [[concepts/logical-soundness|Logical Soundness]]
 - [[concepts/logical-steps|Logical Steps]]
@@ -910,11 +1131,13 @@ _No notes in this thread yet._
 - [[concepts/mathematical-reasoning|Mathematical Reasoning]]
 - [[concepts/model-context-protocol|Model Context Protocol]]
 - [[concepts/model-context-protocols|Model Context Protocols]]
+- [[concepts/multi-head-attention|Multi Head Attention]]
 - [[concepts/multi-perspective-question-asking|Multi Perspective Question Asking]]
 - [[concepts/multi-step-reasoning|Multi Step Reasoning]]
 - [[concepts/multimodal-reasoning|Multimodal Reasoning]]
 - [[concepts/multimodal-reasoning-engine|Multimodal Reasoning Engine]]
 - [[concepts/multiple-answers-simultaneously|Multiple Answers Simultaneously]]
+- [[concepts/natural-language-autoencoders|Natural Language Autoencoders]]
 - [[concepts/natural-language-creation|Natural Language Creation]]
 - [[concepts/natural-language-descriptions|Natural Language Descriptions]]
 - [[concepts/natural-language-programming|Natural Language Programming]]
@@ -939,6 +1162,7 @@ _No notes in this thread yet._
 - [[concepts/prompt-engineering|Prompt Engineering]]
 - [[concepts/prompt-engineering-for-travel|Prompt Engineering For Travel]]
 - [[concepts/prompt-improvement|Prompt Improvement]]
+- [[concepts/prompt-prefill|Prompt Prefill]]
 - [[concepts/prompt-refinement-loop|Prompt Refinement Loop]]
 - [[concepts/prompt-templates|Prompt Templates]]
 - [[concepts/prompt-to-design-workflow|Prompt To Design Workflow]]
@@ -977,20 +1201,27 @@ _No notes in this thread yet._
 - [[concepts/tokens|Tokens]]
 - [[concepts/treadmill-metaphor|Treadmill Metaphor]]
 - [[concepts/unconscious-competence|Unconscious Competence]]
+- [[concepts/unfiltered-responses|Unfiltered Responses]]
+- [[concepts/unsupervised-explanations|Unsupervised Explanations]]
 - [[concepts/user-attention-prediction|User Attention Prediction]]
 - [[concepts/user-feedback|User Feedback]]
 - [[concepts/user-query|User Query]]
+- [[concepts/utilization-with-ai-models-specifically-useful-for-enforcing-structured-outputs|Utilization With Ai Models Specifically Useful For Enforcing Structured Outputs]]
 - [[concepts/viewer-attention-direction|Viewer Attention Direction]]
 - [[concepts/world-knowledge|World Knowledge]]
 
 <div id="multimodal-generative-media" class="domain-group-anchor"></div>
 ## Multimodal & Generative Media
 
-<div class="domain-group-meta">105 concepts · 1 linked notes</div>
+<div class="domain-group-meta">126 concepts · 96 linked notes</div>
 
 **Representative notes**
 
-- [[inbox/ai-research|ai research]]
+- [[lab-notes/2026-05-22-DeepSeeks-AI-Thinking-with-Visual-Primitives-for-Precise|DeepSeek's AI: Thinking with Visual Primitives for Precise Multimodal Reasoning]]
+- [[lab-notes/2026-05-21-Google-Omni-Reviewing-the-Nanobanana-Multimodal-Video-AI|Google Omni: Reviewing the \"Nanobanana\" Multimodal Video AI Capabilities]]
+- [[lab-notes/2026-05-19-Llama.cpp-Multi-Token-Prediction-Faster-Local-LLM-Infere|Llama.cpp Multi-Token Prediction: Faster Local LLM Inference Explained]]
+- [[lab-notes/2026-05-15-World-Models-Bridging-Human-AI-Understanding-of-Physical|World Models: Bridging Human-AI Understanding of Physical Reality]]
+- [[lab-notes/2026-05-08-IBM-Granite-Speech-4.1-ASR-Models-Features-Accuracy-and|IBM Granite Speech 4.1 ASR Models: Features, Accuracy, and Enterprise Applications]]
 
 **Concepts in this thread**
 
@@ -1000,6 +1231,8 @@ _No notes in this thread yet._
 - [[concepts/ai-driven-content-generation|Ai Driven Content Generation]]
 - [[concepts/ai-driven-slide-generation|Ai Driven Slide Generation]]
 - [[concepts/ai-driven-web-application-generation|Ai Driven Web Application Generation]]
+- [[concepts/ai-generated-shorts|Ai Generated Shorts]]
+- [[concepts/ai-generated-visualizations|Ai Generated Visualizations]]
 - [[concepts/ai-powered-slide-generation|Ai Powered Slide Generation]]
 - [[concepts/ai-powered-video-generation|Ai Powered Video Generation]]
 - [[concepts/ai-powered-website-generation|Ai Powered Website Generation]]
@@ -1008,22 +1241,27 @@ _No notes in this thread yet._
 - [[concepts/ai-voiceover-generation|Ai Voiceover Generation]]
 - [[concepts/answer-generation|Answer Generation]]
 - [[concepts/bash-script-generation|Bash Script Generation]]
+- [[concepts/bounding-boxes|Bounding Boxes]]
 - [[concepts/character-generation|Character Generation]]
-- [[concepts/clickable-prototype-generation|Clickable Prototype Generation]]
 - [[concepts/computer-vision|Computer Vision]]
+- [[concepts/conceptspopulation-iii-starspopulation-iii-stars-theoretical-first-generation-of|Conceptspopulation Iii Starspopulation Iii Stars Theoretical First Generation Of]]
 - [[concepts/cpu-optimized-tts|Cpu Optimized Tts]]
 - [[concepts/creative-idea-generation|Creative Idea Generation]]
-- [[concepts/custom-ui-generation|Custom Ui Generation]]
+- [[concepts/dermatology-images|Dermatology Images]]
 - [[concepts/desktop-ai-co-worker|Desktop Ai Co Worker]]
 - [[concepts/desktop-ai-platform|Desktop Ai Platform]]
 - [[concepts/diagram-generation|Diagram Generation]]
 - [[concepts/digital-asset-generation|Digital Asset Generation]]
+- [[concepts/digital-clones|Digital Clones]]
+- [[concepts/e2b-model|E2B Model]]
 - [[concepts/encoder-only-transformers|Encoder Only Transformers]]
 - [[concepts/face-generation|Face Generation]]
 - [[concepts/face-synthesis|Face Synthesis]]
 - [[concepts/facial-expression-generation|Facial Expression Generation]]
+- [[concepts/filming-techniques|Filming Techniques]]
 - [[concepts/first-generation-of-stars|First Generation Of Stars]]
 - [[concepts/generative-ai|Generative Ai]]
+- [[concepts/generative-ai-design-canvas|Generative Ai Design Canvas]]
 - [[concepts/generative-ai-models|Generative Ai Models]]
 - [[concepts/generative-ai-visualizations|Generative Ai Visualizations]]
 - [[concepts/generative-ai-workflows|Generative Ai Workflows]]
@@ -1031,19 +1269,26 @@ _No notes in this thread yet._
 - [[concepts/image-embeddings|Image Embeddings]]
 - [[concepts/image-generation-model|Image Generation Model]]
 - [[concepts/image-importing|Image Importing]]
+- [[concepts/image-modality|Image Modality]]
 - [[concepts/image-model-evaluation|Image Model Evaluation]]
+- [[concepts/image-parsing|Image Parsing]]
 - [[concepts/image-to-video-model|Image To Video Model]]
+- [[concepts/image-translation|Image Translation]]
 - [[concepts/insight-generation|Insight Generation]]
 - [[concepts/live-transcription|Live Transcription]]
 - [[concepts/llm-based-content-generation|Llm Based Content Generation]]
 - [[concepts/llm-driven-slide-generation|Llm Driven Slide Generation]]
 - [[concepts/low-vram-generation|Low Vram Generation]]
+- [[concepts/ltx-2|Ltx 2]]
 - [[concepts/mindmap-generation|Mindmap Generation]]
 - [[concepts/mobile-to-desktop-ai-control|Mobile To Desktop Ai Control]]
+- [[concepts/mobile-to-desktop-ai-interaction|Mobile To Desktop Ai Interaction]]
 - [[concepts/mobile-to-desktop-ai-interfacing|Mobile To Desktop Ai Interfacing]]
+- [[concepts/modality|Modality]]
 - [[concepts/multi-format-input|Multi Format Input]]
 - [[concepts/multi-modal-analysis|Multi Modal Analysis]]
 - [[concepts/multi-modal-input|Multi Modal Input]]
+- [[concepts/multi-modal-observation|Multi Modal Observation]]
 - [[concepts/multi-modal-research|Multi Modal Research]]
 - [[concepts/multi-modal-researcher|Multi Modal Researcher]]
 - [[concepts/multilingual-support|Multilingual Support]]
@@ -1056,43 +1301,50 @@ _No notes in this thread yet._
 - [[concepts/multimodal-source-analysis|Multimodal Source Analysis]]
 - [[concepts/multimodal-support|Multimodal Support]]
 - [[concepts/multimodal-understanding|Multimodal Understanding]]
+- [[concepts/multimodal-video-ai|Multimodal Video Ai]]
 - [[concepts/multimodal-workflow|Multimodal Workflow]]
+- [[concepts/natural-language-design-generation|Natural Language Design Generation]]
 - [[concepts/neural-filters|Neural Filters]]
 - [[concepts/next-generation-ai-capabilities|Next Generation Ai Capabilities]]
 - [[concepts/nlp|Nlp]]
 - [[concepts/one-shot-text-generation|One Shot Text Generation]]
 - [[concepts/optical-character-recognition|Optical Character Recognition]]
 - [[concepts/optical-character-recognition-ocr|Optical Character Recognition Ocr]]
+- [[concepts/pointing-mechanisms|Pointing Mechanisms]]
 - [[concepts/presentation-generation|Presentation Generation]]
 - [[concepts/real-time-asr|Real Time Asr]]
 - [[concepts/response-generation|Response Generation]]
 - [[concepts/retrieval-augmented-generation-rag|Retrieval Augmented Generation Rag]]
 - [[concepts/sentiment-analysis|Sentiment Analysis]]
 - [[concepts/sequence-tagging|Sequence Tagging]]
+- [[concepts/siglip-image-encoder|Siglip Image Encoder]]
 - [[concepts/sketchnote-generation|Sketchnote Generation]]
 - [[concepts/slide-deck-generation|Slide Deck Generation]]
 - [[concepts/source-grounded-generation|Source Grounded Generation]]
 - [[concepts/spatial-understanding|Spatial Understanding]]
-- [[concepts/speaker-detection|Speaker Detection]]
 - [[concepts/speaker-separation|Speaker Separation]]
 - [[concepts/specialized-generative-ai|Specialized Generative Ai]]
 - [[concepts/speech-recognition|Speech Recognition]]
+- [[concepts/speech-translation|Speech Translation]]
 - [[concepts/structured-query-generation|Structured Query Generation]]
 - [[concepts/table-generation|Table Generation]]
 - [[concepts/text-diffusion|Text Diffusion]]
-- [[concepts/text-embeddings|Text Embeddings]]
 - [[concepts/text-generation|Text Generation]]
+- [[concepts/text-modality|Text Modality]]
+- [[concepts/text-realism|Text Realism]]
 - [[concepts/text-to-speech-framework|Text To Speech Framework]]
 - [[concepts/text-to-speech-frameworks|Text To Speech Frameworks]]
 - [[concepts/text-to-speech-generation|Text To Speech Generation]]
 - [[concepts/text-to-video-model|Text To Video Model]]
+- [[concepts/thermal-imaging|Thermal Imaging]]
 - [[concepts/thumbnail-generation|Thumbnail Generation]]
 - [[concepts/timbre|Timbre]]
-- [[concepts/timbres|Timbres]]
+- [[concepts/token-generation-speed|Token Generation Speed]]
 - [[concepts/transformers|Transformers]]
 - [[concepts/tts-model|Tts Model]]
 - [[concepts/ui-generation|Ui Generation]]
 - [[concepts/unified-multimodal-models|Unified Multimodal Models]]
+- [[concepts/unified-video-model|Unified Video Model]]
 - [[concepts/universal-embeddings|Universal Embeddings]]
 - [[concepts/vision-based-ai|Vision Based Ai]]
 - [[concepts/vl-jepa|Vl Jepa]]
@@ -1103,11 +1355,15 @@ _No notes in this thread yet._
 <div id="model-efficiency-compression" class="domain-group-anchor"></div>
 ## Model Efficiency & Compression
 
-<div class="domain-group-meta">164 concepts · 1 linked notes</div>
+<div class="domain-group-meta">187 concepts · 125 linked notes</div>
 
 **Representative notes**
 
-- [[lab-notes/2026-04-29-Google-DeepMinds-Gemma-4-Open-Source-AI-Models-and-Archi|Google DeepMind's Gemma 4: Open-Source AI Models and Architectural Innovations]]
+- [[lab-notes/2026-05-23-Optimizing-LLM-Coding-Output-Quality-with-Karpathys-Clau|Optimizing LLM Coding Output Quality with Karpathy's Claude.md File]]
+- [[lab-notes/2026-05-20-MTP-Ngram-Stacked-Speculative-Decoding-in-Llama.cpp-for|MTP + Ngram Stacked Speculative Decoding in Llama.cpp for LLM Inference]]
+- [[lab-notes/2026-05-19-Llama.cpp-Multi-Token-Prediction-Faster-Local-LLM-Infere|Llama.cpp Multi-Token Prediction: Faster Local LLM Inference Explained]]
+- [[lab-notes/2026-05-18-MiniMax-M2.7-Local-CPUGPU-Deployment-via-llama.cpp-Quant|MiniMax-M2.7 Local CPU/GPU Deployment via llama.cpp Quantization]]
+- [[lab-notes/2026-05-17-Energy-Based-Models-Genuine-AI-Reasoning-via-Constraint|Energy-Based Models: Genuine AI Reasoning via Constraint Satisfaction, Beyond LLMs]]
 
 **Concepts in this thread**
 
@@ -1117,6 +1373,7 @@ _No notes in this thread yet._
 - [[concepts/16-bit-depth|16 Bit Depth]]
 - [[concepts/16-bit-to-35-bit-compression|16 Bit To 35 Bit Compression]]
 - [[concepts/17b-parameter-model|17B Parameter Model]]
+- [[concepts/2026-05-01-lab-notes2026-05-01-jwst-challenges-early-galaxy-formation-models-too|2026 05 01 Lab Notes2026 05 01 Jwst Challenges Early Galaxy Formation Models Too]]
 - [[concepts/229-billion-parameters|229 Billion Parameters]]
 - [[concepts/23b-parameter-models|23B Parameter Models]]
 - [[concepts/3-billion-parameter-model|3 Billion Parameter Model]]
@@ -1126,15 +1383,19 @@ _No notes in this thread yet._
 - [[concepts/ai-cost-efficiency|Ai Cost Efficiency]]
 - [[concepts/ai-cost-optimization|Ai Cost Optimization]]
 - [[concepts/ai-efficiency|Ai Efficiency]]
+- [[concepts/ai-performance-optimization|Ai Performance Optimization]]
 - [[concepts/ai-scaling-laws|Ai Scaling Laws]]
 - [[concepts/algorithm-efficiency|Algorithm Efficiency]]
 - [[concepts/algorithm-optimization|Algorithm Optimization]]
 - [[concepts/algorithmic-optimization|Algorithmic Optimization]]
+- [[concepts/asr-models|Asr Models]]
 - [[concepts/base-models|Base Models]]
+- [[concepts/bonsai|Bonsai]]
 - [[concepts/cloud-based-llm-comparison|Cloud Based Llm Comparison]]
+- [[concepts/compression-algorithm|Compression Algorithm]]
 - [[concepts/computational-efficiency|Computational Efficiency]]
+- [[concepts/computational-resource-demand|Computational Resource Demand]]
 - [[concepts/constrained-optimization|Constrained Optimization]]
-- [[concepts/cosmological-models|Cosmological Models]]
 - [[concepts/cost-efficiency-of-open-source-llms|Cost Efficiency Of Open Source Llms]]
 - [[concepts/cpu-based-inference|Cpu Based Inference]]
 - [[concepts/cpu-inference|Cpu Inference]]
@@ -1145,23 +1406,28 @@ _No notes in this thread yet._
 - [[concepts/desktop-to-mobile-llm-integration|Desktop To Mobile Llm Integration]]
 - [[concepts/digit-precision|Digit Precision]]
 - [[concepts/effective-use-of-llms|Effective Use Of Llms]]
+- [[concepts/efficiency-principles|Efficiency Principles]]
 - [[concepts/efficient-pruning|Efficient Pruning]]
 - [[concepts/egoorg-focus-parameters|Egoorg Focus Parameters]]
 - [[concepts/embedding-models|Embedding Models]]
 - [[concepts/end-to-end-optimization|End To End Optimization]]
+- [[concepts/energy-based-models|Energy Based Models]]
 - [[concepts/energy-efficiency|Energy Efficiency]]
 - [[concepts/file-size-reduction|File Size Reduction]]
 - [[concepts/filter-parameters|Filter Parameters]]
 - [[concepts/flash-models|Flash Models]]
 - [[concepts/frontier-ai-models|Frontier Ai Models]]
+- [[concepts/frontier-small-models|Frontier Small Models]]
 - [[concepts/full-precision|Full Precision]]
 - [[concepts/general-purpose-llms|General Purpose Llms]]
 - [[concepts/general-purpose-models|General Purpose Models]]
 - [[concepts/ggml|Ggml]]
+- [[concepts/gguf|Gguf]]
 - [[concepts/gpu-accelerated-inference|Gpu Accelerated Inference]]
 - [[concepts/gpu-based-ai-inference|Gpu Based Ai Inference]]
 - [[concepts/hidden-markov-models|Hidden Markov Models]]
 - [[concepts/high-throughput-model|High Throughput Model]]
+- [[concepts/ibm-granite-speech-41-models|Ibm Granite Speech 41 Models]]
 - [[concepts/inference|Inference]]
 - [[concepts/inference-engine|Inference Engine]]
 - [[concepts/inference-engines|Inference Engines]]
@@ -1171,6 +1437,7 @@ _No notes in this thread yet._
 - [[concepts/ios-llm-implementation|Ios Llm Implementation]]
 - [[concepts/knowledge-retrieval-efficiency|Knowledge Retrieval Efficiency]]
 - [[concepts/kv-cache-compression|Kv Cache Compression]]
+- [[concepts/latency-bottleneck|Latency Bottleneck]]
 - [[concepts/lens-compression|Lens Compression]]
 - [[concepts/linear-adapters|Linear Adapters]]
 - [[concepts/llm|Llm]]
@@ -1180,6 +1447,7 @@ _No notes in this thread yet._
 - [[concepts/llm-based-computing|Llm Based Computing]]
 - [[concepts/llm-benchmarks|Llm Benchmarks]]
 - [[concepts/llm-blindspot|Llm Blindspot]]
+- [[concepts/llm-coding-output-quality|Llm Coding Output Quality]]
 - [[concepts/llm-coding-performance|Llm Coding Performance]]
 - [[concepts/llm-conceptsalgorithmic-optimizationoptimization-techniques|Llm Conceptsalgorithmic Optimizationoptimization Techniques]]
 - [[concepts/llm-conceptsinference-optimizationinference-speed|Llm Conceptsinference Optimizationinference Speed]]
@@ -1214,17 +1482,24 @@ _No notes in this thread yet._
 - [[concepts/mobile-ai-inference|Mobile Ai Inference]]
 - [[concepts/mobile-llm-implementation|Mobile Llm Implementation]]
 - [[concepts/mobile-llm-interaction|Mobile Llm Interaction]]
+- [[concepts/model-artifacts|Model Artifacts]]
+- [[concepts/model-benchmarking|Model Benchmarking]]
 - [[concepts/model-chaining|Model Chaining]]
 - [[concepts/model-compression|Model Compression]]
 - [[concepts/model-differentiation|Model Differentiation]]
 - [[concepts/model-efficiency|Model Efficiency]]
+- [[concepts/model-loading|Model Loading]]
 - [[concepts/model-output-optimization|Model Output Optimization]]
 - [[concepts/model-parameters|Model Parameters]]
+- [[concepts/model-playground|Model Playground]]
 - [[concepts/model-pruning|Model Pruning]]
 - [[concepts/model-quantization|Model Quantization]]
 - [[concepts/model-size|Model Size]]
 - [[concepts/models|Models]]
+- [[concepts/moe-ai-model|Moe Ai Model]]
 - [[concepts/multi-core|Multi Core]]
+- [[concepts/multi-token-prediction-mtp|Multi Token Prediction Mtp]]
+- [[concepts/multi-token-prediction-mtp-drafter-models|Multi Token Prediction Mtp Drafter Models]]
 - [[concepts/offline-inference|Offline Inference]]
 - [[concepts/on-device-inference|On Device Inference]]
 - [[concepts/openvino-optimization|Openvino Optimization]]
@@ -1235,6 +1510,7 @@ _No notes in this thread yet._
 - [[concepts/parameter-reduction|Parameter Reduction]]
 - [[concepts/parameter-scaling|Parameter Scaling]]
 - [[concepts/parameters|Parameters]]
+- [[concepts/performance-efficiency|Performance Efficiency]]
 - [[concepts/post-retrieval-optimization|Post Retrieval Optimization]]
 - [[concepts/pre-retrieval-optimization|Pre Retrieval Optimization]]
 - [[concepts/pre-trained-llms|Pre Trained Llms]]
@@ -1243,6 +1519,7 @@ _No notes in this thread yet._
 - [[concepts/private-llm-instances|Private Llm Instances]]
 - [[concepts/q4-k-m|Q4 K M]]
 - [[concepts/quantisation|Quantisation]]
+- [[concepts/quantization-techniques|Quantization Techniques]]
 - [[concepts/quick-response-models|Quick Response Models]]
 - [[concepts/reduced-precision|Reduced Precision]]
 - [[concepts/remote-inference|Remote Inference]]
@@ -1254,8 +1531,10 @@ _No notes in this thread yet._
 - [[concepts/small-scale-ai-models|Small Scale Ai Models]]
 - [[concepts/specialized-ai-models|Specialized Ai Models]]
 - [[concepts/specialized-llms|Specialized Llms]]
+- [[concepts/speculative-inference|Speculative Inference]]
 - [[concepts/speed|Speed]]
 - [[concepts/speed-enhancements|Speed Enhancements]]
+- [[concepts/ssm|Ssm]]
 - [[concepts/standard-llm-limitation|Standard Llm Limitation]]
 - [[concepts/subspace-approximation|Subspace Approximation]]
 - [[concepts/sufficient-parameters|Sufficient Parameters]]
@@ -1279,9 +1558,15 @@ _No notes in this thread yet._
 <div id="training-fine-tuning-evaluation" class="domain-group-anchor"></div>
 ## Training Fine-Tuning & Evaluation
 
-<div class="domain-group-meta">58 concepts · 0 linked notes</div>
+<div class="domain-group-meta">62 concepts · 52 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-08-IBM-Granite-Speech-4.1-ASR-Models-Features-Accuracy-and|IBM Granite Speech 4.1 ASR Models: Features, Accuracy, and Enterprise Applications]]
+- [[lab-notes/2026-04-29-Just-a-moment|URL Ingest Summary]]
+- [[lab-notes/2026-04-24-Report-Top-10-Worst-EVs-to-Avoid---Analysis-of-Performance-and-Value|Report: Top 10 Worst EVs to Avoid - Analysis of Performance and Value]]
+- [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]]
+- [[lab-notes/2026-04-22-AnythingLLM-1.12-Channels-Mobile-Interaction-with-Private-Self-Hosted-LLMs|AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs]]
 
 **Concepts in this thread**
 
@@ -1291,6 +1576,7 @@ _No notes in this thread yet._
 - [[concepts/ai-benchmarks|Ai Benchmarks]]
 - [[concepts/ai-recall|Ai Recall]]
 - [[concepts/algorithm-comparison|Algorithm Comparison]]
+- [[concepts/asr-accuracy|Asr Accuracy]]
 - [[concepts/candidate-evaluation|Candidate Evaluation]]
 - [[concepts/citation-based-factual-evaluation|Citation Based Factual Evaluation]]
 - [[concepts/confidence-score|Confidence Score]]
@@ -1327,12 +1613,15 @@ _No notes in this thread yet._
 - [[concepts/problem-verification|Problem Verification]]
 - [[concepts/program-evaluation-and-review-technique-pert|Program Evaluation And Review Technique Pert]]
 - [[concepts/recall|Recall]]
+- [[concepts/reinforcement-learning|Reinforcement Learning]]
 - [[concepts/reinforcement-learning-environments|Reinforcement Learning Environments]]
 - [[concepts/social-emotional-learning|Social Emotional Learning]]
+- [[concepts/social-learning|Social Learning]]
 - [[concepts/solution-verification|Solution Verification]]
 - [[concepts/success-rates|Success Rates]]
 - [[concepts/supervised-fine-tuning|Supervised Fine Tuning]]
 - [[concepts/text-accuracy|Text Accuracy]]
+- [[concepts/transfer-learning|Transfer Learning]]
 - [[concepts/transformer-reinforcement-learning|Transformer Reinforcement Learning]]
 - [[concepts/trl-library|Trl Library]]
 - [[concepts/trust-follows-verification|Trust Follows Verification]]
@@ -1347,45 +1636,74 @@ _No notes in this thread yet._
 <div id="ai-futures-self-improvement" class="domain-group-anchor"></div>
 ## AI Futures & Self-Improvement
 
-<div class="domain-group-meta">17 concepts · 0 linked notes</div>
+<div class="domain-group-meta">30 concepts · 25 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
+- [[lab-notes/2026-05-01-Local-vs.-Cloud-LLMs-for-Code-Generation-Performance-Com|Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task]]
+- [[lab-notes/2026-04-30-LHC-CMS-Experiment-Tests-for-Quark-Substructure|LHC CMS Experiment Tests for Quark Substructure]]
+- [[lab-notes/2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme|AionUI: Free Desktop Platform for Multi-Agent AI Management and Automation]]
+- [[lab-notes/2026-04-19-Elons-AI-Model-Factory-XAI-Anthropic-Accelerating-Self-Developing-AI|Elons AI Model Factory XAI Anthropic Accelerating Self-Developing AI]]
 
 **Concepts in this thread**
 
+- [[concepts/agi|Agi]]
+- [[concepts/ai-model-harness|Ai Model Harness]]
 - [[concepts/ai-recursive-self-improvement|Ai Recursive Self Improvement]]
+- [[concepts/ai-singularity|Ai Singularity]]
+- [[concepts/candidate-assessment|Candidate Assessment]]
+- [[concepts/frontier-ai|Frontier Ai]]
+- [[concepts/future-predictions|Future Predictions]]
 - [[concepts/hard-takeoff|Hard Takeoff]]
 - [[concepts/hard-takeoff-phase|Hard Takeoff Phase]]
 - [[concepts/human-replacement|Human Replacement]]
+- [[concepts/hypothesis-driven-experimentation|Hypothesis Driven Experimentation]]
 - [[concepts/intelligence-explosion|Intelligence Explosion]]
 - [[concepts/intelligence-leaps|Intelligence Leaps]]
 - [[concepts/intelligence-paradox|Intelligence Paradox]]
 - [[concepts/leverage-ai|Leverage Ai]]
 - [[concepts/magnifying-human-potential|Magnifying Human Potential]]
 - [[concepts/naive-but-good-natured-ai|Naive But Good Natured Ai]]
+- [[concepts/neural-cellular-automata|Neural Cellular Automata]]
 - [[concepts/physical-ai|Physical Ai]]
 - [[concepts/post-corporate-world|Post Corporate World]]
 - [[concepts/self-correcting-ai|Self Correcting Ai]]
 - [[concepts/self-developing-ai|Self Developing Ai]]
 - [[concepts/self-evolution|Self Evolution]]
+- [[concepts/self-evolutionary-development|Self Evolutionary Development]]
+- [[concepts/self-evolving-ai|Self Evolving Ai]]
 - [[concepts/self-improvement|Self Improvement]]
+- [[concepts/self-optimizing-systems|Self Optimizing Systems]]
+- [[concepts/survival-threshold|Survival Threshold]]
 - [[concepts/technological-replacement|Technological Replacement]]
+- [[concepts/vulnerability-exploration|Vulnerability Exploration]]
 
 <div id="safety-guardrails-governance" class="domain-group-anchor"></div>
 ## Safety Guardrails & Governance
 
-<div class="domain-group-meta">44 concepts · 0 linked notes</div>
+<div class="domain-group-meta">50 concepts · 37 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-15-Anthropics-Research-Translating-Claudes-Internal-Thought|Anthropic's Research: Translating Claude's Internal Thoughts and Ethical Decision-Making]]
+- [[lab-notes/2026-05-09-OpenAI-GPT-5.5-Instant-Capabilities-Safety-Concerns-and|OpenAI GPT-5.5 Instant: Capabilities, Safety Concerns, and Real-World Impact Analysis]]
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
+- [[lab-notes/2026-04-26-Fungal-Ice-Nucleating-Proteins-A-Groundbreaking-Rain-Dis|Fungal Ice-Nucleating Proteins: A Groundbreaking Rain Discovery]]
+- [[lab-notes/2026-04-25-Advanced-AI-Video-Production-Using-GPT-Image-2-and-Iterative-Prompt-Engineering|Advanced AI Video Production Using GPT Image 2 and Iterative Prompt Engineering]]
 
 **Concepts in this thread**
 
 - [[concepts/accountability|Accountability]]
 - [[concepts/ai-governance|Ai Governance]]
 - [[concepts/ai-governance-framework|Ai Governance Framework]]
+- [[concepts/ai-policy|Ai Policy]]
 - [[concepts/ai-safety|Ai Safety]]
 - [[concepts/australian-government-policy|Australian Government Policy]]
+- [[concepts/constraint-disclosure|Constraint Disclosure]]
 - [[concepts/corporate-ai-governance|Corporate Ai Governance]]
+- [[concepts/cyber-permissive-ai|Cyber Permissive Ai]]
+- [[concepts/cybercrime-recruitment|Cybercrime Recruitment]]
 - [[concepts/developer-responsibility|Developer Responsibility]]
 - [[concepts/error-response-standardization|Error Response Standardization]]
 - [[concepts/forensic-level-transparency|Forensic Level Transparency]]
@@ -1395,6 +1713,7 @@ _No notes in this thread yet._
 - [[concepts/input-validation|Input Validation]]
 - [[concepts/intent-check|Intent Check]]
 - [[concepts/interpretability|Interpretability]]
+- [[concepts/jailbreaking|Jailbreaking]]
 - [[concepts/non-violence-policy|Non Violence Policy]]
 - [[concepts/organisational-governance|Organisational Governance]]
 - [[concepts/pixel-transparency|Pixel Transparency]]
@@ -1412,6 +1731,7 @@ _No notes in this thread yet._
 - [[concepts/regulation|Regulation]]
 - [[concepts/regulatory-framework|Regulatory Framework]]
 - [[concepts/safety-alternative|Safety Alternative]]
+- [[concepts/safety-concerns|Safety Concerns]]
 - [[concepts/safety-limits|Safety Limits]]
 - [[concepts/safetybias|Safetybias]]
 - [[concepts/safetybias-assessment|Safetybias Assessment]]
@@ -1428,19 +1748,26 @@ _No notes in this thread yet._
 <div id="applied-ai-workflows" class="domain-group-anchor"></div>
 ## Applied AI Workflows
 
-<div class="domain-group-meta">262 concepts · 1 linked notes</div>
+<div class="domain-group-meta">296 concepts · 197 linked notes</div>
 
 **Representative notes**
 
-- [[inbox/ai-research|ai research]]
+- [[lab-notes/2026-05-23-Understand-Anything-AI-Tool-for-Interactive-Codebase-Map|Understand Anything: AI Tool for Interactive Codebase Mapping and Onboarding]]
+- [[lab-notes/2026-05-22-EdgeQuake-Local-Rust-Graph-RAG-with-Ollama-for-Improved|EdgeQuake: Local Rust Graph-RAG with Ollama for Improved Knowledge Retrieval]]
+- [[lab-notes/2026-05-21-Karpathy-Joins-Anthropic-Implications-for-Claudes-AI-Wor|Karpathy Joins Anthropic: Implications for Claude's AI Workflow Strategy]]
+- [[lab-notes/2026-05-17-OpenAI-Codex-Agentic-AI-Outperforms-Claude-in-GTM-Resear|OpenAI Codex Agentic AI Outperforms Claude in GTM Research & Automation]]
+- [[lab-notes/2026-05-11-Higgsfield-Enabling-LLMs-like-Claude-for-Media-Generatio|Higgsfield: Enabling LLMs like Claude for Media Generation]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-13-p-vs-np-problem-computational-complexity-and-implications-summary|2026 04 13 P Vs Np Problem Computational Complexity And Implications Summary]]
+- [[concepts/2026-04-23-httpswwwyoutubecomwatchvvnt5c-rlwie-here-is-a-summary-of-the|2026 04 23 Httpswwwyoutubecomwatchvvnt5C Rlwie Here Is A Summary Of The]]
 - [[concepts/advanced-analytics|Advanced Analytics]]
 - [[concepts/advanced-google-search|Advanced Google Search]]
 - [[concepts/advanced-search-techniques|Advanced Search Techniques]]
 - [[concepts/agile-ai-driven-development|Agile Ai Driven Development]]
 - [[concepts/ai-automation|Ai Automation]]
+- [[concepts/ai-co-worker|Ai Co Worker]]
 - [[concepts/ai-collaboration|Ai Collaboration]]
 - [[concepts/ai-content-workflows|Ai Content Workflows]]
 - [[concepts/ai-debugging|Ai Debugging]]
@@ -1488,6 +1815,7 @@ _No notes in this thread yet._
 - [[concepts/ai-expertise|Ai Expertise]]
 - [[concepts/ai-image-workflows|Ai Image Workflows]]
 - [[concepts/ai-in-interview-process|Ai In Interview Process]]
+- [[concepts/ai-integrated-notebooks|Ai Integrated Notebooks]]
 - [[concepts/ai-integrated-workflows|Ai Integrated Workflows]]
 - [[concepts/ai-maintained-knowledge-bases|Ai Maintained Knowledge Bases]]
 - [[concepts/ai-market-research|Ai Market Research]]
@@ -1500,6 +1828,7 @@ _No notes in this thread yet._
 - [[concepts/ai-powered-code-editing|Ai Powered Code Editing]]
 - [[concepts/ai-powered-communication|Ai Powered Communication]]
 - [[concepts/ai-powered-compositing|Ai Powered Compositing]]
+- [[concepts/ai-powered-conceptsproductivity-toolsproductivity-tools|Ai Powered Conceptsproductivity Toolsproductivity Tools]]
 - [[concepts/ai-powered-content-removal|Ai Powered Content Removal]]
 - [[concepts/ai-powered-content-system|Ai Powered Content System]]
 - [[concepts/ai-powered-content-systems|Ai Powered Content Systems]]
@@ -1508,11 +1837,13 @@ _No notes in this thread yet._
 - [[concepts/ai-powered-data-visualization|Ai Powered Data Visualization]]
 - [[concepts/ai-powered-dictation|Ai Powered Dictation]]
 - [[concepts/ai-powered-flight-searching|Ai Powered Flight Searching]]
+- [[concepts/ai-powered-generative-features|Ai Powered Generative Features]]
 - [[concepts/ai-powered-glasses|Ai Powered Glasses]]
 - [[concepts/ai-powered-image-manipulation|Ai Powered Image Manipulation]]
 - [[concepts/ai-powered-masking|Ai Powered Masking]]
 - [[concepts/ai-powered-methods|Ai Powered Methods]]
 - [[concepts/ai-powered-photo-selection|Ai Powered Photo Selection]]
+- [[concepts/ai-powered-platform|Ai Powered Platform]]
 - [[concepts/ai-powered-presentation-creation-tools|Ai Powered Presentation Creation Tools]]
 - [[concepts/ai-powered-presentations|Ai Powered Presentations]]
 - [[concepts/ai-powered-research-tools|Ai Powered Research Tools]]
@@ -1541,12 +1872,15 @@ _No notes in this thread yet._
 - [[concepts/ai-workflow|Ai Workflow]]
 - [[concepts/ai-workflow-enhancement|Ai Workflow Enhancement]]
 - [[concepts/ai-workflow-integration|Ai Workflow Integration]]
+- [[concepts/ai-workflow-strategy|Ai Workflow Strategy]]
 - [[concepts/ai-workflow-tool|Ai Workflow Tool]]
 - [[concepts/aimm-ai-maturity-model|Aimm Ai Maturity Model]]
 - [[concepts/application-build|Application Build]]
 - [[concepts/application-customization|Application Customization]]
 - [[concepts/application-delivery|Application Delivery]]
+- [[concepts/application-interaction|Application Interaction]]
 - [[concepts/applied-ai-team|Applied Ai Team]]
+- [[concepts/arkit|Arkit]]
 - [[concepts/artificial-analysis-intelligence-index|Artificial Analysis Intelligence Index]]
 - [[concepts/augmentation-of-human-capabilities|Augmentation Of Human Capabilities]]
 - [[concepts/autoresearch|Autoresearch]]
@@ -1555,21 +1889,30 @@ _No notes in this thread yet._
 - [[concepts/browser-based-applications|Browser Based Applications]]
 - [[concepts/business-applications|Business Applications]]
 - [[concepts/capabilities|Capabilities]]
+- [[concepts/carousel-creation|Carousel Creation]]
 - [[concepts/charging-capability|Charging Capability]]
 - [[concepts/chat-application|Chat Application]]
 - [[concepts/complex-tasks|Complex Tasks]]
 - [[concepts/complex-workflows|Complex Workflows]]
 - [[concepts/copywriter-ai|Copywriter Ai]]
 - [[concepts/core-ai-workflows|Core Ai Workflows]]
+- [[concepts/course-portal-hosting|Course Portal Hosting]]
+- [[concepts/creative-assistance|Creative Assistance]]
 - [[concepts/cross-platform-ai-development|Cross Platform Ai Development]]
 - [[concepts/custom-knowledge-bases|Custom Knowledge Bases]]
 - [[concepts/customization|Customization]]
 - [[concepts/deep-research-function|Deep Research Function]]
+- [[concepts/dermatology-image-analysis|Dermatology Image Analysis]]
+- [[concepts/design-workflows|Design Workflows]]
 - [[concepts/desktop-application|Desktop Application]]
+- [[concepts/developer|Developer]]
 - [[concepts/development-workflows|Development Workflows]]
+- [[concepts/dreamdojo-ai|Dreamdojo Ai]]
 - [[concepts/efficient-information-retrieval|Efficient Information Retrieval]]
 - [[concepts/efficient-rag|Efficient Rag]]
+- [[concepts/email-management|Email Management]]
 - [[concepts/embedding-based-retrieval|Embedding Based Retrieval]]
+- [[concepts/embedding-capabilities|Embedding Capabilities]]
 - [[concepts/embedding-model|Embedding Model]]
 - [[concepts/employee-ai-projects|Employee Ai Projects]]
 - [[concepts/evaluating-strategies-for-retrieval|Evaluating Strategies For Retrieval]]
@@ -1590,32 +1933,43 @@ _No notes in this thread yet._
 - [[concepts/graphrag|Graphrag]]
 - [[concepts/grounded-knowledge-engine|Grounded Knowledge Engine]]
 - [[concepts/human-ai-collaboration|Human Ai Collaboration]]
+- [[concepts/image-analysis|Image Analysis]]
 - [[concepts/image-quality-enhancement|Image Quality Enhancement]]
 - [[concepts/image-retrieval|Image Retrieval]]
 - [[concepts/in-house-ai-development|In House Ai Development]]
 - [[concepts/information-provision|Information Provision]]
+- [[concepts/information-synthesis|Information Synthesis]]
 - [[concepts/insight-presentation|Insight Presentation]]
 - [[concepts/integrated-ai-workflows|Integrated Ai Workflows]]
+- [[concepts/intelligent-file-management|Intelligent File Management]]
 - [[concepts/intelligent-folders|Intelligent Folders]]
 - [[concepts/internal-knowledge-base-bot|Internal Knowledge Base Bot]]
 - [[concepts/internet-search-engine|Internet Search Engine]]
+- [[concepts/intrinsic-capabilities|Intrinsic Capabilities]]
 - [[concepts/ipad-creative-workflows|Ipad Creative Workflows]]
+- [[concepts/issue-identification|Issue Identification]]
 - [[concepts/iterative-research|Iterative Research]]
 - [[concepts/knowledge-base|Knowledge Base]]
 - [[concepts/knowledge-base-bot|Knowledge Base Bot]]
 - [[concepts/knowledge-bases|Knowledge Bases]]
 - [[concepts/knowledge-gap|Knowledge Gap]]
+- [[concepts/knowledge-organization|Knowledge Organization]]
 - [[concepts/knowledge-productization|Knowledge Productization]]
 - [[concepts/knowledge-work|Knowledge Work]]
 - [[concepts/langgraph-workflows|Langgraph Workflows]]
+- [[concepts/language-capabilities|Language Capabilities]]
+- [[concepts/layout-preserving-parsing|Layout Preserving Parsing]]
 - [[concepts/legacy-deep-research-model|Legacy Deep Research Model]]
 - [[concepts/light-rag|Light Rag]]
+- [[concepts/local-rag|Local Rag]]
+- [[concepts/markdown-based-design-workflows|Markdown Based Design Workflows]]
 - [[concepts/markdown-based-knowledge-bases|Markdown Based Knowledge Bases]]
 - [[concepts/markdown-summarization|Markdown Summarization]]
 - [[concepts/meeting-prep-strategist|Meeting Prep Strategist]]
 - [[concepts/meeting-summarization|Meeting Summarization]]
 - [[concepts/mind-map-transformation|Mind Map Transformation]]
 - [[concepts/mind-maps|Mind Maps]]
+- [[concepts/mobile-application-design|Mobile Application Design]]
 - [[concepts/model-customization|Model Customization]]
 - [[concepts/multi-model-ai-workflow|Multi Model Ai Workflow]]
 - [[concepts/multi-turn-search|Multi Turn Search]]
@@ -1628,10 +1982,12 @@ _No notes in this thread yet._
 - [[concepts/one-shotting-large-applications|One Shotting Large Applications]]
 - [[concepts/online-research|Online Research]]
 - [[concepts/organic-search-results|Organic Search Results]]
+- [[concepts/output-control|Output Control]]
 - [[concepts/output-customization|Output Customization]]
 - [[concepts/pathrag|Pathrag]]
 - [[concepts/perplexity-ai|Perplexity Ai]]
-- [[concepts/perplexity-labs|Perplexity Labs]]
+- [[concepts/persona-implementation|Persona Implementation]]
+- [[concepts/playbook-creation|Playbook Creation]]
 - [[concepts/power-user-workflows|Power User Workflows]]
 - [[concepts/practice-based-research|Practice Based Research]]
 - [[concepts/prepost-retrieval-optimizations|Prepost Retrieval Optimizations]]
@@ -1658,9 +2014,7 @@ _No notes in this thread yet._
 - [[concepts/retrieval-performance|Retrieval Performance]]
 - [[concepts/retrieval-quality|Retrieval Quality]]
 - [[concepts/salesperson-ai|Salesperson Ai]]
-- [[concepts/salt-application-timing|Salt Application Timing]]
 - [[concepts/search-customization|Search Customization]]
-- [[concepts/search-friendly-infographics|Search Friendly Infographics]]
 - [[concepts/search-operators|Search Operators]]
 - [[concepts/search-precision|Search Precision]]
 - [[concepts/search-relevance|Search Relevance]]
@@ -1672,11 +2026,14 @@ _No notes in this thread yet._
 - [[concepts/sop-creation|Sop Creation]]
 - [[concepts/source-aware-retrieval|Source Aware Retrieval]]
 - [[concepts/source-based-ai-grounding|Source Based Ai Grounding]]
+- [[concepts/storyboard-method|Storyboard Method]]
 - [[concepts/summarization|Summarization]]
 - [[concepts/summarization-granularity|Summarization Granularity]]
 - [[concepts/summarization-levels|Summarization Levels]]
 - [[concepts/summary|Summary]]
+- [[concepts/summary-coober-pedys-unique-living-conditions-are-highlighted-showcasing-how-the|Summary Coober Pedys Unique Living Conditions Are Highlighted Showcasing How The]]
 - [[concepts/synoptic-mind|Synoptic Mind]]
+- [[concepts/table-to-text-conversion|Table To Text Conversion]]
 - [[concepts/task-decomposition|Task Decomposition]]
 - [[concepts/task-description|Task Description]]
 - [[concepts/task-specific-workflows|Task Specific Workflows]]
@@ -1684,6 +2041,7 @@ _No notes in this thread yet._
 - [[concepts/third-party-applications|Third Party Applications]]
 - [[concepts/top-k-retrieval|Top K Retrieval]]
 - [[concepts/traditional-rag|Traditional Rag]]
+- [[concepts/traffic-routing|Traffic Routing]]
 - [[concepts/universal-embedding-model|Universal Embedding Model]]
 - [[concepts/vanilla-rag|Vanilla Rag]]
 - [[concepts/various-outputs|Various Outputs]]
@@ -1706,21 +2064,22 @@ _No notes in this thread yet._
 - [[entities/9x|9X]]
 - [[entities/aaron-baughman|Aaron Baughman]]
 - [[entities/abacusai|Abacusai]]
+- [[entities/abc-news|Abc News]]
 - [[entities/abraham-daniels|Abraham Daniels]]
 - [[entities/adam-luceck|Adam Luceck]]
 - [[entities/adam-lucek|Adam Lucek]]
+- [[entities/admin-privileges|Admin Privileges]]
 - [[entities/adobe|Adobe]]
 - [[entities/adobe-acrobat|Adobe Acrobat]]
 - [[entities/adobe-ai-assistant|Adobe Ai Assistant]]
 - [[entities/adobe-camera-raw|Adobe Camera Raw]]
 - [[entities/adobe-express|Adobe Express]]
 - [[entities/adobe-firefly|Adobe Firefly]]
-- [[entities/adobe-lightroom|Adobe Lightroom]]
 - [[entities/adobe-photoshop|Adobe Photoshop]]
+- [[entities/adobe-photoshop-2025|Adobe Photoshop 2025]]
 - [[entities/adobe-photoshop-beta|Adobe Photoshop Beta]]
 - [[entities/adobe-rgb|Adobe Rgb]]
 - [[entities/adrian-twarog|Adrian Twarog]]
-- [[entities/advanced-plan|Advanced Plan]]
 - [[entities/agent|Agent]]
 - [[entities/ai|Ai]]
 - [[entities/ai-andy|Ai Andy]]
@@ -1734,17 +2093,17 @@ _No notes in this thread yet._
 - [[entities/ai-labs|Ai Labs]]
 - [[entities/ai-mind-revolution|Ai Mind Revolution]]
 - [[entities/ai-news-strategy-daily|Ai News Strategy Daily]]
+- [[entities/ai-pipeline|Ai Pipeline]]
 - [[entities/ai-specialists|Ai Specialists]]
 - [[entities/ai-studio|Ai Studio]]
 - [[entities/ai-tools|Ai Tools]]
 - [[entities/ai-with-surya|Ai With Surya]]
 - [[entities/ai-work-team|Ai Work Team]]
-- [[entities/ai-workshop|Ai Workshop]]
-- [[entities/ai21-labs|Ai21 Labs]]
 
 ## Related Shelves
 
 - [[domains/tools-platforms|Tools & Platforms]]
+- [[domains/ux-design|UX & Design]]
 - [[domains/creative-pursuits|Creative Pursuits]]
 - [[domains/food-nutrition|Food & Nutrition]]
 - [[domains/business-strategy|Business & Strategy]]

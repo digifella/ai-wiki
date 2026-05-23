@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "ai"
   - "photography"
@@ -14,7 +13,8 @@ aliases:
   - "AI-powered photography"
   - "machine learning photography"
 summary: Application of artificial intelligence and machine learning technologies to photographic processes, tools, and workflows.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # AI in Photography
 
@@ -22,16 +22,15 @@ updated: 2026-05-01
 
 ## Image Processing and Enhancement
 
-AI-powered tools now handle common post-processing tasks such as noise reduction, upscaling, color correction, and selective [[concepts/layer-masks|masking]]. [[concepts/artificial-intelligence-models|Machine learning models]] can intelligently separate subjects from backgrounds, automatically adjust [[concepts/exposure|exposure]] and white balance, and generate targeted edits based on image content. These capabilities appear in both professional software like Adobe Lightroom and Capture One, as well as consumer-level applications and smartphone cameras.
+[[concepts/ai-powered-tools|AI-powered tools]] now handle common post-processing tasks such as noise reduction, upscaling, color correction, and selective [[concepts/layer-masks|masking]]. [[concepts/artificial-intelligence-models|Machine learning models]] can intelligently separate subjects from backgrounds, automatically adjust [[concepts/exposure|exposure]] and white balance, and generate targeted edits based on image content. These [[concepts/capabilities|capabilities]] appear in both professional software like [[entities/adobe-lightroom|Adobe Lightroom]] and Capture One, as well as consumer-level applications and smartphone cameras.
 
 ## Generation and Synthesis
 
-Recent developments in generative AI have introduced new capabilities to photography workflows, including image inpainting, background replacement, and content generation. These tools allow photographers to modify or extend existing images, though they raise ongoing discussions about authenticity and the definition of photography as a [[entities/medium|medium]].
+Recent developments in [[concepts/generative-ai|generative AI]] have introduced new capabilities to photography workflows, including image inpainting, background replacement, and content generation. These tools allow photographers to modify or extend existing images, though they raise ongoing discussions about authenticity and the definition of photography as a [[entities/medium|medium]].
 
 ## Organization and Metadata
 
-AI systems assist photographers in managing large image libraries by automatically tagging, sorting, and categorizing photographs based on visual content, subjects, and scene characteristics. Machine learning models can recognize faces, objects, locations, and other elements, generating metadata that makes image discovery and organization more efficient.
-
+AI systems assist photographers in managing large image libraries by automatically tagging, sorting, and categorizing photographs based on visual content, subjects, and scene characteristics. [[concepts/machine-learning-models|Machine learning models]] can recognize [[concepts/faces|faces]], objects, locations, and other elements, generating [[concepts/metadata|metadata]] that makes image discovery and organization more efficient.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-JSON-Prompting-for-Gemini-Achieving-Total-Image-Control-and-Metadata|JSON Prompting for Gemini Achieving Total Image Control and Metadata]] · [▶ source](https://www.youtube.com/watch?v=gcXPW6eBB0w)
 - 2026-04-10: [[lab-notes/2026-04-10-Photoshop-Betas-AI-Rotate-Object-3D-Manipulation-of-2D-Images|Photoshop Betas AI Rotate Object 3D Manipulation of 2D Images]] · [▶ source](https://www.youtube.com/watch?v=2k9lIsGazqc)

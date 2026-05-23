@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "automation"
-  - "ai-agents"
-  - "workflows"
-  - "productivity"
-updated: 2026-04-23
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Automated task pipelines

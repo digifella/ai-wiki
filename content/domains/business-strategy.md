@@ -5,9 +5,9 @@ tags:
   - "domain"
   - "business-strategy"
 cssclasses: [domain-page]
-updated: 2026-05-02
-concept_count: 277
-entity_count: 397
+updated: 2026-05-24
+concept_count: 338
+entity_count: 530
 ---
 # Business & Strategy
 
@@ -15,15 +15,15 @@ Market intelligence, business models, pricing, enterprise work, and professional
 
 <div class="domain-summary-bar">
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">277</span>
+    <span class="domain-summary-value">338</span>
     <span class="domain-summary-label">concepts</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">397</span>
+    <span class="domain-summary-value">530</span>
     <span class="domain-summary-label">entities</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">0</span>
+    <span class="domain-summary-value">199</span>
     <span class="domain-summary-label">linked notes</span>
   </div>
   <div class="domain-summary-stat">
@@ -38,44 +38,44 @@ Market intelligence, business models, pricing, enterprise work, and professional
 <a class="domain-group-card" href="#market-intelligence-geo-seo">
   <span class="domain-group-kicker">Thread</span>
   <h3>Market Intelligence &amp; GEO SEO</h3>
-  <p class="domain-group-stats">38 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">70 concepts · 58 linked notes</p>
   <p class="domain-group-samples">Adoption, Ai Industry, Ai Industry Crisis</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Anthropic Stock: Legal Voiding of Unauthorized Secondary Market Transfers · Nuclear Fusion: Replicating Stellar Power for Earth&#x27;s Energy Future</p>
 </a>
 <a class="domain-group-card" href="#ai-marketing-content-ops">
   <span class="domain-group-kicker">Thread</span>
   <h3>AI Marketing &amp; Content Ops</h3>
-  <p class="domain-group-stats">5 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">5 concepts · 11 linked notes</p>
   <p class="domain-group-samples">Ai Marketing, Ai Marketing Automation, Ai Marketing Team</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Automating Client Onboarding with NotebookLM and Gemini AI · Photoshop Lightroom AI Productivity Tips for Photographers</p>
 </a>
 <a class="domain-group-card" href="#enterprise-strategy-future-work">
   <span class="domain-group-kicker">Thread</span>
   <h3>Enterprise Strategy &amp; Future Work</h3>
-  <p class="domain-group-stats">44 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Ai Consulting Strategy, Business Consulting, Collaborative Initiative</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">53 concepts · 60 linked notes</p>
+  <p class="domain-group-samples">Ai Consulting Strategy, Ai Leadership, Ai Scapegoating</p>
+  <p class="domain-group-notes">Hermes Agent and Vapi Integration for Autonomous AI Phone Calls · Hermes Agent /goal: Delegating Complex, Long-Running Tasks to Autonomous AI</p>
 </a>
 <a class="domain-group-card" href="#pricing-subscriptions-saas">
   <span class="domain-group-kicker">Thread</span>
   <h3>Pricing Subscriptions &amp; SaaS</h3>
-  <p class="domain-group-stats">20 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Ai Pricing Structures, Ai Subscriptions, Ai Ultra Subscription</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">23 concepts · 11 linked notes</p>
+  <p class="domain-group-samples">2026 04 10 Evernote New Pricing Structure User Reactions And Migration Guidance, Ai Pricing Structures, Ai Subscriptions</p>
+  <p class="domain-group-notes">Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task · Karpathy Loop Auto-Optimize AI Inhuman Iteration for Agent Improvement</p>
 </a>
 <a class="domain-group-card" href="#legal-finance-professional-work">
   <span class="domain-group-kicker">Thread</span>
   <h3>Legal Finance &amp; Professional Work</h3>
-  <p class="domain-group-stats">23 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Ai Financial Analysis, Ai Integrated Finance, Asic Login Portal</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">31 concepts · 24 linked notes</p>
+  <p class="domain-group-samples">Ai Financial Analysis, Ai Integrated Finance, Ai Output Quality</p>
+  <p class="domain-group-notes">SpaceX IPO Nvidia Trump Immunity Market and Political Ins · SpaceX IPO, Nvidia, Trump Immunity: Market and Political Insights</p>
 </a>
 <a class="domain-group-card" href="#products-operations-business-economics">
   <span class="domain-group-kicker">Thread</span>
   <h3>Products Operations &amp; Business Economics</h3>
-  <p class="domain-group-stats">147 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Acquisitions, Ad Revenue, Advisor Strategy</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">156 concepts · 130 linked notes</p>
+  <p class="domain-group-samples">2026 04 23 Excel, 2026 04 30 Microsoft, Acquisitions</p>
+  <p class="domain-group-notes">Anthropic Engineers&#x27; Claude Prompting: Skills-Based AI Interaction Principles · Guantanamo Bay: US Acquisition, Military Base, and Detention Center Controversies</p>
 </a>
 </div>
 
@@ -84,32 +84,52 @@ Market intelligence, business models, pricing, enterprise work, and professional
 <div id="market-intelligence-geo-seo" class="domain-group-anchor"></div>
 ## Market Intelligence & GEO SEO
 
-<div class="domain-group-meta">38 concepts · 0 linked notes</div>
+<div class="domain-group-meta">70 concepts · 58 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-13-Anthropic-Stock-Legal-Voiding-of-Unauthorized-Secondary|Anthropic Stock: Legal Voiding of Unauthorized Secondary Market Transfers]]
+- [[lab-notes/2026-04-30-Nuclear-Fusion-Replicating-Stellar-Power-for-Earths-Ener|Nuclear Fusion: Replicating Stellar Power for Earth's Energy Future]]
+- [[lab-notes/2026-04-29-Just-a-moment|URL Ingest Summary]]
+- [[lab-notes/2026-04-27-Claude-AI-Automated-Marketing-with-Custom-Skills-Design|Claude AI: Automated Marketing with Custom Skills, Design Systems, Orchestration]]
+- [[lab-notes/2026-04-26-Mastering-Salt-for-Home-Cooks-Types-Densities-and-Applic|Mastering Salt for Home Cooks: Types, Densities, and Application Techniques]]
 
 **Concepts in this thread**
 
 - [[concepts/adoption|Adoption]]
 - [[concepts/ai-industry|Ai Industry]]
 - [[concepts/ai-industry-crisis|Ai Industry Crisis]]
+- [[concepts/ai-monetization-strategy|Ai Monetization Strategy]]
 - [[concepts/australias-tourist-industry|Australias Tourist Industry]]
 - [[concepts/automated-marketing-audits|Automated Marketing Audits]]
 - [[concepts/automated-marketing-workflow|Automated Marketing Workflow]]
 - [[concepts/automated-marketing-workflows|Automated Marketing Workflows]]
+- [[concepts/business-event-response|Business Event Response]]
 - [[concepts/capital-structure|Capital Structure]]
 - [[concepts/compound-annual-growth-rate-cagr|Compound Annual Growth Rate Cagr]]
 - [[concepts/consulting-industry-transformation|Consulting Industry Transformation]]
+- [[concepts/core-purpose|Core Purpose]]
+- [[concepts/critical-path-method-cpm|Critical Path Method Cpm]]
 - [[concepts/direct-to-consumer-dtc-skincare-sector|Direct To Consumer Dtc Skincare Sector]]
 - [[concepts/dtc-penetration|Dtc Penetration]]
 - [[concepts/dtc-skincare-sector|Dtc Skincare Sector]]
+- [[concepts/earth-element|Earth Element]]
+- [[concepts/earth-personality|Earth Personality]]
+- [[concepts/electricity-supply-and-demand|Electricity Supply And Demand]]
+- [[concepts/empathy|Empathy]]
+- [[concepts/energy-supply-and-demand|Energy Supply And Demand]]
+- [[concepts/findings-chapter|Findings Chapter]]
+- [[concepts/fire-element|Fire Element]]
 - [[concepts/first-mover-advantage|First Mover Advantage]]
 - [[concepts/gen-z|Gen Z]]
 - [[concepts/generative-engine-optimization|Generative Engine Optimization]]
 - [[concepts/generative-engine-optimization-geo|Generative Engine Optimization Geo]]
 - [[concepts/geo|Geo]]
 - [[concepts/global-oil-market-dynamics|Global Oil Market Dynamics]]
-- [[concepts/intel-matching|Intel Matching]]
+- [[concepts/gold-element|Gold Element]]
+- [[concepts/information-access|Information Access]]
+- [[concepts/inspiration-through-communication|Inspiration Through Communication]]
+- [[concepts/interview-techniques|Interview Techniques]]
 - [[concepts/market-competitiveness|Market Competitiveness]]
 - [[concepts/market-intelligence|Market Intelligence]]
 - [[concepts/market-radar-api|Market Radar Api]]
@@ -122,19 +142,43 @@ _No notes in this thread yet._
 - [[concepts/marketing-plan|Marketing Plan]]
 - [[concepts/marketing-rules|Marketing Rules]]
 - [[concepts/marketing-workflow|Marketing Workflow]]
+- [[concepts/metal-element|Metal Element]]
 - [[concepts/millennial-spending-habits|Millennial Spending Habits]]
 - [[concepts/niche-domains|Niche Domains]]
 - [[concepts/niche-specialization|Niche Specialization]]
 - [[concepts/opportunities-and-risks|Opportunities And Risks]]
+- [[concepts/partner-level-work-product|Partner Level Work Product]]
+- [[concepts/personal-development|Personal Development]]
+- [[concepts/prince2|Prince2]]
+- [[concepts/private-market-valuation|Private Market Valuation]]
+- [[concepts/product-durability|Product Durability]]
+- [[concepts/professional-work-product|Professional Work Product]]
+- [[concepts/question-based-inquiry|Question Based Inquiry]]
+- [[concepts/review-prioritization|Review Prioritization]]
+- [[concepts/scenarios|Scenarios]]
+- [[concepts/scrum|Scrum]]
+- [[concepts/secondary-market-transfers|Secondary Market Transfers]]
+- [[concepts/semi-structured-interviews|Semi Structured Interviews]]
 - [[concepts/stakeholder-profiles|Stakeholder Profiles]]
+- [[concepts/stockout-prevention|Stockout Prevention]]
 - [[concepts/swot|Swot]]
+- [[concepts/time-auditing|Time Auditing]]
+- [[concepts/us-china-ai-competition|Us China Ai Competition]]
+- [[concepts/vehicle-value-assessment|Vehicle Value Assessment]]
+- [[concepts/wood-element|Wood Element]]
 
 <div id="ai-marketing-content-ops" class="domain-group-anchor"></div>
 ## AI Marketing & Content Ops
 
-<div class="domain-group-meta">5 concepts · 0 linked notes</div>
+<div class="domain-group-meta">5 concepts · 11 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-19-Automating-Client-Onboarding-with-NotebookLM-and-Gemini-AI|Automating Client Onboarding with NotebookLM and Gemini AI]]
+- [[lab-notes/2026-04-13-Photoshop-Lightroom-AI-Productivity-Tips-for-Photographers|Photoshop Lightroom AI Productivity Tips for Photographers]]
+- [[lab-notes/2026-04-12-Simon-Sinek-Driving-Change-Through-Diffusion-of-Innovations|Simon Sinek Driving Change Through Diffusion of Innovations]]
+- [[lab-notes/2026-04-11-Claude-Co-Work-8-Advanced-Use-Cases-for-AI-Powered-Workflow-Automation|Claude Co-Work 8 Advanced Use Cases for AI-Powered Workflow Automation]]
+- [[lab-notes/2026-04-10-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents  Skills]]
 
 **Concepts in this thread**
 
@@ -147,13 +191,23 @@ _No notes in this thread yet._
 <div id="enterprise-strategy-future-work" class="domain-group-anchor"></div>
 ## Enterprise Strategy & Future Work
 
-<div class="domain-group-meta">44 concepts · 0 linked notes</div>
+<div class="domain-group-meta">53 concepts · 60 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-22-Hermes-Agent-and-Vapi-Integration-for-Autonomous-AI-Phon|Hermes Agent and Vapi Integration for Autonomous AI Phone Calls]]
+- [[lab-notes/2026-05-18-Hermes-Agent-goal-Delegating-Complex-Long-Running-Tasks|Hermes Agent /goal: Delegating Complex, Long-Running Tasks to Autonomous AI]]
+- [[lab-notes/2026-05-18-Anthropic-2028-AI-Leadership-US-China-Geopolitical-Compe|Anthropic 2028 AI Leadership: US-China Geopolitical Competition Analysis]]
+- [[lab-notes/2026-05-05-Ancient-Cities-Ingenuity-and-Adaptation-in-Impossible-Locations|Ancient Cities Ingenuity and Adaptation in Impossible Locations]]
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
 
 **Concepts in this thread**
 
 - [[concepts/ai-consulting-strategy|Ai Consulting Strategy]]
+- [[concepts/ai-leadership|Ai Leadership]]
+- [[concepts/ai-scapegoating|Ai Scapegoating]]
+- [[concepts/ai-transformation|Ai Transformation]]
+- [[concepts/architectural-innovation|Architectural Innovation]]
 - [[concepts/business-consulting|Business Consulting]]
 - [[concepts/collaborative-initiative|Collaborative Initiative]]
 - [[concepts/comprehensive-investigations|Comprehensive Investigations]]
@@ -167,6 +221,7 @@ _No notes in this thread yet._
 - [[concepts/digital-labor-workforce|Digital Labor Workforce]]
 - [[concepts/digital-repository|Digital Repository]]
 - [[concepts/digitisation-of-records|Digitisation Of Records]]
+- [[concepts/downstream-processes|Downstream Processes]]
 - [[concepts/enterprise-ai|Enterprise Ai]]
 - [[concepts/enterprise-ai-deployment|Enterprise Ai Deployment]]
 - [[concepts/enterprise-ai-security|Enterprise Ai Security]]
@@ -177,9 +232,11 @@ _No notes in this thread yet._
 - [[concepts/guiding-role|Guiding Role]]
 - [[concepts/hierarchical-system|Hierarchical System]]
 - [[concepts/hierarchical-systems|Hierarchical Systems]]
+- [[concepts/ibm-distinguished-engineer|Ibm Distinguished Engineer]]
 - [[concepts/innovation|Innovation]]
 - [[concepts/leadership|Leadership]]
 - [[concepts/leadership-transition|Leadership Transition]]
+- [[concepts/opportunity-identification|Opportunity Identification]]
 - [[concepts/organizational-structure|Organizational Structure]]
 - [[concepts/potential-solutions|Potential Solutions]]
 - [[concepts/resistance-to-change|Resistance To Change]]
@@ -190,23 +247,32 @@ _No notes in this thread yet._
 - [[concepts/separation-of-concerns|Separation Of Concerns]]
 - [[concepts/significant-change|Significant Change]]
 - [[concepts/specialization|Specialization]]
+- [[concepts/strategic-ai-implementation|Strategic Ai Implementation]]
 - [[concepts/strategic-approach|Strategic Approach]]
 - [[concepts/strategic-questions|Strategic Questions]]
 - [[concepts/strategic-release|Strategic Release]]
 - [[concepts/strategic-shift|Strategic Shift]]
 - [[concepts/traditional-consulting-model|Traditional Consulting Model]]
+- [[concepts/upstream-processes|Upstream Processes]]
 - [[concepts/whole-of-case-visibility|Whole Of Case Visibility]]
 - [[concepts/work-transformation|Work Transformation]]
 
 <div id="pricing-subscriptions-saas" class="domain-group-anchor"></div>
 ## Pricing Subscriptions & SaaS
 
-<div class="domain-group-meta">20 concepts · 0 linked notes</div>
+<div class="domain-group-meta">23 concepts · 11 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-01-Local-vs.-Cloud-LLMs-for-Code-Generation-Performance-Com|Local vs. Cloud LLMs for Code Generation: Performance Comparison for an Interpreter Task]]
+- [[lab-notes/2026-04-19-Karpathy-Loop-Auto-Optimize-AI-Inhuman-Iteration-for-Agent-Improvement|Karpathy Loop Auto-Optimize AI Inhuman Iteration for Agent Improvement]]
+- [[lab-notes/2026-04-18-Anthropic-Claude-Opus-47-Agentic-Coding-Multimodal-and-Memory-Advancem|Anthropic Claude Opus 47 Agentic Coding Multimodal and Memory Advancements]]
+- [[lab-notes/2026-04-10-Qwen-36-Plus-Open-Source-AIs-Agentic-Capabilities-and-Frontier|Qwen 36 Plus Open-Source AIs Agentic Capabilities and Frontier]]
+- [[lab-notes/2026-04-10-Claude-Managed-Agents-API-Suite-for-Building-and-Deploying-Autonomous-|Claude Managed Agents API Suite for Building and Deploying Autonomous AI Agents]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-10-evernote-new-pricing-structure-user-reactions-and-migration-guidance|2026 04 10 Evernote New Pricing Structure User Reactions And Migration Guidance]]
 - [[concepts/ai-pricing-structures|Ai Pricing Structures]]
 - [[concepts/ai-subscriptions|Ai Subscriptions]]
 - [[concepts/ai-ultra-subscription|Ai Ultra Subscription]]
@@ -215,10 +281,12 @@ _No notes in this thread yet._
 - [[concepts/digital-platform-business-models|Digital Platform Business Models]]
 - [[concepts/direct-to-consumer-dtc-business-models|Direct To Consumer Dtc Business Models]]
 - [[concepts/evernote-pricing|Evernote Pricing]]
+- [[concepts/pareto-frontier|Pareto Frontier]]
 - [[concepts/pricing|Pricing]]
 - [[concepts/pricing-model|Pricing Model]]
 - [[concepts/pricing-structure|Pricing Structure]]
 - [[concepts/pricing-tiers|Pricing Tiers]]
+- [[concepts/starter-plan|Starter Plan]]
 - [[concepts/subscription-based-services|Subscription Based Services]]
 - [[concepts/subscription-models|Subscription Models]]
 - [[concepts/subscription-refund-policies|Subscription Refund Policies]]
@@ -231,14 +299,21 @@ _No notes in this thread yet._
 <div id="legal-finance-professional-work" class="domain-group-anchor"></div>
 ## Legal Finance & Professional Work
 
-<div class="domain-group-meta">23 concepts · 0 linked notes</div>
+<div class="domain-group-meta">31 concepts · 24 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-SpaceX-IPO-Nvidia-Trump-Immunity-Market-and-Political-Ins|SpaceX IPO Nvidia Trump Immunity Market and Political Ins]]
+- [[lab-notes/2026-05-23-SpaceX-IPO-Nvidia-Trump-Immunity-Market-and-Political-In|SpaceX IPO, Nvidia, Trump Immunity: Market and Political Insights]]
+- [[lab-notes/2026-05-10-Achieving-Fast-35B-MoE-AI-Model-Performance-on-6GB-VRAM|Achieving Fast 35B MoE AI Model Performance on 6GB VRAM with Llama.cpp]]
+- [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]]
+- [[lab-notes/2026-04-25-Advanced-AI-Video-Production-Using-GPT-Image-2-and-Iterative-Prompt-Engineering|Advanced AI Video Production Using GPT Image 2 and Iterative Prompt Engineering]]
 
 **Concepts in this thread**
 
 - [[concepts/ai-financial-analysis|Ai Financial Analysis]]
 - [[concepts/ai-integrated-finance|Ai Integrated Finance]]
+- [[concepts/ai-output-quality|Ai Output Quality]]
 - [[concepts/asic-login-portal|Asic Login Portal]]
 - [[concepts/clearing-houses|Clearing Houses]]
 - [[concepts/fda|Fda]]
@@ -246,10 +321,13 @@ _No notes in this thread yet._
 - [[concepts/financial-analyst-ai|Financial Analyst Ai]]
 - [[concepts/financial-crises|Financial Crises]]
 - [[concepts/financial-modeling|Financial Modeling]]
+- [[concepts/financial-performance|Financial Performance]]
 - [[concepts/financial-promises|Financial Promises]]
 - [[concepts/financial-strain|Financial Strain]]
 - [[concepts/legal-ai-configuration|Legal Ai Configuration]]
 - [[concepts/legal-ai-optimization|Legal Ai Optimization]]
+- [[concepts/legal-drafting|Legal Drafting]]
+- [[concepts/legal-professionals|Legal Professionals]]
 - [[concepts/legal-risks|Legal Risks]]
 - [[concepts/legal-work|Legal Work]]
 - [[concepts/licensing|Licensing]]
@@ -258,22 +336,35 @@ _No notes in this thread yet._
 - [[concepts/model-licensing|Model Licensing]]
 - [[concepts/multi-tab-financial-models|Multi Tab Financial Models]]
 - [[concepts/redlining|Redlining]]
+- [[concepts/robodebt-scheme|Robodebt Scheme]]
 - [[concepts/scaling-law|Scaling Law]]
+- [[concepts/strategic-shifts-changes-in-business-strategy-due-to-financial-pressures-or|Strategic Shifts Changes In Business Strategy Due To Financial Pressures Or]]
+- [[concepts/tax-audits|Tax Audits]]
+- [[concepts/tax-immunity|Tax Immunity]]
 - [[concepts/union-labor|Union Labor]]
 
 <div id="products-operations-business-economics" class="domain-group-anchor"></div>
 ## Products Operations & Business Economics
 
-<div class="domain-group-meta">147 concepts · 0 linked notes</div>
+<div class="domain-group-meta">156 concepts · 130 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-17-Anthropic-Engineers-Claude-Prompting-Skills-Based-AI-Int|Anthropic Engineers' Claude Prompting: Skills-Based AI Interaction Principles]]
+- [[lab-notes/2026-05-10-Guantanamo-Bay-US-Acquisition-Military-Base-and-Detentio|Guantanamo Bay: US Acquisition, Military Base, and Detention Center Controversies]]
+- [[lab-notes/2026-05-04-Duck-Fat-Roast-Potatoes-Crispy-Preparation-Guide|Duck Fat Roast Potatoes: Crispy Preparation Guide]]
+- [[lab-notes/2026-05-04-A-Turkish-Cypriot-Chefs-Authentic-Method-for-Perfect-Grilled-Halloumi|A Turkish Cypriot Chefs Authentic Method for Perfect Grilled Halloumi]]
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-23-excel|2026 04 23 Excel]]
+- [[concepts/2026-04-30-microsoft|2026 04 30 Microsoft]]
 - [[concepts/acquisitions|Acquisitions]]
 - [[concepts/ad-revenue|Ad Revenue]]
 - [[concepts/advisor-strategy|Advisor Strategy]]
 - [[concepts/affordable-solution|Affordable Solution]]
+- [[concepts/agile-methodologies|Agile Methodologies]]
 - [[concepts/ai-driven-business-rule-processing|Ai Driven Business Rule Processing]]
 - [[concepts/ai-methodology|Ai Methodology]]
 - [[concepts/ai-powerpoint-generator|Ai Powerpoint Generator]]
@@ -291,6 +382,7 @@ _No notes in this thread yet._
 - [[concepts/board-meetings|Board Meetings]]
 - [[concepts/briefing-email|Briefing Email]]
 - [[concepts/business-growth|Business Growth]]
+- [[concepts/business-logistics|Business Logistics]]
 - [[concepts/business-plan|Business Plan]]
 - [[concepts/candidate-screening-methods|Candidate Screening Methods]]
 - [[concepts/challenges-discussed|Challenges Discussed]]
@@ -305,7 +397,7 @@ _No notes in this thread yet._
 - [[concepts/cost-effective-ai-coding|Cost Effective Ai Coding]]
 - [[concepts/cost-effective-ai-development|Cost Effective Ai Development]]
 - [[concepts/cost-effective-satellite-launch|Cost Effective Satellite Launch]]
-- [[concepts/cost-efficient-ai|Cost Efficient Ai]]
+- [[concepts/cost-efficient-solutions|Cost Efficient Solutions]]
 - [[concepts/cost-optimization|Cost Optimization]]
 - [[concepts/crew-operations|Crew Operations]]
 - [[concepts/developer-productivity|Developer Productivity]]
@@ -332,6 +424,7 @@ _No notes in this thread yet._
 - [[concepts/gold-medal-standard|Gold Medal Standard]]
 - [[concepts/golden-circle|Golden Circle]]
 - [[concepts/google-workspace-automation|Google Workspace Automation]]
+- [[concepts/halloumi-cheese-preparation-method|Halloumi Cheese Preparation Method]]
 - [[concepts/helper-column|Helper Column]]
 - [[concepts/image-preparation|Image Preparation]]
 - [[concepts/importance-of-safe-and-cost-effective-training-environments-that-still-allow-for|Importance Of Safe And Cost Effective Training Environments That Still Allow For]]
@@ -355,13 +448,14 @@ _No notes in this thread yet._
 - [[concepts/low-cost-deployment|Low Cost Deployment]]
 - [[concepts/low-cost-manufacturing|Low Cost Manufacturing]]
 - [[concepts/martini-preparation|Martini Preparation]]
-- Methodology
+- [[concepts/methodology|Methodology]]
 - [[concepts/microsoft-applications|Microsoft Applications]]
 - [[concepts/microsoft-foundry|Microsoft Foundry]]
 - [[concepts/microsoft-foundry-local|Microsoft Foundry Local]]
 - [[concepts/microsoft-support|Microsoft Support]]
 - [[concepts/milestone-chart|Milestone Chart]]
 - [[concepts/multi-step-ai-operations|Multi Step Ai Operations]]
+- [[concepts/naval-operations|Naval Operations]]
 - [[concepts/okrs|Okrs]]
 - [[concepts/on-the-job-performance|On The Job Performance]]
 - [[concepts/online-courses|Online Courses]]
@@ -370,9 +464,12 @@ _No notes in this thread yet._
 - [[concepts/personalized-productivity|Personalized Productivity]]
 - [[concepts/pharmaceutical-quality-control|Pharmaceutical Quality Control]]
 - [[concepts/pmi-frameworks|Pmi Frameworks]]
+- [[concepts/potato-preparation-techniques|Potato Preparation Techniques]]
 - [[concepts/power-users|Power Users]]
 - [[concepts/preparation|Preparation]]
+- [[concepts/proactive-restocking|Proactive Restocking]]
 - [[concepts/problem-identification|Problem Identification]]
+- [[concepts/productivity|Productivity]]
 - [[concepts/productivity-tips|Productivity Tips]]
 - [[concepts/professional-commercial-production|Professional Commercial Production]]
 - [[concepts/professional-output|Professional Output]]
@@ -388,7 +485,6 @@ _No notes in this thread yet._
 - [[concepts/quality-gates|Quality Gates]]
 - [[concepts/quantum-use-cases|Quantum Use Cases]]
 - [[concepts/rapid-experimentation|Rapid Experimentation]]
-- [[concepts/rapid-prototyping|Rapid Prototyping]]
 - [[concepts/regexreplace|Regexreplace]]
 - [[concepts/relative-reference|Relative Reference]]
 - [[concepts/resource-allocation-model|Resource Allocation Model]]
@@ -405,6 +501,7 @@ _No notes in this thread yet._
 - [[concepts/startup-development|Startup Development]]
 - [[concepts/strategic-analysis|Strategic Analysis]]
 - [[concepts/strategic-pivot|Strategic Pivot]]
+- [[concepts/streamlined-conceptsquality-assurancequality-assurance-processes|Streamlined Conceptsquality Assurancequality Assurance Processes]]
 - [[concepts/team-lead|Team Lead]]
 - [[concepts/team-management|Team Management]]
 - [[concepts/techno-economics|Techno Economics]]
@@ -425,13 +522,20 @@ _No notes in this thread yet._
 - [[entities/aaron-baughman|Aaron Baughman]]
 - [[entities/abacusai|Abacusai]]
 - [[entities/abbott-laboratories|Abbott Laboratories]]
+- [[entities/adam-luceck|Adam Luceck]]
 - [[entities/admin-privileges|Admin Privileges]]
+- [[entities/adobe-express|Adobe Express]]
+- [[entities/adobe-firefly|Adobe Firefly]]
+- [[entities/adobe-photoshop-2025|Adobe Photoshop 2025]]
 - [[entities/adobe-project-indigo|Adobe Project Indigo]]
 - [[entities/adrian-twarog|Adrian Twarog]]
 - [[entities/advanced-plan|Advanced Plan]]
+- [[entities/agent|Agent]]
 - [[entities/ai-coding-assistant|Ai Coding Assistant]]
+- [[entities/ai-founders|Ai Founders]]
 - [[entities/ai-hallucination|Ai Hallucination]]
 - [[entities/ai-jason|Ai Jason]]
+- [[entities/ai-labs|Ai Labs]]
 - [[entities/ai-news-strategy-daily|Ai News Strategy Daily]]
 - [[entities/ai-specialists|Ai Specialists]]
 - [[entities/ai-tools|Ai Tools]]
@@ -440,31 +544,25 @@ _No notes in this thread yet._
 - [[entities/ai-workshop|Ai Workshop]]
 - [[entities/alastair-philip-wiper|Alastair Philip Wiper]]
 - [[entities/aletheia|Aletheia]]
+- [[entities/alex-kretzschmar|Alex Kretzschmar]]
+- [[entities/alexander-kolesnikov|Alexander Kolesnikov]]
 - [[entities/ali-h-salem|Ali H Salem]]
 - [[entities/alibaba-ai|Alibaba Ai]]
 - [[entities/alicia|Alicia]]
+- [[entities/america|America]]
 - [[entities/americas-test-kitchen|Americas Test Kitchen]]
-- [[entities/andrej-karpathy|Andrej Karpathy]]
 - [[entities/ante-ai-portas|Ante Ai Portas]]
 - [[entities/anthropic|Anthropic]]
-- [[entities/anti-gravity-ai|Anti Gravity Ai]]
+- [[entities/anthropic-engineers|Anthropic Engineers]]
+- [[entities/anthropic-institute|Anthropic Institute]]
 - [[entities/apache-20|Apache 20]]
 - [[entities/api|Api]]
-- [[entities/apple|Apple]]
-- [[entities/applied-ai-team|Applied Ai Team]]
-- [[entities/artemis-ii|Artemis Ii]]
-- [[entities/artificial-analysis|Artificial Analysis]]
-- [[entities/asana|Asana]]
-- [[entities/asic-company|Asic Company]]
-- [[entities/autoresearch|Autoresearch]]
-- [[entities/azure-ai|Azure Ai]]
-- [[entities/ben-schulman|Ben Schulman]]
-- [[entities/bertalan-meskó|Bertalan Meskó]]
 
 ## Related Shelves
 
 - [[domains/ai-agents|AI & Agents]]
 - [[domains/tools-platforms|Tools & Platforms]]
+- [[domains/ux-design|UX & Design]]
 - [[domains/creative-pursuits|Creative Pursuits]]
 - [[domains/food-nutrition|Food & Nutrition]]
 - [[domains/biology-life-sciences|Biology & Life Sciences]]

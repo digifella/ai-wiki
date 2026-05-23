@@ -11,15 +11,15 @@ tags:
 aliases:
   - "melodic line"
   - "musical sequence"
-summary: "A melody is a linear sequence of musical tones defined by pitch and rhythm, perceived as a single coherent entity."
-updated: 2026-04-27
-group: ai-image-generation-editing
+summary: A melody is a linear sequence of musical tones defined by pitch and rhythm, perceived as a single coherent entity.
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Melody
 A linear sequence of musical tones defined by pitch and rhythm, perceived by the listener as a single coherent entity.
 
 ## Relationship to Harmony
-- [[concepts/music-chords]] serve as the foundational [[concepts/architecture|architecture]] for Harmony, directly impacting a melody's expressive quality:
+- [[concepts/music-chords]] serve as the foundational [[concepts/architecture|architecture]] for [[concepts/musical-harmony|Harmony]], directly impacting a melody's expressive quality:
     - Chords add emotional depth and character to otherwise simple melodies.
     - The interaction between melody and harmony is governed by [[concepts/chord-anatomy|chord anatomy]] and Scale [[concepts/relationships|relationships]].
 
@@ -30,7 +30,6 @@ A linear sequence of musical tones defined by pitch and rhythm, perceived by the
 - Dynamics
 
 ## References
-- 2026 04 27 [[concepts/music-chords|Music Chords]] Foundations Anatomy Harmony and Scale Relat
-
+- 2026 04 27 [[concepts/music-chords|Music Chords]] Foundations Anatomy [[concepts/musical-harmony|Harmony]] and Scale Relat
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Music-Chords-Foundations-Anatomy-Harmony-and-Scale-Relat|Music Chords: Foundations, Anatomy, Harmony, and Scale Relationships]] · [▶ source](https://www.youtube.com/watch?v=Uyr-GogTrls)

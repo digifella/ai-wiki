@@ -9,8 +9,9 @@ tags:
   - "reasoning-capabilities"
 aliases:
   - "Gemini 3 Canvas"
-summary: "Gemini 3 Canvas provides multimodal processing and direct integration with Google Workspace tools."
-updated: 2026-04-27
+summary: Gemini 3 Canvas provides multimodal processing and direct integration with Google Workspace tools.
+updated: 2026-05-23
+stub: true
 ---
 # Canvas
 
@@ -22,7 +23,6 @@ updated: 2026-04-27
 ---
 **Source**: 2026 04 14 8 [[concepts/gemini|Gemini]] [[concepts/scenarios|use cases]]
 **Reference**: <https://www.youtube.com/watch?v=65C5VSSqWZk>
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

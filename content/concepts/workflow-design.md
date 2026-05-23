@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: design-systems-ui-infographics
+domain: tools-platforms
 tags:
   - "concept"
   - "workflow-design"
@@ -13,20 +12,20 @@ aliases:
   - "Foundry Workflow"
   - "AI App Factory"
 summary: Microsoft Foundry is a platform for creating AI applications and agents with unified workflow design.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Workflow Design
 
-Workflow design refers to the structural planning and [[concepts/organization|organization]] of processes, tasks, and decision points within creative and technical projects. In the context of AI-powered platforms, workflow design encompasses how users orchestrate multiple [[concepts/agentic-ai|AI agents]], tools, and data sources to accomplish complex objectives. Effective workflow design balances [[concepts/automation|automation]] with human oversight, enabling users to define clear sequences of operations while maintaining flexibility for [[concepts/iterative-refinement|iterative refinement]].
+[[concepts/workflow|Workflow]] [[concepts/design|design]] refers to the structural planning and [[concepts/organization|organization]] of processes, tasks, and decision points within creative and technical projects. In the context of AI-powered platforms, workflow design encompasses how users orchestrate multiple [[concepts/agentic-ai|AI agents]], tools, and data sources to accomplish complex objectives. Effective workflow design balances [[concepts/automation|automation]] with human oversight, enabling users to define clear sequences of operations while maintaining flexibility for [[concepts/iterative-refinement|iterative refinement]].
 
 ## Contemporary Tools and Platforms
 
-Modern workflow design platforms, such as [[concepts/agent-factory|Microsoft Foundry]], provide unified interfaces for creating and managing [[concepts/ai-powered-applications|AI applications]]. These platforms typically offer [[concepts/aesthetic-design|visual design]] canvases where users can connect components—such as language models, data processing steps, and integration points—without requiring extensive [[concepts/coding|coding]]. Similar approaches appear in tools like [[concepts/ai-assisted-prototyping|Google Stitch]] and [[concepts/ai-integrated-notebooks|NotebookLM]], which emphasize no-code or low-code methodologies for combining [[concepts/capabilities|AI capabilities]] with design and research tasks.
+Modern workflow design platforms, such as [[concepts/agent-factory|Microsoft Foundry]], provide unified interfaces for creating and managing [[concepts/ai-powered-applications|AI applications]]. These platforms typically offer [[concepts/aesthetic-design|visual design]] canvases where users can connect components—such as language [[concepts/models|models]], data processing steps, and [[concepts/integration|integration]] points—without requiring extensive [[concepts/coding|coding]]. Similar approaches appear in tools like [[concepts/ai-assisted-prototyping|Google Stitch]] and [[concepts/ai-integrated-notebooks|NotebookLM]], which emphasize [[concepts/no-code|no-code]] or low-code methodologies for combining [[concepts/capabilities|AI capabilities]] with design and research tasks.
 
 ## Practical Considerations
 
-When designing workflows for creative pursuits, practitioners must consider cost efficiency, tool compatibility, and the specific strengths of available [[concepts/ai-models|AI models]]. The choice between platforms and [[concepts/agents|agents]] involves trade-offs; some solutions offer greater capability at higher operational costs, while others prioritize [[concepts/accessibility|accessibility]] and ease of use. Workflow design increasingly intersects with graphic design, content generation, and professional presentation creation, as users leverage integrated [[entities/ai-tools|AI tools]] to streamline multi-stage creative processes.
-
+When designing workflows for creative pursuits, practitioners must consider [[concepts/cost|cost]] efficiency, tool compatibility, and the specific strengths of available [[concepts/ai-models|AI models]]. The choice between platforms and [[concepts/agents|agents]] involves trade-offs; some solutions offer greater capability [[concepts/assistive-technology|at]] higher operational costs, while others prioritize [[concepts/accessibility|accessibility]] and ease of use. Workflow design increasingly intersects with graphic design, content generation, and professional presentation creation, as users leverage integrated [[entities/ai-tools|AI tools]] to streamline multi-stage creative processes.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)

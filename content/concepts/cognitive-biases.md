@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "cognitive-psychology"
   - "decision-making"
@@ -11,12 +10,13 @@ tags:
 aliases:
   - "cognitive distortions"
   - "thinking biases"
-summary: "Systematic patterns in human thinking that lead to consistent deviations from rational judgment."
-updated: 2026-05-01
+summary: Systematic patterns in human thinking that lead to consistent deviations from rational judgment.
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Cognitive Biases
 
-Cognitive biases are systematic patterns in human [[concepts/human-cognition|thinking]] that cause people to deviate consistently from rational judgment. Rather than processing information objectively, humans tend to filter, interpret, and [[concepts/recall|recall]] information in ways that are shaped by their existing beliefs, emotions, motivations, and social contexts. These biases are not character flaws but reflect how human cognition necessarily simplifies complex information to enable faster decision-making.
+Cognitive [[concepts/biases|biases]] are systematic patterns in human [[concepts/human-cognition|thinking]] that cause people to deviate consistently from rational judgment. Rather than processing information objectively, humans tend to filter, interpret, and [[concepts/recall|recall]] information in ways that are shaped by their existing beliefs, emotions, motivations, and social contexts. These biases are not character flaws but reflect how [[concepts/human-intelligence|human cognition]] necessarily simplifies complex information to enable faster [[concepts/decision-making|decision-making]].
 
 ## Common Types
 

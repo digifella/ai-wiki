@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: film-tv-streaming
 tags:
   - "television"
   - "broadcasting"
@@ -12,7 +11,8 @@ aliases:
   - "TV distribution"
   - "television broadcasting"
 summary: The distribution of television and movie content.
-updated: 2026-05-01
+updated: 2026-05-23
+group: film-tv-streaming
 ---
 # TV Broadcasting
 
@@ -20,7 +20,7 @@ TV broadcasting refers to the transmission of television and film content to aud
 
 ## Traditional and Modern Distribution
 
-Conventional TV broadcasting relied on scheduled programming transmitted to passive audiences with limited choice over what and when to watch. This model remains operational in many regions through free-to-air networks funded by advertising or public fees. The industry has progressively shifted toward on-demand distribution, where viewers access content through subscription services, ad-supported platforms, or rental models. This transition has created competition between established broadcasters and new digital platforms, reshaping content production, [[concepts/licensing-agreements|licensing agreements]], and audience measurement.
+Conventional TV broadcasting relied on scheduled programming transmitted to passive audiences with limited choice over what and when to watch. This model remains operational in many regions through free-to-air networks funded by advertising or public fees. The industry has progressively shifted toward on-demand distribution, where viewers access content through subscription services, ad-supported platforms, or rental [[concepts/models|models]]. This transition has created competition between established broadcasters and new digital platforms, reshaping content production, [[concepts/licensing-agreements|licensing agreements]], and audience measurement.
 
 ## Industry Structure
 

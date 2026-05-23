@@ -1,18 +1,12 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "energy-efficiency"
-  - "data-center"
-  - "water-consumption"
-  - "ai-impact"
-  - "cooling-systems"
-updated: 2026-04-14
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Energy Efficiency
 
-Energy efficiency refers to methods and technologies used to reduce the amount of energy required to perform a task or provide a service while maintaining the same level of output. This includes optimizing electrical appliances, improving insulation in buildings, enhancing industrial processes, and more recently, focusing on reducing energy usage in data centers.
+Energy efficiency refers to methods and technologies used to reduce the amount of energy required to perform a task or provide a service while maintaining the same level of [[concepts/output|output]]. This includes optimizing electrical appliances, improving insulation in buildings, enhancing industrial processes, and more recently, focusing on reducing energy usage in data centers.
 
 - **Data Centers:** Major consumers of electricity and water due to their need for constant cooling to prevent overheating.
   - Water consumption: Significant and growing issue, especially with the rise of [[concepts/ai-technologies|AI technologies]] which increase computational demands.
@@ -22,12 +16,11 @@ Energy efficiency refers to methods and technologies used to reduce the amount o
 ### Related Concepts and Entities:
 - green-data-centers
 - sustainable-computing
-- water-conservation
+- [[concepts/water-conservation|water-conservation]]
 - [[concepts/ai|artificial-intelligence]]
 
 ### Backlinks:
 2026 04 13 [[concepts/data-center-water-footprint|Data Center Water Footprint]] AI Booms Growing Consumption Cooling Chall
-
 ## Source Notes
 - 2026-04-07: Bonzai 8B: PrismML
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)

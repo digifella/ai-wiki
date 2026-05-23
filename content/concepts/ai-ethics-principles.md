@@ -18,6 +18,7 @@ aliases:
 summary: "Core principles including transparency, fairness, and accountability designed to guide the ethical development and deployment of artificial intelligence systems."
 updated: 2026-04-28
 group: philosophy-ethics-logic
+stub: true
 ---
 # AI Ethics Principles
 

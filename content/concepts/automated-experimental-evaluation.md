@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "concept"
   - "ai-agents"
@@ -12,20 +11,20 @@ tags:
 aliases:
   - "AutoResearch"
 summary: AutoResearch is an autonomous AI agent that achieves self-improvement through code iteration.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Automated Experimental Evaluation
 
-Automated Experimental Evaluation refers to the use of [[concepts/action-oriented-ai|autonomous AI agents]] to systematically test, assess, and iterate on code and algorithms with minimal human intervention. These systems are designed to autonomously plan experiments, execute them, analyze results, and propose code modifications based on performance metrics. By automating the experimental cycle, this approach reduces manual overhead and accelerates the [[concepts/iteration|iteration]] process compared to traditional [[concepts/development-workflows|development workflows]].
+Automated Experimental Evaluation refers to the use of [[concepts/action-oriented-ai|autonomous AI agents]] to systematically test, assess, and iterate on code and algorithms with minimal human intervention. These systems autonomously plan experiments, execute them, analyze results, and propose code modifications based on quantitative [[concepts/performance-data-gathering|performance metrics]]. By automating the experimental cycle, this approach reduces manual overhead and accelerates [[concepts/iteration|iteration]] compared to traditional [[concepts/development-workflows|development workflows]] where humans manually [[concepts/design|design]] experiments, run tests, and decide on code changes.
 
-## Self-Improvement Through Code Iteration
+## Core Workflow
 
-A primary application of automated experimental evaluation is enabling self-improvement through code iteration. Autonomous [[concepts/agents|agents]] like [[concepts/automated-code-modification|AutoResearch]] operate by generating hypotheses about code improvements, implementing changes, [[concepts/running|running]] experiments to measure performance, and analyzing results to inform the next iteration cycle. This creates a [[concepts/feedback|feedback]] loop where the agent progressively refines algorithms or implementations based on empirical outcomes rather than relying solely on human developers to identify optimization opportunities.
+The typical process involves an [[concepts/ai-agent|autonomous agent]] receiving a task or performance objective, generating or modifying code to address it, executing the modified code in a controlled environment, collecting performance data, and analyzing whether the changes improved the system. The agent then uses these results to inform the next iteration. This cycle repeats until performance targets are met or convergence is achieved. The approach is particularly suited to optimization tasks, hyperparameter tuning, and algorithm development where large numbers of experiments would be impractical to conduct manually.
 
-## Practical Implementation
+## Applications and Constraints
 
-In practice, these systems typically integrate [[concepts/testing|testing]] frameworks, performance [[concepts/benchmark-testing|benchmarking]] tools, and version control mechanisms to manage the [[concepts/iterative-refinement|iterative process]]. The agent monitors metrics such as [[concepts/accuracy|accuracy]], speed, resource consumption, or other domain-specific performance [[concepts/indicators|indicators]]. When experiments reveal performance improvements or regressions, this information is fed back into the code generation and modification process, allowing the agent to explore the [[concepts/solution|solution]] space more systematically than manual experimentation alone.
-
+Automated experimental evaluation has been applied to [[concepts/machine-learning-model|machine learning model]] improvement, [[concepts/software|software]] optimization, and algorithm design. However, the approach is constrained by the need for clear, measurable performance metrics, reproducible experimental environments, and well-defined optimization objectives. Systems like [[concepts/automated-code-modification|AutoResearch]] demonstrate this capability by iteratively improving code performance through [[concepts/autonomous-ai-coding-agent|autonomous code generation]] and evaluation cycles.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-26: Karpathy

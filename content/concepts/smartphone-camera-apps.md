@@ -12,9 +12,10 @@ tags:
 aliases:
   - "mobile-camera-apps"
   - "smartphone-imaging-software"
-summary: "Software applications designed to leverage mobile hardware sensors for advanced photography and video capture."
-updated: 2026-04-28
+summary: Software applications designed to leverage mobile hardware sensors for advanced photography and video capture.
+updated: 2026-05-23
 group: photography-cameras
+stub: true
 ---
 # Smartphone camera apps
 
@@ -29,7 +30,6 @@ Mobile [[concepts/software|software]] [[concepts/software|applications]] designe
 	- [[concepts/dynamic-range|dynamic range]]
 
 ## Backlinks
-- 2026 04 14 [[entities/colin-smith-channel|Colin Smith]] founder of PhotoshopCAFE introduces [[concepts/camera-app-design|Adobe Project Indigo]]
-
+- 2026 04 14 [[entities/colin-smith-channel|Colin Smith]] founder of [[entities/colin-smith-channel|PhotoshopCAFE]] introduces [[concepts/camera-app-design|Adobe Project Indigo]]
 ## Source Notes
 - 2026-04-07: SNAPSEED - The best FREE photo editing app is now even

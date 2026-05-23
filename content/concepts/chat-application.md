@@ -11,13 +11,13 @@ tags:
 aliases:
   - "messaging platform"
   - "chat interface"
-summary: "A software platform for real-time text, voice, or video communication that supports multimedia sharing and integration with large language models."
-updated: 2026-04-27
+summary: A software platform for real-time text, voice, or video communication that supports multimedia sharing and integration with large language models.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Chat Application
 
-A chat application is a [[concepts/software|software]] platform that enables real-time communication between users through text, voice, or video.
+A chat application is a [[concepts/software|software]] platform that enables real-time communication between users through [[concepts/text|text]], [[concepts/tone|voice]], or video.
 
 ## Key Features
 - **Real-time messaging**: Instant exchange of text messages.
@@ -47,9 +47,8 @@ A chat application is a [[concepts/software|software]] platform that enables rea
 ## Additional Information
 - **[[entities/ollama|Ollama]]'s New [[concepts/gui-interface|GUI Interface]]**:
   - Simplifies [[concepts/running|running]] [[concepts/large-language-models|large language models (LLMs)]] locally.
-  - Demonstrates features for interacting with models and creating [[concepts/custom-models|custom models]].
+  - Demonstrates features for interacting with [[concepts/models|models]] and creating [[concepts/custom-models|custom models]].
   - Video overview by [[entities/leon-van-zyl|Leon Van Zyl]]: <https://www.youtube.com/watch?v=8amsyT4NUrM>
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Interactive-Chart-and-Visualization-Generation-Explained|Claude AI Interactive Chart and Visualization Generation Explained]] · [▶ source](https://www.youtube.com/watch?v=8QsdWYx2qmk)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

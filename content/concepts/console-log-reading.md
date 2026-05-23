@@ -1,22 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "console"
-  - "debugging"
-  - "chrome"
-  - "browser-devtools"
-  - "log-levels"
-  - "error-tracing"
-aliases:
-  - "console log analysis"
-summary: "Console log reading is the process of interpreting and analyzing application log messages in browser developer tools to diagnose issues and understand program flow."
-updated: 2026-04-15
+summary: Console log reading is the process of interpreting and analyzing application log messages in browser developer tools to diagnose issues and understand program flow.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Console log reading
 
-Console log reading is the process of interpreting and analyzing log messages output by [[concepts/software|applications]], particularly in browser [[concepts/developer|developer]] tools, to diagnose issues and understand program flow.
+Console log reading is the process of interpreting and analyzing log messages [[concepts/output|output]] by [[concepts/software|applications]], particularly in browser [[concepts/developer|developer]] tools, to diagnose issues and understand program [[concepts/flow|flow]].
 
 ## Key Concepts
 - **Console**: Browser tool for displaying log messages, errors, and warnings
@@ -28,6 +19,6 @@ Console log reading is the process of interpreting and analyzing log messages ou
 - Console log analyzers (e.g., [LogRocket](https://logrocket.com/))
 
 ## Related Concepts
-- [[concepts/claude-code|Claude Code]] for controlling Chrome: A tool that enables [[concepts/claude-code|Claude Code]] to control the Chrome browser extension for website navigation and interaction
+- [[concepts/claude-code|Claude Code]] for controlling Chrome: A tool that enables [[concepts/claude-code|Claude Code]] to [[concepts/power|control]] the Chrome browser extension for website navigation and interaction
 
 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] for controlling Chrome

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
-group: ai-image-generation-editing
+domain: ai-agents
 tags:
   - "concept"
   - "business-consulting"
@@ -13,7 +12,8 @@ aliases:
   - "AI Prompt Refiner"
   - "Business Consulting Advisor Prompt"
 summary: A system prompt designed to instruct an AI to act as a business consulting advisor and creative assistant that optimizes prompts and identifies answer limitations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Creative Assistance
 
@@ -25,8 +25,7 @@ The framework operates through two primary mechanisms. First, it instructs the A
 
 ## Application Context
 
-This approach has been explored in conjunction with various tools and platforms, including generative AI features in design [[concepts/software|software]] and comparative analysis of different [[concepts/reasoning-capabilities|AI model capabilities]]. The concept reflects a broader trend toward making AI assistance more interactive and reflexive—encouraging both user and system to work toward optimal query formulation rather than accepting initial inputs uncritically.
-
+This approach has been explored in conjunction with various tools and platforms, including [[concepts/generative-ai|generative AI]] features in [[concepts/design|design]] [[concepts/software|software]] and comparative analysis of different [[concepts/reasoning-capabilities|AI model capabilities]]. The concept reflects a broader trend toward making AI assistance more interactive and reflexive—encouraging both user and system to work toward optimal query formulation rather than accepting initial inputs uncritically.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-22: Google · [▶ source](https://www.youtube.com/watch?v=2DlsrKlF7XQ)

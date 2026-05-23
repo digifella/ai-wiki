@@ -1,16 +1,7 @@
 ---
 type: entity
-tags:
-  - "archaeology"
-  - "detectorists"
-  - "denmark"
-  - "history"
-  - "scientific-american"
-  - "amateur-archaeology"
-  - "metal-detecting"
-  - "danish-history"
-summary: "Marie Aagaard Larsen is a Danish amateur archaeologist and metal detectorist participating in Denmark's government-deputized program to unearth historical artifacts."
-updated: 2026-04-22
+summary: Marie Aagaard Larsen is a Danish amateur archaeologist and metal detectorist participating in Denmark's government-deputized program to unearth historical artifacts.
+updated: 2026-05-23
 ---
 Marie Aagaard Larsen is a Danish amateur archaeologist and metal detectorist known for her participation in Denmark's government-deputized detectorist program.
 
@@ -19,5 +10,4 @@ Marie Aagaard Larsen is a Danish amateur archaeologist and metal detectorist kno
 *   Her findings exemplify how amateur detectorists are revealing Denmark's past in extraordinary detail through systematic excavation of buried artifacts.
 
 2026 04 14 Denmark Let Amateurs Dig for TreasureAnd It Paid Off Scientific American
-
 ## Source Notes

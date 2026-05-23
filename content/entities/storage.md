@@ -11,7 +11,7 @@ aliases:
   - "Full-Stack Web App Guide"
   - "Google AI Studio Firebase Tutorial"
 summary: A Markdown guide for building a functional web application using Google AI Studio and Firebase.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Storage
 
@@ -19,12 +19,11 @@ Storage is a critical component in building functional [[concepts/web-applicatio
 
 ## Integration with Google AI Studio
 
-When building [[concepts/software|applications]] that combine Google AI Studio with Firebase, storage [[concepts/architecture|architecture]] becomes essential for managing API interactions and [[concepts/caching|caching]] results. The storage layer handles the flow of data between the frontend interface, the AI processing layer, and the backend database. This allows developers to store user inputs, AI-generated outputs, and application [[concepts/metadata|metadata]] in a structured way that maintains data [[concepts/logical-consistency|consistency]] and enables real-time updates across client applications.
+When building [[concepts/software|applications]] that combine [[entities/ai-studio|Google AI Studio]] with Firebase, storage [[concepts/architecture|architecture]] becomes essential for managing API interactions and [[concepts/caching|caching]] results. The storage layer handles the [[concepts/flow|flow]] of data between the frontend interface, the AI processing layer, and the backend database. This allows developers to store user inputs, AI-generated outputs, and application [[concepts/metadata|metadata]] in a structured way that maintains data [[concepts/logical-consistency|consistency]] and enables real-time updates across client applications.
 
 ## Best Practices
 
-Effective storage implementation requires careful consideration of data [[concepts/structure|structure]], access patterns, and scalability. Security rules in [[concepts/firebase-storage|Firebase storage]] should be configured to control who can read and write data, while indexing strategies help optimize query performance. For applications transforming [[concepts/static-website|static website]] designs into dynamic web applications, the storage layer bridges the gap between static content and interactive features powered by AI generation and user input.
-
+Effective storage [[concepts/adoption|implementation]] requires careful consideration of data [[concepts/structure|structure]], access patterns, and scalability. [[concepts/security|Security]] rules in [[concepts/firebase-storage|Firebase storage]] should be configured to [[concepts/power|control]] who can read and write data, while indexing strategies help optimize query performance. For applications transforming [[concepts/static-website|static website]] designs into dynamic web applications, the storage layer bridges the gap between static content and interactive features powered by AI generation and user input.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-Obsidian-and-Claude-Code-AI-for-Automated-PKM-with-GitHub-Sync|Obsidian and Claude Code AI for Automated PKM with GitHub Sync]] · [▶ source](https://www.youtube.com/watch?v=Y2rpFa43jTo)

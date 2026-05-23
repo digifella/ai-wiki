@@ -3,21 +3,23 @@ type: entity
 tags:
   - "windows"
   - "ssh"
+  - "openssh"
+  - "administrator-keys"
   - "wsl"
-  - "security"
-  - "openssh-configuration"
-  - "system-administration"
+  - "authentication"
 aliases:
-  - "Microsoft Windows"
+  - "Windows OpenSSH"
+  - "Windows SSH Configuration"
 summary: "Windows OpenSSH requires administrator SSH keys to be stored in C://ProgramData//ssh//administrators_authorized_keys."
-updated: 2026-04-22
+updated: 2026-05-23
 ---
 # Windows
 
-- **Critical Rule for Admin [[concepts/ssh|SSH]] Keys**: For Administrator accounts, **all new SSH keys must be placed in** `C:\ProgramData\ssh\[[concepts/administrators-authorized-keys|administrators_authorized_keys]]` (Windows [[entities/openssh|OpenSSH]] ignores `.ssh/authorized_keys` for admin accounts).
-- To access Windows Subsystem for Linux ([[entities/wsl|WSL]]) via SSH, ensure OpenSSH server is installed and configured.
-- Backlink: [[concepts/date-2026-04-13|2026]] 04 14 Install SSH and configure to access WSL
+Windows [[entities/openssh|OpenSSH]] has specific requirements for managing administrator [[concepts/ssh|SSH]] keys that differ from standard Unix-like systems. Administrator accounts cannot use the conventional `.ssh/authorized_keys` file in the user's home directory. Instead, Windows OpenSSH requires all administrator SSH keys to be stored in `C:\ProgramData\ssh\administrators_authorized_keys`. This centralized location is mandatory for administrative access and is where the OpenSSH service looks for valid keys when authenticating administrator accounts.
 
+## WSL Integration
+
+Windows Subsystem for [[entities/linux|Linux]] ([[entities/wsl|WSL]]) can be accessed via SSH when the OpenSSH server is properly installed and configured on the Windows host system. This allows remote command execution and file transfer to WSL instances through standard SSH clients, bridging Windows and Linux environments on the same machine.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-10: [[lab-notes/2026-04-10-NemoClaw-vs-OpenClaw-NVIDIAs-Secure-AI-Agent-for-Enterprise|NemoClaw vs OpenClaw NVIDIAs Secure AI Agent for Enterprise]] · [▶ source](https://www.youtube.com/watch?v=LfvKkrVSO-U)

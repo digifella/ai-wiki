@@ -1,17 +1,7 @@
 ---
 type: entity
-tags:
-  - "video-model"
-  - "llm"
-  - "object-tracking"
-  - "local-install"
-  - "alibaba"
-  - "open-source"
-  - "computer-vision"
-aliases:
-  - "VideoRefer model"
-summary: "An open-source video model developed by Alibaba that enhances large language models with spatial-temporal object understanding and tracking capabilities."
-updated: 2026-04-22
+summary: An open-source video model developed by Alibaba that enhances large language models with spatial-temporal object understanding and tracking capabilities.
+updated: 2026-05-23
 ---
 # VideoRefer Suite
 
@@ -21,7 +11,7 @@ VideoRefer Suite is an [[concepts/open-source|open-source]] video model develope
 - **[[concepts/spatial-temporal-object-understanding|Spatial-temporal object understanding]]**: Tracks and reasons about specific objects across video frames
 - **[[concepts/local-deployment|Local deployment]]**: Can be run entirely on local [[concepts/hardware|hardware]] (demonstrated in [Fahd Mirza's guide](https://www.youtube.com/watch?v=OZnfsJjLH5k))
 - **Apache 2 [[concepts/license|license]]**: Fully [[concepts/open-source|open-source]] and commercially usable
-- **LLM [[concepts/integration|integration]]**: Extends video-capable LLMs with precise object reference capabilities
+- **LLM [[concepts/integration|integration]]**: Extends video-capable LLMs with precise object reference [[concepts/capabilities|capabilities]]
 
 ## Related Concepts
 - Video LLM
@@ -30,7 +20,7 @@ VideoRefer Suite is an [[concepts/open-source|open-source]] video model develope
 
 [[concepts/date-2026-04-13|2026]] 04 14 [[entities/fahd-mirza|Fahd Mirza]] [[concepts/videorefer-suite|Videorefer model]] [[concepts/running|running]] locally
 
-- 2026-05-06 [2026-05-06-OpenAI-Codex-Remotion-AI-Powered-Motion-Graphics-Video-P](2026-05-06-OpenAI-Codex-Remotion-AI-Powered-Motion-Graphics-Video-P.md) ← Openai Codex Remotion Ai Powered Motion Graphics Video P
-- 2026-04-10 [2026-04-10-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an](2026-04-10-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an.md) ← Agentic Visual Reasoning Enhancing Vlms For Precise Object Counting An
-- 2026-04-08 [2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an](2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an.md) ← Agentic Visual Reasoning Enhancing Vlms For Precise Object Counting An
+- 2026-05-06 [2026-05-06-OpenAI-Codex-Remotion-AI-Powered-Motion-Graphics-Video-P](2026-05-06-OpenAI-Codex-Remotion-AI-Powered-Motion-Graphics-Video-P.md) ← [[concepts/codex|Openai Codex]] [[entities/remotion|Remotion]] Ai Powered Motion Graphics Video P
+- 2026-04-10 [2026-04-10-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an](2026-04-10-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an.md) ← [[concepts/agentic-visual-reasoning-pipeline|Agentic Visual Reasoning]] Enhancing Vlms For Precise [[concepts/object-counting|Object Counting]] An
+- 2026-04-08 [2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an](2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an.md) ← Agentic Visual Reasoning Enhancing Vlms For Precise [[concepts/object-counting|Object Counting]] An
 ## Source Notes

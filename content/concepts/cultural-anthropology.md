@@ -11,9 +11,10 @@ tags:
   - "linguistic-anthropology"
   - "cultural-relativism"
   - "structuralism"
-summary: "Cultural anthropology is the study of human cultures, their origins, development, and interactions, encompassing fields such as ethnography, ethnology, and linguistic anthropology."
-updated: 2026-04-28
+summary: Cultural anthropology is the study of human cultures, their origins, development, and interactions, encompassing fields such as ethnography, ethnology, and linguistic anthropology.
+updated: 2026-05-23
 group: anthropology-ethnography
+stub: true
 ---
 # Cultural Anthropology
 
@@ -40,7 +41,7 @@ group: anthropology-ethnography
 - **Symbolic Anthropology:** Interpretation of cultural symbols and meanings.
 
 ## Case Studies
-- **[[entities/fore-tribe|Fore Tribe]] & Kuru:** Medical mystery involving [[concepts/prion-diseases|prion diseases]].
+- **[[entities/fore-tribe|Fore Tribe]] & [[concepts/kuru-disease|Kuru]]:** Medical mystery involving [[concepts/prion-diseases|prion diseases]].
 - **[[concepts/protein-world-hypothesis|Protein World Hypothesis]]:** Exploration of [[concepts/infectious-proteins|prions]] as potential life starters.
 
 ## Backlinks

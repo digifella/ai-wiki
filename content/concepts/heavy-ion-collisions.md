@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "concept"
   - "heavy-ion-collisions"
@@ -13,11 +12,12 @@ aliases:
   - "ion collisions"
   - "heavy ion physics"
 summary: Heavy ion collisions are experimental physics events used to study virtual particles and fundamental quantum phenomena.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Heavy Ion Collisions
 
-Heavy ion collisions are [[concepts/particle-physics-experiments|high-energy physics experiments]] in which heavy atomic nuclei are accelerated to near-relativistic speeds and made to collide. These collisions occur at specialized facilities such as the [[entities/lhc|Large Hadron Collider]] (LHC) and the Relativistic Heavy Ion Collider (RHIC). When nuclei collide, the energy released breaks apart [[concepts/protons|protons]] and neutrons, creating conditions similar to those that existed microseconds after the [[concepts/big-bang|Big Bang]].
+Heavy ion collisions are [[concepts/particle-physics-experiments|high-energy physics experiments]] in which heavy atomic nuclei are accelerated to near-relativistic speeds and made to collide. These collisions occur [[concepts/assistive-technology|at]] specialized facilities such as the [[entities/lhc|Large Hadron Collider]] (LHC) and the Relativistic Heavy Ion Collider ([[entities/rhic|RHIC]]). When nuclei collide, the energy released breaks apart [[concepts/protons|protons]] and neutrons, creating conditions similar to those that existed microseconds after the [[concepts/big-bang|Big Bang]].
 
 ## Scientific Goals
 
@@ -25,7 +25,6 @@ The primary aim of heavy ion collision research is to study the quark-gluon plas
 
 ## Experimental Methods
 
-Detectors surrounding collision points record the trajectories and properties of thousands of particles created in each event. Data from multiple collisions are analyzed to identify patterns and measure quantities such as particle yields, momentum distributions, and collective flow. Large collaboration efforts involving hundreds of physicists process and interpret the resulting datasets to extract information about the QGP and validate theoretical predictions about nuclear and fundamental [[concepts/granular-physics|particle physics]].
-
+Detectors surrounding collision points record the trajectories and properties of thousands of particles created in each event. Data from multiple collisions are analyzed to identify patterns and measure quantities such as particle yields, momentum distributions, and collective [[concepts/flow|flow]]. Large collaboration efforts involving hundreds of physicists process and interpret the resulting datasets to extract information about the QGP and validate theoretical predictions about nuclear and fundamental [[concepts/granular-physics|particle physics]].
 ## Source Notes
 - 2026-04-24: [[lab-notes/2026-04-24-Experimental-Confirmation-of-Virtual-Particle-Reality|Experimental Confirmation of Virtual Particle Reality]] · [▶ source](https://www.youtube.com/watch?v=U4gpio58908)

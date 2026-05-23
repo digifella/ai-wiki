@@ -1,20 +1,7 @@
 ---
 type: entity
-tags:
-  - "anthropology"
-  - "disease"
-  - "history"
-  - "papua-new-guinea"
-  - "kuru"
-  - "prion-disease"
-  - "medical-history"
-  - "cannibalism"
-aliases:
-  - "Fore people"
-summary: "The Fore tribe of Papua New Guinea's ritualistic cannibalism practices were instrumental in the discovery of Kuru as a prion-mediated disease."
-updated: 2026-04-14
-backlinks:
-  - "2026 04 14 Anton Petrov Prion and start of life"
+summary: The Fore tribe of Papua New Guinea's ritualistic cannibalism practices were instrumental in the discovery of Kuru as a prion-mediated disease.
+updated: 2026-05-23
 ---
 # Fore tribe
 
@@ -22,13 +9,13 @@ Indigenous people of the Eastern Highlands Province of [[entities/papua-new-guin
 
 ## Kuru Epidemic
 - **Funeral Ritual**: Practiced ritualistic cannibalism, consuming brains of deceased relatives to preserve their spirit
-- **Epidemic Cause**: Transmission of Kuru via consumption of infected neural tissue
+- **Epidemic Cause**: Transmission of [[concepts/kuru-disease|Kuru]] via consumption of infected neural tissue
 - **Historical Significance**: First documented case of human-to-human transmission of a [[concepts/prion]] disease (1950s–1960s)
 - **Medical Impact**: Pivotal in establishing the concept of protein-based infectious [[concepts/agents|agents]]
 - **Video Reference**: [[entities/anton-petrov|Anton Petrov]] discusses the Fore tribe in the context of [[concepts/prion-diseases|prion diseases]] and the [[concepts/protein-world-hypothesis|protein world hypothesis]] (2026-04-14)
 - **Ritual Context**: Featured in a video exploring the medical mystery of Kuru in the 1980s
 
-- 2026-04-10 [2026-04-10-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and](2026-04-10-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and.md) ← Global Journey Of Sugar Ancient Origins To Colonial Commodity And
+- 2026-04-10 [2026-04-10-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and](2026-04-10-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and.md) ← Global Journey Of [[concepts/sugar|Sugar]] Ancient Origins To [[concepts/colonial-commodity|Colonial Commodity]] And
 - 2026-04-07 [2026-04-07-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and](2026-04-07-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and.md) ← Global Journey Of Sugar Ancient Origins To Colonial Commodity And
 - 2026-04-08 [2026-04-08-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and](2026-04-08-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and.md) ← Global Journey Of Sugar Ancient Origins To Colonial Commodity And
 ## Source Notes

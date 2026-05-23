@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "llm-frameworks"
@@ -14,20 +13,20 @@ aliases:
   - "LLM Processing Frameworks"
   - "Agentic Document Parsing"
 summary: LlamaIndex's LiteParse enables local agentic document processing as an alternative to traditional framework-based approaches.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # LLM Frameworks
 
-LLM frameworks are [[concepts/software|software]] libraries and platforms designed to simplify the development and [[concepts/deployment|deployment]] of applications powered by [[concepts/large-language-model-llm|large language models]]. These frameworks provide abstractions over [[entities/api-calls|API calls]], prompt management, [[concepts/memory|memory]] handling, and tool integration, allowing developers to build complex [[concepts/ai-powered-applications|AI applications]] more efficiently than working directly with model APIs.
+LLM frameworks are [[concepts/software|software]] libraries and platforms designed to simplify the development and [[concepts/deployment|deployment]] of applications powered by [[concepts/large-language-model-llm|large language models]]. These frameworks provide abstractions over [[entities/api-calls|API calls]], prompt management, [[concepts/memory|memory]] handling, and tool [[concepts/integration|integration]], allowing developers to build complex [[concepts/ai-powered-applications|AI applications]] more efficiently than working directly with model APIs.
 
 ## Key Components and Approaches
 
-Modern LLM frameworks typically handle common challenges such as [[concepts/context-management|context management]], retrieval-augmented generation (RAG), [[concepts/function-calling|function calling]], and [[concepts/agent-collaboration|agent orchestration]]. Some frameworks emphasize local processing capabilities to reduce dependency on external services or address [[concepts/privacy|privacy]] concerns. [[entities/llamaindex|LlamaIndex]], for instance, offers tools like [[concepts/chart-extraction|LiteParse]] that enable [[concepts/document-processing|document processing]] and [[concepts/agentic-patterns|agentic workflows]] to run locally, providing an alternative to approaches that require continuous framework-based infrastructure or API dependencies.
+Modern LLM frameworks typically handle common challenges such as [[concepts/context-management|context management]], [[concepts/answer-generation|retrieval-augmented generation]] (RAG), [[concepts/function-calling|function calling]], and [[concepts/agent-collaboration|agent orchestration]]. Some frameworks emphasize local processing [[concepts/capabilities|capabilities]] to reduce dependency on external services or address [[concepts/privacy|privacy]] concerns. [[entities/llamaindex|LlamaIndex]], for instance, offers tools like [[concepts/chart-extraction|LiteParse]] that enable [[concepts/document-processing|document processing]] and [[concepts/agentic-patterns|agentic workflows]] to run locally, providing an alternative to approaches that require continuous framework-based infrastructure or API dependencies.
 
 ## Enterprise and Specialized Variants
 
-Specialized frameworks have emerged for specific [[concepts/scenarios|use cases]] and deployment contexts. Solutions like [[concepts/agent-toolkit|NVIDIA NemoClaw]] target [[concepts/secure|secure]] enterprise environments, while frameworks such as [[concepts/automated-trading-bots|Hermes and OpenClaw]] provide complementary capabilities for business-oriented [[concepts/agentic-ai|AI agents]]. These frameworks often incorporate features for [[concepts/structured-output|structured output]] formatting, secure credential handling, and integration with existing organizational tools and workflows. The broader ecosystem continues to evolve around patterns like unified skill formats designed to support [[concepts/agent-first-organizational-infrastructure|agent-first infrastructure]] in organizational settings.
-
+Specialized frameworks have emerged for specific [[concepts/scenarios|use cases]] and deployment contexts. Solutions like [[concepts/agent-toolkit|NVIDIA NemoClaw]] target [[concepts/secure|secure]] enterprise environments, while frameworks such as [[concepts/automated-trading-bots|Hermes and OpenClaw]] provide complementary capabilities for business-oriented [[concepts/agentic-ai|AI agents]]. These frameworks often incorporate features for [[concepts/structured-output|structured output]] formatting, secure credential handling, and integration with existing organizational tools and workflows. The broader ecosystem continues to evolve around patterns like unified [[concepts/skill|skill]] formats designed to support [[concepts/agent-first-organizational-infrastructure|agent-first infrastructure]] in organizational settings.
 ## Source Notes
 - 2026-04-07: LiteParse - The Local Document Parser
 - 2026-04-08: [[lab-notes/2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni|Auto research AI Driven Algorithmic Optimization with Iterative Learni]] · [▶ source](https://www.youtube.com/watch?v=5-ekc3eXNvs)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "monitoring"
   - "alerting"
@@ -13,7 +12,8 @@ aliases:
   - "system monitoring"
   - "alert management"
 summary: This page is a stub regarding the concept of monitoring and alerting within knowledge systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 title: Monitoring and Alerting
 ---
 # Monitoring And Alerting
@@ -22,7 +22,7 @@ Monitoring and alerting are complementary practices for observing system behavio
 
 ## Core Functions
 
-Effective monitoring systems capture quantitative and qualitative data about system performance, resource utilization, and application behavior. This data is typically time-series metrics (CPU usage, latency, request rates), structured logs, or event streams. Alerting rules evaluate this data against conditions—for instance, triggering when error rates exceed a threshold or when a service becomes unreachable—and send notifications through channels such as email, SMS, or [[concepts/incident-response|incident management]] platforms.
+Effective monitoring systems capture quantitative and qualitative data about system performance, resource utilization, and application behavior. This data is typically time-series metrics ([[concepts/cpu|CPU]] usage, latency, request rates), structured logs, or event streams. Alerting rules evaluate this data against conditions—for instance, triggering when error rates exceed a threshold or when a service becomes unreachable—and send notifications through channels such as [[entities/email|email]], SMS, or [[concepts/incident-response|incident management]] platforms.
 
 ## Operational Context
 

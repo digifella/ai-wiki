@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: probability-statistics-models
 tags:
   - "probabilistic-models"
   - "graphical-models"
@@ -12,11 +11,12 @@ aliases:
   - "CRF"
   - "Conditional Random Field"
 summary: Conditional Random Fields are a class of probabilistic graphical models used for structured prediction tasks such as AI tagging.
-updated: 2026-05-01
+updated: 2026-05-23
+group: probability-statistics-models
 ---
 # Conditional Random Fields
 
-Conditional Random Fields (CRFs) are a class of probabilistic graphical models designed for structured prediction tasks. Unlike generative models that learn the joint [[concepts/distribution|distribution]] of inputs and outputs, CRFs directly model the conditional probability of output sequences given input sequences. This discriminative approach makes them particularly well-suited for labeling and tagging problems where the [[concepts/structure|structure]] of the output depends on the input data.
+Conditional Random Fields (CRFs) are a class of probabilistic graphical [[concepts/models|models]] designed for structured prediction tasks. Unlike generative models that learn the joint [[concepts/distribution|distribution]] of inputs and outputs, CRFs directly model the conditional probability of [[concepts/output|output]] sequences given input sequences. This discriminative approach makes them particularly well-suited for labeling and tagging problems where the [[concepts/structure|structure]] of the output depends on the input data.
 
 ## Core Mechanism
 
@@ -24,4 +24,4 @@ CRFs [[concepts/compute|compute]] probabilities over label sequences by combinin
 
 ## Applications
 
-CRFs are widely used in [[concepts/nlp|natural language processing]] tasks including part-of-speech tagging, [[concepts/named-entity-recognition|named entity recognition]], and [[concepts/sequence-tagging|sequence labeling]]. Their ability to incorporate arbitrary features and model label dependencies makes them effective for problems where the output structure matters. While [[concepts/neural-network|neural network]] approaches have become dominant in many NLP applications, CRFs remain relevant for structured prediction tasks, particularly in domains with limited [[concepts/training-data|training data]] or where [[concepts/interpretability|interpretability]] is important.
+CRFs are widely used in [[concepts/nlp|natural language processing]] tasks including part-of-speech tagging, [[concepts/named-entity-recognition|named entity recognition]], and [[concepts/sequence-tagging|sequence labeling]]. Their ability to incorporate arbitrary features and model label dependencies makes them effective for problems where the output structure matters. While [[concepts/neural-network|neural network]] approaches have become dominant in many [[concepts/natural-language-processing-nlp|NLP]] [[concepts/software|applications]], CRFs remain relevant for structured prediction tasks, particularly in domains with limited [[concepts/training-data|training data]] or where [[concepts/interpretability|interpretability]] is important.

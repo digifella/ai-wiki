@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "concept"
   - "photography"
@@ -13,7 +12,8 @@ aliases:
   - "Panoramic Photography"
   - "Pano Stitching"
 summary: A photography technique involving shooting and stitching multiple images to create panoramic compositions beyond standard wide-angle captures.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Vertical Panorama
 
@@ -26,6 +26,5 @@ Creating a vertical panorama involves methodical framing and consistent [[concep
 ## Applications
 
 Vertical panoramas are particularly suited to architectural photography, landscape vistas with prominent height elements, and situations where a standard tall crop proves insufficient. Examples include capturing entire building facades, deep canyons, towering trees, or dramatic skies above landscapes. The technique can also address the limitations of extreme [[concepts/telephoto-lens|telephoto]] focal lengths or ultra-wide-angle lenses when neither adequately frames the intended subject matter.
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

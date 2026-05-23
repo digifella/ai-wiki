@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: privacy-security-guardrails
 tags:
   - "virtual-private-network"
   - "network-security"
@@ -13,12 +12,13 @@ aliases:
   - "VPN"
   - "Virtual Private Network"
 summary: This page covers the concept of VPNs.
-updated: 2026-05-01
+updated: 2026-05-23
+group: privacy-security-guardrails
 title: VPNs
 ---
 # Vpn
 
-A virtual private network (VPN) is a technology that creates an encrypted [[concepts/connection|connection]] between a user's device and a remote server, routing internet traffic through that server to mask the user's IP address and location. VPNs are commonly used to enhance [[concepts/privacy|privacy]] by preventing internet service providers and network administrators from viewing browsing activity, and to access services that may be geographically restricted. The encryption protects data from being intercepted on unsecured networks, such as public WiFi.
+A virtual [[concepts/private-network|private network]] (VPN) is a technology that creates an encrypted [[concepts/connection|connection]] between a user's device and a remote server, routing internet traffic through that server to mask the user's IP address and location. VPNs are commonly used to enhance [[concepts/privacy|privacy]] by preventing internet service providers and network administrators from viewing browsing activity, and to access services that may be geographically restricted. The encryption protects data from being intercepted on unsecured networks, such as public WiFi.
 
 ## How VPNs Work
 
@@ -26,4 +26,4 @@ VPNs function by establishing a [[concepts/secure|secure]] [[concepts/tunnel|tun
 
 ## Common Use Cases and Limitations
 
-VPNs are used for protecting sensitive communications on public networks, accessing corporate resources remotely, circumventing geographic content restrictions, and maintaining privacy from network monitoring. However, VPNs do not provide complete anonymity—the VPN provider itself can see user traffic, and security ultimately depends on the provider's trustworthiness and technical implementation. VPN effectiveness also varies by protocol; modern protocols like WireGuard and OpenVPN generally offer stronger security than older alternatives.
+VPNs are used for protecting sensitive communications on public networks, accessing corporate resources remotely, circumventing geographic content restrictions, and maintaining privacy from network monitoring. However, VPNs do not provide complete anonymity—the VPN provider itself can see user traffic, and [[concepts/security|security]] ultimately depends on the provider's trustworthiness and technical [[concepts/adoption|implementation]]. VPN effectiveness also varies by protocol; modern protocols like WireGuard and OpenVPN generally offer stronger security than older alternatives.

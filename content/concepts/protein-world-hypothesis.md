@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: food-nutrition
-updated: 2026-04-14
+updated: 2026-05-23
 group: food-science-nutrition-ingredients
 ---
 - "concept"
@@ -10,11 +10,10 @@ group: food-science-nutrition-ingredients
   - "[[entities/kuru|kuru]]"
   - "fore-tribe"
   - "[[entities/anton-petrov|anton-petrov]]"
-summary: "The Protein World Hypothesis investigates whether prions may have been the origin of life, referencing the historical context of Kuru in the [[entities/fore-tribe|Fore Tribe]]."
+[[concepts/summary|summary]]: "The Protein World Hypothesis investigates whether prions may have been the origin of life, referencing the [[concepts/historical-context|historical context]] of [[concepts/kuru-disease|Kuru]] in the [[entities/fore-tribe|Fore Tribe]]."
 group: food-science-[[concepts/nutrition|nutrition]]-ingredients
 
 # Protein World Hypothesis
-
 ## Source Notes
 - 2026-04-23: <https://www.youtube.com/watch?v=K0K-pMPFzGY> Here is a summary of the video [[concepts/text-transcript|transcript]] formatted in [[concepts/markdown|Markdown]].
 - 2026-04-14: 2026 04 14 [[entities/anton-petrov|Anton Petrov]] Prion and [[concepts/start-of-life|start of life]]

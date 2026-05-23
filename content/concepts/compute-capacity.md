@@ -1,26 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "infrastructure"
-  - "AI"
-  - "cloud-computing"
-  - "hardware"
-  - "ai-infrastructure"
-  - "hardware-architectures"
-  - "distributed-systems"
-  - "compute-resources"
-  - "specialized-silicon"
-aliases:
-  - "computational power"
-  - "processing capacity"
-summary: "Compute capacity is the total quantifiable processing power available within distributed systems or cloud environments for executing computational workloads such as AI model training and inference."
-updated: 2026-04-26
+summary: Compute capacity is the total quantifiable processing power available within distributed systems or cloud environments for executing computational workloads such as AI model training and inference.
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 # Compute Capacity
 
-The total quantifiable processing power ([[concepts/cpu|CPU]], GPU, TPU) available within a distributed system or cloud environment to execute computational workloads. It serves as the primary physical bottleneck for [[entities/ai]] [[concepts/training-process|model training]] and large-scale [[concepts/inference|inference]].
+The total quantifiable processing [[concepts/power|power]] ([[concepts/cpu|CPU]], GPU, TPU) available within a distributed system or cloud environment to execute computational workloads. It serves as the primary physical bottleneck for [[entities/ai]] [[concepts/training-process|model training]] and large-scale [[concepts/inference|inference]].
 
 ## Core Components
 - **[[concepts/hardware|Hardware]] Architectures**: Includes general-[[concepts/purpose|purpose]] GPUs (e.g., [[entities/nvidia]]) and application-specific integrated circuits like [[entities/tpus|TPUs]].
@@ -40,7 +27,6 @@ The total quantifiable processing power ([[concepts/cpu|CPU]], GPU, TPU) availab
 
 ## References
 - 2026 04 25 [[entities/google-cloud|Google Cloud]] CEO on [[concepts/computing-architecture|AI Infrastructure]] [[concepts/tpu-development|TPU Development]] and Monetization Strategy
-
 ## Source Notes
 - 2026-04-08: Anthropic
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an|Anthropics Claude AI Subscription Changes OpenClaw Ban Usage Limits an]] · [▶ source](https://www.youtube.com/watch?v=a4hdPWSUzsE)

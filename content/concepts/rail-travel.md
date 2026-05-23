@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: journeys-routes-itineraries
 tags:
   - "rail-travel"
   - "train-journeys"
@@ -12,7 +11,8 @@ aliases:
   - "train travel"
   - "rail journeys"
 summary: This page covers rail travel and train journeys in Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: journeys-routes-itineraries
 ---
 # Rail Travel
 

@@ -1,24 +1,9 @@
 ---
 type: entity
-tags:
-  - "LLM"
-  - "PrismML"
-  - "1-Bit"
-  - "Model-Compression"
-  - "Qwen-3"
-  - "1-bit-language-model"
-  - "prismml-entity"
-  - "qwen-architecture"
-  - "revolutionary-tech"
-aliases:
-  - "Bonzai Eight Billion"
-  - "PrismML's 1-Bit Breakthrough"
-  - "Compact Intelligence Model"
-  - "Quantized Qwen Variant"
-  - "NextGen LLM"
-summary: "Bonzai 8B is a commercially viable 1-bit large language model developed by PrismML, based on the Qwen 3 8B architecture and known for its efficient computational footprint and high performance."
-updated: 2026-04-11
-title: "Bonzai 8B"
+summary: Bonzai 8B is a commercially viable 1-bit large language model developed by PrismML, based on the Qwen 3 8B architecture and known for its efficient computational footprint and high performance.
+updated: 2026-05-23
+stub: true
+title: Bonzai 8B
 ---
 # Bonzai 8B
 A revolutionary [[concepts/model-efficiency]] developed by [[entities/prismml]], touted as the first commercially viable 1-bit [[concepts/large-language-model|large language model]].
@@ -32,9 +17,7 @@ A revolutionary [[concepts/model-efficiency]] developed by [[entities/prismml]],
 - 2026 04 10 Bonzai 8B PrismMLs Revolutionary [[concepts/1-bit-llm|1 Bit LLM]] First Look Test (Source: [[entities/bijan-bowen|Bijan Bowen]])
 
 ## Related Notes
-- 2026 04 10 Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test
-
+- 2026 04 10 Bonzai 8B PrismMLs Revolutionary [[concepts/1-bit-llm|1 Bit LLM]] First Look Test
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-Bonzai-8B-PrismMLs-Revolutionary-1-Bit-LLM-First-Look-Test|Bonzai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test]] · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)
-- 2026-04-07: ## Bonzai 8B: PrismML's Revolutionary [[concepts/1-bit-llm|1-Bit LLM]] First Look & Test **Clip title:** PrismML [[concepts/bonsai|Bonsai]] 8B First Look & Test - A TRUE 1-Bit LLM? **Author / channel:** Bijan Bowen **URL:** https://www.youtube.com/watch?v=aNg47-U_x6A ### Bonzai 8B: PrismML's Revolutionary 1-Bit LLM First Look & Test)

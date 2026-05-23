@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: creative-pursuits
+domain: tools-platforms
 tags:
   - "website-interaction"
   - "chatgpt"
@@ -14,9 +14,9 @@ tags:
 aliases:
   - "web-automation"
   - "automated-web-navigation"
-summary: "Website interaction involves automated or semi-automated processes that enable software agents to perform tasks such as data extraction, form submission, and navigation."
-updated: 2026-04-28
-group: design-systems-ui-infographics
+summary: Website interaction involves automated or semi-automated processes that enable software agents to perform tasks such as data extraction, form submission, and navigation.
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Website Interaction
 
@@ -41,7 +41,6 @@ Interaction with websites involves automated or semi-automated processes that en
 
 ## Backlinks
 - 2026 04 14 [[concepts/chatgpt-agent|ChatGPT agent]] [[entities/matthew-berman|Matthew Berman]]
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-19: [[lab-notes/2026-04-19-Automating-Client-Onboarding-with-NotebookLM-and-Gemini-AI|Automating Client Onboarding with NotebookLM and Gemini AI]] · [▶ source](https://www.youtube.com/watch?v=qic1Wgk1P6o)

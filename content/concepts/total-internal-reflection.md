@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "optics"
   - "refraction"
@@ -14,11 +13,12 @@ aliases:
   - "TIR"
   - "total internal reflection phenomenon"
 summary: A phenomenon where light traveling through a denser medium reflects entirely at a boundary with a less dense medium when the incident angle exceeds the critical angle.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Total Internal Reflection
 
-Total internal reflection is an optical phenomenon that occurs when light traveling through a denser [[entities/medium|medium]] encounters a boundary with a less dense medium at a sufficiently steep angle. Instead of partially transmitting into the second medium ([[concepts/refraction|refraction]]), all of the light reflects back into the first medium. This effect only occurs when the angle of incidence exceeds a specific threshold known as the [[concepts/critical-angle|critical angle]], which depends on the refractive indices of both media involved.
+Total internal reflection is an optical phenomenon that occurs when [[concepts/light|light]] traveling through a denser [[entities/medium|medium]] encounters a boundary with a less dense medium [[concepts/assistive-technology|at]] a sufficiently steep angle. Instead of partially transmitting into the second medium ([[concepts/refraction|refraction]]), all of the light reflects back into the first medium. This effect only occurs when the angle of incidence exceeds a specific threshold known as the [[concepts/critical-angle|critical angle]], which depends on the refractive indices of both media involved.
 
 ## The Critical Angle
 

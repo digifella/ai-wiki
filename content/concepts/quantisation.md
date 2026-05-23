@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "4-bit-quantisation"
   - "model-compression"
@@ -12,12 +11,13 @@ aliases:
   - "4-bit quantisation"
   - "quantization"
 summary: This page discusses the concept of 4-bit quantisation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 title: 4-bit quantisation
 ---
 # Quantisation
 
-Quantisation is a technique in machine [[concepts/learning|learning]] that reduces the precision of numerical values used in [[concepts/neural-networks|neural networks]], typically by representing [[concepts/weights|weights]] and activations with fewer bits than standard floating-point formats. In [[concepts/agentic-ai|AI agents]], quantisation enables models to run more efficiently on resource-constrained [[concepts/hardware|hardware]] by decreasing [[concepts/memory|memory]] requirements and computational overhead while maintaining reasonable performance levels.
+Quantisation is a technique in machine [[concepts/learning|learning]] that reduces the precision of numerical values used in [[concepts/neural-networks|neural networks]], typically by representing [[concepts/weights|weights]] and activations with fewer [[concepts/classical-bits|bits]] than standard floating-point formats. In [[concepts/agentic-ai|AI agents]], quantisation enables [[concepts/models|models]] to run more efficiently on resource-constrained [[concepts/hardware|hardware]] by decreasing [[concepts/memory|memory]] requirements and computational overhead while maintaining reasonable performance levels.
 
 ## 4-bit Quantisation
 

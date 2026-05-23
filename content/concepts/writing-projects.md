@@ -10,8 +10,8 @@ tags:
   - "workflow-optimization"
 aliases:
   - "content-projects"
-summary: "Writing projects are structured efforts involving the creation, organization, and completion of various written works, ranging from short articles to full-length books."
-updated: 2026-04-28
+summary: Writing projects are structured efforts involving the creation, organization, and completion of various written works, ranging from short articles to full-length books.
+updated: 2026-05-23
 group: writing-publishing
 ---
 # Writing Projects
@@ -31,13 +31,12 @@ Writing projects encompass any structured effort involving the creation, [[conce
 ## Tools and Resources
 - **[[entities/chatgpt-projects|ChatGPT Projects]]**: Dedicated "[[concepts/smart-workspaces|smart workspaces]]" or "[[concepts/intelligent-folders|intelligent folders]]" within [[entities/chatgpt|ChatGPT]] designed to keep all relevant work for an ongoing task organized and in context.
   - Presented by [[entities/alicia|Alicia]] in a comprehensive guide.
-  - Aimed at boosting productivity and marketing efforts.
+  - Aimed [[concepts/assistive-technology|at]] boosting productivity and marketing efforts.
   - Useful for client projects, [[concepts/marketing-campaigns|marketing campaigns]], or [[concepts/writing|writing]] a book.
   - Video guide: [ChatGPT Projects](https://www.youtube.com/watch?v=We5RZBECvPs)
 
 ## Backlinks
 - 2026 04 14 [[entities/chatgpt-projects|ChatGPT Projects]]
-
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

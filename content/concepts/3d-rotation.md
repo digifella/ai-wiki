@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "3d-rotation"
-  - "photoshop-beta"
-  - "ai-tools"
-  - "image-editing"
-  - "blender-tips"
-aliases:
-  - "3D Object Rotation"
-  - "AI Rotate Tool"
-  - "Photoshop 3D Features"
-  - "Image Transformation"
-summary: "3D rotation involves rotating objects in a three-dimensional space around various axes, enabling advanced image manipulation in software like Autodesk Maya and Blender."
-updated: 2026-04-08
+summary: 3D rotation involves rotating objects in a three-dimensional space around various axes, enabling advanced image manipulation in software like Autodesk Maya and Blender.
+updated: 2026-05-23
 group: interactive-visualisation
-title: "3D Rotation"
+title: 3D Rotation
 ---
 # 3D Rotation
 
@@ -24,13 +13,13 @@ title: "3D Rotation"
 
 ### Key Concepts
 - **X-axis**: Rotation along the horizontal plane.
-- **Y-axis**: Vertical plane rotation, affecting pitch.
+- **Y-axis**: Vertical plane rotation, affecting [[entities/pitch|pitch]].
 - **Z-axis**: Depth rotation, altering roll and yaw.
 
 ## Applications in Software Tools
 
 - **Autodesk Maya** - Utilizes 3D rotation for modeling, animation, and rendering.
-- **Blender** - Free, [[concepts/open-source|open-source]] software that supports extensive 3D rotations and transformations.
+- **Blender** - Free, [[concepts/open-source|open-source]] [[concepts/software|software]] that supports extensive 3D rotations and transformations.
 - [[concepts/beta-version|Photoshop Beta]]'s [[concepts/ai-rotate-object|AI Rotate Object]]: [[concepts/3d-manipulation|3D Manipulation]] of 2D Images
 
 ## Related Concepts
@@ -40,10 +29,9 @@ title: "3D Rotation"
 
 ### New Information
 
-- **Rotate Object Tool in Photoshop Beta (27.5.0 or higher)** - An AI-powered feature that allows for the manipulation of 2D objects within an image as if they exist in a 3D space.
+- **Rotate Object Tool in [[entities/photoshop-beta|Photoshop Beta]] (27.5.0 or higher)** - An AI-powered feature that allows for the manipulation of 2D objects within an image as if they exist in a 3D space.
 - Enables rotation along different axes and [[concepts/perspective-adjustment|perspective adjustment]].
 - Demonstrated by [[entities/piximperfect|PiXimperfect]]: <https://www.youtube.com/watch?v=2k9lIsGazqc>
-
 ## Source Notes
 - 2026-04-07: Photoshop Beta
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)

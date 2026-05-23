@@ -1,34 +1,22 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "benchmarks"
-  - "coding"
-  - "llm-evaluation"
-  - "software-engineering"
-  - "code-generation"
-  - "benchmarking-frameworks"
-  - "coding-benchmarks"
-aliases:
-  - "software-engineering-benchmarks"
-  - "code-proficiency-metrics"
-summary: "Metrics and frameworks used to evaluate the proficiency of large language models in software engineering tasks such as code generation, debugging, and problem-solving."
-updated: 2026-04-14
+summary: Metrics and frameworks used to evaluate the proficiency of large language models in software engineering tasks such as code generation, debugging, and problem-solving.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Coding benchmarks
 
-Metrics and frameworks used to evaluate the proficiency of [[concepts/large-language-models]] in [[concepts/software-engineering|software engineering]] tasks, including code generation, [[concepts/debugging|debugging]], and repository-level [[concepts/problem-solving|problem-solving]].
+Metrics and frameworks used to evaluate the proficiency of [[concepts/large-language-models]] in [[concepts/software-engineering|software engineering]] tasks, including [[concepts/code-generation|code generation]], [[concepts/debugging|debugging]], and repository-level [[concepts/problem-solving|problem-solving]].
 
 ## Key Benchmarks
-- [[concepts/swe-bench-verified]]: A benchmark focused on evaluating models on real-world [[concepts/software|software]] engineering issues.
+- [[concepts/swe-bench-verified]]: A benchmark focused on evaluating [[concepts/models|models]] on real-world [[concepts/software|software]] engineering issues.
     - **Recent Performance:** [[entities/gemini-3-flash]] achieved a score of **78%**, outperforming both [[entities/gemini-3-pro]] and [[entities/claude-sonnet|Claude Sonnet]] 4.5.
 - [[entities/mistral-3-large]]: A 675B parameter [[architecture/mixture-of-experts|MoE]] model ([[entities/apache-20|Apache 2.0]]) used for competitive [[concepts/benchmark-testing|benchmarking]] against [[entities/deepseek-v3]] and [[entities/kimi-k2]].
 
 ## Sources
-- 2026 04 14 [[entities/mathew-berman|Mathew Berman]] [[concepts/flash-models|Gemini Flash]] 3 and Nvidia [[entities/nematron-3|Nematron 3]]
+- 2026 04 14 [[entities/mathew-berman|Mathew Berman]] [[concepts/flash-models|Gemini Flash]] 3 and [[entities/nvidia|Nvidia]] [[entities/nematron-3|Nematron 3]]
 - 2026 04 14 [[entities/mistral|Mistral]] latest model
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Meta-Harness-AI-Self-Evolution-via-Autonomous-LLM-Harness-Optimization|Meta Harness AI Self Evolution via Autonomous LLM Harness Optimization]] · [▶ source](https://www.youtube.com/watch?v=61JUHDK-em8)

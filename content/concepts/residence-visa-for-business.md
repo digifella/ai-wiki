@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: places-regions-destinations
 tags:
   - "business-visa"
   - "turkey"
@@ -12,7 +11,8 @@ aliases:
   - "Turkey Business Residence Visa"
   - "Business Residence Permit Turkey"
 summary: Documentation regarding business residence visas for Turkey.
-updated: 2026-05-01
+updated: 2026-05-23
+group: places-regions-destinations
 ---
 # Residence Visa For Business
 
@@ -20,7 +20,7 @@ A residence visa for business in [[entities/republic-of-turkey|Turkey]] is a lon
 
 ## Application Requirements
 
-Applicants for a business residence visa must typically demonstrate proof of business registration in Turkey, sufficient financial means to support themselves and their business operations, and a clean criminal record. The exact documentation requirements may vary based on the applicant's nationality and the [[entities/nature|nature]] of the proposed business. Processing times and specific conditions are determined by Turkish immigration officials during the application review.
+Applicants for a business residence visa must typically demonstrate [[concepts/proof|proof]] of business registration in Turkey, sufficient financial means to support themselves and their business operations, and a clean criminal record. The exact documentation requirements may vary based on the applicant's nationality and the [[entities/nature|nature]] of the proposed business. Processing times and specific conditions are determined by Turkish immigration officials during the application review.
 
 ## Duration and Renewal
 

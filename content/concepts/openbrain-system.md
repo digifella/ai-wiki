@@ -11,9 +11,10 @@ tags:
   - "knowledge-management-systems"
 aliases:
   - "OpenBrain"
-summary: "An architecture for AI context layer architectures specialized in AI-maintained knowledge management."
-updated: 2026-04-27
+summary: An architecture for AI context layer architectures specialized in AI-maintained knowledge management.
+updated: 2026-05-23
 group: ai-foundations-concepts
+stub: true
 ---
 # OpenBrain system
 
@@ -28,8 +29,7 @@ An [[concepts/architecture|architecture]] for [[concepts/ai-context-layer-archit
 - [[concepts/knowledge-management]]
 
 ## Sources
-- 2026 04 27 AI Context Layer Architectures Karpathys Wiki vs. OpenBr
-
+- 2026 04 27 AI [[concepts/hybrid-context-architectures|Context Layer Architectures]] Karpathys Wiki vs. OpenBr
 ## Source Notes
 - 2026-04-07: Claude Code Turned Obsidian Into My Dream Second Brain
 - 2026-04-10: [[entities/claude|Claude + Obsidian = Full AI Operating System]]

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "personal-integrity"
   - "ethical-practice"
@@ -13,11 +12,12 @@ aliases:
   - "moral integrity"
   - "professional integrity"
 summary: Integrity is the quality of being honest and having strong moral principles, closely related to accountability in health and personal practice.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Integrity
 
-Integrity is the quality of being honest and consistent in one's actions, words, and moral principles. In [[concepts/health|health]] and wellbeing contexts, integrity refers to the alignment between stated values and actual behavior, particularly in clinical practice, personal health decisions, and professional conduct. It encompasses transparency in communication, honesty about limitations or conflicts of interest, and adherence to ethical [[concepts/open-standards|standards]] even when doing so is inconvenient or costly.
+Integrity is the quality of being honest and consistent in one's actions, words, and moral principles. In [[concepts/health|health]] and [[concepts/wellbeing|wellbeing]] contexts, integrity refers to the alignment between stated values and actual behavior, particularly in clinical practice, personal health decisions, and professional conduct. It encompasses transparency in communication, honesty about limitations or conflicts of interest, and adherence to ethical [[concepts/open-standards|standards]] even when doing so is inconvenient or costly.
 
 ## Integrity in Healthcare Practice
 
@@ -25,8 +25,7 @@ Within medical and health professional settings, integrity is fundamental to bui
 
 ## Personal Health and Accountability
 
-At the individual level, integrity in health practices means being honest with oneself and others about health behaviors, symptoms, and adherence to treatment plans. Personal integrity supports accountability—taking responsibility for one's own health decisions and their consequences. This self-directed honesty is essential for effective health management and forms the foundation for meaningful communication with healthcare providers.
-
+[[concepts/assistive-technology|At]] the individual level, integrity in health practices means being honest with oneself and others about health behaviors, symptoms, and adherence to treatment plans. Personal integrity supports [[concepts/accountability|accountability]]—taking responsibility for one's own health decisions and their consequences. This self-directed honesty is essential for effective health management and forms the foundation for meaningful communication with healthcare providers.
 ## Source Notes
 - 2026-04-07: Karpathy
 - 2026-04-10: [[lab-notes/2026-04-10-Karpathys-LLM-Wiki-Beyond-RAG-for-Persistent-Knowledge-Bases|Karpathys LLM Wiki Beyond RAG for Persistent Knowledge Bases]] · [▶ source](https://www.youtube.com/watch?v=zVEb19AwkqM)

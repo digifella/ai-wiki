@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: travels-journeys
-tags:
-  - "time travel"
-  - "k-drama"
-  - "food"
-  - "history"
-  - "culture"
-  - "time-travel"
-  - "historical-drama"
-  - "culinary-arts"
-  - "joseon-era"
-  - "korean-cuisine"
-aliases:
-  - "temporal-displacement"
-summary: "Time travel is a common narrative theme in various media forms involving movement between different points in time."
-updated: 2026-04-17
+summary: Time travel is a common narrative theme in various media forms involving movement between different points in time.
+updated: 2026-05-23
 group: journeys-routes-itineraries
 ---
 # Time Travel in Media
@@ -24,18 +11,18 @@ group: journeys-routes-itineraries
 [[concepts/time-travel-fiction|Time travel]] is a common theme in various media forms including literature, film, and television. It involves the concept of moving between different points in time, often for narrative or thematic purposes.
 
 ## K-Drama Representation: *Bon Appétit, Your Majesty*
-*Bon Appétit, Your Majesty* (2026) is a 12-episode Netflix K-drama that combines elements of historical drama and [[concepts/culinary-arts|culinary arts]]. The series follows the story of Yeon Ji-young, a modern South Korean chef trained in French cuisine who finds herself transported back to the [[concepts/joseon-era|Joseon era]] after an accident with an antique book.
+*[[entities/bon-appétit|Bon Appétit]], Your Majesty* (2026) is a 12-episode [[concepts/netflix|Netflix]] K-drama that combines elements of historical drama and [[concepts/culinary-arts|culinary arts]]. The series follows the story of Yeon Ji-young, a modern South Korean chef trained in French cuisine who finds herself transported back to the [[concepts/joseon-era|Joseon era]] after an accident with an antique book.
 
 ### Submission Notes
 - **Title:** *Bon Appétit, Your Majesty*
 - **Date Published:** 2026
 - **Director:** [[entities/jang-tae-yoo|Jang Tae-yoo]]
 - **Producer:** [[entities/studio-dragon|Studio Dragon]]
-- **Source Material:** [[entities/park-kook-jae|Park Kook-jae]]'s web novel "Surviving as Yeonsan-gun's Chef"
+- **Source Material:** [[entities/park-kook-jae|Park Kook-jae]]'s web novel "[[entities/your-majesty|Surviving as Yeonsan-gun's Chef]]"
 - **Lead Actor:** [[entities/im-yoon-ah|Im Yoon-ah]] (as Yeon Ji-young)
 
 ## Related Concepts
-- time travel in fiction
+- [[concepts/time-travel-fiction|time travel]] in fiction
 - [[concepts/joseon-era|Joseon era]]
 - cuisine history
 
@@ -46,7 +33,6 @@ Here are some of the dishes highlighted in *Bon Appétit, Your Majesty*:
 - Fusion dishes combining both modern and historical elements
 
 2026 04 13 food featured on Bon Apetite Your Majesty K Drama
-
 ## Source Notes
 
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)

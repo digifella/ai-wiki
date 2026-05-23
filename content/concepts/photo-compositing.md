@@ -12,8 +12,8 @@ tags:
 aliases:
   - "Image Compositing"
   - "Photo Manipulation"
-summary: "The process of merging visual elements from multiple images into a single, cohesive composition using techniques such as layer masks and auto-alignment."
-updated: 2026-04-28
+summary: The process of merging visual elements from multiple images into a single, cohesive composition using techniques such as layer masks and auto-alignment.
+updated: 2026-05-23
 group: photography-cameras
 ---
 # Photo compositing
@@ -34,7 +34,6 @@ The process of merging visual elements from multiple [[concepts/images|images]] 
 
 ---
 **Backlink**: 2026 04 14 [[concepts/combining-photos|Combining photos]] in [[concepts/photoshop|Photoshop]]
-
 ## Source Notes
 - 2026-04-07: Photoshop Beta
 - 2026-04-10: [[lab-notes/2026-04-10-Photoshop-Betas-AI-Rotate-Object-3D-Manipulation-of-2D-Images|Photoshop Betas AI Rotate Object 3D Manipulation of 2D Images]] · [▶ source](https://www.youtube.com/watch?v=2k9lIsGazqc)

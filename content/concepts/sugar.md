@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: sugar-slavery-trade
 tags:
   - "concept"
   - "history"
@@ -14,7 +13,8 @@ aliases:
   - "sugar trade"
   - "sugar history"
 summary: Sugar transitioned from ancient origins to become a major colonial commodity intertwined with enslavement.
-updated: 2026-05-01
+updated: 2026-05-23
+group: sugar-slavery-trade
 ---
 # Sugar
 
@@ -26,8 +26,7 @@ The transformation of sugar into a major [[concepts/global-commodity|global comm
 
 ## Modern Significance
 
-By the 18th and 19th centuries, sugar had become a staple commodity in European and American diets, fueling industrial-scale production and trade networks. The historical wealth accumulated through sugar production contributed substantially to European economic development, while the human cost of enslavement and colonial exploitation left lasting impacts on African and Caribbean societies. Today, sugar's history remains integral to understanding colonialism, economic systems built on forced labor, and the long-term consequences of the Atlantic slave trade.
-
+By the 18th and 19th centuries, sugar had become a staple commodity in European and American diets, fueling industrial-scale production and trade networks. The historical wealth accumulated through sugar production contributed substantially to European economic development, while the human [[concepts/cost|cost]] of enslavement and colonial exploitation left lasting impacts on African and Caribbean societies. Today, sugar's history remains integral to understanding colonialism, economic systems built on forced labor, and the long-term consequences of the Atlantic slave trade.
 ## Source Notes
 - 2026-04-08: A Brief History of Sugar
 - 2026-04-07: [[lab-notes/2026-04-07-Global-Journey-of-Sugar-Ancient-Origins-to-Colonial-Commodity-and|Global Journey of Sugar Ancient Origins to Colonial Commodity and]] · [▶ source](https://www.youtube.com/watch?v=PDLF-rHUzfQ)

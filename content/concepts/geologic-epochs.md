@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "carboniferous-period"
   - "permian-period"
@@ -13,7 +12,8 @@ aliases:
   - "Carboniferous and Permian Periods"
   - "Fossil Fuel Formation Epochs"
 summary: The Carboniferous and Permian periods were eras during which atmospheric oxygen and carbon dioxide levels changed during the formation of fossil fuels.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Geologic Epochs
 

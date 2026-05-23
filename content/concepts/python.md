@@ -8,23 +8,23 @@ tags:
   - "ai"
   - "programming-language"
   - "data-visualization"
-summary: "Python is a high-level, interpreted programming language used in applications such as Data Formulator."
-updated: 2026-04-28
+summary: Python is a high-level, interpreted programming language used in applications such as Data Formulator.
+updated: 2026-05-23
 group: developer-tooling-clis
+stub: true
 ---
 # Python
 
 High-level, interpreted programming language.
 
 ## Applications & Tools
-- [[entities/data-formulator|Data Formulator]] (Microsoft):
+- [[entities/data-formulator|Data Formulator]] ([[entities/microsoft|Microsoft]]):
 	- [[concepts/ai-powered-application|AI-powered application]] for creating [[concepts/rich-data-visualizations|rich data visualizations]] using a [[concepts/large-language-model|large language model]] (LLM) as a backend.
-	- [[concepts/setup|Setup]] and installation via Python's [[entities/pip|PIP]]: `pip install data_formulator`.
+	- [[concepts/setup|Setup]] and installation via [[entities/python|Python]]'s [[entities/pip|PIP]]: `pip install data_formulator`.
 	- Reference: [[[concepts/coding|Coding]] with [[entities/steven|Steven]]](https://www.youtube.com/watch?v=Yj9JVPUTGHE)
 
 ## Backlinks
 - 2026 04 14 [[concepts/coding|Coding]] with [[entities/steven|Steven]] [[concepts/rich-data-visualizations|Microsoft Data Formulator]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Bonzai 8B: PrismML

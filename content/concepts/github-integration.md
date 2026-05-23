@@ -1,24 +1,14 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "github-integration"
-  - "obsidian-plugin"
-  - "ai-assistant-claude-code"
-  - "pkm-systems"
-  - "automated-summarization"
-aliases:
-  - "GitHub Obsidian Sync"
-  - "Claude Code Integration"
-  - "AI PKM Automation"
-summary: "This page details the integration of GitHub with Obsidian and Claude Code AI for automating personal knowledge management processes."
-updated: 2026-04-11
+summary: This page details the integration of GitHub with Obsidian and Claude Code AI for automating personal knowledge management processes.
+updated: 2026-05-23
 group: apis-integrations-mcp
-title: "GitHub Integration"
+title: GitHub Integration
 ---
 # GitHub Integration
 
-**Overview**: This page outlines how to integrate GitHub into your [[concepts/pkm|personal knowledge management (PKM)]] system using tools such as [[concepts/obsidian|Obsidian]] and an [[concepts/ai-assistant|AI assistant]] like [[concepts/claude-code|Claude Code]]. The goal is to automate data ingestion, [[concepts/organization|organization]], [[concepts/summarization|summarization]], and retrieval processes.
+**Overview**: This page outlines how to integrate [[entities/github|GitHub]] into your [[concepts/pkm|personal knowledge management (PKM)]] system using tools such as [[concepts/obsidian|Obsidian]] and an [[concepts/ai-assistant|AI assistant]] like [[concepts/claude-code|Claude Code]]. The goal is to automate data ingestion, [[concepts/organization|organization]], [[concepts/summarization|summarization]], and retrieval processes.
 
 ### Related Concepts
 - [[entities/obsidian]]
@@ -27,16 +17,15 @@ title: "GitHub Integration"
 
 ### Integration Steps
 
-1. [[concepts/setup|Setup]] GitHub repository for syncing notes.
-2. Configure Obsidian with the Git plugin or third-party services like Syncthing to automatically push changes to your GitHub repo.
+1. [[concepts/setup|Setup]] GitHub repository for syncing [[concepts/notes|notes]].
+2. Configure Obsidian with the [[entities/git|Git]] plugin or third-party services like Syncthing to automatically push changes to your GitHub repo.
 3. Integrate [[concepts/claude-code|Claude Code AI]] into Obsidian for automated [[concepts/summarization|summarization]] and data ingestion.
 
 ### New Information (2026-04-08)
-- [[entities/eric-tech|Eric Tech]] demonstrates how to set up a [[concepts/second-brain|second brain]] using [[entities/claude|Claude]] Code in conjunction with Obsidian, aiming at automating PKM processes specifically for project management.
+- [[entities/eric-tech|Eric Tech]] demonstrates how to set up a [[concepts/second-brain|second brain]] using [[entities/claude|Claude]] [[concepts/code|Code]] in conjunction with Obsidian, aiming [[concepts/assistive-technology|at]] automating PKM processes specifically for project management.
 - Video URL: Y2rpFa43jTo?si=uJV8BMRLP N6f38_
 
 ### Backlinks
-
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

@@ -15,8 +15,8 @@ tags:
 aliases:
   - "web-novel-to-drama-adaptation"
   - "transmedia-adaptation"
-summary: "The structural transformation of a web novel into alternative media formats, such as K-Dramas, manhwa, or webtoons, through the reconfiguration of narrative pacing, visual realization, and character development."
-updated: 2026-04-27
+summary: The structural transformation of a web novel into alternative media formats, such as K-Dramas, manhwa, or webtoons, through the reconfiguration of narrative pacing, visual realization, and character development.
+updated: 2026-05-23
 group: life-systems-adaptation-discovery
 ---
 # web novel adaptation
@@ -30,9 +30,15 @@ The structural transformation of a web novel into alternative media formats, suc
 
 ## Case Studies
 - **[[entities/bon-appétit-your-majesty]] (K-Drama)**
-    - **Source Material**: Adapted from the web novel Surviving as Yeonsan-gun's Chef by [[entities/park-kook-jae]].
-    - **Production**: Directed by [[entities/jang-tae-yoo]]; produced by [[entities/studio-dragon]] for [[entities/netflix]].
-    - **Narrative Elements**: Features a modern chef with French culinary [[concepts/training|training]] transported back to the [[concepts/joseon-era]].
+    - **Source Material**: Adapted from the web novel [[entities/your-majesty|Surviving as Yeonsan-gun's Chef]] by [[entities/surviving-as-yeonsan-gun]]
 
-## Related Links
-- 2026 04 13 food featured on Bon Apetite [[entities/your-majesty|Your Majesty]] K Drama
+## Related Concepts: Adaptation in Physical Systems
+The concept of adaptation extends beyond narrative to physical systems, illustrating how organisms and structures adjust to challenging environments. This mirrors the necessity of adaptation in media translation:
+
+- **Environmental Adaptation**: Examining how entities develop ingenuity and [[concepts/resilience|resilience]] in impossible locations.
+    - [[lab-notes/2026-05-05-Ancient-Cities-Ingenuity-and-Adaptation-in-Impossible-Lo|Ancient Cities: Ingenuity and Adaptation in Impossible Locations]]
+- **Ingenuity and [[concepts/resilience|Resilience]]**: Showcasing human capacity for adaptation when facing extreme environmental constraints.
+
+## Further Reading
+- See [[concepts/storytelling]] for the principles of media translation.
+- See [[entities/character-development]] for how internal structures are reconfigured for external formats.

@@ -1,7 +1,7 @@
 ---
 type: concept
-domain: ai-agents
-group: applied-ai-workflows
+domain: creative-pursuits
+group: lightroom-color-workflows
 tags:
   - "ai-detection"
   - "ai-masking"
@@ -12,19 +12,19 @@ aliases:
   - "AI Mask Detection"
   - "Automated AI Masking"
 summary: A collection of notes and references on AI-powered detection and masking features in Adobe Lightroom Classic, including landscape processing techniques and autonomous AI agent applications.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Detection
 
-AI Detection refers to [[concepts/automations|automated systems]] that identify and isolate specific elements within digital [[concepts/images|images]], enabling targeted processing and adjustment. These systems analyze image content to recognize distinct components—such as landscapes, subjects, skies, and foreground elements—without requiring manual selection or [[concepts/layer-masks|masking]] by the user. By automating element recognition, AI detection streamlines the [[concepts/photography-workflow|editing workflow]] and allows photographers to apply [[concepts/adjustments|adjustments]] to specific scene components with precision.
+AI Detection refers to automated systems that identify and isolate specific elements within digital images, enabling targeted processing and adjustment. These systems analyze image content to recognize distinct components—such as landscapes, subjects, skies, and foreground elements—without requiring manual selection or masking by the user. By automating element recognition, AI detection streamlines the photography workflow and allows photographers to apply adjustments selectively to identified areas.
 
-## Adobe Lightroom Implementation
+## Implementation in Lightroom Classic
 
-Adobe Lightroom Classic incorporates AI detection features that automatically identify and separate key image components during the editing process. The system can distinguish between sky, foreground, and subject elements, allowing users to apply selective adjustments without manually creating masks or selections. This functionality is integrated into Lightroom's adjustment panels, where detected elements appear as distinct adjustment targets. Landscape processing benefits particularly from these capabilities, as the tool can isolate sky regions for [[concepts/exposure|exposure]] or color correction independent from ground-level content.
+Adobe Lightroom Classic incorporates AI detection features that recognize common photographic subjects and environmental elements. The system can distinguish between sky, landscape, and subject areas, generating masks automatically based on these detections. This functionality allows users to apply exposure, color, and clarity adjustments to specific detected elements without manually drawing selection boundaries. The detected masks can be further refined or adjusted if needed to suit individual preferences.
 
-## Broader Applications
+## Autonomous Agent Applications
 
-Beyond Adobe's implementation, AI detection systems are increasingly applied in [[concepts/autonomous-ai-agent|autonomous AI agent]] applications where [[concepts/image-analysis|image analysis]] forms part of larger automated workflows. These [[concepts/agents|agents]] use detection capabilities to process images programmatically, making decisions about adjustments or categorization based on identified elements. The underlying technology relies on [[concepts/artificial-intelligence-models|machine learning models]] trained to recognize common photographic components and their boundaries within diverse image types and compositions.
+Beyond manual photo editing, AI detection principles extend to autonomous agent systems that perform image analysis and processing tasks with minimal human intervention. These applications use detection capabilities to evaluate image content and make processing decisions automatically, potentially handling batch operations or real-time image analysis workflows. The effectiveness of such systems depends on the accuracy of the underlying detection algorithms and their ability to generalize across diverse photographic scenarios.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Firecrawl-AI-Essential-Web-Data-for-Autonomous-AI-Agents|Firecrawl AI Essential Web Data for Autonomous AI Agents]] · [▶ source](https://www.youtube.com/watch?v=eH8JdttKIdA)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "computational-complexity"
   - "np-complete"
@@ -12,7 +11,8 @@ aliases:
   - "P versus NP"
   - "P-NP problem"
 summary: A fundamental unsolved problem in computer science asking whether problems whose solutions can be verified quickly (NP) are equivalent to problems solvable quickly (P).
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # P Vs NP Verification
 
@@ -20,12 +20,11 @@ The [[concepts/a-video-titled-p-vs-np|P versus NP]] problem is one of the most s
 
 ## Practical Significance
 
-The distinction between P and NP has immediate real-world [[concepts/software|applications]]. Modern cryptography relies on the assumption that P ≠ NP; specifically, it depends on the existence of problems that are easy to verify but computationally hard to solve. If someone could prove P = NP, current encryption methods would become vulnerable. Conversely, many [[concepts/computational-problems|computational problems]] in logistics, machine [[concepts/learning|learning]], and resource allocation belong to NP, making efficient solutions to the P versus NP question valuable for optimization in AI systems and autonomous [[concepts/agents|agents]].
+The distinction between P and NP has immediate real-world [[concepts/software|applications]]. Modern cryptography relies on the assumption that P ≠ NP; specifically, it depends on the existence of problems that are easy to verify but computationally hard to solve. If someone could prove P = NP, current [[concepts/encryption-methods|encryption methods]] would become vulnerable. Conversely, many [[concepts/computational-problems|computational problems]] in logistics, machine [[concepts/learning|learning]], and resource allocation belong to NP, making efficient solutions to the [[concepts/p-vs-np|P versus NP]] question valuable for optimization in AI systems and autonomous [[concepts/agents|agents]].
 
 ## Current Status
 
-Despite decades of research, the P versus NP question remains unsolved. The Clay Mathematics Institute designated it one of seven [[concepts/millennium-prize-problems|Millennium Prize Problems]], offering a one-million-dollar reward for a proof either way. Most computer scientists conjecture that P ≠ NP, but no rigorous proof has been established. The problem's difficulty stems partly from the fact that known solution techniques have inherent limitations, suggesting a proof may require fundamentally new mathematical approaches.
-
+Despite decades of research, the P versus NP question remains unsolved. The Clay Mathematics Institute designated it one of seven [[concepts/millennium-prize-problems|Millennium Prize Problems]], offering a one-million-dollar reward for a [[concepts/proof|proof]] either way. Most computer scientists conjecture that P ≠ NP, but no rigorous proof has been established. The problem's difficulty stems partly from the fact that known solution techniques have inherent limitations, suggesting a proof may require fundamentally new mathematical approaches.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-08: [[lab-notes/2026-04-08-Self-Evolving-AI-Autonomous-Optimization-via-Iterative-Harness|Self Evolving AI Autonomous Optimization via Iterative Harness]] · [▶ source](https://www.youtube.com/watch?v=WpcRm78KOvY)

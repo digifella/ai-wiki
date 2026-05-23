@@ -1,23 +1,7 @@
 ---
-domain: ai-agents
 type: concept
-tags:
-  - "AI Coding"
-  - "Claude Code"
-  - "Anthropic"
-  - "Workflow Automation"
-  - "Team Features"
-  - "ai-coding-assistant"
-  - "workflow-automation"
-  - "team-collaboration"
-  - "code-generation"
-  - "claude-code-upgrade"
-  - "frontend-development"
-  - "kombai"
-  - "openai"
-  - "gpt-5.5"
-  - "agentic-ai"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 title: "AI Coding"
 ---
@@ -34,10 +18,9 @@ title: AI [[concepts/coding|Coding]]
   - Author / channel: [[entities/worldofai|WorldofAI]]
   - URL: https://www.youtube.com/watch?v=ShTxTquBDxY
 - **[[entities/claude-code|Claude Code]] 4.1**: Latest version feat
-- **Comparison: [[concepts/claude-code|Claude Code]] vs [[entities/github-copilot-agent|GitHub Copilot Agent]]**: Detailed evaluation of features, strengths, and [[concepts/scenarios|use cases]] for [[entities/anthropic|Anthropic]] and GitHub (Microsoft) assistants ([Source](https://www.youtube.com/watch?v=4M3d6PlqtXg)).
+- **Comparison: [[concepts/claude-code|Claude Code]] vs [[entities/github-copilot-agent|GitHub Copilot Agent]]**: Detailed evaluation of features, strengths, and [[concepts/scenarios|use cases]] for [[entities/anthropic|Anthropic]] and [[entities/github|GitHub]] ([[entities/microsoft|Microsoft]]) assistants ([Source](https://www.youtube.com/watch?v=4M3d6PlqtXg)).
 
-2026 04 14 Claude code vs [[concepts/auto-completion-suggestions|GitHub copilot]]
-
+2026 04 14 [[concepts/coding-assistant|Claude code]] vs [[concepts/auto-completion-suggestions|GitHub copilot]]
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-07: Every Claude Code Concept Explained for Non-techies

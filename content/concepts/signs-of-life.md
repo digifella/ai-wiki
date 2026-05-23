@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "Mars"
-  - "Signs of Life"
-  - "Geology"
-  - "Ancient Rainforests"
-  - "Lightning"
-  - "mars-surface"
-  - "biosignatures-mars"
-  - "ancient-rainforests"
-  - "planetary-habitability"
-  - "atmospheric-studies"
-summary: "The search for signs of past life on Mars involves studying its geology, including ancient rainforest evidence and current atmospheric phenomena like lightning."
-updated: 2026-04-11
+summary: The search for signs of past life on Mars involves studying its geology, including ancient rainforest evidence and current atmospheric phenomena like lightning.
+updated: 2026-05-23
 group: media-society-daily-life
 ---
 # Signs of Life
@@ -47,14 +36,13 @@ Several missions are currently exploring Mars to gather more data about its [[co
 - Upcoming missions aim to study the planet's subsurface and atmosphere in greater detail.
 
 ### Video Update: Ancient Rainforests, Lightning, and Signs of Life
-The video "Mars Science Update" by [[entities/anton-petrov|Anton Petrov]] provides a comprehensive update on recent discoveries:
+The video "Mars [[concepts/science|Science]] Update" by [[entities/anton-petrov|Anton Petrov]] provides a comprehensive update on recent discoveries:
 - **Title:** Mars Science Update: [[concepts/ancient-rainforests|Ancient Rainforests]], Lightning, and Signs of Life
 - **Author / channel:** [[entities/anton-petrov|Anton Petrov]]
 - **URL:** https://www.youtube.com/watch?v=d5HR9JNKg7I
 
 ### Backlinks
-2026 04 10 Mars Science Update Ancient Rainforests Geological Finds Mission Statu
-
+2026 04 10 Mars [[concepts/science|Science]] Update [[concepts/ancient-rainforests|Ancient Rainforests]] Geological Finds Mission Statu
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)

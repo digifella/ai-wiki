@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "concept"
   - "portrait-editing"
@@ -13,11 +12,12 @@ aliases:
   - "AI Portrait Masks"
   - "Automated Mask Presets"
 summary: Lightroom Classic feature enabling single-click automated AI mask creation for portraits and landscapes.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Portrait Masking
 
-Portrait Masking is an [[concepts/automated-masking|automated masking]] feature in Lightroom Classic that uses [[concepts/ai-technologies|artificial intelligence]] to generate selection masks with a single click. The feature is designed to identify and isolate subjects in photographs, enabling photographers to apply targeted edits to specific areas without manual selection work. It works alongside [[concepts/landscape-masking|landscape masking]] capabilities within the same tool set.
+[[concepts/subject-masking|Portrait Masking]] is an [[concepts/automated-masking|automated masking]] feature in [[entities/lightroom-classic|Lightroom Classic]] that uses [[concepts/ai-technologies|artificial intelligence]] to generate selection masks with a single click. The feature is designed to identify and isolate subjects in photographs, enabling photographers to apply targeted edits to specific areas without manual selection work. It works alongside [[concepts/landscape-masking|landscape masking]] [[concepts/capabilities|capabilities]] within the same tool set.
 
 ## Functionality
 
@@ -26,7 +26,6 @@ The feature generates masks for both portrait subjects and landscape elements au
 ## Workflow Integration
 
 Portrait Masking integrates into Lightroom Classic's standard editing interface, where masks can be combined and layered to create complex selections across multiple areas of an image. The generated masks are non-destructive and can be modified or deleted without affecting the original photograph or other edits applied to the image.
-
 ## Source Notes
 - 2026-04-08: Lightroom Classic Trick: Multiple Masks in One Click
 - 2026-04-07: [[lab-notes/2026-04-07-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape|Lightroom Classic Single Click Automated AI Mask Presets for Landscape]] · [▶ source](https://www.youtube.com/watch?v=tVCV0VmoZnw)

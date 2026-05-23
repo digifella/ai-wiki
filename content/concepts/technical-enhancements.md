@@ -1,23 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "autonomous-driving"
-  - "tesla-fsd"
-  - "software-updates"
-  - "hardware-enhancements"
-  - "safety-protocols"
-  - "european-regulations"
-aliases:
-  - "FSD Updates"
-  - "Autonomous Driving Upgrades"
-summary: "Continuous improvements to software and hardware designed to enhance the performance, safety, and user experience of autonomous driving systems like Tesla's FSD."
-updated: 2026-04-17
+summary: Continuous improvements to software and hardware designed to enhance the performance, safety, and user experience of autonomous driving systems like Tesla's FSD.
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 ---
 - Autonomous Driving
 - Tesla FSD
-- European Approval
+- European Approval]]
 - Technical Enhancements
 
 # Technical Enhancements
@@ -33,12 +23,12 @@ group: coding-agents-dev-workflows
 ### Recent Developments
 
 - Tesla's FSD system received supervised approval in the Netherlands.
-- This development sets a precedent for the rollout of FSD across the [[entities/eu|European Union]] (EU).
-- The approval highlights significant technical enhancements made to FSD, addressing regulatory concerns and [[concepts/product-safety|safety standards]].
+- This development sets a precedent for the rollout of FSD across the [[entities/eu|European Union]] ([[entities/european-union|EU]]).
+- The approval [[concepts/highlights|highlights]] significant technical enhancements made to FSD, addressing regulatory concerns and [[concepts/product-safety|safety standards]].
 
 ### Summary from Dr. Know-it-all Knows it all
-**Clip title**: Tesla FSD Approved in [[entities/europe|Europe]]--This Changes Everything
-**Author / channel**: Dr. Know-it-all Knows it all
+**[[concepts/clip-title|Clip title]]**: [[concepts/full-self-driving-fsd|Tesla FSD]] Approved in [[entities/europe|Europe]]--This Changes Everything
+**Author / channel**: [[entities/dr-know-it-all|Dr. Know-it-all]] Knows it all
 **URL**: https://www.youtube.com/watch?v=TEPbcUddNNw
 
 - Comprehensive overview of recent developments concerning Tesla's FSD system.
@@ -47,11 +37,10 @@ group: coding-agents-dev-workflows
 
 ### Technical Enhancements
 - **Data Collection**: Enhanced data collection methods for supervised driving in European conditions.
-- **Safety Improvements**: Implementation of stricter safety protocols based on EU regulations.
+- **Safety Improvements**: [[concepts/adoption|Implementation]] of stricter safety protocols based on EU regulations.
 - **User Experience**: Improved user interfaces tailored to European preferences and legal requirements.
 
 ### Backlinks
 2026 04 13 [[concepts/tesla-fsd-supervised|Tesla FSD Supervised]] European Approval Netherlands Sets Precedent for
-
 ## Source Notes
 - 2026-04-30: Google DeepMind

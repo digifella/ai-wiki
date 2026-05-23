@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: maths-cryptography
 tags:
   - "concept"
   - "quantification"
@@ -14,11 +13,12 @@ aliases:
   - "numerical quantification"
   - "zero in history"
 summary: Exploration of quantification practices, focusing on the historical resistance to zero in Western philosophy versus its acceptance in Eastern thought.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # Quantification
 
-Quantification—the practice of representing and measuring phenomena numerically—has undergone significant philosophical and cultural shifts throughout history. A striking divergence emerged between Western and Eastern approaches to representing numerical values, particularly regarding the concept of zero. This difference reflects deeper assumptions about emptiness, nothingness, and the [[entities/nature|nature]] of [[concepts/large-number-management|mathematical representation]] itself.
+Quantification—the practice of representing and measuring phenomena numerically—has undergone significant philosophical and cultural shifts throughout history. A striking divergence emerged between Western and Eastern approaches to representing numerical values, particularly regarding the concept of [[concepts/concept-of-nothingness|zero]]. This difference reflects deeper assumptions about emptiness, nothingness, and the [[entities/nature|nature]] of [[concepts/large-number-management|mathematical representation]] itself.
 
 ## Western Resistance to Zero
 
@@ -31,6 +31,5 @@ In [[concepts/contrast|contrast]], mathematical traditions in India and the broa
 ## Legacy and Impact
 
 The eventual acceptance of zero in Western mathematics marked a fundamental shift in quantification practices, enabling modern scientific notation, algebra, and calculus. Today, the historical resistance to zero serves as a reminder that mathematical systems are not purely abstract; they embody cultural and philosophical assumptions about what deserves representation and how value should be conceived.
-
 ## Source Notes
 - 2026-04-13: Why the number 0 was banned for 1500 years

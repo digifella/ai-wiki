@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: security-infrastructure
 tags:
   - "military-strategy"
   - "warfare"
@@ -11,16 +11,16 @@ tags:
 aliases:
   - "Anti-Access/Area Denial"
   - "A2/AD"
-summary: "A set of military strategies designed to prevent adversary entry into a theater of operations or limit their freedom of maneuver through tactics such as blockades and ballistic missiles."
-updated: 2026-04-27
-group: ai-foundations-concepts
+summary: A set of military strategies designed to prevent adversary entry into a theater of operations or limit their freedom of maneuver through tactics such as blockades and ballistic missiles.
+updated: 2026-05-23
+group: privacy-security-guardrails
 ---
 # A2/AD (Anti-Access/Area Denial)
 
-**[[concepts/slms|Definition]]**: A set of military strategies and capabilities intended to prevent an adversary from entering a theater of operations (**Anti-Access**) or to limit their freedom of maneuver and operational effectiveness once they have entered that theater (**Area Denial**).
+**[[concepts/slms|Definition]]**: A set of military strategies and [[concepts/capabilities|capabilities]] intended to prevent an adversary from entering a theater of operations (**Anti-Access**) or to limit their freedom of maneuver and operational effectiveness once they have entered that theater (**Area Denial**).
 
 ## Recent Military Observations
-*Derived from 2026 04 27 Iran War Military Lessons [[concepts/trade-disruption|Trade Disruption]] A2AD and Glob*
+*Derived from 2026 04 27 [[entities/iran|Iran]] War Military Lessons [[concepts/trade-disruption|Trade Disruption]] A2AD and Glob*
 
 * **[[concepts/conflict|Conflict]] Context**: Observed during recent hostilities involving the [[entities/united-states]], [[entities/israel|Israel]], and [[concepts/iran]].
 * **Tactical Mechanisms**:
@@ -34,6 +34,5 @@ group: ai-foundations-concepts
 ---
 **Backlinks**:
 2026 04 27 Iran War Military Lessons Trade Disruption A2AD and Glob
-
 ## Source Notes
 - 2026-04-27: Iran · [▶ source](https://www.youtube.com/watch?v=ApIb-nTdoLU)

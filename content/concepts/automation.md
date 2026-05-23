@@ -3,9 +3,9 @@ type: concept
 domain: tools-platforms
 tags:
   - "automation"
-updated: 2026-04-14
+summary: Automation involves using technology and AI to execute repetitive tasks with minimal human intervention, aiming to reduce manual overhead in knowledge management systems.
+updated: 2026-05-23
 group: automation-scheduling-sync
-summary: "Automation involves using technology and AI to execute repetitive tasks with minimal human intervention, aiming to reduce manual overhead in knowledge management systems."
 ---
 - "knowledge-management"
   - "[[concepts/automation-tools|automation-tools]]"
@@ -30,7 +30,6 @@ The use of technology and [[concepts/ai]] to execute repetitive tasks and [[conc
 - **[[concepts/openclaw|OpenClaw]] ([[concepts/local-ai-assistants|Clawdbot]])**: A personal [[concepts/ai-assistant|AI assistant]] [[concepts/running|running]] on [[concepts/local-infrastructure|local infrastructure]] that executes [[concepts/real-world-tasks|real-world tasks]] by connecting to services including [[entities/gmail|Gmail]], [[entities/asana|Asana]], [[entities/slack|Slack]], and [[entities/telegram|Telegram]].
 
 Source: 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Full Guide - Build Your Own AI Second Brain with Claude Code

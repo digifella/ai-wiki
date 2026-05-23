@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: tools-platforms
 tags:
   - "git"
   - "version-control"
@@ -10,28 +10,27 @@ tags:
 aliases:
   - "git-commit"
   - "commit-object"
-summary: "A commit is a fundamental Git data structure that represents a project snapshot and acts as a node within a directed acyclic graph."
-updated: 2026-04-27
-group: ai-foundations-concepts
+summary: A commit is a fundamental Git data structure that represents a project snapshot and acts as a node within a directed acyclic graph.
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Commits
 
-A Commit is a fundamental data [[concepts/structure|structure]] in Git that represents a snapshot of a project at a specific point in time.
+A Commit is a fundamental data [[concepts/structure|structure]] in [[entities/git|Git]] that represents a snapshot of a project [[concepts/assistive-technology|at]] a specific point in time.
 
 ## Core Concepts
-- Acts as a primary node within a DAG ([[concepts/directed-acyclic-graph-dag|Directed Acyclic Graph]]).
+- Acts as a primary [[entities/nodejs|node]] within a DAG ([[concepts/directed-acyclic-graph-dag|Directed Acyclic Graph]]).
 - Forms the structural basis for Branches.
 - Understanding commits requires moving beyond memorized [[concepts/commands|commands]] to grasp the underlying operational logic and data structures of Git.
 
 ## Related
 - Git
-- Branches
+- Branches]]
 - DAG
 - Git's Underlying Data Structures: Commits, Branches, and DAG Explained
 
 ## References
-- 2026 04 27 Gits Underlying Data Structures Commits Branches and DAG
-
+- 2026 04 27 Gits Underlying Data Structures Commits Branches and [[concepts/directed-acyclic-graph-dag|DAG]]
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Gits-Underlying-Data-Structures-Commits-Branches-and-DAG|Git's Underlying Data Structures: Commits, Branches, and DAG Explained]] · [▶ source](https://www.youtube.com/watch?v=Ala6PHlYjmw)
 - 2026-04-07: [[lab-notes/2026-04-07-Optimizing-Claude-Code-Hidden-Settings-for-Workflow-Output-and-Privacy|Optimizing Claude Code Hidden Settings for Workflow Output and Privacy]] · [▶ source](https://www.youtube.com/watch?v=pDoBe4qbFPE)

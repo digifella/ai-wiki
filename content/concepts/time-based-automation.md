@@ -1,24 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "automation"
-  - "ai"
-  - "workflow"
-  - "ai-automation"
-  - "action-based-automation"
-  - "business-event-response"
-  - "scheduling"
-aliases:
-  - "scheduled automation"
-  - "temporal automation"
-summary: "Automation triggered at predetermined intervals or specific timestamps that is transitioning toward action-based paradigms."
-updated: 2026-04-26
+summary: Automation triggered at predetermined intervals or specific timestamps that is transitioning toward action-based paradigms.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Time-based automation
 
-[[concepts/automations|Automations]] triggered at pre-determined intervals or specific timestamps, functioning similarly to an alarm clock.
+[[concepts/automations|Automations]] triggered [[concepts/assistive-technology|at]] pre-determined intervals or specific timestamps, functioning similarly to an alarm clock.
 
 ## Evolution: Action-Based Paradigm
 * **[[concepts/claude-ai|Claude]] Routines**: A significant evolution introduced by [[entities/anthropic]] that shifts [[concepts/automation|automation]] from temporal triggers to Action-Based [[concepts/ai-automation|AI Automation]].
@@ -26,7 +15,6 @@ group: automation-scheduling-sync
 
 ## Related Notes
 * 2026 04 23 [[concepts/claude-ai|Claude]] Routines Action Based [[concepts/ai-automation-agents|AI Automation]] for [[concepts/business-event-response|Business Event Response]]
-
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-Code-Blotato-Automating-AI-Viral-Video-Creation|Claude Code Blotato Automating AI Viral Video Creation]] · [▶ source](https://www.youtube.com/watch?v=ZXyjSufezL8)

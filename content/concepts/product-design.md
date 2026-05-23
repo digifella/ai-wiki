@@ -1,14 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "user-centered"
-  - "cost-quality-balance"
-  - "cross-functional-collaboration"
-  - "american-manufacturing"
-  - "design-efficiency"
-summary: "Product design is the process of creating products that solve user problems through functional, desirable, and manufacturable solutions."
-updated: 2026-04-15
+summary: Product design is the process of creating products that solve user problems through functional, desirable, and manufacturable solutions.
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Product design
@@ -21,10 +15,9 @@ The process of creating products that solve user problems through functional, de
 - [[entities/smarter-every-day|Smarter Every Day]] host [[entities/destin-sandlin|Destin Sandlin]] conducted a 4-year experiment to prove competitive U.S. manufacturing
 - [[concepts/motivation|Motivation]]: Personal history with [[concepts/american-manufacturing|American manufacturing]] (parents were [[entities/union-autoworkers|union autoworkers]])
 - Documented in [[entities/smarter-every-day|Smarter Every Day]] video: [Manufacturing in America Experiment](https://www.youtube.com/watch?v=3ZTGwcHQfLY)
-- Key insight: Demonstrated that [[concepts/domestic-manufacturing|domestic manufacturing]] can compete on quality and cost when prioritizing design efficiency
+- Key insight: Demonstrated that [[concepts/domestic-manufacturing|domestic manufacturing]] can compete on quality and [[concepts/cost|cost]] when prioritizing [[concepts/design|design]] efficiency
 
-2026 04 14 Destin manufacturing in America
-
+2026 04 14 Destin manufacturing in [[entities/united-states|America]]
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

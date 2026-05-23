@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "llm-tasks"
   - "error-elimination"
@@ -12,7 +11,8 @@ aliases:
   - "Million-Step LLM Task"
   - "Zero-Error Task Execution"
 summary: Cognizant AI Lab published research regarding the execution of million-step LLM tasks with zero errors.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Long Tail Task
 
@@ -24,4 +24,4 @@ The challenge of executing million-step tasks represents a significant operation
 
 ## Research Approach
 
-Cognizant AI Lab's published research, titled "[[concepts/zero-errors|Solving a Million-Step LLM Task with Zero Errors]]," presents methods for managing extended LLM execution without degradation of performance. The research contributes to understanding how language models can maintain [[concepts/logical-consistency|consistency]] and accuracy when tasked with lengthy, sequential operations that would previously have been prone to compounding errors or failure.
+Cognizant AI Lab's published research, titled "[[concepts/zero-errors|Solving a Million-Step LLM Task with Zero Errors]]," presents methods for managing extended LLM execution without degradation of performance. The research contributes to understanding how language [[concepts/models|models]] can maintain [[concepts/logical-consistency|consistency]] and accuracy when tasked with lengthy, sequential operations that would previously have been prone to compounding errors or failure.

@@ -13,19 +13,19 @@ aliases:
   - "Photoshop Blend If"
   - "Blend If Explained"
 summary: Photoshop's Blend If feature enables pixel-perfect transparency through brightness and color adjustments.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # 8 Bit RGB Color Mode
 
-8 Bit RGB is a color mode in digital image editing that allocates 8 bits of data to each of the three color channels—red, green, and blue. This [[concepts/structure|structure]] allows 256 possible values per channel (0–255), resulting in approximately 16.7 million total color combinations. This color depth has become the standard for digital photography, web graphics, and most screen-based design work, as it balances sufficient color information for human perception with manageable file sizes and processing demands.
+8 Bit RGB is a color mode in digital image editing that allocates 8 bits of data to each of the three color channels—red, green, and blue. This structure allows 256 possible values per channel (0–255), resulting in approximately 16.7 million total color combinations. This color depth has become the standard for digital photography, web graphics, and most screen-based design work, as it balances sufficient color information for human perception with manageable file sizes.
 
 ## Technical Characteristics
 
-The 8-bit designation refers to the bit depth per channel. Each pixel in an 8-bit RGB image requires 24 bits total (8 bits × 3 channels), allowing for a practical range of colors that meets the limitations of human color perception while remaining efficient for [[entities/storage|storage]] and transmission. This contrasts with higher bit depths like 16-bit or 32-bit modes, which provide additional tonal information but demand significantly more processing power and storage space, or lower depths like indexed color, which reduce the palette to manage file size.
+In 8 Bit RGB mode, each pixel in an image stores 24 bits of total color information (8 bits × 3 channels). This is also referred to as 24-bit color or "true color." The mode is device-independent in principle, though actual color appearance depends on the monitor or output device being used. Most digital cameras capture images in this format, and web standards like JPEG and PNG commonly use 8 Bit RGB as their default color space.
 
 ## Practical Applications
 
-8-bit RGB is the standard format for most digital displays, including computer monitors and smartphones, which natively display color using this depth. It is widely supported across software applications, web [[concepts/open-standards|standards]] (sRGB), and [[concepts/digital-cameras|digital cameras]], making it the practical choice for designers, photographers, and web developers. While professional workflows sometimes begin with higher bit depths for greater editing flexibility, final outputs for screen display and web [[concepts/distribution|distribution]] typically convert to 8-bit RGB to ensure compatibility and appropriate file optimization.
+8 Bit RGB is the default working mode for most digital design and photography workflows. It provides sufficient color gradation to avoid visible banding in most photographic images and is compatible with virtually all digital display devices and web browsers. However, for specialized work involving extensive color grading or printing, some professionals may work in higher bit depths like 16-bit or 32-bit and convert to 8 Bit RGB for final output.
 
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained

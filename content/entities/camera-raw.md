@@ -1,23 +1,12 @@
 ---
 type: entity
-tags:
-  - "adobe"
-  - "image-processing"
-  - "photography"
-  - "photo-editing"
-  - "raw-development"
-  - "color-grading"
-  - "masking"
-  - "lens-blur"
-aliases:
-  - "Adobe Camera Raw"
-  - "ACR"
-summary: "Adobe's image processing engine and plugin used for non-destructive RAW development within Photoshop and Lightroom."
-updated: 2026-04-26
+summary: Adobe's image processing engine and plugin used for non-destructive RAW development within Photoshop and Lightroom.
+updated: 2026-05-23
+stub: true
 ---
 # Camera Raw
 
-Adobe's image processing engine and plugin used for non-destructive RAW development within [[concepts/photoshop]] and [[concepts/lightroom]].
+[[entities/adobe|Adobe]]'s image processing engine and plugin used for non-destructive RAW development within [[concepts/photoshop]] and [[concepts/lightroom]].
 
 ## Features & Capabilities
 - Advanced RAW data manipulation, [[concepts/photo-tonal-adjustments|color grading]], and [[concepts/exposure-adjustment|exposure adjustment]].
@@ -33,8 +22,7 @@ Adobe's image processing engine and plugin used for non-destructive RAW developm
 - [[concepts/masking]]
 
 ## References
-- 2026 04 22 Photoshop Depth Map Mastering Precise 3D Photo Adjustments ([[concepts/tutorial|Tutorial]] by [[entities/ctrlcmd|PiXimperfect]])
-
+- 2026 04 22 [[concepts/depth-maps|Photoshop Depth Map]] Mastering Precise [[concepts/3d-photo-adjustments|3D Photo Adjustments]] ([[concepts/tutorial|Tutorial]] by [[entities/ctrlcmd|PiXimperfect]])
 ## Source Notes
 
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-v15-AI-Powered-Enhancements-for-Creative-Control-and|Lightroom Classic v15 AI Powered Enhancements for Creative Control and]] · [▶ source](https://www.youtube.com/watch?v=dKXqg50v1sA)

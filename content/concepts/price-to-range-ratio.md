@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "metrics"
-  - "ev-valuation"
-  - "automotive-finance"
-  - "electric-vehicle-metrics"
-  - "cost-efficiency"
-  - "battery-efficiency"
-aliases:
-  - "price-to-range"
-summary: "A valuation metric used to assess the economic utility of an electric vehicle by comparing the purchase price to the vehicle's maximum driving distance on a single charge."
-updated: 2026-04-26
+summary: A valuation metric used to assess the economic utility of an electric vehicle by comparing the purchase price to the vehicle's maximum driving distance on a single charge.
+updated: 2026-05-23
 group: scientific-modelling-discovery
 ---
 # Price-to-range ratio
@@ -31,7 +22,6 @@ A valuation metric used to assess the economic utility of an Electric Vehicle (E
 
 ## Sources
 - 2026 04 24 Report Top 10 Worst EVs to Avoid   Analysis of Performance and Value
-
 ## Source Notes
 
 - 2026-04-24: [[lab-notes/2026-04-24-Report-Top-10-Worst-EVs-to-Avoid---Analysis-of-Performance-and-Value|Report: Top 10 Worst EVs to Avoid - Analysis of Performance and Value]] · [▶ source](https://www.youtube.com/watch?v=QJuwX8H7Pss)

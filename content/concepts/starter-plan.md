@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: business-strategy
 tags:
   - "concept"
   - "pricing"
@@ -13,11 +12,12 @@ aliases:
   - "Evernote Starter Plan"
   - "Evernote New Pricing"
 summary: Discussion of Evernote's new pricing structure and user reactions to price increases.
-updated: 2026-05-01
+updated: 2026-05-23
+group: pricing-subscriptions-saas
 ---
 # Starter Plan
 
-Evernote's Starter Plan represents the company's entry-level offering within its restructured [[concepts/pricing-model|pricing model]] introduced in 2026. The plan reflects Evernote's shift toward a tiered subscription approach designed to accommodate users with varying feature requirements and usage patterns.
+[[entities/evernote|Evernote]]'s [[entities/starter-plan|Starter Plan]] represents the company's entry-level offering within its restructured [[concepts/pricing-model|pricing model]] introduced in 2026. The plan reflects Evernote's shift toward a tiered subscription approach designed to accommodate users with varying feature requirements and usage patterns.
 
 ## User Response
 
@@ -26,6 +26,5 @@ The introduction of the Starter Plan and broader [[concepts/pricing|pricing]] ch
 ## Context
 
 The Starter Plan emerged as part of Evernote's broader restructuring of its pricing and feature offerings. This repositioning reflected the company's efforts to balance monetization with user [[concepts/accessibility|accessibility]] across different customer segments.
-
 ## Source Notes
 - 2026-04-07: Reactions To The Price Increase  - Plus, How To Remove

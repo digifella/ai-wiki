@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "knowledge-graphs"
   - "graph-rag"
@@ -14,7 +13,8 @@ aliases:
   - "Graph Construction"
   - "Knowledge Graph Building"
 summary: The page discusses building knowledge graphs from unstructured text and compares Light RAG with Graph RAG architectures.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Relationships
 
@@ -22,12 +22,11 @@ Relationships form the connective tissue of [[concepts/knowledge-graphs|knowledg
 
 ## Knowledge Graph Construction
 
-The process of extracting relationships from unstructured text typically involves [[concepts/nlp|natural language processing]] techniques to identify entity pairs and the [[entities/nature|nature]] of their connections. Tools like [[entities/langchain|Langchain]] combined with [[concepts/graph-databases|graph databases]] such as Neo4j provide practical implementations for this task, allowing developers to programmatically parse documents and construct graph structures that reflect the underlying relationships in the source material.
+The process of extracting relationships from unstructured [[concepts/text|text]] typically involves [[concepts/nlp|natural language processing]] techniques to identify entity pairs and the [[entities/nature|nature]] of their connections. Tools like [[entities/langchain|Langchain]] combined with [[concepts/graph-databases|graph databases]] such as [[entities/neo4j|Neo4j]] provide practical implementations for this task, allowing developers to programmatically parse documents and construct graph structures that reflect the underlying relationships in the source material.
 
 ## RAG Architectures
 
-Relationships play a critical role in distinguishing different retrieval-augmented generation (RAG) approaches. Light RAG implementations may rely on simpler relationship patterns for efficiency, while [[concepts/entity-relation-graphs|Graph RAG]] architectures leverage richer relationship structures to enable more sophisticated traversal and [[concepts/reasoning|reasoning]] over knowledge graphs. The choice of how relationships are represented and queried directly impacts the quality and relevance of information retrieved to support agent decision-making and [[concepts/response-generation|response generation]].
-
+Relationships play a critical role in distinguishing different [[concepts/answer-generation|retrieval-augmented generation]] (RAG) approaches. [[concepts/light-rag|Light RAG]] implementations may rely on simpler relationship patterns for efficiency, while [[concepts/entity-relation-graphs|Graph RAG]] architectures leverage richer relationship structures to enable more sophisticated traversal and [[concepts/reasoning|reasoning]] over knowledge graphs. The choice of how relationships are represented and queried directly impacts the quality and relevance of information retrieved to support [[entities/agent|agent]] [[concepts/decision-making|decision-making]] and [[concepts/response-generation|response generation]].
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

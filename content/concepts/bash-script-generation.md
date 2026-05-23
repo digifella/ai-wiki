@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "bash"
-  - "automation"
-  - "claude-code"
-  - "scripting"
-  - "cli"
-  - "bash-scripting"
-  - "llm-agents"
-  - "workflow-automation"
-  - "system-administration"
-  - "cli-development"
-aliases:
-  - "automated-bash-generation"
-  - "agentic-scripting"
-summary: "The automated production of Bash scripts for system administration and workflow automation using LLM-driven agents."
-updated: 2026-04-20
+summary: The automated production of Bash scripts for system administration and workflow automation using LLM-driven agents.
+updated: 2026-05-23
 group: multimodal-generative-media
 ---
 # Bash script generation
@@ -30,7 +16,6 @@ Recent updates (versions 1.0.57 through 1.0.71) improve the [[concepts/cli]] [[c
 
 ---
 Backlink: 2026 04 14 New [[concepts/ai-assisted-coding|Claude Code]] features
-
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

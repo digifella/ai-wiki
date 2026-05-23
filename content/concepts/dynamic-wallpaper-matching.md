@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "android-16"
   - "pixel-9-pro-xl"
@@ -12,11 +11,12 @@ aliases:
   - "Android 16 Wallpaper Features"
   - "Pixel Dynamic Wallpaper"
 summary: The stable release of Android 16 introduces new features and design tweaks for the Pixel 9 Pro XL.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # Dynamic Wallpaper Matching
 
-Dynamic Wallpaper Matching is a feature introduced in [[entities/android|Android]] 16 that intelligently adjusts device wallpapers and visual elements based on user preferences and system settings. The feature is part of a broader suite of design refinements that accompanied the stable release of Android 16 in 2025, alongside the [[entities/june-2025-pixel-drop|June 2025 Pixel Drop]].
+Dynamic Wallpaper Matching is a feature introduced in [[entities/android|Android]] 16 that intelligently adjusts device wallpapers and visual elements based on user preferences and system settings. The feature is part of a broader suite of [[concepts/design|design]] refinements that accompanied the stable release of [[entities/android-16|Android 16]] in 2025, alongside the [[entities/june-2025-pixel-drop|June 2025 Pixel Drop]].
 
 ## Implementation on Pixel Devices
 

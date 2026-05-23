@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "computational-complexity"
   - "np-completeness"
@@ -12,11 +11,12 @@ aliases:
   - "NP-hard problems"
   - "NP-hardness"
 summary: A classification for computational problems at least as hard as the hardest problems in NP, with no known polynomial-time algorithms.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # NP-Hard
 
-NP-hard is a classification in [[concepts/complexity-classes|computational complexity]] [[concepts/theory|theory]] that describes problems that are at least as difficult as the hardest problems in the complexity class NP (nondeterministic polynomial time). A problem is NP-hard if every problem in NP can be reduced to it in polynomial time. This means that if an efficient (polynomial-time) algorithm were found for any NP-hard problem, it could be adapted to solve all problems in NP efficiently.
+NP-hard is a classification in [[concepts/complexity-classes|computational complexity]] [[concepts/theory|theory]] that describes problems that are [[concepts/assistive-technology|at]] least as difficult as the hardest problems in the complexity class NP (nondeterministic polynomial time). A problem is NP-hard if every problem in NP can be reduced to it in polynomial time. This means that if an efficient (polynomial-time) algorithm were found for any NP-hard problem, it could be adapted to solve all problems in NP efficiently.
 
 ## Characteristics and Significance
 
@@ -24,8 +24,7 @@ NP-hard problems are notable for having no known polynomial-time algorithms desp
 
 ## Relationship to P vs NP
 
-The NP-hard classification is central to the [[concepts/a-video-titled-p-vs-np|P versus NP]] problem, one of the most significant open questions in computer science and [[concepts/mathematics|mathematics]]. If P were equal to NP, then all NP-hard problems would be solvable in polynomial time. However, the prevailing conjecture is that P ≠ NP, meaning NP-hard problems are inherently difficult and no efficient general algorithm exists for solving them. This distinction has important implications for cryptography, where the difficulty of NP-hard problems underpins many security systems.
-
+The NP-hard classification is central to the [[concepts/a-video-titled-p-vs-np|P versus NP]] problem, one of the most significant open questions in computer [[concepts/science|science]] and [[concepts/mathematics|mathematics]]. If P were equal to NP, then all NP-hard problems would be solvable in polynomial time. However, the prevailing conjecture is that P ≠ NP, meaning NP-hard problems are inherently difficult and no efficient general algorithm exists for solving them. This distinction has important implications for cryptography, where the difficulty of NP-hard problems underpins many [[concepts/security|security]] systems.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-10: [[lab-notes/2026-04-10-Google-NotebookLMs-Latest-Features-Enhanced-Infographics-AI-Videos|Google NotebookLMs Latest Features Enhanced Infographics AI Videos]] · [▶ source](https://www.youtube.com/watch?v=E71M74FIDHc)

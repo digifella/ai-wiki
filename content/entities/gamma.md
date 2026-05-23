@@ -1,13 +1,8 @@
 ---
 type: entity
-tags:
-  - "AI"
-  - "productivity"
-  - "presentation-tools"
-  - "automated-design"
-  - "slide-generation"
-summary: "An AI-powered tool designed for rapid presentation generation focusing on visual structure."
-updated: 2026-04-21
+summary: An AI-powered tool designed for rapid presentation generation focusing on visual structure.
+updated: 2026-05-23
+stub: true
 ---
 # Gamma
 
@@ -22,8 +17,7 @@ An AI-powered tool designed for rapid [[concepts/presentation-generation|Present
 - Primarily focused on visual [[concepts/structure|structure]] rather than deep analytical synthesis.
 
 ### Related Notes
-- [[concepts/date-2026-04-13|2026]] 04 14 Make compelling presentations with Ai [[entities/jeff-su|Jeff Su]]
-
+- [[concepts/date-2026-04-13|2026]] 04 14 [[entities/make|Make]] compelling presentations with Ai [[entities/jeff-su|Jeff Su]]
 ## Source Notes
 
 - 2026-04-12: [[lab-notes/2026-04-12-First-Historic-Transportation-of-Antimatter-by-Truck-Using-CERNs-Penni|First Historic Transportation of Antimatter by Truck Using CERNs Penni]] · [▶ source](https://www.youtube.com/watch?v=rnE5GeKfnaE)

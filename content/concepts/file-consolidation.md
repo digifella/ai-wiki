@@ -13,8 +13,8 @@ tags:
 aliases:
   - "file merging"
   - "data centralization"
-summary: "File consolidation is the process of organizing and merging multiple files or data sources into a single, unified system for easier management and access."
-updated: 2026-04-28
+summary: File consolidation is the process of organizing and merging multiple files or data sources into a single, unified system for easier management and access.
+updated: 2026-05-23
 group: enterprise-strategy-future-work
 ---
 # File Consolidation

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "input-tagging"
@@ -13,7 +12,8 @@ aliases:
   - "prompt tagging"
   - "input classification"
 summary: Method for tagging and categorizing inputs within the OpenClaw architecture framework.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Input Tagging
 
@@ -25,7 +25,6 @@ Within [[concepts/automated-information-pipelines|OpenClaw]], input tagging oper
 
 ## Use Cases
 
-Tagged inputs enable more efficient resource allocation and processing workflows. Systems can prioritize, route, or batch inputs based on their assigned tags, reducing processing overhead and improving overall system efficiency. This categorization approach is particularly valuable in scenarios where OpenClaw deployments handle heterogeneous input types requiring different handling procedures.
-
+Tagged inputs enable more efficient resource allocation and processing workflows. Systems can prioritize, route, or batch inputs based on their assigned tags, reducing processing overhead and improving overall system efficiency. This categorization approach is particularly valuable in [[concepts/scenarios|scenarios]] where [[concepts/conversational-chatbots|OpenClaw]] deployments handle heterogeneous input types requiring different handling procedures.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

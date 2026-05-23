@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: entertainment-games
-updated: 2026-04-14
+updated: 2026-05-23
 group: books-storytelling-media-culture
 ---
 - "ebooks"
@@ -17,13 +17,13 @@ Electronic books (e-books) are digital publications readable on devices like tab
 
 ## Key Characteristics
 - **Formats**: EPUB, PDF, MOBI, AZW
-- **[[concepts/distribution|Distribution]]**: Digital stores (Amazon Kindle, Apple Books), institutional libraries
-- **Advantages**: Searchable text, adjustable font sizes, reduced physical [[entities/storage|storage]]
+- **[[concepts/distribution|Distribution]]**: Digital stores ([[entities/amazon|Amazon]] Kindle, [[entities/apple|Apple]] Books), institutional libraries
+- **Advantages**: Searchable [[concepts/text|text]], adjustable font sizes, reduced physical [[entities/storage|storage]]
 
 ## Applications
 - **Education**: Interactive textbooks with embedded multimedia
 - **Publishing**: Lower production/[[concepts/distribution|distribution]] costs
-- **[[concepts/ai-integration|AI Integration]]**: Serving as structured [[concepts/knowledge-bases|knowledge bases]] for RAG (Retrieval-Augmented Generation) systems
+- **[[concepts/ai-integration|AI Integration]]**: Serving as structured [[concepts/knowledge-bases|knowledge bases]] for RAG ([[concepts/answer-generation|Retrieval-Augmented Generation]]) systems
 
 ## Related Technologies
 - [[concepts/azure-ai]]: Cloud platform for building AI solutions
@@ -32,8 +32,7 @@ Electronic books (e-books) are digital publications readable on devices like tab
 - E-book formats: Technical [[concepts/open-standards|standards]] for digital book delivery
 
 ## Recent Integration
-- Build an [[concepts/agentic-rag|agentic rag]] system in [[concepts/azure-ai|azure ai]] and [[concepts/foundry|foundry]]: [[concepts/tutorial|Tutorial]] for creating an [[concepts/ai-agent|AI Agent]] using [[concepts/agentic-rag-systems|Agentic RAG]] in Microsoft Azure based on a guide from the [[concepts/azure-innovation-station|Azure Innovation Station]] channel
-
+- Build an [[concepts/agentic-rag|agentic rag]] system in [[concepts/azure-ai|azure ai]] and [[concepts/foundry|foundry]]: [[concepts/tutorial|Tutorial]] for creating an [[concepts/ai-agent|AI Agent]] using [[concepts/agentic-rag-systems|Agentic RAG]] in [[entities/microsoft|Microsoft]] Azure based on a guide from the [[concepts/azure-innovation-station|Azure Innovation Station]] channel
 ## Source Notes
 - 2026-04-26: [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]] · [▶ source](https://www.notion.so/GPT-Image-2-JSON-Prompting-Workflow-and-Storyboard-Method-34a606421d128009acc7c617695ac68e)
 - 2026-04-27: Google Gemma · [▶ source](https://www.youtube.com/watch?v=yJr_kTCOkFo)

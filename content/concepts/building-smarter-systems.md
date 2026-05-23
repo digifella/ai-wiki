@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: architecture-cities-heritage
 tags:
   - "gpt-5"
   - "microsoft-copilot"
@@ -14,20 +13,20 @@ aliases:
   - "Copilot Studio Systems"
   - "RAG Architecture"
 summary: The text discusses the integration of GPT-5 into Microsoft 365 Copilot and Copilot Studio.
-updated: 2026-05-01
+updated: 2026-05-23
+group: architecture-cities-heritage
 ---
 # Building Smarter Systems
 
-Building Smarter Systems refers to the integration of advanced language models, specifically GPT-5, into enterprise productivity platforms. This development represents a significant step in embedding [[concepts/ai-technologies|artificial intelligence]] capabilities into widely-used business tools, enabling organizations to automate and enhance routine tasks across their technology ecosystems.
+Building Smarter Systems refers to the [[concepts/integration|integration]] of advanced language [[concepts/models|models]] into enterprise productivity platforms, with a focus on embedding [[concepts/ai-technologies|artificial intelligence]] capabilities into widely-used business tools. This approach aims to enable organizations to automate and enhance routine tasks across their technology ecosystems by leveraging AI-assisted functionality integrated directly into familiar [[concepts/software|applications]].
 
-## Integration with Microsoft 365 Copilot
+## Microsoft 365 Copilot Integration
 
-The [[concepts/deployment|deployment]] of GPT-5 through Microsoft 365 Copilot extends AI assistance across Microsoft's suite of productivity [[concepts/software|applications]]. This integration allows users to access [[concepts/statistical-language-modeling|language model]] capabilities within familiar office environments, streamlining workflows and reducing the need to switch between [[concepts/specialized-tools|specialized tools]]. [[entities/copilot-studio|Copilot Studio]] provides a framework for customizing and deploying these intelligent systems within organizational contexts.
+The [[concepts/deployment|deployment]] of language models through [[concepts/microsoft-applications|Microsoft 365 Copilot]] extends AI assistance across Microsoft's suite of productivity applications, including Word, [[entities/excel|Excel]], PowerPoint, and Outlook. This integration allows users to access [[concepts/capabilities|AI capabilities]] within their existing workflows, reducing the need to switch between separate tools or platforms. The embedding of these capabilities into established enterprise software represents a shift toward making AI assistance a standard feature of business productivity rather than an auxiliary service.
 
-## Retrieval-Augmented Generation Systems
+## Copilot Studio
 
-Related approaches to building smarter systems emphasize Retrieval-Augmented Generation (RAG), which combines language models with [[concepts/external-knowledge|external knowledge]] sources. These systems improve [[concepts/accuracy|accuracy]] and relevance by allowing [[concepts/ai-models|AI models]] to access and reference specific organizational data, making them more practical for enterprise applications where domain-specific information is critical.
-
+[[entities/copilot-studio|Copilot Studio]] provides organizations with tools to customize and build AI-assisted experiences tailored to their specific business needs. This platform allows enterprises to create specialized versions of copilots adapted to their internal processes and data, extending the concept of building smarter systems beyond general-[[concepts/motivation|purpose]] [[concepts/productivity-tools|productivity tools]] to domain-specific applications within individual organizations.
 ## Source Notes
 - 2026-04-07: Karpathy
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

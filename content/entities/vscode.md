@@ -11,16 +11,16 @@ aliases:
   - "Visual Studio Code"
   - "VS Code"
 summary: This page is a stub for VS Code.
-updated: 2026-05-01
+updated: 2026-05-23
 title: VS Code
 ---
 # Vscode
 
-VS Code (Visual Studio Code) is a free, [[concepts/open-source|open-source]] code editor developed by Microsoft. Released in 2015, it has become one of the most widely used text editors for [[concepts/coding|software development]] across multiple programming languages and platforms. The application is built on Electron and runs on [[entities/windows|Windows]], macOS, and Linux.
+VS [[concepts/code|Code]] ([[entities/vs-code|Visual Studio Code]]) is a free, [[concepts/open-source|open-source]] code editor developed by [[entities/microsoft|Microsoft]]. Released in 2015, it has become one of the most widely used [[concepts/text|text]] editors for [[concepts/coding|software development]] across multiple programming languages and platforms. The application is built on Electron and runs on [[entities/windows|Windows]], [[entities/macos|macOS]], and [[entities/linux|Linux]].
 
 ## Core Features
 
-VS Code provides built-in support for [[concepts/debugging|debugging]], syntax highlighting, and intelligent code completion through IntelliSense. The editor includes an integrated terminal, Git integration, and a command palette for quick access to functionality. Its lightweight design allows it to run efficiently even on modest [[concepts/hardware|hardware]], distinguishing it from heavier integrated [[concepts/developer-platforms|development environments]] (IDEs).
+VS Code provides built-in support for [[concepts/debugging|debugging]], syntax highlighting, and intelligent code completion through IntelliSense. The editor includes an integrated terminal, [[entities/git|Git]] [[concepts/integration|integration]], and a command palette for quick access to functionality. Its lightweight [[concepts/design|design]] allows it to run efficiently even on modest [[concepts/hardware|hardware]], distinguishing it from heavier integrated [[concepts/developer-platforms|development environments]] (IDEs).
 
 ## Extensibility
 

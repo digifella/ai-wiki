@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "license"
-  - "open-source"
-  - "llm"
-  - "mit-license"
-  - "permissive-license"
-  - "free-software"
-  - "no-warranty"
-  - "simplified-terms"
-summary: "The MIT License is a permissive free software license originating from MIT that permits use, modification, and distribution of software without warranty or liability."
-updated: 2026-04-14
+summary: The MIT License is a permissive free software license originating from MIT that permits use, modification, and distribution of software without warranty or liability.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # MIT License Overview
@@ -24,19 +15,18 @@ The [[entities/mit-license|MIT License]] is a permissive [[concepts/photo-editin
 - **No Warranty or Liability:** The license does not provide any warranties or take liability for the use of the software.
 
 ### Integration
-[[entities/minimax|MiniMax]] M2.7 [[entities/llamacpp|Open Source LLM]]: [[concepts/technical-overview|Technical Overview]] and [[concepts/deployment|Deployment]] Summary (April 12, 2026)
-- Highlights [[entities/m27|MiniMax M2.7]]'s scale with 229 billion [[concepts/parameters|parameters]].
-- Details its unique self-evolutionary development process.
+[[entities/minimax|MiniMax]] M2.7 [[entities/llamacpp|Open Source LLM]]: [[concepts/technical-overview|Technical Overview]] and [[concepts/deployment|Deployment]] [[concepts/summary|Summary]] (April 12, 2026)
+- [[concepts/highlights|Highlights]] [[entities/m27|MiniMax M2.7]]'s scale with 229 billion [[concepts/parameters|parameters]].
+- Details its unique [[concepts/self-evolutionary-development|self-evolutionary development]] process.
 - Operates under a modified [[concepts/modified-conceptsmit-licensemit-license|MIT license]].
-- Utilizes a Mixture-of-Experts (MoE) [[concepts/architecture|architecture]].
+- Utilizes a [[concepts/mixture-of-experts|Mixture-of-Experts]] (MoE) [[concepts/architecture|architecture]].
 
 ### Related Concepts
-- Mixture-of-Experts (MoE) [[concepts/architecture|Architecture]]
-- [[entities/mit|MIT]] License Modifications
+- [[concepts/mixture-of-experts|Mixture-of-Experts]] (MoE) [[concepts/architecture|Architecture]]
+- [[entities/mit|MIT]] [[concepts/license|License]] Modifications
 - [[concepts/open-source|Open Source]] LLMs
 
-2026 04 12 [[concepts/minimax-m27|MiniMax M27]] Open Source LLM Technical Overview and Deployment Summary
-
+2026 04 12 [[concepts/minimax-m27|MiniMax M27]] [[concepts/open-source|Open Source]] LLM [[concepts/technical-overview|Technical Overview]] and [[concepts/deployment|Deployment]] [[concepts/summary|Summary]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Advanced-Open-Source-AI-Models-for-Efficient-Edge|Google Gemma 4 Advanced Open Source AI Models for Efficient Edge]] · [▶ source](https://www.youtube.com/watch?v=BrJdGP21B5g)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

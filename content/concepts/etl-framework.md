@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "etl"
   - "knowledge-graphs"
@@ -13,11 +12,12 @@ aliases:
   - "Cocoindex Framework"
   - "Real-time Knowledge Graph Framework"
 summary: A framework for building real-time knowledge graphs from documents using LLMs, Cocoindex, and Neo4j.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # ETL Framework
 
-An ETL (Extract, Transform, Load) Framework is a systematic approach to building real-time [[concepts/knowledge-graphs|knowledge graphs]] from unstructured document collections. The framework leverages [[concepts/large-language-model-llm|Large Language Models]] (LLMs) to process and extract meaningful information from documents, transforming raw data into structured graph representations that can be stored and queried in [[concepts/graph-databases|graph databases]] like Neo4j.
+An [[concepts/etl|ETL]] (Extract, Transform, Load) Framework is a systematic approach to building real-time [[concepts/knowledge-graphs|knowledge graphs]] from unstructured document collections. The framework leverages [[concepts/large-language-model-llm|Large Language Models]] (LLMs) to process and extract meaningful information from documents, transforming raw data into structured graph representations that can be stored and queried in [[concepts/graph-databases|graph databases]] like [[entities/neo4j|Neo4j]].
 
 ## Core Components
 
@@ -25,8 +25,7 @@ The framework typically integrates three main technologies. LLMs serve as the in
 
 ## Real-Time Processing
 
-A key characteristic of this framework is its ability to process documents in real-time or near-real-time, updating the knowledge graph as new information becomes available. This capability makes it particularly suited for [[concepts/software|applications]] requiring current knowledge representation, such as retrieval-augmented generation (RAG) systems that depend on up-to-date information for LLM contexts.
-
+A key characteristic of this framework is its ability to process documents in real-time or near-real-time, updating the [[concepts/vector-store|knowledge graph]] as new information becomes available. This capability makes it particularly suited for [[concepts/software|applications]] requiring current knowledge representation, such as [[concepts/answer-generation|retrieval-augmented generation]] (RAG) systems that depend on up-to-date information for LLM contexts.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

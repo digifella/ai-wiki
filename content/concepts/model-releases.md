@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "model-releases"
-  - "ai"
-  - "model-release-trends"
-updated: 2026-04-15
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 # Model releases
@@ -13,10 +9,9 @@ group: open-systems-local-models
 The process of making [[concepts/ai-models|AI models]] publicly available for use, often accompanied by documentation, [[concepts/licensing|licensing]], and access [[concepts/policies|policies]].
 
 Key developments:
-- Panel discussion "IBM [[entities/mixture-of-experts|Mixture of Experts]]" (2026-04-14) highlights surge in major model releases at year-end, debates validity of AI [[concepts/scaling|scaling]] laws, analyzes [[concepts/agent-wars|Agent Wars]] implications, and examines [[entities/amazon]]'s blocking of [[entities/chatgpt]]'s shopping agent.
+- Panel discussion "[[entities/ibm|IBM]] [[entities/mixture-of-experts|Mixture of Experts]]" (2026-04-14) [[concepts/highlights|highlights]] surge in major model releases [[concepts/assistive-technology|at]] year-end, debates validity of AI [[concepts/scaling|scaling]] laws, analyzes [[concepts/agent-wars|Agent Wars]] implications, and examines [[entities/amazon]]'s blocking of [[entities/chatgpt]]'s shopping [[entities/agent|agent]].
 
 Backlink: 2026 04 14 IBM [[concepts/mixture-of-experts|Mixture of Experts]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: IBM Mixture of Experts

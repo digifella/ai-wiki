@@ -1,12 +1,7 @@
 ---
 type: entity
-tags:
-  - "mathematician"
-  - "mathematics"
-  - "numberphile"
-  - "mathematics-communication"
-summary: "James Grime is a mathematician and author known for explaining mathematical concepts on Numberphile."
-updated: 2026-04-21
+summary: James Grime is a mathematician and author known for explaining mathematical concepts on Numberphile.
+updated: 2026-05-23
 ---
 # James Grime
 
@@ -18,14 +13,14 @@ updated: 2026-04-21
 
 ### Notable Works
 - **Pi: 39 Digits for Universe Measurement, Trillions for [[concepts/computational-testing|Computational Testing]]**
-    - **Clip title:** Pi and the size of the Universe - Numberphile
+    - **[[concepts/clip-title|Clip title]]:** Pi and the size of the Universe - Numberphile
     - **Author / channel:** Numberphile
     - **URL:** https://www.youtube.com/watch?v=FpyrF_Ci2TQ
 
 ### Summary
 - Explores the practical [[concepts/accuracy|accuracy]] of Pi.
 - Discusses historical and modern reasons for calculating Pi to vast [[concepts/decimal-places|decimal places]].
-- Highlights that only [[concepts/only-39-digits-of-pi-are-necessary-to-measure-the-circumference-of-the|39 digits of Pi]] are necessary to measure the [[concepts/circumference|circumference]] of the [[concepts/observable-universe|observable universe]] with extreme precision.
+- [[concepts/highlights|Highlights]] that only [[concepts/only-39-digits-of-pi-are-necessary-to-measure-the-circumference-of-the|39 digits of Pi]] are necessary to measure the [[concepts/circumference|circumference]] of the [[concepts/observable-universe|observable universe]] with extreme precision.
 
 ## Related Concepts
 - Pi
@@ -34,7 +29,6 @@ updated: 2026-04-21
 
 ### Backlinks
 [[concepts/date-2026-04-13|2026]] 04 13 Pi 39 Digits for Universe Measurement Trillions for Computational Test
-
 ## Source Notes
 
 - 2026-04-13: [[lab-notes/2026-04-13-Pi-39-Digits-for-Universe-Measurement-Trillions-for-Computational-Test|Pi 39 Digits for Universe Measurement Trillions for Computational Test]] · [▶ source](https://www.youtube.com/watch?v=FpyrF_Ci2TQ)

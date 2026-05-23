@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "titanic-wreck"
   - "us-navy"
@@ -12,7 +11,8 @@ aliases:
   - "Titanic Accidental Discovery"
   - "Navy Submarine Search"
 summary: The US Navy accidentally discovered the Titanic while conducting a mission to locate lost submarines.
-updated: 2026-05-01
+updated: 2026-05-23
+group: life-systems-adaptation-discovery
 ---
 # Wreck Discovery
 
@@ -24,7 +24,6 @@ The dual-[[concepts/motivation|purpose]] [[entities/nature|nature]] of the exped
 
 ## The Discovery
 
-Using deep-sea exploration technology including remotely operated vehicles (ROVs), Ballard's team located the Titanic at a depth of approximately 3,800 meters. The wreck was found roughly 400 miles off the coast of Newfoundland. The successful discovery demonstrated advances in underwater exploration technology and provided the first detailed visual documentation of the ship's condition on the ocean floor, revealing that the vessel had broken into two main sections.
-
+Using deep-sea exploration technology including remotely operated vehicles (ROVs), Ballard's team located the Titanic [[concepts/assistive-technology|at]] a depth of approximately 3,800 meters. The wreck was found roughly 400 miles off the coast of Newfoundland. The successful discovery demonstrated advances in underwater exploration technology and provided the first detailed visual documentation of the ship's condition on the ocean floor, revealing that the vessel had broken into two main sections.
 ## Source Notes
 - 2026-04-15: [[lab-notes/2026-04-15-Secret-US-Navy-Missions-Accidental-Titanic-Discovery-While-Locating-Lo|Secret US Navy Missions Accidental Titanic Discovery While Locating Lo]] · [▶ source](https://www.youtube.com/watch?v=wQSKXTFpJgQ)

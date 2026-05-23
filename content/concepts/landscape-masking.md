@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "post-processing"
-  - "masking"
-  - "lightroom"
-  - "landscape-photography"
-  - "image-editing"
-  - "adobe-lightroom"
-  - "localized-adjustments"
-  - "masking-techniques"
-aliases:
-  - "landscape-masking-techniques"
-  - "lightroom-masking"
-summary: "Techniques for applying localized adjustments to specific elements within landscape photography using Adobe Lightroom and Camera Raw."
-updated: 2026-04-17
+summary: Techniques for applying localized adjustments to specific elements within landscape photography using Adobe Lightroom and Camera Raw.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Landscape masking
@@ -23,15 +10,14 @@ group: lightroom-color-workflows
 Techniques for applying localized [[concepts/adjustments|adjustments]] to specific elements within [[concepts/landscape-photography|landscape photography]] to enhance depth and detail.
 
 ## Software Availability
-- The "Landscape" [[concepts/layer-masks|masking]] feature is available within Adobe [[entities/lightroom-classic|Lightroom Classic]], [[entities/lightroom-cc|Lightroom CC]], and [[concepts/camera-raw|Camera Raw]].
+- The "Landscape" [[concepts/layer-masks|masking]] feature is available within [[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]], [[entities/lightroom-cc|Lightroom CC]], and [[concepts/camera-raw|Camera Raw]].
 
 ## Workflow Fundamentals
 - **Initial [[concepts/image-preparation|Image Preparation]]**:
 	- Perform [[concepts/straightening|Straightening]].
-	- Execute global adjustments via the Basic panel, specifically targeting [[concepts/exposure|Exposure]], Highlights, [[concepts/shadows|Shadows]], [[concepts/whites|Whites]], and [[concepts/blacks|Blacks]].
+	- Execute global adjustments via the Basic panel, specifically targeting [[concepts/exposure|Exposure]], [[concepts/highlights|Highlights]], [[concepts/shadows|Shadows]], [[concepts/whites|Whites]], and [[concepts/blacks|Blacks]].
 
-2026 04 14 Landscape processing in Lightroom Classic [[entities/anthony-morganti|Anthony Morganti]]
-
+2026 04 14 Landscape processing in [[concepts/lightroom|Lightroom]] Classic [[entities/anthony-morganti|Anthony Morganti]]
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

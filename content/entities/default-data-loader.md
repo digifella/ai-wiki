@@ -10,8 +10,8 @@ tags:
   - "data-ingestion"
 aliases:
   - "Data Loader"
-summary: "The Default Data Loader manages data ingestion, chunking, and vectorization for RAG applications through integrations with n8n and vector databases."
-updated: 2026-04-28
+summary: The Default Data Loader manages data ingestion, chunking, and vectorization for RAG applications through integrations with n8n and vector databases.
+updated: 2026-05-23
 ---
 # Default Data Loader
 
@@ -28,11 +28,11 @@ The Default Data Loader is responsible for loading and [[concepts/data-preproces
   - Demonstrated in [Channel the AI Automators. Improving RAG](https://www.youtube.com/watch?v=_TkcK2g36-E)
   - Key points:
     1. **Core Problem**: Inefficient chunking of documents leading to suboptimal vector [[entities/storage|storage]]
-    2. **[[concepts/solution|Solution]]**: Optimized [[concepts/chunking-strategies|chunking strategies]] for better retrieval performance
-    3. **Implementation**: [[concepts/integration|Integration]] with [[entities/n8n]] for automated workflows
+    2. **[[concepts/solution|Solution]]**: Optimized [[concepts/chunking-strategies|chunking strategies]] for better [[concepts/retrieval-performance|retrieval performance]]
+    3. **[[concepts/adoption|Implementation]]**: [[concepts/integration|Integration]] with [[entities/n8n]] for automated workflows
 
 ## Related Concepts
-- Retrieval Augmented Generation
+- [[concepts/information-provision|Retrieval Augmented Generation]]
 - [[concepts/vector-databases]]
 - [[entities/n8n]]
 

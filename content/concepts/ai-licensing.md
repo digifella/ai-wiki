@@ -12,19 +12,23 @@ aliases:
   - "AI Model Licensing"
   - "Open-Weights Models"
 summary: Examination of licensing approaches for open-weights AI models from providers including OpenAI and Google.
-updated: 2026-05-01
+updated: 2026-05-24
 ---
 # AI Licensing
 
-AI licensing refers to the legal frameworks governing the [[concepts/distribution|distribution]] and use of [[concepts/artificial-intelligence-models|artificial intelligence models]], establishing rules around access, modification, and commercial [[concepts/deployment|deployment]]. These frameworks have become increasingly important as [[concepts/ai-development|AI development]] has diversified between proprietary models controlled by single companies and open-weights models where underlying [[concepts/parameters|parameters]] are publicly available. The distinction between these approaches creates fundamentally different [[concepts/licensing|licensing]] needs, as open-weights models require mechanisms to govern community use and redistribution while protecting [[concepts/developer|developer]] interests.
+AI licensing refers to the legal frameworks that govern how artificial intelligence models can be distributed, modified, and deployed. These licenses establish the terms under which developers and organizations may access model weights, source code, and documentation, as well as restrictions on commercial use, redistribution, and derivative works. As AI development has split between proprietary closed models and open-weights models, licensing has become a critical mechanism for defining the boundaries between these approaches.
 
-## Proprietary and Open-Weights Models
+## Open-Weights Model Licensing
 
-Major AI providers employ different licensing strategies based on their distribution model. Proprietary models, such as those offered by [[entities/openai|OpenAI]] through API access, typically use terms-of-service agreements that restrict how users can deploy and modify the system. Open-weights models, including those released by [[concepts/google-search|Google]] and Meta, make trained [[concepts/active-parameters|model parameters]] publicly available but still impose licensing conditions through frameworks like Creative Commons licenses or custom agreements that specify permissible uses, attribution requirements, and commercial restrictions.
+Open-weights models, released by providers including Meta (Llama), Google (Gemma), and others, typically employ existing open-source licenses or custom license variants. Common approaches include modified versions of the Apache 2.0 or Creative Commons licenses, though many providers have introduced custom restrictions around acceptable use cases, minimum performance requirements for redistribution, or prohibitions on competing with the licensor's commercial offerings. These custom licenses attempt to balance open access with protection of the model provider's commercial interests.
 
-## Key Licensing Considerations
+## Proprietary Model Approaches
 
-AI licensing addresses several core concerns: whether models can be used commercially, whether derivatives can be created and redistributed, what attribution or acknowledgment is required, and whether use is restricted by sector or application type. Some licenses prohibit military or surveillance [[concepts/software|applications]], while others impose share-alike provisions requiring derivative works to use the same [[concepts/license|license]]. The enforceability and interpretation of these terms remain areas of active legal and technical discussion, particularly as questions arise about copyright in [[concepts/training-data|training data]] and the legal status of fine-tuned models.
+Closed proprietary models from organizations like OpenAI and Google generally rely on terms of service rather than traditional software licenses. Access is typically restricted to API calls or cloud-based interfaces, with usage governed by commercial licensing agreements. These arrangements allow providers to maintain tight control over model deployment while monetizing access through usage-based pricing or subscription models.
+
+## Ongoing Tensions
+
+The landscape remains unsettled, with significant debate about whether custom restrictions on open-weights models align with open-source principles, how liability is allocated between model providers and downstream users, and whether licensing frameworks adequately address concerns around bias, safety, and responsible deployment. Regulators have begun examining whether AI licensing practices constitute adequate consumer protection or whether additional governance frameworks are necessary.
 
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Open-Weight-Models-Apache-20-and-Enhanced-AI|Google Gemma 4 Open Weight Models Apache 20 and Enhanced AI]] · [▶ source](https://www.youtube.com/watch?v=5aqF1HVpjdc)

@@ -8,11 +8,11 @@ tags:
 aliases:
   - "Andy C. Murphy"
 summary: Author with a Medium publication at andycmurphy1.medium.com.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Andy Murphy
 
-Andy Murphy is an author who maintains a publication on [[entities/medium|Medium]] at andycmurphy1.medium.com. His [[concepts/writing|writing]] is accessible through the Medium platform, where he publishes articles on various topics.
+[[entities/andy-cooks|Andy]] Murphy is an author who maintains a publication on [[entities/medium|Medium]] [[concepts/assistive-technology|at]] andycmurphy1.medium.com. His [[concepts/writing|writing]] is accessible through the Medium platform, where he publishes articles on various topics.
 
 ## Publishing Activity
 

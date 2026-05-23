@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "local-llm"
-  - "ai"
-  - "ollama"
-updated: 2026-04-14
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 # Local LLM Execution
@@ -15,23 +11,22 @@ group: open-systems-local-models
 ## Key Features
 - **[[concepts/privacy|Privacy]]**: No data sent to external servers
 - **Offline access**: Full functionality without internet
-- **[[concepts/personalization|Customization]]**: Create and modify models locally
+- **[[concepts/personalization|Customization]]**: Create and modify [[concepts/models|models]] locally
 - **Low latency**: Direct [[concepts/hardware|hardware]] interaction
 
 ## Recent Updates
 ### Ollama GUI Interface (2026-04-14)
 - [[entities/ollama|Ollama]]'s new [[concepts/chat-application|chat application]] (demonstrated in [Leon Van Zyl's video](https://youtu.be/8amsyT4NUrM)):
-  - Simplifies local LLM interaction via GUI
+  - Simplifies [[concepts/local-llm|local LLM]] interaction via GUI
   - Enables direct model running and [[concepts/ai-workflow|customization]]
   - Supports [[concepts/custom-model-creation|custom model creation]] [[concepts/workflow|workflow]]
 
 ### Anthropic API Compatibility (2026-04-14)
-- [[entities/ollama|Ollama]] now supports Anthropic API compatibility, enabling [[concepts/local-execution|local execution]] of [[entities/claude-code|Claude Code]] using models like [[entities/glm-47-flash|GLM-4.7-Flash]] (30B MoE) (Source: [Sam Witteveen](https://www.youtube.com/watch?v=NA5U06WuO34)).
+- [[entities/ollama|Ollama]] now supports [[concepts/anthropic-api-compatibility|Anthropic API compatibility]], enabling [[concepts/local-execution|local execution]] of [[entities/claude-code|Claude Code]] using models like [[entities/glm-47-flash|GLM-4.7-Flash]] (30B MoE) (Source: [Sam Witteveen](https://www.youtube.com/watch?v=NA5U06WuO34)).
 
 ## Backlinks
 - [[concepts/date-2026-04-13|2026]] 04 14 About the new [[entities/llama|Ollama]] [[concepts/gui-interface|gui interface]]
-- 2026 04 14 Ollama [[concepts/claude-ai|Claude]] GLM Channel [[entities/sam-witteveen|Sam Witteveen]]
-
+- 2026 04 14 [[concepts/task-specific-modeling|Ollama]] [[concepts/claude-ai|Claude]] [[entities/glm|GLM]] Channel [[entities/sam-witteveen|Sam Witteveen]]
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-10: Private AI on the go… a new trick

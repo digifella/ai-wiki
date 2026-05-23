@@ -1,19 +1,8 @@
 ---
 type: entity
-tags:
-  - "culinary-principles"
-  - "seasoning"
-  - "salt"
-  - "cooking-techniques"
-  - "culinary-techniques"
-  - "salt-management"
-  - "seasoning-methods"
-  - "home-cooking"
-aliases:
-  - "Culinary Methodology"
-  - "Salt Management Principles"
-summary: "A methodology focused on mastering culinary techniques and precise salt seasoning to improve home cooking."
-updated: 2026-04-26
+summary: A methodology focused on mastering culinary techniques and precise salt seasoning to improve home cooking.
+updated: 2026-05-23
+stub: true
 ---
 # Think Like a Chef
 
@@ -25,7 +14,6 @@ A methodology focused on mastering [[concepts/cooking-techniques|Culinary Techni
 
 ## Sources
 - 2026 04 26 [[concepts/seasoning-timing|Mastering Salt]] for Home Cooks Types Densities and Applic
-
 ## Source Notes
 
 - 2026-04-26: [[lab-notes/2026-04-26-Mastering-Salt-for-Home-Cooks-Types-Densities-and-Applic|Mastering Salt for Home Cooks: Types, Densities, and Application Techniques]] · [▶ source](https://www.youtube.com/watch?v=yqHvjNDNaKo)

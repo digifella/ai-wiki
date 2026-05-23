@@ -1,41 +1,25 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "ai"
-  - "privacy"
-  - "cost-optimization"
-  - "local-processing"
-  - "nvidia"
-  - "open-source"
-  - "gpu-inference"
-  - "hybrid-cloud"
-  - "data-privacy"
-  - "nexa-ai"
-  - "sdk"
-aliases:
-  - "On-Premise AI"
-  - "Local AI Execution"
-summary: "Local AI Processing executes AI model inference and training on user-owned hardware, reducing costs and enhancing data privacy relative to cloud-based services."
-updated: 2026-04-14
+summary: Local AI Processing executes AI model inference and training on user-owned hardware, reducing costs and enhancing data privacy relative to cloud-based services.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 [[concepts/local-ai|Local AI]] Processing involves executing AI [[concepts/inference|model inference]] and [[concepts/training|training]] on user-owned [[concepts/hardware|hardware]] rather than [[concepts/cloud-based-solutions|cloud services]], reducing costs and enhancing data [[concepts/privacy|privacy]].
 
 - Escalating [[concepts/cloud-ai|cloud AI]] costs (e.g., $10,000+/month for some users) Cloud AI Costs
 - Offloading processing to [[concepts/open-source|Open-Source]] [[concepts/ai-models|AI Models]] via local [[concepts/hardware|hardware]]
-- Leverages NVIDIA [[entities/nvidia-rtx-gpus|RTX GPUs]] (including 30-series/40-series) for efficient inference
+- Leverages [[entities/nvidia|NVIDIA]] [[entities/nvidia-rtx-gpus|RTX GPUs]] (including 30-series/40-series) for efficient inference
 - Enables [[concepts/hybrid-cloud|Hybrid Cloud]] strategy: local for [[concepts/privacy|privacy]]/cost, cloud for specialized tasks
 - Reduces data transmission to third-party servers [[concepts/ai-security]]
 - [[concepts/nexa-sdk]] ([[concepts/mlx|Nexa AI]]) provides an [[concepts/open-source]] toolkit for [[concepts/local-execution|local execution]] across NPUs, GPUs, and CPUs
-- Supports multiple model formats including GGUF and MLX for optimal performance
+- Supports multiple model formats including [[concepts/gguf|GGUF]] and MLX for optimal performance
 
 **Sources & References**
 - https://www.youtube.com/watch?v=0k_B6XCwzy8
-- 2026 04 14 Nexa AI run models locally
+- 2026 04 14 [[concepts/open-source-developer-toolkit|Nexa AI]] run [[concepts/models|models]] locally
 
 [[concepts/date-2026-04-13|2026]] 04 14 Optimizing AI Costs and Privacy with Local Open Source Models and Hybr
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

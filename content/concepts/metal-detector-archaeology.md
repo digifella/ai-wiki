@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "archaeology"
-  - "metal detecting"
-  - "cultural heritage"
-  - "Denmark"
-  - "systematic-surveys"
-  - "legal-frameworks"
-  - "public-engagement"
-  - "preservation-practices"
-aliases:
-  - "Detector Archaeology"
-summary: "Metal detector archaeology involves the systematic use of metal detector technology in archaeological contexts to locate and recover metallic artifacts, balancing public engagement with scholarly rigor."
-updated: 2026-04-15
+summary: Metal detector archaeology involves the systematic use of metal detector technology in archaeological contexts to locate and recover metallic artifacts, balancing public engagement with scholarly rigor.
+updated: 2026-05-23
 group: anthropology-ethnography
 ---
 # Metal detector archaeology
@@ -21,7 +10,7 @@ group: anthropology-ethnography
 The systematic use of metal detector technology in archaeological contexts to locate and recover metallic artifacts, balancing public engagement with scholarly rigor.
 
 ## Key aspects
-- Legal frameworks vary: Some countries restrict detector use to prevent looting (e.g., United Kingdom's Portable Antiquities Scheme), while others like Denmark have formalized [[concepts/software|programs]].
+- Legal frameworks vary: Some countries restrict detector use to prevent looting (e.g., [[entities/uk|United Kingdom]]'s Portable Antiquities Scheme), while others like Denmark have formalized [[concepts/software|programs]].
 - Requires [[concepts/training|training]] to ensure proper documentation, context recording, and artifact [[concepts/preservation|preservation]].
 - Reveals often-overlooked aspects of daily life (e.g., coins, tools, jewelry) that complement traditional excavation.
 

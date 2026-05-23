@@ -1,26 +1,13 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "medical-ai"
-  - "multimodal-learning"
-  - "computer-vision"
-  - "healthcare"
-  - "medical-imaging"
-  - "multimodal-ai"
-  - "medgemma"
-  - "radiology"
-  - "pathology"
-aliases:
-  - "medical image analysis"
-  - "multimodal medical image interpretation"
-summary: "The capability of multimodal AI to interpret and derive clinical insights from medical imagery in conjunction with clinical text and metadata."
-updated: 2026-04-19
+summary: The capability of multimodal AI to interpret and derive clinical insights from medical imagery in conjunction with clinical text and metadata.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Medical image comprehension
 
-The capability of [[concepts/multimodal-ai]] to interpret, analyze, and derive clinical insights from medical imagery (e.g., Radiology, Pathology, CT scans) in conjunction with clinical text and [[concepts/metadata|metadata]].
+The capability of [[concepts/multimodal-ai]] to interpret, analyze, and derive clinical insights from medical imagery (e.g., Radiology, Pathology, CT scans) in conjunction with clinical [[concepts/text|text]] and [[concepts/metadata|metadata]].
 
 ### Key Developments
 - **[[concepts/dermatology-images|MedGemma 27B]]**: A specialized medical AI model developed by [[entities/google]], built upon the [[concepts/gemma-3-architecture|Gemma 3 architecture]].
@@ -31,8 +18,7 @@ The capability of [[concepts/multimodal-ai]] to interpret, analyze, and derive c
 
 ---
 **Backlinks**:
-- [[concepts/date-2026-04-13|2026]] 04 14 MedGemma 27B [[entities/fahd-merza|Fahd Merza]]
-
+- [[concepts/date-2026-04-13|2026]] 04 14 [[entities/medgemma-27b|MedGemma 27B]] [[entities/fahd-merza|Fahd Merza]]
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

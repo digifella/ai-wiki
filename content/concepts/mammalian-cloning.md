@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "mammalian-cloning"
@@ -13,7 +12,8 @@ aliases:
   - "cloning in mammals"
   - "mammal cloning"
 summary: The process of creating genetically identical mammalian organisms, with research suggesting repeated serial cloning may lead to genetic deterioration.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Mammalian Cloning
 
@@ -25,7 +25,6 @@ Early mammalian cloning successes, such as the sheep Dolly in 1996, demonstrated
 
 ## Current Status
 
-While mammalian cloning remains technically possible, the technique continues to face significant challenges including low [[concepts/success-rates|success rates]], high miscarriage rates, and developmental abnormalities in surviving offspring. Research continues in controlled laboratory settings, primarily for studying cellular biology and genetic mechanisms. The practical application of cloning in [[concepts/agriculture|agriculture]] or conservation remains limited due to these complications and ongoing ethical considerations surrounding the technique.
-
+While mammalian cloning remains technically possible, the technique continues to face significant challenges including low [[concepts/success-rates|success rates]], high miscarriage rates, and developmental abnormalities in surviving offspring. Research continues in controlled laboratory settings, primarily for studying cellular biology and genetic mechanisms. The practical application of cloning in [[concepts/agriculture|agriculture]] or conservation remains limited due to these complications and ongoing [[concepts/ethical-considerations|ethical considerations]] surrounding the technique.
 ## Source Notes
 - 2026-04-10: 20 Year Long Study On Cloning Comes to a Shocking Conclusion

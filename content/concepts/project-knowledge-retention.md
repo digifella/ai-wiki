@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "claude-code"
   - "subagents"
@@ -12,11 +11,12 @@ aliases:
   - "Claude Code Subagent Architecture"
   - "Subagent-Based AI Coding"
 summary: A video from AI Labs discusses how Claude Code utilizes subagents within its workflow.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Project Knowledge Retention
 
-Project Knowledge Retention refers to the architectural pattern employed by [[concepts/ai-assisted-coding|Claude Code]], an AI-powered [[concepts/coding|coding]] agent, which delegates specialized tasks to subordinate [[concepts/agents|agents]] called [[concepts/subagents|subagents]]. Rather than operating as a monolithic system, Claude Code structures its workflow to distribute responsibilities across multiple specialized subagents, each handling distinct aspects of the coding and development process.
+Project Knowledge Retention refers to the architectural pattern employed by [[concepts/ai-assisted-coding|Claude Code]], an AI-powered [[concepts/coding|coding]] [[entities/agent|agent]], which delegates specialized tasks to subordinate [[concepts/agents|agents]] called [[concepts/subagents|subagents]]. Rather than operating as a monolithic system, [[concepts/claude-code|Claude Code]] structures its [[concepts/workflow|workflow]] to distribute responsibilities across multiple specialized subagents, each handling distinct aspects of the coding and development process.
 
 ## Subagent Architecture
 
@@ -24,4 +24,4 @@ The subagent model allows Claude Code to decompose complex development tasks int
 
 ## Workflow Integration
 
-Within the broader [[concepts/developer-workflow|Claude Code workflow]], subagents coordinate to process user requests, generate code, validate outputs, and manage project-related tasks. This distributed approach enhances the system's capability to handle complex software development [[concepts/scenarios|scenarios]] by leveraging specialized expertise at each stage of the development pipeline.
+Within the broader [[concepts/developer-workflow|Claude Code workflow]], subagents coordinate to process user requests, generate code, validate outputs, and manage project-related tasks. This distributed approach enhances the system's capability to handle complex [[concepts/software|software]] development [[concepts/scenarios|scenarios]] by leveraging specialized expertise [[concepts/assistive-technology|at]] each stage of the development pipeline.

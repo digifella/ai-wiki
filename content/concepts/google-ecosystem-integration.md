@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "google"
-  - "ecosystem"
-  - "ai"
-  - "productivity"
-  - "google-ecosystem"
-  - "ai-orchestration"
-  - "workflow-automation"
-  - "google-workspace"
-  - "service-interoperability"
-aliases:
-  - "google-service-integration"
-  - "gemini-ecosystem"
-summary: "The interoperability of Google services, including Gemini and Google Workspace, to facilitate unified workflows and automated data continuity."
-updated: 2026-04-20
+summary: The interoperability of Google services, including Gemini and Google Workspace, to facilitate unified workflows and automated data continuity.
+updated: 2026-05-23
 group: apis-integrations-mcp
 ---
 # Google Ecosystem Integration
@@ -25,16 +12,15 @@ The seamless interoperability of [[entities/google]] services, designed to facil
 ## Core Integration Vectors
 
 - **[[entities/gemini]] ([[concepts/ai-orchestration|AI Orchestration]])**:
-    - Serves as the central intelligence layer providing [[concepts/advanced-reasoning|advanced reasoning]] capabilities.
+    - Serves as the central intelligence layer providing [[concepts/advanced-reasoning|advanced reasoning]] [[concepts/capabilities|capabilities]].
     - Acts as an end-to-end functional interface for ecosystem tasks.
-    - **Workspace Integration**: Native-level connectivity with [[entities/google-workspace]].
+    - **Workspace [[concepts/integration|Integration]]**: Native-level connectivity with [[entities/google-workspace]].
         - Utilizes `@` triggers to interface directly with specific workspace data and entities.
 - **[[entities/google-workspace]]**:
     - The primary hub for collaborative productivity (Docs, [[concepts/motivation|Drive]], [[entities/gmail|Gmail]], etc.).
-    - Highly integrated with [[entities/gemini]] for automated retrieval and content generation.
+    - Highly integrated with [[entities/gemini]] for [[concepts/automated-retrieval|automated retrieval]] and content generation.
 
 2026 04 14 New [[concepts/gemini|Gemini]] [[concepts/tutorial|Tutorial]]
-
 ## Source Notes
 - 2026-04-07: Google’s NEW NotebookLM & Gemini Changes Are INSANE 👀 (new
 - 2026-04-10: [[lab-notes/2026-04-10-Meta-Muse-Spark-Features-Performance-and-Strategic-Shift-to-Proprietar|Meta Muse Spark Features Performance and Strategic Shift to Proprietar]] · [▶ source](https://www.youtube.com/watch?v=7vkybiVRSm0)

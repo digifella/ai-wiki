@@ -1,23 +1,11 @@
 ---
 type: entity
-tags:
-  - "google"
-  - "ai"
-  - "api"
-  - "gemini"
-  - "google-ai"
-  - "gemini-api"
-  - "generative-ai"
-  - "music-generation"
-  - "ai-models"
-aliases:
-  - "Google AI Research"
-summary: "Google's research and development division for artificial intelligence, featuring the Gemini model family and Lyria RealTime music generation."
-updated: 2026-04-21
+summary: Google's research and development division for artificial intelligence, featuring the Gemini model family and Lyria RealTime music generation.
+updated: 2026-05-23
 ---
 # Google AI
 
-[[concepts/google-search|Google]]'s research and development division for [[concepts/ai-technologies|artificial intelligence]], focusing on advanced models, tools, and [[concepts/developer|developer]] resources.
+[[concepts/google-search|Google]]'s research and development division for [[concepts/ai-technologies|artificial intelligence]], focusing on advanced [[concepts/models|models]], tools, and [[concepts/developer|developer]] resources.
 
 ## Key Features
 
@@ -30,9 +18,8 @@ updated: 2026-04-21
 - [[entities/gemini-api]]
 - [[concepts/gemini-models]]
 - [[entities/lyria-realtime]]
-- Google AI for Developers
+- [[entities/google|Google]] AI for Developers
 
-[[concepts/date-2026-04-13|2026]] 04 14 Geração de música usando o Lyria RealTime Gemini API Google AI for Developers
-
+[[concepts/date-2026-04-13|2026]] 04 14 Geração de música usando o Lyria RealTime [[entities/gemini-app|Gemini]] API Google AI for Developers
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Gemini-AI-Integration-Updates-for-Google-Workspace-Applications|Gemini AI Integration Updates for Google Workspace Applications]] · [▶ source](https://www.youtube.com/watch?v=bhIkY4g5_Sc)

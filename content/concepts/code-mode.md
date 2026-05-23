@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "mcp"
@@ -12,20 +11,20 @@ tags:
 aliases:
   - "Dynamic MCPs with Docker"
 summary: A method for using the Model Context Protocol (MCP) safely via Docker.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Code Mode
 
-Code Mode is a safety-focused approach to using the [[concepts/external-tools|Model Context Protocol]] (MCP) within containerized environments, specifically leveraging [[entities/docker-desktop|Docker]]. It addresses security and isolation concerns that arise when [[concepts/ai-models|AI models]] and tools need to execute code or access system resources. By [[concepts/running|running]] MCP implementations inside [[concepts/docker-containers|Docker containers]], Code Mode provides a sandboxed execution environment that limits the scope of potential damage from malicious or malfunctioning code while maintaining the protocol's functionality.
+[[concepts/code|Code]] Mode is a safety-focused approach to using the [[concepts/external-tools|Model Context Protocol]] (MCP) within containerized environments, specifically leveraging [[entities/docker-desktop|Docker]]. It addresses [[concepts/security|security]] and isolation concerns that arise when [[concepts/ai-models|AI models]] and tools need to execute code or access system resources. By [[concepts/running|running]] MCP implementations inside [[concepts/docker-containers|Docker containers]], Code Mode provides a sandboxed execution environment that limits the scope of potential damage from malicious or malfunctioning code while maintaining the protocol's functionality.
 
 ## Implementation with Docker
 
-Docker containers serve as the isolation mechanism for Code Mode, allowing MCPs to operate with restricted access to the host system. This containerized approach enables developers to define precisely which resources, files, and capabilities each MCP instance can access. The container boundary prevents code execution within one MCP from affecting other processes or sensitive system components, making it a practical [[concepts/solution|solution]] for [[concepts/scenarios|scenarios]] where untrusted or experimental MCPs need to be integrated into larger systems.
+[[concepts/docker|Docker]] containers serve as the isolation mechanism for Code Mode, allowing MCPs to operate with restricted access to the host system. This containerized approach enables developers to define precisely which resources, [[concepts/files|files]], and [[concepts/capabilities|capabilities]] each MCP instance can access. The container boundary prevents [[concepts/code-execution|code execution]] within one MCP from affecting other processes or sensitive system components, making it a practical [[concepts/solution|solution]] for [[concepts/scenarios|scenarios]] where untrusted or experimental MCPs need to be integrated into larger systems.
 
 ## Use Cases
 
-Code Mode is particularly valuable in [[concepts/developer-platforms|development environments]] where multiple MCPs are being tested or where MCPs may interact with external, potentially unreliable code sources. It provides a consistent method for safely evaluating new tools and protocols without exposing the host system to unnecessary risk. This approach has become increasingly relevant as the Model Context Protocol ecosystem expands and more third-party implementations become available.
-
+Code Mode is particularly valuable in [[concepts/developer-platforms|development environments]] where multiple MCPs are being tested or where MCPs may interact with external, potentially unreliable code sources. It provides a consistent method for safely evaluating new tools and protocols without exposing the host system to unnecessary risk. This approach has become increasingly relevant as the [[concepts/mcps|Model Context Protocol]] ecosystem expands and more third-party implementations become available.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

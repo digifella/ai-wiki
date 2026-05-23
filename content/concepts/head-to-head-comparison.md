@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: training-fine-tuning-evaluation
 tags:
   - "ai-presentation-tools"
   - "skywork"
@@ -12,15 +11,16 @@ aliases:
   - "AI Presentation Tools Comparison"
   - "Skywork vs ChatGPT vs Manus"
 summary: "A comparison of three AI-powered presentation creation tools: Skywork, ChatGPT, and Manus."
-updated: 2026-05-01
+updated: 2026-05-23
+group: training-fine-tuning-evaluation
 ---
 # Head To Head Comparison
 
-This comparison evaluates three AI-powered tools designed to automate and streamline presentation creation: [[concepts/skywork|Skywork]], [[entities/chatgpt|ChatGPT]], and Manus. Each tool approaches the problem of generating [[entities/google-slides|slides]] and presentation content differently, with varying degrees of [[concepts/specialization|specialization]] and integration into existing workflows.
+This comparison evaluates three [[concepts/ai-powered-tools|AI-powered tools]] designed to automate and streamline presentation creation: [[concepts/skywork|Skywork]], [[entities/chatgpt|ChatGPT]], and [[entities/manus|Manus]]. Each tool approaches the problem of generating [[entities/google-slides|slides]] and presentation content differently, with varying degrees of [[concepts/specialization|specialization]] and [[concepts/integration|integration]] into existing workflows.
 
 ## Key Differences
 
-Skywork and Manus are [[concepts/motivation|purpose]]-built presentation tools that incorporate AI to handle layout, design, and content [[concepts/organization|organization]]. ChatGPT, by [[concepts/contrast|contrast]], is a general-purpose [[concepts/statistical-language-modeling|language model]] that can assist with presentation creation but lacks dedicated formatting and design capabilities. The choice between these tools depends on whether users prioritize specialized presentation features or prefer the flexibility of a broader [[entities/ai-assistant|AI assistant]].
+[[entities/skywork|Skywork]] and Manus are [[concepts/motivation|purpose]]-built presentation tools that incorporate AI to handle layout, [[concepts/design|design]], and content [[concepts/organization|organization]]. ChatGPT, by [[concepts/contrast|contrast]], is a general-[[concepts/purpose|purpose]] [[concepts/statistical-language-modeling|language model]] that can assist with presentation creation but lacks dedicated formatting and design [[concepts/capabilities|capabilities]]. The choice between these tools depends on whether users prioritize specialized presentation features or prefer the flexibility of a broader [[entities/ai-assistant|AI assistant]].
 
 ## Practical Considerations
 

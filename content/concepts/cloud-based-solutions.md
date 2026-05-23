@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "cloud-based-solutions"
-  - "local-ai"
-  - "coding-tasks"
-  - "ai-models"
-  - "qwen-coder"
-  - "cost-efficiency"
-aliases:
-  - "Cloud Services"
-  - "Remote Software"
-  - "Internet-Based Solutions"
-summary: "The page discusses cloud-based solutions and highlights the exploration of Qwen Coder as a local AI model for coding tasks, potentially reducing dependency on paid cloud services."
-updated: 2026-04-11
+summary: The page discusses cloud-based solutions and highlights the exploration of Qwen Coder as a local AI model for coding tasks, potentially reducing dependency on paid cloud services.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Cloud-Based Solutions
@@ -31,7 +20,7 @@ Cloud-based solutions refer to [[concepts/software|software]] and services that 
 - [[concepts/security|Security]] Concerns
 
 ## Qwen Coder Local AI: Replacing Paid Models for Coding Tasks
-**Clip title:** [[entities/nick|Qwen Coder Next]] Locally: Can It Replace Paid [[concepts/ai-models|AI Models]]?
+**[[concepts/clip-title|Clip title]]:** [[entities/nick|Qwen Coder Next]] Locally: Can It Replace Paid [[concepts/ai-models|AI Models]]?
 **Author / channel:** [[entities/zero-to-mvp|Zero to MVP]]
 **URL:** https://www.youtube.com/watch?v=jDeeoHSc2kw
 
@@ -41,12 +30,11 @@ This video showcases a [[concepts/developer|developer]]'s exploration of [[entit
 ### Key Points:
 - [[concepts/qwen-code|Qwen Coder]] offers [[concepts/local-execution|local execution]] for [[concepts/coding|coding]] tasks.
 - It aims to reduce dependency on paid [[concepts/cloud-computing|cloud services]].
-- [[concepts/privacy|Privacy]] and control are enhanced when using [[concepts/local-llm|local AI models]].
+- [[concepts/privacy|Privacy]] and [[concepts/power|control]] are enhanced when using [[concepts/local-llm|local AI models]].
 - Performance may be improved due to lower latency compared to cloud-based solutions.
 
 ### Backlinks
-2026 04 10 [[concepts/code-specialized-models|Qwen Coder Local]] AI Replacing Paid Models for Coding Tasks
-
+2026 04 10 [[concepts/code-specialized-models|Qwen Coder Local]] AI Replacing Paid [[concepts/models|Models]] for [[concepts/coding|Coding]] Tasks
 ## Source Notes
 - 2026-04-10: [[entities/qwen-coder|Qwen Coder Next Locally: Can It Replace Paid AI Models?]]
 - 2026-04-13: [[lab-notes/2026-04-13-Demystifying-AI-Transformer-Training-on-a-1979-PDP-11|Demystifying AI Transformer Training on a 1979 PDP 11]] · [▶ source](https://www.youtube.com/watch?v=OUE3FSIk46g)

@@ -10,12 +10,12 @@ tags:
 aliases:
   - "DreamDojo AI"
   - "NVIDIA DreamDojo"
-summary: "NVIDIA's AI system that addresses the simulation-to-reality gap for robotic complex task execution."
-updated: 2026-05-02
+summary: NVIDIA's AI system that addresses the simulation-to-reality gap for robotic complex task execution.
+updated: 2026-05-23
 ---
 # Dreamdojo AI
 
-DreamDojo AI is an [[concepts/ai-technologies|artificial intelligence]] system developed by NVIDIA designed to address the [[concepts/persistent-limitations-in-accurately-translating-simulation-training-to-real|simulation-to-reality gap]] in robotic task execution. This gap represents a fundamental challenge in [[concepts/robotics|robotics]]: models trained in [[concepts/simulation|simulation]] often fail to perform effectively when deployed on physical robots due to differences between simulated and real-world environments.
+[[concepts/dreamdojo-ai|DreamDojo AI]] is an [[concepts/ai-technologies|artificial intelligence]] system developed by [[entities/nvidia|NVIDIA]] designed to address the [[concepts/persistent-limitations-in-accurately-translating-simulation-training-to-real|simulation-to-reality gap]] in robotic task execution. This gap represents a fundamental challenge in [[concepts/robotics|robotics]]: [[concepts/models|models]] trained in [[concepts/simulation|simulation]] often fail to perform effectively when deployed on physical robots due to differences between simulated and real-world environments.
 
 ## Technical Approach
 
@@ -23,7 +23,6 @@ The system enables robots to learn and execute [[concepts/complex-tasks|complex 
 
 ## Application and Significance
 
-DreamDojo represents an advancement in making robotic learning more practical and efficient for [[concepts/complex-task-execution|complex task execution]]. The technology addresses a longstanding limitation in the field where simulation-trained models typically require significant adjustment or retraining when applied to actual robotic [[concepts/hardware|hardware]], potentially broadening the range of tasks that robots can reliably perform.
-
+DreamDojo represents an advancement in making robotic learning more practical and efficient for [[concepts/complex-task-execution|complex task execution]]. The technology addresses a longstanding limitation in the field where simulation-trained models typically require significant adjustment or retraining when applied to actual robotic [[concepts/hardware|hardware]], potentially broadening the [[concepts/range|range]] of tasks that robots can reliably perform.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks|DreamDojo AI Bridging Robotics Sim2Real Gap for Complex Tasks]] · [▶ source](https://www.youtube.com/watch?v=mFSFvKquXwI)

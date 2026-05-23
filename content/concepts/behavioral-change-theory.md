@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "behavioral-change"
   - "digital-health"
@@ -12,16 +11,17 @@ aliases:
   - "behavior change theory"
   - "behavioral intervention theory"
 summary: A theory applied to digital health interventions and mental health contexts, such as the SES One Intervention developed at the University of Copenhagen.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Behavioral Change Theory
 
-Behavioral Change Theory is a scientific framework for understanding how individuals modify their behaviors and how interventions can be designed to support such modifications. The [[concepts/theory|theory]] draws on principles from psychology, [[concepts/neuroscience|neuroscience]], and social science to identify the factors that influence behavioral decisions and the mechanisms through which change occurs. It provides a structured approach to designing interventions across various domains, with particular emphasis on [[concepts/health|health]]-related behavior modification.
+Behavioral Change [[concepts/theory|Theory]] is a scientific framework for understanding how individuals modify their behaviors and designing interventions to support such modifications. The theory integrates principles from [[concepts/psychology|psychology]], [[concepts/neuroscience|neuroscience]], and social [[concepts/science|science]] to identify the factors that [[concepts/power|influence]] behavioral decisions and the mechanisms through which change occurs. Rather than treating behavior as fixed, the theory recognizes that individuals can alter their actions through structured processes involving [[concepts/motivation|motivation]], capability, and opportunity.
 
-## Digital Health Applications
+## Applications in Digital Health
 
-The theory has become increasingly relevant in digital health contexts, where technological platforms deliver behavioral interventions at scale. One documented application is the [[concepts/jungian-grief-model|SES One Intervention]], developed at the University of Copenhagen, which applies behavioral change principles through digital means. Such interventions typically incorporate elements such as goal-setting, [[concepts/feedback|feedback]] mechanisms, and reinforcement strategies to support sustained behavior change in users.
+The theory has found significant application in [[concepts/digital-health|digital health]] interventions, where technological platforms are designed to support behavior modification in clinical and wellness contexts. One notable example is the [[concepts/jungian-grief-model|SES One Intervention]], developed [[concepts/assistive-technology|at]] the University of Copenhagen, which applies behavioral change principles to [[concepts/mental-health|mental health]] treatment through digital means. These interventions typically incorporate [[concepts/feedback|feedback]] mechanisms, goal-setting tools, and progress tracking to reinforce desired behavioral patterns over time.
 
-## Mental Health Contexts
+## Key Mechanisms
 
-Behavioral Change Theory is also applied in mental health treatment and intervention design. The framework helps clinicians and researchers understand how psychological interventions can facilitate meaningful changes in thought patterns and behaviors associated with mental health conditions. By grounding interventions in empirical principles of behavior modification, practitioners can develop more targeted and effective treatment approaches.
+Behavioral Change Theory emphasizes that effective interventions must address both internal factors—such as motivation and self-efficacy—and external factors, including social support and environmental [[concepts/design|design]]. The theory recognizes that sustainable change requires repeated engagement and that different individuals may respond to different intervention approaches. This understanding has made the framework valuable for developing personalized health interventions and understanding why some individuals successfully modify behaviors while others struggle to maintain changes over time.

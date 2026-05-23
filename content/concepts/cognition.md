@@ -1,26 +1,10 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "cognition"
-  - "neuroscience"
-  - "animal-behavior"
-  - "intelligence"
-  - "bumblebees"
-  - "neuroscience-research"
-  - "animal-cognition-studies"
-  - "insect-intelligence"
-  - "bumblebee-behavior"
-  - "ecological-adaptation"
-aliases:
-  - "mental-processes"
-  - "thought-and-memory"
-  - "problem-solving-skills"
-  - "cognitive-capabilities"
-summary: "Cognition involves mental processes related to thinking, knowing, remembering, judging, and problem-solving."
-updated: 2026-04-11
+summary: Cognition involves mental processes related to thinking, knowing, remembering, judging, and problem-solving.
+updated: 2026-05-23
 group: animals-cognition-behaviour
-title: "Cognition"
+title: Cognition
 ---
 # Cognition
 
@@ -29,9 +13,9 @@ Cognition is a broad term encompassing mental processes related to [[concepts/hu
 ### Related Concepts
 - [[concepts/memory]]
 - [[concepts/attention]]
-- language-processing
+- [[concepts/natural-language-processing-nlp|language-processing]]
 - [[concepts/problem-solving]]
-- decision-making
+- [[concepts/decision-making|decision-making]]
 
 ### Recent Discoveries
 - [[concepts/bumblebees|Bumblebees]] exhibit advanced cognition, challenging previous assumptions about their intelligence. Despite having tiny brains the size of poppy seeds, these insects display remarkable abilities that were not expected.
@@ -42,9 +26,8 @@ Cognition is a broad term encompassing mental processes related to [[concepts/hu
   - Video: [Bumblebees Can Do What?! Incredible Discoveries Nobody Expected](https://www.youtube.com/watch?v=wPy-8gOUl-A) by [[entities/anton-petrov|Anton Petrov]]
 
 ### References
-- 2026 04 10 Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience
-- 2026 04 10 Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience
-
+- 2026 04 10 Bumblebees Advanced Cognition Cumulative Culture and [[concepts/flood-resilience|Flood Resilience]]
+- 2026 04 10 Bumblebees Advanced Cognition Cumulative Culture and [[concepts/flood-resilience|Flood Resilience]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)
 - 2026-04-15: [[lab-notes/2026-04-15-Richard-Feynmans-View-Machine-Intelligence-vs-Human-Cognition|Richard Feynmans View Machine Intelligence vs Human Cognition]] · [▶ source](https://www.youtube.com/watch?v=ipRvjS7q1DI)

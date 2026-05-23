@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "concert-photography"
   - "color-correction"
@@ -12,11 +11,12 @@ aliases:
   - "Concert Photography Color Correction"
   - "Lightroom Color Correction Tutorial"
 summary: A tutorial by David on color correcting extreme lighting in concert photography using Adobe Lightroom Classic.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # Methodical Science
 
-This article documents a [[concepts/tutorial|tutorial]] by David on color correction techniques for concert photography, specifically addressing the challenges posed by extreme and variable stage lighting. The tutorial uses Adobe Lightroom Classic as the primary tool for post-processing [[concepts/adjustments|adjustments]].
+This article documents a [[concepts/tutorial|tutorial]] by [[entities/david|David]] on color correction techniques for concert photography, specifically addressing the challenges posed by extreme and variable stage lighting. The tutorial uses [[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]] as the primary tool for post-processing [[concepts/adjustments|adjustments]].
 
 ## Scope and Context
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: books-storytelling-media-culture
 tags:
   - "narrative-structure"
   - "creative-writing"
@@ -16,7 +15,8 @@ aliases:
   - "storytelling methods"
   - "narrative craft"
 summary: Methods and approaches for constructing compelling narratives across literary and entertainment media.
-updated: 2026-05-01
+updated: 2026-05-23
+group: books-storytelling-media-culture
 ---
 # Storytelling Techniques
 
@@ -32,4 +32,4 @@ Different media require adapted [[concepts/storytelling|storytelling]] approache
 
 ## Purpose and Effect
 
-Effective storytelling techniques create coherence, maintain engagement, and communicate thematic content to audiences. Techniques such as foreshadowing, symbolism, and dramatic irony add layers of meaning beyond surface-level plot. The strategic use of these methods allows creators to guide emotional responses, establish tone and atmosphere, and ensure audiences remain invested in narrative outcomes.
+Effective storytelling techniques create coherence, maintain engagement, and communicate thematic content to audiences. Techniques such as foreshadowing, symbolism, and dramatic irony add layers of meaning beyond surface-level plot. The strategic use of these methods allows creators to guide emotional responses, establish [[concepts/tone|tone]] and atmosphere, and ensure audiences remain invested in narrative outcomes.

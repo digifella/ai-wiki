@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: places-regions-destinations
 tags:
   - "turkey"
   - "visa"
@@ -13,7 +12,8 @@ aliases:
   - "Turkey Residence Visa"
   - "Turkish Tourism Visa"
 summary: Documentation regarding residence visas for tourism in Turkey.
-updated: 2026-05-01
+updated: 2026-05-23
+group: places-regions-destinations
 ---
 # Residence Visa For Tourism
 
@@ -21,7 +21,7 @@ A residence visa for tourism in [[entities/republic-of-turkey|Turkey]] is a long
 
 ## Application and Documentation
 
-The application process for a Turkish residence visa for tourism requires submission of specific documentation to Turkish immigration authorities. Applicants must provide proof of financial means to support themselves during their stay, [[concepts/health|health]] insurance coverage, and documentation establishing their identity and background. The exact requirements and processing procedures are outlined in official Turkish visa guidelines and application materials.
+The application process for a Turkish residence visa for tourism requires submission of specific documentation to Turkish immigration authorities. Applicants must provide [[concepts/proof|proof]] of financial means to support themselves during their stay, [[concepts/health|health]] insurance coverage, and documentation establishing their identity and background. The exact requirements and processing procedures are outlined in official Turkish visa guidelines and application materials.
 
 ## Duration and Conditions
 

@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "quantum-field-theory"
-  - "particle-physics"
-  - "quantum-mechanics"
-  - "vacuum-fluctuations"
-  - "heisenberg-uncertainty-principle"
-  - "casimir-effect"
-  - "lamb-shift"
-  - "hawking-radiation"
-aliases:
-  - "force carriers"
-summary: "Virtual particles are transient fluctuations within quantum field theory that emerge from the Heisenberg Uncertainty Principle to mediate fundamental forces."
-updated: 2026-04-26
+summary: Virtual particles are transient fluctuations within quantum field theory that emerge from the Heisenberg Uncertainty Principle to mediate fundamental forces.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Virtual particles
@@ -26,9 +15,8 @@ Transient fluctuations within [[concepts/quantum-field-theory]] that appear and 
 - **Observable Effects:** Manifest through physical phenomena including the Casimir Effect, Lamb Shift, and Hawking Radiation.
 
 ### Experimental Context
-- Recent investigations into the ontological status of these fluctuations suggest experimental confirmation of their physical reality, rather than treating them solely as mathematical tools.
+- Recent investigations into the ontological status of these fluctuations suggest experimental confirmation of their [[concepts/physical-reality|physical reality]], rather than treating them solely as mathematical tools.
 - Related Research: 2026 04 24 Experimental Confirmation of Virtual Particle Reality
-
 ## Source Notes
 
 - 2026-04-24: [[lab-notes/2026-04-24-Experimental-Confirmation-of-Virtual-Particle-Reality|Experimental Confirmation of Virtual Particle Reality]] · [▶ source](https://www.youtube.com/watch?v=U4gpio58908)

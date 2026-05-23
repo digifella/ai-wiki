@@ -1,23 +1,14 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "photo-editing"
-  - "lightroom"
-  - "post-processing"
-  - "lightroom-classic"
-  - "image-enhancement"
-  - "presence-tools"
-aliases:
-  - "Texture tool"
-summary: "A tool within the Presence category of Adobe Lightroom Classic used for enhancing image details."
-updated: 2026-04-26
+summary: A tool within the Presence category of Adobe Lightroom Classic used for enhancing image details.
+updated: 2026-05-23
 group: lightroom-color-workflows
+stub: true
 ---
 # Texture slider
 
-A tool within the Presence category in Adobe [[entities/lightroom-classic|Lightroom Classic]] used for enhancing image details.
+A tool within the Presence category in [[entities/adobe|Adobe]] [[entities/lightroom-classic|Lightroom Classic]] used for enhancing image details.
 
 ## Characteristics
 - One of three key "Presence" sliders, alongside [[concepts/lightroom]] and [[concepts/dehaze-effect|Dehaze]].
@@ -29,8 +20,7 @@ A tool within the Presence category in Adobe [[entities/lightroom-classic|Lightr
 - Presence
 
 ## References
-- 2026 04 22 Lightroom Classic [[concepts/presence-sliders|Texture Clarity and Dehaze]] Sliders Explained
-
+- 2026 04 22 [[entities/lightroom-classic|Lightroom Classic]] [[concepts/presence-sliders|Texture Clarity and Dehaze]] Sliders Explained
 ## Source Notes
 - 2026-04-22: Lightroom Classic · [▶ source](https://youtu.be/vMqQBPffFbQ)
 - 2026-04-09: Photoshop

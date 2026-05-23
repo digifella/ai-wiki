@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "best-practices"
   - "claude-code"
@@ -13,20 +12,20 @@ aliases:
   - "effective-work-practices"
   - "optimal-strategies"
 summary: Established methods for effective and efficient work, including best practices for Claude Code prompting and feature utilization from Anthropic's Applied AI team.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Best Practices
 
-Best practices are established methods and approaches designed to achieve effective and efficient outcomes in professional work. They represent accumulated knowledge about what works well in specific contexts, enabling organizations and individuals to avoid common pitfalls and optimize their processes. Best practices are typically documented, tested, and refined through repeated application and [[concepts/feedback|feedback]], serving as benchmarks for performance and decision-making across functions including operations, project management, and technology [[concepts/deployment|deployment]].
+Best practices are established methods and approaches that have been proven effective and efficient within specific contexts. They represent accumulated organizational and professional knowledge about what works well, enabling teams and individuals to [[entities/make|make]] informed decisions, avoid common mistakes, and optimize their workflows. Best practices serve as reference points and benchmarks for performance, helping standardize processes across functions such as operations, project management, and technology [[concepts/deployment|deployment]].
 
-## Characteristics and Development
+## Development and Application
 
-Effective best practices share common characteristics: they are evidence-based, adaptable to different organizational contexts, and regularly reviewed for continued relevance. Best practices emerge through a combination of research, experimentation, and real-world experience. Organizations develop them by analyzing successful outcomes, documenting methodologies, and establishing [[concepts/open-standards|standards]] that teams can follow. However, best practices are not static—they evolve as technologies, markets, and operational contexts change, requiring periodic reassessment to maintain their effectiveness.
+Best practices are typically developed through repeated application, careful observation, and systematic [[concepts/feedback|feedback]]. They are documented and refined over time as organizations and practitioners test different approaches and identify which methods consistently produce desired outcomes. Rather than being rigid rules, effective best practices remain adaptable to different contexts while maintaining their core principles. They are most valuable when shared across teams and organizations, allowing others to benefit from hard-won knowledge without duplicating experimental efforts.
 
-## Application in AI and Prompting
+## Domain-Specific Implementation
 
-In the context of AI systems like [[concepts/claude-ai|Claude]], best practices extend to how users [[concepts/structure|structure]] prompts and utilize available features for optimal results. Effective prompting involves clear specification of tasks, appropriate context provision, and strategic use of features like code execution. These practices help users achieve more accurate, relevant, and efficient outcomes from AI assistance. Best practices in this domain are informed by research from AI teams, [[concepts/user-feedback|user feedback]], and systematic [[concepts/testing|testing]] of different approaches, allowing both individual users and organizations to maximize the value of [[entities/ai-tools|AI tools]] in their workflows.
-
+Different professional domains develop their own best practices tailored to their specific challenges and objectives. In [[concepts/coding|software development]], for example, best practices might address [[concepts/code|code]] review processes, [[concepts/testing|testing]] methodologies, or deployment strategies. In business strategy and operational management, best practices guide [[concepts/decision-making|decision-making]] frameworks, resource allocation, and organizational change. The application of established best practices typically reduces risk, improves [[concepts/logical-consistency|consistency]], and accelerates the achievement of objectives by building on proven approaches rather than starting from first principles.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-10: [[lab-notes/2026-04-10-Nvidias-Open-Source-Guardrails-vs-OpenAIs-AI-Agent-Consulting-Strategy|Nvidias Open Source Guardrails vs OpenAIs AI Agent Consulting Strategy]] · [▶ source](https://www.youtube.com/watch?v=7AO4w4Y_L24)

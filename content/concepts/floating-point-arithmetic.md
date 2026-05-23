@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "floating-point"
   - "numeric-precision"
@@ -13,11 +12,12 @@ aliases:
   - "FP arithmetic"
   - "float arithmetic"
 summary: Floating point arithmetic is a computational method for representing and performing operations on real numbers using a fixed number of significant digits and an exponent.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Floating Point Arithmetic
 
-Floating point arithmetic is a method for representing real numbers in computer systems using a finite number of bits. A floating point number consists of three components: a sign bit, a mantissa (or significand) that holds the [[concepts/significant-figures|significant digits]], and an exponent that indicates the position of the decimal point. This representation allows computers to handle numbers across an enormous range, from very small to very large values, while using a fixed amount of [[concepts/memory|memory]].
+Floating point arithmetic is a method for representing real numbers in computer systems using a finite number of [[concepts/classical-bits|bits]]. A floating point number consists of three components: a sign bit, a mantissa (or significand) that holds the [[concepts/significant-figures|significant digits]], and an exponent that indicates the position of the decimal point. This representation allows computers to handle numbers across an enormous [[concepts/range|range]], from very small to very large values, while using a fixed amount of [[concepts/memory|memory]].
 
 ## Representation and Standards
 

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "concept"
   - "text-modality"
@@ -13,11 +12,12 @@ aliases:
   - "text processing"
   - "textual modality"
 summary: Text modality is a component of multimodal AI systems that processes textual data alongside other input types like images.
-updated: 2026-05-01
+updated: 2026-05-23
+group: multimodal-generative-media
 ---
 # Text Modality
 
-Text modality refers to the textual component within [[concepts/multimodal-ai-agents|multimodal AI systems]]—those designed to process and integrate multiple types of input data simultaneously. In multimodal architectures, text modality works alongside other modalities such as [[concepts/images|images]], audio, or video to enable more comprehensive understanding of complex information. This integration allows AI systems to reason across different data types and leverage the complementary information each [[concepts/modality|modality]] provides.
+[[concepts/text|Text]] modality refers to the textual component within [[concepts/multimodal-ai-agents|multimodal AI systems]]—those designed to process and integrate multiple types of input data simultaneously. In multimodal architectures, text modality works alongside other modalities such as [[concepts/images|images]], [[concepts/audio-modality|audio]], or video to enable more comprehensive understanding of complex information. This [[concepts/integration|integration]] allows AI systems to reason across different data types and leverage the complementary information each [[concepts/modality|modality]] provides.
 
 ## Role in Multimodal Systems
 
@@ -25,7 +25,6 @@ Within a [[concepts/multimodal-ai|multimodal AI]] system, text modality typicall
 
 ## Processing Approaches
 
-[[concepts/large-language-model-llm|Large language models]] (LLMs) adapted for multimodal tasks incorporate text modality through their existing [[concepts/natural-language-processing-nlp|language processing]] [[concepts/architecture|architecture]] while adding new pathways for non-text inputs. The text component continues to perform standard language operations—tokenization, semantic [[concepts/encoding|encoding]], and generation—but now coordinates with independently processed image or audio streams. This architecture allows systems to maintain the linguistic sophistication of language models while extending their capabilities to understand and respond to diverse input types.
-
+[[concepts/large-language-model-llm|Large language models]] (LLMs) adapted for multimodal tasks incorporate text modality through their existing [[concepts/natural-language-processing-nlp|language processing]] [[concepts/architecture|architecture]] while adding new pathways for non-text inputs. The text component continues to perform standard language operations—tokenization, semantic [[concepts/encoding|encoding]], and generation—but now coordinates with independently processed image or audio streams. This architecture allows systems to maintain the linguistic sophistication of language [[concepts/models|models]] while extending their [[concepts/capabilities|capabilities]] to understand and respond to diverse input types.
 ## Source Notes
 - 2026-04-21: Google DeepMind

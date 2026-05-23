@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "local-ai"
-  - "ai-assistant"
-  - "open-source"
-  - "raspberry-pi"
-updated: 2026-04-15
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Local AI Assistant
@@ -20,8 +15,7 @@ A [[concepts/software|software]] application that operates entirely on a user's 
 - **[[concepts/privacy|Privacy]] Focus**: User data remains on-device
 
 ## Examples
-- **[[concepts/openclaw|OpenClaw]]** (formerly [[concepts/local-ai-assistants|ClawdBot]]/MoltBot): [[concepts/local-ai|Local AI]] assistant described as a "blank [[entities/canvas|canvas]]" with infinite potential. Operates 24/7 on-device, performs [[concepts/complex-tasks|complex tasks]] autonomously, and compares to fictional [[entities/jarvis|Jarvis]]. [[entities/raspberry-pi|Raspberry Pi]] | [Video Summary](https://youtu.be/qePhufA1hSE) | 2026 04 14 [[entities/gary-explains|Gary Explains]] Clawdbot on Raspberry Pi
-
+- **[[concepts/openclaw|OpenClaw]]** (formerly [[concepts/local-ai-assistants|ClawdBot]]/MoltBot): [[concepts/local-ai|Local AI]] assistant described as a "blank [[entities/canvas|canvas]]" with infinite potential. Operates 24/7 on-device, performs [[concepts/complex-tasks|complex tasks]] autonomously, and compares to fictional [[entities/jarvis|Jarvis]]. [[entities/raspberry-pi|Raspberry Pi]] | [Video Summary](https://youtu.be/qePhufA1hSE) | 2026 04 14 [[entities/gary-explains|Gary Explains]] [[concepts/remote-chat|Clawdbot]] on Raspberry Pi
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

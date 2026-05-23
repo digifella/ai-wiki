@@ -1,24 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "token-management"
-  - "ai-agent"
-  - "context-window"
-  - "ai-agents"
-  - "cost-optimization"
-  - "prompt-engineering"
-  - "token-usage"
-aliases:
-  - "Token Optimization"
-  - "Context Window Management"
-summary: "Strategies for optimizing token usage in language models to address context window constraints and cost efficiency."
-updated: 2026-04-17
+summary: Strategies for optimizing token usage in language models to address context window constraints and cost efficiency.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # Token Management
 
-Strategies for optimizing token usage in language models, particularly addressing [[concepts/context-window|context window]] constraints and cost efficiency in extended interactions.
+Strategies for optimizing token usage in language [[concepts/models|models]], particularly addressing [[concepts/context-window|context window]] constraints and [[concepts/cost|cost]] efficiency in extended interactions.
 
 ## Core Challenges
 - **[[concepts/context-window-limitations|Context Window Limitations]]**: Models like [[entities/claude]] face truncation when processing [[concepts/complex-tasks|complex tasks]] in a single prompt
@@ -26,7 +15,7 @@ Strategies for optimizing token usage in language models, particularly addressin
 - **Task Fragmentation**: Large features require decomposition to avoid exceeding token limits
 
 ## Effective Solutions
-- **[[concepts/claude-code|Claude Code]] Workflow**: [[entities/anthropic-institute|Anthropic]]-developed technique for long-[[concepts/running|running]] [[concepts/coding|coding]] sessions, avoiding "one-shot" approaches by:
+- **[[concepts/claude-code|Claude Code]] [[concepts/workflow|Workflow]]**: [[entities/anthropic-institute|Anthropic]]-developed technique for long-[[concepts/running|running]] [[concepts/coding|coding]] sessions, avoiding "one-shot" approaches by:
   - Breaking tasks into incremental steps
   - Maintaining context through structured [[concepts/session|session]] state
   - Using [[concepts/memory|memory]]-efficient [[concepts/prompt-engineering|prompt engineering]]
@@ -37,11 +26,10 @@ Strategies for optimizing token usage in language models, particularly addressin
 ## Related Concepts
 - [[concepts/context-window]]
 - [[concepts/ai-agent|AI Agent]]
-- Token Cost
+- Token [[concepts/cost|Cost]]
 - [[entities/prompt-engineering]]
 
-2026 04 14 Fixing long running [[concepts/ai-assisted-coding|Claude code]] sessions
-
+2026 04 14 Fixing long [[concepts/running|running]] [[concepts/ai-assisted-coding|Claude code]] sessions
 ## Source Notes
 - 2026-04-23: GPT 5 · [▶ source](https://www.youtube.com/watch?v=xbvI5G-8q4o)
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

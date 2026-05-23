@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "scientific-theory"
   - "physics-fundamentals"
@@ -12,20 +11,20 @@ aliases:
   - "theoretical framework"
   - "scientific theory"
 summary: A systematic framework of ideas and principles used to explain and predict natural phenomena in physics.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Theory
 
-A theory in [[concepts/physics|physics]] is a comprehensive, systematic framework of ideas, principles, and mathematical [[concepts/relationships|relationships]] designed to explain and predict natural phenomena. Theories serve as the foundation of scientific understanding, organizing empirical observations into coherent models that reveal underlying patterns in [[entities/nature|nature]]. Unlike everyday uses of the word "theory," [[concepts/scientific-theories|scientific theories]] in physics represent the highest level of scientific explanation—supported by extensive evidence, rigorous [[concepts/testing|testing]], and demonstrated predictive power.
+A theory in [[concepts/physics|physics]] is a comprehensive, systematic framework of [[concepts/ideas|ideas]], principles, and mathematical [[concepts/relationships|relationships]] designed to explain and predict natural phenomena. Theories serve as the foundation of scientific understanding, organizing empirical observations into coherent [[concepts/models|models]] that reveal underlying patterns in [[entities/nature|nature]]. Unlike everyday uses of the word "theory," [[concepts/scientific-theories|scientific theories]] in physics represent the highest level of scientific explanation—supported by extensive evidence, rigorous [[concepts/testing|testing]], and demonstrated predictive [[concepts/power|power]].
 
 ## Structure and Function
 
-Physical theories typically consist of fundamental principles, mathematical formulations, and logical consequences that can be tested through observation and experiment. They integrate multiple observations into unified [[concepts/explanations|explanations]], often revealing connections between seemingly unrelated phenomena. Examples include classical mechanics, [[concepts/electromagnetic-interaction|electromagnetism]], thermodynamics, and [[concepts/quantum-mechanics|quantum mechanics]]. Each theory operates within a defined scope—describing phenomena at particular [[concepts/musical-scales|scales]] or under specific conditions—and provides both explanatory power for past observations and predictive capability for future experiments.
+Physical theories typically consist of fundamental principles, mathematical formulations, and logical consequences that can be tested through observation and experiment. They integrate multiple observations into unified [[concepts/explanations|explanations]], often revealing connections between seemingly unrelated phenomena. Examples include classical mechanics, [[concepts/electromagnetic-interaction|electromagnetism]], thermodynamics, and [[concepts/quantum-mechanics|quantum mechanics]]. Each theory operates within a defined scope—describing phenomena [[concepts/assistive-technology|at]] particular [[concepts/musical-scales|scales]] or under specific conditions—and provides both explanatory power for past observations and predictive capability for future experiments.
 
 ## Development and Validation
 
-Scientific theories evolve through cycles of [[concepts/hypothesis-formation|hypothesis formation]], experimental testing, and refinement. A theory gains acceptance when it consistently explains existing data, makes accurate predictions about new phenomena, and withstands rigorous experimental scrutiny. Theories may be modified or superseded when new evidence emerges that their predictions cannot adequately account for, as occurred when Einstein's relativistic theories extended Newtonian mechanics to extreme conditions. The relationship between theory and experiment is reciprocal: theories guide experimental design, while experimental results refine or reshape [[concepts/theoretical-frameworks|theoretical frameworks]].
-
+Scientific theories evolve through cycles of [[concepts/hypothesis-formation|hypothesis formation]], experimental testing, and refinement. A theory gains acceptance when it consistently explains existing data, makes accurate predictions about new phenomena, and withstands rigorous experimental scrutiny. Theories may be modified or superseded when new evidence emerges that their predictions cannot adequately account for, as occurred when Einstein's relativistic theories extended Newtonian mechanics to extreme conditions. The relationship between theory and experiment is reciprocal: theories guide experimental [[concepts/design|design]], while experimental results refine or reshape [[concepts/theoretical-frameworks|theoretical frameworks]].
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-08: [[lab-notes/2026-04-08-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates|Awkward Primes Minimal Line Coverage of Prime Number Coordinates]] · [▶ source](https://www.youtube.com/watch?v=VFoIPlUalRY)

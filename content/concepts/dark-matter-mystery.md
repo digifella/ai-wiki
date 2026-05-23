@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "dark-matter"
   - "baryonic-matter"
@@ -14,7 +13,8 @@ aliases:
   - "Dark Matter Theory Challenges"
   - "Baryonic Matter in Galaxy Clusters"
 summary: Underestimated baryonic matter in galaxy clusters challenges current dark matter theory.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Dark Matter Mystery
 
@@ -24,12 +24,11 @@ The dark matter mystery refers to a longstanding puzzle in [[concepts/cosmology|
 
 ## The Baryonic Matter Challenge
 
-Studies of galaxy clusters have revealed that the amount of ordinary baryonic matter—atoms, stars, and gas—may be significantly higher than previously estimated. This finding is important because it narrows the gap between observed [[concepts/gravitational-effects|gravitational effects]] and calculated visible mass. If baryonic matter accounts for more of a galaxy cluster's mass than thought, the required contribution from dark matter decreases correspondingly, challenging assumptions built into current dark matter models.
+Studies of galaxy clusters have revealed that the amount of ordinary [[concepts/baryonic-matter|baryonic matter]]—atoms, [[concepts/stellar-objects|stars]], and gas—may be significantly higher than previously estimated. This finding is important because it narrows the gap between observed [[concepts/gravitational-effects|gravitational effects]] and calculated visible mass. If baryonic matter accounts for more of a galaxy cluster's mass than thought, the required contribution from dark matter decreases correspondingly, challenging assumptions built into current dark matter [[concepts/models|models]].
 
 ## Implications
 
 This discrepancy between expectations and observations raises questions about how well we understand the composition and behavior of galaxy clusters. It may indicate that dark matter is less abundant than standard models suggest, or that our methods for measuring baryonic matter in these systems need refinement. The resolution of this puzzle could reshape our understanding of the universe's fundamental constituents.
-
 ## Source Notes
 - 2026-04-14: [[lab-notes/2026-04-14-Gravitational-Wave-Detection-of-Sub-Solar-Mass-Object-Primordial-Black|Gravitational Wave Detection of Sub Solar Mass Object Primordial Black]] · [▶ source](https://www.youtube.com/watch?v=EK9wGYuGfYo)
 - 2026-04-20: [[lab-notes/2026-04-20-Galaxy-Clusters-Underestimated-Baryonic-Matter-Challenges-Dark-Matter-|Galaxy Clusters Underestimated Baryonic Matter Challenges Dark Matter ]] · [▶ source](https://www.youtube.com/watch?v=ia4htnuZ6D0)

@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: security-infrastructure
-updated: 2026-04-14
+summary: AI data analysis uses artificial intelligence to automate data processing, pattern recognition, and the transformation of workflows into autonomous systems.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
-summary: "AI data analysis uses artificial intelligence to automate data processing, pattern recognition, and the transformation of workflows into autonomous systems."
 ---
 - "ai"
   - "data-analysis"
@@ -27,7 +27,6 @@ The use of [[concepts/ai-technologies|Artificial Intelligence]] to automate Data
 
 ## Related Sources
 - 2026 04 14 New [[concepts/ai-tools|ai tools]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)

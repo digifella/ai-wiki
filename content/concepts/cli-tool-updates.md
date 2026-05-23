@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "cli"
-  - "developer-tools"
-  - "updates"
-  - "claude-code"
-  - "software-maintenance"
-  - "command-line-interface"
-aliases:
-  - "CLI updates"
-  - "Claude Code maintenance"
-summary: "Tracking version changes, performance optimizations, and maintenance procedures for command-line interface tools."
-updated: 2026-04-20
+summary: Tracking version changes, performance optimizations, and maintenance procedures for command-line interface tools.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 Backlinks: 2026 04 14 New [[concepts/ai-assisted-coding|Claude Code]] features 1
@@ -28,9 +18,8 @@ Tracking version changes, performance optimizations, and maintenance procedures 
     * New [[concepts/workflow|workflow]] features.
 * **Maintenance:**
     * **Update Command:** `claude update` or `npm install -g @anthropic/claude-code`.
-    * **Version Tracking:** Monitor the Changelog via GitHub or search "[[concepts/claude-code|Claude code]] changelog".
+    * **Version Tracking:** Monitor the Changelog via [[entities/github|GitHub]] or search "[[concepts/claude-code|Claude code]] changelog".
 * **Reference:** [Income Stream Surfers Video](https://www.youtube.com/watch?v=Zo6I9yHsNQ4)
-
 ## Source Notes
 - 2026-04-07: 10 CLI Tools That Make Claude Code UNSTOPPABLE
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

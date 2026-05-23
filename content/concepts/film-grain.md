@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: entertainment-games
-tags:
-  - "photography"
-  - "texture"
-  - "post-processing"
-  - "analog-aesthetic"
-  - "analog-photography"
-  - "film-emulation"
-  - "silver-halide"
-  - "image-texture"
-aliases:
-  - "grain"
-  - "film texture"
-summary: "Film grain is the visible texture in analog photography caused by the random distribution of silver halide crystals within the film emulsion."
-updated: 2026-04-26
+summary: Film grain is the visible texture in analog photography caused by the random distribution of silver halide crystals within the film emulsion.
+updated: 2026-05-23
 group: film-tv-streaming
 ---
 # Film grain
@@ -33,8 +21,7 @@ The visible [[concepts/texture|texture]] or "noise" in analog photography produc
     - Grain and Vignette can be applied to simulate filmic qualities.
     - There are three distinct methods available for creating Vignette effects within the [[concepts/software|software]].
 
-2026 04 22 Lightroom Classic Applying Vignette and Grain Effects
-
+2026 04 22 [[entities/lightroom-classic|Lightroom Classic]] Applying Vignette and Grain Effects
 ## Source Notes
 - 2026-04-22: Lightroom · [▶ source](https://youtu.be/XDqwMmrs-M8)
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Settings-Clarity-Impact-and-Aperture-Misuse|Fujifilm Camera Settings Clarity Impact and Aperture Misuse]] · [▶ source](https://www.youtube.com/watch?v=Sdxz5zmX8NM)

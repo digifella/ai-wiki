@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "shark-evolution"
@@ -11,7 +10,8 @@ tags:
 aliases:
   - "dentin"
 summary: The video explores the evolution and various biological adaptations of sharks during the Golden Age of Sharks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Dentine
 
@@ -24,6 +24,5 @@ Dentine played a crucial role in the evolutionary diversity of [[concepts/shark-
 ## Modern biology
 
 In modern sharks and other vertebrates, dentine remains essential to tooth function and durability. The material's semi-rigid [[entities/nature|nature]] allows teeth to absorb impact [[concepts/stress|stress]] without shattering, while still maintaining a hard cutting or gripping surface when combined with enamel. This property has made dentine-based teeth remarkably successful across millions of years of vertebrate evolution.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)

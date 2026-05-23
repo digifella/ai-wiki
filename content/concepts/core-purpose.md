@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: business-strategy
 tags:
   - "concept"
   - "core-purpose"
@@ -13,20 +12,20 @@ aliases:
   - "Finding Your Why"
   - "The Why"
 summary: A video from High Performance discusses uncovering purpose using Simon Sinek's Story Method.
-updated: 2026-05-01
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Core Purpose
 
-Core purpose refers to the fundamental reason an individual or [[concepts/organization|organization]] exists beyond making profit or achieving specific goals. It represents the deeper "why" that drives decision-making, motivates action, and provides direction. Understanding one's core purpose is considered essential for sustained [[concepts/motivation|motivation]] and meaningful work.
+Core [[concepts/purpose|purpose]] refers to the fundamental reason an individual or [[concepts/organization|organization]] exists beyond making profit or achieving specific goals. It represents the deeper "why" that drives [[concepts/decision-making|decision-making]], motivates action, and provides direction. Understanding one's core purpose is considered essential for sustained [[concepts/motivation|motivation]] and meaningful work.
 
 ## The Story Method
 
-[[entities/simon-sinek|Simon Sinek]]'s Story Method is a framework for uncovering core purpose through structured narrative exploration. Rather than abstract introspection, this approach involves examining personal stories and experiences to identify recurring themes, values, and motivations. By analyzing the stories we tell about ourselves and our accomplishments, patterns emerge that reveal what genuinely matters to us at a fundamental level.
+[[entities/simon-sinek|Simon Sinek]]'s [[concepts/story-method|Story Method]] is a framework for uncovering core purpose through structured narrative exploration. Rather than abstract introspection, this approach involves examining personal stories and experiences to identify recurring themes, values, and motivations. By analyzing the stories we tell about ourselves and our accomplishments, patterns emerge that reveal what genuinely matters to us [[concepts/assistive-technology|at]] a fundamental level.
 
 ## Application
 
-The method gained wider [[concepts/attention-mechanisms|attention]] through [[entities/high-performance|High Performance]]'s video featuring [[entities/jake-humphrey|Jake Humphrey]], where Sinek demonstrates how to identify one's core purpose in approximately fifteen minutes. The approach makes purpose-discovery concrete and accessible by grounding it in real experiences and narrative patterns rather than purely philosophical questioning.
-
+The method gained wider [[concepts/attention-mechanisms|attention]] through [[entities/high-performance|High Performance]]'s video featuring [[entities/jake-humphrey|Jake Humphrey]], where Sinek demonstrates how to identify one's core purpose in approximately fifteen minutes. The approach makes [[concepts/finding-purpose|purpose-discovery]] concrete and accessible by grounding it in real experiences and narrative patterns rather than purely philosophical questioning.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-08: [[lab-notes/2026-04-08-Benchmarking-SLMs-Identifying-4GB-General-Problem-Solving-Champions|Benchmarking SLMs Identifying 4GB General Problem Solving Champions]] · [▶ source](https://www.youtube.com/watch?v=wQxawC3sv68)

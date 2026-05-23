@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: enterprise-strategy-future-work
 tags:
   - "business-strategy"
   - "enterprise-strategy"
@@ -9,26 +8,32 @@ tags:
   - "ai-capabilities"
   - "llm-models"
   - "agent-systems"
+  - "innovation"
+  - "product-innovation"
+  - "process-innovation"
+  - "business-model-innovation"
+  - "organizational-change"
+  - "competitive-advantage"
 aliases:
-  - "innovative-technology"
-  - "emerging-ai-tools"
+  - "innovative-development"
+  - "value-creation"
+  - "breakthrough-ideas"
 summary: This page is a placeholder for the concept of innovation.
-updated: 2026-05-01
-stub: true
+updated: 2026-05-23
+group: enterprise-strategy-future-work
 title: innovation
 ---
 # Innovation
 
-Innovation refers to the process of creating, developing, or implementing new ideas, products, services, or methods that generate value and create meaningful change. In a business context, innovation encompasses both incremental improvements to existing offerings and breakthrough developments that establish entirely new markets or categories. The concept extends across all organizational functions—from product development and operations to business models and customer experience—making it a fundamental driver of competitive advantage and long-term organizational success.
+Innovation refers to the process of creating, developing, or implementing new [[concepts/ideas|ideas]], products, services, or methods that generate value and create meaningful change. In business contexts, innovation encompasses both incremental improvements to existing offerings and breakthrough developments that establish entirely new markets or categories. The concept extends across all organizational functions—from product development and operations to business [[concepts/models|models]] and customer experience—making it a fundamental driver of competitive advantage and organizational sustainability.
 
-## Types and Scope
+## Types of Innovation
 
-Innovation typically manifests in several forms. Product innovation involves creating new or significantly improved goods or services. Process innovation focuses on improving how things are made or delivered, often increasing efficiency or quality. Business model innovation reshapes how an [[concepts/organization|organization]] creates and captures value. Organizational innovation concerns structural or cultural changes that enable better performance. These types frequently overlap and reinforce each other within successful innovating organizations.
+Organizations typically pursue innovation across several dimensions. Product innovation involves creating new or significantly improved goods or services. Process innovation focuses on improving how work is performed, often reducing costs or improving quality. Business model innovation reimagines how value is created and delivered to customers. Service innovation enhances or creates new service offerings. These types frequently overlap, and organizations often pursue multiple forms simultaneously as part of their strategy.
 
-## Strategic Importance
+## Organizational Drivers
 
-For organizations operating in dynamic markets, innovation is essential for growth, relevance, and [[concepts/resilience|resilience]]. It allows companies to respond to changing customer needs, technological advances, and competitive pressures. Innovation requires balancing exploration of new possibilities with exploitation of existing strengths—a tension that demands intentional management and appropriate resource allocation. The capacity to innovate consistently has become increasingly linked to organizational survival and market leadership.
-
+Several factors [[concepts/power|influence]] an organization's capacity for innovation. Research and development investment, [[concepts/organizational-culture|organizational culture]] that encourages experimentation, access to talent and expertise, and competitive market pressures all contribute to innovation activity. Additionally, customer [[concepts/feedback|feedback]], technological advancement, and regulatory changes can prompt or enable innovative [[concepts/responses|responses]]. The relationship between these factors varies across industries and organizational contexts.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

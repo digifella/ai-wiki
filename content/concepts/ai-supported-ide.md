@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: health-wellbeing
 tags:
   - "ai"
   - "ide"
@@ -13,9 +13,9 @@ tags:
 aliases:
   - "AI-powered IDE"
   - "Intelligent IDE"
-summary: "An evolution of the traditional IDE that incorporates Large Language Models to automate and augment the software development lifecycle."
-updated: 2026-04-27
-group: applied-ai-workflows
+summary: An evolution of the traditional IDE that incorporates Large Language Models to automate and augment the software development lifecycle.
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # AI-supported IDE
 
@@ -23,7 +23,7 @@ An evolution of the traditional Integrated [[concepts/coding-workspace|Developme
 
 ## Core Capabilities
 - **Automated Development**: Simplifies building [[concepts/software|applications]], fixing existing [[concepts/code|code]], and generating new code from diverse inputs.
-- **Productivity Multiplier**: Aimed at providing up to 10x productivity gains for both professional developers and non-coders.
+- **Productivity Multiplier**: Aimed [[concepts/assistive-technology|at]] providing up to 10x productivity gains for both professional developers and non-coders.
 - **[[concepts/workflow|Workflow]] [[concepts/integration|Integration]]**: Seamlessly handles [[concepts/debugging|debugging]], refactoring, and [[concepts/rapid-prototyping|rapid prototyping]].
 
 ## Notable Implementations & Tools
@@ -37,8 +37,7 @@ An evolution of the traditional Integrated [[concepts/coding-workspace|Developme
 - <https://www.youtube.com/watch?v=wgi3iF6Mstw>
 
 ## Backlinks
-- 2026 04 14 [[concepts/ai-assisted-coding|AI coding]] with Claude Code 41 [[entities/rick-mulready|Rob the AI guy]]
-
+- 2026 04 14 [[concepts/ai-assisted-coding|AI coding]] with [[concepts/coding-assistant|Claude Code]] 41 [[entities/rick-mulready|Rob the AI guy]]
 ## Source Notes
 - 2026-04-12: Google's FREE AI Just Did What [[entities/chatgpt|ChatGPT and Claude Couldn't]]
 - 2026-04-22: Google · [▶ source](https://www.youtube.com/watch?v=2DlsrKlF7XQ)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "neurobiology"
   - "nerve-systems"
@@ -13,18 +12,18 @@ aliases:
   - "Nerve Systems"
   - "Neural Biology"
 summary: Concept exploring biological nerves through Richard Feynman's 1985 examination of machine intelligence versus human cognition.
-updated: 2026-05-01
+updated: 2026-05-23
+group: life-systems-adaptation-discovery
 ---
 # Biological Nerves
 
-Biological nerves are specialized structures that transmit electrical and chemical signals throughout an organism's body, forming a critical communication network between the central nervous system and peripheral tissues. Composed of bundles containing thousands of axons—the elongated projections of neurons—nerves extend from the brain and spinal cord to muscles, organs, and sensory receptors. This anatomical [[concepts/organization|organization]] allows organisms to receive information about their environment, coordinate [[concepts/exercise|movement]], and regulate internal processes continuously.
+Biological nerves are specialized structures that transmit electrical and chemical signals throughout an organism's body, forming the communication network between the central nervous system and peripheral tissues. Nerves consist of bundled axons—the elongated projections of neurons—along with supporting glial cells and connective tissue. These bundles extend from the brain and spinal cord to muscles, organs, and sensory receptors throughout the body, enabling organisms to receive environmental information, coordinate [[concepts/exercise|movement]], and regulate internal processes.
 
-## Neural Signaling Mechanisms
+## Structure and Function
 
-Nerves function through action potentials, rapid fluctuations in electrical potential across neuronal membranes that propagate signals along axons at speeds ranging from less than one meter per second to over one hundred meters per second, depending on axon diameter and myelination. When a nerve signal reaches the axon terminal, it triggers the release of neurotransmitters—chemical messengers that cross synaptic gaps and either excite or inhibit activity in adjacent neurons or target cells. This electrochemical system enables the transmission of sensory information from receptors and the transmission of motor [[concepts/commands|commands]] to muscles with millisecond precision.
+Individual nerve fibers transmit signals through a combination of electrical impulses along the axon and chemical neurotransmitter release [[concepts/assistive-technology|at]] synapses. When a neuron fires, an action potential propagates down the axon, triggering the release of neurotransmitters across the synapse to communicate with adjacent neurons or target cells. The myelin sheath, a fatty coating surrounding many axons, increases the [[concepts/speed|speed]] of signal transmission. Sensory nerves carry information from receptors to the central nervous system, while motor nerves carry [[concepts/commands|commands]] from the central nervous system to muscles and glands.
 
-## Structural Organization
+## Organization and Distribution
 
-Nerves are classified into sensory nerves, which carry information toward the central nervous system, and motor nerves, which carry commands away from it. Individual axons are wrapped in layers of insulating tissue, and multiple axons are bundled together with supportive connective tissue and blood vessels to form the macroscopic nerve structures visible during anatomical examination. The peripheral nervous system comprises thousands of such nerves distributed throughout the body, allowing coordinated [[concepts/responses|responses]] to both internal and external stimuli.
-
+Nerves are organized hierarchically, with larger nerve trunks branching into progressively smaller nerves. The peripheral nervous system divides functionally into the somatic nervous system, which controls voluntary movement and transmits sensory information, and the autonomic nervous system, which regulates involuntary functions like heart rate and digestion. This distributed [[concepts/architecture|architecture]] allows rapid, localized [[concepts/responses|responses]] to stimuli while maintaining [[concepts/integration|integration]] with higher-order [[concepts/decision-making|decision-making]] centers in the brain.
 ## Source Notes

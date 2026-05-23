@@ -1,21 +1,11 @@
 ---
 type: entity
-tags:
-  - "space-exploration"
-  - "ai"
-  - "spacex"
-  - "tesla"
-  - "xai"
-  - "kardashev-type-ii"
-  - "ai-data-centers"
-  - "kardashev-scale"
-  - "ethics"
-updated: 2026-04-14
+updated: 2026-05-23
 ---
 # Elon Musk
 
 ## Overview
-Elon Musk is a South African-born American entrepreneur and business magnate who founded [[entities/spacex|SpaceX]], Tesla Inc., Neuralink, The Boring Company, and X.com (now known as X). He has been a vocal advocate for [[concepts/space-exploration|space exploration]] and the advancement of [[concepts/ai-technologies|artificial intelligence]].
+Elon Musk is a South African-born American entrepreneur and business magnate who founded [[entities/spacex|SpaceX]], [[entities/tesla|Tesla]] [[entities/inc|Inc.]], Neuralink, The Boring Company, and X.com (now known as X). He has been a vocal advocate for [[concepts/space-exploration|space exploration]] and the advancement of [[concepts/ai-technologies|artificial intelligence]].
 
 ## Space-Based AI Data Centers Feasibility
 
@@ -24,7 +14,7 @@ Elon Musk is a South African-born American entrepreneur and business magnate who
   - Tesla
   - [[concepts/kardashev-scale|Kardashev Scale]]
 
-**Why Space-Based AI Data Centers Are Inevitable: 3 Levels of Analysis**
+**Why [[concepts/orbital-computing|Space-Based AI Data Centers]] Are Inevitable: 3 Levels of Analysis**
 - Author/Channel: [[entities/the-limiting-factor|The Limiting Factor]]
 - URL: https://www.youtube.com/watch?v=cLcF9UCD9-s
 
@@ -33,7 +23,6 @@ Elon Musk is a South African-born American entrepreneur and business magnate who
   - *Source*: 2026 04 14 Starlinks Misunderstood Success Global Impact Connectivity and Societa
   - **Video**: "The Starlink Breakthrough Everyone Missed" by [[entities/dr-know-it-all|Dr. Know-it-all]] Knows it all
   - **URL**: https://www.youtube.com/watch?v=x0hpdMoEj20
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-13: [[lab-notes/2026-04-13-Tesla-FSD-Supervised-European-Approval-Netherlands-Sets-Precedent-for-|Tesla FSD Supervised European Approval Netherlands Sets Precedent for ]] · [▶ source](https://www.youtube.com/watch?v=TEPbcUddNNw)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: agriculture-food-trade
 tags:
   - "food-chemistry"
   - "flavor-compounds"
@@ -14,11 +13,12 @@ aliases:
   - "taste-improvement"
   - "seasoning-methods"
 summary: Techniques and scientific principles for enhancing the flavor characteristics of food through chemical, culinary, or ingredient-based methods.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agriculture-food-trade
 ---
 # Food Flavor Enhancement
 
-Food flavor enhancement encompasses the practices and scientific principles underlying how humans modify and intensify the taste characteristics of food. These methods have evolved from ancient culinary traditions to modern food science, reflecting both practical kitchen techniques and chemical understanding of flavor compounds. Enhancement techniques operate across multiple registers: the addition of ingredients like salt, spices, and seasonings; the chemical transformations that occur during cooking such as the [[concepts/maillard-reaction|Maillard reaction]] and caramelization; and the manipulation of basic taste perception through ingredient combinations and food pairing.
+Food flavor enhancement encompasses the practices and [[concepts/scientific-principles|scientific principles]] underlying how humans modify and intensify the taste characteristics of food. These methods have evolved from ancient culinary traditions to modern food [[concepts/science|science]], reflecting both practical kitchen techniques and chemical understanding of flavor compounds. Enhancement techniques operate across multiple registers: the addition of ingredients like salt, spices, and seasonings; the chemical transformations that occur during cooking such as the [[concepts/maillard-reaction|Maillard reaction]] and caramelization; and the manipulation of basic taste perception through ingredient combinations and food pairing.
 
 ## Historical and Cultural Development
 

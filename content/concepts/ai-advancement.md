@@ -1,18 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "CUDA"
-  - "GPU"
-  - "Parallel Computing"
-updated: 2026-04-14
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI Advancement
 
 ## Overview
-AI advancement encompasses the rapid evolution and [[concepts/innovation|innovation]] in [[concepts/ai-technologies|artificial intelligence]] technologies, including machine [[concepts/learning|learning]] frameworks, [[concepts/deep-neural-networks|deep neural networks]], [[concepts/nlp|natural language processing]], [[concepts/computer-vision|computer vision]], and more. These advancements rely heavily on computational power and [[concepts/algorithmic-optimization|efficient algorithms]].
+AI advancement encompasses the rapid evolution and [[concepts/innovation|innovation]] in [[concepts/ai-technologies|artificial intelligence]] technologies, including machine [[concepts/learning|learning]] frameworks, [[concepts/deep-neural-networks|deep neural networks]], [[concepts/nlp|natural language processing]], [[concepts/computer-vision|computer vision]], and more. These advancements rely heavily on computational [[concepts/power|power]] and [[concepts/algorithmic-optimization|efficient algorithms]].
 
 ## Related Concepts
 - [[concepts/machine-learning]]
@@ -22,7 +17,7 @@ AI advancement encompasses the rapid evolution and [[concepts/innovation|innovat
 
 ### Nvidia CUDA: GPU Parallel Computing for AI Advancement
 
-**Clip title:** Nvidia CUDA in 100 Seconds
+**[[concepts/clip-title|Clip title]]:** [[entities/nvidia|Nvidia]] [[concepts/compute-unified-device-architecture|CUDA]] in 100 Seconds
 **Author / channel:** Fireship
 **URL:** https://www.youtube.com/watch?v=pPStdjuYzSI
 
@@ -31,8 +26,7 @@ AI advancement encompasses the rapid evolution and [[concepts/innovation|innovat
 - By utilizing the massive parallel [[concepts/architecture|architecture]] of GPUs, CUDA accelerates computations in machine learning frameworks like TensorFlow, PyTorch, and others, facilitating faster development cycles and more robust model performance.
 
 ## Backlinks
-2026 04 12 Nvidia CUDA [[concepts/gpu-parallel-computing|GPU Parallel Computing]] for AI Advancement
-
+2026 04 12 [[entities/nvidia|Nvidia]] [[concepts/compute-unified-device-architecture|CUDA]] [[concepts/gpu-parallel-computing|GPU Parallel Computing]] for AI Advancement
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-12: [[lab-notes/2026-04-12-DreamDojo-AI-Bridging-Robotics-Sim2Real-Gap-for-Complex-Tasks|DreamDojo AI Bridging Robotics Sim2Real Gap for Complex Tasks]] · [▶ source](https://www.youtube.com/watch?v=mFSFvKquXwI)

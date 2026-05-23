@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "ai-influencers"
   - "ai-models"
@@ -13,7 +12,8 @@ aliases:
   - "AI thought leaders"
   - "AI content creators"
 summary: Notable figures in AI who share insights and analysis about emerging AI models and developments, such as Sam Witteveen discussing OpenAI's open-source model releases.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # AI Influencers
 
@@ -21,7 +21,7 @@ AI influencers are content creators and subject matter experts who analyze and c
 
 ## Primary Platforms and Methods
 
-AI influencers primarily operate through YouTube, technical blogs, Twitter/X, [[entities/podcasts|podcasts]], and GitHub repositories. They demonstrate new models through tutorials and hands-on experiments, analyze research papers, and provide commentary on industry developments. This format allows them to reach both technical practitioners seeking [[concepts/implementation-details|implementation details]] and non-specialists interested in understanding AI's trajectory and societal implications.
+AI influencers primarily operate through [[entities/youtube|YouTube]], technical blogs, Twitter/X, [[entities/podcasts|podcasts]], and [[entities/github|GitHub]] repositories. They demonstrate new [[concepts/models|models]] through tutorials and hands-on experiments, analyze research papers, and provide commentary on industry developments. This format allows them to reach both technical practitioners seeking [[concepts/implementation-details|implementation details]] and non-specialists interested in understanding AI's trajectory and societal implications.
 
 ## Notable Examples and Activities
 
@@ -29,4 +29,4 @@ AI influencers primarily operate through YouTube, technical blogs, Twitter/X, [[
 
 ## Role in AI Discourse
 
-AI influencers function as intermediaries between researchers, developers, and the broader public. By documenting and contextualizing technical developments, they contribute to informed discussion about [[concepts/capabilities|AI capabilities]] and limitations. Their analyses can influence [[concepts/adoption|adoption]] patterns, highlight gaps in documentation, and shape public understanding of AI technology during a period of rapid development.
+AI influencers function as intermediaries between researchers, developers, and the broader public. By documenting and contextualizing technical developments, they contribute to informed discussion about [[concepts/capabilities|AI capabilities]] and limitations. Their analyses can [[concepts/power|influence]] [[concepts/adoption|adoption]] patterns, highlight gaps in documentation, and shape public understanding of AI technology during a period of rapid development.

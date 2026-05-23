@@ -6,8 +6,8 @@ tags:
   - "number-theory"
   - "real-numbers"
   - "transcendental-numbers"
-summary: "Transcendental numbers are real numbers that are not roots of any non-zero polynomial equation with rational coefficients."
-updated: 2026-04-27
+summary: Transcendental numbers are real numbers that are not roots of any non-zero polynomial equation with rational coefficients.
+updated: 2026-05-23
 group: number-theory-prime-numbers
 ---
 # Transcendental numbers
@@ -25,6 +25,5 @@ A real number that is not **algebraic**; it cannot be the root of a non-[[concep
 
 ## Backlinks
 - 2026 04 13 Patterns in pi in [[entities/contact|Contact]]
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Pi-39-Digits-for-Universe-Measurement-Trillions-for-Computational-Test|Pi 39 Digits for Universe Measurement Trillions for Computational Test]] · [▶ source](https://www.youtube.com/watch?v=FpyrF_Ci2TQ)

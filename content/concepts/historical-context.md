@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "mathematics physics string-theory quantum-field-theory pi-series"
-  - "ancient-mathematics"
-  - "pi-series-formulas"
-  - "string-theory-insights"
-  - "quantum-field-theory-pi"
-  - "historical-development"
-aliases:
-  - "Pi Series Evolution"
-  - "Historic Pi Calculations"
-  - "Math and Physics Pi Links"
-  - "New Pi Discoveries"
-summary: "The historical development of the pi series spans from ancient mathematicians like Archimedes to modern physicists involved in string theory."
-updated: 2026-04-11
+summary: The historical development of the pi series spans from ancient mathematicians like Archimedes to modern physicists involved in string theory.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Historical Context of Pi Series Development in Mathematics and Physics
@@ -39,11 +27,10 @@ In recent years, the intersection of [[concepts/mathematics|mathematics]] and ph
 
 ## Related Concepts
 - [[concepts/quantum-field-theory]]
-- string-theory
+- [[concepts/string-theory|string-theory]]
 
 ## Backlinks
 - 2026 04 10 String Theorys New [[concepts/pi-series|Pi Series]] Historical Development and True Significa
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-10: [[lab-notes/2026-04-10-String-Theorys-New-Pi-Series-Historical-Development-and-True-Significa|String Theorys New Pi Series Historical Development and True Significa]] · [▶ source](https://www.youtube.com/watch?v=nXexsSWrc1Q)

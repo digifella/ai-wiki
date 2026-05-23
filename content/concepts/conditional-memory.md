@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "llm"
-  - "memory"
-  - "sparsity"
-  - "deepseek"
-updated: 2026-04-15
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Conditional Memory
@@ -17,7 +12,7 @@ A mechanism in [[concepts/large-language-models|large language models (LLMs)]] t
 
 - **Core Problem**: Current [[concepts/transformer-architectures|Transformer architectures]] waste computation by treating all tasks uniformly, failing to distinguish between **deep thought** (complex [[concepts/reasoning|reasoning]]) and **simple [[concepts/recall|recall]]** ([[concepts/factual-knowledge|factual knowledge]]).
 - **[[concepts/solution|Solution]]**: *Conditional Memory via [[concepts/scalable-lookup|Scalable Lookup]]* introduces a new axis of **sparsity** through a scalable memory lookup system.
-- **Mechanism**: Models conditionally access pre-stored knowledge only when required, reducing unnecessary computation for recall tasks.
+- **Mechanism**: [[concepts/models|Models]] conditionally access pre-stored knowledge only when required, reducing unnecessary computation for recall tasks.
 - **Impact**: Enables efficient resource allocation without compromising performance on [[concepts/complex-reasoning|complex reasoning]] tasks.
 
 ## Related Concepts
@@ -30,7 +25,6 @@ A mechanism in [[concepts/large-language-models|large language models (LLMs)]] t
 ## Backlinks
 
 - 2026 04 14 DeepSAeek [[entities/deepseek-engram|Engram]] paper [[concepts/prompt-based-modeling|Prompt Engineering]] channel
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

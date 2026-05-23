@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "seismic-activity"
   - "ground-motion"
@@ -13,7 +12,8 @@ aliases:
   - "tremors"
   - "ground shaking"
 summary: Sudden releases of energy in Earth's crust that produce seismic waves and ground motion.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Earthquakes
 
@@ -21,16 +21,15 @@ Earthquakes are sudden releases of energy stored in Earth's crust and upper mant
 
 ## Causes and Mechanisms
 
-The primary cause of earthquakes is tectonic [[concepts/stress|stress]] accumulation along plate boundaries where the Earth's lithospheric plates interact. At convergent boundaries, plates collide and build stress as one plate is forced beneath another. At divergent boundaries, plates separate and create stress. Transform boundaries, where plates slide past each other horizontally, are particularly prone to earthquakes. Stress can also accumulate within plate interiors, though these intraplate earthquakes are generally less frequent. When accumulated stress exceeds the strength of rocks, sudden rupture and slip occur, releasing energy as seismic waves.
+The primary cause of earthquakes is tectonic [[concepts/stress|stress]] accumulation along plate boundaries where the Earth's lithospheric plates interact. [[concepts/assistive-technology|At]] convergent boundaries, plates collide and build stress as one plate is forced beneath another. At divergent boundaries, plates separate and create stress. Transform boundaries, where plates slide past each other horizontally, are particularly prone to earthquakes. Stress can also accumulate within plate interiors, though these intraplate earthquakes are generally less frequent. When accumulated stress exceeds the strength of rocks, sudden rupture and slip occur, releasing energy as seismic waves.
 
 ## Seismic Waves and Measurement
 
-Earthquakes generate several types of seismic waves that travel at different speeds and cause different types of ground motion. Primary waves (P-waves) are compressional and travel fastest, while secondary waves (S-waves) move more slowly and cause shaking perpendicular to their direction of travel. Surface waves, including Rayleigh and Love waves, travel along Earth's surface and typically cause the most damage. The magnitude of an earthquake is measured using [[concepts/musical-scales|scales]] such as the Richter scale, which quantifies energy release, while the Mercalli scale measures observed damage and intensity at specific locations.
+Earthquakes generate several types of seismic waves that travel at different speeds and cause different types of ground motion. Primary waves (P-waves) are compressional and travel fastest, while secondary waves (S-waves) move more slowly and cause shaking perpendicular to their direction of travel. Surface waves, including Rayleigh and [[concepts/love|Love]] waves, travel along Earth's surface and typically cause the most damage. The magnitude of an earthquake is measured using [[concepts/musical-scales|scales]] such as the Richter scale, which quantifies energy release, while the Mercalli scale measures observed damage and intensity at specific locations.
 
 ## Impacts and Hazards
 
-Earthquakes pose significant hazards to human populations and infrastructure, particularly in seismic zones near plate boundaries. Ground shaking can damage or collapse buildings, bridges, and other structures. Secondary hazards include landslides, [[concepts/tsunami|tsunami]] generation when earthquakes occur beneath oceans, ground liquefaction in certain soil types, and fires resulting from ruptured gas lines. Understanding earthquake mechanisms and improving building design through techniques such as [[concepts/earthquake-bearings|base isolation systems]] has become critical for reducing casualties and protecting critical infrastructure in earthquake-prone regions.
-
+Earthquakes pose significant hazards to human populations and infrastructure, particularly in seismic zones near plate boundaries. Ground shaking can damage or collapse buildings, bridges, and other structures. Secondary hazards include landslides, [[concepts/tsunami|tsunami]] generation when earthquakes occur beneath oceans, ground liquefaction in certain soil types, and fires resulting from ruptured gas lines. Understanding earthquake mechanisms and improving building [[concepts/design|design]] through techniques such as [[concepts/earthquake-bearings|base isolation systems]] has become critical for reducing casualties and protecting critical infrastructure in earthquake-prone regions.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Ritter-Island-1888-Volcanic-Flank-Collapse-and-Mega-Tsunami-Devastatio|Ritter Island 1888 Volcanic Flank Collapse and Mega Tsunami Devastatio]] · [▶ source](https://www.youtube.com/watch?v=TxgWK-I6SVs)
 - 2026-04-13: [[lab-notes/2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru|Earthquake Base Isolation Systems Functionality and Critical Infrastru]] · [▶ source](https://www.youtube.com/watch?v=qt2j2gn0yWc)

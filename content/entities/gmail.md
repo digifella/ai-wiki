@@ -1,17 +1,8 @@
 ---
 type: entity
-tags:
-  - "email"
-  - "google"
-  - "workspace"
-  - "ai"
-  - "email-service"
-  - "google-workspace"
-  - "ai-integration"
-aliases:
-  - "Google Mail"
-summary: "Gmail is a core email service provided by Google as part of Google Workspace that features integration with Gemini and [[concepts/openclaw|Clawdbot]]."
-updated: 2026-04-14
+summary: "Gmail is a core email service provided by Google as part of Google Workspace that features integration with Gemini and Clawdbot."
+updated: 2026-05-23
+stub: true
 ---
 # Gmail
 
@@ -39,8 +30,6 @@ A core [[entities/email|email]] service provided by [[entities/google]] as a fun
 - 2026 04 14 New [[concepts/gemini|Gemini]] [[concepts/tutorial|Tutorial]]
 - 2026 04 14 [[concepts/notebooklm|NotebookLM]] as [[entities/openclaw|OpenClaw]] alternative Charles Terence [[entities/harper|Harper]] channel
 - 2026 04 14 Clawbot [[entities/matthew-berman|Matthew Berman]] channel
-
-## Source Notes
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code|Building a Secure Personalized AI Second Brain using Claude Code]] · [▶ source](https://www.youtube.com/watch?v=1FiER-40zng)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "cooking"
-  - "ground beef"
-  - "chili"
-  - "ground-beef"
-  - "baking-soda"
-  - "meat-tenderization"
-  - "chili-spices"
-  - "vegetables-in-chili"
-aliases:
-  - "Beef Chili"
-  - "Chili with Ground Beef"
-  - "Braised Beef Stew"
-summary: "Ground beef chili is a dish made from ground beef, spices, and vegetables, enhanced by the use of baking soda to improve texture and juiciness."
-updated: 2026-04-13
+summary: Ground beef chili is a dish made from ground beef, spices, and vegetables, enhanced by the use of baking soda to improve texture and juiciness.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
 ---
 # Ground Beef Chili
@@ -32,7 +19,6 @@ Ground beef chili is a hearty dish that combines ground beef with various spices
 - Spices for Chili
 - Vegetables for Chili
 
-2026 04 12 Enhancing [[concepts/ground-meat|Ground Meat]] Baking Sodas Effect on Texture Juiciness and Bro
-
+2026 04 12 Enhancing [[concepts/ground-meat|Ground Meat]] Baking Sodas Effect on [[concepts/texture|Texture]] Juiciness and Bro
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro|Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro]] · [▶ source](https://www.youtube.com/watch?v=b4QqU-RQZ4w)

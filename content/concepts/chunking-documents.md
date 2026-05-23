@@ -14,8 +14,8 @@ tags:
 aliases:
   - "document segmentation"
   - "text chunking"
-summary: "Chunking involves breaking down large texts into smaller pieces to facilitate processing, storage, and retrieval in systems such as RAG and graph databases."
-updated: 2026-04-28
+summary: Chunking involves breaking down large texts into smaller pieces to facilitate processing, storage, and retrieval in systems such as RAG and graph databases.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Chunking Documents
@@ -24,7 +24,7 @@ Chunking documents involves breaking down large texts into smaller, manageable p
 
 ## Key Aspects
 
-- **[[concepts/purpose|Purpose]]**: Improves efficiency in [[concepts/document-processing|document processing]] and retrieval-augmented generation (RAG) systems.
+- **[[concepts/purpose|Purpose]]**: Improves efficiency in [[concepts/document-processing|document processing]] and [[concepts/information-provision|retrieval-augmented generation]] (RAG) systems.
 - **[[concepts/methods|Methods]]**: Various techniques exist, including fixed-size chunking, semantic chunking, and sliding window approaches.
 - **[[concepts/software|Applications]]**: Used in vector stores, [[concepts/graph-databases|graph databases]], and [[concepts/knowledge-graphs|knowledge graphs]].
 

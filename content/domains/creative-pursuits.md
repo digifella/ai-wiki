@@ -5,9 +5,9 @@ tags:
   - "domain"
   - "creative-pursuits"
 cssclasses: [domain-page]
-updated: 2026-05-02
-concept_count: 646
-entity_count: 406
+updated: 2026-05-24
+concept_count: 669
+entity_count: 467
 ---
 # Creative Pursuits
 
@@ -15,15 +15,15 @@ Photography, cameras, design, video, writing, publishing, and visual communicati
 
 <div class="domain-summary-bar">
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">646</span>
+    <span class="domain-summary-value">669</span>
     <span class="domain-summary-label">concepts</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">406</span>
+    <span class="domain-summary-value">467</span>
     <span class="domain-summary-label">entities</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">1</span>
+    <span class="domain-summary-value">226</span>
     <span class="domain-summary-label">linked notes</span>
   </div>
   <div class="domain-summary-stat">
@@ -38,58 +38,58 @@ Photography, cameras, design, video, writing, publishing, and visual communicati
 <a class="domain-group-card" href="#photography-cameras">
   <span class="domain-group-kicker">Thread</span>
   <h3>Photography &amp; Cameras</h3>
-  <p class="domain-group-stats">84 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">3D Photo Adjustments, 3D Photo Manipulation, Adobe Camera Raw Filter</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">107 concepts · 44 linked notes</p>
+  <p class="domain-group-samples">2026 04 14 How To Get Tack Sharp Photos With Any Camera, 3D Photo Adjustments, 3D Photo Manipulation</p>
+  <p class="domain-group-notes">Lightroom Color Grading: Foundations, Tools, and Cinematic Techniques · Alibaba Qwen 3.6 27B: Advanced Local Agentic Coding and Multimodal AI Capabilities</p>
 </a>
 <a class="domain-group-card" href="#lightroom-color-workflows">
   <span class="domain-group-kicker">Thread</span>
   <h3>Lightroom &amp; Color Workflows</h3>
-  <p class="domain-group-stats">173 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">8 Bit Rgb Color Mode, Adaptive Presets, Add Masking</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">191 concepts · 76 linked notes</p>
+  <p class="domain-group-samples">3D Editing, 8 Bit Rgb Color Mode, Adaptive Presets</p>
+  <p class="domain-group-notes">Lightroom Color Grading: Foundations, Tools, and Cinematic Techniques · Adobe Camera Raw Updates: Enhanced Masking, Local Color Grading, White Balance</p>
 </a>
 <a class="domain-group-card" href="#photoshop-layer-workflows">
   <span class="domain-group-kicker">Thread</span>
   <h3>Photoshop &amp; Layer Workflows</h3>
-  <p class="domain-group-stats">48 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Adjustment Layers, Advanced Blending, Ai Masks</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">64 concepts · 53 linked notes</p>
+  <p class="domain-group-samples">2026 04 08 Photoshop Renames All Your Layers Automatically Photoshop, 2026 04 10 Photoshop Betas Concepts2D Image Rotationai Rotate Object 3D, 2026 04 27 Ai Context Layer Architectures Karpathy</p>
+  <p class="domain-group-notes">Understand Anything: AI Tool for Interactive Codebase Mapping and Onboarding · llama.cpp Router Mode: Native Hot-Swappable Local LLM Switching</p>
 </a>
 <a class="domain-group-card" href="#design-systems-ui-infographics">
   <span class="domain-group-kicker">Thread</span>
   <h3>Design Systems UI &amp; Infographics</h3>
-  <p class="domain-group-stats">170 concepts · 1 linked notes</p>
-  <p class="domain-group-samples">Accessibility, Adobe Rgb, Aesthetic Design</p>
-  <p class="domain-group-notes">ai research</p>
+  <p class="domain-group-stats">104 concepts · 79 linked notes</p>
+  <p class="domain-group-samples">Adobe Rgb, Aesthetic Design, Ai Model Interaction</p>
+  <p class="domain-group-notes">DeepSeek&#x27;s AI: Thinking with Visual Primitives for Precise Multimodal Reasoning · Asgard Archaea: Recreating Endosymbiosis, Origins of Complex Life</p>
 </a>
 <a class="domain-group-card" href="#ai-image-generation-editing">
   <span class="domain-group-kicker">Thread</span>
   <h3>AI Image Generation &amp; Editing</h3>
-  <p class="domain-group-stats">10 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">19 concepts · 21 linked notes</p>
   <p class="domain-group-samples">Ai Image Editing, Ai Image Generation, Ai Image Refinement</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Kim Percy&#x27;s Visualising the Invisible Exhibition: Art and Dyslexia Strengths · Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control</p>
 </a>
 <a class="domain-group-card" href="#video-content-systems">
   <span class="domain-group-kicker">Thread</span>
   <h3>Video &amp; Content Systems</h3>
-  <p class="domain-group-stats">115 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">6 Second Clips, A Video Titled P Vs Np, Ai Content Creation</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">131 concepts · 97 linked notes</p>
+  <p class="domain-group-samples">2026 04 12 Conceptsa Video Titled P Vs Npp Vs Np Problem Conceptscomplexity, 6 Second Clips, A Video Titled P Vs Np</p>
+  <p class="domain-group-notes">LTX Desktop: Groundbreaking Free, Open-Source Local AI Video Editor with LTX 2.3 · LTX Desktop: First Native, Free, Local AI Video Editor with LTX 2.3</p>
 </a>
 <a class="domain-group-card" href="#writing-publishing">
   <span class="domain-group-kicker">Thread</span>
   <h3>Writing &amp; Publishing</h3>
-  <p class="domain-group-stats">17 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">20 concepts · 16 linked notes</p>
   <p class="domain-group-samples">Ai Copywriting, Automated Publishing, Grammar</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control · Bridging the AI Agent Speed Gap Rebuilding Human-Centric Web Infrastructure</p>
 </a>
 <a class="domain-group-card" href="#interactive-visualisation">
   <span class="domain-group-kicker">Thread</span>
   <h3>Interactive Visualisation</h3>
-  <p class="domain-group-stats">29 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">33 concepts · 52 linked notes</p>
   <p class="domain-group-samples">2D Image Rotation, 2D To 3D Transformation, 3D Character</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Understand Anything: AI Tool for Interactive Codebase Mapping and Onboarding · Alibaba Qwen 3.6 27B: Advanced Local Agentic Coding and Multimodal AI Capabilities</p>
 </a>
 </div>
 
@@ -98,20 +98,30 @@ Photography, cameras, design, video, writing, publishing, and visual communicati
 <div id="photography-cameras" class="domain-group-anchor"></div>
 ## Photography & Cameras
 
-<div class="domain-group-meta">84 concepts · 0 linked notes</div>
+<div class="domain-group-meta">107 concepts · 44 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Lightroom-Color-Grading-Foundations-Tools-and-Cinematic|Lightroom Color Grading: Foundations, Tools, and Cinematic Techniques]]
+- [[lab-notes/2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M|Alibaba Qwen 3.6 27B: Advanced Local Agentic Coding and Multimodal AI Capabilities]]
+- [[lab-notes/2026-04-30-Nuclear-Fusion-Replicating-Stellar-Power-for-Earths-Ener|Nuclear Fusion: Replicating Stellar Power for Earth's Energy Future]]
+- [[lab-notes/2026-04-27-Music-Chords-Foundations-Anatomy-Harmony-and-Scale-Relat|Music Chords: Foundations, Anatomy, Harmony, and Scale Relationships]]
+- [[lab-notes/2026-04-26-GPT-Image-2-JSON-Prompting|URL Ingest Summary]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera|2026 04 14 How To Get Tack Sharp Photos With Any Camera]]
 - [[concepts/3d-photo-adjustments|3D Photo Adjustments]]
 - [[concepts/3d-photo-manipulation|3D Photo Manipulation]]
+- [[concepts/accidental-setting-prevention|Accidental Setting Prevention]]
 - [[concepts/adobe-camera-raw-filter|Adobe Camera Raw Filter]]
+- [[concepts/ai-generated-documentary-production|Ai Generated Documentary Production]]
 - [[concepts/ai-in-photography|Ai In Photography]]
 - [[concepts/assisted-culling|Assisted Culling]]
 - [[concepts/autofocus-mode|Autofocus Mode]]
 - [[concepts/autofocus-optimization|Autofocus Optimization]]
 - [[concepts/autofocus-performance|Autofocus Performance]]
+- [[concepts/before-after-view|Before After View]]
 - [[concepts/black-and-white|Black And White]]
 - [[concepts/blur-correction|Blur Correction]]
 - [[concepts/camera-angle-control|Camera Angle Control]]
@@ -119,7 +129,6 @@ _No notes in this thread yet._
 - [[concepts/camera-app|Camera App]]
 - [[concepts/camera-app-design|Camera App Design]]
 - [[concepts/camera-app-zoom|Camera App Zoom]]
-- [[concepts/camera-functionality|Camera Functionality]]
 - [[concepts/camera-performance|Camera Performance]]
 - [[concepts/camera-raw|Camera Raw]]
 - [[concepts/camera-raw-filter|Camera Raw Filter]]
@@ -128,24 +137,35 @@ _No notes in this thread yet._
 - [[concepts/camera-settings|Camera Settings]]
 - [[concepts/camera-settings-lock|Camera Settings Lock]]
 - [[concepts/camera-system-integration|Camera System Integration]]
+- [[concepts/chord-anatomy|Chord Anatomy]]
 - [[concepts/cinematic-ad|Cinematic Ad]]
-- [[concepts/cinematic-color-grading|Cinematic Color Grading]]
 - [[concepts/cinematic-prescience|Cinematic Prescience]]
-- [[concepts/color-photography|Color Photography]]
+- [[concepts/cinematic-techniques|Cinematic Techniques]]
 - [[concepts/combining-photos|Combining Photos]]
 - [[concepts/composite-imaging|Composite Imaging]]
 - [[concepts/continuous-autofocus|Continuous Autofocus]]
+- [[concepts/counterpoint|Counterpoint]]
 - [[concepts/digital-cameras|Digital Cameras]]
+- [[concepts/digital-scanning|Digital Scanning]]
+- [[concepts/dissonance|Dissonance]]
+- [[concepts/drive-mode|Drive Mode]]
 - [[concepts/dslr-photography|Dslr Photography]]
 - [[concepts/flatbed-scanner|Flatbed Scanner]]
+- [[concepts/flatbed-scanning|Flatbed Scanning]]
+- [[concepts/focal-length|Focal Length]]
 - [[concepts/focus-lock|Focus Lock]]
 - [[concepts/focus-stacking|Focus Stacking]]
 - [[concepts/high-quality-scans|High Quality Scans]]
+- [[concepts/instagram-carousel-creation|Instagram Carousel Creation]]
+- [[concepts/jack-of-all-trades|Jack Of All Trades]]
+- [[concepts/jazz-harmony|Jazz Harmony]]
 - [[concepts/landscape-photography|Landscape Photography]]
 - [[concepts/landscape-photography-editing|Landscape Photography Editing]]
 - [[concepts/lens-blur|Lens Blur]]
 - [[concepts/lens-correction|Lens Correction]]
 - [[concepts/lippmann-photography|Lippmann Photography]]
+- [[concepts/lippmann-plates|Lippmann Plates]]
+- [[concepts/local-adjustments|Local Adjustments]]
 - [[concepts/long-lens-photography|Long Lens Photography]]
 - [[concepts/low-light-performance|Low Light Performance]]
 - [[concepts/macro-lens|Macro Lens]]
@@ -155,9 +175,11 @@ _No notes in this thread yet._
 - [[concepts/manual-controls|Manual Controls]]
 - [[concepts/manual-focus|Manual Focus]]
 - [[concepts/manual-settings|Manual Settings]]
+- [[concepts/melody|Melody]]
 - [[concepts/mirrorless-photography|Mirrorless Photography]]
-- [[concepts/mobile-photography|Mobile Photography]]
 - [[concepts/moving-subjects|Moving Subjects]]
+- [[concepts/musical-harmony|Musical Harmony]]
+- [[concepts/musical-scales|Musical Scales]]
 - [[concepts/night-photography|Night Photography]]
 - [[concepts/night-shots|Night Shots]]
 - [[concepts/optical-zoom|Optical Zoom]]
@@ -170,21 +192,28 @@ _No notes in this thread yet._
 - [[concepts/photo-enhancement|Photo Enhancement]]
 - [[concepts/photo-management|Photo Management]]
 - [[concepts/photo-organization-techniques|Photo Organization Techniques]]
-- [[concepts/photo-restoration|Photo Restoration]]
 - [[concepts/photo-retouching|Photo Retouching]]
 - [[concepts/photo-tonal-adjustments|Photo Tonal Adjustments]]
 - [[concepts/photography-business|Photography Business]]
 - [[concepts/photography-workflow|Photography Workflow]]
 - [[concepts/point-and-shoot-camera|Point And Shoot Camera]]
+- [[concepts/point-and-shoot-cameras|Point And Shoot Cameras]]
 - [[concepts/portrait-photography|Portrait Photography]]
 - [[concepts/prime-lens|Prime Lens]]
+- [[concepts/saturation-adjustment|Saturation Adjustment]]
 - [[concepts/sensor-size|Sensor Size]]
+- [[concepts/shadows|Shadows]]
+- [[concepts/shadows-adjustment|Shadows Adjustment]]
 - [[concepts/single-autofocus|Single Autofocus]]
 - [[concepts/smartphone-camera-apps|Smartphone Camera Apps]]
 - [[concepts/stationary-subjects|Stationary Subjects]]
 - [[concepts/telephoto-lens|Telephoto Lens]]
+- [[concepts/telephoto-zoom|Telephoto Zoom]]
 - [[concepts/ultra-wide-lens|Ultra Wide Lens]]
+- [[concepts/value-perception|Value Perception]]
+- [[concepts/vertical-panorama|Vertical Panorama]]
 - [[concepts/viewfinder-size|Viewfinder Size]]
+- [[concepts/vignette-effects|Vignette Effects]]
 - [[concepts/wide-angle-composition|Wide Angle Composition]]
 - [[concepts/wildlife-photography|Wildlife Photography]]
 - [[concepts/zoom-photography|Zoom Photography]]
@@ -192,12 +221,19 @@ _No notes in this thread yet._
 <div id="lightroom-color-workflows" class="domain-group-anchor"></div>
 ## Lightroom & Color Workflows
 
-<div class="domain-group-meta">173 concepts · 0 linked notes</div>
+<div class="domain-group-meta">191 concepts · 76 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Lightroom-Color-Grading-Foundations-Tools-and-Cinematic|Lightroom Color Grading: Foundations, Tools, and Cinematic Techniques]]
+- [[lab-notes/2026-05-22-Adobe-Camera-Raw-Updates-Enhanced-Masking-Local-Color-Gr|Adobe Camera Raw Updates: Enhanced Masking, Local Color Grading, White Balance]]
+- [[lab-notes/2026-05-13-LTX-Desktop-Groundbreaking-Free-Open-Source-Local-AI-Vid|LTX Desktop: Groundbreaking Free, Open-Source Local AI Video Editor with LTX 2.3]]
+- [[lab-notes/2026-05-13-LTX-Desktop-First-Native-Free-Local-AI-Video-Editor-with|LTX Desktop: First Native, Free, Local AI Video Editor with LTX 2.3]]
+- [[lab-notes/2026-05-01-Claude-AI-Productivity-Seven-Secret-Prompts-Summary-Repo|Claude AI Productivity: Seven Secret Prompts Summary Report]]
 
 **Concepts in this thread**
 
+- [[concepts/3d-editing|3D Editing]]
 - [[concepts/8-bit-rgb-color-mode|8 Bit Rgb Color Mode]]
 - [[concepts/adaptive-presets|Adaptive Presets]]
 - [[concepts/add-masking|Add Masking]]
@@ -205,7 +241,10 @@ _No notes in this thread yet._
 - [[concepts/adobe-acrobat-text-editing|Adobe Acrobat Text Editing]]
 - [[concepts/adobe-lightroom-develop-module|Adobe Lightroom Develop Module]]
 - [[concepts/ai-based-selection|Ai Based Selection]]
+- [[concepts/ai-detection|Ai Detection]]
+- [[concepts/ai-in-conceptsimage-editingimage-editing|Ai In Conceptsimage Editingimage Editing]]
 - [[concepts/ai-masking|Ai Masking]]
+- [[concepts/ai-selection|Ai Selection]]
 - [[concepts/al-dente-texture|Al Dente Texture]]
 - [[concepts/auto-editing|Auto Editing]]
 - [[concepts/automated-color-harmonization|Automated Color Harmonization]]
@@ -219,6 +258,7 @@ _No notes in this thread yet._
 - [[concepts/brush-hardness|Brush Hardness]]
 - [[concepts/brush-size|Brush Size]]
 - [[concepts/brush-size-control|Brush Size Control]]
+- [[concepts/catalog|Catalog]]
 - [[concepts/clarity-problem|Clarity Problem]]
 - [[concepts/clarity-slider|Clarity Slider]]
 - [[concepts/color-and-masking-adjustments|Color And Masking Adjustments]]
@@ -245,16 +285,15 @@ _No notes in this thread yet._
 - [[concepts/color-sampling|Color Sampling]]
 - [[concepts/color-saturation|Color Saturation]]
 - [[concepts/color-spaces|Color Spaces]]
-- [[concepts/color-temperature|Color Temperature]]
 - [[concepts/color-theory|Color Theory]]
 - [[concepts/color-tint|Color Tint]]
 - [[concepts/color-uniformity|Color Uniformity]]
 - [[concepts/color-variance-control|Color Variance Control]]
 - [[concepts/color-vibrancy|Color Vibrancy]]
 - [[concepts/color-viewing-modes|Color Viewing Modes]]
+- [[concepts/color-wheels|Color Wheels]]
 - [[concepts/dehaze-effect|Dehaze Effect]]
 - [[concepts/dehaze-slider|Dehaze Slider]]
-- [[concepts/depth-map|Depth Map]]
 - [[concepts/depth-range-masking|Depth Range Masking]]
 - [[concepts/develop-module|Develop Module]]
 - [[concepts/digital-compositing|Digital Compositing]]
@@ -262,6 +301,7 @@ _No notes in this thread yet._
 - [[concepts/dynamic-aod-color-matching|Dynamic Aod Color Matching]]
 - [[concepts/dynamic-range|Dynamic Range]]
 - [[concepts/edge-refinement|Edge Refinement]]
+- [[concepts/editing-conceptsworkflow-automationworkflow-optimization|Editing Conceptsworkflow Automationworkflow Optimization]]
 - [[concepts/egg-texture|Egg Texture]]
 - [[concepts/element-based-editing|Element Based Editing]]
 - [[concepts/exposure|Exposure]]
@@ -269,6 +309,7 @@ _No notes in this thread yet._
 - [[concepts/exposure-manipulation|Exposure Manipulation]]
 - [[concepts/exposure-settings|Exposure Settings]]
 - [[concepts/film-presets|Film Presets]]
+- [[concepts/flags|Flags]]
 - [[concepts/foregroundbackground-separation|Foregroundbackground Separation]]
 - [[concepts/foundational-color|Foundational Color]]
 - [[concepts/fruit-texture-modification|Fruit Texture Modification]]
@@ -282,31 +323,34 @@ _No notes in this thread yet._
 - [[concepts/hazy-backgrounds|Hazy Backgrounds]]
 - [[concepts/highlight-adjustment|Highlight Adjustment]]
 - [[concepts/hsl-hue|Hsl Hue]]
+- [[concepts/hslcolor-mixer|Hslcolor Mixer]]
 - [[concepts/hue|Hue]]
 - [[concepts/hue-adjustment|Hue Adjustment]]
+- [[concepts/hue-vs-chroma|Hue Vs Chroma]]
 - [[concepts/image-detail|Image Detail]]
 - [[concepts/image-editing|Image Editing]]
 - [[concepts/image-masking|Image Masking]]
 - [[concepts/image-stacking|Image Stacking]]
 - [[concepts/image-straightening|Image Straightening]]
 - [[concepts/image-upscaling|Image Upscaling]]
-- [[concepts/images|Images]]
 - [[concepts/instruction-based-editing|Instruction Based Editing]]
 - [[concepts/intersect-masking|Intersect Masking]]
+- [[concepts/keywords|Keywords]]
 - [[concepts/landscape-masking|Landscape Masking]]
 - [[concepts/layer-compositing|Layer Compositing]]
 - [[concepts/layer-masking|Layer Masking]]
 - [[concepts/lighting-control|Lighting Control]]
 - [[concepts/lighting-matching|Lighting Matching]]
 - [[concepts/lightroom|Lightroom]]
-- [[concepts/lightroom-ai|Lightroom Ai]]
 - [[concepts/lightroom-ai-tips|Lightroom Ai Tips]]
 - [[concepts/lightroom-catalog|Lightroom Catalog]]
+- [[concepts/lightroom-foundations|Lightroom Foundations]]
 - [[concepts/lightroom-integration|Lightroom Integration]]
 - [[concepts/lightroom-masking|Lightroom Masking]]
 - [[concepts/lightroom-masking-tools|Lightroom Masking Tools]]
 - [[concepts/lightroom-plugin|Lightroom Plugin]]
 - [[concepts/lightroom-workflow|Lightroom Workflow]]
+- [[concepts/local-color-grading|Local Color Grading]]
 - [[concepts/manual-masking|Manual Masking]]
 - [[concepts/masking|Masking]]
 - [[concepts/masking-tool|Masking Tool]]
@@ -315,8 +359,12 @@ _No notes in this thread yet._
 - [[concepts/meat-texture|Meat Texture]]
 - [[concepts/mountain-detection|Mountain Detection]]
 - [[concepts/multiple-exposure|Multiple Exposure]]
+- [[concepts/native-machine-editing|Native Machine Editing]]
 - [[concepts/natural-ground-detection|Natural Ground Detection]]
 - [[concepts/non-destructive-editing|Non Destructive Editing]]
+- [[concepts/non-linear-editing|Non Linear Editing]]
+- [[concepts/non-linear-editing-workflow|Non Linear Editing Workflow]]
+- [[concepts/non-linear-video-editing|Non Linear Video Editing]]
 - [[concepts/on-device-editing|On Device Editing]]
 - [[concepts/opacity|Opacity]]
 - [[concepts/open-source-image-editing|Open Source Image Editing]]
@@ -328,6 +376,7 @@ _No notes in this thread yet._
 - [[concepts/portrait-masking|Portrait Masking]]
 - [[concepts/post-production-stress-reduction|Post Production Stress Reduction]]
 - [[concepts/precision-masking|Precision Masking]]
+- [[concepts/presence|Presence]]
 - [[concepts/presence-sliders|Presence Sliders]]
 - [[concepts/reflection-removal|Reflection Removal]]
 - [[concepts/saturation-control|Saturation Control]]
@@ -336,9 +385,9 @@ _No notes in this thread yet._
 - [[concepts/selective-blending|Selective Blending]]
 - [[concepts/selective-reveal|Selective Reveal]]
 - [[concepts/self-editing-search-agents|Self Editing Search Agents]]
-- [[concepts/sequential-editing|Sequential Editing]]
 - [[concepts/shadow-adjustment|Shadow Adjustment]]
 - [[concepts/shadow-matching|Shadow Matching]]
+- [[concepts/shaken-vs-stirred-technique|Shaken Vs Stirred Technique]]
 - [[concepts/sharpness|Sharpness]]
 - [[concepts/silhouette-reduction|Silhouette Reduction]]
 - [[concepts/single-click-editing|Single Click Editing]]
@@ -347,6 +396,8 @@ _No notes in this thread yet._
 - [[concepts/sky-masking|Sky Masking]]
 - [[concepts/smart-collections|Smart Collections]]
 - [[concepts/smart-filters|Smart Filters]]
+- [[concepts/star-ratings|Star Ratings]]
+- [[concepts/straightening|Straightening]]
 - [[concepts/structural-color|Structural Color]]
 - [[concepts/style-presets|Style Presets]]
 - [[concepts/subject-isolation|Subject Isolation]]
@@ -366,8 +417,10 @@ _No notes in this thread yet._
 - [[concepts/vegetation-detection|Vegetation Detection]]
 - [[concepts/video-editing|Video Editing]]
 - [[concepts/visual-editing|Visual Editing]]
+- [[concepts/white-balance-adjustments|White Balance Adjustments]]
 - [[concepts/white-level-adjustment|White Level Adjustment]]
 - [[concepts/whites|Whites]]
+- [[concepts/whites-adjustment|Whites Adjustment]]
 - [[concepts/xmp|Xmp]]
 - [[concepts/xmp-manipulation|Xmp Manipulation]]
 - [[concepts/zero-editing|Zero Editing]]
@@ -375,22 +428,42 @@ _No notes in this thread yet._
 <div id="photoshop-layer-workflows" class="domain-group-anchor"></div>
 ## Photoshop & Layer Workflows
 
-<div class="domain-group-meta">48 concepts · 0 linked notes</div>
+<div class="domain-group-meta">64 concepts · 53 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Understand-Anything-AI-Tool-for-Interactive-Codebase-Map|Understand Anything: AI Tool for Interactive Codebase Mapping and Onboarding]]
+- [[lab-notes/2026-05-22-llama.cpp-Router-Mode-Native-Hot-Swappable-Local-LLM-Swi|llama.cpp Router Mode: Native Hot-Swappable Local LLM Switching]]
+- [[lab-notes/2026-05-07-Adonis-LORA-Efficient-AI-Image-Upscaling-and-Detail-Reco|Adonis LORA: Efficient AI Image Upscaling and Detail Recovery via Flux 2 Klein]]
+- [[lab-notes/2026-05-01-Modern-AI-Agentic-Harness-Architecture-Components-and-Fr|Modern AI Agentic Harness: Architecture, Components, and Framework Differences]]
+- [[lab-notes/2026-04-30-Photoshop-Camera-Raw-Filter-Color-Grading-for-Photo-Tona|Photoshop Camera Raw Filter: Color Grading for Photo Tonal Adjustments]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-08-photoshop-renames-all-your-layers-automatically-photoshop|2026 04 08 Photoshop Renames All Your Layers Automatically Photoshop]]
+- [[concepts/2026-04-10-photoshop-betas-concepts2d-image-rotationai-rotate-object-3d|2026 04 10 Photoshop Betas Concepts2D Image Rotationai Rotate Object 3D]]
+- [[concepts/2026-04-27-ai-context-layer-architectures-karpathy|2026 04 27 Ai Context Layer Architectures Karpathy]]
+- [[concepts/abstraction-layer|Abstraction Layer]]
 - [[concepts/adjustment-layers|Adjustment Layers]]
 - [[concepts/advanced-blending|Advanced Blending]]
 - [[concepts/ai-masks|Ai Masks]]
 - [[concepts/automated-layer-management|Automated Layer Management]]
+- [[concepts/automated-layers-use-ai-driven-layer-management-to-automate-repetitive-tasks|Automated Layers Use Ai Driven Layer Management To Automate Repetitive Tasks]]
+- [[concepts/black-point-adjustment|Black Point Adjustment]]
 - [[concepts/blend-if|Blend If]]
+- [[concepts/blend-if-sliders|Blend If Sliders]]
+- [[concepts/chain-link-fence-removal|Chain Link Fence Removal]]
 - [[concepts/decoder-layers|Decoder Layers]]
+- [[concepts/depth-map|Depth Map]]
+- [[concepts/depth-maps|Depth Maps]]
 - [[concepts/detail-removal|Detail Removal]]
+- [[concepts/digital-painting|Digital Painting]]
 - [[concepts/generative-fill|Generative Fill]]
 - [[concepts/generative-upscale|Generative Upscale]]
 - [[concepts/granular-manipulation|Granular Manipulation]]
+- [[concepts/harmonize-feature|Harmonize Feature]]
+- [[concepts/image-adjustments|Image Adjustments]]
+- [[concepts/image-resolution|Image Resolution]]
 - [[concepts/image-size|Image Size]]
 - [[concepts/internet-layer|Internet Layer]]
 - [[concepts/keyboard-shortcuts-for-photoshop|Keyboard Shortcuts For Photoshop]]
@@ -416,7 +489,9 @@ _No notes in this thread yet._
 - [[concepts/photoshop-techniques|Photoshop Techniques]]
 - [[concepts/photoshop-tool|Photoshop Tool]]
 - [[concepts/photoshop-workflow-automation|Photoshop Workflow Automation]]
+- [[concepts/pixels-per-inch|Pixels Per Inch]]
 - [[concepts/portrait-retouching|Portrait Retouching]]
+- [[concepts/preserve-details-20|Preserve Details 20]]
 - [[concepts/preserving-details-20|Preserving Details 20]]
 - [[concepts/remix-photos|Remix Photos]]
 - [[concepts/remove-background|Remove Background]]
@@ -433,38 +508,31 @@ _No notes in this thread yet._
 <div id="design-systems-ui-infographics" class="domain-group-anchor"></div>
 ## Design Systems UI & Infographics
 
-<div class="domain-group-meta">170 concepts · 1 linked notes</div>
+<div class="domain-group-meta">104 concepts · 79 linked notes</div>
 
 **Representative notes**
 
-- [[inbox/ai-research|ai research]]
+- [[lab-notes/2026-05-22-DeepSeeks-AI-Thinking-with-Visual-Primitives-for-Precise|DeepSeek's AI: Thinking with Visual Primitives for Precise Multimodal Reasoning]]
+- [[lab-notes/2026-04-30-Asgard-Archaea-Recreating-Endosymbiosis-Origins-of-Compl|Asgard Archaea: Recreating Endosymbiosis, Origins of Complex Life]]
+- [[lab-notes/2026-04-29-Report-on-Kim-Percys-Visualizing-the-Invisible-Dyslexia|Report on Kim Percy's Visualizing the Invisible: Dyslexia Through Art]]
+- [[lab-notes/2026-04-29-Kim-Percys-Visualising-the-Invisible-Exhibition-Art-and|Kim Percy's Visualising the Invisible Exhibition: Art and Dyslexia Strengths]]
+- [[lab-notes/2026-04-27-V-22-Osprey-Tiltrotor-Engineering-Its-Complex-Dual-Fligh|V-22 Osprey Tiltrotor: Engineering Its Complex Dual Flight Modes]]
 
 **Concepts in this thread**
 
-- [[concepts/accessibility|Accessibility]]
 - [[concepts/adobe-rgb|Adobe Rgb]]
 - [[concepts/aesthetic-design|Aesthetic Design]]
-- [[concepts/affordances|Affordances]]
-- [[concepts/ai-design-systems|Ai Design Systems]]
-- [[concepts/ai-generated-uiux-design|Ai Generated Uiux Design]]
-- [[concepts/ai-interaction-design|Ai Interaction Design]]
 - [[concepts/ai-model-interaction|Ai Model Interaction]]
 - [[concepts/ai-native-design-canvas|Ai Native Design Canvas]]
 - [[concepts/algorithm-conceptsdesigndesign|Algorithm Conceptsdesigndesign]]
 - [[concepts/appearance-change|Appearance Change]]
 - [[concepts/appearance-transformation|Appearance Transformation]]
-- [[concepts/application-interaction|Application Interaction]]
-- [[concepts/application-programming-interface-api|Application Programming Interface Api]]
 - [[concepts/architectural-improvements|Architectural Improvements]]
 - [[concepts/architecturetechnique|Architecturetechnique]]
 - [[concepts/art|Art]]
 - [[concepts/artistic-taste|Artistic Taste]]
 - [[concepts/atmospheric-interaction|Atmospheric Interaction]]
 - [[concepts/audio-visual-synthesis|Audio Visual Synthesis]]
-- [[concepts/automated-design-workflows|Automated Design Workflows]]
-- [[concepts/automated-infographic-generation|Automated Infographic Generation]]
-- [[concepts/automated-interface-design|Automated Interface Design]]
-- [[concepts/automated-uiux-design|Automated Uiux Design]]
 - [[concepts/automated-visual-asset-creation|Automated Visual Asset Creation]]
 - [[concepts/automated-visual-strategy|Automated Visual Strategy]]
 - [[concepts/blacks|Blacks]]
@@ -475,117 +543,67 @@ _No notes in this thread yet._
 - [[concepts/canva-connector|Canva Connector]]
 - [[concepts/canva-connector-integration|Canva Connector Integration]]
 - [[concepts/canva-grab-text-feature|Canva Grab Text Feature]]
+- [[concepts/canvas|Canvas]]
 - [[concepts/canvas-interface|Canvas Interface]]
 - [[concepts/cartoon|Cartoon]]
 - [[concepts/character-consistency|Character Consistency]]
-- [[concepts/chatgpt-style-interface|Chatgpt Style Interface]]
 - [[concepts/circular-pattern|Circular Pattern]]
 - [[concepts/collaborative-design|Collaborative Design]]
-- [[concepts/command-line-interface|Command Line Interface]]
-- [[concepts/command-line-interface-cli|Command Line Interface Cli]]
-- [[concepts/context-aware-ai-interaction|Context Aware Ai Interaction]]
 - [[concepts/contrast|Contrast]]
-- [[concepts/conversational-interface|Conversational Interface]]
-- [[concepts/conversational-uiux|Conversational Uiux]]
 - [[concepts/custom-presentation-design|Custom Presentation Design]]
 - [[concepts/dark-and-moody|Dark And Moody]]
 - [[concepts/design|Design]]
 - [[concepts/design-elegance|Design Elegance]]
-- [[concepts/design-iteration|Design Iteration]]
 - [[concepts/design-philosophies|Design Philosophies]]
-- [[concepts/design-thinking|Design Thinking]]
-- [[concepts/design-to-code-conversion|Design To Code Conversion]]
-- [[concepts/design-workflows|Design Workflows]]
-- [[concepts/desktop-interface|Desktop Interface]]
 - [[concepts/desktop-native-ai-interaction|Desktop Native Ai Interaction]]
 - [[concepts/dynamic-resolution|Dynamic Resolution]]
 - [[concepts/dynamic-sizing|Dynamic Sizing]]
 - [[concepts/dynamic-view|Dynamic View]]
-- [[concepts/earthquake-resistant-design|Earthquake Resistant Design]]
 - [[concepts/electromagnetic-interaction|Electromagnetic Interaction]]
 - [[concepts/experimental-conceptsdesigndesign|Experimental Conceptsdesigndesign]]
-- [[concepts/figma-design-input|Figma Design Input]]
 - [[concepts/file-interaction|File Interaction]]
-- [[concepts/file-interaction-automation|File Interaction Automation]]
 - [[concepts/flipped-interaction|Flipped Interaction]]
 - [[concepts/full-image-regeneration|Full Image Regeneration]]
-- [[concepts/gallery-o2-suites|Gallery O2 Suites]]
-- [[concepts/generative-ai-design-canvas|Generative Ai Design Canvas]]
-- [[concepts/generative-ai-design-tool|Generative Ai Design Tool]]
 - [[concepts/generative-ui|Generative Ui]]
-- [[concepts/generative-uiux|Generative Uiux]]
 - [[concepts/global-cuisine-style|Global Cuisine Style]]
 - [[concepts/google-slides|Google Slides]]
 - [[concepts/granular-control|Granular Control]]
 - [[concepts/graphic-design-automation|Graphic Design Automation]]
-- [[concepts/graphical-user-interface-for-ai|Graphical User Interface For Ai]]
-- [[concepts/grids|Grids]]
 - [[concepts/gui-interface|Gui Interface]]
-- [[concepts/high-fidelity-ui|High Fidelity Ui]]
-- [[concepts/high-fidelity-user-interface-design|High Fidelity User Interface Design]]
 - [[concepts/high-quality-images|High Quality Images]]
 - [[concepts/home-screen-design|Home Screen Design]]
 - [[concepts/hong-kong-style-cafes|Hong Kong Style Cafes]]
-- [[concepts/human-affordance|Human Affordance]]
 - [[concepts/human-centric-design|Human Centric Design]]
 - [[concepts/hybrid-aircraft-design|Hybrid Aircraft Design]]
 - [[concepts/image-contrast|Image Contrast]]
-- [[concepts/inclusive-conceptsdesigndesign|Inclusive Conceptsdesigndesign]]
-- [[concepts/infographic|Infographic]]
-- [[concepts/infographic-creation|Infographic Creation]]
-- [[concepts/infographic-design|Infographic Design]]
-- [[concepts/infographic-seo|Infographic Seo]]
-- [[concepts/infographic-text-correction|Infographic Text Correction]]
-- [[concepts/infographic-transformation|Infographic Transformation]]
+- [[concepts/image-text-correction|Image Text Correction]]
 - [[concepts/information-design|Information Design]]
 - [[concepts/instagram-carousel-design|Instagram Carousel Design]]
 - [[concepts/instructional-design|Instructional Design]]
 - [[concepts/intelligent-design|Intelligent Design]]
-- [[concepts/interactive-course-design|Interactive Course Design]]
 - [[concepts/internet-interaction|Internet Interaction]]
-- [[concepts/layered-ui-design|Layered Ui Design]]
-- [[concepts/markdown-based-design-documentation|Markdown Based Design Documentation]]
-- [[concepts/markdown-based-design-workflows|Markdown Based Design Workflows]]
 - [[concepts/markdown-based-presentation-tools|Markdown Based Presentation Tools]]
 - [[concepts/minimalist-design|Minimalist Design]]
 - [[concepts/mobile-ai-interaction|Mobile Ai Interaction]]
-- [[concepts/mobile-application-design|Mobile Application Design]]
-- [[concepts/mobile-to-desktop-ai-interaction|Mobile To Desktop Ai Interaction]]
 - [[concepts/modern-skyscraper-design|Modern Skyscraper Design]]
-- [[concepts/natural-language-design-generation|Natural Language Design Generation]]
-- [[concepts/notebooklm-infographic|Notebooklm Infographic]]
 - [[concepts/perceived-contrast|Perceived Contrast]]
 - [[concepts/pixel-density|Pixel Density]]
 - [[concepts/plain-text-descriptions|Plain Text Descriptions]]
-- [[concepts/power-user-interface|Power User Interface]]
 - [[concepts/presentation-tool|Presentation Tool]]
 - [[concepts/product-design|Product Design]]
 - [[concepts/programmatic-interaction|Programmatic Interaction]]
 - [[concepts/publication-quality-diagrams|Publication Quality Diagrams]]
-- [[concepts/responsive-design|Responsive Design]]
-- [[concepts/seismic-conceptsdesigndesign-principles|Seismic Conceptsdesigndesign Principles]]
-- [[concepts/sidebar-interface|Sidebar Interface]]
+- [[concepts/sequential-block-layout|Sequential Block Layout]]
 - [[concepts/sketch|Sketch]]
 - [[concepts/sketch-based-design-input|Sketch Based Design Input]]
-- [[concepts/sketch-to-ui-design|Sketch To Ui Design]]
 - [[concepts/slide-decks|Slide Decks]]
-- [[concepts/social-interaction|Social Interaction]]
 - [[concepts/standardized-layouts|Standardized Layouts]]
 - [[concepts/structureux|Structureux]]
 - [[concepts/style|Style]]
 - [[concepts/style-transfer|Style Transfer]]
-- [[concepts/terminal-based-interface|Terminal Based Interface]]
-- [[concepts/terminal-interface-personalization|Terminal Interface Personalization]]
-- [[concepts/terminal-user-interface-tui|Terminal User Interface Tui]]
 - [[concepts/text-based-design-input|Text Based Design Input]]
-- [[concepts/text-to-ui-design|Text To Ui Design]]
-- [[concepts/typography|Typography]]
-- [[concepts/ui-design-automation|Ui Design Automation]]
 - [[concepts/ui-realism|Ui Realism]]
-- [[concepts/uiux-design|Uiux Design]]
 - [[concepts/unified-interface|Unified Interface]]
-- [[concepts/user-experience-design|User Experience Design]]
-- [[concepts/user-interface|User Interface]]
 - [[concepts/vehicle-design|Vehicle Design]]
 - [[concepts/vibe-design|Vibe Design]]
 - [[concepts/visual-aesthetics|Visual Aesthetics]]
@@ -594,53 +612,70 @@ _No notes in this thread yet._
 - [[concepts/visual-asset-creation|Visual Asset Creation]]
 - [[concepts/visual-attention-directing|Visual Attention Directing]]
 - [[concepts/visual-attention-manipulation|Visual Attention Manipulation]]
-- [[concepts/visual-blog-creation|Visual Blog Creation]]
 - [[concepts/visual-blog-editor|Visual Blog Editor]]
 - [[concepts/visual-communication|Visual Communication]]
 - [[concepts/visual-elegance|Visual Elegance]]
 - [[concepts/visual-generation|Visual Generation]]
 - [[concepts/visual-perception|Visual Perception]]
+- [[concepts/visual-primitives|Visual Primitives]]
 - [[concepts/visual-quality-assessment|Visual Quality Assessment]]
 - [[concepts/visual-rendering|Visual Rendering]]
 - [[concepts/visual-representation|Visual Representation]]
 - [[concepts/visual-slide-design|Visual Slide Design]]
 - [[concepts/visual-strategy-development|Visual Strategy Development]]
 - [[concepts/visual-understanding|Visual Understanding]]
-- [[concepts/voice-design|Voice Design]]
-- [[concepts/web-application-design|Web Application Design]]
-- [[concepts/webmobile-app-design|Webmobile App Design]]
-- [[concepts/website-interaction|Website Interaction]]
-- [[concepts/workflow-design|Workflow Design]]
 
 <div id="ai-image-generation-editing" class="domain-group-anchor"></div>
 ## AI Image Generation & Editing
 
-<div class="domain-group-meta">10 concepts · 0 linked notes</div>
+<div class="domain-group-meta">19 concepts · 21 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-29-Kim-Percys-Visualising-the-Invisible-Exhibition-Art-and|Kim Percy's Visualising the Invisible Exhibition: Art and Dyslexia Strengths]]
+- [[lab-notes/2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control|Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control]]
+- [[lab-notes/2026-04-25-Advanced-AI-Video-Production-Using-GPT-Image-2-and-Iterative-Prompt-Engineering|Advanced AI Video Production Using GPT Image 2 and Iterative Prompt Engineering]]
+- [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]]
+- [[lab-notes/2026-04-19-Seedance-20-AI-Video-Claude-AI-Prompting-Workflow-for-Professional-Com|Seedance 20 AI Video Claude AI Prompting Workflow for Professional Commercials]]
 
 **Concepts in this thread**
 
 - [[concepts/ai-image-editing|Ai Image Editing]]
 - [[concepts/ai-image-generation|Ai Image Generation]]
 - [[concepts/ai-image-refinement|Ai Image Refinement]]
+- [[concepts/ai-storyboarding|Ai Storyboarding]]
+- [[concepts/aspect-ratio-control|Aspect Ratio Control]]
+- [[concepts/automated-infographic-generation|Automated Infographic Generation]]
+- [[concepts/conceptsconsistent-image-generationconsistent-image-generation|Conceptsconsistent Image Generationconsistent Image Generation]]
 - [[concepts/consistent-image-generation|Consistent Image Generation]]
+- [[concepts/image-element-decomposition|Image Element Decomposition]]
 - [[concepts/image-generation-control|Image Generation Control]]
 - [[concepts/image-segmentation-models|Image Segmentation Models]]
+- [[concepts/landscape-mixer|Landscape Mixer]]
+- [[concepts/lighting-manipulation|Lighting Manipulation]]
 - [[concepts/multilingual-image-generation|Multilingual Image Generation]]
 - [[concepts/one-shot-image-generation-models|One Shot Image Generation Models]]
+- [[concepts/seascape-transformation|Seascape Transformation]]
 - [[concepts/skin-tones|Skin Tones]]
 - [[concepts/text-to-image-generation|Text To Image Generation]]
+- [[concepts/visualizing-dyslexia|Visualizing Dyslexia]]
 
 <div id="video-content-systems" class="domain-group-anchor"></div>
 ## Video & Content Systems
 
-<div class="domain-group-meta">115 concepts · 0 linked notes</div>
+<div class="domain-group-meta">131 concepts · 97 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-13-LTX-Desktop-Groundbreaking-Free-Open-Source-Local-AI-Vid|LTX Desktop: Groundbreaking Free, Open-Source Local AI Video Editor with LTX 2.3]]
+- [[lab-notes/2026-05-13-LTX-Desktop-First-Native-Free-Local-AI-Video-Editor-with|LTX Desktop: First Native, Free, Local AI Video Editor with LTX 2.3]]
+- [[lab-notes/2026-05-11-Higgsfield-Enabling-LLMs-like-Claude-for-Media-Generatio|Higgsfield: Enabling LLMs like Claude for Media Generation]]
+- [[lab-notes/2026-05-10-Americas-Test-Kitchen-Science-and-Techniques-for-Fluffy|America's Test Kitchen: Science and Techniques for Fluffy Pancakes]]
+- [[lab-notes/2026-05-06-OpenAI-Codex-Remotion-AI-Powered-Motion-Graphics-Video-P|OpenAI Codex & Remotion: AI-Powered Motion Graphics Video Production]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-12-conceptsa-video-titled-p-vs-npp-vs-np-problem-conceptscomplexity|2026 04 12 Conceptsa Video Titled P Vs Npp Vs Np Problem Conceptscomplexity]]
 - [[concepts/6-second-clips|6 Second Clips]]
 - [[concepts/a-video-titled-p-vs-np|A Video Titled P Vs Np]]
 - [[concepts/ai-content-creation|Ai Content Creation]]
@@ -656,6 +691,7 @@ _No notes in this thread yet._
 - [[concepts/ai-video-automation|Ai Video Automation]]
 - [[concepts/ai-video-cloning|Ai Video Cloning]]
 - [[concepts/ai-video-creation|Ai Video Creation]]
+- [[concepts/ai-video-editor|Ai Video Editor]]
 - [[concepts/animated-whiteboard-video-creation|Animated Whiteboard Video Creation]]
 - [[concepts/audio-to-video-conversion|Audio To Video Conversion]]
 - [[concepts/automated-content-calendar-management|Automated Content Calendar Management]]
@@ -695,9 +731,11 @@ _No notes in this thread yet._
 - [[concepts/heygen|Heygen]]
 - [[concepts/high-quality-avatar-setup|High Quality Avatar Setup]]
 - [[concepts/high-retention-video-creation|High Retention Video Creation]]
+- [[concepts/highlights-the-success-of-ai-produced-content-across-youtube-instagram-and-more|Highlights The Success Of Ai Produced Content Across Youtube Instagram And More]]
 - [[concepts/image-to-video|Image To Video]]
 - [[concepts/interactive-podcast-generation|Interactive Podcast Generation]]
 - [[concepts/interactive-travel-content|Interactive Travel Content]]
+- [[concepts/local-ai-video-editor|Local Ai Video Editor]]
 - [[concepts/local-ai-video-generation|Local Ai Video Generation]]
 - [[concepts/local-video-generation|Local Video Generation]]
 - [[concepts/lyria-realtime|Lyria Realtime]]
@@ -705,15 +743,17 @@ _No notes in this thread yet._
 - [[concepts/marketing-content-workflows|Marketing Content Workflows]]
 - [[concepts/media-generation|Media Generation]]
 - [[concepts/media-server|Media Server]]
+- [[concepts/moisture-content|Moisture Content]]
+- [[concepts/motion-graphics-video-production|Motion Graphics Video Production]]
 - [[concepts/multi-platform-content-distribution|Multi Platform Content Distribution]]
 - [[concepts/multi-platform-content-management|Multi Platform Content Management]]
 - [[concepts/multi-platform-content-strategy|Multi Platform Content Strategy]]
 - [[concepts/multilingual-speech-synthesis|Multilingual Speech Synthesis]]
+- [[concepts/non-linear-video-editor|Non Linear Video Editor]]
 - [[concepts/obs|Obs]]
 - [[concepts/open-source-ai-video-models|Open Source Ai Video Models]]
 - [[concepts/performance-based-content-optimization|Performance Based Content Optimization]]
 - [[concepts/personal-avatar-generation|Personal Avatar Generation]]
-- [[concepts/pictory|Pictory]]
 - [[concepts/plot-outlines|Plot Outlines]]
 - [[concepts/podcast-summarization|Podcast Summarization]]
 - [[concepts/project-based-content-workflows|Project Based Content Workflows]]
@@ -725,6 +765,7 @@ _No notes in this thread yet._
 - [[concepts/short-form-video-automation|Short Form Video Automation]]
 - [[concepts/slide-to-video-transformation|Slide To Video Transformation]]
 - [[concepts/social-media-carousels|Social Media Carousels]]
+- [[concepts/social-media-conceptsautomationautomation|Social Media Conceptsautomationautomation]]
 - [[concepts/social-media-content-optimization|Social Media Content Optimization]]
 - [[concepts/social-media-posts|Social Media Posts]]
 - [[concepts/social-media-video-automation|Social Media Video Automation]]
@@ -734,7 +775,12 @@ _No notes in this thread yet._
 - [[concepts/stock-characters|Stock Characters]]
 - [[concepts/text-to-speech-synthesis|Text To Speech Synthesis]]
 - [[concepts/text-to-video|Text To Video]]
+- [[concepts/the-conceptsa-video-titled-p-vs-npp-versus-np-problem-is-often-considered-the|The Conceptsa Video Titled P Vs Npp Versus Np Problem Is Often Considered The]]
+- [[concepts/the-video-by-entitiesellis-parkerellis-parker-from-entitieslevel-up-rnlevel-up|The Video By Entitiesellis Parkerellis Parker From Entitieslevel Up Rnlevel Up]]
+- [[concepts/the-video-by-entitiesup-and-atomup-and-atom-uses-analogies-like-the-rubiks-cube|The Video By Entitiesup And Atomup And Atom Uses Analogies Like The Rubiks Cube]]
+- [[concepts/the-video-discusses-the-paradox-that-conditions-considered-deadly-might-actually|The Video Discusses The Paradox That Conditions Considered Deadly Might Actually]]
 - [[concepts/the-video-rotorquant-vs-turboquant-31x-speed-claim|The Video Rotorquant Vs Turboquant 31X Speed Claim]]
+- [[concepts/this-video-explains-how-a-small-amount-of-baking-soda-can-make-your-ground-meat|This Video Explains How A Small Amount Of Baking Soda Can Make Your Ground Meat]]
 - [[concepts/unwatermarked-video-production|Unwatermarked Video Production]]
 - [[concepts/video-based-topic-investigation|Video Based Topic Investigation]]
 - [[concepts/video-codecs|Video Codecs]]
@@ -747,32 +793,45 @@ _No notes in this thread yet._
 - [[concepts/video-generation|Video Generation]]
 - [[concepts/video-overviews|Video Overviews]]
 - [[concepts/video-resizing|Video Resizing]]
+- [[concepts/video-resource|Video Resource]]
+- [[concepts/video-walkthrough|Video Walkthrough]]
 - [[concepts/videorefer-suite|Videorefer Suite]]
 - [[concepts/viral-content-generation|Viral Content Generation]]
 - [[concepts/viral-video-creation|Viral Video Creation]]
 - [[concepts/voice-assistants|Voice Assistants]]
 - [[concepts/voice-cloning|Voice Cloning]]
 - [[concepts/voice-consistency|Voice Consistency]]
+- [[concepts/voice-design|Voice Design]]
 - [[concepts/voice-enhancement|Voice Enhancement]]
 - [[concepts/voice-matched-voiceover|Voice Matched Voiceover]]
 - [[concepts/voice-selection|Voice Selection]]
+- [[concepts/webinar-production|Webinar Production]]
 
 <div id="writing-publishing" class="domain-group-anchor"></div>
 ## Writing & Publishing
 
-<div class="domain-group-meta">17 concepts · 0 linked notes</div>
+<div class="domain-group-meta">20 concepts · 16 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control|Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control]]
+- [[lab-notes/2026-04-17-Bridging-the-AI-Agent-Speed-Gap-Rebuilding-Human-Centric-Web-Infrastru|Bridging the AI Agent Speed Gap Rebuilding Human-Centric Web Infrastructure]]
+- [[lab-notes/2026-04-11-Uncovering-Jake-Humphreys-Why-Using-Simon-Sineks-Story-Method|Uncovering Jake Humphreys Why Using Simon Sineks Story Method]]
+- [[lab-notes/2026-04-11-Claude-Co-Work-8-Advanced-Use-Cases-for-AI-Powered-Workflow-Automation|Claude Co-Work 8 Advanced Use Cases for AI-Powered Workflow Automation]]
+- [[lab-notes/2026-04-10-Geminis-New-Notebooks-Feature-Integrated-AI-Research-and-Chat-Organiza|Geminis New Notebooks Feature Integrated AI Research and Chat Organization]]
 
 **Concepts in this thread**
 
 - [[concepts/ai-copywriting|Ai Copywriting]]
 - [[concepts/automated-publishing|Automated Publishing]]
 - [[concepts/grammar|Grammar]]
+- [[concepts/infographic-seo|Infographic Seo]]
 - [[concepts/language-grammar|Language Grammar]]
 - [[concepts/marketing-copywriting|Marketing Copywriting]]
 - [[concepts/multi-platform-posting|Multi Platform Posting]]
 - [[concepts/multi-platform-posting-automation|Multi Platform Posting Automation]]
+- [[concepts/plot-outlining|Plot Outlining]]
+- [[concepts/semiotics-the-conceptssemiotics-the-study-of-signs-and-symbols-used-for|Semiotics The Conceptssemiotics The Study Of Signs And Symbols Used For]]
 - [[concepts/semiotics-the-study-of-signs-and-symbols-used-for-communication|Semiotics The Study Of Signs And Symbols Used For Communication]]
 - [[concepts/seo|Seo]]
 - [[concepts/seo-optimization|Seo Optimization]]
@@ -787,9 +846,15 @@ _No notes in this thread yet._
 <div id="interactive-visualisation" class="domain-group-anchor"></div>
 ## Interactive Visualisation
 
-<div class="domain-group-meta">29 concepts · 0 linked notes</div>
+<div class="domain-group-meta">33 concepts · 52 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Understand-Anything-AI-Tool-for-Interactive-Codebase-Map|Understand Anything: AI Tool for Interactive Codebase Mapping and Onboarding]]
+- [[lab-notes/2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M|Alibaba Qwen 3.6 27B: Advanced Local Agentic Coding and Multimodal AI Capabilities]]
+- [[lab-notes/2026-04-30-Ritonavir-Polymorph-Crisis-Unraveling-the-Mystery-of-a-F|Ritonavir Polymorph Crisis: Unraveling the Mystery of a Failing HIV Drug]]
+- [[lab-notes/2026-04-30-Asgard-Archaea-Recreating-Endosymbiosis-Origins-of-Compl|Asgard Archaea: Recreating Endosymbiosis, Origins of Complex Life]]
+- [[lab-notes/2026-04-29-Infinite-Monkey-Experiment-Shakespeare-Probability-and-C|Infinite Monkey Experiment: Shakespeare Probability and Cosmic Time]]
 
 **Concepts in this thread**
 
@@ -800,6 +865,7 @@ _No notes in this thread yet._
 - [[concepts/3d-gaussian-splatting|3D Gaussian Splatting]]
 - [[concepts/3d-manipulation|3D Manipulation]]
 - [[concepts/3d-manipulation-of-2d-images|3D Manipulation Of 2D Images]]
+- [[concepts/3d-modeling|3D Modeling]]
 - [[concepts/3d-object-manipulation|3D Object Manipulation]]
 - [[concepts/3d-physics|3D Physics]]
 - [[concepts/3d-point-clouds|3D Point Clouds]]
@@ -807,13 +873,16 @@ _No notes in this thread yet._
 - [[concepts/3d-rotation|3D Rotation]]
 - [[concepts/ai-enhanced-visualization|Ai Enhanced Visualization]]
 - [[concepts/axis-rotation|Axis Rotation]]
+- [[concepts/diagrams|Diagrams]]
 - [[concepts/engine-nacelle-rotation|Engine Nacelle Rotation]]
 - [[concepts/information-visualization|Information Visualization]]
 - [[concepts/interactive-chart-generation|Interactive Chart Generation]]
+- [[concepts/interactive-course-design|Interactive Course Design]]
 - [[concepts/interactive-experiences|Interactive Experiences]]
 - [[concepts/interactive-html-sites|Interactive Html Sites]]
 - [[concepts/interactive-html-web-applications|Interactive Html Web Applications]]
 - [[concepts/interactive-learning|Interactive Learning]]
+- [[concepts/interactive-onboarding|Interactive Onboarding]]
 - [[concepts/interactive-simulation|Interactive Simulation]]
 - [[concepts/interactive-visuals|Interactive Visuals]]
 - [[concepts/interactive-web-application-development|Interactive Web Application Development]]
@@ -826,12 +895,13 @@ _No notes in this thread yet._
 ## Key Entities
 
 - [[entities/135mm-prime|135Mm Prime]]
+- [[entities/2048|2048]]
+- [[entities/333-collins-street|333 Collins Street]]
 - [[entities/aaron-nace|Aaron Nace]]
 - [[entities/abacusai|Abacusai]]
 - [[entities/adam-lucek|Adam Lucek]]
 - [[entities/admin-privileges|Admin Privileges]]
 - [[entities/adobe|Adobe]]
-- [[entities/adobe-acrobat|Adobe Acrobat]]
 - [[entities/adobe-ai-assistant|Adobe Ai Assistant]]
 - [[entities/adobe-camera-raw|Adobe Camera Raw]]
 - [[entities/adobe-firefly|Adobe Firefly]]
@@ -847,29 +917,29 @@ _No notes in this thread yet._
 - [[entities/ai-founders|Ai Founders]]
 - [[entities/ai-mind-revolution|Ai Mind Revolution]]
 - [[entities/ai-pipeline|Ai Pipeline]]
+- [[entities/ai-studio|Ai Studio]]
+- [[entities/ai-tools|Ai Tools]]
 - [[entities/ai-workshop|Ai Workshop]]
 - [[entities/alex-ziskind|Alex Ziskind]]
 - [[entities/ali-h-salem|Ali H Salem]]
 - [[entities/alibaba|Alibaba]]
-- [[entities/alibaba-ai|Alibaba Ai]]
 - [[entities/alicia|Alicia]]
-- [[entities/alien|Alien]]
+- [[entities/amazon|Amazon]]
 - [[entities/americas-test-kitchen|Americas Test Kitchen]]
-- [[entities/andrej-karpathy|Andrej Karpathy]]
+- [[entities/andre-karpathy|Andre Karpathy]]
 - [[entities/android-16|Android 16]]
+- [[entities/andy-cooks|Andy Cooks]]
 - [[entities/andy-hutchinson|Andy Hutchinson]]
 - [[entities/andy-murphy|Andy Murphy]]
 - [[entities/anthony-morganti|Anthony Morganti]]
 - [[entities/anthropic|Anthropic]]
-- [[entities/anthropic-cli|Anthropic Cli]]
 - [[entities/anthropic-console|Anthropic Console]]
-- [[entities/api|Api]]
-- [[entities/aurelius-tjin|Aurelius Tjin]]
 
 ## Related Shelves
 
 - [[domains/ai-agents|AI & Agents]]
 - [[domains/tools-platforms|Tools & Platforms]]
+- [[domains/ux-design|UX & Design]]
 - [[domains/food-nutrition|Food & Nutrition]]
 - [[domains/business-strategy|Business & Strategy]]
 - [[domains/biology-life-sciences|Biology & Life Sciences]]

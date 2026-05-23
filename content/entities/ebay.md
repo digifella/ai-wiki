@@ -9,7 +9,7 @@ aliases:
   - "Ubuntu Media Server Project"
   - "Subscription-Killing Server"
 summary: A project for building an Ubuntu-based media server to replace monthly subscription services.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Ebay
 
@@ -23,7 +23,7 @@ The project involves setting up Ubuntu as the operating system foundation for th
 
 A key goal of the Ebay project is achieving this functionality at minimal financial investment. Documentation and guides suggest building a functional media server for under $100, making it an accessible option for users seeking to reduce their subscription service costs.
 
-- 2026-04-10 [2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an](2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an.md) ← Anthropics Claude Ai Subscription Changes Openclaw Ban Usage Limits An
+- 2026-04-10 [2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an](2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an.md) ← Anthropics [[concepts/claude-ai-subscription-policy|Claude Ai Subscription Changes]] [[concepts/automated-information-pipelines|Openclaw]] Ban [[concepts/rate-limits|Usage Limits]] An
 - 2026-04-08 [2026-04-08-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an](2026-04-08-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an.md) ← Anthropics Claude Ai Subscription Changes Openclaw Ban Usage Limits An
-- 2026-04-14 [2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr](2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr.md) ← Optimizing Ai Costs And Privacy With Local Open Source Models And Hybr
+- 2026-04-14 [2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr](2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr.md) ← Optimizing Ai Costs And [[concepts/privacy|Privacy]] With Local [[concepts/open-source|Open Source]] [[concepts/models|Models]] And Hybr
 ## Source Notes

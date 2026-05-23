@@ -1,17 +1,8 @@
 ---
 type: entity
-tags:
-  - "LLM"
-  - "AI-Models"
-  - "MoE"
-  - "mixture-of-experts"
-  - "glm-series"
-  - "local-deployment"
-aliases:
-  - "GLM-4.7-Flash"
-  - "GLM 4.7 Flash"
-summary: "A mixture-of-experts model with 30B total and 3B active parameters that supports local execution via Ollama's Anthropic API compatibility layer."
-updated: 2026-04-24
+summary: A mixture-of-experts model with 30B total and 3B active parameters that supports local execution via Ollama's Anthropic API compatibility layer.
+updated: 2026-05-23
+stub: true
 ---
 # GLM-4.7-Flash
 
@@ -25,7 +16,6 @@ updated: 2026-04-24
 
 ## References
 - [[concepts/date-2026-04-13|2026]] 04 14 [[entities/llama|Ollama]] [[concepts/claude-ai|Claude]] [[entities/glm|GLM]] Channel [[entities/sam-witteveen|Sam Witteveen]]
-
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced|OpenClaw Autonomous AI Agent Setup Configuration and Advanced]] · [▶ source](https://www.youtube.com/watch?v=u4ydH-QvPeg)

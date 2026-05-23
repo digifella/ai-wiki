@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "lightroom"
   - "sky-masking"
@@ -12,15 +11,16 @@ aliases:
   - "sky mask improvement"
   - "foreground branch masking"
 summary: A technique for improving sky masks in Adobe Lightroom when tree branches are in the foreground.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Haloing
 
-Haloing is a post-processing technique used in Adobe Lightroom to improve sky masks when tree branches or other foreground elements obstruct the skyline. The technique addresses a common problem in [[concepts/landscape-photography|landscape photography]] where [[concepts/automated-masking|automated masking]] tools struggle to distinguish between branches and sky, resulting in unnatural transitions or incomplete sky [[concepts/adjustments|adjustments]]. By applying haloing methods, photographers can achieve cleaner, more precise masks that respect fine details like branch edges.
+Haloing is a post-processing technique used in [[entities/adobe-lightroom|Adobe Lightroom]] to improve sky masks when tree branches or other foreground elements obstruct the skyline. The technique addresses a common problem in [[concepts/landscape-photography|landscape photography]] where [[concepts/automated-masking|automated masking]] tools struggle to distinguish between branches and sky, resulting in unnatural transitions or incomplete sky [[concepts/adjustments|adjustments]]. By applying haloing methods, photographers can achieve cleaner, more precise masks that respect fine details like branch edges.
 
 ## How it works
 
-The haloing technique leverages Lightroom's [[concepts/layer-masks|masking]] capabilities to refine the selection around intricate foreground elements. Rather than relying solely on automated [[concepts/sky-detection|sky detection]], which can create halos or unwanted artifacts around branches, the method involves manual adjustment and refinement of mask edges. This allows photographers to control exactly which pixels are included in the sky mask, preserving the natural appearance of branches while still adjusting the sky portion of the image.
+The haloing technique leverages Lightroom's [[concepts/layer-masks|masking]] [[concepts/capabilities|capabilities]] to refine the selection around intricate foreground elements. Rather than relying solely on automated [[concepts/sky-detection|sky detection]], which can create halos or unwanted artifacts around branches, the method involves manual adjustment and refinement of mask edges. This allows photographers to [[concepts/power|control]] exactly which pixels are included in the sky mask, preserving the natural appearance of branches while still adjusting the sky portion of the image.
 
 ## Practical application
 

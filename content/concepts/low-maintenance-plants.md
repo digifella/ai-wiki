@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: science-physics
-group: physics-fundamental-theory
+domain: biology-life-sciences
 tags:
   - "concept"
   - "low-maintenance"
@@ -13,7 +12,8 @@ aliases:
   - "Water Plants"
   - "Soil-Free Indoor Plants"
 summary: Indoor plants that grow in water without soil, requiring minimal maintenance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Low Maintenance Plants
 
@@ -25,8 +25,7 @@ Water-based cultivation typically involves placing plant stems or roots in conta
 
 ## Care Requirements
 
-Despite their minimal maintenance designation, these plants still require basic [[concepts/attention-mechanisms|attention]]. They need appropriate light conditions, usually indirect or filtered sunlight depending on the species. Water quality matters—chlorine-heavy tap water can be left to sit for 24 hours before use, or filtered water can be substituted. Nutrient supplementation through diluted hydroponic fertilizer supports long-term growth, though some plants can sustain themselves in plain water for extended periods.
-
+Despite their minimal maintenance designation, these plants still require basic [[concepts/attention-mechanisms|attention]]. They need appropriate [[concepts/light|light]] conditions, usually indirect or filtered sunlight depending on the species. Water quality matters—chlorine-heavy tap water can be left to sit for 24 hours before use, or filtered water can be substituted. Nutrient supplementation through diluted hydroponic fertilizer supports long-term growth, though some plants can sustain themselves in plain water for extended periods.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-13: [[lab-notes/2026-04-13-2021-Texas-Power-Grid-Outage-Technical-Analysis-and-ERCOT-Actions|2021 Texas Power Grid Outage Technical Analysis and ERCOT Actions]] · [▶ source](https://www.youtube.com/watch?v=08mwXICY4JM)

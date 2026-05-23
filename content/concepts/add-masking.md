@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "masking"
-  - "photo-editing"
-  - "lightroom"
-  - "masking-modes"
-  - "adobe-lightroom"
-  - "local-adjustments"
-aliases:
-  - "mask expansion"
-  - "lightroom masking operations"
-summary: "Add masking is an operation used to expand active selection boundaries within a mask in Adobe Lightroom."
-updated: 2026-04-26
+summary: Add masking is an operation used to expand active selection boundaries within a mask in Adobe Lightroom.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Add masking
@@ -20,13 +10,12 @@ group: lightroom-color-workflows
 A fundamental [[concepts/photo-editing]] operation used to expand or merge selection boundaries within a mask.
 
 ### Masking Modalities in adobe lightroom
-- Add masking: Expands the active selection by combining it with a new area.
+- Add [[concepts/layer-masks|masking]]: Expands the active selection by combining it with a new area.
 - [[concepts/subtract-masking|Subtract masking]]: Removes the newly defined area from the current selection.
 - [[concepts/intersect-masking]]: A precision-focused mode (introduced late 2023) that isolates only the area where two masks overlap, enabling highly controlled [[concepts/masking-tools|Local adjustments]].
 
 ---
 **Source**: [[concepts/date-2026-04-13|2026]] 04 21 [[concepts/lightroom|Lightroom]] [[concepts/local-adjustments|Intersect Masking]] for Precise Local [[concepts/adjustments|Adjustments]]
-
 ## Source Notes
 - 2026-04-21: Lightroom · [▶ source](https://youtu.be/HvCiSOkCoUk)
 - 2026-04-07: [[lab-notes/2026-04-07-Lightroom-Classic-Single-Click-Automated-AI-Mask-Presets-for-Landscape|Lightroom Classic Single Click Automated AI Mask Presets for Landscape]] · [▶ source](https://www.youtube.com/watch?v=tVCV0VmoZnw)

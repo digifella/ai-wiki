@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "revenue-generation"
   - "business-models"
@@ -13,7 +12,8 @@ aliases:
   - "Revenue Models"
   - "Monetization Streams"
 summary: This video demonstrates the capabilities of AI video and voice cloning for creating digital avatars.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Revenue Streams
 
@@ -21,7 +21,7 @@ Revenue streams are the various sources through which a business generates incom
 
 ## Types of Revenue Streams
 
-Revenue streams can be categorized in several ways depending on the business model. Common types include direct sales of products or services, subscription or membership fees, [[concepts/licensing|licensing]] of intellectual property, advertising, commissions, rental or lease income, and freemium models where basic services are free but premium features require payment. Each stream may serve different customer segments or fulfill different needs within the market.
+Revenue streams can be categorized in several ways depending on the business model. Common types include direct sales of products or services, subscription or membership fees, [[concepts/licensing|licensing]] of [[concepts/intellectual-property-rights|intellectual property]], advertising, commissions, rental or lease income, and freemium [[concepts/models|models]] where basic services are free but premium features require payment. Each stream may serve different customer segments or fulfill different needs within the market.
 
 ## Strategic Importance
 

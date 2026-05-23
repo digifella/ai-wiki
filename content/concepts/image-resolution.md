@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: ai-image-generation-editing
 tags:
   - "concept"
   - "image-upscaling"
@@ -13,7 +12,8 @@ aliases:
   - "Image Upscaling"
   - "Photo Enlargement"
 summary: Techniques and tools for increasing image resolution, including generative upscaling methods in Photoshop.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Image Resolution
 
@@ -25,8 +25,7 @@ Recent advances in [[concepts/ai-technologies|artificial intelligence]] have int
 
 ## Professional Tools and Integration
 
-Image upscaling capabilities have been integrated into professional [[concepts/software|software]] like [[concepts/photoshop|Adobe Photoshop]], which now offers generative upscaling features. These tools typically allow users to enlarge images while maintaining visual quality, sometimes with options to control the upscaling process. The implementation of AI-based upscaling in mainstream creative software has made the technique more accessible to photographers, designers, and content creators who previously relied on specialized upscaling applications.
-
+Image upscaling [[concepts/capabilities|capabilities]] have been integrated into professional [[concepts/software|software]] like [[concepts/photoshop|Adobe Photoshop]], which now offers generative upscaling features. These tools typically allow users to enlarge images while maintaining visual quality, sometimes with options to [[concepts/power|control]] the upscaling process. The [[concepts/adoption|implementation]] of AI-based upscaling in mainstream creative software has made the technique more accessible to photographers, designers, and content creators who previously relied on specialized upscaling applications.
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Nano-Banana-2-Rapid-Professional-AI-Image-Generation-and-Contro|Google Nano Banana 2 Rapid Professional AI Image Generation and Contro]] · [▶ source](https://www.youtube.com/watch?v=enTnJJHtIGs)

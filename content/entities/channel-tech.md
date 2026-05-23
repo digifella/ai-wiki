@@ -1,20 +1,8 @@
 ---
 type: entity
-tags:
-  - "database"
-  - "search"
-  - "postgres"
-  - "ai"
-  - "rag"
-  - "database-search"
-  - "postgres-extension"
-  - "bm25-search"
-  - "rag-pipelines"
-  - "ai-search"
-aliases:
-  - "Tech with Tim"
-summary: "A technical entity focused on implementing the pg_textsearch Postgres extension for BM25-based search optimization in RAG pipelines."
-updated: 2026-04-20
+summary: A technical entity focused on implementing the pg_textsearch Postgres extension for BM25-based search optimization in RAG pipelines.
+updated: 2026-05-23
+stub: true
 ---
 # Channel Tech
 
@@ -25,6 +13,5 @@ Technical entity focused on [[concepts/database-search|database search]] solutio
 - Video reference: [The Future of Database Search: pg_textsearch](https://youtu.be/XEiQV4zRC-U)
 
 Backlink: [[concepts/date-2026-04-13|2026]] 04 14 Database search [[concepts/setup|setup]] Channel [[entities/tech-with-tim|Tech with Tim]]
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Ollama-and-Zapier-MCP-Local-LLM-AI-Agent-Setup-and-Integration|Ollama and Zapier MCP Local LLM AI Agent Setup and Integration]] · [▶ source](https://www.youtube.com/watch?v=GAyNvq6Ayps)

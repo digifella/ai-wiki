@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "kv-cache"
   - "model-compression"
@@ -12,7 +11,8 @@ aliases:
   - "KV cache quantization"
   - "cache compression"
 summary: Technique for reducing the memory footprint of key-value caches in large language models during inference.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # KV Cache Compression
 
@@ -20,12 +20,11 @@ updated: 2026-05-01
 
 ## Technical Approaches
 
-Several compression strategies have been developed to address KV cache [[concepts/memory-overhead|memory overhead]]. [[concepts/parameter-reduction|Quantization]] techniques reduce numerical precision of cached values, allowing 16-bit or 8-bit representations instead of [[concepts/full-precision|full precision]]. Token pruning methods selectively discard less-important cached entries based on [[concepts/attention-mechanisms|attention]] scores or other relevance metrics. Other approaches involve dimensionality reduction or structured sparsity patterns in the cache tensors. The effectiveness of these methods varies depending on [[concepts/architecturetechnique|model architecture]], task requirements, and acceptable degradation in output quality.
+Several compression strategies have been developed to address KV cache [[concepts/memory-overhead|memory overhead]]. [[concepts/parameter-reduction|Quantization]] techniques reduce numerical precision of cached values, allowing 16-bit or 8-bit representations instead of [[concepts/full-precision|full precision]]. Token pruning methods selectively discard less-important cached entries based on [[concepts/attention-mechanisms|attention]] scores or other relevance metrics. Other approaches involve dimensionality reduction or structured sparsity patterns in the cache tensors. The effectiveness of these methods varies depending on [[concepts/architecturetechnique|model architecture]], task requirements, and acceptable degradation in [[concepts/output|output]] quality.
 
 ## Practical Impact
 
-The memory savings from KV cache compression directly enable longer [[concepts/context-windows|context windows]] on resource-constrained systems and improve throughput when serving multiple concurrent requests. This makes techniques like these relevant for deploying large models on consumer [[concepts/hardware|hardware]] or reducing operational costs in cloud inference [[concepts/scenarios|scenarios]]. However, compression introduces tradeoffs between [[concepts/memory-efficiency|memory efficiency]] and model quality that must be evaluated empirically for specific use cases.
-
+The memory savings from KV cache compression directly enable longer [[concepts/context-windows|context windows]] on resource-constrained systems and improve throughput when serving multiple concurrent requests. This makes techniques like these relevant for deploying large [[concepts/models|models]] on consumer [[concepts/hardware|hardware]] or reducing operational costs in cloud inference [[concepts/scenarios|scenarios]]. However, compression introduces tradeoffs between [[concepts/memory-efficiency|memory efficiency]] and model quality that must be evaluated empirically for specific [[concepts/use-cases|use cases]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context|TurboQuant Extreme Compression for Local LLM Efficiency and Context]] · [▶ source](https://www.youtube.com/watch?v=GY7q9ZqM8bw)
 - 2026-04-10: [[lab-notes/2026-04-10-TurboQuant-Reducing-LLM-Memory-Footprint-via-KV-Cache-Compression|TurboQuant Reducing LLM Memory Footprint via KV Cache Compression]] · [▶ source](https://www.youtube.com/watch?v=XLlQDfhyBjc)

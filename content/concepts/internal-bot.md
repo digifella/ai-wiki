@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "custom-ai-agent"
   - "microsoft-365-copilot"
@@ -11,7 +10,8 @@ aliases:
   - "Custom AI Agent with Copilot"
   - "Microsoft 365 Copilot Agent"
 summary: A tutorial demonstrating how to build a custom AI agent using Microsoft 365 Copilot.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Internal Bot
 
@@ -19,12 +19,11 @@ An Internal Bot is a [[concepts/custom-ai-agent|custom AI agent]] built using [[
 
 ## Building Custom Agents
 
-Creating an internal bot with Microsoft 365 Copilot involves configuring the agent to work with existing organizational tools and data. The platform provides a framework for defining how the bot should interpret requests, access relevant information, and generate appropriate [[concepts/responses|responses]]. This [[concepts/customization|customization]] allows organizations to embed business logic, [[concepts/compliance|compliance]] requirements, and institutional knowledge directly into the agent's behavior.
+Creating an internal bot with [[concepts/microsoft-applications|Microsoft 365 Copilot]] involves configuring the [[entities/agent|agent]] to work with existing organizational tools and data. The platform provides a framework for defining how the bot should interpret requests, access relevant information, and generate appropriate [[concepts/responses|responses]]. This [[concepts/customization|customization]] allows organizations to embed business logic, [[concepts/compliance|compliance]] requirements, and institutional knowledge directly into the agent's behavior.
 
 ## Practical Applications
 
-Internal bots are particularly useful for repetitive analytical tasks, [[concepts/knowledge-bases|information retrieval]], and process [[concepts/automation|automation]]. For example, a financial analyst bot can be configured to pull data from specific sources, perform calculations according to company [[concepts/open-standards|standards]], and generate reports in formats the organization requires. These agents serve as [[concepts/productivity-tools|productivity tools]] for employees who need consistent, reliable assistance with domain-specific work.
-
+Internal bots are particularly useful for repetitive analytical tasks, [[concepts/knowledge-bases|information retrieval]], and process [[concepts/automation|automation]]. For example, a financial analyst bot can be configured to pull data from specific sources, perform calculations according to company [[concepts/open-standards|standards]], and generate reports in formats the organization requires. These [[concepts/agents|agents]] serve as [[concepts/productivity-tools|productivity tools]] for employees who need consistent, reliable assistance with domain-specific work.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)
 - 2026-04-10: [[lab-notes/2026-04-10-Dark-Matter-Non-Collapse-The-Lack-of-Electromagnetic-Interaction|Dark Matter Non Collapse The Lack of Electromagnetic Interaction]] · [▶ source](https://www.youtube.com/watch?v=VmWNTlVFcJw)

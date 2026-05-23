@@ -10,7 +10,7 @@ aliases:
   - "Flight JQ29"
   - "JQ29"
 summary: Flight JQ29 travels from Melbourne to Bangkok with an overnight stop in Istanbul.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Jq29 Airline
 
@@ -18,7 +18,7 @@ JQ29 is a flight service operating between [[concepts/melbourne-region|Melbourne
 
 ## Route and Schedule
 
-The flight departs Melbourne at 13:20 and arrives in Istanbul at 05:15 the following morning. Passengers remain in Istanbul overnight before continuing to Bangkok, allowing for rest and potential city exploration during the layover.
+The flight departs Melbourne [[concepts/assistive-technology|at]] 13:20 and arrives in Istanbul at 05:15 the following morning. Passengers remain in Istanbul overnight before continuing to Bangkok, allowing for rest and potential city exploration during the layover.
 
 ## Booking Reference
 

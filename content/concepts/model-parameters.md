@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "small-language-models"
@@ -13,20 +12,20 @@ aliases:
   - "SLM Parameters"
   - "Small Language Model Sizing"
 summary: Model parameters define the size and capacity of language models, with recent benchmarking focusing on identifying high-performing 4GB small language models for general problem-solving.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Model Parameters
 
-[[concepts/active-parameters|Model parameters]] refer to the learnable [[concepts/weights|weights]] and values within a [[concepts/neural-network|neural network]] that define a [[concepts/statistical-language-modeling|language model]]'s [[concepts/architecture|architecture]] and capacity. The [[concepts/parameter-count|parameter count]]—typically measured in millions (M) or billions (B)—directly influences [[concepts/code-size|model size]], computational requirements, [[concepts/memory|memory]] usage, and performance capabilities. Larger models generally demonstrate improved [[concepts/reasoning|reasoning]] and task performance, though this relationship is not strictly linear and depends on [[concepts/training|training]] quality and data.
+[[concepts/active-parameters|Model parameters]] refer to the learnable [[concepts/weights|weights]] and values within a [[concepts/neural-network|neural network]] that define a [[concepts/statistical-language-modeling|language model]]'s [[concepts/architecture|architecture]] and capacity. The [[concepts/parameter-count|parameter count]]—typically measured in millions (M) or billions (B)—directly influences [[concepts/code-size|model size]], computational requirements, [[concepts/memory|memory]] usage, and performance [[concepts/capabilities|capabilities]]. Larger [[concepts/models|models]] generally demonstrate improved [[concepts/reasoning|reasoning]] and task performance, though this relationship is not strictly linear and depends on [[concepts/training|training]] quality and data.
 
 ## Recent Developments in Small Language Models
 
-Recent [[concepts/benchmark-testing|benchmarking]] efforts have shifted focus toward identifying high-performing small language models (SLMs) in the 4GB range for general [[concepts/problem-solving|problem-solving]] tasks. This trend reflects growing interest in deploying capable models with reduced computational overhead, making them more accessible for edge devices and resource-constrained environments. Concurrent research into [[concepts/parameter-reduction|quantization]] techniques, such as 1-bit models like BitNet, demonstrates progress in reducing parameter precision while maintaining functional performance.
+Recent [[concepts/benchmark-testing|benchmarking]] efforts have shifted focus toward identifying high-performing [[concepts/small-language-models-slms|small language models (SLMs)]] in the 4GB [[concepts/range|range]] for general [[concepts/problem-solving|problem-solving]] tasks. This trend reflects growing interest in deploying capable models with reduced computational overhead, making them more accessible for edge devices and resource-constrained environments. Concurrent research into [[concepts/parameter-reduction|quantization]] techniques, such as 1-bit models like [[entities/bitnet|BitNet]], demonstrates progress in reducing parameter precision while maintaining functional performance.
 
 ## Parameter Efficiency and Retrieval Systems
 
-The relationship between model parameters and retrieval-augmented generation (RAG) systems has become increasingly important for optimizing [[concepts/inference|inference]] efficiency. Smaller parameterized models paired with effective context retrieval mechanisms can achieve competitive results compared to larger models, reducing both computational cost and latency in production deployments.
-
+The relationship between model [[concepts/parameters|parameters]] and [[concepts/answer-generation|retrieval-augmented generation]] (RAG) systems has become increasingly important for optimizing [[concepts/inference|inference]] efficiency. Smaller parameterized models paired with effective context retrieval mechanisms can achieve competitive results compared to larger models, reducing both computational [[concepts/cost|cost]] and latency in production deployments.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[concepts/small-language-models|Small Language Models (SLMs): The New 4GB Champion]]

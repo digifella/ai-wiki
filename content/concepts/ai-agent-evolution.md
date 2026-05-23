@@ -1,32 +1,26 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "agent"
-  - "evolution"
-  - "recursive-improvement"
-updated: 2026-04-14
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # AI agent evolution
 
-The [[concepts/iterative-refinement|iterative process]] through which [[concepts/agentic-ai|AI agents]] autonomously enhance their capabilities, leading to increasingly complex behaviors and self-directed development.
+The [[concepts/iterative-refinement|iterative process]] through which [[concepts/agentic-ai|AI agents]] autonomously enhance their [[concepts/capabilities|capabilities]], leading to increasingly complex behaviors and self-directed development.
 
 ## Key milestones
-- **2026-04-14**: Entry into [[concepts/self-improvement]] phase (per AI Recursive Improvement note), where [[concepts/agents|agents]] significantly contribute to their own enhancement, accelerating toward [[concepts/intelligence-explosion]] and [[concepts/hard-takeoff]].
+- **2026-04-14**: Entry into [[concepts/self-improvement]] [[concepts/phase|phase]] (per AI Recursive Improvement note), where [[concepts/agents|agents]] significantly contribute to their own enhancement, accelerating toward [[concepts/intelligence-explosion]] and [[concepts/hard-takeoff]].
 - Agent-based [[concepts/learning|learning]] enables continuous capability refinement without human intervention.
-- Self-modifying code becomes standard, allowing agents to rewrite core algorithms during operation.
+- Self-modifying [[concepts/code|code]] becomes standard, allowing agents to rewrite core algorithms during operation.
 
 ## Implications
-- Exponential capability growth potential via positive [[concepts/feedback|feedback]] loop in [[concepts/agent-development|agent development]].
+- Exponential capability growth potential via positive [[concepts/feedback|feedback]] [[concepts/loop|loop]] in [[concepts/agent-development|agent development]].
 - Requires new [[concepts/ai-safety]] frameworks for uncontrolled [[concepts/intelligence-explosion]] [[concepts/scenarios|scenarios]].
 - Shift from human-guided to [[entities/openclaw|autonomous agent]] development as primary [[concepts/innovation|innovation]] driver.
 
 See also: [[concepts/ai-safety]], [[concepts/self-improvement]], [[concepts/hard-takeoff]], [[concepts/intelligence-explosion]]
 
 2026 04 14 AI Recursive Improvement
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "strait-of-hormuz"
   - "oil-markets"
@@ -14,7 +13,8 @@ aliases:
   - "Hormuz Strait Closure"
   - "Oil Market Disruption Analysis"
 summary: The video examines the potential impact on oil markets and mitigation strategies regarding a closure of the Strait of Hormuz.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Strategic Infrastructure
 
@@ -22,12 +22,11 @@ Strategic Infrastructure refers to critical physical systems and chokepoints who
 
 ## The Strait of Hormuz as a Case Study
 
-The Strait of Hormuz exemplifies strategic infrastructure due to its role as a critical energy transit point. Approximately one-third of global maritime oil trade passes through this narrow waterway between Iran and Oman. A closure—whether through military conflict, blockade, or accident—would immediately disrupt global oil supplies and create substantial price volatility, affecting economies worldwide that depend on stable energy access.
+The [[entities/strait-of-hormuz|Strait of Hormuz]] exemplifies strategic infrastructure due to its role as a critical energy transit point. Approximately one-third of global maritime oil trade passes through this narrow waterway between [[concepts/iran|Iran]] and Oman. A closure—whether through military conflict, blockade, or accident—would immediately disrupt global oil supplies and create substantial price volatility, affecting economies worldwide that depend on stable energy access.
 
 ## Market Impact and Mitigation
 
 The closure of such chokepoints creates cascading effects across energy markets, including price spikes, supply chain disruptions, and economic uncertainty. Mitigation strategies include maintaining strategic petroleum reserves, diversifying energy sources and supply routes, developing alternative transportation corridors, and maintaining diplomatic channels to prevent conflict. Nations and organizations employ a combination of these approaches to reduce vulnerability to infrastructure disruption.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-NVIDIA-NemoClaw-Agent-Toolkit-for-Secure-Enterprise-AI-Deployment|NVIDIA NemoClaw Agent Toolkit for Secure Enterprise AI Deployment]] · [▶ source](https://www.youtube.com/watch?v=NY2uwmX3uGc)
 - 2026-04-10: [[lab-notes/2026-04-10-Meta-Muse-Spark-Features-Performance-and-Strategic-Shift-to-Proprietar|Meta Muse Spark Features Performance and Strategic Shift to Proprietar]] · [▶ source](https://www.youtube.com/watch?v=7vkybiVRSm0)

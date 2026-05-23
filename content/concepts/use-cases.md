@@ -11,8 +11,8 @@ tags:
   - "chat-applications"
 aliases:
   - "gemini vs ai-studio comparison"
-summary: "A comparison between the consumer-friendly Google Gemini Web App and the professional-grade Google AI Studio."
-updated: 2026-04-30
+summary: A comparison between the consumer-friendly Google Gemini Web App and the professional-grade Google AI Studio.
+updated: 2026-05-23
 group: products-operations-business-economics
 stub: true
 title: use cases
@@ -21,9 +21,8 @@ title: use cases
 
 * **[[entities/google-gemini|Google Gemini]] Web App vs. [[entities/google-ai-studio|Google AI Studio]]** (via 2026 04 14 [[entities/ai-studio|AI studio]] and [[entities/gemini|Gemini]] use case [[entities/grace-leung|Grace leung]])
     * **[[concepts/gemini|Gemini]] Web App:** Consumer-friendly [[concepts/chat-application|chat interface]] (similar to [[entities/chatgpt|ChatGPT]]), designed for everyday use.
-    * **Google [[entities/ai-studio|AI Studio]]:** Offers a more powerful and versatile experience, specifically for [[concepts/power-users|power users]] and professionals.
+    * **[[concepts/google-search|Google]] [[entities/ai-studio|AI Studio]]:** Offers a more powerful and versatile experience, specifically for [[concepts/power-users|power users]] and professionals.
     * **Reference:** https://www.youtube.com/watch?v=cgZYpwM-Tzg
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

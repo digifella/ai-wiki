@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data"
-  - "monetization"
-  - "privacy"
-  - "internet"
-updated: 2026-04-15
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data monetization
@@ -19,7 +14,7 @@ The process of converting user data into financial value through collection, ana
 
 ## Countermeasures
 To prevent data collection for monetization:
-- **Encrypted DNS**: Encrypts DNS queries (via DoH/DoT) to prevent ISPs from tracking visited websites, stopping data collection at source Encrypted DNS
+- **[[concepts/encrypted-dns|Encrypted DNS]]**: Encrypts DNS queries (via DoH/DoT) to prevent ISPs from tracking visited websites, stopping data collection [[concepts/assistive-technology|at]] source Encrypted DNS
 - **Avoid free services** with opaque data [[concepts/policies|policies]] (e.g., free email/social media)
 - **Browser [[concepts/privacy|privacy]] settings**: Block third-party cookies and enable "Do Not Track" features
 
@@ -30,7 +25,6 @@ To prevent data collection for monetization:
 - Internet service provider
 - Personal data
 
-2026 04 14 Encrypted dns dave garage
-
+2026 04 14 [[concepts/dns-lookups|Encrypted dns]] [[entities/dave|dave]] garage
 ## Source Notes
 - 2026-04-25: Google · [▶ source](https://www.youtube.com/watch?v=bNdiBwXbLNw)

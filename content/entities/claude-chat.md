@@ -1,19 +1,7 @@
 ---
 type: entity
-tags:
-  - "claude"
-  - "marketing"
-  - "workflow"
-  - "automation"
-  - "natural-language-interaction"
-  - "strategic-planning"
-  - "marketing-workflows"
-  - "problem-solving"
-aliases:
-  - "Claude interface"
-  - "Claude chat interface"
-summary: "The core interface for natural language interaction and strategic planning within the Claude ecosystem."
-updated: 2026-04-14
+summary: The core interface for natural language interaction and strategic planning within the Claude ecosystem.
+updated: 2026-05-23
 ---
 # Claude Chat
 
@@ -24,15 +12,14 @@ The [[concepts/claude|Claude]] ecosystem comprises three [[concepts/complementar
 
 - **[[concepts/claude-ai|Claude]] Chat**: For **thinking and planning** (e.g., [[concepts/brainstorming|brainstorming]], strategy development, initial concept refinement)
 - **[[entities/claude-co-work|Claude Cowork]]**: For **automating workflows** (e.g., marketing campaign execution as demonstrated in [[entities/claude-cowork|Claude Cowork]] - [[entities/grace-leung|Grace Leung]] channel)
-- **[[concepts/claude-code|Claude Code]]**: For **technical implementation** (e.g., [[concepts/writing|writing]] and [[concepts/debugging|debugging]] [[concepts/code|code]])
+- **[[concepts/claude-code|Claude Code]]**: For **technical [[concepts/adoption|implementation]]** (e.g., [[concepts/writing|writing]] and [[concepts/debugging|debugging]] [[concepts/code|code]])
 
 > *Use the right mode for the right stage to maximize efficiency.*
 
 ## Marketing Workflow Example
 The [[concepts/ad-generation|Claude Cowork]] - [[entities/grace-leung|Grace Leung]] channel demonstrates 6 advanced [[concepts/marketing-workflow|marketing workflows]]:
-- Utilizes the integrated ecosystem (**[[concepts/claude-chat|Claude Chat]]**, **Claude Cowork**, and **[[concepts/claude-code|Claude Code]]**) to build automated workflows.
+- Utilizes the integrated ecosystem (**[[concepts/claude-chat|Claude Chat]]**, **[[concepts/ai-co-worker|Claude Cowork]]**, and **[[concepts/claude-code|Claude Code]]**) to build automated workflows.
 - Backlink: 2026 04 14 Claude coworker [[entities/grace-leung|Grace Leung]] channel
-
 ## Source Notes
 
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

@@ -1,7 +1,8 @@
 ---
 type: entity
-updated: 2026-04-14
-summary: "Practical AI tutorials focusing on implementing RAG and knowledge graph applications using Neo4j and vector stores."
+summary: Practical AI tutorials focusing on implementing RAG and knowledge graph applications using Neo4j and vector stores.
+updated: 2026-05-23
+stub: true
 ---
 - "tech"
   - "ai"
@@ -9,9 +10,9 @@ summary: "Practical AI tutorials focusing on implementing RAG and knowledge grap
   - "[[concepts/knowledge-graph|knowledge-graph]]"
   - "neo4j"
   - "ai-tutorials"
-  - "rag-systems"
+  - "[[concepts/contextualized-language-understanding|rag-systems]]"
   - "knowledge-graphs"
-  - "graph-rag"
+  - "[[concepts/entity-relationships|graph-rag]]"
   - "light-rag"
 aliases:
   - "Tech With Homayoun Tutorials"
@@ -33,8 +34,8 @@ Practical AI and tech tutorials focusing on implementable systems, particularly 
 ## Recent Notes
 
 - 2026 04 14 Build a light RAG system with neo4j
-  - Demonstrates implementation using neo4j for knowledge graph storage
+  - Demonstrates [[concepts/adoption|implementation]] using neo4j for knowledge graph storage
   - Contrasts [[concepts/light|Light]] RAG with Graph RAG
-  - Covers [[concepts/document-chunking|document chunking]] → node extraction → dual storage in vector store and neo4j
+  - Covers [[concepts/document-chunking|document chunking]] → [[entities/nodejs|node]] extraction → dual storage in vector store and neo4j
   - Explains overall [[concepts/architecture|architecture]] of LightRAG framework
   - Includes video [[concepts/tutorial|tutorial]]: <https://www.youtube.com/watch?v=zR9I7aMI8vw>

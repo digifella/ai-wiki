@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: tools-platforms
 tags:
   - "android"
   - "always-on-display"
@@ -11,9 +11,9 @@ tags:
   - "lock-screen"
 aliases:
   - "AOD"
-summary: "A display technology feature that keeps a portion of the screen active during lock or standby mode to show time, date, and notifications while conserving battery life."
-updated: 2026-04-28
-group: ai-foundations-concepts
+summary: A display technology feature that keeps a portion of the screen active during lock or standby mode to show time, date, and notifications while conserving battery life.
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Always-On Display
 

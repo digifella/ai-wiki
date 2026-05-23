@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "history-of-science"
   - "mathematics"
@@ -11,7 +10,8 @@ aliases:
   - "History of Mathematics"
   - "Mathematical Concepts"
 summary: The historical development and conceptual foundations of mathematics within the broader context of scientific discovery.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # History Of Science And Concepts—Mathematics
 
@@ -23,4 +23,4 @@ Greek mathematicians transformed mathematics from a practical craft into an abst
 
 ## Mathematics as Scientific Foundation
 
-By the medieval period and Renaissance, mathematics became increasingly central to scientific explanation. The development of algebra, trigonometry, and eventually calculus provided the symbolic and computational language necessary for physics and astronomy. Newton and Leibniz's concurrent invention of calculus in the late 17th century exemplified mathematics' role as both tool and conceptual framework for understanding natural phenomena. This symbiosis between mathematical [[concepts/abstraction|abstraction]] and empirical observation became definitional to modern science.
+By the medieval period and Renaissance, mathematics became increasingly central to scientific explanation. The development of algebra, trigonometry, and eventually calculus provided the symbolic and computational language necessary for physics and astronomy. Newton and Leibniz's concurrent invention of calculus in the late 17th century exemplified mathematics' role as both tool and conceptual framework for understanding natural phenomena. This symbiosis between mathematical [[concepts/abstraction|abstraction]] and empirical observation became definitional to modern [[concepts/science|science]].

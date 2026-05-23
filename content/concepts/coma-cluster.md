@@ -1,17 +1,8 @@
 ---
 type: concept
-tags:
-  - "astronomy"
-  - "cosmology"
-  - "galaxy-cluster"
-  - "dark-matter"
-  - "large-scale-structure"
-  - "cosmic-web"
-aliases:
-  - "Abell 1656"
-summary: "The Coma Cluster (Abell 1656) is a massive galaxy cluster in the constellation Coma Berenices used as a laboratory for studying large-scale structure and dark matter distribution."
-updated: 2026-04-26
 domain: tools-platforms
+summary: The Coma Cluster (Abell 1656) is a massive galaxy cluster in the constellation Coma Berenices used as a laboratory for studying large-scale structure and dark matter distribution.
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Coma Cluster
@@ -26,8 +17,7 @@ The Coma Cluster (Abell 1656) is a massive, prominent galaxy cluster located in 
 ## Dark Matter Research & Observations
 - Extensive studies of the cluster's mass-to-[[concepts/light|light]] ratio reinforce the dominance of non-[[concepts/baryonic-matter|baryonic matter]].
 - Recent advancements in Gamma-Ray [[concepts/astronomy|astronomy]] provide new comparative data:
-    - Potential detection of [[concepts/wimp]] [[concepts/annihilation-signals|annihilation signals]] in [[concepts/milky-way]] Gamma Rays offers a potential template for identifying similar dark matter signatures in massive clusters (2026 04 24 Dark Matter WIMP Annihilation Signal Detected in Milky Way Gamma Rays).
-
+    - Potential detection of [[concepts/wimp]] [[concepts/annihilation-signals|annihilation signals]] in [[concepts/milky-way]] [[entities/gamma|Gamma]] [[concepts/rays|Rays]] offers a potential template for identifying similar dark matter signatures in massive clusters (2026 04 24 [[concepts/gamma-rays|Dark Matter WIMP Annihilation Signal]] Detected in Milky Way Gamma Rays).
 ## Source Notes
 
 - 2026-04-24: Dark Matter WIMP · [▶ source](https://www.youtube.com/watch?v=Sxyps-CIr8A)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "foot-health"
   - "running"
@@ -13,7 +12,8 @@ aliases:
   - "bar lacing for runners"
   - "shoe lacing techniques"
 summary: Bar lacing is presented as superior to cross-lacing for runner foot health.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Runner Foot Health
 
@@ -21,11 +21,10 @@ updated: 2026-05-01
 
 ## Bar Lacing vs Cross-Lacing
 
-Bar lacing and cross-lacing represent two common methods of securing running shoes. In bar lacing, the laces run horizontally across the shoe without crossing over the midline of the foot. Cross-lacing, by [[concepts/contrast|contrast]], involves laces that pass diagonally across the shoe's upper. According to biomechanical analysis, bar lacing may offer advantages for runner foot health by reducing pressure concentration and promoting more even weight [[concepts/distribution|distribution]] across the foot's width.
+[[concepts/bar-lacing|Bar lacing]] and cross-lacing represent two common methods of securing running shoes. In bar lacing, the [[concepts/laces|laces]] run horizontally across the shoe without crossing over the midline of the foot. Cross-lacing, by [[concepts/contrast|contrast]], involves laces that pass diagonally across the shoe's upper. According to biomechanical analysis, bar lacing may offer advantages for [[concepts/long-term-foot-health|runner foot health]] by reducing pressure concentration and promoting more even weight [[concepts/distribution|distribution]] across the foot's width.
 
 ## Implications for Runner Performance
 
-The choice of lacing method can affect how forces are transmitted through the foot during running. Bar lacing is suggested to provide improved stability and reduce unnecessary compression of the foot's structures, potentially decreasing fatigue and discomfort during longer runs. This consideration becomes particularly relevant for runners dealing with foot pain or those seeking to optimize their footwear setup for sustained performance.
-
+The choice of lacing method can affect how forces are transmitted through the foot during running. Bar lacing is suggested to provide improved stability and reduce unnecessary compression of the foot's structures, potentially decreasing fatigue and discomfort during longer runs. This consideration becomes particularly relevant for runners dealing with foot pain or those seeking to optimize their footwear [[concepts/setup|setup]] for sustained performance.
 ## Source Notes
 - 2026-04-18: [[lab-notes/2026-04-18-Runner-Foot-Health-Bar-Lacings-Superiority-Over-Cross-Lacing|Runner Foot Health Bar Lacings Superiority Over Cross Lacing]] · [▶ source](https://www.youtube.com/watch?v=nMFeAHrPWYM)

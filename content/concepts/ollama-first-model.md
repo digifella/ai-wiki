@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "ollama"
   - "local-models"
@@ -12,11 +11,12 @@ aliases:
   - "Ollama v3.5.18"
   - "Portal Intelligence Layer"
 summary: The Portal Intelligence Layer has been completed with ten tasks implemented and merged in Ollama version 3.5.18.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Ollama First Model
 
-The Ollama First Model represents the completion of the Portal Intelligence Layer, a comprehensive integration framework finalized in [[entities/ollama|Ollama]] version 3.5.18. This milestone marked the successful implementation and merging of ten core tasks designed to enhance the system's capabilities for local [[concepts/statistical-language-modeling|language model]] [[concepts/deployment|deployment]] and management.
+The [[concepts/task-specific-modeling|Ollama]] First Model represents the completion of the Portal Intelligence Layer, a comprehensive [[concepts/integration|integration]] framework finalized in [[entities/ollama|Ollama]] [[concepts/version-3|version 3]].5.18. This milestone marked the successful implementation and merging of ten core tasks designed to enhance the system's [[concepts/capabilities|capabilities]] for local [[concepts/statistical-language-modeling|language model]] [[concepts/deployment|deployment]] and management.
 
 ## Development Status
 
@@ -24,8 +24,7 @@ As of April 23, 2026, all planned tasks for the Portal Intelligence Layer had be
 
 ## Integration Scope
 
-The Portal Intelligence Layer facilitates the practical use of local language models within the Ollama ecosystem, enabling developers to work with [[concepts/reasoning-models|open-source models]] locally rather than relying solely on remote services. The framework's completion provided a foundation for subsequent development and broader [[concepts/adoption|adoption]] of local-first [[concepts/ai-agent|AI agent]] architectures.
-
+The Portal Intelligence Layer facilitates the practical use of local language [[concepts/models|models]] within the Ollama ecosystem, enabling developers to work with [[concepts/reasoning-models|open-source models]] locally rather than relying solely on remote services. The framework's completion provided a foundation for subsequent development and broader [[concepts/adoption|adoption]] of local-first [[concepts/ai-agent|AI agent]] architectures.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Integrating-Local-Gemma-4-LLMs-with-Claude-Code-Setup-and-Practical-Us|Integrating Local Gemma 4 LLMs with Claude Code Setup and Practical Us]] · [▶ source](https://www.youtube.com/watch?v=sKNq4CqWkT4)
 - 2026-04-29: Google DeepMind

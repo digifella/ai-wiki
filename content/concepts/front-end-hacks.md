@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: coding-agents-dev-workflows
 tags:
   - "google-ai-studio"
   - "front-end-development"
@@ -13,7 +12,8 @@ aliases:
   - "Google AI Studio Frontend Tips"
   - "Frontend AI Development Hacks"
 summary: A guide to six front-end lifehacks for using Google AI Studio apps without a backend.
-updated: 2026-05-01
+updated: 2026-05-23
+group: coding-agents-dev-workflows
 ---
 # Front End Hacks
 
@@ -21,8 +21,8 @@ updated: 2026-05-01
 
 ## Eliminating Backend Dependencies
 
-One of the primary advantages of these techniques is the ability to eliminate traditional server-side requirements. By handling [[entities/api-calls|API calls]], data processing, and application logic on the client side, developers can create fully functional [[concepts/ai-powered-applications|AI applications]] using only front-end technologies. This approach is particularly useful for rapid prototyping, proof-of-concept development, and applications with moderate traffic volumes.
+One of the primary advantages of these techniques is the ability to eliminate traditional server-side requirements. By handling [[entities/api-calls|API calls]], data processing, and application logic on the client side, developers can create fully functional [[concepts/ai-powered-applications|AI applications]] using only front-end technologies. This approach is particularly useful for [[concepts/rapid-prototyping|rapid prototyping]], proof-of-concept development, and applications with moderate traffic volumes.
 
 ## Practical Implementation Strategies
 
-The six lifehacks provide concrete methods for integrating Google AI Studio capabilities into [[concepts/web-applications|web applications]]. These strategies address common challenges such as API key management, request handling, [[concepts/data-transformation|data transformation]], and [[concepts/user-interface|user interface]] integration. Developers can implement these techniques individually or combine them to build more sophisticated applications that maintain full functionality without backend support.
+The six lifehacks provide concrete methods for integrating [[entities/google-ai-studio|Google AI Studio]] [[concepts/capabilities|capabilities]] into [[concepts/web-applications|web applications]]. These strategies address common challenges such as API key management, request handling, [[concepts/data-transformation|data transformation]], and [[concepts/user-interface|user interface]] [[concepts/integration|integration]]. Developers can implement these techniques individually or combine them to build more sophisticated applications that maintain full functionality without backend support.

@@ -10,7 +10,7 @@ aliases:
   - "Istanbul Trip 2025"
   - "Europe Itinerary 2025"
 summary: Travel booking details for an itinerary to Istanbul in September 2025, including flight JQ29 and accommodation at Old Alessia City.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # U4pkh2 Travel Booking
 
@@ -18,7 +18,7 @@ U4pkh2 is a travel booking reference for a trip to Istanbul scheduled for Septem
 
 ## Flight Details
 
-The booking includes a flight on airline JQ29 departing [[concepts/melbourne-region|Melbourne]] on 4 September 2025 at 13:20, with the destination Bangkok and a [[concepts/connection|connection]] to Istanbul. The flight reference number is U4PKH2.
+The booking includes a flight on airline [[entities/jq29-airline|JQ29]] departing [[concepts/melbourne-region|Melbourne]] on 4 September 2025 [[concepts/assistive-technology|at]] 13:20, with the destination Bangkok and a [[concepts/connection|connection]] to Istanbul. The flight reference number is U4PKH2.
 
 ## Accommodation
 

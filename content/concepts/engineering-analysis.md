@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "concept"
   - "space-based-computing"
@@ -12,7 +11,8 @@ tags:
 aliases:
   - "Space-Based AI Data Center Feasibility"
 summary: The analysis examines the feasibility and techno-economics of implementing AI data centers in space.
-updated: 2026-05-01
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Engineering Analysis
 
@@ -20,12 +20,11 @@ Engineering analysis of [[concepts/orbital-computing|space-based AI data centers
 
 ## Technical Feasibility
 
-The technical evaluation focuses on whether current and near-term space engineering capabilities can support large-scale [[concepts/data-center-infrastructure|data center operations]]. Key considerations include the availability of launch capacity, orbital mechanics for maintaining constellation stability, redundancy systems for [[concepts/software-reliability|reliability]] in the [[concepts/vacuum-of-space|space environment]], and communication bandwidth between [[concepts/orbital-nodes|orbital nodes]] and ground infrastructure. Material science advances and miniaturization of computing [[concepts/hardware|hardware]] directly influence the practical density of [[concepts/computational-resources|computational resources]] that orbital platforms can support.
+The technical evaluation focuses on whether current and near-term space engineering [[concepts/capabilities|capabilities]] can support large-scale [[concepts/data-center-infrastructure|data center operations]]. Key considerations include the availability of launch capacity, orbital mechanics for maintaining constellation stability, redundancy systems for [[concepts/software-reliability|reliability]] in the [[concepts/vacuum-of-space|space environment]], and communication bandwidth between [[concepts/orbital-nodes|orbital nodes]] and ground infrastructure. Material [[concepts/science|science]] advances and miniaturization of computing [[concepts/hardware|hardware]] directly [[concepts/power|influence]] the practical density of [[concepts/computational-resources|computational resources]] that orbital platforms can support.
 
 ## Techno-Economic Assessment
 
-The economic dimension of this analysis weighs the costs of space [[concepts/deployment|deployment]]—including launch expenses, specialized hardware development, and orbital maintenance—against potential benefits such as proximity to certain user bases, natural cooling advantages, and reduced terrestrial resource constraints. This assessment determines the threshold conditions under which [[concepts/space-based-ai-infrastructure|space-based data centers]] become economically competitive with conventional ground-based infrastructure, considering factors like energy costs, real estate constraints, and latency requirements for different [[concepts/software|applications]].
-
+The economic dimension of this analysis weighs the costs of space [[concepts/deployment|deployment]]—including launch expenses, specialized hardware development, and orbital maintenance—against potential benefits such as proximity to certain user [[concepts/number-systems|bases]], natural cooling advantages, and reduced terrestrial resource constraints. This assessment determines the threshold conditions under which [[concepts/space-based-ai-infrastructure|space-based data centers]] become economically competitive with conventional ground-based infrastructure, considering factors like energy costs, real estate constraints, and latency requirements for different [[concepts/software|applications]].
 ## Source Notes
 
 - 2026-04-08: [[lab-notes/2026-04-08-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering|Space Based AI Data Centers Feasibility Techno Economics Engineering]] · [▶ source](https://www.youtube.com/watch?v=cLcF9UCD9-s)

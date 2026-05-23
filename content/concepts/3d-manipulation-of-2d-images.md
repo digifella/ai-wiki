@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: interactive-visualisation
 tags:
   - "concept"
   - "photoshop-beta"
@@ -13,7 +12,8 @@ aliases:
   - "AI Rotate Object"
   - "3D manipulation of 2D images"
 summary: Photoshop Beta's AI Rotate Object tool enables the 3D manipulation of 2D images.
-updated: 2026-05-01
+updated: 2026-05-23
+group: interactive-visualisation
 ---
 # 3D Manipulation Of 2D Images
 
@@ -25,10 +25,9 @@ Conventional methods for achieving this effect have relied on manual techniques 
 
 ## AI-Powered Implementation
 
-Recent developments in generative AI have enabled automated approaches to this task. Adobe's [[concepts/beta-version|Photoshop Beta]] introduced the AI Rotate Object tool, which allows users to rotate objects within images in three-dimensional space. The tool uses machine [[concepts/learning|learning]] to intelligently fill in newly revealed areas of the image, maintaining visual coherence and [[concepts/logical-consistency|consistency]] with the existing content. This represents a significant shift from manual methods, as the AI generates plausible details for previously hidden portions of the image rather than requiring the user to manually reconstruct them.
+Recent developments in [[concepts/generative-ai|generative AI]] have enabled automated approaches to this task. [[entities/adobe|Adobe]]'s [[concepts/beta-version|Photoshop Beta]] introduced the [[concepts/2d-to-3d-transformation|AI Rotate Object]] tool, which allows users to rotate objects within images in three-dimensional space. The tool uses machine [[concepts/learning|learning]] to intelligently fill in newly revealed areas of the image, maintaining visual coherence and [[concepts/logical-consistency|consistency]] with the existing content. This represents a significant shift from manual methods, as the AI generates plausible details for previously hidden portions of the image rather than requiring the user to manually reconstruct them.
 
-The technology demonstrates practical [[concepts/software|applications]] in product photography, architectural visualization, and design workflows where viewing objects from alternative angles proves valuable without the need to reshoot or recreate source material.
-
+The technology demonstrates practical [[concepts/software|applications]] in product photography, architectural visualization, and [[concepts/design-workflows|design workflows]] where viewing objects from alternative angles proves valuable without the need to reshoot or recreate source material.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-JSON-Prompting-for-Gemini-Achieving-Total-Image-Control-and-Metadata|JSON Prompting for Gemini Achieving Total Image Control and Metadata]] · [▶ source](https://www.youtube.com/watch?v=gcXPW6eBB0w)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

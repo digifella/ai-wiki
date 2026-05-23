@@ -1,26 +1,26 @@
 ---
 type: concept
 domain: security-infrastructure
-updated: 2026-04-14
+summary: Unstructured data lacks a predefined schema or organization and requires techniques such as natural language processing or computer vision for analysis.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
-summary: "Unstructured data lacks a predefined schema or organization and requires techniques such as natural language processing or computer vision for analysis."
 ---
 - "data"
   - "ai"
   - "unstructured-data"
   - "data-processing"
-  - "natural-language-processing"
+  - "natural-[[concepts/natural-language-processing-nlp|language-processing]]"
   - "[[concepts/computer-vision|computer-vision]]"
-  - "data-transformation"
-  - "embedding-models"
-  - "retrieval-augmented-generation"
+  - "[[concepts/data-transformation|data-transformation]]"
+  - "embedding-[[concepts/models|models]]"
+  - "[[concepts/information-provision|retrieval-augmented-generation]]"
 aliases:
   - "non-[[concepts/structured-data|structured-data]]"
 group: data-pipelines-sync-[[entities/storage|storage]]
 
 # Unstructured Data
 
-Data lacking predefined [[concepts/structure|structure]] or [[concepts/organization|organization]], such as text documents, emails, [[concepts/social-media-carousels|social media posts]], [[concepts/images|images]], and audio. Difficult to process with traditional database systems without AI/ML techniques.
+Data lacking predefined [[concepts/structure|structure]] or [[concepts/organization|organization]], such as [[concepts/text|text]] documents, emails, [[concepts/social-media-carousels|social media posts]], [[concepts/images|images]], and [[concepts/audio-modality|audio]]. Difficult to process with traditional database systems without AI/ML techniques.
 
 ## Key Characteristics
 - No fixed schema or format
@@ -35,14 +35,13 @@ Data lacking predefined [[concepts/structure|structure]] or [[concepts/organizat
 - **[[concepts/fine-tuning|Fine-tuning]]**: Enhance embedding models for specific data domains
 
 ## AI Tool Integration Example
-- [[entities/notebooklm]] (Google) enhances unstructured data workflows with:
+- [[entities/notebooklm]] ([[concepts/google-search|Google]]) enhances unstructured data workflows with:
   - **[[concepts/data-tables|Data Tables]]**: Automatically [[concepts/structure|structure]] text into tabular format for analysis
   - **Simulations**: Run AI-driven simulations using unstructured inputs
   - *Note: Features demonstrated in [AI with Surya - use of Data Tables](https://www.youtube.com/watch?v=v28Pu7hsJ0s)*
 - [[entities/adam-lucek|Adam Lucek]]'s work on [[concepts/fine-tuning|fine-tuning]] embedding models for RAG pipelines:
   - Focuses on optimizing retrieval for [[concepts/domain-specific-data|domain-specific data]]
   - Enhances [[concepts/accuracy|accuracy]] and relevance in unstructured data processing
-
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-08: stop uploading [[concepts/files|files to AI (use this system instead)]]

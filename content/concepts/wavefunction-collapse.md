@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "concept"
   - "quantum-mechanics"
@@ -13,8 +12,9 @@ tags:
 aliases:
   - "wave function collapse"
   - "quantum collapse"
-summary: "The process by which a quantum system's wavefunction transitions from a superposition to a definite state upon measurement."
-updated: 2026-05-02
+summary: The process by which a quantum system's wavefunction transitions from a superposition to a definite state upon measurement.
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Wavefunction Collapse
 
@@ -22,11 +22,10 @@ Wavefunction collapse is the theoretical process by which a quantum system trans
 
 ## The Measurement Problem
 
-The precise mechanism and timing of collapse remains one of quantum mechanics' central interpretative challenges. The standard formulation does not explain why or how measurement causes collapse, or define what constitutes a "measurement" that triggers it. This has led to competing interpretations: the Copenhagen interpretation treats collapse as a fundamental postulate, while the many-worlds interpretation denies collapse occurs at all, proposing instead that all outcomes are realized in separate branches of reality.
+The precise mechanism and timing of collapse remains one of quantum mechanics' central interpretative challenges. The standard formulation does not explain why or how measurement causes collapse, or define what constitutes a "measurement" that triggers it. This has led to competing interpretations: the Copenhagen interpretation treats collapse as a fundamental postulate, while the many-worlds interpretation denies collapse occurs [[concepts/assistive-technology|at]] all, proposing instead that all outcomes are realized in separate branches of reality.
 
 ## Alternative Perspectives
 
 Several alternative frameworks attempt to address collapse's conceptual difficulties. Objective collapse theories propose that collapse is a physical process occurring spontaneously at certain [[concepts/musical-scales|scales]], independent of observation. [[concepts/superdeterminism|Superdeterminism]] suggests that apparent randomness in quantum outcomes may reflect deterministic correlations established before measurement. Other approaches, including pilot-wave [[concepts/theory|theory]] and relational interpretations, reformulate quantum mechanics to avoid invoking collapse as a distinct process.
-
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Superdeterminism-and-Quantum-Reality-Implications-for-Local-Realism|Superdeterminism and Quantum Reality Implications for Local Realism]] · [▶ source](https://www.youtube.com/watch?v=JnKzt6Xq-w4)

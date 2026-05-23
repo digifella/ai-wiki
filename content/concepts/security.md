@@ -1,23 +1,10 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "security-in-ai"
-  - "data-privacy"
-  - "enterprise-security"
-  - "malware-protection"
-  - "secure-authentication"
-aliases:
-  - "AI security guide"
-  - "Data protection in AI"
-  - "NVIDIA NemoClaw overview"
-  - "Enterprise AI agent platform"
-summary: "This page covers critical security aspects for deploying artificial intelligence agents within enterprises, focusing on data privacy, integrity, malware protection, and secure authentication."
-updated: 2026-04-14
+summary: This page covers critical security aspects for deploying artificial intelligence agents within enterprises, focusing on data privacy, integrity, malware protection, and secure authentication.
+updated: 2026-05-23
 group: privacy-security-guardrails
-title: "Security in AI Agents"
-backlinks:
-  - "2026 04 14 Claude Cloudflare setup"
+title: Security in AI Agents
 ---
 # Security in AI Agents
 
@@ -32,11 +19,10 @@ Security is a critical aspect of deploying [[concepts/ai-technologies|artificial
 
 ## Related Technologies
 - [[entities/openclaw]]
-- NVIDIA [[concepts/nemoclaw|NemoClaw]]
+- [[entities/nvidia|NVIDIA]] [[concepts/nemoclaw|NemoClaw]]
 - [[concepts/ai-agent|AI Agent]] Platforms
 
 ### NVIDIA NemoClaw
-
 ## Source Notes
 - 2026-04-07: Does NemoClaw Replace OpenClaw? (Full Comparison)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

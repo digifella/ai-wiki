@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "geophysical-methods"
   - "subsurface-imaging"
@@ -12,7 +11,8 @@ aliases:
   - "geophysical surveying"
   - "geophysical investigation"
 summary: Geophysical surveys are measurement and imaging techniques used to investigate subsurface geological properties and structures.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Geophysical Surveys
 
@@ -20,8 +20,8 @@ Geophysical surveys are non-invasive measurement techniques used to investigate 
 
 ## Common Survey Methods
 
-The primary geophysical survey techniques include seismic methods, which use sound waves to image subsurface layers; [[concepts/gravitational-pull|gravity]] and magnetic surveys, which detect density and magnetic variations; electrical and electromagnetic methods, which measure conductivity differences; and ground-penetrating radar, which uses radio waves for shallow subsurface imaging. The choice of method depends on the target depth, the type of geological information required, and site conditions.
+The primary geophysical [[concepts/survey|survey]] techniques include seismic methods, which use sound waves to image subsurface layers; [[concepts/gravitational-pull|gravity]] and magnetic surveys, which detect density and magnetic variations; electrical and electromagnetic methods, which measure conductivity differences; and ground-penetrating radar, which uses radio waves for shallow subsurface imaging. The choice of method depends on the target depth, the type of geological information required, and site conditions.
 
 ## Applications
 
-Geophysical surveys have diverse applications across industries and scientific disciplines. They are essential in mineral and petroleum exploration for locating economic deposits, in hydrogeology for mapping groundwater resources and contamination, in engineering [[concepts/geology|geology]] for assessing foundation conditions and subsurface hazards, and in environmental studies for investigating pollution and waste disposal sites. Surveys are also used in archaeological investigation, geothermal resource assessment, and volcanic and earthquake monitoring.
+Geophysical surveys have diverse [[concepts/software|applications]] across industries and scientific disciplines. They are essential in mineral and petroleum exploration for locating economic deposits, in hydrogeology for mapping groundwater resources and contamination, in engineering [[concepts/geology|geology]] for assessing foundation conditions and subsurface hazards, and in environmental studies for investigating pollution and waste disposal sites. Surveys are also used in archaeological investigation, geothermal resource assessment, and volcanic and earthquake monitoring.

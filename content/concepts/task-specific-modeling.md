@@ -1,32 +1,47 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
-  - "fine-tuning"
-  - "large-language-models"
-  - "llms"
   - "ollama"
-  - "python"
-  - "deployment"
   - "local-deployment"
+  - "graph-rag"
+  - "rust"
+  - "retrieval-augmented-generation"
+  - "large-language-models"
+  - "privacy"
+  - "edge-computing"
 aliases:
-  - "LLM Fine-Tuning"
-  - "Fine-tuning LLMs with Python"
-summary: A guide on fine-tuning Large Language Models using Python for deployment with Ollama.
-updated: 2026-05-01
+  - "Ollama"
+  - "Local LLM Runtime"
+summary: Ollama is a tool for running Large Language Models locally, enabling private, low-latency inference and integration with Graph-RAG systems like EdgeQuake for enhanced knowledge retrieval without cloud dependency.
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
-# Task Specific Modeling
+# Ollama
 
-Task-specific modeling refers to the process of adapting pre-trained [[concepts/large-language-model-llm|Large Language Models]] (LLMs) to perform specialized functions through [[concepts/fine-tuning|fine-tuning]]. Rather than relying solely on general-[[concepts/motivation|purpose]] models, this approach involves [[concepts/training|training]] a model on [[concepts/domain-specific-data|domain-specific data]] and examples to improve its performance on particular tasks or problem sets. In the context of [[concepts/cryptography|cryptography]] and [[concepts/mathematics|mathematics]], task-specific modeling enables LLMs to develop deeper expertise in specialized [[concepts/terminology|terminology]], [[concepts/problem-solving|problem-solving]] approaches, and domain conventions.
+[[entities/ollama|Ollama]] is a framework designed to simplify the [[concepts/deployment|deployment]] and management of [[concepts/large-language-models|Large Language Models]] (LLMs) in local environments. It abstracts the complexity of [[concepts/model-weights|model weights]], configuration, and API endpoints, allowing developers to run diverse [[concepts/models|models]]—such as [[entities/llama|Llama]] 3, [[entities/mistral|Mistral]], or [[entities/gemma|Gemma]]—with minimal [[concepts/setup|setup]]. This facilitates [[concepts/local-deployment|local deployment]], ensuring data [[concepts/privacy|privacy]] and reducing latency by keeping [[concepts/inference|inference]] tasks on the [[entities/edge-device|edge]] rather than relying on external cloud APIs.
 
-## Fine-Tuning Process
+## Core Capabilities
 
-Fine-tuning begins with a pre-trained base model and continues training it on a curated dataset relevant to the target task. This involves adjusting the model's [[concepts/weights|weights]] and [[concepts/parameters|parameters]] using [[entities/python|Python]]-based machine [[concepts/learning|learning]] frameworks to minimize error on domain-specific examples. The process is more efficient than training from scratch, as the model already possesses general language understanding and only requires adaptation to the specific task requirements.
+- **Local [[concepts/inference-engine|Inference Engine]]**: Provides a simple [[concepts/command-line-interaction|command-line interface]] and REST API to load, execute, and manage models directly on the host machine's [[concepts/cpu|CPU]] or GPU.
+- **Model Management**: Handles downloading, updating, and [[concepts/version-numbers|versioning]] of model blobs, standardizing the format via the Modelfile specification.
+- **Privacy & [[concepts/security|Security]]**: By keeping data and models local, Ollama addresses [[concepts/security-concersns|security concerns]] inherent in sending proprietary or sensitive data to third-party LLM providers.
 
-## Local Deployment with Ollama
+## Integration with Advanced Retrieval Systems
 
-For practical implementation, fine-tuned models can be deployed locally using Ollama, a tool designed to facilitate [[concepts/running|running]] LLMs on personal [[concepts/hardware|hardware]] without [[concepts/cloud-dependencies|cloud dependencies]]. This approach provides [[concepts/privacy|privacy]], reduced latency, and independence from external APIs. Deploying task-specific models locally allows researchers and practitioners to maintain confidential data while leveraging the benefits of domain-adapted AI systems in cryptographic [[concepts/software|applications]] or mathematical problem-solving.
+Ollama serves as the inference backbone for advanced local retrieval architectures, particularly when paired with [[entities/high-performance|high-performance]] languages like [[entities/rust|Rust]].
 
-## Source Notes
-- 2026-04-15: [[lab-notes/2026-04-15-Hermes-Agent-Self-Improving-AI-for-Adaptive-User-Learning|Hermes Agent Self Improving AI for Adaptive User Learning]] · [▶ source](https://www.youtube.com/watch?v=5PLDovsqKaQ)
+- **EdgeQuake Framework**: A notable application is [[lab-notes/2026-05-22-EdgeQuake-Local-Rust-Graph-RAG-with-Ollama-for-Improved|EdgeQuake: Local Rust Graph-RAG with Ollama for Improved Knowledge Retrieval]].
+	- Developed by [[entities/fahd-mirza|Fahd Mirza]], this system utilizes [[concepts/rust-programming-language|Rust]] for high-performance graph traversal and Ollama for local [[concepts/text-generation|text generation]].
+	- It addresses the "broken RAG" problem where traditional vector-based retrieval fails to capture complex [[concepts/relationships|relationships]] in [[concepts/knowledge-graphs|knowledge graphs]].
+	- By combining local [[concepts/entity-relation-graphs|Graph-RAG]] with Ollama, EdgeQuake enables improved [[concepts/contextual-understanding|contextual understanding]] and [[concepts/answer-generation|answer generation]] while maintaining 100% [[concepts/local-data-processing|local data processing]].
+
+## Relation to Task-Specific Modeling
+
+While Ollama primarily handles inference, it is integral to the [[concepts/fine-tuning|fine-tuning]] [[concepts/workflow|workflow]]. It allows for the rapid [[concepts/testing|testing]] and deployment of task-specific models adapted from general-[[concepts/motivation|purpose]] [[concepts/large-language-model-llm|Large Language Models]]. This is particularly relevant in specialized domains such as [[concepts/cryptography|cryptography]] and [[concepts/mathematics|mathematics]], where local models can be fine-tuned on domain-specific [[concepts/terminology|terminology]] and [[concepts/problem-solving|problem-solving]] conventions without exposing proprietary datasets.
+
+## Technical Stack
+
+- **Backend**: Often relies on [[entities/llamacpp|Llama.cpp]] or similar efficient inference libraries.
+- **Language Agnostic**: While the runtime is agnostic, [[concepts/integration|integration]] with [[entities/python|Python]] allows for seamless scripting in [[concepts/machine-learning|machine learning]] pipelines.
+- **Cross-Platform**: Supports [[entities/macos|macOS]], [[entities/linux|Linux]], and [[entities/windows|Windows]], facilitating broad [[concepts/adoption|adoption]] in local [[concepts/developer-platforms|development environments]].

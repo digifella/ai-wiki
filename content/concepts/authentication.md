@@ -12,13 +12,13 @@ tags:
   - "security-infrastructure"
 aliases:
   - "identity verification"
-summary: "Authentication is the process of verifying the identity of a user, device, or system through methods such as passwords, multi-factor authentication, and biometrics."
-updated: 2026-04-28
+summary: Authentication is the process of verifying the identity of a user, device, or system through methods such as passwords, multi-factor authentication, and biometrics.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # Authentication
 
-Authentication is the process of verifying the identity of a user, device, or system. It is a fundamental concept in information [[concepts/security|security]] and access control.
+Authentication is the process of verifying the identity of a user, device, or system. It is a fundamental concept in information [[concepts/security|security]] and access [[concepts/power|control]].
 
 ## Methods of Authentication
 
@@ -37,13 +37,12 @@ Authentication is the process of verifying the identity of a user, device, or sy
 ## Recent Developments
 
 - [[concepts/integration|Integration]] of Cloudflare for enhanced security and performance.
-- Implementation of advanced MFA solutions.
+- [[concepts/adoption|Implementation]] of advanced MFA solutions.
 - Use of [[concepts/biometric-authentication]] in consumer devices.
 
 ## Backlinks
 
-- 2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare setup
-
+- 2026 04 14 [[concepts/claude-ai|Claude]] Cloudflare [[concepts/setup|setup]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)
 - 2026-04-10: [[lab-notes/2026-04-10-Integrating-Local-Gemma-4-LLMs-with-Claude-Code-Setup-and-Practical-Us|Integrating Local Gemma 4 LLMs with Claude Code Setup and Practical Us]] · [▶ source](https://www.youtube.com/watch?v=sKNq4CqWkT4)

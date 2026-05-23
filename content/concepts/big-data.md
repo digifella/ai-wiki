@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "large-scale-data"
   - "data-processing"
@@ -13,7 +12,8 @@ aliases:
   - "large data sets"
   - "data at scale"
 summary: Large volumes of structured and unstructured data requiring distributed storage and computational resources for processing and analysis.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Big Data
 
@@ -21,13 +21,13 @@ Big Data refers to datasets that exceed the processing capacity of traditional s
 
 ## Storage and Processing Architecture
 
-Managing Big Data requires distributed storage systems that partition data across multiple servers and processing frameworks that parallelize computation. Technologies such as Hadoop Distributed File System (HDFS) and cloud storage platforms enable horizontal [[concepts/computational-scaling|scaling]] of storage capacity, while distributed processing engines like Apache Spark and MapReduce allow computational tasks to be executed across clusters of machines. These architectures trade [[concepts/logical-consistency|consistency]] and latency for availability and fault tolerance, accepting that processing times may be longer than traditional systems but ensuring continued operation even when individual components fail.
+Managing Big Data requires distributed storage systems that partition data across multiple servers and processing frameworks that parallelize computation. Technologies such as Hadoop Distributed File System (HDFS) and cloud storage platforms enable horizontal [[concepts/computational-scaling|scaling]] of storage capacity, while distributed processing engines like Apache Spark and MapReduce allow computational tasks to be executed across clusters of machines. These architectures trade [[concepts/logical-consistency|consistency]] and latency for availability and [[concepts/robustness|fault tolerance]], accepting that processing times may be longer than traditional systems but ensuring continued operation even when individual components fail.
 
 ## Security and Infrastructure Implications
 
-Within security and infrastructure contexts, Big Data presents both [[concepts/opportunities-and-risks|opportunities and risks]]. Large-scale data analysis enables detection of patterns in network traffic, user behavior, and system logs that might reveal security threats. However, storing and processing sensitive data across distributed systems increases the [[concepts/attack-surface|attack surface]] and complicates data protection, access control, and [[concepts/compliance|compliance]] efforts. Organizations must balance the analytical benefits of Big Data with the security requirements of encryption, [[concepts/authentication|authentication]], and audit logging across complex, geographically dispersed infrastructure.
+Within [[concepts/security|security]] and infrastructure contexts, Big Data presents both [[concepts/opportunities-and-risks|opportunities and risks]]. Large-scale data analysis enables detection of patterns in network traffic, user behavior, and system logs that might reveal security threats. However, storing and processing sensitive data across distributed systems increases the [[concepts/attack-surface|attack surface]] and complicates data protection, access [[concepts/power|control]], and [[concepts/compliance|compliance]] efforts. Organizations must balance the analytical benefits of Big Data with the security requirements of encryption, [[concepts/authentication|authentication]], and audit logging across complex, geographically dispersed infrastructure.
 
-- 2026-04-14 [2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr](2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr.md) ← Optimizing Ai Costs And Privacy With Local Open Source Models And Hybr
-- 2026-04-07 [2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering](2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering.md) ← Space Based Ai Data Centers Feasibility Techno Economics Engineering
+- 2026-04-14 [2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr](2026-04-14-Optimizing-AI-Costs-and-Privacy-with-Local-Open-Source-Models-and-Hybr.md) ← Optimizing Ai Costs And [[concepts/privacy|Privacy]] With Local [[concepts/open-source|Open Source]] [[concepts/models|Models]] And Hybr
+- 2026-04-07 [2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering](2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering.md) ← Space Based Ai Data Centers Feasibility [[concepts/techno-economics|Techno Economics]] Engineering
 - 2026-04-08 [2026-04-08-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering](2026-04-08-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering.md) ← Space Based Ai Data Centers Feasibility Techno Economics Engineering
 ## Source Notes

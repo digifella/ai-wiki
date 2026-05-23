@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "traumatic-birth"
   - "paternal-support"
@@ -13,7 +12,8 @@ aliases:
   - "birth trauma"
   - "traumatic childbirth"
 summary: This concept covers traumatic births and the enhancement of service delivery for fathers through men's attendance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Traumatic Births
 
@@ -25,4 +25,4 @@ Fathers who attend traumatic births face unique challenges in processing their e
 
 ## Service Delivery Enhancement
 
-Improving service delivery for fathers during and after traumatic births involves recognizing their role as support persons and ensuring their own [[concepts/health|wellbeing]] is addressed. This includes providing clear communication about clinical procedures, offering access to debriefing or counselling services, and creating pathways for fathers to process their experience. Healthcare systems that acknowledge the impact of traumatic births on all attendees tend to achieve better outcomes for family adjustment and long-term mental health.
+Improving [[concepts/service-delivery|service delivery]] for fathers during and after traumatic births involves recognizing their role as support persons and ensuring their own [[concepts/health|wellbeing]] is addressed. This includes providing clear communication about clinical procedures, offering access to debriefing or counselling services, and creating pathways for fathers to process their experience. Healthcare systems that acknowledge the impact of traumatic births on all attendees tend to achieve better outcomes for family adjustment and long-term mental health.

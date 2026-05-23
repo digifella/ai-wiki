@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "video-production"
-  - "ai-workflow"
-  - "content-creation"
-  - "high-retention"
-  - "viewer-retention"
-  - "video-pacing"
-  - "narrative-structure"
-aliases:
-  - "high-retention video production"
-  - "video optimization strategy"
-  - "admin-privileges method"
-summary: "The practice of optimizing video pacing, visual fidelity, and narrative structure using AI workflows to maximize viewer watch time."
-updated: 2026-04-24
+summary: The practice of optimizing video pacing, visual fidelity, and narrative structure using AI workflows to maximize viewer watch time.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # high-retention video creation
@@ -28,14 +16,13 @@ The strategic practice of optimizing video pacing, visual fidelity, and narrativ
 * **[[concepts/tech-stack|Tech Stack]]:**
 	* **Research & Scripting:** [[entities/notebooklm]] (leveraging advanced [[concepts/prompt-engineering|prompt engineering]] for deep narrative [[concepts/structure|structure]]).
 	* **Voiceover:** [[entities/google-ai-studio]] (for high-fidelity, voice-matched narration).
-* **Visual Strategy:** Implementation of high-motion assets to maintain engagement.
+* **Visual Strategy:** [[concepts/adoption|Implementation]] of high-motion assets to maintain engagement.
 
 ## 🧠 Core Retention Principles
 * **Visual Pacing:** Frequent use of Dynamic Motion and high-resolution transitions to reset viewer [[concepts/attention|attention]].
 * **Narrative Hook:** Immediate delivery of value or tension within the first few seconds.
 * **Information Density:** Maintaining a high rate of new information to prevent cognitive boredom.
 * **Auditory Immersion:** Utilizing AI Voiceover techniques to ensure seamless, human-like [[concepts/storytelling|storytelling]].
-
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

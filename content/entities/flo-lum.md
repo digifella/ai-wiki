@@ -1,12 +1,8 @@
 ---
 type: entity
-tags:
-  - "content-creator"
-  - "culinary"
-  - "culinary-author"
-  - "recipe-creator"
-summary: "Flo Lum is a culinary author and content creator who provides a recipe and origin clarification for Singapore Fried Vermicelli."
-updated: 2026-04-26
+summary: Flo Lum is a culinary author and content creator who provides a recipe and origin clarification for Singapore Fried Vermicelli.
+updated: 2026-05-23
+stub: true
 ---
 # Flo Lum
 
@@ -21,6 +17,5 @@ Content [[concepts/creator|creator]] and culinary author.
 
 ## Backlinks
 - 2026 04 23 [[concepts/singapore-fried-vermicelli|Singapore Fried Vermicelli]] Recipe and Origin Clarification
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Singapore-Fried-Vermicelli-Recipe-and-Origin-Clarification|Singapore Fried Vermicelli Recipe and Origin Clarification]] · [▶ source](https://www.youtube.com/watch?v=6izDqbjmMMc)

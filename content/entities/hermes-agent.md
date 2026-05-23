@@ -10,11 +10,11 @@ aliases:
   - "Hermes"
   - "Self-Improving AI Agent"
 summary: Hermes Agent is a self-improving AI designed for adaptive user learning, featuring near-AGI capabilities and autonomous browser control.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Hermes Agent
 
-[[concepts/autonomous-workflow-automation|Hermes Agent]] is an [[concepts/ai-technologies|artificial intelligence]] system designed to operate with autonomous capabilities and [[concepts/adaptive-learning|adaptive learning]] functionality. The system is characterized by its self-improving [[concepts/architecture|architecture]], which enables it to refine its performance based on interactions and [[concepts/feedback|feedback]]. It incorporates near-AGI ([[concepts/agi|Artificial General Intelligence]]) level capabilities, positioning it as a relatively advanced AI system within its domain.
+[[concepts/autonomous-workflow-automation|Hermes Agent]] is an [[concepts/ai-technologies|artificial intelligence]] system designed to operate with autonomous [[concepts/capabilities|capabilities]] and [[concepts/adaptive-learning|adaptive learning]] functionality. The system is characterized by its self-improving [[concepts/architecture|architecture]], which enables it to refine its performance based on interactions and [[concepts/feedback|feedback]]. It incorporates near-AGI ([[concepts/agi|Artificial General Intelligence]]) level capabilities, positioning it as a relatively advanced AI system within its domain.
 
 ## Key Capabilities
 
@@ -22,8 +22,7 @@ The system includes autonomous [[concepts/browser-control|browser control]] func
 
 ## Development Context
 
-Hermes Agent was the subject of technical discussion and documentation in 2026, with information distributed through platforms such as YouTube. The system represents ongoing research into self-improving AI systems and their practical [[concepts/software|applications]] in user-facing contexts.
-
+[[entities/hermes|Hermes]] [[entities/agent|Agent]] was the subject of technical discussion and documentation in 2026, with information distributed through platforms such as [[entities/youtube|YouTube]]. The system represents ongoing research into [[concepts/self-improving-ai|self-improving AI]] systems and their practical [[concepts/software|applications]] in user-facing contexts.
 ## Source Notes
 - 2026-04-24: Hermes · [▶ source](https://www.youtube.com/watch?v=4Sln_6K2z8c)
 - 2026-04-10: [[lab-notes/2026-04-10-OpenClaw-and-Obsidian-Integration-for-Enhanced-AI-Agent-Memory-and-Col|OpenClaw and Obsidian Integration for Enhanced AI Agent Memory and Col]] · [▶ source](https://www.youtube.com/watch?v=6V-b073qhPA)

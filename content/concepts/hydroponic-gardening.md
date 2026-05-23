@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "hydroponic-gardening"
   - "indoor-plants"
@@ -12,15 +11,16 @@ aliases:
   - "water gardening"
   - "hydroponic cultivation"
 summary: A report on seven indoor plants that can grow in water without soil.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Hydroponic Gardening
 
-Hydroponic gardening is a method of cultivating plants without soil, using nutrient-rich water solutions instead. In hydroponic systems, plant roots are suspended in water or an inert growing [[entities/medium|medium]] and receive essential nutrients directly from the water supply. This approach eliminates the need for traditional soil-based cultivation and allows plants to be grown indoors year-round, regardless of climate or season.
+[[concepts/soil-less-gardening|Hydroponic gardening]] is a method of cultivating plants without soil, using nutrient-rich water solutions instead. In hydroponic systems, plant roots are suspended in water or an inert growing [[entities/medium|medium]] and receive essential nutrients directly from the water supply. This approach eliminates the need for traditional soil-based cultivation and allows plants to be grown indoors year-[[concepts/rounding|round]], regardless of climate or season.
 
 ## Indoor Plant Cultivation
 
-Several common houseplants thrive in hydroponic environments when provided with adequate light and nutrient solutions. Species suitable for water-based cultivation include [[entities/pothos|pothos]], philodendron, lucky bamboo, coleus, begonias, mint, and spider plants. These plants adapt well to having their roots in water and can develop strong growth when given consistent lighting and regular nutrient replenishment.
+Several common houseplants thrive in hydroponic environments when provided with adequate [[concepts/light|light]] and nutrient solutions. Species suitable for water-based cultivation include [[entities/pothos|pothos]], philodendron, lucky bamboo, coleus, begonias, mint, and spider plants. These plants adapt well to having their roots in water and can develop strong growth when given consistent lighting and regular nutrient replenishment.
 
 ## Practical Advantages
 

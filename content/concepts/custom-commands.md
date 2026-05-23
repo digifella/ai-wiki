@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "ai-coding-assistants"
   - "claude-code"
@@ -13,7 +12,8 @@ aliases:
   - "AI Assistant Commands"
   - "Claude Code Customization"
 summary: This page covers customization options and workflows for AI coding assistants such as Claude Code and Gemini CLI.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Custom Commands
 
@@ -21,12 +21,11 @@ Custom commands are user-defined workflows and shortcuts available in [[concepts
 
 ## Configuration and Implementation
 
-Custom commands are generally configured through configuration files, environment settings, or command registries within the [[concepts/coding-assistant|coding assistant]] platform. Users can define commands that trigger specific AI behaviors, code transformations, or automated processes tailored to their project requirements. This [[concepts/customization|customization]] layer helps bridge the gap between generic [[concepts/capabilities|AI capabilities]] and domain-specific development needs, such as enforcing company coding [[concepts/open-standards|standards]] or automating infrastructure tasks.
+Custom commands are generally configured through configuration [[concepts/files|files]], environment settings, or command registries within the [[concepts/coding-assistant|coding assistant]] platform. Users can define commands that trigger specific AI behaviors, [[concepts/code|code]] transformations, or automated processes tailored to their project requirements. This [[concepts/customization|customization]] layer helps bridge the gap between generic [[concepts/capabilities|AI capabilities]] and domain-specific development needs, such as enforcing company coding [[concepts/open-standards|standards]] or automating infrastructure tasks.
 
 ## Workflow Integration
 
-In team environments, custom commands facilitate [[concepts/logical-consistency|consistency]] by allowing multiple developers to access the same pre-configured workflows. Rather than each team member manually specifying project requirements or processes to the AI assistant, shared custom commands ensure uniform behavior across collaborative development. This approach reduces context switching and accelerates onboarding by embedding institutional knowledge directly into the tooling.
-
+In team environments, custom commands facilitate [[concepts/logical-consistency|consistency]] by allowing multiple developers to access the same pre-configured workflows. Rather than each team member manually specifying project requirements or processes to the [[concepts/ai-assistant|AI assistant]], shared custom commands ensure uniform behavior across collaborative development. This approach reduces context switching and accelerates onboarding by embedding institutional knowledge directly into the tooling.
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)

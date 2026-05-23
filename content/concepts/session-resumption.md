@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "Claude Code"
-  - "session management"
-  - "context window"
-  - "session-resumption"
-  - "claude-code"
-  - "session-management"
-  - "context-window"
-  - "state-persistence"
-aliases:
-  - "session recovery"
-  - "resuming sessions"
-summary: "A mechanism within Claude Code to restore previous interaction states and maintain context window continuity."
-updated: 2026-04-18
+summary: A mechanism within Claude Code to restore previous interaction states and maintain context window continuity.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Session resumption
@@ -26,7 +14,6 @@ The ability to restore previous interaction states within [[entities/claude-code
 - `/stats`: Displays usage metrics and proximity to [[entities/claude-code]] limits.
 
 2026 04 14 Major updates for [[concepts/ai-assisted-coding|Claude Code]] [[entities/alex-finn|Alex Finn]]
-
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

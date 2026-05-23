@@ -6,8 +6,9 @@ tags:
   - "firebase"
   - "google-ai-studio"
   - "digital-transformation"
-summary: "Profit Studio focuses on digital transformation and the development of full-stack web applications using Firebase and Google AI Studio."
-updated: 2026-04-28
+summary: Profit Studio focuses on digital transformation and the development of full-stack web applications using Firebase and Google AI Studio.
+updated: 2026-05-23
+stub: true
 ---
 # Profit Studio
 
@@ -30,4 +31,4 @@ updated: 2026-04-28
 - [[concepts/web-application|Web Application]]
 
 ## Resources
-- [[concepts/tutorial|Tutorial]] on transforming static designs into dynamic web applications
+- [[concepts/tutorial|Tutorial]] on transforming static designs into dynamic web [[concepts/software|applications]]

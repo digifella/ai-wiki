@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: lightroom-color-workflows
 tags:
   - "film-presets"
   - "adobe-camera-raw"
@@ -13,20 +12,20 @@ aliases:
   - "film-inspired presets"
   - "camera raw film presets"
 summary: Adobe Camera Raw 18.3 and Lightroom Classic 15.3 introduce film-inspired presets alongside updates to depth range masking, lens correction, Firefly AI integration, and background processing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: lightroom-color-workflows
 ---
 # Film Presets
 
-Film Presets are a collection of [[concepts/camera-raw|camera raw]] processing presets introduced in Adobe Camera Raw 18.3 and Lightroom Classic 15.3 that emulate the aesthetic characteristics of traditional film stocks. These presets allow photographers and videographers to apply film-inspired [[concepts/photo-tonal-adjustments|color grading]] and tonal characteristics to their digital [[concepts/images|images]] without manual adjustment.
+Film Presets are a collection of [[concepts/camera-raw|camera raw]] processing presets introduced in [[entities/adobe-camera-raw|Adobe Camera Raw]] 18.3 and [[entities/lightroom-classic|Lightroom Classic]] 15.3 that emulate the aesthetic characteristics of traditional film stocks. These presets allow photographers and videographers to apply film-inspired [[concepts/photo-tonal-adjustments|color grading]] and tonal characteristics to their digital [[concepts/images|images]] without manual adjustment.
 
 ## Integration with Adobe Tools
 
-The Film Presets feature launched alongside several other updates to Adobe's raw processing [[concepts/software|software]]. Camera Raw 18.3 and Lightroom Classic 15.3 also introduced enhancements to [[concepts/depth-range-masking|depth range masking]] capabilities, improved [[concepts/lens-correction|lens correction]] tools, expanded Firefly AI integration, and background processing improvements. These updates were presented together as part of Adobe's broader efforts to streamline the raw [[concepts/photography-workflow|editing workflow]].
+The Film Presets feature launched alongside several other updates to Adobe's raw processing [[concepts/software|software]]. Camera Raw 18.3 and Lightroom Classic 15.3 also introduced enhancements to [[concepts/depth-range-masking|depth range masking]] [[concepts/capabilities|capabilities]], improved [[concepts/lens-correction|lens correction]] tools, expanded Firefly [[concepts/ai-integration|AI integration]], and background processing improvements. These updates were presented together as part of Adobe's broader efforts to streamline the raw [[concepts/photography-workflow|editing workflow]].
 
 ## Usage and Scope
 
-Film Presets function as starting points for [[concepts/adjustments|color and tone adjustments]] rather than final outputs. Users can apply these presets to raw files and then further customize them using other editing tools available in Camera Raw and Lightroom. The presets are designed to work with the existing [[concepts/layer-masks|masking]] and correction features in both applications, allowing for non-destructive editing adjustments.
-
+Film Presets function as starting points for [[concepts/adjustments|color and tone adjustments]] rather than final outputs. Users can apply these presets to raw [[concepts/files|files]] and then further customize them using other editing tools available in Camera Raw and Lightroom. The presets are designed to work with the existing [[concepts/layer-masks|masking]] and correction features in both applications, allowing for [[concepts/non-destructive-editing|non-destructive editing]] adjustments.
 ## Source Notes
 
 - 2026-04-21: Lightroom · [▶ source](https://youtu.be/797b8VFXIYs)

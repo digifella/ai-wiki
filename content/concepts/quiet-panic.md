@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: resilience-mental-performance-pain
 tags:
   - "mental-health"
   - "wellbeing"
@@ -13,7 +12,8 @@ aliases:
   - "quiet anxiety"
   - "silent panic"
 summary: A concept within the health and wellbeing domain.
-updated: 2026-05-01
+updated: 2026-05-23
+group: resilience-mental-performance-pain
 title: Quiet Panic
 ---
 # Quiet Panic
@@ -27,6 +27,5 @@ Individuals experiencing quiet panic often report racing thoughts, a sense of im
 ## Relevance to Wellbeing
 
 Understanding quiet panic is relevant to [[concepts/mental-health|mental health]] assessment and support, as standard diagnostic approaches may overlook individuals whose anxiety presentations are subdued or internalized. Recognition of this state is important for developing appropriate interventions and fostering environments where people feel comfortable acknowledging their psychological experiences without requiring dramatic external confirmation.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-The-Synoptic-Mind-Reframing-Diverse-Interests-as-a-Cognitive-Strength|The Synoptic Mind Reframing Diverse Interests as a Cognitive Strength]] · [▶ source](https://www.youtube.com/watch?v=yOGW-sq0b1s)

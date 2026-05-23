@@ -10,16 +10,15 @@ aliases:
   - "American Manufacturing Challenge"
   - "Made in America Experiment"
 summary: Destin Sandlin of Smarter Every Day documents an experiment to determine if a product can be manufactured entirely in America and remain competitive in the marketplace.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # America
 
-"America" is a documentary project by [[entities/destin-sandlin|Destin Sandlin]] of the YouTube channel [[entities/smarter-every-day|Smarter Every Day]] that investigates whether a product can be manufactured entirely within the [[entities/united-states|United States]] while remaining competitive in the global marketplace. The experiment was designed as a multi-year undertaking to explore the economic and practical feasibility of [[concepts/domestic-manufacturing|domestic manufacturing]] at scale.
+"America" is a documentary project by [[entities/destin-sandlin|Destin Sandlin]] of the [[entities/youtube|YouTube]] channel [[entities/smarter-every-day|Smarter Every Day]] that investigates whether a product can be manufactured entirely within the [[entities/united-states|United States]] while remaining competitive in the global marketplace. The experiment was designed as a multi-year undertaking to explore the economic and practical feasibility of [[concepts/domestic-manufacturing|domestic manufacturing]] [[concepts/assistive-technology|at]] scale.
 
 ## Project Overview
 
-The four-year experiment documents the challenges and considerations involved in sourcing materials, manufacturing, and distributing a product using only American resources and labor. Through this project, Sandlin examines the cost implications, supply chain complexities, and market viability of keeping production entirely domestic rather than relying on overseas manufacturing or imported components.
-
+The [[concepts/four-year-experiment|four-year experiment]] documents the challenges and considerations involved in sourcing materials, manufacturing, and distributing a product using only American resources and labor. Through this project, Sandlin examines the [[concepts/cost|cost]] implications, supply chain complexities, and market viability of keeping production entirely domestic rather than relying on overseas manufacturing or imported components.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-Enhancing-Ground-Meat-Baking-Sodas-Effect-on-Texture-Juiciness-and-Bro|Enhancing Ground Meat Baking Sodas Effect on Texture Juiciness and Bro]] · [▶ source](https://www.youtube.com/watch?v=b4QqU-RQZ4w)
 - 2026-04-13: [[lab-notes/2026-04-13-Bacon-Cooking-Techniques-Achieving-Uniform-Crispness-with-Water-and-Ov|Bacon Cooking Techniques Achieving Uniform Crispness with Water and Ov]] · [▶ source](https://www.youtube.com/watch?v=tDBSQKEKrW4)

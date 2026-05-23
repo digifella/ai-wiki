@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "visual-contrast"
   - "design-principles"
@@ -14,21 +13,21 @@ aliases:
   - "visual-distinction"
   - "tonal-contrast"
 summary: This page is a stub for the concept of contrast.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 title: Contrast
 ---
 # Contrast
 
-Contrast is a fundamental principle in creative work that involves the juxtaposition of differing elements to create visual, tonal, or conceptual impact. In design and art, contrast operates through the deliberate positioning of opposites—such as light against dark, large against small, or smooth against textured surfaces—to guide [[concepts/attention-mechanisms|attention]], establish [[concepts/hierarchy|hierarchy]], and enhance overall composition. The effectiveness of contrast depends on the degree of difference between elements; subtle contrast creates sophistication while extreme contrast generates drama and immediacy.
+Contrast is a fundamental principle in creative work that involves the juxtaposition of differing elements to create visual, tonal, or conceptual impact. In [[concepts/design|design]] and [[concepts/art|art]], contrast operates through the deliberate positioning of opposites—such as [[concepts/light|light]] against dark, large against small, or smooth against textured surfaces—to guide [[concepts/attention-mechanisms|attention]], establish [[concepts/hierarchy|hierarchy]], and enhance overall composition. The effectiveness of contrast depends on the degree of difference between elements; subtle contrast creates sophistication while extreme contrast generates drama and immediacy.
 
 ## Visual Contrast
 
-In visual media like photography and graphic design, contrast manifests through variations in tone, color, saturation, and spatial [[concepts/relationships|relationships]]. High-contrast [[concepts/images|images]] feature pronounced differences between light and dark areas, creating bold visual statements and improved legibility. Low-contrast compositions tend toward [[concepts/musical-harmony|harmony]] and subtlety. Digital tools like Lightroom and [[entities/snapseed|Snapseed]] provide calibration panels and adjustment features that allow creators to manipulate contrast at foundational levels, affecting everything from color reproduction to skin tone rendering.
+In visual media like photography and graphic design, contrast manifests through variations in [[concepts/tone|tone]], color, saturation, and spatial [[concepts/relationships|relationships]]. High-contrast [[concepts/images|images]] feature pronounced differences between light and dark areas, creating bold visual statements and improved legibility. Low-contrast compositions tend toward [[concepts/musical-harmony|harmony]] and subtlety. Digital tools like [[concepts/lightroom|Lightroom]] and [[entities/snapseed|Snapseed]] provide calibration panels and adjustment features that allow creators to manipulate contrast [[concepts/assistive-technology|at]] foundational levels, affecting everything from color reproduction to skin tone rendering.
 
 ## Conceptual Applications
 
-Beyond the visual realm, contrast functions as a narrative and thematic device in [[concepts/writing|writing]], film, and other [[concepts/storytelling|storytelling]] media. Contrasting characters, situations, or ideas can illuminate meaning through comparison, create tension through opposition, and establish emotional resonance through unexpected juxtapositions. Effective use of contrast requires understanding both aesthetic principles and the specific context in which it operates, ensuring that contrasting elements serve the overall intent of the work rather than appearing arbitrary.
-
+Beyond the visual realm, contrast functions as a narrative and thematic device in [[concepts/writing|writing]], film, and other [[concepts/storytelling|storytelling]] media. Contrasting characters, situations, or [[concepts/ideas|ideas]] can illuminate meaning through comparison, create tension through opposition, and establish emotional resonance through unexpected juxtapositions. Effective use of contrast requires understanding both aesthetic principles and the specific context in which it operates, ensuring that contrasting elements serve the overall intent of the work rather than appearing arbitrary.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial|Gemma 4 E2B LLM Fine Tuning Custom Dataset Unsloth Local Tutorial]] · [▶ source](https://www.youtube.com/watch?v=cHpB0PTRx5A)
 - 2026-04-10: [[lab-notes/2026-04-10-NemoClaw-vs-OpenClaw-NVIDIAs-Secure-AI-Agent-for-Enterprise|NemoClaw vs OpenClaw NVIDIAs Secure AI Agent for Enterprise]] · [▶ source](https://www.youtube.com/watch?v=LfvKkrVSO-U)

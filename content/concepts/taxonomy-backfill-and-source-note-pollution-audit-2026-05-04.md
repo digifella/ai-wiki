@@ -1,14 +1,23 @@
 ---
 type: maintenance-note
-title: "Taxonomy Backfill & Source Note Pollution Audit"
-created: 2026-05-04
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "maintenance"
   - "taxonomy"
   - "audit"
   - "quality-assurance"
+  - "data-pollution"
+  - "regex-refinement"
+  - "entity-linking"
+aliases:
+  - "Source Note Pollution Cleanup"
+  - "AI-Vault Quality Audit"
+  - "Entity Classification Backfill"
+summary: Quality audit addressing 528 unclassified concepts and source note pollution from over-broad entity matching in wiki ingestion scripts, with fixes applied to regex guards, link limits, and context rules.
+updated: 2026-05-23
+created: 2026-05-04
+group: platforms-runtimes-environments
+title: Taxonomy Backfill & Source Note Pollution Audit
 ---
 # Taxonomy Backfill & Source Note Pollution Audit
 
@@ -18,15 +27,15 @@ tags:
 
 ## Background
 
-Routine quality audit revealed two issues:
+Routine [[concepts/diagnostic-audit|quality audit]] revealed two issues:
 1. 528 concepts classified as "undecided" — taxonomy not applied
-2. Non-AI entity pages polluted with AI-related source notes (e.g., food writer Eric Kim has Claude/Obsidian lab notes linked)
+2. Non-AI entity pages polluted with AI-related [[concepts/feedback|source notes]] (e.g., food writer [[concepts/eric-kim|Eric Kim]] has Claude/Obsidian lab notes linked)
 
 ## Root Causes Identified
 
 ### Source Note Pollution (3 mechanisms)
 
-1. **`refresh_entity_pages()` loose regex** — Line 1795 of `nemoclaw-wiki-ingest.py` matches entity aliases against ALL lab note text using raw regex. Generic entity names ("nature", "science", "speaker", "developer", "email", "storage") match in unrelated AI notes.
+1. **`refresh_entity_pages()` loose regex** — Line 1795 of `nemoclaw-wiki-ingest.py` matches entity aliases against ALL lab note [[concepts/text|text]] using raw regex. Generic entity names ("[[entities/nature|nature]]", "[[concepts/science|science]]", "[[entities/speaker|speaker]]", "[[concepts/developer|developer]]", "[[entities/email|email]]", "[[entities/storage|storage]]") match in unrelated [[concepts/ai-generated-notes|AI notes]].
 
 2. **`auto_link_keywords()` over-linking** — Called with `max_links=36` in `refresh_entity_pages()`, adding up to 36 wikilinks per entity page regardless of relevance.
 
@@ -43,14 +52,14 @@ Routine quality audit revealed two issues:
 - Reduced from 24 to 12 in `repair_links()`
 
 ### Fix 3: Expanded AMBIGUOUS_ENTITY_CONTEXT
-- Added context guards for: nature, science, speaker, developer, creator, email, storage, canvas, america, excel, youtube, matthew-berman
+- Added context guards for: nature, science, speaker, developer, [[concepts/creator|creator]], email, storage, [[concepts/canvas|canvas]], [[entities/america|america]], [[entities/excel|excel]], [[entities/youtube|youtube]], [[entities/matthew-berman|matthew-berman]]
 
 ## Taxonomy Backfill Plan
 
 - Script: `nemoclaw-taxonomy-apply.py`
 - Safety: dry-run test on 15 concepts before full apply
-- Batches: process in chunks of ~500 concepts with verification between batches
-- Verification: compare body content hash before/after each batch
+- Batches: process in chunks of ~500 concepts with [[concepts/verification|verification]] between batches
+- Verification: [[concepts/feynmans-three-step-scientific-method|compare]] body content hash before/after each batch
 
 ## Results
 
@@ -63,5 +72,5 @@ Routine quality audit revealed two issues:
 - TBD after taxonomy apply completes
 
 ## Related
-- [[nemoclaw]]
+- [[entities/nemoclaw]]
 - [[concepts/wiki-ingest]]

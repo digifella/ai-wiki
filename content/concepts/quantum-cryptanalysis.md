@@ -12,8 +12,8 @@ tags:
   - "q-day"
 aliases:
   - "quantum-based cryptanalysis"
-summary: "The study of leveraging quantum computing to identify and exploit vulnerabilities in the mathematical foundations of classical encryption."
-updated: 2026-04-30
+summary: The study of leveraging quantum computing to identify and exploit vulnerabilities in the mathematical foundations of classical encryption.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Quantum cryptanalysis
@@ -33,6 +33,5 @@ Quantum cryptanalysis is the study of leveraging [[entities/quantum-computing]] 
 ## Mitigation & Defense
 - [[concepts/post-quantum-cryptography]] (PQC): The development of classical algorithms (e.g., lattice-based, hash-based, or multivariate-quadratic) believed to be resistant to [[concepts/quantum-attacks|quantum attacks]].
 - Quantum key [[concepts/distribution|distribution]] (QKD): Utilizing [[concepts/quantum-mechanics|quantum mechanics]] to facilitate [[concepts/secure|secure]] key exchange through [[concepts/quantum-mechanics]]-based protocols.
-
 ## Source Notes
 - 2026-04-30: Quantum Computing · [▶ source](https://www.youtube.com/watch?v=qV7hQEtr3ic)

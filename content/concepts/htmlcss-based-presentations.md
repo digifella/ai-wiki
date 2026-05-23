@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: coding-agents-dev-workflows
 tags:
   - "concept"
   - "html-css"
@@ -14,7 +13,8 @@ aliases:
   - "Web-based Presentations"
   - "HTML Slide Generation"
 summary: Using Claude AI within Cursor to generate HTML/CSS presentations that can be exported as PDF files.
-updated: 2026-05-01
+updated: 2026-05-23
+group: coding-agents-dev-workflows
 ---
 # Htmlcss Based Presentations
 
@@ -22,11 +22,10 @@ updated: 2026-05-01
 
 ## Integration with AI Development Tools
 
-The approach gains practical utility when combined with AI assistants like [[concepts/claude-ai|Claude]] integrated into code editors such as [[concepts/cursor|Cursor]]. In this workflow, Claude can generate complete HTML and CSS code for presentations based on user specifications or content prompts. The AI generates the structural markup and styling rules, which developers can then refine and customize within the editor before exporting.
+The approach gains practical utility when combined with AI assistants like [[concepts/claude-ai|Claude]] integrated into [[concepts/code|code]] editors such as [[concepts/cursor|Cursor]]. In this [[concepts/workflow|workflow]], [[concepts/claude|Claude]] can generate complete HTML and CSS code for presentations based on user specifications or content prompts. The AI generates the structural markup and styling rules, which developers can then refine and customize within the editor before exporting.
 
 ## Export and Distribution
 
-A key advantage of HTML/CSS presentations is their portability. Once created, presentations can be exported as PDF files, making them suitable for sharing across different platforms and devices without requiring specialized presentation software. This method also allows for programmatic control over layout, [[concepts/typography|typography]], and visual effects through CSS properties and web [[concepts/open-standards|standards]].
-
+A key advantage of HTML/CSS presentations is their portability. Once created, presentations can be exported as PDF [[concepts/files|files]], making them suitable for sharing across different platforms and devices without requiring specialized presentation software. This method also allows for programmatic [[concepts/power|control]] over layout, [[concepts/typography|typography]], and visual effects through CSS properties and web [[concepts/open-standards|standards]].
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!

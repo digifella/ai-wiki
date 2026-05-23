@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "archaeology"
-  - "amateur"
-  - "metal detecting"
-  - "Denmark"
-updated: 2026-04-15
+updated: 2026-05-23
 group: anthropology-ethnography
 ---
 # Amateur archaeology

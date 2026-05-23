@@ -1,21 +1,7 @@
 ---
 type: entity
-tags:
-  - "hardware"
-  - "ai"
-  - "google"
-  - "infrastructure"
-  - "accelerator"
-  - "google-cloud"
-  - "machine-learning"
-  - "asics"
-  - "ai-infrastructure"
-  - "hardware-accelerator"
-aliases:
-  - "Tensor Processing Units"
-  - "TPU"
-summary: "Tensor Processing Units are custom-developed application-specific integrated circuits designed by Google to accelerate machine learning workloads."
-updated: 2026-04-26
+summary: Tensor Processing Units are custom-developed application-specific integrated circuits designed by Google to accelerate machine learning workloads.
+updated: 2026-05-23
 ---
 # TPUs
 

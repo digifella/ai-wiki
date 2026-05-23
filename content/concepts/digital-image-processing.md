@@ -10,8 +10,8 @@ tags:
   - "image-analysis"
 aliases:
   - "image-processing"
-summary: "The use of computer algorithms to perform mathematical operations on digital images for the purpose of enhancement, restoration, analysis, or transformation."
-updated: 2026-04-28
+summary: The use of computer algorithms to perform mathematical operations on digital images for the purpose of enhancement, restoration, analysis, or transformation.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Digital image processing
@@ -21,12 +21,11 @@ The use of computer algorithms to perform mathematical operations on digital [[c
 ## Recent Developments
 - **[[entities/adobe-project-indigo|Adobe Project Indigo]]**: A new [[concepts/camera-app-design|mobile camera application]] introduced by [[entities/colin-smith|Colin Smith]] (founder of [[entities/photoshopcafe|PhotoshopCAFE]]) focusing on advanced [[concepts/mobile-photography|mobile photography]].
 	- Comparison of [[concepts/hardware|hardware]] performance:
-		- Traditional [[concepts/hardware|hardware]] (DSLRs, mirrorless) remains superior in video, low light, and [[concepts/dynamic-range|dynamic range]].
+		- Traditional [[concepts/hardware|hardware]] (DSLRs, mirrorless) remains superior in video, low [[concepts/light|light]], and [[concepts/dynamic-range|dynamic range]].
 		- Smartphones have surpassed [[concepts/point-and-shoot-cameras|point-and-shoot cameras]] in terms of convenience and [[concepts/user-interface|user interface]] [[concepts/capabilities|capabilities]].
 
 ## Backlinks
-- 2026 04 14 [[entities/colin-smith-channel|Colin Smith]] founder of PhotoshopCAFE introduces Adobe Project Indigo
-
+- 2026 04 14 [[entities/colin-smith-channel|Colin Smith]] founder of [[entities/colin-smith-channel|PhotoshopCAFE]] introduces [[concepts/on-device-editing|Adobe Project Indigo]]
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Snapseed-Overview-Free-Photo-Editing-App-with-New-Camera-and-Pro|Snapseed Overview Free Photo Editing App with New Camera and Pro]] · [▶ source](https://www.youtube.com/watch?v=mvcTq5uA6uo)

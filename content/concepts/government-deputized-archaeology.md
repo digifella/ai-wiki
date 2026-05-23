@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: history-anthropology
-tags:
-  - "government"
-  - "archaeology"
-  - "citizen science"
-  - "Denmark"
-updated: 2026-04-15
+updated: 2026-05-23
 group: anthropology-ethnography
 ---
 A government-authorizing system where private individuals (typically amateur archaeologists or metal detectorists) conduct archaeological investigations under official supervision to document and preserve historical artifacts. This approach leverages public participation to enhance archaeological research while ensuring proper documentation and conservation.
 
-Key implementation from Denmark's program:
+Key [[concepts/adoption|implementation]] from Denmark's program:
 - Government deputized private metal detectorists to systematically [[concepts/survey|survey]] farm fields for buried artifacts
 - Generated unprecedented detail on Denmark's historical landscape through systematic amateur-led discoveries
 - Produced significant archaeological finds without compromising [[concepts/preservation|preservation]] [[concepts/open-standards|standards]]

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "google-gemma"
@@ -12,20 +11,24 @@ aliases:
   - "Gemma 4"
   - "Google Gemma 4"
 summary: Google Gemma 4 is a 2.3B parameter multimodal model designed for edge AI.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # 23b Parameter Models
 
-23b parameter models refer to [[concepts/neural-networks|neural networks]] containing approximately 2.3 billion trainable [[concepts/parameters|parameters]]. This scale represents a practical middle ground in [[concepts/architecturetechnique|model architecture]] design, offering sufficient capacity for [[concepts/complex-tasks|complex tasks]] while remaining computationally efficient enough for [[concepts/deployment|deployment]] on edge devices and resource-constrained environments. Models at this scale can process multimodal inputs, including both text and [[concepts/images|images]], enabling diverse [[concepts/software|applications]] across different domains.
+23b [[concepts/parameter-models|parameter models]] refer to [[concepts/neural-networks|neural networks]] containing approximately 2.3 billion trainable [[concepts/parameters|parameters]]. This scale represents a practical middle ground in [[concepts/model-architecture|model architecture]] [[concepts/design|design]], offering sufficient capacity for [[concepts/complex-reasoning|complex reasoning]] tasks while maintaining [[concepts/computational-efficiency|computational efficiency]] suitable for [[concepts/deployment|deployment]] on edge devices and resource-constrained environments.
 
 ## Capabilities and Applications
 
-Models with 2.3 billion parameters can perform a range of [[concepts/nlp|natural language processing]] tasks, including [[concepts/text-generation|text generation]], [[concepts/summarization|summarization]], and question-answering, with reasonable [[concepts/accuracy|accuracy]]. The multimodal variants support [[concepts/computer-vision|vision]]-language tasks such as image captioning and visual question-answering. This makes 23b models suitable for applications requiring [[concepts/inference|inference]] on mobile devices, embedded systems, and servers with limited GPU [[concepts/memory|memory]]. The architectural efficiency allows for practical deployment where larger models would be prohibitively expensive.
+Models at the 2.3B parameter scale can process multimodal inputs, including [[concepts/text|text]] and image data, making them suitable for diverse [[concepts/scenarios|use cases]]. At this [[concepts/parameter-count|parameter count]], models demonstrate reasonable performance on general language understanding, [[concepts/fact-based-queries|question answering]], and [[concepts/text-generation|text generation]] tasks. The constraint of 2.3B parameters limits performance on highly specialized or knowledge-intensive tasks compared to larger models, but the efficiency gains [[entities/make|make]] real-time [[concepts/inference|inference]] feasible on mobile devices, embedded systems, and edge [[concepts/hardware|hardware]] with limited [[concepts/computational-resources|computational resources]].
 
-## Performance Trade-offs
+## Notable Examples
 
-The 23b parameter scale involves trade-offs compared to larger models. These models generally achieve lower performance on [[concepts/complex-reasoning|complex reasoning]] tasks and specialized domains compared to models with tens or hundreds of billions of parameters. However, they typically outperform smaller models in the sub-billion parameter range while consuming a fraction of the [[concepts/computational-resources|computational resources]] required by larger alternatives. Notable examples include [[concepts/google-search|Google]]'s Gemma 2B and similar models designed with this [[concepts/parameter-count|parameter count]] in mind for efficient inference.
+[[concepts/google-search|Google]]'s [[entities/gemma|Gemma]] family includes 2B parameter variants designed specifically for edge [[concepts/ai-powered-applications|AI applications]]. These models represent the practical application of the 2.3B parameter scale to production environments where inference latency and [[concepts/power|power]] consumption are critical constraints.
 
+## Trade-offs
+
+The 2.3B parameter scale involves inherent trade-offs between model capability and deployment efficiency. Models of this size typically require less [[concepts/memory|memory]] bandwidth and generate [[concepts/responses|responses]] faster than larger alternatives, but may require [[concepts/parameter-reduction|quantization]] or other [[concepts/algorithm-optimization|optimization techniques]] to achieve optimal performance on resource-limited hardware. The choice to use 2.3B parameter models often reflects prioritization of deployment flexibility and real-time responsiveness over maximum [[concepts/accuracy|accuracy]].
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)

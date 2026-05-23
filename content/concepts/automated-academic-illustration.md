@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "academic-illustration"
   - "automated-generation"
@@ -12,20 +11,20 @@ aliases:
   - "PaperBanana"
   - "Paper Banana"
 summary: PaperBanana is a framework designed for automated academic illustration for AI scientists.
-updated: 2026-05-01
+updated: 2026-05-23
+group: automation-scheduling-sync
 ---
 # Automated Academic Illustration
 
-**PaperBanana** is a framework designed to automate the creation of academic illustrations for [[concepts/ai-research|AI research]] papers and scientific publications. The tool addresses a practical workflow gap by generating visual content that accompanies technical [[concepts/writing|writing]], reducing the manual effort required to produce publication-ready figures and [[concepts/diagrams|diagrams]]. This [[concepts/automation|automation]] is particularly relevant for researchers working with complex algorithmic descriptions, system architectures, and experimental visualizations that would otherwise require significant design work or [[concepts/external-tools|external tools]].
+**[[concepts/one-shot-image-generation-models|PaperBanana]]** is a framework that automates the generation of academic illustrations for [[concepts/ai-research|AI research]] papers and scientific publications. The tool addresses a practical [[concepts/workflow|workflow]] challenge by creating visual content—including figures, diagrams, and architectural illustrations—that accompany technical [[concepts/writing|writing]]. This reduces the manual effort researchers typically invest in producing publication-ready graphics, which often requires specialized [[concepts/design|design]] [[concepts/skills|skills]] or significant time investment.
 
-## Design and Application
+## Scope and Application
 
-The framework targets AI scientists and researchers who need to create consistent, technically accurate illustrations within academic papers. Rather than relying on manual design work or general-[[concepts/motivation|purpose]] graphics tools, PaperBanana provides a structured approach to generating figures from research content. The system bridges the gap between the technical specifications of a paper and the visual representations needed for clarity and publication [[concepts/open-standards|standards]].
+The framework is particularly suited for visualizing complex algorithmic descriptions, system architectures, experimental workflows, and comparative analyses commonly found in AI research. By automating illustration generation, PaperBanana enables researchers to maintain [[concepts/logical-consistency|consistency]] across figures and iterate on visual designs more rapidly during the paper drafting process. This is especially valuable in fast-moving research domains where multiple versions of manuscripts and supporting materials are frequently produced.
 
-## Role in Research Workflow
+## Integration with Research Workflows
 
-By automating illustration generation, the framework reduces the time scientists spend on figure creation and allows them to focus on research and writing. The tool is intended to integrate into the academic publishing pipeline, enabling faster [[concepts/iteration|iteration]] between text and visual content during paper [[concepts/preparation|preparation]].
-
+PaperBanana functions as a tool within the broader academic writing and publication pipeline, bridging the gap between technical content and visual presentation. Rather than replacing human judgment about what should be illustrated, the framework streamlines the technical execution of converting descriptions or specifications into visual forms, allowing researchers to focus on the conceptual and communication aspects of their work.
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

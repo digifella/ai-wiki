@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "math"
-  - "geometry"
-  - "pi"
-  - "circumference"
-updated: 2026-04-14
+updated: 2026-05-23
 group: mathematical-reasoning-proof
 ---
 # Circumference Calculation
@@ -31,9 +26,8 @@ or
 ## New Information Integration:
 
 - [[entities/numberphile|Numberphile]] video discusses Pi's practical [[concepts/accuracy|accuracy]] in measuring the circumference of the [[concepts/observable-universe|observable universe]] with only 39 digits.
-- [[entities/james-grime|James Grime]] explains that beyond computational curiosity, extensive digit calculation of Pi is necessary for high-precision calculations and [[concepts/testing|testing]] computer algorithms.
+- [[entities/james-grime|James Grime]] explains that beyond computational curiosity, extensive [[entities/digit|digit]] calculation of Pi is necessary for high-precision calculations and [[concepts/testing|testing]] computer algorithms.
 
 2026 04 13 Pi 39 Digits for Universe Measurement Trillions for Computational Test
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Pi-39-Digits-for-Universe-Measurement-Trillions-for-Computational-Test|Pi 39 Digits for Universe Measurement Trillions for Computational Test]] · [▶ source](https://www.youtube.com/watch?v=FpyrF_Ci2TQ)

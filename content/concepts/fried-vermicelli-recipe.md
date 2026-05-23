@@ -1,19 +1,10 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "recipe"
-  - "noodles"
-  - "vermicelli"
-  - "culinary-history"
-  - "singapore-fried-vermicelli"
-  - "hong-kong-style-cafes"
-  - "cooking-tutorial"
-aliases:
-  - "Singapore Fried Vermicelli"
-summary: "A recipe for Singapore Fried Vermicelli, a dish associated with Hong Kong-style cafes, as presented by Flo Lum."
-updated: 2026-04-26
+summary: A recipe for Singapore Fried Vermicelli, a dish associated with Hong Kong-style cafes, as presented by Flo Lum.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
+stub: true
 ---
 # Fried vermicelli recipe
 
@@ -25,6 +16,5 @@ group: cooking-recipes-culinary-practice
 ---
 **Backlinks**:
 - 2026 04 23 [[concepts/singapore-fried-vermicelli|Singapore Fried Vermicelli]] Recipe and Origin Clarification
-
 ## Source Notes
 - 2026-04-23: Singapore Fried Vermicelli Recipe · [▶ source](https://www.youtube.com/watch?v=6izDqbjmMMc)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: writing-publishing
 tags:
   - "concept"
   - "grammar"
@@ -12,7 +11,8 @@ aliases:
   - "Language Structure"
   - "Grammatical Rules"
 summary: The structural rules and conventions that govern how language is organized and used in writing.
-updated: 2026-05-01
+updated: 2026-05-23
+group: writing-publishing
 ---
 # Language Grammar
 
@@ -24,8 +24,7 @@ Grammar typically encompasses several interconnected systems. Syntax deals with 
 
 ## Grammar in Practice
 
-Mastery of grammar conventions is particularly important in formal [[concepts/writing|writing]], where adherence to standard rules enhances clarity and credibility. However, grammar is not static—languages evolve as speakers develop new patterns and conventions, especially through technological change and cultural [[entities/contact|contact]]. Understanding grammar provides writers with both the foundation to communicate effectively and the knowledge to consciously deviate from conventions when artistic or communicative intent requires it.
-
+Mastery of grammar conventions is particularly important in formal [[concepts/writing|writing]], where adherence to standard rules enhances clarity and credibility. However, grammar is not static—languages evolve as speakers develop new patterns and conventions, especially through [[concepts/technological-change|technological change]] and cultural [[entities/contact|contact]]. Understanding grammar provides writers with both the foundation to communicate effectively and the knowledge to consciously deviate from conventions when artistic or communicative intent requires it.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-26: Karpathy

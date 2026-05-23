@@ -1,29 +1,22 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "llama"
-  - "ai"
-  - "rag"
-  - "graphrag"
-  - "neo4j"
-updated: 2026-04-15
+updated: 2026-05-23
 group: open-systems-local-models
 ---
 [[entities/llama|Llama]] 3.1 is a [[concepts/large-language-model|large language model]] (LLM) developed by [[entities/meta-ai|Meta]], optimized for [[concepts/local-deployment|local deployment]] and cost-effective [[concepts/rag]] implementations.
 
 **Key features:**
-- [[concepts/open-source|Open-source]] foundation with strong multilingual capabilities
+- [[concepts/open-source|Open-source]] foundation with strong multilingual [[concepts/capabilities|capabilities]]
 - Efficient [[concepts/inference|inference]] for resource-constrained environments
 - Supports [[concepts/graph-retrieval-augmented-generation|GraphRAG]] pipelines via [[concepts/local-execution|local execution]]
 
 ## GraphRAG Implementation
-- **GraphRAG** extends [[concepts/rag]] by modeling [[concepts/relationships|relationships]] between entities ([[concepts/nodes|nodes]]) and their connections (edges), enhancing [[concepts/context-aware-retrieval|context-aware retrieval]] beyond simple document matching
-- Demonstrated using Llama 3.1 as the [[concepts/local-llm|local LLM]] and [[entities/neo4j]] for graph [[entities/storage|storage]] (video: [GraphRAG with Llama 31](https://www.youtube.com/watch?v=nkbyD4joa0A) by [[entities/coding-crash-courses|Coding Crash Courses]])
-- Highlights cost-effectiveness of [[concepts/local-solutions|local solutions]] versus cloud-based [[concepts/rag]] alternatives
+- **[[concepts/graphrag|GraphRAG]]** extends [[concepts/rag]] by modeling [[concepts/relationships|relationships]] between entities ([[concepts/nodes|nodes]]) and their connections (edges), enhancing [[concepts/context-aware-retrieval|context-aware retrieval]] beyond simple document matching
+- Demonstrated using [[entities/llama-31|Llama 3.1]] as the [[concepts/local-llm|local LLM]] and [[entities/neo4j]] for graph [[entities/storage|storage]] (video: [GraphRAG with Llama 31](https://www.youtube.com/watch?v=nkbyD4joa0A) by [[entities/coding-crash-courses|Coding Crash Courses]])
+- [[concepts/highlights|Highlights]] cost-effectiveness of [[concepts/local-solutions|local solutions]] versus cloud-based [[concepts/rag]] alternatives
 
 2026 04 14 GraphRAG with Llama 31
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

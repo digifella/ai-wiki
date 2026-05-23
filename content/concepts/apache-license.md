@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "open-source"
   - "software-license"
@@ -11,19 +10,19 @@ aliases:
   - "Apache 2.0"
   - "Apache Software License"
 summary: A permissive open-source software license maintained by the Apache Software Foundation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Apache License
 
-The Apache License is a permissive [[concepts/open-source|open-source]] [[concepts/software|software]] [[concepts/license|license]] maintained by the Apache Software Foundation. First released in 1995, it has evolved into one of the most widely adopted licenses in open-source [[concepts/coding|software development]]. The license permits users to freely use, modify, and distribute software while establishing clear legal protections for both users and contributors. It is available in multiple versions, with [[concepts/apache-2-0|Apache License 2.0]] being the current standard.
+The Apache License is a permissive [[concepts/open-source|open-source]] software license maintained by the Apache Software Foundation. First released in 1995, it has become one of the most widely used licenses in open-source [[concepts/coding|software development]]. The license grants users the freedom to use, modify, and distribute software under clear legal terms that protect both developers and end-users.
 
-## License Terms
+## Key Features
 
-Apache License 2.0 allows commercial use, modification, and [[concepts/distribution|distribution]] of licensed software with minimal restrictions. Users must include a copy of the license and provide notice of modifications made to the original code. The license grants explicit patent rights from contributors, protecting users from patent claims related to the software. Importantly, the license does not require derived works to be released under the same license, distinguishing it from copyleft licenses like the GPL.
+The Apache License permits recipients to use software for any [[concepts/motivation|purpose]], including commercial [[concepts/software|applications]], and to modify and distribute the source [[concepts/code|code]] or binaries. Unlike some open-source licenses, it does not require derivative works to be released under the same license terms. The license explicitly grants patent rights from contributors, protecting users from patent litigation. It requires that modified versions include clear documentation of changes and retain a copy of the original license and copyright notices.
 
-## Characteristics and Usage
+## Versions and Adoption
 
-The Apache License is considered business-friendly due to its permissive [[entities/nature|nature]] and clear legal framework. It is compatible with many other open-source licenses and is commonly used in enterprise software projects. The license's patent provisions make it particularly attractive for organizations concerned about intellectual property protection. Its widespread [[concepts/adoption|adoption]] across projects ranging from web frameworks to data processing tools reflects its flexibility and clarity.
-
+[[concepts/apache-2-0|Apache License 2.0]], released in 2004, is the current standard version and represents a significant evolution from earlier versions. The license is used by the Apache Software Foundation's own projects and has been adopted across thousands of open-source projects in various programming languages and domains. Its permissive [[entities/nature|nature]] and clear patent protections have made it attractive to both individual developers and large organizations, making it one of the three most popular open-source licenses alongside the [[concepts/mit-license|MIT License]] and GPL.
 ## Source Notes
 <!-- No relevant sources found — AI model notes were incorrectly attached -->

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: web-publishing-quartz-websites
 tags:
   - "queue-api"
   - "job-types"
@@ -12,11 +11,12 @@ aliases:
   - "Queue API Job Types"
   - "Stakeholder Graph View"
 summary: Records updates to the queue API job types and the addition of the stakeholder graph view.
-updated: 2026-05-01
+updated: 2026-05-23
+group: web-publishing-quartz-websites
 ---
 # List Graph Jobs
 
-List Graph Jobs refers to updates made to the queue API [[concepts/job-management|job management]] system to support the stakeholder graph view feature. The implementation involved modifications to core queue administration files to recognize and handle a new job type alongside existing queue operations.
+List Graph Jobs refers to updates made to the queue API [[concepts/job-management|job management]] system to support the [[concepts/queue-graph-view|stakeholder graph view]] feature. The [[concepts/adoption|implementation]] involved modifications to core queue administration [[concepts/files|files]] to recognize and handle a new job type alongside existing queue operations.
 
 ## Queue API Updates
 

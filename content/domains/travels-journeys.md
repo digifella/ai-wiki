@@ -5,9 +5,9 @@ tags:
   - "domain"
   - "travels-journeys"
 cssclasses: [domain-page]
-updated: 2026-05-02
-concept_count: 27
-entity_count: 15
+updated: 2026-05-24
+concept_count: 26
+entity_count: 17
 ---
 # Travels & Journeys
 
@@ -15,15 +15,15 @@ Travel, place, movement, itineraries, journeys, exploration, and lived experienc
 
 <div class="domain-summary-bar">
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">27</span>
+    <span class="domain-summary-value">26</span>
     <span class="domain-summary-label">concepts</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">15</span>
+    <span class="domain-summary-value">17</span>
     <span class="domain-summary-label">entities</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">0</span>
+    <span class="domain-summary-value">9</span>
     <span class="domain-summary-label">linked notes</span>
   </div>
   <div class="domain-summary-stat">
@@ -38,23 +38,23 @@ Travel, place, movement, itineraries, journeys, exploration, and lived experienc
 <a class="domain-group-card" href="#places-regions-destinations">
   <span class="domain-group-kicker">Thread</span>
   <h3>Places Regions &amp; Destinations</h3>
-  <p class="domain-group-stats">13 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Electronic Visa System E Visa, Iceberg Collision, Issuance Of Visas</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">12 concepts · 1 linked notes</p>
+  <p class="domain-group-samples">Dog Friendly Sites, Electronic Visa System E Visa, Iceberg Collision</p>
+  <p class="domain-group-notes">Secret US Navy Missions Accidental Titanic Discovery While Locating Lost Submarines</p>
 </a>
 <a class="domain-group-card" href="#journeys-routes-itineraries">
   <span class="domain-group-kicker">Thread</span>
   <h3>Journeys Routes &amp; Itineraries</h3>
-  <p class="domain-group-stats">8 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">8 concepts · 8 linked notes</p>
   <p class="domain-group-samples">Great Train Journey, Itinerary Planning, Journey Management</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Overlooked 1970s Sci-Fi Films: Prescient AI, Environmental, and Societal Foresight · Automating Travel Itineraries with AI and Google My Maps</p>
 </a>
 <a class="domain-group-card" href="#travel-practice-logistics-experience">
   <span class="domain-group-kicker">Thread</span>
   <h3>Travel Practice Logistics &amp; Experience</h3>
-  <p class="domain-group-stats">6 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">6 concepts · 1 linked notes</p>
   <p class="domain-group-samples">Destination Comparison, Destination Search, Destination Suggestions</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Automating Travel Itineraries with AI and Google My Maps</p>
 </a>
 </div>
 
@@ -63,32 +63,39 @@ Travel, place, movement, itineraries, journeys, exploration, and lived experienc
 <div id="places-regions-destinations" class="domain-group-anchor"></div>
 ## Places Regions & Destinations
 
-<div class="domain-group-meta">13 concepts · 0 linked notes</div>
+<div class="domain-group-meta">12 concepts · 1 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-15-Secret-US-Navy-Missions-Accidental-Titanic-Discovery-While-Locating-Lo|Secret US Navy Missions Accidental Titanic Discovery While Locating Lost Submarines]]
 
 **Concepts in this thread**
 
+- [[concepts/dog-friendly-sites|Dog Friendly Sites]]
 - [[concepts/electronic-visa-system-e-visa|Electronic Visa System E Visa]]
 - [[concepts/iceberg-collision|Iceberg Collision]]
 - [[concepts/issuance-of-visas|Issuance Of Visas]]
 - [[concepts/multiple-entry-visa|Multiple Entry Visa]]
 - [[concepts/next-week|Next Week]]
 - [[concepts/non-residence-visa|Non Residence Visa]]
-- [[concepts/north-atlantic|North Atlantic]]
 - [[concepts/red-centre-of-australia|Red Centre Of Australia]]
 - [[concepts/residence-visa-for-business|Residence Visa For Business]]
 - [[concepts/residence-visa-for-tourism|Residence Visa For Tourism]]
-- [[concepts/travel-restrictions|Travel Restrictions]]
 - [[concepts/type-of-visa|Type Of Visa]]
 - [[concepts/visa-expiration|Visa Expiration]]
 
 <div id="journeys-routes-itineraries" class="domain-group-anchor"></div>
 ## Journeys Routes & Itineraries
 
-<div class="domain-group-meta">8 concepts · 0 linked notes</div>
+<div class="domain-group-meta">8 concepts · 8 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-24-Overlooked-1970s-Sci-Fi-Films-Prescient-AI-Environmental-and-Societal-Foresight|Overlooked 1970s Sci-Fi Films: Prescient AI, Environmental, and Societal Foresight]]
+- [[lab-notes/2026-04-21-Automating-Travel-Itineraries-with-AI-and-Google-My-Maps|Automating Travel Itineraries with AI and Google My Maps]]
+- [[lab-notes/2026-04-18-AI-Coding-Cost-Overruns-Vercel-Bill-Lessons-from-Journey-Kits-Deployme|AI Coding Cost Overruns Vercel Bill Lessons from Journey Kits Deployment]]
+- [[lab-notes/2026-04-17-Earths-Inner-Core-Seismic-Anomalies-Suggest-New-State-of-Matter|Earths Inner Core Seismic Anomalies Suggest New State of Matter]]
+- [[lab-notes/2026-04-14-Deep-Space-Update-March-April-2024-Launch-Crewed-Mission-Summary|[Deep Space Update](https://en.wikipedia.org/wiki/Deep_Space_Update) March-April 2024 Launch Crewed Mission Summary]]
 
 **Concepts in this thread**
 
@@ -104,9 +111,11 @@ _No notes in this thread yet._
 <div id="travel-practice-logistics-experience" class="domain-group-anchor"></div>
 ## Travel Practice Logistics & Experience
 
-<div class="domain-group-meta">6 concepts · 0 linked notes</div>
+<div class="domain-group-meta">6 concepts · 1 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-21-Automating-Travel-Itineraries-with-AI-and-Google-My-Maps|Automating Travel Itineraries with AI and Google My Maps]]
 
 **Concepts in this thread**
 
@@ -119,26 +128,29 @@ _No notes in this thread yet._
 
 ## Key Entities
 
-- [[entities/dr-robert-ballard|Dr Robert Ballard]]
 - [[entities/dynamic-view|Dynamic View]]
 - [[entities/fact-quickie|Fact Quickie]]
 - [[entities/google-my-maps|Google My Maps]]
 - [[entities/gpt-ai|Gpt Ai]]
 - [[entities/gpt-gordon|Gpt Gordon]]
 - [[entities/japan-trip|Japan Trip]]
+- [[entities/jarods-journey|Jarods Journey]]
 - [[entities/journey-kits|Journey Kits]]
 - [[entities/journeys-apiphp|Journeys Apiphp]]
 - [[entities/just-booked-it|Just Booked It]]
 - [[entities/peter|Peter]]
 - [[entities/republic-of-turkey|Republic Of Turkey]]
 - [[entities/seajets-ferry-company|Seajets Ferry Company]]
+- [[entities/turkish-airlines|Turkish Airlines]]
+- [[entities/turkish-embassy|Turkish Embassy]]
+- [[entities/turkish-government|Turkish Government]]
 - [[entities/u4pkh2-travel-booking|U4Pkh2 Travel Booking]]
-- [[entities/us-navy|Us Navy]]
 
 ## Related Shelves
 
 - [[domains/ai-agents|AI & Agents]]
 - [[domains/tools-platforms|Tools & Platforms]]
+- [[domains/ux-design|UX & Design]]
 - [[domains/creative-pursuits|Creative Pursuits]]
 - [[domains/food-nutrition|Food & Nutrition]]
 - [[domains/business-strategy|Business & Strategy]]

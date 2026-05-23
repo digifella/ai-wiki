@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: architecture-cities-heritage
 tags:
   - "concept"
   - "archaeology"
@@ -13,7 +12,8 @@ aliases:
   - "heritage"
   - "archaeological-heritage"
 summary: The Danish government has deputized private detectorists to help unearth historical artifacts buried in farm fields.
-updated: 2026-05-01
+updated: 2026-05-23
+group: architecture-cities-heritage
 ---
 # Cultural Heritage
 

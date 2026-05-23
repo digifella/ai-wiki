@@ -1,33 +1,31 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photoshop-layer-workflows
 tags:
   - "ai-upscaling"
   - "photoshop-beta"
   - "generative-upscale"
   - "image-enhancement"
   - "adobe-tools"
+  - "flux-ai"
+  - "lora"
 aliases:
   - "Photoshop AI Upscaling"
   - "Generative Upscale Comparison"
-summary: A comparison of three AI-powered upscaling tools available in Photoshop Beta.
-updated: 2026-05-01
+summary: A comparison of AI-powered upscaling tools including Photoshop Beta features and emerging external models like Adonis LoRA for Flux 2 Klein.
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Super Zoom
 
-Super Zoom refers to a set of [[concepts/ai-powered-upscaling|AI-powered upscaling]] tools integrated into [[concepts/beta-version|Photoshop Beta]] that enable users to enlarge [[concepts/images|images]] while maintaining or improving visual quality. These tools leverage generative AI technology to intelligently reconstruct image details when [[concepts/computational-scaling|scaling]] up, addressing a traditional limitation of digital image enlargement where simple scaling typically results in blurring or pixelation.
+Super Zoom refers to a set of [[concepts/ai-powered-upscaling|AI-powered upscaling]] tools integrated into [[concepts/beta-version|Photoshop Beta]] that enable users to enlarge [[concepts/images|images]] while maintaining or improving visual quality. These tools leverage [[concepts/generative-ai|generative AI]] technology to intelligently reconstruct image details when [[concepts/computational-scaling|scaling]] up, addressing a traditional limitation of digital image enlargement where simple [[concepts/scaling|scaling]] typically results in blurring or pixelation.
 
 ## Available Tools
 
-Photoshop Beta offers multiple upscaling approaches, each with different underlying algorithms and [[concepts/scenarios|use cases]]. These tools represent Adobe's implementation of generative upscaling technology, allowing photographers and designers to resize images substantially without the quality degradation associated with conventional interpolation methods.
+[[entities/photoshop-beta|Photoshop Beta]] offers multiple upscaling approaches, each with different underlying algorithms and [[concepts/scenarios|use cases]]. These tools represent [[entities/adobe|Adobe]]'s [[concepts/adoption|implementation]] of generative upscaling technology, allowing photographers and designers to resize images substantially without the quality degradation associated with conventional interpolation methods.
+
+* [[lab-notes/2026-05-07-Adonis-LORA-Efficient-AI-Image-Upscaling-and-Detail-Reco|Adonis LORA: Efficient AI Image Upscaling and Detail Recovery via Flux 2 Klein]]: External [[concepts/low-rank-adaptation|LoRA]] adaptation for [[concepts/flux-ai|Flux 2 Klein]] enabling efficient upscaling and detail recovery; demonstrates [[entities/high-performance|high-performance]] generative enhancement [[concepts/capabilities|capabilities]] comparable to Adobe's suite.
 
 ## Practical Application
 
-Users working in [[concepts/photoshop|Photoshop]] can access Super Zoom features through the generative upscale functionality, which has been demonstrated and compared in technical tutorials. The tools are particularly useful for workflows requiring enlarged versions of existing images, such as print [[concepts/preparation|preparation]] or display optimization, where maintaining detail and [[concepts/sharpness|sharpness]] is essential.
-
-## Source Notes
-
-- 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
-- 2026-04-18: [[lab-notes/2026-04-18-Adobe-Lightroom-April-2024-Updates-AI-Search-Workflow-Creative-Tools|Adobe Lightroom April 2024 Updates AI Search Workflow Creative Tools]] · [▶ source](https://www.youtube.com/watch?v=AMRmW7BicMk)
-- 2026-04-22: [[lab-notes/2026-04-22-Lightroom-Classic-Texture-Clarity-and-Dehaze-Sliders-Explained|Lightroom Classic: Texture, Clarity, and Dehaze Sliders Explained]] · [▶ source](https://youtu.be/vMqQBPffFbQ)
+Users working in [[concepts/photoshop|Photoshop]] can access Super Zoom features through the [[concepts/generative-upscale|generative upscale]] functionality, which has been demonstrated and compared in technical tutorials.

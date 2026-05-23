@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "google-workspace"
-  - "notebooklm"
-  - "automation"
-  - "productivity"
-  - "google-docs"
-  - "data-extraction"
-  - "data-table-generation"
-aliases:
-  - "Google Docs interoperability"
-summary: "The integration of Google Docs within the Google Workspace ecosystem facilitates data extraction and automated workflows, including data table generation via NotebookLM."
-updated: 2026-04-19
+summary: The integration of Google Docs within the Google Workspace ecosystem facilitates data extraction and automated workflows, including data table generation via NotebookLM.
+updated: 2026-05-23
 group: apis-integrations-mcp
 ---
 # Google Docs Integration
@@ -20,12 +10,11 @@ group: apis-integrations-mcp
 The interoperability of [[entities/google-docs|Google Docs]] with the [[entities/google-workspace]] ecosystem to streamline [[concepts/data-extraction]] and automated content workflows.
 
 ### notebooklm Recent Upgrades
-Recent updates enhance power and integration with other [[concepts/google-search|Google]] tools:
-* **[[concepts/data-table-generation|Data Table Generation]]**: Enables users to transform any source—including YouTube, websites, and uploaded files—into structured [[concepts/data-tables]] by defining specific columns and information types (e.g., movie rankings, directors, or awards).
+Recent updates enhance [[concepts/power|power]] and [[concepts/integration|integration]] with other [[concepts/google-search|Google]] tools:
+* **[[concepts/data-table-generation|Data Table Generation]]**: Enables users to transform any source—including [[entities/youtube|YouTube]], websites, and uploaded [[concepts/files|files]]—into structured [[concepts/data-tables]] by defining specific columns and information types (e.g., movie rankings, directors, or awards).
 * **Enhanced Exporting and**: (Information incomplete).
 
 Backlink: [[concepts/date-2026-04-13|2026]] 04 14 More [[concepts/notebooklm|NotebookLM]] updates [[entities/rob-the-ai-guy|Rob the AI guy]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: NEW Gemini in Google Workspace Updates for Docs, Sheets,

@@ -1,14 +1,14 @@
 ---
 type: concept
 domain: entertainment-games
-updated: 2026-04-14
+summary: This page covers the concept of training, including sports science applications and AI model training techniques.
+updated: 2026-05-23
 group: sports-science-training-recovery
-summary: "This page covers the concept of training, including sports science applications and AI model training techniques."
 ---
-- "sports-science"
+- "sports-[[concepts/science|science]]"
   - "training-recovery"
   - "sports-games"
-  - "ai-models"
+  - "ai-[[concepts/models|models]]"
   - "[[concepts/ai-image-generation|ai-image-generation]]"
 aliases:
   - "training"
@@ -32,7 +32,6 @@ title: "training"
 
 ## Related Content
 - 2026 04 14 [[concepts/community-interest|Adam Lucek Flux model]] for Open AI generated image gen
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-09: Photoshop

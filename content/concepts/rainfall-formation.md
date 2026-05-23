@@ -1,24 +1,13 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "meteorology"
-  - "precipitation"
-  - "biology"
-  - "atmospheric-science"
-  - "condensation"
-  - "ice-nucleation"
-  - "cloud-physics"
-aliases:
-  - "precipitation-formation"
-  - "atmospheric-precipitation"
-summary: "Rainfall formation is the atmospheric process where water vapor undergoes phase changes through condensation and ice nucleation to produce precipitation."
-updated: 2026-04-26
-group: climate-environment-surface-systems
+summary: Rainfall formation is the atmospheric process where water vapor undergoes phase changes through condensation and ice nucleation to produce precipitation.
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Rainfall formation
 
-The atmospheric process by which water vapor undergoes phase changes to produce precipitation.
+The atmospheric process by which water vapor undergoes [[concepts/phase|phase]] changes to produce precipitation.
 
 ## Core Mechanisms
 - **Condensation**: The transition of atmospheric moisture into liquid droplets around cloud condensation nuclei (CCN).
@@ -30,7 +19,6 @@ The atmospheric process by which water vapor undergoes phase changes to produce 
 
 ---
 **Backlink:** 2026 04 26 Fungal Ice Nucleating Proteins A Groundbreaking Rain Dis
-
 ## Source Notes
 
 - 2026-04-26: [[lab-notes/2026-04-26-Fungal-Ice-Nucleating-Proteins-A-Groundbreaking-Rain-Dis|Fungal Ice-Nucleating Proteins: A Groundbreaking Rain Discovery]] · [▶ source](https://www.youtube.com/watch?v=3qYyhOjTtSk)

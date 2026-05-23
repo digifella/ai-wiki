@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "programming"
-  - "ai"
-  - "automation"
-  - "no-code"
-  - "natural-language-programming"
-  - "llm-based-development"
-  - "low-code"
-aliases:
-  - "nlp-programming"
-  - "natural-language-based-programming"
-summary: "A programming paradigm where software instructions are expressed in human languages using large language models to bridge the gap between human intent and executable logic."
-updated: 2026-04-14
+summary: A programming paradigm where software instructions are expressed in human languages using large language models to bridge the gap between human intent and executable logic.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Natural language programming
@@ -23,11 +12,10 @@ A programming paradigm where [[concepts/software|software]] [[concepts/instructi
 ## Recent Developments
 - **[[entities/google-opal]]** (Experimental)
     - A tool from [[entities/google-labs]] designed to allow users to describe, create, and share [[concepts/ai-mini-apps|AI mini-apps]].
-    - Facilitates the democratization of software creation by enabling users to build AI-powered applications without traditional programming [[concepts/skills|skills]].
-    - **Functionality:** Utilizes a system that chains together Prompts, [[concepts/models]], and Tools using natural language descriptions and [[concepts/visual-editing|visual editing]].
+    - Facilitates the [[concepts/democratization-of-software-creation|democratization of software creation]] by enabling users to build [[concepts/ai-powered-applications|AI-powered applications]] without traditional programming [[concepts/skills|skills]].
+    - **Functionality:** Utilizes a system that chains together Prompts, [[concepts/models]], and Tools using [[concepts/natural-language-descriptions|natural language descriptions]] and [[concepts/visual-editing|visual editing]].
     - **[[concepts/workflow|Workflow]]:** Employs an [[concepts/architecture|architecture]] where "Input" is processed by a "Generate" stage.
-    - **Sources:** 2026 04 14 No code AI development using Opal, 2026 04 14 Opal Labs Sam Witteveen
-
+    - **Sources:** 2026 04 14 [[concepts/no-code-ai-development|No code AI development]] using [[concepts/workflow-creation|Opal]], 2026 04 14 [[entities/opal-labs|Opal Labs]] [[entities/sam-witteveen|Sam Witteveen]]
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)

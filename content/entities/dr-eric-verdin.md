@@ -8,11 +8,11 @@ tags:
 aliases:
   - "Eric Verdin"
 summary: Dr. Eric Verdin is featured in a BBC Future article regarding how defying ageism can help individuals live longer.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Dr Eric Verdin
 
-Dr. Eric Verdin is a researcher and expert in the field of aging and longevity. He has been featured in prominent media outlets discussing the relationship between ageism and [[concepts/health|health]] outcomes, including a [[entities/bbc-future|BBC Future]] article examining how attitudes toward aging can influence [[concepts/life-expectancy|life expectancy]] and overall well-being.
+Dr. Eric Verdin is a researcher and expert in the field of aging and longevity. He has been featured in prominent media outlets discussing the relationship between ageism and [[concepts/health|health]] outcomes, including a [[entities/bbc-future|BBC Future]] article examining how attitudes toward aging can [[concepts/power|influence]] [[concepts/life-expectancy|life expectancy]] and overall well-being.
 
 ## Research and Perspective
 

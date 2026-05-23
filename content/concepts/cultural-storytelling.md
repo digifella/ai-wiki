@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: books-storytelling-media-culture
 tags:
   - "storytelling"
   - "cultural-narratives"
@@ -12,7 +11,8 @@ aliases:
   - "storytelling traditions"
   - "narrative culture"
 summary: The practice and traditions of conveying stories within cultural contexts.
-updated: 2026-05-01
+updated: 2026-05-23
+group: books-storytelling-media-culture
 ---
 # Cultural Storytelling
 
@@ -29,6 +29,5 @@ Stories within cultural contexts typically serve multiple functions simultaneous
 ## Contemporary Practice
 
 While traditional forms persist in many communities, cultural storytelling continues to evolve through contemporary media platforms, including film, video games, and digital narratives. Communities increasingly adapt storytelling practices to new technologies while negotiating questions of authenticity, ownership, and representation. The intersection of traditional storytelling and entertainment-games remains an active area where cultural narratives are adapted, reinterpreted, and experienced in interactive formats.
-
 ## Source Notes
 - 2026-04-22: The Mind

@@ -11,7 +11,7 @@ aliases:
   - "Malaria Mosquito Image Collection"
   - "Medical Image Resource"
 summary: This resource contains images related to malaria vaccination and mosquitoes.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Image Resource
 
@@ -24,5 +24,4 @@ This resource aggregates visual materials documenting [[concepts/malaria-vaccina
 ## Source Materials
 
 The collection incorporates reference materials from various technical platforms and documentation sources spanning April 2026. Materials have been compiled to support understanding of both the biological aspects of malaria transmission and contemporary approaches to vaccine development and [[concepts/distribution|distribution]].
-
 ## Source Notes

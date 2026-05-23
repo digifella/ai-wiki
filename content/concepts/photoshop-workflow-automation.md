@@ -13,22 +13,21 @@ tags:
 aliases:
   - "Automating Photoshop workflows"
   - "Adobe Photoshop automation"
-summary: "Strategies and technologies for streamlining repetitive tasks and optimizing productivity in Adobe Photoshop using AI-driven automation and web integration."
-updated: 2026-04-27
+summary: Strategies and technologies for streamlining repetitive tasks and optimizing productivity in Adobe Photoshop using AI-driven automation and web integration.
+updated: 2026-05-23
 group: photoshop-layer-workflows
 ---
 # Photoshop workflow automation
 
-Strategies and technologies used to streamline repetitive tasks and optimize productivity within Adobe [[concepts/photoshop|Photoshop]] environments.
+Strategies and technologies used to streamline repetitive tasks and optimize productivity within [[entities/adobe|Adobe]] [[concepts/photoshop|Photoshop]] environments.
 
 ## AI-Driven Automation
 - **[[concepts/automated-layer-management|Automated Layer Management]]**: [[concepts/ai-assistant|AI Assistant]] features include the ability to automatically rename layers to improve file [[concepts/organization|organization]].
-- **Web [[concepts/integration|Integration]]**: Implementation of [[concepts/generative-markup-tools|AI Markup tools]] within [[entities/photoshop-for-the-web|Photoshop for the Web]].
+- **Web [[concepts/integration|Integration]]**: [[concepts/adoption|Implementation]] of [[concepts/generative-markup-tools|AI Markup tools]] within [[entities/photoshop-for-the-web|Photoshop for the Web]].
 
 ## Sources & References
-- [[entities/colin-smith|Colin Smith]] (YouTube)
+- [[entities/colin-smith|Colin Smith]] ([[entities/youtube|YouTube]])
 - 2026 04 14 AI Assistants ability to automatically rename layers [[entities/colin-smith-channel|Colin Smith channel]]
-
 ## Source Notes
 
 - 2026-04-08: Photoshop Renames All Your Layers Automatically (photoshop

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: ai-foundations-concepts
 tags:
   - "neural-networks"
   - "ai-inference"
@@ -13,15 +12,16 @@ aliases:
   - "NPU"
   - "AI Accelerator"
 summary: A specialized hardware component designed to efficiently execute neural network inference operations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Neural Engine
 
-A Neural Engine is a specialized [[concepts/hardware|hardware]] accelerator designed to perform the computational operations required for [[concepts/neural-network|neural network]] [[concepts/inference|inference]] with greater efficiency than general-[[concepts/motivation|purpose]] [[concepts/central-processing-units|processors]]. These components are typically integrated into mobile devices, [[concepts/edge-computing|edge computing]] systems, and some consumer electronics to enable [[concepts/on-device-conceptsmachine-learningmachine-learning|on-device machine learning]] tasks. By dedicating hardware resources specifically to the mathematical operations common in [[concepts/neural-networks|neural networks]]—such as matrix multiplications and convolutions—Neural Engines reduce the processing burden on main CPUs and GPUs while consuming less power.
+A Neural Engine is a specialized [[concepts/hardware|hardware]] accelerator designed to perform the computational operations required for [[concepts/neural-network|neural network]] [[concepts/inference|inference]] with greater efficiency than general-[[concepts/motivation|purpose]] [[concepts/central-processing-units|processors]]. These components are typically integrated into mobile devices, [[concepts/edge-computing|edge computing]] systems, and some consumer electronics to enable [[concepts/on-device-conceptsmachine-learningmachine-learning|on-device machine learning]] tasks. By dedicating hardware resources specifically to the mathematical operations common in [[concepts/neural-networks|neural networks]]—such as matrix multiplications and convolutions—Neural Engines reduce the processing burden on main CPUs and GPUs while consuming less [[concepts/power|power]].
 
 ## Architecture and Function
 
-Neural Engines are optimized for the specific patterns of computation that neural networks require, particularly during inference when a trained model processes new input data. They typically include specialized processing units, local [[concepts/memory|memory]] hierarchies, and data pathways designed to handle the high-throughput, lower-precision arithmetic that inference often tolerates. The hardware implementation allows these devices to achieve significant speedups compared to [[concepts/software|software]]-based inference on general processors, while maintaining acceptable [[concepts/accuracy|accuracy]] for many practical applications.
+Neural Engines are optimized for the specific patterns of computation that neural networks require, particularly during inference when a trained model processes new input data. They typically include specialized processing units, local [[concepts/memory|memory]] hierarchies, and data pathways designed to handle the high-throughput, lower-precision arithmetic that inference often tolerates. The hardware [[concepts/adoption|implementation]] allows these devices to achieve significant speedups compared to [[concepts/software|software]]-based inference on general processors, while maintaining acceptable [[concepts/accuracy|accuracy]] for many practical applications.
 
 ## Applications
 

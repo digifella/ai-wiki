@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "number-theory"
   - "real-numbers"
@@ -12,7 +11,8 @@ tags:
 aliases:
   - "irrational numbers"
 summary: A real number that cannot be expressed as a ratio of two integers.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 title: irrational_number
 ---
 # Irrational Number
@@ -21,7 +21,7 @@ An irrational number is a real number that cannot be expressed as a ratio of two
 
 ## Common Examples
 
-The most famous irrational numbers include π (pi), the ratio of a circle's [[concepts/circumference|circumference]] to its diameter, and e, the base of natural logarithms. The square root of 2 (√2) was historically one of the first numbers proven to be irrational by ancient Greek mathematicians. Other common irrationals include √3, √5, and the golden ratio φ (phi).
+The most famous irrational numbers include π (pi), the ratio of a circle's [[concepts/circumference|circumference]] to its diameter, and e, the base of natural logarithms. The square root of 2 (√2) was historically one of the first numbers proven to be irrational by ancient Greek mathematicians. Other common irrationals include √3, √5, and the golden ratio φ ([[entities/phi|phi]]).
 
 ## Properties and Significance
 

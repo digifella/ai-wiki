@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: tools-platforms
 tags:
   - "flowise"
   - "research-agent"
@@ -13,9 +13,9 @@ tags:
   - "low-code"
 aliases:
   - "Flowise AI"
-summary: "Flowise is an open-source tool that provides a visual interface for designing and deploying customizable large language model applications and complex workflows."
-updated: 2026-04-28
-group: ai-foundations-concepts
+summary: Flowise is an open-source tool that provides a visual interface for designing and deploying customizable large language model applications and complex workflows.
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Flowise
 
@@ -43,9 +43,9 @@ Flowise is an [[concepts/open-source|open-source]] tool for building customizabl
 
 ## Additional Resources
 - **Video Guide**: [Anthropic Multi-Agent Deep Research Agent](https://www.youtube.com/watch?v=GPsKnsYJPiI)
-- **GitHub Repository**: [Flowise Masterclass 2025](https://github.com/leonvanzyl/flowise-masterclass-2025/tree/master/Deep%20Research%20Agentflow)
+- **[[entities/github|GitHub]] Repository**: [Flowise Masterclass 2025](https://github.com/leonvanzyl/flowise-masterclass-2025/tree/master/Deep%20Research%20Agentflow)
 - **Flowise Cloud**: [Register via Leon van Zyl](https://cloud.flowiseai.com/register?via=leonvanzyl)
 
 ## Notes
 - Designed to overcome limitations of single LLM queries, such as [[concepts/hallucination|hallucination]] and insufficient depth.
-- Integrates with [[entities/anthropic]] for advanced research capabilities.
+- Integrates with [[entities/anthropic]] for advanced research [[concepts/capabilities|capabilities]].

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "ai-models"
   - "llm-processing"
@@ -12,11 +11,12 @@ aliases:
   - "AI Workflow"
   - "Advanced AI Systems"
 summary: Overview of contemporary AI processing techniques including multimodal models, document processing solutions, and major platform updates from Google's AI ecosystem.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Advanced AI Processing
 
-Advanced AI processing refers to computational systems designed to handle [[concepts/complex-tasks|complex tasks]] across multiple data types and formats simultaneously. Contemporary AI platforms have evolved significantly to support [[concepts/multimodal-capabilities|multimodal capabilities]], enabling integrated processing of text, [[concepts/images|images]], audio, and video within unified models. This integration allows systems to identify [[concepts/relationships|relationships]] and patterns across different information types, providing more comprehensive data analysis than single-[[concepts/modality|modality]] approaches.
+Advanced AI processing refers to computational systems designed to handle [[concepts/complex-tasks|complex tasks]] across multiple data types and formats simultaneously. Contemporary AI platforms have evolved significantly to support [[concepts/multimodal-capabilities|multimodal capabilities]], enabling integrated processing of [[concepts/text|text]], [[concepts/images|images]], [[concepts/audio-modality|audio]], and video within unified [[concepts/models|models]]. This [[concepts/integration|integration]] allows systems to identify [[concepts/relationships|relationships]] and patterns across different information types, providing more comprehensive data analysis than single-[[concepts/modality|modality]] approaches.
 
 ## Multimodal Capabilities
 
@@ -24,12 +24,11 @@ Advanced AI processing refers to computational systems designed to handle [[conc
 
 ## Document Processing Solutions
 
-Document processing represents a significant application area for advanced AI systems. Modern solutions extract, classify, and analyze structured and [[concepts/unstructured-data|unstructured data]] from various document types including PDFs, images, and forms. These systems handle multi-page documents and complex layouts, automating workflows that traditionally required manual review or rule-based extraction methods.
+[[concepts/document-processing|Document processing]] represents a significant application area for [[concepts/frontier-ai-models|advanced AI systems]]. Modern solutions extract, classify, and analyze structured and [[concepts/unstructured-data|unstructured data]] from various document types including [[concepts/pdfs|PDFs]], images, and forms. These systems handle multi-page documents and complex layouts, automating workflows that traditionally required manual review or rule-based extraction methods.
 
 ## Cloud Platform Integration
 
-Major cloud providers have integrated advanced AI processing capabilities into their broader infrastructure offerings. These platforms provide developers and enterprises with access to pre-trained models and tools for building custom [[concepts/software|applications]], lowering barriers to implementing sophisticated AI processing within [[concepts/organization|organizational systems]]. Updates to these ecosystems continue to expand available capabilities and improve integration with existing data infrastructure.
-
+Major cloud providers have integrated advanced AI processing [[concepts/capabilities|capabilities]] into their broader infrastructure offerings. These platforms provide developers and enterprises with access to [[concepts/pre-trained-models|pre-trained models]] and tools for building custom [[concepts/software|applications]], lowering barriers to implementing sophisticated AI processing within [[concepts/organization|organizational systems]]. Updates to these ecosystems continue to expand available capabilities and improve integration with existing data infrastructure.
 ## Source Notes
 - 2026-04-07: Bonzai 8B: PrismML
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "student-welfare"
   - "education"
@@ -12,7 +11,8 @@ aliases:
   - "student-wellbeing"
   - "pupil-welfare"
 summary: Measures and practices that support the physical, mental, and social wellbeing of students in educational settings.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Student Welfare
 
@@ -28,4 +28,4 @@ Physical welfare initiatives address students' basic health needs and promote he
 
 ## Social Integration
 
-Student welfare practices aim to foster belonging and social connection within educational communities. This involves creating opportunities for extracurricular activities, student organizations, and peer support networks. Institutions may also provide targeted support for disadvantaged or marginalized students to ensure equitable access to education and full participation in school life.
+Student welfare practices aim to foster belonging and [[concepts/social-connection|social connection]] within educational communities. This involves creating opportunities for extracurricular activities, student organizations, and peer support networks. Institutions may also provide targeted support for disadvantaged or marginalized students to ensure equitable access to education and full participation in school life.

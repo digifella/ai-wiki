@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "graph"
-  - "json"
-  - "api"
-  - "implementation"
-updated: 2026-04-15
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # graph JSON
@@ -22,8 +17,7 @@ JSON [[concepts/structure|structure]] representing graph visualizations for stak
 - Built payload with all [[concepts/filter-parameters|filter parameters]] in `site/lab/market_radar_api.php`
 - Added to `mrQueueCortexJob()` allowed types and `$mrTypes` in `list_mr_jobs`/`clear_mr_jobs`
 
-Backlink: 2026 04 14 Claude and Codex 17 March 2026
-
+Backlink: 2026 04 14 [[concepts/claude-ai|Claude]] and [[concepts/codex|Codex]] 17 March 2026
 ## Source Notes
 
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)

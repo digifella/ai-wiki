@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: life-systems-adaptation-discovery
 tags:
   - "concept"
   - "ai-travel"
@@ -12,7 +11,8 @@ aliases:
   - "AI flight search"
   - "ChatGPT travel prompts"
 summary: A guide on using ChatGPT prompts to find inexpensive flight deals.
-updated: 2026-05-01
+updated: 2026-05-23
+group: life-systems-adaptation-discovery
 ---
 # Cheap Flight Discovery
 

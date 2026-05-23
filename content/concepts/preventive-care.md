@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "preventive-medicine"
   - "health-promotion"
@@ -14,7 +13,8 @@ aliases:
   - "preventative care"
   - "health prevention"
 summary: Preventive care encompasses healthcare practices and interventions designed to prevent illness and disease before they occur.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Preventive Care
 
@@ -22,11 +22,10 @@ Preventive care encompasses [[concepts/health|healthcare]] practices and interve
 
 ## Levels of Prevention
 
-Preventive care is typically organized into three levels. [[concepts/primary-prevention|Primary prevention]] aims to prevent disease from occurring at all through [[concepts/health-promotion|health promotion]] and disease prevention strategies, such as [[concepts/vaccination|vaccination]] [[concepts/software|programs]], health education, and lifestyle modifications. [[concepts/secondary-prevention|Secondary prevention]] focuses on early detection and treatment of disease in its early stages, before symptoms appear, through screening programs and diagnostic [[concepts/testing|testing]]. [[concepts/tertiary-prevention|Tertiary prevention]] addresses management of existing disease to prevent complications, slow progression, and improve quality of life for people already living with chronic conditions.
+Preventive care is typically organized into three levels. [[concepts/primary-prevention|Primary prevention]] aims to prevent disease from occurring [[concepts/assistive-technology|at]] all through [[concepts/health-promotion|health promotion]] and [[concepts/primary-prevention-interventions-designed-to-prevent-disease-before-it-occurs|disease prevention]] strategies, such as [[concepts/vaccination|vaccination]] [[concepts/software|programs]], health education, and lifestyle modifications. [[concepts/secondary-prevention|Secondary prevention]] focuses on early detection and treatment of disease in its early stages, before symptoms appear, through screening programs and diagnostic [[concepts/testing|testing]]. [[concepts/tertiary-prevention|Tertiary prevention]] addresses management of existing disease to prevent complications, slow progression, and improve quality of life for people already living with chronic conditions.
 
 ## Applications and Approaches
 
-Common preventive care practices include immunizations, regular health screenings, [[concepts/offering-counseling-services|counseling]] on [[concepts/nutrition|nutrition]] and [[concepts/exercise|physical activity]], smoking cessation programs, and management of risk factors such as hypertension and high cholesterol. [[concepts/community-health-nursing|Community health nursing]] plays an important role in delivering preventive care at the population level, addressing social [[concepts/determinants-of-health|determinants of health]] and promoting wellness in diverse communities. Preventive care requires collaboration among individuals, healthcare providers, public health agencies, and policymakers to be effective at both clinical and population levels.
-
+Common preventive care practices include immunizations, regular health screenings, [[concepts/offering-counseling-services|counseling]] on [[concepts/nutrition|nutrition]] and [[concepts/exercise|physical activity]], smoking cessation programs, and management of risk factors such as hypertension and high cholesterol. [[concepts/community-health-nursing|Community health nursing]] plays an important role in delivering preventive care at the population level, addressing social [[concepts/determinants-of-health|determinants of health]] and promoting wellness in diverse communities. Preventive care requires collaboration among individuals, healthcare providers, [[concepts/public-health|public health]] agencies, and policymakers to be effective at both clinical and population levels.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Community-Health-Nursing-Core-Terminology-and-Nursing-Roles|Community Health Nursing Core Terminology and Nursing Roles]] · [▶ source](https://www.youtube.com/watch?v=WcA8bDDuVtE)

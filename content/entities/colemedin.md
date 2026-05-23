@@ -8,7 +8,7 @@ tags:
 aliases:
   - "Cole Medin"
 summary: A stub page for the entity Cole Medin.
-updated: 2026-05-01
+updated: 2026-05-23
 title: Cole Medin
 ---
 # Colemedin

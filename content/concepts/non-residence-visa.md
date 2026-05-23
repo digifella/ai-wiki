@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: places-regions-destinations
 tags:
   - "turkey"
   - "e-visa"
@@ -12,15 +11,16 @@ aliases:
   - "Turkey E-Visa"
   - "TR E-Visa"
 summary: This page contains documentation regarding non-residence e-visas for Turkey.
-updated: 2026-05-01
+updated: 2026-05-23
+group: places-regions-destinations
 ---
 # Non Residence Visa
 
-A Non Residence Visa is an electronic visa (e-visa) category that allows foreign nationals to enter and stay in [[entities/republic-of-turkey|Turkey]] for specified purposes without establishing formal residency. This visa type is administered through Turkey's online e-visa system and is designed for short-to-[[entities/medium|medium]] term visits by individuals who do not intend to become residents.
+A Non Residence Visa is an electronic visa ([[concepts/electronic-visa-system-e-visa|e-visa]]) category that allows foreign nationals to enter and stay in [[entities/republic-of-turkey|Turkey]] for specified purposes without establishing formal residency. This visa type is administered through Turkey's online e-visa system and is designed for short-to-[[entities/medium|medium]] term visits by individuals who do not intend to become residents.
 
 ## Eligibility and Application
 
-The Non Residence Visa is typically available to citizens of eligible countries and can be applied for entirely online through Turkey's official e-visa portal. Applicants must provide standard documentation including a valid passport, proof of sufficient funds, and details of their intended stay. Processing is generally completed within a short timeframe, with approval confirmation sent electronically.
+The Non Residence Visa is typically available to citizens of eligible countries and can be applied for entirely online through Turkey's official e-visa portal. Applicants must provide standard documentation including a valid passport, [[concepts/proof|proof]] of sufficient funds, and details of their intended stay. Processing is generally completed within a short timeframe, with approval confirmation sent electronically.
 
 ## Duration and Conditions
 

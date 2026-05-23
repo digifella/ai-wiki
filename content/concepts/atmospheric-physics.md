@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "atmospheric-science"
   - "physics-earth"
@@ -14,7 +13,8 @@ aliases:
   - "Atmospheric Science"
   - "Physics of the Atmosphere"
 summary: The study of physical processes and properties of Earth's atmosphere, including composition, dynamics, and ionization phenomena.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Atmospheric Physics
 
@@ -30,7 +30,6 @@ A major focus of atmospheric physics is the study of atmospheric motion and ener
 
 ## Ionization and Electrical Processes
 
-Atmospheric physics also addresses ionization phenomena in the upper atmosphere, where solar radiation and [[concepts/cosmic-rays|cosmic rays]] strip electrons from gas molecules. These ionization processes create the ionosphere and influence electromagnetic properties of the atmosphere. Understanding these electrical phenomena is important for communications, understanding upper atmospheric chemistry, and studying Earth's magnetosphere interactions.
-
+Atmospheric physics also addresses [[concepts/ionization|ionization]] phenomena in the upper atmosphere, where solar radiation and [[concepts/cosmic-rays|cosmic rays]] strip electrons from gas molecules. These ionization processes create the ionosphere and [[concepts/power|influence]] electromagnetic properties of the atmosphere. Understanding these electrical phenomena is important for communications, understanding upper atmospheric chemistry, and studying Earth's magnetosphere interactions.
 ## Source Notes
 - 2026-04-26: [[lab-notes/2026-04-26-Fungal-Ice-Nucleating-Proteins-A-Groundbreaking-Rain-Dis|Fungal Ice-Nucleating Proteins: A Groundbreaking Rain Discovery]] · [▶ source](https://www.youtube.com/watch?v=3qYyhOjTtSk)

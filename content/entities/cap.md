@@ -1,16 +1,7 @@
 ---
 type: entity
-tags:
-  - "workflow"
-  - "ai-video"
-  - "production"
-  - "automation"
-  - "video-production"
-  - "documentary-creation"
-  - "notebooklm"
-  - "google-ai-studio"
-summary: "A workflow using NotebookLM and Google AI Studio to produce high-resolution documentary videos with voice-matching."
-updated: 2026-04-24
+summary: A workflow using NotebookLM and Google AI Studio to produce high-resolution documentary videos with voice-matching.
+updated: 2026-05-23
 ---
 # Cap
 

@@ -1,27 +1,25 @@
 ---
 type: entity
 tags:
-  - "union"
-  - "autoworkers"
-  - "manufacturing"
-  - "labor"
   - "labor-unions"
   - "automotive-manufacturing"
-  - "uaw"
   - "collective-bargaining"
-  - "worker-protections"
+  - "worker-rights"
+  - "united-auto-workers"
 aliases:
-  - "United Auto Workers"
   - "UAW members"
-summary: "Members of labor unions in automotive manufacturing, primarily represented by the United Auto Workers (UAW), who advocate for fair wages and job security through collective bargaining."
-updated: 2026-04-22
+  - "automotive union workers"
+summary: Members of labor unions in automotive manufacturing, primarily represented by the United Auto Workers (UAW), who advocate for fair wages and job security through collective bargaining.
+updated: 2026-05-23
 ---
-# Union autoworkers
+# Union Autoworkers
 
-Members of labor unions in automotive manufacturing, primarily represented by the United Auto Workers (UAW). Advocate for fair wages, safe working conditions, and job [[concepts/security|security]] through collective bargaining. Historically pivotal in establishing industry [[concepts/open-standards|standards]] for benefits and worker protections.
+Union autoworkers are members of [[concepts/union-labor|labor unions]] operating within the automotive manufacturing industry, with the United Auto Workers (UAW) serving as the primary representative organization in North [[entities/america|America]]. These workers advocate collectively for improved compensation, workplace safety, and employment [[concepts/security|security]] through formalized collective bargaining agreements with manufacturers.
 
-## Related Examples
-- Destin - manufacturing in [[entities/america|America]]: [[entities/destin-sandlin|Destin Sandlin]]'s [[entities/smarter-every-day|Smarter Every Day]] experiment to manufacture the "[[entities/smarter-scrubber|Smarter Scrubber]]" entirely in America (documented in his [[concepts/date-2026-04-13|2026]] video), inspired by his parents' careers as union autoworkers.
+## Historical Role and Impact
 
-## Backlink
-2026 04 14 Destin manufacturing in America
+Union autoworkers have played a significant role in establishing industry-wide [[concepts/open-standards|standards]] for employee benefits and worker protections since the early-to-mid twentieth century. Through sustained organizing efforts and negotiation, they secured gains including pension systems, [[concepts/health|health]] insurance coverage, and standardized wage [[concepts/musical-scales|scales]] that became benchmarks across the automotive sector and influenced labor practices in other manufacturing industries.
+
+## Core Advocacy
+
+The primary concerns of union autoworkers center on fair wages relative to [[concepts/cost|cost]] of living, safe working conditions on the factory floor, job security amid industry [[concepts/consolidation|consolidation]] and [[concepts/technological-change|technological change]], and protection against arbitrary employment practices. Collective bargaining remains their principal tool for negotiating these terms with automotive manufacturers.

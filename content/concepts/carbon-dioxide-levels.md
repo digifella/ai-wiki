@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "carboniferous-period"
   - "permian-period"
@@ -13,7 +12,8 @@ aliases:
   - "Atmospheric CO2"
   - "Historical Carbon Dioxide"
 summary: Atmospheric oxygen and carbon dioxide levels were part of the environmental conditions during the Carboniferous and Permian periods when fossil fuels were forming.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Carbon Dioxide Levels
 
@@ -25,4 +25,4 @@ The Carboniferous period experienced high [[concepts/oxygen-saturation|atmospher
 
 ## Relevance to Fossil Fuel Formation
 
-The atmospheric composition during these epochs directly enabled the conditions necessary for fossil fuel formation. The combination of high CO₂ availability for plant growth and the anaerobic burial environments in swamps and marine basins allowed organic material to accumulate and eventually transform into coal, oil, and natural gas over millions of years. Understanding these ancient atmospheric conditions provides context for interpreting the chemistry and [[concepts/distribution|distribution]] of fossil fuel deposits.
+The atmospheric composition during these epochs directly enabled the conditions necessary for [[concepts/oil-formation|fossil fuel formation]]. The combination of high CO₂ availability for plant growth and the anaerobic burial environments in swamps and marine basins allowed organic material to accumulate and eventually transform into coal, oil, and natural gas over millions of years. Understanding these ancient atmospheric conditions provides context for interpreting the chemistry and [[concepts/distribution|distribution]] of fossil fuel deposits.

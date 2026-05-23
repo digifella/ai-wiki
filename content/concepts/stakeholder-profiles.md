@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: market-intelligence-geo-seo
 tags:
   - "stakeholder-intelligence"
   - "profile-management"
@@ -12,11 +11,12 @@ aliases:
   - "Stakeholder Intelligence Profiles"
   - "Profile Cards"
 summary: Profile cards display intelligence status and include a filter for profiles with no matched intel.
-updated: 2026-05-01
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Stakeholder Profiles
 
-Stakeholder Profiles are intelligence status cards that provide at-a-glance visibility into the information maturity of individual stakeholder records. Each profile card displays the current intelligence status, indicating either the number of matched intel items associated with that profile or a warning that no intelligence has been matched.
+Stakeholder Profiles are intelligence status cards that provide at-a-glance visibility into the information maturity of individual stakeholder records. Each profile card displays the current intelligence status, indicating either the number of matched [[entities/intel|intel]] items associated with that profile or a warning that no intelligence has been matched.
 
 ## Intelligence Status Indicators
 

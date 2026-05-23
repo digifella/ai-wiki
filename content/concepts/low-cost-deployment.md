@@ -1,17 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "low-cost"
-  - "open-source"
-  - "local-llm"
-  - "open-weight-models"
-  - "consumer-hardware"
-  - "cloud-costs"
-aliases:
-  - "low-cost deployment"
-summary: "Low-cost deployment minimizes financial and resource expenditure through open-source tools and local infrastructure."
-updated: 2026-04-15
+summary: Low-cost deployment minimizes financial and resource expenditure through open-source tools and local infrastructure.
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # low-cost deployment
@@ -26,7 +17,6 @@ Key method:
 - [[concepts/local-llm|Local LLM]] deployment: Executing [[concepts/open-weight-models|open-weight models]] (e.g., [[entities/openai|OpenAI]]'s `[[concepts/gpt-oss-20b|gpt-oss-20b]]`) on consumer [[concepts/hardware|hardware]] to eliminate cloud costs, as demonstrated in 2026 04 14 Jeredblu [[concepts/running|running]] LLM locally.
 
 2026 04 14 Jeredblu running LLM locally
-
 ## Source Notes
 - 2026-04-07: Bonzai 8B: PrismML
 - 2026-04-08: [[lab-notes/2026-04-08-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced|OpenClaw Autonomous AI Agent Setup Configuration and Advanced]] · [▶ source](https://www.youtube.com/watch?v=u4ydH-QvPeg)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "concept"
   - "archaeology"
@@ -12,11 +11,12 @@ tags:
 aliases:
   - "danish archaeology experiment"
 summary: The Danish government deputized private detectorists to unearth artifacts in farm fields as part of an archaeological experiment.
-updated: 2026-05-01
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Archaeological Excavation
 
-Archaeological excavation is the systematic uncovering and recovery of artifacts, structures, and other physical evidence from beneath the earth's surface. It is a core methodological practice in archaeology, involving the careful removal of soil layers while documenting spatial [[concepts/relationships|relationships]], contexts, and stratigraphic sequences. Excavations range from small test trenches to large-scale digs and can target specific sites or areas of broader [[concepts/survey|survey]] interest.
+Archaeological excavation is the systematic uncovering and recovery of artifacts, structures, and other physical evidence from beneath the earth's surface. It is a core methodological practice in archaeology, involving the careful removal of soil layers while documenting spatial [[concepts/relationships|relationships]], contexts, and stratigraphic sequences. Excavations [[concepts/range|range]] from small test trenches to large-scale digs and can target specific sites or areas of broader [[concepts/survey|survey]] interest.
 
 ## Methodology and Documentation
 

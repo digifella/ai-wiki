@@ -1,18 +1,8 @@
 ---
 type: entity
-tags:
-  - "AI"
-  - "LLM"
-  - "Claude"
-  - "Coding"
-  - "large-language-model"
-  - "coding-assistant"
-  - "software-development"
-  - "ai-models"
-aliases:
-  - "Claude"
-summary: "Claude 4 is an advanced large language model designed for local development coding involving large-scale codebases."
-updated: 2026-04-20
+summary: Claude 4 is an advanced large language model designed for local development coding involving large-scale codebases.
+updated: 2026-05-23
+stub: true
 ---
 # Claude 4
 
@@ -28,6 +18,5 @@ Advanced [[concepts/large-language-model|Large Language Model]].
 ---
 **Backlinks**:
 - [[concepts/date-2026-04-13|2026]] 04 14 Local development coding
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)

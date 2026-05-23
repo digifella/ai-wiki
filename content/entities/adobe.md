@@ -1,27 +1,6 @@
 ---
 type: entity
-tags:
-  - "adobe"
-  - "photoshop"
-  - "ai"
-  - "layer-renaming"
-  - "generative-markup"
-  - "adobe-software"
-  - "creative-cloud"
-  - "image-editing"
-  - "ai-integration"
-  - "document-management"
-  - "masking"
-  - "workflow"
-  - "lightroom"
-  - "lightroom-classic"
-  - "firefly-ai"
-  - "film-presets"
-  - "background-processing"
-  - "generative-markup-tools"
-  - "adobe-project-indigo"
-  - "mobile-photography"
-updated: 2/26/2026
+updated: 2026-05-23
 ---
 # Adobe
 Adobe is a multinational corporation headquartered in San Jose, California, known for its [[concepts/software|software]] and digital marketing solutions. It specializes in multimedia and creativity [[concepts/software|software]] products.
@@ -44,8 +23,7 @@ Adobe has been integrating [[entities/ai|artificial intelligence]] into its prod
 - **[[entities/adobe-project-indigo|Adobe Project Indigo]]**
     - A new [[concepts/mobile-photography|mobile photography]] app introduced by [[entities/colin-smith|Colin Smith]] ([[entities/photoshopcafe|PhotoshopCAFE]]).
     - Focuses on advanced mobile photography, addressing performance gaps in [[concepts/dynamic-range|dynamic range]], low [[concepts/light|light]], and video compared to DSLR/mirrorless cameras.
-    - Source: 2026 04 14 Colin Smith founder of PhotoshopCAFE introduces Adobe Project Indigo
-
+    - Source: 2026 04 14 Colin Smith founder of [[entities/colin-smith-channel|PhotoshopCAFE]] introduces [[concepts/camera-app-design|Adobe Project Indigo]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

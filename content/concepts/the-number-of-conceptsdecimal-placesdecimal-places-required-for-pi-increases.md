@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: number-theory-prime-numbers
 tags:
   - "pi-precision"
   - "decimal-places"
@@ -12,7 +11,8 @@ aliases:
   - "Pi Precision Scaling"
   - "Decimal Places in Pi Calculation"
 summary: The precision requirements for pi's decimal places increase when performing calculations at atomic and subatomic scales.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # The Number of Decimal Places Required for Pi Increases
 
@@ -20,7 +20,7 @@ Pi (π) is a mathematical constant representing the ratio of a circle's [[concep
 
 ## Precision Requirements at Different Scales
 
-As calculations involve increasingly smaller or larger measurements, the precision requirements for pi become more demanding. At atomic and subatomic scales, where [[concepts/quantum-mechanics|quantum mechanics]] governs physical behavior, calculations of fundamental properties such as wave functions and particle interactions may require dozens or hundreds of decimal places. Similarly, cosmological calculations involving the [[concepts/observable-universe|observable universe]] at its largest scales demand comparable precision to avoid compounding errors across vast distances.
+As calculations involve increasingly smaller or larger measurements, the precision requirements for pi become more demanding. [[concepts/assistive-technology|At]] atomic and subatomic [[concepts/musical-scales|scales]], where [[concepts/quantum-mechanics|quantum mechanics]] governs physical behavior, calculations of fundamental properties such as wave functions and particle interactions may require dozens or hundreds of decimal [[entities/places|places]]. Similarly, cosmological calculations involving the [[concepts/observable-universe|observable universe]] at its largest scales demand comparable precision to avoid compounding errors across vast distances.
 
 ## Practical and Computational Implications
 

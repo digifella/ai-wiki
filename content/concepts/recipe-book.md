@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "claude-ai"
   - "agent-skills"
@@ -12,7 +11,8 @@ aliases:
   - "Claude Skills Guide"
   - "Agent Skills Overview"
 summary: A Markdown summary of a video by Rick Mulready regarding Claude skills and agent skills use cases.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Recipe Book
 

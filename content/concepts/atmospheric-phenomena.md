@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "concept"
   - "mars"
@@ -13,20 +12,20 @@ tags:
 aliases:
   - "mars-atmospheres"
 summary: Information regarding atmospheric phenomena, such as lightning, on Mars within the context of geological mission updates.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Atmospheric Phenomena
 
-Atmospheric phenomena encompass the physical and chemical processes occurring within a planet's atmosphere, including weather events, optical effects, and electrical discharge. These processes are fundamentally shaped by a planet's atmospheric composition, pressure, temperature gradients, and distance from its star. Understanding atmospheric phenomena is essential to meteorology, [[concepts/climate-science|climate science]], and planetary [[concepts/geology|geology]], as they directly influence surface conditions and habitability.
+Atmospheric phenomena encompass the physical and chemical processes occurring within a planet's atmosphere, including weather events, optical effects, and electrical discharge. These processes are fundamentally shaped by a planet's atmospheric composition, pressure, temperature gradients, and distance from its star. Understanding atmospheric phenomena is essential to meteorology, [[concepts/climate-science|climate science]], and planetary [[concepts/geology|geology]], as they directly [[concepts/power|influence]] surface conditions and [[concepts/habitability|habitability]].
 
 ## Earth's Atmosphere
 
-Earth's atmosphere produces a wide range of phenomena across multiple [[concepts/musical-scales|scales]] and timescales. Common occurrences include wind systems, precipitation, and cloud formation, which result from solar heating and planetary rotation. More dramatic events include thunderstorms with lightning, tornadoes, and hurricanes. Optical phenomena such as rainbows and halos occur when light interacts with atmospheric particles, while auroras result from interactions between the solar wind and Earth's magnetosphere. These diverse processes are driven by energy input from the Sun and the planet's internal heat.
+Earth's atmosphere, composed primarily of nitrogen and oxygen, supports a diverse [[concepts/range|range]] of phenomena including precipitation, wind systems, and lightning. Lightning occurs when electrical charge builds within cloud systems, creating a discharge between clouds or from clouds to the surface. Other significant phenomena include cyclones, tornadoes, auroras (caused by solar wind interaction with the magnetosphere), and various optical effects such as halos and rainbows produced by [[concepts/light|light]] interaction with water droplets and ice crystals.
 
 ## Atmospheric Phenomena on Other Planets
 
-Other planets exhibit distinct atmospheric phenomena determined by their unique environmental conditions. Mars, with its thin carbon dioxide atmosphere and lower surface pressure, experiences dust storms of continental scale that can persist for months. Despite the thin atmosphere, electrical activity has been proposed as a possibility on Mars, though evidence remains limited compared to Earth's frequent lightning. Venus's dense, sulfuric acid-rich atmosphere generates extreme winds and clouds, while the gas giants exhibit dynamic storm systems and complex cloud patterns. These variations demonstrate how planetary characteristics fundamentally shape the character and intensity of atmospheric processes.
-
+Atmospheric phenomena vary significantly across planets based on their distinct atmospheric compositions and conditions. Mars, with its thin carbon dioxide atmosphere, experiences dust storms of enormous scale that can envelope the entire planet, though lightning has not been conclusively detected despite theoretical possibilities. Venus exhibits extreme wind speeds in its upper atmosphere and produces lightning within its sulfuric acid clouds. Jupiter and Saturn display persistent [[entities/storm|storm]] systems including the Great Red Spot on Jupiter, driven by internal heat and rapid rotation rather than solar heating alone.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Mars-Science-Update-Ancient-Rainforests-Geological-Finds-Mission-Statu|Mars Science Update Ancient Rainforests Geological Finds Mission Statu]] · [▶ source](https://www.youtube.com/watch?v=d5HR9JNKg7I)
 - 2026-04-13: [[lab-notes/2026-04-13-LHAASOs-Confirmation-The-Universes-Most-Powerful-Cosmic-Ray-Sources|LHAASOs Confirmation The Universes Most Powerful Cosmic Ray Sources]] · [▶ source](https://www.youtube.com/watch?v=Y6slPVbwLhI)

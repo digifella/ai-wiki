@@ -1,20 +1,9 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "image-processing"
-  - "photography"
-  - "photoshop"
-  - "depth-mapping"
-  - "lens-blur"
-  - "photoshop-workflows"
-  - "3d-manipulation"
-  - "digital-imaging"
-aliases:
-  - "depth-mask"
-summary: "A grayscale representation of spatial distance within an image where pixel intensity correlates to the proximity of objects relative to the camera lens."
-updated: 2026-04-26
-group: photography-cameras
+summary: A grayscale representation of spatial distance within an image where pixel intensity correlates to the proximity of objects relative to the camera lens.
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Depth map
 
@@ -26,8 +15,7 @@ A grayscale representation of spatial distance within an image, where pixel inte
 - **Lens [[concepts/simulation-technology|Simulation]]**: Serves as the essential data source for driving the [[concepts/lens-blur|Lens Blur]] tool in [[concepts/camera-raw]] and [[concepts/lightroom]].
 
 ### Related Resources
-- 2026 04 22 [[concepts/3d-photo-manipulation|Photoshop Depth Map]] Mastering Precise 3D Photo Adjustments ([[concepts/tutorial|Tutorial]] by [[entities/piximperfect]])
-
+- 2026 04 22 [[concepts/3d-photo-manipulation|Photoshop Depth Map]] Mastering Precise [[concepts/3d-photo-adjustments|3D Photo Adjustments]] ([[concepts/tutorial|Tutorial]] by [[entities/piximperfect]])
 ## Source Notes
 - 2026-04-07: Claude Code 2.0 Upgrade: Enhanced AI Coding, Workflow Automation, and Team Features
 - 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)

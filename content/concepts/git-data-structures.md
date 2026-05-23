@@ -9,27 +9,26 @@ tags:
   - "git-internals"
 aliases:
   - "Git internals"
-summary: "Git's operational logic is defined by its underlying data structures, including a directed acyclic graph, commits, and branches."
-updated: 2026-04-27
+summary: Git's operational logic is defined by its underlying data structures, including a directed acyclic graph, commits, and branches.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Git data structures
 
-Git's operational logic is defined by its underlying data structures rather than a mere collection of [[concepts/commands|commands]].
+[[entities/git|Git]]'s operational logic is defined by its underlying data structures rather than a mere collection of [[concepts/commands|commands]].
 
 ### Core Components
 - **DAG ([[concepts/directed-acyclic-graph-dag|Directed Acyclic Graph]])**: The fundamental structural framework of Git history.
 - **Commit**: Immutable snapshots of the project state.
-- **Branch**: Pointers directed at specific [[concepts/nodes|nodes]] within the graph.
+- **Branch**: Pointers directed [[concepts/assistive-technology|at]] specific [[concepts/nodes|nodes]] within the graph.
 
 ### Key Insights
 - Moving beyond command memorization requires understanding the relationship between these structures and their operational logic.
-- Source: LearnThatStack — *Git [[entities/will|Will]] Finally Make Sense After This* (https://www.youtube.com/watch?v=Ala6PHlYjmw)
+- Source: LearnThatStack — *Git [[entities/will|Will]] Finally [[entities/make|Make]] Sense After This* (https://www.youtube.com/watch?v=Ala6PHlYjmw)
 
 ---
 **Backlinks**:
 - 2026 04 27 Gits Underlying Data Structures [[concepts/commits|Commits]] Branches and DAG
-
 ## Source Notes
 - 2026-04-27: [[lab-notes/2026-04-27-Gits-Underlying-Data-Structures-Commits-Branches-and-DAG|Git's Underlying Data Structures: Commits, Branches, and DAG Explained]] · [▶ source](https://www.youtube.com/watch?v=Ala6PHlYjmw)
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

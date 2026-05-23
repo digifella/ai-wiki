@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "step-by-step-reasoning"
   - "prompt-engineering"
@@ -12,11 +11,12 @@ aliases:
   - "sequential reasoning"
   - "structured reasoning approach"
 summary: A technique for employing concise, step-by-step reasoning within an expert advisory system prompt.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Step By Step Reasoning
 
-Step by step reasoning is a [[concepts/prompting|prompting]] technique used in expert advisory systems to [[concepts/structure|structure]] [[concepts/ai-agent|AI agent]] [[concepts/responses|responses]] through explicit, sequential logic chains. Rather than providing immediate conclusions, the technique instructs the agent to break down complex problems into discrete steps, making the [[concepts/reasoning-steps|reasoning process]] transparent and easier to verify. This approach is particularly effective for analytical tasks where intermediate reasoning steps contribute meaningfully to the final answer.
+Step by step reasoning is a [[concepts/prompting|prompting]] technique used in expert advisory systems to [[concepts/structure|structure]] [[concepts/ai-agent|AI agent]] [[concepts/responses|responses]] through explicit, sequential logic chains. Rather than providing immediate conclusions, the technique instructs the [[entities/agent|agent]] to break down complex problems into discrete steps, making the [[concepts/reasoning-steps|reasoning process]] transparent and easier to verify. This approach is particularly effective for analytical tasks where intermediate reasoning steps contribute meaningfully to the final answer.
 
 ## Implementation in Prompts
 
@@ -24,8 +24,7 @@ The technique is typically embedded within [[concepts/system-prompts|system prom
 
 ## Practical Benefits
 
-Step by step reasoning improves output quality by reducing errors that arise from rushed or incomplete analysis. It allows users to follow the agent's logic, identify where [[concepts/reasoning|reasoning]] diverges from their intent, and provide targeted corrections. For expert advisory systems specifically, this structured approach builds user confidence in recommendations by making the underlying justification visible and auditable.
-
+Step by step reasoning improves [[concepts/output|output]] quality by reducing errors that arise from rushed or incomplete analysis. It allows users to follow the agent's logic, identify where [[concepts/reasoning|reasoning]] diverges from their intent, and provide targeted corrections. For expert advisory systems specifically, this structured approach builds user confidence in recommendations by making the underlying justification visible and auditable.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)

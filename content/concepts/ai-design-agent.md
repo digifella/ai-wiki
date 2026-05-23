@@ -1,39 +1,27 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "design"
-  - "agent"
-  - "ui"
-  - "gemini"
-  - "text-to-ui"
-  - "sketch-to-code"
-  - "ui-design-generation"
-  - "production-code"
-  - "heatmap-prediction"
-summary: "An AI design agent autonomously generates professional UI designs and production-ready code from text descriptions or sketches."
-updated: 2026-04-15
+summary: An AI design agent autonomously generates professional UI designs and production-ready code from text descriptions or sketches.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # AI design agent
 
-An [[concepts/google-stitch-20|AI design agent]] autonomously generates professional UI designs and production-ready code from text descriptions or sketches, accelerating the design-to-development workflow.
+An [[concepts/google-stitch-20|AI design agent]] autonomously generates professional UI designs and [[concepts/production-ready-code|production-ready code]] from [[concepts/text|text]] descriptions or sketches, accelerating the design-to-development [[concepts/workflow|workflow]].
 
 ## Key Features
 - Converts text/sketches to layered UI designs & code in <60 seconds
 - Leverages [[entities/gemini-3|Gemini 3]].0 Pro for complex layout [[concepts/reasoning|reasoning]]
-- Predicts user [[concepts/attention-mechanisms|attention]] via Heatmap (UI design)
+- Predicts user [[concepts/attention-mechanisms|attention]] via Heatmap (UI [[concepts/design|design]])
 - Outputs production-ready code with click-through prototypes
 
 ## Example: Google Stitch 2.0
-[[entities/google-stitch]] is an AI design agent that creates UI designs from ideas (text/sketches) in under 60 seconds. Features:
+[[entities/google-stitch]] is an AI design [[entities/agent|agent]] that creates UI designs from [[concepts/ideas|ideas]] (text/sketches) in under 60 seconds. Features:
 * Powered by [[concepts/gemini|Gemini]] 3.0 Pro
 * Generates heatmaps for [[concepts/user-attention-prediction|user attention prediction]]
 * Builds click-through prototypes
 
 2026 04 14 [[concepts/ai-assisted-prototyping|Google Stitch]] Channel [[entities/teachers-tech|Teachers Tech]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: Google Stitch - Channel Teacher's Tech

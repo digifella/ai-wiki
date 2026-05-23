@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "chatgpt"
   - "deep-research"
@@ -13,11 +12,12 @@ aliases:
   - "ChatGPT Deep Research"
   - "Research Source Control"
 summary: The ChatGPT Deep Research update provides users with granular control over research sources.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Research Control
 
-Research Control refers to the [[concepts/granular-control|granular control]] capabilities provided to users within the ChatGPT Deep Research feature. This functionality allows users to specify and manage which sources are utilized during the research process, enabling more customized and targeted information gathering according to individual needs and preferences.
+Research Control refers to the [[concepts/granular-control|granular control]] [[concepts/capabilities|capabilities]] provided to users within the [[entities/chatgpt-deep-research|ChatGPT Deep Research]] feature. This functionality allows users to specify and manage which sources are utilized during the research process, enabling more customized and targeted information gathering according to individual needs and preferences.
 
 ## Implementation in ChatGPT Deep Research
 
@@ -25,8 +25,7 @@ The ChatGPT Deep Research update integrates research control mechanisms that giv
 
 ## Significance for AI Agent Design
 
-Research control demonstrates an important design principle for [[concepts/agentic-ai|AI agents]]: providing users with meaningful oversight mechanisms over agent behavior. By allowing users to influence which sources are consulted, this feature addresses concerns about source [[concepts/software-reliability|reliability]] and relevance while maintaining the efficiency benefits of automated research processes.
-
+Research control demonstrates an important [[concepts/design|design]] principle for [[concepts/agentic-ai|AI agents]]: providing users with meaningful oversight mechanisms over [[entities/agent|agent]] behavior. By allowing users to [[concepts/power|influence]] which sources are consulted, this feature addresses concerns about source [[concepts/software-reliability|reliability]] and relevance while maintaining the efficiency benefits of automated research processes.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)
 - 2026-04-08: [[lab-notes/2026-04-08-LiteParse-Free-Local-Layout-Preserving-Document-Parsing-for-LLMs|LiteParse Free Local Layout Preserving Document Parsing for LLMs]] · [▶ source](https://www.youtube.com/watch?v=1GOJn9xiCc4)

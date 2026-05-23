@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: history-anthropology
 tags:
   - "concept"
   - "fasteners"
@@ -12,8 +11,9 @@ tags:
 aliases:
   - "shoelaces"
   - "cord fasteners"
-summary: "Laces are fastening devices used in clothing and footwear, with related engineering history documented through zipper technology."
-updated: 2026-05-01
+summary: Laces are fastening devices used in clothing and footwear, with related engineering history documented through zipper technology.
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Laces
 
@@ -21,11 +21,10 @@ Laces are [[concepts/fastening-devices|fastening devices]] consisting of thin co
 
 ## Historical Development
 
-Lacing has been used as a fastening method for centuries, predating many modern alternatives. Before the widespread [[concepts/adoption|adoption]] of [[concepts/buttons|buttons]] and zippers, laces were among the primary means of securing garments. The technology evolved gradually, with improvements in cord materials and eyelet construction making lacing systems more reliable and durable over time.
+Lacing has been used as a fastening method for centuries, predating many modern alternatives. Before the widespread [[concepts/adoption|adoption]] of [[concepts/buttons|buttons]] and [[concepts/zippers|zippers]], laces were among the primary means of securing garments. The technology evolved gradually, with improvements in cord materials and eyelet construction making lacing systems more reliable and durable over time.
 
 ## Engineering Context
 
-The history of fastening devices in clothing and footwear reveals a progression of technologies addressing similar problems. While laces represent one [[concepts/solution|solution]], related innovations including buttons, [[concepts/brooches|clasps]], and eventually zippers emerged to address limitations such as durability, speed of fastening, and cost of manufacture. The engineering principles underlying these different fastening systems—how to reliably join two pieces of material—connect these technologies through a shared functional [[concepts/motivation|purpose]], even as their mechanisms differ significantly.
-
+The history of fastening devices in clothing and footwear reveals a progression of technologies addressing similar problems. While laces represent one [[concepts/solution|solution]], related innovations including buttons, [[concepts/brooches|clasps]], and eventually zippers emerged to address limitations such as durability, [[concepts/speed|speed]] of fastening, and [[concepts/cost|cost]] of manufacture. The engineering principles underlying these different fastening systems—how to reliably join two pieces of material—connect these technologies through a shared functional [[concepts/motivation|purpose]], even as their mechanisms differ significantly.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-From-Clasp-Locker-to-YKK-The-History-and-Engineering-of-Zippers|From Clasp Locker to YKK The History and Engineering of Zippers]] · [▶ source](https://www.youtube.com/watch?v=9szhjhO9epA)

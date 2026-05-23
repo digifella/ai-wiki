@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "llm-tasks"
   - "error-prevention"
@@ -12,7 +11,8 @@ aliases:
   - "Zero-Error LLM Tasks"
   - "Long-Horizon Task Solving"
 summary: The page discusses research from Cognizant AI Lab regarding achieving zero errors in million-step LLM tasks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Context Drift
 
@@ -20,7 +20,7 @@ Context drift refers to the degradation of performance in [[concepts/large-langu
 
 ## Research at Cognizant AI Lab
 
-Researchers at Cognizant AI Lab addressed this problem in their November 2025 paper "[[concepts/zero-errors|Solving a Million-Step LLM Task with Zero Errors]]." The work demonstrates technical approaches for maintaining contextual fidelity throughout extended task execution, effectively preventing the error accumulation that typically occurs in million-step operations. This research represents a meaningful advancement in making LLMs viable for long-horizon, error-critical [[concepts/software|applications]].
+Researchers [[concepts/assistive-technology|at]] [[entities/cognizant-ai-lab|Cognizant AI Lab]] addressed this problem in their November 2025 paper "[[concepts/zero-errors|Solving a Million-Step LLM Task with Zero Errors]]." The work demonstrates technical approaches for maintaining contextual fidelity throughout extended task execution, effectively preventing the error accumulation that typically occurs in million-step operations. This research represents a meaningful advancement in making LLMs viable for long-horizon, error-critical [[concepts/software|applications]].
 
 ## Implications
 

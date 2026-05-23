@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "strategy"
-  - "decision-making"
-  - "business-intelligence"
-  - "AI"
-  - "strategic-analysis"
-  - "insight-generation"
-  - "business-communication"
-  - "ai-limitations"
-  - "data-evaluation"
-aliases:
-  - "strategic-evaluation"
-summary: "Strategic Analysis is a systematic process of evaluating complex data to identify strategic objectives and optimal courses of action."
-updated: 2026-04-18
+summary: Strategic Analysis is a systematic process of evaluating complex data to identify strategic objectives and optimal courses of action.
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # Strategic Analysis
@@ -23,15 +11,14 @@ The systematic process of evaluating complex data to identify strategic objectiv
 
 ## Core Components
 - [[concepts/insight-generation]]: The critical process of uncovering actionable intelligence within data.
-- Business Communication: The effective delivery of findings to stakeholders to [[concepts/motivation|drive]] decision-making.
+- Business Communication: The effective delivery of findings to stakeholders to [[concepts/motivation|drive]] [[concepts/decision-making|decision-making]].
 
 ## AI in Presentation & Communication
 - **The Insight Gap**: A significant gap exists between the generation of strategic insights and the effective presentation of those insights.
-- **Limitations of [[concepts/ai-tools|AI Tools]]**: While tools like Gamma, [[entities/pitch|Pitch]], and [[entities/beautifulai|Beautiful.ai]] are useful for "low-stakes presentations," they fail at the most critical task in Strategic Analysis: uncovering the insights that actually matter.
+- **Limitations of [[concepts/ai-tools|AI Tools]]**: While tools like [[entities/gamma|Gamma]], [[entities/pitch|Pitch]], and [[entities/beautifulai|Beautiful.ai]] are useful for "low-stakes presentations," they fail [[concepts/assistive-technology|at]] the most critical task in Strategic Analysis: uncovering the insights that actually matter.
 
 ## Related
-- 2026 04 14 Make compelling presentations with Ai [[entities/jeff-su|Jeff Su]]
-
+- 2026 04 14 [[entities/make|Make]] compelling presentations with Ai [[entities/jeff-su|Jeff Su]]
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-Google-NotebookLM-Enhanced-Research-and-Multi-Format-Content-Synthesis|Google NotebookLM Enhanced Research and Multi Format Content Synthesis]] · [▶ source](https://www.youtube.com/watch?v=_uXnyhrqmsU)

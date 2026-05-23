@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: interactive-visualisation
 tags:
   - "concept"
   - "photoshop-beta"
@@ -13,7 +12,8 @@ aliases:
   - "AI Rotate Object"
   - "3D Manipulation of 2D Images"
 summary: Photoshop Beta's AI Rotate Object feature enables 3D manipulation of 2D images.
-updated: 2026-05-01
+updated: 2026-05-23
+group: interactive-visualisation
 ---
 # 2D To 3D Transformation
 
@@ -21,16 +21,15 @@ updated: 2026-05-01
 
 ## Traditional Methods
 
-Conventional approaches to 2D-to-3D conversion have long relied on manual techniques such as rotoscoping, multi-[[concepts/layer-compositing|layer compositing]], and depth mapping. These labor-intensive methods require artists to hand-create depth information and construct 3D models based on 2D reference imagery. While effective, these approaches demand significant time and specialized skill.
+Conventional approaches to 2D-to-3D conversion have long relied on manual techniques such as rotoscoping, multi-[[concepts/layer-compositing|layer compositing]], and depth mapping. These labor-intensive methods require artists to hand-create depth information and construct 3D [[concepts/models|models]] based on 2D reference imagery. While effective, these approaches demand significant time and specialized [[concepts/skill|skill]].
 
 ## AI-Assisted Approaches
 
-Recent developments in generative AI have introduced automated tools for this [[concepts/motivation|purpose]]. Adobe's [[concepts/beta-version|Photoshop Beta]] features an [[concepts/2d-image-rotation|AI Rotate Object]] capability that allows users to manipulate 2D images with three-dimensional rotation and repositioning. The feature analyzes source material to infer spatial properties and generate plausible 3D transformations without requiring explicit 3D model creation. Similar AI-driven tools have emerged across various creative [[concepts/software|software]] platforms, reducing the technical barriers to [[concepts/3d-manipulation|3D manipulation]] of 2D content.
+Recent developments in [[concepts/generative-ai|generative AI]] have introduced automated tools for this [[concepts/motivation|purpose]]. [[entities/adobe|Adobe]]'s [[concepts/beta-version|Photoshop Beta]] features an [[concepts/2d-image-rotation|AI Rotate Object]] capability that allows users to manipulate 2D images with three-dimensional rotation and repositioning. The feature analyzes source material to infer spatial properties and generate plausible 3D transformations without requiring explicit 3D model creation. Similar AI-driven tools have emerged across various creative [[concepts/software|software]] platforms, reducing the technical barriers to [[concepts/3d-manipulation|3D manipulation]] of 2D content.
 
 ## Applications
 
-2D to 3D transformation finds use in digital design, visual effects, product visualization, and [[concepts/content-creation|content creation]]. The technology enables designers to extract additional creative possibilities from existing imagery and accelerates workflows that traditionally required separate 3D modeling stages.
-
+2D to 3D transformation finds use in digital [[concepts/design|design]], visual effects, product visualization, and [[concepts/content-creation|content creation]]. The technology enables designers to extract additional creative possibilities from existing imagery and accelerates workflows that traditionally required separate 3D modeling stages.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-08: [[lab-notes/2026-04-08-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi|Google NotebookLM Customizing Design for Professional Presentations vi]] · [▶ source](https://www.youtube.com/watch?v=hqquu7H7X0w)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: food-science-nutrition-ingredients
 tags:
   - "ethylene"
   - "plant-physiology"
@@ -12,7 +11,8 @@ aliases:
   - "ethylene gas"
   - "fruit ripening hormone"
 summary: This page contains notes on ethylene production and a link to a nano banana image gallery.
-updated: 2026-05-01
+updated: 2026-05-23
+group: food-science-nutrition-ingredients
 ---
 # Ethylene Production
 
@@ -24,4 +24,4 @@ In bananas, ethylene production increases significantly as the fruit matures, in
 
 ## Commercial Applications
 
-The ability to control ethylene [[concepts/exposure|exposure]] allows producers to manage ripening timing across large shipments and retail environments. Ethylene generators are commonly used in ripening rooms to accelerate the process deliberately, while ethylene absorbers or controlled-atmosphere storage can slow ripening to extend shelf life. This control is essential for global banana [[concepts/distribution|distribution]], where fruits are typically harvested green and ripened near their point of sale.
+The ability to [[concepts/power|control]] ethylene [[concepts/exposure|exposure]] allows producers to manage ripening timing across large shipments and retail environments. Ethylene generators are commonly used in ripening rooms to accelerate the process deliberately, while ethylene absorbers or controlled-atmosphere storage can slow ripening to extend shelf life. This control is essential for global banana [[concepts/distribution|distribution]], where fruits are typically harvested green and ripened near their point of sale.

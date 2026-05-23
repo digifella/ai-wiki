@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "asset-management"
   - "digital-assets"
@@ -12,15 +11,16 @@ aliases:
   - "asset management"
   - "digital asset management"
 summary: The practice of organizing, tracking, and managing organizational assets and resources throughout their lifecycle.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Asset Management
 
-Asset management is the organizational practice of systematically tracking, maintaining, and optimizing resources throughout their lifecycle. It involves acquiring, deploying, maintaining, renewing, and eventually disposing of assets in ways that maximize their value to the [[concepts/organization|organization]]. The discipline emerged from necessity in large organizations managing complex inventories of physical property, equipment, and infrastructure, and has expanded to encompass digital assets, financial instruments, and human capital. Effective asset management requires comprehensive visibility into what assets exist, where they are located, their current condition, and their performance metrics.
+Asset management is the organizational practice of systematically tracking, maintaining, and optimizing resources throughout their lifecycle. It involves acquiring, deploying, maintaining, renewing, and eventually disposing of assets in ways that maximize their value to the [[concepts/organization|organization]]. The discipline emerged from necessity in large organizations managing complex inventories of physical property, equipment, and infrastructure, and has expanded to encompass digital assets, financial instruments, and human capital. Effective asset management requires comprehensive visibility into what assets exist, where they are located, their current condition, and their [[concepts/performance-data-gathering|performance metrics]].
 
 ## Types of Assets
 
-Organizations manage diverse asset categories, each requiring tailored approaches. Physical assets include buildings, machinery, vehicles, and facilities infrastructure. Digital assets comprise [[concepts/software|software]] licenses, proprietary data, databases, and intellectual property. Financial assets encompass investments, cash reserves, and receivables. Human resources, increasingly recognized as critical organizational assets, require distinct management practices focused on development and retention. Different asset types may fall under separate management systems, though integrated approaches provide better overall organizational visibility.
+Organizations manage diverse asset categories, each requiring tailored approaches. Physical assets include buildings, machinery, vehicles, and facilities infrastructure. Digital assets comprise [[concepts/software|software]] licenses, proprietary data, databases, and [[concepts/intellectual-property-rights|intellectual property]]. Financial assets encompass investments, cash reserves, and receivables. Human resources, increasingly recognized as critical organizational assets, require distinct management practices focused on development and retention. Different asset types may fall under separate management systems, though integrated approaches provide better overall organizational visibility.
 
 ## Core Functions
 
@@ -28,8 +28,7 @@ Asset management involves several interconnected functions. Inventory and tracki
 
 ## Organizational Impact
 
-Proper asset management reduces operational costs by preventing unexpected failures, extending asset lifespans, and eliminating redundant purchases. It improves decision-making by providing data on which assets perform well and which drain resources. Organizations gain agility in responding to business changes when they understand their resource base thoroughly. Conversely, poor asset management leads to underutilized resources, unexpected downtime, budget overruns, and missed opportunities for optimization.
-
+Proper asset management reduces operational costs by preventing unexpected failures, extending asset lifespans, and eliminating redundant purchases. It improves [[concepts/decision-making|decision-making]] by providing data on which assets perform well and which drain resources. Organizations gain agility in responding to business changes when they understand their resource base thoroughly. Conversely, poor asset management leads to underutilized resources, unexpected downtime, budget overruns, and missed opportunities for optimization.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-NotebookLM-Mind-Map-to-Interactive-HTML-Site-with-Gemini-AI|NotebookLM Mind Map to Interactive HTML Site with Gemini AI]] · [▶ source](https://www.youtube.com/watch?v=3tPzeQX0KVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Evernote-New-Pricing-Structure-User-Reactions-and-Migration-Guidance|Evernote New Pricing Structure User Reactions and Migration Guidance]] · [▶ source](https://www.youtube.com/watch?v=D04Z5s16QnE)

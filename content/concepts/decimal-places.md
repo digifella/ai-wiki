@@ -1,17 +1,12 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "math"
-  - "pi"
-  - "precision"
-  - "computation"
-updated: 2026-04-14
+updated: 2026-05-23
 group: number-theory-prime-numbers
 ---
 # Decimal Places
 
-Decimal places refer to the positions of digits after the decimal point in a number. They are crucial for representing fractional values accurately and are essential in fields such as [[concepts/mathematics|mathematics]], [[concepts/physics|physics]], and engineering.
+Decimal [[entities/places|places]] refer to the positions of digits after the decimal point in a number. They are crucial for representing fractional values accurately and are essential in fields such as [[concepts/mathematics|mathematics]], [[concepts/physics|physics]], and engineering.
 
 ### Key Points:
 - Each position to the right of the decimal point represents a tenth, hundredth, thousandth, etc., of a whole unit.
@@ -31,7 +26,6 @@ Decimal places refer to the positions of digits after the decimal point in a num
 
 ### Backlinks
 2026 04 13 Pi 39 Digits for Universe Measurement Trillions for Computational Test
-
 ## Source Notes
 - 2026-04-13: Pi and the size of the Universe - [[entities/numberphile|Numberphile]]
 - 2026-04-10: [[lab-notes/2026-04-10-String-Theorys-New-Pi-Series-Historical-Development-and-True-Significa|String Theorys New Pi Series Historical Development and True Significa]] · [▶ source](https://www.youtube.com/watch?v=nXexsSWrc1Q)

@@ -1,33 +1,24 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "color-space"
-  - "photography"
-  - "print"
-  - "Adobe"
-  - "wide-gamut"
-  - "color-management"
-  - "16-bit"
-  - "print-production"
-summary: "Adobe RGB is a wide-gamut color space developed by Adobe Systems designed to encompass more colors than sRGB, particularly in cyan-green and orange-red hues, and is preferred for professional print production and high-en"
-updated: 2026-04-15
+summary: Adobe RGB is a wide-gamut color space developed by Adobe Systems designed to encompass more colors than sRGB, particularly in cyan-green and orange-red hues, and is preferred for professional print production and high-en
+updated: 2026-05-23
 group: design-systems-ui-infographics
 ---
 # Adobe RGB
 
-A wide-gamut color space developed by Adobe Systems, designed to encompass more colors than sRGB—particularly in cyan-green and orange-red hues. Preferred for professional print production and high-end photography due to its expanded color range.
+A wide-gamut color space developed by [[entities/adobe|Adobe]] Systems, designed to encompass more colors than sRGB—particularly in cyan-green and orange-red hues. Preferred for professional print production and high-end photography due to its expanded color [[concepts/range|range]].
 
 ## Key Characteristics
 - **Gamut**: Covers ~50% of visible colors (vs. ~35% for sRGB)
-- **[[concepts/scenarios|Use Cases]]**: Professional printing, fine art photography, color-critical workflows
+- **[[concepts/scenarios|Use Cases]]**: Professional printing, fine [[concepts/art|art]] photography, color-critical workflows
 - **Limitations**: Not ideal for web/digital displays (sRGB is standard)
 - **Bit Depth**: Typically used with **16-bit** for maximum color fidelity
 
 ## Workflow Integration (from Julianne Kost Compositing in Photoshop)
-- **Document [[concepts/setup|Setup]]**: Create new document at **20x20 inches**, **300 ppi**, **16-bit**, **Adobe RGB** color space
-- **Image Import**: Source [[concepts/images|images]] via **Edit in Photoshop** from [[entities/adobe-lightroom]] Classic
-- **Compositing Workflow**: Combines traditional Photoshop tools with AI-powered features (as demonstrated in [[entities/julianne-kost|Julianne Kost]] Compositing in Photoshop)
+- **Document [[concepts/setup|Setup]]**: Create new document [[concepts/assistive-technology|at]] **20x20 inches**, **300 [[concepts/pixels-per-inch|ppi]]**, **16-bit**, **[[entities/adobe-rgb|Adobe RGB]]** color space
+- **Image Import**: Source [[concepts/images|images]] via **Edit in [[concepts/photoshop|Photoshop]]** from [[entities/adobe-lightroom]] Classic
+- **Compositing [[concepts/workflow|Workflow]]**: Combines traditional Photoshop tools with AI-powered features (as demonstrated in [[entities/julianne-kost|Julianne Kost]] Compositing in Photoshop)
 
 ## Cross-References
 - sRGB (standard for digital displays)
@@ -36,7 +27,6 @@ A wide-gamut color space developed by Adobe Systems, designed to encompass more 
 - Print Production (primary application context)
 
 2026 04 14 Julianne Kost Compositing in Photoshop
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

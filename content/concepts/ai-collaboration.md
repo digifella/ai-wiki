@@ -1,11 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "collaboration"
-  - "skills"
-updated: 2026-04-14
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # AI Collaboration
@@ -29,8 +25,7 @@ AI Collaboration is the practice of effectively partnering with AI systems to cr
 - AI Collaboration [[entities/prompt-engineering]]
 
 ## Backlinks
-- 2026 04 14 AI framework skills Jeff Su Channel
-
+- 2026 04 14 AI framework [[concepts/skills|skills]] Jeff Su Channel
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Project-Glasswing-AIs-Dual-Role-in-Software-Cybersecurity|Anthropics Project Glasswing AIs Dual Role in Software Cybersecurity]] · [▶ source](https://www.youtube.com/watch?v=INGOC6-LLv0)

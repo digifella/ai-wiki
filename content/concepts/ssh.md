@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "ssh"
-  - "security"
-  - "wsl"
-  - "openssh"
-  - "ssh-protocol"
-  - "network-security"
-  - "remote-access"
-  - "server-configuration"
-  - "cryptographic-protocol"
-aliases:
-  - "Secure Shell"
-summary: "SSH is a cryptographic network protocol used for secure remote login, command execution, and file transfers."
-updated: 2026-04-16
+summary: SSH is a cryptographic network protocol used for secure remote login, command execution, and file transfers.
+updated: 2026-05-23
 group: deployment-docker-services
 ---
 # SSH
@@ -24,7 +12,7 @@ group: deployment-docker-services
 ## Installation
 - **[[entities/windows|Windows]]**: Install [[entities/openssh|OpenSSH]] server via PowerShell (Admin):
   `Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0`
-- **Linux**: `sudo apt install openssh-server` (Debian/[[entities/ubuntu|Ubuntu]])
+- **[[entities/linux|Linux]]**: `sudo apt install openssh-server` (Debian/[[entities/ubuntu|Ubuntu]])
 
 ## Configuration
 - **[[entities/windows|Windows]] ([[entities/wsl|WSL]])**:
@@ -36,7 +24,7 @@ group: deployment-docker-services
 
 ## Key Management
 - Generate keys: `ssh-keygen -t ed25519`
-- Distribute public keys to `authorized_keys` files on target servers
+- Distribute public keys to `authorized_keys` [[concepts/files|files]] on target servers
 - Always use key-based [[concepts/authentication|authentication]] instead of passwords
 
 ## Security

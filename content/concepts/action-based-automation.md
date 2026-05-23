@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "automation"
-  - "AI"
-  - "event-driven"
-  - "productivity"
-  - "event-driven-automation"
-  - "reactive-workflows"
-  - "ai-automation"
-  - "business-event-response"
-  - "state-change-triggers"
-aliases:
-  - "Reactive Automation"
-  - "Event-driven Execution"
-summary: "A paradigm shift in automation moving from temporal or scheduled triggers to reactive, event-driven execution based on specific occurrences or state changes."
-updated: 2026-04-26
+summary: A paradigm shift in automation moving from temporal or scheduled triggers to reactive, event-driven execution based on specific occurrences or state changes.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Action-based automation
@@ -32,7 +19,6 @@ A paradigm shift in [[concepts/ai-automation]] moving from temporal/scheduled tr
 ---
 **Backlinks:**
 - 2026 04 23 [[concepts/claude-ai|Claude]] Routines Action Based [[concepts/ai-automation-agents|AI Automation]] for [[concepts/business-event-response|Business Event Response]]
-
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)

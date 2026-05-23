@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "personal-ai"
   - "infrastructure"
@@ -13,20 +12,20 @@ aliases:
   - "Kai"
   - "Personal Claude Infrastructure"
 summary: A summary of Daniel Miessler's presentation regarding Personal AI Infrastructure, also referred to as Kai.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Personal AI Infrastructure
 
-[[concepts/aimm-ai-maturity-model|Personal AI Infrastructure]], also referred to as Kai, is a concept presented by [[entities/daniel-miessler|Daniel Miessler]] that addresses the [[concepts/architecture|architecture]] and tools needed to implement AI systems at an individual level. The framework focuses on creating personal AI scaffolding that leverages [[concepts/large-language-model-llm|large language models]] like [[concepts/claude-ai|Claude]] in ways tailored to individual workflows and needs, rather than relying solely on centralized commercial AI services.
+[[concepts/aimm-ai-maturity-model|Personal AI Infrastructure]], also referred to as [[concepts/kai|Kai]], is a concept presented by [[entities/daniel-miessler|Daniel Miessler]] that addresses the [[concepts/architecture|architecture]] and tools needed to implement AI systems [[concepts/assistive-technology|at]] an individual level. The framework focuses on creating personal AI scaffolding that leverages [[concepts/large-language-model-llm|large language models]] like [[concepts/claude-ai|Claude]] in ways tailored to individual workflows and needs, rather than relying solely on centralized commercial AI services.
 
 ## Core Principles
 
-The infrastructure emphasizes ownership and control over one's [[entities/ai-tools|AI tools]] and data. Rather than depending on external platforms, the model proposes building personal systems where users can integrate [[concepts/capabilities|AI capabilities]] into their existing processes. This approach aims to make AI more accessible and customizable for individual users while maintaining [[concepts/privacy|privacy]] and autonomy over how AI systems are deployed and what data they interact with.
+The infrastructure emphasizes ownership and [[concepts/power|control]] over one's [[entities/ai-tools|AI tools]] and data. Rather than depending on external platforms, the model proposes building personal systems where users can integrate [[concepts/capabilities|AI capabilities]] into their existing processes. This approach aims to [[entities/make|make]] AI more accessible and customizable for individual users while maintaining [[concepts/privacy|privacy]] and autonomy over how AI systems are deployed and what data they interact with.
 
 ## Implementation Context
 
-The concept emerged from discussions about [[concepts/unsupervised-learning|unsupervised learning]] and practical [[concepts/software|applications]] of [[concepts/ai-models|AI models]] in personal productivity. The framework considers how individuals can scaffold AI tools—including personal instances of models like Claude—to handle specific tasks and workflows. This represents a shift from treating AI as a service to treating it as infrastructure that individuals can build, maintain, and optimize for their particular contexts.
-
+The concept emerged from discussions about [[concepts/unsupervised-learning|unsupervised learning]] and practical [[concepts/software|applications]] of [[concepts/ai-models|AI models]] in personal productivity. The framework considers how individuals can scaffold [[concepts/ai-tools|AI tools]]—including personal instances of [[concepts/models|models]] like [[concepts/claude|Claude]]—to handle specific tasks and workflows. This represents a shift from treating AI as a service to treating it as infrastructure that individuals can build, maintain, and optimize for their particular contexts.
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

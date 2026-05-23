@@ -1,19 +1,8 @@
 ---
 type: entity
-tags:
-  - "tool"
-  - "ai"
-  - "file-search"
-  - "rag"
-  - "agentic"
-  - "agentic-file-search"
-  - "open-source"
-  - "file-system-navigation"
-  - "unstructured-data"
-aliases:
-  - "fs-explorer"
-summary: "An open-source tool that uses agentic exploration to navigate file systems and retrieve information, providing an alternative to traditional RAG-based semantic similarity search."
-updated: 2026-04-20
+summary: An open-source tool that uses agentic exploration to navigate file systems and retrieve information, providing an alternative to traditional RAG-based semantic similarity search.
+updated: 2026-05-23
+stub: true
 ---
 # fs-explorer
 
@@ -36,12 +25,12 @@ updated: 2026-04-20
 
 ## Key Links
 - [Video demonstration](https://www.youtube.com/watch?v=xG3eS_zHR3k)
-- [[concepts/rag]] (Retrieval-Augmented Generation context)
+- [[concepts/rag]] ([[concepts/answer-generation|Retrieval-Augmented Generation]] context)
 - [[concepts/agentic-ai]] (underlying methodology)
 
 [[concepts/date-2026-04-13|2026]] 04 14 Enhanced rag Channel [[concepts/prompt-engineering|Prompt Engineering]]
 
-- 2026-04-07 [2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai Context Beyond Rag Limitations With Map First Architectu
-- 2026-04-08 [2026-04-08-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-08-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai Context Beyond Rag Limitations With Map First Architectu
+- 2026-04-07 [2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-07-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← [[concepts/hierarchical-ai-context|Structured Ai Context]] Beyond Rag Limitations With Map First Architectu
+- 2026-04-08 [2026-04-08-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-08-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai [[concepts/context-provisioning|Context Beyond Rag]] Limitations With Map First Architectu
 - 2026-04-10 [2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu](2026-04-10-Structured-AI-Context-Beyond-RAG-Limitations-with-Map-First-Architectu.md) ← Structured Ai Context Beyond Rag Limitations With Map First Architectu
 ## Source Notes

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: coding-agents-dev-workflows
+domain: ux-design
 tags:
   - "ai-design-tools"
   - "ui-design"
@@ -12,15 +11,16 @@ aliases:
   - "AI Design Tools"
   - "SuperDesign and Memories.ai"
 summary: The text introduces AI tools SuperDesign, an AI design agent, and Memories.ai, a platform for working with video content.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-components
 ---
 # Front End Components
 
-Front end components refer to the user-facing elements and tools that enable interaction with AI systems in design and media workflows. These components serve as the interface layer between users and underlying [[concepts/capabilities|AI capabilities]], making complex AI operations accessible to designers, developers, and content creators.
+Front end components refer to the user-facing elements and tools that enable interaction with AI systems in [[concepts/design|design]] and media workflows. These components serve as the interface layer between users and underlying [[concepts/capabilities|AI capabilities]], making complex AI operations accessible to designers, developers, and content creators.
 
 ## AI Design Tools
 
-[[concepts/ai-design-agents|SuperDesign]] represents one category of front end component—an [[concepts/google-stitch-20|AI design agent]] built specifically for developers and designers. As an [[concepts/open-source|open-source]] design UI plugin integrated into integrated [[concepts/developer-platforms|development environments]] (IDEs), it enables users to generate and modify design elements directly within their development workflow, reducing [[concepts/friction|friction]] between design and implementation phases.
+[[concepts/ai-design-agents|SuperDesign]] represents one category of front end component—an [[concepts/google-stitch-20|AI design agent]] built specifically for developers and designers. As an [[concepts/open-source|open-source]] design UI plugin integrated into integrated [[concepts/developer-platforms|development environments]] (IDEs), it enables users to generate and modify design elements directly within their development [[concepts/workflow|workflow]], reducing [[concepts/friction|friction]] between design and [[concepts/adoption|implementation]] phases.
 
 ## Video Content Platforms
 

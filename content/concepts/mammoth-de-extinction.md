@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "concept"
   - "de-extinction"
@@ -13,12 +12,13 @@ tags:
 aliases:
   - "woolly mammoth resurrection"
   - "mammoth cloning"
-summary: "Scientific research into de-extinction of mammoths through cloning techniques, with documented studies examining genetic viability."
-updated: 2026-05-01
+summary: Scientific research into de-extinction of mammoths through cloning techniques, with documented studies examining genetic viability.
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Mammoth De Extinction
 
-Mammoth [[concepts/de-extinction|de-extinction]] is a scientific research area focused on resurrecting the [[concepts/mammoths|woolly mammoth]] (*Mammuthus primigenius*), an extinct megafauna species that disappeared approximately 4,000 years ago. The primary approach involves extracting ancient DNA from preserved mammoth remains and using genetic engineering and [[concepts/cloning|cloning]] techniques to recreate living specimens. Proponents argue that mammoth restoration could contribute to ecosystem restoration in Arctic regions and advance genetic science.
+Mammoth [[concepts/de-extinction|de-extinction]] is a scientific research area focused on resurrecting the [[concepts/mammoths|woolly mammoth]] (*Mammuthus primigenius*), an extinct megafauna species that disappeared approximately 4,000 years ago. The primary approach involves extracting ancient DNA from preserved mammoth remains and using genetic engineering and [[concepts/cloning|cloning]] techniques to recreate living specimens. Proponents argue that mammoth restoration could contribute to ecosystem restoration in Arctic regions and advance genetic [[concepts/science|science]].
 
 ## Genetic Viability Challenges
 
@@ -26,7 +26,6 @@ Research into mammoth cloning has revealed significant obstacles to successful d
 
 ## Current Research Status
 
-Several organizations, including Colossal Biosciences, have announced projects aimed at mammoth de-extinction through genetic engineering of elephant embryos. However, no functional mammoth clones have been produced to date. The technical challenges remain substantial, encompassing not only the genetic engineering itself but also the need for viable surrogate animals and solutions to developmental complications inherent in creating hybrids between extinct and extant species.
-
+Several organizations, including Colossal Biosciences, have announced projects aimed [[concepts/assistive-technology|at]] mammoth de-extinction through genetic engineering of elephant embryos. However, no functional mammoth clones have been produced to date. The technical challenges remain substantial, encompassing not only the genetic engineering itself but also the need for viable surrogate animals and solutions to developmental complications inherent in creating hybrids between extinct and extant species.
 ## Source Notes
 - 2026-04-10: [[lab-notes/2026-04-10-Japanese-20-Year-Mammalian-Serial-Cloning-Study-A-Genetic-Dead-End|Japanese 20 Year Mammalian Serial Cloning Study A Genetic Dead End]] · [▶ source](https://www.youtube.com/watch?v=m_WhG8yeH0E)

@@ -10,7 +10,7 @@ aliases:
   - "Asana Resources"
   - "Project Management Frameworks"
 summary: Asana provides resources and guides regarding various project management methodologies and frameworks.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Asana
 
@@ -23,6 +23,5 @@ The platform offers project management tools that enable teams to [[concepts/str
 ## Educational Resources
 
 Beyond its [[concepts/software|software]] platform, Asana publishes guides and articles examining different project management approaches and their applications. These resources serve both users of the platform and the broader project management community seeking to understand and implement various methodologies in their organizations.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-a-Secure-Personalized-AI-Second-Brain-using-Claude-Code|Building a Secure Personalized AI Second Brain using Claude Code]] · [▶ source](https://www.youtube.com/watch?v=1FiER-40zng)

@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "cognitive-science"
-  - "consciousness"
-  - "evolutionary-biology"
-  - "evolutionary-psychology"
-  - "neurobiology"
-  - "subjective-experience"
-  - "animal-cognition"
-aliases:
-  - "human-animal cognitive divergence"
-  - "evolutionary mental landscapes"
-summary: "This concept explores the evolutionary divergence in the complexity and depth of the internal mental landscapes between humans and other animals."
-updated: 2026-04-26
+summary: This concept explores the evolutionary divergence in the complexity and depth of the internal mental landscapes between humans and other animals.
+updated: 2026-05-23
 group: animals-cognition-behaviour
+stub: true
 ---
 # Human-animal cognitive differences
 
@@ -24,12 +14,11 @@ group: animals-cognition-behaviour
 
 ## Related Concepts
 - Consciousness
-- Evolutionary Psychology
+- Evolutionary [[concepts/psychology|Psychology]]
 - Neurobiology
 - Subjective Experience
 
 ## Sources
 - 2026 04 22 The Minds Evolution [[concepts/inner-space|Inner Space]] Consciousness and Human Animal Differences
-
 ## Source Notes
 - 2026-04-22: [[lab-notes/2026-04-22-The-Minds-Evolution-Inner-Space-Consciousness-and-Human-Animal-Differences|The Mind's Evolution: Inner Space, Consciousness, and Human-Animal Differences]] · [▶ source](https://www.youtube.com/watch?v=dl0-TveDDGA)

@@ -12,8 +12,8 @@ tags:
 aliases:
   - "Web Development"
   - "Web Site Creation"
-summary: "The discipline of designing, constructing, and publishing web pages via the internet using traditional coding, no-code platforms, and AI-driven development workflows."
-updated: 2026-04-28
+summary: The discipline of designing, constructing, and publishing web pages via the internet using traditional coding, no-code platforms, and AI-driven development workflows.
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # Website Building
@@ -30,7 +30,7 @@ Recent advancements enable rapid creation of high-fidelity sites without traditi
 - **[[concepts/workflow|Workflow]]:** [[concepts/claude-code|Claude Code]] & [[concepts/nano-banana-2|Nano Banana 2]] [[concepts/integration|integration]]
 - **[[concepts/capabilities|Capabilities]]:** Generates aesthetically pleasing, responsive, and SEO-optimized websites
 - **[[concepts/accessibility|Accessibility]]:** Designed for individuals with no prior coding experience
-- **Economic Impact:** Demonstrated potential for generating high-value assets (e.g., $10,000 websites)
+- **[[concepts/economic-impact|Economic Impact]]:** Demonstrated potential for generating high-value assets (e.g., $10,000 websites)
 
 ## Case Studies & Resources
 - **Presenter:** [[entities/jack-roberts|Jack Roberts]]
@@ -39,7 +39,6 @@ Recent advancements enable rapid creation of high-fidelity sites without traditi
 
 ## Backlinks
 - 2026 04 14 [[concepts/ai-assisted-coding|Claude Code]] and [[concepts/camera-angle-control|nano Banana 2]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-10: Full Guide - Build Your Own AI Second Brain with [[entities/claude-code|Claude Code]]

@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-tags:
-  - "climate adaptation"
-  - "geology"
-  - "sustainability"
-  - "desert living"
-  - "underground architecture"
-  - "climate-change-adaptation"
-  - "sustainable-practices"
-  - "subterranean-living"
-  - "desert-environment"
-  - "ecological-resilience"
-aliases:
-  - "climate adaptation strategies"
-  - "environmental resilience"
-  - "adapting to climate change"
-  - "sustainability practices"
-summary: "Climate adaptation involves adjustments in natural and human systems to cope with adverse effects of climate change, including changes in ecological strategies, societal practices, and infrastructure designs."
-updated: 2026-04-12
+summary: Climate adaptation involves adjustments in natural and human systems to cope with adverse effects of climate change, including changes in ecological strategies, societal practices, and infrastructure designs.
+updated: 2026-05-23
 group: climate-environment-surface-systems
 ---
 # Climate Adaptation
@@ -33,7 +17,7 @@ Climate adaptation refers to the process of adjustment in natural or human syste
 
 ## Examples and Case Studies
 - [[entities/coober-pedy|Coober Pedy]] [[concepts/subterranean-living|Subterranean Living]] in Australias Desert Driven by Climate and [[concepts/geology|Geology]]
-- Other relevant examples include the use of renewable energy sources, implementation of green roofs and walls, and development of drought-resistant crops.
+- Other relevant examples include the use of renewable energy sources, [[concepts/adoption|implementation]] of green roofs and walls, and development of drought-resistant crops.
 - Communities adapting agricultural practices to cope with [[concepts/water-scarcity|water scarcity]] or changing [[concepts/precipitation-patterns|precipitation patterns]].
 
 ## Related Concepts
@@ -43,6 +27,5 @@ Climate adaptation refers to the process of adjustment in natural or human syste
 
 ## References
 2026 04 11 [[entities/coober-pedy|Coober Pedy]] [[concepts/subterranean-living|Subterranean Living]] in Australias Desert Driven by Climate
-
 ## Source Notes
 - 2026-04-11: An Entire Town Built Beneath the Australian Desert

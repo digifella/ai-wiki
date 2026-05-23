@@ -1,27 +1,17 @@
 ---
 type: entity
-tags:
-  - "stephen-scott-cowan"
-  - "five-elements-theory"
-  - "personality-dynamics"
-  - "traditional-chinese-medicine"
-  - "influence-strategies"
-aliases:
-  - "Dr Stephen Cowan"
-  - "Dr Scott Cowan"
-  - "Fire Child Water Child author"
-summary: "Dr. Stephen Scott Cowan is a psychologist and author known for applying traditional Chinese medicine's Five Elements theory to personality dynamics."
-updated: 2026-04-12
+summary: Dr. Stephen Scott Cowan is a psychologist and author known for applying traditional Chinese medicine's Five Elements theory to personality dynamics.
+updated: 2026-05-23
 ---
 - personality types
-- influence strategies
+- [[concepts/power|influence]] strategies
 - Dr. [[concepts/stephen-scott-cowan|Stephen Scott Cowan]]
 - [[entities/tony-robbins|Tony Robbins]]
 
 ## Dr. Stephen Scott Cowan
 
 ### Overview
-Dr. Stephen Scott Cowan is a renowned psychologist and author known for his work in understanding personality dynamics, particularly through the lens of [[concepts/chinese-medicine|traditional Chinese medicine]] theories. His seminal work, "Fire Child, Water Child," explores how elemental energies (Wood, Fire, Earth, Gold/Metal, Water) influence human behavior and development.
+Dr. [[entities/stephen-scott-cowan|Stephen Scott Cowan]] is a renowned psychologist and author known for his work in understanding personality dynamics, particularly through the lens of [[concepts/chinese-medicine|traditional Chinese medicine]] theories. His seminal work, "[[entities/fire-child|Fire Child]], [[entities/water-child|Water Child]]," explores how elemental energies (Wood, Fire, Earth, Gold/Metal, Water) influence human behavior and development.
 
 ### Notable Works
 - **"Fire Child, Water Child":** A groundbreaking book that delves into the application of the [[concepts/five-elements-theory|Five Elements theory]] to personality types and [[concepts/relationships|relationships]].
@@ -49,6 +39,6 @@ Dr. Stephen Scott Cowan is a renowned psychologist and author known for his work
 2026 04 11 Tony Robbins Five Elements Understanding Personalities to Enhance Infl
 
 - 2026-04-11 [2026-04-11-Tony-Robbins-Five-Elements-Understanding-Personalities-to-Enhance-Infl](2026-04-11-Tony-Robbins-Five-Elements-Understanding-Personalities-to-Enhance-Infl.md) ← Tony Robbins Five Elements Understanding Personalities To Enhance Infl
-- 2026-04-10 [2026-04-10-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain](2026-04-10-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain.md) ← Joe Risser Mental Toughness Bdnf And Resilience For Chronic Pain
-- 2026-04-07 [2026-04-07-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain](2026-04-07-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain.md) ← Joe Risser Mental Toughness Bdnf And Resilience For Chronic Pain
+- 2026-04-10 [2026-04-10-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain](2026-04-10-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain.md) ← [[entities/joe-risser|Joe Risser]] [[concepts/mental-toughness|Mental Toughness]] [[concepts/bdnf|Bdnf]] And [[concepts/resilience|Resilience]] For [[concepts/chronic-pain|Chronic Pain]]
+- 2026-04-07 [2026-04-07-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain](2026-04-07-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain.md) ← [[entities/joe-risser|Joe Risser]] [[concepts/mental-toughness|Mental Toughness]] [[concepts/bdnf|Bdnf]] And [[concepts/resilience|Resilience]] For [[concepts/chronic-pain|Chronic Pain]]
 ## Source Notes

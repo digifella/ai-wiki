@@ -10,9 +10,10 @@ tags:
   - "mobile-ui"
 aliases:
   - "application drawer"
-summary: "An Android user interface element that organizes and provides access to installed applications."
-updated: 2026-04-28
+summary: An Android user interface element that organizes and provides access to installed applications.
+updated: 2026-05-23
 group: app-builders-no-code-tools
+stub: true
 ---
 # App Drawer
 
@@ -30,7 +31,7 @@ A [[concepts/user-interface|user interface]] element in [[entities/android]] tha
 
 ## Recent Updates
 - **[[entities/android-16|Android 16]] (2026-04-14):** 2026 04 14 [[entities/android-16|Android 16]] review
-  - **Lock Screen & [[concepts/always-on-display|Always-On Display]] (AOD):** The AOD clock now dynamically matches the wallpaper's color palette.
+  - **Lock Screen & [[concepts/always-on-display|Always-On Display]] ([[concepts/always-on-display|AOD]]):** The AOD clock now dynamically matches the wallpaper's color palette.
   - **Home Screen:** New [[concepts/design]] tweaks and features introduced.
 
 ## Backlinks

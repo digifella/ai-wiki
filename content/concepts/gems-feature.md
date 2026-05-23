@@ -1,19 +1,10 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "gem"
-  - "gemini"
-  - "ai"
-  - "feature"
-  - "task-specific-automation"
-  - "specialized-ai-assistant"
-  - "time-saving"
-  - "cognitive-load-reduction"
-  - "ai-assistant-creation"
-summary: "The Gems Feature is a Gemini feature enabling task-specific automation through specialized AI assistant creation beyond basic chat interactions."
-updated: 2026-04-15
+summary: The Gems Feature is a Gemini feature enabling task-specific automation through specialized AI assistant creation beyond basic chat interactions.
+updated: 2026-05-23
 group: app-builders-no-code-tools
+stub: true
 ---
 # Gems Feature
 
@@ -28,7 +19,6 @@ Specialized [[concepts/ai-assistant|AI assistant]] creation feature in [[entitie
 - Reduced cognitive load through specialized [[concepts/automation|automation]]
 
 2026 04 14 [[concepts/custom-ai-assistants|Gemini Gems]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-Gemini-and-NotebookLM-Key-Updates-and-Enhanced-AI-Integration|Google Gemini and NotebookLM Key Updates and Enhanced AI Integration]] · [▶ source](https://www.youtube.com/watch?v=6YWPGjqOEmk)
 - 2026-04-21: [[lab-notes/2026-04-21-Automating-Travel-Itineraries-with-AI-and-Google-My-Maps|Automating Travel Itineraries with AI and Google My Maps]] · [▶ source](https://www.youtube.com/watch?v=fI8ygOauNNA)

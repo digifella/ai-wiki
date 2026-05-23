@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "nitrogen-cycle"
   - "biogeochemistry"
@@ -12,7 +11,8 @@ aliases:
   - "N fixation"
   - "nitrogen cycling"
 summary: The Biosphere 2 experiment changed the understanding of the Earth, as discussed in relation to nitrogen fixation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Nitrogen Fixation
 
@@ -24,9 +24,9 @@ Nitrogen fixation is particularly important in [[concepts/agriculture|agricultur
 
 ## Relevance to Biosphere 2
 
-The [[concepts/controlled-climate-experiment|Biosphere 2 experiment]], a closed ecological system constructed in Arizona in the late 1980s, revealed unexpected complexities in nitrogen cycling. The experiment demonstrated that maintaining proper nitrogen fixation rates within a sealed environment was far more challenging than anticipated, highlighting how dependent terrestrial ecosystems are on these microbial processes. Observations from Biosphere 2 contributed to a deeper understanding of how critical nitrogen-fixing organisms are to planetary life support systems.
+The [[concepts/controlled-climate-experiment|Biosphere 2 experiment]], a closed ecological system constructed in Arizona in the late 1980s, revealed unexpected complexities in nitrogen cycling. The experiment demonstrated that maintaining proper nitrogen fixation rates within a sealed environment was far more challenging than anticipated, highlighting how dependent terrestrial ecosystems are on these microbial processes. Observations from [[concepts/closed-ecosystem|Biosphere 2]] contributed to a deeper understanding of how critical nitrogen-fixing organisms are to planetary life support systems.
 
-- 2026-04-10 [2026-04-10-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats](2026-04-10-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats.md) ← Mars Life The Paradox Of Deadly Soil And Hidden Habitats
+- 2026-04-10 [2026-04-10-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats](2026-04-10-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats.md) ← [[concepts/mars-life|Mars Life]] The Paradox Of Deadly Soil And [[concepts/hidden-habitats|Hidden Habitats]]
 - 2026-04-08 [2026-04-08-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats](2026-04-08-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats.md) ← Mars Life The Paradox Of Deadly Soil And Hidden Habitats
 - 2026-04-07 [2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats](2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats.md) ← Mars Life The Paradox Of Deadly Soil And Hidden Habitats
 ## Source Notes

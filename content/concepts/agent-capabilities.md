@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "concept"
   - "ai-agents"
@@ -12,11 +11,12 @@ aliases:
   - "agent-skills"
   - "llm-capabilities"
 summary: MiniMax M2.7 is an open-source large language model that rivals Claude Opus 4.6 in agent capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Agent Capabilities
 
-Agent capabilities refer to the functional abilities of [[concepts/agentic-ai|AI agents]] to perform autonomous tasks, make decisions, and interact with external systems. These capabilities form the foundation of practical [[concepts/ai-agent-implementation|AI agent deployment]] and determine what workflows and problems an agent can effectively handle.
+[[concepts/claude-code-agent-skills|Agent capabilities]] refer to the functional abilities of [[concepts/agentic-ai|AI agents]] to perform autonomous tasks, [[entities/make|make]] decisions, and interact with external systems. These capabilities form the foundation of practical [[concepts/ai-agent-implementation|AI agent deployment]] and determine what workflows and problems an agent can effectively handle.
 
 ## Core Capabilities
 
@@ -24,12 +24,11 @@ Essential agent capabilities typically include [[concepts/reasoning|reasoning]],
 
 ## Performance and Open-Source Models
 
-The capability landscape has evolved significantly with advances in [[concepts/large-language-model|large language model]] design. Models like [[entities/m27|MiniMax M2.7]] have demonstrated competitive agent performance compared to closed-source alternatives, with particular strength in reasoning and [[concepts/tool-use-automation|tool-use]] [[concepts/scenarios|scenarios]]. The emergence of capable open-source models has expanded access to [[concepts/agent-development|agent development]] and reduced dependency on proprietary systems.
+The capability landscape has evolved significantly with advances in [[concepts/large-language-model|large language model]] [[concepts/design|design]]. [[concepts/models|Models]] like [[entities/m27|MiniMax M2.7]] have demonstrated competitive agent performance compared to closed-source alternatives, with particular strength in reasoning and [[concepts/tool-use-automation|tool-use]] [[concepts/scenarios|scenarios]]. The emergence of capable [[concepts/reasoning-models|open-source models]] has expanded access to [[concepts/agent-development|agent development]] and reduced dependency on proprietary systems.
 
 ## Practical Limitations
 
-Despite advances, agent capabilities remain bounded by underlying model limitations. Current agents struggle with long-horizon planning, maintaining [[concepts/logical-consistency|consistency]] across extended interactions, and handling genuinely novel situations. Real-world [[concepts/deployment|deployment]] requires careful consideration of which capabilities a specific agent actually needs versus which are theoretically desirable.
-
+Despite advances, agent capabilities remain bounded by underlying model limitations. Current agents struggle with long-horizon planning, maintaining [[concepts/logical-consistency|consistency]] across extended interactions, and handling genuinely novel situations. Real-world [[concepts/deployment|deployment]] requires careful consideration of which capabilities a specific agent actually needs versus which are [[entities/theoretically-media|theoretically]] desirable.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

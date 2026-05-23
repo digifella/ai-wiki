@@ -1,23 +1,8 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "cloning"
-  - "serial-cloning"
-  - "mammalian-cloning"
-  - "genetic-limitations"
-  - "nature-communications"
-  - "japanese-research"
-  - "serial-cloning-research"
-  - "genetic-limitations-cloning"
-  - "mammalian-clone-study"
-  - "nature-communications-paper"
-aliases:
-  - "Serial mammalian cloning"
-  - "Cloning genetic barriers"
-  - "Japanese cloning study"
-summary: "A 20-year Japanese study published in Nature Communications reveals significant genetic anomalies and reduced viability in later-generation cloned mammals, challenging the long-term potential of serial cloning."
-updated: 2026-04-11
+summary: A 20-year Japanese study published in Nature Communications reveals significant genetic anomalies and reduced viability in later-generation cloned mammals, challenging the long-term potential of serial cloning.
+updated: 2026-05-23
 group: evolution-ecology-natural-systems
 ---
 # Serial Cloning
@@ -26,10 +11,10 @@ Serial [[concepts/cloning|cloning]] refers to the process of repeatedly cloning 
 
 ### Summary
 
-Recent research highlights that serial [[concepts/cloning|cloning]] may have inherent [[concepts/genetic-limitations|genetic limitations]], challenging optimistic visions for its [[concepts/software|applications]]. A 20-year Japanese study published in *[[entities/nature|Nature]] Communications* has brought [[concepts/attention-mechanisms|attention]] to these constraints.
+Recent research [[concepts/highlights|highlights]] that serial [[concepts/cloning|cloning]] may have inherent [[concepts/genetic-limitations|genetic limitations]], challenging optimistic visions for its [[concepts/software|applications]]. A 20-year Japanese study published in *[[entities/nature|Nature]] Communications* has brought [[concepts/attention-mechanisms|attention]] to these constraints.
 
 ### Key Points
-- **Clip title:** 20 Year Long Study On Cloning Comes to a Shocking Conclusion
+- **[[concepts/clip-title|Clip title]]:** 20 Year Long Study On Cloning Comes to a Shocking Conclusion
 - **Author / channel:** [[entities/anton-petrov|Anton Petrov]]
 - **URL:** https://www.youtube.com/watch?v=m_WhG8yeH0E
 
@@ -38,13 +23,12 @@ Recent research highlights that serial [[concepts/cloning|cloning]] may have inh
 - Results indicate significant genetic anomalies and reduced viability in later-generation clones.
 
 ### Implications
-- Serial cloning faces critical genetic barriers that limit its potential for long-term use.
+- Serial cloning [[concepts/faces|faces]] critical genetic barriers that limit its potential for long-term use.
 - Challenges include epigenetic changes, telomere shortening, and other genetic instabilities.
 
 de-extinction biological-immortality
 
 **Backlinks:**
 2026 04 10 Japanese 20 Year Mammalian Serial Cloning Study A Genetic Dead End
-
 ## Source Notes
 - 2026-04-10: 20 Year Long Study On Cloning Comes to a Shocking Conclusion

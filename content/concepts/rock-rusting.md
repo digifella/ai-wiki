@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: geology-rocks-minerals
 tags:
   - "oxidation"
   - "iron-oxide"
@@ -13,7 +12,8 @@ aliases:
   - "iron oxidation in rocks"
   - "rock oxidation"
 summary: Rock rusting occurred during the high oxygen period and contributes to the coloration of the red centre of Australia.
-updated: 2026-05-01
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Rock Rusting
 

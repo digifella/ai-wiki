@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "concept"
   - "memory-efficiency"
@@ -13,20 +12,20 @@ aliases:
   - "LLM Memory Optimization"
   - "Model Efficiency"
 summary: Memory efficiency techniques for large language models including 1-bit quantization methods like BitNet and TurboQuant for reducing computational and storage requirements.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Memory Efficiency
 
-Memory efficiency in [[concepts/large-language-model-llm|large language models]] refers to techniques and methods designed to reduce the computational and [[concepts/storage-requirements|storage requirements]] needed to train, deploy, and run LLMs. As models have grown increasingly large, [[concepts/ram-limitations|memory constraints]] have become a significant bottleneck for both data center [[concepts/deployment|deployment]] and on-device [[concepts/inference|inference]]. Memory efficiency improvements enable models to run on consumer [[concepts/hardware|hardware]], reduce operational costs, and make [[concepts/ai-powered-applications|AI applications]] more accessible.
+Memory efficiency in [[concepts/large-language-model-llm|large language models]] refers to techniques and methods designed to reduce the computational and [[concepts/storage-requirements|storage requirements]] needed to train, deploy, and run LLMs. As [[concepts/models|models]] have grown increasingly large, [[concepts/ram-limitations|memory constraints]] have become a significant bottleneck for both data center [[concepts/deployment|deployment]] and on-device [[concepts/inference|inference]]. Memory efficiency improvements enable models to run on consumer [[concepts/hardware|hardware]], reduce operational costs, and [[entities/make|make]] [[concepts/ai-powered-applications|AI applications]] more accessible.
 
 ## 1-Bit Quantization Methods
 
-One of the most significant approaches to memory efficiency involves 1-bit quantization, where model [[concepts/weights|weights]] are reduced to single-bit representations. Methods like BitNet and [[concepts/ai-efficiency|TurboQuant]] exemplify this approach, dramatically compressing [[concepts/active-parameters|model parameters]] while maintaining functional performance. By representing weights with minimal precision, these techniques can reduce [[concepts/code-size|model size]] by orders of magnitude, decreasing both storage requirements and the [[concepts/memory|memory]] bandwidth needed during inference.
+One of the most significant approaches to memory efficiency involves [[concepts/1-bit-llm|1-bit quantization]], where model [[concepts/weights|weights]] are reduced to single-bit representations. Methods like [[entities/bitnet|BitNet]] and [[concepts/ai-efficiency|TurboQuant]] exemplify this approach, dramatically compressing [[concepts/active-parameters|model parameters]] while maintaining functional performance. By representing weights with minimal precision, these techniques can reduce [[concepts/code-size|model size]] by orders of magnitude, decreasing both [[entities/storage|storage]] requirements and the [[concepts/memory|memory]] bandwidth needed during inference.
 
 ## Practical Impact
 
-These [[concepts/vram-optimization|memory optimization]] techniques have direct [[concepts/software|applications]] for [[concepts/on-device-ai|on-device deployment]], allowing language models to run on edge devices with limited [[concepts/computational-resources|computational resources]]. Improved memory efficiency also addresses RAM limitations that previously constrained model deployment, making it possible to serve larger or more numerous models on the same hardware infrastructure. The continued development of these methods represents an important frontier in making advanced language models more practical and economically viable across diverse deployment [[concepts/scenarios|scenarios]].
-
+These [[concepts/vram-optimization|memory optimization]] techniques have direct [[concepts/software|applications]] for [[concepts/on-device-ai|on-device deployment]], allowing language models to run on edge devices with limited [[concepts/computational-resources|computational resources]]. Improved memory efficiency also addresses [[concepts/ram|RAM]] limitations that previously constrained model deployment, making it possible to serve larger or more numerous models on the same hardware infrastructure. The continued development of these methods represents an important frontier in making advanced language models more practical and economically viable across diverse deployment [[concepts/scenarios|scenarios]].
 ## Source Notes
 - 2026-04-12: This New Method Just Killed [[concepts/ram|RAM Limitations]]
 - 2026-04-07: [[lab-notes/2026-04-07-Chroma-Context-1-Self-Editing-Search-Agent-for-Efficient-RAG|Chroma Context 1 Self Editing Search Agent for Efficient RAG]] · [▶ source](https://www.youtube.com/watch?v=7f1bHER4kRM)

@@ -1,26 +1,13 @@
 ---
 type: concept
 domain: maths-cryptography
-tags:
-  - "NLP"
-  - "LLM"
-  - "Multilingual_Modeling"
-  - "Machine_Learning"
-  - "multilingual-language-modeling"
-  - "cross-lingual-transfer"
-  - "large-language-models"
-  - "natural-language-processing"
-  - "tokenization"
-aliases:
-  - "multilingual-llm-training"
-  - "cross-lingual-modeling"
-summary: "Multilingual language modeling involves training large language models to use shared vocabularies and semantic representations to enable cross-lingual transfer across multiple languages."
-updated: 2026-04-21
+summary: Multilingual language modeling involves training large language models to use shared vocabularies and semantic representations to enable cross-lingual transfer across multiple languages.
+updated: 2026-05-23
 group: number-theory-prime-numbers
 ---
 # Multilingual language modeling
 
-Multilingual language modeling involves [[concepts/training|training]] [[concepts/large-language-models]] to understand and generate text across multiple languages by leveraging shared vocabularies and semantic representations, enabling Cross-lingual Transfer.
+Multilingual language modeling involves [[concepts/training|training]] [[concepts/large-language-models]] to understand and generate [[concepts/text|text]] across multiple languages by leveraging shared vocabularies and semantic representations, enabling Cross-lingual Transfer.
 
 ## Recent Advancements
 - **[[concepts/3-billion-parameter-model|SmolLM3-3B]] (via HuggingFaceTB)**:

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "small-language-models"
   - "benchmarking"
@@ -12,20 +11,20 @@ aliases:
   - "SLM Benchmarking"
   - "4GB Model Champions"
 summary: The content discusses benchmarking small language models (SLMs) to identify 4GB general problem-solving champions.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # World Knowledge
 
-World Knowledge in the context of [[concepts/agentic-ai|AI agents]] refers to the [[concepts/benchmark-testing|benchmarking]] and evaluation of small language models (SLMs) to identify which systems perform best as general [[concepts/problem-solving|problem-solving]] tools within constrained computational budgets, particularly in the 4GB parameter range. This represents a shift in focus from larger models toward more efficient alternatives that can run on resource-limited devices while maintaining practical utility across diverse tasks.
+World Knowledge in the context of [[concepts/agentic-ai|AI agents]] refers to the [[concepts/benchmark-testing|benchmarking]] and evaluation of [[concepts/small-language-models-slms|small language models (SLMs)]] to identify which systems perform best as general [[concepts/problem-solving|problem-solving]] tools within constrained computational budgets, particularly in the 4GB parameter [[concepts/range|range]]. This represents a shift in focus from larger models toward more efficient alternatives that can run on resource-limited devices while maintaining practical utility across diverse tasks.
 
 ## Benchmarking SLMs for General Problem-Solving
 
-The evaluation of small language models involves [[concepts/testing|testing]] their performance across various problem-solving domains to determine which architectures and [[concepts/training|training]] approaches produce the most capable general-[[concepts/motivation|purpose]] systems. These benchmarks assess how well compact models handle [[concepts/reasoning|reasoning]], knowledge application, and task completion—metrics that traditionally favored larger models. The 4GB constraint serves as a meaningful threshold for practical [[concepts/deployment|deployment]] [[concepts/scenarios|scenarios]] where [[concepts/computational-resources|computational resources]], power consumption, or latency are critical factors.
+The evaluation of small language models involves [[concepts/testing|testing]] their performance across various problem-solving domains to determine which architectures and [[concepts/training|training]] approaches produce the most capable general-[[concepts/motivation|purpose]] systems. These benchmarks assess how well compact models handle [[concepts/reasoning|reasoning]], knowledge application, and task completion—metrics that traditionally favored larger models. The 4GB constraint serves as a meaningful threshold for practical [[concepts/deployment|deployment]] [[concepts/scenarios|scenarios]] where [[concepts/computational-resources|computational resources]], [[concepts/power|power]] consumption, or latency are critical factors.
 
 ## Practical Applications and Implications
 
-Small models optimized for general problem-solving have implications for [[concepts/edge-computing|edge computing]], embedded systems, and resource-constrained environments where deploying multi-billion [[concepts/parameter-models|parameter models]] is infeasible. Identifying champion models in this category enables developers to make informed choices about which SLMs best suit their deployment constraints while still maintaining acceptable performance levels for real-world applications.
-
+Small models optimized for general problem-solving have implications for [[concepts/edge-computing|edge computing]], embedded systems, and resource-constrained environments where deploying multi-billion [[concepts/parameter-models|parameter models]] is infeasible. Identifying champion models in this category enables developers to [[entities/make|make]] informed choices about which SLMs best suit their deployment constraints while still maintaining acceptable performance levels for real-world [[concepts/software|applications]].
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[concepts/small-language-models|Small Language Models (SLMs): The New 4GB Champion]]

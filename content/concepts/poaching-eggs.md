@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "egg-cookery"
   - "poaching-technique"
@@ -12,7 +11,8 @@ aliases:
   - "vinegar pre-soak poached eggs"
   - "papa mau poached eggs method"
 summary: A video by PapaMau demonstrating the use of a vinegar pre-soak method for poaching eggs.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Poaching Eggs
 
@@ -24,7 +24,6 @@ A technique demonstrated by cooking educator [[entities/papamau|PapaMau]] involv
 
 ## Technique and Results
 
-The basic process involves placing whole eggs in vinegar for a brief period before transferring them to simmering water. This [[concepts/preparation|preparation]] step aims to make the poaching process more reliable and forgiving for home cooks, potentially improving [[concepts/logical-consistency|consistency]] across multiple eggs cooked simultaneously.
-
+The basic process involves placing whole eggs in vinegar for a brief period before transferring them to simmering water. This [[concepts/preparation|preparation]] step aims to [[entities/make|make]] the poaching process more reliable and forgiving for home cooks, potentially improving [[concepts/logical-consistency|consistency]] across multiple eggs cooked simultaneously.
 ## Source Notes
 - 2026-04-20: [[lab-notes/2026-04-20-Perfect-Poached-Eggs-Papa-Maus-Vinegar-Pre-Soak-Method|Perfect Poached Eggs Papa Maus Vinegar Pre Soak Method]] · [▶ source](https://www.youtube.com/watch?v=7ogGknnYMzQ)

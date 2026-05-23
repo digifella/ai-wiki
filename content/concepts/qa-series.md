@@ -9,9 +9,10 @@ tags:
   - "ai-fundamentals"
 aliases:
   - "Q&A Series"
-summary: "A recurring series of questions and answers covering topics such as privacy and machine learning."
-updated: 2026-04-28
+summary: A recurring series of questions and answers covering topics such as privacy and machine learning.
+updated: 2026-05-23
 group: film-tv-streaming
+stub: true
 ---
 # Q&A Series
 
@@ -37,7 +38,6 @@ A recurring series of questions and answers on various topics.
 ## Additional Information
 - The series may cover topics such as [[concepts/privacy]] and [[concepts/machine-learning]].
 - Contributions from experts like [[entities/harper]] are featured.
-
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-10: [[lab-notes/2026-04-10-Alibaba-Qwen-36-Plus-Agentic-Coding-and-Multimodal-Reasoning-Towards|Alibaba Qwen 36 Plus Agentic Coding and Multimodal Reasoning Towards]] · [▶ source](https://www.youtube.com/watch?v=v8RokQY05Bo)

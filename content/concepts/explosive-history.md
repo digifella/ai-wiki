@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "concept"
   - "supervolcano"
@@ -13,8 +12,9 @@ tags:
 aliases:
   - "Cerberean Supervolcano"
   - "Victoria Supervolcano"
-summary: "A 30km-wide supervolcano located in northeast Victoria, Australia, documented in geological research."
-updated: 2026-05-02
+summary: A 30km-wide supervolcano located in northeast Victoria, Australia, documented in geological research.
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Explosive History
 
@@ -27,6 +27,5 @@ The Cerberean Supervolcano provides evidence of Australia's volcanic past and th
 ## Research and Documentation
 
 Geological research into the Cerberean Supervolcano has contributed to expanding the documented record of Australia's Quaternary volcanic activity. Its identification and characterisation represent ongoing efforts by Australian geologists to map and understand the country's volcanic systems, which remain less extensively studied than those in other regions of the Pacific.
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea|Cerberean Supervolcano Discovery Geology and Explosive History Northea]] · [▶ source](https://www.youtube.com/watch?v=ek0ASprm3Mw)

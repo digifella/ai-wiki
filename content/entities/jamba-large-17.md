@@ -9,8 +9,9 @@ tags:
   - "context-window"
 aliases:
   - "Jamba Large 1.7"
-summary: "Jamba Large 1.7 is a hybrid SSM-Transformer model by AI21 Labs featuring a 256k context window."
-updated: 2026-04-27
+summary: Jamba Large 1.7 is a hybrid SSM-Transformer model by AI21 Labs featuring a 256k context window.
+updated: 2026-05-23
+stub: true
 ---
 # Jamba Large 1.7
 

@@ -1,29 +1,13 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "engineering-innovation"
-  - "history-of-engineering"
-  - "industrial-design"
-  - "materials-science"
-  - "manufacturing-innovation"
-  - "design-principles"
-  - "engineering-history"
-  - "fastening-devices"
-  - "industrial-advancements"
-  - "technological-progress"
-aliases:
-  - "Engineering Progress"
-  - "Innovative Design"
-  - "Manufacturing Breakthroughs"
-  - "Material Advances"
-summary: "Engineering innovation encompasses advancements in materials science, manufacturing techniques, and design principles that have significantly impacted human progress."
-updated: 2026-04-11
+summary: Engineering innovation encompasses advancements in materials science, manufacturing techniques, and design principles that have significantly impacted human progress.
+updated: 2026-05-23
 group: engineering-systems-robotics-autonomous-vehicles
 ---
 # Engineering Innovation
 
-Engineering innovation has been a cornerstone of human progress and comfort since ancient times, with advancements in materials science, manufacturing techniques, and [[concepts/design|design]] principles continually pushing the boundaries of what is possible. The introduction of new technologies such as the zipper revolutionized industries ranging from clothing to transportation.
+Engineering [[concepts/innovation|innovation]] has been a cornerstone of human progress and comfort since ancient times, with advancements in materials [[concepts/science|science]], manufacturing techniques, and [[concepts/design|design]] principles continually pushing the boundaries of what is possible. The introduction of new technologies such as the zipper revolutionized industries ranging from clothing to transportation.
 
 ## Key Concepts
 - **Materials Science**: Understanding and utilizing various materials for optimal performance.
@@ -32,10 +16,10 @@ Engineering innovation has been a cornerstone of human progress and comfort sinc
 
 ### Examples of Engineering Innovation
 
-- The zipper, a seemingly simple yet revolutionary [[concepts/zipper-history|fastening device]], exemplifies the ingenuity behind engineering innovation. For more details, see 2026 04 10 From [[entities/clasp-locker|Clasp Locker]] to YKK The History and Engineering of [[concepts/buttons|Zippers]].
+- The zipper, a seemingly simple yet revolutionary [[concepts/zipper-history|fastening device]], exemplifies the ingenuity behind engineering innovation. For more details, see 2026 04 10 From [[entities/clasp-locker|Clasp Locker]] to [[concepts/ykk|YKK]] The History and Engineering of [[concepts/buttons|Zippers]].
 
 ### Related Technologies and Innovations
-- **Velcro**: Another fastening technology that offers an alternative to buttons and zippers.
+- **Velcro**: Another fastening technology that offers an alternative to buttons and [[concepts/zippers|zippers]].
 - **Carbon Fiber Composite Materials**: Used in aerospace, automotive, and sporting goods for their high strength-to-weight ratio.
 - **[[concepts/3d-printing|3D Printing]]**: Transformative manufacturing process enabling [[concepts/rapid-prototyping|rapid prototyping]] and complex designs.
 
@@ -43,8 +27,7 @@ Engineering innovation has been a cornerstone of human progress and comfort sinc
 - The development of the zipper is a fascinating tale of invention and engineering prowess. For an insightful look into its history, watch [From Clasp Locker to YKK: The History and Engineering of Zippers](https://www.youtube.com/watch?v=9szhjhO9epA).
 
 ### References
-- 2026 04 10 From Clasp Locker to YKK The History and Engineering of Zippers
-
+- 2026 04 10 From [[entities/clasp-locker|Clasp Locker]] to [[concepts/ykk|YKK]] The History and Engineering of [[concepts/buttons|Zippers]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

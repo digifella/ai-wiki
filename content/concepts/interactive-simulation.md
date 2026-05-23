@@ -3,27 +3,30 @@ type: concept
 domain: creative-pursuits
 tags:
   - "simulation"
-  - "interactive"
-  - "ai"
-  - "interactive-simulation"
-  - "real-time-interaction"
-  - "dynamic-sizing"
-  - "color-coded"
-  - "layer-rotation"
-  - "camera-controls"
-summary: "An interactive simulation allows real-time user interaction with a modeled environment, enabling exploration, manipulation, and immediate feedback."
-updated: 2026-04-15
+  - "user-interaction"
+  - "real-time-feedback"
+  - "interactive-environment"
+  - "modeling"
+  - "visualization"
+aliases:
+  - "Interactive Model"
+  - "Real-time Simulation"
+  - "User-driven Simulation"
+summary: An interactive simulation allows real-time user interaction with a modeled environment, enabling exploration, manipulation, and immediate feedback.
+updated: 2026-05-23
 group: interactive-visualisation
 ---
-# Interactive simulation
+# Interactive Simulation
 
-A [[concepts/simulation|simulation]] allowing real-time user interaction with a modeled environment, enabling exploration, manipulation, and immediate [[concepts/feedback|feedback]].
+An interactive [[concepts/simulation|simulation]] is a computational model of a system or environment that responds to real-time user input. Unlike passive simulations that run predetermined sequences, interactive simulations allow users to directly manipulate variables, alter conditions, and observe consequences immediately. This bidirectional interaction creates an exploratory [[concepts/feedback|feedback]] [[concepts/loop|loop]] where users can test hypotheses, experiment with [[concepts/parameters|parameters]], and develop intuition about how systems behave.
 
-## Examples
-- [[concepts/rubiks-cube-simulation|Rubik's Cube Simulation]]: [[concepts/gpt-5|GPT-5]] generated a fully interactive Rubik's Cube simulator using [[concepts/htmljavascript|HTML/JavaScript]]/[[concepts/threejs|Three.js]], featuring [[concepts/dynamic-sizing|dynamic sizing]] (up to 20x20x20), [[concepts/color-coded-faces|color-coded faces]], camera controls, [[concepts/layer-rotation|layer rotation]], and a "Solve" button.
+## Core Characteristics
 
-2026 04 14 GPT 5 [[entities/mathew-berman|Mathew Berman]]
+Interactive simulations typically feature three essential components: a modeled environment with defined rules or [[concepts/physics|physics]], input mechanisms that translate user actions into system changes, and responsive [[concepts/output|output]] that displays results within milliseconds. The immediacy of feedback is crucial—delays between user action and system response can break the sense of direct [[concepts/power|control]]. These simulations [[concepts/range|range]] from simple interactive visualizations to complex three-dimensional environments, and can be implemented across various platforms including web browsers, desktop [[concepts/software|applications]], and specialized software.
 
+## Applications
+
+Interactive simulations serve educational, creative, and professional purposes. In education, they help students understand abstract concepts through hands-on exploration. In creative fields, they enable artists and designers to prototype [[concepts/ideas|ideas]] and test variations rapidly. Scientific and engineering disciplines use them for visualization, [[concepts/hypothesis-driven-experimentation|hypothesis testing]], and [[concepts/training|training]]. The [[concepts/accessibility|accessibility]] of web-based implementations has expanded their use, making interactive simulations available to broader audiences without specialized [[concepts/software-installation|software installation]].
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: GPT 5 - Mathew Berman

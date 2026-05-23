@@ -1,32 +1,16 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "AI"
-  - "Obsidian"
-  - "Knowledge Management"
-  - "Second Brain"
-  - "knowledge-management-systems"
-  - "digital-note-taking"
-  - "ai-assisted-productivity"
-  - "personal-knowledge-base"
-  - "obsidian-plugin"
-aliases:
-  - "Digital Second Brain"
-  - "Obsidian Knowledge Hub"
-  - "AI-Enhanced Note-Taking"
-  - "Claude Obsidian Integration"
-  - "Dynamic Knowledge Base"
-summary: "A second brain is a digital [[concepts/knowledge-management|knowledge management]] system utilizing tools like Obsidian and AI agents to enhance cognitive capabilities."
-updated: 2026-04-14
+summary: "A second brain is a digital knowledge management system utilizing tools like Obsidian and AI agents to enhance cognitive capabilities."
+updated: 2026-05-23
 group: platforms-runtimes-environments
 ---
 # Second Brain Concept
 
-A "second brain" is a digital [[concepts/knowledge-management|knowledge management]] system that aims to serve as an extension of one's cognitive capabilities. It involves the use of tools like [[concepts/obsidian|Obsidian]] and integrations with [[concepts/agentic-ai|AI agents]] such as [[concepts/claude-code|Claude Code]] to create a dynamic, self-updating [[concepts/knowledge-base|knowledge base]].
+A "second brain" is a digital [[concepts/knowledge-management|knowledge management]] system that aims to serve as an extension of one's cognitive [[concepts/capabilities|capabilities]]. It involves the use of tools like [[concepts/obsidian|Obsidian]] and integrations with [[concepts/agentic-ai|AI agents]] such as [[concepts/claude-code|Claude Code]] to create a dynamic, self-updating [[concepts/knowledge-base|knowledge base]].
 
 ## Key Components:
-- **Note-taking application ([[entities/obsidian|Obsidian]]):** A powerful tool for organizing thoughts, ideas, and information.
+- **Note-taking application ([[entities/obsidian|Obsidian]]):** A powerful tool for organizing thoughts, [[concepts/ideas|ideas]], and information.
 - **[[concepts/ai-agent|AI Agent]] ([[entities/claude-code|Claude Code]]):** An intelligent assistant that enhances the functionality of Obsidian by automating tasks and providing insights.
 
 ## Benefits:
@@ -39,7 +23,6 @@ A "second brain" is a digital [[concepts/knowledge-management|knowledge manageme
 - [[entities/evernote|Evernote]] v11's AI features for second brain management (2026 04 14 [[concepts/data-synchronization|Evernote v11]] features)
 
 2026 04 14 Evernote v11 features
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

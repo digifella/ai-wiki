@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: google-ai-ecosystem
 tags:
   - "concept"
   - "notebooklm"
@@ -14,20 +13,20 @@ aliases:
   - "NotebookLM Presentation Workflows"
   - "Google NotebookLM Design Customization"
 summary: NotebookLM workflows enable customizing professional presentations through Gemini integration.
-updated: 2026-05-01
+updated: 2026-05-23
+group: google-ai-ecosystem
 ---
 # NotebookLM Workflows
 
-NotebookLM workflows represent a set of [[concepts/automation|automation]] patterns that combine [[entities/googles-notebooklm|Google's NotebookLM]] note-taking and research platform with [[entities/gemini-models|Gemini AI]] integration to streamline [[concepts/content-creation|content creation]] and presentation design. These workflows enable users to transform source materials—such as research notes, documents, or [[concepts/infographic-design|infographics]]—into structured outputs including professional presentations, [[concepts/interactive-html-web-applications|interactive web applications]], and [[concepts/aesthetic-design|visual design]] assets without requiring manual [[concepts/coding|coding]].
+[[concepts/notebooklm|NotebookLM]] workflows represent a set of [[concepts/automation|automation]] patterns that combine [[entities/googles-notebooklm|Google's NotebookLM]] note-taking and research platform with [[entities/gemini-models|Gemini AI]] [[concepts/integration|integration]] to streamline [[concepts/content-creation|content creation]] and presentation [[concepts/design|design]]. These workflows enable users to transform source materials—such as research [[concepts/notes|notes]], documents, or [[concepts/infographic-design|infographics]]—into structured outputs including professional presentations, [[concepts/interactive-html-web-applications|interactive web applications]], and [[concepts/aesthetic-design|visual design]] assets without requiring manual [[concepts/coding|coding]].
 
 ## Core Capabilities
 
-The workflows leverage [[concepts/gemini|Gemini]]'s language and [[concepts/reasoning-capabilities|reasoning capabilities]] to process information extracted from [[concepts/ai-integrated-notebooks|NotebookLM]] sources, generating customized designs and structured outputs. Users can direct the AI to optimize [[concepts/prompt-based-modeling|prompt engineering]] for consistent, formatted results, allowing for [[concepts/iterative-refinement|iterative refinement]] of presentation layouts, color schemes, and content [[concepts/organization|organization]]. This integration reduces the manual work typically required in design tools like Canva by automating template selection and content placement based on source [[concepts/material-properties|material characteristics]].
+The workflows leverage [[concepts/gemini|Gemini]]'s language and [[concepts/reasoning-capabilities|reasoning capabilities]] to process information extracted from [[concepts/ai-integrated-notebooks|NotebookLM]] sources, generating customized designs and structured outputs. Users can direct the AI to optimize [[concepts/prompt-based-modeling|prompt engineering]] for consistent, formatted results, allowing for [[concepts/iterative-refinement|iterative refinement]] of presentation layouts, color schemes, and content [[concepts/organization|organization]]. This integration reduces the manual work typically required in design tools like [[entities/canva|Canva]] by automating template selection and content placement based on source [[concepts/material-properties|material characteristics]].
 
 ## Practical Applications
 
-Common [[concepts/ai-powered-workflow|NotebookLM workflow]] implementations include converting [[concepts/flow-management|research findings]] into interactive web applications, transforming [[concepts/mind-maps|mind maps]] into presentation decks, and generating professional websites from deep research documents. These workflows typically operate without requiring direct code [[concepts/writing|writing]], making them accessible to users without technical backgrounds while maintaining output quality suitable for [[concepts/professional-use|professional use]].
-
+Common [[concepts/ai-powered-workflow|NotebookLM workflow]] implementations include converting [[concepts/flow-management|research findings]] into interactive [[concepts/web-applications|web applications]], transforming [[concepts/mind-maps|mind maps]] into presentation decks, and generating professional websites from [[concepts/visualization-generation|deep research]] documents. These workflows typically operate without requiring direct [[concepts/code|code]] [[concepts/writing|writing]], making them accessible to users without technical backgrounds while maintaining [[concepts/output|output]] quality suitable for [[concepts/professional-use|professional use]].
 ## Source Notes
 - 2026-04-07: Google's NotebookLM Just DESTROYED Canva With 1 Update
 - 2026-04-08: [[lab-notes/2026-04-08-NotebookLM-Deep-Research-to-AI-Generated-Professional-Websites-No-Code|NotebookLM Deep Research to AI Generated Professional Websites No Code]] · [▶ source](https://www.youtube.com/watch?v=-iCBETPQkuo)

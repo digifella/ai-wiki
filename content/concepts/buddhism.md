@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: religion-spirituality-practice
 tags:
   - "buddhism"
   - "eastern-philosophy"
@@ -13,7 +12,8 @@ aliases:
   - "Buddhist philosophy"
   - "The Buddha's teachings"
 summary: A philosophical and spiritual tradition originating in Asia, centered on the teachings of Siddhartha Gautama (the Buddha) regarding the nature of suffering and the path to liberation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: religion-spirituality-practice
 ---
 # Buddhism
 
@@ -29,8 +29,7 @@ Buddhism has evolved into several major traditions. Theravada Buddhism, found pr
 
 ## Historical Development and Spread
 
-From its origins in India, Buddhism spread along trade routes to Central Asia, China, Japan, Southeast Asia, and Tibet, adapting to local cultures while maintaining core teachings. Though Buddhism largely declined in India by the 12th century, it became deeply embedded across Asia. In the modern era, Buddhism has expanded to Western countries, where it has influenced psychology, [[concepts/philosophy|philosophy]], and secular mindfulness practices while maintaining its traditional monastic and devotional forms.
-
+From its origins in India, Buddhism spread along trade routes to Central Asia, [[entities/china|China]], Japan, Southeast Asia, and Tibet, adapting to local cultures while maintaining core teachings. Though Buddhism largely declined in India by the 12th century, it became deeply embedded across Asia. In the modern era, Buddhism has expanded to Western countries, where it has influenced [[concepts/psychology|psychology]], [[concepts/philosophy|philosophy]], and secular mindfulness practices while maintaining its traditional monastic and devotional forms.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial|Gemma 4 E2B LLM Fine Tuning Custom Dataset Unsloth Local Tutorial]] · [▶ source](https://www.youtube.com/watch?v=cHpB0PTRx5A)
 - 2026-04-11: [[lab-notes/2026-04-11-The-Bloody-Origins-of-Number-Zero-in-Ancient-India|The Bloody Origins of Number Zero in Ancient India]] · [▶ source](https://www.youtube.com/watch?v=RSIsGomGZcc)

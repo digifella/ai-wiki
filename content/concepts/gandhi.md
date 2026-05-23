@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "non-violence"
   - "indian-independence"
@@ -12,7 +11,8 @@ aliases:
   - "Mahatma Gandhi"
   - "M.K. Gandhi"
 summary: Indian political and spiritual leader who pioneered nonviolent resistance as a strategy for independence and social change.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Gandhi
 
@@ -20,7 +20,7 @@ Mohandas Karamchand Gandhi (1869–1948) was an Indian lawyer, political organiz
 
 ## Political Leadership and Independence Movement
 
-Gandhi emerged as a dominant figure in the Indian National Congress during the 1920s and led several major campaigns of civil disobedience against British rule, including the Salt March of 1930 and the Quit India Movement of 1942. His strategy of nonviolent protest—involving boycotts, strikes, and peaceful demonstrations—mobilized millions of Indians across class and religious lines. This approach proved instrumental in weakening British resolve to maintain colonial control, ultimately contributing to Indian independence in 1947.
+Gandhi emerged as a dominant figure in the Indian National Congress during the 1920s and led several major campaigns of civil disobedience against British rule, including the Salt March of 1930 and the Quit India [[concepts/exercise|Movement]] of 1942. His strategy of nonviolent protest—involving boycotts, strikes, and peaceful demonstrations—mobilized millions of Indians across class and religious lines. This approach proved instrumental in weakening British resolve to maintain colonial [[concepts/power|control]], ultimately contributing to Indian independence in 1947.
 
 ## Philosophy and Legacy
 

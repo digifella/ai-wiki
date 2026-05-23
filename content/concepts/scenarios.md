@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: ai-agents
+domain: business-strategy
 tags:
   - "scenarios"
   - "ai-models"
@@ -12,9 +12,9 @@ tags:
   - "concept-application"
 aliases:
   - "use cases"
-summary: "Scenarios are structured descriptions of situations, processes, or use cases that illustrate how concepts, tools, or techniques are applied in practice."
-updated: 2026-04-27
-group: ai-futures-self-improvement
+summary: Scenarios are structured descriptions of situations, processes, or use cases that illustrate how concepts, tools, or techniques are applied in practice.
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # Scenarios
 
@@ -38,7 +38,7 @@ Scenarios are structured descriptions of situations, processes, or [[concepts/us
 
 - [[entities/adam-lucek|Adam Lucek]] - Flux model for Open AI generated image gen
   - Video Title: [[concepts/training|Training]] [[entities/flux1|FLUX.1]] ([[entities/black-forest-labs|Black Forest Labs]]) [[concepts/lora-adapter|LoRA Adapter]] on [[concepts/faces|Faces]] | Low [[concepts/vram|VRAM]] Image Generation
-  - Main Goal: To demonstrate how to train [[concepts/ai-image-generation|AI image generation]] models efficiently.
+  - Main Goal: To demonstrate how to train [[concepts/ai-image-generation|AI image generation]] [[concepts/models|models]] efficiently.
   - Key Aspects Covered:
     - AI models and techniques used
     - Tools and [[concepts/setup|setup]] process
@@ -47,7 +47,6 @@ Scenarios are structured descriptions of situations, processes, or [[concepts/us
 ## Backlinks
 
 - 2026 04 14 [[entities/adam-lucek|Adam Lucek]] Flux model for Open AI generated image gen
-
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

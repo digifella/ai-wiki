@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "automation"
-  - "ai-tools"
-  - "productivity"
-  - "workflow-automation"
-  - "ai-automation"
-  - "content-strategy"
-  - "workflow-optimization"
-  - "autonomous-agents"
-aliases:
-  - "AI content automation"
-  - "automated content workflows"
-summary: "The utilization of Artificial Intelligence and autonomous agents to automate content strategy and streamline workflows by reducing manual intervention in repetitive tasks."
-updated: 2026-04-21
+summary: The utilization of Artificial Intelligence and autonomous agents to automate content strategy and streamline workflows by reducing manual intervention in repetitive tasks.
+updated: 2026-05-23
 group: video-content-systems
 ---
 # Automated content creation
@@ -22,16 +10,15 @@ group: video-content-systems
 The utilization of [[concepts/ai-technologies|Artificial Intelligence]] to streamline [[concepts/workflow|Workflows]], automate Content Strategy, and reduce manual intervention in repetitive tasks.
 
 ## Emerging AI Tools & Technologies
-- TryShortcut.ai)]: Described as the "AI Version of Excel"; designed to replace traditional Excel and google sheets workflows by automating data-driven tasks and processes.
-- autonomous ai agents: Developing tools capable of automating end-to-end processes, including Job Hunting and large-scale content creation.
+- [[entities/tryshortcutai|TryShortcut.ai]])]: Described as the "AI Version of [[entities/excel|Excel]]"; designed to replace traditional Excel and [[entities/google-sheets|google sheets]] workflows by automating data-driven tasks and processes.
+- [[concepts/action-oriented-ai|autonomous ai agents]]: Developing tools capable of automating end-to-end processes, including Job Hunting and large-scale [[concepts/content-creation|content creation]].
 
 ## Core Objectives
-- **Workflow Optimization**: Replacing legacy software with AI-native platforms to increase Productivity.
-- **Automation]]**: Utilizing tools to manage complex, multi-step processes without manual oversight.
+- **[[concepts/workflow-optimization|Workflow Optimization]]**: Replacing legacy [[concepts/software|software]] with AI-native platforms to increase Productivity.
+- **[[concepts/automation|Automation]]]]**: Utilizing tools to manage complex, multi-step processes without manual oversight.
 
 ## Related Links
 - 2026 04 14 New [[entities/ai-tools|ai tools]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)

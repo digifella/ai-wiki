@@ -1,31 +1,17 @@
 ---
 type: entity
-tags:
-  - "physics"
-  - "string theory"
-  - "pi"
-  - "quantum field theory"
-  - "theoretical-physics"
-  - "string-theory"
-  - "quantum-field-theory"
-  - "mathematics-popularization"
-  - "pi-series-expansion"
-aliases:
-  - "Tony Padilla"
-  - "Dr Tony"
-  - "Professor Padilla"
-summary: "Dr. Tony Padilla is a theoretical physicist and educator at the University of Nottingham, known for his work on string theory and quantum field theory, as well as his contributions to science communication through Number"
-updated: 2026-04-11
+summary: Dr. Tony Padilla is a theoretical physicist and educator at the University of Nottingham, known for his work on string theory and quantum field theory, as well as his contributions to science communication through Number
+updated: 2026-05-23
 ---
 # Dr. Tony Padilla
 
-Dr. Tony Padilla is a renowned physicist and educator known for his contributions to [[concepts/theoretical-physics|theoretical physics]] and [[concepts/research-communications|science communication]]. He holds the position of Professor at the University of Nottingham, where he focuses on [[concepts/string-phenomenology|string phenomenology]].
+Dr. Tony Padilla is a renowned physicist and educator known for his contributions to [[concepts/theoretical-physics|theoretical physics]] and [[concepts/research-communications|science communication]]. He holds the position of Professor [[concepts/assistive-technology|at]] the University of Nottingham, where he focuses on [[concepts/string-phenomenology|string phenomenology]].
 
 ## Professional Background
-- **Education:** Received his PhD in Theoretical Physics from Durham University.
-- **Career Highlights:**
+- **Education:** Received his [[entities/phd|PhD]] in Theoretical Physics from Durham University.
+- **Career [[concepts/highlights|Highlights]]:**
   - Conducts research on quantum field [[concepts/theory|theory]] (QFT) and its [[concepts/software|applications]] in [[concepts/string-theory|string theory]].
-  - Co-founder of [[entities/numberphile|Numberphile]], a YouTube channel dedicated to explaining [[concepts/mathematics|mathematics]] and [[concepts/physics|physics]] concepts to the general public.
+  - Co-founder of [[entities/numberphile|Numberphile]], a [[entities/youtube|YouTube]] channel dedicated to explaining [[concepts/mathematics|mathematics]] and [[concepts/physics|physics]] concepts to the general public.
 
 ## Notable Contributions
 - **Research:** Pioneering work on new series expansions for [[concepts/mathematical-constants|mathematical constants]] such as Pi (π).
@@ -37,7 +23,7 @@ Dr. Tony Padilla is a renowned physicist and educator known for his contribution
   - This finding has garnered significant media [[concepts/attention-mechanisms|attention]] due to its implications in both mathematics and physics.
 
 ## Related Concepts
-- string-theory
+- [[concepts/string-theory|string-theory]]
 - [[concepts/quantum-field-theory]]
 - pi
 
@@ -51,7 +37,6 @@ Dr. Tony Padilla is a renowned physicist and educator known for his contribution
 
 ## Related Notes
 - 2026 04 10 String Theorys New Pi Series Historical Development and True Significa
-
 ## Source Notes
 
 - 2026-04-10: [[lab-notes/2026-04-10-String-Theorys-New-Pi-Series-Historical-Development-and-True-Significa|String Theorys New Pi Series Historical Development and True Significa]] · [▶ source](https://www.youtube.com/watch?v=nXexsSWrc1Q)

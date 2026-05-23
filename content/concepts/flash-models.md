@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "flash-models"
@@ -13,20 +12,20 @@ aliases:
   - "Gemini Flash"
   - "Gemini 3 Flash"
 summary: Flash Models are a class of efficient AI models exemplified by Google's Gemini 3 Flash variant.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Flash Models
 
-Flash Models represent a class of lightweight, efficient [[concepts/artificial-intelligence-models|artificial intelligence models]] designed for rapid [[concepts/inference|inference]] and lower computational overhead compared to larger [[concepts/foundation-model|foundation models]]. [[concepts/google-search|Google]]'s Gemini 3 Flash variant exemplifies this approach, prioritizing speed and cost-effectiveness while maintaining functional capability across common AI tasks. These models are characterized by reduced parameter counts and optimized architectures that enable [[concepts/deployment|deployment]] in resource-constrained environments and reduce operational expenses.
+Flash [[concepts/models|Models]] represent a class of lightweight, efficient [[concepts/artificial-intelligence-models|artificial intelligence models]] designed for rapid [[concepts/inference|inference]] and lower computational overhead compared to larger [[concepts/foundation-model|foundation models]]. [[concepts/google-search|Google]]'s [[entities/gemini-3-flash|Gemini 3 Flash]] variant exemplifies this approach, prioritizing [[concepts/speed|speed]] and cost-effectiveness while maintaining functional capability across common AI tasks. These models are characterized by reduced parameter counts and optimized architectures that enable [[concepts/deployment|deployment]] in resource-constrained environments and reduce operational expenses.
 
 ## Design Philosophy
 
-Flash Models prioritize efficiency metrics—latency, token throughput, and computational cost—over maximum capability. This design trade-off makes them suitable for [[concepts/software|applications]] where speed and affordability are primary concerns, such as real-time agent interactions, high-volume inference [[concepts/scenarios|scenarios]], and [[concepts/edge-deployment|edge deployment]]. The models typically achieve this through architectural optimizations, reduced model scale, and specialized [[concepts/training|training]] approaches rather than fundamental algorithmic innovations.
+Flash Models prioritize efficiency metrics—latency, token throughput, and computational [[concepts/cost|cost]]—over maximum capability. This [[concepts/design|design]] trade-off makes them suitable for [[concepts/software|applications]] where speed and affordability are primary concerns, such as real-time [[entities/agent|agent]] interactions, high-volume inference [[concepts/scenarios|scenarios]], and [[concepts/edge-deployment|edge deployment]]. The models typically achieve this through architectural optimizations, reduced model scale, and specialized [[concepts/training|training]] approaches rather than fundamental algorithmic innovations.
 
 ## Applications and Context
 
-Within [[concepts/ai-productivity-agents|AI agent systems]], Flash Models serve as practical alternatives to larger models for routine tasks, decision-making, and rapid response requirements. They have become particularly relevant in scenarios where model costs accumulate quickly, such as [[concepts/ai-agent|autonomous agent]] loops that require frequent model calls. The emergence of Flash Models reflects a broader industry trend toward efficiency-oriented [[concepts/knowledge-acquisition|model development]] alongside the continued [[concepts/computational-scaling|scaling]] of flagship foundation models.
-
+Within [[concepts/ai-productivity-agents|AI agent systems]], Flash Models serve as practical alternatives to larger models for routine tasks, [[concepts/decision-making|decision-making]], and rapid response requirements. They have become particularly relevant in scenarios where model costs accumulate quickly, such as [[concepts/ai-agent|autonomous agent]] [[concepts/loops|loops]] that require frequent model calls. The emergence of Flash Models reflects a broader industry trend toward efficiency-oriented [[concepts/knowledge-acquisition|model development]] alongside the continued [[concepts/computational-scaling|scaling]] of flagship [[concepts/general-purpose-llms|foundation models]].
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-08: [[lab-notes/2026-04-08-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

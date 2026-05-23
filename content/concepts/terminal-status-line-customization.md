@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "ClaudeCode"
-  - "CLI"
-  - "customization"
-  - "terminal"
-  - "claude-code"
-  - "terminal-customization"
-  - "cli-features"
-  - "status-line-config"
-aliases:
-  - "status line customization"
-  - "terminal status bar customization"
-  - "claude-code status line"
-summary: "A Claude Code feature that enables real-time modification of the terminal's bottom status bar using the /statusline add command."
-updated: 2026-04-20
+summary: A Claude Code feature that enables real-time modification of the terminal's bottom status bar using the /statusline add command.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Terminal status line customization

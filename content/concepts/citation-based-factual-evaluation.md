@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "concept"
-  - "AI"
-  - "evaluation"
-  - "fact-checking"
-updated: 2026-04-14
+updated: 2026-05-23
 group: training-fine-tuning-evaluation
 ---
 # Citation-Based Factual Evaluation
@@ -25,6 +20,6 @@ A methodology for verifying information by requiring explicit, [[concepts/verifi
 - Source [[concepts/verification|Verification]]: Foundation of citation-based evaluation
 
 ## Integration of New Note
-- A 2026-03-06 YouTube summary report (via [[concepts/gemini|Gemini]] 2.5 Flash) details [[concepts/ai-hallucinations]] as a pervasive issue in [[concepts/large-language-models]], where models generate plausible but factually incorrect outputs—a widespread problem not limited to minor bugs.
+- A 2026-03-06 [[entities/youtube|YouTube]] [[concepts/summary|summary]] report (via [[concepts/gemini|Gemini]] 2.5 Flash) details [[concepts/ai-hallucinations]] as a pervasive issue in [[concepts/large-language-models]], where [[concepts/models|models]] generate plausible but factually incorrect outputs—a widespread problem not limited to minor bugs.
 
 2026 04 14 AI Hallicinations

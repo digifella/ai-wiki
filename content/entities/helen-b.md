@@ -10,11 +10,11 @@ tags:
 aliases:
   - "Helen B"
 summary: The notes discuss the review of an AI masterplan, infrastructure limitations, tool issues, and the potential use of AI for reviewing grunt work.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Helen B
 
-Helen B is referenced in notes from April 23, 2026, regarding discussions about leveraging AI within an organizational context. The notes indicate involvement in reviewing an AI masterplan, likely as part of strategic planning efforts around [[concepts/ai-technologies|artificial intelligence]] implementation.
+[[concepts/trianna|Helen]] B is referenced in [[concepts/notes|notes]] from April 23, 2026, regarding discussions about leveraging AI within an organizational context. The notes indicate involvement in reviewing an AI masterplan, likely as part of strategic planning efforts around [[concepts/ai-technologies|artificial intelligence]] [[concepts/adoption|implementation]].
 
 ## Infrastructure and Systems Assessment
 

@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "science"
-  - "mathematics"
-  - "philosophy-of-science"
-  - "carl-sagan"
-  - "richard-dawkins"
-  - "mathematical-methods"
-  - "scientific-inquiry"
-  - "predictive-analysis"
-  - "cosmology"
-  - "empirical-verification"
-aliases:
-  - "mathematical-modeling"
-summary: "Scientific calculation is the process of using mathematical methods to analyze and predict natural phenomena."
-updated: 2026-04-16
+summary: Scientific calculation is the process of using mathematical methods to analyze and predict natural phenomena.
+updated: 2026-05-23
 group: scientific-modelling-discovery
 ---
 # Scientific Calculation
@@ -28,7 +15,7 @@ Scientific calculation is the process of using mathematical methods to analyze a
 
 ## Related Concepts
 
-- **God's Signature in Pi**: A hypothetical scenario where an intelligent [[concepts/design|design]], often attributed to a divine entity, is found embedded within the fundamental mathematical constant pi (π). This concept was explored in [[entities/carl-sagan|Carl Sagan]]'s science fiction novel *[[entities/contact|Contact]]*.
+- **God's Signature in Pi**: A hypothetical scenario where an intelligent [[concepts/design|design]], often attributed to a divine entity, is found embedded within the fundamental mathematical constant pi (π). This concept was explored in [[entities/carl-sagan|Carl Sagan]]'s [[concepts/science|science]] fiction novel *[[entities/contact|Contact]]*.
 
 - [[entities/carl-sagan]]
   - [[concepts/intelligent-design]]
@@ -38,7 +25,6 @@ Scientific calculation is the process of using mathematical methods to analyze a
 ### References
 
 2026 04 13 Sagans [[entities/contact|Contact]] Gods Signature in Pi and Dawkins Scientific View
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Pi-39-Digits-for-Universe-Measurement-Trillions-for-Computational-Test|Pi 39 Digits for Universe Measurement Trillions for Computational Test]] · [▶ source](https://www.youtube.com/watch?v=FpyrF_Ci2TQ)
 - 2026-04-30: Quantum Computing

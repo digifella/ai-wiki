@@ -14,9 +14,9 @@ aliases:
   - "AI safety"
   - "Safe AI deployment"
   - "AI risk management"
-summary: "Safe AI use involves deploying and operating AI systems through risk assessment, ethical alignment, and regulatory compliance to minimize harm and maximize benefit."
-updated: 2026-04-28
-group: safety-guardrails-governance
+summary: Safe AI use involves deploying and operating AI systems through risk assessment, ethical alignment, and regulatory compliance to minimize harm and maximize benefit.
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Safe AI Use
 
@@ -27,7 +27,7 @@ Ensuring AI systems are deployed and operated in ways that minimize harm and max
 - **[[concepts/risk-assessment|Risk Assessment]]**: Systematic evaluation of potential AI-related risks.
 - **Ethical Alignment**: Ensuring AI systems adhere to ethical principles.
 - **Regulatory [[concepts/compliance|Compliance]]**: Adherence to legal [[concepts/open-standards|standards]] for AI use.
-- **Transparency**: Clear communication about AI system capabilities and limitations.
+- **Transparency**: Clear communication about AI system [[concepts/capabilities|capabilities]] and limitations.
 - **[[concepts/accountability|Accountability]]**: Defining responsibility for AI outcomes.
 
 ## Related Concepts
@@ -46,13 +46,12 @@ Ensuring AI systems are deployed and operated in ways that minimize harm and max
 
 ## New Note Integration
 - [[entities/bmj|BMJ]] Review (2026-04-14):
-  - Rapid [[concepts/adoption|adoption]] of AI in healthcare outpaces [[concepts/governance|governance]] capabilities.
+  - Rapid [[concepts/adoption|adoption]] of [[entities/george|AI in healthcare]] outpaces [[concepts/governance|governance]] capabilities.
   - Existing frameworks focus on high-level [[concepts/ethics|ethics]] rather than practical implementation.
   - Need for practice-oriented [[concepts/ai-governance|AI governance]] to assess risk and embed [[concepts/ai-oversight]] into existing processes.
 
 ## Backlinks
 - 2026 04 14 [[entities/bmj-review|BMJ Review]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-11: [[lab-notes/2026-04-11-Climate-Change-Health-Risks-to-US-Communities-and-Vulnerable-Populatio|Climate Change Health Risks to US Communities and Vulnerable Populatio]] · [▶ source](https://www.youtube.com/watch?v=JywsWktvODc)

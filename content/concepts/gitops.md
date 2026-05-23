@@ -1,24 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "gitops"
-  - "devops"
-  - "infrastructure-as-code"
-  - "containerization"
-  - "declarative-state"
-  - "automated-deployment"
-  - "continuous-verification"
-  - "state-reconciliation"
-aliases:
-  - "gitops"
-summary: "GitOps applies DevOps principles to infrastructure and application deployment using Git as the single source of truth for code and configuration."
-updated: 2026-04-15
+summary: GitOps applies DevOps principles to infrastructure and application deployment using Git as the single source of truth for code and configuration.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # GitOps
 
-GitOps is an operational framework that applies DevOps principles to infrastructure and [[concepts/application-deployment|application deployment]], using Git as the single source of truth for both code and configuration.
+GitOps is an operational framework that applies DevOps principles to infrastructure and [[concepts/application-deployment|application deployment]], using [[entities/git|Git]] as the single source of truth for both [[concepts/code|code]] and configuration.
 
 ## Core Principles
 - **Declarative State**: System state is defined declaratively in Git repositories.
@@ -31,4 +20,4 @@ GitOps is an operational framework that applies DevOps principles to infrastruct
 3. Controller continuously reconciles environment state with Git repository.
 
 ## Related Concepts
-- Bootable container: IBM concept extending [[concepts/containerization|containerization]] to OS management, enabling streamlined deployment of underlying operating systems mirroring application containerization (See: 2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from IBM).
+- Bootable container: [[entities/ibm|IBM]] concept extending [[concepts/containerization|containerization]] to OS management, enabling streamlined [[concepts/deployment|deployment]] of underlying operating systems mirroring application [[concepts/containerization|containerization]] (See: 2026 04 14 [[concepts/operating-system-deployment|Bootable container concept]] from [[entities/ibm|IBM]]).

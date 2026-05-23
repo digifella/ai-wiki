@@ -1,24 +1,9 @@
 ---
 type: entity
-tags:
-  - "Anthropic"
-  - "Claude"
-  - "AI model"
-  - "reasoning"
-  - "anthropic-models"
-  - "ai-reasoning"
-  - "claude-version"
-  - "long-context-work"
-  - "coding-support"
-aliases:
-  - "Claude Opus"
-  - "Opus 4.5"
-  - "Opus 4.6"
-  - "Claude Version"
-  - "Advanced Claude"
-summary: "Anthropic's Claude Opus is the highest-tier model for enhanced reasoning, coding, and long context tasks."
-updated: 2026-04-11
-title: "Claude Opus"
+summary: Anthropic's Claude Opus is the highest-tier model for enhanced reasoning, coding, and long context tasks.
+updated: 2026-05-23
+stub: true
+title: Claude Opus
 ---
 # Claude Opus
 [[entities/anthropic-institute|Anthropic]]'s highest-capability [[concepts/claude-ai|Claude]] model tier for deeper [[concepts/reasoning|reasoning]], [[concepts/coding|coding]], and long-context work.
@@ -30,14 +15,13 @@ title: "Claude Opus"
 - [[entities/claude-haiku]]
 
 ## Related Notes
-- 2026 04 11 Claudes [[concepts/advisor-strategy|Advisor Strategy]] Monitor Tool and Managed [[concepts/agents|Agents]] for AI Develo
-- 2026 04 10 Qwen 36 Plus Open Source AIs Agentic Capabilities and Frontier
-- 2026 04 10 [[concepts/ai-driven-cybersecurity|Project Glasswing]] Mitigating Anthropic [[concepts/mythos|Mythos]] AIs Zero Day Vulnerabili
-- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] [[concepts/autonomous-ai-agent|Autonomous AI Agent]] Setup Configuration and Advanced
-- 2026 04 10 Meta Harness AI [[concepts/self-evolutionary-development|Self Evolution]] via [[concepts/autonomous-llm-optimization|Autonomous LLM Harness Optimization]]
+- 2026 04 11 Claudes [[concepts/advisor-strategy|Advisor Strategy]] [[concepts/monitor-tool|Monitor Tool]] and Managed [[concepts/agents|Agents]] for AI Develo
+- 2026 04 10 [[entities/qwen-36-plus|Qwen 36 Plus]] [[concepts/open-source|Open Source]] AIs Agentic [[concepts/capabilities|Capabilities]] and Frontier
+- 2026 04 10 [[concepts/ai-driven-cybersecurity|Project Glasswing]] Mitigating [[entities/anthropic-institute|Anthropic]] [[concepts/mythos|Mythos]] AIs [[concepts/concept-of-nothingness|Zero]] Day Vulnerabili
+- 2026 04 10 [[concepts/automated-information-pipelines|OpenClaw]] [[concepts/autonomous-ai-agent|Autonomous AI Agent]] [[concepts/setup|Setup]] Configuration and Advanced
+- 2026 04 10 [[entities/meta|Meta]] [[concepts/harness|Harness]] AI [[concepts/self-evolutionary-development|Self Evolution]] via [[concepts/autonomous-llm-optimization|Autonomous LLM Harness Optimization]]
 - 2026 04 10 [[concepts/claude-code-20|Claude Code 20]] Upgrade Enhanced [[concepts/ai-assisted-coding|AI Coding]] [[concepts/ai-driven-workflow-automation|Workflow Automation]] and
-- 2026 04 10 Anthropic Claude Mythos AI Security and Performance Breakthroughs for
-
+- 2026 04 10 [[concepts/anthropic-ai|Anthropic Claude]] [[concepts/zero-day-vulnerability-mitigation|Mythos AI Security]] and Performance Breakthroughs for
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-OpenClaw-Autonomous-AI-Agent-Setup-Configuration-and-Advanced|OpenClaw Autonomous AI Agent Setup Configuration and Advanced]] · [▶ source](https://www.youtube.com/watch?v=u4ydH-QvPeg)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

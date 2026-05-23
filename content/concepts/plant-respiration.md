@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "plant-physiology"
   - "cellular-respiration"
@@ -12,11 +11,12 @@ aliases:
   - "cellular respiration in plants"
   - "aerobic plant metabolism"
 summary: A report on seven indoor plants that can thrive in water without the use of soil.
-updated: 2026-05-01
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 ---
 # Plant Respiration
 
-Plant respiration is the metabolic process by which plants break down organic compounds to release energy for growth, maintenance, and other cellular functions. Unlike photosynthesis, which captures light energy to produce glucose, respiration consumes organic molecules in the presence or absence of oxygen. This fundamental process occurs continuously in all living plant cells, though it is often less visible than photosynthesis because it does not produce visible pigments or dramatic structural changes.
+Plant respiration is the metabolic process by which plants break down organic compounds to release energy for growth, maintenance, and other cellular functions. Unlike photosynthesis, which captures [[concepts/light|light]] energy to produce glucose, respiration consumes organic molecules in the presence or absence of oxygen. This fundamental process occurs continuously in all living plant cells, though it is often less visible than photosynthesis because it does not produce visible pigments or dramatic structural changes.
 
 ## Aerobic and Anaerobic Respiration
 

@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: business-strategy
-updated: 2026-04-14
+updated: 2026-05-23
 group: legal-finance-professional-work
 ---
 # Million-Dollar Prize Concept Overview
@@ -16,13 +16,13 @@ The term "million-dollar prize" refers to a monetary reward offered for solving 
     - Solving this problem could unlock advancements in data [[concepts/security|security]] and [[concepts/machine-learning|machine learning]].
 
 ### Summary
-- **Clip title**: Biggest Puzzle in Computer Science: P vs. NP
+- **[[concepts/clip-title|Clip title]]**: Biggest Puzzle in Computer [[concepts/science|Science]]: P vs. NP
 - **Author / channel**: [[entities/quanta-magazine|Quanta Magazine]]
 - **URL**: https://www.youtube.com/watch?v=pQsdygaYcE4
 
 ## Related Concepts
 - Clay [[concepts/mathematics|Mathematics]] Institute
-- [[concepts/computational-complexity|Computational Complexity]] Theory
+- [[concepts/computational-complexity|Computational Complexity]] [[concepts/theory|Theory]]
 - Algorithm [[concepts/design|Design]]
 
 ## Backlinks

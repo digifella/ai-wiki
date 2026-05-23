@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photoshop-layer-workflows
 tags:
   - "photoshop"
   - "image-editing"
@@ -13,7 +12,8 @@ aliases:
   - "Chain-Link Fence Removal"
   - "Removing Fences in Photoshop"
 summary: A tutorial by Anthony Morganti demonstrating methods for removing chain-link fences from photos using Adobe Photoshop.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Wire Removal
 

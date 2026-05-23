@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: pricing-subscriptions-saas
 tags:
   - "concept"
   - "tiered-pricing"
@@ -14,11 +13,12 @@ aliases:
   - "pricing tiers"
   - "tiered pricing structures"
 summary: The page discusses tiered pricing structures, specifically focusing on user reactions and migration guidance related to Evernote's new pricing model.
-updated: 2026-05-01
+updated: 2026-05-23
+group: pricing-subscriptions-saas
 ---
 # Tiered Pricing
 
-Tiered pricing is a business model in which a company offers multiple versions of a product or service at different price points, each with varying features, capabilities, or [[concepts/rate-limits|usage limits]]. This [[concepts/structure|structure]] allows customers to select a plan that matches their needs and budget, while enabling providers to capture value across different market segments. Tiered pricing is commonly used in [[concepts/software|software]]-as-a-service (SaaS) platforms, cloud [[entities/storage|storage]], subscription services, and digital tools.
+Tiered pricing is a business model in which a company offers multiple versions of a product or service [[concepts/assistive-technology|at]] different price points, each with varying features, [[concepts/capabilities|capabilities]], or [[concepts/rate-limits|usage limits]]. This [[concepts/structure|structure]] allows customers to select a plan that matches their needs and budget, while enabling providers to capture value across different market segments. Tiered pricing is commonly used in [[concepts/software|software]]-as-a-service ([[concepts/saas|SaaS]]) platforms, cloud [[entities/storage|storage]], subscription services, and digital tools.
 
 ## Customer Response and Migration
 
@@ -27,7 +27,6 @@ When companies implement or restructure [[concepts/tiered-pricing-models|tiered 
 ## Implementation Considerations
 
 Effective tiered pricing requires clear differentiation between service levels, transparent communication about what each tier includes, and straightforward mechanisms for customers to upgrade, downgrade, or cancel. The structure should align with actual usage patterns and customer segments to avoid pushing users toward competitors or creating unnecessary [[concepts/friction|friction]] in the customer experience.
-
 ## Source Notes
 
 - 2026-04-08: [[lab-notes/2026-04-08-Evernote-New-Pricing-Structure-User-Reactions-and-Migration-Guidance|Evernote New Pricing Structure User Reactions and Migration Guidance]] · [▶ source](https://www.youtube.com/watch?v=D04Z5s16QnE)

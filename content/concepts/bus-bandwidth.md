@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: tools-platforms
-group: developer-tooling-clis
+domain: ai-agents
 tags:
   - "concept"
   - "self-hosting"
@@ -17,20 +16,20 @@ aliases:
   - "bandwidth capacity"
   - "bus throughput"
 summary: A video by Alex Kretzschmar introduces self-hosting and the foundational hardware and software for a personal cloud server.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Bus Bandwidth
 
-Bus bandwidth refers to the maximum amount of data that can be transferred across a computer bus in a given period of time, typically measured in gigabytes per second (GB/s). It represents a critical performance bottleneck in computer [[concepts/architecture|architecture]], as it determines how quickly data can move between the CPU, [[concepts/memory|memory]], [[entities/storage|storage]], and peripherals. The wider the bus and the faster the clock speed, the greater the potential bandwidth.
+Bus bandwidth refers to the maximum amount of data that can be transferred across a computer bus in a given period of time, typically measured in gigabytes per second (GB/s). It represents a critical performance bottleneck in computer [[concepts/architecture|architecture]], as it determines how quickly data can move between the [[concepts/cpu|CPU]], [[concepts/memory|memory]], [[entities/storage|storage]], and peripherals. The actual bandwidth achieved depends on both the physical width of the bus (number of parallel data lines) and its clock [[concepts/speed|speed]]. A wider bus with more parallel lines can carry more data simultaneously, while a faster clock speed increases the number of transfers per second.
 
 ## Common Bus Types
 
-Different buses in a computer system have varying bandwidth capacities. PCIe (PCI Express) lanes are commonly used for graphics cards and storage devices, with newer generations offering significantly higher throughput. Memory buses connecting RAM to the CPU operate at very high speeds to minimize latency during data access. Older [[concepts/open-standards|standards]] like [[concepts/usb-20|USB 2.0]] have relatively low bandwidth, while newer interfaces such as [[concepts/usb-30|USB 3.0]] and Thunderbolt support much faster data transfers.
+Different buses within a computer system serve distinct purposes and operate [[concepts/assistive-technology|at]] different speeds. The memory bus connecting the CPU to [[concepts/ram|RAM]] typically offers the highest bandwidth, as this is a critical path for processor performance. PCIe (PCI Express) buses connect expansion cards and storage devices, with newer generations offering progressively higher bandwidth. USB buses prioritize flexibility over speed, with different versions ranging from [[concepts/usb-20|USB 2.0]] to USB 3.2 and newer [[concepts/open-standards|standards]]. SATA buses commonly handle traditional storage connections. The specific bandwidth requirements depend on the workload—graphics-intensive tasks demand high PCIe bandwidth, while data-heavy [[concepts/software|applications]] rely on fast memory buses.
 
-## Practical Impact
+## Performance Implications
 
-Bus bandwidth limitations can constrain overall system performance when data throughput demands exceed available capacity. For instance, a high-speed NVMe storage drive may be underutilized if connected through an older, slower bus interface. Similarly, GPUs require substantial bandwidth to the main system memory to process large datasets efficiently. Understanding bus bandwidth is essential for matching [[concepts/hardware|hardware components]] appropriately and identifying potential performance bottlenecks in a given system configuration.
-
+Insufficient bus bandwidth can create a bottleneck where components sit idle waiting for data to arrive, limiting overall system performance regardless of how fast individual components operate. This is particularly relevant in [[concepts/scenarios|scenarios]] involving large data transfers, such as video processing, data analysis, or high-speed storage devices. System designers must balance the [[concepts/cost|cost]] of higher-bandwidth buses against the actual [[concepts/performance-gains|performance gains]] needed for a given application.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Space-Based-AI-Data-Centers-Feasibility-Techno-Economics-Engineering|Space Based AI Data Centers Feasibility Techno Economics Engineering]] · [▶ source](https://www.youtube.com/watch?v=cLcF9UCD9-s)
 - 2026-04-22: LLM Inference · [▶ source](https://www.youtube.com/watch?v=B18zBnjZKmc)

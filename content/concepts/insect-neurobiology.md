@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: animals-cognition-behaviour
 tags:
   - "concept"
   - "insect-neurobiology"
@@ -12,11 +11,12 @@ aliases:
   - "Insect Neural Systems"
   - "Arthropod Neurobiology"
 summary: Study of nervous systems and cognitive abilities in insects, including research on bumblebee learning and behavioral capabilities.
-updated: 2026-05-01
+updated: 2026-05-23
+group: animals-cognition-behaviour
 ---
 # Insect Neurobiology
 
-Insect neurobiology is the study of nervous systems and [[concepts/human-cognition|cognitive processes]] in insects. Despite having brains orders of magnitude smaller than vertebrates, insects demonstrate complex behaviors, sensory processing, and [[concepts/learning|learning]] capabilities. Research in this field examines how neural structures and mechanisms enable insects to navigate environments, process information, and respond to stimuli with remarkable efficiency and sophistication.
+Insect neurobiology is the study of nervous systems and [[concepts/human-cognition|cognitive processes]] in insects. Despite having brains orders of magnitude smaller than vertebrates, insects demonstrate complex behaviors, sensory processing, and [[concepts/learning|learning]] [[concepts/capabilities|capabilities]]. Research in this field examines how neural structures and mechanisms enable insects to navigate environments, process information, and respond to stimuli with remarkable efficiency and sophistication.
 
 ## Learning and Behavior
 
@@ -24,7 +24,6 @@ Insect neurobiology is the study of nervous systems and [[concepts/human-cogniti
 
 ## Broader Research Scope
 
-Beyond bumblebees, insect neurobiology encompasses the study of sensory systems, motor control, decision-making, and neural plasticity across diverse species. Research investigates how insects process visual information, use chemoreception for navigation and communication, and coordinate complex behaviors like foraging, mating, and nest construction. Understanding insect nervous systems contributes to comparative neurology and has [[concepts/software|applications]] in [[concepts/ai-technologies|artificial intelligence]] and [[concepts/robotics|robotics]], where insect-inspired algorithms inform efficient [[concepts/problem-solving|problem-solving]] systems.
-
+Beyond bumblebees, insect neurobiology encompasses the study of sensory systems, motor [[concepts/power|control]], [[concepts/decision-making|decision-making]], and neural plasticity across diverse species. Research investigates how insects process visual information, use chemoreception for navigation and communication, and coordinate complex behaviors like foraging, mating, and nest construction. Understanding insect nervous systems contributes to comparative neurology and has [[concepts/software|applications]] in [[concepts/ai-technologies|artificial intelligence]] and [[concepts/robotics|robotics]], where insect-inspired algorithms inform efficient [[concepts/problem-solving|problem-solving]] systems.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)

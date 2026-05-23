@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "ai-applications"
   - "automation"
@@ -15,24 +14,24 @@ aliases:
   - "Applied AI Systems"
   - "Agentic AI Workflows"
 summary: Applications that leverage AI agents and large language models to automate business processes such as customer onboarding and workflow integration.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # AI Powered Applications
 
-AI-powered [[concepts/software|applications]] are software systems that integrate [[concepts/ai-technologies|artificial intelligence]] [[concepts/agents|agents]] and [[concepts/large-language-model-llm|large language models]] (LLMs) to automate and streamline business processes. These applications [[concepts/leverage-ai|leverage AI]] capabilities to handle tasks that traditionally required manual human intervention, such as data processing, decision-making, and customer interactions. By combining [[concepts/agentic-ai|AI agents]] with [[concepts/ai-driven-workflow-automation|workflow automation]] tools, organizations can reduce operational overhead while improving [[concepts/logical-consistency|consistency]] and speed.
+AI-powered [[concepts/software|applications]] are software systems that integrate [[concepts/ai-technologies|artificial intelligence]] [[concepts/agents|agents]] and [[concepts/large-language-model-llm|large language models]] (LLMs) to automate and streamline business processes. These applications [[concepts/leverage-ai|leverage AI]] [[concepts/capabilities|capabilities]] to handle tasks that traditionally required manual human intervention, such as data processing, [[concepts/decision-making|decision-making]], and customer interactions. By combining [[concepts/agentic-ai|AI agents]] with [[concepts/ai-driven-workflow-automation|workflow automation]] tools, organizations can reduce operational overhead while improving [[concepts/logical-consistency|consistency]] and [[concepts/speed|speed]].
 
 ## Core Components
 
-AI-powered applications typically consist of three interconnected elements: intelligent agents that perform actions autonomously, large language models that enable natural language understanding and generation, and integration layers that connect to existing business systems and databases. The agents operate based on defined [[concepts/parameters|parameters]] and can execute workflows, retrieve information, and make decisions within predetermined boundaries. This [[concepts/architecture|architecture]] allows applications to handle complex, multi-step processes without constant human oversight.
+AI-powered applications typically consist of three interconnected elements: intelligent agents that perform actions autonomously, [[concepts/large-language-models|large language models]] that enable natural language understanding and generation, and [[concepts/integration|integration]] layers that connect to existing business systems and databases. The agents operate based on defined [[concepts/parameters|parameters]] and can execute workflows, retrieve information, and [[entities/make|make]] decisions within predetermined boundaries. This [[concepts/architecture|architecture]] allows applications to handle complex, multi-step processes without constant human oversight.
 
 ## Common Applications
 
-Organizations deploy AI-powered applications across various business functions. Customer onboarding systems use AI agents to verify information, complete intake forms, and guide users through setup processes. Support [[concepts/automation|automation]] handles routine inquiries and ticket routing. Data processing applications extract and organize information from unstructured documents. Workflow integration tools connect disparate systems to automate handoffs between departments. These implementations typically focus on high-volume, repetitive processes where standardization is feasible.
+Organizations deploy AI-powered applications across various business functions. Customer onboarding systems use [[concepts/ai-agents|AI agents]] to verify information, complete intake forms, and guide users through [[concepts/setup|setup]] processes. Support [[concepts/automation|automation]] handles routine inquiries and ticket routing. Data processing applications extract and organize information from unstructured documents. [[concepts/workflow|Workflow]] integration tools connect disparate systems to automate handoffs between departments. These implementations typically focus on high-volume, repetitive processes where standardization is feasible.
 
 ## Considerations
 
-While AI-powered applications can improve efficiency and reduce costs, their effectiveness depends on careful implementation. Organizations must define clear process boundaries, establish appropriate oversight mechanisms, and maintain audit trails for [[concepts/compliance|compliance]]. The quality of outputs remains dependent on [[concepts/training-data|training data]] and prompt design. Many implementations combine [[concepts/ai-automation-agents|AI automation]] with human review stages rather than pursuing fully autonomous operation.
-
+While AI-powered applications can improve efficiency and reduce costs, their effectiveness depends on careful [[concepts/adoption|implementation]]. Organizations must define clear process boundaries, establish appropriate oversight mechanisms, and maintain audit trails for [[concepts/compliance|compliance]]. The quality of outputs remains dependent on [[concepts/training-data|training data]] and prompt [[concepts/design|design]]. Many implementations combine [[concepts/ai-automation-agents|AI automation]] with human review stages rather than pursuing fully autonomous operation.
 ## Source Notes
 - 2026-04-21: Hugging Face · [▶ source](https://www.youtube.com/watch?v=3kRB2TXewus)
 - 2026-04-07: Marc Benioff: Salesforce

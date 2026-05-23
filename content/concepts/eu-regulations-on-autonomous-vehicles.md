@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: engineering-systems-robotics-autonomous-vehicles
 tags:
   - "eu-regulation"
   - "autonomous-vehicles"
@@ -12,7 +11,8 @@ aliases:
   - "European Autonomous Vehicle Regulations"
   - "EU AV Regulations"
 summary: European Union regulatory frameworks and standards governing the development, testing, and deployment of autonomous vehicles.
-updated: 2026-05-01
+updated: 2026-05-23
+group: engineering-systems-robotics-autonomous-vehicles
 ---
 # EU Regulations on Autonomous Vehicles
 
@@ -20,12 +20,12 @@ The [[entities/eu|European Union]] has developed a comprehensive [[concepts/regu
 
 ## Safety and Technical Standards
 
-EU regulations require autonomous vehicles to meet stringent safety requirements before [[concepts/deployment|deployment]]. The General Safety [[concepts/regulation|Regulation]] (GSR) and Specific Pollutant Emissions Regulation (SPER) establish mandatory vehicle safety features, including those relevant to automated driving functions. The UN-ECE Regulation 157, adopted by the EU, sets detailed technical requirements for automated lane-keeping systems and other autonomous features. Manufacturers must demonstrate [[concepts/compliance|compliance]] through type-approval procedures, and ongoing [[concepts/cybersecurity|cybersecurity]] standards ensure protection against [[concepts/software|software]] vulnerabilities and hacking.
+[[entities/europe|EU]] regulations require autonomous vehicles to meet stringent safety requirements before [[concepts/deployment|deployment]]. The General Safety [[concepts/regulation|Regulation]] (GSR) and Specific Pollutant Emissions Regulation (SPER) establish mandatory vehicle safety features, including those relevant to automated driving functions. The UN-ECE Regulation 157, adopted by the EU, sets detailed technical requirements for automated lane-keeping systems and other autonomous features. Manufacturers must demonstrate [[concepts/compliance|compliance]] through type-approval procedures, and ongoing [[concepts/cybersecurity|cybersecurity]] standards ensure protection against [[concepts/software|software]] vulnerabilities and hacking.
 
 ## Liability and Legal Framework
 
-A critical aspect of EU autonomous vehicle regulations addresses liability in accidents involving AVs. The proposed [[concepts/ai-technologies|Artificial Intelligence]] Act and Automated Driving Directive establish frameworks for determining responsibility between manufacturers, operators, and users. Insurance requirements have been adapted to account for [[concepts/scenarios|scenarios]] where the vehicle rather than the human driver controls operation. Member states maintain authority to regulate [[concepts/testing|testing]] and deployment within their territories, leading to variations in approval processes across the EU.
+A critical aspect of EU autonomous vehicle regulations addresses liability in accidents involving AVs. The proposed [[concepts/ai-technologies|Artificial Intelligence]] Act and Automated Driving Directive establish frameworks for determining responsibility between manufacturers, operators, and users. Insurance requirements have been adapted to account for [[concepts/scenarios|scenarios]] where the vehicle rather than the human driver controls operation. Member states maintain [[concepts/power|authority]] to regulate [[concepts/testing|testing]] and deployment within their territories, leading to variations in approval processes across the EU.
 
 ## Testing and Deployment
 
-EU member states have established regulatory sandboxes and testing zones to permit controlled autonomous vehicle trials. Guidelines from the European Commission provide recommendations for testing protocols, data collection, and safety validation. The regulations allow for phased deployment starting with limited geographic areas and specific use cases, such as shuttle services or highway platooning, before broader market introduction.
+EU member states have established regulatory sandboxes and testing zones to permit controlled autonomous vehicle trials. Guidelines from the European Commission provide recommendations for testing protocols, data collection, and safety validation. The regulations allow for phased deployment starting with limited geographic areas and specific [[concepts/use-cases|use cases]], such as shuttle services or highway platooning, before broader market introduction.

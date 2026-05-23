@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: planetary-environments-mars
 tags:
   - "concept"
   - "mars"
@@ -14,7 +13,8 @@ aliases:
   - "Martian Life"
   - "Life on Mars"
 summary: Exploration of how Mars's chemically harsh soil conditions might paradoxically create protected environments suitable for microbial life.
-updated: 2026-05-01
+updated: 2026-05-23
+group: planetary-environments-mars
 ---
 # Mars Life
 
@@ -27,7 +27,6 @@ The oxidizing compounds in Martian soil that would damage or destroy exposed org
 ## Current Research Direction
 
 Ongoing Mars exploration missions and soil analysis have focused on identifying potential [[concepts/subsurface-habitats|subsurface habitats]] and assessing whether the planet's geological history could have supported earlier microbial life when conditions were warmer and wetter. The presence of certain clay minerals, sulfates, and other geological features suggests that ancient Mars may have been more habitable, while current research examines whether microbial life could exist in protected subsurface environments today.
-
 ## Source Notes
 - 2026-04-10: Martian Soil Is Deadly. And That's Why It Might Support
 - 2026-04-07: [[lab-notes/2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats|Mars Life The Paradox of Deadly Soil and Hidden Habitats]] · [▶ source](https://www.youtube.com/watch?v=O5FqozA4IpA)

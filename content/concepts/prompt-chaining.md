@@ -1,20 +1,10 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "prompt-engineering"
-  - "google"
-  - "sequential-prompting"
-  - "modular-workflow"
-  - "context-preservation"
-  - "error-containment"
-  - "no-code"
-aliases:
-  - "Sequential Prompting"
-summary: "Prompt chaining is a sequential prompting technique that feeds outputs from one prompt into subsequent prompts to solve complex tasks through iterative refinement."
-updated: 2026-04-14
+summary: Prompt chaining is a sequential prompting technique that feeds outputs from one prompt into subsequent prompts to solve complex tasks through iterative refinement.
+updated: 2026-05-23
 group: reasoning-context-prompting
+stub: true
 ---
 # Prompt Chaining
 
@@ -33,10 +23,9 @@ Sequential [[concepts/prompting|prompting]] technique where outputs from one pro
 
 ## Related Updates
 - 2026 04 14 AI updates including [[entities/opal-labs|Google Opal]] [[entities/creator-magic|Creator Magic]] not available in Australia as of
-	- Overview of trending [[concepts/ai-tools|AI tools]] from [[entities/google-opal|Google]], [[entities/openai|OpenAI]] ([[entities/chatgpt|ChatGPT]]), and Adobe.
+	- Overview of trending [[concepts/ai-tools|AI tools]] from [[entities/google-opal|Google]], [[entities/openai|OpenAI]] ([[entities/chatgpt|ChatGPT]]), and [[entities/adobe|Adobe]].
 	- **[[entities/google-opal|Google Opal]] (Experiment)**: An experimental tool for [[concepts/purpose|purpose]]...
 	- Source: <https://www.youtube.com/watch?v=8ORPJG_eQ3E>
-
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-OWASP-Top-10-Security-Risks-for-AI-Agentic-Applications-Report|OWASP Top 10 Security Risks for AI Agentic Applications Report]] · [▶ source](https://www.youtube.com/watch?v=soFWS8NBcSU)

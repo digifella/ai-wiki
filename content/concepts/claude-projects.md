@@ -12,8 +12,8 @@ tags:
   - "custom-instructions"
 aliases:
   - "Claude context environments"
-summary: "A Claude feature that creates context-specific environments by grouping custom instructions and knowledge bases to tailor AI responses to specific tasks or datasets."
-updated: 2026-04-28
+summary: A Claude feature that creates context-specific environments by grouping custom instructions and knowledge bases to tailor AI responses to specific tasks or datasets.
+updated: 2026-05-23
 group: anthropic-claude
 ---
 # Claude Projects
@@ -21,13 +21,12 @@ group: anthropic-claude
 A feature within [[entities/claude|Claude]] that allows for the creation of context-specific environments by grouping [[concepts/custom-instructions|custom instructions]] and uploaded [[concepts/knowledge-bases|knowledge bases]] to tailor AI [[concepts/responses|responses]] to specific tasks or datasets.
 
 ## Advanced Workflows & Extensions
-- **[[entities/claude-cowork]]**: An advanced implementation focusing on automating workflows through local file access and integrated [[concepts/ai-projects|AI Projects]].
+- **[[entities/claude-cowork]]**: An advanced [[concepts/adoption|implementation]] focusing on automating workflows through local file access and integrated [[concepts/ai-projects|AI Projects]].
     - Designed to bridge the "awareness gap" regarding the full [[concepts/range|range]] of [[concepts/capabilities|AI capabilities]].
     - **Reference**: [[concepts/tutorial|Tutorial]] by [[entities/enovair|Enovair]].
 
 ## Backlinks
 - 2026 04 14 [[concepts/ad-generation|Claude Cowork]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: Master Claude Cowork Full [[concepts/tutorial|Tutorial: Everything You Need To]]

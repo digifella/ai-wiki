@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: business-strategy
-group: market-intelligence-geo-seo
+domain: food-nutrition
 tags:
   - "concept"
   - "leadership"
@@ -14,20 +13,20 @@ aliases:
   - "Sinek's Start With Why"
   - "Purpose-Driven Leadership"
 summary: Simon Sinek's framework for inspiring action through communicating organizational purpose before strategy or tactics.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # Start With Why
 
-**Start With Why** is a leadership and communication framework developed by [[entities/simon-sinek|Simon Sinek]], popularized through his 2009 TEDx talk "How Great Leaders Inspire Action." The framework proposes that organizations and individuals achieve greater success and inspire loyalty by first communicating their [[concepts/motivation|purpose]] or "why"—the fundamental reason the [[concepts/organization|organization]] exists beyond making profit—before discussing strategy or tactics.
+**Start With Why** is a [[concepts/leadership|leadership]] and communication framework developed by [[entities/simon-sinek|Simon Sinek]], popularized through his 2009 TEDx talk "How Great Leaders Inspire Action." The framework proposes that organizations and individuals achieve greater success and inspire loyalty by first communicating their [[concepts/motivation|purpose]] or "why"—the fundamental reason the [[concepts/organization|organization]] exists beyond making profit—before discussing strategy or tactics.
 
 ## Core Structure
 
-The framework operates through three nested levels: Why (purpose), How (process or values), and What (products or services). Sinek argues that most organizations communicate in reverse order, leading with what they do or how they do it. By inverting this sequence and beginning with purpose, leaders create emotional connections that motivate action in employees, customers, and stakeholders.
+The framework operates through three nested levels: Why ([[concepts/purpose|purpose]]), How (process or values), and What (products or services). Sinek argues that most organizations communicate in reverse order, leading with what they do or how they do it. By inverting this sequence and beginning with purpose, leaders create emotional connections that motivate action in employees, customers, and stakeholders.
 
 ## Application in Food and Nutrition
 
-In the food and nutrition domain, the "Start With Why" framework encourages organizations to articulate their underlying mission—whether promoting [[concepts/population-health|public health]], ensuring food security, supporting sustainable [[concepts/agriculture|agriculture]], or improving food access—rather than leading with product features or nutritional specifications. This approach can strengthen brand identity and build community support for nutrition-focused initiatives.
-
+In the food and [[concepts/nutrition|nutrition]] domain, the "Start With Why" framework encourages organizations to articulate their underlying mission—whether promoting [[concepts/population-health|public health]], ensuring food [[concepts/security|security]], supporting sustainable [[concepts/agriculture|agriculture]], or improving food access—rather than leading with product features or nutritional specifications. This approach can strengthen brand identity and build community support for nutrition-focused initiatives.
 ## Source Notes
 - 2026-04-11: Start with why -- how great leaders inspire action | Simon Sinek | TEDxPugetSound
 - 2026-04-07: [[lab-notes/2026-04-07-Anthropic-Dispatch-Remote-Desktop-AI-Integration-Claude-and-OpenClaw|Anthropic Dispatch Remote Desktop AI Integration Claude and OpenClaw]] · [▶ source](https://www.youtube.com/watch?v=1_VlT1vhN04)

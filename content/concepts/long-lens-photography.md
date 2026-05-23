@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "panorama-stitching"
   - "lens-compression"
@@ -11,7 +10,8 @@ aliases:
   - "panoramic photography"
   - "pano stitching"
 summary: Long lens photography involves stitching images into panoramas to achieve wide-angle compositions using lens compression.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Long Lens Photography
 

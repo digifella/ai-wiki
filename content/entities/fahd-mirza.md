@@ -1,38 +1,20 @@
 ---
 type: entity
-tags:
-  - "creator"
-  - "ai-tutorials"
-  - "llm-optimization"
-  - "fine-tuning-guide"
-  - "unsloth-library"
-  - "custom-dataset"
-  - "gemma-4-e2b"
-  - "video-llm"
-  - "spatial-temporal-reasoning"
-  - "qwen"
-  - "agentic-llm"
-  - "coding-models"
-  - "smollm3"
-  - "huggingface"
-  - "vllm"
-updated: 2026-04-14
-summary: "Fahd Mirza is an AI educator and content creator providing tutorials on fine-tuning large language models like Gemma-4 E2B using custom datasets and the Unsloth library, plus reviews of SmolLM3 and video LLM techniques."
+summary: "Fahd Mirza is an AI educator and content creator providing tutorials on fine-tuning large language models like Gemma-4 E2B using custom datasets and the Unsloth library, reviews of SmolLM3, video LLM techniques, and guides on inference acceleration via TurboQuant and DFlash speculative inference. Recently added tutorials on local deployment of MiniMax-M2.7 via llama.cpp quantization, advanced stacked speculative decoding (MTP + Ngram) in Llama.cpp for Qwen3.6, the EdgeQuake framework: a high-performance local Rust Graph-RAG system using Ollama, and an introduction to llama.cpp's new Router Mode for native hot-swappable local LLM switching."
+updated: 2026-05-23
 ---
 # Fahd Mirza
-AI educator and content creator specializing in tutorials for [[concepts/large-language-models|Large Language Models]] and efficient [[concepts/fine-tuning|fine-tuning]] techniques.
+AI educator and [[entities/video-creator|content creator]] specializing in tutorials for [[concepts/large-language-models|Large Language Models]], efficient [[concepts/fine-tuning|fine-tuning]], and advanced [[concepts/inference-optimization|inference optimization]].
 
-## Tutorials & Contributions
-- **Fine-Tune [[entities/gemma-4|Gemma-4]] on Your Own Dataset Locally: Step-by-Step [[concepts/tutorial|Tutorial]]** (2026-04-07)
-    - Provides a practical guide for fine-tuning [[entities/gemma-4-e2b]] on local [[concepts/hardware|hardware]].
-    - Leverages the [[entities/unsloth]] library for enhanced [[concepts/algorithm-efficiency|computational efficiency]].
-    - Demonstrates the process of transforming general-[[concepts/purpose|purpose]] base models into specialized experts using [[concepts/custom-dataset|custom datasets]].
-- **Local Review and [[concepts/deployment|Deployment]] of [[concepts/3-billion-parameter-model|SmolLM3-3B]] via [[entities/vllm|vLLM]]** (2026-04-14)
-    - Detailed review and [[concepts/local-installation|local installation]] guide for the 3B parameter Hugging Face model from the [[concepts/smollm-family|SmolLM family]].
-    - Demonstrates efficient local model serving using [[entities/vllm|vLLM]].
-    - Highlights the "[[concepts/thinking-with-3-pro|thinking mode]]" feature for advanced [[concepts/reasoning|reasoning]] capabilities.
-
-2026 04 14 New SmoILM3 from [[concepts/open-source-machine-learning|hugging face]]
-
-## Source Notes
-- 2026-04-07: [[lab-notes/2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial|Gemma 4 E2B LLM Fine Tuning Custom Dataset Unsloth Local Tutorial]] · [▶ source](https://www.youtube.com/watch?v=cHpB0PTRx5A)
+## Recent Tutorials & Content
+* **[[concepts/inference-engine|llama.cpp]] Router Mode**: Demonstrates native hot-swappable [[concepts/local-llm|local LLM]] switching to simplify management of multiple [[concepts/models|models]] [[lab-notes/2026-05-22-llama.cpp-Router-Mode-Native-Hot-Swappable-Local-LLM-Swi|llama.cpp Router Mode: Native Hot-Swappable Local LLM Switching]].
+* **EdgeQuake Framework**: [[entities/high-performance|High-performance]] local [[concepts/rust-programming-language|Rust]] [[concepts/graph-rag|Graph-RAG]] system using [[entities/ollama]] to address conventional [[concepts/retrieval-augmented-generation|RAG]] limitations.
+* **Advanced [[concepts/speculative-decoding|Speculative Decoding]]**: Stacked speculative decoding (Multi-Token Prediction + Ngram) in [[entities/llamacpp]] for [[concepts/qwen3-model|qwen3]].6.
+* **[[entities/m27|MiniMax-M2.7]] [[concepts/deployment|Deployment]]**: [[concepts/local-deployment|Local deployment]] via [[entities/llamacpp]] [[concepts/model-compression]].
+* **Fine-Tuning & Models**:
+  * Tutorials on fine-tuning [[entities/gemma-4-e2b]] using [[concepts/custom-dataset]] and [[concepts/unsloth-library]].
+  * Reviews of [[entities/smollm|smollm3]] and agentic-llm [[concepts/capabilities|capabilities]].
+  * Video LLM techniques focusing on spatial-temporal-[[concepts/reasoning|reasoning]].
+* **[[concepts/inference|Inference]] Acceleration**:
+  * Guides on acceleration via [[concepts/model-compression]] and [[concepts/dflash]] [[concepts/speculative-inference]].
+  * cpu-gpu-[[concepts/llm-inference|inference optimization]] strategies.

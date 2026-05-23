@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data-quality"
-  - "automation"
-  - "data-integrity"
-  - "excel"
-  - "data-validation"
-  - "data-pipeline-monitoring"
-  - "data-verification"
-aliases:
-  - "data completeness verification"
-  - "dataset completeness"
-summary: "A verification process used to ensure datasets contain all expected records, attributes, and values to maintain data integrity and facilitate automated monitoring."
-updated: 2026-04-26
+summary: A verification process used to ensure datasets contain all expected records, attributes, and values to maintain data integrity and facilitate automated monitoring.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data completeness checking

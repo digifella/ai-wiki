@@ -12,9 +12,10 @@ tags:
   - "research-workflows"
 aliases:
   - "NotebookLM Video Overviews"
-summary: "A feature within the NotebookLM Studio Features suite that was released alongside Audio Overviews."
-updated: 2026-04-27
+summary: A feature within the NotebookLM Studio Features suite that was released alongside Audio Overviews.
+updated: 2026-05-23
 group: video-content-systems
+stub: true
 ---
 # Video Overviews
 
@@ -25,7 +26,6 @@ A feature within [[concepts/notebooklm|NotebookLM]]'s **Studio Features** suite.
 - Associated with recent workflows by [[entities/surya|Surya]] involving [[concepts/data-tables|Data Tables]] and simulations.
 
 2026 04 14 [[entities/ai-with-surya|AI with Surya]] use of [[concepts/data-tables|Data Tables]] and Simulations with [[concepts/ai-integrated-notebooks|NotebookLM]]
-
 ## Source Notes
 - 2026-04-14: [[entities/notebook-lm|Notebook LM MindMaps + Gemini = Stunning Mindmaps + Interactive Visuals]]
 - 2026-04-07: [[lab-notes/2026-04-07-Gemini-AI-Integration-Updates-for-Google-Workspace-Applications|Gemini AI Integration Updates for Google Workspace Applications]] · [▶ source](https://www.youtube.com/watch?v=bhIkY4g5_Sc)

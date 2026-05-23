@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "software-engineering"
-  - "deployment"
-  - "devops"
-  - "incident-management"
-  - "version-control"
-  - "continuous-deployment"
-aliases:
-  - "software-reversion"
-  - "deployment-rollback"
-summary: "The process of reverting a software system to a previously stable state following a failed deployment or the discovery of critical bugs."
-updated: 2026-04-20
+summary: The process of reverting a software system to a previously stable state following a failed deployment or the discovery of critical bugs.
+updated: 2026-05-23
 group: coding-agents-dev-workflows
 ---
 # Software rollback
@@ -20,7 +10,7 @@ group: coding-agents-dev-workflows
 The process of reverting a [[concepts/software|software]] system to a previously stable state, typically following a failed [[concepts/deployment|Deployment]] or the discovery of critical bugs in a new release.
 
 ## Key Concepts
-- Version Control
+- Version [[concepts/power|Control]]
 - Continuous Deployment
 - [[concepts/incident-response|Incident Management]]
 
@@ -29,7 +19,7 @@ The process of reverting a [[concepts/software|software]] system to a previously
     - [[entities/ollama]] has released a native [[concepts/user-interface|User Interface]], expanding functionality beyond its traditional CLI and API.
     - Currently in a "first version" state; presents a critical period where Software rollback may be necessary if regressions occur.
     - Available via the [[entities/github]] Releases page.
-    - Aimed at making [[concepts/local-ai]] more accessible.
+    - Aimed [[concepts/assistive-technology|at]] making [[concepts/local-ai]] more accessible.
     - Source: [https://www.youtube.com/watch?v=prrWESXl7wg]
 
 ## Backlinks

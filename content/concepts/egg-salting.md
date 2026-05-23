@@ -1,14 +1,8 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "scrambled-eggs"
-  - "umami-enhancement"
-  - "protein-coagulation"
-  - "salting-timing"
-  - "temperature-control"
-summary: "Egg salting enhances flavor and texture by adding salt to eggs before cooking."
-updated: 2026-04-14
+summary: Egg salting enhances flavor and texture by adding salt to eggs before cooking.
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
 ---
 # Egg Salting Techniques and Scrambled Eggs
@@ -32,15 +26,14 @@ group: cooking-recipes-culinary-practice
 ### Scrambled Egg Recipes
 - **The Only [[concepts/scrambled-egg-technique|Scrambled Eggs Recipe]] You'll Ever Need**
     - Author: [[entities/lan-lam|Lan Lam]] ([[entities/americas-test-kitchen|America's Test Kitchen]])
-    - Date: 2026-04-13
+    - Date: [[concepts/date-2026-04-13|2026-04-13]]
     - Key Points:
         - Salting eggs before whisking enhances flavor.
-        - [[concepts/liquid-addition|Liquid addition]] (e.g., milk, cream) affects texture and moisture content.
+        - [[concepts/liquid-addition|Liquid addition]] (e.g., milk, cream) affects texture and [[concepts/moisture-content|moisture content]].
         - Use of the right [[concepts/cooking-equipment|cooking equipment]] (non-stick pan, spatula) for optimal results.
 
 ### Backlinks
 2026 04 13 [[concepts/egg-texture|Scrambled Egg Techniques]] Salting Liquid and Equipment for Tender Resul
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Scrambled-Egg-Techniques-Salting-Liquid-and-Equipment-for-Tender-Resul|Scrambled Egg Techniques Salting Liquid and Equipment for Tender Resul]] · [▶ source](https://www.youtube.com/watch?v=keGd9CXUHco)
 - 2026-04-17: [[lab-notes/2026-04-17-Optimal-Steak-Cooking-Methods-Avoiding-Gray-Band-Enhancing-Crust|Optimal Steak Cooking Methods Avoiding Gray Band Enhancing Crust]] · [▶ source](https://www.youtube.com/watch?v=uJcO1W_TD74)

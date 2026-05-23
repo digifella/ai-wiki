@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "concept"
   - "token-optimization"
@@ -12,11 +11,12 @@ tags:
 aliases:
   - "context-token-management"
 summary: This concept involves using advanced tool-calling methods, such as Anthropic's Tool Search Tool, for optimizing context tokens.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Context Token Optimization
 
-Context Token Optimization is a technique for reducing [[concepts/token-consumption|token consumption]] in [[concepts/ai-productivity-agents|AI agent systems]] by strategically managing how and when tools are called. Rather than loading all available tools into a model's [[concepts/context-window|context window]], this approach uses [[concepts/tool-definitions|advanced tool-calling methods]] to dynamically retrieve and present only the most relevant tools for a given task. This reduces the total [[concepts/tokens|tokens]] required to process requests while maintaining access to a broader toolkit.
+Context [[concepts/token-optimization|Token Optimization]] is a technique for reducing [[concepts/token-consumption|token consumption]] in [[concepts/ai-productivity-agents|AI agent systems]] by strategically managing how and when tools are called. Rather than loading all available tools into a model's [[concepts/context-window|context window]], this approach uses [[concepts/tool-definitions|advanced tool-calling methods]] to dynamically retrieve and present only the most relevant tools for a given task. This reduces the total [[concepts/tokens|tokens]] required to process requests while maintaining access to a broader toolkit.
 
 ## Tool Search and Dynamic Retrieval
 
@@ -24,8 +24,7 @@ Context Token Optimization is a technique for reducing [[concepts/token-consumpt
 
 ## Implementation Considerations
 
-Effective context token optimization requires careful design of tool [[concepts/metadata|metadata]] and search [[concepts/parameters|parameters]] to ensure that relevant tools are reliably retrieved. The tradeoff involves adding a retrieval step that itself consumes tokens, so optimization gains are most significant in [[concepts/scenarios|scenarios]] with either large tool inventories or repeated interactions where the same tools might be reused across multiple requests.
-
+Effective context token optimization requires careful [[concepts/design|design]] of tool [[concepts/metadata|metadata]] and search [[concepts/parameters|parameters]] to ensure that relevant tools are reliably retrieved. The tradeoff involves adding a retrieval step that itself consumes tokens, so optimization gains are most significant in [[concepts/scenarios|scenarios]] with either large tool inventories or repeated interactions where the same tools might be reused across multiple requests.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Meta-Harness-AI-Self-Evolution-via-Autonomous-LLM-Harness-Optimization|Meta Harness AI Self Evolution via Autonomous LLM Harness Optimization]] · [▶ source](https://www.youtube.com/watch?v=61JUHDK-em8)
 - 2026-04-08: [[lab-notes/2026-04-08-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

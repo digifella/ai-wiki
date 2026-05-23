@@ -1,12 +1,12 @@
 ---
-domain: tools-platforms
 type: concept
+domain: tools-platforms
 tags:
   - "debugging"
   - "web-application"
   - "ai-tools"
   - "automation"
-updated: 2026-04-14
+updated: 2026-05-23
 group: web-publishing-quartz-websites
 ---
 # Web Application
@@ -23,10 +23,8 @@ A **web application**, often referred to simply as a "web app," is a type of [[c
 
 ## Debugging & Automation
 - [[concepts/claude-code|Claude Code]] CLI can now bridge the terminal and browser environments.
-- [[entities/claude-in-chrome|Claude in Chrome]] (Beta): Allows direct control of the browser extension for automated [[concepts/testing|testing]].
+- [[entities/claude-in-chrome|Claude in Chrome]] (Beta): Allows direct [[concepts/power|control]] of the browser extension for automated [[concepts/testing|testing]].
 - Version support: Features updated in versions 2.0.70 through 2.0.72.
 - Enables streamlined [[concepts/debugging|debugging]] workflows via natural language [[concepts/commands|commands]] within the terminal.
-
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)

@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "engineering"
-  - "mechanics"
-  - "propulsion"
-  - "thermodynamics"
-  - "heat-engine"
-  - "combustion-engine"
-  - "mechanical-engineering"
-  - "engine-maintenance"
-aliases:
-  - "ICE"
-  - "combustion engine"
-summary: "An internal combustion engine is a type of heat engine that converts chemical energy from a fuel-air mixture into mechanical work through the expansion of high-pressure gases."
-updated: 2026-04-26
+summary: An internal combustion engine is a type of heat engine that converts chemical energy from a fuel-air mixture into mechanical work through the expansion of high-pressure gases.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Internal combustion engine
@@ -28,7 +16,6 @@ An Internal combustion engine is a type of heat engine where the combustion of a
 
 ### Related Notes
 - 2026 04 23 Engine Survival The Critical Role of [[concepts/oil-pressure|Oil Pressure]] and Warning Lights
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

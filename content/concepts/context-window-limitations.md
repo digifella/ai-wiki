@@ -1,39 +1,26 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "context-window"
-  - "coding"
-  - "claude"
-  - "task-decomposition"
-  - "state-preservation"
-  - "progressive-refinement"
-  - "one-shot-failures"
-aliases:
-  - "context window constraints"
-  - "token limit constraints"
-summary: "Context window limitations are constraints on the maximum input length an AI model can process in a single request, causing loss of historical context during complex, multi-step tasks."
-updated: 2026-04-15
+summary: Context window limitations are constraints on the maximum input length an AI model can process in a single request, causing loss of historical context during complex, multi-step tasks.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Context Window Limitations
 
-Constraints on the maximum input length an AI model can process in a single request, causing loss of [[concepts/historical-context|historical context]] when handling complex, multi-step tasks like code generation. Primary impacts:
+Constraints on the maximum input length an AI model can process in a single request, causing loss of [[concepts/historical-context|historical context]] when handling complex, multi-step tasks like [[concepts/code-generation|code generation]]. Primary impacts:
 
 - **"One-shot" failures**: [[concepts/agentic-ai|AI agents]] attempt to generate entire [[concepts/software|applications]] in a single prompt, exceeding context limits and producing incomplete/inaccurate code.
 - **State loss**: Previous interaction history becomes inaccessible after exceeding the token limit, breaking [[concepts/continuity|continuity]] in iterative development.
 
 ## Effective Mitigation Strategy
 
-Adapted from [[entities/anthropic|Anthropic]]'s workflow (video summary):
+Adapted from [[entities/anthropic|Anthropic]]'s [[concepts/workflow|workflow]] (video [[concepts/summary|summary]]):
 
 - **Iterative [[concepts/task-decomposition|task decomposition]]**: Break code generation into small, self-contained steps (e.g., function-by-function) that fit within context limits.
-- **State [[concepts/preservation|preservation]]**: Maintain external state (e.g., via version control or summary logs) between agent sessions instead of relying on model context.
+- **State [[concepts/preservation|preservation]]**: Maintain external state (e.g., via version [[concepts/power|control]] or summary logs) between [[entities/agent|agent]] sessions instead of relying on model context.
 - **Progressive refinement**: Use agent outputs to generate the next logical step, avoiding monolithic requests.
 
-> See 2026 04 14 Fixing long [[concepts/running|running]] [[concepts/ai-assisted-coding|Claude code]] sessions for [[concepts/implementation-details|implementation details]] and video walkthrough: [Fixing long running Claude code sessions](https://www.youtube.com/watch?v=XWp4k9K6oK8)
-
+> See 2026 04 14 Fixing long [[concepts/running|running]] [[concepts/ai-assisted-coding|Claude code]] sessions for [[concepts/implementation-details|implementation details]] and [[concepts/video-walkthrough|video walkthrough]]: [Fixing long running Claude code sessions](https://www.youtube.com/watch?v=XWp4k9K6oK8)
 ## Source Notes
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

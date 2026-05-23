@@ -1,43 +1,22 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "photo-editing"
-  - "mobile-photo-editing"
-  - "tutorial"
-  - "photo-editing-tools"
-  - "mobile-apps"
-  - "tutorial-guide"
-  - "camera-functionality"
-  - "snapseed-overview"
-  - "azure-ai"
-  - "agentic-rag"
-  - "ai-agents"
-aliases:
-  - "Snapseed Tutorial"
-  - "Mobile Photo Editing Guide"
-  - "New Snapseed Features"
-  - "Photo Genius Channel"
-  - "Agentic RAG Tutorial"
-  - "Azure AI Guide"
-summary: "A tutorial video by Photo Genius providing an overview of the free Snapseed app, featuring new camera and pro version updates. Also includes a guide for building an agentic RAG system in Azure AI and Foundry."
-updated: 2026-04-14
+summary: A tutorial video by Photo Genius providing an overview of the free Snapseed app, featuring new camera and pro version updates. Also includes a guide for building an agentic RAG system in Azure AI and Foundry.
+updated: 2026-05-23
 group: app-builders-no-code-tools
-backlinks:
-  - "2026 04 14 Build an agentic rag system in azure ai and foundry"
 ---
 # Tutorial
 
 ## Snapseed Overview Free Photo Editing App with New Camera and Pro
 
-**Clip title:** SNAPSEED - The best FREE [[concepts/photo-editing|photo editing]] app is now even better with new features and a CAMERA.
+**[[concepts/clip-title|Clip title]]:** SNAPSEED - The best FREE [[concepts/photo-editing|photo editing]] app is now even better with new features and a CAMERA.
 
 **Author / channel:** [[entities/photo-genius|Photo Genius]]
 
 **URL:** https://www.youtube.com/watch?v=mvcTq5uA6uo
 
 ### Summary
-This video provides a comprehensive overview and tutorial of [[entities/snapseed|Snapseed]], highlighting its capabilities as a powerful and free [[concepts/photo-editing|mobile photo editing]] application. The [[entities/speaker|speaker]], [[entities/photo-genius|Photo Genius]], showcases the latest updates including new features and an integrated [[concepts/camera-settings|camera]].
+This video provides a comprehensive overview and tutorial of [[entities/snapseed|Snapseed]], highlighting its [[concepts/capabilities|capabilities]] as a powerful and free [[concepts/photo-editing|mobile photo editing]] application. The [[entities/speaker|speaker]], [[entities/photo-genius|Photo Genius]], showcases the latest updates including new features and an integrated [[concepts/camera-settings|camera]].
 
 ### Features
 - **New Camera Feature**: Enhances [[concepts/user-experience-design|user experience]] by integrating advanced [[concepts/camera-functionality|camera functionality]].
@@ -52,16 +31,15 @@ This video provides a comprehensive overview and tutorial of [[entities/snapseed
 **URL:** https://www.youtube.com/watch?v=xXTuxKdzZrI
 
 ### Summary
-This guide outlines the process of setting up an [[concepts/ai-agent|AI agent]] that uses Retrieval-Augmented Generation (RAG) to answer questions based on specific data sources.
+This guide outlines the process of setting up an [[concepts/ai-agent|AI agent]] that uses [[concepts/answer-generation|Retrieval-Augmented Generation]] (RAG) to answer questions based on specific data sources.
 
 ### Features
-- **Agentic RAG [[concepts/setup|Setup]]**: Step-by-step [[concepts/instructions|instructions]] for creating an [[concepts/ai-agent|AI agent]] using RAG in Microsoft Azure.
+- **[[concepts/agentic-rag|Agentic RAG]] [[concepts/setup|Setup]]**: Step-by-step [[concepts/instructions|instructions]] for creating an [[concepts/ai-agent|AI agent]] using RAG in [[entities/azure|Microsoft Azure]].
 - **[[concepts/markdown-guide|Markdown Guide]]**: A detailed [[concepts/markdown|markdown]] guide based on the video tutorial.
-- **Azure [[concepts/ai-integration|AI Integration]]**: Leverages [[concepts/azure-cognitive-services|Azure AI]] capabilities for enhanced performance.
+- **Azure [[concepts/ai-integration|AI Integration]]**: Leverages [[concepts/azure-cognitive-services|Azure AI]] [[concepts/capabilities|capabilities]] for enhanced performance.
 
 Backlinks:
 2026
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-09: Photoshop

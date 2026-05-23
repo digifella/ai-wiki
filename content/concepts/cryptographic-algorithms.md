@@ -12,9 +12,9 @@ tags:
 aliases:
   - "cryptographic primitives"
   - "encryption algorithms"
-summary: "Cryptographic algorithms include symmetric-key, asymmetric-key, and hash functions used for the encryption, decryption, or authentication of information."
-updated: 2026-04-30
-group: cryptography-codes-ciphers
+summary: Cryptographic algorithms include symmetric-key, asymmetric-key, and hash functions used for the encryption, decryption, or authentication of information.
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # Cryptographic algorithms
 
@@ -26,11 +26,10 @@ Mathematical procedures used to [[concepts/secure|secure]] information via encry
 - Hash-functions: One-way mathematical transformations used to ensure data [[concepts/integrity|integrity]] (e.g., SHA-256).
 
 ## Post-Quantum Cryptography (PQC)
-The development of cryptographic primitives designed to remain [[concepts/secure|secure]] against the computational power of [[entities/quantum-computing]].
-- [[concepts/encryption-algorithms|Post-quantum encryption]] (PQC) is a critical area of research and development.
+The development of cryptographic primitives designed to remain [[concepts/secure|secure]] against the computational [[concepts/power|power]] of [[entities/quantum-computing]].
+- [[concepts/encryption-algorithms|Post-quantum encryption]] ([[concepts/post-quantum-cryptography|PQC]]) is a critical area of research and development.
 - Focused on addressing the [[concepts/security|security]] threats posed by the evolution of [[entities/quantum-computing]] to existing digital security frameworks.
 - Reference: [[concepts/post-quantum-security|Post-Quantum Cryptography]]: Addressing Quantum Computer Threats to Digital Security (via Computerphile).
-
 ## Source Notes
 - 2026-04-17: [[lab-notes/2026-04-17-Lattice-Cryptography-A-Post-Quantum-Solution-for-Data-Security|Lattice Cryptography A Post Quantum Solution for Data Security]] · [▶ source](https://www.youtube.com/watch?v=ZRpcYSghGr8)
 - 2026-04-30: Post-Quantum Cryptography · [▶ source](https://www.youtube.com/watch?v=_MoRcYLN-7U)

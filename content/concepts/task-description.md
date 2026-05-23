@@ -1,29 +1,18 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "prompt-engineering"
-  - "task-description"
-  - "context-engineering"
-  - "ai-models"
-  - "instruction-design"
-aliases:
-  - "task-definition"
-  - "task-specification"
-summary: "A concise statement defining work to be performed, including objectives, constraints, and necessary context for execution."
-updated: 2026-04-17
+summary: A concise statement defining work to be performed, including objectives, constraints, and necessary context for execution.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Task description
 
 A concise statement defining the work to be performed, including objectives, constraints, and necessary context for successful execution.
 
-- **[[concepts/context-engineering|Context Engineering]]**: Skill of providing comprehensive context (background, constraints, prior interactions) to [[concepts/ai-models|AI models]] for effective task execution, distinct from [[entities/prompt-engineering]] (which focuses on immediate prompt [[concepts/structure|structure]]). See: [Video discussion](https://www.youtube.com/watch?v=ioOHXt7wjhM).
+- **[[concepts/context-engineering|Context Engineering]]**: [[concepts/skill|Skill]] of providing comprehensive context (background, constraints, prior interactions) to [[concepts/ai-models|AI models]] for effective task execution, distinct from [[entities/prompt-engineering]] (which focuses on immediate prompt [[concepts/structure|structure]]). See: [Video discussion](https://www.youtube.com/watch?v=ioOHXt7wjhM).
 - **[[concepts/prompt-engineering|Prompt Engineering]]**: Practice of designing input prompts to guide AI [[concepts/model-behavior|model behavior]].
 
 2026 04 14 [[concepts/external-knowledge|Context engineering]] by [[concepts/prompt-based-modeling|prompt engineering]] channel
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Google-NotebookLM-Customizing-Design-for-Professional-Presentations-vi|Google NotebookLM Customizing Design for Professional Presentations vi]] · [▶ source](https://www.youtube.com/watch?v=hqquu7H7X0w)
 - 2026-04-12: [[lab-notes/2026-04-12-Feynman-Mathematics-as-a-Tool-Not-Understanding-Mayan-Example|Feynman Mathematics as a Tool Not Understanding Mayan Example]] · [▶ source](https://www.youtube.com/watch?v=E383eEA54DE)

@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "risk management"
-  - "privacy"
-  - "local ai"
-  - "risk-management"
-  - "cybersecurity"
-  - "local-ai"
-  - "privacy-compliance"
-  - "access-control"
-aliases:
-  - "Risk Reduction Strategies"
-  - "Security Measures"
-  - "Privacy Safeguards"
-  - "Mitigation Tactics"
-summary: "Risk mitigation involves identifying and implementing measures to reduce or eliminate risks in cybersecurity, project management, and business operations."
-updated: 2026-04-11
+summary: Risk mitigation involves identifying and implementing measures to reduce or eliminate risks in cybersecurity, project management, and business operations.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # Risk Mitigation
@@ -32,12 +18,11 @@ Risk mitigation involves strategies to reduce or eliminate risks in various cont
 
 ## Related Concepts and Strategies
 - data encryption
-- secure communication channels
+- [[concepts/secure|secure]] communication channels
 - [[concepts/privacy|privacy]] [[concepts/compliance|compliance]]
-- access control
+- access [[concepts/power|control]]
 
 2026 04 10 [[concepts/local-ai-privacy-risks|Local AI Privacy Risks]] and [[concepts/mitigation-strategies|Mitigation Strategies]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]] · [▶ source](https://www.youtube.com/watch?v=GWUnPiDzzkE)
 - 2026-04-11: [[lab-notes/2026-04-11-Climate-Change-Health-Risks-to-US-Communities-and-Vulnerable-Populatio|Climate Change Health Risks to US Communities and Vulnerable Populatio]] · [▶ source](https://www.youtube.com/watch?v=JywsWktvODc)

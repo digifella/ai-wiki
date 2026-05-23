@@ -1,21 +1,10 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "rocket-propellant"
-  - "martian-soil"
-  - "thyroid-disorders"
-  - "extremophiles"
-  - "hidden-habitats"
-aliases:
-  - "perchlorate-salts"
-  - "cl-oxidation-state"
-  - "mars-toxicity"
-  - "iodine-interference"
-summary: "Perchlorates are salts found on Earth and Mars, with significant implications for both environments, including their use in propellants and potential toxicity to life."
-updated: 2026-04-11
+summary: Perchlorates are salts found on Earth and Mars, with significant implications for both environments, including their use in propellants and potential toxicity to life.
+updated: 2026-05-23
 group: planetary-environments-mars
-title: "Perchlorates"
+title: Perchlorates
 ---
 # Perchlorates
 
@@ -24,7 +13,7 @@ Perchlorates are salts containing chlorine with an oxidation state of -1 and oxy
 ## On Earth:
 - Used in rocket propellants, explosives, and fireworks.
 - Can be found naturally or produced synthetically.
-- Have been linked to thyroid disorders when present in drinking water at high levels.
+- Have been linked to thyroid disorders when present in drinking water [[concepts/assistive-technology|at]] high levels.
 
 ## On Mars:
 - Widely distributed across the Martian surface, particularly in arctic regions.
@@ -44,6 +33,5 @@ Perchlorates are salts containing chlorine with an oxidation state of -1 and oxy
   - Examination of hidden habitats where microbial life might thrive despite surface conditions.
 
 2026 04 10 Mars Life The Paradox of Deadly Soil and Hidden Habitats
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats|Mars Life The Paradox of Deadly Soil and Hidden Habitats]] · [▶ source](https://www.youtube.com/watch?v=O5FqozA4IpA)

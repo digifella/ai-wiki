@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "antimatter"
-  - "particle_physics"
-  - "cern"
-  - "transportation"
-  - "penning_trap"
-  - "antimatter-transport"
-  - "penning-trap"
-  - "particle-physics"
-  - "antimatter-containment"
-summary: "Antimatter transport is a critical area of research in modern physics focusing on the movement and containment of antimatter particles."
-updated: 2026-04-14
+summary: Antimatter transport is a critical area of research in modern physics focusing on the movement and containment of antimatter particles.
+updated: 2026-05-23
 group: cosmology-astronomy-astrophysics
 ---
 # Antimatter Transport
@@ -29,17 +19,16 @@ group: cosmology-astronomy-astrophysics
 ### References and Related Concepts
 - [[entities/carl-anderson|Carl Anderson]]
 - [[concepts/positron-discovery|Positron Discovery]]
-- Penning_Trap
+- [[concepts/penning-trap|Penning_Trap]]
 - [[entities/cern]]
 
 ### Summary Points from Recent Event
 - **Date:** 2026-04-12
 - **Location:** [[entities/cern|CERN]], Switzerland
-- **Presenter:** [[entities/anton-petrov|Anton Petrov]] (YouTube channel)
+- **Presenter:** [[entities/anton-petrov|Anton Petrov]] ([[entities/youtube|YouTube]] channel)
 - **Video URL:** https://www.youtube.com/watch?v=rnE5GeKfnaE
 
 ### Backlinks
-2026 04 12 First Historic Transportation of Antimatter by Truck Using CERNs Penni
-
+2026 04 12 First Historic Transportation of [[concepts/antimatter|Antimatter]] by Truck Using CERNs Penni
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-First-Historic-Transportation-of-Antimatter-by-Truck-Using-CERNs-Penni|First Historic Transportation of Antimatter by Truck Using CERNs Penni]] · [▶ source](https://www.youtube.com/watch?v=rnE5GeKfnaE)

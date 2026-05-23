@@ -1,35 +1,36 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "raw-image-format"
   - "photo-editing"
-  - "lightroom"
-  - "adobe-photoshop"
-  - "fujifilm"
   - "image-processing"
+  - "digital-negative"
+  - "post-processing"
+  - "camera-sensors"
+  - "file-formats"
+  - "photography-workflow"
 aliases:
   - "RAW format"
   - "raw files"
   - "digital negative"
-summary: This page is a stub awaiting enrichment.
-updated: 2026-05-01
-stub: true
+  - "unprocessed sensor data"
+summary: Camera Raw is unprocessed image data captured by a digital camera's sensor that preserves full tonal range and color information for flexible post-processing.
+updated: 2026-05-23
+group: photography-cameras
 title: Camera Raw
 ---
 # Camera Raw
 
-Camera Raw refers to the unprocessed image data directly captured by a digital camera's sensor. Unlike compressed formats such as JPEG, raw files contain all the information the camera recorded at the moment of [[concepts/exposure|exposure]], including the full tonal range and color information before any in-camera processing is applied. Common raw file formats include CR2 (Canon), NEF (Nikon), ARW (Sony), and DNG (Digital Negative), which is an open standard developed by Adobe.
+[[entities/camera-raw-filter|Camera Raw]] refers to the unprocessed image data directly captured by a digital camera's sensor. Unlike compressed formats such as JPEG, raw [[concepts/files|files]] contain all the information the camera recorded [[concepts/assistive-technology|at]] the moment of [[concepts/exposure|exposure]], including the full tonal [[concepts/range|range]] and complete color information before any in-camera processing is applied. This unprocessed state preserves maximum flexibility for [[concepts/adjustments|adjustments]] during post-production. Common raw file formats include CR2 (Canon), NEF (Nikon), ARW (Sony), and DNG (Digital Negative), an open standard developed by [[entities/adobe|Adobe]].
 
-## Processing and Workflow
+## Processing Requirements
 
-Raw files require post-processing [[concepts/software|software]] to become usable [[concepts/images|images]]. Adobe Camera Raw, Lightroom, Capture One, and similar applications allow photographers to adjust exposure, white balance, [[concepts/contrast|contrast]], and [[concepts/photo-tonal-adjustments|color grading]] with greater flexibility than working from JPEGs. Because raw files preserve the original sensor data, edits can often be made non-destructively, and mistakes can be corrected without quality loss. This makes raw format particularly valuable for professional photography and situations where precise control over the final image is important.
+Raw files cannot be viewed or printed directly without conversion. Photographers must use dedicated post-processing software—such as [[entities/adobe-lightroom|Adobe Lightroom]], Capture One, or the camera manufacturer's own [[concepts/software|applications]]—to develop raw files into viewable formats like JPEG or TIFF. This processing step allows photographers to adjust exposure, white balance, [[concepts/contrast|contrast]], and [[concepts/photo-tonal-adjustments|color grading]] with significantly more latitude than if starting from a compressed JPEG file, where much tonal and color data has already been discarded.
 
-## Advantages and Considerations
+## Advantages and Tradeoffs
 
-The primary advantage of shooting raw is the latitude it provides during post-processing—recovering blown highlights, lifting [[concepts/shadows|shadows]], and correcting white balance are more forgiving with raw data. However, raw files require significantly more [[entities/storage|storage]] space than compressed formats and necessitate competency in post-processing software. For casual photography or when rapid image delivery is needed, JPEG remains more practical. Many photographers use raw for important shoots and JPEG for everyday photography, or shoot both formats simultaneously.
-
+The primary advantage of shooting raw is the recovery of detail in [[concepts/highlights|highlights]] and [[concepts/shadows|shadows]] that would be lost in in-camera processing. Raw files also provide [[concepts/non-destructive-editing|non-destructive editing]], meaning adjustments can be modified or undone without degrading image quality. However, raw files are substantially larger than JPEGs, requiring more [[entities/storage|storage]] space and processing [[concepts/power|power]]. They also demand a steeper [[concepts/learning|learning]] curve for photographers unfamiliar with post-processing workflows.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Adobe-Photoshop-AI-Assistant-Automated-Layer-Renaming-and-Generative|Adobe Photoshop AI Assistant Automated Layer Renaming and Generative]] · [▶ source](https://www.youtube.com/watch?v=eT_muXSPkeo)

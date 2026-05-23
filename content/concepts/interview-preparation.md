@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "interview-preparation"
-  - "talent-recruitment"
-  - "generative-ai"
-  - "hiring-strategies"
-  - "interview-preparation-strategies"
-  - "generative-ai-in-interviews"
-  - "hiring-methods-evolution"
-  - "candidate-assessment-tools"
-  - "talent-evaluation-challenges"
-aliases:
-  - "job-interview-readiness"
-  - "genai-and-recruitment"
-  - "interviewing-with-ai"
-summary: "Interview preparation involves understanding the role and company culture, with increasing use of generative AI tools for resume building and answer crafting."
-updated: 2026-04-12
+summary: Interview preparation involves understanding the role and company culture, with increasing use of generative AI tools for resume building and answer crafting.
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # Interview Preparation Concepts
@@ -31,7 +17,7 @@ Interview [[concepts/preparation|preparation]] encompasses strategies and techni
 ### Integrating GenAI in Interview Preparation
 
 - Candidates may use AI to generate tailored resumes and practice interview [[concepts/responses|responses]].
-- Hiring managers must adapt their evaluation methods to assess genuine candidate [[concepts/skills|skills]] over polished AI-generated answers.
+- Hiring managers must adapt their evaluation methods to assess genuine candidate [[concepts/skills|skills]] over polished [[concepts/ai-generated-answers|AI-generated answers]].
 
 ## Related Concepts
 - resume-building-with-[[concepts/generative-ai|generative-ai]]
@@ -40,7 +26,7 @@ Interview [[concepts/preparation|preparation]] encompasses strategies and techni
 
 ### New Techniques for Evaluating Talent
 
-**Clip title:** Five Interview Questions GenAI Can't Answer
+**[[concepts/clip-title|Clip title]]:** Five Interview Questions GenAI Can't Answer
 **Author / channel:** [[entities/mit|MIT]] Sloan Management Review
 **URL:** https://www.youtube.com/watch?v=qgC--IUnr7I
 
@@ -48,7 +34,6 @@ Interview [[concepts/preparation|preparation]] encompasses strategies and techni
 - Hiring managers need innovative [[concepts/interview-techniques|interview techniques]] to uncover genuine talent and candidate expertise.
 
 ## Backlinks
-2026 04 11 Five Interview Techniques to Uncover Genuine Talent in the GenAI Age
-
+2026 04 11 Five [[concepts/interview-techniques|Interview Techniques]] to Uncover Genuine Talent in the GenAI Age
 ## Source Notes
 - 2026-04-11: Five Interview Questions GenAI Can't Answer

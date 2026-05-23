@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: entertainment-games
-group: music-audio-performance
 tags:
   - "tonal-music"
   - "music-theory"
@@ -14,11 +13,12 @@ aliases:
   - "tonality"
   - "tonal-system"
 summary: Tonal music is organized around a central tonal center and uses harmonic relationships within a key or scale.
-updated: 2026-05-01
+updated: 2026-05-23
+group: music-audio-performance
 ---
 # Tonal Music
 
-Tonal music is a system of musical [[concepts/organization|organization]] centered around a primary pitch called the tonal center or tonic. This system establishes a [[concepts/hierarchy|hierarchy]] of pitches within a key or scale, where the tonic serves as the point of harmonic rest and resolution. Most Western popular music, classical music from the Baroque through Romantic periods, and many non-Western musical traditions employ tonal organization as their foundational structural principle.
+Tonal music is a system of musical [[concepts/organization|organization]] centered around a primary [[entities/pitch|pitch]] called the tonal center or tonic. This system establishes a [[concepts/hierarchy|hierarchy]] of pitches within a key or scale, where the tonic serves as the point of harmonic rest and resolution. Most Western popular music, classical music from the Baroque through Romantic periods, and many non-Western musical traditions employ tonal organization as their foundational structural principle.
 
 ## Harmonic Function
 

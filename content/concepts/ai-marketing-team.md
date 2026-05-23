@@ -1,25 +1,10 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "AI marketing team"
-  - "Claude Code Agents"
-  - "Anthropic"
-  - "AI development environment"
-  - "ai-marketing-strategy"
-  - "team-building"
-  - "anthropic-claude"
-  - "marketing-agents"
-  - "data-analysis"
-aliases:
-  - "AI marketing squad"
-  - "Claude-powered team"
-  - "AI-driven marketing group"
-  - "Marketing automation team"
-summary: "A guide to assembling an AI marketing team that leverages Claude Code from Anthropic for various marketing tasks."
-updated: 2026-04-11
+summary: A guide to assembling an AI marketing team that leverages Claude Code from Anthropic for various marketing tasks.
+updated: 2026-05-23
 group: ai-marketing-content-ops
-title: "AI Marketing Team"
+title: AI Marketing Team
 ---
 # AI Marketing Team
 
@@ -29,7 +14,7 @@ Building an [[concepts/ai-copywriting|AI marketing]] team involves integrating v
 
 - **Research [[concepts/agentic-ai|Agents]]:** Utilize [[entities/claude|Claude]] for market analysis, trend tracking, and competitor insights.
 - **[[concepts/writing|Writing]] [[concepts/agents|Agents]]:** Deploy [[concepts/claude-ai|Claude]] to craft compelling content tailored to target audiences.
-- **Analytical Agents:** Leverage Claude's data processing [[concepts/skills|skills]] for in-depth campaign [[concepts/performance-benchmarks|performance analysis]].
+- **Analytical Agents:** Leverage [[concepts/claude|Claude]]'s data processing [[concepts/skills|skills]] for in-depth campaign [[concepts/performance-benchmarks|performance analysis]].
 - **[[concepts/design|Design]] Agents:** Collaborate with Claude to create visually appealing marketing materials.
 
 ## Building the Team
@@ -48,15 +33,14 @@ Integrate [[entities/anthropic-institute|Anthropic]]'s [[concepts/claude-code|Cl
 
 **Building an AI Marketing Team with [[concepts/claude-code|Claude Code Agents]] & Skills**
 
-- **Clip title:** [[concepts/ai-assisted-coding|Claude Code]]: Build Your Full AI Marketing Team (Agents + Skills)
+- **[[concepts/clip-title|Clip title]]:** [[concepts/ai-assisted-coding|Claude Code]]: Build Your Full AI Marketing Team (Agents + Skills)
 - **Author / channel:** [[entities/grace-leung|Grace Leung]]
 - **URL:** https://www.youtube.com/watch?v=yLXLHnD4fco
 
 ### Summary
-This video provides a detailed, step-by-step guide on how to build and manage an [[concepts/ai-marketing|AI marketing]] team using [[concepts/claude-code|Claude Code]], [[entities/anthropic|Anthropic]]'s integrated [[concepts/coding-workspace|development environment]]. The core concept revolves around transforming [[entities/claude|Claude]] into a comprehensive AI marketing team capable of research, [[concepts/writing|writing]], analysis, and [[concepts/design|design]], all working collaboratively.
+This video provides a detailed, step-by-step guide on how to build and manage an [[concepts/ai-marketing|AI marketing]] team using [[concepts/claude-code|Claude Code]], [[entities/anthropic|Anthropic]]'s integrated [[concepts/coding-workspace|development environment]]. The core concept revolves around transforming [[entities/claude|Claude]] into a comprehensive [[concepts/ai-copywriting|AI marketing]] team capable of research, [[concepts/writing|writing]], analysis, and [[concepts/design|design]], all working collaboratively.
 
-2026 04 10 Building an AI Marketing Team with Claude Code Agents Skills
-
+2026 04 10 Building an AI Marketing Team with [[concepts/coding-assistant|Claude Code]] [[concepts/agents|Agents]] [[concepts/skills|Skills]]
 ## Source Notes
 - 2026-04-07: Claude Code: Build Your Full AI Marketing Team (Agents +
 - 2026-04-10: [[lab-notes/2026-04-10-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)

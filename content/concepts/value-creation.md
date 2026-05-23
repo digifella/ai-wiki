@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "tool-orchestration"
   - "google-ai"
@@ -12,11 +11,12 @@ aliases:
   - "AI Tool Integration"
   - "Marketing Assistant Creation"
 summary: Grace Leung demonstrates how to use various Google capabilities and tool orchestration to create marketing assistants.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # Value Creation
 
-Value creation in business strategy refers to the process of generating increased worth through the effective use of tools, capabilities, and orchestration. This concept extends beyond traditional product or [[concepts/service-delivery|service delivery]] to encompass how organizations leverage existing platforms and technologies to build new solutions that address market needs.
+Value creation in business strategy refers to the process of generating increased worth through the effective use of tools, [[concepts/capabilities|capabilities]], and orchestration. This concept extends beyond traditional product or [[concepts/service-delivery|service delivery]] to encompass how organizations leverage existing platforms and technologies to build new solutions that address market needs.
 
 ## Tool Orchestration and Integration
 
@@ -24,8 +24,7 @@ A practical approach to value creation involves combining multiple capabilities 
 
 ## Application in Marketing Automation
 
-Marketing assistants represent a concrete example of value creation through tool orchestration. By combining Google's capabilities—such as data processing, language models, and integration features—it becomes possible to automate marketing workflows and decision-making processes. This reduces manual effort, improves [[concepts/logical-consistency|consistency]], and allows marketing teams to focus on strategy rather than execution. The effectiveness of such solutions depends on understanding how different tools complement one another and can be sequenced to deliver cohesive outcomes.
-
+Marketing assistants represent a concrete example of value creation through [[concepts/tool-orchestration|tool orchestration]]. By combining [[entities/google|Google]]'s capabilities—such as data processing, language [[concepts/models|models]], and [[concepts/integration|integration]] features—it becomes possible to automate marketing workflows and [[concepts/decision-making|decision-making]] processes. This reduces manual effort, improves [[concepts/logical-consistency|consistency]], and allows marketing teams to focus on strategy rather than execution. The effectiveness of such solutions depends on understanding how different tools complement one another and can be sequenced to deliver cohesive outcomes.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Evernote-New-Pricing-Structure-User-Reactions-and-Migration-Guidance|Evernote New Pricing Structure User Reactions and Migration Guidance]] · [▶ source](https://www.youtube.com/watch?v=D04Z5s16QnE)
 - 2026-04-11: [[lab-notes/2026-04-11-Addressing-Leadership-Pitfalls-in-Organizational-AI-Strategy|Addressing Leadership Pitfalls in Organizational AI Strategy]] · [▶ source](https://www.youtube.com/watch?v=nHXahonlIBM)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "concept"
   - "llm-efficiency"
@@ -14,8 +13,9 @@ aliases:
   - "LLM Efficiency"
   - "Model Optimization"
   - "AI Performance Tuning"
-summary: "LLM optimization encompasses techniques for improving model efficiency, reducing computational requirements, and enhancing context management through methods like quantization and compression."
-updated: 2026-05-01
+summary: LLM optimization encompasses techniques for improving model efficiency, reducing computational requirements, and enhancing context management through methods like quantization and compression.
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # LLM Optimization
 
@@ -23,12 +23,11 @@ updated: 2026-05-01
 
 ## Quantization and Compression
 
-Quantization reduces the precision of model [[concepts/weights|weights]] and activations, typically from 32-bit floating-point to lower bit-widths such as 8-bit or 4-bit integers. This approach can significantly decrease [[concepts/code-size|model size]] and memory requirements while maintaining reasonable performance. Compression techniques, including pruning and distillation, further reduce model complexity by removing less important [[concepts/parameters|parameters]] or [[concepts/training|training]] smaller models to replicate larger ones. These methods enable models to run on consumer [[concepts/hardware|hardware]] without proportional loss of capability.
+[[concepts/parameter-reduction|Quantization]] reduces the precision of model [[concepts/weights|weights]] and activations, typically from 32-bit floating-point to lower bit-widths such as 8-bit or 4-bit integers. This approach can significantly decrease [[concepts/code-size|model size]] and memory requirements while maintaining reasonable performance. [[concepts/file-size-reduction|Compression techniques]], including pruning and distillation, further reduce model complexity by removing less important [[concepts/parameters|parameters]] or [[concepts/training|training]] smaller [[concepts/models|models]] to replicate larger ones. These methods enable models to run on consumer [[concepts/hardware|hardware]] without proportional loss of capability.
 
 ## Context and Inference Efficiency
 
-Optimization also extends to how models process information during inference. Techniques for improving [[concepts/context-management|context management]] help models work within their token limits more effectively, while methods for accelerating [[concepts/speed|inference speed]] reduce latency. These improvements are particularly relevant for [[concepts/agentic-ai|AI agents]] and interactive systems where response time and resource usage directly impact usability and cost.
-
+Optimization also extends to how models process information during inference. Techniques for improving [[concepts/context-management|context management]] help models work within their token limits more effectively, while methods for accelerating [[concepts/speed|inference speed]] reduce latency. These improvements are particularly relevant for [[concepts/agentic-ai|AI agents]] and interactive systems where response time and resource usage directly impact usability and [[concepts/cost|cost]].
 ## Source Notes
 - 2026-04-07: Agent Skills: Code Beats Markdown (Here's Why)
 - 2026-04-08: DeepSeek Just Fixed One Of The Biggest Problems With AI

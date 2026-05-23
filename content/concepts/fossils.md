@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: biology-life-sciences
-group: evolution-ecology-natural-systems
 tags:
   - "paleontology"
   - "biological-remains"
@@ -12,8 +11,9 @@ tags:
 aliases:
   - "fossilized-remains"
   - "fossil-record"
-summary: "Preserved remains of organisms from past geological periods that provide evidence of evolutionary history and past life forms."
-updated: 2026-05-01
+summary: Preserved remains of organisms from past geological periods that provide evidence of evolutionary history and past life forms.
+updated: 2026-05-23
+group: evolution-ecology-natural-systems
 title: fossils
 ---
 # Fossils
@@ -27,7 +27,6 @@ Fossils form through several distinct mechanisms. Permineralization occurs when 
 ## Evolutionary and Historical Significance
 
 Fossils serve as a primary source of evidence for [[concepts/evolutionary-biology|evolutionary theory]], revealing how species have changed, diversified, and disappeared over geological time. By examining fossil sequences in rock layers, paleontologists can establish the relative ages of organisms and track the emergence of major biological groups. Fossils also provide information about ancient climates, environments, and ecosystems, helping scientists understand how Earth's conditions have shifted and how organisms adapted to past conditions. The fossil record, though incomplete, documents major transitions in life such as the emergence of fish, amphibians, reptiles, birds, and mammals.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-The-Golden-Age-of-Shark-Evolution-and-Bizarre-Adaptations|The Golden Age of Shark Evolution and Bizarre Adaptations]] · [▶ source](https://www.youtube.com/watch?v=4ihYiTOIBT0)
 - 2026-04-11: [[lab-notes/2026-04-11-Coober-Pedy-An-Australian-Subterranean-Town-Forged-by-Climate-and-Geol|Coober Pedy An Australian Subterranean Town Forged by Climate and Geol]] · [▶ source](https://www.youtube.com/watch?v=MCXnKgSr1N0)

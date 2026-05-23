@@ -9,11 +9,11 @@ aliases:
   - "Pano Stitching"
   - "Panoramic Photography"
 summary: The video discusses reasons for shooting and stitching panoramas in photography beyond capturing wide vistas.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Telephoto Zoom
 
-Telephoto zoom refers to the use of longer focal lengths in [[concepts/long-lens-photography|panoramic photography]] to create detailed, magnified compositions that go beyond the typical wide-angle perspective associated with standard panorama techniques. Rather than being limited to capturing expansive landscapes with smartphone panorama apps, photographers can employ [[concepts/telephoto-lens|telephoto]] lenses when shooting and stitching panoramas to achieve different compositional and technical outcomes.
+[[concepts/telephoto-zoom|Telephoto zoom]] refers to the use of longer focal lengths in [[concepts/long-lens-photography|panoramic photography]] to create detailed, magnified compositions that go beyond the typical wide-angle perspective associated with standard panorama techniques. Rather than being limited to capturing expansive landscapes with smartphone panorama apps, photographers can employ [[concepts/telephoto-lens|telephoto]] lenses when shooting and stitching panoramas to achieve different compositional and technical outcomes.
 
 ## Applications in Panoramic Photography
 
@@ -21,4 +21,4 @@ When photographers stitch panoramas using telephoto or zoom focal lengths, they 
 
 ## Beyond Wide-Angle Limitations
 
-The traditional use of panoramas—capturing expansive wide-angle vistas—represents only one approach to the technique. By incorporating telephoto zoom in panoramic workflows, photographers gain flexibility in how they frame and compose scenes. This method can be particularly useful for subjects where a wide, sweeping view is less important than capturing fine detail across a broader horizontal span, offering creative alternatives to standard panoramic photography practices.
+The traditional use of panoramas—capturing expansive wide-angle vistas—represents only one approach to the technique. By incorporating telephoto zoom in panoramic workflows, photographers gain flexibility in how they frame and compose scenes. This method can be particularly useful for subjects where a wide, sweeping view is less important than capturing fine detail across a broader horizontal span, offering creative alternatives to standard [[concepts/vertical-panorama|panoramic photography]] practices.

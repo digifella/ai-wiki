@@ -1,24 +1,13 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "cooking"
-  - "eggs"
-  - "technique"
-  - "flavor-customization"
-  - "cooking-techniques"
-  - "equipment-choice"
-  - "health-considerations"
-  - "scrambled-eggs"
-  - "salt-level-adjustment"
-  - "liquid-addition"
-summary: "Flavor customization involves tailoring tastes and culinary experiences to individual preferences or dietary requirements."
-updated: 2026-04-14
+summary: Flavor customization involves tailoring tastes and culinary experiences to individual preferences or dietary requirements.
+updated: 2026-05-23
 group: applied-ai-workflows
 ---
 # Flavor Customization
 
-**Flavor [[concepts/customization|customization]]** involves tailoring tastes and culinary experiences to individual preferences or dietary requirements. This can range from adjusting salt levels in dishes to experimenting with different [[concepts/cooking-techniques|cooking techniques]] and equipment choices.
+**Flavor [[concepts/customization|customization]]** involves tailoring tastes and culinary experiences to individual preferences or dietary requirements. This can [[concepts/range|range]] from adjusting salt levels in dishes to experimenting with different [[concepts/cooking-techniques|cooking techniques]] and equipment choices.
 
 ### Key Points
 - Adjusting the flavor profile of meals based on personal taste.
@@ -26,9 +15,9 @@ group: applied-ai-workflows
 - Innovating kitchen practices through new cooking tools and methods.
 
 ### Related Concepts
-- Salt-level-adjustment
-- Cooking-techniques
-- Equipment-choice
+- [[concepts/salt-level-adjustment|Salt-level-adjustment]]
+- [[concepts/cooking-techniques|Cooking-techniques]]
+- [[concepts/equipment-choice|Equipment-choice]]
 
 ### Integration with Scrambled Eggs Techniques
 

@@ -1,29 +1,24 @@
 ---
-domain: tools-platforms
-group: developer-tooling-clis
 type: concept
-tags:
-  - "open-source"
-  - "ai"
-  - "model"
-updated: 2026-04-14
+domain: tools-platforms
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Open-Source Model
 
-A [[concepts/machine-learning|machine learning]] model whose source code, [[concepts/training-data|training data]], and [[concepts/weights|weights]] are publicly available for inspection, modification, and redistribution.
+A [[concepts/machine-learning|machine learning]] model whose source [[concepts/code|code]], [[concepts/training-data|training data]], and [[concepts/weights|weights]] are publicly available for inspection, modification, and redistribution.
 
 ## Example: NVIDIA Nemotron-3 Family
 
-NVIDIA recently released the Nemotron-3 family of [[concepts/reasoning-models|open-source models]], featuring three sizes:
+[[entities/nvidia|NVIDIA]] recently released the [[concepts/nemotron-3-family|Nemotron-3 family]] of [[concepts/reasoning-models|open-source models]], featuring three sizes:
 
-* **Nano:** 30-billion [[concepts/parameters|parameters]] (3-billion active via Mixture-of-Experts [[concepts/architecture|architecture]]).
+* **[[entities/nano|Nano]]:** 30-billion [[concepts/parameters|parameters]] (3-billion active via [[concepts/mixture-of-experts|Mixture-of-Experts]] [[concepts/architecture|architecture]]).
 * **Super:** 100-billion [[concepts/parameters|parameters]] (10-billion active).
 * **Ultra:** 500-billion parameters (50-billion active).
 
 The [[entities/gary-explains]] channel reviewed the **[[concepts/nemotron-3-nano-model|Nemotron-3 Nano]]** in their video [Nematron 3](https://www.youtube.com/watch?v=8gFAuYxJZ-A).
 
 2026 04 14 [[entities/gary-explains|Gary Explains]] channel [[entities/nematron-3|Nematron 3]]
-
 ## Source Notes
 - 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)

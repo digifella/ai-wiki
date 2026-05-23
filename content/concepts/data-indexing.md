@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "data"
-  - "indexing"
-  - "retrieval"
-  - "RAG"
-  - "semantic-indexing"
-  - "vector-indexing"
-  - "embedding"
-  - "metadata"
-  - "hybrid"
-summary: "Data indexing organizes data for efficient retrieval, enabling rapid access in databases, search engines, and RAG systems."
-updated: 2026-04-15
+summary: Data indexing organizes data for efficient retrieval, enabling rapid access in databases, search engines, and RAG systems.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Data indexing
@@ -31,7 +21,6 @@ Organizing data for efficient retrieval, enabling rapid [[concepts/information-a
 - [[concepts/retrieval-augmented-generation-rag]]
 
 2026 04 14 Improving RAG [[concepts/accuracy|accuracy]] for retrieval
-
 ## Source Notes
 
 - 2026-04-23: Excel · [▶ source](https://www.youtube.com/watch?v=jWE3ypXpuTY)

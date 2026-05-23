@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: ai-agents
-group: ai-foundations-concepts
+domain: maths-cryptography
 tags:
   - "concept"
   - "logarithms"
@@ -14,7 +13,8 @@ aliases:
   - "logs-for-multiplication"
   - "multiplication-to-addition"
 summary: Logarithmic computation converts multiplication operations into addition operations for faster calculation.
-updated: 2026-05-01
+updated: 2026-05-23
+group: number-theory-prime-numbers
 ---
 # Logarithmic Computation
 
@@ -26,7 +26,6 @@ Before the widespread [[concepts/adoption|adoption]] of electronic calculators a
 
 ## Modern Applications
 
-While digital computers have made hand-based logarithmic computation largely obsolete for everyday arithmetic, the underlying principles remain relevant in several domains. Algorithms that work with logarithmic [[concepts/musical-scales|scales]] are used in [[concepts/signal-processing|signal processing]], certain types of database indexing, and analysis of computational complexity. Additionally, logarithmic computation principles underpin some [[concepts/algorithm-optimization|optimization techniques]] in machine [[concepts/learning|learning]] and scientific computing where working in log-space improves numerical stability or reduces computational overhead.
-
+While digital computers have made hand-based logarithmic computation largely obsolete for everyday arithmetic, the underlying principles remain relevant in several domains. Algorithms that work with logarithmic [[concepts/musical-scales|scales]] are used in [[concepts/signal-processing|signal processing]], certain types of database indexing, and analysis of [[concepts/computational-complexity|computational complexity]]. Additionally, logarithmic computation principles underpin some [[concepts/algorithm-optimization|optimization techniques]] in machine [[concepts/learning|learning]] and scientific computing where working in log-space improves numerical stability or reduces computational overhead.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

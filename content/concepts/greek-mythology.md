@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: people-institutions-cultural-history
 tags:
   - "ancient-greece"
   - "mythology"
@@ -12,7 +11,8 @@ aliases:
   - "Classical mythology"
   - "Hellenic mythology"
 summary: System of myths, deities, and narratives originating from ancient Greece.
-updated: 2026-05-01
+updated: 2026-05-23
+group: people-institutions-cultural-history
 ---
 # Greek Mythology
 
@@ -24,7 +24,6 @@ The Greek pantheon consisted of twelve Olympian deities—including Zeus, Hera, 
 
 ## Cultural Significance
 
-Greek myths were central to ancient Greek religion, art, literature, and drama. They appeared prominently in theatrical productions, particularly tragedies and comedies performed during religious festivals. The stories provided frameworks for understanding moral concepts, human [[entities/nature|nature]], and the relationship between mortals and divinity. Greek mythology has exerted substantial influence on Western culture, literature, and art throughout subsequent historical periods, remaining relevant through reinterpretation and adaptation for contemporary audiences.
-
+Greek myths were central to ancient Greek religion, [[concepts/art|art]], literature, and drama. They appeared prominently in theatrical productions, particularly tragedies and comedies performed during religious festivals. The stories provided frameworks for understanding moral concepts, human [[entities/nature|nature]], and the relationship between mortals and divinity. Greek mythology has exerted substantial [[concepts/power|influence]] on Western culture, literature, and art throughout subsequent historical periods, remaining relevant through reinterpretation and adaptation for contemporary audiences.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Reinventing-Greek-Mythology-Timeless-Stories-for-Contemporary-Audience|Reinventing Greek Mythology Timeless Stories for Contemporary Audience]] · [▶ source](https://www.youtube.com/watch?v=3mez8FqPR60)

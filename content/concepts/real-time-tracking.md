@@ -1,24 +1,13 @@
 ---
 type: concept
-domain: tools-platforms
-tags:
-  - "real-time"
-  - "tracking"
-  - "ai"
-  - "automation"
-  - "data"
-  - "low-latency"
-  - "event-driven"
-  - "stream-processing"
-  - "real-time-analytics"
-  - "ai-automation"
-summary: "Real-time tracking involves monitoring and updating data streams with minimal latency to enable immediate decision-making."
-updated: 2026-04-15
-group: automation-scheduling-sync
+domain: ux-design
+summary: Real-time tracking involves monitoring and updating data streams with minimal latency to enable immediate decision-making.
+updated: 2026-05-23
+group: typography-layout
 ---
 # Real-time tracking
 
-Monitoring and updating data streams with minimal latency to enable immediate decision-making. Key [[concepts/software|applications]] span logistics, finance, and AI systems.
+Monitoring and updating data streams with minimal latency to enable immediate [[concepts/decision-making|decision-making]]. Key [[concepts/software|applications]] span logistics, finance, and AI systems.
 
 **Core implementations:**
 - Live data ingestion pipelines (e.g., [[concepts/xai-api]] for [[concepts/real-time-analytics|real-time analytics]])
@@ -33,4 +22,4 @@ Monitoring and updating data streams with minimal latency to enable immediate de
 - Event-driven [[concepts/architecture|architecture]]
 - Stream processing
 
-2026 04 14 GPT5 vibe coding [[entities/creator-magic|Creator Magic]] channel
+2026 04 14 GPT5 [[concepts/3d-game-development|vibe coding]] [[entities/creator-magic|Creator Magic]] channel

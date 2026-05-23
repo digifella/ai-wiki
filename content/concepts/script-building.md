@@ -1,7 +1,7 @@
 ---
 type: concept
 domain: history-anthropology
-updated: 2026-04-14
+updated: 2026-05-23
 group: architecture-cities-heritage
 ---
 - "script-building"
@@ -23,19 +23,18 @@ Generating structured narratives for media using [[concepts/ai-tools|AI tools]] 
 ## Key Workflow: Video Creation from NotebookLM
 
 - **Goal**: Create cinematic 30-second ads from [[concepts/business-philosophy|business philosophy]] stored in [[entities/notebooklm]].
-- **Tools**: [[entities/notebooklm]], [[entities/gemini]] (Advanced/Pro), Veo, Google [[concepts/motivation|Drive]].
+- **Tools**: [[entities/notebooklm]], [[entities/gemini]] (Advanced/Pro), Veo, [[concepts/google-search|Google]] [[concepts/motivation|Drive]].
 - **Process**:
   - Use "[[concepts/gemini-canvas|Gemini Canvas]]" to build structured script narratives.
   - Generate video via Veo in [[concepts/google-vids|Google Vids]].
-  - Step-by-step guide available: 2026 04 14 Building a video from NotebookLM and [[concepts/veo|Google Veo]] Charles Terence [[entities/harper|Harper]] channel.
+  - Step-by-step guide available: 2026 04 14 Building a video from [[concepts/notebooklm|NotebookLM]] and [[concepts/veo|Google Veo]] Charles Terence [[entities/harper|Harper]] channel.
 
 ## Related Concepts
 
 - [[entities/notebooklm]] ([[concepts/knowledge-base|knowledge base]] for [[concepts/business-philosophy|business philosophy]])
 - [[entities/gemini]] (AI model for script structuring)
 - [[concepts/veo|Veo]] ([[concepts/video-generation|video generation]] tool)
-- Google
-
+- [[concepts/google-search|Google]]
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-28: Integrating Claude AI · [▶ source](https://www.youtube.com/watch?v=7sInxhTDA7U)

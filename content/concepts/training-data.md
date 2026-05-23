@@ -1,23 +1,13 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "machine-learning"
-  - "ai"
-  - "data-science"
-  - "training-data"
-  - "supervised-learning"
-  - "data-bias"
-  - "data-augmentation"
-aliases:
-  - "datasets"
-summary: "Training data consists of input-output pairs used to train machine learning models, where quality, diversity, and scale impact performance and bias."
-updated: 2026-04-17
+summary: Training data consists of input-output pairs used to train machine learning models, where quality, diversity, and scale impact performance and bias.
+updated: 2026-05-23
 group: data-pipelines-sync-storage
 ---
 # Training Data
 
-The dataset used to train [[concepts/machine-learning|machine learning]] models, consisting of input-output pairs that define the model's [[concepts/learning|learning]] patterns. Quality, diversity, and scale directly determine model performance and bias.
+The dataset used to train [[concepts/machine-learning|machine learning]] [[concepts/models|models]], consisting of input-[[concepts/output|output]] pairs that define the model's [[concepts/learning|learning]] patterns. Quality, diversity, and scale directly determine model performance and bias.
 
 - **Key aspects**:
   - Supervised learning requires labeled examples
@@ -26,10 +16,9 @@ The dataset used to train [[concepts/machine-learning|machine learning]] models,
   - [[concepts/responsible-ai-use|Ethical AI]] considerations require careful [[concepts/data-curation|data curation]]
 
 Recent Reviews:
-- [[entities/daves-garage|Dave's Garage]] - review of [[concepts/ai-models|AI models]] (2026-04-14): [[entities/dave-plummer|Dave Plummer]] (retired Microsoft engineer) notes mid-2025 LLM landscape has evolved beyond [[entities/chatgpt|ChatGPT]]-4 dominance, with Grok-3 and [[concepts/gemini|Gemini]] now competitive models trained on increasingly diverse datasets.
+- [[entities/daves-garage|Dave's Garage]] - review of [[concepts/ai-models|AI models]] (2026-04-14): [[entities/dave-plummer|Dave Plummer]] (retired [[entities/microsoft|Microsoft]] engineer) [[concepts/notes|notes]] mid-2025 LLM landscape has evolved beyond [[entities/chatgpt|ChatGPT]]-4 dominance, with Grok-3 and [[concepts/gemini|Gemini]] now competitive models trained on increasingly diverse datasets.
 
 2026 04 14 Daves Garage review of [[concepts/ai-models|AI models]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

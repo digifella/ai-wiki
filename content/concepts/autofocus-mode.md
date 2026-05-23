@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "concept"
   - "autofocus"
@@ -12,20 +11,20 @@ aliases:
   - "AF mode"
   - "lock feature"
 summary: Information regarding the autofocus mode and lock feature functionality for Fujifilm cameras.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photography-cameras
 ---
 # Autofocus Mode
 
-Autofocus mode refers to the camera's ability to automatically adjust lens focus to achieve sharp [[concepts/images|images]] of a subject. In [[entities/fujifilm|Fujifilm]] cameras, autofocus functionality is a core feature that determines how the camera locks focus on subjects and maintains [[concepts/sharpness|sharpness]] during shooting. The autofocus system works by detecting [[concepts/contrast|contrast]] in the scene and adjusting the lens elements accordingly to bring the subject into focus. This automatic adjustment eliminates the need for [[concepts/manual-focus|manual focus]] adjustment in most shooting conditions.
+Autofocus mode refers to the camera's ability to automatically adjust lens focus to achieve sharp [[concepts/images|images]] of a subject. In [[entities/fujifilm|Fujifilm]] cameras, autofocus functionality is a core feature that determines how the camera locks focus on subjects and maintains [[concepts/sharpness|sharpness]] during shooting. The autofocus system works by detecting [[concepts/contrast|contrast]] in the scene and adjusting the lens elements accordingly to bring the subject into focus. This automatic adjustment eliminates the need for [[concepts/manual-focus|manual focus]] adjustment in most shooting situations.
 
-## Autofocus Lock Feature
+## Autofocus Lock
 
-Fujifilm cameras include an autofocus lock feature that allows photographers to lock focus on a specific subject before composing the final shot. Once activated, the autofocus lock maintains focus on the selected point, preventing the camera from refocusing as the scene or subject position changes. This is particularly useful when the subject is not positioned in the center of the frame, or when shooting conditions make [[concepts/continuous-autofocus|continuous autofocus]] tracking difficult. The lock feature is typically engaged by pressing the shutter button halfway or using a dedicated autofocus lock button, depending on the camera model and user settings.
+Autofocus lock is a feature that allows photographers to lock focus on a specific subject or area of the frame. Once activated, the camera maintains focus on that locked point even if the subject moves or the photographer reframes the composition. This is particularly useful when shooting subjects that are off-center or when precise focus placement is required before taking the shot. On Fujifilm cameras, autofocus lock is typically engaged by half-pressing the shutter button or using a dedicated autofocus lock button, depending on the camera model and settings configuration.
 
-## Autofocus Modes and Selection
+## Practical Application
 
-Different Fujifilm camera models offer various autofocus modes to suit different shooting [[concepts/scenarios|scenarios]]. These modes typically include options for single-point focus, zone-based focus, and continuous tracking modes. Photographers can select the appropriate autofocus mode based on their subject type and shooting conditions, such as [[concepts/moving-subjects|moving subjects]], static compositions, or situations requiring precise focus placement. Understanding which autofocus mode to use helps optimize focus [[concepts/accuracy|accuracy]] and shooting efficiency.
-
+The choice of autofocus mode and use of the [[concepts/lock-feature|lock feature]] depends on the shooting scenario. [[concepts/continuous-autofocus|Continuous autofocus]] modes work well for [[concepts/moving-subjects|moving subjects]], while [[concepts/single-autofocus|single autofocus]] modes paired with lock functionality are better suited for [[concepts/stationary-subjects|stationary subjects]] where focus needs to be precisely set before [[concepts/exposure|exposure]]. Understanding when to use each mode helps photographers achieve consistent focus [[concepts/accuracy|accuracy]] across different types of photography.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Fujifilm-Camera-Lock-Feature-Comprehensive-Guide-and-Usage-Explained|Fujifilm Camera Lock Feature Comprehensive Guide and Usage Explained]] · [▶ source](https://www.youtube.com/watch?v=C2ZN6ByntPk)
 - 2026-04-13: [[lab-notes/2026-04-13-Fujifilm-Autofocus-Setup-Guide-Modes-Features-and-Optimization|Fujifilm Autofocus Setup Guide Modes Features and Optimization]] · [▶ source](https://www.youtube.com/watch?v=C00MqhLjKnE)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: coding-agents-dev-workflows
 tags:
   - "rollback-procedures"
   - "coding-agents"
@@ -12,7 +11,8 @@ aliases:
   - "rollback-process"
   - "rollback-strategy"
 summary: This page is a stub regarding rollback procedures.
-updated: 2026-05-01
+updated: 2026-05-23
+group: coding-agents-dev-workflows
 title: Rollback Procedures
 ---
 # Rollback Procedures
@@ -21,8 +21,8 @@ Rollback procedures are mechanisms that allow [[concepts/agentic-ai|AI agents]] 
 
 ## Implementation Approaches
 
-Rollback can be implemented at different levels depending on system [[concepts/architecture|architecture]]. State-based rollback maintains snapshots of agent [[concepts/memory|memory]], environment state, and execution context at key checkpoints, allowing restoration to a known good configuration. Action-sequence rollback retraces the agent's decisions without necessarily restoring full state, useful when recovery requires only undoing recent steps. The choice between approaches involves tradeoffs between [[entities/storage|storage]] overhead, recovery speed, and the granularity of control needed.
+Rollback can be implemented [[concepts/assistive-technology|at]] different levels depending on system [[concepts/architecture|architecture]]. State-based rollback maintains snapshots of [[entities/agent|agent]] [[concepts/memory|memory]], environment state, and execution context at key checkpoints, allowing restoration to a known good configuration. Action-sequence rollback retraces the agent's decisions without necessarily restoring full state, useful when recovery requires only undoing recent steps. The choice between approaches involves tradeoffs between [[entities/storage|storage]] overhead, recovery [[concepts/speed|speed]], and the granularity of [[concepts/power|control]] needed.
 
 ## Practical Constraints
 
-Real-world [[concepts/deployment|deployment]] of rollback procedures faces practical limitations. Irreversible actions—such as external [[entities/api-calls|API calls]], financial transactions, or physical robot movements—cannot always be undone within the same execution cycle. Additionally, complex [[concepts/expertise-based-ai-assistants|multi-agent systems]] may require coordinating rollbacks across distributed components. These constraints mean rollback procedures often function as part of a broader error-handling strategy rather than as a complete safety guarantee.
+Real-world [[concepts/deployment|deployment]] of rollback procedures [[concepts/faces|faces]] practical limitations. Irreversible actions—such as external [[entities/api-calls|API calls]], financial transactions, or physical robot movements—cannot always be undone within the same execution cycle. Additionally, complex [[concepts/expertise-based-ai-assistants|multi-agent systems]] may require coordinating rollbacks across distributed components. These constraints mean rollback procedures often function as part of a broader error-handling strategy rather than as a complete safety guarantee.

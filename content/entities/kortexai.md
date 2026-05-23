@@ -9,7 +9,7 @@ aliases:
   - "Kortex"
   - "Kortex AI"
 summary: Kortex.ai is used to build AI agents for automated podcast summarization.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Kortexai
 
@@ -21,4 +21,4 @@ One notable application of Kortex.ai is automated [[concepts/podcast-summarizati
 
 ## How It Works
 
-The platform provides workflow tools that allow users to define how an AI agent should process and present information. These workflows can be tailored to individual preferences and integrated with existing communication channels like email for easy access to summarized content.
+The platform provides [[concepts/workflow|workflow]] tools that allow users to define how an [[entities/agent|AI agent]] should process and present information. These workflows can be tailored to individual preferences and integrated with existing communication channels like [[entities/email|email]] for easy access to summarized content.

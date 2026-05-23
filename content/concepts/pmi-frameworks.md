@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: products-operations-business-economics
 tags:
   - "project-management"
   - "frameworks"
@@ -13,7 +12,8 @@ aliases:
   - "PM Frameworks"
   - "Management Frameworks"
 summary: This page outlines twelve popular project management methodologies and frameworks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: products-operations-business-economics
 ---
 # PMI Frameworks
 
@@ -21,12 +21,11 @@ Project Management Institute (PMI) frameworks represent standardized approaches 
 
 ## Common Framework Categories
 
-PMI frameworks typically fall into predictive (waterfall-based) and adaptive (iterative) categories. Predictive frameworks such as traditional project management and [[concepts/prince2|PRINCE2]] emphasize detailed upfront planning and sequential phases, making them suitable for projects with well-defined requirements and stable environments. Adaptive frameworks including Agile, Scrum, and [[concepts/kanban|Kanban]] prioritize flexibility and continuous [[concepts/iteration|iteration]], allowing teams to respond to changing requirements and deliver value incrementally. Hybrid approaches increasingly combine elements of both paradigms to balance structure with adaptability.
+PMI frameworks typically fall into predictive (waterfall-based) and adaptive (iterative) categories. Predictive frameworks such as traditional project management and [[concepts/prince2|PRINCE2]] emphasize detailed upfront planning and sequential phases, making them suitable for projects with well-defined requirements and stable environments. Adaptive frameworks including Agile, [[concepts/scrum|Scrum]], and [[concepts/kanban|Kanban]] prioritize flexibility and continuous [[concepts/iteration|iteration]], allowing teams to respond to changing requirements and deliver value incrementally. Hybrid approaches increasingly combine elements of both paradigms to balance structure with adaptability.
 
 ## Key Frameworks in Practice
 
-Popular PMI-related frameworks include PMBOK (Project Management Body of Knowledge), which provides comprehensive [[concepts/open-standards|standards]] for knowledge areas and processes; Agile and Scrum, which emphasize iterative development and team collaboration; Lean, which focuses on waste elimination and value optimization; and PRINCE2, a structured method widely used in government and regulated industries. Other recognized approaches include Kanban for workflow visualization, [[concepts/six-sigma|Six Sigma]] for process improvement, and critical chain project management for resource-constrained environments. Each framework offers distinct advantages and trade-offs depending on project characteristics and organizational objectives.
-
+Popular PMI-related frameworks include PMBOK (Project Management Body of Knowledge), which provides comprehensive [[concepts/open-standards|standards]] for knowledge areas and processes; Agile and Scrum, which emphasize iterative development and team collaboration; [[concepts/lean|Lean]], which focuses on waste elimination and value optimization; and PRINCE2, a structured method widely used in government and regulated industries. Other recognized approaches include Kanban for [[concepts/workflow|workflow]] visualization, [[concepts/six-sigma|Six Sigma]] for process improvement, and critical chain project management for resource-constrained environments. Each framework offers distinct advantages and trade-offs depending on project characteristics and organizational objectives.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Hermes-and-OpenClaw-Complementary-AI-Agent-Frameworks-for-Business|Hermes and OpenClaw Complementary AI Agent Frameworks for Business]] · [▶ source](https://www.youtube.com/watch?v=VoWi52lms3E)
 - 2026-04-08: [[lab-notes/2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni|Auto research AI Driven Algorithmic Optimization with Iterative Learni]] · [▶ source](https://www.youtube.com/watch?v=5-ekc3eXNvs)

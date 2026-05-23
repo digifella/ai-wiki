@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "data-pipeline"
   - "data-processing"
@@ -12,11 +11,12 @@ aliases:
   - "data-flow"
   - "processing-pipeline"
 summary: A concept describing systematic processes for moving and transforming data through connected stages, referenced in automated data linking contexts.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Data Pipeline
 
-A data pipeline is a systematic set of processes that moves data from one or more sources through a series of connected stages, where the data is transformed, validated, or enriched before reaching its final destination. In security and infrastructure contexts, data pipelines serve as the backbone for automated workflows that require consistent, reliable data flow across multiple systems and processing layers.
+A data pipeline is a systematic set of processes that moves data from one or more sources through a series of connected stages, where the data is transformed, validated, or enriched before reaching its final destination. In [[concepts/security|security]] and infrastructure contexts, data pipelines serve as the backbone for automated workflows that require consistent, reliable data [[concepts/flow|flow]] across multiple systems and processing layers.
 
 ## Core Function
 
@@ -25,7 +25,6 @@ Data pipelines operate by breaking down complex data operations into discrete, s
 ## Application in Automated Contexts
 
 Within [[concepts/automated-data-linking|automated data linking]] and similar infrastructure processes, data pipelines facilitate the [[concepts/exercise|movement]] of structured and [[concepts/unstructured-data|unstructured data]] between different processing [[concepts/agents|agents]] and systems. They provide the connective tissue that allows autonomous systems to access, transform, and utilize data without continuous manual intervention, supporting scalable [[concepts/automation|automation]] across distributed environments.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Autonomous-Social-Video-Content-Generation-and-Optimization|AI Powered Autonomous Social Video Content Generation and Optimization]] · [▶ source](https://www.youtube.com/watch?v=vjJwgXsMfjM)
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

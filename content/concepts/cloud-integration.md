@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: apis-integrations-mcp
 tags:
   - "cloud-services"
   - "integration"
@@ -12,11 +11,12 @@ aliases:
   - "cloud-based integration"
   - "cloud connectivity"
 summary: Cloud Integration refers to connecting and synchronizing data or services across cloud platforms and systems.
-updated: 2026-05-01
+updated: 2026-05-23
+group: apis-integrations-mcp
 ---
 # Cloud Integration
 
-Cloud Integration refers to the process of connecting and synchronizing data, [[concepts/software|applications]], and services across multiple [[concepts/cloud-computing|cloud platforms]] and on-premises systems. This practice enables organizations to create a unified technology ecosystem where disparate tools and services communicate seamlessly, allowing data to flow between systems without manual intervention. Cloud integration serves as a foundational capability for modern [[concepts/digital-infrastructure|digital infrastructure]], supporting hybrid environments where businesses operate across public clouds, private clouds, and [[concepts/vintage-computing|legacy systems]] simultaneously.
+Cloud [[concepts/integration|Integration]] refers to the process of connecting and synchronizing data, [[concepts/software|applications]], and services across multiple [[concepts/cloud-computing|cloud platforms]] and on-premises systems. This practice enables organizations to create a unified technology ecosystem where disparate tools and services communicate seamlessly, allowing data to [[concepts/flow|flow]] between systems without manual intervention. Cloud integration serves as a foundational capability for modern [[concepts/digital-infrastructure|digital infrastructure]], supporting hybrid environments where businesses operate across public clouds, private clouds, and [[concepts/vintage-computing|legacy systems]] simultaneously.
 
 ## Integration Approaches
 
@@ -24,8 +24,7 @@ Cloud integration can be achieved through various methods, including API-based c
 
 ## Common Use Cases
 
-Typical applications of cloud integration include synchronizing customer data across CRM and marketing platforms, connecting development tools with [[concepts/deployment|deployment]] infrastructure, and consolidating data from multiple cloud services into centralized analytics systems. Integration also supports [[concepts/ai-driven-workflow-automation|workflow automation]] by enabling one system's output to trigger actions in another, reducing manual data entry and improving [[concepts/cost|operational efficiency]] across organizational boundaries.
-
+Typical applications of cloud integration include synchronizing customer data across CRM and marketing platforms, connecting development tools with [[concepts/deployment|deployment]] infrastructure, and consolidating data from multiple cloud services into centralized analytics systems. Integration also supports [[concepts/ai-driven-workflow-automation|workflow automation]] by enabling one system's [[concepts/output|output]] to trigger actions in another, reducing manual data entry and improving [[concepts/cost|operational efficiency]] across organizational boundaries.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

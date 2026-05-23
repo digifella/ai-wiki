@@ -8,17 +8,17 @@ tags:
 aliases:
   - "Menlo Ventures Partners"
 summary: Menlo Ventures invested $30M in the AI-powered dictation app Wispr Flow.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Menlo Ventures
 
-Menlo Ventures is a venture capital firm that has invested in [[concepts/ai-technologies|artificial intelligence]] and productivity [[concepts/software|software]] companies. In June 2025, the firm led a $30 million funding round for [[concepts/auto-editing|Wispr Flow]], an AI-powered dictation application.
+Menlo Ventures is a venture capital firm that has invested in [[concepts/ai-technologies|artificial intelligence]] and productivity [[concepts/software|software]] companies. In June 2025, the firm led a $30 million funding [[concepts/rounding|round]] for [[concepts/auto-editing|Wispr Flow]], an AI-powered dictation application.
 
 ## Investment in Wispr Flow
 
-Menlo Ventures' investment in Wispr Flow supported the development of the company's voice dictation technology, which uses artificial intelligence to enable effortless [[concepts/ai-powered-dictation|voice-to-text]] transcription across applications. The funding round was reported by TechCrunch and represents Menlo Ventures' participation in the growing market for AI-enabled [[concepts/productivity-tools|productivity tools]].
+Menlo Ventures' investment in [[concepts/effortless-voice-assistants|Wispr Flow]] supported the development of the company's [[concepts/tone|voice]] dictation technology, which uses artificial intelligence to enable effortless [[concepts/ai-powered-dictation|voice-to-text]] transcription across applications. The funding round was reported by TechCrunch and represents Menlo Ventures' participation in the growing market for AI-enabled [[concepts/productivity-tools|productivity tools]].
 
-- 2026-04-08 [2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of Leading Ai Models Capabilities Pricing Tiers And Optimal
+- 2026-04-08 [2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-08-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of [[concepts/frontier-models|Leading Ai Models]] [[concepts/capabilities|Capabilities]] [[concepts/pricing-tiers|Pricing Tiers]] And Optimal
 - 2026-04-07 [2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of Leading Ai Models Capabilities Pricing Tiers And Optimal
 - 2026-04-10 [2026-04-10-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal](2026-04-10-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal.md) ← Analysis Of Leading Ai Models Capabilities Pricing Tiers And Optimal
 ## Source Notes

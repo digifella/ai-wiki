@@ -5,9 +5,9 @@ tags:
   - "domain"
   - "security-infrastructure"
 cssclasses: [domain-page]
-updated: 2026-05-02
-concept_count: 329
-entity_count: 537
+updated: 2026-05-24
+concept_count: 360
+entity_count: 595
 ---
 # Security & Infrastructure
 
@@ -15,15 +15,15 @@ Security, privacy, deployment, infrastructure, data movement, and operational sy
 
 <div class="domain-summary-bar">
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">329</span>
+    <span class="domain-summary-value">360</span>
     <span class="domain-summary-label">concepts</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">537</span>
+    <span class="domain-summary-value">595</span>
     <span class="domain-summary-label">entities</span>
   </div>
   <div class="domain-summary-stat">
-    <span class="domain-summary-value">0</span>
+    <span class="domain-summary-value">163</span>
     <span class="domain-summary-label">linked notes</span>
   </div>
   <div class="domain-summary-stat">
@@ -38,37 +38,37 @@ Security, privacy, deployment, infrastructure, data movement, and operational sy
 <a class="domain-group-card" href="#privacy-security-guardrails">
   <span class="domain-group-kicker">Thread</span>
   <h3>Privacy Security &amp; Guardrails</h3>
-  <p class="domain-group-stats">64 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Accidental Changes, Accidental Changes Prevention, Admin Privileges</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">77 concepts · 60 linked notes</p>
+  <p class="domain-group-samples">2026 04 10 Wirtz Pump Mechanics Overcoming Airlock And Hydrostatic Pressure, A2Ad, Accidental Changes</p>
+  <p class="domain-group-notes">iPhone Lock Screen Security: Preventing Thief Access to Control Center and Tracking · Docker Sandboxes: Secure AI Agent Execution via Isolated Environments</p>
 </a>
 <a class="domain-group-card" href="#deployment-docker-services">
   <span class="domain-group-kicker">Thread</span>
   <h3>Deployment Docker &amp; Services</h3>
-  <p class="domain-group-stats">30 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">35 concepts · 30 linked notes</p>
   <p class="domain-group-samples">Ai Deployment Strategies, Ai Integrated Service Management, Ai Model Deployment</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Docker Sandboxes: Secure AI Agent Execution via Isolated Environments · MiniMax-M2.7 Local CPU/GPU Deployment via llama.cpp Quantization</p>
 </a>
 <a class="domain-group-card" href="#data-pipelines-sync-storage">
   <span class="domain-group-kicker">Thread</span>
   <h3>Data Pipelines Sync &amp; Storage</h3>
-  <p class="domain-group-stats">206 concepts · 0 linked notes</p>
-  <p class="domain-group-samples">Advanced Ai Processing, Advanced Ai Techniques That Improve Generalization From Simulated Data, Ai Data Analysis</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-stats">219 concepts · 117 linked notes</p>
+  <p class="domain-group-samples">2026 04 13 The Conceptsbig Databig Data Center Water Problem, Advanced Ai Processing, Advanced Ai Techniques That Improve Generalization From Simulated Data</p>
+  <p class="domain-group-notes">OpenAI Codex Agentic AI Outperforms Claude in GTM Research &amp; Automation · ERNIE 5.1: Baidu&#x27;s AI Model - High Performance, Cost-Efficient, Multimodal Capabilities</p>
 </a>
 <a class="domain-group-card" href="#devices-access-networks">
   <span class="domain-group-kicker">Thread</span>
   <h3>Devices Access &amp; Networks</h3>
-  <p class="domain-group-stats">26 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">26 concepts · 15 linked notes</p>
   <p class="domain-group-samples">Dns, Dns Lookups, Gateway Routing</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">AionUI: Free Desktop Platform for Multi-Agent AI Management and Automation · AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs</p>
 </a>
 <a class="domain-group-card" href="#enterprise-security-risk">
   <span class="domain-group-kicker">Thread</span>
   <h3>Enterprise Security &amp; Risk</h3>
-  <p class="domain-group-stats">3 concepts · 0 linked notes</p>
+  <p class="domain-group-stats">3 concepts · 3 linked notes</p>
   <p class="domain-group-samples">Ai Wrapper Replacement, Compliance, Standard Compliance</p>
-  <p class="domain-group-notes">No linked notes yet</p>
+  <p class="domain-group-notes">Nvidias Open-Source Guardrails vs OpenAIs AI Agent Consulting Strategy · Llama.cpp: Local LLM Inference for Accessible, Private AI</p>
 </a>
 </div>
 
@@ -77,12 +77,20 @@ Security, privacy, deployment, infrastructure, data movement, and operational sy
 <div id="privacy-security-guardrails" class="domain-group-anchor"></div>
 ## Privacy Security & Guardrails
 
-<div class="domain-group-meta">64 concepts · 0 linked notes</div>
+<div class="domain-group-meta">77 concepts · 60 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-iPhone-Lock-Screen-Security-Preventing-Thief-Access-to-C|iPhone Lock Screen Security: Preventing Thief Access to Control Center and Tracking]]
+- [[lab-notes/2026-05-23-Docker-Sandboxes-Secure-AI-Agent-Execution-via-Isolated|Docker Sandboxes: Secure AI Agent Execution via Isolated Environments]]
+- [[lab-notes/2026-05-22-OpenShell-Secure-Runtime-for-AI-Agents-with-Out-of-Proce|OpenShell: Secure Runtime for AI Agents with Out-of-Process Enforcement]]
+- [[lab-notes/2026-05-16-AI-Agent-Security-Enterprise-AI-Deployment-and-Cybersecu|AI Agent Security, Enterprise AI Deployment, and Cybersecurity Exploits]]
+- [[lab-notes/2026-05-14-LLMjacking-AI-API-Key-Theft-Financial-Impact-and-Evolvin|LLMjacking: AI API Key Theft, Financial Impact, and Evolving Cybersecurity]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-10-wirtz-pump-mechanics-overcoming-airlock-and-hydrostatic-pressure|2026 04 10 Wirtz Pump Mechanics Overcoming Airlock And Hydrostatic Pressure]]
+- [[concepts/a2ad|A2Ad]]
 - [[concepts/accidental-changes|Accidental Changes]]
 - [[concepts/accidental-changes-prevention|Accidental Changes Prevention]]
 - [[concepts/admin-privileges|Admin Privileges]]
@@ -97,13 +105,18 @@ _No notes in this thread yet._
 - [[concepts/ai-security-vulnerabilities|Ai Security Vulnerabilities]]
 - [[concepts/air-gaps|Air Gaps]]
 - [[concepts/airlock|Airlock]]
+- [[concepts/airlock-challenges|Airlock Challenges]]
 - [[concepts/attack-surface|Attack Surface]]
 - [[concepts/authentication|Authentication]]
 - [[concepts/authorization|Authorization]]
 - [[concepts/biometric-authentication|Biometric Authentication]]
+- [[concepts/bunkers|Bunkers]]
+- [[concepts/control-center-access|Control Center Access]]
 - [[concepts/cyber-risk|Cyber Risk]]
 - [[concepts/cybersecurity|Cybersecurity]]
 - [[concepts/cybersecurity-defense|Cybersecurity Defense]]
+- [[concepts/cybersecurity-exploits|Cybersecurity Exploits]]
+- [[concepts/cybersecurity-threats|Cybersecurity Threats]]
 - [[concepts/dedicated-vpn|Dedicated Vpn]]
 - [[concepts/end-to-end-privacy|End To End Privacy]]
 - [[concepts/genai-security|Genai Security]]
@@ -112,13 +125,15 @@ _No notes in this thread yet._
 - [[concepts/identity-propagation|Identity Propagation]]
 - [[concepts/identity-trust|Identity Trust]]
 - [[concepts/incident-response|Incident Response]]
+- [[concepts/internet-crime-reporting|Internet Crime Reporting]]
 - [[concepts/internet-privacy|Internet Privacy]]
 - [[concepts/intrusion-detection-system|Intrusion Detection System]]
-- [[concepts/isp-tracking|Isp Tracking]]
+- [[concepts/iphone-vulnerability|Iphone Vulnerability]]
 - [[concepts/local-ai-privacy-risks|Local Ai Privacy Risks]]
 - [[concepts/local-hosting-security|Local Hosting Security]]
+- [[concepts/lock-screen-security|Lock Screen Security]]
 - [[concepts/mitigation-strategies|Mitigation Strategies]]
-- [[concepts/nordvpn|Nordvpn]]
+- [[concepts/out-of-process-enforcement|Out Of Process Enforcement]]
 - [[concepts/owasp|Owasp]]
 - [[concepts/owasp-top-10-for-ai-agents|Owasp Top 10 For Ai Agents]]
 - [[concepts/owasp-top-10-risks|Owasp Top 10 Risks]]
@@ -133,27 +148,37 @@ _No notes in this thread yet._
 - [[concepts/risk-assessment|Risk Assessment]]
 - [[concepts/risk-controls|Risk Controls]]
 - [[concepts/risk-mitigation|Risk Mitigation]]
+- [[concepts/secret-honey|Secret Honey]]
 - [[concepts/secure|Secure]]
 - [[concepts/secure-browsing|Secure Browsing]]
 - [[concepts/security|Security]]
+- [[concepts/security-concersns|Security Concersns]]
 - [[concepts/security-exposure|Security Exposure]]
 - [[concepts/security-protocol|Security Protocol]]
 - [[concepts/social-security-overpayments|Social Security Overpayments]]
 - [[concepts/software-cybersecurity|Software Cybersecurity]]
 - [[concepts/ssh-key-authorization|Ssh Key Authorization]]
+- [[concepts/ssl-certificates|Ssl Certificates]]
 - [[concepts/threat-intelligence|Threat Intelligence]]
 - [[concepts/user-authentication|User Authentication]]
 - [[concepts/user-authentication-system|User Authentication System]]
 - [[concepts/user-control|User Control]]
 - [[concepts/user-permissions|User Permissions]]
 - [[concepts/vpn|Vpn]]
+- [[concepts/vulnerability-exploitation|Vulnerability Exploitation]]
 
 <div id="deployment-docker-services" class="domain-group-anchor"></div>
 ## Deployment Docker & Services
 
-<div class="domain-group-meta">30 concepts · 0 linked notes</div>
+<div class="domain-group-meta">35 concepts · 30 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-23-Docker-Sandboxes-Secure-AI-Agent-Execution-via-Isolated|Docker Sandboxes: Secure AI Agent Execution via Isolated Environments]]
+- [[lab-notes/2026-05-18-MiniMax-M2.7-Local-CPUGPU-Deployment-via-llama.cpp-Quant|MiniMax-M2.7 Local CPU/GPU Deployment via llama.cpp Quantization]]
+- [[lab-notes/2026-05-18-Astro-Email-Sending-with-Cloudflare-Workers-and-Email-Ro|Astro Email Sending with Cloudflare Workers and Email Routing]]
+- [[lab-notes/2026-05-11-NVIDIA-Nemotron-Elastic-Bundling-Three-LLMs-for-Flexible|NVIDIA Nemotron Elastic: Bundling Three LLMs for Flexible Deployment]]
+- [[lab-notes/2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme|AionUI: Free Desktop Platform for Multi-Agent AI Management and Automation]]
 
 **Concepts in this thread**
 
@@ -161,16 +186,21 @@ _No notes in this thread yet._
 - [[concepts/ai-integrated-service-management|Ai Integrated Service Management]]
 - [[concepts/ai-model-deployment|Ai Model Deployment]]
 - [[concepts/application-deployment|Application Deployment]]
+- [[concepts/cloudflare-email-service|Cloudflare Email Service]]
 - [[concepts/commercial-lunar-payload-services|Commercial Lunar Payload Services]]
+- [[concepts/cpu-deployment|Cpu Deployment]]
 - [[concepts/deployment|Deployment]]
 - [[concepts/deployment-management|Deployment Management]]
 - [[concepts/deployment-settings|Deployment Settings]]
 - [[concepts/docker|Docker]]
 - [[concepts/docker-containers|Docker Containers]]
+- [[concepts/docker-sandboxes|Docker Sandboxes]]
 - [[concepts/edge-deployment|Edge Deployment]]
+- [[concepts/elastic-deployment|Elastic Deployment]]
 - [[concepts/email-service-beta|Email Service Beta]]
 - [[concepts/fsd-deployment|Fsd Deployment]]
 - [[concepts/google-sites-deployment|Google Sites Deployment]]
+- [[concepts/isolated-environments|Isolated Environments]]
 - [[concepts/linux-installation|Linux Installation]]
 - [[concepts/local-llama-31-deployment|Local Llama 31 Deployment]]
 - [[concepts/offering-counseling-services|Offering Counseling Services]]
@@ -191,21 +221,30 @@ _No notes in this thread yet._
 <div id="data-pipelines-sync-storage" class="domain-group-anchor"></div>
 ## Data Pipelines Sync & Storage
 
-<div class="domain-group-meta">206 concepts · 0 linked notes</div>
+<div class="domain-group-meta">219 concepts · 117 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-05-17-OpenAI-Codex-Agentic-AI-Outperforms-Claude-in-GTM-Resear|OpenAI Codex Agentic AI Outperforms Claude in GTM Research & Automation]]
+- [[lab-notes/2026-05-10-ERNIE-5.1-Baidus-AI-Model---High-Performance-Cost-Effici|ERNIE 5.1: Baidu's AI Model - High Performance, Cost-Efficient, Multimodal Capabilities]]
+- [[lab-notes/2026-05-05-Yann-LeCuns-JEPA-Proposal-A-Path-Beyond-LLMs|Yann LeCun's JEPA Proposal: A Path Beyond LLMs]]
+- [[lab-notes/2026-05-03-Luce-PFlash-10x-Faster-AI-Model-Prompt-Prefill-on-Local|Luce PFlash: 10x Faster AI Model Prompt Prefill on Local GPUs]]
+- [[lab-notes/2026-05-03-Anthropics-Interest-Atlassian-Issue-Trackers-as-Essentia|Anthropic's Interest: Atlassian Issue Trackers as Essential AI Infrastructure]]
 
 **Concepts in this thread**
 
+- [[concepts/2026-04-13-the-conceptsbig-databig-data-center-water-problem|2026 04 13 The Conceptsbig Databig Data Center Water Problem]]
 - [[concepts/advanced-ai-processing|Advanced Ai Processing]]
 - [[concepts/advanced-ai-techniques-that-improve-generalization-from-simulated-data|Advanced Ai Techniques That Improve Generalization From Simulated Data]]
 - [[concepts/ai-data-analysis|Ai Data Analysis]]
 - [[concepts/ai-data-pipeline|Ai Data Pipeline]]
 - [[concepts/ai-document-formatting|Ai Document Formatting]]
+- [[concepts/ai-model-processing|Ai Model Processing]]
 - [[concepts/audio-processing|Audio Processing]]
 - [[concepts/automated-content-extraction|Automated Content Extraction]]
 - [[concepts/automated-data-linking|Automated Data Linking]]
 - [[concepts/automated-data-reporting|Automated Data Reporting]]
+- [[concepts/automated-detection-of-document-changes|Automated Detection Of Document Changes]]
 - [[concepts/automated-information-extraction|Automated Information Extraction]]
 - [[concepts/automated-information-processing|Automated Information Processing]]
 - [[concepts/background-ai-processing|Background Ai Processing]]
@@ -220,7 +259,6 @@ _No notes in this thread yet._
 - [[concepts/chunking-documents|Chunking Documents]]
 - [[concepts/climate-modelling-data-reports|Climate Modelling Data Reports]]
 - [[concepts/cloud-based-image-processing|Cloud Based Image Processing]]
-- [[concepts/color-calibration|Color Calibration]]
 - [[concepts/context-aware-processing|Context Aware Processing]]
 - [[concepts/contextualized-knowledge|Contextualized Knowledge]]
 - [[concepts/cross-references|Cross References]]
@@ -260,6 +298,7 @@ _No notes in this thread yet._
 - [[concepts/data-reconciliation|Data Reconciliation]]
 - [[concepts/data-reporting-in-excel|Data Reporting In Excel]]
 - [[concepts/data-sovereignty|Data Sovereignty]]
+- [[concepts/data-structure-for-ai|Data Structure For Ai]]
 - [[concepts/data-synchronization|Data Synchronization]]
 - [[concepts/data-synthesis|Data Synthesis]]
 - [[concepts/data-synthesis-automation|Data Synthesis Automation]]
@@ -273,6 +312,7 @@ _No notes in this thread yet._
 - [[concepts/database-storage|Database Storage]]
 - [[concepts/dataset-curation|Dataset Curation]]
 - [[concepts/date-2026-04-13|Date 2026 04 13]]
+- [[concepts/date-conceptsdate-2026-04-132026-04-13|Date Conceptsdate 2026 04 132026 04 13]]
 - [[concepts/debt-fueled-data-centers|Debt Fueled Data Centers]]
 - [[concepts/depth-channel-extraction|Depth Channel Extraction]]
 - [[concepts/depth-information-extraction|Depth Information Extraction]]
@@ -286,12 +326,12 @@ _No notes in this thread yet._
 - [[concepts/document-changes-analysis|Document Changes Analysis]]
 - [[concepts/document-chunking|Document Chunking]]
 - [[concepts/document-discussion|Document Discussion]]
-- [[concepts/document-insights|Document Insights]]
 - [[concepts/document-layout-analysis|Document Layout Analysis]]
 - [[concepts/document-management|Document Management]]
 - [[concepts/document-parsing|Document Parsing]]
 - [[concepts/document-processing|Document Processing]]
 - [[concepts/document-retrieval|Document Retrieval]]
+- [[concepts/document-review|Document Review]]
 - [[concepts/document-snapshots|Document Snapshots]]
 - [[concepts/document-summarization|Document Summarization]]
 - [[concepts/document-to-slide-workflow|Document To Slide Workflow]]
@@ -303,6 +343,7 @@ _No notes in this thread yet._
 - [[concepts/dynamic-data-linking|Dynamic Data Linking]]
 - [[concepts/dynamic-data-ranges|Dynamic Data Ranges]]
 - [[concepts/dynamic-data-reporting|Dynamic Data Reporting]]
+- [[concepts/elastic-sub-network-extraction-moe|Elastic Sub Network Extraction Moe]]
 - [[concepts/encoding|Encoding]]
 - [[concepts/excel-data-automation|Excel Data Automation]]
 - [[concepts/external-data|External Data]]
@@ -332,6 +373,8 @@ _No notes in this thread yet._
 - [[concepts/json-format|Json Format]]
 - [[concepts/json-prompting-workflow|Json Prompting Workflow]]
 - [[concepts/json-structuring|Json Structuring]]
+- [[concepts/language-data|Language Data]]
+- [[concepts/language-processing|Language Processing]]
 - [[concepts/large-scale-code-processing|Large Scale Code Processing]]
 - [[concepts/legal-document-review|Legal Document Review]]
 - [[concepts/lightroom-calibration-panel|Lightroom Calibration Panel]]
@@ -394,6 +437,12 @@ _No notes in this thread yet._
 - [[concepts/unstructured-data|Unstructured Data]]
 - [[concepts/unstructured-text|Unstructured Text]]
 - [[concepts/unstructured-text-processing|Unstructured Text Processing]]
+- [[concepts/url-httpswwwyoutubecomwatchv59i84mwlk-c|Url Httpswwwyoutubecomwatchv59I84Mwlk C]]
+- [[concepts/url-httpswwwyoutubecomwatchvehp4fpyajkq|Url Httpswwwyoutubecomwatchvehp4Fpyajkq]]
+- [[concepts/url-httpswwwyoutubecomwatchvmcxnkgsr1n0|Url Httpswwwyoutubecomwatchvmcxnkgsr1N0]]
+- [[concepts/url-httpswwwyoutubecomwatchvnyrnnn82atg|Url Httpswwwyoutubecomwatchvnyrnnn82Atg]]
+- [[concepts/url-httpswwwyoutubecomwatchvqgc--iunr7i|Url Httpswwwyoutubecomwatchvqgc  Iunr7I]]
+- [[concepts/url-httpswwwyoutubecomwatchvtxgwk-i6svs|Url Httpswwwyoutubecomwatchvtxgwk I6Svs]]
 - [[concepts/url-httpsyoutubeehp4fpyajkqsijrllz2wgfxgjmq5m|Url Httpsyoutubeehp4Fpyajkqsijrllz2Wgfxgjmq5M]]
 - [[concepts/url-httpsyoutubejm41u7emnwosiiftizmnlxm56dyup|Url Httpsyoutubejm41U7Emnwosiiftizmnlxm56Dyup]]
 - [[concepts/us-export-controls|Us Export Controls]]
@@ -407,9 +456,15 @@ _No notes in this thread yet._
 <div id="devices-access-networks" class="domain-group-anchor"></div>
 ## Devices Access & Networks
 
-<div class="domain-group-meta">26 concepts · 0 linked notes</div>
+<div class="domain-group-meta">26 concepts · 15 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-30-AionUI-Free-Desktop-Platform-for-Multi-Agent-AI-Manageme|AionUI: Free Desktop Platform for Multi-Agent AI Management and Automation]]
+- [[lab-notes/2026-04-22-AnythingLLM-1.12-Channels-Mobile-Interaction-with-Private-Self-Hosted-LLMs|AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs]]
+- [[lab-notes/2026-04-20-Fried-Rice-Formula-Essential-Techniques-for-Rice-Treatment-and-Mix-ins|Fried Rice Formula Essential Techniques for Rice Treatment and Mix-ins]]
+- [[lab-notes/2026-04-14-Starlinks-Misunderstood-Success-Global-Impact-Connectivity-and-Societa|Starlinks Misunderstood Success Global Impact Connectivity and Societal Transformation]]
+- [[lab-notes/2026-04-13-Demystifying-AI-Transformer-Training-on-a-1979-PDP-11|Demystifying AI Transformer Training on a 1979 PDP-11]]
 
 **Concepts in this thread**
 
@@ -443,9 +498,13 @@ _No notes in this thread yet._
 <div id="enterprise-security-risk" class="domain-group-anchor"></div>
 ## Enterprise Security & Risk
 
-<div class="domain-group-meta">3 concepts · 0 linked notes</div>
+<div class="domain-group-meta">3 concepts · 3 linked notes</div>
 
-_No notes in this thread yet._
+**Representative notes**
+
+- [[lab-notes/2026-04-10-Nvidias-Open-Source-Guardrails-vs-OpenAIs-AI-Agent-Consulting-Strategy|Nvidias Open-Source Guardrails vs OpenAIs AI Agent Consulting Strategy]]
+- [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llama.cpp: Local LLM Inference for Accessible, Private AI]]
+- [[lab-notes/2026-04-07-Local-AI-Privacy-Risks-and-Mitigation-Strategies|Local AI Privacy Risks and Mitigation Strategies]]
 
 **Concepts in this thread**
 
@@ -455,29 +514,33 @@ _No notes in this thread yet._
 
 ## Key Entities
 
+- [[entities/2048|2048]]
 - [[entities/abacusai|Abacusai]]
 - [[entities/adam-lucek|Adam Lucek]]
 - [[entities/admin-privileges|Admin Privileges]]
-- [[entities/adobe-camera-raw|Adobe Camera Raw]]
 - [[entities/adobe-express|Adobe Express]]
 - [[entities/adobe-lightroom|Adobe Lightroom]]
 - [[entities/adobe-photoshop|Adobe Photoshop]]
+- [[entities/adobe-rgb|Adobe Rgb]]
+- [[entities/adrian-twarog|Adrian Twarog]]
 - [[entities/ai|Ai]]
 - [[entities/ai-coding-assistant|Ai Coding Assistant]]
 - [[entities/ai-engineer|Ai Engineer]]
 - [[entities/ai-hallucination|Ai Hallucination]]
 - [[entities/ai-labs|Ai Labs]]
 - [[entities/ai-mind-revolution|Ai Mind Revolution]]
+- [[entities/ai-pipeline|Ai Pipeline]]
 - [[entities/ai21-labs|Ai21 Labs]]
 - [[entities/alex-finn|Alex Finn]]
+- [[entities/alex-kretzschmar|Alex Kretzschmar]]
 - [[entities/alex-ziskind|Alex Ziskind]]
 - [[entities/alexander-kolesnikov|Alexander Kolesnikov]]
 - [[entities/ali-h-salem|Ali H Salem]]
 - [[entities/alibaba|Alibaba]]
 - [[entities/alibaba-ai|Alibaba Ai]]
 - [[entities/alka-kolthari|Alka Kolthari]]
+- [[entities/allied-health|Allied Health]]
 - [[entities/amazon|Amazon]]
-- [[entities/amazon-reinvent|Amazon Reinvent]]
 - [[entities/amazon-web-services|Amazon Web Services]]
 - [[entities/android-16|Android 16]]
 - [[entities/andy-hutchinson|Andy Hutchinson]]
@@ -488,18 +551,15 @@ _No notes in this thread yet._
 - [[entities/anton-petrov|Anton Petrov]]
 - [[entities/anythingllm|Anythingllm]]
 - [[entities/api-calls|Api Calls]]
+- [[entities/apify|Apify]]
 - [[entities/apple|Apple]]
 - [[entities/applied-ai-team|Applied Ai Team]]
-- [[entities/autoresearch-project|Autoresearch Project]]
-- [[entities/azure-ai|Azure Ai]]
-- [[entities/azure-openai|Azure Openai]]
-- [[entities/azure-portal|Azure Portal]]
-- [[entities/beautifulai|Beautifulai]]
 
 ## Related Shelves
 
 - [[domains/ai-agents|AI & Agents]]
 - [[domains/tools-platforms|Tools & Platforms]]
+- [[domains/ux-design|UX & Design]]
 - [[domains/creative-pursuits|Creative Pursuits]]
 - [[domains/food-nutrition|Food & Nutrition]]
 - [[domains/business-strategy|Business & Strategy]]

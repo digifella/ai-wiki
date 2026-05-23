@@ -1,24 +1,8 @@
 ---
 type: concept
 domain: health-wellbeing
-tags:
-  - "happiness"
-  - "mental health"
-  - "well-being"
-  - "college students"
-  - "psychological science"
-  - "happiness-studies"
-  - "student-welfare"
-  - "mental-health-strategies"
-  - "positive-psychology-basics"
-  - "college-mental-health"
-aliases:
-  - "joy-and-satisfaction"
-  - "contentment-in-life"
-  - "well-being-concepts"
-  - "academic-happiness-research"
-summary: "Dr. Laurie Santos discusses the insights from psychological science on happiness and addresses misconceptions about student mental health."
-updated: 2026-04-12
+summary: Dr. Laurie Santos discusses the insights from psychological science on happiness and addresses misconceptions about student mental health.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
 ---
 # Happiness
@@ -30,12 +14,12 @@ group: health-practice-patient-knowledge
 - [[concepts/mental-health]]
 - [[concepts/self-improvement]]
 - [[concepts/positive-psychology|positive-psychology]]
-- student-welfare
+- [[concepts/student-welfare|student-welfare]]
 
 ### Notes
 
-- **[[entities/laurie-santos|Laurie Santos]] on Happiness: Student Mental Health and Well-being Misconceptions**
-  - Clip title: What [[concepts/psychology|psychological science]] says about happiness | [[entities/laurie-santos|Laurie Santos]]
+- **[[entities/laurie-santos|Laurie Santos]] on Happiness: Student Mental [[concepts/health|Health]] and Well-being Misconceptions**
+  - [[concepts/clip-title|Clip title]]: What [[concepts/psychology|psychological science]] says about happiness | [[entities/laurie-santos|Laurie Santos]]
   - Author / channel: [[entities/world-economic-forum|World Economic Forum]]
   - URL: https://www.youtube.com/watch?v=HStWtmSCAS8
 
@@ -43,7 +27,6 @@ group: health-practice-patient-knowledge
 - [[entities/dr-laurie-santos|Dr. Laurie Santos]] discusses the insights from [[concepts/psychology|psychological science]] on happiness, focusing on the [[concepts/mental-health|mental health]] crisis affecting college students.
 - She references a 2017 National College [[concepts/conducting-health-screenings|Health Assessment]] revealing that about 40% of students suffer from [[concepts/depression|depression]] severe enough to impair their daily functioning.
 
-Backlink: 2026 04 11 Laurie Santos on Happiness Student Mental Health and Well being Miscon
-
+Backlink: 2026 04 11 Laurie Santos on Happiness Student Mental [[concepts/health|Health]] and Well being Miscon
 ## Source Notes
 - 2026-04-11: What psychological science says about happiness | Laurie Santos

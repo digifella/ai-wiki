@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "model"
-  - "ai"
-  - "anthropic"
-  - "claude"
-updated: 2026-04-15
+updated: 2026-05-23
 group: anthropic-claude
 ---
 # Claude Opus 4.1
@@ -16,13 +11,12 @@ Minor strategic upgrade to [[entities/claude|Claude]] 4.0 series, quietly releas
 Key features:
 - Enhanced [[concepts/performance-benchmarks|performance benchmarks]] (specifically in [[concepts/coding|coding]] tasks)
 - Updated [[concepts/pricing-structure|pricing structure]] (details pending)
-- New capabilities within [[entities/claude-code]] environment
+- New [[concepts/capabilities|capabilities]] within [[entities/claude-code]] environment
 - Focused on practical [[concepts/developer|developer]] improvements over major architectural changes
 
 Video overview: [Claude Opus 4.1 Release Analysis](https://www.youtube.com/watch?v=RCmp8Uj4Hk8)
 
-Backlink: 2026 04 14 [[concepts/anthropic-features|Claude Code updates]] and [[concepts/claude-ai|Claude]] Opus 41
-
+Backlink: 2026 04 14 [[concepts/anthropic-features|Claude Code updates]] and [[concepts/claude-ai|Claude]] [[concepts/opus|Opus]] 41
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

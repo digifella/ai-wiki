@@ -1,24 +1,10 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "ai-marketing"
-  - "automation"
-  - "marketing-agents"
-  - "claude-code"
-  - "ai-marketing-strategy"
-  - "marketing-workflows"
-  - "multi-agent-systems"
-  - "autonomous-agents"
-aliases:
-  - "AI Marketing Automation Overview"
-  - "Claude Code in Marketing"
-  - "AI-driven Marketing Teams"
-  - "Automation Framework"
-summary: "The application of AI marketing agents and specialized skills to automate end-to-end marketing workflows."
-updated: 2026-04-08
+summary: The application of AI marketing agents and specialized skills to automate end-to-end marketing workflows.
+updated: 2026-05-23
 group: ai-marketing-content-ops
-title: "AI Marketing Automation"
+title: AI Marketing Automation
 ---
 # AI Marketing Automation
 
@@ -26,7 +12,7 @@ The application of [[concepts/agentic-ai]] and specialized [[concepts/agent-skil
 
 ### Core Frameworks
 - **Agentic Team Building**: Transforming [[entities/claude-code]] ([[entities/anthropic|Anthropic]]'s IDE) into a comprehensive [[concepts/ai-marketing-team|AI marketing team]] by orchestrating [[concepts/agentic-ai|specialized agents]] and [[concepts/skills|skills]].
-- **Functional Capabilities**:
+- **Functional [[concepts/capabilities|Capabilities]]**:
     - Market Research
     - Content [[concepts/writing|Writing]]
     - Data Analysis
@@ -39,7 +25,6 @@ The application of [[concepts/agentic-ai]] and specialized [[concepts/agent-skil
 ---
 **Source:**
 - 2026 04 10 Building an [[concepts/ai-copywriting|AI Marketing]] Team with [[concepts/ai-assisted-coding|Claude Code]] [[concepts/agents|Agents]] Skills
-
 ## Source Notes
 - 2026-04-07: I Built An Entire [[concepts/ai-marketing-team|AI Marketing Team With Claude Code In 16]]
 - 2026-04-08: [[lab-notes/2026-04-08-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "tmux"
@@ -13,7 +12,8 @@ aliases:
   - "Tmux"
   - "Terminal Multiplexing"
 summary: Tmux sessions allow running and detaching persistent background processes in a terminal multiplexer.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Tmux Sessions
 
@@ -25,7 +25,6 @@ Sessions are created with the `tmux new-session` command or the shorthand `tmux 
 
 ## Practical Applications
 
-A common use case for sessions is running long-lived applications or batch jobs that should continue executing even if the network [[concepts/connection|connection]] drops or the terminal closes. Developers often maintain separate sessions for different projects, keeping build processes, servers, and monitoring tools isolated from one another. Sessions are particularly valuable on remote servers accessed via SSH, where network interruptions would otherwise terminate all running processes.
-
+A common use case for sessions is running long-lived [[concepts/software|applications]] or batch jobs that should continue executing even if the network [[concepts/connection|connection]] drops or the terminal closes. Developers often maintain separate sessions for different projects, keeping build processes, servers, and monitoring tools isolated from one another. Sessions are particularly valuable on remote servers accessed via [[concepts/ssh|SSH]], where network interruptions would otherwise terminate all running processes.
 ## Source Notes
 - 2026-04-14: The Starlink Breakthrough Everyone Missed

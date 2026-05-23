@@ -1,21 +1,7 @@
 ---
 type: entity
-tags:
-  - "productivity"
-  - "decluttering"
-  - "gretchen-rubin"
-  - "productivity-strategies"
-  - "time-management"
-  - "quick-tasks"
-  - "clutter-prevention"
-  - "procrastination-buster"
-aliases:
-  - "gretchen-rubin-one-minute-rule"
-  - "instant-task-completion"
-  - "one-min-req"
-  - "immediate-action-principle"
-summary: "The One-Minute Rule is a productivity technique that suggests completing tasks under one minute immediately to prevent clutter and procrastination."
-updated: 2026-04-12
+summary: The One-Minute Rule is a productivity technique that suggests completing tasks under one minute immediately to prevent clutter and procrastination.
+updated: 2026-05-23
 ---
 # One-Minute Rule
 
@@ -29,16 +15,15 @@ updated: 2026-04-12
 
 ### Summary of Gretchen Rubin's One-Minute Rule: Preventing Clutter Recurrence
 
-**Clip title:** Stop Clutter from Coming Back with the [[concepts/habits|One-Minute Rule]]
+**[[concepts/clip-title|Clip title]]:** Stop Clutter from Coming Back with the [[concepts/habits|One-Minute Rule]]
 **Author / channel:** [[entities/gretchen-rubin|Gretchen Rubin]]
 **URL:** https://www.youtube.com/watch?v=TqTTlzOFjC0
 
 ### Bullet Points
 - Prevent clutter recurrence by addressing small tasks instantly.
 - Tasks under one minute should be completed immediately to avoid procrastination.
-- Applying the One-Minute Rule helps maintain a tidy and organized space.
+- Applying the [[concepts/daily-routines|One-Minute Rule]] helps maintain a tidy and organized space.
 
 2026 04 11 Gretchen Rubins One Minute Rule Preventing Clutter Recurrence
-
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Gretchen-Rubin-Cultivating-Daily-Habits-for-a-Happier-Life|Gretchen Rubin Cultivating Daily Habits for a Happier Life]] · [▶ source](https://www.youtube.com/watch?v=BzuawrFE1xM)

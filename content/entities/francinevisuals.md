@@ -1,27 +1,22 @@
 ---
 type: entity
 tags:
-  - "creator"
-  - "photography"
-  - "color-grading"
   - "adobe-lightroom"
-  - "photography-tutorials"
-  - "cinematic-colors"
+  - "color-grading"
+  - "tutorials"
+  - "content-creator"
+  - "cinematic-color"
   - "skin-tones"
 aliases:
-  - "francine-lightroom-guide"
-  - "visual-effects-francine"
-  - "lightroom-expertise-francine"
-summary: "Francinevisuals is a content creator focusing on Adobe Lightroom tutorials and color-grading techniques."
-updated: 2026-04-11
+  - "Francine Visuals"
+summary: Francinevisuals is a content creator focusing on Adobe Lightroom tutorials and color-grading techniques.
+updated: 2026-05-23
 ---
 # Francinevisuals
-Content creator specializing in [[entities/adobe-lightroom]] tutorials and [[concepts/lightroom]] techniques.
 
-## Related Notes
-- 2026 04 10 [[concepts/cinematic-color-grading|Lightroom Calibration Panel]] [[concepts/foundational-color|Foundational Color]] [[concepts/skin-tones|Skin Tones]] Cinematic
+Francinevisuals is a [[entities/video-creator|content creator]] who specializes in [[entities/adobe-lightroom|Adobe Lightroom]] tutorials and digital [[concepts/photo-tonal-adjustments|color-grading]] techniques. The creator focuses on practical instruction in post-processing workflows, with particular emphasis on achieving specific aesthetic results through Lightroom's tools and adjustment panels.
 
-## Backlinks
-- 2026 04 10 Lightroom Calibration Panel Foundational Color Skin Tones Cinematic
+## Content Focus
 
+The creator's educational content covers [[concepts/foundational-color|foundational color]] [[concepts/theory|theory]] as applied to Lightroom, including techniques for skin [[concepts/tone|tone]] correction and cinematic color grading. Instruction also extends to advanced features such as the [[concepts/lightroom-calibration-panel|Lightroom Calibration Panel]], which allows for deeper [[concepts/power|control]] over color rendering and image tone.
 ## Source Notes

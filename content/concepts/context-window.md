@@ -1,17 +1,8 @@
 ---
-group: reasoning-context-prompting
-domain: ai-agents
 type: concept
-tags:
-  - "nlp"
-  - "transformer"
-  - "architecture"
-  - "ai-models"
-  - "llm-limits"
-  - "attention-mechanism"
-  - "context-management"
-  - "nlp-challenges"
-updated: 2026-04-14
+domain: ai-agents
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Context Window
 
@@ -25,14 +16,13 @@ The maximum number of [[concepts/tokens|Tokens]] an LLM can process within a sin
 	- RoPE (Rotary Positional [[concepts/vector-representations|Embeddings]]) for context extrapolation.
 	- [[concepts/rag]] ([[concepts/traditional-rag|Retrieval-Augmented Generation]]) to extend effective context via external [[concepts/source-discovery|data retrieval]].
 - **[[concepts/context-management|Context Management]] Patterns**:
-	- **[[concepts/subagents|Subagents]] ([[concepts/claude-code|Claude Code]])**: Utilizing [[concepts/specialized-ai-assistants|specialized AI assistants]] for [[concepts/task-specific-workflows|task-specific workflows]] to improve context efficiency (Source: [[entities/ai-labs|AI Labs]]).
+	- **[[concepts/subagents|Subagents]] ([[concepts/claude-code|Claude Code]])**: Utilizing [[concepts/specialized-ai-assistants|specialized AI assistants]] for [[concepts/task-specific-workflows|task-specific workflows]] to improve [[concepts/context-efficiency|context efficiency]] (Source: [[entities/ai-labs|AI Labs]]).
 
 ## Recent Model Examples
 - **[[entities/jamba|Jamba]] 1.7 ([[entities/ai21-labs|AI21 Labs]])**: Newly released **[[concepts/hybrid-ssm-transformer|hybrid SSM-Transformer]] [[concepts/architecture|architecture]]** supporting a **256k context window**. Available in **[[entities/jamba-mini-17|Jamba Mini 1.7]]** and **[[entities/jamba-large-17|Jamba Large 1.7]]** variants (demonstrated in [AI21 [[entities/labs|Labs]]' showcase](
 
 ## Backlinks
 - 2026 04 14 [[concepts/developer-workflow|Claude Code workflow]] using [[concepts/sub-agents|sub agents]]
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: The End of the GPU Era? 1-Bit LLMs Are Here.

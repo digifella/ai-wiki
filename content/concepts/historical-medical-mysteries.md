@@ -15,9 +15,10 @@ tags:
 aliases:
   - "Prion disease history"
   - "Kuru and BSE"
-summary: "The page explores historical medical mysteries such as Kuru and Mad Cow disease and their connection to the prion protein hypothesis and the origin of life."
-updated: 2026-04-28
+summary: The page explores historical medical mysteries such as Kuru and Mad Cow disease and their connection to the prion protein hypothesis and the origin of life.
+updated: 2026-05-23
 group: health-practice-patient-knowledge
+stub: true
 ---
 # Historical Medical Mysteries
 
@@ -29,7 +30,7 @@ group: health-practice-patient-knowledge
 - **Legacy**: Key evidence for prion [[concepts/theory|theory]]
 
 ## Mad Cow Disease (BSE)
-- **Emergence**: 1980s UK
+- **Emergence**: 1980s [[entities/uk|UK]]
 - **Link to Humans**: vCJD (variant Creutzfeldt-Jakob disease)
 - **Controversy**: Banning of beef exports
 
@@ -39,7 +40,7 @@ group: health-practice-patient-knowledge
 - **Mechanism**: Conversion of normal prion protein (PrP^C) to infectious form (PrP^Sc)
 
 ## Anton Petrov - Prion and Start of Life
-- **Video Summary**: 2026 04 14 [[entities/anton-petrov|Anton Petrov]] Prion and [[concepts/start-of-life|start of life]]
+- **Video [[concepts/summary|Summary]]**: 2026 04 14 [[entities/anton-petrov|Anton Petrov]] Prion and [[concepts/start-of-life|start of life]]
 - **Key Points**:
   - [[concepts/protein-world-hypothesis|Protein World Hypothesis]] suggests [[concepts/infectious-proteins|prions]] may have played role in origin of life
   - [[concepts/connection|Connection]] between [[entities/fore-tribe|Fore Tribe]] rituals and prion research

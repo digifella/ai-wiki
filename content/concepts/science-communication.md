@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "science-communication"
   - "public-engagement"
@@ -11,11 +10,12 @@ aliases:
   - "science outreach"
   - "communicating science"
 summary: The practice of conveying scientific concepts and research to non-specialist audiences.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # Science Communication
 
-[[concepts/research-communications|Science communication]] is the practice of conveying scientific concepts, [[concepts/flow-management|research findings]], and methodologies to audiences without specialized [[concepts/training|training]] in the relevant field. It serves as a bridge between the scientific community and the general public, translating technical language and complex ideas into accessible formats. Effective science communication requires clarity, [[concepts/accuracy|accuracy]], and an understanding of how non-specialists process information, while maintaining the [[concepts/integrity|integrity]] of the underlying science.
+[[concepts/research-communications|Science communication]] is the practice of conveying scientific concepts, [[concepts/flow-management|research findings]], and methodologies to audiences without specialized [[concepts/training|training]] in the relevant field. It serves as a bridge between the scientific community and the general public, translating technical language and complex [[concepts/ideas|ideas]] into accessible formats. Effective [[concepts/science|science]] communication requires clarity, [[concepts/accuracy|accuracy]], and an understanding of how non-specialists process information, while maintaining the [[concepts/integrity|integrity]] of the underlying science.
 
 ## Methods and Formats
 
@@ -24,7 +24,6 @@ Science communicators employ diverse approaches to reach different audiences, in
 ## Importance and Challenges
 
 Science communication is essential for public understanding of scientific findings that affect everyday life, from medical treatments to environmental policy. However, communicators face challenges in simplifying complex topics without oversimplifying them, combating misinformation, and maintaining audience engagement with abstract concepts. The field also grapples with questions of [[concepts/accessibility|accessibility]], ensuring that science communication reaches diverse populations rather than reinforcing existing educational divides.
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Joe-Risser-Mental-Toughness-BDNF-and-Resilience-for-Chronic-Pain|Joe Risser Mental Toughness BDNF and Resilience for Chronic Pain]] · [▶ source](https://www.youtube.com/watch?v=rNxC16mlO60)
 - 2026-04-11: [[lab-notes/2026-04-11-The-Neurochemical-Science-of-Storytelling-and-Emotional-Engagement|The Neurochemical Science of Storytelling and Emotional Engagement]] · [▶ source](https://www.youtube.com/watch?v=Nj-hdQMa3uA)

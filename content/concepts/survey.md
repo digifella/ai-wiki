@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: probability-statistics-models
 tags:
   - "developer-surveys"
   - "ai-adoption"
@@ -12,7 +11,8 @@ aliases:
   - "Developer Survey Comparison"
   - "AI Tool Adoption Survey"
 summary: A comparison and summary of two recent developer surveys regarding AI tool and tech stack adoption.
-updated: 2026-05-01
+updated: 2026-05-23
+group: probability-statistics-models
 ---
 # Survey
 
@@ -20,7 +20,7 @@ A survey is a systematic method of collecting data from a sample population to g
 
 ## Developer Surveys on AI Adoption
 
-Recent developer surveys have examined the adoption patterns of [[concepts/ai-technologies|artificial intelligence]] tools and their integration into existing technology stacks. These surveys typically gather [[concepts/responses|responses]] from practicing developers about which [[entities/ai-tools|AI tools]] they use, how they integrate them into their workflows, and how these tools affect their development practices. By comparing multiple surveys conducted around the same period, researchers and industry analysts can identify consistent trends and diverging patterns in technology adoption.
+Recent [[concepts/developer|developer]] surveys have examined the adoption patterns of [[concepts/ai-technologies|artificial intelligence]] tools and their [[concepts/integration|integration]] into existing technology stacks. These surveys typically gather [[concepts/responses|responses]] from practicing developers about which [[entities/ai-tools|AI tools]] they use, how they integrate them into their workflows, and how these tools affect their development practices. By comparing multiple surveys conducted around the same period, researchers and industry analysts can identify consistent trends and diverging patterns in [[concepts/adoption|technology adoption]].
 
 ## Methodology and Significance
 

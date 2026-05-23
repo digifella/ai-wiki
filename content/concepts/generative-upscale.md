@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photoshop-layer-workflows
 tags:
   - "ai-upscaling"
   - "photoshop-features"
@@ -12,7 +11,8 @@ aliases:
   - "Photoshop Generative Upscale"
   - "AI Upscale"
 summary: Generative Upscale is an AI-based upscaling tool available in Photoshop Beta.
-updated: 2026-05-01
+updated: 2026-05-23
+group: photoshop-layer-workflows
 ---
 # Generative Upscale
 
@@ -20,12 +20,11 @@ updated: 2026-05-01
 
 ## Availability and Context
 
-Generative Upscale is part of [[concepts/photoshop|Photoshop]]'s expanding suite of AI-assisted tools. It exists alongside other upscaling options in the application, including [[concepts/image-size|Preserve Details 2.0]], which is accessed through the Image Size dialog. The tool reflects Adobe's ongoing integration of generative [[concepts/capabilities|AI capabilities]] into its creative [[concepts/software|software]] ecosystem.
+[[concepts/image-upscaling|Generative Upscale]] is part of [[concepts/photoshop|Photoshop]]'s expanding suite of AI-assisted tools. It exists alongside other upscaling options in the application, including [[concepts/image-size|Preserve Details 2.0]], which is accessed through the Image Size dialog. The tool reflects [[entities/adobe|Adobe]]'s ongoing [[concepts/integration|integration]] of generative [[concepts/capabilities|AI capabilities]] into its creative [[concepts/software|software]] ecosystem.
 
 ## Usage and Comparison
 
-As a generative approach to upscaling, this tool differs from traditional interpolation-based methods. Users working with low-resolution images or needing to enlarge artwork can employ Generative Upscale as part of their workflow, though results may vary depending on the source image characteristics and the desired output quality.
-
+As a generative approach to upscaling, this tool differs from traditional interpolation-based methods. Users working with low-resolution images or needing to enlarge artwork can employ Generative Upscale as part of their [[concepts/workflow|workflow]], though results may vary depending on the source image characteristics and the desired [[concepts/output|output]] quality.
 ## Source Notes
 
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

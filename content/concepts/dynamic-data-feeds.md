@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: security-infrastructure
-group: data-pipelines-sync-storage
 tags:
   - "data-feeds"
   - "automation"
@@ -13,15 +12,16 @@ aliases:
   - "automated data feeds"
   - "live data streams"
 summary: Systems that automatically distribute and update data from source systems to dependent applications or storage locations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: data-pipelines-sync-storage
 ---
 # Dynamic Data Feeds
 
-Dynamic Data Feeds are [[concepts/automations|automated systems]] that continuously distribute and synchronize data from authoritative source systems to dependent [[concepts/software|applications]], databases, or [[entities/storage|storage]] locations. Rather than requiring manual data exports or periodic batch transfers, these systems establish persistent data pipelines that propagate changes in near-real-time or on defined schedules. They form a critical component of modern security infrastructure by enabling consistent, up-to-date information across distributed systems without human intervention at each transfer point.
+Dynamic Data Feeds are [[concepts/automations|automated systems]] that continuously distribute and synchronize data from authoritative source systems to dependent [[concepts/software|applications]], databases, or [[entities/storage|storage]] locations. Rather than requiring manual data exports or periodic batch transfers, these systems establish persistent data pipelines that propagate changes in near-real-time or on defined schedules. They form a critical component of modern [[concepts/security|security]] infrastructure by enabling consistent, up-to-date information across distributed systems without human intervention [[concepts/assistive-technology|at]] each transfer point.
 
 ## Architecture and Operation
 
-Dynamic Data Feeds typically operate through subscription or polling mechanisms, where downstream systems either register to receive updates or query source systems at regular intervals. Common implementations include message queues, change data capture (CDC) systems, API-based pulls, or database replication protocols. The source system maintains a record of data changes, and the feed mechanism identifies what has been added, modified, or deleted, then delivers only the relevant updates to subscribers. This approach reduces redundant data transfer and ensures dependent systems remain synchronized with authoritative sources.
+Dynamic Data Feeds typically operate through subscription or polling mechanisms, where downstream systems either register to receive updates or query source systems at regular intervals. Common implementations include message queues, change data capture ([[entities/cdc|CDC]]) systems, API-based pulls, or database replication protocols. The source system maintains a record of data changes, and the feed mechanism identifies what has been added, modified, or deleted, then delivers only the relevant updates to subscribers. This approach reduces redundant data transfer and ensures dependent systems remain synchronized with authoritative sources.
 
 ## Security Implications
 

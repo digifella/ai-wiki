@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "concept"
   - "llm-fine-tuning"
@@ -14,20 +13,20 @@ aliases:
   - "Gemma 4-E2B Fine-Tuning"
   - "Gemma-4 Local Training"
 summary: A tutorial on fine-tuning Gemma 4-E2B locally using Unsloth with custom datasets.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Gemma 4 E2b
 
-[[concepts/23b-parameter-models|Gemma 4]]-E2B is a lightweight [[concepts/statistical-language-modeling|language model]] from [[concepts/google-search|Google]] designed for efficient [[concepts/deployment|deployment]] on resource-constrained environments. The "E2B" designation indicates it is an extremely small variant optimized for edge devices and [[concepts/local-computation|local computation]], with a footprint suitable for [[concepts/running|running]] on machines with limited GPU [[concepts/memory|memory]]. As an [[concepts/open-source|open-source]] model, it is available for download and local [[concepts/fine-tuning|fine-tuning]], making it accessible to practitioners who want to customize it for specific tasks without relying on cloud infrastructure.
+[[concepts/23b-parameter-models|Gemma 4]]-[[concepts/e2b|E2B]] is a lightweight [[concepts/statistical-language-modeling|language model]] from [[concepts/google-search|Google]] designed for efficient [[concepts/deployment|deployment]] on resource-constrained environments. The "E2B" designation indicates it is an extremely small variant optimized for edge devices and [[concepts/local-computation|local computation]], with a footprint suitable for [[concepts/running|running]] on machines with limited GPU [[concepts/memory|memory]]. As an [[concepts/open-source|open-source]] model, it is available for download and local [[concepts/fine-tuning|fine-tuning]], making it accessible to practitioners who want to customize it for specific tasks without relying on cloud infrastructure.
 
 ## Fine-tuning with Unsloth
 
-Local fine-tuning of Gemma 4-E2B can be accomplished using Unsloth, a framework designed to streamline the fine-tuning process for small language models. Unsloth reduces [[concepts/memory-overhead|memory overhead]] and computational requirements, enabling efficient adaptation of the base model to custom datasets on consumer-grade [[concepts/hardware|hardware]]. The typical workflow involves loading the pretrained Gemma 4-E2B [[concepts/weights|weights]], preparing a [[concepts/custom-dataset|custom dataset]] in an appropriate format, configuring [[concepts/training|training]] [[concepts/parameters|parameters]], and running the fine-tuning process locally.
+Local fine-tuning of [[entities/gemma-4-e2b|Gemma 4-E2B]] can be accomplished using [[concepts/unsloth|Unsloth]], a framework designed to streamline the fine-tuning process for [[concepts/small-language-models|small language models]]. Unsloth reduces [[concepts/memory-overhead|memory overhead]] and computational requirements, enabling efficient adaptation of the base model to custom datasets on consumer-grade [[concepts/hardware|hardware]]. The typical [[concepts/workflow|workflow]] involves loading the pretrained Gemma 4-E2B [[concepts/weights|weights]], preparing a [[concepts/custom-dataset|custom dataset]] in an appropriate format, configuring [[concepts/training|training]] [[concepts/parameters|parameters]], and running the fine-tuning process locally.
 
 ## Practical Applications
 
-Because Gemma 4-E2B is compact and can run entirely on local systems, it is well-suited for applications requiring data [[concepts/privacy|privacy]], offline operation, or minimal latency. Fine-tuning allows users to adapt the model for domain-specific tasks—such as customer support, document classification, or specialized question-answering—without requiring access to large labeled datasets or expensive training infrastructure. The combination of the model's small size and local fine-tuning capabilities makes it particularly valuable for developers building [[concepts/agentic-ai|AI agents]] on edge devices or in environments with strict data [[concepts/governance|governance]] requirements.
-
+Because Gemma 4-E2B is compact and can run entirely on local systems, it is well-suited for [[concepts/software|applications]] requiring data [[concepts/privacy|privacy]], offline operation, or minimal latency. Fine-tuning allows users to adapt the model for domain-specific tasks—such as customer support, document classification, or specialized [[concepts/fact-based-queries|question-answering]]—without requiring access to large labeled datasets or expensive training infrastructure. The combination of the model's small size and local fine-tuning [[concepts/capabilities|capabilities]] makes it particularly valuable for developers building [[concepts/agentic-ai|AI agents]] on edge devices or in environments with strict data [[concepts/governance|governance]] requirements.
 ## Source Notes
 - 2026-04-07: Fine-Tune [[concepts/gemma-4|Gemma-4 on Your Own Dataset Locally: Step-by-Step]]
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)

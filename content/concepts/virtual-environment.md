@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: cosmology-space
-group: planetary-environments-mars
 tags:
   - "python"
   - "package-manager"
@@ -12,11 +11,12 @@ aliases:
   - "Python Virtual Environments"
   - "UV Package Manager"
 summary: An overview of essential Python tools for environment management, including the UV package manager.
-updated: 2026-05-01
+updated: 2026-05-23
+group: planetary-environments-mars
 ---
 # Virtual Environment
 
-A virtual environment is an isolated [[entities/python|Python]] installation directory that allows developers to manage project-specific dependencies without affecting the system-wide Python installation. This isolation is essential for avoiding version conflicts when working on multiple projects with different package requirements.
+A virtual environment is an isolated [[entities/python|Python]] installation directory that allows developers to manage project-specific dependencies without affecting the system-wide [[concepts/python|Python]] installation. This isolation is essential for avoiding version conflicts when working on multiple projects with different package requirements.
 
 ## Purpose and Benefits
 
@@ -24,12 +24,11 @@ A virtual environment is an isolated [[entities/python|Python]] installation dir
 
 ## Common Tools
 
-Python offers several tools for creating and managing virtual environments. The built-in `venv` module provides basic functionality, while third-party [[concepts/package-managers|package managers]] like UV offer enhanced performance and [[concepts/user-experience-design|user experience]]. UV has gained [[concepts/attention-mechanisms|attention]] as a faster alternative to traditional tools like pip, providing streamlined dependency resolution and installation.
+Python offers several tools for creating and managing virtual environments. The built-in `venv` module provides basic functionality, while third-party [[concepts/package-managers|package managers]] like UV offer enhanced performance and [[concepts/user-experience-design|user experience]]. UV has gained [[concepts/attention-mechanisms|attention]] as a faster alternative to traditional tools like [[entities/pip|pip]], providing streamlined dependency resolution and installation.
 
 ## Best Practices
 
-Projects should document their dependencies and Python version requirements, typically in a requirements file or pyproject.toml configuration. It is standard practice to exclude the virtual environment directory itself from version control, instead committing only the dependency specifications so that collaborators can generate their own environments as needed.
-
+Projects should document their dependencies and Python version requirements, typically in a requirements file or pyproject.toml configuration. It is standard practice to exclude the virtual environment directory itself from version [[concepts/power|control]], instead committing only the dependency specifications so that collaborators can generate their own environments as needed.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: [[lab-notes/2026-04-07-Gemma-4-E2B-LLM-Fine-Tuning-Custom-Dataset-Unsloth-Local-Tutorial|Gemma 4 E2B LLM Fine Tuning Custom Dataset Unsloth Local Tutorial]] · [▶ source](https://www.youtube.com/watch?v=cHpB0PTRx5A)

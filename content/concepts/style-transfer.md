@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: design-systems-ui-infographics
 tags:
   - "concept"
   - "style-transfer"
@@ -13,7 +12,8 @@ aliases:
   - "photoshop-neural-filters"
   - "style-copy-paste"
 summary: A Photoshop feature using neural filters to apply the visual style of one photograph to another image.
-updated: 2026-05-01
+updated: 2026-05-23
+group: design-systems-ui-infographics
 ---
 # Style Transfer
 
@@ -25,8 +25,7 @@ The process relies on [[concepts/deep-learning-models|deep learning models]] tra
 
 ## Practical Applications
 
-Style Transfer in Photoshop enables photographers and digital artists to quickly achieve consistent [[concepts/visual-aesthetics|visual aesthetics]] across image series, apply painterly or artistic effects without manual work, or match the mood and tone of reference photography. The feature is particularly useful for batch processing, [[concepts/photo-tonal-adjustments|color grading]] workflows, and creative experimentation where the [[concepts/style|visual style]] of one photograph needs to inform the treatment of another.
-
+Style Transfer in Photoshop enables photographers and digital artists to quickly achieve consistent [[concepts/visual-aesthetics|visual aesthetics]] across image series, apply painterly or artistic effects without manual work, or match the mood and [[concepts/tone|tone]] of reference photography. The feature is particularly useful for batch processing, [[concepts/photo-tonal-adjustments|color grading]] workflows, and creative experimentation where the [[concepts/style|visual style]] of one photograph needs to inform the treatment of another.
 ## Source Notes
 - 2026-04-21: Photoshop · [▶ source](https://youtu.be/8Y1hBDaMr_U)
 - 2026-04-07: [[lab-notes/2026-04-07-JSON-Prompting-for-Gemini-Achieving-Total-Image-Control-and-Metadata|JSON Prompting for Gemini Achieving Total Image Control and Metadata]] · [▶ source](https://www.youtube.com/watch?v=gcXPW6eBB0w)

@@ -1,13 +1,7 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "astronomy"
-  - "early-universe"
-  - "jwst"
-  - "population-iii-stars"
-  - "star-formations"
-updated: 2026-04-14
+updated: 2026-05-23
 group: cosmology-astronomy-astrophysics
 ---
 ## Early Universe
@@ -16,7 +10,7 @@ The study of the early universe focuses on understanding the first stages after 
 
 * **[[concepts/cosmic-microwave-background|Cosmic Microwave Background]] (CMB)** - Remnants from about 380,000 years post-[[concepts/big-bang|Big Bang]].
 * **Recombination Era** - The period when electrons combined with [[concepts/protons|protons]] to form hydrogen atoms.
-* **Dark Ages** - A phase where no stars or galaxies existed yet, the universe was dark and filled primarily with neutral hydrogen gas.
+* **Dark Ages** - A [[concepts/phase|phase]] where no [[concepts/stellar-objects|stars]] or galaxies existed yet, the universe was dark and filled primarily with neutral hydrogen gas.
 
 ### Key Concepts
 
@@ -32,7 +26,6 @@ The study of the early universe focuses on understanding the first stages after 
   - Observations indicate a significant step towards understanding early star formation and chemical enrichment.
 
 2026 04 12 JWST Detects Evidence of Universes [[concepts/primordial-stars|Primordial Population III]] Stars in
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Mars-Life-The-Paradox-of-Deadly-Soil-and-Hidden-Habitats|Mars Life The Paradox of Deadly Soil and Hidden Habitats]] · [▶ source](https://www.youtube.com/watch?v=O5FqozA4IpA)
 - 2026-04-12: [[lab-notes/2026-04-12-Feynman-Mathematics-as-a-Tool-Not-Understanding-Mayan-Example|Feynman Mathematics as a Tool Not Understanding Mayan Example]] · [▶ source](https://www.youtube.com/watch?v=E383eEA54DE)

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "critical-analysis"
   - "evaluation-process"
@@ -15,11 +14,12 @@ aliases:
   - "response evaluation"
   - "quality critique"
 summary: A process for evaluating a response to identify inaccuracies, biases, or weaknesses and proposing improved alternatives.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 ---
 # Rigorous Critique
 
-[[concepts/diagnostic-audit|Rigorous critique]] is a systematic evaluative process used to assess the quality, [[concepts/accuracy|accuracy]], and soundness of claims, arguments, or [[concepts/responses|responses]]. It involves identifying deficiencies such as factual errors, unsupported assertions, logical inconsistencies, unclear exposition, incomplete [[concepts/reasoning|reasoning]], hidden biases, or impractical recommendations. The process goes beyond simple disagreement; it requires structured analysis grounded in evidence and clear [[concepts/open-standards|standards]] of evaluation. Rigorous critique serves both corrective and constructive purposes—it exposes problems while simultaneously proposing improvements.
+[[concepts/diagnostic-audit|Rigorous critique]] is a systematic evaluative process used to assess the quality, [[concepts/accuracy|accuracy]], and soundness of claims, arguments, or [[concepts/responses|responses]]. It involves identifying deficiencies such as factual errors, unsupported assertions, logical inconsistencies, unclear exposition, incomplete [[concepts/reasoning|reasoning]], hidden [[concepts/biases|biases]], or impractical recommendations. The process goes beyond simple disagreement; it requires structured analysis grounded in evidence and clear [[concepts/open-standards|standards]] of evaluation. [[concepts/intent-check|Rigorous critique]] serves both corrective and constructive purposes—it exposes problems while simultaneously proposing improvements.
 
 ## Application in Philosophy and Religion
 

@@ -1,44 +1,32 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "presentation-software"
-  - "slide-creation"
-  - "text-formatting"
-  - "image-insertion"
-  - "animation-effects"
-aliases:
-  - "Presentation Software"
-  - "Slide Editor"
-  - "Text Formatter"
-  - "Image Integrator"
-  - "Animation Tool"
-summary: "A presentation tool is a software application that helps in creating, editing, and delivering presentations with features like slide creation, text formatting, image insertion, animation effects, and collaboration capabi"
-updated: 2026-04-11
+summary: A presentation tool is a software application that helps in creating, editing, and delivering presentations with features like slide creation, text formatting, image insertion, animation effects, and collaboration capabi
+updated: 2026-05-23
 group: design-systems-ui-infographics
-title: "Presentation Tool"
+title: Presentation Tool
 ---
 # Presentation Tool
 A presentation tool is a [[concepts/software|software]] application designed to assist in creating, editing, and delivering presentations.
 
 ## Features
 - Slide creation
-- Text formatting
+- [[concepts/text|Text]] formatting
 - Image insertion
 - Animation effects
 - Collaboration features
 
 ## Popular Tools
-- Microsoft PowerPoint
-- Google [[entities/google-slides|Slides]]
-- Apple Keynote
+- [[entities/microsoft|Microsoft]] PowerPoint
+- [[entities/google|Google]] [[entities/google-slides|Slides]]
+- [[entities/apple|Apple]] Keynote
 - [[entities/canva|Canva]]
 
 ### New Addition
 - [[entities/notebooklm]]
 
 ## Customization for Professional Use
-- Integration with [[concepts/gemini|Gemini AI]] for advanced [[concepts/customization|customization]] and [[concepts/design|design]] options.
+- [[concepts/integration|Integration]] with [[concepts/gemini|Gemini AI]] for advanced [[concepts/customization|customization]] and [[concepts/design|design]] options.
 - Free updates and enhancements from the developers to keep up with professional [[concepts/open-standards|standards]].
 
 ### References
@@ -46,7 +34,6 @@ A presentation tool is a [[concepts/software|software]] application designed to 
 - 2026-04-08-[[concepts/google-search|Google]]-[[concepts/ai-integrated-notebooks|NotebookLM]]-Customizing-Design-for-Professional-Presentations-vi
 
 Backlinks:
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)
 - 2026-04-08: [[lab-notes/2026-04-08-Google-NotebookLM-Enhanced-Research-and-Multi-Format-Content-Synthesis|Google NotebookLM Enhanced Research and Multi Format Content Synthesis]] · [▶ source](https://www.youtube.com/watch?v=_uXnyhrqmsU)

@@ -1,23 +1,13 @@
 ---
 type: concept
 domain: society-politics-institutions
-tags:
-  - "politics"
-  - "history"
-  - "power-dynamics"
-  - "political-instability"
-  - "loss-of-authority"
-aliases:
-  - "loss of power"
-  - "political decline"
-  - "erosion of authority"
-summary: "The process by which a political figure or entity loses authority, influence, or status within a governing structure due to factors such as collapsing alliances or shifting power dynamics."
-updated: 2026-04-26
+summary: The process by which a political figure or entity loses authority, influence, or status within a governing structure due to factors such as collapsing alliances or shifting power dynamics.
+updated: 2026-05-23
 group: politics-governance-public-systems
 ---
 # political downfall
 
-The process by which a political figure or entity loses authority, influence, or status within a governing [[concepts/structure|structure]]. This phenomenon is typically driven by the collapse of [[concepts/strategic-alliances]], shifts in power dynamics, or failed [[concepts/political-machinations|political machinations]].
+The process by which a political figure or entity loses [[concepts/power|authority]], influence, or status within a governing [[concepts/structure|structure]]. This phenomenon is typically driven by the collapse of [[concepts/strategic-alliances]], shifts in power dynamics, or failed [[concepts/political-machinations|political machinations]].
 
 ## Mechanisms of Downfall
 - Failure of [[concepts/strategic-alliances]]
@@ -32,7 +22,6 @@ The process by which a political figure or entity loses authority, influence, or
     - Serves as a primary example of the total loss of power following the collapse of political networks.
 
 ## Related Notes
-- 2026 04 24 Cleopatras Reign [[concepts/strategic-alliances|Strategic Alliances]] Political Downfall and Loss of Power
-
+- 2026 04 24 Cleopatras Reign [[concepts/strategic-alliances|Strategic Alliances]] Political Downfall and Loss of [[concepts/power|Power]]
 ## Source Notes
 - 2026-04-24: Cleopatra

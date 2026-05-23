@@ -1,35 +1,22 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "LLM"
-  - "automation"
-  - "workflow"
-  - "productivity"
-  - "llm-integration"
-  - "software-ecosystems"
-  - "workflow-automation"
-  - "strategic-shift"
-  - "knowledge-work"
-aliases:
-  - "LLM ecosystem integration"
-summary: "The strategic embedding of large language models into established software ecosystems to prioritize workflow automation and proprietary data access."
-updated: 2026-04-24
+summary: The strategic embedding of large language models into established software ecosystems to prioritize workflow automation and proprietary data access.
+updated: 2026-05-23
 group: ai-foundations-concepts
 ---
 # Large Language Model integration
 
-Backlink: [[concepts/claude-ai|Claude]] in Excel   Channel [[entities/nate-b-jones|Nate B Jones]]
+Backlink: [[concepts/claude-ai|Claude]] in [[entities/excel|Excel]]   Channel [[entities/nate-b-jones|Nate B Jones]]
 
 The strategic embedding of [[concepts/large-language-models]] into established [[concepts/software|software]] ecosystems to prioritize [[concepts/workflow-automation]] and [[concepts/proprietary-data-access]] over incremental improvements in model intelligence.
 
 ## Key Developments
-- **[[concepts/strategic-shift|Strategic Shift]]**: A transition from focusing on "better models" to dominating the user's existing [[concepts/software|software]] ecosystems.
+- **[[concepts/strategic-shift|Strategic Shift]]**: A transition from focusing on "better [[concepts/models|models]]" to dominating the user's existing [[concepts/software|software]] ecosystems.
 - **[[entities/anthropic]] / [[entities/claude]] in [[entities/microsoft-excel]]**:
-    - Enables the creation of complex, multi-tab financial models in minutes rather than weeks.
-    - Represents a "phase change" in the efficiency of [[concepts/knowledge-work]].
-    - Demonstrates the power of integrating LLMs directly where [[concepts/proprietary-data-access]] is most concentrated.
-
+    - Enables the creation of complex, [[concepts/multi-tab-financial-models|multi-tab financial models]] in minutes rather than weeks.
+    - Represents a "[[concepts/state-of-matter-phase-transition|phase change]]" in the efficiency of [[concepts/knowledge-work]].
+    - Demonstrates the [[concepts/power|power]] of integrating LLMs directly where [[concepts/proprietary-data-access]] is most concentrated.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Powered-Second-Brain-Claude-Code-Integration-with-Obsidian|AI Powered Second Brain Claude Code Integration with Obsidian]] · [▶ source](https://www.youtube.com/watch?v=2kbINqpluM0)
 - 2026-04-08: [[lab-notes/2026-04-08-Llamacpp-Local-LLM-Inference-for-Accessible-Private-AI|Llamacpp Local LLM Inference for Accessible Private AI]] · [▶ source](https://www.youtube.com/watch?v=P8m5eHAyrFM)

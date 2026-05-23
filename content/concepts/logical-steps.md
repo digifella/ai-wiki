@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "llm-reasoning"
   - "error-reduction"
@@ -12,7 +11,8 @@ aliases:
   - "Million-Step LLM Task"
   - "Zero-Error LLM Execution"
 summary: A summary of the paper 'Solving a Million-Step LLM Task with Zero Errors' published by Cognizant AI Lab.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Logical Steps
 
@@ -24,8 +24,7 @@ The paper tackles the problem of error propagation in long-[[concepts/running|ru
 
 ## Application to AI Agents
 
-The methodology is particularly relevant for AI agents that must execute extended workflows reliably. By enforcing logical [[concepts/structure|structure]] and verification at each step, Logical Steps enables systems to handle tasks that would previously have been infeasible due to the accumulation of minor errors across thousands or millions of operations. This approach represents an important development in making LLM-based [[concepts/automation|automation]] suitable for mission-critical [[concepts/software|applications]] requiring near-perfect accuracy.
-
+The methodology is particularly relevant for [[concepts/agentic-ai|AI agents]] that must execute extended workflows reliably. By enforcing logical [[concepts/structure|structure]] and [[concepts/verification|verification]] [[concepts/assistive-technology|at]] each step, Logical Steps enables systems to handle tasks that would previously have been infeasible due to the accumulation of minor errors across thousands or millions of operations. This approach represents an important development in making LLM-based [[concepts/automation|automation]] suitable for mission-critical [[concepts/software|applications]] requiring near-perfect accuracy.
 ## Source Notes
 
 - 2026-04-23: Claude · [▶ source](https://www.youtube.com/watch?v=KpG2yBi5I10)

@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: science-physics
-tags:
-  - "engineering"
-  - "mechanics"
-  - "automotive"
-  - "internal-combustion-engine"
-  - "friction-reduction"
-  - "heat-dissipation"
-  - "oil-pressure"
-  - "mechanical-engineering"
-aliases:
-  - "engine lubrication"
-summary: "A subsystem of the internal combustion engine designed to reduce friction, minimize wear, and assist in heat dissipation."
-updated: 2026-04-26
+summary: A subsystem of the internal combustion engine designed to reduce friction, minimize wear, and assist in heat dissipation.
+updated: 2026-05-23
 group: physics-fundamental-theory
 ---
 # Lubrication system
@@ -28,11 +17,10 @@ A fundamental subsystem within an [[concepts/internal-combustion-engine]] design
 - [[concepts/internal-combustion-engine]]
 - [[concepts/oil-pressure|Oil Pressure]]
 - [[concepts/friction]]
-- Heat Dissipation
+- [[concepts/heat-dissipation|Heat Dissipation]]
 
 ### Sources
 - 2026 04 23 Engine Survival The Critical Role of [[concepts/oil-pressure|Oil Pressure]] and Warning Lights
-
 ## Source Notes
 
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)

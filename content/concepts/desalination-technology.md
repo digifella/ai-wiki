@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: earth-systems-geology-climate
-group: climate-environment-surface-systems
 tags:
   - "water-treatment"
   - "salt-removal"
@@ -14,11 +13,12 @@ aliases:
   - "reverse osmosis"
   - "water desalting"
 summary: Process technology that removes dissolved salts from seawater or brackish water to produce freshwater for human consumption and industrial use.
-updated: 2026-05-01
+updated: 2026-05-23
+group: climate-environment-surface-systems
 ---
 # Desalination Technology
 
-[[concepts/desalination|Desalination]] is a process that removes dissolved salts and minerals from seawater or brackish water, producing freshwater suitable for human consumption, [[concepts/agriculture|agriculture]], and industrial [[concepts/software|applications]]. As freshwater sources become increasingly strained by [[concepts/population-growth|population growth]], climate variability, and competing demands, desalination has become an important technology for water security in arid and coastal regions worldwide.
+[[concepts/desalination|Desalination]] is a process that removes dissolved salts and minerals from seawater or brackish water, producing freshwater suitable for human consumption, [[concepts/agriculture|agriculture]], and industrial [[concepts/software|applications]]. As freshwater sources become increasingly strained by [[concepts/population-growth|population growth]], climate variability, and competing demands, desalination has become an important technology for water [[concepts/security|security]] in arid and coastal regions worldwide.
 
 ## Major Desalination Methods
 
@@ -26,11 +26,10 @@ The two primary desalination approaches are thermal and membrane-based processes
 
 ## Energy and Economic Considerations
 
-A primary constraint on desalination expansion is its high energy consumption. Modern [[concepts/desalination-plants|desalination plants]] typically require substantial electrical input, making them economically viable primarily in regions with access to affordable energy or where alternative freshwater sources are unavailable or depleted. The energy intensity also creates operational costs that can limit [[concepts/deployment|deployment]] in developing regions, though technological improvements and renewable energy integration are gradually reducing these barriers.
+A primary constraint on desalination expansion is its high energy consumption. Modern [[concepts/desalination-plants|desalination plants]] typically require substantial electrical input, making them economically viable primarily in regions with access to affordable energy or where alternative freshwater sources are unavailable or depleted. The energy intensity also creates operational costs that can limit [[concepts/deployment|deployment]] in developing regions, though technological improvements and renewable energy [[concepts/integration|integration]] are gradually reducing these barriers.
 
 ## Brine Disposal and Environmental Impacts
 
 Desalination produces concentrated brine as a byproduct, which must be managed carefully to avoid environmental harm to marine ecosystems. Discharge of high-salinity brine back into coastal waters can alter local water chemistry and affect marine life. Proper brine management strategies, including deep-sea disposal, evaporation ponds, or industrial reuse, remain important considerations for sustainable desalination operations.
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-GCC-Desalination-Critical-Role-MSF-Technology-and-High-Energy-Demand|GCC Desalination Critical Role MSF Technology and High Energy Demand]] · [▶ source](https://www.youtube.com/watch?v=Dd9q30yjEqc)

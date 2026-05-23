@@ -1,19 +1,11 @@
 ---
 type: entity
-tags:
-  - "education"
-  - "google"
-  - "learning-management-system"
-  - "google-classroom"
-  - "google-workspace"
-  - "assignment-management"
-  - "educational-tools"
-summary: "Google Classroom is a free web service developed by Google for education that allows teachers to create, distribute, and grade assignments."
-updated: 2026-04-21
+summary: Google Classroom is a free web service developed by Google for education that allows teachers to create, distribute, and grade assignments.
+updated: 2026-05-23
 ---
 # Google Classroom
 
-[[concepts/google-search|Google]] Classroom is a free web service developed by Google for education that allows teachers to create, distribute, and grade assignments. It integrates with other [[concepts/google-workspace|Google Workspace]] tools and serves as a centralized hub for classroom communication and resource sharing.
+[[concepts/google-search|Google]] Classroom is a free web service developed by [[entities/google|Google]] for education that allows teachers to create, distribute, and grade assignments. It integrates with other [[concepts/google-workspace|Google Workspace]] tools and serves as a centralized hub for classroom communication and resource sharing.
 
 ## Key Features
 - Assignment creation and [[concepts/distribution|distribution]]
@@ -37,7 +29,6 @@ Google Classroom can host courses created from [[entities/notebooklm]]. Steps:
 For full [[concepts/implementation-details|implementation details]], see: [Create online course from NotebookLM](https://youtu.be/67GoIe4PQIg)
 
 [[concepts/date-2026-04-13|2026]] 04 14 Create online course from [[entities/notebook-lm|notebooklm]]
-
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-NotebookLM-Infographic-to-Interactive-Web-Application-Workflow-using|NotebookLM Infographic to Interactive Web Application Workflow using]] · [▶ source](https://www.youtube.com/watch?v=DQijzXADyiE)

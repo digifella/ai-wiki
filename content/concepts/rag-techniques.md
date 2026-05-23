@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "retrieval-augmented-generation"
   - "document-processing"
@@ -13,20 +12,20 @@ aliases:
   - "RAG"
   - "document retrieval techniques"
 summary: The video introduces Docling, an open-source toolkit from IBM Research designed for efficient document processing in AI workflows.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Rag Techniques
 
-Retrieval-Augmented Generation (RAG) is a method used in AI systems to enhance [[concepts/statistical-language-modeling|language model]] outputs by integrating [[concepts/external-knowledge|external knowledge]] sources. Rather than relying solely on information learned during [[concepts/training|training]], [[concepts/contextualized-language-understanding|RAG systems]] retrieve relevant documents or data at [[concepts/inference|inference]] time and use that information to inform the model's [[concepts/responses|responses]]. This approach is particularly valuable for [[concepts/software|applications]] requiring current information, domain-specific knowledge, or access to proprietary documents that were not part of the model's [[concepts/training-data|training data]].
+[[concepts/answer-generation|Retrieval-Augmented Generation]] (RAG) is a method used in AI systems to enhance [[concepts/statistical-language-modeling|language model]] outputs by integrating [[concepts/external-knowledge|external knowledge]] sources. Rather than relying solely on information learned during [[concepts/training|training]], [[concepts/contextualized-language-understanding|RAG systems]] retrieve relevant documents or data [[concepts/assistive-technology|at]] [[concepts/inference|inference]] time and use that information to inform the model's [[concepts/responses|responses]]. This approach is particularly valuable for [[concepts/software|applications]] requiring current information, [[concepts/domain-specific-knowledge|domain-specific knowledge]], or access to proprietary documents that were not part of the model's [[concepts/training-data|training data]].
 
 ## Document Processing and Preparation
 
-A critical component of effective RAG systems is the quality of document processing. Tools like [[concepts/docling|Docling]], an [[concepts/open-source|open-source]] toolkit developed by [[entities/ibm-research|IBM Research]], address common challenges in extracting and preparing documents for retrieval. Proper document processing ensures that content is accurately parsed, structured, and indexed, which directly impacts the relevance and [[concepts/accuracy|accuracy]] of information retrieved during RAG operations. Poor document handling can introduce noise and errors that degrade downstream performance.
+A critical component of effective RAG systems is the quality of [[concepts/document-processing|document processing]]. Tools like [[concepts/docling|Docling]], an [[concepts/open-source|open-source]] toolkit developed by [[entities/ibm-research|IBM Research]], address common challenges in extracting and preparing documents for retrieval. Proper document processing ensures that content is accurately parsed, structured, and indexed, which directly impacts the relevance and [[concepts/accuracy|accuracy]] of information retrieved during RAG operations. Poor document handling can introduce noise and errors that degrade downstream performance.
 
 ## Integration in AI Workflows
 
-RAG techniques are integrated into broader AI workflows where they serve as a bridge between unstructured document repositories and language models. By combining retrieval mechanisms with generation capabilities, these systems can handle complex queries requiring synthesis of information across multiple sources. This makes RAG particularly suited for applications such as question-answering systems, customer support [[concepts/automation|automation]], and research assistance tools that demand both accuracy and up-to-date information.
-
+RAG techniques are integrated into broader AI workflows where they serve as a bridge between unstructured document repositories and language [[concepts/models|models]]. By combining retrieval mechanisms with generation [[concepts/capabilities|capabilities]], these systems can handle complex queries requiring synthesis of information across multiple sources. This makes RAG particularly suited for applications such as [[concepts/fact-based-queries|question-answering]] systems, customer support [[concepts/automation|automation]], and research assistance tools that demand both accuracy and up-to-date information.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
 - 2026-04-08: [[lab-notes/2026-04-08-Lightroom-Dark-and-Moody-Photo-Processing-for-Dramatic-Photo-Enhanceme|Lightroom Dark and Moody Photo Processing for Dramatic Photo Enhanceme]] · [▶ source](https://www.youtube.com/watch?v=2Wemm9givsw)

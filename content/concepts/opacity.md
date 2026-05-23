@@ -1,25 +1,13 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "concept"
-  - "opacity"
-  - "photoshop"
-  - "digital-art"
-  - "digital-design"
-  - "transparency"
-  - "css"
-  - "svg"
-  - "graphic-design"
-aliases:
-  - "transparency-level"
-summary: "Opacity measures the degree to which a surface blocks light, ranging from fully transparent to fully opaque."
-updated: 2026-04-16
+summary: Opacity measures the degree to which a surface blocks light, ranging from fully transparent to fully opaque.
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Opacity
 
-Opacity measures the degree to which a surface blocks light, ranging from 0% (fully transparent) to 100% (fully opaque). It is fundamental in digital [[concepts/design|design]] for layering, transparency effects, and blending.
+Opacity measures the degree to which a surface blocks [[concepts/light|light]], ranging from 0% (fully transparent) to 100% (fully opaque). It is fundamental in digital [[concepts/design|design]] for layering, transparency effects, and blending.
 
 ## Key Applications
 - **[[entities/adobe-photoshop|Adobe Photoshop]]**:
@@ -32,10 +20,9 @@ Opacity measures the degree to which a surface blocks light, ranging from 0% (fu
 - Transparency
 - Blending Modes
 - Brush Tool
-- Digital Art Techniques
+- Digital [[concepts/art|Art]] Techniques
 
-2026 04 14 [[entities/julianne-kost|Julianne Kost]] using brush tool in photoshop
-
+2026 04 14 [[entities/julianne-kost|Julianne Kost]] using brush tool in [[concepts/photoshop|photoshop]]
 ## Source Notes
 - 2026-04-07: Fundamental UI/UX Design Concepts: Affordances, Hierarchy, Grids, Typography Explained
 - 2026-04-10: [[lab-notes/2026-04-10-Fundamental-UIUX-Design-Concepts-Affordances-Hierarchy-Grids|Fundamental UIUX Design Concepts Affordances Hierarchy Grids]] · [▶ source](https://www.youtube.com/watch?v=EcbgbKtOELY)

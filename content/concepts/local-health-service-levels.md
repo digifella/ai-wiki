@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "health-services"
   - "local-healthcare"
@@ -11,7 +10,8 @@ aliases:
   - "Healthcare Service Tiers"
   - "Local Health Hierarchy"
 summary: This concept defines the various levels of local health services.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Local Health Service Levels
 
@@ -23,4 +23,4 @@ Primary care services form the foundation of local health systems, providing fir
 
 ## Secondary and Tertiary Care Levels
 
-Secondary care services include district and regional hospitals that provide more specialized treatment and diagnostic capabilities. Tertiary care represents the highest level of local health service provision, typically located in major urban centers and offering highly specialized services, complex procedures, and teaching facilities. The relationship between these levels ensures appropriate case distribution and efficient use of healthcare resources.
+Secondary care services include district and regional hospitals that provide more specialized treatment and diagnostic [[concepts/capabilities|capabilities]]. [[concepts/tertiary-prevention|Tertiary care]] represents the highest level of local health service provision, typically located in major urban centers and offering highly specialized services, complex procedures, and teaching facilities. The relationship between these levels ensures appropriate case distribution and efficient use of healthcare resources.

@@ -1,21 +1,8 @@
 ---
 type: entity
-tags:
-  - "database"
-  - "search"
-  - "postgres"
-  - "ai"
-  - "rag"
-  - "bm25"
-  - "textsearch"
-  - "postgres-extension"
-  - "bm25-ranking"
-  - "rag-applications"
-aliases:
-  - "pg_textsearch"
-  - "Tech with Tim"
-summary: "A database search setup using the pg_textsearch Postgres extension to provide BM25 ranking and reduce infrastructure complexity for AI and RAG applications."
-updated: 2026-04-22
+summary: A database search setup using the pg_textsearch Postgres extension to provide BM25 ranking and reduce infrastructure complexity for AI and RAG applications.
+updated: 2026-05-23
+stub: true
 ---
 # Tim
 

@@ -1,31 +1,17 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "AI"
-  - "monetization"
-  - "cloud-strategy"
-  - "infrastructure"
-  - "ai-monetization"
-  - "revenue-models"
-  - "cloud-computing"
-  - "ai-infrastructure"
-  - "maas"
-  - "iaas"
-aliases:
-  - "AI revenue generation"
-  - "AI business models"
-summary: "A framework for generating revenue from artificial intelligence capabilities through models such as infrastructure-as-a-service, model-as-a-service, and vertical integration."
-updated: 2026-04-26
-group: pricing-subscriptions-saas
+summary: A framework for generating revenue from artificial intelligence capabilities through models such as infrastructure-as-a-service, model-as-a-service, and vertical integration.
+updated: 2026-05-23
+group: market-intelligence-geo-seo
 ---
 # AI monetization strategy
 
-Methods and frameworks for generating revenue from [[entities/ai|Artificial Intelligence]] capabilities, ranging from [[concepts/hardware|hardware]]-level value capture to high-level application services.
+Methods and frameworks for generating revenue from [[entities/ai|Artificial Intelligence]] [[concepts/capabilities|capabilities]], ranging from [[concepts/hardware|hardware]]-level value capture to high-level application services.
 
 ## Core Revenue Models
 - **Infrastructure-as-a-Service (IaaS):** Monetizing access to [[entities/high-performance|high-performance]] [[concepts/computing-architecture|AI Infrastructure]] and specialized [[concepts/compute|compute]] clusters.
-- **Model-as-a-Service (MaaS):** Providing API-based access to proprietary or fine-tuned models (e.g., [[entities/anthropic]], [[entities/gemini]]).
+- **Model-as-a-Service (MaaS):** Providing API-based access to proprietary or fine-tuned [[concepts/models|models]] (e.g., [[entities/anthropic]], [[entities/gemini]]).
 - **[[concepts/vertical-integration|Vertical Integration]]:** Capturing margin by controlling the stack from custom [[concepts/silicon|silicon]] (e.g., TPU) to the [[concepts/software|software]] layer.
 - **Token-based [[concepts/cost|Pricing]]:** Revenue [[concepts/scaling|scaling]] directly with usage/[[concepts/inference|inference]] volume.
 
@@ -35,14 +21,13 @@ Methods and frameworks for generating revenue from [[entities/ai|Artificial Inte
 - **Hardware Competition:** Navigating the tension between general-[[concepts/purpose|purpose]] GPUs ([[entities/nvidia]]) and application-specific integrated circuits (ASICs).
 
 ## Current Industry Developments
-- **Google Cloud Strategic Focus (2026-04-25):**
-    - Emphasis on scaling AI Infrastructure through proprietary [[concepts/tpu-development|TPU development]].
+- **[[concepts/google-search|Google]] Cloud Strategic Focus (2026-04-25):**
+    - Emphasis on [[concepts/computational-scaling|scaling]] AI Infrastructure through proprietary [[concepts/tpu-development|TPU development]].
     - Strategic positioning involving key ecosystem players such as [[entities/anthropic]] and [[entities/nvidia]].
-    - Focus on optimizing the relationship between hardware availability and model deployment scale.
+    - Focus on optimizing the relationship between hardware availability and model [[concepts/deployment|deployment]] scale.
 
 ## Related Links
 - 2026 04 25 [[entities/google-cloud|Google Cloud]] CEO on [[concepts/computing-architecture|AI Infrastructure]] [[concepts/tpu-development|TPU Development]] and Monetization Strategy
-
 ## Source Notes
 
 - 2026-04-25: [[lab-notes/2026-04-25-Google-Cloud-CEO-on-AI-Infrastructure-TPU-Development-and-Monetization-Strategy|Google Cloud CEO on AI Infrastructure, TPU Development, and Monetization Strategy]] · [▶ source](https://www.youtube.com/watch?v=bNdiBwXbLNw)

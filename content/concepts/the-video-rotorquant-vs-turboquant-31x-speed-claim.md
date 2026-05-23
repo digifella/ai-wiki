@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: video-content-systems
 tags:
   - "llm-optimization"
   - "quantization"
@@ -12,7 +11,8 @@ aliases:
   - "RotorQuant vs TurboQuant comparison"
   - "31x speed claim analysis"
 summary: Video comparing RotorQuant and TurboQuant quantization methods with a claimed 31x speed improvement, related to LLM KV cache compression techniques.
-updated: 2026-05-01
+updated: 2026-05-23
+group: video-content-systems
 ---
 # The Video RotorQuant vs TurboQuant 31x Speed Claim
 
@@ -20,11 +20,10 @@ This concept refers to a video that compares RotorQuant and [[concepts/ai-effici
 
 ## Context and Methods
 
-Both RotorQuant and TurboQuant are techniques designed to reduce the [[concepts/memory|memory]] footprint and computational overhead of KV cache [[entities/storage|storage]] during [[concepts/llm-inference|LLM inference]]. [[concepts/data-compression|KV cache compression]] is critical for deploying large language models efficiently, particularly in resource-constrained environments or high-throughput serving [[concepts/scenarios|scenarios]]. These quantization approaches represent different engineering trade-offs between compression ratio, [[concepts/speed|inference speed]], and output quality.
+Both RotorQuant and [[concepts/memory-crisis|TurboQuant]] are techniques designed to reduce the [[concepts/memory|memory]] footprint and computational overhead of KV cache [[entities/storage|storage]] during [[concepts/llm-inference|LLM inference]]. [[concepts/data-compression|KV cache compression]] is critical for deploying [[concepts/large-language-models|large language models]] efficiently, particularly in resource-constrained environments or high-throughput serving [[concepts/scenarios|scenarios]]. These [[concepts/precision-reduction|quantization]] approaches represent different engineering trade-offs between compression ratio, [[concepts/speed|inference speed]], and [[concepts/output|output]] quality.
 
 ## The 31x Speed Claim
 
-The video's primary focus is investigating the validity of the stated 31x speed improvement. Rather than taking such a dramatic performance claim at face value, the analysis presumably examines the conditions under which this speedup occurs, potential limitations of the benchmark, and practical implications for real-world [[concepts/deployment|deployment]]. Understanding whether such improvements hold across different [[concepts/hardware|hardware]] configurations, model sizes, and workloads is essential for practitioners evaluating these methods.
-
+The video's primary focus is investigating the validity of the stated 31x speed improvement. Rather than taking such a dramatic performance claim [[concepts/assistive-technology|at]] face value, the analysis presumably examines the conditions under which this speedup occurs, potential limitations of the benchmark, and practical implications for real-world [[concepts/deployment|deployment]]. Understanding whether such improvements hold across different [[concepts/hardware|hardware]] configurations, model sizes, and workloads is essential for practitioners evaluating these methods.
 ## Source Notes
 - 2026-04-12: [[lab-notes/2026-04-12-RotorQuant-vs-TurboQuant-LLM-KV-Cache-Compression-Performance-Reality-|RotorQuant vs TurboQuant LLM KV Cache Compression Performance Reality ]] · [▶ source](https://www.youtube.com/watch?v=wSxsYjScRr0)

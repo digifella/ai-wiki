@@ -1,9 +1,9 @@
 ---
 type: concept
 domain: ai-agents
-updated: 2026-04-14
+summary: Iterative research is a methodology using cyclical refinement through repeated analysis, validation, and adjustment to overcome linear approach limitations.
+updated: 2026-05-23
 group: applied-ai-workflows
-summary: "Iterative research is a methodology using cyclical refinement through repeated analysis, validation, and adjustment to overcome linear approach limitations."
 ---
 - "research"
   - "ai"
@@ -31,7 +31,6 @@ A research methodology involving cyclical refinement through repeated analysis, 
   - Designed to overcome limitations of single LLM queries, such as [[concepts/hallucination|hallucination]] and insufficient depth
   - Detailed guide available in video by [[entities/leon-van-zyl|Leon van Zyl]] (<https://www.youtube.com/watch?v=GPsKnsYJPiI>)
   - Core concept involves [[concepts/iterative-refinement|iterative refinement]] through [[concepts/multi-agent-orchestration|multi-agent collaboration]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-24: Strategies to Transform Claude AI · [▶ source](https://www.youtube.com/watch?v=c68ha7pY9aE)

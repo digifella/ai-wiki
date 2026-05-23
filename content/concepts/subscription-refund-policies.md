@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: business-strategy
-group: pricing-subscriptions-saas
 tags:
   - "concept"
   - "subscription-policies"
@@ -13,7 +12,8 @@ aliases:
   - "Claude AI Subscription Changes"
   - "Anthropic Subscription Updates"
 summary: Anthropic has implemented changes to Claude AI subscriptions, including new usage limits and the banning of OpenClaw.
-updated: 2026-05-01
+updated: 2026-05-23
+group: pricing-subscriptions-saas
 ---
 # Subscription Refund Policies
 
@@ -25,4 +25,4 @@ Companies offering subscription-based products—particularly [[concepts/softwar
 
 ## Policy Adjustments and Service Changes
 
-When service providers make significant changes to subscription offerings—such as introducing new usage limits or discontinuing features—refund policies may be invoked or adjusted accordingly. These changes can affect existing subscribers who may no longer find the service meets their needs at the current price point. How companies communicate and handle refund requests during such transitions significantly impacts customer retention and brand reputation.
+When service providers [[entities/make|make]] significant changes to subscription offerings—such as introducing new [[concepts/usage-limits|usage limits]] or discontinuing features—refund policies may be invoked or adjusted accordingly. These changes can affect existing subscribers who may no longer find the service meets their needs [[concepts/assistive-technology|at]] the current price point. How companies communicate and handle refund requests during such transitions significantly impacts customer retention and brand reputation.

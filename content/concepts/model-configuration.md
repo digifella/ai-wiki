@@ -1,36 +1,22 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "llm"
-  - "machine-learning"
-  - "inference"
-  - "configuration"
-  - "llm-inference"
-  - "inference-engines"
-  - "memory-mapping"
-  - "performance-optimization"
-  - "model-orchestration"
-aliases:
-  - "LLM configuration"
-  - "inference-runtime-config"
-summary: "Model configuration involves the orchestration of parameters, architecture, and runtime environments required for LLM inference."
-updated: 2026-04-26
+summary: Model configuration involves the orchestration of parameters, architecture, and runtime environments required for LLM inference.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Model Configuration
 
-The orchestration of [[concepts/parameters|parameters]], [[concepts/architecture|architecture]], and runtime environments required to execute models, specifically within LLM [[concepts/inference|Inference]].
+The orchestration of [[concepts/parameters|parameters]], [[concepts/architecture|architecture]], and runtime environments required to execute [[concepts/models|models]], specifically within LLM [[concepts/inference|Inference]].
 
 - LLM execution requires managing a collection of distributed components (e.g., LLM [[concepts/weights|Weights]]) rather than a monolithic executable.
 - Critical configuration vectors:
-    - Inference Engines: Selecting the runtime environment for execution.
+    - [[concepts/inference-engines|Inference Engines]]: Selecting the runtime environment for execution.
     - [[concepts/memory|Memory]] Mapping: Managing how model data is mapped and loaded into [[concepts/hardware|hardware]] memory.
     - Performance Optimization: Tuning configurations to maximize throughput and minimize latency.
 
 **Backlinks:**
 - 2026 04 22 [[concepts/llm-inference|LLM Inference Engines]] [[concepts/memory|Memory]] Mapping and [[concepts/software-performance|Performance Optimization]]
-
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Building-an-AI-Marketing-Team-with-Claude-Code-Agents-Skills|Building an AI Marketing Team with Claude Code Agents Skills]] · [▶ source](https://www.youtube.com/watch?v=yLXLHnD4fco)

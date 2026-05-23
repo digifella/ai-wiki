@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: open-systems-local-models
 tags:
   - "large-language-models"
   - "model-efficiency"
@@ -12,11 +11,12 @@ aliases:
   - "computational resources"
   - "LLM compute requirements"
 summary: The text discusses advancements in large language models, specifically focusing on the development of Qwen 3 Coder.
-updated: 2026-05-01
+updated: 2026-05-23
+group: open-systems-local-models
 ---
 # Compute
 
-Compute refers to the [[concepts/computational-resources|computational resources]] and processing power required to train, fine-tune, and deploy [[concepts/large-language-model-llm|large language models]] (LLMs) in AI systems. As models have grown increasingly sophisticated, the compute requirements have become a significant factor in [[concepts/ai-development|AI development]], influencing both the feasibility and cost of model [[concepts/training|training]].
+[[concepts/feynmans-three-step-scientific-method|Compute]] refers to the [[concepts/computational-resources|computational resources]] and processing [[concepts/power|power]] required to train, fine-tune, and deploy [[concepts/large-language-model-llm|large language models]] (LLMs) in AI systems. As [[concepts/models|models]] have grown increasingly sophisticated, the compute requirements have become a significant factor in [[concepts/ai-development|AI development]], influencing both the feasibility and [[concepts/cost|cost]] of model [[concepts/training|training]].
 
 ## Compute Efficiency and Cost Considerations
 
@@ -25,7 +25,6 @@ Recent developments in [[concepts/model-architecture|LLM architecture]] have foc
 ## Industry Impact on Model Development
 
 The compute constraints and costs associated with training advanced models have shaped how companies approach AI improvement. Rather than solely [[concepts/computational-scaling|scaling]] [[concepts/code-size|model size]], recent advances like [[entities/qwen-3-coder|Qwen 3 Coder]] represent a shift toward more efficient training methodologies and architectural innovations that achieve improved performance without proportionally increasing computational demands.
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-DeepSeek-Engram-Solving-LLM-Inefficiency-Through-Context-Aware|DeepSeek Engram Solving LLM Inefficiency Through Context Aware]] · [▶ source](https://www.youtube.com/watch?v=DmtoVnTkQnM)

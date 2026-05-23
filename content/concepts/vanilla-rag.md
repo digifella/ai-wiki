@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: applied-ai-workflows
 tags:
   - "concept"
   - "rag"
@@ -14,11 +13,12 @@ aliases:
   - "Provence"
   - "RAG re-ranking with pruning"
 summary: A context engineering technique that reduces hallucination in Retrieval Augmented Generation through re-ranking and pruning of retrieved content.
-updated: 2026-05-01
+updated: 2026-05-23
+group: applied-ai-workflows
 ---
 # Vanilla Rag
 
-Vanilla Rag is a [[concepts/external-knowledge|context engineering]] technique designed to improve the quality and [[concepts/software-reliability|reliability]] of [[concepts/answer-generation|Retrieval Augmented Generation]] (RAG) systems by reducing [[concepts/data-hallucination|hallucination]]. The approach addresses a common problem in RAG pipelines: retrieved documents often contain irrelevant passages that can mislead language models into generating inaccurate or fabricated information. Vanilla Rag mitigates this by applying re-ranking and pruning operations to retrieved content before it is passed to the generation model.
+Vanilla Rag is a [[concepts/external-knowledge|context engineering]] technique designed to improve the quality and [[concepts/software-reliability|reliability]] of [[concepts/answer-generation|Retrieval Augmented Generation]] (RAG) systems by reducing [[concepts/data-hallucination|hallucination]]. The approach addresses a common problem in RAG pipelines: retrieved documents often contain irrelevant passages that can mislead language [[concepts/models|models]] into generating inaccurate or fabricated information. Vanilla Rag mitigates this by applying re-ranking and pruning operations to retrieved content before it is passed to the generation model.
 
 ## How It Works
 
@@ -26,8 +26,7 @@ The technique operates in two main stages. First, re-ranking algorithms evaluate
 
 ## Application in RAG Systems
 
-Vanilla Rag is particularly valuable in knowledge-intensive tasks where hallucination risks are high—such as question-answering over documents, [[concepts/summarization|summarization]], or fact-based [[concepts/reasoning|reasoning]]. By filtering retrieved content before generation, it complements other hallucination-reduction strategies and can improve both the [[concepts/accuracy|accuracy]] and verifiability of model outputs.
-
+Vanilla Rag is particularly valuable in knowledge-intensive tasks where [[concepts/hallucination|hallucination]] risks are high—such as [[concepts/fact-based-queries|question-answering]] over documents, [[concepts/summarization|summarization]], or fact-based [[concepts/reasoning|reasoning]]. By filtering retrieved content before generation, it complements other hallucination-reduction strategies and can improve both the [[concepts/accuracy|accuracy]] and verifiability of model outputs.
 ## Source Notes
 - 2026-04-14: How to get TACK SHARP photos with any camera!
 - 2026-04-07: ## LlamaIndex's [[concepts/liteparse|LiteParse]]: Agentic [[concepts/document-processing|Document Processing]] and the End of Frameworks **Clip title:** LiteParse - The Local Document Parser **Author / channel:** Sam Witteveen **URL:** https://www.youtube.com/watch?v=_lpYx03VVBM (LlamaIndex's LiteParse: Agentic Document Processing and the End of Frameworks)

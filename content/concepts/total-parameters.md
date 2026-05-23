@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "model-parameters"
-  - "machine-learning"
-  - "ai-architecture"
-  - "trainable-weights"
-  - "model-capacity"
-aliases:
-  - "parameter count"
-  - "total weights"
-summary: "The sum of all trainable weights in a machine learning model's architecture, representing its theoretical capacity to store information."
-updated: 2026-04-24
+summary: The sum of all trainable weights in a machine learning model's architecture, representing its theoretical capacity to store information.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # total parameters
@@ -25,7 +15,6 @@ The sum of all trainable [[concepts/weights|weights]] in a [[concepts/machine-le
 - **[[entities/deepseek-v4|DeepSeek V4]]** ([[entities/deepseek|DeepSeek]]): [[concepts/open-source|Open-source]] suite of [[concepts/large-language-models|large language models]] (Analysis)
 
 Backlink: [[concepts/date-2026-04-13|2026]] 04 14 Kiki K2 [[entities/prompt-engineering|Prompt Engineering]]; 2026 04 24 [[entities/deepseek-v4|DeepSeek V4]] Next Gen Open Source LLM Performance and Efficiency Analysis
-
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-24: DeepSeek · [▶ source](https://www.youtube.com/watch?v=u3f35QQSLqE)

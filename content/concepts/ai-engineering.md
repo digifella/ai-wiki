@@ -13,20 +13,20 @@ tags:
 aliases:
   - "Artificial Intelligence Engineering"
   - "AI Systems Engineering"
-summary: "Engineering discipline focused on designing, building, and deploying AI systems including large language models, neural networks, and autonomous agents."
-updated: 2026-05-01
+summary: Engineering discipline focused on designing, building, and deploying AI systems including large language models, neural networks, and autonomous agents.
+updated: 2026-05-24
 ---
 # AI Engineering
 
-AI Engineering is an engineering discipline focused on the practical design, development, and [[concepts/deployment|deployment]] of [[concepts/ai-technologies|artificial intelligence]] systems at scale. It encompasses the full lifecycle of AI systems, from initial [[concepts/architecture|architecture]] decisions through production deployment and maintenance. Unlike theoretical [[concepts/ai-research|AI research]], AI Engineering emphasizes real-world implementation challenges, including system [[concepts/software-reliability|reliability]], [[concepts/software-performance|performance optimization]], cost efficiency, and integration with existing infrastructure.
+AI Engineering is an engineering discipline that focuses on the practical design, development, and deployment of artificial intelligence systems at scale. It bridges the gap between theoretical AI research and production systems, emphasizing real-world implementation challenges such as system reliability, performance optimization, and maintainability. The field encompasses the complete lifecycle of AI systems, from initial architectural decisions and model selection through training, validation, deployment, and ongoing maintenance.
 
-## Core Components
+## Core Activities and Scope
 
-The field addresses multiple layers of AI system development. This includes work with [[concepts/large-language-model-llm|large language models]] (LLMs), [[concepts/deep-learning-models|neural network architectures]], and autonomous [[concepts/agents|agents]]. Engineers in this domain must navigate both the technical requirements of [[concepts/training|training]] and [[concepts/inference|inference]], as well as the operational demands of keeping AI systems [[concepts/running|running]] reliably in production environments. Key concerns include model selection, computational resource allocation, [[concepts/data-pipeline|data pipeline]] management, and [[concepts/monitoring-and-alerting|system monitoring]].
+AI Engineering involves designing and building systems that integrate machine learning models, neural networks, and other AI components into functional applications. This includes decisions about data pipelines, model training infrastructure, evaluation metrics, and integration with existing software systems. Practitioners work on both the algorithmic aspects of AI systems and the engineering infrastructure required to make them production-ready, such as monitoring, version control, and resource management.
 
-## Industry Context
+## Relationship to Other Fields
 
-AI Engineering has emerged as a distinct discipline as organizations move beyond experimental [[concepts/ai-projects|AI projects]] toward production systems. Major technology companies and AI developers have increasingly focused on engineering practices and infrastructure for deploying AI at scale, reflecting the growing gap between research capabilities and operational requirements. The field draws on [[concepts/software|software]] engineering principles while addressing unique challenges specific to [[concepts/machine-learning-systems|machine learning systems]], such as model drift, training reproducibility, and resource constraints.
+AI Engineering differs from AI research in its primary focus on implementation and scalability rather than novel algorithms or theoretical advances. It also extends beyond machine learning engineering by addressing broader system concerns including autonomous agents, multi-model systems, and the operational aspects of maintaining AI applications in production environments. The discipline draws on software engineering best practices while adapting them to the unique challenges posed by non-deterministic AI systems and data-dependent behavior.
 
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-NVIDIA-GTC-OpenAI-Pivot-Shopify-Agents-and-Anthropic-Institute|NVIDIA GTC OpenAI Pivot Shopify Agents and Anthropic Institute]] · [▶ source](https://www.youtube.com/watch?v=Ce_p69dV1jw)

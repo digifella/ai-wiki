@@ -9,11 +9,11 @@ tags:
 aliases:
   - "South Seas"
 summary: The South Seas Cafe features a mosaic floor with 1.2m tiles, Dunlop rubber floors, and a heritage-preserved board table.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # South Seas Cafe
 
-The South Seas Cafe is distinguished by several notable architectural and design features. The establishment features a mosaic floor composed of 1.2-meter tiles and Dunlop rubber flooring. A [[concepts/cultural-heritage|heritage]]-preserved board table, maintained in [[concepts/connection|connection]] with [[entities/manchester-unity|Manchester Unity]], is a significant fixture within the venue.
+The South Seas Cafe is distinguished by several notable architectural and [[concepts/design|design]] features. The establishment features a mosaic floor composed of 1.2-meter tiles and Dunlop rubber flooring. A [[concepts/cultural-heritage|heritage]]-preserved board table, maintained in [[concepts/connection|connection]] with [[entities/manchester-unity|Manchester Unity]], is a significant fixture within the venue.
 
 ## Decor and Atmosphere
 

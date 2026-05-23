@@ -1,20 +1,16 @@
 ---
 type: concept
 domain: food-nutrition
-tags:
-  - "cooking"
-  - "bacon"
-  - "techniques"
-updated: 2026-04-14
+updated: 2026-05-23
 group: cooking-recipes-culinary-practice
 ---
 # Bacon Cooking
 
 ## Summary
-Bacon cooking techniques aim to achieve uniformly crispy, flavorful strips regardless of the method used.
+Bacon [[concepts/cooking-techniques|cooking techniques]] aim to achieve uniformly crispy, flavorful strips regardless of the method used.
 
 ### New Information from the Note:
-- **Clip title:** The Best Way To Cook Bacon? | Techniquely with [[entities/lan-lam|Lan Lam]]
+- **[[concepts/clip-title|Clip title]]:** The Best Way To Cook Bacon? | Techniquely with [[entities/lan-lam|Lan Lam]]
 - **Author / channel:** [[entities/americas-test-kitchen|America's Test Kitchen]]
 - **URL:** https://www.youtube.com/watch?v=tDBSQKEKrW4
 
@@ -27,7 +23,6 @@ Bacon cooking techniques aim to achieve uniformly crispy, flavorful strips regar
 - bacon recipes
 
 ## Backlinks
-2026 04 13 Bacon Cooking Techniques Achieving Uniform Crispness with Water and Ov
-
+2026 04 13 Bacon [[concepts/cooking-techniques|Cooking Techniques]] Achieving [[concepts/uniform-crispness|Uniform Crispness]] with Water and Ov
 ## Source Notes
 - 2026-04-13: The Best Way To Cook Bacon? | Techniquely with Lan Lam

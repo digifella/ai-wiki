@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "satellite"
-  - "internet"
-  - "connectivity"
-  - "infrastructure"
-  - "satellite-internet"
-  - "low-earth-orbit"
-  - "global-connectivity"
-  - "space-infrastructure"
-  - "telecommunications"
-aliases:
-  - "satellite-based internet"
-  - "LEO connectivity"
-summary: "Satellite internet utilizes Low-Earth Orbit (LEO) constellations to provide global connectivity, overcoming the limitations of terrestrial infrastructure."
-updated: 2026-04-16
+summary: Satellite internet utilizes Low-Earth Orbit (LEO) constellations to provide global connectivity, overcoming the limitations of terrestrial infrastructure.
+updated: 2026-05-23
 group: space-systems-exploration-infrastructure
 ---
 # Satellite internet
@@ -35,7 +22,6 @@ Global internet access delivered via satellite constellations, overcoming terres
 ## Challenges
 - **Space debris**: 10% of tracked space objects are satellite-related (per Space Sustainability)
 - **Regulatory complexity**: Requires international spectrum coordination (ITU framework)
-- **Cost barriers**: $50-$250/month per user (vs. $10-$30 for terrestrial) despite declining [[concepts/hardware|hardware]] costs
-
+- **[[concepts/cost|Cost]] barriers**: $50-$250/month per user (vs. $10-$30 for terrestrial) despite declining [[concepts/hardware|hardware]] costs
 ## Source Notes
 - 2026-04-27: Iran · [▶ source](https://www.youtube.com/watch?v=ApIb-nTdoLU)

@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "cognitive-science"
-  - "evolution"
-  - "consciousness"
-  - "neuroscience"
-  - "evolutionary-psychology"
-  - "subjectivity"
-  - "inner-space"
-  - "neurobiology"
-  - "self-awareness"
-aliases:
-  - "evolution of consciousness"
-  - "evolution of mental processes"
-summary: "Cognitive evolution describes the evolutionary development of complex mental processes, information processing, and the emergence of subjective experience in biological organisms."
-updated: 2026-04-26
+summary: Cognitive evolution describes the evolutionary development of complex mental processes, information processing, and the emergence of subjective experience in biological organisms.
+updated: 2026-05-23
 group: evolution-ecology-natural-systems
 ---
 # Cognitive evolution
@@ -29,14 +16,13 @@ The evolutionary trajectory and development of complex mental processes, informa
 
 ## Related Concepts
 - Consciousness
-- Evolutionary Psychology
+- Evolutionary [[concepts/psychology|Psychology]]
 - [[concepts/neuroscience]]
 - Self-awareness
 - Neurobiology
 
 ## Sources
 - 2026 04 22 The Minds Evolution [[concepts/inner-space|Inner Space]] Consciousness and Human Animal Differences
-
 ## Source Notes
 - 2026-04-22: The Mind
 - 2026-04-27: AI Context Layer Architectures: Karpathy

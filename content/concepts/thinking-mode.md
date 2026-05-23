@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: maths-cryptography
-group: mathematical-reasoning-proof
 tags:
   - "concept"
   - "llm-models"
@@ -13,11 +12,12 @@ aliases:
   - "LLM Thinking Mode"
   - "Model Inference Modes"
 summary: Research notes on open-source language model implementations and comparative performance analysis for coding tasks.
-updated: 2026-05-01
+updated: 2026-05-23
+group: mathematical-reasoning-proof
 ---
 # Thinking Mode
 
-Thinking Mode refers to operational frameworks in language models that allocate extended [[concepts/computational-resources|computational resources]] to [[concepts/problem-solving|problem-solving]] tasks, particularly in [[concepts/mathematics|mathematics]] and [[concepts/cryptography|cryptography]]. These modes enable models to work through [[concepts/complex-reasoning|complex reasoning]] chains before generating final outputs, rather than producing immediate [[concepts/responses|responses]]. The approach has become increasingly relevant in evaluating how different [[concepts/open-source|open-source]] and commercial implementations handle structured analytical work.
+[[concepts/human-cognition|Thinking]] Mode refers to operational frameworks in language [[concepts/models|models]] that allocate extended [[concepts/computational-resources|computational resources]] to [[concepts/problem-solving|problem-solving]] tasks, particularly in [[concepts/mathematics|mathematics]] and [[concepts/cryptography|cryptography]]. These modes enable models to work through [[concepts/complex-reasoning|complex reasoning]] chains before generating final outputs, rather than producing immediate [[concepts/responses|responses]]. The approach has become increasingly relevant in evaluating how different [[concepts/open-source|open-source]] and commercial implementations handle structured analytical work.
 
 ## Performance and Implementation Comparison
 
@@ -25,8 +25,7 @@ Research into Thinking Mode implementations has focused on comparative analysis 
 
 ## Practical Applications in Coding
 
-In cryptographic and mathematical coding contexts, Thinking Mode implementations have demonstrated value for tasks requiring step-by-step verification and algorithm development. The mode's effectiveness depends on both [[concepts/architecturetechnique|model architecture]] and [[concepts/prompt-based-modeling|prompt engineering]] strategies, with research noting that structured input formats and explicit reasoning prompts can substantially influence output quality and correctness of solutions.
-
+In cryptographic and mathematical coding contexts, Thinking Mode implementations have demonstrated value for tasks requiring step-by-step [[concepts/verification|verification]] and algorithm development. The mode's effectiveness depends on both [[concepts/architecturetechnique|model architecture]] and [[concepts/prompt-based-modeling|prompt engineering]] strategies, with research noting that structured input formats and explicit reasoning prompts can substantially [[concepts/power|influence]] [[concepts/output|output]] quality and correctness of solutions.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-08: NotebookLM Mind Maps Are Bad! But Gemini Fixes Them

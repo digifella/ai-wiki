@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "rag"
   - "knowledge-graphs"
@@ -12,7 +11,8 @@ aliases:
   - "RAG with Knowledge Graphs"
   - "Graphiti-based Context"
 summary: The concept involves combining Retrieval Augmented Generation with knowledge graphs using the Graphiti open-source platform.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Context Utilization
 
@@ -20,12 +20,11 @@ Context Utilization refers to the practice of enhancing [[concepts/answer-genera
 
 ## Graphiti and Implementation
 
-Graphiti is an [[concepts/open-source|open-source]] platform designed to address limitations inherent in standard [[concepts/contextualized-language-understanding|RAG systems]]. It provides a framework for building knowledge graphs that work alongside retrieval mechanisms, allowing AI agents to leverage both direct [[concepts/document-retrieval|document retrieval]] and relationship-based [[concepts/reasoning|reasoning]]. This approach enables more sophisticated context utilization by maintaining explicit connections between entities and concepts, rather than relying solely on similarity-based retrieval.
+[[concepts/graphiti|Graphiti]] is an [[concepts/open-source|open-source]] platform designed to address limitations inherent in standard [[concepts/contextualized-language-understanding|RAG systems]]. It provides a framework for building knowledge graphs that work alongside retrieval mechanisms, allowing [[concepts/ai-agents|AI agents]] to leverage both direct [[concepts/document-retrieval|document retrieval]] and relationship-based [[concepts/reasoning|reasoning]]. This approach enables more sophisticated context utilization by maintaining explicit connections between entities and concepts, rather than relying solely on similarity-based retrieval.
 
 ## Practical Considerations
 
-While enhanced context utilization through knowledge graphs offers significant advantages for [[concepts/ai-agent|AI agent]] performance, implementation choices vary in cost and complexity. Organizations evaluating such systems must consider factors beyond architectural benefits, including infrastructure costs and resource requirements for maintaining knowledge graph structures alongside retrieval systems.
-
+While enhanced context utilization through knowledge graphs offers significant advantages for [[concepts/ai-agent|AI agent]] performance, [[concepts/adoption|implementation]] choices vary in [[concepts/cost|cost]] and complexity. Organizations evaluating such systems must consider factors beyond architectural benefits, including infrastructure costs and resource requirements for maintaining [[concepts/vector-store|knowledge graph]] structures alongside retrieval systems.
 ## Source Notes
 
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]

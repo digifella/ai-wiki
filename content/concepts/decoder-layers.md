@@ -1,18 +1,12 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "machine-learning"
-  - "transformer"
-  - "asr"
-  - "nlp"
-  - "deep-learning"
-updated: 2026-04-15
+updated: 2026-05-23
 group: photoshop-layer-workflows
 ---
 # Decoder Layers
 
-Components in sequence-to-sequence models (e.g., [[concepts/transformers|transformers]]) responsible for generating output sequences from encoded inputs. Each layer typically contains [[concepts/self-attention|self-attention]] and feed-forward sub-layers, processing [[concepts/tokens|tokens]] incrementally to produce the final output.
+Components in sequence-to-sequence [[concepts/models|models]] (e.g., [[concepts/transformers|transformers]]) responsible for generating [[concepts/output|output]] sequences from encoded inputs. Each layer typically contains [[concepts/self-attention|self-attention]] and feed-forward sub-layers, processing [[concepts/tokens|tokens]] incrementally to produce the final output.
 
 ## Related Concepts
 - Transformer

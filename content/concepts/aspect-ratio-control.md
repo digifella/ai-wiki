@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: creative-pursuits
-group: photography-cameras
 tags:
   - "concept"
   - "ai-image-generation"
@@ -11,20 +10,20 @@ tags:
 aliases:
   - "nano-banana-2-control"
 summary: A video tutorial by Tasia Custode explains how to use Google's Nano Banana 2 for AI image generation and control.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-image-generation-editing
 ---
 # Aspect Ratio Control
 
-Aspect Ratio Control refers to the capability to specify and manage the proportions of generated [[concepts/images|images]] in [[concepts/ai-image-generation|AI image generation]] tools. This feature allows users to define the width-to-height ratio of their output, enabling generation of images suited to specific formats or [[concepts/scenarios|use cases]], such as square [[concepts/social-media-carousels|social media posts]], widescreen presentations, or vertical mobile displays.
+Aspect Ratio [[concepts/power|Control]] refers to the capability to specify and manage the proportions of generated [[concepts/images|images]] in [[concepts/ai-image-generation|AI image generation]] tools. This feature allows users to define the width-to-height ratio of their [[concepts/output|output]], enabling generation of images suited to specific formats or [[concepts/scenarios|use cases]], such as square [[concepts/social-media-carousels|social media posts]], widescreen presentations, or vertical mobile displays. By constraining the aspect ratio during generation, users can ensure their outputs align with platform specifications or creative requirements without requiring post-generation cropping or resizing.
 
-## Implementation in Nano Banana 2
+## Technical Implementation
 
-[[concepts/google-search|Google]]'s Nano Banana 2 includes aspect ratio control as a standard feature within its AI image generation interface. Users can select from predefined aspect ratios or specify custom dimensions before initiating image generation. This functionality ensures that generated images conform to the intended output format without requiring post-generation cropping or resizing.
+Most modern AI image generators, including [[concepts/google-search|Google]]'s [[concepts/camera-angle-control|Nano Banana 2]], implement aspect ratio control through preset options or custom ratio inputs. Users typically select from common formats—such as 1:1 (square), 16:9 (widescreen), or 9:16 (portrait)—or specify custom dimensions. The model then generates images that conform to these constraints, adjusting composition and framing accordingly during the generation process rather than applying transformations afterward.
 
 ## Practical Applications
 
-The ability to control aspect ratio streamlines workflows across different media platforms and contexts. Content creators can generate images optimized directly for their target format, whether for social media feeds, thumbnails, print materials, or web layouts. This reduces post-processing requirements and ensures [[concepts/logical-consistency|consistency]] across multiple image outputs with the same specifications.
-
+Aspect ratio control streamlines workflows across creative industries. Content creators use it to generate images tailored to specific platforms, reducing [[concepts/iteration|iteration]] time. Designers leverage the feature to produce assets matching project specifications, while photographers and digital artists utilize it to explore compositions within defined boundaries. The capability proves particularly valuable in batch image generation, where maintaining consistent proportions across multiple outputs is essential for cohesive visual projects.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AutoResearch-Autonomous-AI-Agent-Self-Improvement-Through-Code-Iterati|AutoResearch Autonomous AI Agent Self Improvement Through Code Iterati]] · [▶ source](https://www.youtube.com/watch?v=uBWuKh1nZ2Y)
 - 2026-04-10: [[lab-notes/2026-04-10-Video-1|Video 1]] · [▶ source](https://www.youtube.com/watch?v=gbnmDRcKM0Q)

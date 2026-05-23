@@ -1,16 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "qec"
-  - "note-taking"
-  - "ai"
-  - "evidence"
-  - "critical-thinking"
-  - "limitations-assumptions"
-  - "ai-hallucinations"
-summary: "The QEC framework is a structured note-taking methodology requiring Question, Evidence, and Conclusion to transform raw information into actionable knowledge."
-updated: 2026-04-15
+summary: The QEC framework is a structured note-taking methodology requiring Question, Evidence, and Conclusion to transform raw information into actionable knowledge.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # QEC framework
@@ -23,8 +15,8 @@ A structured note-taking methodology requiring **Question**, **Evidence**, and *
 - **Conclusion**: Reasoned synthesis derived *only* from the evidence.
 
 ## Critical Enhancement: LA Integration
-- **LA ([[concepts/limitations-and-assumptions|Limitations and Assumptions]])**: Explicitly identifies constraints (e.g., "AI lacks domain expertise") and unstated premises (e.g., "Assumes user understands technical terms") in AI outputs.
-- Applied alongside QEC to prevent over-reliance on AI-generated content (per [[entities/elle-wang|Elle Wang]] - taking smart notes).
+- **[[entities/los-angeles|LA]] ([[concepts/limitations-and-assumptions|Limitations and Assumptions]])**: Explicitly identifies constraints (e.g., "AI lacks domain expertise") and unstated premises (e.g., "Assumes user understands technical terms") in AI outputs.
+- Applied alongside QEC to prevent over-reliance on AI-generated content (per [[entities/elle-wang|Elle Wang]] - taking smart [[concepts/notes|notes]]).
 
 ## Implementation Benefits
 - Turns [[concepts/ai-generated-notes|AI notes]] from passive summaries into [[concepts/critical-thinking|critical thinking]] tools.
@@ -32,13 +24,12 @@ A structured note-taking methodology requiring **Question**, **Evidence**, and *
 - Creates auditable notes for future reference (e.g., "Conclusion: QEC reduces [[concepts/ai-hallucinations|AI hallucinations]] by 70% based on evidence from 5 case studies").
 
 ## Related Concepts
-- LA (Limitations and Assumptions)
+- [[entities/los-angeles|LA]] ([[concepts/limitations-and-assumptions|Limitations and Assumptions]])
 - Note-taking
 - AI
-- [[entities/elle-wang|Elle Wang]] - taking smart notes
+- [[entities/elle-wang|Elle Wang]] - taking smart [[concepts/notes|notes]]
 
 Backlink: 2026 04 14 [[entities/elle-wang|Elle Wang]] taking smart notes
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

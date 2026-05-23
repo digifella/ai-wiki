@@ -1,19 +1,8 @@
 ---
 type: entity
-tags:
-  - "technology-industry"
-  - "venture-capital"
-  - "open-source-ai"
-  - "agents"
-  - "autonomous-operations"
-aliases:
-  - "G.Tan"
-  - "Gary Tan"
-  - "Garry T."
-  - "Tech Entrepreneur"
-summary: "Garry Tan is a technology industry figure involved in startups and venture capital, with recent focus on open-source AI agents for development workflows."
-updated: 2026-04-11
-title: "Garry Tan"
+summary: Garry Tan is a technology industry figure involved in startups and venture capital, with recent focus on open-source AI agents for development workflows.
+updated: 2026-05-23
+title: Garry Tan
 ---
 # Garry Tan
 Garry Tan is a prominent figure in the technology industry, known for his contributions to startups and venture capital.
@@ -29,10 +18,9 @@ Garry Tan is a prominent figure in the technology industry, known for his contri
 - [[entities/matthew-berman]]
 
 ## Related Notes
-- 2026 04 10 Open Source AI Agents Revolutionizing Development Workflows and
+- 2026 04 10 Open Source [[concepts/ai-agents|AI Agents]] Revolutionizing Development Workflows and
 
 ## Related Notes
-
 ## Source Notes
 
 - 2026-04-07: [[lab-notes/2026-04-07-Open-Source-AI-Agents-Revolutionizing-Development-Workflows-and|Open Source AI Agents Revolutionizing Development Workflows and]] · [▶ source](https://www.youtube.com/watch?v=sXVbWkoCVaA)

@@ -1,20 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "AI"
-  - "LLM"
-  - "Cognitive-Computing"
-  - "logical-deduction"
-  - "problem-solving"
-  - "multi-step-workflows"
-  - "cognitive-tasks"
-  - "ai-integration"
-aliases:
-  - "complex-reasoning"
-  - "advanced-logic"
-summary: "Advanced reasoning is the ability of artificial intelligence to execute complex, multi-step logical deductions and contextual problem-solving tasks."
-updated: 2026-04-20
+summary: Advanced reasoning is the ability of artificial intelligence to execute complex, multi-step logical deductions and contextual problem-solving tasks.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Advanced Reasoning
@@ -23,14 +11,13 @@ The ability of [[concepts/ai-technologies|Artificial Intelligence]] to execute c
 
 ## Key Implementations & Features
 * [[entities/gemini]]
-    * Demonstrates advanced reasoning via native [[concepts/integration|integration]] within the [[entities/google-workspace]] ecosystem.
-    * Utilizes `@` triggers to facilitate seamless interaction and data retrieval across applications.
+    * Demonstrates [[concepts/thinking-and-reasoning-capabilities|advanced reasoning]] via native [[concepts/integration|integration]] within the [[entities/google-workspace]] ecosystem.
+    * Utilizes `@` triggers to facilitate seamless interaction and data retrieval across [[concepts/software|applications]].
     * Capable of end-to-end functionality, leveraging deep integration to execute complex, multi-step workflows.
 
 ---
 **Backlinks:**
 2026 04 14 New [[concepts/gemini|Gemini]] [[concepts/tutorial|Tutorial]]
-
 ## Source Notes
 - 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
 - 2026-04-07: Open-Source just LEVELED UP ([[concepts/gemma-4|GEMMA 4)]]

@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: security-infrastructure
-tags:
-  - "privacy"
-  - "security"
-  - "AI"
-  - "encryption"
-  - "mobile-computing"
-  - "end-to-end-privacy"
-  - "zero-knowledge-architecture"
-  - "private-ai"
-  - "local-llms"
-  - "data-encryption"
-aliases:
-  - "E2E Privacy"
-  - "End-to-End Encryption"
-summary: "A security paradigm that ensures data is accessible only to authorized communicating parties, preventing intermediaries from accessing plaintext content."
-updated: 2026-04-26
+summary: A security paradigm that ensures data is accessible only to authorized communicating parties, preventing intermediaries from accessing plaintext content.
+updated: 2026-05-23
 group: privacy-security-guardrails
 ---
 # End-to-end privacy
@@ -24,7 +10,7 @@ group: privacy-security-guardrails
 A [[concepts/secure|security]] paradigm ensuring that data is accessible only to the authorized communicating parties, preventing intermediaries—including service providers and [[concepts/cloud-computing]] infrastructures—from accessing the plaintext content.
 
 ## Core Principles
-- Data Encryption: Ensuring confidentiality via protocols that protect data both in transit and at rest.
+- Data Encryption: Ensuring confidentiality via protocols that protect data both in transit and [[concepts/assistive-technology|at]] rest.
 - Zero-Knowledge [[concepts/architecture|Architecture]]: Systems designed so that the service provider has no access to the underlying user keys or data.
 - [[concepts/local-llm]]: Minimizing the [[concepts/attack-surface|attack surface]] by keeping data within a controlled environment, such as [[concepts/edge-computing]] or [[concepts/self-hosted-llms]].
 
@@ -35,7 +21,6 @@ A [[concepts/secure|security]] paradigm ensuring that data is accessible only to
 
 ## Related
 - [[concepts/date-2026-04-13|2026]] 04 22 [[entities/anythingllm|AnythingLLM]] 1.12 Channels Mobile Interaction with Private Self Hosted LLMs
-
 ## Source Notes
 - 2026-04-22: [[lab-notes/2026-04-22-AnythingLLM-1.12-Channels-Mobile-Interaction-with-Private-Self-Hosted-LLMs|AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs]] · [▶ source](https://youtu.be/Ei5nB5fyn7g)
 - 2026-04-07: [[lab-notes/2026-04-07-Analysis-of-Leading-AI-Models-Capabilities-Pricing-Tiers-and-Optimal|Analysis of Leading AI Models Capabilities Pricing Tiers and Optimal]] · [▶ source](https://www.youtube.com/watch?v=I0me2uEbfuE)

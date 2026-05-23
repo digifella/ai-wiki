@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: physics-fundamental-theory
 tags:
   - "muon-physics"
   - "g-2-experiment"
@@ -12,7 +11,8 @@ aliases:
   - "Muon g-2"
   - "g-2 measurement"
 summary: The Muon g-2 experiment at Fermilab investigates the muon through specific methodologies and upcoming 2025 results.
-updated: 2026-05-01
+updated: 2026-05-23
+group: physics-fundamental-theory
 ---
 # Muons
 
@@ -20,7 +20,7 @@ Muons are [[concepts/elementary-particles|fundamental particles]] belonging to t
 
 ## The Muon g-2 Experiment
 
-The Muon g-2 experiment, conducted at Fermilab, measures a precise property of muons known as the [[concepts/anomalous-magnetic-moment|anomalous magnetic moment]], or "g-2." This value describes how strongly a muon responds to magnetic fields and is predicted by the [[concepts/standard-model-of-particle-physics|Standard Model of particle physics]]. By comparing experimental measurements with theoretical predictions, physicists can detect signs of [[concepts/physics|physics]] beyond the Standard Model, such as undiscovered particles or forces.
+The [[concepts/muon-g-2-experiment|Muon g-2 experiment]], conducted [[concepts/assistive-technology|at]] Fermilab, measures a precise property of muons known as the [[concepts/anomalous-magnetic-moment|anomalous magnetic moment]], or "g-2." This value describes how strongly a muon responds to magnetic fields and is predicted by the [[concepts/standard-model-of-particle-physics|Standard Model of particle physics]]. By comparing experimental measurements with theoretical predictions, physicists can detect signs of [[concepts/physics|physics]] beyond the [[concepts/standard-model|Standard Model]], such as undiscovered particles or forces.
 
 ## Methodology and Significance
 

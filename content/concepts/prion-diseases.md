@@ -1,6 +1,6 @@
 ---
 type: concept
-domain: science-physics
+domain: health-wellbeing
 tags:
   - "biology"
   - "medicine"
@@ -14,13 +14,13 @@ tags:
 aliases:
   - "transmissible spongiform encephalopathies"
   - "tse"
-summary: "Prion diseases, also known as transmissible spongiform encephalopathies, are rare and usually fatal neurodegenerative diseases caused by the misfolding of the prion protein."
-updated: 2026-04-28
-group: physics-fundamental-theory
+summary: Prion diseases, also known as transmissible spongiform encephalopathies, are rare and usually fatal neurodegenerative diseases caused by the misfolding of the prion protein.
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Prion Diseases
 
-2026 04 14 [[entities/anton-petrov|Anton Petrov]] Prion and [[concepts/start-of-life|start of life]]
+2026 04 14 [[entities/anton-petrov|Anton Petrov]] [[concepts/prion|Prion]] and [[concepts/start-of-life|start of life]]
 
 ## Overview
 Prion diseases, also known as transmissible spongiform encephalopathies (TSEs), are a group of rare, degenerative, and usually fatal diseases that affect the nervous system of humans and animals. They are caused by the misfolding of a normal cellular protein, the prion protein (PrP), into an abnormal form (PrP^Sc).
@@ -37,7 +37,7 @@ Prion diseases, also known as transmissible spongiform encephalopathies (TSEs), 
 - **Bovine Spongiform Encephalopathy (BSE or "Mad Cow Disease"):** A prion disease in cattle that can be transmitted to humans through consumption of contaminated meat.
 
 ## Historical Context
-- **[[entities/fore-tribe|Fore Tribe]] & Kuru:** The video begins with a medical mystery from the 1980s in [[entities/papua-new-guinea|Papua New Guinea]] involving the **Fore tribe**.
+- **[[entities/fore-tribe|Fore Tribe]] & [[concepts/kuru-disease|Kuru]]:** The video begins with a medical mystery from the 1980s in [[entities/papua-new-guinea|Papua New Guinea]] involving the **Fore tribe**.
   - **The Ritual:** The tribe practiced a funeral ritual involving cannibalism.
   - **The Disease:** Kuru, a fatal neurodegenerative disease, was prevalent among the tribe due to this ritual.
   - **Discovery:** Researchers linked Kuru to the consumption of human tissue, leading to the identification of [[concepts/infectious-proteins|prions]] as the causative agent.
@@ -46,7 +46,7 @@ Prion diseases, also known as transmissible spongiform encephalopathies (TSEs), 
 - **Anton Petrov - Prion and [[concepts/start-of-life|start of life]]:** Explores the hypothesis that prions might have played a role in the origin of life.
   - **Protein World Hypothesis:** Suggests that life began with self-replicating proteins rather than nucleic acids.
   - **Prions as Early Life Forms:** Proposes that prions, with their ability to self-replicate and misfold, could have been early forms of life.
-  - **Historical Context:** Discusses the Fore tribe and Kuru as a case study in prion disease transmission.
+  - **[[concepts/historical-context|Historical Context]]:** Discusses the Fore tribe and Kuru as a case study in prion disease transmission.
 
 ## Research and Discoveries
 - **Stanley B. Prusiner:** Awarded the Nobel Prize in Physiology or Medicine in 1997 for his pioneering work on prions.
@@ -64,7 +64,6 @@ Prion diseases, also known as transmissible spongiform encephalopathies (TSEs), 
 - [[concepts/kuru|Kuru]]
 - Creutzfeldt-Jakob Disease
 - Bovine Spongiform Encephalopathy
-
 ## Source Notes
 
 - 2026-04-12: Biggest Puzzle in Computer Science: P vs. NP

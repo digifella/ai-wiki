@@ -8,11 +8,11 @@ tags:
   - "sharepoint"
   - "ai-review"
 summary: Notes regarding the review of the AI masterplan, infrastructure limitations, and challenges with tool and proposal systems.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Tissan
 
-Tissan refers to a review initiative focused on evaluating AI strategy and operational systems within an [[concepts/organization|organization]]. The review, conducted by Bec, examined the AI masterplan and identified critical gaps between strategic objectives and current capabilities.
+Tissan refers to a review initiative focused on evaluating AI strategy and operational systems within an [[concepts/organization|organization]]. The review, conducted by [[entities/bec|Bec]], examined the AI masterplan and identified critical gaps between strategic objectives and current [[concepts/capabilities|capabilities]].
 
 ## Infrastructure and Systems Challenges
 
@@ -20,4 +20,4 @@ The review revealed significant limitations in existing infrastructure that cons
 
 ## Key Focus Areas
 
-The assessment concentrated on understanding [[concepts/scenarios|use cases]] for AI [[concepts/deployment|deployment]], identifying opportunities to increase speed of analysis and decision-making, and determining how to automate routine work. The review emphasized the need to streamline processes around the edges while addressing systemic inefficiencies in how proposals are evaluated and implemented.
+The assessment concentrated on understanding [[concepts/scenarios|use cases]] for AI [[concepts/deployment|deployment]], identifying opportunities to increase [[concepts/speed|speed]] of analysis and [[concepts/decision-making|decision-making]], and determining how to automate routine work. The review emphasized the need to streamline processes around the edges while addressing systemic inefficiencies in how proposals are evaluated and implemented.

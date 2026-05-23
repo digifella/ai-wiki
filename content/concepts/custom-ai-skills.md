@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "automation"
-  - "productivity"
-  - "claude"
-  - "ai-skills"
-  - "llm-extensions"
-  - "agentic-workflows"
-  - "marketing-automation"
-  - "task-automation"
-aliases:
-  - "Programmable LLM extensions"
-  - "Agent skills"
-summary: "Programmable extensions for LLMs that enable the execution of specific, repeatable tasks and facilitate autonomous agentic workflows."
-updated: 2026-04-27
+summary: Programmable extensions for LLMs that enable the execution of specific, repeatable tasks and facilitate autonomous agentic workflows.
+updated: 2026-05-23
 group: agent-systems-skills
 ---
 # Custom AI Skills
@@ -25,14 +12,13 @@ Specialized, programmable [[concepts/plugins|extensions]] for LLMs that enable t
 ## Key Capabilities
 - **Orchestration**: Coordinating multiple specialized [[concepts/skills|skills]] to manage complex, multi-step [[concepts/autonomous-workflows|autonomous processes]].
 - **[[concepts/design|Design]] Systems [[concepts/integration|Integration]]**: Leveraging skills to ensure all automated outputs adhere to standardized brand and visual frameworks.
-- **Implementation via [[entities/claude-code]]**: Utilizing advanced [[concepts/coding|coding]] capabilities to build, deploy, and manage custom-skill-based [[concepts/automation|automation]].
+- **[[concepts/adoption|Implementation]] via [[entities/claude-code]]**: Utilizing advanced [[concepts/coding|coding]] [[concepts/capabilities|capabilities]] to build, deploy, and manage custom-skill-based [[concepts/automation|automation]].
 
 ## Core Applications
 - **Marketing [[concepts/automation|Automation]]**: Developing end-to-end [[concepts/automated-marketing-workflows|automated marketing workflows]], ranging from content generation to systematic [[concepts/deployment|deployment]].
 
 ## References
-- 2026 04 27 [[concepts/anthropic-ai|Claude AI]] Automated Marketing with Custom Skills Design
-
+- 2026 04 27 [[concepts/anthropic-ai|Claude AI]] Automated Marketing with Custom [[concepts/skills|Skills]] [[concepts/design|Design]]
 ## Source Notes
 - 2026-04-27: Claude AI · [▶ source](https://www.youtube.com/watch?v=Ph-maUAiSU8)
 - 2026-04-07: [[lab-notes/2026-04-07-Anti-Gravity-AI-Agent-Data-Export-and-GitHub-Sync-for-Control|Anti Gravity AI Agent Data Export and GitHub Sync for Control]] · [▶ source](https://www.youtube.com/watch?v=x2uJdV00WgI)

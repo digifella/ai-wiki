@@ -12,8 +12,8 @@ tags:
   - "human-identification"
   - "skeletal-trauma"
   - "prion-diseases"
-summary: "Forensic anthropology applies physical anthropology to legal settings to resolve medico-legal problems through human identification and the analysis of skeletal trauma."
-updated: 2026-04-28
+summary: Forensic anthropology applies physical anthropology to legal settings to resolve medico-legal problems through human identification and the analysis of skeletal trauma.
+updated: 2026-05-23
 group: anthropology-ethnography
 ---
 # Forensic Anthropology

@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: platforms-runtimes-environments
 tags:
   - "immunology"
   - "adaptive-immunity"
@@ -12,7 +11,8 @@ aliases:
   - "T memory cells"
   - "Tm cells"
 summary: Lymphocytes that retain immunological memory of previously encountered antigens to enable rapid immune responses upon reexposure.
-updated: 2026-05-01
+updated: 2026-05-23
+group: platforms-runtimes-environments
 ---
 # Memory T Cells
 
@@ -20,7 +20,7 @@ Memory T cells are a subset of lymphocytes that persist in the body following [[
 
 ## Types and Distribution
 
-Memory T cells comprise two primary populations: central memory T cells (TCM), which primarily reside in lymphoid tissues, and effector memory T cells (TEM), which circulate through peripheral tissues and can provide immediate local [[concepts/responses|responses]]. Both populations maintain the ability to survive for extended periods—sometimes decades—through slow proliferation and survival signals from cytokines and tissue-resident factors.
+Memory T cells comprise two primary populations: central memory T cells ([[concepts/chinese-medicine|TCM]]), which primarily reside in lymphoid tissues, and effector memory T cells (TEM), which circulate through peripheral tissues and can provide immediate local [[concepts/responses|responses]]. Both populations maintain the ability to survive for extended periods—sometimes decades—through slow proliferation and survival signals from cytokines and tissue-resident factors.
 
 ## Mechanisms of Rapid Response
 
@@ -28,8 +28,7 @@ The enhanced responsiveness of memory T cells stems from several biological char
 
 ## Immunological Significance
 
-The formation and [[concepts/data-persistence|persistence]] of memory T cells explain why individuals who recover from certain infections or receive vaccines develop long-term protection against reinfection. Understanding [[concepts/memory|memory]] T cell biology has direct [[concepts/software|applications]] in vaccine design and immunotherapy, particularly in determining optimal [[concepts/vaccination|vaccination]] schedules and predicting the durability of immune protection.
-
+The formation and [[concepts/data-persistence|persistence]] of memory T cells explain why individuals who recover from certain infections or receive vaccines develop long-term protection against reinfection. Understanding [[concepts/memory|memory]] T cell biology has direct [[concepts/software|applications]] in vaccine [[concepts/design|design]] and immunotherapy, particularly in determining optimal [[concepts/vaccination|vaccination]] schedules and predicting the durability of immune protection.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Bumblebees-Advanced-Cognition-Cumulative-Culture-and-Flood-Resilience|Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience]] · [▶ source](https://www.youtube.com/watch?v=wPy-8gOUl-A)
 - 2026-04-19: [[lab-notes/2026-04-19-Qwen-36-35B-Full-Precision-vs-Ollama-Quantized-Performance-Memory-Trad|Qwen 36 35B Full Precision vs Ollama Quantized Performance Memory Trad]] · [▶ source](https://www.youtube.com/watch?v=RlGppgMDl9k)

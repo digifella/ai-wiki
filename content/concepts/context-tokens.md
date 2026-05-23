@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: reasoning-context-prompting
 tags:
   - "tool-calling"
   - "anthropic"
@@ -13,20 +12,20 @@ aliases:
   - "Tool Search Tool"
   - "Programmatic Tool Calling"
 summary: Discusses advanced tool-calling methods including Anthropic's Tool Search Tool and programmatic tool calling.
-updated: 2026-05-01
+updated: 2026-05-23
+group: reasoning-context-prompting
 ---
 # Context Tokens
 
-Context tokens refer to the input [[concepts/tokens|tokens]] consumed by language models when processing information needed to inform [[concepts/tool-selection|tool selection]] and execution in [[concepts/agentic-frameworks|agentic systems]]. In tool-calling architectures, context tokens include the [[concepts/user-query|user query]], available [[concepts/tool-definitions|tool definitions]], [[concepts/system-prompts|system prompts]], and any retrieved or provided background information that helps the model decide which tools to invoke and how.
+Context tokens refer to the input [[concepts/tokens|tokens]] consumed by language [[concepts/models|models]] when processing information needed to inform [[concepts/tool-selection|tool selection]] and execution in [[concepts/agentic-frameworks|agentic systems]]. In [[concepts/tool-calling|tool-calling]] architectures, context tokens include the [[concepts/user-query|user query]], available [[concepts/tool-definitions|tool definitions]], [[concepts/system-prompts|system prompts]], and any retrieved or provided background information that helps the model decide which tools to invoke and how.
 
 ## Advanced Tool-Calling Methods
 
 Recent developments in tool-calling efficiency have introduced sophisticated approaches to manage context token usage. [[entities/anthropic-institute|Anthropic]]'s Tool Search Tool represents one such advancement, allowing models to search through large tool libraries without loading all tool definitions into context simultaneously. This approach reduces [[concepts/token-consumption|token consumption]] when [[concepts/agents|agents]] have access to extensive tool sets, making it practical to deploy systems with hundreds or thousands of available tools.
 
-Programmatic tool calling extends this concept by enabling models to generate structured tool invocations that are then executed through code rather than relying solely on natural language parsing. This method can improve [[concepts/software-reliability|reliability]] and reduce the token overhead associated with [[concepts/natural-language-descriptions|natural language descriptions]] of tool [[concepts/parameters|parameters]] and results.
+[[concepts/programmatic-tool-calling|Programmatic tool calling]] extends this concept by enabling models to generate structured tool invocations that are then executed through [[concepts/code|code]] rather than relying solely on natural language parsing. This method can improve [[concepts/software-reliability|reliability]] and reduce the token overhead associated with [[concepts/natural-language-descriptions|natural language descriptions]] of tool [[concepts/parameters|parameters]] and results.
 
-Understanding and optimizing context token usage has become increasingly important as agentic systems grow more complex, since tokens directly impact both latency and operational cost in production environments.
-
+Understanding and optimizing context token usage has become increasingly important as [[concepts/agentic-systems|agentic systems]] grow more complex, since tokens directly impact both latency and operational [[concepts/cost|cost]] in production environments.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-Agent-Skills-Why-Code-Enhances-LLM-Efficiency-Over-Markdown-for-Scrapi|Agent Skills Why Code Enhances LLM Efficiency Over Markdown for Scrapi]] · [▶ source](https://www.youtube.com/watch?v=IjiaCOt7bP8)
 - 2026-04-08: [[lab-notes/2026-04-08-Claude-Cowork-Desktop-AI-Co-worker-Core-Capabilities-and-Advantages|Claude Cowork Desktop AI Co worker Core Capabilities and Advantages]] · [▶ source](https://www.youtube.com/watch?v=z9rdrNrkvDY)

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: biology-life-sciences
-group: evolution-ecology-natural-systems
+domain: ai-agents
 tags:
   - "concept"
   - "ai-cybersecurity"
@@ -12,11 +11,12 @@ tags:
 aliases:
   - "Project Glasswing"
 summary: Anthropic's Project Glasswing explores the dual role of AI in software cybersecurity.
-updated: 2026-05-01
+updated: 2026-05-23
+group: ai-foundations-concepts
 ---
 # Bug Identification
 
-Bug identification is the process of detecting, locating, and characterizing defects or errors in [[concepts/software|software]] code. These defects can range from simple logic errors that produce incorrect outputs to critical vulnerabilities that compromise system security. Bug identification is a fundamental practice in [[concepts/coding|software development]] and maintenance, performed throughout the software lifecycle from initial coding through [[concepts/deployment|deployment]] and ongoing operations.
+Bug identification is the process of detecting, locating, and characterizing defects or errors in [[concepts/software|software]] [[concepts/code|code]]. These defects can [[concepts/range|range]] from simple logic errors that produce incorrect outputs to critical vulnerabilities that compromise system [[concepts/security|security]]. Bug identification is a fundamental practice in [[concepts/coding|software development]] and maintenance, performed throughout the software lifecycle from initial coding through [[concepts/deployment|deployment]] and ongoing operations.
 
 ## Detection Methods
 
@@ -28,8 +28,7 @@ In [[concepts/cybersecurity|cybersecurity]] contexts, bug identification takes o
 
 ## AI Applications
 
-[[concepts/ai-technologies|Artificial intelligence]] systems are increasingly applied to bug identification tasks, automating the detection and classification of software defects at scale. AI-driven approaches can analyze large codebases to identify patterns associated with vulnerabilities and may assist in both finding existing bugs and predicting where future defects are likely to occur.
-
+[[concepts/ai-technologies|Artificial intelligence]] systems are increasingly applied to bug identification tasks, automating the detection and classification of software defects [[concepts/assistive-technology|at]] scale. AI-driven approaches can analyze large codebases to identify patterns associated with vulnerabilities and may assist in both finding existing bugs and predicting where future defects are likely to occur.
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Awkward-Primes-Minimal-Line-Coverage-of-Prime-Number-Coordinates|Awkward Primes Minimal Line Coverage of Prime Number Coordinates]] · [▶ source](https://www.youtube.com/watch?v=VFoIPlUalRY)
 - 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Project-Glasswing-AIs-Dual-Role-in-Software-Cybersecurity|Anthropics Project Glasswing AIs Dual Role in Software Cybersecurity]] · [▶ source](https://www.youtube.com/watch?v=INGOC6-LLv0)

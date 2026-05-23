@@ -1,26 +1,10 @@
 ---
 type: concept
 domain: biology-life-sciences
-tags:
-  - "evolution"
-  - "cognition"
-  - "entomology"
-  - "social-learning"
-  - "social-learning-evolution"
-  - "cumulative-knowledge"
-  - "insect-cognition"
-  - "research-findings"
-  - "survival-strategies"
-aliases:
-  - "group culture"
-  - "transgenerational learning"
-  - "cognitive evolution in bumblebees"
-  - "ratchet effect mechanism"
-summary: "Cumulative culture involves the transmission of information across generations, leading to the accumulation of knowledge and complex social strategies."
-updated: 2026-04-11
+summary: Cumulative culture involves the transmission of information across generations, leading to the accumulation of knowledge and complex social strategies.
+updated: 2026-05-23
 group: animals-cognition-behaviour
 ---
-group: animals-[[concepts/cognition|cognition]]-behaviour
 title: "Cumulative Culture"
 ---
 
@@ -44,8 +28,7 @@ The process by which information, [[concepts/skills|skills]], or behaviors are t
 - These findings suggest that bumblebees can develop cumulative culture, enhancing their survival strategies and [[concepts/resilience|resilience]].
 
 ## Sources
-- 2026 04 10 Bumblebees Advanced Cognition Cumulative Culture and Flood Resilience
-
+- 2026 04 10 Bumblebees Advanced Cognition Cumulative Culture and [[concepts/flood-resilience|Flood Resilience]]
 ## Source Notes
 - 2026-04-07: Bumblebees Can Do What?! Incredible Discoveries Nobody
 - 2026-04-11: [[lab-notes/2026-04-11-Community-Health-Prevention-Levels-Determinants-of-Health|Community Health Prevention Levels Determinants of Health]] · [▶ source](https://www.youtube.com/watch?v=wAYlurDlGAI)

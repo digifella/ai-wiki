@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: science-physics
-group: scientific-modelling-discovery
 tags:
   - "computational-modeling"
   - "numerical-simulation"
@@ -11,7 +10,8 @@ aliases:
   - "computational simulation"
   - "numerical simulation"
 summary: A computational technique for modeling physical systems and phenomena through numerical methods.
-updated: 2026-05-01
+updated: 2026-05-23
+group: scientific-modelling-discovery
 ---
 # Simulation
 
@@ -19,12 +19,11 @@ Simulation is a computational technique used to model and analyze physical syste
 
 ## Methods and Implementation
 
-Simulations employ various [[concepts/numerical-analysis|numerical methods]] depending on the physical phenomena being modeled, including finite element methods, finite difference schemes, and particle-based approaches. The process typically involves defining initial conditions, discretizing the domain, iteratively solving equations at each time step, and validating results against experimental data or known solutions. [[concepts/computational-efficiency|Computational efficiency]] and [[concepts/accuracy|accuracy]] depend on factors such as mesh resolution, time step size, and solver stability.
+Simulations employ various [[concepts/numerical-analysis|numerical methods]] depending on the physical phenomena being modeled, including finite element methods, finite difference schemes, and particle-based approaches. The process typically involves defining initial conditions, discretizing the domain, iteratively solving equations [[concepts/assistive-technology|at]] each time step, and validating results against experimental data or known solutions. [[concepts/computational-efficiency|Computational efficiency]] and [[concepts/accuracy|accuracy]] depend on factors such as mesh resolution, time step size, and solver stability.
 
 ## Applications
 
-Physical simulations are widely used across scientific and engineering disciplines. In [[concepts/fluid-dynamics|fluid dynamics]], they model everything from aerodynamic flow around vehicles to [[concepts/weather-patterns|weather patterns]]. In materials science and structural engineering, simulations predict mechanical behavior, [[concepts/stress|stress]] [[concepts/distribution|distribution]], and failure modes. Molecular and atomistic simulations study [[concepts/material-properties|material properties]] at smaller [[concepts/musical-scales|scales]]. The technique has also become essential in computer graphics and visual effects, where [[concepts/physics|physics]]-based simulations generate realistic motion and interaction.
-
+Physical simulations are widely used across scientific and engineering disciplines. In [[concepts/fluid-dynamics|fluid dynamics]], they model everything from aerodynamic [[concepts/flow|flow]] around vehicles to [[concepts/weather-patterns|weather patterns]]. In materials [[concepts/science|science]] and structural engineering, simulations predict mechanical behavior, [[concepts/stress|stress]] [[concepts/distribution|distribution]], and failure modes. Molecular and atomistic simulations study [[concepts/material-properties|material properties]] at smaller [[concepts/musical-scales|scales]]. The technique has also become essential in computer graphics and visual effects, where [[concepts/physics|physics]]-based simulations generate realistic motion and interaction.
 ## Source Notes
 - 2026-04-07: Alibaba Qwen 3.6-Plus: Agentic Coding and Multimodal Reasoning Towards Real-World Agents
 - 2026-04-08: [[lab-notes/2026-04-08-Auto-research-AI-Driven-Algorithmic-Optimization-with-Iterative-Learni|Auto research AI Driven Algorithmic Optimization with Iterative Learni]] · [▶ source](https://www.youtube.com/watch?v=5-ekc3eXNvs)

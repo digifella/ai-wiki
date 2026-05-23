@@ -1,35 +1,34 @@
 ---
 type: concept
 domain: tools-platforms
-group: automation-scheduling-sync
 tags:
   - "speech-recognition"
   - "audio-processing"
   - "ai-nlp"
   - "automation"
+  - "machine-learning"
+  - "transcription"
+  - "voice-interfaces"
+  - "accessibility"
 aliases:
   - "ASR"
   - "speech-to-text"
+  - "voice recognition"
 summary: Automatic Speech Recognition (ASR) is a concept related to speech recognition.
-updated: 2026-05-01
-stub: true
+updated: 2026-05-23
+group: automation-scheduling-sync
 title: Automatic Speech Recognition (ASR)
 ---
 # Automatic Speech Recognition
 
-Automatic Speech Recognition (ASR) is a technology that converts spoken audio into written text. It uses [[concepts/artificial-intelligence-models|machine learning models]] to process acoustic signals and identify phonemes, words, and phrases, enabling computers to understand and transcribe human speech. ASR systems are integral to numerous [[concepts/software|applications]], including voice-controlled [[concepts/voice-assistants|virtual assistants]], transcription services, [[concepts/accessibility|accessibility]] tools, and [[concepts/ai-chatbots|conversational AI]] systems deployed across consumer devices and enterprise platforms.
+[[concepts/real-time-asr|Automatic Speech Recognition]] (ASR) is a technology that converts spoken [[concepts/audio-modality|audio]] into written [[concepts/text|text]]. It uses [[concepts/machine-learning]] [[concepts/models|models]] to process acoustic signals and identify phonemes, words, and phrases, enabling computers to understand and transcribe human speech. ASR systems rely on [[concepts/neural-network]]s trained on large datasets of audio and corresponding transcriptions to recognize patterns in speech across different speakers, accents, languages, and acoustic environments.
 
-## How ASR Works
+## Technical Foundation
 
-ASR systems operate through a multi-stage pipeline. Audio [[concepts/data-preprocessing|preprocessing]] normalizes the input signal and filters background noise to improve clarity. The acoustic model then analyzes the processed audio to identify phonetic units. A [[concepts/statistical-language-modeling|language model]] uses statistical patterns to predict likely word sequences from these phonetic candidates, accounting for context and common word combinations. Finally, decoding algorithms select the most probable transcription by weighing outputs from both models.
+ASR systems typically consist of several processing stages. Acoustic models analyze sound waves and map them to phonetic units, while language models predict the most likely sequence of words given the acoustic input. Modern ASR implementations often use deep [[concepts/learning|learning]] architectures such as Recurrent [[concepts/neural-networks|Neural Networks]] (RNNs), [[concepts/transformers|Transformers]], and end-to-end models that combine acoustic and [[concepts/natural-language-processing-nlp|language processing]] into a single neural network.
 
-## Practical Applications and Limitations
+## Applications
 
-Modern ASR powers voice [[concepts/commands|commands]] in smartphones, real-time meeting transcription, dictation software, and voice-activated smart home devices. Performance varies significantly based on audio quality, accent, speaking rate, and background noise. While state-of-the-art systems achieve high [[concepts/accuracy|accuracy]] in controlled environments, they often struggle with accented speech, technical [[concepts/terminology|terminology]], and noisy settings. Ongoing research focuses on improving robustness across diverse languages, speakers, and acoustic conditions.
+ASR technology powers a wide [[concepts/range|range]] of practical [[concepts/software|applications]], including [[concepts/voice-assistants|Virtual Assistants]], automated transcription services, voice-controlled interfaces, and [[concepts/accessibility|accessibility]] tools. Recent advancements include specialized model families optimizing for enterprise [[concepts/accuracy|accuracy]] and [[concepts/multimodal-capabilities|multimodal capabilities]]:
 
-## Source Notes
-
-- 2026-04-23: Anthropic · [▶ source](https://www.youtube.com/watch?v=aO5k3haUz9Q)
-- 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
-- 2026-04-07: [[lab-notes/2026-04-07-Google-Gemma-4-Open-Weight-Models-Apache-20-and-Enhanced-AI|Google Gemma 4 Open Weight Models Apache 20 and Enhanced AI]] · [▶ source](https://www.youtube.com/watch?v=5aqF1HVpjdc)
-- 2026-04-30: NVIDIA Nemotron 3 · [▶ source](https://www.youtube.com/watch?v=XNaI4Xd4qXc)
+* [[lab-notes/2026-05-08-IBM-Granite-Speech-4.1-ASR-Models-Features-Accuracy-and|IBM Granite Speech 4.1 ASR Models: Features, Accuracy, and Enterprise Applications]]: Part of the [[entities/granite|Granite]] 4.1 series, these open models span language, [[concepts/computer-vision|vision]], speech, and [[concepts/embedding-capabilities|embedding capabilities]], offering enterprise-ready ASR features with emphasis on high accuracy and production versatility.

@@ -1,22 +1,8 @@
 ---
 type: concept
 domain: cosmology-space
-tags:
-  - "Artemis"
-  - "Orion"
-  - "Lunar Flyby"
-  - "NASA"
-  - "Space Exploration"
-  - "earth-moon-footage"
-  - "lunar-flyby"
-  - "artemis-ii"
-  - "orion-spacecraft"
-  - "trans-lunar-injection"
-aliases:
-  - "earth-moon-videos"
-  - "lunar-footage"
-summary: "Earth-moon footage captures visual recordings of Earth and its moon during space missions, including lunar flybys and trans-lunar injection maneuvers as demonstrated in the Artemis II mission."
-updated: 2026-04-14
+summary: Earth-moon footage captures visual recordings of Earth and its moon during space missions, including lunar flybys and trans-lunar injection maneuvers as demonstrated in the Artemis II mission.
+updated: 2026-05-23
 group: cosmology-astronomy-astrophysics
 ---
 ## Earth-moon footage
@@ -35,13 +21,12 @@ Earth-moon footage refers to any visual recordings capturing the dynamic relatio
 ### Related Clips
 
 **Artemis II Just Revealed Much More Than You Think...**
-- **Clip title:** Artemis II Just Revealed Much More Than You Think…
+- **[[concepts/clip-title|Clip title]]:** Artemis II Just Revealed Much More Than You Think…
 - **Author / channel:** [[entities/marcus-house|Marcus House]]
 - **URL:** https://www.youtube.com/watch?v=CrzP6naZGKs
-- **Summary:** The video offers a detailed overview of the Artemis II mission, emphasizing its historical significance. It covers technical achievements such as the trans-lunar injection burn and addresses in-flight challenges faced by the Orion spacecraft.
+- **[[concepts/summary|Summary]]:** The video offers a detailed overview of the Artemis II mission, emphasizing its historical significance. It covers technical achievements such as the trans-lunar injection burn and addresses in-flight challenges faced by the Orion spacecraft.
 
 ### Backlinks
-2026 04 12 Artemis II Human Lunar Flyby Operations [[concepts/orion-systems|Orion Systems]] and In flight Ch
-
+2026 04 12 [[entities/artemis-ii|Artemis II]] Human [[concepts/spaceflight-operations|Lunar Flyby Operations]] [[concepts/orion-systems|Orion Systems]] and In flight Ch
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Artemis-II-Simulated-Mission-Report-Crew-Operations-Orion-Systems-Star|Artemis II Simulated Mission Report Crew Operations Orion Systems Star]] · [▶ source](https://www.youtube.com/watch?v=CrzP6naZGKs)

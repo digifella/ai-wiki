@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: philosophy-religion
-group: philosophy-ethics-logic
 tags:
   - "algorithmic-error"
   - "automated-decision-making"
@@ -13,7 +12,8 @@ aliases:
   - "automated decision making"
   - "algorithmic decision-making"
 summary: This page is a stub regarding the concept of decision making.
-updated: 2026-05-01
+updated: 2026-05-23
+group: philosophy-ethics-logic
 title: decision-making
 ---
 # Decision Making
@@ -22,12 +22,11 @@ Decision making is the cognitive and behavioral process of selecting a course of
 
 ## Philosophical Perspectives
 
-Philosophers have long examined decision making through various frameworks. Rational choice [[concepts/theory|theory]] assumes that individuals make decisions by weighing the expected utility of different options. However, this model has been challenged by behavioral economics and psychology, which demonstrate that human decision making often deviates from purely rational calculations due to heuristics, cognitive biases, and emotional considerations. Questions about free will, determinism, and moral responsibility remain central to philosophical discussions of decision making.
+Philosophers have long examined decision making through various frameworks. Rational choice [[concepts/theory|theory]] assumes that individuals [[entities/make|make]] decisions by weighing the expected utility of different options. However, this model has been challenged by behavioral economics and [[concepts/psychology|psychology]], which demonstrate that human decision making often deviates from purely rational calculations due to heuristics, cognitive [[concepts/biases|biases]], and emotional considerations. Questions about free [[entities/will|will]], determinism, and moral responsibility remain central to philosophical discussions of decision making.
 
 ## Institutional Decision Making
 
-Organizations and governments face distinctive challenges in decision making, particularly when decisions affect large populations. Algorithmic decision making—the use of computational systems to support or automate decisions—has become increasingly prevalent in public administration, lending, employment, and criminal justice. Such systems can introduce new forms of error and bias, raising ethical and legal concerns about [[concepts/accountability|accountability]] and fairness in institutional contexts.
-
+Organizations and governments face distinctive challenges in decision making, particularly when decisions affect large populations. [[concepts/algorithmic-decision-making|Algorithmic decision making]]—the use of computational systems to support or automate decisions—has become increasingly prevalent in public administration, lending, employment, and criminal justice. Such systems can introduce new forms of error and bias, raising ethical and legal concerns about [[concepts/accountability|accountability]] and fairness in institutional contexts.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-333-Collins-Street-Melbourne-Historic-Banking-Chamber-Preservation-and|333 Collins Street Melbourne Historic Banking Chamber Preservation and]] · [▶ source](https://www.youtube.com/watch?v=zEPa_xbeX-c)
 - 2026-04-10: [[lab-notes/2026-04-10-Marc-Benioff-Salesforces-AI-Strategy-Agents-Slack-and-Work|Marc Benioff Salesforces AI Strategy Agents Slack and Work]] · [▶ source](https://www.youtube.com/watch?v=OzUqfN4mcrM)

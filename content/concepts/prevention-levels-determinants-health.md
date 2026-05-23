@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: health-practice-patient-knowledge
 tags:
   - "preventive-care"
   - "determinants-of-health"
@@ -13,7 +12,8 @@ aliases:
   - "Prevention Levels and Determinants of Health"
   - "Prevention and Health Determinants"
 summary: This concept covers prevention levels and the determinants of health.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 title: Prevention Levels & Determinants of Health
 ---
 # Prevention Levels Determinants Health
@@ -22,9 +22,8 @@ title: Prevention Levels & Determinants of Health
 
 ## Determinants of Health
 
-[[concepts/health|Health]] outcomes are shaped by a complex web of factors known as determinants of health. These extend far beyond individual behaviors and medical care to include socioeconomic status, education, employment, housing quality, food security, and access to safe environments. Social determinants—such as discrimination, social support networks, and community [[concepts/cohesion|cohesion]]—significantly influence who becomes ill and who remains healthy. Environmental determinants including air and water quality, climate, and [[concepts/exposure|exposure]] to toxins also play critical roles in population health.
+[[concepts/health|Health]] outcomes are shaped by a complex web of factors known as [[concepts/determinants-of-health|determinants of health]]. These extend far beyond individual behaviors and medical care to include socioeconomic status, education, employment, housing quality, food [[concepts/security|security]], and access to safe environments. Social determinants—such as discrimination, social support networks, and community [[concepts/cohesion|cohesion]]—significantly [[concepts/power|influence]] who becomes ill and who remains healthy. Environmental determinants including air and water quality, climate, and [[concepts/exposure|exposure]] to toxins also play critical roles in population health.
 
-The relationship between [[concepts/levels-of-prevention|prevention levels]] and health determinants is fundamental to modern public health practice. Effective prevention strategies must account for the underlying determinants that create health disparities and increase disease risk in specific populations. Addressing determinants of health through [[concepts/policy-changes|policy changes]], community development, and systemic interventions often has greater impact on population health than clinical interventions alone. Understanding this relationship enables more equitable and effective approaches to disease prevention across different communities and social groups.
-
+The relationship between [[concepts/levels-of-prevention|prevention levels]] and health determinants is fundamental to modern [[concepts/public-health|public health]] practice. Effective prevention strategies must account for the underlying determinants that create health disparities and increase disease risk in specific populations. Addressing determinants of health through [[concepts/policy-changes|policy changes]], community development, and systemic interventions often has greater impact on population health than clinical interventions alone. Understanding this relationship enables more equitable and effective approaches to [[concepts/primary-prevention-interventions-designed-to-prevent-disease-before-it-occurs|disease prevention]] across different communities and social groups.
 ## Source Notes
 - 2026-04-11: [[lab-notes/2026-04-11-Community-Health-Prevention-Levels-Determinants-of-Health|Community Health Prevention Levels Determinants of Health]] · [▶ source](https://www.youtube.com/watch?v=wAYlurDlGAI)

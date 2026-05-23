@@ -1,21 +1,8 @@
 ---
 type: concept
 domain: business-strategy
-tags:
-  - "AI"
-  - "recruitment"
-  - "geopolitics"
-  - "infrastructure"
-  - "ai-talent-acquisition"
-  - "human-capital"
-  - "compute-infrastructure"
-  - "algorithmic-optimization"
-  - "ai-recruitment"
-aliases:
-  - "AI recruitment"
-  - "securing AI talent"
-summary: "The strategic process of identifying and securing human capital specialized in Artificial Intelligence development, influenced by compute infrastructure availability and geopolitics."
-updated: 2026-04-19
+summary: The strategic process of identifying and securing human capital specialized in Artificial Intelligence development, influenced by compute infrastructure availability and geopolitics.
+updated: 2026-05-23
 group: products-operations-business-economics
 ---
 # AI talent acquisition
@@ -29,7 +16,6 @@ The strategic process of identifying and securing human capital specialized in [
     - Discrepancies between Model Performance and [[concepts/leadership|leadership]] expectations [[concepts/motivation|drive]] intensified competition for high-tier [[concepts/ai-research]] engineers capable of overcoming [[concepts/scaling|scaling]] bottlenecks.
 
 [[concepts/date-2026-04-13|2026]] 04 14 [[entities/matthew-berman|Matthew Berman]] 28 June 2025
-
 ## Source Notes
 - 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.
 - 2026-04-11: Five Interview Questions GenAI Can't Answer

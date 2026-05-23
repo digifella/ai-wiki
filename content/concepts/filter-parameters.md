@@ -1,19 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "filter"
-  - "parameters"
-  - "api"
-  - "filter-parameters"
-  - "query-parameters"
-  - "api-filters"
-  - "dynamic-filtering"
-aliases:
-  - "api-filters"
-  - "filter-params"
-summary: "Filter parameters are API parameters passed as query strings or request bodies that enable dynamic filtering of results based on specific criteria."
-updated: 2026-04-15
+summary: Filter parameters are API parameters passed as query strings or request bodies that enable dynamic filtering of results based on specific criteria.
+updated: 2026-05-23
 group: model-efficiency-compression
 ---
 # filter parameters
@@ -29,4 +18,4 @@ group: model-efficiency-compression
 - 3 new [[concepts/api-actions|API actions]]:
   - `queue_graph_view`: validates `view_mode` (6 values), `focus` params for `ego`/`org_focus`, builds payload with all filter parameters
 
-2026 04 14 [[concepts/claude-ai|Claude]] and Codex 17 March 2026
+2026 04 14 [[concepts/claude-ai|Claude]] and [[concepts/codex|Codex]] 17 March 2026

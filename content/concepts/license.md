@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "apache-2.0"
   - "software-licensing"
@@ -12,7 +11,8 @@ aliases:
   - "Apache License 2.0"
   - "Apache License"
 summary: This page is a stub regarding the Apache 2.0 license.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 title: Apache 2.0 license
 ---
 # License
@@ -21,12 +21,11 @@ The [[concepts/apache-2-0|Apache 2.0 license]] is a permissive [[concepts/open-s
 
 ## Key Characteristics
 
-The Apache 2.0 license requires that modified versions of the software include clear notices of changes made, and that a copy of the license be distributed with the software. It provides an express grant of patent rights from contributors, protecting users from patent claims related to the licensed code. The license is non-viral, meaning software that incorporates [[concepts/apache-2.0|Apache 2.0]]-licensed code is not required to adopt the same license.
+The [[concepts/apache-2.0-license|Apache 2.0 license]] requires that modified versions of the software include clear notices of changes made, and that a copy of the license be distributed with the software. It provides an express grant of patent rights from contributors, protecting users from patent claims related to the licensed [[concepts/code|code]]. The license is non-viral, meaning software that incorporates [[concepts/apache-2.0|Apache 2.0]]-licensed code is not required to adopt the same license.
 
 ## Common Usage
 
 The Apache 2.0 license has been adopted by numerous open-source projects, including machine [[concepts/learning|learning]] frameworks and AI [[concepts/model-releases|model releases]]. Projects released under this license emphasize [[concepts/accessibility|accessibility]] and broad [[concepts/adoption|adoption]] while maintaining contributor protections and clear attribution requirements.
-
 ## Source Notes
 - 2026-04-08: [[lab-notes/2026-04-08-Agentic-Visual-Reasoning-Enhancing-VLMs-for-Precise-Object-Counting-an|Agentic Visual Reasoning Enhancing VLMs for Precise Object Counting an]] · [▶ source](https://www.youtube.com/watch?v=VFYnD1WREdU)
 - 2026-04-12: [[lab-notes/2026-04-12-MiniMax-M27-Open-Source-LLM-Technical-Overview-and-Deployment-Summary|MiniMax M27 Open Source LLM Technical Overview and Deployment Summary]] · [▶ source](https://www.youtube.com/watch?v=CUvb-i5niKA)

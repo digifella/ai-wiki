@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "autonomous-driving"
   - "safety-standards"
@@ -13,11 +12,12 @@ aliases:
   - "Self-Driving Car Safety"
   - "Autonomous Vehicle Safety"
 summary: Standards and requirements for ensuring the safety of autonomous vehicle systems and operations.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # Autonomous Driving Safety Standards
 
-Autonomous Driving Safety Standards establish technical and operational requirements for the safe [[concepts/deployment|deployment]] and operation of self-driving vehicle systems. These [[concepts/open-standards|standards]] address the design, [[concepts/testing|testing]], validation, and real-world performance of autonomous vehicles across different levels of [[concepts/automation|automation]], from driver-assistance features to fully autonomous operation. They serve as a critical framework that aligns regulatory agencies, manufacturers, and safety organizations around common safety objectives, enabling vehicles to operate reliably in complex driving environments while managing risks to occupants and the public.
+Autonomous Driving Safety Standards establish technical and operational requirements for the safe [[concepts/deployment|deployment]] and operation of self-driving vehicle systems. These [[concepts/open-standards|standards]] address the [[concepts/design|design]], [[concepts/testing|testing]], validation, and real-world performance of autonomous vehicles across different levels of [[concepts/automation|automation]], from driver-assistance features to fully autonomous operation. They serve as a critical framework that aligns regulatory agencies, manufacturers, and safety organizations around common safety objectives, enabling vehicles to operate reliably in complex driving environments while managing risks to occupants and the public.
 
 ## Key Standardization Frameworks
 
@@ -25,8 +25,8 @@ Several international and national bodies have developed or are developing auton
 
 ## Testing and Validation Requirements
 
-[[concepts/product-safety|Safety standards]] typically mandate rigorous testing protocols covering both [[concepts/simulation|simulation]] and real-world conditions. These include validation of sensor systems, decision-making algorithms, and fail-safe mechanisms under normal and edge-case [[concepts/scenarios|scenarios]]. Standards address aspects such as [[concepts/object-detection|object detection]] [[concepts/software-reliability|reliability]], decision latency, communication system robustness, and performance in adverse weather and lighting conditions. Many frameworks require ongoing monitoring and documentation of autonomous vehicle performance during deployment to identify and mitigate emerging risks.
+[[concepts/product-safety|Safety standards]] typically mandate rigorous testing protocols covering both [[concepts/simulation|simulation]] and real-world conditions. These include validation of sensor systems, [[concepts/decision-making|decision-making]] algorithms, and fail-safe mechanisms under normal and edge-case [[concepts/scenarios|scenarios]]. Standards address aspects such as [[concepts/object-detection|object detection]] [[concepts/software-reliability|reliability]], decision latency, communication system [[concepts/robustness|robustness]], and performance in adverse weather and lighting conditions. Many frameworks require ongoing monitoring and documentation of autonomous vehicle performance during deployment to identify and mitigate emerging risks.
 
 ## Evolving Challenges
 
-As autonomous vehicle technology develops, safety standards face challenges in keeping pace with rapid [[concepts/innovation|innovation]] while remaining technically feasible. Determining appropriate safety thresholds—establishing how safe autonomous vehicles must be relative to human drivers—remains subject to debate among regulators, manufacturers, and safety advocates. Standards continue to evolve to address cybersecurity threats, edge cases in complex urban environments, and the integration of autonomous vehicles with existing infrastructure and human-operated vehicles.
+As autonomous vehicle technology develops, safety standards face challenges in keeping pace with rapid [[concepts/innovation|innovation]] while remaining technically feasible. Determining appropriate safety thresholds—establishing how safe autonomous vehicles must be relative to human drivers—remains subject to debate among regulators, manufacturers, and safety advocates. Standards continue to evolve to address [[concepts/cybersecurity-threats|cybersecurity threats]], edge cases in complex urban environments, and the [[concepts/integration|integration]] of autonomous vehicles with existing infrastructure and human-operated vehicles.

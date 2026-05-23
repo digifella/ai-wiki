@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: travels-journeys
-group: places-regions-destinations
 tags:
   - "visa-processing"
   - "turkey"
@@ -11,7 +10,8 @@ aliases:
   - "E Visa"
   - "Turkey E Visa"
 summary: The Electronic Visa System (E Visa) is a digital visa processing system associated with Turkey.
-updated: 2026-05-01
+updated: 2026-05-23
+group: places-regions-destinations
 ---
 # Electronic Visa System E Visa
 
@@ -19,7 +19,7 @@ The Electronic Visa System (E Visa) is [[entities/republic-of-turkey|Turkey]]'s 
 
 ## Application Process
 
-Applicants access the E Visa system through Turkey's official online portal, where they provide personal information, travel details, and supporting documents. The system generates a digital visa upon approval, which applicants can either print or display on mobile devices at border control. Processing times are typically shorter than traditional visa applications, and applicants receive status updates via email throughout the review period.
+Applicants access the E Visa system through Turkey's official online portal, where they provide personal information, travel details, and supporting documents. The system generates a digital visa upon approval, which applicants can either print or display on mobile devices [[concepts/assistive-technology|at]] border [[concepts/power|control]]. Processing times are typically shorter than traditional visa applications, and applicants receive status updates via [[entities/email|email]] throughout the review period.
 
 ## Eligibility and Coverage
 

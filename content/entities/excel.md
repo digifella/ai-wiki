@@ -1,22 +1,23 @@
 ---
 type: entity
 tags:
-  - "spreadsheet"
-  - "data-analysis"
-  - "automation"
-  - "data-cleaning"
+  - "spreadsheet-software"
+  - "data-management"
+  - "trim-references"
+  - "cell-referencing"
   - "dynamic-ranges"
 aliases:
   - "Microsoft Excel"
-summary: "Excel includes a Trim References feature to manage dynamic data ranges by removing empty cells."
-updated: 2026-04-26
+summary: Excel includes a Trim References feature to manage dynamic data ranges by removing empty cells.
+updated: 2026-05-23
 ---
 # Excel
 
-## Key Features
-- **[[concepts/trim-references]] (Trim Refs)**: A feature that simplifies handling [[concepts/dynamic-data-ranges]] by dynamically [[concepts/blank-cell-removal|removing empty cells]] or blanks from the edges of a [[concepts/range|range]] to create cleaner Data Analysis reports.
-  - Source: [[concepts/date-2026-04-13|2026]] 04 22 Excels Trim References Dynamically [[concepts/excel-cell-referencing|Removing Blanks from Data Ranges]]
+Excel is a spreadsheet application that includes the [[concepts/trim-references|Trim References]] feature for managing [[concepts/dynamic-data-ranges|dynamic data ranges]]. This feature simplifies data analysis workflows by automatically removing empty cells from the edges of a specified [[concepts/range|range]], creating cleaner datasets for reporting and analysis.
 
+## Trim References Feature
+
+The Trim References functionality addresses a common challenge in spreadsheet work: handling ranges that contain blank cells or irregular data boundaries. By dynamically removing empty cells, the feature helps users maintain accurate data references without manual cleanup, making it particularly useful when working with datasets that change size or composition over time.
 ## Source Notes
 - 2026-04-26: Excel · [▶ source](https://www.youtube.com/watch?v=3mkfF1pNw0U)
 - 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)

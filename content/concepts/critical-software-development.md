@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: tools-platforms
-group: developer-tooling-clis
 tags:
   - "concept"
   - "ai-security"
@@ -13,20 +12,20 @@ aliases:
   - "critical-software"
   - "secure-software-development"
 summary: The concept examines the relationship between AI security, performance breakthroughs, and critical software development.
-updated: 2026-05-01
+updated: 2026-05-23
+group: developer-tooling-clis
 ---
 # Critical Software Development
 
-Critical software development refers to the creation and maintenance of [[concepts/software|software]] systems where failures carry significant consequences for security, safety, or operational [[concepts/continuity|continuity]]. This domain has increasingly intersected with [[concepts/ai-technologies|artificial intelligence]] capabilities, particularly as AI systems become more capable of assisting in or automating aspects of the development process. The relationship between AI performance improvements and critical software development raises important questions about how to [[concepts/leverage-ai|leverage AI]]'s capabilities while maintaining the rigorous [[concepts/open-standards|standards]] these systems demand.
+Critical [[concepts/coding|software development]] refers to the creation and maintenance of [[concepts/software|software]] systems where failures carry significant consequences for [[concepts/security|security]], safety, or operational [[concepts/continuity|continuity]]. This domain has increasingly intersected with [[concepts/ai-technologies|artificial intelligence]] [[concepts/capabilities|capabilities]], particularly as AI systems become more capable of assisting in or automating aspects of the development process. The relationship between AI performance improvements and critical software development raises important questions about how to [[concepts/leverage-ai|leverage AI]]'s capabilities while maintaining the rigorous [[concepts/open-standards|standards]] these systems demand.
 
 ## AI Security and Deployment Considerations
 
-The use of AI in critical software development contexts introduces security and [[concepts/software-reliability|reliability]] considerations that differ from standard development practices. Organizations must balance the potential productivity gains from [[concepts/development-speed|AI-assisted development]] against the need for thorough validation, [[concepts/testing|testing]], and verification. This is particularly acute when AI systems themselves demonstrate advanced capabilities but whose behavior or outputs may not be fully transparent or predictable in all edge cases.
+The use of AI in critical software development contexts introduces security and [[concepts/software-reliability|reliability]] considerations that differ from standard development practices. Organizations must balance the potential productivity gains from [[concepts/development-speed|AI-assisted development]] against the need for thorough validation, [[concepts/testing|testing]], and [[concepts/verification|verification]]. This is particularly acute when AI systems themselves demonstrate advanced capabilities but whose behavior or outputs may not be fully transparent or predictable in all edge cases.
 
 ## Performance and Capability Trade-offs
 
-As AI systems achieve performance breakthroughs in code generation, analysis, and [[concepts/problem-solving|problem-solving]], critical software development teams face decisions about integration and trust levels. The tension between deploying more capable [[entities/ai-tools|AI tools]] and maintaining confidence in software correctness reflects a broader challenge: determining which development stages and tasks can safely incorporate AI assistance, and which require human expertise or traditional verification methods.
-
+As AI systems achieve performance breakthroughs in [[concepts/code-generation|code generation]], analysis, and [[concepts/problem-solving|problem-solving]], critical software development teams face decisions about [[concepts/integration|integration]] and trust levels. The tension between deploying more capable [[entities/ai-tools|AI tools]] and maintaining confidence in software correctness reflects a broader challenge: determining which development stages and tasks can safely incorporate AI assistance, and which require human expertise or traditional verification methods.
 ## Source Notes
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Guided-Software-Development-Leveraging-Claude-Code-Agent-Skills-for|AI Guided Software Development Leveraging Claude Code Agent Skills for]] · [▶ source](https://www.youtube.com/watch?v=EJyuu6zlQCg)
 - 2026-04-09: [[lab-notes/2026-04-09-Anthropic-Claude-Mythos-AI-Security-and-Performance-Breakthroughs-for|Anthropic Claude Mythos AI Security and Performance Breakthroughs for]] · [▶ source](https://www.youtube.com/watch?v=NOR4NHL-SiI)

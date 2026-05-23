@@ -1,19 +1,10 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "excel"
-  - "data-cleaning"
-  - "productivity"
-  - "data-integrity"
-  - "data-management"
-  - "etl-processes"
-aliases:
-  - "removing empty rows"
-  - "blank row removal"
-summary: "Techniques for removing empty rows from Excel datasets using Go To Special, Filter, or Power Query to maintain data integrity and computational efficiency."
-updated: 2026-04-26
+summary: Techniques for removing empty rows from Excel datasets using Go To Special, Filter, or Power Query to maintain data integrity and computational efficiency.
+updated: 2026-05-23
 group: developer-tooling-clis
+stub: true
 ---
 # Blank row deletion
 
@@ -28,7 +19,6 @@ Techniques for removing empty rows from [[concepts/training-data|datasets]] to m
 - Manual deletion is inefficient and impractical for large datasets.
 
 ### References
-- [[concepts/date-2026-04-13|2026]] 04 26 [[entities/microsoft-excel|Excel]] Blank Row Deletion [[concepts/go-to-special|Go To Special]] Filter Power Quer (Source: [[entities/leila-gharani|Leila Gharani]])
-
+- [[concepts/date-2026-04-13|2026]] 04 26 [[entities/microsoft-excel|Excel]] Blank Row Deletion [[concepts/go-to-special|Go To Special]] Filter [[concepts/power|Power]] Quer (Source: [[entities/leila-gharani|Leila Gharani]])
 ## Source Notes
 - 2026-04-26: Excel · [▶ source](https://www.youtube.com/watch?v=3mkfF1pNw0U)

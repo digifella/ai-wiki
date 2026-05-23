@@ -13,8 +13,8 @@ tags:
   - "interface-design"
 aliases:
   - "dynamic folder reorganization"
-summary: "Folder Shifting refers to the dynamic reorganization of folders and their contents within an operating system or application interface."
-updated: 2026-04-28
+summary: Folder Shifting refers to the dynamic reorganization of folders and their contents within an operating system or application interface.
+updated: 2026-05-23
 group: developer-tooling-clis
 ---
 # Folder Shifting
@@ -29,11 +29,11 @@ Folder Shifting refers to the dynamic reorganization of folders and their conten
 
 ## Related Concepts
 - [[concepts/design]]
-- user experience
+- [[concepts/user-experience-design|user experience]]
 
 ## Examples
 - **[[entities/android-16|Android 16]]:** Introduces dynamic folder shifting based on usage analytics.
-- **macOS:** Uses folder shifting to prioritize frequently accessed items.
+- **[[entities/macos|macOS]]:** Uses folder shifting to prioritize frequently accessed items.
 
 ## Integration with Android 16
 - **Lock Screen & [[concepts/always-on-display|Always-On Display]] (AOD):** The AOD clock now dynamically matches the wallpaper's color palette.

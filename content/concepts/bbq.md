@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: food-nutrition
-group: cooking-recipes-culinary-practice
 tags:
   - "cooking-method"
   - "grilling"
@@ -13,7 +12,8 @@ aliases:
   - "grilling"
   - "BBQ cooking"
 summary: A cooking method using heat and smoke to prepare meat and other foods, often associated with outdoor social gatherings.
-updated: 2026-05-01
+updated: 2026-05-23
+group: cooking-recipes-culinary-practice
 ---
 # BBQ
 
@@ -25,7 +25,7 @@ BBQ varies significantly by geography. In the [[entities/united-states|United St
 
 ## Cooking Method
 
-Traditional BBQ involves slow-cooking meat in a smoker or over indirect heat, often for hours. The low-and-slow approach allows connective tissues to break down, resulting in tender meat. Different woods—such as hickory, oak, or mesquite—produce different smoke flavors. Temperature control and smoke management are key to successful BBQ [[concepts/preparation|preparation]].
+Traditional BBQ involves slow-cooking meat in a smoker or over indirect heat, often for hours. The low-and-slow approach allows connective tissues to break down, resulting in tender meat. Different woods—such as hickory, oak, or mesquite—produce different smoke flavors. Temperature [[concepts/power|control]] and smoke management are key to successful BBQ [[concepts/preparation|preparation]].
 
 ## Social Context
 

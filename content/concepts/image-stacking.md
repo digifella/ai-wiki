@@ -1,12 +1,7 @@
 ---
 type: concept
 domain: creative-pursuits
-tags:
-  - "photography"
-  - "image-editing"
-  - "photoshop"
-  - "image-stacking"
-updated: 2026-04-14
+updated: 2026-05-23
 group: lightroom-color-workflows
 ---
 # Image stacking
@@ -21,6 +16,5 @@ Combining multiple similar photos to select optimal elements (e.g., fixing close
   - [[concepts/tutorial|Tutorial]] by [[entities/colin-smith|Colin Smith]] ([[entities/photoshopcafe|PhotoshopCAFE]]): [Combining photos in Photoshop](https://www.youtube.com/watch?v=_x4ywYieB8c)
 
 2026 04 14 [[concepts/combining-photos|Combining photos]] in [[concepts/photoshop|Photoshop]]
-
 ## Source Notes
 - 2026-04-13: [[lab-notes/2026-04-13-Lightroom-Classic-Early-Access-AI-Powered-Assisted-Culling-and-Auto-St|Lightroom Classic Early Access AI Powered Assisted Culling and Auto St]] · [▶ source](https://www.youtube.com/watch?v=F5yy-XpLXOs)

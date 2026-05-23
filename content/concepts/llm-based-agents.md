@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: agent-systems-skills
 tags:
   - "concept"
   - "llm-agents"
@@ -14,20 +13,20 @@ aliases:
   - "LLM Agents"
   - "Large Language Model Agents"
 summary: Agents built on large language models, exemplified by a Gemini 2.5 multi-modal researcher tool constructed with LangGraph.
-updated: 2026-05-01
+updated: 2026-05-23
+group: agent-systems-skills
 ---
 # LLM Based Agents
 
-LLM-based [[concepts/agents|agents]] are autonomous systems that leverage [[concepts/large-language-model-llm|large language models]] as their [[concepts/reasoning|reasoning]] and decision-making core. These agents combine the natural language understanding and generation capabilities of LLMs with [[concepts/external-tools|external tools]], APIs, and planning mechanisms to accomplish [[concepts/complex-tasks|complex tasks]]. Unlike static language models, agents can perceive their environment, formulate plans, take actions, and evaluate results in iterative loops.
+LLM-based [[concepts/agents|agents]] are autonomous systems that leverage [[concepts/large-language-model-llm|large language models]] as their [[concepts/reasoning|reasoning]] and [[concepts/decision-making|decision-making]] core. These agents combine the natural language understanding and generation [[concepts/capabilities|capabilities]] of LLMs with [[concepts/external-tools|external tools]], APIs, and planning mechanisms to accomplish [[concepts/complex-tasks|complex tasks]]. Unlike static language [[concepts/models|models]], agents can perceive their environment, formulate plans, take actions, and evaluate results in iterative [[concepts/loops|loops]].
 
 ## Architecture and Implementation
 
-LLM-based agents are typically constructed using [[concepts/agentic-frameworks|agentic frameworks]] that manage the interaction between the model and its tools. [[concepts/langgraph-framework|LangGraph]] is a common framework for building such agents, enabling developers to define [[concepts/multi-agent-workflows|agent workflows]] as graphs where nodes represent decision points or actions and edges represent transitions. These agents often operate in multi-turn conversations where each interaction allows the model to refine its understanding and approach.
+LLM-based agents are typically constructed using [[concepts/agentic-frameworks|agentic frameworks]] that manage the interaction between the model and its tools. [[concepts/langgraph-framework|LangGraph]] is a common framework for building such agents, enabling developers to define [[concepts/multi-agent-workflows|agent workflows]] as graphs where [[concepts/nodes|nodes]] represent decision points or actions and edges represent transitions. These agents often operate in multi-turn conversations where each interaction allows the model to refine its understanding and approach.
 
 ## Capabilities and Applications
 
-Modern LLM agents demonstrate capabilities spanning research, code generation, marketing [[concepts/automation|automation]], and [[concepts/content-creation|content creation]]. Multi-modal variants, such as those built on [[concepts/gemini-25-models|Gemini 2.5]], can process and synthesize information across text, [[concepts/images|images]], and other media formats. Agents can be configured with specialized [[concepts/skills|skills]] or access to specific tools, allowing organizations to create teams of [[concepts/specialized-sub-agents|specialized agents]] working toward coordinated goals, though considerations around cost efficiency remain relevant in production deployments.
-
+Modern LLM agents demonstrate capabilities spanning research, [[concepts/code-generation|code generation]], marketing [[concepts/automation|automation]], and [[concepts/content-creation|content creation]]. Multi-modal variants, such as those built on [[concepts/gemini-25-models|Gemini 2.5]], can process and synthesize information across [[concepts/text|text]], [[concepts/images|images]], and other media formats. Agents can be configured with specialized [[concepts/skills|skills]] or access to specific tools, allowing organizations to create teams of [[concepts/specialized-sub-agents|specialized agents]] working toward coordinated goals, though considerations around [[concepts/cost|cost]] efficiency remain relevant in production deployments.
 ## Source Notes
 - 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
 - 2026-04-07: [[lab-notes/2026-04-07-AI-Recursive-Self-Improvement-The-Dawn-of-Intelligence-Explosion|AI Recursive Self Improvement The Dawn of Intelligence Explosion]] · [▶ source](https://www.youtube.com/watch?v=mhoFqhLXc3g)

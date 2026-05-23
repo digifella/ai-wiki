@@ -1,26 +1,13 @@
 ---
 type: concept
 domain: tools-platforms
-tags:
-  - "analytics"
-  - "ai"
-  - "real-time"
-  - "social-media"
-  - "automation"
-  - "data-streams"
-  - "low-latency"
-  - "continuous-feedback"
-  - "stream-processing"
-  - "actionable-outputs"
-aliases:
-  - "stream analytics"
-summary: "Real-time analytics analyzes data streams as they are generated, enabling immediate insights and automated decision-making."
-updated: 2026-04-15
+summary: Real-time analytics analyzes data streams as they are generated, enabling immediate insights and automated decision-making.
+updated: 2026-05-23
 group: automation-scheduling-sync
 ---
 # Real-time analytics
 
-Analysis of data streams as they are generated, enabling immediate insights and automated decision-making. Key characteristics include:
+Analysis of data streams as they are generated, enabling immediate insights and [[concepts/decision-making|automated decision-making]]. Key characteristics include:
 - **Low latency processing**: Data analyzed within seconds of ingestion
 - **Continuous [[concepts/feedback|feedback]] [[concepts/loops|loops]]**: Systems adapt dynamically to new inputs
 - **Actionable outputs**: Direct triggers for optimization or intervention
@@ -31,7 +18,7 @@ Analysis of data streams as they are generated, enabling immediate insights and 
 - **[[concepts/personalization|Personalization]]**: Adjusting recommendations based on immediate user behavior
 
 ## Technical foundations
-- [[entities/autoresearch]] frameworks (e.g., Karpathy's approach) enable autonomous experiment [[concepts/iteration|iteration]]
+- [[entities/autoresearch]] frameworks (e.g., [[entities/andre-karpathy|Karpathy]]'s approach) enable autonomous experiment [[concepts/iteration|iteration]]
 - Stream processing engines (e.g., Apache Flink, Kafka Streams)
 - Real-time feature stores for consistent model inputs
 

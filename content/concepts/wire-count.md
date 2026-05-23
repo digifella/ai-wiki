@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: history-anthropology
-group: everyday-objects-material-culture
 tags:
   - "usb-c"
   - "cables"
@@ -13,15 +12,16 @@ aliases:
   - "USB-C Wire Configuration"
   - "Cable Internal Structure"
 summary: An exploration of the internal wire configurations and complexity found in various USB-C cables.
-updated: 2026-05-01
+updated: 2026-05-23
+group: everyday-objects-material-culture
 ---
 # Wire Count
 
-Wire count refers to the number of individual wires and conductors present within a [[concepts/usb-c-connector|USB-C cable]], which directly determines the cable's capabilities and [[concepts/software-reliability|reliability]]. A USB-C connector has 24 pins, but not all cables implement full connectivity across all pins. The actual internal wiring configuration varies considerably between manufacturers, affecting whether a cable can safely deliver power, transmit data, or both simultaneously at rated speeds.
+Wire count refers to the number of individual wires and conductors present within a [[concepts/usb-c-connector|USB-C cable]], which directly determines the cable's [[concepts/capabilities|capabilities]] and [[concepts/software-reliability|reliability]]. A [[concepts/usb-30|USB-C]] connector has 24 pins, but not all cables implement full connectivity across all pins. The actual internal wiring configuration varies considerably between manufacturers, affecting whether a cable can safely deliver [[concepts/power|power]], transmit data, or both simultaneously [[concepts/assistive-technology|at]] rated speeds.
 
 ## Common Configurations
 
-Standard [[concepts/usb-20|USB-C cables]] typically contain between 28 and 60 individual wires, depending on shielding, redundancy, and the specific protocol support built into the design. Budget cables may use minimal wiring that only meets basic requirements, while premium cables designed for high-power delivery or maximum data throughput include additional wires for redundancy and noise reduction. This variation is rarely visible from external inspection, making wire count an important but often invisible specification.
+Standard [[concepts/usb-20|USB-C cables]] typically contain between 28 and 60 individual wires, depending on shielding, redundancy, and the specific protocol support built into the [[concepts/design|design]]. Budget cables may use minimal wiring that only meets basic requirements, while premium cables designed for high-power delivery or maximum data throughput include additional wires for redundancy and noise reduction. This variation is rarely visible from external inspection, making wire count an important but often invisible specification.
 
 ## Practical Implications
 

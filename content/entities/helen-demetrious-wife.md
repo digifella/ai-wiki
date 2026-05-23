@@ -9,11 +9,11 @@ aliases:
   - "Helen Demetriou"
   - "Mrs. Demetriou"
 summary: Helen is a pharmacist and cocktail mixer based in Heraklion.
-updated: 2026-05-01
+updated: 2026-05-23
 ---
 # Helen Demetrious Wife
 
-Helen is a pharmacist and cocktail mixer based in Heraklion, Crete. She transitioned from her primary career in pharmacy to develop expertise in cocktail mixing, combining both professional interests.
+[[concepts/trianna|Helen]] is a pharmacist and cocktail mixer based in Heraklion, Crete. She transitioned from her primary career in pharmacy to develop expertise in cocktail mixing, combining both professional interests.
 
 ## Professional Background
 

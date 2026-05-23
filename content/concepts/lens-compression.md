@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: ai-agents
-group: model-efficiency-compression
 tags:
   - "photography"
   - "panorama-stitching"
@@ -12,7 +11,8 @@ aliases:
   - "panorama compression"
   - "pano stitching"
 summary: The video explains how shooting and stitching panoramas can create wide-angle compositions using long lens compression.
-updated: 2026-05-01
+updated: 2026-05-23
+group: model-efficiency-compression
 ---
 # Lens Compression
 
@@ -24,8 +24,7 @@ Shooting and stitching multiple [[concepts/images|images]] taken with longer len
 
 ## Practical Applications
 
-This approach offers photographers an alternative method for composing wide vistas without relying on smartphone panorama applications or ultrawide lenses. By capturing multiple overlapping frames with a telephoto lens and stitching them together, photographers gain greater control over both the final composition and the visual characteristics of their images, achieving a unique aesthetic that combines compression with breadth.
-
+This approach offers photographers an alternative method for composing wide vistas without relying on smartphone panorama [[concepts/software|applications]] or ultrawide lenses. By capturing multiple overlapping frames with a telephoto lens and stitching them together, photographers gain greater [[concepts/power|control]] over both the final composition and the visual characteristics of their images, achieving a unique aesthetic that combines compression with breadth.
 ## Source Notes
 
 - 2026-04-14: How to get TACK SHARP photos with any camera!

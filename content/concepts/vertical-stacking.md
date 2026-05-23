@@ -1,31 +1,16 @@
 ---
 type: concept
-domain: science-physics
-tags:
-  - "physics"
-  - "granular-materials"
-  - "angle-of-repose"
-  - "vertical-stacking"
-  - "granular-materials-stacking"
-  - "angle-repose-physics"
-  - "self-sorting-granules"
-  - "earth-systems-geology"
-  - "vertical-storage"
-aliases:
-  - "Vertical Stacking Phenomenon"
-  - "Granular Material Arrangement"
-  - "Angle of Repose Challenge"
-  - "Stacking Granules Vertically"
-summary: "Vertical stacking is the process where granular materials naturally or through manipulation form vertical layers, challenging conventional understanding by allowing smaller particles to stack above larger ones."
-updated: 2026-04-12
-group: physics-fundamental-theory
+domain: earth-systems-geology-climate
+summary: Vertical stacking is the process where granular materials naturally or through manipulation form vertical layers, challenging conventional understanding by allowing smaller particles to stack above larger ones.
+updated: 2026-05-23
+group: geology-rocks-minerals
 ---
 # Vertical Stacking
 
 Vertical stacking refers to the process of arranging or storing items in a column with each item placed directly above the other. In the context of [[concepts/granular-materials|granular materials]] like sand, grains naturally settle into layers based on particle size and shape, often following the [[concepts/angle-of-repose|angle of repose]].
 
 ## Key Concepts
-- **Angle of Repose:** The maximum slope at which a pile of material remains stable without slumping or collapsing.
+- **[[concepts/granular-dynamics|Angle of Repose]]:** The maximum slope [[concepts/assistive-technology|at]] which a pile of material remains stable without slumping or collapsing.
 - **[[concepts/self-sorting|Self-Sorting]]:** The natural tendency of mixed [[concepts/granular-materials|granular materials]] to separate by particle size when poured into a pile.
 - **Vertical Stacking:** A phenomenon observed in granular materials where smaller particles can be forced to stack vertically above larger ones, defying the conventional angle of repose.
 
@@ -38,10 +23,9 @@ Vertical stacking refers to the process of arranging or storing items in a colum
 - Challenges traditional understanding by showing that under certain conditions, smaller grains can be made to stack vertically above larger ones.
 
 ## References
-- [[entities/the-action-lab|The Action Lab]]: I Broke The Angle of Repose
+- [[entities/the-action-lab|The Action Lab]]: I Broke The [[concepts/granular-dynamics|Angle of Repose]]
 
 Backlinks:
 2026 04 12 Breaking the Angle of Repose Self Sorting and Stacking of Granular Mat
-
 ## Source Notes
 - 2026-04-12: I Broke The Angle of Repose

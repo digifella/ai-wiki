@@ -1,22 +1,9 @@
 ---
 type: concept
-domain: business-strategy
-tags:
-  - "history mathematics ancient india buddhism trade culture science"
-  - "social-welfare"
-  - "ancient-india"
-  - "emperor-ashoka"
-  - "buddhism"
-  - "public-health"
-  - "compassion"
-  - "ethics"
-aliases:
-  - "Ashokan welfare initiatives"
-  - "Buddhist social programs"
-  - "Mauryan era welfare"
-summary: "Social welfare initiatives are policies or programs aimed at enhancing the well-being of individuals and communities, with examples from Emperor Ashoka's Mauryan Empire in ancient India."
-updated: 2026-04-12
-group: market-intelligence-geo-seo
+domain: health-wellbeing
+summary: Social welfare initiatives are policies or programs aimed at enhancing the well-being of individuals and communities, with examples from Emperor Ashoka's Mauryan Empire in ancient India.
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 ## Social Welfare Initiatives
 Social welfare initiatives are [[concepts/policies|policies]] or [[concepts/software|programs]] established by governments or non-governmental organizations to enhance the social [[concepts/wellbeing|well-being]] of individuals and communities. These can include education, [[concepts/health|healthcare]], housing assistance, food [[concepts/security|security measures]], poverty alleviation efforts, and support for marginalized groups.
@@ -37,4 +24,4 @@ Social welfare initiatives are [[concepts/policies|policies]] or [[concepts/soft
 - [[philosophy/buddhism]]
 - [[economy/global-trade]]
 
-2026 04 11 The Bloody Origins of Number Zero in Ancient India
+2026 04 11 The Bloody Origins of Number [[concepts/concept-of-nothingness|Zero]] in [[concepts/ancient-india|Ancient India]]

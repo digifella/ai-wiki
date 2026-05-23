@@ -18,6 +18,7 @@ aliases:
 summary: "The integration of Artificial Intelligence into robotic systems to enable autonomous decision-making, perception, and complex motor control."
 updated: 2026-04-26
 group: applied-ai-workflows
+stub: true
 ---
 # AI-driven robotics
 

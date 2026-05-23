@@ -1,18 +1,8 @@
 ---
 type: concept
 domain: ai-agents
-tags:
-  - "ai"
-  - "research-methodology"
-  - "knowledge-curation"
-  - "agents"
-  - "agentic-ai"
-  - "information-retrieval"
-  - "topic-synthesis"
-aliases:
-  - "multi-perspective inquiry"
-summary: "A research technique that uses agentic AI to generate diverse inquiry angles from various viewpoints to ensure comprehensive topic coverage and minimize bias."
-updated: 2026-04-26
+summary: A research technique that uses agentic AI to generate diverse inquiry angles from various viewpoints to ensure comprehensive topic coverage and minimize bias.
+updated: 2026-05-23
 group: reasoning-context-prompting
 ---
 # Multi-perspective question asking
@@ -26,8 +16,7 @@ A research technique used to ensure comprehensive topic coverage by generating d
 	- **Core Framework**: Leverages [[concepts/agentic-ai]] to simulate different perspectives for deep, structured [[concepts/knowledge-bases|information retrieval]].
 
 ## Related Links
-- 2026 04 22 Stanfords [[concepts/agent-based-knowledge-curation|STORM AI]] Verifiable Agent Based Research and Knowledge Curation
-
+- 2026 04 22 Stanfords [[concepts/agent-based-knowledge-curation|STORM AI]] Verifiable [[entities/agent|Agent]] Based Research and Knowledge Curation
 ## Source Notes
 
 - 2026-04-22: Stanford · [▶ source](https://www.youtube.com/watch?v=GtGW9pExqV0)

@@ -1,7 +1,6 @@
 ---
 type: concept
-domain: philosophy-religion
-group: meaning-consciousness-worldviews
+domain: health-wellbeing
 tags:
   - "concept"
   - "emotion"
@@ -13,7 +12,8 @@ aliases:
   - "compassion"
   - "romantic-love"
 summary: A fundamental human emotion explored through ancient Greek mythology and its contemporary relevance.
-updated: 2026-05-01
+updated: 2026-05-23
+group: health-practice-patient-knowledge
 ---
 # Love
 
@@ -25,7 +25,6 @@ Ancient Greek philosophers and mythologists identified several distinct types of
 
 ## Contemporary Relevance
 
-Modern research in psychology, [[concepts/neuroscience|neuroscience]], and medicine continues to examine love as both an emotional experience and a biological phenomenon. Understanding love's various forms remains relevant to personal [[concepts/relationships|relationships]], mental health treatment, and social wellbeing. The ancient Greek conceptualizations of love still inform contemporary discussions about different types of [[concepts/human-connection|human connection]] and their distinct impacts on individual and collective health.
-
+Modern research in [[concepts/psychology|psychology]], [[concepts/neuroscience|neuroscience]], and medicine continues to examine love as both an emotional experience and a biological phenomenon. Understanding love's various forms remains relevant to personal [[concepts/relationships|relationships]], mental health treatment, and social [[concepts/wellbeing|wellbeing]]. The ancient Greek conceptualizations of love still inform contemporary discussions about different types of [[concepts/human-connection|human connection]] and their distinct impacts on individual and collective health.
 ## Source Notes
 - 2026-04-11: What’s so ancient about Greek mythology? | James Barton Steel | TEDxRoyalCentralSchool

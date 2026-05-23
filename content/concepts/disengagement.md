@@ -1,7 +1,6 @@
 ---
 type: concept
 domain: health-wellbeing
-group: resilience-mental-performance-pain
 tags:
   - "thematic-analysis"
   - "qualitative-research"
@@ -12,7 +11,8 @@ aliases:
   - "Thematic Analysis Mistakes"
   - "Qualitative Research Findings"
 summary: A video by Dr Kruikow discussing five common mistakes in the findings chapter of qualitative research studies during thematic analysis.
-updated: 2026-05-01
+updated: 2026-05-23
+group: resilience-mental-performance-pain
 ---
 # Disengagement
 
@@ -20,7 +20,7 @@ Disengagement in [[concepts/qualitative-research|qualitative research]] refers t
 
 ## Common Issues in Thematic Analysis
 
-Several mistakes commonly occur when researchers present their findings from thematic analysis. These include insufficient depth in theme development, inadequate [[concepts/connection|connection]] between data extracts and analytical claims, and a loss of researcher perspective in the interpretation phase. Such disengagement from the analytical process results in findings chapters that lack rigor and fail to demonstrate genuine engagement with the data.
+Several mistakes commonly occur when researchers present their findings from [[concepts/thematic-analysis|thematic analysis]]. These include insufficient depth in theme development, inadequate [[concepts/connection|connection]] between data extracts and analytical claims, and a loss of researcher perspective in the interpretation [[concepts/phase|phase]]. Such disengagement from the analytical process results in findings chapters that lack rigor and fail to demonstrate genuine engagement with the data.
 
 ## Implications for Research Quality
 

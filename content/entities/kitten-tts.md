@@ -1,20 +1,7 @@
 ---
 type: entity
-tags:
-  - "TTS"
-  - "AI"
-  - "open-source"
-  - "CPU"
-  - "text-to-speech"
-  - "machine-learning"
-  - "edge-computing"
-  - "cpu-optimization"
-  - "kitten-ml"
-aliases:
-  - "Kitten TTS framework"
-  - "Kitten ML TTS"
-summary: "An open-source text-to-speech framework developed by Kitten ML designed for CPU optimization and edge computing applications."
-updated: 2026-04-14
+summary: An open-source text-to-speech framework developed by Kitten ML designed for CPU optimization and edge computing applications.
+updated: 2026-05-23
 ---
 # Kitten TTS
 
@@ -22,7 +9,7 @@ updated: 2026-04-14
 
 ## Key Features
 - **Ultra-Lightweight**: Smallest model under **25MB**
-- **[[concepts/cpu-optimization|CPU Optimization]]**: Runs entirely on CPU without GPU requirements, enabling low-power [[concepts/deployment|deployment]]
+- **[[concepts/cpu-optimization|CPU Optimization]]**: Runs entirely on CPU without GPU requirements, enabling low-[[concepts/power|power]] [[concepts/deployment|deployment]]
 - **Edge Compatibility**: Designed for resource-constrained devices and browser environments
 - **New Review**: Detailed review by [[entities/sam-witteveen|Sam Witteveen]] on [[concepts/cpu|CPU]] optimized TTS
 
@@ -30,7 +17,7 @@ For detailed review, see [[entities/sam-witteveen]]'s video: [Kitten TTS - CPU O
 
 Backlink: 2026 04 14 CPU optimised TTS Kitten AI [[entities/sam-witteveen-channel|Sam Witteveen channel]]
 
-- 2026-04-27 [2026-04-27-Google-Gemma-4-Open-Weight-AI-for-Local-Private-Executio](2026-04-27-Google-Gemma-4-Open-Weight-AI-for-Local-Private-Executio.md) ← Google Gemma 4 Open Weight Ai For Local Private Executio
-- 2026-04-07 [2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context](2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context.md) ← Turboquant Extreme Compression For Local Llm Efficiency And Context
-- 2026-04-08 [2026-04-08-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context](2026-04-08-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context.md) ← Turboquant Extreme Compression For Local Llm Efficiency And Context
+- 2026-04-27 [2026-04-27-Google-Gemma-4-Open-Weight-AI-for-Local-Private-Executio](2026-04-27-Google-Gemma-4-Open-Weight-AI-for-Local-Private-Executio.md) ← [[concepts/23b-parameter-models|Google Gemma 4]] [[concepts/open-weight|Open Weight]] Ai For Local Private Executio
+- 2026-04-07 [2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context](2026-04-07-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context.md) ← [[concepts/ai-efficiency|Turboquant]] Extreme Compression For Local [[concepts/code-size|Llm Efficiency]] And Context
+- 2026-04-08 [2026-04-08-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context](2026-04-08-TurboQuant-Extreme-Compression-for-Local-LLM-Efficiency-and-Context.md) ← Turboquant Extreme Compression For [[concepts/local-llm|Local Llm]] Efficiency And Context
 ## Source Notes
