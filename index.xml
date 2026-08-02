@@ -6,10 +6,58 @@
       <description>Last 10 notes on NemoClaw Knowledge Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>adaptive-human-like-dynamic-athletic-control</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/adaptive-human-like-dynamic-athletic-control</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/adaptive-human-like-dynamic-athletic-control</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Adaptive Human-like Dynamic Athletic Control Adaptive Human-like Dynamic Athletic Control refers to the capability of AI agents to perform complex, high-dynamic physical tasks (such as parkour) by moving beyond simple imitation learning. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>ai-agent-training</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/ai-agent-training</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/ai-agent-training</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents AI Agent Training AI Agent Training refers to the methodologies and frameworks used to teach autonomous agents to perceive environments, make decisions, and execute actions to achieve specific goals. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>auditory-aircraft-navigation</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/auditory-aircraft-navigation</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/auditory-aircraft-navigation</guid>
+    <description><![CDATA[  domain-badge slug=ux-design name=UX &amp; Design Auditory Aircraft Navigation Auditory aircraft navigation refers to early aviation techniques where pilots relied on sound signals transmitted via radio waves to determine their position and course, particularly before the widespread adoption of visu... ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>Signal-to-Noise Ratio</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/camera-raw</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/camera-raw</guid>
+    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits Signal-to-Noise Ratio (SNR) is the ratio of the power of a desired signal to the power of background noise. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>cloud-based-services</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/cloud-based-services</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/cloud-based-services</guid>
+    <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Cloud-Based Services Cloud-based services refer to on-demand delivery of computing resources over the internet for applications and services. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>dynamic-athletic-control</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/dynamic-athletic-control</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/dynamic-athletic-control</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Dynamic Athletic Control Dynamic Athletic Control refers to the computational and physical mechanisms enabling agents to perform complex, high-speed, and unstable movements (e.g., parkour, gymnastics) in unstructured environments. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
     <title>hardware-requirements</title>
     <link>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</guid>
     <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research group: engineering-systems-robotics-autonomous-vehicles Hardware Requirements for MiniMax M2.7 LLM Overview Hardware requirements for deploying the MiniMax M2.7 open-source Large Language Model (LLM) are substantial due... ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>hybrid-ai</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hybrid-ai</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hybrid-ai</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Hybrid AI Hybrid AI refers to systems that combine different artificial intelligence paradigms, typically integrating symbolic reasoning, rule-based logic, or explicit human knowledge with data-driven approaches like Deep Learning or machine-learning... ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>instrument-rating</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/instrument-rating</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/instrument-rating</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Instrument Rating An instrument rating is a pilot certification that allows the holder to fly an aircraft under instrument flight rules (IFR), enabling navigation and flight operations in conditions where visual referen... ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>local-llm</title>
@@ -17,54 +65,6 @@
     <guid>https://digifella.github.io/ai-wiki/concepts/local-llm</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents title: “Local con Local LLMs Local LLMs provide decentralized, privacy-preserving alternatives to cloud-based AI for coding, mobile tasks, and desktop application development using runtimes like [[Ollama and llamacpp. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>model-compression</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/model-compression</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/model-compression</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents group: model-efficiency-compression Compression in Local Large Language Models (LLMs) Compression techniques are essential for optimizing the performance and accessibility of large language models. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Enabling Local Coding LLMs with Quantization: Hardware Requirements &amp; Use Cases</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Enabling-Local-Coding-LLMs-with-Quantization-Hardware-Re</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Enabling-Local-Coding-LLMs-with-Quantization-Hardware-Re</guid>
-    <description><![CDATA[ Enabling Local Coding LLMs with Quantization: Hardware Requirements &amp; Use Cases Generated: 2026-08-03 · API: Gemini 2.5 Flash · Modes: Summary Enabling Local Coding LLMs with Quantization: Hardware Requirements &amp; Use Cases Clip title: The Best Local LLM for Coding Already Fits in Your RAM Au... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>HIL: Hybrid AI for Adaptive Human-like Dynamic Athletic Control</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-HIL-Hybrid-AI-for-Adaptive-Human-like-Dynamic-Athletic-C</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-HIL-Hybrid-AI-for-Adaptive-Human-like-Dynamic-Athletic-C</guid>
-    <description><![CDATA[ HIL: Hybrid AI for Adaptive Human-like Dynamic Athletic Control Generated: 2026-08-03 · API: Gemini 2.5 Flash · Modes: Summary HIL: Hybrid AI for Adaptive Human-like Dynamic Athletic Control Clip title: NVIDIA’s AI Learns Why Copying Humans Isn’t Enough Author / channel: Two Minute Papers URL: www.y... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Low Frequency Radio Range: Pioneering Auditory Aircraft Navigation System</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Low-Frequency-Radio-Range-Pioneering-Auditory-Aircraft-N</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Low-Frequency-Radio-Range-Pioneering-Auditory-Aircraft-N</guid>
-    <description><![CDATA[ Low Frequency Radio Range: Pioneering Auditory Aircraft Navigation System Generated: 2026-08-03 · API: Gemini 2.5 Flash · Modes: Summary Low Frequency Radio Range: Pioneering Auditory Aircraft Navigation System Clip title: When Pilots Used Sounds To Guide Planes Author / channel: Scott Manley URL: w... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Oh My Pi: Open-Source Terminal Agent for AI Coding Performance Enhancement</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Oh-My-Pi-Open-Source-Terminal-Agent-for-AI-Coding-Perfor</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Oh-My-Pi-Open-Source-Terminal-Agent-for-AI-Coding-Perfor</guid>
-    <description><![CDATA[ Oh My Pi: Open-Source Terminal Agent for AI Coding Performance Enhancement Generated: 2026-08-03 · API: Gemini 2.5 Flash · Modes: Summary Oh My Pi: Open-Source Terminal Agent for AI Coding Performance Enhancement Clip title: This Free Terminal Agent Made Me Delete Claude Code (Oh-My-Pi Full Test) Au... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Understanding AI Agent Hallucination: Causes and Mitigation Strategies</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Understanding-AI-Agent-Hallucination-Causes-and-Mitigati</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-03-Understanding-AI-Agent-Hallucination-Causes-and-Mitigati</guid>
-    <description><![CDATA[ Understanding AI Agent Hallucination: Causes and Mitigation Strategies Generated: 2026-08-03 · API: Gemini 2.5 Flash · Modes: Summary Understanding AI Agent Hallucination: Causes and Mitigation Strategies Clip title: Understanding AI Agent Hallucination in AI Systems Author / channel: IBM Technology... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>INDEX</title>
-    <link>https://digifella.github.io/ai-wiki/INDEX</link>
-    <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-08-02 11:07 Domains AI &amp; Agents (2159 concepts) Tools, Platforms &amp; Infrastructure (1535 concepts) UX &amp; Design (60 concepts) Creative Pursuits (734 concepts) Food &amp; Nutrition (211 concepts) Business &amp; Strategy (431 concept... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 01:07:00 GMT</pubDate>
-  </item><item>
-    <title>3d-scene-understanding</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/3d-scene-understanding</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/3d-scene-understanding</guid>
-    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits 3D Scene Understanding 3D Scene Understanding is the computational task of interpreting and reconstructing the three-dimensional structure, geometry, and semantic content of a physical environment from sensory data (e.g., RGB images, LiDAR,... ]]></description>
-    <pubDate>Sat, 01 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

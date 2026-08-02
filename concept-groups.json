@@ -595,6 +595,10 @@
     "domain": "Biology & Life Sciences",
     "group": "Evolution Ecology & Natural Systems"
   },
+  "adaptive-human-like-dynamic-athletic-control": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
+  },
   "adaptive-learning": {
     "domain": "AI & Agents",
     "group": "Training Fine-Tuning & Evaluation"
@@ -3778,6 +3782,10 @@
   "audio-visual-synthesis": {
     "domain": "Creative Pursuits",
     "group": "Design Systems UI & Infographics"
+  },
+  "auditory-aircraft-navigation": {
+    "domain": "UX & Design",
+    "group": "Information Architecture & Navigation"
   },
   "auditory-nerve": {
     "domain": "Health & Wellbeing",
@@ -9867,6 +9875,10 @@
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
   },
+  "dynamic-athletic-control": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
+  },
   "dynamic-calculation": {
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
@@ -14035,6 +14047,10 @@
     "domain": "Biology & Life Sciences",
     "group": "Evolution Ecology & Natural Systems"
   },
+  "hybrid-ai": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "hybrid-aircraft-design": {
     "domain": "Creative Pursuits",
     "group": "Design Systems UI & Infographics"
@@ -14782,6 +14798,10 @@
   "instructions": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
+  },
+  "instrument-rating": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
   },
   "integrated-agent": {
     "domain": "AI & Agents",
@@ -16842,6 +16862,10 @@
   "low-fertility-rate": {
     "domain": "Society, Politics & Conflict",
     "group": "Politics Governance & Public Systems"
+  },
+  "low-frequency-radio-range": {
+    "domain": "Science, Physics & Research",
+    "group": "Scientific Modelling & Discovery"
   },
   "low-latency-streaming": {
     "domain": "Entertainment & Games",
@@ -22712,6 +22736,10 @@
     "group": "Developer Tooling & CLIs"
   },
   "ram": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
+  "ram-capacity": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
   },
@@ -28746,6 +28774,10 @@
   "volcanology": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Geology Rocks & Minerals"
+  },
+  "vor-beacons": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
   },
   "vostok-research-station": {
     "domain": "AI & Agents",
