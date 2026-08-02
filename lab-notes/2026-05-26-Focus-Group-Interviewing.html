@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Focus Group Interviewing · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Focus Group Interviewing · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Focus Group Interviewing · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=creative-pursuits name=Creative Pursuits preface_schema: ‘1.0’ title: ‘Focus Group Interviewing’ source_type: ‘Consulting Company’ publisher: ‘www.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/’ availability_st..."/><meta property="og:description" content="domain-badge slug=creative-pursuits name=Creative Pursuits preface_schema: ‘1.0’ title: ‘Focus Group Interviewing’ source_type: ‘Consulting Company’ publisher: ‘www.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/’ availability_st..."/><meta property="og:image:alt" content="domain-badge slug=creative-pursuits name=Creative Pursuits preface_schema: ‘1.0’ title: ‘Focus Group Interviewing’ source_type: ‘Consulting Company’ publisher: ‘www.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/’ availability_st..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Focus-Group-Interviewing"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Focus-Group-Interviewing"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=creative-pursuits name=Creative Pursuits preface_schema: ‘1.0’ title: ‘Focus Group Interviewing’ source_type: ‘Consulting Company’ publisher: ‘www.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/’ availability_st..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Focus-Group-Interviewing-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Focus-Group-Interviewing-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Focus-Group-Interviewing-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Focus-Group-Interviewing"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19579"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19579" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Focus Group Interviewing</a></div></nav><h1 class="article-title">Focus Group Interviewing</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>43 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/creative-pursuits">Creative Pursuits</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<p>preface_schema: ‘1.0’
+title: ‘Focus Group Interviewing’
+source_type: ‘<a href="../concepts/consulting" class="internal alias" data-slug="concepts/consulting">Consulting</a> Company’
+publisher: ‘<a href="http://www.ncbi.nlm.nih.gov" class="external" target="_blank" rel="noopener noreferrer">www.ncbi.nlm.nih.gov<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+publishing_date: ‘Unknown’
+authors: []
+available_at: ‘<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/" class="external" target="_blank" rel="noopener noreferrer">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+availability_status: ‘available’
+availability_http_code: ‘200’
+availability_checked_at: ”
+availability_note: ”
+source_integrity_flag: ‘verified’
+credibility_tier_value: ‘5’
+credibility_tier_key: ‘peer-reviewed’
+credibility_tier_label: ‘Peer-Reviewed’
+credibility_reason: ‘strong_scholarly_signals’
+credibility: ‘Final Peer-Reviewed Report’
+journal_ranking_source: ‘n/a’
+journal_sourceid: ”
+journal_title: ”
+journal_issn: ”
+journal_sjr: ‘0.0’
+journal_quartile: ”
+journal_rank_global: ‘0’
+journal_categories: ”
+journal_areas: ”
+journal_high_ranked: ‘False’
+journal_match_method: ‘none’
+journal_match_confidence: ‘0.0’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘focus’, ‘group’, ‘interviewing’, ‘research’, ‘methods’, ‘university’, ‘minnesota’, ‘<a href="../concepts/notes" class="internal alias" data-slug="concepts/notes">notes</a>’]
+abstract: ‘Focus Group Interviewing Research Methods University of Minnesota Notes <a href="../concepts/feynman" class="internal alias" data-slug="concepts/feynman">Richard</a> A. Krueger, Ph.D. and Mary Anne Casey, Ph.D. <a href="mailto:rkrueger@umn.edu" class="external">rkrueger@umn.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> <a href="mailto:casey016@umn.edu" class="external">casey016@umn.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> September 2015 Table of Contents OVERVIEW Characteristics of focus group interviews..………………………… 2 MODERATING Moderator <a href="../concepts/skills" class="internal alias" data-slug="concepts/skills">skills</a>..……………………………………………………… 3 Example of a focus group introduction …………………………….. 4 Outline of a focus group introduction ………………………………. 5 Moderator checklist ……………………………………………………6 Suggestions for creating a discussion.………………………………7 Assistant moderator role..……………………………………………..8 Note taking..…………………………………………………………… 9 How to give an oral <a href="../concepts/summary" class="internal alias" data-slug="concepts/summary">summary</a> <a href="../concepts/assistive-technology" class="internal alias" data-slug="concepts/assistive-technology">at</a> the end of the focus group ….…11 DEVELOPING QUESTIONS Good questions..………………………………………………………12 Act</p>
+<h2 id="-9-how-to-give-an-oral-summary-at-the-end-of-the-focus-group-11-developing-questions-good-questions12-active-questions-that-engage-the-participants13-generic-questions--consumer-product-14-generic-questions--program-evaluation15-planning-planning-the-focus-group-study16-developing-a-focus-group-plan17-recruitment-systematic-notification-procedures-selection-incentives18-analysis--reporting-analysis-choices19-tips-for-transcribing-focus-group-interviews20-sys">�………………… 9 How to give an oral summary at the end of the focus group ….…11 DEVELOPING QUESTIONS Good questions..………………………………………………………12 Active questions that engage the participants..……………………13 Generic questions – Consumer product..…………………………. 14 Generic questions – Program evaluation..…………………………15 PLANNING Planning the focus group study……………………………………..16 Developing a focus group plan………………………………………17 RECRUITMENT Systematic notification procedures, selection, incentives……..….18 ANALYSIS &amp; REPORTING Analysis choices………………………………………………………19 Tips for transcribing focus group interviews……………………….20 Sys’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-9-how-to-give-an-oral-summary-at-the-end-of-the-focus-group-11-developing-questions-good-questions12-active-questions-that-engage-the-participants13-generic-questions--consumer-product-14-generic-questions--program-evaluation15-planning-planning-the-focus-group-study16-developing-a-focus-group-plan17-recruitment-systematic-notification-procedures-selection-incentives18-analysis--reporting-analysis-choices19-tips-for-transcribing-focus-group-interviews20-sys" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Focus Group Interviewing</p>
+<p>Research</p>
+<p>Methods</p>
+<p>University of Minnesota</p>
+<p>Notes</p>
+<p>Richard A. Krueger, Ph.D.</p>
+<p>and</p>
+<p>Mary Anne Casey, Ph.D.</p>
+<p><a href="mailto:rkrueger@umn.edu" class="external">rkrueger@umn.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p><a href="mailto:casey016@umn.edu" class="external">casey016@umn.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>September 2015</p>
+<p>Table of Contents</p>
+<p>OVERVIEW</p>
+<p>Characteristics of focus group interviews..………………………… 2</p>
+<p>MODERATING</p>
+<p>Moderator skills..……………………………………………………… 3</p>
+<p>Example of a focus group introduction …………………………….. 4</p>
+<p>Outline of a focus group introduction ………………………………. 5</p>
+<p>Moderator checklist ……………………………………………………6</p>
+<p>Suggestions for creating a discussion.………………………………7</p>
+<p>Assistant moderator role..……………………………………………..8</p>
+<p>Note taking..…………………………………………………………… 9</p>
+<p>How to give an oral summary at the end of the focus group ….…11</p>
+<p>DEVELOPING QUESTIONS</p>
+<p>Good questions..………………………………………………………12</p>
+<p>Active questions that engage the participants..……………………13</p>
+<p>ocus group ….…11</p>
+<p>DEVELOPING QUESTIONS</p>
+<p>Good questions..………………………………………………………12</p>
+<p>Active questions that engage the participants..……………………13</p>
+<p>Generic questions – Consumer product..…………………………. 14</p>
+<p>Generic questions – Program evaluation..…………………………15</p>
+<p>PLANNING</p>
+<p>Planning the focus group study……………………………………..16</p>
+<p>Developing a focus group plan………………………………………17</p>
+<p>RECRUITMENT</p>
+<p>Systematic notification procedures, selection, incentives……..….18</p>
+<p>ANALYSIS &amp; REPORTING</p>
+<p>Analysis choices………………………………………………………19</p>
+<p>Tips for transcribing focus group interviews……………………….20</p>
+<p>Systematic analysis process………………………………………21</p>
+<p>Focus group analysis tips…………………………………………22</p>
+<p>Steps in the analysis process …………………………………… 23</p>
+<p>Classic analysis strategy………………………………………..…..24</p>
+<p>Reporting focus group results……………………………………25</p>
+<p>OTHER</p>
+<p>Telephone focus groups……………………………………………27</p>
+<p>Internet focus groups………………………………………………28</p>
+<p>BIBLIOGRAPHY</p>
+<p>Bibliography ………………………………………………………… 29</p>
+<h4 id="characteristics-of-focus-group-interviews">Characteristics of Focus Group Interviews<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#characteristics-of-focus-group-interviews" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<h3 id="participants">Participants<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#participants" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>5 to 8 people per group</p>
+<p>Carefully recruited</p>
+<p>Have screens in common—homogeneity</p>
+<p>Repeated groups with different participants</p>
+<h4 id="environment">Environment<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#environment" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Comfortable for participants</p>
+<p>Circle seating</p>
+<p><a href="../concepts/audio-modality" class="internal alias" data-slug="concepts/audio-modality">Audio</a> recorded</p>
+<h4 id="moderator">Moderator<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#moderator" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Skillful in group discussions</p>
+<p>Uses pre-determined questions</p>
+<p>Establishes permissive and nonthreatening environment</p>
+<h3 id="analysis-and-reporting">Analysis and Reporting<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#analysis-and-reporting" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Systematic analysis</p>
+<p>Verifiable procedures</p>
+<p>Appropriate reporting</p>
+<p>Meditation</p>
+<p>Seeing all Beings as Enlightened</p>
+<p>ions</p>
+<p>Establishes permissive and nonthreatening environment</p>
+<h3 id="analysis-and-reporting-1">Analysis and Reporting<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#analysis-and-reporting-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Systematic analysis</p>
+<p>Verifiable procedures</p>
+<p>Appropriate reporting</p>
+<p>Meditation</p>
+<p>Seeing all Beings as Enlightened</p>
+<p>“Picture or imagine that this earth is filled with Buddhas, that every single being you encounter is enlightened, except one—yourself! Imagine that they are all here to teach you. Whoever you encounter is acting as they do solely for your benefit, to provide just the teachings and difficulties you need in order to awaken.</p>
+<p>Sense what lessons they offer to you. Inwardly thank them for this. Throughout a day or a week continue to develop the image of enlightened teachers all around you. Notice how it changes your whole perspective on life.”</p>
+<p>—A Path with Heart—</p>
+<p>Jack Kornfield</p>
+<p>Moderator Skills</p>
+<p>Select the right moderator team</p>
+<p>Moderator and “assistant” moderator</p>
+<p>Establishes rapport</p>
+<p>Shows interest</p>
+<p>Moderator</p>
+<p>Introduces study</p>
+<p>Guides discussion</p>
+<p>Assistant moderator</p>
+<p>Handles logistics</p>
+<p>Takes careful notes</p>
+<p>Listens for what more is needed</p>
+<p>Asks final question(s)</p>
+<p>Gives summary</p>
+<p>May be primary analyst</p>
+<p>Be mentally prepared</p>
+<p>Alert and free from distractions</p>
+<p>Ready to listen</p>
+<p>Understands <a href="../concepts/purpose" class="internal alias" data-slug="concepts/purpose">purpose</a> and questioning route</p>
+<p>Act as hosts</p>
+<p>Create warm and friendly environment</p>
+<p>Use purposeful small talk</p>
+<p>Observe the participants for seating arrangements</p>
+<p><a href="../entities/make" class="internal alias" data-slug="entities/make">Make</a> a smooth &amp; snappy introduction</p>
+<p>Standard introduction</p>
+<ol>
+<li>
+<p>Welcome</p>
+</li>
+<li>
+<p>Overview of topic</p>
+</li>
+<li>
+<p>Ground rules</p>
+</li>
+<li>
+<p>First question</p>
+</li>
+</ol>
+<p>Use pauses and probes</p>
+<p>5 second pause</p>
+<p>Probes:</p>
+<p>“Say more.”</p>
+<p>“Would you give an example?”</p>
+<p>“I don’t understand.”</p>
+<p>Record the discussion</p>
+<p>Digital recorders</p>
+<p>Written notes</p>
+<p><a href="../concepts/power" class="internal alias" data-slug="concepts/power">Control</a> reactions to participants Verbal and nonverbal</p>
+<p>Head nodding</p>
+<p>Short verbal <a href="../concepts/responses" class="internal alias" data-slug="concepts/responses">responses</a></p>
+<p>(Avoid “that’s good,” “excellent”)</p>
+<p>Use subtle group control</p>
+<p>Experts</p>
+<p>Dominant talkers</p>
+<p>Shy participants</p>
+<p>Ramblers</p>
+<p>Use appropriate conclusion</p>
+<p>Four Step Conclusion</p>
+<ol>
+<li>Asst moderator asks 1 or 2 questions</li>
+</ol>
+<p>at’s good,” “excellent”)</p>
+<p>Use subtle group control</p>
+<p>Experts</p>
+<p>Dominant talkers</p>
+<p>Shy participants</p>
+<p>Ramblers</p>
+<p>Use appropriate conclusion</p>
+<p>Four Step Conclusion</p>
+<ol>
+<li>
+<p>Asst moderator asks 1 or 2 questions</p>
+</li>
+<li>
+<p>Asst moderator summarizes key points and asks for confirmation</p>
+</li>
+<li>
+<p>Review purpose and ask if anything has been missed</p>
+</li>
+<li>
+<p>Thanks and dismissal</p>
+</li>
+</ol>
+<p>Example of a Focus Group Introduction</p>
+<p>The first few moments of a focus group are critical. In a brief time, the moderator must create a thoughtful, permissive atmosphere, provide ground rules, and set the tone of the discussion. Much of the success of group interviewing can be attributed to the development of this open environment.</p>
+<p>The recommended pattern for introducing the group discussion includes a:</p>
+<p>(1) Welcome, (2) Overview of the topic, (3) Ground rules, and (4) First question. Here is an example:</p>
+<p>Good evening and welcome. Thanks for taking the time to join <a href="../entities/us" class="internal alias" data-slug="entities/us">us</a> to talk about <a href="../concepts/health" class="internal alias" data-slug="concepts/health">health</a> and <a href="../concepts/wellness" class="internal alias" data-slug="concepts/wellness">wellness</a> in your community. My name is Dick Krueger and with me is Tom Olson. We’re both with the . Sarah Casey, who is with the county <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">public health</a> office, asked us to get some information from community residents about health and wellness. The public health office is developing a new strategic plan to decide what priorities they should have over the next five years. They want your input about health issues, what worries people here in the community, and what could be done to improve the health of people who live in the county. Your input, along with input from other groups being held across the county, <a href="../entities/will" class="internal alias" data-slug="entities/will">will</a> be used to set priorities for the coming years.</p>
+<p>You were invited because you live here in the community and you have had a chance to listen to what people in the community say about health and wellness.</p>
+<p>used to set priorities for the coming years.</p>
+<p>You were invited because you live here in the community and you have had a chance to listen to what people in the community say about health and wellness.</p>
+<p>There are no wrong answers, only differing points of view. Please feel free to share your point of view even if it differs from what others have said. Keep in <a href="../concepts/the-mind" class="internal alias" data-slug="concepts/the-mind">mind</a> that we’re just as interested in negative comments as positive comments, and at times the negative comments are the most helpful.</p>
+<p>You’ve probably noticed the recorder here. We’re recording the <a href="../concepts/session" class="internal alias" data-slug="concepts/session">session</a> because we don’t want to miss any of your comments. People say really helpful things in these discussions and we can’t write fast enough to get them all down. We will be on a first name basis tonight, and we won’t use any names in our reports. We will keep what you say confidential. Our reports will go back to the county public health staff to help them plan future programs but, again, no names will be attached.</p>
+<p>I’ve got a number of questions that I want to ask, but my job is really to listen. This will be more interesting for all of us if we treat this like a conversation. If someone says something, feel free to follow up on it or share a different point of view. You don’t need to address all your comments to me.</p>
+<p>If you have a cell phone, please put it on silent mode. If you need to take a call, please step out and then return as quickly as possible.</p>
+<p>Let’s begin. We’ve placed your first names on cards in front of you to help us remember each other’s names. Let’s find out more about each other by going around the table. Tell us your name and then tell us what you like best about living in this community.</p>
+<h4 id="outline-of-a-focus-group-introduction">Outline of a Focus Group Introduction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#outline-of-a-focus-group-introduction" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Welcome</p>
+<p>Introduce moderator and assistant</p>
+<p>The purpose …</p>
+<p>What prompted the study?</p>
+<p>Who asked for it? (Who is the sponsor?)</p>
+<p>What will be done with the information? (How will the findings be used?)</p>
+<p>Welcome</p>
+<p>Introduce moderator and assistant</p>
+<p>The purpose …</p>
+<p>What prompted the study?</p>
+<p>Who asked for it? (Who is the sponsor?)</p>
+<p>What will be done with the information? (How will the findings be used?)</p>
+<p>Benefits of the study (How will it help participants, community members, etc.?)</p>
+<p>Why you were invited …</p>
+<p>You were invited because (You have characteristics, expertise, or experiences that can help us)</p>
+<p>Guidelines (Adapt to group)</p>
+<p>We’re audio recording</p>
+<p>We’re on a first name basis. No names attached.</p>
+<ul>
+<li>
+<p>It will help if only one person talks at a time. If several of you are talking at the same time, the recording gets garbled and we’ll miss your comments.</p>
+</li>
+<li>
+<p>No wrong answers, only differing points of view. You don’t need to agree with others, but you must listen respectfully as others share their views</p>
+</li>
+<li>
+<p>Please silence your phones. If you must respond to a call, please do so as quietly as possible and rejoin us as quickly as you can.</p>
+</li>
+<li>
+<p>The bathroom is down the hall.</p>
+</li>
+<li>
+<p>We are going to be informal here tonight, so feel free to get up for more coffee or refreshments.</p>
+</li>
+</ul>
+<p>My role is to guide the discussion</p>
+<p>Talk to each other</p>
+<p>(If you know participants are talkative…) I may need to interrupt to get through all the questions. I apologize ahead of time if I need to do this.</p>
+<p>Opening question</p>
+<h4 id="moderator-checklist">Moderator Checklist<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#moderator-checklist" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<h2 id="before-the-focus-group">Before the focus group<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#before-the-focus-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Understand goal of the sponsor and purpose of study.</p>
+<p>Understand the purpose of each question.</p>
+<p>Have a sense of the amount of time needed for each question.</p>
+<p>Anticipate topics of discussion and potential areas of probing.</p>
+<p>Be mentally and physically ready to moderate.</p>
+<p>Have sufficient technical knowledge of topic.</p>
+<p>Practice using recording device.</p>
+<h2 id="ii-during-the-focus-group">II. During the focus group<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ii-during-the-focus-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Establish rapport with participants. Convey sense of relaxed informality.</p>
+<p>Act as host—welcome participants and make them feel welcome.</p>
+<p>Deliver introduction with enough information to put participants at ease, including:</p>
+<p>A welcome</p>
+<p>s. Convey sense of relaxed informality.</p>
+<p>Act as host—welcome participants and make them feel welcome.</p>
+<p>Deliver introduction with enough information to put participants at ease, including:</p>
+<p>A welcome</p>
+<p>A brief overview that defines the purpose for the group</p>
+<p>Ground rules (or “things that will help our conversation go better”)</p>
+<p>The opening question</p>
+<p>Keep discussion on track and keep participants involved.</p>
+<p>Get people to talk. Listen carefully. Probe for clarification.</p>
+<p>Seek out both cognitive and affective domains. Get participants to tell both how they think and how they feel about the topic.</p>
+<p>Handle different participants adeptly.</p>
+<p>Bring closure to the group with a summary and invite comments on any missing points.</p>
+<p>Go to the door and thank each person individually for coming, just as you would when guests leave your home.</p>
+<h2 id="iii-after-the-focus-group">III. After the focus group<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#iii-after-the-focus-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Debrief soon after the focus group with assistant moderator.</p>
+<p>Review transcript before next focus group to determine how to improve discussion.</p>
+<p>Perform the analysis or provide insight into the analysis.</p>
+<p>Review the report for <a href="../concepts/accuracy" class="internal alias" data-slug="concepts/accuracy">accuracy</a>.</p>
+<p>Suggestions for Creating a Discussion</p>
+<p>Instead of a Serial Interview</p>
+<p>Begin with a permissive and non-threatening environment</p>
+<p>Be sure participants can all see each other</p>
+<p>Tell them you would like a discussion</p>
+<p>Review your questions for conversational potential</p>
+<p>Are the questions intriguing?</p>
+<p>Do questions raise your curiosity?</p>
+<p>Do answers quickly come to mind?</p>
+<p>Do answers of others interest you?</p>
+<p>Do participants have experience with the topic?</p>
+<p>Use strategies to encourage conversation</p>
+<p>Ask the question and look at someone</p>
+<p>After someone has spoken, wait for another to talk</p>
+<p>Ask, “What else?”</p>
+<p>Let your eyes linger on someone</p>
+<p>Keep looking as they answer (if they stay on topic)</p>
+<p>Watch for participants who might want to talk</p>
+<p>Look at someone else as if you want that person to talk</p>
+<p>Use body gestures to signal encouragement to speak</p>
+<p>Bring others into the conversation</p>
+<p>n topic)</p>
+<p>Watch for participants who might want to talk</p>
+<p>Look at someone else as if you want that person to talk</p>
+<p>Use body gestures to signal encouragement to speak</p>
+<p>Bring others into the conversation</p>
+<p>“Are there comments from anyone else?”</p>
+<p>Call on someone who has not spoken and ask for their comment. “<a href="../entities/alicia" class="internal alias" data-slug="entities/alicia">Alicia</a>, you haven’t had a chance to say anything.”</p>
+<p>Be ready for follow-up questions, such as:</p>
+<p>“How did that make you feel?”</p>
+<p>“What was that like?”</p>
+<p>“How did that happen?”</p>
+<p>“What led up to that?”</p>
+<p>“Now what?” or “What happens next?</p>
+<p>Assistant Moderator Role</p>
+<p>Help with equipment &amp; refreshments</p>
+<p>Help arrange the room</p>
+<p>Welcome participants as they arrive</p>
+<p>Help with any paperwork at “registration table”</p>
+<p>Sit outside the conversation circle</p>
+<p>Draw diagram of where people are sitting</p>
+<p>Take notes throughout the discussion</p>
+<p>Do not participate in the discussion</p>
+<p>Think about what needs amplification</p>
+<p>Answer questions (as topic expert) when asked</p>
+<p>Ask questions when invited</p>
+<p>Give an oral summary</p>
+<p>Give <a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">incentive</a> if there is one</p>
+<p>Thank each person for participating</p>
+<p>Debrief with moderator</p>
+<p>Give <a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a> on analysis and reports</p>
+<p>Note Taking</p>
+<p>Note taking is a primary responsibility of the assistant moderator</p>
+<p>The moderator should not be expected to take written notes during the discussion.</p>
+<p>Clarity and <a href="../concepts/logical-consistency" class="internal alias" data-slug="concepts/logical-consistency">consistency</a> of note taking</p>
+<p>Anticipate that others will use your field notes. Sometimes an analyst might not look at field notes for days or weeks following the focus group when <a href="../concepts/memory" class="internal alias" data-slug="concepts/memory">memory</a> has faded. Consistency and clarity are essential.</p>
+<p>Field notes contain different types of information. Know what the analyst wants. Your field notes may contain:</p>
+<p>Identification information</p>
+<p>Include the date, time, location of the focus group. Name of moderator and assistant. Types of participants. Diagram of table with names.</p>
+<p>Quotes</p>
+<p>field notes may contain:</p>
+<p>Identification information</p>
+<p>Include the date, time, location of the focus group. Name of moderator and assistant. Types of participants. Diagram of table with names.</p>
+<p>Quotes</p>
+<p>Listen for notable quotes, the well-said statements that illustrate an important point of view. Listen for sentences or phrases that are particularly enlightening or eloquently express a particular point of view. Place name or initials of <a href="../entities/speaker" class="internal alias" data-slug="entities/speaker">speaker</a> after the quotations. Usually, it is impossible to capture the entire quote. Capture as much as you can with <a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a> to the key phrases. Use three periods … to indicate that part of the quote is missing.</p>
+<p>Key points and themes for each question</p>
+<p>Typically, participants will talk about several key points in response to each question. These points are often identified by several different participants. Sometimes they are said only once but in a manner that deserves attention. At the end of the focus group, the assistant moderator will share these themes with participants for confirmation.</p>
+<p>Follow-up questions that could be asked</p>
+<p>Sometimes the moderator may not follow-up on an important point or seek an example of a vague but critical point. The assistant moderator may wish to follow-up with these questions at the end of the focus group.</p>
+<p>Big <a href="../concepts/ideas" class="internal alias" data-slug="concepts/ideas">ideas</a>, hunches, or thoughts of the recorder</p>
+<p>Keep track of your ideas, hunches, and thoughts—but circle them as a way of separating them from quotes. These insights are helpful in later analysis.</p>
+<p>Names</p>
+<p>Sometimes it is important to attach names to transcripts. If so, the assistant moderator might write down the name and the first few words each time someone talks. Later, these notes can be merged with the transcript.</p>
+<p>Other factors</p>
+<p>ach names to transcripts. If so, the assistant moderator might write down the name and the first few words each time someone talks. Later, these notes can be merged with the transcript.</p>
+<p>Other factors</p>
+<p>Make note of factors that might aid analysis such as passionate comments, body language, or non-verbal activity. Watch for head nods, physical excitement, eye <a href="../entities/contact" class="internal alias" data-slug="entities/contact">contact</a> between certain participants, or other clues that would indicate level of agreement, support, or interest.</p>
+<h1 id="how-to-give-an-oral-summary">How to Give an Oral Summary<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-to-give-an-oral-summary" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>at the End of the Focus Group</p>
+<p>Before the focus group, be sure you know the key questions and the approximate time the moderator plans to spend on each key question.</p>
+<p>Be clear about the purpose of the focus group. The summary should tie closely to this purpose.</p>
+<p>Take two kinds of notes: a) Notes that will help you provide a brief oral summary, and, b) Notes for detailed analysis after the focus group.</p>
+<p>Make sure to leave enough time for the summary. If you give the summary two minutes before you said the discussion would be over, participants may be eager to leave and may not offer feedback.</p>
+<p>Begin your oral summary with the most important findings regardless of when they were discussed in the focus group. Don’t worry about the question sequence when you construct your summary.</p>
+<p>Begin your summary with findings—what was actually said. Attempt to capture common themes but also acknowledge differing points of view. This descriptive summary repeats what was said but is very brief. After you’ve given the summary of what was said, consider offering interpretation. The interpretative summary attaches additional meaning and goes beyond the actual words.</p>
+<p>Listen for what was not said, but might have been expected. If these areas are important, then in the summary you might say: “Some things were not mentioned like … . Are they important to you or not?” Look at the participants while you’re saying this and watch for reactions.</p>
+<p>important, then in the summary you might say: “Some things were not mentioned like … . Are they important to you or not?” Look at the participants while you’re saying this and watch for reactions.</p>
+<p>Cite key phrases used in the discussion. This demonstrates connectedness and careful listening.</p>
+<p>Keep the summary to three minutes or less. If you ramble, people will tune out.</p>
+<p>When finished, look at the participants and ask, “What would you add to that summary?” Or, “Does that reflect the conversation you heard?” Or, “What would you change about this summary?”</p>
+<p>Good Questions</p>
+<p>Sound conversational</p>
+<p>Use words participants would use</p>
+<p>Are easy to say</p>
+<p>Are clear and short</p>
+<p>Are open-ended</p>
+<p>Are one-dimensional</p>
+<p>Include good directions</p>
+<p>Tips on Developing Questions</p>
+<p>Avoid dichotomous questions</p>
+<h1 id="why-is-rarely-asked">Why? is rarely asked<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#why-is-rarely-asked" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Use “think back” questions</p>
+<p>Use different types of questions</p>
+<p>Opening Question</p>
+<h4 id="introductory-question">Introductory Question<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#introductory-question" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Transition Questions</p>
+<h4 id="key-questions">Key Questions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-questions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Ending Questions</p>
+<p>Include an ending question</p>
+<p>“If you had one minute to give advice to (name of person in charge), what would you say?” “Of all the things we discussed, what to you is the most important?” “Have we missed anything?”</p>
+<p>Be cautious of serendipitous questions</p>
+<p>Keep most questions consistent to allow for comparison between different types of audiences (e.g., teachers, students, parents)</p>
+<p>Use a team to help develop questions</p>
+<p>Anticipate several revisions</p>
+<p>Active Questions Engage the Participants</p>
+<p>Make a list, record results on flip chart, then discuss</p>
+<p>Draw a picture</p>
+<p>Side-by-side comparison</p>
+<p>Draw <a href="../concepts/diagrams" class="internal alias" data-slug="concepts/diagrams">diagrams</a>, flowchart, etc</p>
+<p>Role play or demonstrate</p>
+<p>Group sorting or assembly</p>
+<p>Complete a rating sheet and discuss</p>
+<p>Walk around the museum for 15 – 20 minutes and then discuss</p>
+<p>Observe something (e.g., video, demonstration) and then discuss</p>
+<p>Construct something (e.g., collage, toy) and then discuss</p>
+<p>Doing something before the focus group</p>
+<p>Keep a log</p>
+<p>Go somewhere and observe</p>
+<p>Make a scrapbook</p>
+<p>(e.g., video, demonstration) and then discuss</p>
+<p>Construct something (e.g., collage, toy) and then discuss</p>
+<p>Doing something before the focus group</p>
+<p>Keep a log</p>
+<p>Go somewhere and observe</p>
+<p>Make a scrapbook</p>
+<p>Talk to friends or family</p>
+<p>Look at a website</p>
+<p>Review materials</p>
+<p>Generic Questions</p>
+<p>Planning the Focus Group Studies</p>
+<ol>
+<li>
+<p>Decide whether focus groups are appropriate</p>
+</li>
+<li>
+<p>Decide whom to involve (What makes someone information-rich for this study?)</p>
+</li>
+<li>
+<p>Get advice from a few people who are information-rich</p>
+</li>
+<li>
+<p>Put your thoughts in <a href="../concepts/writing" class="internal alias" data-slug="concepts/writing">writing</a></p>
+</li>
+</ol>
+<p>Planning Guide for Focus Groups</p>
+<p>Assuming a focus group study of 4-6 focus groups</p>
+<p>within the same community.</p>
+<ol>
+<li>Planning</li>
+</ol>
+<p>Conceptualizing the study, developing questions and arranging logistics</p>
+<p>Time Needed: 6-70 hours</p>
+<ol start="2">
+<li>Recruiting</li>
+</ol>
+<p>Developing recruitment strategy and scripts, contacting potential participants, follow-up with letters and phone messages.</p>
+<p>Time Needed: 15-50 hours</p>
+<ol start="3">
+<li>Moderating</li>
+</ol>
+<p>Moderate focus groups, plus travel time for moderator and assistant.</p>
+<p>Time Needed: 24-36 hours</p>
+<ol start="4">
+<li>Analysis</li>
+</ol>
+<p>Analyze data and prepare written report.</p>
+<p>Time Needed: 8-120 hours</p>
+<p>But:</p>
+<p>Add 35% more time if you’ve never done it before</p>
+<p>Add 20% more time if a committee has to approve draft</p>
+<p>Add 20% more time if recommendations are needed</p>
+<ol start="5">
+<li>Other Costs:</li>
+</ol>
+<p>Travel expenses for moderator team, travel expenses for participants, incentives, food, room charge, childcare, transcription charges, digital recording and transcription equipment, supplies like flip charts, markers, <a href="../concepts/art" class="internal alias" data-slug="concepts/art">art</a> supplies.</p>
+<p>Developing a Focus Group Plan</p>
+<p>A written plan will help you organize the proposed study in a logical manner and allow others to provide feedback. Consider these ingredients.</p>
+<p>Systematic Notification Procedure</p>
+<p>IMPORTANT: This process is personalized and repetitive</p>
+<ol>
+<li>
+<p>Set meeting times for group interviews</p>
+</li>
+<li>
+<p>Contact potential participants via phone or in person</p>
+</li>
+<li>
+<p>Send a personalized confirmation letter</p>
+</li>
+</ol>
+<p>IMPORTANT: This process is personalized and repetitive</p>
+<ol>
+<li>
+<p>Set meeting times for group interviews</p>
+</li>
+<li>
+<p>Contact potential participants via phone or in person</p>
+</li>
+<li>
+<p>Send a personalized confirmation letter</p>
+</li>
+<li>
+<p>Phone (or contact) each person the day before the focus group</p>
+</li>
+</ol>
+<p>General Selection Rules</p>
+<ol>
+<li>
+<p>Set exact specifications</p>
+</li>
+<li>
+<p>Maintain control of selection process</p>
+</li>
+<li>
+<p>Use the resources of the sponsoring organization in recruiting</p>
+</li>
+<li>
+<p>Beware of bias</p>
+</li>
+</ol>
+<p>participants picked by memory</p>
+<p>participants picked because they’ve expressed concern</p>
+<p>participants who are clones of the person doing the selection</p>
+<p>participants who are unproductive</p>
+<ol start="5">
+<li>
+<p>Develop a pool of eligible participants and then randomly select</p>
+</li>
+<li>
+<p>Balance <a href="../concepts/cost" class="internal alias" data-slug="concepts/cost">cost</a> and quality</p>
+</li>
+</ol>
+<p>Selection Strategies</p>
+<p>Usually more effective</p>
+<p>Lists</p>
+<p>Nominations</p>
+<p>Work with local organizations</p>
+<p>Piggyback</p>
+<p>On location</p>
+<p>Usually less effective</p>
+<p>Snowball samples</p>
+<p>Random telephone screening</p>
+<p>Screening and selection services</p>
+<p>Ads in newspapers and bulletin boards</p>
+<p>Incentives for Participation</p>
+<p>Money/Gift cards</p>
+<p>Food</p>
+<p>Gifts</p>
+<p>Positive, upbeat invitation</p>
+<p>to share opinions</p>
+<p>Opportunity to hear what others have to say</p>
+<p>Enjoyable, convenient and easy to find meeting location</p>
+<p>Involvement in an important research project</p>
+<p>Build on existing community, social or personal relationship</p>
+<p>Analysis Choices</p>
+<p>Tips for Transcribing Focus Group Interviews</p>
+<p>Use quality playback equipment</p>
+<p>A “transcription kit” with a foot pedal allows you to control the playback <a href="../concepts/speed" class="internal alias" data-slug="concepts/speed">speed</a> without removing your fingers from the keyboard. Check to see if your <a href="../concepts/software" class="internal alias" data-slug="concepts/software">software</a> has noise-reduction features that minimize the background sounds on recordings.</p>
+<p>Minimize distractions</p>
+<p>Type transcripts at a time and place with few distractions or interruptions.</p>
+<p>Use a consistent <a href="../concepts/style" class="internal alias" data-slug="concepts/style">style</a></p>
+<p>Include name of study, date and location of focus group, type of participants, number of participants, name of moderator and assistant moderator.</p>
+<p>istractions or interruptions.</p>
+<p>Use a consistent style</p>
+<p>Include name of study, date and location of focus group, type of participants, number of participants, name of moderator and assistant moderator.</p>
+<p>Identify moderator comments using a consistent style such as bolding, capitalization or underlining. We prefer bolding.</p>
+<p>Single space all comments.</p>
+<p>Double space between speakers.</p>
+<p>Don’t type verbal fillers such as “umm”, “ahh”, or “you know”</p>
+<p>Number all pages. Place a header on all pages indicating date and group name.</p>
+<p>Don’t worry about punctuation</p>
+<p>People don’t speak in complete sentences. Use punctuation where it seems to make sense. Place periods at what seem to be the end of sentences.</p>
+<p>Type comments word for word</p>
+<p>This is a transcript, not minutes of a meeting. The conversation is transcribed word for word. If someone repeats something that was previously said, type it again. Don’t change the words or correct the <a href="../concepts/grammar" class="internal alias" data-slug="concepts/grammar">grammar</a>. If some of the words are unintelligible then insert [unintelligible] to indicate that words are missing from the transcript.</p>
+<p>Note special or unusual sounds that could help analysis</p>
+<p>Indicate things like laughter, loud voices, shouting, someone being interrupted. Put these inside brackets [laughter].</p>
+<p>Allow sufficient time</p>
+<p>Typically, it takes about four to eight hours to type a two-hour focus group. But the time will vary with typist speed, the quality of the recording, the length of the session, the experience of the typist with focus groups, and the complexity of the topic.</p>
+<p>Do it yourself</p>
+<p>One of the best ways to improve your moderating skills is to prepare your own transcript. This helps you improve your future moderating and helps you in the analysis. For greatest benefit, prepare the transcript soon after the focus group is completed.</p>
+<p>Decide whether to attach names to comments</p>
+<p>elps you improve your future moderating and helps you in the analysis. For greatest benefit, prepare the transcript soon after the focus group is completed.</p>
+<p>Decide whether to attach names to comments</p>
+<p>This is difficult to do and usually isn’t done because it is so time consuming. The typist usually needs to merge the transcript with the field notes of the assistant moderator—and the field notes must be taken in a way that facilitates identification of the speakers.</p>
+<h4 id="systematic-analysis-process">Systematic Analysis Process<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#systematic-analysis-process" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Start while still in the group</li>
+</ol>
+<p>Listen for inconsistent comments and probe for understanding</p>
+<p>Listen for vague or cryptic comments and probe for understanding</p>
+<p>Consider asking each participant a final preference question</p>
+<p>Offer a summary of key questions and seek confirmation</p>
+<p>Draw a diagram of seating arrangement</p>
+<ol start="2">
+<li>Immediately after the focus group</li>
+</ol>
+<p>Check the audio recording to ensure you captured the discussion</p>
+<p>Conduct debriefing</p>
+<p>Note themes, hunches, interpretations, and ideas</p>
+<p><a href="../concepts/feynmans-three-step-scientific-method" class="internal alias" data-slug="concepts/feynmans-three-step-scientific-method">Compare</a> and <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a> this focus group to other groups</p>
+<p>Label and file field notes, tapes and other materials</p>
+<ol start="3">
+<li>Soon after the focus group—within hours analyze individual focus group</li>
+</ol>
+<p>Make backup copy of recording</p>
+<p>Transcribe the focus group (if using transcripts)</p>
+<p>Ideal—moderator/asst moderator transcribes and reviews before next focus group—this improves the quality of data gathered in next group. Look for <a href="../entities/places" class="internal alias" data-slug="entities/places">places</a> where moderating can be improved and where additional data are needed. (Think of what the client needs.)</p>
+<p>If not using transcripts, moderator listens to recording paying attention to how to improve moderating and where additional data are needed.</p>
+<ol start="4">
+<li>Later—within days analyze the series of focus groups</li>
+</ol>
+<p>Compare and contrast results across focus groups. Compare all like-groups first. (For example, compare teenager groups then compare parent groups.)</p>
+<p>Look for emerging themes by question and then overall</p>
+<p>Construct typologies or diagram the analysis</p>
+<p>. Compare all like-groups first. (For example, compare teenager groups then compare parent groups.)</p>
+<p>Look for emerging themes by question and then overall</p>
+<p>Construct typologies or diagram the analysis</p>
+<p>Describe findings and use quotes to illustrate</p>
+<ol start="5">
+<li>Finally, prepare the report</li>
+</ol>
+<p>Consider narrative style versus bulleted style</p>
+<p>Use a few quotes to illustrate</p>
+<p>Sequence could be question by question or by theme</p>
+<p>Share report for <a href="../concepts/verification" class="internal alias" data-slug="concepts/verification">verification</a> with other researchers</p>
+<p>Revise and finalize report</p>
+<p>Focus Group Analysis Tips</p>
+<p>When analyzing focus group data consider …</p>
+<p>WORDS</p>
+<p>Think about both the actual words used by the participants and the meanings of those words. A variety of words and phrases will be used to describe issues and the analyst will need to determine the degree of similarity between these responses.</p>
+<p>CONTEXT</p>
+<p>Responses are triggered by a stimulus—a question asked by the moderator or a comment from another participant. Find the triggering stimulus and then interpret the comment in that context. Interpret responses in <a href="../concepts/light" class="internal alias" data-slug="concepts/light">light</a> of the preceding discussion and by the tone and intensity of the oral comment.</p>
+<p>INTERNAL CONSISTENCY</p>
+<p>Sometimes participants in focus groups change or even reverse their positions after hearing what others have said. This phenomenon rarely occurs in individual interviews due to a lack of interaction with others. When there is a shift in opinion, the researcher typically traces the <a href="../concepts/flow" class="internal alias" data-slug="concepts/flow">flow</a> of the conversation to determine clues that might explain the change.</p>
+<p>FREQUENCY OR EXTENSIVENESS</p>
+<p>Extensiveness refers to the number of participants who mentioned a topic. Frequency if the number of times a topic is mentioned. Don’t confuse these. One topic could be brought up a lot, but only by one participant. Frequency and extensiveness are factors to consider when the analyst is deciding what weight to give a topic.</p>
+<p>INTENSITY</p>
+<p>onfuse these. One topic could be brought up a lot, but only by one participant. Frequency and extensiveness are factors to consider when the analyst is deciding what weight to give a topic.</p>
+<p>INTENSITY</p>
+<p>Look for emotion. Pay attention when participants talk about a topic with a special intensity or depth of feeling. Intensity may be difficult to spot from transcripts because it is communicated by the <a href="../concepts/tone" class="internal alias" data-slug="concepts/tone">voice</a> tone, speed, emphasis on certain words, and body language. Individuals will differ on how they display strength of feeling and for some it will be a speed or excitement in the voice whereas others will speak slowly and deliberately.</p>
+<p>SPECIFICITY</p>
+<p>Give more weight to responses that are specific and based on experiences than responses that are vague and impersonal. To what degree can the respondent provide details when asked a follow-up probe? Give more attention to responses that are in the first person as opposed to hypothetical third person answers. For example, “I feel the new practice is important because I have used it for three months and had great results,” has more weight than, “These practices are good and others in the area should use them.”</p>
+<p>FINDING BIG IDEAS</p>
+<p>One of the traps of analysis is getting caught up in the details. Step back from the discussions. Allow time for big ideas to percolate. For example, after finishing the analysis the researcher might set the report aside for a brief period and then jot down the three or four of the most important findings. Assistant moderators or others skilled in qualitative analysis might review the process and verify the big ideas.</p>
+<p>Steps in the Analysis Process</p>
+<ol>
+<li>
+<p>Decide who will coordinate the analysis</p>
+</li>
+<li>
+<p>Look over your questions and specifically think about analysis</p>
+</li>
+<li>
+<p>Anticipate the discussion</p>
+</li>
+<li>
+<p>Use multiple strategies for data capture</p>
+</li>
+<li>
+<p>Work with note taker to ensure the right data are captured</p>
+</li>
+<li>
+<p>Some analytic tasks occur during the focus group</p>
+</li>
+<li>
+<p>Debrief soon after the group</p>
+</li>
+</ol>
+<p>ussion</p>
+<ol start="4">
+<li>
+<p>Use multiple strategies for data capture</p>
+</li>
+<li>
+<p>Work with note taker to ensure the right data are captured</p>
+</li>
+<li>
+<p>Some analytic tasks occur during the focus group</p>
+</li>
+<li>
+<p>Debrief soon after the group</p>
+</li>
+<li>
+<p>List, file, copy and document all materials</p>
+</li>
+<li>
+<p>Decision: Should you transcribe?</p>
+</li>
+<li>
+<p>Begin the <a href="../concepts/coding" class="internal alias" data-slug="concepts/coding">coding</a> process</p>
+</li>
+<li>
+<p>Prioritizing the analytic themes</p>
+</li>
+<li>
+<p>Write the report</p>
+</li>
+</ol>
+<p>The Classic Analysis Strategy:</p>
+<p>Long Tables, Scissors and Colored Marking Pens</p>
+<p>Equipment needed:</p>
+<p>Two copies of all transcripts</p>
+<p>Scissors</p>
+<p>Tape</p>
+<p>Lots of room with long tables and possibly chart stands</p>
+<p>Large sheets of paper (flip charts, newsprint paper, etc.)</p>
+<p>Colored marking pens</p>
+<p>Stick-on notes</p>
+<ol>
+<li>
+<p>Prepare your transcripts for analysis. You will save time and agony later if you are careful when preparing your transcripts. Be sure they follow a consistent style. For example, single space comments and double space between speakers. Bold, <a href="../entities/cap" class="internal alias" data-slug="entities/cap">cap</a>, or underline the comments of the moderator so they are easy to see.</p>
+</li>
+<li>
+<p>Make two paper copies of each transcript. You will cut one up, and use the other for later reference.</p>
+</li>
+</ol>
+<p>TIP: Consider printing transcripts on different colors of paper and color coding by audience type, category, etc. For example, print teenagers on blue paper and parents on green paper. Or draw one blue line down the right-hand margin of each page of the first teenager group, and two down the margin of each page of the second teenager group. After the transcripts are cut apart it will be easy to tell that any comment with two blue lines came from the second teenage group.</p>
+<ol start="3">
+<li>Arrange transcripts in an order. It could be in the sequence in which the groups were conducted, but more likely it will be by categories of participants or by some demographic screening characteristics of participants (users, non-users and employees, or teens, young adults and older adults, etc.). This arrangement helps you be alert to changes that may be occurring from one group to another.</li>
+</ol>
+<p>ristics of participants (users, non-users and employees, or teens, young adults and older adults, etc.). This arrangement helps you be alert to changes that may be occurring from one group to another.</p>
+<ol start="4">
+<li>
+<p>Read all transcripts at one sitting. This quick reading is just to remind you of the whole scope and to refresh your memory of where information is located, what information is missing, and what information occurs in abundance.</p>
+</li>
+<li>
+<p>Prepare large sheets of paper. Use one large sheet of paper for each question. Place the large sheets on chart stands, on a long table or even on the floor. Write the question at the top of the sheet. If you have several categories of groups you might draw lines to divide the paper into sections and then group comments within these sections. For example, on one part of the page you might place comments from teen focus groups, in another place there will be comments from parent focus groups, and in a third place there will be comments from teacher focus groups.</p>
+</li>
+<li>
+<p>Cut and tape.</p>
+</li>
+</ol>
+<p>Start with the first question you are analyzing. (You might not analyze the first question.)</p>
+<p>a. Cut out and read the first response. Ask yourself:</p>
+<p>Does this answer the question? If yes, start a pile.</p>
+<p>If no, does it answer another question? If yes, move it to that question.</p>
+<p>If no, save it in a pile to review later.</p>
+<p>b. Cut out and read the second response to the question.</p>
+<p>Does it answer the question? If yes, is the answer similar to the first answer? If so, put it in the same pile. If it isn’t similar, make a new pile.</p>
+<p>If no, does it answer another question? If yes, move it to that question.</p>
+<p>If no, save it in a pile to review later.</p>
+<p>You are constantly comparing new information to what was already said and putting like things together.</p>
+<p>c. Continue cutting and comparing responses to the first question until you have completed all the transcripts.</p>
+<p>d. Go to the next question.</p>
+<p>to what was already said and putting like things together.</p>
+<p>c. Continue cutting and comparing responses to the first question until you have completed all the transcripts.</p>
+<p>d. Go to the next question.</p>
+<p>e. When you have completed all the questions, go back to the first question and review the various “piles” that you have. Now you may think that some of these piles are related and should be combined. Or you may realize that a pile contains several different concepts and you want to tease those apart. Rearrange your “piles” or categories until you feel they adequately convey what people said in the groups.</p>
+<p>f. Tape each pile or category to the paper. Give each pile a label or descriptor.</p>
+<ol start="7">
+<li>
+<p>Write a statement about the question. Look over the quotes and write a paragraph that describes the responses to that question. A number of possibilities may occur. For example, you might be able to compare and contrast differing categories, you might have a major theme and a minor theme, you might discuss the variability of the comments, or even the passion or intensity of the comments. Following the overview paragraph, you may need several additional paragraphs describing sub-themes or to elaborate on selected topics. When you are finished, go on to the next question.</p>
+</li>
+<li>
+<p>Continue until all transcripts are reviewed.</p>
+</li>
+<li>
+<p>Take a break. Get away from the process for a while. Refocus on the big picture. Think about what prompted the study. It’s easy to get sidetracked into areas of minor importance. Be open to alternative views. Be skeptical. Look over the pile of unused quotes. Think big picture. Invite a research colleague to look over your work and offer feedback.</p>
+</li>
+<li>
+<p>Prepare the report.</p>
+</li>
+</ol>
+<p>Reporting Focus Group Results</p>
+<p>Use a communications strategy</p>
+<p>pile of unused quotes. Think big picture. Invite a research colleague to look over your work and offer feedback.</p>
+<ol start="10">
+<li>Prepare the report.</li>
+</ol>
+<p>Reporting Focus Group Results</p>
+<p>Use a communications strategy</p>
+<p>Rather than <a href="../concepts/human-cognition" class="internal alias" data-slug="concepts/human-cognition">thinking</a> of “a report,” think of what type of <a href="../concepts/communication" class="internal alias" data-slug="concepts/communication">communication</a> strategy is needed. A variety of reports might be used to keep people informed. Consider: e-mails, postcards, phone calls, bulleted summaries, selected quotes, moderator comments, mid-project or final project reports, personal visits by members of the research team, etc.</p>
+<p>Never surprise a client with bad news</p>
+<p>As evaluators, sometimes we learn that not all is well with a program or service. Do no surprise clients with this at a final meeting. Communicate problems early.</p>
+<p>Use an appropriate reporting style that the client finds helpful and meets expectations</p>
+<p>Ask users what kind of report would be helpful to them. What information are they looking for? What are the expectations and traditions of reports within the organization? Ask for examples of styles of reports that they have found useful.</p>
+<p>Strive for enlightenment</p>
+<p>Reports should raise the client’s level of understanding. The purpose is more to enlighten and convey new insights as opposed to repeating what is already known by the sponsor of the study.</p>
+<p>Make points memorable</p>
+<p>Help clients remember the key points by limiting the number of points you highlight. Too many points diminish overall impact. Begin with most important points and follow with lesser important points.</p>
+<p>Use narrative or bulleted format</p>
+<p>Written reports can follow either a narrative format or a bulleted format. Don’t surprise the client with a format different from what was expected.</p>
+<p>Give thought to the oral report</p>
+<p>Oral reports should be brief, clear, and concise. Presenters should indicate why the study is important, why the findings are meaningful, begin with the most important findings, engage the listener in an active manner, and allow plenty of time for questions.</p>
+<p>rs should indicate why the study is important, why the findings are meaningful, begin with the most important findings, engage the listener in an active manner, and allow plenty of time for questions.</p>
+<p>Telephone Focus Groups</p>
+<p>Guiding Principles of Telephone Focus Groups</p>
+<p>Small size group — 4 to 5 people recommended</p>
+<p>Share questions or <a href="../concepts/challenges-discussed" class="internal alias" data-slug="concepts/challenges-discussed">discussion topics</a> in advance</p>
+<p>Limit questions to 5 to 8</p>
+<p>Limit the length to about 60 minutes</p>
+<p>Have participants identify themselves (if voices are not recognizable)</p>
+<p>Encourage participants NOT to use speaker phones or cell phones (poor sound)</p>
+<p>Call on people who aren’t actively participating</p>
+<p>Periodically ask for round-robin responses</p>
+<p>Include ending questions</p>
+<p>Suggestions for a Successful Telephone Focus Group</p>
+<p>Work with a colleague who can help you:</p>
+<p>Keep track of who is talking and not talking</p>
+<p>Note topics that are not adequately discussed</p>
+<p>Take notes and capture relevant quotes</p>
+<p>Typically this person doesn’t speak, but is in the room with the moderator and communicates via notes</p>
+<p>It is OK to list items before they speak or use a simple rating scale</p>
+<p>Be watchful for participants who get “stuck” on minor items and be ready to move them along to the next question.</p>
+<p>At the end, you might indicate that if they have any additional thoughts that weren’t covered, or if something occurs to them later, that you would appreciate their <a href="../entities/email" class="internal alias" data-slug="entities/email">email</a> comments.</p>
+<p>Internet Focus Groups</p>
+<p>Internet groups show enormous potential, but technical glitches remain a problem</p>
+<p>One concern is the platform or computer system that handles the groups. Market researchers contract this out to technical firms. Often public, non-profit and academic communities don’t have the budget for this out-sourcing and therefore, try to adapt in-house systems (such as Moodle, <a href="../entities/adobe" class="internal alias" data-slug="entities/adobe">Adobe</a> Connect, or forum features in other systems.)</p>
+<p>Be sure your systems are password protected</p>
+<p>Keep everything simple and easy to use</p>
+<p>Have tech support ready to help when problems emerge</p>
+<p>s Moodle, Adobe Connect, or forum features in other systems.)</p>
+<p>Be sure your systems are password protected</p>
+<p>Keep everything simple and easy to use</p>
+<p>Have tech support ready to help when problems emerge</p>
+<p>Test out the system and questions several times before beginning the first group</p>
+<p>Consider using avatars (pseudonyms) to provide confidentiality instead of their real names</p>
+<p>Use “back-channel communications” to encourage discussion. “Back-channel” is when you send email messages to individuals encouraging them to add their comment, or to comment in more detail, or to thank them for their thoughtful comment. This lets them know that you are paying attention.</p>
+<p>The Chat Room Focus Group</p>
+<p>The chat room focus group consists of a limited number of people who sign on to a designated Internet site at a particular time and then a moderator presents a series of questions to the participants. These synchronous sessions are often limited to 6 - 8 participants and last 90 minutes or less. These chat room groups tend to elicit the top-of-mind answers and emphasize speed over thoughtful response. They offer the excitement of a live exchange but it is also an environment where some participants can dominate the conversation.</p>
+<p>The Bulletin Board Focus Group</p>
+<p>In the bulletin board focus group, a limited number of people agree in advance to participate in an asynchronous electronic discussion over the course of several days. They agree to sign on each day and check the bulletin board, read the question(s) for the day, look over the comments of other participants, and formulate their response. Often participants are asked to spend about 20 to 30 minutes per day for several days and incentives are based on how many days they submit responses. The questions in a bulletin board group should have a focus and move in a general direction over the course of several days.</p>
+<p>Bibliography</p>
+<p>incentives are based on how many days they submit responses. The questions in a bulletin board group should have a focus and move in a general direction over the course of several days.</p>
+<p>Bibliography</p>
+<p>Bystedt, J., Lynn, S., &amp; Potts, D. (2003). Moderating to the max. Ithaca, NY: Paramount Market Publishing.</p>
+<p>Guest, G., Bunce, A., and Johnson, L. (2006). How many interviews are enough?: An experiment with data saturation and variability. Field Methods, 2006, 18;59.</p>
+<p>Grob, G.F. (2010). Writing for impact. In J.S. Wholey, H.P. Hatry, &amp; K.E. Newcomer. (Eds.). Handbook of practical program evaluation. Chapter 25, pp 594 – 619.</p>
+<p>Hennink, M. M. (2007). International focus group research: A handbook for the health and social sciences. New York: Cambridge University Press.</p>
+<p>Houston, T.K., et al. (2011). Culturally appropriate <a href="../concepts/storytelling" class="internal alias" data-slug="concepts/storytelling">storytelling</a> to improve blood pressure. Annals of Internal Medicine. 154(2) 77-84.</p>
+<p>Krueger, R. A. &amp; Casey, M. A. (2015). Focus groups: A practical guide for applied research. 5th edition. Thousand Oaks, CA: Sage.</p>
+<p>Krueger, R.A. (1998). Developing questions for focus groups. Moderating focus groups. Analyzing and reporting focus group results. Thousand Oaks, CA: Sage.</p>
+<p>Krueger, R. A., &amp; King, J. A. (1998). Involving community members in focus groups. Thousand Oaks, CA: Sage.</p>
+<p>Merton, R., Fiske, M., &amp; Kendall, P. L. (1956). The focused interview. Glencoe, IL: Free Press.</p>
+<p>Morgan, D. L. (1997). Focus groups as <a href="../concepts/qualitative-research" class="internal alias" data-slug="concepts/qualitative-research">qualitative research</a>. Thousand Oaks, CA: Sage.</p>
+<p>Morgan, D. L., &amp; Krueger, R. A. (Eds.). (1998). The focus group kit. Thousand Oaks, CA: Sage.</p>
+<p>Patton, M. Q. (2014). Qualitative evaluation and research methods (4th ed.). Thousand Oaks, CA: 	Sage.</p>
+<p>Rosser, B.R.S., et al. (2011). The future of Internet-based HIV <a href="../concepts/preventive-care" class="internal alias" data-slug="concepts/preventive-care">prevention</a>: A report on key findings from the men’s INTernet (MINTS-I, II) sex studies. NIH Public Access. 	<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/" class="external" target="_blank" rel="noopener noreferrer">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>11). The future of Internet-based HIV prevention: A report on key findings from the men’s INTernet (MINTS-I, II) sex studies. NIH Public Access. 	<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/" class="external" target="_blank" rel="noopener noreferrer">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3345812/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>Vaughn, S., Schummn, J. S., &amp; Sinagub, J. (1996). Focus group interviews in education and <a href="../concepts/psychology" class="internal alias" data-slug="concepts/psychology">psychology</a>. Thousand Oaks, CA: Sage.</p>
+<p>qualcore.com QualCore.com <a href="../entities/inc" class="internal alias" data-slug="entities/inc">Inc.</a> is a firm providing traditional and Internet-based qualitative research services. It is located in Minneapolis, MN.</p>
+<p><a href="http://www.itracks.com" class="external" target="_blank" rel="noopener noreferrer">www.itracks.com<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> itracks is a company that specializes in providing bulletin board services for market researchers. It is located in Saskatoon, SK, Canada.</p>
+<p>Revised 9.6.15</p>
+<p><strong>Table 1:</strong>
+| Consumer Product
+Purpose: Better understand what features consumers look for in a product
+Participants: People who make decisions to buy this product | Consumer Product
+Purpose: Better understand what features consumers look for in a product
+Participants: People who make decisions to buy this product | Consumer Product
+Purpose: Better understand what features consumers look for in a product
+Participants: People who make decisions to buy this product |
+| --- | --- | --- |
+| | Questions | Minutes |
+| 1. | How and when do you use … ? | 5 |
+| 2. | Tell me about positive experiences you’ve had with … | 10 |
+| 3. | Tell me about disappointments you’ve had with … | 10 |
+| 4. | Who or what influences your decision to purchase … ? | 10 |
+| 5. | When you decide to purchase … , what do you look for? Take a piece of paper and jot down three things that are important to you when you purchase … | 10 |
+| 6. | Let’s list these on the flip chart. If you had to pick only one factor that was most important to you, what would it be? You can pick something that you mentioned or something that was said by others. | 10 |
+| 7. | X is most important to a number of you. Talk about that. | 15 |
+| 8. | Y is most important to others. Talk about that. | 15 |
+| 9. | Have you ever changed brands or types of … (Raise hands</p>
+<p>| 7. | X is most important to a number of you. Talk about that. | 15 |
+| 8. | Y is most important to others. Talk about that. | 15 |
+| 9. | Have you ever changed brands or types of … (Raise hands)
+What brought about the change? | 10 |
+| 10. | If you had one minute to give advice to the people who <a href="../concepts/design" class="internal alias" data-slug="concepts/design">design</a> …, what would you say? | 10 |
+| | | 105 |</p>
+<p><strong>Table 2:</strong>
+| Program Evaluation
+Purpose: To gain input on strengths of the program and what could be improved.
+Participants: Adults who have been in the program at least two years. | Program Evaluation
+Purpose: To gain input on strengths of the program and what could be improved.
+Participants: Adults who have been in the program at least two years. | Program Evaluation
+Purpose: To gain input on strengths of the program and what could be improved.
+Participants: Adults who have been in the program at least two years. |
+| --- | --- | --- |
+| | Questions | Minutes |
+| 1. | How did you get involved in (name of program)? | 5 |
+| 2. | Think back over all the years that you’ve participated in (name of program) and tell us your fondest memory. | 10 |
+| 3. | Let’s talk about strengths.
+a. Take this piece of paper and write down three things (name of program) does particularly well. (Give time to write.)
+b. OK. Let’s go around the table and each of you tell me what you wrote down and give me a one-sentence description of that thing. (List each item on a flip chart. If an item is mentioned more than one time, put a check mark next to it for each additional time it is mentioned.)
+c. (Pick the one with the most check marks and say) A number of you said X was a strength. Talk more about that. (Discuss two or three items—as time allows.) | 25 |
+| 4. | Now let’s talk about what needs improvement. Let’s use the same process.
+a. Using the same piece of paper, write down three things (name of program) could improve.
+b. OK. Let’s go around the table and each of you tell me what you wrote down and give me a one-sentence de</p>
+<p>a. Using the same piece of paper, write down three things (name of program) could improve.
+b. OK. Let’s go around the table and each of you tell me what you wrote down and give me a one-sentence description of that thing. (List each item on a flip chart. If an item is mentioned more than one time, put a check mark next to it for each additional time it is mentioned.)
+c. (Pick the one with the most check marks and say) A number of you said X could be improved. Talk about that. What is the problem and how could it be improved? (Discuss two or three things—as time allows.) | 25 |
+| 5. | Suppose that you were in charge and could do whatever you wanted to improve the program better. What change would you make? | 10 |
+| 6. | What can participants do to make the program better? | 10 |
+| 7. | One of the problems that the staff struggle with is declining participation. How could they get more people to participate? | 15 |
+| 8. | If you invited a friend to participate in the program, what would you say? | 10 |
+| 9. | What to you is the most important thing we’ve discussed? | 10 |
+| | | 120 |</p>
+<p><strong>Table 3:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>The Focus Group Plan</th><th>The Focus Group Plan</th></tr></thead><tbody><tr><td>1. Name of the study</td><td></td></tr><tr><td>2. Purpose / Research question</td><td></td></tr><tr><td>3. Participants</td><td></td></tr><tr><td>4. Recruitment</td><td></td></tr><tr><td>procedure &amp;</td><td></td></tr><tr><td>incentive</td><td></td></tr><tr><td>5. Number of groups</td><td></td></tr><tr><td>&amp; locations</td><td></td></tr><tr><td>6. Resources needed</td><td></td></tr><tr><td>(time and money)</td><td></td></tr><tr><td>7. Timeline</td><td></td></tr></tbody></table></div>
+<p>Purpose / Research question | |
+| 3. Participants | |
+| 4. Recruitment
+procedure &amp;
+incentive | |
+| 5. Number of groups
+&amp; locations | |
+| 6. Resources needed
+(time and money) | |
+| 7. Timeline | |</p>
+<p><strong>Table 4:</strong>
+| ANALYSIS TYPE | Memory- based analysis | Note-based analysis | Abridged
+transcript
+analysis | Transcript- based analysis |
+| --- | --- | --- | --- | --- |
+| DESCRIPTION | Moderator analyzes based on memory and past experiences Gives oral debriefing &amp; PowerPoint to client | Moderator prepares a brief written description based on summary comments, field notes and selective review of recording | Moderator prepares written report based on an abridged transcript after listening to audio plus field notes and moderator debriefing | Analyst prepares written report based on complete transcripts. Some use of field notes and moderator debriefing |
+| ORAL OR WRITTEN REPORTS | Usually oral report &amp; PP | Usually oral and written report | Usually oral and written report | Usually oral and written report |
+| TIME REQUIRED PER GROUP | Very fast
+1 hour per group | Fast
+About 1-3 hours per group | Slower
+About one day per group | Slow
+About 2 days per group |
+| PERCEIVED LEVEL OF RIGOR | Minimal | Moderate | Moderate to High | High |
+| RISK OF ERROR | High | Moderate-depending on quality of field notes | Low | Low |</p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/group-dynamics" class="internal alias" data-slug="concepts/group-dynamics">Group Dynamics</a> — <a href="https://en.wikipedia.org/wiki/Group_Dynamics" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/structured-conversation" class="internal alias" data-slug="concepts/structured-conversation">Structured Conversation</a> — <a href="https://en.wikipedia.org/wiki/Structured_Conversation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera" class="internal alias" data-slug="concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera">Focus</a> — <a href="https://en.wikipedia.org/wiki/Focus" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/internet-of-things" class="internal alias" data-slug="concepts/internet-of-things">Data Collection</a> — <a href="https://en.wikipedia.org/wiki/Data_Collection" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/open-ended-questions" class="internal alias" data-slug="concepts/open-ended-questions">Open-Ended Questions</a> — <a href="https://en.wikipedia.org/wiki/Open-Ended_Questions" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/internet-of-things" class="internal alias" data-slug="concepts/internet-of-things">Focus Group Interviewing</a> — <a href="https://en.wikipedia.org/wiki/Focus_Group_Interviewing" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Moderator <a href="../concepts/skills" class="internal alias" data-slug="concepts/skills">Skills</a> — <a href="https://en.wikipedia.org/wiki/Moderator_Skills" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Discussion Facilitation — <a href="https://en.wikipedia.org/wiki/Discussion_Facilitation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Active Engagement — <a href="https://en.wikipedia.org/wiki/Active_Engagement" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Study Planning — <a href="https://en.wikipedia.org/wiki/Study_Planning" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Participant Recruitment — <a href="https://en.wikipedia.org/wiki/Participant_Recruitment" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">Incentive</a> Strategies — <a href="https://en.wikipedia.org/wiki/Incentive_Strategies" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/ai-data-analysis" class="internal alias" data-slug="concepts/ai-data-analysis">Qualitative Data Analysis</a> — <a href="https://en.wikipedia.org/wiki/Qualitative_Data_Analysis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/text-transcript" class="internal alias" data-slug="concepts/text-transcript">Transcription</a> — <a href="https://en.wikipedia.org/wiki/Transcription" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/thematic-analysis" class="internal alias" data-slug="concepts/thematic-analysis">Thematic Coding</a> — <a href="https://en.wikipedia.org/wiki/Thematic_Coding" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Systematic Analysis — <a href="https://en.wikipedia.org/wiki/Systematic_Analysis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Reporting Results — <a href="https://en.wikipedia.org/wiki/Reporting_Results" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Telephone <a href="../concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera" class="internal alias" data-slug="concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera">Focus Groups</a> — <a href="https://en.wikipedia.org/wiki/Telephone_Focus_Groups" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Program Evaluation — <a href="https://en.wikipedia.org/wiki/Program_Evaluation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Consumer Research — <a href="https://en.wikipedia.org/wiki/Consumer_Research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/focus-group" class="internal alias" data-slug="entities/focus-group">Focus Group</a> — <a href="https://en.wikipedia.org/wiki/Focus_Group" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>University of Minnesota — <a href="https://en.wikipedia.org/wiki/University_of_Minnesota" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Richard A. Krueger — <a href="https://en.wikipedia.org/wiki/Richard_A._Krueger" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Mary Anne Casey — <a href="https://en.wikipedia.org/wiki/Mary_Anne_Casey" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>NCBI — <a href="https://en.wikipedia.org/wiki/NCBI" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>PMC — <a href="https://en.wikipedia.org/wiki/PMC" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9666" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#-9-how-to-give-an-oral-summary-at-the-end-of-the-focus-group-11-developing-questions-good-questions12-active-questions-that-engage-the-participants13-generic-questions--consumer-product-14-generic-questions--program-evaluation15-planning-planning-the-focus-group-study16-developing-a-focus-group-plan17-recruitment-systematic-notification-procedures-selection-incentives18-analysis--reporting-analysis-choices19-tips-for-transcribing-focus-group-interviews20-sys" data-for="-9-how-to-give-an-oral-summary-at-the-end-of-the-focus-group-11-developing-questions-good-questions12-active-questions-that-engage-the-participants13-generic-questions--consumer-product-14-generic-questions--program-evaluation15-planning-planning-the-focus-group-study16-developing-a-focus-group-plan17-recruitment-systematic-notification-procedures-selection-incentives18-analysis--reporting-analysis-choices19-tips-for-transcribing-focus-group-interviews20-sys">�………………… 9 How to give an oral summary at the end of the focus group ….…11 DEVELOPING QUESTIONS Good questions..………………………………………………………12 Active questions that engage the participants..……………………13 Generic questions – Consumer product..…………………………. 14 Generic questions – Program evaluation..…………………………15 PLANNING Planning the focus group study……………………………………..16 Developing a focus group plan………………………………………17 RECRUITMENT Systematic notification procedures, selection, incentives……..….18 ANALYSIS &amp; REPORTING Analysis choices………………………………………………………19 Tips for transcribing focus group interviews……………………….20 Sys’</a></li><li class="depth-2"><a href="#participants" data-for="participants">Participants</a></li><li class="depth-2"><a href="#analysis-and-reporting" data-for="analysis-and-reporting">Analysis and Reporting</a></li><li class="depth-2"><a href="#analysis-and-reporting-1" data-for="analysis-and-reporting-1">Analysis and Reporting</a></li><li class="depth-1"><a href="#before-the-focus-group" data-for="before-the-focus-group">Before the focus group</a></li><li class="depth-1"><a href="#ii-during-the-focus-group" data-for="ii-during-the-focus-group">II. During the focus group</a></li><li class="depth-1"><a href="#iii-after-the-focus-group" data-for="iii-after-the-focus-group">III. After the focus group</a></li><li class="depth-0"><a href="#how-to-give-an-oral-summary" data-for="how-to-give-an-oral-summary">How to Give an Oral Summary</a></li><li class="depth-0"><a href="#why-is-rarely-asked" data-for="why-is-rarely-asked">Why? is rarely asked</a></li><li class="depth-1"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-1"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera" class="internal">2026-04-14-how-to-get-tack-sharp-photos-with-any-camera</a></li><li><a href="../concepts/group-dynamics" class="internal">group-dynamics</a></li><li><a href="../concepts/internet-of-things" class="internal">internet-of-things</a></li><li><a href="../concepts/open-ended-questions" class="internal">open-ended-questions</a></li><li><a href="../concepts/structured-conversation" class="internal">structured-conversation</a></li><li><a href="../entities/focus-group" class="internal">focus-group</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

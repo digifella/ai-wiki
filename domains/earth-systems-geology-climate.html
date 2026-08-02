@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Earth Systems, Geology &amp; Climate · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Earth Systems, Geology &amp; Climate · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Earth Systems, Geology &amp; Climate · NemoClaw"/><meta name="twitter:description" content="Earth Systems, Geology &amp; Climate Geology, landscapes, earth history, climate, minerals, and planetary surface systems."/><meta property="og:description" content="Earth Systems, Geology &amp; Climate Geology, landscapes, earth history, climate, minerals, and planetary surface systems."/><meta property="og:image:alt" content="Earth Systems, Geology &amp; Climate Geology, landscapes, earth history, climate, minerals, and planetary surface systems."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/domains/earth-systems-geology-climate"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/domains/earth-systems-geology-climate"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Earth Systems, Geology &amp; Climate Geology, landscapes, earth history, climate, minerals, and planetary surface systems."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/domains/earth-systems-geology-climate-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/domains/earth-systems-geology-climate-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/domains/earth-systems-geology-climate-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="domains/earth-systems-geology-climate"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-14692"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-14692" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../domains/">domains</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Earth Systems, Geology &amp; Climate</a></div></nav><h1 class="article-title">Earth Systems, Geology &amp; Climate</h1><p show-comma="true" class="content-meta"><time datetime="2026-08-01T14:00:00.000Z">Aug 02, 2026</time><span>6 min read</span></p><ul class="tags"><li><a href="../tags/domain" class="internal tag-link">domain</a></li><li><a href="../tags/earth-systems-geology-climate" class="internal tag-link">earth-systems-geology-climate</a></li></ul></div></div><article class="popover-hint domain-page"><h1 id="earth-systems-geology--climate">Earth Systems, Geology &amp; Climate<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#earth-systems-geology--climate" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Geology, landscapes, earth history, climate, minerals, and planetary surface systems.</p>
+<div class="domain-summary-bar">
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">269</span>
+    <span class="domain-summary-label">concepts</span>
+  </div>
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">161</span>
+    <span class="domain-summary-label">entities</span>
+  </div>
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">77</span>
+    <span class="domain-summary-label">linked notes</span>
+  </div>
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">3</span>
+    <span class="domain-summary-label">threads</span>
+  </div>
+</div>
+<h2 id="browse-by-thread">Browse By Thread<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#browse-by-thread" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<div class="domain-group-grid">
+<a class="domain-group-card internal" href="#geology-rocks-minerals">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="geology-rocks--minerals">Geology Rocks &amp; Minerals<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#geology-rocks--minerals" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">120 concepts · 38 linked notes</p>
+  <p class="domain-group-samples">1994 Northridge Earthquake, 2026 04 11 Ritter Island 1888 Volcanic Flank Collapse And Mega Tsunami, 2026 04 11 The 30Km Wide Supervolcano Victoria Never Talks About</p>
+  <p class="domain-group-notes">Oldest Amber Discovery Redefines Plant Resin Defense Evo · Mars Dynamic Discoveries Geology Expanding Shadow and Or</p>
+</a>
+<a class="domain-group-card internal" href="#earth-history-landscapes-tectonics">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="earth-history-landscapes--tectonics">Earth History Landscapes &amp; Tectonics<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#earth-history-landscapes--tectonics" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">8 concepts · 5 linked notes</p>
+  <p class="domain-group-samples">Base Isolation Systems, Devonian Period, Earth System Dynamics</p>
+  <p class="domain-group-notes">Dinosaur Extinction Event Chicxulub Impact Aftermath and · Cerberean Supervolcano Victorias Ancient Explosive Geolo</p>
+</a>
+<a class="domain-group-card internal" href="#climate-environment-surface-systems">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="climate-environment--surface-systems">Climate Environment &amp; Surface Systems<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#climate-environment--surface-systems" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">141 concepts · 50 linked notes</p>
+  <p class="domain-group-samples">2026 04 11 An Entire Town Built Beneath The Australian Desert, 2026 04 13 Irans Alarming Water Crisis, Adverse Weather Conditions</p>
+  <p class="domain-group-notes">Oldest Amber Discovery Redefines Plant Resin Defense Evo · Saturns Hexagonal North Pole Mystery and Explanations</p>
+</a>
+</div>
+<h2 id="thread-detail">Thread Detail<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#thread-detail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<div id="geology-rocks-minerals" class="domain-group-anchor"></div>
+## Geology Rocks &amp; Minerals
+<div class="domain-group-meta">120 concepts · 38 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-07-24-Oldest-Amber-Discovery-Redefines-Plant-Resin-Defense-Evo" class="internal alias" data-slug="lab-notes/2026-07-24-Oldest-Amber-Discovery-Redefines-Plant-Resin-Defense-Evo">Oldest Amber Discovery Redefines Plant Resin Defense Evo</a></li>
+<li><a href="../lab-notes/2026-07-20-Mars-Dynamic-Discoveries-Geology-Expanding-Shadow-and-Or" class="internal alias" data-slug="lab-notes/2026-07-20-Mars-Dynamic-Discoveries-Geology-Expanding-Shadow-and-Or">Mars Dynamic Discoveries Geology Expanding Shadow and Or</a></li>
+<li><a href="../lab-notes/2026-07-18-Saturns-Hexagonal-North-Pole-Mystery-and-Explanations" class="internal alias" data-slug="lab-notes/2026-07-18-Saturns-Hexagonal-North-Pole-Mystery-and-Explanations">Saturns Hexagonal North Pole Mystery and Explanations</a></li>
+<li><a href="../lab-notes/2026-07-17-AI-Coding-Assistance-Speed-vs.-Developer-Skill-Erosion" class="internal alias" data-slug="lab-notes/2026-07-17-AI-Coding-Assistance-Speed-vs.-Developer-Skill-Erosion">AI Coding Assistance Speed vs. Developer Skill Erosion</a></li>
+<li><a href="../lab-notes/2026-07-03-Daintree-Rainforest-Oldest-Living-Tropical-Ecosystem-Anc" class="internal alias" data-slug="lab-notes/2026-07-03-Daintree-Rainforest-Oldest-Living-Tropical-Ecosystem-Anc">Daintree Rainforest Oldest Living Tropical Ecosystem Anc</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/1994-northridge-earthquake" class="internal alias" data-slug="concepts/1994-northridge-earthquake">1994 Northridge Earthquake</a></li>
+<li><a href="../concepts/2026-04-11-ritter-island-1888-volcanic-flank-collapse-and-mega-tsunami" class="internal alias" data-slug="concepts/2026-04-11-ritter-island-1888-volcanic-flank-collapse-and-mega-tsunami">2026 04 11 Ritter Island 1888 Volcanic Flank Collapse And Mega Tsunami</a></li>
+<li><a href="../concepts/2026-04-11-the-30km-wide-supervolcano-victoria-never-talks-about" class="internal alias" data-slug="concepts/2026-04-11-the-30km-wide-supervolcano-victoria-never-talks-about">2026 04 11 The 30Km Wide Supervolcano Victoria Never Talks About</a></li>
+<li><a href="../concepts/2026-04-13-earthquake-base-isolation-systems-functionality-and-critical-infrastru" class="internal alias" data-slug="concepts/2026-04-13-earthquake-base-isolation-systems-functionality-and-critical-infrastru">2026 04 13 Earthquake Base Isolation Systems Functionality And Critical Infrastru</a></li>
+<li><a href="../concepts/2026-04-13-how-earthquake-bearings-work" class="internal alias" data-slug="concepts/2026-04-13-how-earthquake-bearings-work">2026 04 13 How Earthquake Bearings Work</a></li>
+<li><a href="../concepts/acidic-solution-flash-rust" class="internal alias" data-slug="concepts/acidic-solution-flash-rust">Acidic Solution Flash Rust</a></li>
+<li><a href="../concepts/amber" class="internal alias" data-slug="concepts/amber">Amber</a></li>
+<li><a href="../concepts/ancient-earth" class="internal alias" data-slug="concepts/ancient-earth">Ancient Earth</a></li>
+<li><a href="../concepts/ancient-pieces" class="internal alias" data-slug="concepts/ancient-pieces">Ancient Pieces</a></li>
+<li><a href="../concepts/ancient-rainforests" class="internal alias" data-slug="concepts/ancient-rainforests">Ancient Rainforests</a></li>
+<li><a href="../concepts/angle-of-repose" class="internal alias" data-slug="concepts/angle-of-repose">Angle Of Repose</a></li>
+<li><a href="../concepts/anomalous-geological-deposit" class="internal alias" data-slug="concepts/anomalous-geological-deposit">Anomalous Geological Deposit</a></li>
+<li><a href="../concepts/anomalous-geology" class="internal alias" data-slug="concepts/anomalous-geology">Anomalous Geology</a></li>
+<li><a href="../concepts/anomaly" class="internal alias" data-slug="concepts/anomaly">Anomaly</a></li>
+<li><a href="../concepts/antarctica-ice-core" class="internal alias" data-slug="concepts/antarctica-ice-core">Antarctica Ice Core</a></li>
+<li><a href="../concepts/ash-deposit" class="internal alias" data-slug="concepts/ash-deposit">Ash Deposit</a></li>
+<li><a href="../concepts/ashfall" class="internal alias" data-slug="concepts/ashfall">Ashfall</a></li>
+<li><a href="../concepts/asteroid-impact" class="internal alias" data-slug="concepts/asteroid-impact">Asteroid Impact</a></li>
+<li><a href="../concepts/atmospheric-dynamics" class="internal alias" data-slug="concepts/atmospheric-dynamics">Atmospheric Dynamics</a></li>
+<li><a href="../concepts/australian-geology" class="internal alias" data-slug="concepts/australian-geology">Australian Geology</a></li>
+<li><a href="../concepts/caldera" class="internal alias" data-slug="concepts/caldera">Caldera</a></li>
+<li><a href="../concepts/catastrophic-events" class="internal alias" data-slug="concepts/catastrophic-events">Catastrophic Events</a></li>
+<li><a href="../concepts/catastrophic-landslide" class="internal alias" data-slug="concepts/catastrophic-landslide">Catastrophic Landslide</a></li>
+<li><a href="../concepts/causes" class="internal alias" data-slug="concepts/causes">Causes</a></li>
+<li><a href="../concepts/cerberean-supervolcano" class="internal alias" data-slug="concepts/cerberean-supervolcano">Cerberean Supervolcano</a></li>
+<li><a href="../concepts/chicxulub-impact" class="internal alias" data-slug="concepts/chicxulub-impact">Chicxulub Impact</a></li>
+<li><a href="../concepts/coal-formation" class="internal alias" data-slug="concepts/coal-formation">Coal Formation</a></li>
+<li><a href="../concepts/continental-drift" class="internal alias" data-slug="concepts/continental-drift">Continental Drift</a></li>
+<li><a href="../concepts/coral-reef" class="internal alias" data-slug="concepts/coral-reef">Coral Reef</a></li>
+<li><a href="../concepts/crust-movement" class="internal alias" data-slug="concepts/crust-movement">Crust Movement</a></li>
+<li><a href="../concepts/crustal-movement" class="internal alias" data-slug="concepts/crustal-movement">Crustal Movement</a></li>
+<li><a href="../concepts/cyanobacteria" class="internal alias" data-slug="concepts/cyanobacteria">Cyanobacteria</a></li>
+<li><a href="../concepts/desert-geology" class="internal alias" data-slug="concepts/desert-geology">Desert Geology</a></li>
+<li><a href="../concepts/drift-rate" class="internal alias" data-slug="concepts/drift-rate">Drift Rate</a></li>
+<li><a href="../concepts/earthquake-base-isolation" class="internal alias" data-slug="concepts/earthquake-base-isolation">Earthquake Base Isolation</a></li>
+<li><a href="../concepts/earthquake-bearings" class="internal alias" data-slug="concepts/earthquake-bearings">Earthquake Bearings</a></li>
+<li><a href="../concepts/earthquake-engineering" class="internal alias" data-slug="concepts/earthquake-engineering">Earthquake Engineering</a></li>
+<li><a href="../concepts/earthquake-generated-tsunamis" class="internal alias" data-slug="concepts/earthquake-generated-tsunamis">Earthquake Generated Tsunamis</a></li>
+<li><a href="../concepts/earthquake-resistant-design" class="internal alias" data-slug="concepts/earthquake-resistant-design">Earthquake Resistant Design</a></li>
+<li><a href="../concepts/earthquakes" class="internal alias" data-slug="concepts/earthquakes">Earthquakes</a></li>
+<li><a href="../concepts/earths-magnetic-field" class="internal alias" data-slug="concepts/earths-magnetic-field">Earths Magnetic Field</a></li>
+<li><a href="../concepts/evolutionary-timeline" class="internal alias" data-slug="concepts/evolutionary-timeline">Evolutionary Timeline</a></li>
+<li><a href="../concepts/excavation-based-expansion" class="internal alias" data-slug="concepts/excavation-based-expansion">Excavation Based Expansion</a></li>
+<li><a href="../concepts/expanding-shadow" class="internal alias" data-slug="concepts/expanding-shadow">Expanding Shadow</a></li>
+<li><a href="../concepts/explosive-volcanism" class="internal alias" data-slug="concepts/explosive-volcanism">Explosive Volcanism</a></li>
+<li><a href="../concepts/fault-line" class="internal alias" data-slug="concepts/fault-line">Fault Line</a></li>
+<li><a href="../concepts/fossilization" class="internal alias" data-slug="concepts/fossilization">Fossilization</a></li>
+<li><a href="../concepts/geological-formation" class="internal alias" data-slug="concepts/geological-formation">Geological Formation</a></li>
+<li><a href="../concepts/geological-hazards" class="internal alias" data-slug="concepts/geological-hazards">Geological Hazards</a></li>
+<li><a href="../concepts/geological-map" class="internal alias" data-slug="concepts/geological-map">Geological Map</a></li>
+<li><a href="../concepts/geological-survival" class="internal alias" data-slug="concepts/geological-survival">Geological Survival</a></li>
+<li><a href="../concepts/geological-world-division" class="internal alias" data-slug="concepts/geological-world-division">Geological World Division</a></li>
+<li><a href="../concepts/geology" class="internal alias" data-slug="concepts/geology">Geology</a></li>
+<li><a href="../concepts/global-cooling" class="internal alias" data-slug="concepts/global-cooling">Global Cooling</a></li>
+<li><a href="../concepts/gold-bearing-river-systems" class="internal alias" data-slug="concepts/gold-bearing-river-systems">Gold Bearing River Systems</a></li>
+<li><a href="../concepts/gold-deposit" class="internal alias" data-slug="concepts/gold-deposit">Gold Deposit</a></li>
+<li><a href="../concepts/gold-deposits" class="internal alias" data-slug="concepts/gold-deposits">Gold Deposits</a></li>
+<li><a href="../concepts/ground-penetrating-radar-gpr" class="internal alias" data-slug="concepts/ground-penetrating-radar-gpr">Ground Penetrating Radar Gpr</a></li>
+<li><a href="../concepts/habitability" class="internal alias" data-slug="concepts/habitability">Habitability</a></li>
+<li><a href="../concepts/high-oxygen-period" class="internal alias" data-slug="concepts/high-oxygen-period">High Oxygen Period</a></li>
+<li><a href="../concepts/hydrostatic-pressure" class="internal alias" data-slug="concepts/hydrostatic-pressure">Hydrostatic Pressure</a></li>
+<li><a href="../concepts/ice-nucleation" class="internal alias" data-slug="concepts/ice-nucleation">Ice Nucleation</a></li>
+<li><a href="../concepts/inner-core" class="internal alias" data-slug="concepts/inner-core">Inner Core</a></li>
+<li><a href="../concepts/landmass-collapse" class="internal alias" data-slug="concepts/landmass-collapse">Landmass Collapse</a></li>
+<li><a href="../concepts/landslide-generated-tsunami" class="internal alias" data-slug="concepts/landslide-generated-tsunami">Landslide Generated Tsunami</a></li>
+<li><a href="../concepts/lava-flows" class="internal alias" data-slug="concepts/lava-flows">Lava Flows</a></li>
+<li><a href="../concepts/magma-chamber" class="internal alias" data-slug="concepts/magma-chamber">Magma Chamber</a></li>
+<li><a href="../concepts/magnetic-traces" class="internal alias" data-slug="concepts/magnetic-traces">Magnetic Traces</a></li>
+<li><a href="../concepts/major-gold-deposit" class="internal alias" data-slug="concepts/major-gold-deposit">Major Gold Deposit</a></li>
+<li><a href="../concepts/mantle-provinces" class="internal alias" data-slug="concepts/mantle-provinces">Mantle Provinces</a></li>
+<li><a href="../concepts/mars-geology" class="internal alias" data-slug="concepts/mars-geology">Mars Geology</a></li>
+<li><a href="../concepts/martian-geology" class="internal alias" data-slug="concepts/martian-geology">Martian Geology</a></li>
+<li><a href="../concepts/martian-lightning" class="internal alias" data-slug="concepts/martian-lightning">Martian Lightning</a></li>
+<li><a href="../concepts/martian-surface-conditions" class="internal alias" data-slug="concepts/martian-surface-conditions">Martian Surface Conditions</a></li>
+<li><a href="../concepts/mega-tsunamis" class="internal alias" data-slug="concepts/mega-tsunamis">Mega Tsunamis</a></li>
+<li><a href="../concepts/metal-detectors" class="internal alias" data-slug="concepts/metal-detectors">Metal Detectors</a></li>
+<li><a href="../concepts/meteorites" class="internal alias" data-slug="concepts/meteorites">Meteorites</a></li>
+<li><a href="../concepts/moyston-fault" class="internal alias" data-slug="concepts/moyston-fault">Moyston Fault</a></li>
+<li><a href="../concepts/new-world" class="internal alias" data-slug="concepts/new-world">New World</a></li>
+<li><a href="../concepts/offshore-gold-mining" class="internal alias" data-slug="concepts/offshore-gold-mining">Offshore Gold Mining</a></li>
+<li><a href="../concepts/oil-formation" class="internal alias" data-slug="concepts/oil-formation">Oil Formation</a></li>
+<li><a href="../concepts/otway-ranges" class="internal alias" data-slug="concepts/otway-ranges">Otway Ranges</a></li>
+<li><a href="../concepts/plate-boundary" class="internal alias" data-slug="concepts/plate-boundary">Plate Boundary</a></li>
+<li><a href="../concepts/platinum" class="internal alias" data-slug="concepts/platinum">Platinum</a></li>
+<li><a href="../concepts/protective-magnetic-field" class="internal alias" data-slug="concepts/protective-magnetic-field">Protective Magnetic Field</a></li>
+<li><a href="../concepts/qanats" class="internal alias" data-slug="concepts/qanats">Qanats</a></li>
+<li><a href="../concepts/rainfall-formation" class="internal alias" data-slug="concepts/rainfall-formation">Rainfall Formation</a></li>
+<li><a href="../concepts/rarity" class="internal alias" data-slug="concepts/rarity">Rarity</a></li>
+<li><a href="../concepts/relatable-evidence" class="internal alias" data-slug="concepts/relatable-evidence">Relatable Evidence</a></li>
+<li><a href="../concepts/river-systems" class="internal alias" data-slug="concepts/river-systems">River Systems</a></li>
+<li><a href="../concepts/rock-fortresses" class="internal alias" data-slug="concepts/rock-fortresses">Rock Fortresses</a></li>
+<li><a href="../concepts/rock-oxidation" class="internal alias" data-slug="concepts/rock-oxidation">Rock Oxidation</a></li>
+<li><a href="../concepts/rock-rusting" class="internal alias" data-slug="concepts/rock-rusting">Rock Rusting</a></li>
+<li><a href="../concepts/rock-stability" class="internal alias" data-slug="concepts/rock-stability">Rock Stability</a></li>
+<li><a href="../concepts/sea-level-rise" class="internal alias" data-slug="concepts/sea-level-rise">Sea Level Rise</a></li>
+<li><a href="../concepts/skill-erosion" class="internal alias" data-slug="concepts/skill-erosion">Skill Erosion</a></li>
+<li><a href="../concepts/slope-stability" class="internal alias" data-slug="concepts/slope-stability">Slope Stability</a></li>
+<li><a href="../concepts/solid-mechanics" class="internal alias" data-slug="concepts/solid-mechanics">Solid Mechanics</a></li>
+<li><a href="../concepts/st-pauls-island" class="internal alias" data-slug="concepts/st-pauls-island">St Pauls Island</a></li>
+<li><a href="../concepts/submerged-landscapes" class="internal alias" data-slug="concepts/submerged-landscapes">Submerged Landscapes</a></li>
+<li><a href="../concepts/subterranean-oceans" class="internal alias" data-slug="concepts/subterranean-oceans">Subterranean Oceans</a></li>
+<li><a href="../concepts/supervolcanic-eruption" class="internal alias" data-slug="concepts/supervolcanic-eruption">Supervolcanic Eruption</a></li>
+<li><a href="../concepts/tectonic-collision" class="internal alias" data-slug="concepts/tectonic-collision">Tectonic Collision</a></li>
+<li><a href="../concepts/tectonic-plate" class="internal alias" data-slug="concepts/tectonic-plate">Tectonic Plate</a></li>
+<li><a href="../concepts/tectonic-plate-shifts" class="internal alias" data-slug="concepts/tectonic-plate-shifts">Tectonic Plate Shifts</a></li>
+<li><a href="../concepts/tree-sap" class="internal alias" data-slug="concepts/tree-sap">Tree Sap</a></li>
+<li><a href="../concepts/tsunami" class="internal alias" data-slug="concepts/tsunami">Tsunami</a></li>
+<li><a href="../concepts/tsunami-formation" class="internal alias" data-slug="concepts/tsunami-formation">Tsunami Formation</a></li>
+<li><a href="../concepts/unrecorded-tonnage" class="internal alias" data-slug="concepts/unrecorded-tonnage">Unrecorded Tonnage</a></li>
+<li><a href="../concepts/value" class="internal alias" data-slug="concepts/value">Value</a></li>
+<li><a href="../concepts/vertical-stacking" class="internal alias" data-slug="concepts/vertical-stacking">Vertical Stacking</a></li>
+<li><a href="../concepts/volcanic-ash" class="internal alias" data-slug="concepts/volcanic-ash">Volcanic Ash</a></li>
+<li><a href="../concepts/volcanic-eruptions" class="internal alias" data-slug="concepts/volcanic-eruptions">Volcanic Eruptions</a></li>
+<li><a href="../concepts/volcanic-explosivity-index" class="internal alias" data-slug="concepts/volcanic-explosivity-index">Volcanic Explosivity Index</a></li>
+<li><a href="../concepts/volcanology" class="internal alias" data-slug="concepts/volcanology">Volcanology</a></li>
+<li><a href="../concepts/western-victoria" class="internal alias" data-slug="concepts/western-victoria">Western Victoria</a></li>
+<li><a href="../concepts/winter-storm" class="internal alias" data-slug="concepts/winter-storm">Winter Storm</a></li>
+<li><a href="../concepts/winter-storms" class="internal alias" data-slug="concepts/winter-storms">Winter Storms</a></li>
+<li><a href="../concepts/woolly-mammoth-extinction" class="internal alias" data-slug="concepts/woolly-mammoth-extinction">Woolly Mammoth Extinction</a></li>
+<li><a href="../concepts/wrangel-island" class="internal alias" data-slug="concepts/wrangel-island">Wrangel Island</a></li>
+</ul>
+<div id="earth-history-landscapes-tectonics" class="domain-group-anchor"></div>
+## Earth History Landscapes &amp; Tectonics
+<div class="domain-group-meta">8 concepts · 5 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-05-24-Dinosaur-Extinction-Event-Chicxulub-Impact-Aftermath-and" class="internal alias" data-slug="lab-notes/2026-05-24-Dinosaur-Extinction-Event-Chicxulub-Impact-Aftermath-and">Dinosaur Extinction Event Chicxulub Impact Aftermath and</a></li>
+<li><a href="../lab-notes/2026-05-02-Cerberean-Supervolcano-Victorias-Ancient-Explosive-Geolo" class="internal alias" data-slug="lab-notes/2026-05-02-Cerberean-Supervolcano-Victorias-Ancient-Explosive-Geolo">Cerberean Supervolcano Victorias Ancient Explosive Geolo</a></li>
+<li><a href="../lab-notes/2026-04-17-Earths-Inner-Core-Seismic-Anomalies-Suggest-New-State-of-Matter" class="internal alias" data-slug="lab-notes/2026-04-17-Earths-Inner-Core-Seismic-Anomalies-Suggest-New-State-of-Matter">Earths Inner Core Seismic Anomalies Suggest New State of Matter</a></li>
+<li><a href="../lab-notes/2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru" class="internal alias" data-slug="lab-notes/2026-04-13-Earthquake-Base-Isolation-Systems-Functionality-and-Critical-Infrastru">Earthquake Base Isolation Systems Functionality and Critical Infrastru</a></li>
+<li><a href="../lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea" class="internal alias" data-slug="lab-notes/2026-04-11-Cerberean-Supervolcano-Discovery-Geology-and-Explosive-History-Northea">Cerberean Supervolcano Discovery Geology and Explosive History Northea</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/base-isolation-systems" class="internal alias" data-slug="concepts/base-isolation-systems">Base Isolation Systems</a></li>
+<li><a href="../concepts/devonian-period" class="internal alias" data-slug="concepts/devonian-period">Devonian Period</a></li>
+<li><a href="../concepts/earth-system-dynamics" class="internal alias" data-slug="concepts/earth-system-dynamics">Earth System Dynamics</a></li>
+<li><a href="../concepts/earths-internal-structure" class="internal alias" data-slug="concepts/earths-internal-structure">Earths Internal Structure</a></li>
+<li><a href="../concepts/melbourne-region" class="internal alias" data-slug="concepts/melbourne-region">Melbourne Region</a></li>
+<li><a href="../concepts/paleocene-theriac-era-transition" class="internal alias" data-slug="concepts/paleocene-theriac-era-transition">Paleocene Theriac Era Transition</a></li>
+<li><a href="../concepts/supervolcano" class="internal alias" data-slug="concepts/supervolcano">Supervolcano</a></li>
+<li><a href="../concepts/volcanic-eruption" class="internal alias" data-slug="concepts/volcanic-eruption">Volcanic Eruption</a></li>
+</ul>
+<div id="climate-environment-surface-systems" class="domain-group-anchor"></div>
+## Climate Environment &amp; Surface Systems
+<div class="domain-group-meta">141 concepts · 50 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-07-24-Oldest-Amber-Discovery-Redefines-Plant-Resin-Defense-Evo" class="internal alias" data-slug="lab-notes/2026-07-24-Oldest-Amber-Discovery-Redefines-Plant-Resin-Defense-Evo">Oldest Amber Discovery Redefines Plant Resin Defense Evo</a></li>
+<li><a href="../lab-notes/2026-07-18-Saturns-Hexagonal-North-Pole-Mystery-and-Explanations" class="internal alias" data-slug="lab-notes/2026-07-18-Saturns-Hexagonal-North-Pole-Mystery-and-Explanations">Saturns Hexagonal North Pole Mystery and Explanations</a></li>
+<li><a href="../lab-notes/2026-07-17-Observable-Universe-Expansion-Age-vs.-Current-Size-Expla" class="internal alias" data-slug="lab-notes/2026-07-17-Observable-Universe-Expansion-Age-vs.-Current-Size-Expla">Observable Universe Expansion Age vs. Current Size Expla</a></li>
+<li><a href="../lab-notes/2026-07-16-Seasons-Thermochemical-Heat-Storage-Long-term-Renewable" class="internal alias" data-slug="lab-notes/2026-07-16-Seasons-Thermochemical-Heat-Storage-Long-term-Renewable">Seasons Thermochemical Heat Storage Long term Renewable</a></li>
+<li><a href="../lab-notes/2026-07-10-Banks-Peninsula-Rewilding-Hugh-Wilsons-Gorse-Based-Ecosy" class="internal alias" data-slug="lab-notes/2026-07-10-Banks-Peninsula-Rewilding-Hugh-Wilsons-Gorse-Based-Ecosy">Banks Peninsula Rewilding Hugh Wilsons Gorse Based Ecosy</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/2026-04-11-an-entire-town-built-beneath-the-australian-desert" class="internal alias" data-slug="concepts/2026-04-11-an-entire-town-built-beneath-the-australian-desert">2026 04 11 An Entire Town Built Beneath The Australian Desert</a></li>
+<li><a href="../concepts/2026-04-13-irans-alarming-water-crisis" class="internal alias" data-slug="concepts/2026-04-13-irans-alarming-water-crisis">2026 04 13 Irans Alarming Water Crisis</a></li>
+<li><a href="../concepts/adverse-weather-conditions" class="internal alias" data-slug="concepts/adverse-weather-conditions">Adverse Weather Conditions</a></li>
+<li><a href="../concepts/an-entire-town-built-beneath-the-australian-desert-in-response-to-extreme" class="internal alias" data-slug="concepts/an-entire-town-built-beneath-the-australian-desert-in-response-to-extreme">An Entire Town Built Beneath The Australian Desert In Response To Extreme</a></li>
+<li><a href="../concepts/annual-water-usage" class="internal alias" data-slug="concepts/annual-water-usage">Annual Water Usage</a></li>
+<li><a href="../concepts/arid-climate" class="internal alias" data-slug="concepts/arid-climate">Arid Climate</a></li>
+<li><a href="../concepts/arid-geography" class="internal alias" data-slug="concepts/arid-geography">Arid Geography</a></li>
+<li><a href="../concepts/atmospheric-phenomena" class="internal alias" data-slug="concepts/atmospheric-phenomena">Atmospheric Phenomena</a></li>
+<li><a href="../concepts/australian-outback" class="internal alias" data-slug="concepts/australian-outback">Australian Outback</a></li>
+<li><a href="../concepts/breadbasket-model" class="internal alias" data-slug="concepts/breadbasket-model">Breadbasket Model</a></li>
+<li><a href="../concepts/caffeine-removal" class="internal alias" data-slug="concepts/caffeine-removal">Caffeine Removal</a></li>
+<li><a href="../concepts/cambrian-period" class="internal alias" data-slug="concepts/cambrian-period">Cambrian Period</a></li>
+<li><a href="../concepts/carbon-dioxide-levels" class="internal alias" data-slug="concepts/carbon-dioxide-levels">Carbon Dioxide Levels</a></li>
+<li><a href="../concepts/climate-adaptation" class="internal alias" data-slug="concepts/climate-adaptation">Climate Adaptation</a></li>
+<li><a href="../concepts/climate-change" class="internal alias" data-slug="concepts/climate-change">Climate Change</a></li>
+<li><a href="../concepts/climate-change-impacts-on-wildlife" class="internal alias" data-slug="concepts/climate-change-impacts-on-wildlife">Climate Change Impacts On Wildlife</a></li>
+<li><a href="../concepts/climate-science" class="internal alias" data-slug="concepts/climate-science">Climate Science</a></li>
+<li><a href="../concepts/controlled-climate-experiment" class="internal alias" data-slug="concepts/controlled-climate-experiment">Controlled Climate Experiment</a></li>
+<li><a href="../concepts/conversation-flow" class="internal alias" data-slug="concepts/conversation-flow">Conversation Flow</a></li>
+<li><a href="../concepts/decaffeinated-coffee" class="internal alias" data-slug="concepts/decaffeinated-coffee">Decaffeinated Coffee</a></li>
+<li><a href="../concepts/defensive-fortifications" class="internal alias" data-slug="concepts/defensive-fortifications">Defensive Fortifications</a></li>
+<li><a href="../concepts/demand-response" class="internal alias" data-slug="concepts/demand-response">Demand Response</a></li>
+<li><a href="../concepts/desalination" class="internal alias" data-slug="concepts/desalination">Desalination</a></li>
+<li><a href="../concepts/desalination-plants" class="internal alias" data-slug="concepts/desalination-plants">Desalination Plants</a></li>
+<li><a href="../concepts/desalination-technology" class="internal alias" data-slug="concepts/desalination-technology">Desalination Technology</a></li>
+<li><a href="../concepts/desert-climate" class="internal alias" data-slug="concepts/desert-climate">Desert Climate</a></li>
+<li><a href="../concepts/desert-landscapes" class="internal alias" data-slug="concepts/desert-landscapes">Desert Landscapes</a></li>
+<li><a href="../concepts/domino-effect" class="internal alias" data-slug="concepts/domino-effect">Domino Effect</a></li>
+<li><a href="../concepts/drainage-system" class="internal alias" data-slug="concepts/drainage-system">Drainage System</a></li>
+<li><a href="../concepts/dugouts" class="internal alias" data-slug="concepts/dugouts">Dugouts</a></li>
+<li><a href="../concepts/early-fungi" class="internal alias" data-slug="concepts/early-fungi">Early Fungi</a></li>
+<li><a href="../concepts/earth-sheltered-construction" class="internal alias" data-slug="concepts/earth-sheltered-construction">Earth Sheltered Construction</a></li>
+<li><a href="../concepts/earths-atmosphere" class="internal alias" data-slug="concepts/earths-atmosphere">Earths Atmosphere</a></li>
+<li><a href="../concepts/electric-reliability" class="internal alias" data-slug="concepts/electric-reliability">Electric Reliability</a></li>
+<li><a href="../concepts/electric-semi-truck" class="internal alias" data-slug="concepts/electric-semi-truck">Electric Semi Truck</a></li>
+<li><a href="../concepts/electricity-grid" class="internal alias" data-slug="concepts/electricity-grid">Electricity Grid</a></li>
+<li><a href="../concepts/emissions-reduction" class="internal alias" data-slug="concepts/emissions-reduction">Emissions Reduction</a></li>
+<li><a href="../concepts/energy-conservation" class="internal alias" data-slug="concepts/energy-conservation">Energy Conservation</a></li>
+<li><a href="../concepts/energy-consumption" class="internal alias" data-slug="concepts/energy-consumption">Energy Consumption</a></li>
+<li><a href="../concepts/energy-consumption-in-desalination" class="internal alias" data-slug="concepts/energy-consumption-in-desalination">Energy Consumption In Desalination</a></li>
+<li><a href="../concepts/energy-demand" class="internal alias" data-slug="concepts/energy-demand">Energy Demand</a></li>
+<li><a href="../concepts/energy-mismatch" class="internal alias" data-slug="concepts/energy-mismatch">Energy Mismatch</a></li>
+<li><a href="../concepts/energy-source" class="internal alias" data-slug="concepts/energy-source">Energy Source</a></li>
+<li><a href="../concepts/engineered-solutions" class="internal alias" data-slug="concepts/engineered-solutions">Engineered Solutions</a></li>
+<li><a href="../concepts/environmental-risks" class="internal alias" data-slug="concepts/environmental-risks">Environmental Risks</a></li>
+<li><a href="../concepts/ercot-electric-reliability-council-of-texas" class="internal alias" data-slug="concepts/ercot-electric-reliability-council-of-texas">Ercot Electric Reliability Council Of Texas</a></li>
+<li><a href="../concepts/ethanol-removal" class="internal alias" data-slug="concepts/ethanol-removal">Ethanol Removal</a></li>
+<li><a href="../concepts/extreme-weather-events" class="internal alias" data-slug="concepts/extreme-weather-events">Extreme Weather Events</a></li>
+<li><a href="../concepts/flow" class="internal alias" data-slug="concepts/flow">Flow</a></li>
+<li><a href="../concepts/flow-management" class="internal alias" data-slug="concepts/flow-management">Flow Management</a></li>
+<li><a href="../concepts/fortress-belt" class="internal alias" data-slug="concepts/fortress-belt">Fortress Belt</a></li>
+<li><a href="../concepts/geologic-epochs" class="internal alias" data-slug="concepts/geologic-epochs">Geologic Epochs</a></li>
+<li><a href="../concepts/geometric-weather-structures" class="internal alias" data-slug="concepts/geometric-weather-structures">Geometric Weather Structures</a></li>
+<li><a href="../concepts/geophysical-surveys" class="internal alias" data-slug="concepts/geophysical-surveys">Geophysical Surveys</a></li>
+<li><a href="../concepts/greenhouse-gases" class="internal alias" data-slug="concepts/greenhouse-gases">Greenhouse Gases</a></li>
+<li><a href="../concepts/heat-pumps" class="internal alias" data-slug="concepts/heat-pumps">Heat Pumps</a></li>
+<li><a href="../concepts/hubble-flow" class="internal alias" data-slug="concepts/hubble-flow">Hubble Flow</a></li>
+<li><a href="../concepts/human-ingenuity" class="internal alias" data-slug="concepts/human-ingenuity">Human Ingenuity</a></li>
+<li><a href="../concepts/industrial-revolution" class="internal alias" data-slug="concepts/industrial-revolution">Industrial Revolution</a></li>
+<li><a href="../concepts/industrialization" class="internal alias" data-slug="concepts/industrialization">Industrialization</a></li>
+<li><a href="../concepts/insect-physiology" class="internal alias" data-slug="concepts/insect-physiology">Insect Physiology</a></li>
+<li><a href="../concepts/irrigation-schemes" class="internal alias" data-slug="concepts/irrigation-schemes">Irrigation Schemes</a></li>
+<li><a href="../concepts/jebel-ali-power-and-desalination-complex" class="internal alias" data-slug="concepts/jebel-ali-power-and-desalination-complex">Jebel Ali Power And Desalination Complex</a></li>
+<li><a href="../concepts/jurassic-park" class="internal alias" data-slug="concepts/jurassic-park">Jurassic Park</a></li>
+<li><a href="../concepts/land-use" class="internal alias" data-slug="concepts/land-use">Land Use</a></li>
+<li><a href="../concepts/large-scale-irrigation" class="internal alias" data-slug="concepts/large-scale-irrigation">Large Scale Irrigation</a></li>
+<li><a href="../concepts/last-ice-age" class="internal alias" data-slug="concepts/last-ice-age">Last Ice Age</a></li>
+<li><a href="../concepts/liquid-water" class="internal alias" data-slug="concepts/liquid-water">Liquid Water</a></li>
+<li><a href="../concepts/logistics-strikes" class="internal alias" data-slug="concepts/logistics-strikes">Logistics Strikes</a></li>
+<li><a href="../concepts/lowest-temperature-ever-recorded" class="internal alias" data-slug="concepts/lowest-temperature-ever-recorded">Lowest Temperature Ever Recorded</a></li>
+<li><a href="../concepts/mega-water-fabs" class="internal alias" data-slug="concepts/mega-water-fabs">Mega Water Fabs</a></li>
+<li><a href="../concepts/military-logistics" class="internal alias" data-slug="concepts/military-logistics">Military Logistics</a></li>
+<li><a href="../concepts/modern-skyscraper-design" class="internal alias" data-slug="concepts/modern-skyscraper-design">Modern Skyscraper Design</a></li>
+<li><a href="../concepts/monitoring-systems" class="internal alias" data-slug="concepts/monitoring-systems">Monitoring Systems</a></li>
+<li><a href="../concepts/non-alcoholic-beverages" class="internal alias" data-slug="concepts/non-alcoholic-beverages">Non Alcoholic Beverages</a></li>
+<li><a href="../concepts/northern-australia" class="internal alias" data-slug="concepts/northern-australia">Northern Australia</a></li>
+<li><a href="../concepts/ord-river-irrigation-project" class="internal alias" data-slug="concepts/ord-river-irrigation-project">Ord River Irrigation Project</a></li>
+<li><a href="../concepts/outback-settlement" class="internal alias" data-slug="concepts/outback-settlement">Outback Settlement</a></li>
+<li><a href="../concepts/outback-survival" class="internal alias" data-slug="concepts/outback-survival">Outback Survival</a></li>
+<li><a href="../concepts/oxygen-saturation" class="internal alias" data-slug="concepts/oxygen-saturation">Oxygen Saturation</a></li>
+<li><a href="../concepts/plant-colonization" class="internal alias" data-slug="concepts/plant-colonization">Plant Colonization</a></li>
+<li><a href="../concepts/plant-resin" class="internal alias" data-slug="concepts/plant-resin">Plant Resin</a></li>
+<li><a href="../concepts/power-grid-outage" class="internal alias" data-slug="concepts/power-grid-outage">Power Grid Outage</a></li>
+<li><a href="../concepts/power-grid-stability" class="internal alias" data-slug="concepts/power-grid-stability">Power Grid Stability</a></li>
+<li><a href="../concepts/power-outages" class="internal alias" data-slug="concepts/power-outages">Power Outages</a></li>
+<li><a href="../concepts/psychoactive-compounds" class="internal alias" data-slug="concepts/psychoactive-compounds">Psychoactive Compounds</a></li>
+<li><a href="../concepts/qanat" class="internal alias" data-slug="concepts/qanat">Qanat</a></li>
+<li><a href="../concepts/qanat-management" class="internal alias" data-slug="concepts/qanat-management">Qanat Management</a></li>
+<li><a href="../concepts/radiative-cooling" class="internal alias" data-slug="concepts/radiative-cooling">Radiative Cooling</a></li>
+<li><a href="../concepts/rectilinear-flow-transformer" class="internal alias" data-slug="concepts/rectilinear-flow-transformer">Rectilinear Flow Transformer</a></li>
+<li><a href="../concepts/renewable-energy-intermittency" class="internal alias" data-slug="concepts/renewable-energy-intermittency">Renewable Energy Intermittency</a></li>
+<li><a href="../concepts/renewable-freshwater-resources" class="internal alias" data-slug="concepts/renewable-freshwater-resources">Renewable Freshwater Resources</a></li>
+<li><a href="../concepts/renewable-water-resources" class="internal alias" data-slug="concepts/renewable-water-resources">Renewable Water Resources</a></li>
+<li><a href="../concepts/residents-construct-homes-businesses-and-even-churches-directly-into-the-earth" class="internal alias" data-slug="concepts/residents-construct-homes-businesses-and-even-churches-directly-into-the-earth">Residents Construct Homes Businesses And Even Churches Directly Into The Earth</a></li>
+<li><a href="../concepts/russian-offensive" class="internal alias" data-slug="concepts/russian-offensive">Russian Offensive</a></li>
+<li><a href="../concepts/severe-weather-events" class="internal alias" data-slug="concepts/severe-weather-events">Severe Weather Events</a></li>
+<li><a href="../concepts/sodium-hydroxide" class="internal alias" data-slug="concepts/sodium-hydroxide">Sodium Hydroxide</a></li>
+<li><a href="../concepts/solar-energy" class="internal alias" data-slug="concepts/solar-energy">Solar Energy</a></li>
+<li><a href="../concepts/spiral-pump" class="internal alias" data-slug="concepts/spiral-pump">Spiral Pump</a></li>
+<li><a href="../concepts/strategic-depth" class="internal alias" data-slug="concepts/strategic-depth">Strategic Depth</a></li>
+<li><a href="../concepts/subglacial-lake" class="internal alias" data-slug="concepts/subglacial-lake">Subglacial Lake</a></li>
+<li><a href="../concepts/subsurface-excavation" class="internal alias" data-slug="concepts/subsurface-excavation">Subsurface Excavation</a></li>
+<li><a href="../concepts/subterranean-living" class="internal alias" data-slug="concepts/subterranean-living">Subterranean Living</a></li>
+<li><a href="../concepts/surplus-energy" class="internal alias" data-slug="concepts/surplus-energy">Surplus Energy</a></li>
+<li><a href="../concepts/sustainability-concerns" class="internal alias" data-slug="concepts/sustainability-concerns">Sustainability Concerns</a></li>
+<li><a href="../concepts/territorial-gains" class="internal alias" data-slug="concepts/territorial-gains">Territorial Gains</a></li>
+<li><a href="../concepts/thermal-management-fix" class="internal alias" data-slug="concepts/thermal-management-fix">Thermal Management Fix</a></li>
+<li><a href="../concepts/tropical-farming" class="internal alias" data-slug="concepts/tropical-farming">Tropical Farming</a></li>
+<li><a href="../concepts/ukrainian-counter-strategies" class="internal alias" data-slug="concepts/ukrainian-counter-strategies">Ukrainian Counter Strategies</a></li>
+<li><a href="../concepts/underground-dwelling" class="internal alias" data-slug="concepts/underground-dwelling">Underground Dwelling</a></li>
+<li><a href="../concepts/underground-dwellings" class="internal alias" data-slug="concepts/underground-dwellings">Underground Dwellings</a></li>
+<li><a href="../concepts/underground-living" class="internal alias" data-slug="concepts/underground-living">Underground Living</a></li>
+<li><a href="../concepts/underground-settlements" class="internal alias" data-slug="concepts/underground-settlements">Underground Settlements</a></li>
+<li><a href="../concepts/underground-structures" class="internal alias" data-slug="concepts/underground-structures">Underground Structures</a></li>
+<li><a href="../concepts/unhealthy-air-quality" class="internal alias" data-slug="concepts/unhealthy-air-quality">Unhealthy Air Quality</a></li>
+<li><a href="../concepts/urbanization" class="internal alias" data-slug="concepts/urbanization">Urbanization</a></li>
+<li><a href="../concepts/war-dynamics" class="internal alias" data-slug="concepts/war-dynamics">War Dynamics</a></li>
+<li><a href="../concepts/water-bath" class="internal alias" data-slug="concepts/water-bath">Water Bath</a></li>
+<li><a href="../concepts/water-bath-method" class="internal alias" data-slug="concepts/water-bath-method">Water Bath Method</a></li>
+<li><a href="../concepts/water-conservation" class="internal alias" data-slug="concepts/water-conservation">Water Conservation</a></li>
+<li><a href="../concepts/water-cycle-simulation" class="internal alias" data-slug="concepts/water-cycle-simulation">Water Cycle Simulation</a></li>
+<li><a href="../concepts/water-element" class="internal alias" data-slug="concepts/water-element">Water Element</a></li>
+<li><a href="../concepts/water-flow" class="internal alias" data-slug="concepts/water-flow">Water Flow</a></li>
+<li><a href="../concepts/water-gardening" class="internal alias" data-slug="concepts/water-gardening">Water Gardening</a></li>
+<li><a href="../concepts/water-management" class="internal alias" data-slug="concepts/water-management">Water Management</a></li>
+<li><a href="../concepts/water-management-systems" class="internal alias" data-slug="concepts/water-management-systems">Water Management Systems</a></li>
+<li><a href="../concepts/water-method" class="internal alias" data-slug="concepts/water-method">Water Method</a></li>
+<li><a href="../concepts/water-only-nutrient-solution" class="internal alias" data-slug="concepts/water-only-nutrient-solution">Water Only Nutrient Solution</a></li>
+<li><a href="../concepts/water-personality" class="internal alias" data-slug="concepts/water-personality">Water Personality</a></li>
+<li><a href="../concepts/water-process" class="internal alias" data-slug="concepts/water-process">Water Process</a></li>
+<li><a href="../concepts/water-propagation" class="internal alias" data-slug="concepts/water-propagation">Water Propagation</a></li>
+<li><a href="../concepts/water-scarcity" class="internal alias" data-slug="concepts/water-scarcity">Water Scarcity</a></li>
+<li><a href="../concepts/water-scarcity-in-gcc" class="internal alias" data-slug="concepts/water-scarcity-in-gcc">Water Scarcity In Gcc</a></li>
+<li><a href="../concepts/water-structure" class="internal alias" data-slug="concepts/water-structure">Water Structure</a></li>
+<li><a href="../concepts/weather-forecasting" class="internal alias" data-slug="concepts/weather-forecasting">Weather Forecasting</a></li>
+<li><a href="../concepts/weather-patterns" class="internal alias" data-slug="concepts/weather-patterns">Weather Patterns</a></li>
+<li><a href="../concepts/weatherization" class="internal alias" data-slug="concepts/weatherization">Weatherization</a></li>
+<li><a href="../concepts/wildfires" class="internal alias" data-slug="concepts/wildfires">Wildfires</a></li>
+<li><a href="../concepts/winter-rainfall" class="internal alias" data-slug="concepts/winter-rainfall">Winter Rainfall</a></li>
+<li><a href="../concepts/winter-weather" class="internal alias" data-slug="concepts/winter-weather">Winter Weather</a></li>
+<li><a href="../concepts/wirtz-pump" class="internal alias" data-slug="concepts/wirtz-pump">Wirtz Pump</a></li>
+</ul>
+<h2 id="key-entities">Key Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/2048" class="internal alias" data-slug="entities/2048">2048</a></li>
+<li><a href="../entities/333-collins-street" class="internal alias" data-slug="entities/333-collins-street">333 Collins Street</a></li>
+<li><a href="../entities/abacusai" class="internal alias" data-slug="entities/abacusai">Abacusai</a></li>
+<li><a href="../entities/abc-news" class="internal alias" data-slug="entities/abc-news">Abc News</a></li>
+<li><a href="../entities/adobe" class="internal alias" data-slug="entities/adobe">Adobe</a></li>
+<li><a href="../entities/alaska" class="internal alias" data-slug="entities/alaska">Alaska</a></li>
+<li><a href="../entities/alec-brenner" class="internal alias" data-slug="entities/alec-brenner">Alec Brenner</a></li>
+<li><a href="../entities/aletheia" class="internal alias" data-slug="entities/aletheia">Aletheia</a></li>
+<li><a href="../entities/ancient-aussie" class="internal alias" data-slug="entities/ancient-aussie">Ancient Aussie</a></li>
+<li><a href="../entities/anita-woolley" class="internal alias" data-slug="entities/anita-woolley">Anita Woolley</a></li>
+<li><a href="../entities/anton-petrov" class="internal alias" data-slug="entities/anton-petrov">Anton Petrov</a></li>
+<li><a href="../entities/astrum" class="internal alias" data-slug="entities/astrum">Astrum</a></li>
+<li><a href="../entities/bin-xu" class="internal alias" data-slug="entities/bin-xu">Bin Xu</a></li>
+<li><a href="../entities/black-death" class="internal alias" data-slug="entities/black-death">Black Death</a></li>
+<li><a href="../entities/bmc-medicine" class="internal alias" data-slug="entities/bmc-medicine">Bmc Medicine</a></li>
+<li><a href="../entities/bmj-review" class="internal alias" data-slug="entities/bmj-review">Bmj Review</a></li>
+<li><a href="../entities/brené-brown" class="internal alias" data-slug="entities/brené-brown">Brené Brown</a></li>
+<li><a href="../entities/bruce-mccandless" class="internal alias" data-slug="entities/bruce-mccandless">Bruce Mccandless</a></li>
+<li><a href="../entities/cassini" class="internal alias" data-slug="entities/cassini">Cassini</a></li>
+<li><a href="../entities/chris-hay" class="internal alias" data-slug="entities/chris-hay">Chris Hay</a></li>
+<li><a href="../entities/claude-ai" class="internal alias" data-slug="entities/claude-ai">Claude Ai</a></li>
+<li><a href="../entities/claude-mythos-5" class="internal alias" data-slug="entities/claude-mythos-5">Claude Mythos 5</a></li>
+<li><a href="../entities/claudecode" class="internal alias" data-slug="entities/claudecode">Claudecode</a></li>
+<li><a href="../entities/climate-assistant-gpt" class="internal alias" data-slug="entities/climate-assistant-gpt">Climate Assistant Gpt</a></li>
+<li><a href="../entities/codacus" class="internal alias" data-slug="entities/codacus">Codacus</a></li>
+<li><a href="../entities/coober-pedy" class="internal alias" data-slug="entities/coober-pedy">Coober Pedy</a></li>
+<li><a href="../entities/crimea" class="internal alias" data-slug="entities/crimea">Crimea</a></li>
+<li><a href="../entities/ctrlcmd" class="internal alias" data-slug="entities/ctrlcmd">Ctrlcmd</a></li>
+<li><a href="../entities/cyber-ryan" class="internal alias" data-slug="entities/cyber-ryan">Cyber Ryan</a></li>
+<li><a href="../entities/cyber-security" class="internal alias" data-slug="entities/cyber-security">Cyber Security</a></li>
+<li><a href="../entities/dong-zheng" class="internal alias" data-slug="entities/dong-zheng">Dong Zheng</a></li>
+<li><a href="../entities/dr-anil-variyar" class="internal alias" data-slug="entities/dr-anil-variyar">Dr Anil Variyar</a></li>
+<li><a href="../entities/dr-laurie-santos" class="internal alias" data-slug="entities/dr-laurie-santos">Dr Laurie Santos</a></li>
+<li><a href="../entities/dr-stephen-scott-cowan" class="internal alias" data-slug="entities/dr-stephen-scott-cowan">Dr Stephen Scott Cowan</a></li>
+<li><a href="../entities/earth" class="internal alias" data-slug="entities/earth">Earth</a></li>
+<li><a href="../entities/ellie-in-space" class="internal alias" data-slug="entities/ellie-in-space">Ellie In Space</a></li>
+<li><a href="../entities/ercot" class="internal alias" data-slug="entities/ercot">Ercot</a></li>
+<li><a href="../entities/fact-quickie" class="internal alias" data-slug="entities/fact-quickie">Fact Quickie</a></li>
+<li><a href="../entities/fiapssua" class="internal alias" data-slug="entities/fiapssua">Fiapssua</a></li>
+<li><a href="../entities/fire-child-water-child" class="internal alias" data-slug="entities/fire-child-water-child">Fire Child Water Child</a></li>
+</ul>
+<h2 id="related-shelves">Related Shelves<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-shelves" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../domains/ai-agents" class="internal alias" data-slug="domains/ai-agents">AI &amp; Agents</a></li>
+<li><a href="../domains/tools-platforms-infrastructure" class="internal alias" data-slug="domains/tools-platforms-infrastructure">Tools, Platforms &amp; Infrastructure</a></li>
+<li><a href="../domains/ux-design" class="internal alias" data-slug="domains/ux-design">UX &amp; Design</a></li>
+<li><a href="../domains/creative-pursuits" class="internal alias" data-slug="domains/creative-pursuits">Creative Pursuits</a></li>
+<li><a href="../domains/food-nutrition" class="internal alias" data-slug="domains/food-nutrition">Food &amp; Nutrition</a></li>
+<li><a href="../domains/business-strategy" class="internal alias" data-slug="domains/business-strategy">Business &amp; Strategy</a></li>
+<li><a href="../domains/biology-life-sciences" class="internal alias" data-slug="domains/biology-life-sciences">Biology &amp; Life Sciences</a></li>
+<li><a href="../domains/science-physics-research" class="internal alias" data-slug="domains/science-physics-research">Science, Physics &amp; Research</a></li>
+<li><a href="../domains/maths-logic-crypto" class="internal alias" data-slug="domains/maths-logic-crypto">Maths, Logic &amp; Crypto</a></li>
+<li><a href="../domains/history-anthropology" class="internal alias" data-slug="domains/history-anthropology">History &amp; Anthropology</a></li>
+<li><a href="../domains/entertainment-games" class="internal alias" data-slug="domains/entertainment-games">Entertainment &amp; Games</a></li>
+<li><a href="../domains/philosophy-ethics-religion" class="internal alias" data-slug="domains/philosophy-ethics-religion">Philosophy, Ethics &amp; Religion</a></li>
+<li><a href="../domains/built-environment-architecture" class="internal alias" data-slug="domains/built-environment-architecture">Built Environment &amp; Architecture</a></li>
+<li><a href="../domains/society-politics-conflict" class="internal alias" data-slug="domains/society-politics-conflict">Society, Politics &amp; Conflict</a></li>
+<li><a href="../domains/travels-journeys" class="internal alias" data-slug="domains/travels-journeys">Travels &amp; Journeys</a></li>
+<li><a href="../domains/cosmology-space" class="internal alias" data-slug="domains/cosmology-space">Cosmology &amp; Space</a></li>
+<li><a href="../domains/health-wellbeing" class="internal alias" data-slug="domains/health-wellbeing">Health &amp; Wellbeing</a></li>
+<li><a href="../domains/undecided" class="internal alias" data-slug="domains/undecided">Undecided</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-7263" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#earth-systems-geology--climate" data-for="earth-systems-geology--climate">Earth Systems, Geology &amp; Climate</a></li><li class="depth-1"><a href="#browse-by-thread" data-for="browse-by-thread">Browse By Thread</a></li><li class="depth-1"><a href="#thread-detail" data-for="thread-detail">Thread Detail</a></li><li class="depth-1"><a href="#key-entities" data-for="key-entities">Key Entities</a></li><li class="depth-1"><a href="#related-shelves" data-for="related-shelves">Related Shelves</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../INDEX" class="internal">INDEX</a></li><li><a href="../domains/ai-agents" class="internal">AI &amp; Agents</a></li><li><a href="../domains/biology-life-sciences" class="internal">Biology &amp; Life Sciences</a></li><li><a href="../domains/built-environment-architecture" class="internal">Built Environment &amp; Architecture</a></li><li><a href="../domains/business-strategy" class="internal">Business &amp; Strategy</a></li><li><a href="../domains/cosmology-space" class="internal">Cosmology &amp; Space</a></li><li><a href="../domains/creative-pursuits" class="internal">Creative Pursuits</a></li><li><a href="../domains/entertainment-games" class="internal">Entertainment &amp; Games</a></li><li><a href="../domains/food-nutrition" class="internal">Food &amp; Nutrition</a></li><li><a href="../domains/health-wellbeing" class="internal">Health &amp; Wellbeing</a></li><li><a href="../domains/history-anthropology" class="internal">History &amp; Anthropology</a></li><li><a href="../domains/maths-logic-crypto" class="internal">Maths, Logic &amp; Crypto</a></li><li><a href="../domains/philosophy-ethics-religion" class="internal">Philosophy, Ethics &amp; Religion</a></li><li><a href="../domains/science-physics-research" class="internal">Science, Physics &amp; Research</a></li><li><a href="../domains/society-politics-conflict" class="internal">Society, Politics &amp; Conflict</a></li><li><a href="../domains/tools-platforms-infrastructure" class="internal">Tools, Platforms &amp; Infrastructure</a></li><li><a href="../domains/travels-journeys" class="internal">Travels &amp; Journeys</a></li><li><a href="../domains/undecided" class="internal">Undecided</a></li><li><a href="../domains/ux-design" class="internal">UX &amp; Design</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

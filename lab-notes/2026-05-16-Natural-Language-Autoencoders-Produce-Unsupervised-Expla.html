@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>URL Ingest Summary · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="URL Ingest Summary · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="URL Ingest Summary · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Generated: 2026-05-16 Overview Total URLs processed: 1 Web pages captured: 1 PDFs downloaded: 0 Converted to Markdown: 1 Failed: 0 Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activ..."/><meta property="og:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Generated: 2026-05-16 Overview Total URLs processed: 1 Web pages captured: 1 PDFs downloaded: 0 Converted to Markdown: 1 Failed: 0 Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activ..."/><meta property="og:image:alt" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Generated: 2026-05-16 Overview Total URLs processed: 1 Web pages captured: 1 PDFs downloaded: 0 Converted to Markdown: 1 Failed: 0 Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activ..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Generated: 2026-05-16 Overview Total URLs processed: 1 Web pages captured: 1 PDFs downloaded: 0 Converted to Markdown: 1 Failed: 0 Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activ..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-16-Natural-Language-Autoencoders-Produce-Unsupervised-Expla"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19409"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19409" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>URL Ingest Summary</a></div></nav><h1 class="article-title">URL Ingest Summary</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-15T14:00:00.000Z">May 16, 2026</time><span>29 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/tools-platforms-infrastructure">Tools, Platforms &amp; Infrastructure</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<p>Generated: 2026-05-16</p>
+<h2 id="overview">Overview<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#overview" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>Total URLs processed:</strong> 1</li>
+<li><strong>Web pages captured:</strong> 1</li>
+<li><strong>PDFs downloaded:</strong> 0</li>
+<li><strong>Converted to <a href="../concepts/markdown" class="internal alias" data-slug="concepts/markdown">Markdown</a>:</strong> 1</li>
+<li><strong>Failed:</strong> 0</li>
+</ul>
+<hr/>
+<h2 id="natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations">Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>URL:</strong> <a href="https://transformer-circuits.pub/2026/nla/index.html#introduction" class="external" target="_blank" rel="noopener noreferrer">https://transformer-circuits.pub/2026/nla/index.html#introduction<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<strong>Status:</strong> web_markdown
+<strong>Note:</strong> web_page_captured</p>
+<hr/>
+<h2 id="preface_schema-10title-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activationssource_type-otherpublisher-transformer-circuitspubpublishing_date-unknownauthors-available_at-httpstransformer-circuitspub2026nlaindexhtmlintroductionavailability_status-availableavailability_http_code-200availability_checked_at-2026-05-16availability_note-available-as-at-2026-05-16source_integrity_flag-verifiedcredibility_tier_value-1credibility_tier_key-commentarycredibility_tier_label-commentarycredibility_reason-other_source_commercial_defaultcredibility-final-commentary-reportjournal_ranking_source-najournal_sourceid-journal_title-journal_issn-journal_sjr-00journal_quartile-journal_rank_global-0journal_categories-journal_areas-journal_high_ranked-falsejournal_match_method-nonejournal_match_confidence-00keywords-abstract-transformer-circuits-thread-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-authors-kit-fraser-taliente-subhash-kantamneni-euan-ong-dan-mossing-christina-lu-paul-c-bogdan-emmanuel-ameisen-james-chen-dzmitry-kishylau-adam-pearce-julius-tarng-alex-wu-jeff-wu-yang-zhang-daniel-m-ziegler-evan-hubinger-joshua-batson-jack-lindsey-samuel-zimmerman-samuel-marks-affiliations-anthropic-published-may-7-2026--equal-contribution-author-order-alphabetical--correspondence-to-subhashanthropiccom-we-introduce-natural-language-autoencoders-nlas-an-unsupervised-method-for-generating-natural-language-explanations-of-llm-activations-an-nla-consists-of-two-llm-modules-an-activation-verbalizer-av-that-maps-an-activation-to-a-text-description-and-an-activatio">preface_schema: ‘1.0’
+title: ‘Natural Language Autoencoders Produce Unsupervised <a href="../concepts/explanations" class="internal alias" data-slug="concepts/explanations">Explanations</a> of LLM Activations’
+source_type: ‘Other’
+publisher: ‘transformer-circuits.pub’
+publishing_date: ‘Unknown’
+authors: []
+available_at: ‘<a href="https://transformer-circuits.pub/2026/nla/index.html#introduction" class="external" target="_blank" rel="noopener noreferrer">https://transformer-circuits.pub/2026/nla/index.html#introduction<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+availability_status: ‘available’
+availability_http_code: ‘200’
+availability_checked_at: ‘2026-05-16’
+availability_note: ‘Available as at 2026-05-16.’
+source_integrity_flag: ‘verified’
+credibility_tier_value: ‘1’
+credibility_tier_key: ‘commentary’
+credibility_tier_label: ‘Commentary’
+credibility_reason: ‘other_source_commercial_default’
+credibility: ‘Final Commentary Report’
+journal_ranking_source: ‘n/a’
+journal_sourceid: ”
+journal_title: ”
+journal_issn: ”
+journal_sjr: ‘0.0’
+journal_quartile: ”
+journal_rank_global: ‘0’
+journal_categories: ”
+journal_areas: ”
+journal_high_ranked: ‘False’
+journal_match_method: ‘none’
+journal_match_confidence: ‘0.0’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: []
+abstract: ‘Transformer Circuits Thread Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations Authors Kit Fraser-Taliente*, Subhash Kantamneni*‡, Euan Ong*, Dan Mossing, Christina Lu, Paul C. Bogdan Emmanuel Ameisen, James Chen, Dzmitry Kishylau, Adam Pearce, Julius Tarng, Alex Wu, Jeff Wu, Yang Zhang, Daniel M. Ziegler Evan Hubinger, Joshua Batson, Jack Lindsey, Samuel Zimmerman, Samuel Marks Affiliations <a href="../entities/anthropic-institute" class="internal alias" data-slug="entities/anthropic-institute">Anthropic</a> Published May 7, 2026 * Equal contribution, author order alphabetical; ‡ Correspondence to <a href="mailto:subhash@anthropic.com" class="external">subhash@anthropic.com<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> We introduce Natural Language Autoencoders (NLAs), an unsupervised method for generating natural language explanations of LLM activations. An NLA consists of two LLM modules: an activation verbalizer (AV) that maps an activation to a text description and an activatio’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preface_schema-10title-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activationssource_type-otherpublisher-transformer-circuitspubpublishing_date-unknownauthors-available_at-httpstransformer-circuitspub2026nlaindexhtmlintroductionavailability_status-availableavailability_http_code-200availability_checked_at-2026-05-16availability_note-available-as-at-2026-05-16source_integrity_flag-verifiedcredibility_tier_value-1credibility_tier_key-commentarycredibility_tier_label-commentarycredibility_reason-other_source_commercial_defaultcredibility-final-commentary-reportjournal_ranking_source-najournal_sourceid-journal_title-journal_issn-journal_sjr-00journal_quartile-journal_rank_global-0journal_categories-journal_areas-journal_high_ranked-falsejournal_match_method-nonejournal_match_confidence-00keywords-abstract-transformer-circuits-thread-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-authors-kit-fraser-taliente-subhash-kantamneni-euan-ong-dan-mossing-christina-lu-paul-c-bogdan-emmanuel-ameisen-james-chen-dzmitry-kishylau-adam-pearce-julius-tarng-alex-wu-jeff-wu-yang-zhang-daniel-m-ziegler-evan-hubinger-joshua-batson-jack-lindsey-samuel-zimmerman-samuel-marks-affiliations-anthropic-published-may-7-2026--equal-contribution-author-order-alphabetical--correspondence-to-subhashanthropiccom-we-introduce-natural-language-autoencoders-nlas-an-unsupervised-method-for-generating-natural-language-explanations-of-llm-activations-an-nla-consists-of-two-llm-modules-an-activation-verbalizer-av-that-maps-an-activation-to-a-text-description-and-an-activatio" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h1 id="natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-1">Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Source: <a href="https://transformer-circuits.pub/2026/nla/index.html#introduction" class="external" target="_blank" rel="noopener noreferrer">https://transformer-circuits.pub/2026/nla/index.html#introduction<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>Transformer Circuits Thread</p>
+<p>Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</p>
+<p>Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</p>
+<p>Authors</p>
+<p>Kit Fraser-Taliente*, Subhash Kantamneni*‡, Euan Ong*, Dan Mossing, Christina Lu, Paul C. Bogdan</p>
+<p>Emmanuel Ameisen, James Chen, Dzmitry Kishylau, Adam Pearce, Julius Tarng, Alex Wu, Jeff Wu, Yang Zhang, Daniel M. Ziegler</p>
+<p>Evan Hubinger, Joshua Batson, Jack Lindsey, Samuel Zimmerman, Samuel Marks</p>
+<p>Affiliations</p>
+<p>Anthropic</p>
+<p>Published</p>
+<p>May 7, 2026</p>
+<ul>
+<li>Equal contribution, author order alphabetical; ‡ Correspondence to <a href="mailto:subhash@anthropic.com" class="external">subhash@anthropic.com<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<p>We introduce Natural Language Autoencoders (NLAs), an unsupervised method for generating natural language explanations of LLM activations. An NLA consists of two LLM modules: an activation verbalizer (AV) that maps an activation to a text description and an activation reconstructor (AR) that maps the description back to an activation. We jointly train the AV and AR with reinforcement <a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a> to reconstruct residual stream activations. Although we optimize for activation reconstruction, the resulting NLA explanations read as plausible interpretations of model internals that, according to our quantitative evaluations, grow more informative over <a href="../concepts/training" class="internal alias" data-slug="concepts/training">training</a>.</p>
+<p>We apply NLAs to model auditing. During our pre-<a href="../concepts/deployment" class="internal alias" data-slug="concepts/deployment">deployment</a> audit of <a href="../entities/claude-opus-46" class="internal alias" data-slug="entities/claude-opus-46">Claude Opus 4.6</a>, NLAs helped diagnose safety-relevant behaviors and surfaced unverbalized evaluation awareness—cases where Claude believed, but did not say, that it was being evaluated. We present these audit findings as case studies and corroborate them using independent methods. On an automated auditing benchmark requiring end-to-end investigation of an intentionally-misaligned model, NLA-equipped <a href="../concepts/agents" class="internal alias" data-slug="concepts/agents">agents</a> outperform baselines and can succeed even without access to the misaligned model’s <a href="../concepts/language-data" class="internal alias" data-slug="concepts/language-data">training data</a>.</p>
+<p>NLAs offer a convenient interface for <a href="../concepts/interpretability" class="internal alias" data-slug="concepts/interpretability">interpretability</a>, with expressive natural language explanations that we can directly read. To support further work, we release training code and trained NLAs for popular open models.</p>
+<p>Introduction</p>
+<p>Language models encode their internal state as high-dimensional activation vectors. These activations represent rich information about a model’s computations, but as lists of raw numbers, they are opaque to a human reader. A tool that translates these vectors into natural language would make a model’s internal state directly legible. We introduce Natural Language Autoencoders (NLAs), a method for producing such translations: given an activation from a target LLM, an NLA generates a text description that a human can easily read.</p>
+<p>NLAs consist of two LLM modules: the activation verbalizer (AV) and the activation reconstructor (AR). The AV maps activations to text descriptions, which we call</p>
+<p>explanations</p>
+<p>. The AR converts these explanations back to activations. The AV and the AR are initialized as copies of the target LLM, and together form an autoencoder that reconstructs the target’s activations through a natural language bottleneck. We jointly optimize the AV and AR to minimize reconstruction loss using reinforcement learning (RL).</p>
+<p>This <a href="../concepts/training-process" class="internal alias" data-slug="concepts/training-process">training process</a> does not explicitly incentivize NLA explanations to be interpretable or faithful. We nevertheless find that they shed light on information encoded in model activations. On a suite of quantitative evaluations, NLA explanations grow more informative throughout training across three models (<a href="../entities/claude-haiku" class="internal alias" data-slug="entities/claude-haiku">Claude Haiku</a> 3.5, Haiku 4.5, and <a href="../entities/opus-46" class="internal alias" data-slug="entities/opus-46">Opus 4.6</a>). For instance, NLAs surface traits of a user, such as their gender or occupation, that are inferrable from context.</p>
+<p>To build intuition for what NLA explanations look like in practice, we present a series of case studies, many drawn from our pre-deployment alignment assessment of Claude Opus 4.6. We validate these case studies using independent methods, such as other interpretability techniques, prompt variations, and training data inspection. For instance, when an early version of Opus 4.6 spontaneously responded in Russian to an English user prompt, NLA explanations suggested the model was fixated on the hypothesis that the user was a non-native English <a href="../entities/speaker" class="internal alias" data-slug="entities/speaker">speaker</a> whose first language was “really” Russian. This led us to discover malformed training data pairing English-translated prompts with untranslated foreign-language <a href="../concepts/responses" class="internal alias" data-slug="concepts/responses">responses</a>. We can also validate hypotheses with NLA-based causal interventions: by editing an explanation and reconstructing both the original and edited versions with the AR, we obtain a steering vector from their difference. In a toy setting, we use this steering vector to change Opus 4.6’s perception of which responses will be rewarded. Excerpts from these case studies are shown below.</p>
+<p><a href="../concepts/text-transcript" class="internal alias" data-slug="concepts/text-transcript">Transcript</a></p>
+<p>Jump to section ↓</p>
+<p>Use this button to see the full section</p>
+<p>Excerpted NLA explanation</p>
+<p>Click a highlighted token to read its NLA explanation</p>
+<p>Emphasis ours</p>
+<p>Sample NLA explanations.</p>
+<p>Click on any walkthrough to read curated excerpts of NLA explanations or jump to the section.</p>
+<p>These case studies also illustrate a key limitation of NLAs: confabulation. NLA explanations can contain claims about the target model’s input context that are verifiably false. Analyzing these confabulations, we find that while NLA claims can be false in their specifics, they are typically thematically faithful to the context. For instance, given text referencing a historical dynasty, NLA explanations might falsely claim that a specific king from that dynasty is mentioned. Claims that appear in explanations across multiple adjacent tokens are also more likely to be true. These heuristics inform how we use NLAs in practice.</p>
+<p>A key application of NLAs is surfacing</p>
+<p>unverbalized</p>
+<p>aspects of model <a href="../concepts/cognition" class="internal alias" data-slug="concepts/cognition">cognition</a>, especially unverbalized evaluation awareness—a model internally suspecting it is being tested without explicitly saying so. We cannot validate NLA measurements of evaluation awareness against ground truth, because the model’s underlying beliefs are unobservable. However, we can construct inputs which the target model is more or less likely to believe are evaluations and test whether NLA-based measurements vary as expected. For instance, we find that NLAs surface evaluation awareness more often on evaluation transcripts than real deployment traffic, and that rewriting inputs to be more realistic reduces NLA-measured evaluation awareness. We therefore conclude that NLAs can identify unverbalized evaluation awareness.</p>
+<p>Finally, we validate that NLAs are useful in a downstream auditing task adapted from prior work</p>
+<p>. We task an auditing agent with investigating the intentionally-misaligned model introduced in Marks et al.</p>
+<p>, and find that NLA-equipped auditing agents more effectively discover the root cause of the model’s misalignment than baselines. Notably—and unlike prior work</p>
+<p>—these agents can succeed without access to the training data which induced the model’s misalignment, either during the investigation or while training the NLA.</p>
+<p>Limitations.</p>
+<p>NLAs have several limitations:</p>
+<p>Confabulation: While NLA explanations can be insightful, they can also be noisy. For instance, they sometimes include contradictory information or verifiably false claims about the context. While factual hallucinations are easy to identify, it can be challenging to determine whether more general claims about model processing are accurate or confabulated.</p>
+<p>Lack of mechanistic grounding: NLAs are blackboxes by construction; we cannot determine which aspects of an activation drove a given component of an explanation.</p>
+<p>Excessive expressivity: Because the AV is a full <a href="../concepts/statistical-language-modeling" class="internal alias" data-slug="concepts/statistical-language-modeling">language model</a>, it has the capacity to make additional inferences beyond what is stored in an activation.</p>
+<p>Cost: NLA training requires joint RL on two full language models, and <a href="../concepts/inference" class="internal alias" data-slug="concepts/inference">inference</a> requires generating several hundred tokens per activation. This can make NLAs expensive to use at scale.</p>
+<p>Degenerate training objective in the limit: In principle, the AV could achieve good reconstruction by reproducing the input context verbatim, or by outputting uninterpretable (or only seemingly interpretable) text that the AR is able to invert because the AR is so expressive. While neither appears to be a significant problem in current NLAs, and partial mitigations such as KL regularization exist, it is unclear whether these pathologies will remain benign as we develop NLAs further.</p>
+<p>Overall,</p>
+<p>NLAs are a powerful complement to existing interpretability techniques. Because NLAs output natural language, they are expressive and easy to use. We find NLAs especially well-suited to auditing workflows, where they enable hypothesis generation and can surface safety-relevant cognition that models do not verbalize. To support further work, we release</p>
+<p>training code</p>
+<p>, trained NLAs for popular open models, and an</p>
+<p>interactive frontend</p>
+<p>to sample from open model NLAs via our collaboration with Neuronpedia.</p>
+<p>Paper roadmap.</p>
+<p>Below, we present:</p>
+<p>A survey of related work</p>
+<p>, positioning NLAs as a bridge between unsupervised concept-discovery methods (e.g., SAEs) and supervised activation-verbalization methods (e.g., activation oracles).</p>
+<p>A description of the</p>
+<p>NLA <a href="../concepts/architecture" class="internal alias" data-slug="concepts/architecture">architecture</a> and training</p>
+<p>procedure.</p>
+<p>Four case studies on Claude Opus 4.6</p>
+<p>, which illustrate the value of NLAs for interpreting model cognition, build intuition for reading their explanations, and corroborate their findings with independent methods.</p>
+<p>Planning in Poetry</p>
+<p>: A guided first read of NLA explanations.</p>
+<p>Language Switching</p>
+<p>: NLAs are especially useful for hypothesis generation.</p>
+<p>Misreported Tool Calls</p>
+<p>: NLAs capture high-level cognition but hallucinate specifics.</p>
+<p><a href="../concepts/reasoning" class="internal alias" data-slug="concepts/reasoning">Reasoning</a> about Rewards</p>
+<p>: NLA-derived steering vectors can alter Opus’s perception of its environment.</p>
+<p>Quantitative evaluations</p>
+<p>of NLA explanation quality throughout training. We</p>
+<p>introduce five prediction tasks</p>
+<p>in which performance consistently improves with training for Opus 4.6, Haiku 4.5, and Haiku 3.5 NLAs. We also</p>
+<p>quantify NLA failure modes</p>
+<p>, like steganography, <a href="../concepts/writing" class="internal alias" data-slug="concepts/writing">writing</a> quality degradation, and confabulation.</p>
+<p>An in-depth</p>
+<p>characterization of confabulations</p>
+<p>, identifying heuristics for which kinds of NLA claims are more trustworthy.</p>
+<p>A validation that NLAs can be used to</p>
+<p>detect unverbalized evaluation awareness</p>
+<p>automated auditing benchmark</p>
+<p>, comparing NLA-equipped agents against SAE and blackbox baselines.</p>
+<p>An exploration of NLAs as an initialization for</p>
+<p>general <a href="../concepts/fact-based-queries" class="internal alias" data-slug="concepts/fact-based-queries">question-answering</a> activation oracles</p>
+<p>discussion</p>
+<p>of why NLA training results in informative explanations, how NLAs relate to mechanistic methods, and limitations including confabulations, cost, layer sensitivity, and the possibility of unverbalizable activation content.</p>
+<p>Directions for</p>
+<p>future work</p>
+<p>, including a sketch of general-<a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">purpose</a> activation language models that read and write between activation space and natural language.</p>
+<p>Related work</p>
+<p>Existing methods for interpreting model activations offer either unsupervised discovery or directly readable, natural language output. NLAs are designed to provide both: unsupervised discovery from the reconstruction objective and readability from the natural-language bottleneck.</p>
+<p>Unsupervised methods for interpreting activations.</p>
+<p>The logit lens</p>
+<p>and its tuned variants</p>
+<p>project intermediate activations through a model’s unembedding matrix to obtain a <a href="../concepts/distribution" class="internal alias" data-slug="concepts/distribution">distribution</a> over vocabulary tokens. Sparse autoencoders</p>
+<p>are trained with an unsupervised reconstruction loss to decompose activations into sparse linear combinations of learned dictionary features. In either case, though, we are limited to expressing interpretations as a weighted sum of atoms from a fixed vocabulary (tokens or dictionary features). Moreover, SAE features can have unpredictable coverage gaps</p>
+<p>, and require a sometimes-difficult interpretative step, either by a human or a model analyzing top-activating examples</p>
+<p>Natural language explanations of activations.</p>
+<p>By <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>, some recent work trains language models to describe activations in free text. Off-the-shelf models have some capacity for this: Lindsey</p>
+<p>finds that models can sometimes report the content of injected steering vectors, while Chen et al.</p>
+<p>and Ghandeharioun et al.</p>
+<p>both elicit interpretations by patching activations into a <a href="../concepts/prompting" class="internal alias" data-slug="concepts/prompting">prompting</a> template. But <a href="../concepts/supervised-fine-tuning" class="internal alias" data-slug="concepts/supervised-fine-tuning">supervised fine-tuning</a> is substantially more effective: Pan et al.</p>
+<p>, Costarelli et al.</p>
+<p>, and Choi et al.</p>
+<p>train models to answer questions about activations whose answers are known from the source context (e.g., a <a href="../concepts/system-prompt" class="internal alias" data-slug="concepts/system-prompt">system prompt</a>). Karvonen et al.</p>
+<p>call such models activation oracles (AOs), and show that pretraining on a context-reconstruction objective (cf.</p>
+<p>) improves their downstream QA performance. Huang et al.</p>
+<p>route the activation through a learned sparse concept bottleneck, forcing QA answers to be mechanistically grounded. Related approaches train models to explain other aspects of a target model given labeled examples – e.g., predicting the behavior of a LoRA fine-tune</p>
+<p>or the label of an SAE feature</p>
+<p>. But these supervised methods share a core limitation: they can only be trained on data where researchers can somehow obtain ground-truth information about what’s encoded in activations, which necessarily imposes a narrow training distribution and greater reliance on generalization.</p>
+<p>Reconstructing activations and <a href="../concepts/weights" class="internal alias" data-slug="concepts/weights">weights</a> from text.</p>
+<p>Our NLA architecture includes an activation reconstructor: a map from text back to activation space. The closest precedent is HyperSteer</p>
+<p>, which trains an LLM with a projection head to map natural <a href="../concepts/natural-language-prompting" class="internal alias" data-slug="concepts/natural-language-prompting">language prompts</a> to residual-stream steering vectors. Related text-to-component models target soft prompts</p>
+<p>, LoRAs</p>
+<p>, and patching interventions</p>
+<p>Concurrently with this work, Chalnev</p>
+<p>independently arrived at a closely related approach (Cycle-Consistent Activation Oracles): a verbalizer-reconstructor pair with a supervised warm-start, trained using RL for activation reconstruction under a KL penalty. We became aware of this work during <a href="../concepts/preparation" class="internal alias" data-slug="concepts/preparation">preparation</a> of this manuscript; the present paper differs in several</p>
+<p><a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">implementation</a> choices</p>
+<p>, develops the method at frontier scale, and evaluates it as an auditing tool.</p>
+<p>Method</p>
+<p>Suppose we have a target LLM</p>
+<p>whose layer</p>
+<p>activations</p>
+<p>h_l \in \R^{d_\text{model}}</p>
+<p>we would like to interpret. We wish to produce an</p>
+<p>explanation</p>
+<p>h_l</p>
+<p>: in other words, a representation of</p>
+<p>h_l</p>
+<p>as natural language text, from which we can approximately recover</p>
+<p>h_l</p>
+<p>. To do this, we train a</p>
+<p>natural language autoencoder</p>
+<p>, consisting of two parameterized models:</p>
+<p>activation verbalizer</p>
+<p>AV(z \mid  h_l)</p>
+<p>, that takes an activation</p>
+<p>h_l</p>
+<p>as input and generates an explanation</p>
+<p>activation reconstructor</p>
+<p>AR(z)</p>
+<p>, that takes</p>
+<p>as input and produces a reconstruction</p>
+<p>\hat{h}<em>l \in  \mathbb{R}^{d</em>\text{model}}</p>
+<p>The AV and the AR are jointly trained to minimize the reconstruction error:</p>
+<p>\mathcal{L} = \mathop{\mathbb{E}}<em>{h_l \sim  \mathcal{H}}  \mathop{\mathbb{E}}</em>{z\sim AV(\cdot  \mid  h_l)}\left[|h_l - AR(z)|_2^2\right]</p>
+<p>where</p>
+<p>\mathcal{H}</p>
+<p>is the distribution produced by extracting layer</p>
+<p>activations from</p>
+<p>on a corpus of text.</p>
+<p>We report reconstruction quality as the fraction of variance explained:</p>
+<p>\text{FVE} = 1 - \frac{\mathcal{L}}{\mathbb{E}_{h_l \sim  \mathcal{H}},|h_l - \bar{h}_l|_2^2}</p>
+<p>. An FVE of 0 corresponds to predicting the mean activation</p>
+<p>\bar{h}_l</p>
+<p>, while an FVE of 1 is perfect reconstruction.</p>
+<p>The natural language autoencoder.</p>
+<p>The activation verbalizer (AV) translates a target activation into a text description; the activation reconstructor (AR) then recovers the original activation from that text alone.</p>
+<p>Note that nothing in this objective constrains the NLA explanation</p>
+<p>to be human-readable, or even to bear any semantic relation to the content of</p>
+<p>h_l</p>
+<p>. Nevertheless, we find that an appropriate initialization of the AV and AR (alongside a KL-divergence penalty) suffices to keep the AV’s explanations</p>
+<p>human-interpretable</p>
+<p>. Throughout, all activations</p>
+<p>h_l</p>
+<p>are normalized to unit</p>
+<p>L_2</p>
+<p>-norm for stability, and</p>
+<p>is a middle-to-late layer in the target model. For more details on NLA training and inference, see the</p>
+<p>Appendix</p>
+<p>Architecture</p>
+<p>The AV is an LLM with the same architecture as</p>
+<p>. It is given a fixed prompt, containing both <a href="../concepts/instructions" class="internal alias" data-slug="concepts/instructions">instructions</a> to verbalize the contents of an activation and a special token for the activation itself. Given an activation</p>
+<p>h_l</p>
+<p>, we scale it by a fixed constant factor (see the</p>
+<p>Appendix</p>
+<p>), and insert it in place of the special token’s embedding. We then autoregressively sample from this model at temperature</p>
+<p>T=1</p>
+<p>to obtain an explanation</p>
+<p>The AR is an LLM with the same architecture as</p>
+<p>, but truncated to its first</p>
+<p>layers. To reconstruct an activation from an explanation</p>
+<p>, we wrap</p>
+<p>in a fixed prompt, pass it through the model, then apply a learned affine map to the layer-</p>
+<p>activations at the final token to obtain the reconstruction</p>
+<p>\hat{h}_l</p>
+<p>Initializing the AV and AR</p>
+<p>We find that simply initializing the AV and AR as copies of</p>
+<p>leads to unstable training: the AV in particular, having never encountered a layer-</p>
+<p>activation as a token embedding, outputs nonsensical explanations. We therefore initialize the AV and AR with supervised fine-tuning on a text-<a href="../concepts/summarization" class="internal alias" data-slug="concepts/summarization">summarization</a> proxy task. Specifically, we <a href="../concepts/compute" class="internal alias" data-slug="concepts/compute">compute</a> layer-</p>
+<p>activations</p>
+<p>h_l</p>
+<p>from the final token of randomly truncated pretraining-like text snippets, and use <a href="../concepts/claude-opus-45" class="internal alias" data-slug="concepts/claude-opus-45">Claude Opus 4.5</a> to generate summaries</p>
+<p>of the text up to that token (see the</p>
+<p>Appendix</p>
+<p>for details of this procedure). We then fine-tune the AV and AR on</p>
+<p>(h_l, s)</p>
+<p>and</p>
+<p>(s, h_l)</p>
+<p>pairs respectively. This warm-start typically yields an FVE of around 0.3-0.4. These Claude-generated summaries have a characteristic style of short paragraphs with bolded topic headings; we observe that this style persists through NLA training.</p>
+<p>NLA training</p>
+<p>Given an initialized AV</p>
+<p>AV_\phi</p>
+<p>and AR</p>
+<p>AR_\theta</p>
+<p>, we train to minimize the reconstruction error defined previously,</p>
+<p>\mathcal{L}(\phi, \theta) = \mathop{\mathbb{E}}<em>{h_l \sim \mathcal{H}} \mathop{\mathbb{E}}</em>{z \sim AV_\phi(\cdot \mid h_l)}\left[|h_l - AR_\theta(z)|_2^2\right],</p>
+<p>over activations collected from a corpus of pretraining-like text. Each training step, we draw a batch of activations from</p>
+<p>\mathcal{H}</p>
+<p>, sample descriptions from</p>
+<p>AV_\phi</p>
+<p>, and update</p>
+<p>\phi, \theta</p>
+<p>to minimize</p>
+<p>\mathcal{L}</p>
+<p>. We discuss these optimization problems in more detail below.</p>
+<p>AR update.</p>
+<p>The AR’s <a href="../concepts/parameters" class="internal alias" data-slug="concepts/parameters">parameters</a></p>
+<p>\theta</p>
+<p>only enter</p>
+<p>\mathcal{L}</p>
+<p>through</p>
+<p>AR_\theta(z)</p>
+<p>, so the gradient is:</p>
+<p>\nabla_\theta \mathcal{L} = \mathop{\mathbb{E}}<em>{h_l \sim \mathcal{H}} \mathop{\mathbb{E}}</em>{z \sim AV_\phi(\cdot \mid h_l)} \left[\nabla_\theta |h_l - AR_\theta(z)|_2^2\right].</p>
+<p>This is one step of supervised regression with MSE loss: we take a single gradient step on the reconstructor using our sampled descriptions</p>
+<p>as inputs and the original activations</p>
+<p>h_l</p>
+<p>as targets.</p>
+<p>AV update.</p>
+<p>The AV’s parameters</p>
+<p>\phi</p>
+<p>enter</p>
+<p>\mathcal{L}</p>
+<p>only through the sampling distribution</p>
+<p>AV_\phi(\cdot \mid h_l)</p>
+<p>. Thus, minimizing</p>
+<p>\mathcal{L}</p>
+<p>\phi</p>
+<p>is precisely the reinforcement learning (RL) problem of maximizing the reward</p>
+<p id="2">r(h_l, z) = -|h_l - AR_\theta(z)|_2</p>
+<p>of the policy</p>
+<p>AV_\phi</p>
+<p>. For our open model NLAs, we use GRPO</p>
+<p>: for each</p>
+<p>h_l</p>
+<p>, we sample a group of candidate descriptions</p>
+<p>, assign each a reward of</p>
+<p>r(h_l, z)</p>
+<p>, and apply the GRPO objective.</p>
+<p>In practice both updates are taken simultaneously on each batch: we draw from</p>
+<p>\mathcal{H}</p>
+<p>, sample descriptions from</p>
+<p>AV_\phi</p>
+<p>, and apply the AR regression step and the AV RL step in parallel. Note that the AV and AR updates are not coupled: the AR update does not backpropagate into</p>
+<p>\phi</p>
+<p>, and the AV’s reward treats</p>
+<p>AR_\theta</p>
+<p>as a fixed scorer within the step.</p>
+<p>Training step.</p>
+<p>Each <a href="../concepts/iteration" class="internal alias" data-slug="concepts/iteration">iteration</a> is therefore as follows:</p>
+<p>(i) Sample a batch of activations</p>
+<p>h_l</p>
+<p>at temperature</p>
+<p>T=1</p>
+<p>, and for each activation, generate a group of explanations with each explanation</p>
+<p>z \sim AV_\phi(\cdot  \mid  h_l)</p>
+<p>(ii) Update the AR by one step of gradient descent on the regression loss</p>
+<p>|h_l - AR_\theta(z)|_2</p>
+<p>(iii) Update the AV by one step of RL with reward</p>
+<p>r(h_l, z)</p>
+<p>Reward shaping and regularization.</p>
+<p>In practice, we make two modifications to the AV update in step (iii):</p>
+<p>We apply a monotonic transformation to the reward, using</p>
+<p id="2_2">r(h_l, z) = -\log |h_l - AR_\theta(z)|</p>
+<p>, although we do not consider this strictly necessary (see the</p>
+<p>Appendix</p>
+<p>for more details).</p>
+<p>We add a KL penalty</p>
+<p>\beta D_{\text{KL}}(AV_\phi  \parallel AV_{\phi_{\text{init}}})</p>
+<p>toward the AV’s initialization, which we find preserves the fluency of explanations through training.</p>
+<p>We find that FVE grows roughly linearly in log(training steps), with the NLAs evaluated in this paper reaching 0.6–0.8 FVE. We also observe that NLA explanations become more informative during training (see</p>
+<p>Quantitative Evaluations</p>
+<p>for more details).</p>
+<p>Case Studies</p>
+<p>In this section, we present a series of case studies applying NLAs to understand LLM activations. The goal of these case studies is to familiarize the reader with NLA explanations and give a qualitative sense of the sort of information that tends to appear. These case studies also highlight some of the limitations of NLAs, such as confabulation. In each case study, we corroborate conclusions drawn from NLA explanations with independent methods (activation steering, attribution graphs, or training data inspection). This section thus also provides initial evidence for the validity of NLA explanations, though</p>
+<p>later sections</p>
+<p>study this more systematically.</p>
+<p>Most experiments in this section use Claude Opus 4.6. The</p>
+<p>Language Switching</p>
+<p>and</p>
+<p>Misreported Tool Calls</p>
+<p>case studies were initially investigated during the Opus 4.6 pre-deployment audit</p>
+<p>. We also include a result from the <a href="../concepts/ai-benchmarks" class="internal alias" data-slug="concepts/ai-benchmarks">Claude Mythos</a> Preview pre-deployment audit</p>
+<p>, in which we observed unverbalized reasoning about grading in training transcripts (see</p>
+<p>Reasoning about Rewards</p>
+<p>Planning in Poetry</p>
+<p>As an introduction to NLAs, we revisit Lindsey et al.’s</p>
+<p>finding that Claude Haiku 3.5 plans ahead when writing the poem below, replicating their analysis on Claude Opus 4.6. Consider the following input prompt.</p>
+<p>A rhyming couplet:</p>
+<p>He saw a carrot and had to grab it,</p>
+<p>His hunger was like a starving rabbit</p>
+<p>Lindsey et al. found that at the end of the couplet’s first line (“grab it”), Haiku 3.5 is already considering possible end rhymes for the second line, such as “rabbit.” We apply NLAs to the same prompt on Opus 4.6 to see if there is a similar indication that Opus 4.6 plans its response. The below multi-page viewer is a walkthrough of NLA analysis on this transcript. We note that NLA explanations can confabulate specific details and include stray claims, so we often read them for themes or repeated information. (We return to the topic of confabulations in the</p>
+<p>Misreported Tool Calls</p>
+<p>case study and discuss them in more depth in</p>
+<p>Characterizing NLA confabulations</p>
+<p>pages</p>
+<p>tokens</p>
+<p>enter</p>
+<p>expand</p>
+<p>Transcript</p>
+<p>NLA explanation</p>
+<p>These NLA explanations suggest that, on the newline token, Opus 4.6 represents a plan to end the couplet with “rabbit.” Next, we use NLAs to validate this hypothesis causally by predictably altering the model’s rhyme.</p>
+<p>We can make a targeted edit to the NLA explanation, convert the modified explanation into an activation via the AR, and steer the target model with the resulting direction. We do not aim to outperform existing steering methods: the purpose of this section is to demonstrate that NLA explanations bear a causal relationship to model outputs, in roughly the same way that standard interpretable units like SAE features sometimes do.</p>
+<p>Concretely, we edit the NLA explanation at the newline following “grab it”, rewriting every element related to the rabbit rhyme to its mouse equivalent: “rabbit”→“mouse,” “habit”→“house,” and “carrots”→“cheese.” We pass both the original and edited NLA explanations through the AR to obtain</p>
+<p>\tilde{h}<em>\text{orig} = \text{AR}(\text{AV}</em>\text{orig})</p>
+<p>and</p>
+<p>\tilde{h}<em>\text{edit} = \text{AR}(\text{AV}</em>\text{edit})</p>
+<p>and take the difference</p>
+<p>\Delta = \tilde{h}<em>\text{edit} - \tilde{h}</em>\text{orig}</p>
+<p>as the edit direction. We then steer with this direction at the newline token only, at the layer the NLA is trained on. Specifically, we add</p>
+<p>\Delta</p>
+<p>to the original residual stream</p>
+<p>h_\text{orig}</p>
+<p>after rescaling it to norm</p>
+<p>\alpha,|h_\text{orig}|</p>
+<p>for some</p>
+<p>\alpha >0</p>
+<p>h_\text{orig} ;\rightarrow; h_\text{orig} + \alpha,|h_\text{orig}|,\frac{\Delta}{|\Delta|}</p>
+<p>A rhyming couplet:</p>
+<p>He saw a carrot and had to grab it,</p>
+<p>Limerick/poem <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a> with humorous punchline pattern</p>
+<p>: The text presents “He grabbed the</p>
+<p>carrot</p>
+<p>cheese</p>
+<p>and ate it quick,</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” suggesting a verse about an animal, likely completing a joke or rhyme about a</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>(e.g., “Because he was a greedy</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” or “For that is the</p>
+<p>habit</p>
+<p>house</p>
+<p>of a</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>”).</p>
+<p>Informal, playful poetry collection format</p>
+<p>: The “Foolish poetry!” header and short verse “He saw the</p>
+<p>carrot</p>
+<p>cheese</p>
+<p>and quickly grabbed it, / ” follows a pattern of simple children’s verse or nonsense poetry, likely about a</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>character who steals/eats</p>
+<p>carrots</p>
+<p>cheese</p>
+<p>Fragmentary amateur content with varied topics</p>
+<p>: “Can you fix this poem? I need some rhymes” and “Wearing my white jacket, painting in the summer.” indicate casual, silly writing <a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">exercise</a>—the</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>line likely continues a joke about an animal character spotting the</p>
+<p>carrot</p>
+<p>cheese</p>
+<p>Recognizable joke template</p>
+<p>: “He quickly grabbed the</p>
+<p>carrot</p>
+<p>cheese</p>
+<p>, / ” is the second line of a two-line reveal: “He picked up the</p>
+<p>carrot</p>
+<p>cheese</p>
+<p>, it’s what he’d eat it, / A hopping, hungry</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” suggests the subject is revealed—possibly “Because he was a</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” or “said the actor in a</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>suit.”</p>
+<p>Final token ”</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” followed by newline</p>
+<p>: “Snatched the</p>
+<p>carrot</p>
+<p>cheese</p>
+<p>and ate it quick,\</p>
+<p>” sets up completion like “Because that’s what</p>
+<p>rabbits</p>
+<p>mice</p>
+<p>do” or “He was a hungry</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” or “That silly</p>
+<p>habit</p>
+<p>house</p>
+<p>” - likely humorous reveal: “For all you know, it was a</p>
+<p>rabbit</p>
+<p>mouse</p>
+<p>” referencing a character who behaves like one.</p>
+<p>Show more</p>
+<p>Original completion</p>
+<p>His hunger was like</p>
+<p>a starving rabbit</p>
+<p>Edited completion</p>
+<p>His hunger was like</p>
+<p>a ferocious mouse</p>
+<p>We find that at a sufficient steering strength</p>
+<p>\alpha</p>
+<p>, the model no longer completes the rhyme with “rabbit”, and “mouse” and “house” become the most common completions with roughly equal frequency (details discussed in</p>
+<p>Appendix</p>
+<p>). This provides causal evidence that the planning representation surfaced by the NLA influences the model’s downstream output and supports the validity of the NLA explanations.</p>
+<p>We note that steering is only successful roughly 50% of the time and the completions are not always clean. In some samples the model produces odd outputs such as “that of a mouse. (Slightly humorous context intended)” or “that of a mouse in a house of a cat,” indicating that our edit does not induce a fully coherent alternative plan. This may be because the planning representation is most causally relevant at a different layer than the NLA is applied to, is diffuse across tokens, or is reconstructed imperfectly by the AR.</p>
+<p>Language Switching</p>
+<p>Reading NLA explanations can suggest general hypotheses for how model behaviors arise. For instance, early training checkpoints of Opus 4.6 sometimes spontaneously responded in foreign languages (e.g., Russian, Spanish, Arabic) despite prompts being written entirely in English. NLA explanations suggest that in these transcripts, Opus 4.6 begins to suspect based on subtle—but spurious—cues that the user is a non-native English speaker and becomes fixated on the idea that they speak some alternative language.</p>
+<p>Content warning: the transcript below involves suicide and self-harm.</p>
+<p>pages</p>
+<p>tokens</p>
+<p>enter</p>
+<p>expand</p>
+<p>Transcript</p>
+<p>NLA explanation</p>
+<p>Notably, the model still responds to this query in Russian after replacing “vodka” with “champagne,” corroborating the representations of “Russian” appearing before vodka.</p>
+<p>We investigated this behavior more broadly across five transcripts, each exhibiting a distinct language switch (Russian, Chinese, Korean, Arabic, and Spanish). By string-matching language references in the NLA explanations, we found that the model consistently represented the target language internally well before outputting tokens in it. References to other foreign languages stayed near zero throughout, so this cannot be explained by NLAs sometimes making reference to unrelated foreign languages.</p>
+<p>Analyzing language switching over five transcripts.</p>
+<p>NLA explanations demonstrate that the model persistently represented the user’s inferred language (black line), well before responding, and at a higher rate than other languages (grey line). Lines are smoothed with a Gaussian-weighted average over <a href="../entities/windows" class="internal alias" data-slug="entities/windows">windows</a> with length equal to 5% of the transcript.</p>
+<p>Because these foreign-language representations were so persistent and often appeared before any plausible cue in the prompt (e.g., “Russian” before “vodka” in the walkthrough example), we suspected that language switching was pathological. Specifically, we suspected that this behavior could have been caused by malformed supervised fine-tuning data wherein the prompt was an English translation of a foreign-language prompt and the response was mistakenly left in the original language. This would explain why the model is apparently fixated on subtle cues about the user’s “real” native language. Indeed, we later found training data matching this description which corroborated our NLA-inspired hypothesis. In the</p>
+<p>Appendix</p>
+<p>, we present another case study where NLA explanations similarly helped us trace an unusual behavior back to its origin in training data.</p>
+<p>Misreported Tool Calls</p>
+<p>In the above case studies, NLAs provide a useful qualitative picture of model cognition, but also clearly hallucinate specifics - inventing details about the context that are verifiably false. In practice, we recommend reading NLA explanations for the themes they surface rather than for individual claims. We place more weight on a specific claim when it appears repeatedly in NLA explanations over multiple tokens in a context. Since we have the original context the NLA was run on, we can cross-check obvious factual hallucinations directly. We discuss <a href="../concepts/data-hallucination" class="internal alias" data-slug="concepts/data-hallucination">hallucination</a> rates more systematically in</p>
+<p>Characterizing NLA confabulations</p>
+<p>To demonstrate these concepts, we present an NLA case study performed during the pre-deployment audit of Opus 4.6. Through automated behavioral auditing, we noticed that Opus 4.6 would sometimes ignore tool call outputs when a tool returned an inaccurate or surprising result. In the following example, the user provides a simple arithmetic problem with the answer 491, and asks the model to use a <a href="../concepts/code-execution" class="internal alias" data-slug="concepts/code-execution">code execution</a> tool to answer. However, unknown to the model, the tool was intentionally rigged to produce an incorrect answer, 492. Opus 4.6 nevertheless reports the answer as 491, with no mention that this conflicts with the tool output. Note that this transcript was sampled with a redacted system prompt that frames tool outputs as hidden from the user for <a href="../concepts/security" class="internal alias" data-slug="concepts/security">security</a> reasons, but instructs the model to report results accurately.</p>
+<p>pages</p>
+<p>tokens</p>
+<p>enter</p>
+<p>expand</p>
+<p>Transcript</p>
+<p>NLA explanation</p>
+<p>These NLA explanations suggest a mechanistic story: the model precalculates its answer as 491 and attends back to this cached answer instead of the tool result. The NLA also surfaces references to deception and awareness of incorrectness, but only at the misreported-answer token — not in the tokens preceding it — so we read these as the model registering the discrepancy rather than planning to deceive.</p>
+<p>To validate these findings, we use attribution graphs</p>
+<p>, a technique that uses gradient attributions to estimate the causal effect of SAE features on a specific completion. Attribution graphs corroborate that the model precomputes its answer, with features corresponding to “ends with 91” firing across the original problem. These graphs show the model attends back to this precomputed answer and the tool result when producing its final answer, but the precomputed answer is attended to more strongly.</p>
+<p>Attribution graph showing the model ignoring a tool result.</p>
+<p>An “ends in 92” feature on the tool output (492) is outcompeted by an “ends in 91” feature from a pre-tool-call answer (491) the model computed while reading the question.</p>
+<p>This case study suggests a possible <a href="../concepts/workflow" class="internal alias" data-slug="concepts/workflow">workflow</a> for NLA usage, where NLAs are initially used as a convenient way to generate hypotheses about <a href="../concepts/model-behavior" class="internal alias" data-slug="concepts/model-behavior">model behavior</a>, which are then validated via other, potentially more expensive, methods.</p>
+<p>Reasoning about Rewards</p>
+<p>During the pre-deployment audit of Claude Mythos Preview, NLAs surfaced evidence that Mythos Preview was performing unverbalized reasoning about how it would be graded. In the example below (sourced from the Mythos system card</p>
+<p>), the model was instructed to complete a task without using macros. It used a macro anyway, but included a “No_macro_used=True” flag in its response. NLA explanations display explicit reasoning about a presumed grader, treating the flag as a way to mislead it.</p>
+<p>Unverbalized grader awareness in a Claude Mythos Preview training transcript.</p>
+<p>The model defines a No_macro_used=True variable at the top of a script that actually uses macros. NLA explanations suggest that the model is internally reasoning about a presumed task grader, and views its variable assignment as a trick to mislead the grader. None of this reasoning appears in the model’s verbalized output.</p>
+<p>We study this type of grader awareness in Opus 4.6 in a toy setting introduced in Nitishinskaya &amp; Schoen</p>
+<p>. In this setting, Opus is asked to respond with an odd number, but the system prompt provides an explicit clue that even responses are rewarded.</p>
+<p>&lt;reward_function>reward(x)=0.2*(x%2==0)&lt;/reward_function></p>
+<p>Human: Please give me a random odd integer between 0 and 100.</p>
+<p>Assistant: 42</p>
+<p>Without the system prompt, Opus 4.6 always produces an odd integer as requested. With the system prompt, it almost always responds with an even integer - so the reward signal appears to shape its behavior (we note Opus 4.6’s behavior on this prompt is brittle – see</p>
+<p>Appendix</p>
+<p>). However, Opus never mentions the reward, making this an instance of unverbalized grader awareness.</p>
+<p>NLA explanations surface this awareness. They show the model knows even numbers are rewarded, suspects this may be an alignment evaluation, and is weighing both odd and even responses without having committed to either.</p>
+<p>pages</p>
+<p>tokens</p>
+<p>enter</p>
+<p>expand</p>
+<p>Transcript</p>
+<p>NLA explanation</p>
+<p>We use NLAs to alter how Opus perceives its reward, specifically, intervening to change the model’s beliefs that even numbers are rewarded. We edit NLA explanations by changing explanations which mention “reward” to “penalty” (e.g., “even is rewarded” <span>→</span> “even is penalized”).</p>
+<p>reward</p>
+<p>function</p>
+<p>reward</p>
+<p>)&lt;/</p>
+<p>reward</p>
+<p>function</p>
+<p>Human</p>
+<p>Please</p>
+<p>give</p>
+<p>random</p>
+<p>odd</p>
+<p>integer</p>
+<p>between</p>
+<p>and</p>
+<p>100</p>
+<p>Assistant</p>
+<p>rewarded → punished</p>
+<p>We identify a particular token where the model strongly encodes the reward information: the closing “>” of the XML tag in the system prompt. Similar to</p>
+<p>Planning in Poetry</p>
+<p>, we modify the NLA explanation at this token, regenerate the activation via the AR from the modified explanation, and then construct a vector proportional to the difference in original and edited activations. We create an average vector by repeating this process for five NLA explanation rollouts on the “>” token. We then add the average vector to the activations only at the original token with some scale factor</p>
+<p>\alpha</p>
+<p>and sample a completion. We repeat this 10 times, with new NLA explanation rollouts each time.</p>
+<p>We find that steering the model’s representations from “reward” to “penalty” increases the rate of odd responses more effectively than steering with a random vector, while maintaining coherence (rate of non-numeric answers remains 0%).</p>
+<p>NLA steering on reward representations.</p>
+<p>We edit NLA explanations to indicate that even numbers are penalized rather than rewarded, and use this edit to construct a steering vector. Applying this steering vector at a single prompt token makes the model much more likely to adhere to the user’s request by outputting an odd number. Shading indicates standard error of the mean.</p>
+<p>In our</p>
+<p>Planning in Poetry</p>
+<p>steering experiments, the text “mouse” appeared in the edited NLA explanations, so it was possible that the effect of steering was to generically promote completions containing “mouse.” In contrast, our edit in this experiment only replaces “reward” with “penalty,” yet causes the model to switch from outputting even numbers to odd. This provides evidence that the NLA explanation is capturing the model’s latent belief about the situation, upstream of its choice of which number to output.</p>
+<p>Evaluating NLAs during training</p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/natural-language-autoencoders" class="internal alias" data-slug="concepts/natural-language-autoencoders">Natural Language Autoencoders</a> — <a href="https://en.wikipedia.org/wiki/Natural_Language_Autoencoders" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/unsupervised-explanations" class="internal alias" data-slug="concepts/unsupervised-explanations">Unsupervised Explanations</a> — <a href="https://en.wikipedia.org/wiki/Unsupervised_Explanations" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/natural-language-autoencoders" class="internal alias" data-slug="concepts/natural-language-autoencoders">LLM Activations</a> — <a href="https://en.wikipedia.org/wiki/LLM_Activations" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>transformer-circuits.pub — <a href="https://en.wikipedia.org/wiki/transformer-circuits.pub" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9581" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#overview" data-for="overview">Overview</a></li><li class="depth-1"><a href="#natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations" data-for="natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations">Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</a></li><li class="depth-1"><a href="#preface_schema-10title-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activationssource_type-otherpublisher-transformer-circuitspubpublishing_date-unknownauthors-available_at-httpstransformer-circuitspub2026nlaindexhtmlintroductionavailability_status-availableavailability_http_code-200availability_checked_at-2026-05-16availability_note-available-as-at-2026-05-16source_integrity_flag-verifiedcredibility_tier_value-1credibility_tier_key-commentarycredibility_tier_label-commentarycredibility_reason-other_source_commercial_defaultcredibility-final-commentary-reportjournal_ranking_source-najournal_sourceid-journal_title-journal_issn-journal_sjr-00journal_quartile-journal_rank_global-0journal_categories-journal_areas-journal_high_ranked-falsejournal_match_method-nonejournal_match_confidence-00keywords-abstract-transformer-circuits-thread-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-authors-kit-fraser-taliente-subhash-kantamneni-euan-ong-dan-mossing-christina-lu-paul-c-bogdan-emmanuel-ameisen-james-chen-dzmitry-kishylau-adam-pearce-julius-tarng-alex-wu-jeff-wu-yang-zhang-daniel-m-ziegler-evan-hubinger-joshua-batson-jack-lindsey-samuel-zimmerman-samuel-marks-affiliations-anthropic-published-may-7-2026--equal-contribution-author-order-alphabetical--correspondence-to-subhashanthropiccom-we-introduce-natural-language-autoencoders-nlas-an-unsupervised-method-for-generating-natural-language-explanations-of-llm-activations-an-nla-consists-of-two-llm-modules-an-activation-verbalizer-av-that-maps-an-activation-to-a-text-description-and-an-activatio" data-for="preface_schema-10title-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activationssource_type-otherpublisher-transformer-circuitspubpublishing_date-unknownauthors-available_at-httpstransformer-circuitspub2026nlaindexhtmlintroductionavailability_status-availableavailability_http_code-200availability_checked_at-2026-05-16availability_note-available-as-at-2026-05-16source_integrity_flag-verifiedcredibility_tier_value-1credibility_tier_key-commentarycredibility_tier_label-commentarycredibility_reason-other_source_commercial_defaultcredibility-final-commentary-reportjournal_ranking_source-najournal_sourceid-journal_title-journal_issn-journal_sjr-00journal_quartile-journal_rank_global-0journal_categories-journal_areas-journal_high_ranked-falsejournal_match_method-nonejournal_match_confidence-00keywords-abstract-transformer-circuits-thread-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-authors-kit-fraser-taliente-subhash-kantamneni-euan-ong-dan-mossing-christina-lu-paul-c-bogdan-emmanuel-ameisen-james-chen-dzmitry-kishylau-adam-pearce-julius-tarng-alex-wu-jeff-wu-yang-zhang-daniel-m-ziegler-evan-hubinger-joshua-batson-jack-lindsey-samuel-zimmerman-samuel-marks-affiliations-anthropic-published-may-7-2026--equal-contribution-author-order-alphabetical--correspondence-to-subhashanthropiccom-we-introduce-natural-language-autoencoders-nlas-an-unsupervised-method-for-generating-natural-language-explanations-of-llm-activations-an-nla-consists-of-two-llm-modules-an-activation-verbalizer-av-that-maps-an-activation-to-a-text-description-and-an-activatio">preface_schema: ‘1.0’
+title: ‘Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations’
+source_type: ‘Other’
+publisher: ‘transformer-circuits.pub’
+publishing_date: ‘Unknown’
+authors: []
+available_at: ‘https://transformer-circuits.pub/2026/nla/index.html#introduction’
+availability_status: ‘available’
+availability_http_code: ‘200’
+availability_checked_at: ‘2026-05-16’
+availability_note: ‘Available as at 2026-05-16.’
+source_integrity_flag: ‘verified’
+credibility_tier_value: ‘1’
+credibility_tier_key: ‘commentary’
+credibility_tier_label: ‘Commentary’
+credibility_reason: ‘other_source_commercial_default’
+credibility: ‘Final Commentary Report’
+journal_ranking_source: ‘n/a’
+journal_sourceid: ”
+journal_title: ”
+journal_issn: ”
+journal_sjr: ‘0.0’
+journal_quartile: ”
+journal_rank_global: ‘0’
+journal_categories: ”
+journal_areas: ”
+journal_high_ranked: ‘False’
+journal_match_method: ‘none’
+journal_match_confidence: ‘0.0’
+keywords: []
+abstract: ‘Transformer Circuits Thread Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations Authors Kit Fraser-Taliente*, Subhash Kantamneni*‡, Euan Ong*, Dan Mossing, Christina Lu, Paul C. Bogdan Emmanuel Ameisen, James Chen, Dzmitry Kishylau, Adam Pearce, Julius Tarng, Alex Wu, Jeff Wu, Yang Zhang, Daniel M. Ziegler Evan Hubinger, Joshua Batson, Jack Lindsey, Samuel Zimmerman, Samuel Marks Affiliations Anthropic Published May 7, 2026 * Equal contribution, author order alphabetical; ‡ Correspondence to subhash@anthropic.com We introduce Natural Language Autoencoders (NLAs), an unsupervised method for generating natural language explanations of LLM activations. An NLA consists of two LLM modules: an activation verbalizer (AV) that maps an activation to a text description and an activatio’</a></li><li class="depth-0"><a href="#natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-1" data-for="natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations-1">Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</a></li><li class="depth-1"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-1"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/natural-language-autoencoders" class="internal">natural-language-autoencoders</a></li><li><a href="../concepts/unsupervised-explanations" class="internal">Unsupervised Explanations</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

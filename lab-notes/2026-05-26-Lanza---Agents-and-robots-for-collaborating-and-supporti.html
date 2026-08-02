@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Lanza - Agents and robots for collaborating and supporting physicians in healthcare · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Lanza - Agents and robots for collaborating and supporting physicians in healthcare · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Lanza - Agents and robots for collaborating and supporting physicians in healthcare · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2020’ authors: [‘Francesco Lanzaa’, ‘Valeria Sei..."/><meta property="og:description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2020’ authors: [‘Francesco Lanzaa’, ‘Valeria Sei..."/><meta property="og:image:alt" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2020’ authors: [‘Francesco Lanzaa’, ‘Valeria Sei..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2020’ authors: [‘Francesco Lanzaa’, ‘Valeria Sei..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19622"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19622" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Lanza   Agents and robots for collaborating and supporting physicians in healthcare</a></div></nav><h1 class="article-title">Lanza - Agents and robots for collaborating and supporting physicians in healthcare</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>70 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/ai-agents">AI &amp; Agents</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<h2 id="preface_schema-10title-a-dipartimento-di-ingegneria-università-degli-studi-di-palermo-90128-viale-delle-scienze-palermo-italysource_type-academicpublisher-elsevierpublishing_date-2020authors-francesco-lanzaa-valeria-seiditaa-antonio-chellaa-via-ugo-la-malfa-received-30-january-2020-accepted-8-june-2020available_at-httpsdoiorg101016jjbi2020103483keywords-multi-agent-systems-robots-in-therapy-robots-in-emergency-care-for-covid-19-patient-monitoring-human-robot-interaction-a-b-s-t-r-a-c-t-monitoring-patients-through-robotics-telehealth-systems-is-an-interesting-scenario-where-patients-conditions-and-their-environment-are-dynamic-and-unknown-variables-we-propose-to-improve-telehealth-systems-features-to-include-the-ability-to-serve-patients-with-their-needs-operating-as-human-caregivers-the-objective-is-to-support-the-independent-living-of-patients-at-home-without-losing-the-opportunity-to-monitor-their-health-status-application-scenarios-are-several-and-they-spread-from-simple-clinical-assisting-scenarios-to-an-emergency-one-for-instance-in-the-case-of-a-nursing-home-the-system-would-support-in-continuously-monitoring-the-elderly-patients-in-contrast-in-the-case-of-an-epidemic-diffusionabstract-contents-lists-available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare">preface_schema: ‘1.0’
+title: ‘a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy’
+source_type: ‘Academic’
+publisher: ‘Elsevier’
+publishing_date: ‘2020’
+authors: [‘Francesco Lanzaa’, ‘Valeria Seiditaa’, ‘Antonio Chellaa’, ‘Via Ugo La Malfa’, ‘Received 30 January 2020’, ‘Accepted 8 June 2020’]
+available_at: ‘<a href="https://doi.org/10.1016/j.jbi.2020.103483" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.jbi.2020.103483<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+keywords: [‘<a href="../concepts/expertise-based-ai-assistants" class="internal alias" data-slug="concepts/expertise-based-ai-assistants">multi-agent systems</a> robots in therapy robots in emergency care for covid-19 patient monitoring human-robot interaction a b s t r a c t monitoring patients through robotics <a href="../concepts/telehealth" class="internal alias" data-slug="concepts/telehealth">telehealth</a> systems is an interesting scenario where patients’ conditions’, ‘and their environment’, ‘are dynamic and unknown variables. we propose to improve telehealth systems’ features to include the ability to serve patients with their needs’, ‘operating as human caregivers. the objective is to support the independent living of patients at home without losing the opportunity to monitor their health status. application <a href="../concepts/scenarios" class="internal alias" data-slug="concepts/scenarios">scenarios</a> are several’, ‘and they spread from simple clinical assisting scenarios to an emergency one. for instance’, ‘in the case of a nursing home’, ‘the system would support in continuously monitoring the elderly patients. in contrast’, ‘in the case of an epidemic diffusion’]
+abstract: ‘Contents lists available at ScienceDirect Journal of Biomedical Informatics journal homepage: <a href="http://www.elsevier.com/locate/yjbin" class="external" target="_blank" rel="noopener noreferrer">www.elsevier.com/locate/yjbin<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Agents and robots for collaborating and supporting physicians in <a href="../concepts/health" class="internal alias" data-slug="concepts/health">healthcare</a>’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preface_schema-10title-a-dipartimento-di-ingegneria-università-degli-studi-di-palermo-90128-viale-delle-scienze-palermo-italysource_type-academicpublisher-elsevierpublishing_date-2020authors-francesco-lanzaa-valeria-seiditaa-antonio-chellaa-via-ugo-la-malfa-received-30-january-2020-accepted-8-june-2020available_at-httpsdoiorg101016jjbi2020103483keywords-multi-agent-systems-robots-in-therapy-robots-in-emergency-care-for-covid-19-patient-monitoring-human-robot-interaction-a-b-s-t-r-a-c-t-monitoring-patients-through-robotics-telehealth-systems-is-an-interesting-scenario-where-patients-conditions-and-their-environment-are-dynamic-and-unknown-variables-we-propose-to-improve-telehealth-systems-features-to-include-the-ability-to-serve-patients-with-their-needs-operating-as-human-caregivers-the-objective-is-to-support-the-independent-living-of-patients-at-home-without-losing-the-opportunity-to-monitor-their-health-status-application-scenarios-are-several-and-they-spread-from-simple-clinical-assisting-scenarios-to-an-emergency-one-for-instance-in-the-case-of-a-nursing-home-the-system-would-support-in-continuously-monitoring-the-elderly-patients-in-contrast-in-the-case-of-an-epidemic-diffusionabstract-contents-lists-available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare">available at ScienceDirect Journal of Biomedical Informatics journal homepage: <a href="http://www.elsevier.com/locate/yjbin" class="external" target="_blank" rel="noopener noreferrer">www.elsevier.com/locate/yjbin<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Agents and robots for collaborating and supporting physicians in healthcare’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Contents lists available at ScienceDirect
+Journal of Biomedical Informatics
+journal homepage: <a href="http://www.elsevier.com/locate/yjbin" class="external" target="_blank" rel="noopener noreferrer">www.elsevier.com/locate/yjbin<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Agents and robots for collaborating and supporting physicians in healthcare
+scenarios
+Francesco Lanzaa,⁎, Valeria Seiditaa,b, Antonio Chellaa,b
+a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy
+b Istituto di Calcolo e Reti ad Alte Prestazioni (ICAR), Consiglio Nazionale delle Ricerche, 90146, Via Ugo La Malfa, 153 Palermo, Italy
+A R T I C L E I N F O
+Keywords:
+Multi-agent systems
+Robots in therapy
+Robots in Emergency Care for COVID-19
+Patient monitoring
+Human-robot interaction
+A B S T R A C T
+Monitoring patients through robotics telehealth systems is an interesting scenario where patients’ conditions,
+and their environment, are dynamic and unknown variables. We propose to improve telehealth systems’ features
+to include the ability to serve patients with their needs, operating as human caregivers. The objective is to
+support the independent living of patients at home without losing the opportunity to monitor their health status.
+Application scenarios are several, and they spread from simple clinical assisting scenarios to an emergency one.
+For instance, in the case of a nursing home, the system would support in continuously monitoring the elderly
+patients. In contrast, in the case of an epidemic diffusion, such as COVID-19 pandemic, the system may help in
+all the early triage phases, significantly reducing the risk of contagion. However, the system has to let medical
+assistants perform actions remotely such as changing therapies or interacting with patients that need support.
+The paper proposes and describes a multi-agent <a href="../concepts/architecture" class="internal alias" data-slug="concepts/architecture">architecture</a> for intelligent <a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">medical care</a>. We propose to use th</p>
+<p>tions remotely such as changing therapies or interacting with patients that need support.
+The paper proposes and describes a multi-agent architecture for intelligent medical care. We propose to use the
+beliefs-desires-intentions agent architecture, part of it is devised to be deployed in a robot. The result is an in-
+telligent system that may allow robots the ability to select the most useful plan for unhandled situations and to
+communicate the choice to the physician for his validation and permission.</p>
+<ol>
+<li>Introduction
+Today there are many clinical scenarios in which a physician does
+not rely solely on himself, his knowledge or experience or his presence,
+to solve a patient’s problems.
+Current scenarios are made more complicated by the increase in the
+average <a href="../concepts/life-expectancy" class="internal alias" data-slug="concepts/life-expectancy">life expectancy</a> of citizens, especially in Western countries,
+which leads to an ever-increasing demand for healthcare systems. It is
+also remarkable today that societies are committed to ensuring access
+to care and well-being to all citizens [1]. There are also cases in which
+patients live in poor or not easily accessible places or in general cases in
+which the physician must provide, or receive if he is not on-site, fast
+and reliable diagnoses to be able to establish a therapy or otherwise
+solve a problem. This last is the case of the emergency due to the
+COVID-19 pandemic. The problem often faced by emergency room
+physicians was not to have the means for early identification of infected
+cases. This fact caused a lot of people infected and then dead also
+among doctors and nurses. Another case is the lack of professionals or,
+increasingly challenging, the presence of changing contexts. For in-
+stance, cases in which patients with the same disease but placed in a
+different family or social contexts have different characteristics and
+needs. Probably in these cases, a unique protocol cannot be applied, but
+doctors have to be able to decide on a case by case basis.
+As evidenced by documents issued by the European</li>
+</ol>
+<p>haracteristics and
+needs. Probably in these cases, a unique protocol cannot be applied, but
+doctors have to be able to decide on a case by case basis.
+As evidenced by documents issued by the European Commission,
+the urgent need for intelligent systems for healthcare has not to be
+undervalued. Investigating the importance of AI &amp; Robotics in health-
+care is the current challenge for scientists and physicians, as illustrated
+by the Policy Department for Economic, Scientific and <a href="../concepts/quality-of-life" class="internal alias" data-slug="concepts/quality-of-life">Quality of Life</a>
+Policies in [2]. Here the main question is “Robots in Healthcare: a so-
+lution or a problem?”. Following these research lines, we are in-
+vestigating “how can an intelligent system help a physician in making de-
+cisions, even in dynamic contexts?”
+Supporting physicians and patients in “complex” clinical contexts
+requires intelligent systems endowed with the ability to solve problems
+during interactions. During the execution, the system interacts with
+users and the environment that often change continuously as a result of
+the interaction.
+These challenges may be solved by multi-agent systems able to self-
+adapt to changing situations and deliberate also in the total or partial
+absence of input data from physicians or patients.
+These aspects cannot be faced and solved at the design time.
+Developers cannot identify and implement all the possible situations
+<a href="https://doi.org/10.1016/j.jbi.2020.103483" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.jbi.2020.103483<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Received 30 January 2020; Received in revised form 1 June 2020; Accepted 8 June 2020
+⁎ Corresponding author.
+E-mail addresses: <a href="mailto:francesco.lanza@unipa.it" class="external">francesco.lanza@unipa.it<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (F. Lanza), <a href="mailto:valeria.seidita@unipa.it" class="external">valeria.seidita@unipa.it<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (V. Seidita), <a href="mailto:antonio.chella@unipa.it" class="external">antonio.chella@unipa.it<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (A. Chella).
+Available online 27 June 2020
+1532-0464/ © 2020 Elsevier Inc. All rights reserved.
+T</p>
+<p>: <a href="mailto:francesco.lanza@unipa.it" class="external">francesco.lanza@unipa.it<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (F. Lanza), <a href="mailto:valeria.seidita@unipa.it" class="external">valeria.seidita@unipa.it<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (V. Seidita), <a href="mailto:antonio.chella@unipa.it" class="external">antonio.chella@unipa.it<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (A. Chella).
+Available online 27 June 2020
+1532-0464/ © 2020 Elsevier Inc. All rights reserved.
+T</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows a <a href="../concepts/black-and-white" class="internal alias" data-slug="concepts/black-and-white">black and white</a> line illustration of a tree with two people standing beneath its branches. The main subject is the tree and the figures, set against a simple background with small plants and ground details. The illustration uses black and white for the artwork, while the word “ELSEVIER” at the bottom is in orange.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: [Image: vision model returned empty description]</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: The photograph features a single, plain gray square as its main subject. The square displays a subtle gradient, transitioning from a lighter shade at the top to a darker tone at the bottom. There is no distinct setting or additional elements present in the image. The dominant color is various shades of gray, creating a minimalist visual.</p>
+</blockquote>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>where a high level of autonomy is required. At best, they can identify
+several conditional statements and allow for a set of possible alter-
+natives in the system behavior.
+The more dynamism or uncertainty in clinical contexts exist, the
+more physicians may need to be supported by an intelligent system. In
+this situation, developers have to implement mechanisms that let the
+system autonomously monitor patients, retrieve important information,
+reason and suggest actions to physicians if necessary. All this may be
+done employing robots.
+Thus, an efficient way to face the problem mentioned above is using
+the agent-oriented paradigm [3] and robots. The use of agent-oriented
+paradigm in complex systems, such as robotic platforms or <a href="../concepts/internet-of-things" class="internal alias" data-slug="concepts/internet-of-things">internet of
+things</a> <a href="../concepts/software" class="internal alias" data-slug="concepts/software">applications</a>, was studied and treated by scientific community
+[4–6] during these years. For instance, the application of the agent-
+oriented computing, for the IoT domain and the cyber-physical systems,
+is increasing day-by-day. Weaknesses an</p>
+<p>entific community
+[4–6] during these years. For instance, the application of the agent-
+oriented computing, for the IoT domain and the cyber-physical systems,
+is increasing day-by-day. Weaknesses and issues in these domains can
+be solved exploiting agent-oriented architectures and relative com-
+puting techniques as well discussed and highlighted in [7]. Another
+way to employ multi-agent systems for developing monitoring systems
+in the healthcare scenario may be seen in [8]. However, multi-agency
+has not been used for providing support in dynamic environments for
+healthcare domain. The contribution and the novelty of this paper lay
+in the creation of an agent-based architecture for healthcare systems.
+The architecture handles monitoring, <a href="../concepts/knowledge-management" class="internal alias" data-slug="concepts/knowledge-management">knowledge management</a> and de-
+liberation module. The main novel idea we present is to employ the
+Belief-Desires-Intentions (BDI) paradigm and its <a href="../concepts/reasoning" class="internal alias" data-slug="concepts/reasoning">reasoning</a> cycle for im-
+plementing a multi-agent system able to deliberate and plan tele-
+operation activities to help physicians in making decisions. Even when
+information about plans to execute and goals to pursue are lacking or
+incomplete. The multi-agent system resulting from the proposed ar-
+chitecture has been conceived for being deployed in a robot to support
+physicians or patients in their activities.
+The rest of the paper is structured as follows: in Section 2 some
+related work are explored; Section 3 briefly shows multi-agent systems
+topics, their features and how they handle the selection of plans during
+the execution phase; in Section 4 we discuss the architecture we pro-
+pose for assisting physicians and how plans are created is illustrated
+with an example; in Section 5 we validate the proposed architecture
+and finally in Section 6 some discussions and conclusions are drawn.
+2. Related work
+The need to build a robotic system able to satisfy patients brought
+scientists to design robotic platforms to face this problem, as in the case
+of Koceska et al. [9]. Koceska et al. studied</p>
+<p>lated work
+The need to build a robotic system able to satisfy patients brought
+scientists to design robotic platforms to face this problem, as in the case
+of Koceska et al. [9]. Koceska et al. studied available platforms in the
+market of assistive robot systems. They designed and developed a low-
+cost assistive telepresence robot system for facilitating and improving
+the quality of life of elderly and people with disabilities. To improve the
+quality of life the robot system is able to interact with the environment
+(such as, moving small objects and measuring vital <a href="../concepts/parameters" class="internal alias" data-slug="concepts/parameters">parameters</a>) and can
+be controlled by a remote assistant. The robot merely executes the
+<a href="../concepts/commands" class="internal alias" data-slug="concepts/commands">commands</a> of the remote assistant. An advantage is that this is a low-
+cost robot that can be easily used in everyday life by patients and
+professionals.
+The need for a telepresence robotic assistant has driven the interest
+of the EU itself, which has financed FP7 and H2020 European Projects
+for this purpose.
+MARIO project1 faces an important challenge into the field of tele-
+presence robotic assistant. It aims to challenge <a href="../concepts/loneliness" class="internal alias" data-slug="concepts/loneliness">loneliness</a>, isolation and
+dementia in elderly people [10–13]. The project connects elderly
+people with their needs. It aims to be independent of robotic platforms.
+Moreover, it supports remote application <a href="../concepts/installation" class="internal alias" data-slug="concepts/installation">installation</a> and deployments
+onto the robotic platforms. The project uses data exchanged during
+personal or <a href="../concepts/social-interaction" class="internal alias" data-slug="concepts/social-interaction">social interaction</a>. Even if the project faced these challenges,
+no dynamic supports to patients or physicians were considered. It does
+not facilitate the interaction including new activities at runtime without
+the contribution of developers.
+ENRICHME project2 is another EU project financed through the
+H2020 Framework Program [14,15]. The project aims to face the
+cognitive decline of cognitive capacities in elderly people. The solution
+consists of an integrated platform for ambient assisted living, integrated
+with a mobile service robot. The project aims to realize long-term
+human monitoring an</p>
+<p>cities in elderly people. The solution
+consists of an integrated platform for ambient assisted living, integrated
+with a mobile service robot. The project aims to realize long-term
+human monitoring and interaction system for letting elderly people stay
+independent in their home way. The strength of the project is to enable
+physicians and caregiver to analyze data for identifying changing in
+cognitive impairments and so early acting on them. This system does
+not take in consideration robots as a human supporter.
+MOVECARE project3 aims to realize “an innovative multi-actor plat-
+form that supports the independent living of the elder at home by monitoring,
+assisting and promoting activities to counteract physical and cognitive de-
+cline and social exclusion” [16–18]. The MOVECARE architecture
+monitors the frailty of the elderly specifically based on criteria identi-
+fied and discussed by Fried et al. [19]. Like the previous approach, this
+framework provides a good means for monitoring; it adds some kind of
+intelligence during the <a href="../concepts/reasoning-steps" class="internal alias" data-slug="concepts/reasoning-steps">reasoning process</a>. The reasoning system can
+alert caregivers about the status of the patients and possible motiva-
+tions exploiting the Fried frailty criteria. Nonetheless, the robotic
+platform is not designed for acting as a true caregiver.
+Caresses project,4 that stands for “Culture Aware Robots and En-
+vironmental Sensor Systems for Elderly Support”, is an H2020 Project
+financed by EU for building culturally competent care robots [20–23].
+The project aims to build the first robot that assists the elderly, adapting
+itself with the culture of the user. At the best of our knowledge, the
+platform is not able to handle runtime planning for executing therapies.
+All previous projects consider several important aspects of tele-
+medicine, assistive robotics and human-robot interaction for health-
+care, but activities are not thought to support physicians by remote in a
+proactive manner.
+Another approach in the literature, to perform robo</p>
+<p>sistive robotics and human-robot interaction for health-
+care, but activities are not thought to support physicians by remote in a
+proactive manner.
+Another approach in the literature, to perform robotic teleopera-
+tions for ultrasonic medical imaging, is the OTELO System. OTELO
+performs tele-echography [24] remotely. It supports the clinicians in
+making a diagnosis. This system even treats patients in their home, does
+not operate proactively and it needs for physicians to be used.
+Progress in networking lets computer scientists build applications
+using a network to exchange data and information. Systems can ex-
+change information using the network and the spread of wireless. In
+[25] authors propose a mobile-care system integrated with a variety of
+vital-signs monitoring, where all involved devices are endowed with a
+wireless <a href="../concepts/communication" class="internal alias" data-slug="concepts/communication">communication</a> module for data exchanging. The mobile-care
+system uploads data into a care server via the internet. Data stored into
+the remote server are available for physicians that need to check the
+health status of patients. The system serves as an alert system where
+interaction with patients is implemented.
+Evolution of telemedicine systems brought at the definition of novel
+systems able to handle more complex scenarios. Recent works introduce
+a new technological paradigm for elderly people that live alone. In [26]
+authors consider IoT (Internet of Things) technology to connect devices
+in patient’s home for data collecting and communication. Other studies
+involve the usage of robots, or better social robots, as telepresence
+systems [27]. In this work, the authors proposed a telepresence robot,
+built for a human-robot interactive experiment.
+Each of these works aims to realize complex systems with the ability
+to supervise people at home letting them live without invasive instru-
+ments through the usage of robotics or sensors scattered into their
+1 <a href="https://cordis.europa.eu/project/id/643808" class="external" target="_blank" rel="noopener noreferrer">https://cordis.europa.eu/project/id/643808<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+2 <a href="https://cordis.europa.eu/project/id/643691" class="external" target="_blank" rel="noopener noreferrer">https://cordis.europa.eu/project/id/643691<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+3</p>
+<p>ng them live without invasive instru-
+ments through the usage of robotics or sensors scattered into their
+1 <a href="https://cordis.europa.eu/project/id/643808" class="external" target="_blank" rel="noopener noreferrer">https://cordis.europa.eu/project/id/643808<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+2 <a href="https://cordis.europa.eu/project/id/643691" class="external" target="_blank" rel="noopener noreferrer">https://cordis.europa.eu/project/id/643691<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+3 <a href="https://cordis.europa.eu/project/id/732158" class="external" target="_blank" rel="noopener noreferrer">https://cordis.europa.eu/project/id/732158<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+4 <a href="https://cordis.europa.eu/project/id/737858" class="external" target="_blank" rel="noopener noreferrer">https://cordis.europa.eu/project/id/737858<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+2</p>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>homes. Other approaches are present in literature, most of them resolve
+problems related to telepresence, monitoring and teleoperation.
+We are now facing the following problem: each patient’s environ-
+ment is not equal to another leading to difficulty in handling new oc-
+curring situations by clinicians. Moreover, every patient answers
+therapies in different ways and so, every care system has to be endowed
+with the ability to adapt its behaviors taking into account this weak-
+ness. For that, scientists and engineers need for methods to facilitate
+reasoning operation at runtime.
+Runtime reasoning methods arouse a strong interest in the robotics
+community for modeling complex domains, such as the clinical one.
+The state of the art of <a href="../concepts/health-sector" class="internal alias" data-slug="concepts/health-sector">healthcare system</a> presents solutions aimed at
+assisting patients and physicians in performing monitoring and other
+simple operations. Physician interacts with the system that interacts
+with the patients and vice versa. All these approaches do not solve
+problems related to changing clinical scenarios.
+Additionally, our approach employs a multi-agent architecture that
+gives intelligent support to the physician. The architecture, deployed in
+a robot, monitor and assist the patient as a caregiver, also in coopera-
+tion and collaboration with the doctor.
+3. Multi-agent system
+An agent is an autonomous entity able to act in response to stimuli
+coming from the environment and proactively act towards a specific
+goal [3,28,29]. The agent paradigm was born to better understand and
+model complexity in software. Interaction among components is the
+main characteristic of complex software. Correctly engineering and
+implementing systems where compl</p>
+<p>was born to better understand and
+model complexity in software. Interaction among components is the
+main characteristic of complex software. Correctly engineering and
+implementing systems where complex components interact with each
+other is harder than engineering systems requiring the computation of
+single or simple functions. Agent theory is suitable for facing this kind
+of situation.
+An agent has the following important properties: autonomy, re-
+activity, proactiveness and social ability. To understand what autonomy
+means when talking about agents let us refer to a functional program, a
+Java class, a compiler or something like that. All these kinds of software
+may be modeled by a function, they receive input and produce an
+output as the result of elaborating that input. Everything happens in
+this application is because we (the programmers or the designers) want
+it to happen and to happen exactly in that way. An <a href="../concepts/ai-agent" class="internal alias" data-slug="concepts/ai-agent">autonomous agent</a> is
+conceived to be at the exact opposite of the applications above.
+Research in the field of agents and multi-agent systems is going towards
+means for building agents to which we can delegate tasks. It is up to the
+agent to decide how to reach the objectives, they act on the base of
+plans we give them. A plan defines the set of actions an agent may
+perform to pursue an objective. An agent is reactive in the sense that it
+is able to perceive the environment and act in response to changes
+coming from it, actions are directed towards the agent’s objective. One
+of the key points related to <a href="../concepts/ai-agent-autonomy" class="internal alias" data-slug="concepts/ai-agent-autonomy">agent autonomy</a> is that an agent may put
+together plans to achieve our goals. So they are making able to operate
+autonomously on the behalf of humans that delegate them their goals.
+Proactiveness is the ability “to exhibit a <a href="../concepts/goal-oriented-behavior" class="internal alias" data-slug="concepts/goal-oriented-behavior">goal-directed behavior</a> by
+taking the initiative”. Social ability is the ability of an agent to interact
+with other agents and humans to purposefully reach its objective. This
+latest ability involves an important skill belonging to</p>
+<p>the initiative”. Social ability is the ability of an agent to interact
+with other agents and humans to purposefully reach its objective. This
+latest ability involves an important skill belonging to humans, i.e.
+communication abilities. To establish a society, the agent cooperates
+and coordinates activities with other agents and therefore it is able to
+communicate to the other (also humans) its beliefs, its goals and its
+plans.
+Healthcare systems or other kinds of systems supporting physicians
+in the scenarios identified in the introduction are perfectly manageable
+with agents. An agent with the property above may be delegated to
+solve problems on behalf of the physician. It may be planned for
+monitoring patients and inform of all possible situations deviating from
+a specific protocol. The agent may autonomously establish an alter-
+native plan or action to perform to pursue a specific goal and may
+communicate to the doctor to support him in the decision. Note that it is
+not a simple teleoperation ability but a real intelligent aid.
+A widely recognized agency model in literature is the Beliefs-Desires-
+Intentions (BDI) model. This AI-based agent paradigm [30] involves a
+deliberation ability of the agent, based on a continuous sense-action
+loop and the evaluation of existing beliefs. It allows the agent to realize
+a desire with a plan available in its library. This model originates from
+the theory of practical reasoning by the philosopher M. Bratman [31].
+Practical reasoning is a human ability, the reasoning is directed towards
+actions. “Practical reasoning is a matter of weighing conflicting considera-
+tions for and against competing options, where the relevant considerations
+are provided by what the agent desires/values/cares about and what the
+agent believes.” ([32], p.17).
+In this section, we briefly outline the basic concept regarding the
+BDI agent paradigm and some ideas on how it might be useful in the
+clinical domain.
+The definition of practical reasoning</p>
+<p>2], p.17).
+In this section, we briefly outline the basic concept regarding the
+BDI agent paradigm and some ideas on how it might be useful in the
+clinical domain.
+The definition of practical reasoningleads to taking into considera-
+tion two factors, the belief and the desire. Beliefs are all facts or in-
+formation about the environment the agent considers valid. Beliefs
+constitute the actual knowledge of the agent. Desires are all the state of
+affairs the agent wants, or better would like, to reach. Desires relate to
+the goal the agent has been delegated to. Commonly, an agent has
+conflicting desires. Not all the desires it owns are devoted to be com-
+mitted. Only intentions are pursued. The intention is the state of affairs,
+an objective also related to the state of the world, that the agent decides
+to reach, on which it commits to work on. We can imagine an agent
+having the goal of monitoring a patient for sending information to the
+physician, remembering or administering the patient some therapy he
+has to do, updating medical records, ensuring that the primary needs of
+patients are met. The agent is delegated to reach all those objective but
+it is up to it to decide which one to pursue in a specific moment and on
+the base on the information (all the beliefs) it has on the environment.
+When it chooses a desire, it commits to an intention and decides the
+course of action to pursue that intention. The course of action is called
+plan.
+Moreover, humans actuating practical reasoning performs two im-
+portant activities: deliberation and means-ends reasoning. The former is
+the action of deciding which intention to commit and the latter is about
+deciding how to act. BDI agents are developed to be deliberative and
+means-end reasoner. In a clinical scenario, having agents behaving in a
+human-like fashion, on the behalf of the physician, may be a great
+support. A software system, also deployed in a robot, that merely exe-
+cutes orders by physicians may be helpful. What if th</p>
+<p>ing in a
+human-like fashion, on the behalf of the physician, may be a great
+support. A software system, also deployed in a robot, that merely exe-
+cutes orders by physicians may be helpful. What if the software system
+is able to deliberate how to act when the situation is not the one en-
+visioned by the physician? For instance, let us suppose that while the
+agent is administering a therapy, the patient’s conditions can change.
+The changing produces a revision of the agent’s beliefs, triggering other
+options, such as advise the physician and wait for his <a href="../concepts/instructions" class="internal alias" data-slug="concepts/instructions">instructions</a>.
+This kind of support cannot be reached by using a simple reactive
+system. In the following section, we explain the agent architecture,
+involving BDI agents, we propose for physicians support in a clinical
+scenario.
+The computational model implementing deliberation and means-
+ends reasoning contains four elements: B (beliefs), I (intentions), D
+(desire) and
+(plan). At the beginning agent is endowed with a belief
+base, hence its knowledge about the environment, and a plan library, a
+set of possible plans for reaching objectives. A plan is selected and then
+activated only if some preconditions are true. The model develops on a
+loop for which an agent starts by updating the belief base, is something
+like getting aware of the world around, and choosing an intention.
+During the loop, the agent continuously perceives from the environ-
+ment, if necessary it updates the belief base, determines desires and
+intentions by computing current beliefs and then generates a plan to
+reach the intention. Generating a plan means to select the best plan
+from the plan library, the one that fits with all the intention’s pre-
+condition and executing all the actions it contains. After the execution
+3</p>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>a plan means to select the best plan
+from the plan library, the one that fits with all the intention’s pre-
+condition and executing all the actions it contains. After the execution
+3</p>
+<hr/>
+<h2 id="page-4-1">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>of each action, the agent pauses and observes the environment. The
+agent might need to update the belief base and reconsider the intention.
+In the worst case, if no plans or no actions exist in the plan library for
+reaching an intention the agent should be provided with other plans,
+hence its plan library has to be enriched. For instance, in the clinical
+scenario, if the robot does not know how to reach an intention, the
+robot could interact with the physician for a new plan to be added into
+the plan library, remotely.
+Moreover, letting the agents reasoning on the belief base and on the
+current environment allows us to develop a robot able to explain the
+reason for failure. In so doing the interaction with the physician may
+reach a high degree of intelligent support.
+Several technological approaches in the literature describe possible
+implementations of BDI agents. One of the most known and efficient
+ones is the Jason framework and its reasoning cycle [28,33]. Jason is a
+powerful instrument for realizing planning in uncertain environments.
+In the next section, we detail the proposed agent architecture ex-
+ploiting the said BDI features and we explain how we implement the
+architecture in a robot supporting and cooperating the physician for
+reaching a common goal.
+4. A multi-agent system for healthcare
+This section starts with the description of a pilot scenario, useful for
+deeply understanding the domain context.
+4.1. Pilot scenario
+Involved actors are listed in the following table (Table 1).
+Alice is a nice elder woman with chronic bronchitis and she has to
+stay at home. She is assisted by MyRob robot. MyRob is in charge of
+monitoring Alice and her environment to collect her health-data.
+Dr. Haus prescribes some medicines. MyRob daily collects and sends
+data to let Dr</p>
+<p>She is assisted by MyRob robot. MyRob is in charge of
+monitoring Alice and her environment to collect her health-data.
+Dr. Haus prescribes some medicines. MyRob daily collects and sends
+data to let Dr. Haus check Alice’s health status or revise prescribed
+therapies.
+The data is stored into a data repository where Dr. Haus, through an
+application, analyzes them and decides new therapies or confirms the
+previous one. If Dr. Haus, on the base of the analyzed data, finds the
+therapy good nothing changes and MyRob continues its tasks without
+interruptions otherwise MyRob may send feedback or recommenda-
+tions to Dr. Haus.
+So far, social robots used as a <a href="../concepts/companion" class="internal alias" data-slug="concepts/companion">companion</a> or virtual caregiver
+[34,35] satisfactorily face these kinds of duties.
+What about if prescribed therapies are not adequate, because something
+unforeseen occurred in Alice’s status, and Dr. Haus needs to revise them
+collaborating remotely with MyRob?
+MyRob checks for alternative actions to apply to the context and
+asks Dr. Haus’s <a href="../concepts/authorization" class="internal alias" data-slug="concepts/authorization">authorization</a> for proceeding, otherwise it contacts him
+to inform about the situation. In the latter case, Dr. Haus decides to
+change the therapy and through his terminal, he proceeds to send the
+new therapy to MyRob. So that, MyRob is allowed to change dynami-
+cally the therapies.
+For instance, let us suppose that MyRob has been charged to open
+the window each time the quality of air lowers below a threshold and to
+administer timely previous medicines to Alice. MyRob is going to open
+the window but perceives an increase in Alice’s body temperature.
+MyRob recognizes the right conditions for opening the window now
+lack. MyRob contacts Dr. Haus, informs him about the new Alice status
+and
+requires
+his
+consent
+for
+not
+opening
+the
+windows
+and
+administering paracetamol. If MyRob does not know this alternative
+action, it alerts Dr. Haus for receiving commands. Dr. Haus may suggest
+administering paracetamol.
+4.2. The system overview: architectural aspects
+To accomplish the previous scen</p>
+<p>know this alternative
+action, it alerts Dr. Haus for receiving commands. Dr. Haus may suggest
+administering paracetamol.
+4.2. The system overview: architectural aspects
+To accomplish the previous scenario we need to develop a robot that
+might serve as an intelligent object for monitoring and checking pa-
+tients in their environment and also as a collector of data for enhancing
+diagnosis. The robot has also to be able to change its behaviors at
+runtime according to the physician’s prescriptions.
+The idea is to develop such a kind of robot as a part of a cognitive
+system realized employing BDI agents and on the base of the following
+architecture (Fig. 1).
+The architecture is composed of four modules:
+• <a href="../concepts/workspace-management" class="internal alias" data-slug="concepts/workspace-management">Environment Management</a> –it contains all useful elements for in-
+terfacing physicians, for monitoring the environment in which pa-
+tients live and for acquiring data;
+• Knowledge Management –it is the module for storing and mana-
+ging data from the environment and patient;
+• Reasoning –this is the module devoted to compute data stored into
+the knowledge module and to produce a series of actions to ac-
+complish a task;
+• Acting –given a set of actions, it extracts the proper action for a
+specific situation.
+The Knowledge Management module depends on the Environment
+Management module, indeed only data resulting from monitoring form
+the knowledge of the system.
+Data stored in the Knowledge Management module are used by the
+system for the reasoning process and, at the same time, all the results of
+the reasoning process update knowledge.
+The Reasoning module produces a set of actions, useful to reach one
+or more system goals.
+This set is the input for the Acting module where, it extracts the
+proper action sent to the system. The result of an action normally
+produces a change in the state of the environment. So, this module
+affects the monitoring one.
+The architecture in Fig. 1 is implemented employing a BDI multi-
+agent system where a set of agents works to</p>
+<p>uces a change in the state of the environment. So, this module
+affects the monitoring one.
+The architecture in Fig. 1 is implemented employing a BDI multi-
+agent system where a set of agents works to reach the system’s goal.
+4.3. A multi-agent approach for healthcare systems
+The efficiency of the multi-agent paradigm in modeling and
+Table 1
+Actors involved in the pilot scenario.
+Patient:
+Alice
+Robot Caregiver:
+MyRob
+Physician:
+Dr. Haus
+Fig. 1. The architecture for implementing the Boyd cycle to let agent observing,
+orienting, deciding and acting.
+4</p>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>handling complex systems has been widely discussed in the literature
+[3,36]. Handling robots via a multi-agent system means creating a
+multi-agent architecture able to handle components and planning
+abilities.
+As said, our idea is to use the BDI agents paradigm for providing a
+intelligent support to the physician work, also allowing him to manage
+robot remotely. Beliefs, rules, desires and intentions for each agent are
+defined at design time by developers and users (physicians and patients
+in the clinical domain).
+Beliefs are generally of two types: (i) perceptions acquired through
+sensors from the surrounding environment; (ii) information acquired
+through messages exchanged with the other agents into the platform.
+Beliefs are critical for the agent’s planner. Beliefs and rules push a
+plan to be selected as the best set of activities to do. Selecting one plan,
+compared to another, means changing the behavior of the agent during
+its operating cycle.
+The agent’s intelligence is defined with a descriptive file written in
+AgentSpeak(L) [30,37]. AgentSpeak(L) is a language that uses logical
+formalism to define a set of plans for handling situations to reach the
+agent’s goal. The agent programmer writes initial beliefs, rules, goals and
+plans.
+Each plan is composed of a head and a tail. The head is composed of
+a event trigger and a circumstance. The former is the trigger condition
+that launches actions</p>
+<p>tial beliefs, rules, goals and
+plans.
+Each plan is composed of a head and a tail. The head is composed of
+a event trigger and a circumstance. The former is the trigger condition
+that launches actions defined into the plan and the latter is a set of
+parameters used for validating the context in which some actions are
+allowed. More in detail, a plan is launched when the event trigger is
+scheduled and the set of beliefs contained in the circumstance are
+solved by a unification process where a literal is unified with the data
+contained into the namesake belief and verified by a first-order logic
+process.
+The tail of a plan is composed of sub-plans or actions that can be
+internal actions or external actions.
+In the next paragraph, we show the architecture detailing how
+agents work, communicate and cooperate to support physicians.
+4.4. Agents working in the healthcare architecture
+Fig. 2 represents the multi-agent system that works in a typical
+healthcare scenario. In this scenario, two environments are involved,
+the patient’s residence and the physician’s office.
+The two environments are connected through a multi-agent plat-
+form, each environment owns one or more agents, or better one or more
+agents are deployed in each environment. The multi-agent platform
+serves as a bridge among the patient and the physician. It is worth to
+note that the middle layer of this representation constitutes the in-
+telligent part to be added to a simple teleoperated system (i.e. the two
+environments and the software interfacing robot and the physician).
+The contribution of this paper lays in how we conceive the intelligent
+bridge.
+The physician (Fig. 2) uses his terminal to access the patient’s en-
+vironment and retrieves data about the patient’s status and the sur-
+rounding context. The patient communicates directly with the robot
+and vice versa.
+The cognitive model, followed by agents in the architecture figured
+out in Fig. 1, starts its reasoning cycle from the environment manag</p>
+<p>he patient communicates directly with the robot
+and vice versa.
+The cognitive model, followed by agents in the architecture figured
+out in Fig. 1, starts its reasoning cycle from the environment managing
+module. It (see Section 4.2) is responsible for acquiring information
+from the environments. Collected data are organized and stored to be
+saved in the remote server. The Knowledge Management module or-
+ganizes data to be synced with the system and updates them with the
+last perceived one for the diagnostic purpose by physicians. The same
+data are handled from the agents into the deliberation process module.
+This module is composed of two sub-systems, the first for reasoning and
+the second for acting.
+Multi-agent systems are distributed systems over the network. Each
+agent could be relocated to other computers that host a node or a set of
+nodes of the system infrastructure.
+The multi-agent system can be distributed over remote sites con-
+nected via the internet. The system we propose uses the internet to
+share information, data and alerts between the physician’s office and
+the patient’s environment.
+The physician’s terminal is connected to the multi-agent system
+through the Virtual Assistant agent. It implements all necessary func-
+tionalities to be into agents’ network and it receives data from the pa-
+tient’s environment via the internet.
+Data are stored using an OWL ontology, they are accessible from the
+physician by a terminal for diagnostic purpose. Data are also stored in
+remote servers for safety reasons. A memory manager holder organizes
+acquired perceptions and collected information by the system in an
+OWL ontology [38]. The knowledge is split into a long-term and
+working memory; in this way, we avoid problems such as memory leak
+or memory explosion from agents when they have to use it. So the
+memory is handled as described in [39] and the agent which was de-
+legated to manage knowledge is deployed into the system with the goal
+to keep all data sy</p>
+<p>rom agents when they have to use it. So the
+memory is handled as described in [39] and the agent which was de-
+legated to manage knowledge is deployed into the system with the goal
+to keep all data synced and updated. The knowledge of the system is
+Fig. 2. The multi-agent system for a robot in a
+healthcare scenario. The system shows circles for
+software modules such as agents and other used
+frameworks and three kinds of relations (ar-
+rows). The continuous arrow indicates commu-
+nication between modules, dashed arrows are
+activities that identify on which nodes agents
+and robots work. The relation: (i)
+&lt; is de-
+ployed >
+is used for software parts; (ii)
+&lt; is situated > for cyber-physical system.
+5</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: This image depicts a simple bedroom with light blue walls and a brown patterned floor. The main elements include a bed with a blue blanket, a brown wooden dresser topped with a yellow lamp, a radiator on the left side, and an air conditioner mounted on the wall. A framed picture of green trees hangs above the bed. The room features soft, muted colors and basic furniture.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: The main subject is a cartoon robot emoji. It has a blue square body with red circular ears, blue circular eyes, a red triangular nose, and white teeth. The top of its head features a yellow circle with a purple base. The design uses bright, simple colors typical of digital stickers.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: The main subject is a person with red hair and glasses working at a desk in an office. The setting includes a window showing a city view, a bookshelf filled with books and boxes, and stacked storage boxes on the floor. The colors are light blue walls, wooden furniture, and a purple shirt on the person, with additional details like a computer and lamp on the desk.</p>
+</blockquote>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>d stacked storage boxes on the floor. The colors are light blue walls, wooden furniture, and a purple shirt on the person, with additional details like a computer and lamp on the desk.</p>
+<hr/>
+<h2 id="page-6-1">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>organized to be always synced, updated and shared on the entire system
+and to avoid possible conflicts given the nature of beliefs. Indeed, be-
+liefs may change during the interaction with the environment or with
+the patient so it is necessary to guarantee the right knowledge syn-
+chronization among all the modules.
+The Virtual Assistant agent is deployed into the physician’s personal
+computer as a computer application. It works as a remote controller
+application and it endows the physician for accessing the patient’s en-
+vironment.
+The Virtual Assistant agent assists physicians in remotely collabor-
+ating with the robot located in the patient’s environment. Admitted
+operations let physicians manage the robot, such as supervising the
+robot’s behaviors, stopping or restarting it if necessary.
+As said in Section 2, nowadays, there exist several teleoperated
+robots that let the physician operate into the patient’s environment, no
+one of them works in autonomy during the interaction with the patient.
+Autonomy, in this case, means to be able to recognize or retrieve the
+best action to perform in a particular situation, propose the action to
+the physician and wait for his command. In this sense, the robot is
+autonomous and it can suggest some actions to the physician. Indeed, in
+our system physicians can teleoperate in the sense of changing previous
+therapies or adding new ones to enhance the quality of life of the pa-
+tient. The robotic caregiver should not be seen as a professional robotic
+avatar but as a valid instrument useful for monitoring and assisting
+patients in the place of clinicians.
+Virtual Assistant agent endows physician for checking, revising,
+updating a therapy or a set of therapies initially prescribed and pro-
+vided to the robot for taking care</p>
+<p>in the place of clinicians.
+Virtual Assistant agent endows physician for checking, revising,
+updating a therapy or a set of therapies initially prescribed and pro-
+vided to the robot for taking care of the health status of the patient.
+Therapies are plans in the sense of the agent’s plan that the Planner
+agent selects when the context is verified.
+The Planner agent is responsible to realize the intelligence of the
+system. It communicates with the Knowledge Manager agent to obtain
+data synced, updated and stored into the ontology for selecting the best
+plan that fits the current situation. To satisfy the system goal, the
+Planner agent tries to find the right solution using the context of a lo-
+gical formula; once the context is verified a combination of actions and
+other plans let the system move toward the goal.
+Logical formulas, in multi-agent systems, are also called plans and
+each plan is generally pushed into a repository of plans called Plan
+Library. Plans use perceptions and information acquired through the
+Vision and Sensor agents and are put in action through the Motion agent.
+Some instances of Vision and Sensor agents are deployed into the
+robot, other instances that perform heavy computational processes are
+distributed on the same node of the Knowledge Manager agent or in
+other nodes if necessary, thus giving a high level of scalability to our
+system.
+In Table 2 is summarized the description of the role of the agents
+that are into the system.
+4.5. How the robot is employed in the clinical scenario
+The robot situated in the patient’s environment works as a robotic
+caregiver.
+The
+multi-agent
+architecture
+contains
+modules
+for
+handling
+knowledge, planning, motion, vision and sense for robots. Each agent
+implements its logical model to accomplish established goals that re-
+present the desires of the agent.
+The robot uses algorithms for implementing obstacle avoidance and
+motion. The agent may navigate in unknown indoor places using an
+adapted version of a</p>
+<p>oals that re-
+present the desires of the agent.
+The robot uses algorithms for implementing obstacle avoidance and
+motion. The agent may navigate in unknown indoor places using an
+adapted version of a state-of-the-art algorithm for robot SLAM
+(Simultaneous Localization And Mapping) [40].
+The Motion agent is strictly connected with the Vision agent. While
+the former deals with the motion of the robot, the latter deals with
+<a href="../concepts/computer-vision" class="internal alias" data-slug="concepts/computer-vision">computer vision</a> tasks. The Vision agent, continually, senses the en-
+vironment using RGB camera to discover and to recognize objects lo-
+cated into the environment.
+The object recognition module works using the YOLO deep neural
+network5 [41]. YOLO is a state-of-the-art system for implementing real-
+time <a href="../concepts/object-detection" class="internal alias" data-slug="concepts/object-detection">object detection</a> and recognition. Recognizing objects is useful for
+motion’s tasks, such as obstacle avoiding or to enhance the localization
+algorithm using some objects as landmarks or fixed-points.
+The Vision agent is also able to detect the status of the patient, such
+as understanding when the patient is sitting or lying down or the pa-
+tient is standing. Vision agent takes also care of other tasks; a deep
+description of this module is out of the scope of the paper.
+Other agents are deployed into the multi-agent platform to sense the
+environment and to enhance the quality of perceptions. An agent, de-
+legated for handling information acquired by sensors, continually
+senses the environment with the aim to keep updated telemetries about
+the surrounding context. Data acquired are stored and shared between
+all agents.
+Moreover, several vision tasks and heavy computational processes
+used by the robot are distributed over other nodes in the architecture
+for balancing the robot’s workload.
+Beliefs shared into the platform by agents are used to select the best
+plan that fits with the goal of the system. Methods are implemented as
+internal actions or operations for the agent. Perceptions are acquired
+through sensors and cameras. Sensors acquire informa</p>
+<p>best
+plan that fits with the goal of the system. Methods are implemented as
+internal actions or operations for the agent. Perceptions are acquired
+through sensors and cameras. Sensors acquire information from the
+surrounding environment and each perception is translated into the
+Table 2
+The table summarizes the role of the agents into the proposed multi-agent system, figured out in Fig. 2.
+Agent
+Role
+Knowledge Manager
+It is a part of the multi-agent system used for managing the system’s knowledge. It uses a double kind of knowledge model, an ontology for storing
+information and gathering them as concepts and relations and a <a href="../concepts/knowledge-base" class="internal alias" data-slug="concepts/knowledge-base">knowledge base</a> where beliefs are stored for acting in the working domain.
+Planner
+It is a part of the multi-agent system used for planning operations. This agent is delegated for selecting which plan is more adapt to pursuing the goal.
+Generally, the system goal is defined at design time but it can be handled at runtime. This agent listens for information gathered and it deliberates the set
+of actions and plans that each agent has to execute using the agent’s communication module. This agent communicates directly with the virtual assistant
+agent. This last is responsible for upgrading the planner’s plan library to add plans and enabling it for revising plan at runtime; this means that the multi-
+agent systems can act dynamically.
+Vision
+It is a part of the multi-agent system used for vision task operations.
+Sensor
+It is a part of the multi-agent system used for collecting data from sensors. These data contribute in <a href="../concepts/decision-making" class="internal alias" data-slug="concepts/decision-making">decision-making</a> phase, to select the plan that best fit
+with the current situation.
+Motion
+It is a part of the multi-agent system used for handling robot motion. This agent implements modules for letting robot move and executing into the
+environment.
+Virtual Assistant
+It is a part of the multi-agent system used for letting physician be part of the system. This agent operates as a dashboard console on which the physicians
+retriev</p>
+<p>o the
+environment.
+Virtual Assistant
+It is a part of the multi-agent system used for letting physician be part of the system. This agent operates as a dashboard console on which the physicians
+retrieves data monitored by the robot and collected from the system. The agent lets physicians communicate new therapies to the robot that they will be
+translated into plans and added into the plan library of the planner agent. Therapy will be executed during the next agent’s reasoning cycle if pre-
+conditions signed by the physicians will happen. If this does not happen, an alert will be sent to the dashboard console.
+5 YOLO v3 website: <a href="https://pjreddie.com/darknet/yolo" class="external" target="_blank" rel="noopener noreferrer">https://pjreddie.com/darknet/yolo<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+6</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>corresponding belief and added to a set of beliefs handled by the
+knowledge manager as described.
+4.6. Details towards the <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">implementation</a>
+Our multi-agent system is implemented using the Jason framework
+[33,29] and the agent’s reasoning cycle is well described in [29,42,43].
+Briefly, each Jason agent reasoning cycle (Fig. 3) involves four
+phases: (i) sensing phase (in yellow); (ii) beliefs revision and updating
+phase (in pink); (iii) deliberative phase (in blue); (iv) acting phase (in
+green). Each cycle starts perceiving the environment and ends with
+acting operations in the surrounding context.
+Once the agent has perceived something from the environment,
+internal knowledge handling is executed. The core of the reasoning
+cycle is on how the agent selects the plan that best fits with the context.
+The reasoning cycle is responsible for the rational process for robot
+acting.
+As said before, plan is composed of three parts:
+triggering event context
+sub plans actions messages
+:
+;
+;
+.
+and a unification process over beliefs and a first-order logic is applied
+from the reasoner.
+The first-order logic evaluates logical conditions over boolean ex-
+pressions. The formalism used in Jason is inherited from the reasoning
+system developed using AgentSpeak(L) [37]. A list of plans is written at
+design-ti</p>
+<p>evaluates logical conditions over boolean ex-
+pressions. The formalism used in Jason is inherited from the reasoning
+system developed using AgentSpeak(L) [37]. A list of plans is written at
+design-time by agent programmer according to the goal that the agent
+has to pursue. Each plan is evaluated in the order in which it is written
+into the agent description file, written in AgentSpeak(L) language.
+The order in which plans figure into the Plan Library is fundamental
+for the decision-making process. In fact, the Plan Library is handled as a
+queue, where the first plan deployed into the Plan Library is the first
+that is select to be checked and executed if it is valid.
+The Plan Library contains all plans written at design-time and can
+be handled during agent life-cycle adding, revising or removing pre-
+defined plans. In this sense, the first plan in the queue that best fit with
+the condition is executed.
+Executing plans results in actions over the environment or ex-
+changing information with other agents in the system.
+The Planner agent communicates with the Knowledge Manager and
+Virtual Assistant agents for teleoperating activities and with the Motion
+agent to move into the environment for performing operations. The
+Planner agent’s plan library can be manipulated and it is partially revised
+for changing behaviors at runtime. Ideally, this agent is divided into
+two parts: (i) plans for robot acting, (ii) plans for administering
+therapies. The former is configured for permitting to operate and this
+section of plans are written at design time by agent programmer, the
+latter is the section of plans that the system activates to administer
+therapies to the patient to serve the physician and taking care of the
+patient.
+In the next section, we describe how to revise therapies remotely
+starting from diagnosis and we introduce the mapping process between
+therapies and agents’ plans.
+4.7. Handling diagnosis and therapy by means of plans
+Diagnosis represents the status of th</p>
+<p>remotely
+starting from diagnosis and we introduce the mapping process between
+therapies and agents’ plans.
+4.7. Handling diagnosis and therapy by means of plans
+Diagnosis represents the status of the patient in a particular moment
+of his life and the triggering condition for administering a therapy.
+Therapies or medical treatments are prescriptions aiming to heal a
+person with health problems. Each therapy contains a list of indications
+and contraindications for the patient and it can be effective or not.
+There are several types of therapies, in our approach, we take into
+consideration only the following type: Procedure and Human Interaction
+– They consist of procedures and practices administered by humans. In this
+type falls therapies for counselling, family, education but also psy-
+chotherapy, cognitive behavioral therapy, rehabilitation, physical therapy
+such as vision therapy, massage therapy. Lifestyle modification and life-
+coaching fall also in this category.
+Each therapy is supported by a set of conditions to apply it.
+Conditions are made by individuating data acquired from the physician,
+observing patient’s behaviors and activities.
+Let us consider the Pilot Scenario. Alice is affected by bronchitis, so
+Dr. Haus inserts his diagnosis and the related therapy by using his re-
+mote controller application. The mock-up in Fig. 4 represents the in-
+terface of the remote controller application. Handling this interface is
+part of the work of the Virtual Assistant agent. From the point of view of
+the agent, the diagnosis is translated into a belief or a set of beliefs
+useful for selecting a plan. Instead, therapy is translated into one plan.
+The system is programmed in a way that lets MyRob to constantly
+monitor Alice, administer therapy and update the physician through the
+Knowledge Manager agent.
+Suppose that something new happens, Alice worsens and a sudden
+fever appears. MyRob detects the fever interacting with her and it
+signals the Virtual Assistant agen</p>
+<p>hrough the
+Knowledge Manager agent.
+Suppose that something new happens, Alice worsens and a sudden
+fever appears. MyRob detects the fever interacting with her and it
+signals the Virtual Assistant agent notices the event and an alert is shown
+into the Dr. Haus terminal.
+Even if Dr. Haus has just deployed some plans for handling fever
+and MyRob could select the best plan to face this new situation, it alerts
+him and waits for a consent for administering the alternative therapy.
+Dr. Haus can confirm previous therapy and lets MyRob administer the
+Fig. 3. The Jason reasoning cycle represents the
+reasoning
+process
+behind
+mechanisms
+that
+move the intelligence of the agent platform. This
+picture figures out the modules composing the
+Agent class in Jason framework. In yellow
+are marked modules for perception phase, in
+pink are highlighted beliefs revision modules,
+in blue are emphasized modules for decision-
+making phase and in green the acting mod-
+ules. The reasoning cycle is redrawn from [29].
+(For interpretation of the references to colour in
+this figure legend, the reader is referred to the
+web version of this article.)
+7</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>od-
+ules. The reasoning cycle is redrawn from [29].
+(For interpretation of the references to colour in
+this figure legend, the reader is referred to the
+web version of this article.)
+7</p>
+<hr/>
+<h2 id="page-8-1">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>recovery plan or inspect data for changing therapies. If Dr. Haus decides
+to consent previous therapy, the Virtual Assistant agent sends an ack to
+the Planner agent and MyRob continues working applying it, otherwise,
+Dr. Haus has to produce a new therapy. The multi-agent system allows
+Dr. Haus to insert all the needed therapies for facing the disease. He
+does this by evaluating information acquired by MyRob through its
+components.
+Dr. Haus compiles the new therapy following some basic rules in
+order to be compliant with the system. Rules are necessary for trans-
+lating therapies in the “AgentSpeak Language”. This task is also in
+charge of theVirtual Assistant agent.
+The translation process follows some basic rules, resumed in
+Table 3:
+• a therapy owns a triggering event, conditions for detecting it and a
+list of procedures to act when conditions appear and they are ver-
+ified;
+• the triggering event has to catch the status that the system has to
+<a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a> for handling the situation. It is defined with a label that
+represents the triggering event name;
+• conditions have to be identified with in mind a list of symptoms or
+observations that the architecture can retrieve from the environ-
+ment. Symptoms are perceptions or beliefs and they are used in the
+unification process and logical <a href="../concepts/inference" class="internal alias" data-slug="concepts/inference">inference</a> for validating a context;
+• the procedures list has to contain actions, behaviors or other
+therapies (plans) that try to resolve the issue acting or interacting
+with the agent;
+• a procedure can be a simple action or a more complex <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a> that
+involve the usage of other therapies;
+• an alternative therapy can be added into the plan library keeping the
+same triggering event name and changing conditions for validating it.
+If conditions of the default therapy fail,</p>
+<p>er therapies;
+• an alternative therapy can be added into the plan library keeping the
+same triggering event name and changing conditions for validating it.
+If conditions of the default therapy fail, an alternative therapy can
+be executed.
+For adding therapies, Dr. Haus has to choose a triggering event
+name used to add the therapy into the cognitive system. To do this, Dr.
+Haus uses the interface (Fig. 4) shown by the Virtual Assistant agent.
+Before, he has to add information useful for applying the therapy that
+works as conditions for administering the therapy.
+In this case, Dr. Haus evaluates that one pill of paracetamol is a
+good therapy to cure Alice of the fever. Dr. Haus clicks on Add
+Information button and he writes:
+alice; current_diagnosis; fever;
+fever; paracetamol; 1;
+Once aforementioned information has been added to the knowledge
+base, new beliefs are registered. The new beliefs are necessary for the
+new treatment. Now a new therapy can be added clicking to the
+namesake button in the interface. Dr. Haus choices a triggering event
+name that represent the health problem. Dr. Haus clicks on the Add
+Therapy button and assigns the name for this therapy through a
+textbox. He decides to call it to_handle_fever. A new screen is
+launched and Dr. Haus has to select which conditions (beliefs) must be
+satisfied to perform the therapy, next to Dr. Haus has to compose the
+list of indications to specify which behavior MyRob has to show to
+perform the therapy. The list of behaviors is shown and Dr. Haus in-
+dicates the order of action execution. The list of indications for the new
+therapy is translated in plan and the ordered list is made by Dr. Haus. It
+looks like:
+Fig. 4. A mock-up of the Virtual Assistant agent deployed into the physician’s terminal. The tab contains details about the patient. Alerts, warnings and info are
+shown into the namesake pills, the data-logger contains exchanged messages.
+Table 3
+Mapping table between therapy and plan. The table contains</p>
+<p>details about the patient. Alerts, warnings and info are
+shown into the namesake pills, the data-logger contains exchanged messages.
+Table 3
+Mapping table between therapy and plan. The table contains the one-to-one
+correspondence that we identified for letting remote <a href="../concepts/deployment" class="internal alias" data-slug="concepts/deployment">deployment</a> of therapies in
+robotic caregivers that use the proposed architecture.
+Therapy
+Plan
+Diagnosis Identifier
+Triggering Event
+Condition to administer therapy
+Context Pre-Conditions
+Indications and Treatments
+Actions, Sub-plans, Messages
+8</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: This is a screenshot of a Virtual Assistant application named Alice on a desktop interface. The main sections include a yellow Notes area, a red Alerts box with one notification, an orange Warnings box with one notification, and a blue Info box with thirty-one notifications. The top bar shows macOS-style controls and a search field.</p>
+</blockquote>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>to_handle_fever: doctor(D) &amp; D<span class="text-highlight">‘Dr. Haus’ &amp;
+patient(A) &amp; A</span>‘Alice’ &amp; current_diagnosis(F) &amp; F==‘fever’ &amp;
+fever(P,Q)
+&lt; -.check_bodytemperature(A);
+.search_medicine(P);.prepare_medicine(P,Q);
+.take_drug_to(A);.check_therapy_taken_by(A);
+.signal_to_physician(D).
+The physician can select actions that have been previously pro-
+grammed for a specific robot.
+Summarizing, Dr. Haus interacts with Virtual Assistant agent for
+inserting new therapies for Alice (Fig. 4), this agent translates therapies
+in plans and sends plans to the Planner agent. The Planner agent pushes
+new plans into its own Plan Library. The Motion agent makes sure
+MyRob can operate for administering the therapies.
+5. Discussing the architecture quality and validation
+The contribution of this paper lies in the multi-agent architecture
+defined for solving problems related to healthcare. In this section, we
+validate the architecture employing one of the mainly assessed methods
+for
+analyzing
+and
+validating
+software
+architectures:
+the
+SAAM,
+Software Architecture Analysis Method [44].
+Validating complex systems, in terms of the rel</p>
+<p>employing one of the mainly assessed methods
+for
+analyzing
+and
+validating
+software
+architectures:
+the
+SAAM,
+Software Architecture Analysis Method [44].
+Validating complex systems, in terms of the related software ar-
+chitectures, has boosted the interest of scientists and engineers. The
+main goal of the evaluation process depends on how much software
+systems are capable of fulfilling its quality requirements and identifying
+risks [45–47]. So, what makes an architecture good is in how much it
+fits the goals and needs of the organization that is going to use it.
+A recent survey [48] presents a comparative analysis of software
+architectures evaluation methods, their result is a taxonomy of eva-
+luation methods. From this taxonomy, it arises that comparing and
+validating software architectures is a hard task due to the different
+languages and notation used for defining architectures. The method we
+choose provides a notation for describing the architecture, mainly
+highlighting its structural perspective. Also, this method starts from
+considering the goals underpinning the creation of the software systems
+and allows them to link them to some quality attributes. In so doing, we
+can focus on the quality concerns satisfying some software quality
+factors: maintainability, portability, modularity, reusability and ro-
+bustness.
+The activities reported in SAAM [44] for evaluating an architecture
+are:</p>
+<ol>
+<li>Characterize a canonical functional partitioning for the domain.</li>
+<li>Map the functional partitioning onto the architecture’s structural de-
+composition.</li>
+<li>Choose a set of quality attributes with which to assess the architecture.</li>
+<li>Choose a set of concrete tasks which test the desired quality attributes.</li>
+<li>Evaluate the degree to which each architecture provides support for each
+task.
+The first activity implicitly led us to identify roles and responsi-
+bilities to assign to agents in the architecture in Fig. 1. Functional
+partitioning consists of the <a href="../concepts/separation-of-concerns" class="internal alias" data-slug="concepts/separation-of-concerns">separation of concerns</a> b</li>
+</ol>
+<p>task.
+The first activity implicitly led us to identify roles and responsi-
+bilities to assign to agents in the architecture in Fig. 1. Functional
+partitioning consists of the separation of concerns between managing
+the environment and managing knowledge for the decision process. In
+Fig. 5, we represent the result of converting our architecture using
+SAAM notation. In so doing, we highlight the computational entities
+and, data and control connections among them. SAAM then prescribes
+to choose some quality attributes. In our case, maintainability, port-
+ability, modularity and reusability are intrinsic in the nature of an agent
+architecture. The agent paradigm allows designing a software system
+with a high degree of modularity and a low level of coupling among
+components that guarantee these quality factors. Going into details of
+this topic is out of the scope of this paper. We selected <a href="../concepts/robustness" class="internal alias" data-slug="concepts/robustness">robustness</a> for
+validating the architecture and we also based on FURPS [49,50] re-
+quirements category. Robustness [51] refers to the degree to which a
+system or component can function correctly in the presence of invalid inputs
+or stressful environment conditions.
+We validated our architecture in the spirit of understanding how
+much it can cope with errors and unknown situations during execution.
+Indeed, our need is having software able to adapt to changes and de-
+veloping an architecture supporting such a kind of software. To validate
+this aspect, we identified some tasks with which evaluating the level of
+support provided by the architecture, as prescribed in SAAM. Among
+the tasks we used for the analysis, we report the following: (i) re-
+cognizing new patient’s state, (ii) adding new suitable plans and (iii)
+reusing previous successful plans.
+For validating the architecture in supporting these tasks, we have to
+refer to its representation in the SAAM notation (Fig. 5). The SAAM
+notation has been created for separating the control flow from the data
+flow. As can be seen, we identi</p>
+<p>ting these tasks, we have to
+refer to its representation in the SAAM notation (Fig. 5). The SAAM
+notation has been created for separating the control flow from the data
+flow. As can be seen, we identified three basic processes whose thread
+of control is assured by the control flow and the data flow among the
+computational components, the active and passive data.
+Recognizing new patient’s state is a scenario in which guarantying the
+quality of robustness is fundamental. This scenario involves only two
+processes and one thread involving at the same time one control flow
+and one data flow. Inside the Deliberation Controller process, the re-
+sponsibilities of computation are divided among four computational
+components. Each component is in charge of one specific monitoring
+function that is directly transferred to the System Controller process.
+Computational components may communicate with each other; com-
+munications are direct and not mediated by other components and
+processes. This point assures that a change in the environment is im-
+mediately caught and transferred to the related computational entity
+and then directly communicated to the knowledge controller. Each
+computational entity is atomic and quite reactive, so robustness and
+ability to intercept changes is comparable to a portion of object-or-
+iented code devoted to catching an event.
+Adding new suitable plans, this task is supported by a single compu-
+tational component inside the Virtual Assistant Controller computa-
+tional component. Only one control flow and one data flow are neces-
+sary. The communication with the Planner computational component,
+devoted to managing the new plan, is direct. In this case, since the
+Virtual Assistant provides the right interface for inserting a new plan,
+an error is highlighted during the insertion process and immediately
+communicated, avoiding the risk of failure or unexpected input pro-
+pagation.
+Reusing previous successful plans is ensured by the system. These
+plans a</p>
+<p>ted during the insertion process and immediately
+communicated, avoiding the risk of failure or unexpected input pro-
+pagation.
+Reusing previous successful plans is ensured by the system. These
+plans are stored in the Working Memory and are available to be selected
+when the patient’s conditions fit with the plan’s preconditions. Each
+time that the patient’s state changes, the Multi Agent System Controller
+computational module takes control for actuating a plan, interacting
+with the user if needed through the Virtual Assistant Controller. Later
+on, it sends data and control to the Deliberation Controller process. In
+this task, all computational components are involved, but mainly only
+two are relevant, the Multi Agent System and the Deliberation
+Controllers. Supporting this task is more demanding since there are two
+data and one control flow exchange. The process involved in the thread
+of control is of two different levels where one comprises the second.
+Dependencies between processes could create an architectural coupling
+that may slow the thread of control for supporting that task. For in-
+stance, the scheduled plan might depend on other processes’ results and
+the overall outcome is afflicted by the computational time needed. In so
+doing the reaction to the change may not be responsive and other
+sudden events may invalidate the chosen plan, affecting the system’s
+robustness. Hence, this situation may make all the system asynchronous
+towards changes. We are investigating an intelligent support system
+based on scene understanding for forecasting events to face the pro-
+blem. However, the task is supported, and adaptation to changes is
+guaranteed.
+We evaluated some other tasks that we do not report here because
+they are minor tasks, and the conclusion we drew was in the same line
+9</p>
+<hr/>
+<h2 id="page-10">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>rted, and adaptation to changes is
+guaranteed.
+We evaluated some other tasks that we do not report here because
+they are minor tasks, and the conclusion we drew was in the same line
+9</p>
+<hr/>
+<h2 id="page-10-1">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>as the previous ones.
+From the validation process, we realized that the proposed agent
+architecture fits all the needs related to the functional requirements in
+Section 3. As said, architecture is not good or bad in general but in
+concerning some specific goals. In this case, SAAM revealed that the
+architecture is modular and decoupled enough for supporting in re-
+acting to changing at runtime.
+In the future, we will complement this validation with metrics and
+analysis results. We will inspect the flow of events and how they will be
+supported by the robotic platform. Now, this cannot be evaluated, be-
+cause we tested modules independently from the operational scenario.
+Modules were tested onto the robot Pepper6, simulating hypothetical
+input perceived from the environment.
+6. Discussion and conclusion
+From a state-of-the-art review, robots used in healthcare act mainly
+as teleoperators. We propose the use of robots and agent technology to
+provide the doctor with slightly more intelligent support than a simple
+teleoperator system. The robot does not make decisions but, pro-
+grammed based on the agent architecture we propose, can interact with
+patients and doctors in a changing environment and alert the doctor or
+suggest strategies when necessary. The robot is endowed with the
+ability to handle unforeseen situations and to communicate and colla-
+borate with the physician, thus providing him with intelligent support.
+Using a robot produces several advantages, mainly having an avatar
+of the physician that acts on his behalf. Employing robots increases
+healthcare facilities’ efficiency when the number of physicians is low,
+reduces the risk of infections due to pandemic such COVID-19 [52],
+because a robot is immune, speeds up the detection of new occurring
+situations.
+The</p>
+<p>efficiency when the number of physicians is low,
+reduces the risk of infections due to pandemic such COVID-19 [52],
+because a robot is immune, speeds up the detection of new occurring
+situations.
+The architecture we propose (shown in Fig. 1) resembles a cognitive
+model and it is implemented using the multi-agent approach. It has
+been inspired by our previous works in the Human-Robot Interaction
+(HRI) area [53,54].
+The main contribution of this work is the creation of an intelligent
+bridge between the physician and the patient. It has been realized by
+fully exploiting the strength of BDI multi-agent systems.
+The proposed architecture offers the advantage to split in the space
+all the system’s functionalities. In this way, the overall system may be
+easily scalable and adaptable to any context. The agents, to be im-
+plemented based on the architecture, have been conceived at a higher
+level than the implementation one. Hence, thinking to their macro-level
+functionalities. It is for this reason that the combination of architecture
+plus agent system can be adapted and extended to other and more
+complicated clinical scenarios. For instance, <a href="../concepts/specialized-sub-agents" class="internal alias" data-slug="concepts/specialized-sub-agents">specialized agents</a> could
+support specialized physicians through intelligent software that uses a
+data-driven approach for building interfaces as in [55] or including
+techniques for data manipulation as in [56,57]. Moreover, everything
+related to monitoring can be deployed in various sensors to adopt IoT
+techniques for patient monitoring. In the next future, we are planning
+to realize a physical deployment on nursing homes to validate our
+system. We will evaluate trials using the experience of domain experts
+and metrics for software analysis on collected system results. Given our
+experience in the development and use of <a href="../concepts/robotics" class="internal alias" data-slug="concepts/robotics">robotic systems</a>, we claim
+that some disadvantages and limitations we might found so far are that
+the potential efficiency of the whole system clashes with technological
+problems related for example to the robot’s abi</p>
+<p>e claim
+that some disadvantages and limitations we might found so far are that
+the potential efficiency of the whole system clashes with technological
+problems related for example to the robot’s abilities or the interaction
+of the robot with the human. In the future, we will fine-tune these last
+two aspects, especially the one related to interaction, including in this
+context elements of Human-Robot Teaming Interaction and the results
+that the Robotics Lab of Palermo has achieved so far in this field, such
+as the <a href="../concepts/integration" class="internal alias" data-slug="concepts/integration">integration</a> of the method proposed for learning plans [58] au-
+tonomously.
+Declaration of Competing Interest
+The authors declared that there is no <a href="../concepts/conflict" class="internal alias" data-slug="concepts/conflict">conflict</a> of interest.
+References
+[1] World Health Organization, Healthy, prosperous lives for all: the European Health
+Equity Status Report (2019). URL &lt;<a href="http://www.euro.who.int/en/publications/" class="external" target="_blank" rel="noopener noreferrer">http://www.euro.who.int/en/publications/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+abstracts/health-equity-status-report-2019>.
+[2] Policy Department for Economic, Scientific and Quality of Life Policies, Robots in
+healthcare: a solution or a problem? (2019). &lt;<a href="https://www.europarl.europa.eu/" class="external" target="_blank" rel="noopener noreferrer">https://www.europarl.europa.eu/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+RegData/etudes/IDAN/2019/638391/IPOL_IDA(2019)638391_EN.pdf>.
+[3] M. Wooldridge, P. Ciancarini, Agent-Oriented <a href="../concepts/software-engineering" class="internal alias" data-slug="concepts/software-engineering">Software Engineering</a>: The State of
+the Art, Agent-Oriented Software Engineering: First International Workshop, AOSE
+2000, Limerick, Ireland, June 10, 2000: Revised Papers.
+[4] P. Stone, M. Veloso, Multiagent systems: a survey from a <a href="../concepts/machine-learning" class="internal alias" data-slug="concepts/machine-learning">machine learning</a> per-
+spective, Autonomous Robots 8 (3) (2000) 345–383.
+[5] J. Ota, Multi-agent robot systems as distributed autonomous systems, Adv. Eng.
+Inform. 20 (1) (2006) 59–70.
+[6] J. Liu, J. Wu, Multiagent robotic systems, CRC Press, 2018.
+[7] C. Savaglio, M. Ganzha, M. Paprzycki, C. Bădică, M. Ivanović, G. Fortino, Agent-
+based internet of things: state-of-the-art and research challenges, Future Gener.
+Comput. Syst. 102 (2020) 1038–1053.
+[8] C.-J. Su, C.-Y. Wu, Jade implemented mobile multi-agent based, distributed in-
+formation platform for pervasive health c</p>
+<p>nd research challenges, Future Gener.
+Comput. Syst. 102 (2020) 1038–1053.
+[8] C.-J. Su, C.-Y. Wu, Jade implemented mobile multi-agent based, distributed in-
+formation platform for pervasive health care monitoring, Appl. Soft Comput. 11 (1)
+(2011) 315–325.
+[9] N. Koceska, S. Koceski, P.B. Zobel, V. Trajkovik, N. Garcia, A telemedicine robot
+system for assisted and independent living, Sensors (Switzerland) 19 (4). doi:10.
+Fig. 5. A SAAM based representation of the architecture in Fig. 1.
+6 <a href="https://www.softbankrobotics.com/emea/en/pepper" class="external" target="_blank" rel="noopener noreferrer">https://www.softbankrobotics.com/emea/en/pepper<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+10</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The image displays a technical diagram with interconnected shapes including rectangles, ovals, and arrows. It features a labeled “Planner” component connected to other elements within a structured layout. The main colors are white, gray, and black for outlines and arrows. The diagram appears to represent a system or process flow with directional connections between various elements.</p>
+</blockquote>
+<hr/>
+<h2 id="page-11">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>3390/s19040834.
+[10] D. Casey, So what have the roman’s researchers ever done for us-mario, in: 15th
+Annual School of Nursing &amp; Midwifery Conference, NUI Galway, 2015.
+[11] G. D’Onofrio, O. James, D. Scancarlo, F. Ricciardi, K. Murphy, F. Giuliani, D. Casey,
+A. Greco, Managing active and healthy aging with use of caring service robots, 6th
+Forum Italiano dell’Ambient Assisted Living, 2015.
+[12] D.R. Recupero, A. Gangemi, M. Mongiovi, S. Nolfi, A.G. Nuzzolese, V. Presutti, M.
+Raciti, T. Messervey, D. Casey, V. Dupourque, et al., Mario: Managing active and
+healthy aging with use of caring service robots, EU Project Networking at ESWC:
+Portoroz, Slovenia.
+[13] D. Casey, H. Felzmann, G. Pegman, C. Kouroupetroglou, K. Murphy, A. Koumpis,
+S. Whelan, What people with dementia want: designing mario an acceptable robot
+companion, International conference on computers helping people with special
+needs, Springer, 2016, pp. 318–325.
+[14] C. Salatino, L. Pigini, M.M.E. Van Kol, V. Gower, R. Andrich, G. Munaro, R. Rosso</p>
+<p>ompanion, International conference on computers helping people with special
+needs, Springer, 2016, pp. 318–325.
+[14] C. Salatino, L. Pigini, M.M.E. Van Kol, V. Gower, R. Andrich, G. Munaro, R. Rosso,
+A.P. Castellani, E. Farina, A robotic solution for assisting people with mci at home:
+Preliminary tests of the enrichme system, AAATE Conf. 2017, pp. 484–491.
+[15] C. Salatino, V. Gower, M. Ghrissi, A. Tapus, K. Wieczorowska-Tobis, A. Suwalska,
+P. Barattini, R. Rosso, G. Munaro, N. Bellotto, H. van den Heuvel, The enrichme
+project, in: K. Miesenberger, C. Bühler, P. Penaz (Eds.), Computers Helping People
+with Special Needs, Springer International Publishing, Cham, 2016, pp. 326–334.
+[16] F. Lunardini, M. Luperto, M. Romeo, J. Renoux, N. Basilico, A. Krpic, N.A. Borghese,
+S. Ferrante, The MOVECARE Project: Home-based Monitoring of Frailty, in: 2019
+IEEE EMBS International Conference on Biomedical &amp; Health Informatics (BHI)
+(2019) 1–4. doi:10.1109/bhi.2019.8834482.
+[17] M. Luperto, J. Monroy, F.-A. Moreno, J.R. Ruiz-Sarmiento, N. Basilico, J. Gonzalez-
+Jimenez, N.A. Borghese, A multi-actor framework centered around an assistive
+mobile robot for elderly people living alone, in: Robots for Assisted, Living
+Workshop-International Conference on Intelligent Robots and Systems (IROS),
+2018.
+[18] M. Luperto, M. Romeo, F. Lunardini, N. Basilico, C. Abbate, R. Jones, A. Cangelosi,
+S. Ferrante, N. Borghese, Evaluating the acceptability of assistive robots for <a href="../concepts/secondary-prevention" class="internal alias" data-slug="concepts/secondary-prevention">early
+detection</a> of mild cognitive impairment, 2019 IEEE/RSJ International Conference
+on Intelligent Robots and Systems, 2019, pp. 1–8.
+[19] L.P. Fried, C.M. Tangen, J. Walston, A.B. Newman, C. Hirsch, J. Gottdiener,
+T. Seeman, R. Tracy, W.J. Kop, G. Burke, et al., Frailty in older adults: evidence for a
+phenotype, J. Gerontol. Ser. A: Biol. Sci. Med. Sci. 56 (3) (2001) M146–M157.
+[20] I. Papadopoulos, A. Sgorbissa, C. Koulouglioti, Caring robots are here to help, arXiv
+preprint arXiv:1803.11243.
+[21] I. Papadopoul</p>
+<p>rontol. Ser. A: Biol. Sci. Med. Sci. 56 (3) (2001) M146–M157.
+[20] I. Papadopoulos, A. Sgorbissa, C. Koulouglioti, Caring robots are here to help, arXiv
+preprint arXiv:1803.11243.
+[21] I. Papadopoulos, C. Koulouglioti, S. Ali, Views of nurses and other health and social
+care workers on the use of assistive humanoid and animal-like robots in health and
+social care: a <a href="../concepts/scoping-review" class="internal alias" data-slug="concepts/scoping-review">scoping review</a>, Contemp. Nurse 54 (4–5) (2018) 425–442.
+[22] I. Papadopoulos, C. Koulouglioti, The <a href="../concepts/power" class="internal alias" data-slug="concepts/power">influence</a> of culture on attitudes towards
+humanoid and animal-like robots: an <a href="../concepts/integrative-review" class="internal alias" data-slug="concepts/integrative-review">integrative review</a>, J. Nurs. Scholarsh. 50 (6)
+(2018) 653–665.
+[23] V.C. Pham, Y. Lim, H.-D. Bui, Y. Tan, N.Y. Chong, A. Sgorbissa, An experimental
+study on culturally competent robot for smart home environment, International
+Conference on Advanced Information Networking and Applications, Springer, 2020,
+pp. 369–380.
+[24] F. Courreges, P. Vieyres, Advances in robotic tele-echography services-the otelo
+system, The 26th Annual International Conference of the IEEE Engineering in
+Medicine and Biology Society, Vol. 2 IEEE, 2004, pp. 5371–5374.
+[25] R.-G. Lee, C.-C. Lai, S.-S. Chiang, H.-S. Liu, C.-C. Chen, G.-Y. Hsieh, Design and
+implementation of a mobile-care system over wireless sensor network for home
+healthcare applications, in: 2006 International Conference of the IEEE Engineering
+in Medicine and Biology Society, IEEE, 2006, pp. 6004–6007.
+[26] J.-C. Liau, C.-Y. Ho, Intelligence iot (internal of things) telemedicine health care
+space system for the elderly living alone, in: 2019 IEEE Eurasia Conference on
+Biomedical Engineering, Healthcare and Sustainability (ECBIOS), IEEE, 2019, pp.
+13–14.
+[27] N. Dao, X. Hai, L. Huu, T. Nam, N.T. Thinh, Remote healthcare for the elderly,
+patients by tele-presence robot, 2019 International Conference on System Science
+and Engineering (ICSSE), IEEE, 2019, pp. 506–510.
+[28] M. Wooldridge, Reasoning about rational agents, MIT press, 2003.
+[29] R.H. Bordini, J.F. Hübner, M. Wooldr</p>
+<p>tional Conference on System Science
+and Engineering (ICSSE), IEEE, 2019, pp. 506–510.
+[28] M. Wooldridge, Reasoning about rational agents, MIT press, 2003.
+[29] R.H. Bordini, J.F. Hübner, M. Wooldridge, Programming Multi-Agent Systems in
+AgentSpeak Using Jason (Wiley Series in Agent Technology), John Wiley &amp; Sons
+Inc, USA, 2007.
+[30] A.S. Rao, M.P. Georgeff, et al., BDI agents: from theory to practice., in: ICMAS, Vol.
+95, 1995, pp. 312–319.
+[31] M.E. Bratman, Intention, plans, and practical reason Vol. 10 <a href="../entities/harvard-university" class="internal alias" data-slug="entities/harvard-university">Harvard University</a>
+Press Cambridge, MA, 1987.
+[32] M.E. Bratman, What is intention, Intentions Commun. (1990) 15–31.
+[33] R.H. Bordini, J.F. Hübner, BDI agent programming in AgentSpeak using Jason,
+International Workshop on Computational Logic in Multi-Agent Systems, Springer,
+2005, pp. 143–164.
+[34] A. Vuono, M. Luperto, J. Banfi, N. Basilico, N.A. Borghese, M. Sioutis, J. Renoux,
+A. Loufti, Seeking prevention of cognitive decline in elders via activity suggestion
+by a virtual caregiver, Proceedings of the 17th International Conference on
+<a href="../concepts/agentic-systems" class="internal alias" data-slug="concepts/agentic-systems">Autonomous Agents</a> and MultiAgent Systems, International Foundation for
+Autonomous Agents and Multiagent Systems, 2018, pp. 1835–1837.
+[35] M. Luperto, M. Romeo, F. Lunardini, N. Basilico, R. Jones, A. Cangelosi, S. Ferrante,
+N. Alberto Borghese, Digitalized cognitive assessment mediated by a virtual care-
+giver, IJCAI International Joint Conference on <a href="../concepts/ai-technologies" class="internal alias" data-slug="concepts/ai-technologies">Artificial Intelligence</a>, 2018, pp.
+5841–5843.
+[36] J. Ferber, G. Weiss, Multi-agent systems: an introduction to distributed artificial
+intelligence Vol. 1 Addison-Wesley, Reading, 1999.
+[37] A.S. Rao, AgentSpeak (l): BDI agents speak out in a logical computable language, in:
+European workshop on modelling autonomous agents in a multi-agent world,
+Springer, 1996, pp. 42–55.
+[38] G. Antoniou, F. Van Harmelen, Web ontology language: OWL, in: Handbook on
+ontologies, Springer, 2004, pp. 67–92.
+[39] A. Chella, F. Lanza, V. Seidita, Representing and developing knowledge</p>
+<ol start="55">
+<li></li>
+</ol>
+<p>[38] G. Antoniou, F. Van Harmelen, Web ontology language: OWL, in: Handbook on
+ontologies, Springer, 2004, pp. 67–92.
+[39] A. Chella, F. Lanza, V. Seidita, Representing and developing knowledge using
+JASON, CArtAgO and OWL, Vol. 2215, CEUR-WS, 2018, pp. 147–152.
+[40] F. Endres, J. Hess, J. Sturm, D. Cremers, W. Burgard, 3-d mapping with an rgb-d
+camera, IEEE Trans. Robot. 30 (1) (2013) 177–187.
+[41] J. Redmon, A. Farhadi, Yolov3: An incremental improvement, arXiv preprint
+arXiv:1804.02767.
+[42] A. Chella, F. Lanza, V. Seidita, Human-agent interaction, the system level using
+JASON, in: Proceedings of the 6th International Workshop on Engineering Multi-
+Agent Systems (EMAS 2018). Stockholm, 2018.
+[43] A. Chella, F. Lanza, V. Seidita, Decision process in human-agent interaction:
+Extending JASON reasoning cycle, Lecture Notes in Computer Science (including
+subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
+Bioinformatics) 11375 LNAI (2019) 320–339. doi:10.1007/978-3-030-25693-7_17.
+[44] R. Kazman, L. Bass, G. Abowd, M. Webb, Saam: A method for analyzing the prop-
+erties of software architectures, Proceedings of 16th International Conference on
+Software Engineering, IEEE, 1994, pp. 81–90.
+[45] N. Lassing, D. Rijsenbrij, H. Vliet, The goal of software architecture analysis:
+Confidence building or <a href="../concepts/risk-assessment" class="internal alias" data-slug="concepts/risk-assessment">risk assessment</a>, Proceedings of First BeNeLux conference on
+software architecture, 1999, pp. 47–57.
+[46] L. Dobrica, E. Niemela, A survey on software architecture analysis methods, IEEE
+Trans. Software Eng. 28 (7) (2002) 638–653.
+[47] M.A. Babar, L. Zhu, R. Jeffery, A framework for classifying and comparing software
+architecture evaluation methods, in: 2004 Australian Software Engineering
+Conference. Proceedings., IEEE, 2004, pp. 309–318.
+[48] A. Patidar, U. Suman, A survey on software architecture evaluation methods, in:
+2015 2nd International Conference on Computing for Sustainable Global
+Development (INDIACom), IEEE, 2015, pp. 967–972</p>
+<p>A. Patidar, U. Suman, A survey on software architecture evaluation methods, in:
+2015 2nd International Conference on Computing for Sustainable Global
+Development (INDIACom), IEEE, 2015, pp. 967–972.
+[49] P. Eeles, Capturing architectural requirements, IBM Rational <a href="../concepts/developer" class="internal alias" data-slug="concepts/developer">developer</a> works.
+[50] R. Janošcová, Evaluation of software quality, IMEA 2012 (2012) 24.
+[51] B. Bruegge, A.H. Dutoit, Object-oriented software engineering: Using UML, Patterns
+and Java (2003).
+[52] G.-Z. Yang, B.J. Nelson, R.R. Murphy, H. Choset, H. Christensen, S.H. Collins, P.
+Dario, K. Goldberg, K. Ikuta, N. Jacobstein, D. Kragic, R.H. Taylor, M. McNutt,
+Combating covid-19—the role of robotics in managing <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">public health</a> and infectious
+diseases, Science Robotics 5 (40). arXiv:<a href="https://robotics.sciencemag.org/content/" class="external" target="_blank" rel="noopener noreferrer">https://robotics.sciencemag.org/content/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+5/40/eabb5589.full.pdf, doi:10.1126/scirobotics.abb5589. <a href="https://robotics.scien-" class="external" target="_blank" rel="noopener noreferrer">https://robotics.scien-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+cemag.org/content/5/40/eabb5589.
+[53] A. Chella, F. Lanza, A. Pipitone, V. Seidita, Human-robot teaming: Perspective on
+analysis and implementation issues Vol. 2352 CEUR-WS, 2019.
+[54] A. Chella, F. Lanza, V. Seidita, A cognitive architecture for human-robot teaming
+interaction, Vol. 2418, CEUR-WS, 2019, pp. 82–89.
+[55] O. Gambino, L. Rundo, V. Cannella, S. Vitabile, R. Pirrone, A framework for data-
+driven adaptive gui generation based on dicom, J. Biomed. Inform. 88 (2018)
+37–52, <a href="https://doi.org/10.1016/j.jbi.2018.10.009" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.jbi.2018.10.009<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+[56] E. Ardizzone, O. Gambino, A. Genco, R. Pirrone, S. Sorce, Pervasive access to mri
+bias artifact suppression service on a grid, IEEE Trans. Inf Technol. Biomed. 13 (1)
+(2009) 87–93, <a href="https://doi.org/10.1109/TITB.2008.2007108" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1109/TITB.2008.2007108<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+[57] A. Stefano, S. Vitabile, G. Russo, M. Ippolito, F. Marletta, C. D’Arrigo, D. D’Urso,
+M. Sabini, O. Gambino, R. Pirrone, E. Ardizzone, M. Gilardi, An automatic method
+for metabolic evaluation of gamma knife treatments, Lecture Notes Comput. Sci.
+(including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
+Bioinformatics) 9279</p>
+<p>automatic method
+for metabolic evaluation of gamma knife treatments, Lecture Notes Comput. Sci.
+(including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in
+Bioinformatics) 9279 (2015) 579–589, <a href="https://doi.org/10.1007/978-3-319-23231-" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-319-23231-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+7_52.
+[58] F. Lanza, P. Hammer, V. Seidita, P. Wang, A. Chella, Agents in dynamic contexts, a
+system for learning plans, Proceedings of the 35th Annual ACM Symposium on
+Applied Computing, SAC ’20, Association for Computing Machinery, New York, NY,
+USA, 2020, pp. 823–825, , <a href="https://doi.org/10.1145/3341105.3374083" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1145/3341105.3374083<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+11</p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/multi-agent-systems" class="internal alias" data-slug="concepts/multi-agent-systems">multi-agent systems</a> — <a href="https://en.wikipedia.org/wiki/multi-agent_systems" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/robots-in-therapy" class="internal alias" data-slug="concepts/robots-in-therapy">robots in therapy</a> — <a href="https://en.wikipedia.org/wiki/robots_in_therapy" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/telehealth-systems" class="internal alias" data-slug="concepts/telehealth-systems">telehealth systems</a> — <a href="https://en.wikipedia.org/wiki/telehealth_systems" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/remote-health-monitoring" class="internal alias" data-slug="concepts/remote-health-monitoring">human-robot interaction</a> — <a href="https://en.wikipedia.org/wiki/human-robot_interaction" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/remote-health-monitoring" class="internal alias" data-slug="concepts/remote-health-monitoring">patient monitoring</a> — <a href="https://en.wikipedia.org/wiki/patient_monitoring" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>emergency care for COVID-19 — <a href="https://en.wikipedia.org/wiki/emergency_care_for_COVID-19" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>independent living support — <a href="https://en.wikipedia.org/wiki/independent_living_support" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>intelligent medical care — <a href="https://en.wikipedia.org/wiki/intelligent_medical_care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>BDI agent architecture — <a href="https://en.wikipedia.org/wiki/BDI_agent_architecture" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>remote medical assistance — <a href="https://en.wikipedia.org/wiki/remote_medical_assistance" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>clinical assisting scenarios — <a href="https://en.wikipedia.org/wiki/clinical_assisting_scenarios" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>elderly patient monitoring — <a href="https://en.wikipedia.org/wiki/elderly_patient_monitoring" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>early triage phases — <a href="https://en.wikipedia.org/wiki/early_triage_phases" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>dynamic environment monitoring — <a href="https://en.wikipedia.org/wiki/dynamic_environment_monitoring" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>robotic caregivers — <a href="https://en.wikipedia.org/wiki/robotic_caregivers" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>physician support systems — <a href="https://en.wikipedia.org/wiki/physician_support_systems" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/francesco-lanzaa" class="internal alias" data-slug="entities/francesco-lanzaa">Francesco Lanzaa</a> — <a href="https://en.wikipedia.org/wiki/Francesco_Lanzaa" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Valeria Seidita — <a href="https://en.wikipedia.org/wiki/Valeria_Seidita" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/antonio-chellaa" class="internal alias" data-slug="entities/antonio-chellaa">Antonio Chellaa</a> — <a href="https://en.wikipedia.org/wiki/Antonio_Chellaa" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Dipartimento di Ingegneria — <a href="https://en.wikipedia.org/wiki/Dipartimento_di_Ingegneria" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/università-degli-studi-di-palermo" class="internal alias" data-slug="entities/università-degli-studi-di-palermo">Università degli Studi di Palermo</a> — <a href="https://en.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Palermo" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Francesco Lanza — <a href="https://en.wikipedia.org/wiki/Francesco_Lanza" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Antonio Chella — <a href="https://en.wikipedia.org/wiki/Antonio_Chella" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Istituto di Calcolo e Reti ad Alte Prestazioni — <a href="https://en.wikipedia.org/wiki/Istituto_di_Calcolo_e_Reti_ad_Alte_Prestazioni" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Consiglio Nazionale delle Ricerche — <a href="https://en.wikipedia.org/wiki/Consiglio_Nazionale_delle_Ricerche" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Journal of Biomedical Informatics — <a href="https://en.wikipedia.org/wiki/Journal_of_Biomedical_Informatics" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Elsevier — <a href="https://en.wikipedia.org/wiki/Elsevier" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>ScienceDirect — <a href="https://en.wikipedia.org/wiki/ScienceDirect" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9687" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#preface_schema-10title-a-dipartimento-di-ingegneria-università-degli-studi-di-palermo-90128-viale-delle-scienze-palermo-italysource_type-academicpublisher-elsevierpublishing_date-2020authors-francesco-lanzaa-valeria-seiditaa-antonio-chellaa-via-ugo-la-malfa-received-30-january-2020-accepted-8-june-2020available_at-httpsdoiorg101016jjbi2020103483keywords-multi-agent-systems-robots-in-therapy-robots-in-emergency-care-for-covid-19-patient-monitoring-human-robot-interaction-a-b-s-t-r-a-c-t-monitoring-patients-through-robotics-telehealth-systems-is-an-interesting-scenario-where-patients-conditions-and-their-environment-are-dynamic-and-unknown-variables-we-propose-to-improve-telehealth-systems-features-to-include-the-ability-to-serve-patients-with-their-needs-operating-as-human-caregivers-the-objective-is-to-support-the-independent-living-of-patients-at-home-without-losing-the-opportunity-to-monitor-their-health-status-application-scenarios-are-several-and-they-spread-from-simple-clinical-assisting-scenarios-to-an-emergency-one-for-instance-in-the-case-of-a-nursing-home-the-system-would-support-in-continuously-monitoring-the-elderly-patients-in-contrast-in-the-case-of-an-epidemic-diffusionabstract-contents-lists-available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare" data-for="preface_schema-10title-a-dipartimento-di-ingegneria-università-degli-studi-di-palermo-90128-viale-delle-scienze-palermo-italysource_type-academicpublisher-elsevierpublishing_date-2020authors-francesco-lanzaa-valeria-seiditaa-antonio-chellaa-via-ugo-la-malfa-received-30-january-2020-accepted-8-june-2020available_at-httpsdoiorg101016jjbi2020103483keywords-multi-agent-systems-robots-in-therapy-robots-in-emergency-care-for-covid-19-patient-monitoring-human-robot-interaction-a-b-s-t-r-a-c-t-monitoring-patients-through-robotics-telehealth-systems-is-an-interesting-scenario-where-patients-conditions-and-their-environment-are-dynamic-and-unknown-variables-we-propose-to-improve-telehealth-systems-features-to-include-the-ability-to-serve-patients-with-their-needs-operating-as-human-caregivers-the-objective-is-to-support-the-independent-living-of-patients-at-home-without-losing-the-opportunity-to-monitor-their-health-status-application-scenarios-are-several-and-they-spread-from-simple-clinical-assisting-scenarios-to-an-emergency-one-for-instance-in-the-case-of-a-nursing-home-the-system-would-support-in-continuously-monitoring-the-elderly-patients-in-contrast-in-the-case-of-an-epidemic-diffusionabstract-contents-lists-available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare">preface_schema: ‘1.0’
+title: ‘a Dipartimento di Ingegneria, Università degli Studi di Palermo, 90128 Viale delle Scienze, Palermo, Italy’
+source_type: ‘Academic’
+publisher: ‘Elsevier’
+publishing_date: ‘2020’
+authors: [‘Francesco Lanzaa’, ‘Valeria Seiditaa’, ‘Antonio Chellaa’, ‘Via Ugo La Malfa’, ‘Received 30 January 2020’, ‘Accepted 8 June 2020’]
+available_at: ‘https://doi.org/10.1016/j.jbi.2020.103483’
+keywords: [‘multi-agent systems robots in therapy robots in emergency care for covid-19 patient monitoring human-robot interaction a b s t r a c t monitoring patients through robotics telehealth systems is an interesting scenario where patients’ conditions’, ‘and their environment’, ‘are dynamic and unknown variables. we propose to improve telehealth systems’ features to include the ability to serve patients with their needs’, ‘operating as human caregivers. the objective is to support the independent living of patients at home without losing the opportunity to monitor their health status. application scenarios are several’, ‘and they spread from simple clinical assisting scenarios to an emergency one. for instance’, ‘in the case of a nursing home’, ‘the system would support in continuously monitoring the elderly patients. in contrast’, ‘in the case of an epidemic diffusion’]
+abstract: ‘Contents lists available at ScienceDirect Journal of Biomedical Informatics journal homepage: www.elsevier.com/locate/yjbin Agents and robots for collaborating and supporting physicians in healthcare’</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare" data-for="available-at-sciencedirect-journal-of-biomedical-informatics-journal-homepage-wwwelseviercomlocateyjbin-agents-and-robots-for-collaborating-and-supporting-physicians-in-healthcare">available at ScienceDirect Journal of Biomedical Informatics journal homepage: www.elsevier.com/locate/yjbin Agents and robots for collaborating and supporting physicians in healthcare’</a></li><li class="depth-0"><a href="#page-1-1" data-for="page-1-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-4-1" data-for="page-4-1">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-6-1" data-for="page-6-1">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-8-1" data-for="page-8-1">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-10" data-for="page-10">Page 10</a></li><li class="depth-0"><a href="#page-10-1" data-for="page-10-1">Page 10</a></li><li class="depth-0"><a href="#page-11" data-for="page-11">Page 11</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/cooperative-robots" class="internal">cooperative-robots</a></li><li><a href="../concepts/remote-health-monitoring" class="internal">remote-health-monitoring</a></li><li><a href="../concepts/robots-in-therapy" class="internal">robots-in-therapy</a></li><li><a href="../domains/health-wellbeing" class="internal">Health &amp; Wellbeing</a></li><li><a href="../entities/antonio-chellaa" class="internal">antonio-chellaa</a></li><li><a href="../entities/francesco-lanzaa" class="internal">francesco-lanzaa</a></li><li><a href="../entities/università-degli-studi-di-palermo" class="internal">università-degli-studi-di-palermo</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

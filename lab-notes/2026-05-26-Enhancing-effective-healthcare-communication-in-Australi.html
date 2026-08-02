@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Enhancing effective healthcare communication in Australia and Aotearoa New Zealand: Considerations for research, teaching, policy, and practice · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Enhancing effective healthcare communication in Australia and Aotearoa New Zealand: Considerations for research, teaching, policy, and practice · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Enhancing effective healthcare communication in Australia and Aotearoa New Zealand: Considerations for research, teaching, policy, and practice · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘Page 1’ source_type: ‘Consulting Company’ publisher: ‘pmc.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘pmc.ncbi.nlm.nih.gov/articles/PMC10562187/’ availability_status: ‘available’ availability_..."/><meta property="og:description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘Page 1’ source_type: ‘Consulting Company’ publisher: ‘pmc.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘pmc.ncbi.nlm.nih.gov/articles/PMC10562187/’ availability_status: ‘available’ availability_..."/><meta property="og:image:alt" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘Page 1’ source_type: ‘Consulting Company’ publisher: ‘pmc.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘pmc.ncbi.nlm.nih.gov/articles/PMC10562187/’ availability_status: ‘available’ availability_..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Enhancing-effective-healthcare-communication-in-Australi"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Enhancing-effective-healthcare-communication-in-Australi"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘Page 1’ source_type: ‘Consulting Company’ publisher: ‘pmc.ncbi.nlm.nih.gov’ publishing_date: ‘Unknown’ authors: [] available_at: ‘pmc.ncbi.nlm.nih.gov/articles/PMC10562187/’ availability_status: ‘available’ availability_..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Enhancing-effective-healthcare-communication-in-Australi-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Enhancing-effective-healthcare-communication-in-Australi-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Enhancing-effective-healthcare-communication-in-Australi-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Enhancing-effective-healthcare-communication-in-Australi"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19573"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19573" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Enhancing effective healthcare communication in Australia and Aotearoa New Zealand: Considerations for research, teaching, policy, and practice</a></div></nav><h1 class="article-title">Enhancing effective healthcare communication in Australia and Aotearoa New Zealand: Considerations for research, teaching, policy, and practice</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>26 min read</span></p><ul class="tags"><li><a href="../tags/AusHealth" class="internal tag-link">AusHealth</a></li></ul></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/ai-agents">AI &amp; Agents</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<p>preface_schema: ‘1.0’
+title: ‘Page 1’
+source_type: ‘<a href="../concepts/consulting" class="internal alias" data-slug="concepts/consulting">Consulting</a> Company’
+publisher: ‘pmc.ncbi.nlm.nih.gov’
+publishing_date: ‘Unknown’
+authors: []
+available_at: ‘<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10562187/" class="external" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC10562187/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+availability_status: ‘available’
+availability_http_code: ‘200’
+availability_checked_at: ”
+availability_note: ”
+source_integrity_flag: ‘verified’
+credibility_tier_value: ‘3’
+credibility_tier_key: ‘pre-print’
+credibility_tier_label: ‘Pre-Print’
+credibility_reason: ‘preprint_markers’
+credibility: ‘Final Pre-Print Report’
+journal_ranking_source: ‘n/a’
+journal_sourceid: ”
+journal_title: ”
+journal_issn: ”
+journal_sjr: ‘0.0’
+journal_quartile: ”
+journal_rank_global: ‘0’
+journal_categories: ”
+journal_areas: ”
+journal_high_ranked: ‘False’
+journal_match_method: ‘none’
+journal_match_confidence: ‘0.0’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘data’, ‘action’, ‘effectively’, ‘communicating’, ‘population’, ‘health’, ‘market’, ‘research’]
+abstract: ’## Page 1 From Data to Action: Effectively Communicating <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">Population Health</a> and Market <a href="../concepts/flow-management" class="internal alias" data-slug="concepts/flow-management">Research Findings</a> to Diverse Australian Audiences Executive <a href="../concepts/summary" class="internal alias" data-slug="concepts/summary">Summary</a> Communicating complex health and market research into clear, actionable messages is vital for ensuring evidence actually influences policy, practice and public behaviour . Decisions in <a href="../concepts/health" class="internal alias" data-slug="concepts/health">healthcare</a>, policy and community settings depend on data-driven insights, so researchers must plan dissemination from the outset . Key strategies include tailoring messages to each audience, using plain language and compelling visuals, and choosing appropriate channels (print, presentations, digital media) for policymakers, clinicians, managers, community groups and the general public . For example, policy briefs distil evidence and implications for decision-makers, while plain-language summaries help non-experts understand findings . Digital tools (websites, social media, <a href="../concepts/infographic-design" class="internal alias" data-slug="concepts/infographic-design">infographics</a>) now offer powerful two-way platforms to reach broad and niche audiences Embedding evaluation metrics – such as media coverage,</p>
+<h2 id="rstand-findings--digital-tools-websites-social-media-infographics-now-offer-powerful-two-way-platforms-to-reach-broad-and-niche-audiences-embedding-evaluation-metrics--such-as-media-coverage-downloads-policy-citations-or-practice-change--helps-track-impact-and-refine-communication-strategies-over-time--in-sum-effective-resear">rstand findings . Digital tools (websites, social media, infographics) now offer powerful two-way platforms to reach broad and niche audiences Embedding evaluation metrics – such as media coverage, downloads, policy citations or practice change – helps track impact and refine <a href="../concepts/communication-strategies" class="internal alias" data-slug="concepts/communication-strategies">communication strategies</a> over time . In sum, effective resear’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rstand-findings--digital-tools-websites-social-media-infographics-now-offer-powerful-two-way-platforms-to-reach-broad-and-niche-audiences-embedding-evaluation-metrics--such-as-media-coverage-downloads-policy-citations-or-practice-change--helps-track-impact-and-refine-communication-strategies-over-time--in-sum-effective-resear" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>From Data to Action: Effectively Communicating
+Population Health and Market Research
+Findings to Diverse Australian Audiences
+Executive Summary
+Communicating complex health and market research into clear, actionable messages is vital for
+ensuring evidence actually influences policy, practice and public behaviour
+. Decisions in
+healthcare, policy and community settings depend on data-driven insights, so researchers must plan
+dissemination from the outset
+. Key strategies include tailoring messages to each audience, using
+plain language and compelling visuals, and choosing appropriate channels (print, presentations, digital
+media) for policymakers, clinicians, managers, community groups and the general public
+. For
+example, policy briefs distil evidence and implications for decision-makers, while plain-language
+summaries help non-experts understand findings
+. Digital tools (websites, social media,
+infographics) now offer powerful two-way platforms to reach broad and niche audiences
+Embedding evaluation metrics – such as media coverage, downloads, policy citations or practice change
+– helps track impact and refine communication strategies over time
+. In sum, effective research
+communication is deliberate, evidence-based and audience-centred: it involves clear key messages,
+simple language, cultural sensitivity, engaging visuals, and multiple tailored formats to transform data
+into action
+Principles of Effective Research Communication
+Successful research communication follows fundamental principles of clarity, credibility, relevance and
+reciprocity. Clarity and simplicity are paramount: key messages should be dire</p>
+<p>rch Communication
+Successful research communication follows fundamental principles of clarity, credibility, relevance and
+reciprocity. Clarity and simplicity are paramount: key messages should be direct, concise, action-
+oriented and free of unnecessary jargon
+. Communication should use “plain language” so that
+non-specialists (policymakers, community members) can grasp findings without misinterpretation
+. For example, avoid acronyms and medical terms wherever possible, or explain them in simple
+terms
+. In Australia, official writing guides (e.g. Australian Government Writing Guide
+)
+encourage researchers to replace complex words with common alternatives (“apoptosis” → “how cells
+die”, “efficacy” → “works”) and to keep sentence <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a> simple. Relevance and focus are also key:
+communications should highlight why the research matters (<a href="../concepts/public-health" class="internal alias" data-slug="concepts/public-health">public health</a> impact, policy implications,
+cost savings) and include a clear “call to action”
+. Messages must be targeted and tailored –
+one-size-fits-all rarely works. As a WHO framework notes, messages should account for each audience’s
+needs, timing and preferences
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>s-all rarely works. As a WHO framework notes, messages should account for each audience’s
+needs, timing and preferences
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-2-1">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>principles – rooted in communication theory and practice – underpin every practical strategy in this
+guide
+Identifying and Understanding Target Audiences in Australian
+Health
+Each stakeholder group has distinct needs, values and preferred channels. Policymakers (government
+health officials, public servants, elected officials) need evidence framed in terms of public benefit, cost-
+effectiveness and policy feasibility. They often have limited time, so prefer concise summaries or briefs
+highlighting actionable recommendations
+. Policymakers value clear estimates (e.g. natural
+frequencies of risk
+), a balanced presentation of costs/benefits, and alignment with current policy
+agendas. Clinicians and health professionals (doctors, nurses, <a href="../concepts/allied-health" class="internal alias" data-slug="concepts/allied-health">allied health</a>) want data that is directly
+relevant to patient care or public health practice. They look for credible, peer-reviewed evidence, clinical
+guidelines, and case examples. Clinicians often favor professional formats (journals, conferences,
+hospital presentations) and appreciate evidence accompanied by practical <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">implementation</a> tips or
+protocols. Engaging clinicians may require demonstrating how findings improve patient outcomes or
+<a href="../concepts/efficiency-principles" class="internal alias" data-slug="concepts/efficiency-principles">workflow efficiency</a>. <a href="../entities/health-service" class="internal alias" data-slug="entities/health-service">Health service</a> managers and administrators (hospital executives, program
+managers) focus on system-level outcomes – for example, resource use, quality <a href="../concepts/indicators" class="internal alias" data-slug="concepts/indicators">indicators</a>, regulatory
+<a href="../concepts/compliance" class="internal alias" data-slug="concepts/compliance">compliance</a> or community satisfaction. They seek information on cost implications, implementation
+strategies, and <a href="../concepts/performance-data-gathering" class="internal alias" data-slug="concepts/performance-data-gathering">performance metrics</a>. Brief executive summaries, dashboards or management reports
+that highlight ROI or benchmark comparisons can capture their <a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a>. Researchers and academics
+expect detailed methodology, statistical rigor and novelty; they communicate mainly through academic
+publications, co</p>
+<p>OI or benchmark comparisons can capture their attention. Researchers and academics
+expect detailed methodology, statistical rigor and novelty; they communicate mainly through academic
+publications, conferences and professional networks. When communicating to peers, emphasize data
+and evidence, citing literature; but remember to frame significance in broader terms (e.g. how this fills a
+gap or challenges assumptions) to broaden reach.
+Consumers and patients form another key audience. This includes health service users, families, and
+the general public. They benefit from messages that are highly accessible, relevant to everyday life, and
+empowering. Plain-language fact sheets, infographics and community workshops are effective. For
+instance, a visual roadmap of key findings (symptom guidelines, healthy behaviors) can be more
+impactful than a technical report. Consumer groups may also include self-help organizations, patient
+advocates and community leaders. Engaging these stakeholders often involves listening to their
+concerns, using empathetic <a href="../concepts/storytelling" class="internal alias" data-slug="concepts/storytelling">storytelling</a> and demonstrating respect for lived experiences.
+Community groups, especially culturally and linguistically diverse (CALD) communities and First
+Nations peoples, have additional considerations. Australia’s multicultural population brings diverse
+languages, beliefs and health practices
+. Research communication must be culturally competent –
+for example, using translation or bilingual materials, and partnering with community organizations or
+trusted leaders to convey messages. <a href="../entities/queensland-health" class="internal alias" data-slug="entities/queensland-health">Queensland Health</a> guidelines highlight that many Aboriginal and
+Torres Strait Islander people speak English as a second language or dialect, so communicators should
+“avoid complex words and jargon, explain questions and words, and use <a href="../concepts/diagrams" class="internal alias" data-slug="concepts/diagrams">diagrams</a> or images to explain
+concepts”
+. Building rapport (the “person before business” approach) and respecting cultural
+norms (e.g. <a href="../concepts/cultural-storytelling" class="internal alias" data-slug="concepts/cultural-storytelling">storytelling traditions</a>, group <a href="../concepts/decision-making" class="internal alias" data-slug="concepts/decision-making">decision-making</a>) are essential when</p>
+<p>or images to explain
+concepts”
+. Building rapport (the “person before business” approach) and respecting cultural
+norms (e.g. storytelling traditions, group decision-making) are essential when presenting to Indigenous
+or other CALD audiences
+The media (journalists, broadcasters, health reporters) is also a distinct audience. Media professionals
+look for newsworthy angles: novelty, human impact, or controversy. To engage media, researchers
+should frame findings in terms of real-world stories or urgent health issues, and be prepared to provide
+clear soundbites and visuals. Press releases and media kits should be written in accessible language
+and highlight the “so what?” – why the story matters to the broader public
+. Media outlets vary:</p>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>specialized health journalists will appreciate data context, whereas general media may need a highly
+simplified narrative with relatable examples.
+In identifying audiences, consider where they fit on the “process of behavior change” spectrum
+. For
+example, an informed clinician ready to act requires a different message than a layperson just
+becoming aware of a <a href="../concepts/health-risk" class="internal alias" data-slug="concepts/health-risk">health risk</a>. A communication needs assessment (through surveys or interviews)
+can clarify audience literacy levels and preferences
+. In practice, mapping stakeholders early (policy,
+professional, community) and consulting with representatives (e.g. holding a community advisory
+group meeting) ensures messages resonate. Ultimately, knowing the audience shapes all decisions
+about tone, content and channels. By investing time in audience analysis—considering factors like
+health literacy, cultural background, role, and incentives—communicators can significantly increase the
+relevance and uptake of research findings
+Tailoring Communication Strategies and Messages for Different
+Audiences
+Once audiences are defined, each message and medium should be customized. Language and
+framing: For technical audiences (scientists, clinicians, analysts), use dis</p>
+<p>and Messages for Different
+Audiences
+Once audiences are defined, each message and medium should be customized. Language and
+framing: For technical audiences (scientists, clinicians, analysts), use discipline-specific <a href="../concepts/terminology" class="internal alias" data-slug="concepts/terminology">terminology</a> and
+detailed data. For non-technical audiences, emphasize big-picture insights and practical takeaways. For
+example, policymakers may respond to statements like “This intervention could reduce hospitalisations
+by 20%,” whereas community members might respond better to stories about individuals benefiting
+from the intervention. Framing data in familiar contexts (using analogies, local examples or culturally-
+relevant metaphors) helps diverse groups relate. For instance, to explain risk to the general public,
+communicate in terms of relatable frequencies or <a href="../concepts/scenarios" class="internal alias" data-slug="concepts/scenarios">scenarios</a> (e.g. “like 15 out of every 100 people”)
+instead of abstract percentages
+Format and style: Tailoring also means choosing the right format. Busy decision-makers often prefer
+one-page briefs or <a href="../concepts/slide-decks" class="internal alias" data-slug="concepts/slide-decks">slide decks</a> with bullet points and charts, whereas clinicians might read a detailed
+report or attend a seminar. Visual content (charts, infographics, videos) is generally more engaging for
+lay and general audiences, while tables of statistics might be acceptable in a technical appendix. For
+Indigenous and CALD communities, consider oral and visual formats (community radio segments,
+translated brochures, or cultural theatre) in addition to written materials. The medium influences the
+style: as the NHMRC notes, email or official reports can use more technical language, but <a href="../concepts/social-media-carousels" class="internal alias" data-slug="concepts/social-media-carousels">social media
+posts</a> and public flyers should simplify vocabulary
+. Always think “what does this audience already
+know, and what action do we want them to take?”
+Tone and voice: Adapt formality and tone. Policymakers may expect formal, objective reports, whereas
+community forums benefit from a conversational and respectful style. When speaking with Indigenous
+communities, use respectful, relationship-oriented commun</p>
+<p>y expect formal, objective reports, whereas
+community forums benefit from a conversational and respectful style. When speaking with Indigenous
+communities, use respectful, relationship-oriented communication (for example, sharing some personal
+background to build trust
+). Using positive and empowering language tends to be more effective
+than fear-based messages, except when urgency is needed (and even then, balance is key). The <a href="../concepts/scoping-review" class="internal alias" data-slug="concepts/scoping-review">scoping
+review</a> of health communication emphasizes that negative or loss-framed content can sometimes
+prompt action more than positive framing
+, but it must be used judiciously to avoid alarm without
+<a href="../concepts/solution" class="internal alias" data-slug="concepts/solution">solution</a>.
+Engagement and co-creation: Beyond tailoring messages, involve representatives of the audience in
+developing communications. Co-production (such as including consumer advocates on research teams
+or holding a roundtable with clinicians) ensures messages address real concerns. For example, involving
+nurses in drafting a guideline summary might highlight practical care issues they face (as in an NHMRC
+example where nurses focused on patient education while GPs cared about clinical treatments
+).</p>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>fting a guideline summary might highlight practical care issues they face (as in an NHMRC
+example where nurses focused on patient education while GPs cared about clinical treatments
+).</p>
+<hr/>
+<h2 id="page-4-1">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Such involvement not only refines content but also builds early buy-in. Similarly, community advisory
+boards can guide how to present culturally sensitive findings. In essence, tailoring is iterative: test drafts
+with a sample audience, solicit <a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a>, and adjust wording or emphasis.
+Multiple channels: Use a mix of channels tailored to each group (the “communication mix”).
+Policymakers might be reached through policy forums, briefings or a policy blog; clinicians via
+professional conferences or clinical networks; communities via social media, local events or
+partnerships with NGOs. The NHMRC guide <a href="../concepts/highlights" class="internal alias" data-slug="concepts/highlights">highlights</a> that combining dissemination methods yields
+better results than any single approach
+. For instance, a journal article might be accompanied by a
+conference talk, a press release, a podcast interview, and social media posts. Social media can especially
+amplify reach if used properly: platforms like Twitter (X) or LinkedIn may catch the eye of professionals
+and journalists, while Facebook or Instagram could engage patients or younger demographics.
+However, tailor each social media message (hash-tagged threads for professionals, infographics for
+public audiences
+).
+In summary, effective tailoring means adjusting what you say, how you say it, and where you say it for
+each audience. As one review notes, “targeting and tailoring messages to the audience seems
+essential”
+. By analyzing audience motivations and barriers, and then crafting custom narratives and
+tactics for each, researchers can greatly increase the impact of their communication efforts.
+Written Communication
+Written materials remain fundamental for deep communication. This includes formal reports and
+publications, policy briefs, executive summaries, plain-language summaries, and media releases.
+Ea</p>
+<p>ication
+Written materials remain fundamental for deep communication. This includes formal reports and
+publications, policy briefs, executive summaries, plain-language summaries, and media releases.
+Each has its own structure and style:
+Academic Publications: Peer-reviewed articles, technical reports and journals require rigorous
+methods and thorough analysis. For specialist audiences, maintain scientific rigor and
+transparency. However, even academic writing can benefit from clarity: concise abstracts and
+well-structured sections (Introduction, Methods, etc.) aid understanding. Use of headings, tables
+and figures can make data more accessible. When possible, provide a lay summary or alt-text for
+figures. Cite relevant literature to build credibility.
+Technical Reports: Often longer than journal articles, reports (e.g. government or consultancy
+reports) allow space for background, detailed methods, and appendices. Include an executive
+summary up front that briefly states objectives, key findings, and recommendations (no more
+than a page). The main body should be organized with clear headings and bullet points where
+helpful. Always highlight actionable conclusions. For instance, list “Policy implications” or
+“Recommendations” as distinct sections. Reports should be formatted for readability (legible
+fonts, graphs/charts where appropriate)
+Policy Briefs: Policy briefs are concise (1–4 pages) documents aimed at decision-makers
+They distill the evidence into non-technical language, outline the problem, summarize key
+evidence, and explicitly state implications for policy. A typical structure: (1) title and summary of
+issue, (2) background/context, (3) evidence or findings, (4) implications/recommendations, (5)
+sources/contacts. As the <a href="../concepts/preventive-care" class="internal alias" data-slug="concepts/preventive-care">Prevention</a> Centre advises, a policy brief distils relevant research and
+draws out implications for policy
+. Use bold headings and bullet lists, and keep it focused on
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<p>policy brief distils relevant research and
+draws out implications for policy
+. Use bold headings and bullet lists, and keep it focused on
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>statistics, a simple graph of quit rates, and bullet-pointed policy options (“Increase taxes on
+tobacco, expand school <a href="../concepts/software" class="internal alias" data-slug="concepts/software">programs</a>, etc.”)
+Plain Language (Lay) Summaries: These are short (200–500 word) summaries written for the
+general public. A well-written plain summary answers: What was done? Why does it matter? What
+are the results and implications? Avoid jargon at all costs
+. Use active voice and concrete
+language. The NIHR (UK) advises: “avoid jargon, abbreviations and technical terms,” use common
+words and short sentences
+. For example, instead of “randomized controlled trial showed a
+15% relative risk reduction,” write “in a clinical study, patients who received Treatment X were
+healthier than those who did not.” Tools like readability checkers can help (aim for ~8th grade
+reading level). The study of clinical trial communications found that plain summaries were
+perceived as easier to understand and more reliable by lay readers
+. Many journals now
+encourage or require such summaries for public reporting.
+Technical Summaries or Executive Summaries: For stakeholders who need more detail than a
+brief, but less than a full report, use a summary document (2–5 pages) that explains methods
+and context more fully. These can include short sections on methods, results, and caveats, still in
+clear language. Summaries should highlight only the most salient findings and use visuals
+(charts, infographics) to illustrate data where possible. Insert call-out boxes for “Key messages”
+or “Implications for [target group]”.
+Checklists and Tips: Across all written formats, adhere to the audience’s style: government
+reports often have strict style guides (reference [76†L298-L303] for Australian plain writing
+rules). Use bullet points and</p>
+<p>Across all written formats, adhere to the audience’s style: government
+reports often have strict style guides (reference [76†L298-L303] for Australian plain writing
+rules). Use bullet points and numbered lists for clarity. Ensure logical flow, and include an
+introduction that orients the reader. Providing references or links for further reading adds
+credibility. Enlist peers or target-audience members to review drafts for readability.
+In practice, a combination of written products is effective. For example, a research project might
+produce (a) a peer-reviewed article, (b) a plain-language summary for participants/consumers, (c) a one-
+page policy brief, and (d) a press release. The NHMRC dissemination guide reminds us that different
+formats complement each other
+. Always consider translation needs: if reaching CALD
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>contrasting colors for readability. During the talk, explain the data verbally so that even a distracted
+listener captures the point
+Design principles: Follow slide design “<a href="../concepts/best-practices" class="internal alias" data-slug="concepts/best-practices">best practices</a>.” Use a large, legible font and high-<a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>
+colors. Keep clutter to a minimum: avoid long paragraphs on slides – they compete with your speech.
+Kristen Naegle’s “Ten Simple Rules for Slides” remind us to employ graphics effectively: “almost never
+have slides that only contain text. Build your slides around good visualizations”
+. Use diagrams,
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>show diet changes. Refer to style guides (such as the Clinical <a href="../concepts/excellence" class="internal alias" data-slug="concepts/excellence">Excellence</a> Commission’s guide)
+which emphasize selecting charts that reveal key insights
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>e guides (such as the Clinical Excellence Commission’s guide)
+which emphasize selecting charts that reveal key insights
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-8-1">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ensure relevance, and plan dissemination as a project outcome. This integrated KT approach ensures the
+eventual messaging is grounded in stakeholder needs
+. Use strategies like co-creation workshops or
+knowledge brokers to facilitate <a href="../concepts/dialogue" class="internal alias" data-slug="concepts/dialogue">dialogue</a> between researchers and decision-makers.
+Strategic framing of evidence: Structure and package evidence to be actionable. The policy scoping
+review notes that evidence should be “structured and packaged in a way that is actionable and relevant
+for policy-makers, including information on competing interests and other sources”
+. This might
+involve summarizing research in policy formats, or explicitly aligning findings with current policy
+debates. Policy “windows” (timing opportunities, like new legislation) should be seized by preparing
+briefing notes in advance.
+Knowledge mobilisation approaches: As the Prevention Centre highlights, many strategies fall under
+KT/KM
+. These include:</p>
+<ul>
+<li>Dissemination: Traditional sharing (reports, presentations, media releases) plus digital sharing
+(webinars, social media). Use the “diffusion” approach for broad awareness.</li>
+<li>Implementation: Develop tools or <a href="../concepts/training" class="internal alias" data-slug="concepts/training">training</a> that help practitioners apply the findings (e.g. clinical
+protocols, decision aids, or <a href="../concepts/health-promotion" class="internal alias" data-slug="concepts/health-promotion">health promotion</a> toolkits). For instance, training sessions in a clinic to adopt
+a new screening guideline.</li>
+<li>Networking and brokering: Facilitate connections between researchers and stakeholders. A
+knowledge broker (or liaison person) can translate technical language and promote dialogue. Building
+communities of practice (forums where professionals share learnings) embeds research into routine
+discussion.</li>
+<li>Co-production: Partner with government or NGOs to adapt research into programs. For example,
+collaborate with a local health department</li>
+</ul>
+<p>als share learnings) embeds research into routine
+discussion.</p>
+<ul>
+<li>Co-production: Partner with government or NGOs to adapt research into programs. For example,
+collaborate with a local health department to pilot an intervention, providing real-world feedback and
+accelerating adoption.</li>
+<li>Advocacy: Work with advocacy groups or media to raise public support for policy change based on the
+research.</li>
+<li>Exchange and capacity-building: Offer workshops or training that help decision-makers interpret
+and use evidence. Teaching health economists or administrators to understand economic models can
+make research uptake more feasible.
+Effective KT/KM often uses multiple strategies simultaneously. The literature suggests combined
+approaches outperform single methods
+. For example, a strategic plan might blend a policy brief
+and stakeholder meeting (to lobby policy-makers), community engagement and media coverage (to
+build public support), and implementation guides (to help service providers). A “systems <a href="../concepts/human-cognition" class="internal alias" data-slug="concepts/human-cognition">thinking</a>”
+<a href="../concepts/mindset" class="internal alias" data-slug="concepts/mindset">mindset</a> is helpful: map the <a href="../concepts/health-system" class="internal alias" data-slug="concepts/health-system">health system</a>’s actors and influences, and tailor strategies to key leverage
+points
+In Australia, structures like the National Health and Medical Research Council’s (NHMRC) Knowledge
+Translation Strategy promote such activities (e.g. funding KT grants, requiring research translation
+plans)
+. Researchers should also be aware of models like the Knowledge-to-Action framework, which
+outline iterative steps from synthesis to evaluation.
+Ultimately, knowledge translation is the multifaceted effort of moving from “knowing” to “doing.” By
+combining tailored communications with partnerships, policy engagement, and practice support,
+researchers can significantly increase the chances that their work changes health outcomes</li>
+</ul>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>combining tailored communications with partnerships, policy engagement, and practice support,
+researchers can significantly increase the chances that their work changes health outcomes</p>
+<hr/>
+<h2 id="page-9-1">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Engaging with Media
+Working effectively with the media amplifies research impact to the public and policy arena. Key
+practices for media engagement include clarity, timeliness and <a href="../concepts/preparation" class="internal alias" data-slug="concepts/preparation">preparation</a>.
+Prepare core messages: Before any media interaction, distill your research into 2–3 clear points.
+Phrase them in everyday language and include a compelling statistic or story. Practice delivering these
+as soundbites. For example: “One of our findings is that 70% of rural clinics lack <a href="../concepts/telehealth" class="internal alias" data-slug="concepts/telehealth">telehealth</a> capability –
+highlighting an urgent equity issue.” Stick to positive action-focused messaging when possible (“X will
+help improve Y”), but be ready to honestly acknowledge uncertainty or limitations.
+Media-friendly materials: Draft a press release or media fact sheet that summarizes the study in non-
+technical terms. Start with a concise headline and lead paragraph that hook attention. Include context
+(why the topic matters in Australia) and quotes from a credible voice (researcher or end-user). Press
+releases should be no longer than 1–2 pages and avoid jargon. Provide high-quality visuals or
+infographics when possible – media often use images if readily available. Send media materials
+proactively to outlets covering health, local news (if regionally relevant), or <a href="../concepts/science" class="internal alias" data-slug="concepts/science">science</a> journalists. The
+NHMRC dissemination guide notes that press releases “can be posted on the media centre page and
+sent directly to journalists,” ensuring broad reach
+Engage with journalists: Understand that journalists work on deadlines; be responsive and concise.
+Offer experts for interviews and be transparent about your credentials and affiliations. During
+interviews, avoid academic language – imagine explaining your work to an interested cousin. Anticipate
+questions (e.g. “How does this affect</p>
+<p>parent about your credentials and affiliations. During
+interviews, avoid academic language – imagine explaining your work to an interested cousin. Anticipate
+questions (e.g. “How does this affect me?”) and prepare clear answers. If confronted with complex data,
+have analogies ready (“that’s about the same fraction of people as the crowd in the MCG”). Also be ready
+to ‘pivot’ – bridge every answer back to your main messages.
+Use various media formats: In addition to press releases, consider writing opinion pieces or letters to
+the editor on related policy issues (especially around election or budgeting times). Give media-friendly
+presentations: speak at press conferences or webinars open to journalists, or record short videos
+explaining the study. For social media and web, craft digestible content: e.g. a tweet thread with charts,
+or a blog post summarizing findings in relatable scenarios. Ensure that any claims in social media posts
+are accurate and sourced, to maintain trust.
+Timing and ethics: Time media engagement to news cycles. If your research has timely relevance (e.g.
+new <a href="../concepts/covid-19" class="internal alias" data-slug="concepts/covid-19">COVID-19</a> data), reach out when it’s topical. Also, consider embargoes: allow journalists early
+access under embargo so stories can be prepared in advance, but do not breach agreed confidentiality.
+Always maintain honesty – overhyping results can damage credibility. If a finding is preliminary or
+uncertain, emphasize that careful evaluation is ongoing.
+Building <a href="../concepts/relationships" class="internal alias" data-slug="concepts/relationships">relationships</a>: Cultivate long-term relationships with health journalists. Attend media
+trainings (many universities offer workshops on <a href="../concepts/science-communication" class="internal alias" data-slug="concepts/science-communication">science communication</a>). Follow journalists’ work to
+understand what they value. The Science journal advises that “authors should engage with media
+outlets” and provides tips on interviews and writing news releases
+. By helping journalists “get it
+right”
+– for example, offering clear <a href="../concepts/explanations" class="internal alias" data-slug="concepts/explanations">explanations</a> of statistical terms – researchers build a reputation
+as reliable source</p>
+<p>interviews and writing news releases
+. By helping journalists “get it
+right”
+– for example, offering clear explanations of statistical terms – researchers build a reputation
+as reliable sources.
+In sum, engaging with media means translating your findings into the language of news and public
+interest. Accurate, story-driven communication through press releases, interviews, and op-eds can bring
+research insights to policy-makers and the public, greatly expanding the reach of your work.</p>
+<hr/>
+<h2 id="page-10">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Using Digital Platforms and Social Media for Research
+Dissemination
+Digital media have transformed how researchers communicate. Websites, social networks, blogs,
+<a href="../entities/podcasts" class="internal alias" data-slug="entities/podcasts">podcasts</a> and apps allow direct, interactive engagement with broad audiences
+. A strategic
+digital plan should complement traditional dissemination.
+Websites and blogs: Maintain a project or lab website where reports, summaries and multimedia
+content are hosted. Ensure it is navigable (e.g. clear menu, searchable archives) and mobile-friendly. A
+regularly updated blog or news section can highlight new findings with minimal delay. Use simple URLs
+and SEO-friendly language so stakeholders can find the information. If possible, include a “Subscribe”
+option for newsletters. For broader <a href="../concepts/exposure" class="internal alias" data-slug="concepts/exposure">exposure</a>, post lay summaries of research on institutional or
+national health portals.
+Email newsletters and e-zines: Curated email updates can reach policymakers, clinicians and
+interested citizens on an opt-in basis. These allow longer narratives than social media. For example, a
+state health department newsletter might feature a section on recent research findings, with a link to a
+longer report. Tailor emails to segments of your audience: clinicians might subscribe to professional
+newsletters, whereas community members to a consumer health news list.
+Social media: Platforms like Twitter (X), Facebook, LinkedIn, Instagram and YouTube can vastly increase
+visibility when used skillfully. On Twitter, researchers often shar</p>
+<p>a consumer health news list.
+Social media: Platforms like Twitter (X), Facebook, LinkedIn, Instagram and YouTube can vastly increase
+visibility when used skillfully. On Twitter, researchers often share preprints or paper links, using relevant
+hashtags (#PublicHealth, <a href=".././tags/AusHealth" class="tag-link internal alias" data-slug="tags/AusHealth">AusHealth</a>) and tagging influencers. Keep posts succinct (platform character
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-11">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../concepts/security" class="internal alias" data-slug="concepts/security">Security</a> and ethics: Digital communication must respect confidentiality and copyright. Obtain consent
+before posting identifiable information. Be mindful of institutional <a href="../concepts/policies" class="internal alias" data-slug="concepts/policies">policies</a> on social media and any
+embargoes on unpublished data.
+Overall, digital platforms should not replace personal contact but amplify it. A combined offline-online
+strategy is best: mention your website and social handles in printed materials, and reference
+publications in your tweets. As the technology-savvy generation matures, being active online ensures
+your research remains accessible and dynamic, keeping pace with how people consume information
+today.
+Evaluating the Impact of Research Communication Efforts
+Measuring the reach and effect of communication is critical but challenging. Evaluation should track
+both outputs (what we did) and outcomes (what changed). Common metrics and methods include:
+Reach and engagement: Track quantitative indicators like downloads of reports, open rates for
+newsletters, page views on the project website, and social media metrics (likes, shares, tweet
+impressions)
+. Altmetric scores (aggregating mentions in news and social media) give a quick
+sense of online attention
+. While high numbers don’t prove impact, they show whether
+audiences found the content.
+Stakeholder feedback: Conduct surveys or interviews with target audiences. For example, after
+distributing a policy brief, survey policymakers or staff on its clarity and usefulness. Community
+feedback can be obtained via focus groups or public forums (e.g. asking patients if the
+communica</p>
+<p>ter
+distributing a policy brief, survey policymakers or staff on its clarity and usefulness. Community
+feedback can be obtained via focus groups or public forums (e.g. asking patients if the
+communication helped them understand an issue). This qualitative data reveals whether
+messages were understood and culturally appropriate.
+Media coverage and citation tracking: Monitor mentions in media articles and policy
+documents. Tools like Google Alerts or media monitoring services can record when and how
+research is reported. In the policy arena, track if studies are cited in government reports, clinical
+guidelines or parliamentary debates. A large-scale analysis shows research <a href="../concepts/power" class="internal alias" data-slug="concepts/power">influence</a> by
+analyzing citations in policy documents
+. Seeing your findings inform a policy or program is
+strong impact evidence.
+Behavioral and system outcomes: Ultimately, effective communication aims for action. Though
+attribution is hard, look for changes such as increased uptake of an intervention, new funding,
+or practice changes that align with the research recommendations. For example, if a research
+communication campaign focused on <a href="../concepts/vaccination" class="internal alias" data-slug="concepts/vaccination">vaccination</a> and later vaccination rates rose significantly in
+target communities, this suggests impact. Often this requires longer-term monitoring (through
+health statistics, audits or pre-post evaluations) and ideally a pre-defined logic model linking
+communication to outcomes.
+Altmetrics and scholarly metrics: In research terms, increased citations of a paper, invited
+presentations, or new collaborations may indicate academic impact. Altmetrics help here too:
+studies suggest that higher online attention often correlates with later citations
+Reflections and logbooks: Keep an “impact log” or diary of dissemination activities and
+<a href="../concepts/responses" class="internal alias" data-slug="concepts/responses">responses</a>. Record events (e.g. “conference talk on June 5, 2024; attendees: 80; follow-up
+requests: 5”), meetings with policymakers and any commitments made. This informal tracking
+complements formal metrics and can remind the tea</p>
+<p>conference talk on June 5, 2024; attendees: 80; follow-up
+requests: 5”), meetings with policymakers and any commitments made. This informal tracking
+complements formal metrics and can remind the team of lessons learned.
+•
+•
+•
+•
+•
+•</p>
+<hr/>
+<h2 id="page-12">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>While no single measure captures “impact,” combining them gives a picture of effectiveness. For
+example, a communications evaluation plan might include: tracking a dissemination indicator (e.g.
+[Infographic/Figure content omitted in strict text-only mode.]</p>
+<hr/>
+<h2 id="page-13">Page 13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-13" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Enhancing effective healthcare communication in Australia and Aotearoa New Zealand:
+Considerations for research, teaching, policy, and practice - PMC
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10562187/" class="external" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC10562187/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Communicating effectively with Aboriginal and Torres Strait Islander people
+<a href="https://www.health.qld.gov.au/__data/assets/pdf_file/0021/151923/communicating.pdf" class="external" target="_blank" rel="noopener noreferrer">https://www.health.qld.gov.au/__data/assets/pdf_file/0021/151923/communicating.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+monash.edu
+<a href="https://www.monash.edu/__data/assets/pdf_file/0016/2553001/Best-Practice-Data-Visualisation-Report-1_4.pdf" class="external" target="_blank" rel="noopener noreferrer">https://www.monash.edu/__data/assets/pdf_file/0016/2553001/Best-Practice-Data-Visualisation-Report-1_4.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Ten simple rules for effective presentation slides | PLOS Computational Biology
+<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009554" class="external" target="_blank" rel="noopener noreferrer">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009554<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Visualising Medical Research: Exploring the Influence of Infographics on Professional Dissemination</p>
+<ul>
+<li>PMC
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11199065/" class="external" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC11199065/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+WHO Strategic Communications Framework for effective communications
+<a href="https://www.who.int/docs/default-source/documents/communicating-for-health/communication-framework.pdf" class="external" target="_blank" rel="noopener noreferrer">https://www.who.int/docs/default-source/documents/communicating-for-health/communication-framework.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>?
+ref=cuvettecollective.org
+Some guidance for authors on engaging with media | Science | AAAS
+<a href="https://www.science.org/content/blog-post/some-guidance-authors-engaging-media" class="external" target="_blank" rel="noopener noreferrer">https://www.science.org/content/blog-post/some-guidance-authors-engaging-media<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Helping Journalists Get It Right: A Physician’s Guide to Improving …
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1494815/" class="external" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC1494815/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Societal and scientific impact of policy research: A large-scale …
+<a href="https://www.sciencedirect.com/science/article/pii/S1751157724000439" class="external" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/pii/S1751157724000439<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<p>Societal and scientific impact of policy research: A large-scale …
+<a href="https://www.sciencedirect.com/science/article/pii/S1751157724000439" class="external" target="_blank" rel="noopener noreferrer">https://www.sciencedirect.com/science/article/pii/S1751157724000439<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/health-communication-framework" class="internal alias" data-slug="concepts/health-communication-framework">health communication framework</a> — <a href="https://en.wikipedia.org/wiki/health_communication_framework" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/effective-care-delivery" class="internal alias" data-slug="concepts/effective-care-delivery">effective care delivery</a> — <a href="https://en.wikipedia.org/wiki/effective_care_delivery" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/interprofessional-collaboration" class="internal alias" data-slug="concepts/interprofessional-collaboration">interprofessional collaboration</a> — <a href="https://en.wikipedia.org/wiki/interprofessional_collaboration" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/healthcare-policy" class="internal alias" data-slug="concepts/healthcare-policy">healthcare policy</a> — <a href="https://en.wikipedia.org/wiki/healthcare_policy" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/cultural-sensitivity" class="internal alias" data-slug="concepts/cultural-sensitivity">cultural sensitivity</a> — <a href="https://en.wikipedia.org/wiki/cultural_sensitivity" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/personalised-care" class="internal alias" data-slug="concepts/personalised-care">patient-centered care</a> — <a href="https://en.wikipedia.org/wiki/patient-centered_care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/positive-psychology" class="internal alias" data-slug="concepts/positive-psychology">evidence-based practice</a> — <a href="https://en.wikipedia.org/wiki/evidence-based_practice" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/rural-and-remote-health" class="internal alias" data-slug="concepts/rural-and-remote-health">rural and remote health</a> — <a href="https://en.wikipedia.org/wiki/rural_and_remote_health" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/healthcare-workforce-development" class="internal alias" data-slug="concepts/healthcare-workforce-development">healthcare workforce development</a> — <a href="https://en.wikipedia.org/wiki/healthcare_workforce_development" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/indigenous-health" class="internal alias" data-slug="concepts/indigenous-health">Indigenous health</a> — <a href="https://en.wikipedia.org/wiki/Indigenous_health" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/participatory-research" class="internal alias" data-slug="concepts/participatory-research">participatory research</a> — <a href="https://en.wikipedia.org/wiki/participatory_research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/digital-health-literacy" class="internal alias" data-slug="concepts/digital-health-literacy">digital health literacy</a> — <a href="https://en.wikipedia.org/wiki/digital_health_literacy" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/research-communications" class="internal alias" data-slug="concepts/research-communications">research dissemination</a> — <a href="https://en.wikipedia.org/wiki/research_dissemination" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>audience-centred communication — <a href="https://en.wikipedia.org/wiki/audience-centred_communication" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>plain language summaries — <a href="https://en.wikipedia.org/wiki/plain_language_summaries" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>policy briefs — <a href="https://en.wikipedia.org/wiki/policy_briefs" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/information-and-communications-technology" class="internal alias" data-slug="concepts/information-and-communications-technology">health literacy</a> — <a href="https://en.wikipedia.org/wiki/health_literacy" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>data-driven insights — <a href="https://en.wikipedia.org/wiki/data-driven_insights" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>impact evaluation metrics — <a href="https://en.wikipedia.org/wiki/impact_evaluation_metrics" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/digital-health" class="internal alias" data-slug="concepts/digital-health">digital health</a> communication — <a href="https://en.wikipedia.org/wiki/digital_health_communication" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>visual data presentation — <a href="https://en.wikipedia.org/wiki/visual_data_presentation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>knowledge translation — <a href="https://en.wikipedia.org/wiki/knowledge_translation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>two-way engagement — <a href="https://en.wikipedia.org/wiki/two-way_engagement" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>actionable messaging — <a href="https://en.wikipedia.org/wiki/actionable_messaging" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Australia — <a href="https://en.wikipedia.org/wiki/Australia" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Aotearoa New Zealand — <a href="https://en.wikipedia.org/wiki/Aotearoa_New_Zealand" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>policymakers — <a href="https://en.wikipedia.org/wiki/policymakers" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>clinicians — <a href="https://en.wikipedia.org/wiki/clinicians" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>managers — <a href="https://en.wikipedia.org/wiki/managers" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>community groups — <a href="https://en.wikipedia.org/wiki/community_groups" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>general public — <a href="https://en.wikipedia.org/wiki/general_public" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>websites — <a href="https://en.wikipedia.org/wiki/websites" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>social media — <a href="https://en.wikipedia.org/wiki/social_media" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>infographics — <a href="https://en.wikipedia.org/wiki/infographics" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>print media — <a href="https://en.wikipedia.org/wiki/print_media" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>presentations — <a href="https://en.wikipedia.org/wiki/presentations" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9663" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#rstand-findings--digital-tools-websites-social-media-infographics-now-offer-powerful-two-way-platforms-to-reach-broad-and-niche-audiences-embedding-evaluation-metrics--such-as-media-coverage-downloads-policy-citations-or-practice-change--helps-track-impact-and-refine-communication-strategies-over-time--in-sum-effective-resear" data-for="rstand-findings--digital-tools-websites-social-media-infographics-now-offer-powerful-two-way-platforms-to-reach-broad-and-niche-audiences-embedding-evaluation-metrics--such-as-media-coverage-downloads-policy-citations-or-practice-change--helps-track-impact-and-refine-communication-strategies-over-time--in-sum-effective-resear">rstand findings . Digital tools (websites, social media, infographics) now offer powerful two-way platforms to reach broad and niche audiences Embedding evaluation metrics – such as media coverage, downloads, policy citations or practice change – helps track impact and refine communication strategies over time . In sum, effective resear’</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-2-1" data-for="page-2-1">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-4-1" data-for="page-4-1">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-8-1" data-for="page-8-1">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-9-1" data-for="page-9-1">Page 9</a></li><li class="depth-0"><a href="#page-10" data-for="page-10">Page 10</a></li><li class="depth-0"><a href="#page-11" data-for="page-11">Page 11</a></li><li class="depth-0"><a href="#page-12" data-for="page-12">Page 12</a></li><li class="depth-0"><a href="#page-13" data-for="page-13">Page 13</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/cultural-sensitivity" class="internal">cultural-sensitivity</a></li><li><a href="../concepts/effective-care-delivery" class="internal">effective-care-delivery</a></li><li><a href="../concepts/health-communication-framework" class="internal">health-communication-framework</a></li><li><a href="../concepts/healthcare-policy" class="internal">healthcare-policy</a></li><li><a href="../concepts/healthcare-workforce-development" class="internal">healthcare-workforce-development</a></li><li><a href="../concepts/indigenous-health" class="internal">indigenous-health</a></li><li><a href="../concepts/interprofessional-collaboration" class="internal">interprofessional-collaboration</a></li><li><a href="../concepts/participatory-research" class="internal">participatory-research</a></li><li><a href="../concepts/personalised-care" class="internal">personalised-care</a></li><li><a href="../concepts/rural-and-remote-health" class="internal">rural-and-remote-health</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

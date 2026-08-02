@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Carman - Patient And Family Engagement · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Carman - Patient And Family Engagement · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Carman - Patient And Family Engagement · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘By Kristin L."/><meta property="og:description" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘By Kristin L."/><meta property="og:image:alt" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘By Kristin L."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Carman---Patient-And-Family-Engagement"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Carman---Patient-And-Family-Engagement"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘By Kristin L."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Carman---Patient-And-Family-Engagement-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Carman---Patient-And-Family-Engagement-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Carman---Patient-And-Family-Engagement-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Carman---Patient-And-Family-Engagement"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19555"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19555" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Carman   Patient And Family Engagement</a></div></nav><h1 class="article-title">Carman - Patient And Family Engagement</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>39 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/health-wellbeing">Health &amp; Wellbeing</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<p>preface_schema: ‘1.0’
+title: ‘By Kristin L. Carman, Pam Dardess, Maureen Maurer, Shoshanna Sofaer, Karen Adams, Christine Bechtel,’
+source_type: ‘Academic’
+publisher: ‘Ey’
+publishing_date: ‘2012’
+authors: [‘By Kristin L. Carman’, ‘Pam Dardess’, ‘Maureen Maurer’, ‘Shoshanna Sofaer’, ‘Karen Adams’, ‘Christine Bechtel’, ‘Jennifer Sweeney’, ‘Family Engagement’, ‘A Framework For Understanding’, ‘The Elements’]
+available_at: ‘<a href="https://doi.org/10.1377/hlthaff.2012.1133" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1377/hlthaff.2012.1133<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘engagement’, ‘health’, ‘care’, ‘patient’, ‘patients’, ‘framework’, ‘system’, ‘policy’]
+abstract: ‘Patient and family engagement offers a promising pathway toward better-quality health care, more-efficient care, and improved population health. Since definitions of patient engagement and conceptions of how it works vary, we propose a framework. We first present the forms engagement can take, ranging from consultation to partnership. We discuss the levels at which patient engagement can occur across the health care system, from the direct care setting to incorporating patient engagement into organizational <a href="../concepts/design" class="internal alias" data-slug="concepts/design">design</a>, governance, and policy making. We also discuss the factors that <a href="../concepts/power" class="internal alias" data-slug="concepts/power">influence</a> whether and to what extent engagement occurs. We explore the implications of our multidimensional framework for the development of interventions and <a href="../concepts/policies" class="internal alias" data-slug="concepts/policies">policies</a> that support patient and family engagement, and we offer a research agenda to investigate how such engagement leads to improved outcomes. P atient engagement has been called a critical part of a continuously learn- ing health system,1 a necessary con- dition for the redesign of the health care system,2 the “holy grail” of health care,3 and the next “blockbuster drug of the century.”4 But definitions of patient engagement and conceptions of how it improves care vary consid- erably. Angela Coulter’s well-known definition focuses on the relationship between patients and health care providers as they work together to “promote and support active patie</p>
+<h2 id="s-care-vary-consid--erably-angela-coulters-well-known-definition-focuses-on-the-relationship-between-patients-and-health-care-providers-as-they-work-together-to-promote-and-support-active-patient-and-pub--lic-involvement-in-health-and-healthcare-and-to-strengthen-their-influence-on-healthcare-deci--sions-at-both-the-individual-and-collective-levels5-a-model-of-public-engagement-developed-by-james-conway-at-the-institute-for-healthcare-improvement-is-organized-around-the-settings-in-which-patient-engagement-occurs-during-the-care-experience-within-the-microsystem-of-the-clinic-or-ward-within-the-health-care-organiza--tion-and-within-the-larger-community6-and-the-center-for-advancing-healths-engagement-behavior-framework-focuses-on-behavior-defin--ing-engagement-as-actions-people-take-for-their-health-and-to-benefit-from-health-care7-and-pro--viding-a-list-of-patient-initiated-engagement-actions-adding-to-the-confusion-the-term-patient-en--gagement-is-also-used-synonymously-with-patient-activation-and-patient--and-family-centered-care-although-the-concepts-are-related-they-are-not-identical-patient-activationan-individuals-knowledge-skill-and-confidence-for-managing-hisher-own-health-and-health-care8p377is-one-aspect-of-an-individuals-capacity-to-engage-in-that-care-but-this-term-does-not-address-the-individuals-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among">s care vary consid- erably. Angela Coulter’s well-known definition focuses on the relationship between patients and health care providers as they work together to “promote and support active patient and pub- lic involvement in health and <a href="../concepts/health" class="internal alias" data-slug="concepts/health">healthcare</a> and to strengthen their influence on healthcare deci- sions, at both the individual and collective levels.”5 A model of public engagement developed by James Conway at the Institute for <a href="../concepts/healthcare-improvement" class="internal alias" data-slug="concepts/healthcare-improvement">Healthcare Improvement</a> is organized around the settings in which patient engagement occurs: during the care experience, within the microsystem of the clinic or ward, within the health care organiza- tion, and within the larger community.6 And the Center for Advancing Health’s engagement behavior framework focuses on behavior, defin- ing engagement as “actions people take for their health and to benefit from health care”7 and pro- viding a list of patient-initiated engagement actions. Adding to the confusion, the term patient en- gagement is also used synonymously with patient activation and patient- and family-centered care. Although the concepts are related, they are not identical. Patient activation—an “individual’s knowledge, <a href="../concepts/skill" class="internal alias" data-slug="concepts/skill">skill</a>, and confidence for managing his/her own health and health care”8(p377)—is one aspect of an individual’s capacity to engage in that care. But this term does not address the individual’s external context, nor does it focus on behavior. “Patient- and family-centered care” is a broader term that conveys a <a href="../concepts/computer-vision" class="internal alias" data-slug="concepts/computer-vision">vision</a> for what health care should be: “a partnership among’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s-care-vary-consid--erably-angela-coulters-well-known-definition-focuses-on-the-relationship-between-patients-and-health-care-providers-as-they-work-together-to-promote-and-support-active-patient-and-pub--lic-involvement-in-health-and-healthcare-and-to-strengthen-their-influence-on-healthcare-deci--sions-at-both-the-individual-and-collective-levels5-a-model-of-public-engagement-developed-by-james-conway-at-the-institute-for-healthcare-improvement-is-organized-around-the-settings-in-which-patient-engagement-occurs-during-the-care-experience-within-the-microsystem-of-the-clinic-or-ward-within-the-health-care-organiza--tion-and-within-the-larger-community6-and-the-center-for-advancing-healths-engagement-behavior-framework-focuses-on-behavior-defin--ing-engagement-as-actions-people-take-for-their-health-and-to-benefit-from-health-care7-and-pro--viding-a-list-of-patient-initiated-engagement-actions-adding-to-the-confusion-the-term-patient-en--gagement-is-also-used-synonymously-with-patient-activation-and-patient--and-family-centered-care-although-the-concepts-are-related-they-are-not-identical-patient-activationan-individuals-knowledge-skill-and-confidence-for-managing-hisher-own-health-and-health-care8p377is-one-aspect-of-an-individuals-capacity-to-engage-in-that-care-but-this-term-does-not-address-the-individuals-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="s-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among">s external context, nor does it focus on behavior. “Patient- and family-centered care” is a broader term that conveys a vision for what health care should be: “a partnership among’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#s-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>By Kristin L. Carman, Pam Dardess, Maureen Maurer, Shoshanna Sofaer, Karen Adams, Christine Bechtel,
+and Jennifer Sweeney
+Patient And Family Engagement:
+A Framework For Understanding
+The Elements And Developing
+Interventions And Policies
+ABSTRACT Patient and family engagement offers a promising pathway
+toward better-quality health care, more-efficient care, and improved
+population health. Since definitions of patient engagement and
+conceptions of how it works vary, we propose a framework. We first
+present the forms engagement can take, ranging from consultation to
+partnership. We discuss the levels at which patient engagement can occur
+across the health care system, from the direct care setting to
+incorporating patient engagement into organizational design,
+governance, and policy making. We also discuss the factors that influence
+whether and to what extent engagement occurs. We explore the
+implications of our multidimensional framework for the development of
+interventions and policies that support patient and family engagement,
+and we offer a research agenda to investigate how such engagement leads
+to improved outcomes.
+P
+atient engagement has been called a
+critical part of a continuously learn-
+ing health system,1 a necessary con-
+dition for the redesign of the health
+care system,2 the “holy grail” of
+health care,3 and the next “blockbuster drug of
+the century.”4
+But definitions of patient engagement and
+conceptions of how it improves care vary consid-
+erably. Angela Coulter’s well-known definition
+focuses on the relationship between patients
+and health care providers as they work together
+to “promote and support active patient and pub-
+lic involvement in health and healthcare and to
+strengthen their influence on healthcare deci-
+sions, at both the indivi</p>
+<p>oviders as they work together
+to “promote and support active patient and pub-
+lic involvement in health and healthcare and to
+strengthen their influence on healthcare deci-
+sions, at both the individual and collective
+levels.”5
+A model of public engagement developed by
+James Conway at the Institute for Healthcare
+Improvement is organized around the settings
+in which patient engagement occurs: during the
+care experience, within the microsystem of the
+clinic or ward, within the health care organiza-
+tion, and within the larger community.6 And the
+Center for Advancing Health’s engagement
+behavior framework focuses on behavior, defin-
+ing engagement as “actions people take for their
+health and to benefit from health care”7 and pro-
+viding a list of patient-initiated engagement
+actions.
+Adding to the confusion, the term patient en-
+gagement is also used synonymously with patient
+activation and patient- and family-centered care.
+Although the concepts are related, they are not
+identical. Patient activation—an “individual’s
+knowledge, skill, and confidence for managing
+his/her own health and health care”8(p377)—is one
+aspect of an individual’s capacity to engage in
+that care. But this term does not address the
+individual’s external context, nor does it focus
+on behavior.
+“Patient-
+and
+family-centered
+care”
+is
+a
+broader term that conveys a vision for what
+health care should be: “a partnership among
+doi:
+10.1377/hlthaff.2012.1133
+HEALTH AFFAIRS 32,
+NO. 2 (2013): 223–231
+©2013 Project HOPE—
+The People-to-People Health
+Foundation, <a href="../entities/inc" class="internal alias" data-slug="entities/inc">Inc.</a>
+Kristin L. Carman (kcarman@
+air.org) is a managing director
+in the Health Program at the
+American Institutes for
+Research in Washington, D.C.
+Pam Dardess is a senior
+research analyst at the
+American Institutes for
+Research in Chapel Hill, North
+Carolina.
+Maureen Maurer is a senior
+researcher at the American
+Institutes for Research in
+Chapel Hill.
+Shoshanna Sofaer is the
+Robert P. Luciano Professor of
+Health Care</p>
+<p>esearch in Chapel Hill, North
+Carolina.
+Maureen Maurer is a senior
+researcher at the American
+Institutes for Research in
+Chapel Hill.
+Shoshanna Sofaer is the
+Robert P. Luciano Professor of
+Health Care Policy at the
+School of Public Affairs,
+Baruch College, City
+University of New York, in
+New York City.
+Karen Adams is vice president
+of national priorities at the
+National Quality Forum, in
+Washington, D.C.
+Christine Bechtel is vice
+president of the National
+Partnership for Women and
+Families, in Washington, D.C.
+Jennifer Sweeney is director
+of consumer engagement and
+community outreach at the
+National Partnership for
+Women and Families.
+FEBRUARY 2013
+32:2
+Health Affairs
+223
+Evidence &amp; Potential</p>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>practitioners, patients, and their families (when
+appropriate) to ensure that decisions respect
+patients’ wants, needs, and preferences and that
+patients have the education and support they
+need to make decisions and participate in their
+own care.”9(p7)
+We define patient and family engagement as pa-
+tients, families, their representatives, and health
+professionals working in active partnership at
+various levels across the health care system—
+direct care, organizational design and gover-
+nance, and policy making—to improve health
+and health care. Although we use the term pa-
+tient engagement for simplicity’s sake, we recog-
+nize that those who engage and are engaged
+include patients, families, caregivers, and other
+consumers and citizens.
+Several circumstances encourage a growing
+emphasis on patient engagement. First, work
+related to patient- and family-centered care
+and shared <a href="../concepts/decision-making" class="internal alias" data-slug="concepts/decision-making">decision making</a> both reflects and
+accelerates the shifting roles of patients and fam-
+ilies in health care as they become more active,
+informed, and influential.9,10
+Second, a growing body of evidence suggests
+that patient engagementcan lead to better health
+outcomes,11 contribute to improvements in qual-
+ity and patient safety,12 and help control health
+care costs.13 Third, vir</p>
+<p>ng body of evidence suggests
+that patient engagementcan lead to better health
+outcomes,11 contribute to improvements in qual-
+ity and patient safety,12 and help control health
+care costs.13 Third, virtually every discussion
+about the US health care system begins by noting
+that spending is spiraling upward while quality
+lags behind. In the search for solutions, gaining
+ground is the belief that patients are at the core
+of our system and, as such, are part of the
+<a href="../concepts/solution" class="internal alias" data-slug="concepts/solution">solution</a>.14
+In this article we propose a model of patient
+engagement that presents the forms patient en-
+gagement can take, from consultation to part-
+nership and what we call shared <a href="../concepts/leadership" class="internal alias" data-slug="concepts/leadership">leadership</a>,
+which includes decision-making authority. Our
+model also examines the levels at which patient
+engagement can occur throughout the health
+care system, in direct care, organizational design
+and governance, and policy making.We also ex-
+amine the factors15 that influence patients’ will-
+ingness and ability to engage and the extent of
+their engagement. The factors that influence the
+ability of clinicians, health care organizations,
+and policy makers to create opportunities for
+engagement are also important, but considera-
+tion of them is beyond the scope of this article.
+We conclude by exploring the implications
+of our multidimensional framework for the de-
+velopment of interventions and policies that
+support patient engagement. We also present a
+research agenda to investigate the pathways by
+which engagement leads to improved outcomes.
+This framework was developed in conjunction
+with patient and family representatives, re-
+flecting the principle of working with, rather
+than doing “to” or “for” patients. We note that
+our model is not a static one. The field of patient
+engagement is nascent; as it evolves, so will our
+model. But we hope that the framework in its
+current form will help inform the development
+of interventions and policies that support pa-
+tient and family engagement.
+As shown in Exhibit 1, our mult</p>
+<p>r
+model. But we hope that the framework in its
+current form will help inform the development
+of interventions and policies that support pa-
+tient and family engagement.
+As shown in Exhibit 1, our multidimensional
+framework includes three critical aspects of pa-
+tient engagement. First, engagement activities
+<a href="../concepts/range" class="internal alias" data-slug="concepts/range">range</a> along a continuum,16 from consultation
+to partnership and shared leadership. Second,
+engagement occurs at different levels: It is not
+confined to individual health behavior or direct
+care interactions; it also occurs in organizational
+design and governance and in policy making.
+Third, multiple factors affect the willingness
+and ability of patients to engage.
+The Continuum Of Engagement
+Patient engagement can be characterized by how
+much information flows between patient and
+provider, how active a role the patient has in care
+decisions, and how involved the patient or pa-
+tient organization becomes in health organiza-
+tion decisions and in policy making. At the con-
+tinuum’s lower end, patients are involved but
+have limited power or decision-making author-
+ity. Providers, organizations, and systems define
+their own agendas and then seek patients’ input.
+Information flows to patients and then back to
+the system.
+At the continuum’s higher end, engagement is
+characterized by shared power and responsibil-
+ity, with patients being active partners in defin-
+ing agendas and making decisions. Information
+flows bidirectionally throughout the process of
+engagement, and decision-making responsibil-
+ity is shared.
+Consider this example concerning patients’
+electronic health records. At the consultation
+end of the engagement continuum, clinicians
+may use the records to provide information to
+patients—such as printouts of lab results—but
+patients cannot access the information directly.
+At the midpoint of the continuum, involvement,
+patients have direct access to their records, in-
+cluding <a href="../concepts/notes" class="internal alias" data-slug="concepts/notes">notes</a> from clinicians and the health care
+delivery system, but they cann</p>
+<p>information directly.
+At the midpoint of the continuum, involvement,
+patients have direct access to their records, in-
+cluding notes from clinicians and the health care
+delivery system, but they cannot contribute or
+correct information.
+In <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>, at the partnership end of the con-
+tinuum, patients have direct access to their re-
+cords, are able to see notes from clinicians and
+the system, and can add or edit information. The
+record reflects the entire experience of care
+from the perspectives of both the patient and
+the clinicians, and care decisions can be made
+Evidence &amp; Potential
+224
+Health Affairs
+FEBRUARY 2013
+32:2</p>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>collaboratively, with all relevant information
+included.
+In describing patient engagement in terms of a
+continuum, we are not suggesting that the goal is
+always to move toward engagement at the higher
+end of the continuum. Such engagement is not
+necessarily better for every patient in every set-
+ting. Clinicians, delivery systems, and policy
+makers cannot assume that patients have certain
+<a href="../concepts/capabilities" class="internal alias" data-slug="concepts/capabilities">capabilities</a>, interests, or goals, nor can they dic-
+tate the pathway to achieving patients’ goals.
+However, the range of opportunities along the
+continuum is best determined based on the topic
+at hand and defined and created with patients’
+participation.
+But even if greater engagement is not ideal for
+all people in all situations, more and more pa-
+tients will want—even demand—greater involve-
+ment in care and policy decisions. With shared
+power and responsibility comes the potential for
+better, more patient-centered outcomes. For ex-
+ample, recent work related to patients with car-
+diac arrhythmia shows that patients who expe-
+rienced shared decision making chose far less
+invasive treatments compared to those who
+did not.17
+Engagement At Multiple Levels
+Direct Care At the level of direct care, engage-
+ment integrates patients’ values, experiences,
+and perspectives related to <a href="../concepts/preventive-care" class="internal alias" data-slug="concepts/preventive-care">prevention</a>, diagno-
+sis, and treatment, including managing t</p>
+<p>ltiple Levels
+Direct Care At the level of direct care, engage-
+ment integrates patients’ values, experiences,
+and perspectives related to prevention, diagno-
+sis, and treatment, including managing the pa-
+tient’s health and selecting health care coverage
+and providers. Although we refer to this level as
+direct care, engagement here need not involve
+interaction with clinicians. Patients may also en-
+gage with a range of health-related resources and
+groups to initiate or sustain personal health
+practices—for instance, seeking information
+about health conditions and treatments, partici-
+pating in community-based self-management
+support groups, or using ratings of provider
+quality.
+Patient engagement at this level ranges from a
+patient’s simply receiving information to being
+an active partner in the care team, setting goals,
+making decisions, and proactively managing
+his or her health. In engagement at the partner-
+ship end of the continuum, patients communi-
+cate with clinicians about their health situation,
+understand the risks and benefits associated
+with care choices, ask questions, and access
+and
+help
+create
+their
+medical
+records.
+Clinicians give patients timely, complete, and
+understandable information; elicit patients’ val-
+ues, beliefs, and risk tolerance regarding care
+choices; give patients encouragement and sup-
+port; and involve family and friends according
+to the patient’s wishes.
+For example, a patient with localized prostate
+cancer might go online to look for evidence
+about treatment options and associated clinical
+and <a href="../concepts/quality-of-life" class="internal alias" data-slug="concepts/quality-of-life">quality-of-life</a> considerations. Next, the pa-
+tient might discuss important considerations
+with his physician and family. Then the patient,
+family, and physician would work together to
+develop and initiate a treatment approach that
+considers the patient’s and family’s emotional
+<a href="../concepts/anxiety" class="internal alias" data-slug="concepts/anxiety">anxiety</a> about cancer, treatment preferences
+and goals, life circumstances, values, and risk
+tolerance for adverse outcomes.
+Organizational Design And</p>
+<p>considers the patient’s and family’s emotional
+anxiety about cancer, treatment preferences
+and goals, life circumstances, values, and risk
+tolerance for adverse outcomes.
+Organizational Design And Governance At
+the level of organizational design and gover-
+nance, engagement integrates patients’ values,
+experiences, and perspectives into the design
+and governance of health care organizations
+such as hospitals, accountable care organiza-
+tions, clinics, and nursing homes.4,18 Patients
+Exhibit 1
+A Multidimensional Framework For Patient And Family Engagement In Health And Health
+Care
+SOURCE Authors’ analysis. NOTE <a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">Movement</a> to the right on the continuum of engagement denotes
+increasing patient participation and collaboration.
+FEBRUARY 2013
+32:2
+Health Affairs
+225</p>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>partner with organizational leaders, front-line
+managers, and clinicians to plan, deliver, and
+evaluate care. Patients also help design health
+care facilities; serve on hospitals’ patient and
+family advisory councils; participate in the de-
+sign and execution of quality improvement proj-
+ects; and assist with staff hiring, <a href="../concepts/training" class="internal alias" data-slug="concepts/training">training</a>, and
+development.19
+At the partnership end of the continuum, pa-
+tients help set agendas, determine priorities,
+and share decision-making authority. Patients
+are engaged early and meaningfully and are
+not token or single representatives. Forexample,
+at the Dana-Farber Cancer Institute, patients and
+family members have participated as decision-
+makingmembersin continuousquality improve-
+ment teams, taken part in hiring decisions, and
+developed and provided staff training.20
+Policy Making At the policy-making level, en-
+gagement focuses on developing, implementing,
+and evaluating national, state, and local health
+care policy and <a href="../concepts/software" class="internal alias" data-slug="concepts/software">programs</a>. Patients’ engagement
+in policy, which is often described as “citizen” or
+“public” engagement, helps ensure that the
+health care system writ large is oriented around
+and responsive to patients’ perspectives.
+Patien</p>
+<p>policy, which is often described as “citizen” or
+“public” engagement, helps ensure that the
+health care system writ large is oriented around
+and responsive to patients’ perspectives.
+Patients collaborate with community leaders
+and policy makers—for instance, representatives
+from governments, health plans, and employ-
+ers—to solve community and social problems,
+shape health care policy, and set priorities for
+the use of resources. Patients also participate in
+health and clinical research. At this level, en-
+gagementmay includeindividual patientsas well
+as representatives of consumer organizations
+who speak on behalf of a general constituency.
+Ideally, at the partnership end of the con-
+tinuum for this level, patients or their represent-
+atives set priorities and make policy and pro-
+gram decisions. However, it is still rare for
+patients to have more than a token amount of
+power and influence.
+An example that moves toward this higher
+level of partnership is the Health Information
+Technology Policy Committee, established by
+the American Recovery and Reinvestment Act
+of 2009. This federal advisory committee desig-
+nates three of its twenty seats for consumer
+representatives to make recommendations on
+policies that promote the adoption and “mean-
+ingful use” of health information technology,
+including its use to promote patient and family
+engagement.
+Factors That Influence Engagement
+Numerous factors influence whether and to what
+extent patients are able to engage at different
+levels
+and
+at
+different
+points
+along
+the
+continuum. In our framework (Exhibit 1) we
+have grouped these factors into three categories:
+those related to patients, organizations, and so-
+ciety. Each set of factors acts on its own and in
+conjunction with the other sets to affect patients’
+actions and engagement. The factors we include
+in the framework and discuss here are illustra-
+tive, not exhaustive.
+The Patient Individual factors that can affect
+patients’ <a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">motivation</a>, willingn</p>
+<p>’
+actions and engagement. The factors we include
+in the framework and discuss here are illustra-
+tive, not exhaustive.
+The Patient Individual factors that can affect
+patients’ motivation, willingness, and ability to
+engage within and across different levels include
+patients’ knowledge, attitudes, and beliefs, such
+as their beliefs about the patient role; their ex-
+perience with the health care system; their self-
+efficacy; and their functional capacity, such as
+their health literacy, health status, and function-
+ing.21,22 <a href="../concepts/vulnerable-populations" class="internal alias" data-slug="concepts/vulnerable-populations">Vulnerable populations</a>—for example,
+people at low income levels, those who have lim-
+ited English proficiency, and the elderly—may
+face additional challenges, such as low health
+literacy or cognitive decline, when trying to
+engage.23,24
+The Organization An organization’s charac-
+teristics influence patients’ ability to engage in
+it. Hospitals, physician practices, accountable
+care organizations, governments, and other or-
+ganizations can encourage patient engagement
+by demonstrating that patients’ participation
+and leadership are central to the achievement
+of improvement goals25 and by responding pos-
+itively to patients’ efforts.21 Organizational pol-
+icies or practices also affect how easy it is for
+patients to be active partners.25
+Policies and practices that positively influence
+patient engagement in direct care include open
+family presence policies—that is, hospital poli-
+cies that enable families to visit twenty-four
+hours a day;26 bedside <a href="../concepts/rounding" class="internal alias" data-slug="concepts/rounding">rounding</a>—that is, con-
+ducting physician and interdisciplinary rounds
+at the patient’s bedside;27 having nurses who are
+coming on and going off duty give their change
+of shift report at the patient’s bedside;28 patient-
+centered discharge planning;29 and electronic
+health records that patients can access and edit.30
+Organizational policies and practices can fur-
+ther promote engagement by creating expec-
+tations that patients will serve as advisers and
+decision makers, including on</p>
+<p>patients can access and edit.30
+Organizational policies and practices can fur-
+ther promote engagement by creating expec-
+tations that patients will serve as advisers and
+decision makers, including on quality improve-
+ment teams, patient safety and error commit-
+tees, and patient- and family-centered care
+councils.
+Society The third set of factors recognizes
+that patients and organizations operate within
+a broader social and political environment and
+are influenced by social norms; purchasers’ reg-
+ulations; and national, state, and local policies.
+Social and community norms influence whether
+patients view themselves as able to contribute to
+improving their care, what organizations they
+Evidence &amp; Potential
+226
+Health Affairs
+FEBRUARY 2013
+32:2</p>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>interact with, and overall policy making.
+Purchasers’ policies, reimbursement mecha-
+nisms, and benefit designs—such as having
+lower or no copayments for office visits to man-
+age chronic conditions—can influence patients’
+behavior in seeking health care and making de-
+cisions about their care.31 They can also indicate
+to organizations where resources should be allo-
+cated, such as to support patient engagement in
+discharge planning.
+Policy makers can also create mechanisms
+by which patients can provide input and help
+shape public policy, such as public deliberation,
+town hall meetings, public hearings, or regula-
+tory comment processes. Similarly, foundations,
+nonprofit organizations, and government agen-
+cies can create funding mechanisms requiring
+and supporting patient participation in societal
+decisions and priority setting.
+In addition, legislative rules or regulations
+may specifically spur patients’ participation in
+health care. An example here is the mandate in
+Massachusetts for hospitals to establish patient
+and family advisory councils.32
+Discussion
+The framework for patient engagement that we
+present <a href="../concepts/highlights" class="internal alias" data-slug="concepts/highlights">highlights</a> three main implications for
+the development of interventions to promote
+that</p>
+<p>stablish patient
+and family advisory councils.32
+Discussion
+The framework for patient engagement that we
+present highlights three main implications for
+the development of interventions to promote
+that engagement. First, the continuum of en-
+gagement helps characterize the extent to which
+patients are involved in decision making. If evi-
+dence that outcomes are improved by greater
+partnership continues to accumulate, then inter-
+ventions should be designed to move patients to
+increasingly shared power and responsibility at
+each level.
+Second, this framework underscores the pos-
+sibility that a greater impact could be achieved by
+implementing interventions across multiple lev-
+els of engagement. For example, interventions
+that increase engagement at the policy-making
+level may increase engagement or improve out-
+comes at the levels of direct care or organiza-
+tional design and governance.
+Third, interventions can be designed to ad-
+dress the factors that influence patient engage-
+ment. Interventions often focus on changing
+patient factors, such as knowledge or motiva-
+tion, without addressing organizational and
+societal
+barriers
+to
+engagement.
+Although
+highly motivated patients may become engaged
+without clear opportunities and invitations, the
+vast majority of patients will not.
+Further research may show that interventions
+targeting multiple factors or sets of factors si-
+multaneously are more effective and have a big-
+ger return on investment. For example, in the
+Agency for Healthcare Research and Quality’s
+current initiative to develop a guide to patient
+and familyengagementtoimprove hospital qual-
+ity and safety, hospitals can support engagement
+not only by educating patients about their role as
+a member of the care team and in discharge plan-
+ning, but also by moving nurse changes of shift
+to the patient’s bedside, training clinicians to
+support patient engagement, and partnering
+with patients at the organizational level to plan,
+deliver, and evaluate care.33</p>
+<p>ng nurse changes of shift
+to the patient’s bedside, training clinicians to
+support patient engagement, and partnering
+with patients at the organizational level to plan,
+deliver, and evaluate care.33
+Framing The Research And Policy
+Agenda
+Questions For Future Research Emerging
+evidence suggests that engagement can be a
+pathway toward achieving the goals of better
+quality of care, greater <a href="../concepts/cost-efficient-solutions" class="internal alias" data-slug="concepts/cost-efficient-solutions">cost efficiency</a>, and im-
+proved population health.18,25,34,35 However, we
+need to build an evidence base of what works
+and—just as important—what does not work in
+achieving and sustaining productive patient en-
+gagement. Our framework suggests the follow-
+ing questions to be addressed in future research.
+What factors, or combinations of factors, exert
+the greatest influence on patient engagement?
+What are the pathways by which they do this?
+When developing interventions at one level,
+such as direct care, what supports are needed
+at the levels of organizational design and gover-
+nance and of policy making to increase those
+interventions’ effectiveness?
+How do interventions at the policy-making
+level affect engagement efforts and outcomes
+at the other levels?
+Do interventions in which patients share lead-
+ership demonstrate better outcomes than those
+in which patients are only consulted or involved?
+If so, which interventions are most effective at
+facilitating engagementat the continuum’s high-
+est end?
+What are the most effective methods for organ-
+izations and policy makers to create oppor-
+tunities for engagement? How can organizations
+recruit patients to serve on governance commit-
+tees? How are committee members’ roles and
+responsibilities defined?
+How can <a href="../concepts/flow-management" class="internal alias" data-slug="concepts/flow-management">research findings</a> be translated into
+routine practice? How can we best support im-
+plementation and <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a> interventions that
+make the most of available resources?
+Measures Tracking and monitoring progress
+on engagement requires the use of parsimoni-
+ous, robust measures to assess what works, how
+it works, and—o</p>
+<p>tions that
+make the most of available resources?
+Measures Tracking and monitoring progress
+on engagement requires the use of parsimoni-
+ous, robust measures to assess what works, how
+it works, and—over time—whether engagement
+efforts are improving outcomes. As a starting
+point, existing measures should be examined
+for their usefulness and how they might be
+FEBRUARY 2013
+32:2
+Health Affairs
+227</p>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>applied.
+For
+example,
+Judith
+Hibbard’s
+Patient
+Activation Measure, which assesses a person’s
+capacity for engagement, could help inform
+interventions to encourage engagement at the
+direct-care level.8 Collecting patient-reported
+outcomes, as the Consumer Assessment of
+Healthcare Providers and Systems <a href="../concepts/survey" class="internal alias" data-slug="concepts/survey">survey</a> does,
+can serve a dual role: both asking patients for
+<a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a> and informing quality improvement
+efforts.
+Scarce resources and a desire to decrease the
+burden of using measures may require balancing
+the development of new patient engagement
+measures against other pressing, but highly re-
+lated, measure gaps such as care coordination
+and affordability. However, the emerging evi-
+dence linking patient engagement to improved
+outcomes warrants heightened <a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a>. A
+process that involves multiple stakeholders—
+including patients—could help prioritize gaps
+and make recommendations throughout the
+measure development life cycle: conceptualiz-
+ing, <a href="../concepts/testing" class="internal alias" data-slug="concepts/testing">testing</a>, endorsing, implementing, and
+evaluating a measure.
+Conclusion
+We are in the midst of an important and poten-
+tially transformative shift related to patients’
+roles in health care. The framework for patient
+and family engagement that we present here
+makes it clear that health care professionals at
+all levels—clinicians, administrators, members
+of professional societies, and researchers—as
+well as policy makers play critical roles in part-
+nering withpatients and familiesand supporting
+them in new roles. Examples across the country
+show where engagement is taking place and
+achieving results.
+Yet</p>
+<p>olicy makers play critical roles in part-
+nering withpatients and familiesand supporting
+them in new roles. Examples across the country
+show where engagement is taking place and
+achieving results.
+Yet engagement is not a quick fix. Many pa-
+tients and clinicians are still operating in an
+older paradigm of a paternalistic clinician and
+system. Efforts need to be made not only to raise
+patients’ awareness about the benefits of engage-
+ment but also to encourage and support patients’
+increasing responsibility and leadership.
+In addition, engagement initiatives often chal-
+lenge the perceived needs, norms, and assump-
+tions of health care professionals as they make
+treatment recommendations amid a variety of
+constraints, such as short patient visits, in-
+creased complexity of diagnoses, and reim-
+bursement policies; help manage a complex
+and expensive health care system; and gener-
+ate scientifically valid evidence for medical
+interventions.
+To move forward, health care organizations
+and policy makers will need to embrace new
+norms and make substantial changes in their
+culture, processes, and structure. Moreover, if
+we are to achieve the laudable goals outlined at
+the beginning of this article, health care organ-
+izations and policy makers cannot make changes
+in isolation. The pathway to true engagement
+involves working in partnership with patients
+and families. ▪
+The authors thank Thomas Workman for
+his extensive comments to finalize this
+framework. In addition, they gratefully
+acknowledge that this framework builds
+on the work of many projects and the
+insight and perspective of many
+colleagues, funders, and patients and
+families who have participated in and
+supported their work.
+NOTES
+1 Institute of Medicine. Patients
+charting the course: citizen engage-
+ment in the <a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a> health system:
+workshop <a href="../concepts/summary" class="internal alias" data-slug="concepts/summary">summary</a>. Washington
+(DC): National Academies Press;
+2011.
+2 National <a href="../concepts/digital-health" class="internal alias" data-slug="concepts/digital-health">eHealth</a> Collaborative. 2012
+NeHC stakeholder <a href="../concepts/survey-results" class="internal alias" data-slug="concepts/survey-results">survey results</a>
+[Internet]. Washington (DC): The
+Coll</p>
+<p>learning health system:
+workshop summary. Washington
+(DC): National Academies Press;
+2011.
+2 National eHealth Collaborative. 2012
+NeHC stakeholder survey results
+[Internet]. Washington (DC): The
+Collaborative; 2012 Feb 27 [cited
+2013 Jan 7]. Available from: http://
+<a href="http://www.nationalehealth.org/ckfinder/" class="external" target="_blank" rel="noopener noreferrer">www.nationalehealth.org/ckfinder/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+userfiles/files/2012%20NeHC
+%20Stakeholder%20Survey
+%20Results%20FINAL.pdf
+3 Wilkins S. Patient engagement is the
+holy grail of health care. MedPage
+Today’s KevinMD.com [blog on the
+Internet]. 2012 Jan 27 [cited 2013
+Jan 7]. Available from: <a href="http://www" class="external" target="_blank" rel="noopener noreferrer">http://www<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+.kevinmd.com/blog/2012/01/
+patient-engagement-holy-grail-
+health-care.html
+4 Chase D. Patient engagement is the
+blockbuster drug of the century.
+Forbes.com [blog on the Internet].
+2012 Sep 9 [cited 2013 Jan 7].
+Available from: <a href="http://www.forbes" class="external" target="_blank" rel="noopener noreferrer">http://www.forbes<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+.com/sites/davechase/2012/09/09/
+patient-engagement-is-the-
+blockbuster-drug-of-the-century/
+5 Coulter A. Engaging patients in
+healthcare. New York (NY):
+McGraw-Hill Education; 2011. p. 10.
+6 Institute of Medicine. Engaging pa-
+tients to improve <a href="../concepts/science" class="internal alias" data-slug="concepts/science">science</a> and <a href="../concepts/value" class="internal alias" data-slug="concepts/value">value</a>
+in a learning health system. Chapter
+4 in: Institute of Medicine. Patients
+charting the course: citizen engage-
+ment in the learning health system:
+workshop summary. Washington
+(DC): National Academies Press;
+2011. p. 103–10.
+7 Center for Advancing Health. A new
+definition of patient engagement:
+what is engagement and why is it
+important? [Internet]. Washington
+(DC): CFAH; 2010 [cited 2013 Jan 7].
+Available from: <a href="http://www.cfah" class="external" target="_blank" rel="noopener noreferrer">http://www.cfah<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+.org/pdfs/CFAH_Engagement_
+Behavior_Framework_current.pdf
+8 Hibbard JH, Mahoney E. Toward a
+<a href="../concepts/theory" class="internal alias" data-slug="concepts/theory">theory</a> of patient and consumer ac-
+tivation. Patient Educ Couns. 2010;
+78(3):377–81.
+9 Institute of Medicine. Envisioning
+the national health care quality re-
+port. Washington (DC): National
+Academies Press; 2001.
+10 Gerteis M, Edgman-Levitan S, Daley
+J, Delbanco TL, editors. Through the
+patient’s eyes: understanding and
+promoting <a href="../concepts/personalised-care" class="internal alias" data-slug="concepts/personalised-care">patient-centered care</a>.
+San Francisco (CA): Jossey-Bass;
+1993.
+11 Epstein</p>
+<ol start="2001">
+<li></li>
+</ol>
+<p>10 Gerteis M, Edgman-Levitan S, Daley
+J, Delbanco TL, editors. Through the
+patient’s eyes: understanding and
+promoting patient-centered care.
+San Francisco (CA): Jossey-Bass;
+1993.
+11 Epstein R, Street R. Patient-centered
+Evidence &amp; Potential
+228
+Health Affairs
+FEBRUARY 2013
+32:2</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>care for the 21st century: physicians’
+roles, health systems and patients’
+preferences. Philadelphia (PA):
+ABIM Foundation; 2008.
+12 Coulter A, Ellins J. Effectiveness of
+strategies for informing, educating,
+and involving patients. BMJ. 2007;
+335(7609):24–7.
+13 Charmel PA, Frampton SB. Building
+the business case for patient-
+centered care. Healthc Financ
+Manage. 2008;62(3):80–5.
+14 Carman KL. <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">Implementation</a>, en-
+gagement, and use: making health
+care more patient-centered, reliable,
+and safe. Plenary <a href="../concepts/session" class="internal alias" data-slug="concepts/session">session</a> remarks at:
+Agency for Healthcare Research and
+Quality 2012 Annual Conference;
+September 11, 2012; Bethesda,
+Maryland.
+15 We use the term factor to highlight
+the contributions of various actions,
+processes, and structures to patients’
+engagement.
+16 Our continuum of engagement is
+influenced by Sherry Arnstein’s
+“ladder of citizen participation,”
+which describes a continuum of
+public participation in governance
+ranging from limited participation,
+or degrees of tokenism, to a state of
+collaborative partnership in which
+citizens share leadership or control
+decisions. Arnstein SR. A ladder of
+citizen participation. J Am Plann
+Assoc. 1969;35(4):216–24.
+17 Langseth MS, Shepherd E, Thomson
+R, Lord S. Quality of decision mak-
+ing is related to decision outcome for
+patients with cardiac arrhythmia.
+Patient Educ Couns. 2012;87:49–53.
+18 Institute of Medicine. Best care at
+lower cost: the path to continuously
+learning health care in <a href="../entities/america" class="internal alias" data-slug="entities/america">America</a>.
+Washington (DC): National
+Academies Press; 2012.
+19 Institute for Patient- and Family-
+Centered Care. Frequently asked
+questions [Internet]. Bethesda
+(MD): IPFCC; [last updated 2010
+Dec 29; cited 2012 Jan 8]. Availa</p>
+<p>: National
+Academies Press; 2012.
+19 Institute for Patient- and Family-
+Centered Care. Frequently asked
+questions [Internet]. Bethesda
+(MD): IPFCC; [last updated 2010
+Dec 29; cited 2012 Jan 8]. Available
+from: <a href="http://www.ipfcc.org/" class="external" target="_blank" rel="noopener noreferrer">http://www.ipfcc.org/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+faq.html
+20 Ponte PR, Conlin G, Conway JB,
+Grant S, Medeiros C, Nies J, et al.
+Making patient-centered care come
+alive: achieving full <a href="../concepts/integration" class="internal alias" data-slug="concepts/integration">integration</a> of
+the patient’s perspective. J Nurs
+Adm. 2003;33(2):82–90.
+21 Maurer M, Dardess P, Carman KL,
+Frazier K, Smeeding L (American
+Institutes for Research, Washington,
+DC). Guide to patient and family
+engagement: environmental scan
+report [Internet]. Rockville (MD):
+Agency for Healthcare Research and
+Quality; 2012 [cited 2013 Jan 8].
+Available from: <a href="http://www.ahrq" class="external" target="_blank" rel="noopener noreferrer">http://www.ahrq<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+.gov/qual/ptfamilyscan/
+ptfamilyscan.pdf
+22 Dy SM, Purnell TS. Key concepts
+relevant to quality of complex and
+shared decision-making in health
+care: a literature review. Soc Sci
+Med. 2012;74(4):582–7.
+23 Rivadeneyra R, Elderkin-Thompson
+V, Silver RC, Waitzkin H. Patient
+centeredness in medical encounters
+requiring an interpreter. Am J Med.
+2000;108(6):470–4.
+24 Silow-Caroll S, Alteras T, Stepnick L.
+Patient-centered care for under-
+served populations: definition and
+<a href="../concepts/best-practices" class="internal alias" data-slug="concepts/best-practices">best practices</a> [Internet].
+Washington (DC): Economic and
+Social Research Institute; 2006 Jan
+[cited 2013 Jan 8]. Available from:
+<a href="http://www.esresearch.org/" class="external" target="_blank" rel="noopener noreferrer">http://www.esresearch.org/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+documents_06/Overview.pdf
+25 Johnson B, Abraham M, Conway J,
+Simmons L, Edgman-Levitan S,
+Sodomka P, et al. Partnering with
+patients and families to design a
+patient- and family-centered health
+care system: recommendations and
+promising practices [Internet].
+Bethesda (MD): Institute for Patient-
+and Family-Centered Care, Institute
+for Healthcare Improvement; 2008
+Apr [cited 2013 Jan 8]. Available
+from: <a href="http://www.ipfcc.org/pdf/" class="external" target="_blank" rel="noopener noreferrer">http://www.ipfcc.org/pdf/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+PartneringwithPatientsandFamilies
+.pdf
+26 Kleinpell RM. Visiting hours in the
+intensive care unit: more evidence
+that open visitation is beneficial. Crit
+Care Med. 2008;36(1):334–5.
+27 Ro</p>
+<p>c.org/pdf/
+PartneringwithPatientsandFamilies
+.pdf
+26 Kleinpell RM. Visiting hours in the
+intensive care unit: more evidence
+that open visitation is beneficial. Crit
+Care Med. 2008;36(1):334–5.
+27 Rosen P, Stenger E, Bochkoris M,
+Hannon MJ, Kwoh CK. Family-
+centered multidisciplinary rounds
+enhance the team approach in
+pediatrics. Pediatrics. 2009;123(4):
+e603–8.
+28 Tidwell T, Edwards J, Snider E,
+Lindsey C, Reed A, Scroggins I, et al.
+A nursing pilot study on bedside
+reporting to promote best practice
+and patient/family-centered care.
+J Neurosci Nurs. 2011;43(4):E1–5.
+29 Re-engineered discharge cuts re-
+admissions. Hosp Case Manage.
+2012;20(5):70, 75.
+30 Gladwin J. Giving patients open ac-
+cess to medical records would help
+nurses improve care. Nurs Times.
+2007;103(25):14.
+31 Korda H, Eldridge GN. Payment in-
+centives and integrated care delivery:
+levers for health system reform and
+cost containment. Inquiry. 2011;
+48(4):277–87.
+32 188th General Court of the
+Commonwealth of Massachusetts.
+Session laws: acts 2008: chapter 35:
+an act to promote cost containment,
+transparency, and efficiency in the
+delivery of quality health care
+[Internet]. Boston (MA): General
+Court; 2008 [cited 2013 Jan 8].
+Available from: <a href="http://www.mass" class="external" target="_blank" rel="noopener noreferrer">http://www.mass<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+.gov/legis/laws/seslaw08/sl080305
+.htm
+33 Dardess P, Carman KL.
+Implementing and evaluating the
+guide to patient and family engage-
+ment. Paper presented at: 5th
+International Conference on Patient-
+and Family-Centered Care; June 4–6,
+2012; Washington, D.C.
+34 Coulter A. Patient engagement—
+what works? J Ambul Care Manage.
+2012;35:80–9.
+35 Frampton SB, Guastello S. Putting
+patients first: patient-centered care:
+more than the sum of its parts. Am J
+Nurs. 2010;110:49–53.
+FEBRUARY 2013
+32:2
+Health Affairs
+229</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>5:80–9.
+35 Frampton SB, Guastello S. Putting
+patients first: patient-centered care:
+more than the sum of its parts. Am J
+Nurs. 2010;110:49–53.
+FEBRUARY 2013
+32:2
+Health Affairs
+229</p>
+<hr/>
+<h2 id="page-8-1">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ABOUT THE AUTHORS: KRISTIN L. CARMAN, PAM DARDESS,
+MAUREEN MAURER, SHOSHANNA SOFAER, KAREN ADAMS,
+CHRISTINE BECHTEL &amp; JENNIFER SWEENEY
+Kristin L. Carman
+is a managing
+director in the
+Health Program at
+the American
+Institutes for
+Research.
+In this month’s Health Affairs,
+Kristin Carman and coauthors
+propose a framework for
+understanding the elements of
+patient engagement, developing
+interventions that effectuate it, and
+promoting policies that spread it.
+They also offer a research agenda
+that could help illuminate more
+fully whether and how such
+engagement leads to improved
+health outcomes.
+Carman is a managing director in
+the Health Program at the
+American Institutes for Research,
+director of the Center for Patient
+and Consumer Engagement, and a
+codirector of the Health Policy and
+Research Group, a team of more
+than seventy health services
+research professionals. They
+conduct research on issues of
+public importance in health care
+quality, access, financing,
+comparative effectiveness research,
+patient and family engagement,
+health systems improvement,
+public deliberation, and health-
+related communications.
+Carman’s work emphasizes
+explaining evidence-based
+information for use in decision
+making. She has led many
+consumer engagement research and
+technical assistance projects and
+currently leads four projects on
+this topic funded by the Agency for
+Healthcare Research and Quality
+(AHRQ) and the Robert Wood
+Johnson Foundation. She earned
+both a master’s degree and a
+<a href="../entities/phd" class="internal alias" data-slug="entities/phd">doctorate</a> in human development
+and social policy from
+Northwestern University.
+Pam Dardess is a
+senior research
+analyst at the
+American Institutes
+for Research.
+Pam Dardess is a senior research
+analyst at the American Institutes
+for Research. She has particular
+expertise in the areas of patient
+and consu</p>
+<p>search
+analyst at the
+American Institutes
+for Research.
+Pam Dardess is a senior research
+analyst at the American Institutes
+for Research. She has particular
+expertise in the areas of patient
+and consumer engagement, health
+care quality and cost reporting,
+and the development and testing of
+<a href="../concepts/health-promotion" class="internal alias" data-slug="concepts/health-promotion">health education</a> and information
+materials for patients, families, and
+clinicians. Dardess serves as the
+project director for AHRQ’s effort
+to assess the effects of an
+intervention to increase the
+relevancy and use of public reports
+of quality information and the
+agency’s effort to develop,
+implement, and evaluate a Guide to
+Patient and Family Engagement in
+Hospital Safety and Quality.
+Dardess holds a number of other
+leadership positions, including
+senior researcher for the California
+HealthCare Foundation’s Consumer
+Use of Cost and Quality
+Information project. She received a
+master’s degree in <a href="../concepts/public-health" class="internal alias" data-slug="concepts/public-health">public health</a>
+from the University of North
+Carolina at Chapel Hill.
+Maureen Maurer is
+a senior researcher
+at the American
+Institutes for
+Research.
+Maureen Maurer is a senior
+researcher in the Health Program
+at the American Institutes for
+Research. She leads large projects
+and tasks related to engaging
+consumers in health care decision
+making and policy; creating and
+testing materials for patients,
+families, and clinicians that
+translate complex medical
+evidence; eliminating health
+disparities; and conducting
+program evaluations. Maurer is a
+highly experienced qualitative
+researcher, responsible for
+designing research studies,
+conducting in-depth interviews and
+focus groups, and analyzing the
+results of large-scale <a href="../concepts/qualitative-research" class="internal alias" data-slug="concepts/qualitative-research">qualitative
+research</a>. She earned a master’s
+degree in public health from the
+University of North Carolina at
+Chapel Hill.
+Shoshanna Sofaer
+is the Robert P.
+Luciano Professor
+of Health Care
+Policy at Baruch
+College, City
+University of New
+York.
+Shoshanna Sofaer is the Robert
+P. Luciano Professor of Health Care
+Policy at the School of Public
+Affairs, Baruch College, City
+U</p>
+<p>of Health Care
+Policy at Baruch
+College, City
+University of New
+York.
+Shoshanna Sofaer is the Robert
+P. Luciano Professor of Health Care
+Policy at the School of Public
+Affairs, Baruch College, City
+University of New York, and a
+professor in the doctoral program
+in public health at the City
+Evidence &amp; Potential
+230
+Health Affairs
+FEBRUARY 2013
+32:2</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph features a person with shoulder - length brown hair wearing black - framed glasses and a maroon top. The setting is an outdoor area with blurred greenery and a building in the background. The main subject is the person, and the prominent colors are maroon, brown, black, and muted greens from the surroundings.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: A woman with short dark hair is the main subject, wearing a dark blue top and a pearl necklace. She has red lipstick and is positioned against a plain <a href="../concepts/light" class="internal alias" data-slug="concepts/light">light</a> gray background. The image features contrasting colors with her dark hair and clothing against the light backdrop.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: This photograph features a person with short gray hair wearing a blue scarf and dark outerwear against a plain light-colored background. The main subject is the individual, positioned centrally with the blue scarf and dark clothing as prominent elements. The color scheme includes blue, gray, and neutral tones, creating a simple and professional <a href="../concepts/presence" class="internal alias" data-slug="concepts/presence">appearance</a>.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 4]</strong>: A woman with curly dark hair is the main subject, wearing a black top and smiling. The setting is an outdoor environment with blurred greenery and a light - colored building in the background. The colors include dark brown for her hair, black for her clothing, and green and beige tones in the background.</p>
+</blockquote>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>with blurred greenery and a light - colored building in the background. The colors include dark brown for her hair, black for her clothing, and green and beige tones in the background.</p>
+<hr/>
+<h2 id="page-9-1">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>University of New York Graduate
+Center. She serves as
+AcademyHealth’s Senior <a href="../entities/fellow" class="internal alias" data-slug="entities/fellow">Fellow</a> for
+Public <a href="../concepts/health-research" class="internal alias" data-slug="concepts/health-research">Health Research</a> Translation
+and as senior adviser for AHRQ’s
+effort to develop a Guide to Patient
+and Family Engagement in Hospital
+Safety and Quality.
+Sofaer was named a 2013 fellow
+of the National Academy of Public
+Administration and is a 2010–13
+William Ziff Patient Engagement
+Fellow at the Center for Advancing
+Health, a Washington, D.C.–based
+nonprofit that conducts research,
+communicates findings, and
+advocates for policies that support
+the ability to benefit from advances
+in health science. Sofaer earned
+both a doctorate in health
+planning, policy, and
+administration and a master’s
+degree in community <a href="../concepts/mental-health" class="internal alias" data-slug="concepts/mental-health">mental health</a>
+from the University of California,
+Berkeley.
+Karen Adams is
+vice president of
+national priorities
+at the National
+Quality Forum.
+Karen Adams is vice president of
+national priorities at the National
+Quality Forum. She provides
+strategic direction and oversight
+for the National Priorities
+Partnership, a collaborative effort
+of fifty stakeholders from the
+private and public sectors to
+achieve better health and a safe,
+equitable, and value-driven health
+care system.
+Adams has held positions at the
+Institute of Medicine and the
+Commonwealth Fund, where she
+worked on quality and health care
+delivery reform issues. She earned
+a master’s degree in management
+from <a href="../entities/racp" class="internal alias" data-slug="entities/racp">the College</a> of Notre Dame of
+Maryland and a doctorate in public
+policy from the University of
+Maryland Baltimore County.
+Christine Bechtel is
+vice president of
+the National
+Partnership for
+Women and
+Families.
+Christine Bechtel is vice
+president of the National
+Partnership for Women and
+Families, where she is responsible
+for strategic direction and
+oversight of the organization’s
+health care pr</p>
+<p>Families.
+Christine Bechtel is vice
+president of the National
+Partnership for Women and
+Families, where she is responsible
+for strategic direction and
+oversight of the organization’s
+health care programs. Her work
+includes managing projects funded
+by the nation’s largest foundations,
+partnerships with key business
+consortiums, and leading broad-
+based consumer coalitions that
+address issues ranging from
+patient-centered care to health
+information technology to quality
+measurement. Bechtel earned a
+master’s degree in political
+management from the <a href="../entities/george" class="internal alias" data-slug="entities/george">George</a>
+Washington University.
+Jennifer Sweeney
+is director of
+consumer
+engagement and
+community
+outreach at the
+National
+Partnership for
+Women and
+Families.
+Jennifer Sweeney is director of
+consumer engagement and
+community outreach at the
+National Partnership for Women
+and Families. Her responsibilities
+include leading the organization’s
+efforts to advance consumer
+involvement in health care delivery
+reform and to cultivate and sustain
+<a href="../concepts/relationships" class="internal alias" data-slug="concepts/relationships">relationships</a> with national, state,
+and local health care stakeholders,
+funders, and other partners with
+the goal of advancing the practice
+of patient-centered care. She
+earned a master’s degree in
+women’s studies from the George
+Washington University.
+FEBRUARY 2013
+32:2
+Health Affairs
+231</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph features a woman with shoulder - length blonde hair wearing a bright red collared shirt. She is positioned against a plain, light - colored background, suggesting a studio setting. The main colors are the vivid red of her shirt, the blonde of her hair, and the neutral <a href="../concepts/tone" class="internal alias" data-slug="concepts/tone">tone</a> of the backdrop. The image focuses on her upper body and face, presenting a professional portrait <a href="../concepts/style" class="internal alias" data-slug="concepts/style">style</a>.</p>
+</blockquote>
+<p>g. The main colors are the vivid red of her shirt, the blonde of her hair, and the neutral tone of the backdrop. The image focuses on her upper body and face, presenting a professional portrait style.</p>
+<blockquote>
+<p><strong>[Image 2]</strong>: This photograph shows a woman with short brown hair wearing brown-framed glasses and dark earrings. She is positioned against a plain gray background. The main colors in the image are brown, gray, and dark tones from the accessories. The overall setting is simple and neutral, focusing on the subject.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: The photograph features a woman with shoulder - length brown hair and glasses, smiling directly at the camera. She is wearing a dark green top against a plain, light beige background. The main colors in the image are brown, dark green, and beige. This is a simple portrait with no additional elements or distractions.</p>
+</blockquote>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">Patient Engagement</a> — <a href="https://en.wikipedia.org/wiki/Patient_Engagement" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/framework-for-understanding" class="internal alias" data-slug="concepts/framework-for-understanding">Framework For Understanding</a> — <a href="https://en.wikipedia.org/wiki/Framework_For_Understanding" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/family-engagement" class="internal alias" data-slug="concepts/family-engagement">Family Engagement</a> — <a href="https://en.wikipedia.org/wiki/Family_Engagement" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">Population Health</a> — <a href="https://en.wikipedia.org/wiki/Population_Health" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/quality-of-care" class="internal alias" data-slug="concepts/quality-of-care">Quality Of Care</a> — <a href="https://en.wikipedia.org/wiki/Quality_Of_Care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/efficient-care" class="internal alias" data-slug="concepts/efficient-care">Efficient Care</a> — <a href="https://en.wikipedia.org/wiki/Efficient_Care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Patient and Family Centered Care — <a href="https://en.wikipedia.org/wiki/Patient_and_Family_Centered_Care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/emotional-engagement" class="internal alias" data-slug="concepts/emotional-engagement">Patient Activation</a> — <a href="https://en.wikipedia.org/wiki/Patient_Activation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">Health Care Quality</a> — <a href="https://en.wikipedia.org/wiki/Health_Care_Quality" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">Health Care Efficiency</a> — <a href="https://en.wikipedia.org/wiki/Health_Care_Efficiency" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Continuously Learning Health System — <a href="https://en.wikipedia.org/wiki/Continuously_Learning_Health_System" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Organizational Design — <a href="https://en.wikipedia.org/wiki/Organizational_Design" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/governance" class="internal alias" data-slug="concepts/governance">Governance</a> — <a href="https://en.wikipedia.org/wiki/Governance" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Policy Making — <a href="https://en.wikipedia.org/wiki/Policy_Making" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Clinical Consultation — <a href="https://en.wikipedia.org/wiki/Clinical_Consultation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Clinical Partnership — <a href="https://en.wikipedia.org/wiki/Clinical_Partnership" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">Health Care Redesign</a> — <a href="https://en.wikipedia.org/wiki/Health_Care_Redesign" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Engagement Interventions — <a href="https://en.wikipedia.org/wiki/Engagement_Interventions" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Health Policy — <a href="https://en.wikipedia.org/wiki/Health_Policy" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/kristin-l-carman" class="internal alias" data-slug="entities/kristin-l-carman">Kristin L. Carman</a> — <a href="https://en.wikipedia.org/wiki/Kristin_L._Carman" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/pam-dardess" class="internal alias" data-slug="entities/pam-dardess">Pam Dardess</a> — <a href="https://en.wikipedia.org/wiki/Pam_Dardess" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/maureen-maurer" class="internal alias" data-slug="entities/maureen-maurer">Maureen Maurer</a> — <a href="https://en.wikipedia.org/wiki/Maureen_Maurer" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/shoshanna-sofaer" class="internal alias" data-slug="entities/shoshanna-sofaer">Shoshanna Sofaer</a> — <a href="https://en.wikipedia.org/wiki/Shoshanna_Sofaer" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/karen-adams" class="internal alias" data-slug="entities/karen-adams">Karen Adams</a> — <a href="https://en.wikipedia.org/wiki/Karen_Adams" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/christine-bechtel" class="internal alias" data-slug="entities/christine-bechtel">Christine Bechtel</a> — <a href="https://en.wikipedia.org/wiki/Christine_Bechtel" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/jennifer-sweeney" class="internal alias" data-slug="entities/jennifer-sweeney">Jennifer Sweeney</a> — <a href="https://en.wikipedia.org/wiki/Jennifer_Sweeney" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/ey" class="internal alias" data-slug="entities/ey">Ey</a> — <a href="https://en.wikipedia.org/wiki/Ey" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Angela Coulter — <a href="https://en.wikipedia.org/wiki/Angela_Coulter" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>James Conway — <a href="https://en.wikipedia.org/wiki/James_Conway" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Institute for Healthcare Improvement — <a href="https://en.wikipedia.org/wiki/Institute_for_Healthcare_Improvement" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Center for Advancing Health — <a href="https://en.wikipedia.org/wiki/Center_for_Advancing_Health" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Health Affairs — <a href="https://en.wikipedia.org/wiki/Health_Affairs" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9654" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#s-care-vary-consid--erably-angela-coulters-well-known-definition-focuses-on-the-relationship-between-patients-and-health-care-providers-as-they-work-together-to-promote-and-support-active-patient-and-pub--lic-involvement-in-health-and-healthcare-and-to-strengthen-their-influence-on-healthcare-deci--sions-at-both-the-individual-and-collective-levels5-a-model-of-public-engagement-developed-by-james-conway-at-the-institute-for-healthcare-improvement-is-organized-around-the-settings-in-which-patient-engagement-occurs-during-the-care-experience-within-the-microsystem-of-the-clinic-or-ward-within-the-health-care-organiza--tion-and-within-the-larger-community6-and-the-center-for-advancing-healths-engagement-behavior-framework-focuses-on-behavior-defin--ing-engagement-as-actions-people-take-for-their-health-and-to-benefit-from-health-care7-and-pro--viding-a-list-of-patient-initiated-engagement-actions-adding-to-the-confusion-the-term-patient-en--gagement-is-also-used-synonymously-with-patient-activation-and-patient--and-family-centered-care-although-the-concepts-are-related-they-are-not-identical-patient-activationan-individuals-knowledge-skill-and-confidence-for-managing-hisher-own-health-and-health-care8p377is-one-aspect-of-an-individuals-capacity-to-engage-in-that-care-but-this-term-does-not-address-the-individuals-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among" data-for="s-care-vary-consid--erably-angela-coulters-well-known-definition-focuses-on-the-relationship-between-patients-and-health-care-providers-as-they-work-together-to-promote-and-support-active-patient-and-pub--lic-involvement-in-health-and-healthcare-and-to-strengthen-their-influence-on-healthcare-deci--sions-at-both-the-individual-and-collective-levels5-a-model-of-public-engagement-developed-by-james-conway-at-the-institute-for-healthcare-improvement-is-organized-around-the-settings-in-which-patient-engagement-occurs-during-the-care-experience-within-the-microsystem-of-the-clinic-or-ward-within-the-health-care-organiza--tion-and-within-the-larger-community6-and-the-center-for-advancing-healths-engagement-behavior-framework-focuses-on-behavior-defin--ing-engagement-as-actions-people-take-for-their-health-and-to-benefit-from-health-care7-and-pro--viding-a-list-of-patient-initiated-engagement-actions-adding-to-the-confusion-the-term-patient-en--gagement-is-also-used-synonymously-with-patient-activation-and-patient--and-family-centered-care-although-the-concepts-are-related-they-are-not-identical-patient-activationan-individuals-knowledge-skill-and-confidence-for-managing-hisher-own-health-and-health-care8p377is-one-aspect-of-an-individuals-capacity-to-engage-in-that-care-but-this-term-does-not-address-the-individuals-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among">s care vary consid- erably. Angela Coulter’s well-known definition focuses on the relationship between patients and health care providers as they work together to “promote and support active patient and pub- lic involvement in health and healthcare and to strengthen their influence on healthcare deci- sions, at both the individual and collective levels.”5 A model of public engagement developed by James Conway at the Institute for Healthcare Improvement is organized around the settings in which patient engagement occurs: during the care experience, within the microsystem of the clinic or ward, within the health care organiza- tion, and within the larger community.6 And the Center for Advancing Health’s engagement behavior framework focuses on behavior, defin- ing engagement as “actions people take for their health and to benefit from health care”7 and pro- viding a list of patient-initiated engagement actions. Adding to the confusion, the term patient en- gagement is also used synonymously with patient activation and patient- and family-centered care. Although the concepts are related, they are not identical. Patient activation—an “individual’s knowledge, skill, and confidence for managing his/her own health and health care”8(p377)—is one aspect of an individual’s capacity to engage in that care. But this term does not address the individual’s external context, nor does it focus on behavior. “Patient- and family-centered care” is a broader term that conveys a vision for what health care should be: “a partnership among’</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#s-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among" data-for="s-external-context-nor-does-it-focus-on-behavior-patient--and-family-centered-care-is-a-broader-term-that-conveys-a-vision-for-what-health-care-should-be-a-partnership-among">s external context, nor does it focus on behavior. “Patient- and family-centered care” is a broader term that conveys a vision for what health care should be: “a partnership among’</a></li><li class="depth-0"><a href="#page-1-1" data-for="page-1-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-8-1" data-for="page-8-1">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-9-1" data-for="page-9-1">Page 9</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/efficient-care" class="internal">efficient-care</a></li><li><a href="../concepts/family-engagement" class="internal">family-engagement</a></li><li><a href="../concepts/framework-for-understanding" class="internal">framework-for-understanding</a></li><li><a href="../concepts/quality-of-care" class="internal">quality-of-care</a></li><li><a href="../entities/christine-bechtel" class="internal">christine-bechtel</a></li><li><a href="../entities/ey" class="internal">ey</a></li><li><a href="../entities/jennifer-sweeney" class="internal">jennifer-sweeney</a></li><li><a href="../entities/karen-adams" class="internal">karen-adams</a></li><li><a href="../entities/kristin-l-carman" class="internal">kristin-l-carman</a></li><li><a href="../entities/maureen-maurer" class="internal">maureen-maurer</a></li><li><a href="../entities/pam-dardess" class="internal">pam-dardess</a></li><li><a href="../entities/shoshanna-sofaer" class="internal">shoshanna-sofaer</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

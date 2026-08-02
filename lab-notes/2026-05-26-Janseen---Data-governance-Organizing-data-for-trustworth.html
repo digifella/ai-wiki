@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Janseen - Data governance Organizing data for trustworthy Artificial Intelligence · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Janseen - Data governance Organizing data for trustworthy Artificial Intelligence · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Janseen - Data governance Organizing data for trustworthy Artificial Intelligence · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Contents lists available at ScienceDirect’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2015’ authors: [‘Government Information Quarterly’, ‘Marijn Janssena’,..."/><meta property="og:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Contents lists available at ScienceDirect’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2015’ authors: [‘Government Information Quarterly’, ‘Marijn Janssena’,..."/><meta property="og:image:alt" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Contents lists available at ScienceDirect’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2015’ authors: [‘Government Information Quarterly’, ‘Marijn Janssena’,..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Janseen---Data-governance-Organizing-data-for-trustworth"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Janseen---Data-governance-Organizing-data-for-trustworth"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Contents lists available at ScienceDirect’ source_type: ‘Academic’ publisher: ‘Elsevier’ publishing_date: ‘2015’ authors: [‘Government Information Quarterly’, ‘Marijn Janssena’,..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Janseen---Data-governance-Organizing-data-for-trustworth-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Janseen---Data-governance-Organizing-data-for-trustworth-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Janseen---Data-governance-Organizing-data-for-trustworth-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Janseen---Data-governance-Organizing-data-for-trustworth"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19614"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19614" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Janseen   Data governance Organizing data for trustworthy Artificial Intelligence</a></div></nav><h1 class="article-title">Janseen - Data governance Organizing data for trustworthy Artificial Intelligence</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>47 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/tools-platforms-infrastructure">Tools, Platforms &amp; Infrastructure</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<h2 id="preface_schema-10title-contents-lists-available-at-sciencedirectsource_type-academicpublisher-elsevierpublishing_date-2015authors-government-information-quarterly-marijn-janssena-paul-brousa-elsa-estevezb-luis-s-barbosad-tomasz-janowskif-artificial-intelligence-european-councilavailable_at-httpsdoiorg101016jgiq2020101493keywords-big-data-data-governance-ai-algorithmic-governance-information-sharing-artificial-intelligence-trusted-frameworks-a-b-s-t-r-a-c-t-the-rise-of-big-open-and-linked-data-bold-enables-big-data-algorithmic-systems-bdas-which-are-often-based-on-machine-learning-neural-networks-and-other-forms-of-artificial-intelligence-ai-as-such-systems-are-increasingly-requested-to-make-decisions-that-are-consequential-to-individuals-communities-and-society-at-large-their-failures-cannot-be-tolerated-and-they-are-subject-to-stringent-regulatory-and-ethical-requirements-however-they-all-rely-on-data-which-is-not-only-big-open-and-linked-but-variedabstract-contents-lists-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence">preface_schema: ‘1.0’
+title: ‘Contents lists available at ScienceDirect’
+source_type: ‘Academic’
+publisher: ‘Elsevier’
+publishing_date: ‘2015’
+authors: [‘Government Information Quarterly’, ‘Marijn Janssena’, ‘Paul Brousa’, ‘Elsa Estevezb’, ‘Luis S. Barbosad’, ‘Tomasz Janowskif’, ‘<a href="../concepts/ai-technologies" class="internal alias" data-slug="concepts/ai-technologies">Artificial Intelligence</a>’, ‘European Council’]
+available_at: ‘<a href="https://doi.org/10.1016/j.giq.2020.101493" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.giq.2020.101493<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘<a href="../entities/big-data" class="internal alias" data-slug="entities/big-data">big data</a> data <a href="../concepts/governance" class="internal alias" data-slug="concepts/governance">governance</a> ai algorithmic governance information sharing artificial intelligence trusted frameworks a b s t r a c t the rise of big’, ‘open and linked data (bold) enables big data algorithmic systems (bdas) which are often based on machine <a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a>’, ‘neural networks and other forms of artificial intelligence (ai). as such systems are increasingly requested to make decisions that are consequential to individuals’, ‘communities and society at large’, ‘their failures cannot be tolerated’, ‘and they are subject to stringent regulatory and ethical requirements. however’, ‘they all rely on data which is not only big’, ‘open and linked but varied’]
+abstract: ‘Contents lists available at ScienceDirect Government Information Quarterly journal homepage: <a href="http://www.elsevier.com/locate/govinf" class="external" target="_blank" rel="noopener noreferrer">www.elsevier.com/locate/govinf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Data governance: Organizing data for trustworthy Artificial Intelligence’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preface_schema-10title-contents-lists-available-at-sciencedirectsource_type-academicpublisher-elsevierpublishing_date-2015authors-government-information-quarterly-marijn-janssena-paul-brousa-elsa-estevezb-luis-s-barbosad-tomasz-janowskif-artificial-intelligence-european-councilavailable_at-httpsdoiorg101016jgiq2020101493keywords-big-data-data-governance-ai-algorithmic-governance-information-sharing-artificial-intelligence-trusted-frameworks-a-b-s-t-r-a-c-t-the-rise-of-big-open-and-linked-data-bold-enables-big-data-algorithmic-systems-bdas-which-are-often-based-on-machine-learning-neural-networks-and-other-forms-of-artificial-intelligence-ai-as-such-systems-are-increasingly-requested-to-make-decisions-that-are-consequential-to-individuals-communities-and-society-at-large-their-failures-cannot-be-tolerated-and-they-are-subject-to-stringent-regulatory-and-ethical-requirements-however-they-all-rely-on-data-which-is-not-only-big-open-and-linked-but-variedabstract-contents-lists-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="sts-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence">sts available at ScienceDirect Government Information Quarterly journal homepage: <a href="http://www.elsevier.com/locate/govinf" class="external" target="_blank" rel="noopener noreferrer">www.elsevier.com/locate/govinf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Data governance: Organizing data for trustworthy Artificial Intelligence’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sts-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Contents lists available at ScienceDirect
+Government Information Quarterly
+journal homepage: <a href="http://www.elsevier.com/locate/govinf" class="external" target="_blank" rel="noopener noreferrer">www.elsevier.com/locate/govinf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Data governance: Organizing data for trustworthy Artificial Intelligence
+Marijn Janssena,⁎, Paul Brousa, Elsa Estevezb,c, Luis S. Barbosad,e, Tomasz Janowskif,g
+a Faculty of Technology, Policy and Management, Delft University of Technology, the Netherlands
+b Departamento de Ciencias e Ingeniería de la Computación, Universidad Nacional del Sur (UNS), Argentina
+c Instituto de Ciencias e Ingeniería de la Computación UNS-CONICET, Argentina
+d Department of Computer <a href="../concepts/science" class="internal alias" data-slug="concepts/science">Science</a>, University of Minho, Portugal
+e United Nations University Operating Unit on Policy-driven Electronic Governance (UNU-EGOV), Portugal
+f Department of Informatics in Management, Faculty of Management and Economics, Gdańsk University of Technology, Poland
+g Department for e-Governance and Administration, Faculty of Business and Globalization, Danube University Krems, Austria
+A R T I C L E I N F O
+Keywords:
+Big data
+Data governance
+AI
+Algorithmic governance
+Information sharing
+Artificial Intelligence
+Trusted frameworks
+A B S T R A C T
+The rise of Big, Open and Linked Data (BOLD) enables Big Data Algorithmic Systems (BDAS) which are often
+based on machine learning, neural networks and other forms of Artificial Intelligence (AI). As such systems are
+increasingly requested to make decisions that are consequential to individuals, communities and society at large,
+their failures cannot be tolerated, and they are subject to stringent regulatory and ethical requirements.
+However, they all rely on data which is not only big, open and linked but varied, dynamic and streamed at high
+speeds in real-time. Managing such data is challenging. To overcome such challenges and utilize opportuniti</p>
+<p>rely on data which is not only big, open and linked but varied, dynamic and streamed at high
+speeds in real-time. Managing such data is challenging. To overcome such challenges and utilize opportunities
+for BDAS, organizations are increasingly developing advanced data governance capabilities. This paper reviews
+challenges and approaches to data governance for such systems, and proposes a framework for data governance
+for trustworthy BDAS. The framework promotes the stewardship of data, processes and algorithms, the con-
+trolled opening of data and algorithms to enable external scrutiny, trusted information sharing within and be-
+tween organizations, risk-based governance, system-level controls, and data control through shared ownership
+and self-sovereign identities. The framework is based on 13 <a href="../concepts/design" class="internal alias" data-slug="concepts/design">design</a> principles and is proposed incrementally, for
+a single organization and multiple networked organizations.</p>
+<ol>
+<li>Introduction
+Organizations in general, and public sector organizations in parti-
+cular, increasingly collect and use Big and Open Linked Data (BOLD)
+(Janssen, Matheus, &amp; Zuiderwijk, 2015). The rise of BOLD, combined
+with machine learning and other forms of Artificial Intelligence (AI)
+results in the increasing use of Big Data Algorithmic Systems (BDAS).
+Such systems are used to make decisions about: access to affordable
+loans amid the shortage of credit files; matching of skills and jobs to
+promote access to employment; implementing admission to schools
+while helping individuals choose the right school; and mitigating risks
+of disparities in the treatment of individuals by law enforcement while
+helping build trust between the public and law enforcement (Executive
+Office of the President, 2016).
+The use of BDAS for improving and opening government is met with
+a lot of enthusiasm. However, BDAS rely heavily on the use of data
+combined from various sources, some controlled by the organization
+itself, others controlled by partner organizations, yet others controlled</li>
+</ol>
+<p>f enthusiasm. However, BDAS rely heavily on the use of data
+combined from various sources, some controlled by the organization
+itself, others controlled by partner organizations, yet others controlled
+by unknown entities. Without control over such data to ensure quality
+and <a href="../concepts/compliance" class="internal alias" data-slug="concepts/compliance">compliance</a>, BDAS would be too risky to be entrusted with con-
+sequential decisions. Therefore, many organizations are turning to data
+governance as a means to <a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">exercise</a> control over the quality of their data
+and over compliance with relevant legal and ethical requirements in
+order to guarantee the delivery of trustworthy decisions. The concept of
+trustworthiness, which can be directly controlled or indirectly influ-
+enced (Yang &amp; Anguelov, 2013), refers to properties through which a
+trusted entity is serving the interests of the trustor (Levi &amp; Stoker,
+2000). In the situation under study, the trustor (an organization) en-
+trusts its system (BDAS, which itself uses BOLD and AI) in making
+sound decisions.
+Data governance is about allocating <a href="../concepts/power" class="internal alias" data-slug="concepts/power">authority</a> and control over data
+(Brackett &amp; Earley, 2009) and the exercise of such authority through
+decision-making in data-related matters (Plotkin, 2013). To fulfil its
+goals, data governance should focus not just on data, but on the systems
+<a href="https://doi.org/10.1016/j.giq.2020.101493" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.giq.2020.101493<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+⁎ Corresponding author.
+E-mail addresses: <a href="mailto:m.f.w.h.a.janssen@tudelft.nl" class="external">m.f.w.h.a.janssen@tudelft.nl<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (M. Janssen), <a href="mailto:paul.a.brous01@gmail.com" class="external">paul.a.brous01@gmail.com<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (P. Brous), <a href="mailto:ece@cs.uns.edu.ar" class="external">ece@cs.uns.edu.ar<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (E. Estevez),
+<a href="mailto:lsb@di.uminho.pt" class="external">lsb@di.uminho.pt<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (L.S. Barbosa), <a href="mailto:tomasz.janowski@pg.edu.pl" class="external">tomasz.janowski@pg.edu.pl<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (T. Janowski).
+Available online 21 June 2020
+0740-624X/ © 2020 Published by Elsevier Inc.
+T</p>
+<p>.com (P. Brous), <a href="mailto:ece@cs.uns.edu.ar" class="external">ece@cs.uns.edu.ar<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (E. Estevez),
+<a href="mailto:lsb@di.uminho.pt" class="external">lsb@di.uminho.pt<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (L.S. Barbosa), <a href="mailto:tomasz.janowski@pg.edu.pl" class="external">tomasz.janowski@pg.edu.pl<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (T. Janowski).
+Available online 21 June 2020
+0740-624X/ © 2020 Published by Elsevier Inc.
+T</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: This is a <a href="../concepts/black-and-white" class="internal alias" data-slug="concepts/black-and-white">black and white</a> line illustration featuring a large tree with two people standing beneath its branches. A banner with the text “EX LIBRIS” hangs from the tree, and the word “ELSEVIER” appears in orange letters at the bottom. The setting includes foliage and small plants around the tree, creating a natural scene. The main subject is the tree, the two figures, and the branding text.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: The photograph shows the cover of Government Information Quarterly, a journal. The main subject is the title displayed in large white text against a blue gradient background. The setting is a printed publication cover with smaller text and a logo at the top left. The color scheme features various shades of blue and white.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: The photograph features a plain gray square with a smooth gradient from light to dark. The main subject is the square itself, set against no distinct background. The color palette is entirely composed of different shades of gray, creating a minimalist <a href="../concepts/presence" class="internal alias" data-slug="concepts/presence">appearance</a>. There are no other objects or details present in the image.</p>
+</blockquote>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>o distinct background. The color palette is entirely composed of different shades of gray, creating a minimalist appearance. There are no other objects or details present in the image.</p>
+<hr/>
+<h2 id="page-2-1">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>through which data is collected, managed and used. Specifically, people
+are essential in these systems (Benfeldt, Persson, &amp; Madsen, 2020); thus
+data governance should provide incentives and sanctions to stimulate
+desirable behaviour of the persons involved in collecting, managing and
+using data. Beyond a single organization, data governance depends on
+collaboration between organizations and persons that make up the
+system. This multi-organizational context requires trusted frameworks
+to ensure reliable data-sharing between all organizations involved, that
+the right data is securely and reliably shared between participating
+organizations, while complying with General Data Protecting Regula-
+tion (GDPR) (European Parliament and European Council, 2016) and
+other relevant laws and regulations.
+Consistent with this context, we define data governance as:
+Organizations and their personnel defining, applying and monitoring the
+patterns of rules and authorities for directing the proper functioning of,
+and ensuring the <a href="../concepts/accountability" class="internal alias" data-slug="concepts/accountability">accountability</a> for, the entire life-cycle of data and al-
+gorithms within and across organizations.
+This definition takes into account both data and data processing by
+AI and other algorithms, considers that both data and algorithms
+change during their respective life-cycles, accounts for the personnel
+responsible for creating and use of data and algorithms, and adopts a
+systems (multi-organizational) view.
+Data governance is a success factor for BDAS (Brous, Janssen, &amp;
+Krans, 2020) and has an overall positive effect on the performance of
+organizations that apply BDAS (Zhang, Zhao, &amp; Kumar, 2016). The
+<a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">purpose</a> is to increase the value of data and minimize data-related costs
+and risks (Abraham, Schneider, &amp; vom Brocke, J., 2019). Given the
+consequential and repeti</p>
+<p>AS (Zhang, Zhao, &amp; Kumar, 2016). The
+purpose is to increase the value of data and minimize data-related costs
+and risks (Abraham, Schneider, &amp; vom Brocke, J., 2019). Given the
+consequential and repetitive nature of the BDAS decision-making,
+mistakes in data governance that affect the working of such systems can
+have profound legal, financial and social implications on the organi-
+zations involved, citizens and businesses, and society at large. Such
+mistakes can result in systemic bias, unlawful decisions, large financial
+exposures, political crises, lives lost or any combination thereof. In the
+interconnected world, where data is collected by (and about) govern-
+ments, businesses and citizens, and is processed by different entities
+using various algorithms, dependencies grow, mistakes accumulate,
+and accountability is gradually lost in the process.
+The rationale outlined above directly leads to the goal of this article.
+The goal is threefold. First, to define and conceptualize data governance
+for AI-based BDAS. Second, to review the challenges and approaches to
+such governance. Third, to propose the concept of trusted AI-based
+BDAS and a framework for data governance for such systems.
+The rest of the article is structured as follows. Section 2 introduces
+the concept of data governance, followed by data governance for AI-
+based BDAS. Different forms of data governance for AI-based BDAS are
+outlined in Section 3. Section 4 formulates the main proposal: trusted
+AI-based BDAS and a data governance framework for such systems. The
+proposal consists of: system-level governance model of BDAS in Section
+4.1, data stewardship and base registries as the foundation for data
+governance in Section 4.2, and the trusted framework and self-sover-
+eign identities for data sharing in Section 4.3. Finally, essential data
+governance principles are outlined in Section 5.
+2. Data governance
+Data governance has been given scant <a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a> and is often over-
+looked by organizations in their</p>
+<p>ion 4.3. Finally, essential data
+governance principles are outlined in Section 5.
+2. Data governance
+Data governance has been given scant attention and is often over-
+looked by organizations in their efforts to realize BDAS and create Fair,
+Accountable and Transparent (FAT) algorithms. Often the focus is on
+experimenting with AI, but acquiring and preparing data for AI, which
+often consumes most of the time, is given less consideration. However,
+the ubiquitous nature of data, when using large volumes and varieties
+of data from multiple sources, the uncertain impact of data flows on
+data quality, and lack of awareness about the importance of data
+quality, all complicate governance. Data quality consists of many di-
+mensions including <a href="../concepts/accuracy" class="internal alias" data-slug="concepts/accuracy">accuracy</a>, timeliness, completeness, <a href="../concepts/logical-consistency" class="internal alias" data-slug="concepts/logical-consistency">consistency</a>,
+objectivity, believability and relevance, which all determine whether
+data is fit for use (Strong, Lee, &amp; Wang, 1997).
+Data collection and sharing has become easier over the last decade,
+partly due to interoperability solutions. However, interoperability also
+facilitates inaccurate data to flow smoothly across systems and con-
+taminate them in an exponential manner (Dasu, 2013). The same
+technological advancements, with data collected from heterogeneous
+resources, stored in various ways and having different qualities, make
+data types and structures increasingly complex (Dasu, 2013). Besides,
+vast volumes of data complicate entity resolution – identifying the same
+real-world entity like e.g. a person, within a single database (de-du-
+plication) or in multiple databases (record linkage). Furthermore, even
+if accurate data is stored, data glitches may produce inaccuracies over
+time. These glitches originate from changes in the environment, which
+produce discrepancies between the reality and how data capture this
+reality, e.g. after the change of the residential address, the old address
+remains on record. Hence, high levels of information quality are hard to
+achieve.
+While most government or</p>
+<p>data capture this
+reality, e.g. after the change of the residential address, the old address
+remains on record. Hence, high levels of information quality are hard to
+achieve.
+While most government organizations recognize today that data is
+crucial, the creation of a culture which treats data as an asset and which
+helps public servants make data-driven decisions is challenging
+(Benfeldt et al., 2020). While data governance should help lower the
+cost of data management and create value from data, data is often
+fragmented over many organizations which implement different data
+<a href="../concepts/policies" class="internal alias" data-slug="concepts/policies">policies</a>. This can result in unclear responsibility, diffused account-
+ability, and unknown data quality, which, in turn, might undermine the
+fitness-to-use of such data within BDAS.
+BDAS, and the AI algorithms embedded in them, are increasingly
+used to make consequential decisions. However, such decisions may be
+incorrect, and responsibility for this may be challenging to determine.
+Low data quality and unclear dependencies between data and algo-
+rithms can easily bias or skew the outcomes of the AI algorithms.
+Shared roles and joint operations performed among departments and
+organizations may dilute responsibilities. For instance, who is re-
+sponsible when an algorithm provides wrong outputs due to anomalies
+in data collected through multiple sensors? The causal relationship
+between an event and a system failure might be difficult to establish
+without proper data governance.
+While applying BDAS in consequential decision-making is condi-
+tional on data quality, perfect data quality does not exist. On one side,
+data providers can argue that data quality never reaches 100% and
+even include such arguments in data usage agreements. On another, the
+BDAS operators might blame poor data quality for arriving at wrong
+decisions. This raises the challenge of defining and sharing responsi-
+bilities between data providers, algorithms provides and BDAS opera-
+tors as part of data governance, particularly whe</p>
+<p>g at wrong
+decisions. This raises the challenge of defining and sharing responsi-
+bilities between data providers, algorithms provides and BDAS opera-
+tors as part of data governance, particularly when multiple organiza-
+tions
+engage
+in
+such
+governance
+jointly.
+Yet
+there
+is
+limited
+understanding of what constitutes data governance for BDAS in general
+and AI-based BDAS in particular, even less how to carry out system-
+level data governance, between different organizations.
+Terminologically, the terms governing, governance and manage-
+ment are all different. Governance is the organizing logic through
+which the management of data – collection, <a href="../entities/storage" class="internal alias" data-slug="entities/storage">storage</a>, processing, using,
+sharing and destroying – takes place. Governing comprises activities
+conducted to create and execute this logic. These include not only the
+management of data but also decisions made over data: who can make
+such decisions and therefore influence how data is accessed, controlled,
+used and benefited from (Khatri &amp; Brown, 2010), and how data can be
+used (or potentially used) and by whom. The scope of usage decisions is
+essential as they determine what is expected from data governance. In
+any case, designing data governance requires stepping back from the
+daily routine (Khatri &amp; Brown, 2010).
+Conceptually, it transpires that data governance is the exercise of
+authority and control over the management of data (Brackett &amp; Earley,
+2009, p. 19). It can also be viewed as “the exercise of decision making
+and authority for data-related matters. It is a system of decision rights
+2</p>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>gement of data (Brackett &amp; Earley,
+2009, p. 19). It can also be viewed as “the exercise of decision making
+and authority for data-related matters. It is a system of decision rights
+2</p>
+<hr/>
+<h2 id="page-3-1">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>and accountabilities for information-related processes, executed ac-
+cording to the agreed-upon <a href="../concepts/models" class="internal alias" data-slug="concepts/models">models</a> which describe who can take what
+actions with what information, and when, under what circumstances,
+using what methods” (Plotkin, 2013, pp. 1–2). Thus the goals of data
+governance are ensuring the quality and proper use of data, meeting
+compliance requirements, and helping utilize data to create public
+value. Fulfilling these goals requires mechanisms for personal data
+protection, <a href="../concepts/security" class="internal alias" data-slug="concepts/security">security</a>, non-discrimination and equal treatment; covering
+the entire life-cycle from creating, to processing and sharing, to de-
+stroying data; and addressing technical, institutional and social im-
+plications of data sharing. Hence, we define data governance as orga-
+nizations and their personnel defining, applying and monitoring the patterns
+of rules and authorities for directing the proper functioning of, and ensuring
+the accountability for, the entire life-cycle of data and algorithms within and
+across organizations.
+Structurally, data governance is exercised through policies, in-
+centives and sanctions, as needed to create an <a href="../concepts/organizational-culture" class="internal alias" data-slug="concepts/organizational-culture">organizational culture</a>
+where data is treated as an asset, and behaviour that supports or vio-
+lates this treatment is rewarded or sanctioned respectively. Data gov-
+ernance includes: standardizing data – creating <a href="../concepts/metadata" class="internal alias" data-slug="concepts/metadata">metadata</a> to be able to
+integrate datasets and ensure the same interpretation of data; allocating
+relevant procedures and decision authorities to ensure data stewardship
+and data quality; monitoring data usage, e.g. ensuring <a href="../concepts/risk-assessment" class="internal alias" data-slug="concepts/risk-assessment">risk assessment</a>
+before using data to carry out consequential decisions; and monitoring
+such systems as part of the data life-cycle.
+3. Data governance approaches
+A common challenge with data governance is that the data flow and</p>
+<p>data to carry out consequential decisions; and monitoring
+such systems as part of the data life-cycle.
+3. Data governance approaches
+A common challenge with data governance is that the data flow and
+logic may not follow the <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a> of an organization. The mismatch
+between <a href="../concepts/organizational-structure" class="internal alias" data-slug="concepts/organizational-structure">organizational structure</a> and data usage can easily result in
+data silos, duplications, unclear responsibilities, and missing control of
+data over its entire life-cycle. This is particularly the case for BDAS,
+which are typically crossing departmental boundaries, not bound to any
+single function or process, and have to deal with data originating in
+multiple departmental silos. Numerous challenges are arising in this
+scenario. There might be a lack of established mechanisms for data
+governance for dealing with BDAS while involving various organiza-
+tions. Another is ad-hoc handling of data without procedures and pro-
+cesses and secure data infrastructure, which might easily result in in-
+dividual data items being accessible to non-authorized persons.
+Given such challenges, the choice of the data governance approach
+is critical, albeit this choice is not always clear or even explicit (Koltay,
+2016). Three approaches to data governance are planning and control,
+organizational, and risk-based. These approaches are not mutually ex-
+clusive and can be used to complement each other. The three ap-
+proaches are depicted in Fig. 1 and described below. While they are
+typically applied within organizations, they can be also used between
+organizations. Risk-assement, defining responsibilities, and joint plan-
+ning and control can be done between organizations, but require the
+establishment of trusted frameworks.
+The planning and control approach, often used by IT-governance
+frameworks (De Haes, Van Grembergen, &amp; Debreceny, 2013), is based
+on the annual cycle of planning and control. In each cycle, objectives
+are set, budgets are allocated, and projects are defined, implemented,
+monitored and evaluated. Budget</p>
+<p>Debreceny, 2013), is based
+on the annual cycle of planning and control. In each cycle, objectives
+are set, budgets are allocated, and projects are defined, implemented,
+monitored and evaluated. Budgets and other resources are allocated to
+projects and departments for executing activities, subject to set prio-
+rities. In turn, projects and departments must compete. Projects are
+evaluated on their performance and close alignment between business
+and technology goals. Planning can initiate <a href="../concepts/large-scale-infrastructure" class="internal alias" data-slug="concepts/large-scale-infrastructure">infrastructure projects</a>
+aimed at, for example, improving data quality or exploring the potential
+and risks of AI-based BDAS in various application areas. In this ap-
+proach, data governance is carried out through policies and procedures
+that are repeatable, verifiable and auditable. The approach is often
+criticized for not easily adapting to change (Janssen &amp; van der Voort,
+2016). However, <a href="../concepts/continuous-monitoring" class="internal alias" data-slug="concepts/continuous-monitoring">continuous monitoring</a> can help adjust project plans
+and resource allocations on an ongoing basis.
+The organizational approach to data governance emphasizes struc-
+ture, responsibility, accountability and reporting (Mullon &amp; Ngoepe,
+2019). This approach, using the principle of top-level design, sets up
+organizational structures for data governance, and treats data govern-
+ance as a defining authority (Mullon &amp; Ngoepe, 2019). Consistent with
+this principle, the approach recommends setting up decision-making
+structures in the areas of data, AI, <a href="../concepts/privacy" class="internal alias" data-slug="concepts/privacy">privacy</a> or <a href="../concepts/ethics" class="internal alias" data-slug="concepts/ethics">ethics</a>, such as Chief Data
+Officers (CDA), Chief AI Officers (CAIO), Chief Privacy Officers (CPO)
+or Chief Ethics Officers (CEO). Within such structures, it also includes
+the responsibility for data stewardship (Rosenbaum, 2010).
+With the advent of GDPR and AI, the risk-based approach has gained
+attention as a way to identify risks of BDAS and introduce appropriate
+governance mechanisms to address them (Ladley, 2019). This approach
+is often advocated as a foundation for data governance (Rothstein,
+Borraz, &amp; Huber, 2013) and an effective <a href="../concepts/solution" class="internal alias" data-slug="concepts/solution">solution</a> to A</p>
+<p>appropriate
+governance mechanisms to address them (Ladley, 2019). This approach
+is often advocated as a foundation for data governance (Rothstein,
+Borraz, &amp; Huber, 2013) and an effective solution to AI-specific risks
+such as data or algorithmic errors, data or algorithmic bias, or even
+data-embedded discrimination (Janssen &amp; Kuk, 2016). These problems
+arise due to, in large part, sensitive attributes embedded in data sets
+which are used by machine learning algorithms to search for patterns
+(Beretta et al., 2018). Example risks include missing, stolen, outdated,
+inaccurate or biased data. Regular assessment is needed to establish
+such risks and appropriate action undertaken to manage them. Actions
+can be taken incidentally, preventively, or both, depending on the
+governance mechanism. For example, each AI project could be subject
+to a risk audit to anticipate and address the possible undesirable effects
+of the AI algorithms.
+These approaches can be all in place and complement each other.
+Nevertheless, different governance mechanisms should be introduced
+with care, as too much governance can result in excessive overhead and
+Fig. 1. Tripartite approaches to data governance.
+3</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: [Image: <a href="../concepts/computer-vision" class="internal alias" data-slug="concepts/computer-vision">vision</a> model returned empty description]</p>
+</blockquote>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>care, as too much governance can result in excessive overhead and
+Fig. 1. Tripartite approaches to data governance.
+3</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: [Image: vision model returned empty description]</p>
+</blockquote>
+<hr/>
+<h2 id="page-4-1">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>lower performance. Too little governance, however, might result in
+unclear responsibilities, uncontrolled risks and not taking the right
+precautions and actions.
+4. Data governance for trusted BDAS
+This section aims to formulate the main proposal of this article: the
+concept of trusted AI-based BDAS and a framework for data governance
+for such systems. The proposal consists of three elements: system-level
+governance model for BDAS (Section 4.1), data stewardship and based
+registries (Section 4.2), and the trusted data-sharing framework based
+on self-sovereign identities and data-sharing agreements (Section 4.3).
+4.1. System-level controls for BDAS
+AI comes with immense opportunities but also with risks. It may
+violate privacy, discriminate, avoid accountability, manipulate and
+misinform public opinion, and be used for surveillance. For instance, it
+can recognize faces in photos and video streams to help determine
+people’s whereabouts and their behaviour patterns. <a href="../concepts/capabilities" class="internal alias" data-slug="concepts/capabilities">AI capabilities</a>
+generate immense powers, which are dangerous if systems are allowed
+to expand without proper oversight, accountability and governance.
+Data is the basis for BDAS, but the outcomes of BDAS should be mon-
+itored as well, as they are part of the data life-cycle. Therefore, the
+entire BDAS should be subject to effective data governance.
+Data and algorithms can be opened for inspection, although pri-
+marily intended for machine processing. Even if presented in formats
+accessible to people, few will be able to understand them, let alone
+scrutinize. Lacking opportunities for proper public scrutiny, risk as-
+sessment, regular audits, sampling protocols, validity and quality
+checking, clear responsibilities, and other inspection mechanisms are
+needed.
+Fig. 2 depicts a system-level governance model that</p>
+<p>as-
+sessment, regular audits, sampling protocols, validity and quality
+checking, clear responsibilities, and other inspection mechanisms are
+needed.
+Fig. 2 depicts a system-level governance model that enables
+<a href="../concepts/human-cognition" class="internal alias" data-slug="concepts/human-cognition">thinking</a> about data governance within BDAS. As data and AI are in-
+trinsically connected, the model considers them together. The input
+data is shown on the left, the output on the right, and algorithmic
+processing in the middle. The model takes into account how BDAS
+operate with data. Without this, effective governance is not possible.
+BDAS enable automatic decision-making within public institutions.
+However, the decision-making authority is hidden from the user di-
+rectly affected by the outcomes, public officers become merely media-
+tors rather than decision-makers, and automated public services be-
+come “hidden bureaucrat” (Wihlborg, Larsson, &amp; Hedström, 2016).
+Hence, accountability should be designed at the system level. This
+system-level accountability design should cover not only the internal
+working of algorithms, but how their usage is organized, how they are
+fed with data, how the data is controlled, how the outcomes are
+checked, and how the entire system is audited.
+As shown at the top of Fig. 2, systems are guided by regulations, for
+instance, regulations concerning data protection or Freedom of In-
+formation (FOI). Within the regulatory context, policies, principles and
+procedures are formulated. Policies prescribe how users should or
+should not behave concerning data and algorithms, and specifies the
+means of rewarding or sanctioning such behaviours. Principles are
+normative and directive; they determine the organizing logic of data
+governance. The main principles for data governance in BDAS are
+summarized in Section 5. Data governance is based on the expectations
+and values of the society, which is ultimately affected by the outcomes
+of BDAS. The basis for taking these into account is creating a culture
+where data is treated as an asset, whil</p>
+<p>the expectations
+and values of the society, which is ultimately affected by the outcomes
+of BDAS. The basis for taking these into account is creating a culture
+where data is treated as an asset, while regulations and commonly
+accepted public values are guiding data-based decisions. Furthermore,
+the professionals involved in gathering and processing data must ad-
+here to professional norms in their respective areas.
+These expectations and values are translated in the planning and
+control, organizational, or risk-based governace approaches, resulting
+in the assignment of decision-making authority and the establishment
+of processes and procedures. Procedures include the annual planning
+and control cycles, the introduction of independent ethics commitees,
+the regular audits, taking of data samples, etc. Controls and audits
+should be applied to inputs, processes and outputs in the data usage
+processes, which all must be monitored using qualitative and quanti-
+tative measures.
+Fig. 2. System-level governance model of BDAS.
+4</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph is a flowchart illustrating data management processes, integrating regulations, organizational culture, and policies with steps like data quality checks and algorithmic processing. It shows data sources and <a href="../concepts/language-data" class="internal alias" data-slug="concepts/language-data">training data</a> moving through quality assessments, learning checks, and decision-making to interact with societal expectations and citizen <a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a>. The diagram uses yellow for top-level categories, light blue for process steps, and orange for societal elements and user icons.</p>
+</blockquote>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>teract with societal expectations and citizen feedback. The diagram uses yellow for top-level categories, light blue for process steps, and orange for societal elements and user icons.</p>
+<hr/>
+<h2 id="page-5-1">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The bottom left part of Fig. 2 depicts the learning process through
+which the AI algorithm is fed with training data to learn to make de-
+cisions. Most BDAS are based on a type of machine learning algorithms
+that identify patterns in data, which they use for descriptive, predictive
+or prescriptive goals. The risks of training algorithms using historical
+data are that mistakes, inconsistencies and bias embedded in such data
+will be reflected in the working of the algorithms. Another risk area is
+poor generalization of the algorithms to situations outside the data
+upon which they were trained. Hence, oversight should cover both data
+quality issues, including the presence of bias, and the fitness of algo-
+rithms and the data fed into them to the problems they are asked to
+address. Part of the learning process is also checking the validity of the
+results, including the determination of false positives and false nega-
+tives. Although these controls are needed, AI algorithms are often
+opaque, controls alone are insufficient, and additional governance
+mechanisms may be required.
+AI algorithms and their implementations can range from black-box
+to white-box approaches. For the sake of accountability and transpar-
+ency, the causality between inputs and decisions should be explained to
+guarantee the fairness of the results. While people should decide on the
+rules to be able to explain the causality between data, rules and deci-
+sions, AI algorithms can be used to improve upon these rules and derive
+new ones. These requirements suggest that algorithmic processing
+should take a white-box rather than a black-box approach.
+The middle part of Fig. 2 depicts the main elements of the decision-
+making process. In the ideal scenario, this process should adhere to
+compliance-by-design, i.</p>
+<p>box rather than a black-box approach.
+The middle part of Fig. 2 depicts the main elements of the decision-
+making process. In the ideal scenario, this process should adhere to
+compliance-by-design, i.e. BDAS should be designed to comply with all
+relevant norms and regulations. However, this scenario would have to
+guarantee unambiguous <a href="../concepts/data-ownership" class="internal alias" data-slug="concepts/data-ownership">data ownership</a>, monitoring of data sources
+and data quality, controlled adherence to <a href="../concepts/open-standards" class="internal alias" data-slug="concepts/open-standards">standards</a>, and compliance
+with other specific requirements. Various data sources used as inputs
+should be checked for quality, bias and other properties. As changes to
+data may easily result in the wrong outcomes produced by the algo-
+rithms, the closeness of new data to training data should be evaluated.
+Therefore, the changing pattern principle suggests investigating the
+reasons for introducing changes, and any time a change in pattern is
+discovered, the outcomes should be validated again. This can be done
+using samples or comparing the outcomes with previous results or
+manual decisions. Once the results are communicated, the persons in-
+volved should have an opportunity to file appeals. Such appeals can be
+used to scrutinize and further improve the BDAS.
+BDAS are often opaque, and their working is difficult to understand.
+Similarly to opening data to the public for the sake of transparency and
+accountability, the AI algorithms can be opened as well. While most
+people will be unable to make much sense of the algorithms, this would
+allow auditors, experts, scientists, citizen scientists and other profes-
+sionals, equipped with proper tools, to check the working of the algo-
+rithms. However, the opening of algorithms should be done with care as
+it might reveal bugs in the working systems, which could be exploited
+by hackers. Hence, the model assumes that data, algorithms and pro-
+cesses will be opened to controlled groups for scrutiny.
+Data governance contains mechanisms to incentivize correct beha-
+viours and sanction incorrect ones. Whereas misbehavi</p>
+<p>ata, algorithms and pro-
+cesses will be opened to controlled groups for scrutiny.
+Data governance contains mechanisms to incentivize correct beha-
+viours and sanction incorrect ones. Whereas misbehaviour and mistakes
+can be sanctioned, incentives including monetary rewards could be
+offered for uncovering errors, discrimination, bias or other undesirable
+features in data, algorithms acting on such data, and processes gov-
+erning the use of data and algorithms. Such incentives are used in the
+bug bounty programmes that encourage people to spot and report back
+issues with the <a href="../concepts/software" class="internal alias" data-slug="concepts/software">software</a>. However, incentives cannot replace proper
+policing by audit organizations. The more controls are embedded in
+governance processes, the higher auditability and problem detection
+rates, and the more opportunities for learning and improvement.
+Creating sound data governance requires a balance between com-
+plete control, which is unreachable, and lack of control, which is dan-
+gerous, into the mode of governance that is necessary and feasible.
+Risk-based approaches to data governance are suited to maximize the
+value created from data while mitigating risks and reducing costs.
+Controls can play similar preventive and detective roles, guided by
+socio-technical arrangements within the organizations concerned. To
+ensure sound data governance, some organizations appoint Chief Data
+Officers (CDOs) or Chief Algorithmic Officers (CAOs). In <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>,
+others keep it within the remit of Chief Information Officers (CIOs),
+Chief Technology Officers (CTOs) or even Chief Privacy Officers
+(CPOs). The planning and control approach also engages Ethics
+Committees and related bodies to decide about the use of BDAS. Indeed,
+all public servants should be sensitized and trained to take responsi-
+bility for ensuring data quality and proper data sharing.
+4.2. Data stewardship and base registries
+The foundation of data governance is responsible data collection. If
+sensitive data, like gender, race, residential addres</p>
+<p>ta quality and proper data sharing.
+4.2. Data stewardship and base registries
+The foundation of data governance is responsible data collection. If
+sensitive data, like gender, race, residential address, <a href="../concepts/health" class="internal alias" data-slug="concepts/health">health</a> status or
+political preference is collected, then it can be misused or abused. As
+data that is not collected cannot be misused or abused, the collection of
+data should be minimized. Nevertheless, there are numerous situations
+where sensitive data must be collected and shared for the sake of
+transparency, fraud detection, service improvements, or better deci-
+sions. Such data, once collected, must be secured to guard against
+misuse or abuse.
+The ownership of data is often challenging to establish, and multiple
+persons might claim the rights to it. An analogy is the ownership of the
+electricity used in a household, which could be assigned to the house
+owner, the person currently renting the house, the utility company that
+provides the electricity, or the government that taxes electricity usage.
+Furthermore, in law, tangible goods are more natural to own than in-
+tangible ones, like data which can be shared without limits. In the case
+of data, the notion of stewardship is preferred over ownership. It draws
+attention to the provision of trusted and authentic data, to responsible
+data use and sharing, and to the presence of multiple stewards taking
+care of similar data. Data stewardship is a team effort where respon-
+sibilities and expertise are divided among members, who can manage
+data on behalf of others.
+Data stewards should ensure responsible information sharing.
+Plotkin (2013) view data stewardship as a way to formalize account-
+abilities for managing information resources on behalf of and in the best
+interest of others. Dawes (2010) formulated the stewardship and use-
+fulness principles for information sharing: stewardship should assure
+data quality, validity and security; manage risks; manage and preserve
+data; and make public officials and organizations re</p>
+<p>d use-
+fulness principles for information sharing: stewardship should assure
+data quality, validity and security; manage risks; manage and preserve
+data; and make public officials and organizations responsible for
+handling information with care and <a href="../concepts/integrity" class="internal alias" data-slug="concepts/integrity">integrity</a>. Others emphasize that
+stewards are also responsible for information security (Cuganesan,
+Hart, &amp; Steele, 2017). The usefulness principle should ensure that data
+can be used for <a href="../concepts/innovation" class="internal alias" data-slug="concepts/innovation">innovation</a>; in particular for BDAS. Dawes (2010) fur-
+ther argued that stewardship and usefulness are complementary prin-
+ciples and should guide information-based transparency. In contrast,
+achieving both information usefulness and effective stewardship over
+information can be competing (Cuganesan et al., 2017). The steward-
+ship principle might deal with information sharing risks by withholding
+that information and thus reducing transparency and accountability.
+The other way around, the usefulness principes could result in data
+protection being violated by data stewards.
+From an operational perspective, data should be managed by one
+organization or department and used by other organizations or de-
+partments. When collecting data, data stewards should follow the
+principle of collecting data at the source (Hammer, 1990) and separ-
+ating sensitive and non-sensitive data (Janssen, Matheus, Longo, &amp;
+Weerakkody, 2017). The data can be stored in a base registry, which
+according to the European Commission (2017, p. 37), is “a trusted and
+authoritative source of information which can and should be digitally
+re-used by others, where one organization is responsible and accoun-
+table for the collection, use, updating and <a href="../concepts/preservation" class="internal alias" data-slug="concepts/preservation">preservation</a> of information”.
+When other organizations spot incorrect data, then they should report
+5</p>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>anization is responsible and accoun-
+table for the collection, use, updating and preservation of information”.
+When other organizations spot incorrect data, then they should report
+5</p>
+<hr/>
+<h2 id="page-6-1">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>this to the data steward who is in charge of the base registry, and wait
+for a response of the steward before using this data. The steward will
+investigate the issue with the correctness of data and, if needed, update
+the data and inform the reporting organization, that subsequently can
+start using this data.
+Even if data is pooled and linked at the conceptual level, physical sto-
+rage and responsibility for data should be distributed to reduce vulner-
+ability. Pooling and linking should ensure that data is interrelated and can
+easily be combined, if needed. However, governance mechanisms should
+ensure that data can only be shared if the right conditions, like authoriza-
+tion by multiple persons or approval by the data protection officer, are met.
+When information cannot be shared with another department to avoid
+violating regulations or due to the <a href="../concepts/conflict" class="internal alias" data-slug="concepts/conflict">conflict</a> of interest, we use the intra-
+organizational information barrier called the Chinese wall. A leading prin-
+ciple is to minimize the number of persons having access to data – if
+somebody does not need to access the data, such access should not be
+granted. To avoid the situation of a single entity exercising control over data
+without others’ consent, distributed responsibilities and separation of con-
+cerns make systems less vulnerable.
+Data stewardship and base registries provide a foundation for data
+and information sharing. However, mechanisms are needed to ensure
+responsible data sharing, allowing data sharing when required, but also
+blocking data sharing when necessary. For this, trusted data sharing
+frameworks are required.
+4.3. Trusted data sharing framework
+BDAS often depend on data sources external to the organization,
+which can be easily manipulated or misused. Hence, data and algo-
+rithms should not be i</p>
+<p>e required.
+4.3. Trusted data sharing framework
+BDAS often depend on data sources external to the organization,
+which can be easily manipulated or misused. Hence, data and algo-
+rithms should not be indiscriminately shared with every organization,
+and organizations should not have <a href="../concepts/information-access" class="internal alias" data-slug="concepts/information-access">access to information</a> which they do
+not need. For a single organization, these types of decisions are made
+within the framework of data governance. However, as BDAS often
+depend on data sources that are external to the organization, there is a
+need to extend such data governance to cover multiple organizations.
+This extension relies on trusted data sharing frameworks, or trusted
+frameworks for short, that guide data exchange within and between
+participating organizations while ensuring compliance with regulations
+and the realization of public value.
+Trusted frameworks should ensure that the right data is shared, that
+such sharing is carried out securely and reliably, and that the sharing
+complies with the regulations like GDPR (European Parliament and
+European Council, 2016). Trusted frameworks limit access to data to
+those who are authorized, and ensure non-repudiation of the data
+origin. A non-repudiation service provides a recipient with the proof of
+origin, which constitutes a legally-valid evidence that a particular
+person or organization provided the data.
+Trusted frameworks are a standard mechanism for governing relation-
+ships and are used in payment systems, in domain registration systems, or in
+mobile networks to provide roaming services. In information sharing, tra-
+ditional trusted third parties (TTPs) that use certificates to provide non-re-
+pudiation services, are being replaced with <a href="../concepts/distributed-ledger" class="internal alias" data-slug="concepts/distributed-ledger">distributed ledger</a> or blockchain
+technology (DLT) (Dunphy &amp; Petitcolas, 2018; Ølnes, Ubacht, &amp; Janssen,
+2017). As DLT ensures decentralized execution, avoiding the creation of a
+single point of failure or misuse, they are less vulnerable. Nevertheless, such
+a decentralized information sharing sy</p>
+<p>anssen,
+2017). As DLT ensures decentralized execution, avoiding the creation of a
+single point of failure or misuse, they are less vulnerable. Nevertheless, such
+a decentralized information sharing system needs to be guided by proper
+governance mechanisms.
+Trusted frameworks need to provide identification, <a href="../concepts/authentication" class="internal alias" data-slug="concepts/authentication">authentication</a>
+and <a href="../concepts/authorization" class="internal alias" data-slug="concepts/authorization">authorization</a> services. Identification refers to a person or organi-
+zation claiming to have a particular identity. Authentication makes sure
+that the identified person or organization are what they claim to be; it
+verifies the claim made by the identifying party. Authorization happens
+when a person or an organization has been identified and granted ac-
+cess to data, specifying what they can do with this data. This also results
+in non-repudiation, that the data origin cannot be disputed.
+Increasingly, trusted frameworks which are based on agreements
+among participating parties are used for data sharing and service pro-
+vision. The agreements refer to a collaboration of various public and
+private parties to share data or provide services on topics, such as
+identification and authentication, part of the efforts to ensure inter-
+operability and compliance, for instance with GDPR. A trusted frame-
+work contains several elements to regulate data sharing or other types
+of services, which may include:
+• a list of requirements for trusted data sharing;
+• a set of standards for realizing trusted data sharing;
+• a collection of contracts and agreements for trusted data sharing;
+• an authorization scheme who should have access to which data
+under what circumstances;
+• a certification mechanism to record adherence of different parties to
+the rules;
+• an auditing mechanism to verify compliance with requirements,
+agreements, contracts; and
+• a mechanism to enforce compliance with the rules and agreements.
+These elements should cover the entire data life cycle and should be
+adaptable to changing circumstances. For instance, a trusted framework
+sh</p>
+<p>nism to enforce compliance with the rules and agreements.
+These elements should cover the entire data life cycle and should be
+adaptable to changing circumstances. For instance, a trusted framework
+should ensure that personal information is only shared when given
+consent to do so, that only defined parties can have access to specified
+data, that a variety of public and private organizations can legitimately
+gain access to such data, etc.
+Data sharing should be based on the ‘need to know’ principle. A
+minimum amount of data should be shared and only for specified
+purposes. For example, when a service requests information if a person
+is eligible for voting, her age should not be shared, but only whether or
+not she is 18. The same applies to other types of information, such as
+birth certificates, diplomas, social security, tax services and others.
+Instead of providing detailed personal information, an answer should be
+submitted to a specific question. This reduces the chances of using the
+data for unrelated purposes.
+Critical aspects of data governance are identity and trusted data
+sharing, which are not part of the standard Internet infrastructure.
+Therefore organizations collect and store identity information such as
+name, gender, age, profession and others to be able to identify persons.
+This results in fragmented data landscape where such information is
+stored in many places. This raises security risks for identity information
+to be stolen, privacy risks with handling personal information, and <a href="../concepts/data-conceptsintegrityintegrity" class="internal alias" data-slug="concepts/data-conceptsintegrityintegrity">data
+integrity</a> risks as data might not be consistent with each other and the
+states of the real world. Therefore, this data should be treated as an
+asset that can be re-used by other organizations using secure and reli-
+able storage and sharing services. Organizations or users can control the
+data. The first situation entails organizations defining base registries
+using data stewardship. The second involves users exercising Self-
+Sovereign Identity (SSI). SSI provides con</p>
+<p>s can control the
+data. The first situation entails organizations defining base registries
+using data stewardship. The second involves users exercising Self-
+Sovereign Identity (SSI). SSI provides control over and ownership of
+data to citizens, who can give consent to share such data with others.
+Interoperability is created to be able to share data based on commonly
+agreed standards specified by the trusted framework.
+The data-sharing governed by trusted frameworks should adhere to
+the informing principle. When the government shares data about a par-
+ticular person or organization, this person or organization should be
+made aware of this to avoid misuse and verify the correctness of such
+data. Then, when the data is hacked or shared for illegitimate purposes,
+this is immediately revelated. Furthermore, access to their own data not
+only results in transparency but also empowers citizens and organiza-
+tions to be in control of their data, including data about themselves.
+However, this also requires agreements to regulate access, openness and
+inclusion.
+5. Essential data governance principles
+Although the foundation of trustworthy BDAS is sound data gov-
+ernance, this area is often overlooked. Data governance for BDAS is a
+6</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>nclusion.
+5. Essential data governance principles
+Although the foundation of trustworthy BDAS is sound data gov-
+ernance, this area is often overlooked. Data governance for BDAS is a
+6</p>
+<hr/>
+<h2 id="page-7-1">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>complex field, and the development of BDAS without due attention to
+data governance is a significant risk. Data governance can be viewed as
+organizations and their personnel defining, applying and monitoring
+the patterns of rules and authorities for directing the proper functioning
+of, and ensuring the accountability for, the entire life-cycle of data and
+algorithms within and across organizations. Data governance can help
+mitigate the issues of transparency, accountability, fairness, dis-
+crimination, and trust. Available approaches to data governance can be
+based on clear organizational structures, responsibilities and account-
+abilities, planning and control cycles, and risks. The latter is particu-
+larly relevant. BDAS face the risks of violating the privacy, using data
+for undesired purposes, allowing bias or discrimination in data to in-
+form algorithmic decisions, making wrong decisions, and so on.
+Although greater transparency into the inner workings of algorithms is
+necessary, it is insufficient for effective oversight. For that, system-level
+governance is needed. Organizations and their personnel need to work
+in concert to carry out effective data governance. Apart from socio-
+technical measures focused on controls and safeguards, an organiza-
+tional culture that promotes awareness and ethical value of data and
+algorithms is part of data governance.
+Table 1 provides an overview of the 12 main data governance
+principles that are discussed in this article. Although these principles
+might at first appear simple, they are challenging to realize. There are
+hardly any good practices for successful adoption and application of
+data governance for BDAS. Scarce research exists about trusted fra-
+meworks and SSIs, and there is no consensus yet about how they should
+be</p>
+<p>good practices for successful adoption and application of
+data governance for BDAS. Scarce research exists about trusted fra-
+meworks and SSIs, and there is no consensus yet about how they should
+be realized in BDAS. Adhering to these principles will help improve
+data governance and contribute to trustworthy BDAS. However, there is
+a need for technologies like base registries and self-sovereign identities
+to make trustworthy BDAS work. The realization of data governance in
+multi-organizational settings will also require the use of trusted data-
+sharing frameworks to guide inter-organizational data exchange, and
+ensure compliance with regulations as well as the creation of public
+value. While the foundation of BDAS data governance is responsible
+data collection, citizens’ control of data, and data stewardship, this new
+research field has to continue advancing before it creates a solid re-
+search foundation for trusted BDAS.
+References
+Executive Office of the President (2016). Big data: A report on algorithmic systems, oppor-
+tunity, and civil rights. Executive Office of the President.
+Abraham, R., Schneider, J., &amp; vom Brocke, J. (2019). Data governance: A conceptual
+framework, structured review, and research agenda. International Journal of
+Information Management, 49, 424–438. <a href="https://doi.org/10.1016/j.ijinfomgt.2019.07" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.ijinfomgt.2019.07<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+008.
+Benfeldt, O., Persson, J. S., &amp; Madsen, S. (2020). Data governance as a collective action
+problem. Information Systems Frontiers, 22(2), 299–313. <a href="https://doi.org/10.1007/" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+s10796-019-09923-z.
+Beretta, E., Vetrò, A., Lepri, B., &amp; De Martin, J. C. (2018). Ethical and socially-aware data
+labels. Paper presented at the Annual International Symposium on Information
+Management and Big Data. .
+Brackett, M., &amp; Earley, P. S. (2009). The DAMA guide to the data management body of
+knowledge (DAMA-DMBOK guide).
+Brous, P., Janssen, M., &amp; Krans, R. (2020). Data governance as success factor for data sci-
+ence. Responsible Design, <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">Implementation</a> and Use of</p>
+<p>e data management body of
+knowledge (DAMA-DMBOK guide).
+Brous, P., Janssen, M., &amp; Krans, R. (2020). Data governance as success factor for data sci-
+ence. Responsible Design, Implementation and Use of Information and Communication
+Technology: 19th IFIP WG 6.11 Conference on e-Business, e-Services, and e-Society, I3E
+2020, Skukuza, South Africa, April 6–8, 2020, Proceedings, Part I, 12066. 431–442.
+<a href="https://doi.org/10.1007/978-3-030-44999-5_36" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-3-030-44999-5_36<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+Cuganesan, S., Hart, A., &amp; Steele, C. (2017). Managing information sharing and stew-
+ardship for public-sector collaboration: A management control approach. Public
+Management Review, 19(6), 862–879.
+Dasu, T. (2013). Data glitches: Monsters in your data. In S. Sadiq (Ed.). Handbook of data
+quality: Research and practice (pp. 163–178). Berlin, Heidelberg: Springer Berlin
+Heidelberg.
+Dawes, S. S. (2010). Stewardship and usefulness: Policy principles for information-based
+transparency. Government Information Quarterly, 27(4), 377–383.
+De Haes, S., Van Grembergen, W., &amp; Debreceny, R. S. (2013). COBIT 5 and enterprise
+governance of information technology: Building blocks and research opportunities.
+Journal of Information Systems, 27(1), 307–324.
+Dunphy, P., &amp; Petitcolas, F. A. (2018). A first look at identity management schemes on the
+blockchain. IEEE Security &amp; Privacy, 16(4), 20–29.
+European Commission (2017). New European Interoperability Framework - Promoting
+seamless services and data flows for European public administrations. Retrieved from
+<a href="https://ec.europa.eu/isa2/sites/isa/files/eif_brochure_final.pdf" class="external" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/isa2/sites/isa/files/eif_brochure_final.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+Hammer, M. (1990). Reengineering work: don’t automate, obliterate. Harvard Business
+Review, 68(4), 104–112.
+Janssen, M., &amp; Kuk, G. (2016). The challenges and limits of big data algorithms in
+technocratic governance. Government Information Quarterly, 33(3), 371–377. https://
+doi.org/10.1016/j.giq.2016.08.011.
+Janssen, M., Matheus, R., Longo, J., &amp; Weerakkody, V. (2017). Transparency-by-design as a
+foundation</p>
+<p>e. Government Information Quarterly, 33(3), 371–377. https://
+doi.org/10.1016/j.giq.2016.08.011.
+Janssen, M., Matheus, R., Longo, J., &amp; Weerakkody, V. (2017). Transparency-by-design as a
+foundation for open government. Transforming Government: People, Process and
+Policy.
+Janssen, M., Matheus, R., &amp; Zuiderwijk, A. (2015). Big and open linked data (BOLD) to
+create smart cities and citizens: Insights from smart energy and mobility cases. In E.
+Tambouris, M. Janssen, H. J. Scholl, M. A. Wimmer, K. Tarabanis, M. Gascó, … P.
+Parycek (Vol. Eds.), Electronic Government. 9248. Electronic Government (pp. 79–90).
+Springer International Publishing.
+Janssen, M., &amp; van der Voort, H. (2016). Adaptive governance: Towards a stable, ac-
+countable and responsive government. Government Information Quarterly, 33(1), 1–5.
+<a href="https://doi.org/10.1016/j.giq.2016.02.003" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.giq.2016.02.003<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+Khatri, V., &amp; Brown, C. V. (2010). Designing data governance. Communications of the
+ACM, 63(1), 148–152.
+Koltay, T. (2016). Data governance, data literacy and the management of data quality.
+IFLA Journal, 42(4), 303–312.
+Ladley, J. (2019). Data governance: How to design, deploy, and sustain an effective data
+governance program. Academic Press.
+Levi, M., &amp; Stoker, L. (2000). Political trust and trustworthiness. Annual Review of Political
+Science, 3(1), 475–507.
+Mullon, P. A., &amp; Ngoepe, M. (2019). An integrated framework to elevate information
+governance to a national level in South Africa. Records Management Journal, 29(1/2),
+103–116.
+Ølnes, S., Ubacht, J., &amp; Janssen, M. (2017). Blockchain in government: Benefits and
+implications of <a href="../concepts/wallet" class="internal alias" data-slug="concepts/wallet">distributed ledger technology</a> for information sharing. Government
+Information Quarterly, 34(3), 355–364. <a href="https://doi.org/10.1016/j.giq.2017.09.007" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.giq.2017.09.007<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+European Parliament and European Council (2016). <a href="../concepts/regulation" class="internal alias" data-slug="concepts/regulation">Regulation</a> (EU) 2016/679 of the
+European Parliament and of the council of 27 April 2016 on the protection of natural
+persons with regard to the processing of personal data and on the fre</p>
+<p>uncil (2016). Regulation (EU) 2016/679 of the
+European Parliament and of the council of 27 April 2016 on the protection of natural
+persons with regard to the processing of personal data and on the free movement of
+such data, and repealing directive 95/46. Official Journal of the <a href="../entities/eu" class="internal alias" data-slug="entities/eu">European Union</a>,
+59(1–88), 294.
+Plotkin, D. (2013). Data stewardship: An actionable guide to effective data management and
+data governance: Newnes.
+Table 1
+Overview of data governance principles.
+Name
+Description</p>
+<ol>
+<li>Evaluate data quality and bias
+When data is used by BDAS, its quality, and possible embedded bias should be evaluated.</li>
+<li>Detect changing patterns
+When the outcomes of the algorithms change, their validity should be checked, and the reasons for such changes investigated.</li>
+<li>Need to know
+Minimize the amount of data that is shared by only sharing what is necessary, e.g. answers to questions instead of complete datasets.</li>
+<li>Bug bounty
+Rewards could be used to encourage people to spot errors and issues and report them back.</li>
+<li>Inform when sharing
+When governments share data about a person or an organization, these entities should be informed to ensure transparency and avoid
+misuse.</li>
+<li>Data separation
+Separate personal from non-personal data, and sensitive from non-sensitive data (Janssen et al., 2017).</li>
+<li>Citizens control of data
+Empower citizens and organizations to be in control and check the accuracy of their data.</li>
+<li>Collecting data at the source
+Collect data at the source to ensure its correctness and to know how such data is collected (Hammer, 1990).</li>
+<li>Minimize authorization to access data
+If a party does not need data, access should not be granted.</li>
+<li>Distributed storage of data
+Distributed systems are less vulnerable and avoid easily combining data without permission.</li>
+<li>Data stewards
+Assign data stewards to formalize accountability for managing information resources while adhering to the principle of the <a href="../concepts/separation-of-concerns" class="internal alias" data-slug="concepts/separation-of-concerns">separation
+of concerns</a> (Dawes, 2010).</li>
+<li>Separations of concerns
+R</li>
+</ol>
+<p>stewards
+Assign data stewards to formalize accountability for managing information resources while adhering to the principle of the separation
+of concerns (Dawes, 2010).
+12. Separations of concerns
+Responsibilities for data should be distributed in such a way that no single person can misuse or abuse data.
+13. Usefulness
+Data should be recognized as a valuable asset that can be used by BDAS (Dawes, 2010).
+7</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Rothstein, H., Borraz, O., &amp; Huber, M. (2013). Risk and the limits of governance:
+Exploring varied patterns of risk-based governance across Europe. Regulation &amp;
+Governance, 7(2), 215–235. <a href="https://doi.org/10.1111/j.1748-5991.2012.01153.x" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/j.1748-5991.2012.01153.x<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+Strong, D. M., Lee, Y. W., &amp; Wang, R. Y. (1997). Data quality in context. Communications
+of the ACM, 40(5), 103–110.
+Wihlborg, E., Larsson, H., &amp; Hedström, K. (2016). “The Computer Says No!”–A Case Study
+on <a href="../concepts/decision-making" class="internal alias" data-slug="concepts/decision-making">Automated Decision-Making</a> in Public Authorities. Paper presented at the 2016 49th
+Hawaii International Conference on System Sciences (HICSS).
+Yang, K., &amp; Anguelov, L. G. (2013). Trustworthiness of public service. Public
+Administration Reformation (pp. 73–89). Routledge.
+Marijn Janssen is a full Professor in ICT &amp; Governance and head of the Information and
+Communication Technology (ICT) research group of the Technology, Policy and
+Management (TPM) Faculty of Delft University of Technology.
+Paul Brous is researcher at the Information and Communication Technology (ICT)
+research group of the Technology, Policy and Management (TPM) Faculty of Delft
+University of Technology.
+Elsa Estevez is the Chair holder of the UNESCO Chair on Knowledge Societies and Digital
+Governance at Universidad Nacional del Sur, Independent Researcher at the Consejo
+Nacional de Investigaciones Científicas y Técnicas (CONICET), and full professor at
+Universidad Nacional de La Plata, all in Argentina.
+Luís Soares Barbosa is the deputy head of UNU-EGOV and full professor at the
+Department of Informatics at the University of Minho.</p>
+<p>ull professor at
+Universidad Nacional de La Plata, all in Argentina.
+Luís Soares Barbosa is the deputy head of UNU-EGOV and full professor at the
+Department of Informatics at the University of Minho.
+Tomasz Janowski is head of the Department of Informatics in Management at the
+Faculty of Economics and Management, Gdańsk University of Technology, Poland and
+invited professor at the Department for E-Governance and Administration, Faculty of
+Business and Globalization, Danube University Krems, Austria.
+8</p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/data-management" class="internal alias" data-slug="concepts/data-management">Data Governance</a> — <a href="https://en.wikipedia.org/wiki/Data_Governance" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/trusted-frameworks" class="internal alias" data-slug="concepts/trusted-frameworks">Artificial Intelligence</a> — <a href="https://en.wikipedia.org/wiki/Artificial_Intelligence" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/big-data" class="internal alias" data-slug="concepts/big-data">Big Data</a> — <a href="https://en.wikipedia.org/wiki/Big_Data" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/thinking-processes" class="internal alias" data-slug="concepts/thinking-processes">Algorithmic Governance</a> — <a href="https://en.wikipedia.org/wiki/Algorithmic_Governance" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/trusted-frameworks" class="internal alias" data-slug="concepts/trusted-frameworks">Trusted Frameworks</a> — <a href="https://en.wikipedia.org/wiki/Trusted_Frameworks" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Big Data Algorithmic Systems — <a href="https://en.wikipedia.org/wiki/Big_Data_Algorithmic_Systems" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/machine-learning" class="internal alias" data-slug="concepts/machine-learning">Machine Learning</a> — <a href="https://en.wikipedia.org/wiki/Machine_Learning" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/neural-networks" class="internal alias" data-slug="concepts/neural-networks">Neural Networks</a> — <a href="https://en.wikipedia.org/wiki/Neural_Networks" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Open and Linked Data — <a href="https://en.wikipedia.org/wiki/Open_and_Linked_Data" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/communication" class="internal alias" data-slug="concepts/communication">Information Sharing</a> — <a href="https://en.wikipedia.org/wiki/Information_Sharing" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Data Stewardship — <a href="https://en.wikipedia.org/wiki/Data_Stewardship" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Risk-based Governance — <a href="https://en.wikipedia.org/wiki/Risk-based_Governance" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Regulatory Requirements — <a href="https://en.wikipedia.org/wiki/Regulatory_Requirements" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Ethical Requirements — <a href="https://en.wikipedia.org/wiki/Ethical_Requirements" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>System-level Controls — <a href="https://en.wikipedia.org/wiki/System-level_Controls" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>External Scrutiny — <a href="https://en.wikipedia.org/wiki/External_Scrutiny" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/janseen" class="internal alias" data-slug="entities/janseen">Janseen</a> — <a href="https://en.wikipedia.org/wiki/Janseen" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/european-council" class="internal alias" data-slug="entities/european-council">European Council</a> — <a href="https://en.wikipedia.org/wiki/European_Council" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/marijn-janssen" class="internal alias" data-slug="entities/marijn-janssen">Marijn Janssen</a> — <a href="https://en.wikipedia.org/wiki/Marijn_Janssen" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/paul-brousa" class="internal alias" data-slug="entities/paul-brousa">Paul Brousa</a> — <a href="https://en.wikipedia.org/wiki/Paul_Brousa" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/elsa-estevez" class="internal alias" data-slug="entities/elsa-estevez">Elsa Estevez</a> — <a href="https://en.wikipedia.org/wiki/Elsa_Estevez" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Luis S. Barbosa — <a href="https://en.wikipedia.org/wiki/Luis_S._Barbosa" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/tomasz-janowski" class="internal alias" data-slug="entities/tomasz-janowski">Tomasz Janowski</a> — <a href="https://en.wikipedia.org/wiki/Tomasz_Janowski" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Delft University of Technology — <a href="https://en.wikipedia.org/wiki/Delft_University_of_Technology" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Universidad Nacional del Sur — <a href="https://en.wikipedia.org/wiki/Universidad_Nacional_del_Sur" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>University of Minho — <a href="https://en.wikipedia.org/wiki/University_of_Minho" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>UNU-EGOV — <a href="https://en.wikipedia.org/wiki/UNU-EGOV" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Gdańsk University of Technology — <a href="https://en.wikipedia.org/wiki/Gda%C5%84sk_University_of_Technology" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Danube University Krems — <a href="https://en.wikipedia.org/wiki/Danube_University_Krems" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Elsevier — <a href="https://en.wikipedia.org/wiki/Elsevier" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9683" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#preface_schema-10title-contents-lists-available-at-sciencedirectsource_type-academicpublisher-elsevierpublishing_date-2015authors-government-information-quarterly-marijn-janssena-paul-brousa-elsa-estevezb-luis-s-barbosad-tomasz-janowskif-artificial-intelligence-european-councilavailable_at-httpsdoiorg101016jgiq2020101493keywords-big-data-data-governance-ai-algorithmic-governance-information-sharing-artificial-intelligence-trusted-frameworks-a-b-s-t-r-a-c-t-the-rise-of-big-open-and-linked-data-bold-enables-big-data-algorithmic-systems-bdas-which-are-often-based-on-machine-learning-neural-networks-and-other-forms-of-artificial-intelligence-ai-as-such-systems-are-increasingly-requested-to-make-decisions-that-are-consequential-to-individuals-communities-and-society-at-large-their-failures-cannot-be-tolerated-and-they-are-subject-to-stringent-regulatory-and-ethical-requirements-however-they-all-rely-on-data-which-is-not-only-big-open-and-linked-but-variedabstract-contents-lists-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence" data-for="preface_schema-10title-contents-lists-available-at-sciencedirectsource_type-academicpublisher-elsevierpublishing_date-2015authors-government-information-quarterly-marijn-janssena-paul-brousa-elsa-estevezb-luis-s-barbosad-tomasz-janowskif-artificial-intelligence-european-councilavailable_at-httpsdoiorg101016jgiq2020101493keywords-big-data-data-governance-ai-algorithmic-governance-information-sharing-artificial-intelligence-trusted-frameworks-a-b-s-t-r-a-c-t-the-rise-of-big-open-and-linked-data-bold-enables-big-data-algorithmic-systems-bdas-which-are-often-based-on-machine-learning-neural-networks-and-other-forms-of-artificial-intelligence-ai-as-such-systems-are-increasingly-requested-to-make-decisions-that-are-consequential-to-individuals-communities-and-society-at-large-their-failures-cannot-be-tolerated-and-they-are-subject-to-stringent-regulatory-and-ethical-requirements-however-they-all-rely-on-data-which-is-not-only-big-open-and-linked-but-variedabstract-contents-lists-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence">preface_schema: ‘1.0’
+title: ‘Contents lists available at ScienceDirect’
+source_type: ‘Academic’
+publisher: ‘Elsevier’
+publishing_date: ‘2015’
+authors: [‘Government Information Quarterly’, ‘Marijn Janssena’, ‘Paul Brousa’, ‘Elsa Estevezb’, ‘Luis S. Barbosad’, ‘Tomasz Janowskif’, ‘Artificial Intelligence’, ‘European Council’]
+available_at: ‘https://doi.org/10.1016/j.giq.2020.101493’
+keywords: [‘big data data governance ai algorithmic governance information sharing artificial intelligence trusted frameworks a b s t r a c t the rise of big’, ‘open and linked data (bold) enables big data algorithmic systems (bdas) which are often based on machine learning’, ‘neural networks and other forms of artificial intelligence (ai). as such systems are increasingly requested to make decisions that are consequential to individuals’, ‘communities and society at large’, ‘their failures cannot be tolerated’, ‘and they are subject to stringent regulatory and ethical requirements. however’, ‘they all rely on data which is not only big’, ‘open and linked but varied’]
+abstract: ‘Contents lists available at ScienceDirect Government Information Quarterly journal homepage: www.elsevier.com/locate/govinf Data governance: Organizing data for trustworthy Artificial Intelligence’</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#sts-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence" data-for="sts-available-at-sciencedirect-government-information-quarterly-journal-homepage-wwwelseviercomlocategovinf-data-governance-organizing-data-for-trustworthy-artificial-intelligence">sts available at ScienceDirect Government Information Quarterly journal homepage: www.elsevier.com/locate/govinf Data governance: Organizing data for trustworthy Artificial Intelligence’</a></li><li class="depth-0"><a href="#page-1-1" data-for="page-1-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-2-1" data-for="page-2-1">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-3-1" data-for="page-3-1">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-4-1" data-for="page-4-1">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-5-1" data-for="page-5-1">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-6-1" data-for="page-6-1">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-7-1" data-for="page-7-1">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/big-data" class="internal">big-data</a></li><li><a href="../concepts/trusted-frameworks" class="internal">trusted-frameworks</a></li><li><a href="../entities/elsa-estevez" class="internal">elsa-estevez</a></li><li><a href="../entities/european-council" class="internal">european-council</a></li><li><a href="../entities/janseen" class="internal">janseen</a></li><li><a href="../entities/marijn-janssen" class="internal">marijn-janssen</a></li><li><a href="../entities/paul-brousa" class="internal">paul-brousa</a></li><li><a href="../entities/tomasz-janowski" class="internal">tomasz-janowski</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

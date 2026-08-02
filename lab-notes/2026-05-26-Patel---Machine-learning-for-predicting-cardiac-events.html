@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Patel - Machine learning for predicting cardiac events · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Patel - Machine learning for predicting cardiac events · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Patel - Machine learning for predicting cardiac events · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘elucidating statistical inferences at the population level using representative sampling."/><meta property="og:description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘elucidating statistical inferences at the population level using representative sampling."/><meta property="og:image:alt" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘elucidating statistical inferences at the population level using representative sampling."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Patel---Machine-learning-for-predicting-cardiac-events"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Patel---Machine-learning-for-predicting-cardiac-events"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=ai-agents name=AI &amp; Agents preface_schema: ‘1.0’ title: ‘elucidating statistical inferences at the population level using representative sampling."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Patel---Machine-learning-for-predicting-cardiac-events-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Patel---Machine-learning-for-predicting-cardiac-events-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Patel---Machine-learning-for-predicting-cardiac-events-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Patel---Machine-learning-for-predicting-cardiac-events"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19651"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19651" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Patel   Machine learning for predicting cardiac events</a></div></nav><h1 class="article-title">Patel - Machine learning for predicting cardiac events</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>44 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/ai-agents">AI &amp; Agents</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<p>preface_schema: ‘1.0’
+title: ‘elucidating statistical inferences at the population level using representative sampling. With’
+source_type: ‘Academic’
+publisher: ‘Ieee’
+publishing_date: ‘2016’
+authors: [‘Brijesh Patel’, ‘Partho Sengupta’]
+available_at: ‘<a href="https://doi.org/10.1080/14779072.2020.1732208" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/14779072.2020.1732208<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘machine <a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a>’, ‘cardiovascular events’, ‘prediction’, ‘<a href="../concepts/ai-technologies" class="internal alias" data-slug="concepts/ai-technologies">artificial intelligence</a> 1. introduction cardiovascular diseases (cvd) accounted for nearly 900’, ‘000 deaths in 2016 in the us alone [1]’, ‘and it is well known that the cvd burden will rise because of the aging population. researchers have created prediction models from existing data to identify individuals who are at risk for cardiovascular events using statistical methods. statistical analysis is heavily dependent on data sampling methods’, ‘their <a href="../concepts/distribution" class="internal alias" data-slug="concepts/distribution">distribution</a>’, ‘and the types of tests used before elucidating statistical inferences at the population level using representative sampling. with <a href="../entities/contact" class="internal alias" data-slug="entities/contact">contact</a> partho sengupta <a href="mailto:partho.sengupta@hsc.wvu.edu" class="external">partho.sengupta@hsc.wvu.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> heart and vascular institute’]
+abstract: ‘Introduction: With the increase in the number of patients with cardiovascular diseases, better risk-prediction models for cardiovascular events are needed. Statistical-based risk-prediction models for cardiovascular events (CVEs) are available, but they lack the ability to predict individual-level risk. Machine learning (ML) methods are especially equipped to handle complex data and provide accurate risk-prediction models at the individual level. Areas covered: In this review, the authors summarize the literature comparing the performance of machine learning methods to that of traditional, statistical-based models in predicting CVEs. They provide a brief <a href="../concepts/summary" class="internal alias" data-slug="concepts/summary">summary</a> of ML methods and then discuss risk-prediction models for CVEs such as major adverse cardiovascular events, heart failure and arrhythmias. Expert opinion: Current evidence supports the superiority of ML methods over statistical-based models in predicting CVEs</p>
+<h2 id="ves-such-as-major-adverse-cardiovascular-events-heart-failure-and-arrhythmias-expert-opinion-current-evidence-supports-the-superiority-of-ml-methods-over-statistical-based-models-in-predicting-cves-statistical-models-are-applicable-at-the-population-level-and-are-subject-to-over-fitting-while-ml-methods-can-provide-an-individualized-risk-level-for-cves-further-prospective-research-on-ml-guided-treatments-to-prevent-cves-is-needed">VEs such as major adverse cardiovascular events, heart failure and arrhythmias. Expert opinion: Current evidence supports the superiority of ML methods over statistical-based models in predicting CVEs. Statistical models are applicable at the population level and are subject to over-fitting, while ML methods can provide an individualized risk level for CVEs. Further prospective research on ML-guided treatments to prevent CVEs is needed.‘<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ves-such-as-major-adverse-cardiovascular-events-heart-failure-and-arrhythmias-expert-opinion-current-evidence-supports-the-superiority-of-ml-methods-over-statistical-based-models-in-predicting-cves-statistical-models-are-applicable-at-the-population-level-and-are-subject-to-over-fitting-while-ml-methods-can-provide-an-individualized-risk-level-for-cves-further-prospective-research-on-ml-guided-treatments-to-prevent-cves-is-needed" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Machine learning for predicting cardiac events: what does the
+future hold?
+Brijesh Patel, Partho Sengupta
+Heart and Vascular Institute, West Virginia University, Morgantown, WV, USA
+Abstract
+Introduction: With the increase in the number of patients with cardiovascular diseases, better
+risk-prediction models for cardiovascular events are needed. Statistical-based risk-prediction
+models for cardiovascular events (CVEs) are available, but they lack the ability to predict
+individual-level risk. Machine learning (ML) methods are especially equipped to handle complex
+data and provide accurate risk-prediction models at the individual level.
+Areas covered: In this review, the authors summarize the literature comparing the performance
+of machine learning methods to that of traditional, statistical-based models in predicting CVEs.
+They provide a brief summary of ML methods and then discuss risk-prediction models for CVEs
+such as major adverse cardiovascular events, heart failure and arrhythmias.
+Expert opinion: Current evidence supports the superiority of ML methods over statistical-based
+models in predicting CVEs. Statistical models are applicable at the population level and are
+subject to over-fitting, while ML methods can provide an individualized risk level for CVEs.
+Further prospective research on ML-guided treatments to prevent CVEs is needed.
+Keywords
+Machine Learning; cardiovascular events; prediction; artificial intelligence</p>
+<ol>
+<li>Introduction
+Cardiovascular diseases (CVD) accounted for nearly 900,000 deaths in 2016 in th</li>
+</ol>
+<p>nt CVEs is needed.
+Keywords
+Machine Learning; cardiovascular events; prediction; artificial intelligence</p>
+<ol>
+<li>Introduction
+Cardiovascular diseases (CVD) accounted for nearly 900,000 deaths in 2016 in the US alone
+[1], and it is well known that the CVD burden will rise because of the aging population.
+Researchers have created prediction models from existing data to identify individuals who
+are at risk for cardiovascular events using statistical methods. Statistical analysis is heavily
+dependent on data sampling methods, their distribution, and the types of tests used before
+elucidating statistical inferences at the population level using representative sampling. With
+CONTACT Partho Sengupta <a href="mailto:Partho.sengupta@hsc.wvu.edu" class="external">Partho.sengupta@hsc.wvu.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Heart and Vascular Institute, West Virginia University, 1 Medical Center
+Drive, Morgantown, WV 26505, USA.
+Declaration of interest
+P Sengupta is an advisor to HeartSciences, Ultromics Ltd. And Kencor Health and has received stock options from all three entities.
+The authors have no other relevant affiliations or financial involvement with any organization or entity with a financial interest in or
+financial <a href="../concepts/conflict" class="internal alias" data-slug="concepts/conflict">conflict</a> with the subject matter or materials discussed in the manuscript apart from those disclosed.
+Reviewer disclosures
+Peer reviewers on this manuscript have no relevant financial or other <a href="../concepts/relationships" class="internal alias" data-slug="concepts/relationships">relationships</a> to disclose.
+HHS Public Access
+Author manuscript
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.
+Published in final edited form as:
+Expert Rev Cardiovasc Ther. 2020 February ; 18(2): 77–84. doi:10.1080/14779072.2020.1732208.</li>
+</ol>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the logo of the Department of Health &amp; Human Services USA. It features a circular emblem with the department’s name in blue text surrounding a blue graphic of three stylized human figures. The main subject is the official logo, set against a plain background, and the primary color used throughout is blue.</p>
+</blockquote>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>e text surrounding a blue graphic of three stylized human figures. The main subject is the official logo, set against a plain background, and the primary color used throughout is blue.</p>
+<hr/>
+<h2 id="page-2-1">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>machine learning (ML), it is possible to make individual-level predictions about
+cardiovascular diseases and events. ML is a form of artificial intelligence (AI) that uses
+complex algorithms and does not require any assumption about the sample or population –
+unlike statistical methods. Statistical methods are useful for drawing inferences, while ML
+methods are better suited to make predictions [2]. ML can aid clinicians in providing
+individualized predictions and tailoring treatment plans for their patients.
+In this article, we will succinctly discuss how machine learning works, followed by a review
+of how machine learning has been utilized to predict cardiovascular events such as major
+adverse cardiovascular events, heart failure and arrhythmias. We will also focus on how
+various machine learning algorithms <a href="../concepts/feynmans-three-step-scientific-method" class="internal alias" data-slug="concepts/feynmans-three-step-scientific-method">compare</a> to existing statistical-based models for
+predicting cardiovascular events.
+2. Machine learning
+The concept of artificial intelligence emerged around 1950 s. One of the seminal papers
+published by Alan Turing about “<a href="../concepts/machine-intelligence" class="internal alias" data-slug="concepts/machine-intelligence">Can machines think?</a> in 1950 created a platform for future
+work for computer scientists [3]. Over the next few decades, the field suffered from ‘AI
+winter’ before its revival and tremendous growth in algorithms and technology. There are
+many ML algorithms exist, however, a simplest form of ML algorithm we know is logistic
+regression. But, its inability to process data as an ML algorithm may limit its utilization on
+<a href="../concepts/big-data" class="internal alias" data-slug="concepts/big-data">big data</a> and in complex data analysis. There are three approaches through which the
+‘machine’ can be trained: (1) supervised learning, (2) <a href="../concepts/unsupervised-learning" class="internal alias" data-slug="concepts/unsupervised-learning">unsupervised learning</a>, and (3)
+<a href="../concepts/reinforcement-learning" class="internal alias" data-slug="concepts/reinforcement-learning">reinforcement learning</a> [4]. In supervised learning, the input datasets and desired outcomes
+are labeled. For example, let us say that we would like the ma</p>
+<p>learning, (2) unsupervised learning, and (3)
+reinforcement learning [4]. In supervised learning, the input datasets and desired outcomes
+are labeled. For example, let us say that we would like the machine to identify cases of heart
+failure. First, we train it with known (labeled) variables, such as biomarkers, imaging and
+clinical exam findings that are associated with the outcome (heart failure). In unsupervised
+learning, data points (biomarkers, imaging and clinical assessment findings) are entered into
+the algorithm, and we ask the machine to identify patterns or clusters within the population
+without a prespecified outcome. In this case, the algorithm is not asked to identify heart
+failure patients; rather, it creates clusters of variables that are closely related to heart failure.
+Neither of these approaches involves any <a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a> mechanism. In reinforcement learning,
+the algorithm is challenged to reanalyze the data and optimize the predictive model based on
+feedback given for falsely identified cases. For example, crackles could be present in
+patients without heart failure. Patients without heart failure can have crackles, and they are
+relabeled as non-heart failure cases. The machine ‘relearns’ that the presence of crackles
+does not equate to heart failure. Thus, we can say that reinforcement learning is a hybrid
+form of supervised and unsupervised learning. Supervised learning is the most common
+method used in ML. Figure 1 summarizes the steps taken to create a predictive model using
+ML.
+Patel and Sengupta
+Page 2
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ML. Figure 1 summarizes the steps taken to create a predictive model using
+ML.
+Patel and Sengupta
+Page 2
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-3-1">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="3">
+<li>Predicting cardiovascular events
+In the remainder of the paper, we will discuss specific cardiovascular events than can be
+predicted by ML and how it has performed in comparison to statistical methods in the recent
+literature (Figure 2). We have summarized the information and major points in Table 1.
+3.1. Major adverse cardiovascular events and myocardial infarction
+Ischemic heart disease accounts for more than 9 million deaths globally, with a downward
+trend in mortality in Western countries. This phenomenon is attributed to advanced therapy
+and a strong emphasis on <a href="../concepts/preventive-care" class="internal alias" data-slug="concepts/preventive-care">prevention</a> [5]. It is essential to identify high-risk patients with
+readily available and pragmatic predictive models.
+Simple EKG-based predictive models using <a href="../concepts/neural-networks" class="internal alias" data-slug="concepts/neural-networks">neural networks</a> have been used to detect
+myocardial infarction with an <a href="../concepts/accuracy" class="internal alias" data-slug="concepts/accuracy">accuracy</a> of more than 95% [6]. The availability of electronic
+health records and the incorporation of data from various cardiac imaging modalities allow
+us to create better predictive models. Prior studies have focused on regression-based models
+such as the Framingham risk score (FRS), thrombolysis in myocardial infarction (TIMI) and
+the Global Registry of Acute Coronary Events (GRACE) for <a href="../concepts/risk-assessment" class="internal alias" data-slug="concepts/risk-assessment">risk assessment</a> of initial, short-
+term and long-term major adverse cardiovascular events (MACE), respectively [7–10].
+However, regression-based models do not address the complex interactions between clinical
+variables existing in the studies. ML can reveal complex interactions among variables and
+provide accurate, predictive models for future outcomes.
+To predict outcomes after myocardial infarction, various machine learning algorithms have
+been tested for their predictive ability [11]. Using the Hungarian Myocardial Infarction
+Registry, researchers studied 47,391 patients who were hospi</li>
+</ol>
+<p>farction, various machine learning algorithms have
+been tested for their predictive ability [11]. Using the Hungarian Myocardial Infarction
+Registry, researchers studied 47,391 patients who were hospitalized for acute myocardial
+infarction. They compared the relative performance of decision tree, <a href="../concepts/neural-network" class="internal alias" data-slug="concepts/neural-network">neural network</a> and
+logistic regression models for short-term (30-day) and long-term (1-year) mortality post-
+myocardial infarction. The decision tree, neural network and logistic regression models had
+areas under the receiver operating characteristic curves (AUCs) of 0.788, 0.837 and 0.834
+for 30-day mortality and 0.754, 0.819 and 0.819 for 1-year mortality, respectively. Although
+the neural network was not superior to logistic regression, it was significantly superior to the
+decision tree model in this study. Another registry-based (KAMIR: Korea Acute Myocardial
+Infarction Registry) ML model was superior to regression-based models in predicting
+outcomes up to one year post-myocardial infarction [12]. More than 14,000 acute
+myocardial infarction patients were included in the registry. The primary goal was to predict
+MACE using 51 variables, such as demographic information, clinical presentation variables
+and other variables. For this project, three ML algorithms, a deep neural network (DNN), a
+generalized linear model (GLM) and a gradient-boosting model (GBM) were developed, and
+the accuracy of traditional regression-based GRACE model was also tested. For the 1-, 6-,
+and 12-month follow-ups, the AUCs for predicting MACE were as follows: 0.97, 0.94, and
+0.96 for the DNN; 0.96, 0.95, and 0.96 for the GBM; 0.76, 0.67, and 0.72 for the GLM; and
+0.75, 0.72 and 0.76 for GRACE, respectively. In fact, the DNN had a > 95% accuracy for the
+prediction of MACE, and thus, ML far outperformed the regression-based GRACE model.
+Patel and Sengupta
+Page 3
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>iction of MACE, and thus, ML far outperformed the regression-based GRACE model.
+Patel and Sengupta
+Page 3
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-4-1">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Nevertheless, in an Israeli study, ML-derived models did not outperform GRACE [13]. The
+study included 2,782 patients and 54 variables. The objective of this study was to predict 30-
+day mortality after ST-elevation myocardial infarction. Six different ML models were
+compared, along with GRACE and TIMI. The GRACE risk score outperformed that of
+TIMI, but the ML models were not superior to GRACE. Interestingly, the performance of
+the algorithm plateaued with 15 variables, which means that only certain variables are
+necessary to predict such outcomes; creatinine level, Killip class on admission, blood
+pressure, glucose and age were among the important predictors.
+Patients with angina or its equivalent symptoms often undergo stress <a href="../concepts/testing" class="internal alias" data-slug="concepts/testing">testing</a>. In nuclear
+cardiology, ML has shown improved detection of myocardial ischemia [14]. It is possible to
+combine clinical variables and stress test data to predict cardiovascular outcomes. Betancur
+and colleagues studied 2,619 consecutive patients who underwent <a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">exercise</a> or pharmacologic
+stress myocardial perfusion imaging (MPI) [15]. The goal was to study the combined value
+of MPI and clinical variables to predict 3-year MACE, including nonfatal myocardial
+infarction. As expected, the combined ML model predicted with better accuracy than the
+imaging ML model (AUC 0.81 vs. 0.78, respectively, p &lt; 0.01). While there is value in
+incorporating MPI data, better predicting models are needed to identify short- and long-term
+MACE.
+Computer computed tomography angiography (CCTA) has been studied to predict long-term
+outcomes. CCTA is an invaluable tool in both diagnosing and excluding coronary artery
+disease [16]. Data from the CONFIRM registry [17] was used to predict 5-year all-cause
+mortality by combining 44 CCTA variables and 25 clinical vari</p>
+<p>ol in both diagnosing and excluding coronary artery
+disease [16]. Data from the CONFIRM registry [17] was used to predict 5-year all-cause
+mortality by combining 44 CCTA variables and 25 clinical variables [18]. The study
+included more than 10,000 patients with suspected coronary artery disease and had at least 5
+years of follow-up data. They utilized the iterative LogitBoost algorithm, which is an
+ensemble boosting algorithm. Compared to FRS (AUC: 0.61) as well other CCTA-based risk
+models [segment stenosis score (AUC: 0.64), segment involvement score (AUC: 0.64)], the
+ML model combining CCTA and clinical variables (AUC: 0.79) was far better in predicting
+5-year all-cause mortality.
+With ML, it is possible to predict MACE. A large-scale, registry-based analysis in the
+<a href="../entities/uk" class="internal alias" data-slug="entities/uk">United Kingdom</a> has shown the superiority of ML-based <a href="../concepts/predictive-modeling" class="internal alias" data-slug="concepts/predictive-modeling">predictive modeling</a> [19,20].
+Similar analyses using US registries are needed. The accuracy of models heavily relies on
+the selected algorithm, clinical variables and heterogeneity of the population. Based on the
+available data, ML methods seem to perform better when combining clinical variables with
+cardiac imaging modalities.
+3.2. Heart failure
+Acute heart failure (AHF) leads to more than one million hospital admissions representing 1
+to 2% of all hospitalizations. The condition has been associated with morbidity and
+mortality as well as financial burden. Nearly 26 million patients worldwide carry a diagnosis
+of heart failure [21]. The overall survival rate from heart failure has improved with improved
+diagnostic tools and new drug therapies, but 2–17% of individuals admitted with heart
+failure die while hospitalized [21,22]. Risk models (GWTG-HF, MAGGIC, ADHERE,
+LAPS2, EFFECT, Premier) to identify individuals at high risk for mortality have been
+Patel and Sengupta
+Page 4
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>, EFFECT, Premier) to identify individuals at high risk for mortality have been
+Patel and Sengupta
+Page 4
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-5-1">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>developed for inpatient and outpatient settings [23]. These models require commonly
+collected variables in typical heart failure patients. However, the complexity of inter-variable
+interactions are not be well defined with statistical methods used to create these predictive
+models.
+Traditional mortality models for heart failure patients were compared to <a href="../concepts/artificial-intelligence-models" class="internal alias" data-slug="concepts/artificial-intelligence-models">machine learning
+models</a> in a Korean study [24]. The source of data was hospitalized patients at two Korean
+hospitals (test data set) and the KorAHF registry [25] (validation dataset). They analyzed
+more than 8,000 patients for testing and validation purposes. When the GWTG-HF and
+MAGGIC risk models were compared to ML models to predict in-hospital, 12- and 36-
+month mortality in AHF patients, the ML models significantly outperformed the other two
+models. The AUCs for in-hospital mortality were 0.88 [deep learning (DL) algorithm] and
+0.73 for the ML and GWTG-HF models, respectively. Similarly, the AUCs for 12-month and
+36-month mortality were 0.78 and 0.81 (deep learning) and 0.72 and 0.73 (MAGGIC score),
+respectively. In fact, the deep learning algorithm also outperformed the random forest,
+support vector machine, Bayesian network and logistic regression models for all three time
+points.
+Machine learning is also able to predict HF better than the Cox-based method in diabetic
+patients [26]. Data from ACCORD (Action to Control Cardiovascular Risk in Diabetes) and
+ALLHAT (Anti-hypertensive and Lipid-lowering Treatment to Prevent Heart Attack Trial)
+were analyzed to compare a random survival forest (RSF) model and the Cox-based method
+for HF events (death or hospitalization). The RSF model had a better AUC of 0.77 vs. 0.73
+for the Cox-based model. Using the best predictors from the RSF algorithm, the WATCH-
+DM model was cr</p>
+<p>d method
+for HF events (death or hospitalization). The RSF model had a better AUC of 0.77 vs. 0.73
+for the Cox-based model. Using the best predictors from the RSF algorithm, the WATCH-
+DM model was created. Weight, age, hypertension, creatinine, high-<a href="../concepts/density" class="internal alias" data-slug="concepts/density">density</a> lipoprotein level,
+QRS duration, myocardial infarction and coronary artery bypass surgery were the prediction
+variables in the model. An increase of 1 unit was associated with a 24% increased risk of
+HF.
+In the most recent analysis of TOPCAT (Treatment of Preserved Cardiac Function Heart
+Failure with an Aldosterone Antagonist), Angraal and colleagues demonstrated that ML had
+a better predictive ability than logistic regression for HF-related hospitalization or mortality
+[27]. Among the studied algorithms (logistic regression, gradient boosting, random forest
+and support vector machine), the random forest model had the best predictive ability, with
+AUCs of 0.72 and 0.76 for mortality and HF hospitalizations over 3 years of follow-up,
+respectively. The analysis also showed that blood urea nitrogen (BUN) and alkaline
+phosphatase levels, Kansas City Cardiomyopathy Questionnaire (KCCQ) score and body
+mass index were the best predictors for mortality, while hemoglobin and BUN levels, KCCQ
+score and previous HF-related admissions were the best predictors for HF hospitalizations
+over 3 years of follow-up.
+Readmission is another issue burdening our <a href="../concepts/health-sector" class="internal alias" data-slug="concepts/health-sector">healthcare system</a>. The Hospital Readmission
+Reduction Program was intended to reduce hospital admissions for certain conditions,
+including heart failure. Despite its best efforts, readmission rates for heart failure-related
+readmission remain approximately 20% nationwide. Several studies have tried to identify
+high-risk patients, and a better prediction model is still needed. Mortazavi and colleagues
+Patel and Sengupta
+Page 5
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>tients, and a better prediction model is still needed. Mortazavi and colleagues
+Patel and Sengupta
+Page 5
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-6-1">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>used data from Tele-HF to compare a <a href="../concepts/machine-learning-model" class="internal alias" data-slug="concepts/machine-learning-model">machine learning model</a> to a logistic regression model
+to predict heart failure-related readmissions [28]. They analyzed the 30-day post-discharge
+readmission data from 1,001 patients. The majority of patients had a left ventricle ejection
+fraction &lt;40%. The ML-based algorithms had better C-statistics (AUCs) than the logistic
+regression model. The random forest algorithm (vs. logistic regression) had the highest C-
+statistic of 0.68 (vs. 0.54) for readmission at 30 days.
+Additional supporting data to predict 30-day HF readmission risk using ML (vs. traditional
+models) comes from a retrospective analysis of 11,510 patients (out of 27,334 admissions)
+[29]. Among the logistic regression, gradient boosting, deep unified network (DUN) and
+max-out network models, the DUN model was the best prediction model for 30-day risk of
+readmission, with an AUC of 0.71 vs. 0.66 for logistic regression. A similar finding was also
+observed in another study, in which ML-based algorithms (deep neural network and random
+forest models) outperformed logistic regression models for the 30-day risk of readmission
+[30].
+To predict post-discharge outcomes (readmissions and deaths), enhanced machine learning,
+multilayer perceptron (MLP) technique is even superior to traditional ML or regression-
+based modeling. In MLP, there is input, hidden and output layers. All input layers directly
+connect to nodes in the hidden layer(s), which also receive output from the output layer(s).
+This creates a higher level of non-linear transformation for learning. Using the Western
+Australia Data Linkage System, Awan and colleagues studied a cohort of 10,757 patients,
+among whom 23.6% were readmitted or died within 30 days of the index discharge [31].
+They created a multilayer perc</p>
+<p>tralia Data Linkage System, Awan and colleagues studied a cohort of 10,757 patients,
+among whom 23.6% were readmitted or died within 30 days of the index discharge [31].
+They created a multilayer perception (MLP) model, which is a model derived from a neural
+network. They also formed models using other ML algorithms used in the other studies
+described above. The MLP model has the best AUC (0.63) vs. 0.55 for the LR model or 0.53
+for the weighted random forest model. The MLP model had an improved sensitivity (48%)
+compared to the other models. This study highlighted intra-ML model variability to predict
+post-HF discharge outcomes. It is important to consider various ML algorithms before
+creating a final predictive model.
+For HF patients, machine learning algorithms are superior to conventional statistical-based
+models for predicting HF-related readmissions and mortality in multiple studies. However,
+data on model-based <a href="../concepts/decision-making" class="internal alias" data-slug="concepts/decision-making">decision making</a> and interventions to avert readmissions or improve
+outcomes are not well defined.
+3.3. Arrhythmia
+The dynamic and transient nature of arrhythmias make them unpredictable in a clinical
+setting. Limited epidemiologic data have shown that the worldwide burden of arrhythmia
+and sudden cardiac death is rising. This phenomenon is probably due to better detection
+methods, an aging population and an increased incidence of risk factors [32]. While there
+are tools available to detect arrhythmias as they are occurring, predictive tools for
+arrhythmia before the onset are lacking.
+Atrial fibrillation (AF) is well known to be independently associated with thromboembolic
+events such as stroke [33]. In the SMART (The Stroke and Monitoring for PAF in Real
+Patel and Sengupta
+Page 6
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ts such as stroke [33]. In the SMART (The Stroke and Monitoring for PAF in Real
+Patel and Sengupta
+Page 6
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-7-1">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Time) study, AF was detected in 1 out of 9 cryptogenic stroke patients with a 30-day event
+monitor [34]. This finding means that AF can be transient and clinically unknown unless
+patients are monitored for a long time. However, the goal should be to identify patients who
+are likely to develop AF so that they are promptly treated. With this question in mind, a large
+study involving 180,000 patients in normal sinus rhythm (SR) was carried out by Attia and
+colleagues [35]. The authors developed a convolutional neural network (CNN) using AI-
+enabled EKGs to predict AF in patients in sinus rhythm. For this study, both AF and atrial
+flutter (AFL) were labeled as AF. More than 450,000 EKGs from 126,526 patients, 64,340
+EKGs from 18,116 patients, and 130,802 EKGs from 36,280 patients were used for <a href="../concepts/training" class="internal alias" data-slug="concepts/training">training</a>,
+internal validation and testing, respectively. The model predicted AF from a single EKG
+with an area under the curve (AUC) of 0.89(0.86–.88) and 0.90 (0.90–0.91) when the EKGs
+with the highest risk score were used. The sensitivity and specificity of the model were 79%
+and 79.5%, respectively. Since AF affects many individuals and such data can <a href="../concepts/power" class="internal alias" data-slug="concepts/power">influence</a>
+treatment, validation using an external dataset and optimization of the model is necessary.
+EKG signals have been studied to predict sudden cardiac death (SCD). Heart rate variability
+(HRV) was studied by Ebrahimzadeh and colleagues using various ML algorithms to predict
+SCDs [36]. In this study, the authors analyzed EKGs from 70 patients (35 who had
+experienced SCD and 35 healthy subjects) with a sampling rate of 256 Hz. They found that
+the two-minute interval before an SCD can be prognostically important to identify high-risk
+patients. The multilayer perceptron (MLP) neural network showed superiority to the k-
+nearest</p>
+<p>hey found that
+the two-minute interval before an SCD can be prognostically important to identify high-risk
+patients. The multilayer perceptron (MLP) neural network showed superiority to the k-
+nearest neighbor (k-NN) algorithm. The MLP model had an 84% SCD prediction rate of vs.
+81.5% for the k-NN model 4 minutes before the event. EKG signals and various ratios
+calculated from EKG, such as the timing of the T-wave relative to the QT interval, have been
+shown to predict SCDs by means of ML-based models with greater than 97% accuracy (the
+maximum accuracy for the random forest model was 99.49%) [37].
+More than 200,000 in-hospital cardiac arrest events occur in US hospitals [38]. For <a href="../concepts/secondary-prevention" class="internal alias" data-slug="concepts/secondary-prevention">early
+detection</a>, at-risk patients are admitted to hospitals, but accurate prediction is essential to
+divert appropriate resources to these patients. Using only blood pressure, heart and
+respiratory rates and body temperature, Kwon and colleagues developed deep and machine
+learning models to predict in-hospital cardiac arrest [39]. The DL-based early warning
+system outperformed the Modified Early Warning Score (MEWS) significantly (AUC of
+0.85 vs. 0.60). Random forest and LR models were also better than MEWS with AUCs of
+0.78 and 0.61, respectively. Importantly, the DL- and ML-based algorithms reduced the
+number of early warnings without compromising sensitivity. In essence, DL and ML models
+predicted cardiac arrest significantly better than the currently adopted MEWS. Likewise, ML
+has been used to accurately predict out-of-hospital cardiac arrest via data obtained from
+emergency calls with medical dispatchers [40].
+Heart failure (HF) patients are susceptible to fatal arrhythmias and sudden cardiac deaths
+(SCDs). Implantable cardioverter defibrillators (ICDs) are associated with a greater than
+50% risk reduction in SCD in selected patients [41]. Patients with reduced systolic function
+(≤ 35%) are susceptible to fatal ventricular arrhythmias and can benefit from an ICD. A
+study was designe</p>
+<p>50% risk reduction in SCD in selected patients [41]. Patients with reduced systolic function
+(≤ 35%) are susceptible to fatal ventricular arrhythmias and can benefit from an ICD. A
+study was designed to create a predictive model based on existing data from a retrospective,
+multicenter registry of Chinese patients with HF [42]. The primary goal of this study is to
+Patel and Sengupta
+Page 7
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>predict all-cause sudden cardiac deaths. Various ML algorithms and Cox proportional
+hazards regression models will be utilized to create a predictive model for SCD in HF
+patients with low systolic function.
+Hypertrophic cardiomyopathy patients are at increased risk for sudden cardiac death. An
+ML-based model (HCM-VAr-Risk) was created to predict ventricular arrhythmias in
+hypertrophic cardiomyopathy patients [43]. The goal was to detect at least one episode of
+sustained ventricular tachycardia or fibrillation. The baseline logistic regression model had
+an AUC of 0.80, and a 0.80 <a href="../concepts/type-ii-error" class="internal alias" data-slug="concepts/type-ii-error">false-negative</a> rate, the HCM-VAr-Risk model had an AUC of
+0.83 and a 0.27 false-negative rate. Out of 93 clinical variables, twenty-two variables (11
+positively and 11 negatively) predicted the risk of arrhythmia. There are currently 10 known
+variables in the HCM-Risk-SCD model (AUC ~ 0.69) developed by the American College
+of Cardiology and American Heart Association [44], but the HCM-VAr-Risk model
+identified 12 new variables that increased the predictive ability; blood pressure before
+exercise, early diastolic strain rate, body mass index and statin use were among the new
+variables.
+Furthermore, ML and DL algorithms have been utilized to optimize automated external
+defibrillators (AEDs). These devices notify the operator whether the rhythm is shockable or
+not (for ventricular tachycardia or fibrillation). Minimum <a href="../concepts/open-standards" class="internal alias" data-slug="concepts/open-standards">standards</a> for arrhythmia analysis
+algorithms for AEDs have been published [45]. To further enhan</p>
+<p>operator whether the rhythm is shockable or
+not (for ventricular tachycardia or fibrillation). Minimum standards for arrhythmia analysis
+algorithms for AEDs have been published [45]. To further enhance the accuracy, an ML-
+derived algorithm using a convolutional neural network has been proposed. The algorithm
+had an accuracy of 99.26%, with a sensitivity of 97.07% and a specificity of 99.44% [46].
+Ideally, a sensitivity of 100% is preferable to avoid artificial sudden cardiac arrest, but the
+current work promises future development for further optimization.
+The application of ML seems very promising for detecting arrhythmias using simple clinical
+variables and EKGs. In the era of <a href="../concepts/wearable-devices" class="internal alias" data-slug="concepts/wearable-devices">wearable devices</a> such as those used in the Apple Heart
+Study [47] and improved algorithms, the ability to predict arrhythmias before their
+occurrence in the near future is very plausible.
+4. Bayesian statistics
+Regression-based models lack the ability to predict outcomes at an individual level, while
+Bayesian statistical-based modeling can overcome this hurdle. The majority of current risk-
+predicting models are regression based (or frequentist statistics). Fundamentally, Bayesian
+statistics uses prior knowledge, data or belief to construct a <a href="../concepts/probability" class="internal alias" data-slug="concepts/probability">probability</a> distribution, while
+frequentist statistics does not take any prior knowledge of an event into account.
+Individualized risk prediction and learning from prior data are similar features in Bayesian
+statistics and ML. Risk prediction models using Bayesian statistics have been created for
+cardiovascular events [48,49]. Regression-based models can be incorporated in the Bayesian
+methods; similarly, Bayesian theory is also utilized in ML algorithms. But, a comparative
+study for various ML algorithms that includes Bayesian theory to predict cardiovascular
+event is lacking. Future work should focus on comparing various ML modeling that includes
+Bayesian machine learning approach.
+Patel and Sengupta
+Page 8
+Expert Rev Cardiovasc Ther. Author manuscr</p>
+<p>cular
+event is lacking. Future work should focus on comparing various ML modeling that includes
+Bayesian machine learning approach.
+Patel and Sengupta
+Page 8
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="5">
+<li>Conclusion
+Machine learning-based algorithms are superior to traditional statistical methods for
+predicting cardiovascular events. Certain algorithms, such as <a href="../concepts/deep-neural-networks" class="internal alias" data-slug="concepts/deep-neural-networks">deep neural networks</a>, are
+superior to other ML algorithms for certain outcomes. Further studies evaluating the
+applicability of such algorithms in the real world are needed</li>
+<li>Expert opinion
+Enormous amounts of data are generated by electronic health records, registries, research
+studies, and genomic and biospecimens. The complexity and size of the data poses
+challenges for data scientists to process, analyze, interpret and put them into clinical
+contexts. Although AI is not a new concept, its popularity has grown tremendously in the
+last decade. Machine learning is a part of AI and addresses complex data and ‘trains’ itself
+through mathematical models. By 2020, the US healthcare industry is expected to generate a
+trillion megabytes of data, with an annual growth of 36–48% [50]. To process even a fraction
+of these data, advanced modeling and statistical analysis techniques are necessary. Due to
+fast computing power, ML methods allow us to look at the data in unforeseeable ways.
+Machine learning-based models have a better predictive ability than statistical-based models.
+Nonlinear modeling, complex calculations, and a higher dimension of data analysis are
+unique characteristics that set ML apart from statistical analysis. Further analysis should
+focus on the <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">implementation</a> of a prediction model for altering clinical outcomes. If an
+EKG-based algorithm can detect the future risk of developing atrial fibrillation, then trials
+should evaluate whether early treatment with anticoagulation reduces the risk of future
+cardiovascular events. Indeed, atrial fibri</li>
+</ol>
+<p>etect the future risk of developing atrial fibrillation, then trials
+should evaluate whether early treatment with anticoagulation reduces the risk of future
+cardiovascular events. Indeed, atrial fibrillation is detected in 10–30% of patients after an
+index cryptogenic stroke [51]. Similarly, algorithm-based at-risk detection for HF or
+myocardial infarction can possibly alter outcomes and save healthcare costs. Duration of
+dual-antiplatelet therapy, identifying ideal candidates for implantable cardioverter
+defibrillators or cardiac resynchronization therapy and advanced heart failure treatments are
+among several topics and issues that ML can help us to further delineate. The role of ML in
+structural heart disease and interventions can be paramount. The application of ML in
+genome-based projects has been shown to predict advanced coronary artery calcium, which
+is a known risk factor for future cardiovascular events [52]. Studies focusing on
+incorporating genomic-level data into existing large datasets are quintessential to predict
+cardiovascular events. Future studies focusing on cost-saving strategies using ML algorithms
+are also needed as healthcare costs are skyrocketing.
+Our ongoing work is focused on the reclassification and clustering of patients for specific
+diseases and outcomes using patient similarity analysis. In a patient similarity analysis,
+patients are presented as nodes, and they are connected by edges that represent similarities
+among the patients. This analysis reveals a heterogeneous relationship among the patients
+and represents the data in network and graphical format. In a recent publication, we showed
+the two main pathways of how patients with severe aortic stenosis progress and how they
+respond to treatment after aortic valve replacement using patient similarities [53]. We are
+working on a study to demonstrate how patients with heart failure are clustered using similar
+Patel and Sengupta
+Page 9
+Expert Rev Cardiovasc Ther. Author manuscript; a</p>
+<p>tient similarities [53]. We are
+working on a study to demonstrate how patients with heart failure are clustered using similar
+Patel and Sengupta
+Page 9
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-10">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>clinical and echocardiographic data. The patient clusters were divided into four regions
+based on the similarities, and we were able to demonstrate how each region predicted
+MACE. For example, patients with increased filling pressure and increased left atrial volume
+index will have an increased risk of cardiovascular events, and then, the patients can be
+treated to have these <a href="../concepts/parameters" class="internal alias" data-slug="concepts/parameters">parameters</a> within the normal range. Thus, the application of AI can aid
+the analysis of data in unique ways that can aid clinicians in identifying and predicting
+individual-level risk.
+One of major caveat in understanding of ML based prediction model is the ‘black box’. Lack
+of clear understanding how information journeys from input variables to outcomes
+predictors create uncertain trusts in the implantation of ML based decision making.
+Improper and undertested models can create a huge <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">public health</a> risk. Creating testing and
+validation datasets requires utmost accuracy and confidence as much as implementing the
+model prospectively. An applicability of data interpretation is not as widely common as
+statistical based research among clinicians, and therefore, the systemwide <a href="../concepts/integration" class="internal alias" data-slug="concepts/integration">integration</a> of
+predictive models are not practical in every hospital or clinic at present time. AI-based
+modeling is largely driven by data scientists. Mastering the complexity of programming,
+<a href="../concepts/data-management" class="internal alias" data-slug="concepts/data-management">data management</a>, and application of appropriate algorithms can be a daunting task for
+clinicians. We therefore recommend establishing a team approach in which clinicians,
+statisticians and data scientists are included. Although AI is widely popular among
+commercialized industries, it is still lagging in the medical field. We strongly believe that AI
+can transform the medical industry and d</p>
+<p>a scientists are included. Although AI is widely popular among
+commercialized industries, it is still lagging in the medical field. We strongly believe that AI
+can transform the medical industry and deliver precision medicine.
+Funding
+This paper was not funded.
+References
+Papers of special note have been highlighted as either of interest (•) or of considerable
+interest (••) to readers.</p>
+<ol>
+<li>Global Burden of Cardiovascular Diseases C, Roth GA, Johnson CO, et al. The burden of
+cardiovascular diseases among US States, 1990–2016. JAMA Cardiol. 2018 5 1;3(5):375–389.
+[PubMed: 29641820]</li>
+<li>Bzdok D, Altman N, Krzywinski M. Statistics versus machine learning. Nat Methods. 2018 4 03
+online;15:233. [PubMed: 30100822]</li>
+<li>TURING AMI. Computing machinery and intelligence. Mind. 1950;LIX(236):433–460.• This is
+one of the seminal papers that introduced the concept of machine learning. Many papers in
+computer <a href="../concepts/science" class="internal alias" data-slug="concepts/science">science</a> were published on ML after this article.</li>
+<li>Simeone O A very brief introduction to machine learning with <a href="../concepts/software" class="internal alias" data-slug="concepts/software">applications</a> to <a href="../concepts/communication" class="internal alias" data-slug="concepts/communication">communication</a>
+systems. IEEE Trans Cognit Commun Networking. 2018;4(4):648–664.</li>
+<li>Nowbar AN, Gitto M, Howard JP, et al. Mortality from ischemic heart disease. Circulation
+Cardiovasc Qual Outcomes. 2019;12(6):e005375.</li>
+<li>Acharya UR, Fujita H, Oh SL, et al. Application of deep convolutional neural network for
+automated detection of myocardial infarction using ECG signals. Inf Sci 2017 11 01;415–416:190–</li>
+<li></li>
+<li>D’Agostino RB, Vasan RS, Pencina MJ, et al. General cardiovascular risk profile for use in primary
+care. Circulation. 2008;117(6):743–753. [PubMed: 18212285]
+Patel and Sengupta
+Page 10
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</li>
+</ol>
+<hr/>
+<h2 id="page-11">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>r use in primary
+care. Circulation. 2008;117(6):743–753. [PubMed: 18212285]
+Patel and Sengupta
+Page 10
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-11-1">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="8">
+<li>Antman EM, Cohen M, Bernink PJLM, et al. The TIMI risk score for unstable angina/non–ST
+elevation MIA method for prognostication and therapeutic decision making. JAMA.
+2000;284(7):835–842. [PubMed: 10938172]</li>
+<li>Fox KAA, Dabbous OH, Goldberg RJ, et al. Prediction of risk of death and myocardial infarction in
+the six months after presentation with acute coronary syndrome: prospective multinational
+observational study (GRACE). BMJ. 2006;333(7578):1091. [PubMed: 17032691]</li>
+<li>Huang W, FitzGerald G, Goldberg RJ, et al. Performance of the GRACE risk score 2.0 simplified
+algorithm for predicting 1-year death after hospitalization for an acute coronary syndrome in a
+contemporary multiracial cohort. Am J Cardiol. 2016;118(8):1105–1110. [PubMed: 27561191]</li>
+<li>Piros P, Ferenci T, Fleiner R, et al. Comparing machine learning and regression models for
+mortality prediction based on the hungarian myocardial infarction registry. Knowledge-Based Syst.
+2019 9 01;179:1–7.</li>
+<li>Kim YJ, Saqlian M, Lee JY. Deep learning–based prediction model of occurrences of major
+adverse cardiac events during 1-year follow-up after hospital discharge in patients with AMI using
+knowledge mining. Pers Ubiquitous Comput. 2019 7 04.•• In this study, the authors studied various
+ML algorithms to compare them with GRACE score, to predict long-term outcomes after acute
+myocardial infarction. They were able to show the ML algorithms outformed GRACE score in
+predicting cardivascular events.</li>
+<li>Shouval R, Hadanny A, Shlomo N, et al. Machine learning for prediction of 30-day mortality after
+ST elevation myocardial infraction: an acute coronary syndrome israeli survey data mining study.
+Int J Cardiol. 2017;246:7–13. [PubMed: 28867023]</li>
+<li>Juarez-Orozco LE, Martinez-Manzanera O, Storti AE, et al. M</li>
+</ol>
+<p>n myocardial infraction: an acute coronary syndrome israeli survey data mining study.
+Int J Cardiol. 2017;246:7–13. [PubMed: 28867023]
+14. Juarez-Orozco LE, Martinez-Manzanera O, Storti AE, et al. Machine learning in the evaluation of
+myocardial ischemia through nuclear cardiology. Curr Cardiovasc Imaging Rep. 2019 Feb
+09;12(2):5.
+15. Betancur J, Otaki Y, Motwani M, et al. Prognostic value of combined clinical and myocardial
+perfusion imaging data using machine learning. JACC Cardiovasc Imaging. 2018;11(7):1000–
+1009. [PubMed: 29055639]
+16. Budoff MJ, Dowe D, Jollis JG, et al. Diagnostic performance of 64-multi-detector row coronary
+computed tomographic angiography for evaluation of coronary artery stenosis in individuals
+without known coronary artery disease: results from the prospective multicenter ACCURACY
+(Assessment by Coronary Computed Tomographic Angiography of Individuals Undergoing
+Invasive Coronary Angiography) trial. J Am Coll Cardiol. 2008 11 18;52(21):1724–1732.
+[PubMed: 19007693]
+17. Min JK, Dunning A, Lin FY, et al. Rationale and design of the CONFIRM (CORONARY CT
+angiography evaluation for clinical outcomes: an international multicenter) registry. J Cardiovasc
+Comput Tomogr. 2011 Mar-Apr;5(2):84–92. [PubMed: 21477786]
+18. Motwani M, Dey D, Berman DS, et al. Machine learning for prediction of all-cause mortality in
+patients with suspected coronary artery disease: a 5-year multicentre prospective registry analysis.
+Eur Heart J. 2016;38(7):500–507.
+19. Alaa AM, Bolton T, Di Angelantonio E, et al. Cardiovascular disease risk prediction using
+automated machine learning: a prospective study of 423,604 UK biobank participants. Plos One.
+2019;14(5):e0213653. [PubMed: 31091238]
+20. Weng SF, Reps J, Kai J, et al. Can machine-learning improve cardiovascular risk prediction using
+routine clinical data? Plos One. 2017;12(4):e0174944. [PubMed: 28376093]
+21. Ponikowski P, Anker SD, AlHabib KF, et al. Heart failure: preventing disease and death
+worldwide.</p>
+<p>ar risk prediction using
+routine clinical data? Plos One. 2017;12(4):e0174944. [PubMed: 28376093]
+21. Ponikowski P, Anker SD, AlHabib KF, et al. Heart failure: preventing disease and death
+worldwide. ESC Heart Fail. 2014;1(1):4–25. [PubMed: 28834669]
+22. Ambrosy AP, Fonarow GC, Butler J, et al. The global health and economic burden of
+hospitalizations for heart failure: lessons learned from hospitalized heart failure registries. J Am
+Coll Cardiol. 2014 4 01;63(12):1123–1133. [PubMed: 24491689]
+23. Lagu T, Pekow PS, Shieh M-S, et al. Validation and comparison of seven mortality prediction
+models for hospitalized patients with acute decompensated heart failure. Circulation.
+2016;9(8):e002912. [PubMed: 27514749]
+24. Kwon J-M, Kim K-H, Jeon K-H, et al. Artificial intelligence algorithm for predicting mortality of
+patients with acute heart failure. Plos One. 2019;14(7):e0219302. [PubMed: 31283783]
+Patel and Sengupta
+Page 11
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-12">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>s with acute heart failure. Plos One. 2019;14(7):e0219302. [PubMed: 31283783]
+Patel and Sengupta
+Page 11
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-12-1">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="25">
+<li>Lee SE, Cho H-J, Lee H-Y, et al. A multicentre cohort study of acute heart failure syndromes in
+Korea: rationale, design, and interim observations of the Korean Acute Heart Failure (KorAHF)
+registry. Eur J Heart Fail 2014;16(6):700–708. [PubMed: 24797348]</li>
+<li>Segar MW, Vaduganathan M, Patel KV, et al. machine learning to predict the risk of incident heart
+failure hospitalization among patients with diabetes: the WATCH-DM risk score. Diabetes Care.
+2019 9 13;42:2298–2306. [PubMed: 31519694] •• In this study, the authors studied two large-
+study databases. One database was used for testing database and the other to validate. They created
+the WATCH-DM score with clinical variables to predict the risk of heart failure.</li>
+<li>Angraal S, Mortazavi BJ, Gupta A, et al. Machine learning prediction of mortality and
+hospitalization in heart failure with preserved ejection fraction. JACC Heart Fail. 2019 10
+5;8(1):12–21. [PubMed: 31606361]</li>
+<li>Mortazavi BJ, Downing NS, Bucholz EM, et al. Analysis of machine learning techniques for heart
+failure readmissions. Circ Cardiovasc Qual Outcomes. 2016;9(6):629–640. [PubMed: 28263938]</li>
+<li>Golas SB, Shibahara T, Agboola S, et al. A machine learning model to predict the risk of 30-day
+readmissions in patients with heart failure: a retrospective analysis of <a href="../concepts/electronic-health-records" class="internal alias" data-slug="concepts/electronic-health-records">electronic medical records</a>
+data. BMC Med Inform Decis Mak. 2018 6 22;18(1):44. [PubMed: 29929496]</li>
+<li>Futoma J, Morris J, Lucas J. A comparison of models for predicting early hospital readmissions. J
+Biomed Inform. 2015 Aug;56:229–238.</li>
+<li>Awan SE, Bennamoun M, Sohel F, et al. Machine learning-based prediction of heart failure
+readmission or death: implications of choosing the right model and the right metrics. ESC Heart
+Fail. 2019 4;6(2):428–435. [PubMed: 30810291]</li>
+<li></li>
+</ol>
+<p>Machine learning-based prediction of heart failure
+readmission or death: implications of choosing the right model and the right metrics. ESC Heart
+Fail. 2019 4;6(2):428–435. [PubMed: 30810291]
+32. Aro AL, Chugh SS, ESC CardioMed. <a href="../concepts/epidemiology" class="internal alias" data-slug="concepts/epidemiology">Epidemiology</a> and global burden of arrhythmias. Oxford,
+UK: Oxford University Press; 2018.
+33. Wolf PA, Abbott RD, Kannel WB. Atrial fibrillation as an independent risk factor for stroke: the
+Framingham study. Stroke. 1991;22(8):983–988. [PubMed: 1866765]
+34. Flint AC, Banki NM, Ren X, et al. Detection of paroxysmal atrial fibrillation by 30-day event
+monitoring in cryptogenic ischemic stroke. Stroke. 2012;43(10):2788–2790. [PubMed: 22871679]
+35. Attia ZI, Noseworthy PA, Lopez-Jimenez F, et al. An artificial intelligence-enabled ECG algorithm
+for the identification of patients with atrial fibrillation during sinus rhythm: a retrospective analysis
+of outcome prediction. Lancet. 2019 9 7;394(10201):861–867. [PubMed: 31378392] •• This paper
+used EKG as tool to predict one of the most common arrhythmia, atrial fibrillation. This project
+created an opportunity many researchers to use EKG as a tool to predict various cardiovascular
+events.
+36. Ebrahimzadeh E, Pooyan M, Bijar A. A Novel Approach to Predict Sudden Cardiac Death (SCD)
+Using Nonlinear and Time-Frequency Analyses from HRV Signals. Plos One. 2014;9(2):e81896.
+[PubMed: 24504331]
+37. Lai D, Zhang Y, Zhang X, et al. An automated strategy for early risk identification of sudden
+cardiac death by using machine learning approach on measurable arrhythmic risk markers. IEEE
+Access. 2019 7 01;1:94701–94716.
+38. Merchant RM, Yang L, Becker LB, et al. Incidence of treated cardiac arrest in hospitalized patients
+in the <a href="../entities/united-states" class="internal alias" data-slug="entities/united-states">United States</a>. Crit Care Med. 2011 11;39(11):2401–2406. [PubMed: 21705896]
+39. Kwon J, Lee Y, Lee Y, et al. An algorithm based on deep learning for predicting in-hospital cardiac
+arrest. J Am Heart Assoc. 2018;7(13):e008678. [PubMed: 29945914]
+40. Blomberg SN, Folke F</p>
+<p>05896]
+39. Kwon J, Lee Y, Lee Y, et al. An algorithm based on deep learning for predicting in-hospital cardiac
+arrest. J Am Heart Assoc. 2018;7(13):e008678. [PubMed: 29945914]
+40. Blomberg SN, Folke F, Ersbøll AK, et al. Machine learning as a supportive tool to recognize
+cardiac arrest in emergency calls. Resuscitation. 2019;138:322–329. [PubMed: 30664917]
+41. Yousuf O, Chrispin J, Tomaselli GF, et al. Clinical management and prevention of sudden cardiac
+death. Circ Res. 2015 6 5;116(12):2020–2040. [PubMed: 26044254]
+42. Meng F, Zhang Z, Hou X, et al. Machine learning for prediction of sudden cardiac death in heart
+failure patients with low left ventricular ejection fraction: study protocol for a retroprospective
+multicentre registry in China. BMJ Open. 2019 5 16;9(5):e023724.
+43. Bhattacharya M, Lu D-Y, Kudchadkar SM, et al. Identifying ventricular arrhythmias and their
+predictors by applying machine learning methods to electronic health records in patients with
+hypertrophic cardiomyopathy (HCM-VAr-risk model). Am J Cardiol. 2019;123(10):1681–1689.
+[PubMed: 30952382]
+Patel and Sengupta
+Page 12
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-13">Page 13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-13" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>M-VAr-risk model). Am J Cardiol. 2019;123(10):1681–1689.
+[PubMed: 30952382]
+Patel and Sengupta
+Page 12
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-13-1">Page 13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-13-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="44">
+<li>O’Mahony C, Jichi F, Pavlou M, et al. A novel clinical risk prediction model for sudden cardiac
+death in hypertrophic cardiomyopathy (HCM Risk-SCD). Eur Heart J. 2013;35(30):2010–2020.
+[PubMed: 24126876]</li>
+<li>Kerber RE, Becker LB, Bourland JD, et al. Automatic external defibrillators for public access
+defibrillation: recommendations for specifying and reporting arrhythmia analysis algorithm
+performance, incorporating new waveforms, and enhancing safety. Circulation. 1997;95(6):1677–</li>
+<li>[PubMed: 9118556]</li>
+<li>Nguyen MT, Nguyen BV, Kim K. Deep feature learning for sudden cardiac arrest detection in
+automated external defibrillators. Sci Rep. 2018 11 21;8(1):17196. [PubMed: 30464177]</li>
+<li>Perez MV, Mahaffey KW, Hedlin H, et al. Large-scale assessment of a smartwatch to identify atrial
+fibrillation. N Engl J Med. 2019 11 14;381(20):1909–1917. [PubMed: 31722151]</li>
+<li>Liu YM, Chen SL, Yen AM, et al. Individual risk prediction model for incident cardiovascular
+disease: a Bayesian <a href="../concepts/clinical-reasoning" class="internal alias" data-slug="concepts/clinical-reasoning">clinical reasoning</a> approach. Int J Cardiol. 2013 9 1;167(5):2008–2012.
+[PubMed: 22658349]</li>
+<li>Marshall G, Shroyer AL, Grover FL, et al. Bayesian-logit model for risk assessment in coronary
+artery bypass grafting. Ann Thorac Surg. 1994 6;57(6):1492–9;discussion 1500. [PubMed:
+8010792] • In statistal realm, Bayesian theory can provide individual risk assessment, but further
+research is needed comparing ML models to Baysian statistics.</li>
+<li>Thompson ME, Dulin MF. Leveraging data analytics to advance personal, population, and system
+health: moving beyond merely capturing services provided. N C Med J. 2019 July–
+Aug;80(4):214–218.</li>
+<li>Bridge F, Thijs V. How and when to screen for atrial fibrillation after stroke: insights from
+insertable cardiac monitoring devices. J Stroke. 2016 5;18</li>
+</ol>
+<p>C Med J. 2019 July–
+Aug;80(4):214–218.
+51. Bridge F, Thijs V. How and when to screen for atrial fibrillation after stroke: insights from
+insertable cardiac monitoring devices. J Stroke. 2016 5;18(2):121–128. [PubMed: 27283276]
+52. Oguz C, Sen SK, Davis AR, et al. Genotype-driven identification of a molecular network predictive
+of advanced coronary calcium in ClinSeq® and Framingham heart study cohorts. BMC Syst Biol.
+2017;11(1):99. [PubMed: 29073909]
+53. Casaclang-Verzosa G, Shrestha S, Khalil MJ, et al. Network tomography for understanding
+phenotypic presentations in aortic stenosis. JACC Cardiovasc Imaging. 2019;12(2):236–248.
+[PubMed: 30732719]
+Patel and Sengupta
+Page 13
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-14">Page 14<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-14" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Article <a href="../concepts/highlights" class="internal alias" data-slug="concepts/highlights">Highlights</a>
+•
+Machine learning (ML), a branch of artificial intelligence, is widely utilized
+in cardiovascular medicine
+•
+Thus far, predictive models for cardiovascular events are based on statistical-
+based methods
+•
+Evidence favors ML as a better predictive tool for cardiovascular events
+•
+Future research showing applications of ML to prevent cardiovascular events
+is needed
+Patel and Sengupta
+Page 14
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<hr/>
+<h2 id="page-15">Page 15<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-15" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Figure 1.
+Generalized diagram of the steps in machine learning used to create models.
+Page 15
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph displays a flowchart with three blue sections labeled Raw Data, Machine Learning, and Model, each containing bullet points about their components. The main subject is the process of applying machine learning to healthcare data, moving from raw inputs to model outputs. The setting is a diagram showing a sequential <a href="../concepts/workflow" class="internal alias" data-slug="concepts/workflow">workflow</a> with arrows connecting the stages. The colors are blue rectangular boxes with white text throughout.</p>
+</blockquote>
+<hr/>
+<h2 id="page-16">Page 16<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-16" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>aw inputs to model outputs. The setting is a diagram showing a sequential workflow with arrows connecting the stages. The colors are blue rectangular boxes with white text throughout.</p>
+<hr/>
+<h2 id="page-16-1">Page 16<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-16-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Figure 2.
+Central theme of literature reviewed in this review article.
+Page 16
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: This flowchart explores whether cardiovascular events can be predicted, starting with data sources like clinical trials and electronic records. It compares statistical methods and machine learning approaches for predicting these events, showing both paths lead to the same prediction goal. The diagram uses purple for the main question and conclusion, blue for data sources, orange for statistical methods, green for machine learning, and gray for the prediction outcome. Current evidence highlighted at the bottom states machine learning outperforms statistical models for this prediction task.</p>
+</blockquote>
+<hr/>
+<h2 id="page-17">Page 17<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-17" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Page 17
+Table 1.
+Summary for predicting cardiovascular events.
+Ref.
+Major Adverse Cardiovascular Events (MACE) and Myocardial Infarction (MI)
+1
+[11,12]
+Machine learning (ML) is more accurate in predicting short-,intermediate and long-term mortality after index the myocardial infarction event
+2
+[12]
+In comparison to Global Registry of Acute Coronary Events (known as GRACE) risk score, ML based models are better predictors of MACE
+3
+[15]
+The combination of clinical, demographics and nuclear imaging findings have better predictive ability for MACE using ML algorithms.
+4
+[18]
+Coronary computed tomography angiography plus clinical variables have better predictive values with ML algorithms than Framingham Risk Score for all-cause mortality.
+Heart Failure
+1
+[25]
+Traditional statistics-based models such as Get With the Guideline-Heart Failure and MAGGIC risk scores were outperformed by ML models for short- and long-term mortality in
+acute heart failure patients.
+2
+[26]
+Using ML models, a simple risk s</p>
+<p>s Get With the Guideline-Heart Failure and MAGGIC risk scores were outperformed by ML models for short- and long-term mortality in
+acute heart failure patients.
+2
+[26]
+Using ML models, a simple risk score in diabetic patients, WATCH-DM was created. This model requires patient’s age, presence of hypertension, creatinine and high-density
+lipoprotein levels, QRS duration, history of MI and coronary artery bypass surgery. A unit increase indicated 24% increased risk of heart failure.
+3
+[27]
+The risks of mortality and hospitalization in diastolic heart failure patients were better predicted by ML algorithms. Kansas City Cardiomyopathy Questionnaire (KCCQ) score and
+body mass index were the best predictors of mortality, while BUN and hemoglobin levels, KCCQ score and previous heart failure admissions were the best <a href="../concepts/indicators" class="internal alias" data-slug="concepts/indicators">indicators</a> for
+rehospitalization.
+4
+[28–30]
+The ML algorithms can predict 30-risk of readmissions and post-discharge outcomes with decent accuracy.
+Arrhythmia
+1
+[35]
+The future prediction of developing atrial fibrillation is made possible by ML models.
+2
+[36]
+ML can predict the risk of sudden cardiac death (SCD) from heart rate variability.
+3
+[37]
+In-hospital risk of cardiac arrest was developed using ML from patients’ body temperature, heart and respiratory rate, which outperformed Modified Early Warning Score (MEWS)
+4
+[43]
+The risk of SCD in hypertrophic cardiomyopathy patients can be more accurately predicted by ML models.
+5
+[45,46]
+A shockable rhythm detection on automated external defibrillators improvisation has been proposed with ML derived algorithm.
+Expert Rev Cardiovasc Ther. Author manuscript; available in PMC 2021 March 16.</p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/machine-learning" class="internal alias" data-slug="concepts/machine-learning">machine learning</a> — <a href="https://en.wikipedia.org/wiki/machine_learning" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/cardiovascular-events" class="internal alias" data-slug="concepts/cardiovascular-events">cardiovascular events</a> — <a href="https://en.wikipedia.org/wiki/cardiovascular_events" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/user-attention-prediction" class="internal alias" data-slug="concepts/user-attention-prediction">prediction</a> — <a href="https://en.wikipedia.org/wiki/prediction" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/trusted-frameworks" class="internal alias" data-slug="concepts/trusted-frameworks">artificial intelligence</a> — <a href="https://en.wikipedia.org/wiki/artificial_intelligence" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/type-i-error" class="internal alias" data-slug="concepts/type-i-error">statistical inference</a> — <a href="https://en.wikipedia.org/wiki/statistical_inference" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/representative-sampling" class="internal alias" data-slug="concepts/representative-sampling">representative sampling</a> — <a href="https://en.wikipedia.org/wiki/representative_sampling" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/population-level-analysis" class="internal alias" data-slug="concepts/population-level-analysis">population level analysis</a> — <a href="https://en.wikipedia.org/wiki/population_level_analysis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/cardiovascular-disease-burden" class="internal alias" data-slug="concepts/cardiovascular-disease-burden">cardiovascular disease burden</a> — <a href="https://en.wikipedia.org/wiki/cardiovascular_disease_burden" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>risk prediction — <a href="https://en.wikipedia.org/wiki/risk_prediction" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>individual-level risk — <a href="https://en.wikipedia.org/wiki/individual-level_risk" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/population-level-analysis" class="internal alias" data-slug="concepts/population-level-analysis">population-level analysis</a> — <a href="https://en.wikipedia.org/wiki/population-level_analysis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/cardiovascular-events" class="internal alias" data-slug="concepts/cardiovascular-events">major adverse cardiovascular events</a> — <a href="https://en.wikipedia.org/wiki/major_adverse_cardiovascular_events" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>heart failure — <a href="https://en.wikipedia.org/wiki/heart_failure" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>arrhythmias — <a href="https://en.wikipedia.org/wiki/arrhythmias" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>over-fitting — <a href="https://en.wikipedia.org/wiki/over-fitting" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>complex data handling — <a href="https://en.wikipedia.org/wiki/complex_data_handling" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/brijesh-patel" class="internal alias" data-slug="entities/brijesh-patel">Brijesh Patel</a> — <a href="https://en.wikipedia.org/wiki/Brijesh_Patel" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/partho-sengupta" class="internal alias" data-slug="entities/partho-sengupta">Partho Sengupta</a> — <a href="https://en.wikipedia.org/wiki/Partho_Sengupta" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/ieee" class="internal alias" data-slug="entities/ieee">Ieee</a> — <a href="https://en.wikipedia.org/wiki/Ieee" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Heart and Vascular Institute — <a href="https://en.wikipedia.org/wiki/Heart_and_Vascular_Institute" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>West Virginia University — <a href="https://en.wikipedia.org/wiki/West_Virginia_University" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9701" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#ves-such-as-major-adverse-cardiovascular-events-heart-failure-and-arrhythmias-expert-opinion-current-evidence-supports-the-superiority-of-ml-methods-over-statistical-based-models-in-predicting-cves-statistical-models-are-applicable-at-the-population-level-and-are-subject-to-over-fitting-while-ml-methods-can-provide-an-individualized-risk-level-for-cves-further-prospective-research-on-ml-guided-treatments-to-prevent-cves-is-needed" data-for="ves-such-as-major-adverse-cardiovascular-events-heart-failure-and-arrhythmias-expert-opinion-current-evidence-supports-the-superiority-of-ml-methods-over-statistical-based-models-in-predicting-cves-statistical-models-are-applicable-at-the-population-level-and-are-subject-to-over-fitting-while-ml-methods-can-provide-an-individualized-risk-level-for-cves-further-prospective-research-on-ml-guided-treatments-to-prevent-cves-is-needed">VEs such as major adverse cardiovascular events, heart failure and arrhythmias. Expert opinion: Current evidence supports the superiority of ML methods over statistical-based models in predicting CVEs. Statistical models are applicable at the population level and are subject to over-fitting, while ML methods can provide an individualized risk level for CVEs. Further prospective research on ML-guided treatments to prevent CVEs is needed.‘</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-2-1" data-for="page-2-1">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-3-1" data-for="page-3-1">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-4-1" data-for="page-4-1">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-5-1" data-for="page-5-1">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-6-1" data-for="page-6-1">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-7-1" data-for="page-7-1">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-10" data-for="page-10">Page 10</a></li><li class="depth-0"><a href="#page-11" data-for="page-11">Page 11</a></li><li class="depth-0"><a href="#page-11-1" data-for="page-11-1">Page 11</a></li><li class="depth-0"><a href="#page-12" data-for="page-12">Page 12</a></li><li class="depth-0"><a href="#page-12-1" data-for="page-12-1">Page 12</a></li><li class="depth-0"><a href="#page-13" data-for="page-13">Page 13</a></li><li class="depth-0"><a href="#page-13-1" data-for="page-13-1">Page 13</a></li><li class="depth-0"><a href="#page-14" data-for="page-14">Page 14</a></li><li class="depth-0"><a href="#page-15" data-for="page-15">Page 15</a></li><li class="depth-0"><a href="#page-16" data-for="page-16">Page 16</a></li><li class="depth-0"><a href="#page-16-1" data-for="page-16-1">Page 16</a></li><li class="depth-0"><a href="#page-17" data-for="page-17">Page 17</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/cardiovascular-events" class="internal">cardiovascular-events</a></li><li><a href="../concepts/machine-learning" class="internal">machine-learning</a></li><li><a href="../concepts/population-level-analysis" class="internal">population-level-analysis</a></li><li><a href="../concepts/representative-sampling" class="internal">representative-sampling</a></li><li><a href="../concepts/type-i-error" class="internal">type-i-error</a></li><li><a href="../concepts/user-attention-prediction" class="internal">user-attention-prediction</a></li><li><a href="../domains/maths-logic-crypto" class="internal">Maths, Logic &amp; Crypto</a></li><li><a href="../entities/brijesh-patel" class="internal">brijesh-patel</a></li><li><a href="../entities/ieee" class="internal">ieee</a></li><li><a href="../entities/partho-sengupta" class="internal">partho-sengupta</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

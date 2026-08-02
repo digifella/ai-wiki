@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Grounded Theory: Principles and Application for Developing Theory from Health Data · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Grounded Theory: Principles and Application for Developing Theory from Health Data · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Grounded Theory: Principles and Application for Developing Theory from Health Data · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Grounded Theory: Principles and Application for Developing Theory from Health Data’ source_type: ‘Consulting Company’ publisher: ‘bmcmedicine.biomedcentral.com’ publishing_date:..."/><meta property="og:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Grounded Theory: Principles and Application for Developing Theory from Health Data’ source_type: ‘Consulting Company’ publisher: ‘bmcmedicine.biomedcentral.com’ publishing_date:..."/><meta property="og:image:alt" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Grounded Theory: Principles and Application for Developing Theory from Health Data’ source_type: ‘Consulting Company’ publisher: ‘bmcmedicine.biomedcentral.com’ publishing_date:..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Grounded-Theory-Principles-and-Application-for-Developin"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Grounded-Theory-Principles-and-Application-for-Developin"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘Grounded Theory: Principles and Application for Developing Theory from Health Data’ source_type: ‘Consulting Company’ publisher: ‘bmcmedicine.biomedcentral.com’ publishing_date:..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Grounded-Theory-Principles-and-Application-for-Developin-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Grounded-Theory-Principles-and-Application-for-Developin-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Grounded-Theory-Principles-and-Application-for-Developin-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Grounded-Theory-Principles-and-Application-for-Developin"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19587"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19587" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Grounded Theory: Principles and Application for Developing Theory from Health Data</a></div></nav><h1 class="article-title">Grounded Theory: Principles and Application for Developing Theory from Health Data</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>38 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/tools-platforms-infrastructure">Tools, Platforms &amp; Infrastructure</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<p>preface_schema: ‘1.0’
+title: ‘Grounded Theory: Principles and Application for Developing Theory from Health Data’
+source_type: ‘<a href="../concepts/consulting" class="internal alias" data-slug="concepts/consulting">Consulting</a> Company’
+publisher: ‘bmcmedicine.biomedcentral.com’
+publishing_date: ‘Unknown’
+authors: []
+available_at: ‘<a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01777-6" class="external" target="_blank" rel="noopener noreferrer">https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01777-6<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+availability_status: ‘available’
+availability_http_code: ‘200’
+availability_checked_at: ”
+availability_note: ”
+source_integrity_flag: ‘verified’
+credibility_tier_value: ‘5’
+credibility_tier_key: ‘peer-reviewed’
+credibility_tier_label: ‘Peer-Reviewed’
+credibility_reason: ‘strong_scholarly_signals’
+credibility: ‘Final Peer-Reviewed Report’
+journal_ranking_source: ‘n/a’
+journal_sourceid: ”
+journal_title: ”
+journal_issn: ”
+journal_sjr: ‘0.0’
+journal_quartile: ”
+journal_rank_global: ‘0’
+journal_categories: ”
+journal_areas: ”
+journal_high_ranked: ‘False’
+journal_match_method: ‘none’
+journal_match_confidence: ‘0.0’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘grounded theory’, ‘health data’, ‘qualitative research’, ‘theory development’]
+abstract: ’## Page 1 Beyond the Basics: Advanced and Niche Qualitative Methodologies for In-Depth Australian <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">Population Health</a> Research Executive Summary This guide reviews advanced and niche qualitative methods relevant to Australian population health, emphasizing practical guidance for policymakers and practitioners. Case study research provides in- depth examination of complex health interventions and contexts . Ethnography and participant observation immerse researchers in real-world health settings to reveal cultural and contextual nuances (e.g. Aboriginal <a href="../concepts/community-health" class="internal alias" data-slug="concepts/community-health">community health</a> practices) . Grounded theory offers a rigorous, iterative framework for theory-building from qualitative data in <a href="../concepts/health" class="internal alias" data-slug="concepts/health">healthcare</a> when existing theory is limited . Phenomenology and interpretative approaches focus on capturing people’s lived experiences of illness or health (e.g. patients’ journeys, provider experiences) . Narrative inquiry uses story-based interviews to unde</p>
+<h2 id="interpretative-approaches-focus-on-capturing-peoples-lived-experiences-of-illness-or-health-eg-patients-journeys-provider-experiences--narrative-inquiry-uses-story-based-interviews-to-understand-how-individuals-make-meaning-of-health-events--participatory-action-research-par-and-community-based-participatory-research-cbpr-engage-communities-directly-in-all-research-stages--co-designing-conducting-and-applying-research-to-empower-th">interpretative approaches focus on capturing people’s lived experiences of illness or health (e.g. patients’ journeys, provider experiences) . Narrative inquiry uses story-based interviews to understand how individuals make meaning of health events . Participatory Action Research (PAR) and Community-Based Participatory Research (CBPR) engage communities directly in all research stages – co-designing, conducting and applying research to empower th’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#interpretative-approaches-focus-on-capturing-peoples-lived-experiences-of-illness-or-health-eg-patients-journeys-provider-experiences--narrative-inquiry-uses-story-based-interviews-to-understand-how-individuals-make-meaning-of-health-events--participatory-action-research-par-and-community-based-participatory-research-cbpr-engage-communities-directly-in-all-research-stages--co-designing-conducting-and-applying-research-to-empower-th" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Beyond the Basics: Advanced and Niche
+Qualitative Methodologies for In-Depth
+Australian Population <a href="../concepts/health-research" class="internal alias" data-slug="concepts/health-research">Health Research</a>
+Executive Summary
+This guide reviews advanced and niche qualitative methods relevant to Australian population health,
+emphasizing practical guidance for policymakers and practitioners. Case study research provides in-
+depth examination of complex health interventions and contexts
+. Ethnography and
+participant observation immerse researchers in real-world health settings to reveal cultural and
+contextual nuances (e.g. Aboriginal community health practices)
+. Grounded theory offers a
+rigorous, iterative framework for theory-building from qualitative data in healthcare when existing
+theory is limited
+. Phenomenology and interpretative approaches focus on capturing people’s
+lived experiences of illness or health (e.g. patients’ journeys, provider experiences)
+. Narrative
+inquiry uses story-based interviews to understand how individuals make meaning of health events
+. Participatory Action Research (PAR) and Community-Based Participatory Research (CBPR)
+engage communities directly in all research stages – co-designing, conducting and applying research to
+empower them (examples include Aboriginal-led and disability co-design projects)
+. Arts-based
+methods (e.g. photovoice, digital <a href="../concepts/storytelling" class="internal alias" data-slug="concepts/storytelling">storytelling</a>, body mapping, theatre) elicit and present rich, emotional
+perspectives from participants, amplifying local knowledge and underrepresented voices
+. Each
+methodology has distinct strengths and limitati</p>
+<p>body mapping, theatre) elicit and present rich, emotional
+perspectives from participants, amplifying local knowledge and underrepresented voices
+. Each
+methodology has distinct strengths and limitations. For example, case studies excel at contextual
+causal insights but have limited generalizability
+; phenomenology yields deep insight into
+experience but usually involves small samples and complex analysis
+; participatory methods boost
+validity and equity but demand time, negotiation and strong ethical partnership processes
+. The
+guide <a href="../concepts/highlights" class="internal alias" data-slug="concepts/highlights">highlights</a> cultural and <a href="../concepts/ethical-considerations" class="internal alias" data-slug="concepts/ethical-considerations">ethical considerations</a> (e.g. ensuring <a href="../concepts/multilingual-support" class="internal alias" data-slug="concepts/multilingual-support">language support</a> and trust-building
+when working with culturally and linguistically diverse (CALD) groups, or using Indigenous approaches
+like Yarning to ensure cultural safety
+). Ultimately, the choice of method should match the
+research question: for example, grounded theory suits generating explanatory models for a novel
+health issue, while narrative methods suit questions about personal meaning and identity. Real-world
+Australian examples and references are provided for each method to illustrate <a href="../concepts/best-practices" class="internal alias" data-slug="concepts/best-practices">best practices</a>.
+Introduction: The Value of Diverse Qualitative Approaches
+Qualitative research in health and population studies thrives on methodological diversity. No single
+approach fits all questions; researchers choose the method that best matches their focus and context
+. Australian population health issues—ranging from hospital care, chronic illness management,
+to health inequities in CALD and Indigenous communities—are complex and embedded in social and
+cultural contexts. As one review notes, “Qualitative health research is a relatively recent field… using a
+myriad of qualitative methods” from sociology, <a href="../concepts/psychology" class="internal alias" data-slug="concepts/psychology">psychology</a> and other fields
+. These include case
+studies, ethnography, grounded theory, phenomenology, narrative and arts-based methods, each with
+unique emphases
+. There is “immense diversity within qualitative methodologies and methods”
+which has only grown</p>
+<p>graphy, grounded theory, phenomenology, narrative and arts-based methods, each with
+unique emphases
+. There is “immense diversity within qualitative methodologies and methods”
+which has only grown in recent years
+. New innovations like virtual ethnography (studying online
+communities), qualitative vignettes (using <a href="../concepts/scenarios" class="internal alias" data-slug="concepts/scenarios">scenarios</a> to probe sensitive topics), and arts-based methods
+(photovoice, storytelling, theatre) have emerged
+. This diversity matters because it allows</p>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>researchers to capture different dimensions of health and illness. For example, community-based
+participatory research (CBPR) or co-design is essential when working with vulnerable groups, ensuring
+research is equitable and action-oriented
+Importantly, Australian research must account for cultural diversity. Studies in CALD communities
+(immigrant, refugee, or refugee-background populations) often reveal unique <a href="../concepts/communication" class="internal alias" data-slug="concepts/communication">communication</a> and trust
+issues
+. For instance, a recent Australian study used <a href="../concepts/semi-structured-interviews" class="internal alias" data-slug="concepts/semi-structured-interviews">semi-structured interviews</a> with 19 African
+refugees to explore barriers to primary healthcare
+. Such work required culturally sensitive
+interviewing (some interviews needed interpreters) and often revealed that health systems lack
+“culturally appropriate, community-informed approaches”
+. Similarly, research with Aboriginal
+and Torres Strait Islander peoples increasingly calls for Indigenous methods (like Yarning) and
+adherence to ethical frameworks (e.g. NHMRC “ethical research with Aboriginal communities”
+guidelines) to ensure reciprocity and respect
+. Therefore, qualitative researchers and
+policymakers in Australia must look beyond basic interviews and <a href="../concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera" class="internal alias" data-slug="concepts/2026-04-14-how-to-get-tack-sharp-photos-with-any-camera">focus groups</a> to more nuanced
+methods that empower participants and surface context-rich data. This guide surveys several such
+advanced methodologies, each illustrated with practical examples and tailored advice for
+multidisciplinary health professionals and advisers working with Australia’s diverse populations.
+Case Study Research in Health: D</p>
+<p>s, each illustrated with practical examples and tailored advice for
+multidisciplinary health professionals and advisers working with Australia’s diverse populations.
+Case Study Research in Health: Design, Data Collection, Analysis
+Case study research offers a powerful way to explore complex health issues in real-world settings. In
+health and <a href="../concepts/public-health" class="internal alias" data-slug="concepts/public-health">public health</a>, it involves intensive analysis of one or more “cases” (an institution, program,
+community, or group) to understand processes, outcomes and context
+. For example, Paparini et al.
+describe case studies as “in-depth explorations of complex phenomena in their natural, or real-life, settings,”
+providing insight into causal mechanisms and conditions that <a href="../concepts/power" class="internal alias" data-slug="concepts/power">influence</a> outcomes
+. Case studies are
+particularly valuable for evaluating health interventions or services that cannot be easily studied by
+trials alone, because they reveal how and why things work (or don’t) in context. They help translate
+research to practice by showing policy makers how intervention outcomes might vary by setting
+Design: Case study design starts by clearly defining the case(s) of interest and the phenomenon to
+study. The case might be a hospital, a health program, a community response to an epidemic, etc.
+Researchers choose single-case or multiple-case (comparative) designs. For instance, Russell et al.
+(2023) conducted a multiple case study of six general practice clinics in <a href="../concepts/melbourne-region" class="internal alias" data-slug="concepts/melbourne-region">Melbourne</a> adapting to
+<a href="../concepts/covid-19" class="internal alias" data-slug="concepts/covid-19">COVID-19</a>
+. They collected data through interviews, practice observations, documents and diaries.
+Each “case” was a clinic, allowing comparison of how different clinics coped. In <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>, a single-case
+design might deeply study one hospital or one Indigenous community program. Case boundaries are
+conceptually set in advance (e.g. “the 2020 COVID response in this clinic”), but with flexibility to evolve as
+understanding deepens. Researchers also select an overall strategy (e.g. Yin’s explanatory case study vs.
+Stake’s holistic case s</p>
+<p>VID response in this clinic”), but with flexibility to evolve as
+understanding deepens. Researchers also select an overall strategy (e.g. Yin’s explanatory case study vs.
+Stake’s holistic case study) and develop a framework or theory to guide data collection
+Data Collection: Case studies use multiple data sources to achieve rich understanding. Common sources
+include in-depth interviews (with patients, providers, administrators), focus groups, participant
+observation, field notes, documents (<a href="../concepts/policies" class="internal alias" data-slug="concepts/policies">policies</a>, reports), and even quantitative metrics. In the Melbourne
+COVID study, investigators used participant diaries (GP investigators kept reflective diaries), structured
+clinic observations, organizational documents, and 58 interviews (with doctors, nurses, receptionists etc)
+. In practice, one might also review patient records or service data to triangulate findings. Data
+collection is often iterative: early interviews may raise new issues to follow up, or initial observations
+may suggest new questions.</p>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ords or service data to triangulate findings. Data
+collection is often iterative: early interviews may raise new issues to follow up, or initial observations
+may suggest new questions.</p>
+<hr/>
+<h2 id="page-3-1">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>When studying CALD or Indigenous populations, particular care is needed. For example, if one “case”
+is a community-based service in a linguistically diverse area, the team should include culturally-
+linguistically competent researchers or use trained interpreters, and interview guides should be
+culturally adapted. In Aboriginal research, one might combine case study with Indigenous methods: e.g.
+using “yarning circles” as part of interviews and involving Indigenous co-researchers to respect local
+knowledge
+. Confidentiality and consent protocols must be especially rigorous in small cases; when
+studying a clinic or community, participants can often be identified.
+Analysis: Case study analysis aims to assemble a coherent, contextualized picture of the case. Common
+approaches include thematic coding of interviews and notes, within-case analysis, followed by cross-
+case comparison if multiple sites. Qualitative software (e.g. NVivo) can help organize the large volume
+of data. A key technique is the constant comparative method (from grounded theory) – comparing
+incidents and themes within and across cases to identify patterns
+. For instance, Russell et al. noted
+that themes about <a href="../concepts/telehealth" class="internal alias" data-slug="concepts/telehealth">telehealth</a> and clinic teamwork emerged across their cases, reached saturation, and
+were compared with literature. Sometimes researchers produce visual data displays (e.g. process maps)
+to capture case dynamics.
+Throughout analysis, rigor is vital. Researchers must clearly document how they defined the case,
+collected data and ensured validity (e.g. triangulation of sources, respondent validation). As Miller et al.
+point out, case study protocols are often complicated, so transparency helps novices follow a structured
+approach
+. Fieldnotes and memos should capture researchers’ reflectio</p>
+<p>tion). As Miller et al.
+point out, case study protocols are often complicated, so transparency helps novices follow a structured
+approach
+. Fieldnotes and memos should capture researchers’ reflections and decision points,
+especially when multiple investigators contribute data. In the Melbourne study, involving clinicians as
+co-investigators promoted trustworthiness: “the study reinforces the strengths of clinician participation in
+research design, conduct and analysis,” as participants gave <a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a> on emerging findings
+Strengths and Limitations: Case studies excel at illustrating how context shapes health outcomes
+They allow “thick description” of settings and can uncover unexpected issues. For example, they have
+been used to evaluate integrated care networks in Australia, rural <a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">health services</a>, or new <a href="../concepts/roles-in-community-settings" class="internal alias" data-slug="concepts/roles-in-community-settings">patient-care</a>
+models
+. However, by focusing on depth rather than breadth, generalizability is limited. Case
+study researchers note challenges: lack of consensus on definitions, and that rich detail can make it
+hard to distill “key messages” for policy
+. To address this, analysts often summarize themes or
+produce conceptual models from cases. Ethical considerations include obtaining consent from all
+participants (including gatekeepers of a case), and being sensitive when publishing detailed narratives
+that might identify individuals or small communities.
+Ethnography and Participant Observation in Australian Health
+Settings
+Ethnography takes case study further by immersing the researcher within a health setting or
+community to observe culture and interactions over time. Its hallmark is participant observation: the
+researcher enters the field as an observer and sometimes as a participant, building <a href="../concepts/relationships" class="internal alias" data-slug="concepts/relationships">relationships</a> to see
+“how things work naturally.” For example, an ethnography of an Aboriginal health clinic might involve a
+researcher spending months at the clinic, attending health education sessions, and informally chatting
+with patients and staff. The goa</p>
+<p>e, an ethnography of an Aboriginal health clinic might involve a
+researcher spending months at the clinic, attending health education sessions, and informally chatting
+with patients and staff. The goal is to capture the lived social context of health behaviors and norms
+Methods: Ethnographic research often begins with broad questions, refined through observation. The
+researcher keeps detailed field notes, diaries and sometimes audio recordings. Notes may describe
+scenes (e.g. a clinic waiting room), <a href="../concepts/dialogue" class="internal alias" data-slug="concepts/dialogue">dialogue</a> snippets, nonverbal cues, and personal reflections.
+Interviewing is also used, but often in a casual or conversational style. In <a href="../concepts/indigenous-health" class="internal alias" data-slug="concepts/indigenous-health">Indigenous health</a> research,
+for instance, researchers may use “yarning” – informal storytelling conversations – as an entry point and</p>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>data source
+. Over time, ethnographers may try different vantage points: health care providers,
+patients, administrators. Methods like mapping social networks or charting schedules of a health center
+can add <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a>.
+For ethical practice, ethnographers must gain trust and permission. In Australia, this often means
+engaging Aboriginal health leaders or CALD community representatives before the study begins,
+adhering to any local protocols, and being transparent about one’s role. The Picture Talk Project in
+Australia demonstrated this: non-Indigenous researchers partnered with Aboriginal leaders and used
+collaborative discussions to guide consent and data collection (the project itself is a case of
+ethnographically-informed work)
+. Researchers should also maintain reflexivity (reflect on how
+their own background may influence observations) and may step back when participant observation
+reaches sensitive situations (e.g. a medical crisis).
+Insights and Analysis: Ethnographic analysis involves identifying cultural patterns, norms and
+contradictions. For instance, an ethnographer might discover that “family involvement” is a central
+unspoken expectation in patient care among s</p>
+<p>s involves identifying cultural patterns, norms and
+contradictions. For instance, an ethnographer might discover that “family involvement” is a central
+unspoken expectation in patient care among some CALD communities, even if clinic protocols exclude
+family in consultations
+. Such findings arise from noting recurring themes in field notes and
+triangulating them with interview data. Analysis can also look at power dynamics: who has a voice in a
+health setting? For example, observing that nurses in a hospital are often excluded from management
+meetings might reveal systemic issues. Ethnographic writes ups typically include descriptive vignettes
+(“thick description”) to convey the setting. Often, quotes or images (e.g. photographs with consent)
+illustrate findings.
+Strengths and Limitations: Ethnography’s strength is its depth: it reveals how culture, context, and
+interactions shape health behaviors. This is invaluable in multicultural and rural Australian contexts. For
+example, one Australian ethnography found that patient perceptions of cancer care among Aboriginal
+women were deeply influenced by cultural beliefs and <a href="../concepts/cultural-storytelling" class="internal alias" data-slug="concepts/cultural-storytelling">storytelling traditions</a> (though we lack a citation
+here, such studies exist). Ethnography can surface issues that surveys miss, such as mistrust of
+institutions or use of traditional healing alongside medicine. However, it is extremely time and labor
+intensive. Researchers often spend months in the field, which may be impractical for rapid policy needs.
+Data analysis can be daunting due to sheer volume of notes. There is also subjectivity: an
+ethnographer’s presence can alter behavior (“observer effect”), and their interpretations may be
+influenced by personal bias. Robust ethnographic work addresses these with prolonged engagement
+(longer stays reduce reactivity), member-checking (verifying themes with participants), and detailed
+methodological notes.
+For culturally diverse groups, ethnography must be done sensitively. Researchers should</p>
+<p>ays reduce reactivity), member-checking (verifying themes with participants), and detailed
+methodological notes.
+For culturally diverse groups, ethnography must be done sensitively. Researchers should respect
+language and protocol: for example, using qualified interpreters for dialogue (being careful that
+presence of an interpreter does not inhibit participants
+), or conducting fieldwork with a cultural
+broker (someone from the community). Ethics committees reviewing Australian ethnographies expect
+<a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a> to issues like who owns the data and how findings are returned to the community. For
+Indigenous research, ethical guidelines (e.g. NHMRC’s values of safety, trust, empowerment, holism,
+and reciprocity
+) are core to the process. A well-conducted ethnography can produce nuanced
+recommendations for policy (e.g. redesigning services to fit local social practices) and is often published
+with the community’s approval.</p>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Grounded Theory: Principles and Application for Developing
+Theory from Health Data
+Grounded theory (GT) is a systematic method for developing new theories grounded in data, rather
+than testing existing hypotheses. It was originally described by Glaser and Strauss in the 1960s, and
+later adapted (e.g. Charmaz’s constructivist GT). The premise is that by collecting qualitative data (often
+interviews) and iteratively coding it, one can inductively derive conceptual categories and a core
+“theory” explaining a process or phenomenon. In health research, GT is useful when little is known
+about a process (e.g. how patients adapt to a new telehealth system)
+. Robbie King et al. note that
+GT is “acknowledged as a rigorous qualitative methodology useful for exploring social processes…
+particularly when little existing knowledge or theory exists”
+Principles and Process: GT research typically involves simultaneous data collection and analysis. A key
+technique is constant comparative analysis: as transcripts are coded, each incident is</p>
+<p>exists”
+Principles and Process: GT research typically involves simultaneous data collection and analysis. A key
+technique is constant comparative analysis: as transcripts are coded, each incident is compared with
+others to refine categories. Coding usually proceeds through stages (in some approaches): open coding
+(identifying initial concepts), axial coding (relating categories), and selective coding (integrating around a
+core concept). Researchers write memos throughout to capture insights and to build a narrative of how
+categories relate. Purposive or theoretical sampling is used: early findings guide who or what data to
+collect next (for example, interviewing different stakeholder groups until categories are saturated). The
+process continues until “theoretical saturation” is reached (no new concepts emerge)
+Kathy Charmaz’s constructivist grounded theory is commonly used in recent health studies. For
+instance, King et al. (2025) provide a model of using CGT to study patient experiences during paramedic
+care
+. They illustrate GT’s tenets and emphasize maintaining rigor and credibility through constant
+comparison. In their example, researchers conducted interviews with ambulance patients (who were
+not transported to hospital) and coded iteratively to build a theory of patient experience. Such studies
+typically report the steps taken to ensure trustworthiness (e.g. peer debriefing, coding checks).
+<a href="../concepts/software" class="internal alias" data-slug="concepts/software">Applications</a>: Grounded theory has been used in many Australian health studies. Examples include
+modeling how primary care providers manage complex cases, or how families cope with chronic illness.
+A known Australian PhD thesis used CGT to explain how nurses adopted <a href="../concepts/evidence-based-decision-making" class="internal alias" data-slug="concepts/evidence-based-decision-making">evidence-based practice</a>;
+another built a process model for adolescents seeking <a href="../concepts/mental-health" class="internal alias" data-slug="concepts/mental-health">mental health</a> help. For policy advisors, GT
+studies can yield actionable frameworks (e.g. a theory of “stages of care navigation” in migrants) which
+highlight leverage points (e.g. a need for interpreter <a href="../concepts/training" class="internal alias" data-slug="concepts/training">training</a> at a spe</p>
+<p>olicy advisors, GT
+studies can yield actionable frameworks (e.g. a theory of “stages of care navigation” in migrants) which
+highlight leverage points (e.g. a need for interpreter training at a specific stage). When presenting to
+stakeholders, GT findings often include a clear model or paradigm (sometimes diagrammatic) with core
+categories and their relationships.
+Strengths and Limitations: The main strength of GT is theory generation rooted in empirical data. It is
+well-suited for novel or complex phenomena (e.g. emerging health technologies, unexplored patient
+experiences), and can reveal processes invisible to purely descriptive methods. However, GT is resource-
+intensive: data collection and analysis are entwined and iterative, which can prolong timelines.
+Analytically, GT can be challenging: novice researchers may feel “disoriented” by the open-ended coding
+process
+. There is also a risk of forcing data into preconceived categories if not careful. Importantly,
+GT findings can lack breadth (theories may be substantive and context-specific), so researchers often
+caution against over-generalization.
+Practical Guidance: To use GT in population health, start with a clear research question that is open-
+ended (e.g. “How do rural families decide to seek care?”). Recruit participants purposively to capture
+diverse perspectives. Collect data (often semi-structured interviews) until no new themes arise. Use
+qualitative analysis software to tag data and <a href="../concepts/feynmans-three-step-scientific-method" class="internal alias" data-slug="concepts/feynmans-three-step-scientific-method">compare</a> codes. Ground findings in quotes to show</p>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>spectives. Collect data (often semi-structured interviews) until no new themes arise. Use
+qualitative analysis software to tag data and compare codes. Ground findings in quotes to show</p>
+<hr/>
+<h2 id="page-6-1">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>evidence for the theory. Crucially, maintain reflexivity: for constructivist GT, acknowledge how the
+researcher’s interpretations shape the emerging theory. Ensure credibility by detailing procedures
+(audit trails of coding, multiple coders) so that others can follow the logic. While GT can be “messy”,
+published guidelines (e.g. Charmaz 2014) can demystify steps
+Phenomenology: Exploring Lived Experiences in Health and
+Illness
+Phenomenology is a qualitative approach focused on capturing the essence of people’s lived experiences
+regarding a phenomenon, such as being diagnosed with diabetes, living with <a href="../concepts/chronic-pain" class="internal alias" data-slug="concepts/chronic-pain">chronic pain</a>, or
+experiencing a public health crisis. The term comes from philosophical traditions (Husserl, Heidegger),
+but in research practice it usually means collecting detailed first-person accounts and analyzing them to
+describe the meaning of the experience
+. For example, a phenomenological study might interview
+patients about “what it feels like to live with late-stage kidney disease” or ask nurses about “the
+experience of providing palliative care.”
+Approach: Phenomenological studies typically use in-depth, semi-structured interviews (often one-
+on-one). The interviewer encourages participants to describe their experiences in detail, using <a href="../concepts/open-ended-questions" class="internal alias" data-slug="concepts/open-ended-questions">open-
+ended questions</a> (e.g. “Tell me about your experience of…”). The researcher practices bracketing (trying
+to set aside preconceptions) to focus on participants’ perspectives. In analysis, phenomenologists aim
+to identify the common structures of the experience. As one methodology guide explains,
+“phenomenological approaches seek to capture the lived experience of a subject about a phenomenon,
+to understand how this phenomenon appears in the individual’s conscious experience”
+. Experience
+is vi</p>
+<p>omenological approaches seek to capture the lived experience of a subject about a phenomenon,
+to understand how this phenomenon appears in the individual’s conscious experience”
+. Experience
+is viewed as “uniquely perspectival, embodied, and situated”
+Various traditions exist. Descriptive phenomenology (e.g. Giorgi, Colaizzi methods) emphasizes
+articulating the universal essence of the phenomenon. Interpretive (hermeneutic) phenomenology
+(e.g. IPA – Interpretative Phenomenological Analysis) looks at how individuals interpret their
+experiences. A study might use IPA by having participants recount a health crisis and the researcher
+analyzing the structure of their narrative. Many health researchers use phenomenology for issues like
+chronic illness, mental health, or recovery journeys. For instance, Ogunsiji et al. (2023) used an
+interpretative phenomenological approach to explore how Australian primary healthcare providers
+experience caring for women with FGM/C
+. In that study, 19 providers were interviewed and
+transcripts analyzed to uncover themes about their knowledge, attitudes, and cultural challenges
+This is a typical phenomenological application: focusing on personal perspectives in context.
+Strengths and Limitations: Phenomenology is unmatched at giving a rich, empathetic understanding
+of an issue from the participant’s point of view. It can reveal aspects of experience that statistics cannot,
+such as the emotional impact of illness or the hidden burdens patients carry. This depth can inform
+sensitive policy decisions (e.g. how to support mental health patients beyond clinical measures).
+However, phenomenology usually involves small, homogenous samples (often &lt;20 participants), so
+findings are not numerically generalizable. Analysis can be complex and time-consuming, requiring
+careful reading of transcripts and possibly specialized methods (e.g. IPA procedures). Some critics note
+that phenomenological language (essences, bracketing) can be abstract</p>
+<p>time-consuming, requiring
+careful reading of transcripts and possibly specialized methods (e.g. IPA procedures). Some critics note
+that phenomenological language (essences, bracketing) can be abstract; researchers must translate
+findings into practical insights.
+When working with CALD participants, language is a key concern. Interviews ideally occur in the
+participant’s preferred language, with a skilled interpreter if necessary, to capture nuance. For
+Indigenous research, a similar concept is used: Yarning conversations, which allow participants to share
+stories in a culturally familiar way, have been positioned as a culturally safe qualitative method
+. In</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>fact, Kennedy et al. found Yarning to privilege Indigenous knowledge systems, though many published
+studies lack detail on how Yarning was conducted
+. Researchers should ensure that
+phenomenological interviews with CALD or Indigenous people respect cultural norms (e.g. involving
+family if culturally appropriate, conducting interviews on Country with permission).
+Ethically, phenomenology can surface painful or personal experiences (e.g. trauma, stigma).
+Researchers must be prepared to provide support or referrals, and ensure participants are comfortable.
+Interview recordings and transcripts should be handled securely, and any identifying details carefully
+anonymized, as participants often share sensitive health narratives. Despite these challenges,
+phenomenological insights have power: policy advisors can use them to humanize data (e.g. including
+patient quotes in reports) and to design patient-centered programs.
+Narrative Inquiry: Understanding Health Experiences Through
+Stories
+Narrative inquiry is a qualitative methodology that focuses on the stories people tell about their
+health journeys. Unlike <a href="../concepts/flow-management" class="internal alias" data-slug="concepts/flow-management">thematic analysis</a> which extracts topics across interviews, narrative inquiry
+preserves the sequence and structure of each person’s account. It views each participant’s story as a
+meaningful whol</p>
+<p>e thematic analysis which extracts topics across interviews, narrative inquiry
+preserves the sequence and structure of each person’s account. It views each participant’s story as a
+meaningful whole, shaped by personal identity and context. In health research, narrative methods can
+reveal how people make sense of illness and care over time.
+Method: Researchers using narrative inquiry collect data through open storytelling interviews or
+sometimes written/visual life stories. <a href="../entities/the-interview" class="internal alias" data-slug="entities/the-interview">The interview</a> setting encourages participants to share a coherent
+story, prompted by questions like “Tell me about when you first noticed the symptoms.” The researcher
+listens for narrative elements (characters, plot, turning points) and may use techniques like timeline
+activities or digital storytelling. For example, Durkin et al. (2022) used narrative inquiry to study
+compassionate care in Australian hospitals
+. They interviewed 24 patients and staff, asking them to
+describe experiences of giving or receiving <a href="../concepts/compassion" class="internal alias" data-slug="concepts/compassion">compassion</a>. Instead of coding answers to separate
+questions, the researchers treated each account as a story of “compassion in action”
+Analysis in narrative research can take different forms. Some analysts identify common narrative
+themes (e.g. journeys from illness to <a href="../concepts/wellness" class="internal alias" data-slug="concepts/wellness">wellness</a>) or plotlines. Others use frameworks like Ricoeur’s or
+Polkinghorne’s that look at how the narrative is constructed. In Durkin et al.’s study, <a href="../concepts/narrative-theory" class="internal alias" data-slug="concepts/narrative-theory">narrative analysis</a>
+produced a thematic framework (combining themes like “knowledge and skills” and “actions to alleviate
+suffering”)
+. They then wove together the stories of patients and professionals to show overlapping
+dynamics. Importantly, narratives are often reported with significant excerpts or entire short stories to
+let the reader see the <a href="../concepts/continuity" class="internal alias" data-slug="concepts/continuity">continuity</a> of the experience.
+Strengths and Limitations: Narrative inquiry captures context and identity in a way that stripped-down
+interviews do not. It can highlight, for example, how an immigrant patient</p>
+<p>ity of the experience.
+Strengths and Limitations: Narrative inquiry captures context and identity in a way that stripped-down
+interviews do not. It can highlight, for example, how an immigrant patient’s cancer journey is influenced
+by cultural stigma and family roles, all woven into a single narrative. The outcomes can be very
+engaging: a policymaker reading a patient’s story may better remember key issues than reading a list of
+themes. Narratives also respect the participant as an active sense-maker, not just a respondent.
+However, narrative methods require skill in interviewing (to elicit coherent stories) and analysis (to
+interpret narrative structure). Data analysis can be more interpretive and less standardized, which some
+reviewers may see as subjective. There’s also a risk of oversimplifying by forcing complex stories into
+neat plots.
+When conducting narrative research with CALD or Indigenous people, cultural context is paramount.
+Some cultures have storytelling traditions (e.g. Ancestral storytelling) that can enrich narrative inquiry,</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>tive research with CALD or Indigenous people, cultural context is paramount.
+Some cultures have storytelling traditions (e.g. Ancestral storytelling) that can enrich narrative inquiry,</p>
+<hr/>
+<h2 id="page-8-1">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>but also require sensitivity (e.g. not all stories should be recorded). Consent must address the use of
+personal stories. Additionally, researchers should be mindful of translator bias: if an interpreter is
+present, they are part of the story-making process. Engaging community advisors in interpreting
+narratives can help ensure cultural meanings are not lost.
+Pragmatically, narrative inquiry is well-suited to exploratory questions about personal experience and
+meaning. It is less suitable for questions requiring short answers or purely factual data. Policy advisors
+might commission a narrative inquiry to understand patient or provider experiences around an issue
+(e.g. “What is the lived experience of long COVID in elderly Australians?”) and use those narratives to
+inform practice guidelines or public communications.
+Participatory Action Research (PAR) and Community-Based
+Participatory Research (CBPR) in Australian Health
+Participatory Action Research (PAR) and Community-Based Participatory Research (CBPR) place
+communities and stakeholders at the center of research. Instead of research on people, these methods
+involve people as co-researchers. The aims are twofold: (1) generate actionable knowledge (research for
+action) and (2) empower participants and address power imbalances. In Australian health settings, PAR/
+CBPR is often used with marginalized or underserved communities (e.g. Aboriginal communities,
+migrants, people with disabilities) to co-design solutions to health problems.
+Principles: Key principles include respect, co-<a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a>, shared decision-making, and focus on practical
+outcomes. Unlike other methods, PAR/CBPR typically involves cycles of planning, action, observation
+and reflection. For example, a PAR project in a remote town might begin with a com</p>
+<p>ocus on practical
+outcomes. Unlike other methods, PAR/CBPR typically involves cycles of planning, action, observation
+and reflection. For example, a PAR project in a remote town might begin with a community workshop
+to identify health priorities, then collaboratively develop an intervention, pilot it, and then reflect and
+refine it with the community. Researchers act as facilitators and resources, not as external experts
+imposing agendas. An example Australian project is “Healing the Past by Nurturing the Future”, an
+Aboriginal-led CBPAR study co-designing perinatal strategies for parents with complex trauma
+. This
+project involved Aboriginal community members, researchers and health providers working together in
+cycles of evidence review, discussion groups, and planning workshops
+Another example is a disability-focused co-design case study: Benz et al. (2024) describe a telepractice
+redesign project using community-based participatory co-design. They report that involving people with
+lived experience (disabled community members) through workshops led to more accessible service
+models, balancing idealism with realism, and building shared insights
+. Their conclusion was
+explicit: “co-design is a useful and outcome-generating methodology that proactively enables the inclusion of
+people with disability and service providers through community-based participatory research and
+action.”
+Practical Steps: To conduct PAR/CBPR in an Australian health context, a team should build strong
+partnerships with the community or stakeholder group from the outset. Establish a steering group or
+advisory committee including community leaders, service users, and local professionals. Co-create the
+research question with them. Methods often include focus groups, community forums, surveys, and
+creative workshops, all with shared facilitation. Data analysis and interpretation are done jointly:
+community members help make sense of findings. Importantly, the research aims to lead to some</p>
+<p>, and
+creative workshops, all with shared facilitation. Data analysis and interpretation are done jointly:
+community members help make sense of findings. Importantly, the research aims to lead to some
+immediate action or policy change (e.g. a new clinic guideline, health education program).
+Empowering Communities: An advantage of PAR/CBPR is empowering participants and ensuring
+research benefits them. It builds capacity (e.g. training community members in data collection) and
+respects their knowledge. This approach aligns with ethical imperatives in Australia, especially in</p>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Indigenous contexts. For instance, the “Healing the Past” project explicitly centers Aboriginal <a href="../concepts/leadership" class="internal alias" data-slug="concepts/leadership">leadership</a>
+and meets NHMRC Indigenous Research <a href="../concepts/excellence" class="internal alias" data-slug="concepts/excellence">Excellence</a> criteria (community engagement, benefit, capacity-
+building)
+. It also integrates cultural values of safety, trust, empowerment and reciprocity
+Challenges and Limitations: PAR/CBPR requires significant time and flexibility. Funders’ timelines may
+not easily accommodate iterative cycles. Power dynamics can be challenging to manage: researchers
+must be willing to share power (and credit) with community members. Outcomes can be messier than
+traditional research – for example, a pilot program may not succeed initially, and the process of
+reflection and revision must be valued as data. Reporting PAR/CBPR work is also challenging: academic
+journals often favor positivist metrics, while PAR values local change. Researchers should plan
+publications that honor co-researchers (e.g. co-authorship) and consider dissemination in plain
+language to the community.
+Arts-Based Research Methods in Health
+Arts-based research (ABR) methods use creative modalities to collect, analyze or present data, making
+the research process itself an act of expression. These include photovoice (participants take and discuss
+photographs), digital storytelling, body mapping, theatre workshops, poetry, music, and more. ABR is
+increasingly popular in health r</p>
+<p>xpression. These include photovoice (participants take and discuss
+photographs), digital storytelling, body mapping, theatre workshops, poetry, music, and more. ABR is
+increasingly popular in health research because it engages participants more fully and can
+communicate findings in compelling ways
+For example, a recent Australian study used photovoice in remote Aboriginal communities to address
+food <a href="../concepts/security" class="internal alias" data-slug="concepts/security">security</a>. Caregivers took photographs of food-related scenes and discussed them in workshops.
+Themes like use of traditional foods and high cost of healthy food emerged, and importantly community
+leaders used the photos and discussion to prioritize advocacy actions
+. This shows photovoice’s
+power: it generated data (images + narratives) that were immediately useful to the community for
+lobbying policy makers
+Other ABR Methods: - Digital storytelling lets participants create short video stories combining images,
+text and narration. For instance, migrants with chronic illness might record their journey in a video,
+which can then be analyzed or shown to healthcare providers to foster <a href="../concepts/empathy" class="internal alias" data-slug="concepts/empathy">empathy</a>.</p>
+<ul>
+<li>Body mapping involves participants creating life-size drawings of their bodies to express experiences
+(often used in sexual health or chronic illness research).</li>
+<li>Theatre or drama (e.g. forum theatre) engages participants in acting out scenarios (used, for example,
+in sexual health education among First Nations youth
+). - Mural making or collaborative art projects
+have been used in community <a href="../concepts/health-promotion" class="internal alias" data-slug="concepts/health-promotion">health promotion</a>.</li>
+<li>Writing or poetry workshops can be ABR methods to explore mental health or identity.
+These methods fall under the broader category of ABR described by Durbin et al.: “ABR practices
+emphasize process, arts products, or both, and the outcomes amplify local knowledge and voices…
+[and] involve growing and nurturing group potential and place-based knowledges”
+. They often
+position the researcher as a co-facilitator of creativity rather than an outside observer
+Strengths and</li>
+</ul>
+<p>�
+[and] involve growing and nurturing group potential and place-based knowledges”
+. They often
+position the researcher as a co-facilitator of creativity rather than an outside observer
+Strengths and Insights: ABR can engage participants who might be excluded by traditional interviews
+(e.g. those with low literacy, children, or people uncomfortable with formal research). It allows
+expression beyond words; a photograph or drawing can convey emotions or cultural context powerfully.
+For example, body maps have helped Aboriginal patients express pain and strength in healing in ways
+that words alone could not. The very act of creation can be therapeutic or empowering. ABR outputs
+(exhibitions, videos, performances) can also directly inform and move stakeholders.</p>
+<hr/>
+<h2 id="page-10">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Challenges and Limitations: Analyzing arts-based data requires interpretive skill. Researchers must
+carefully decide how to code or thematically analyze images or performances, often in consultation with
+participants. Ensuring that analysis honors the creators’ intent is key. Funding and ethics can be
+hurdles: some ethics boards may not be familiar with ABR, so researchers must explain consent
+procedures (e.g. photo release forms for photovoice) and confidentiality (who owns the artwork?). There
+is also a risk of cultural insensitivity: an art form appropriate for one community might offend another.
+For instance, certain traditional symbols in Aboriginal art have strict permissions, so ABR projects must
+work closely with cultural leaders to avoid misuse.
+Despite these challenges, ABR is well-suited to Australia’s diverse population health research because it
+aligns with many cultures’ rich artistic traditions. It offers “qualitative vignettes” of lived experience that
+resonate with policy audiences. As Durkin et al. (2022) note, narratives and artistic expressions can
+make the complex notion of “compassion” in hospitals tangible for clinicians and administrators
+Similarly, photovo</p>
+<p>audiences. As Durkin et al. (2022) note, narratives and artistic expressions can
+make the complex notion of “compassion” in hospitals tangible for clinicians and administrators
+Similarly, photovoice projects have highlighted resource disparities in remote communities in a way that
+press releases and reports might not. Policymakers and planners are increasingly receptive to ABR
+outputs; a striking photo or story can catalyze change.
+Suitability, Strengths, and Limitations of Each Method for
+Different Population Health Questions in Australia
+The methodologies described above each have particular niches in population health research. The
+choice of method should align with the research question, context, and stakeholders involved. Below is
+a comparative overview:
+Case Study Research: Suitability: Examining complex programs or systems (e.g. an integrated
+care pilot, a regional health campaign, a hospital during an outbreak). Strengths: Rich contextual
+insight, triangulation of diverse data, useful for policy evaluation and for “learning while doing”.
+Limitations: Limited generalizability; findings may not apply beyond the specific case; time-
+consuming data collection. Requires careful definition of case boundaries. Example: Studying
+how a Melbourne GP network adapted to COVID-19, as discussed earlier
+Ethnography/Participant Observation:
+Suitability:
+Understanding cultural and social
+dimensions of health behaviors (e.g. indigenous health practices, migration and health beliefs,
+rural clinic <a href="../concepts/workflow" class="internal alias" data-slug="concepts/workflow">workflow</a>). Strengths: Deep immersion yields insights on norms and relationships;
+reveals hidden factors (like patient-provider trust, or communal practices). Limitations: Very time-
+intensive; findings may be hard to summarize for policymakers; researcher bias risk. Ethical
+complexities if researcher participates in sensitive settings. Consideration: In CALD contexts,
+includes building trust (e.g. through cultural brokers) and possibly adapting data collection
+methods (like Y</p>
+<p>exities if researcher participates in sensitive settings. Consideration: In CALD contexts,
+includes building trust (e.g. through cultural brokers) and possibly adapting data collection
+methods (like Yarning)
+Grounded Theory: Suitability: Exploring processes or actions where little theory exists (e.g. how
+patients navigate telemedicine, how health promotion spreads in communities). Strengths:
+Generates conceptual models that can inform interventions; systematic yet open to new
+insights. Limitations: Demands iterative coding and analysis, which can be daunting; resulting
+theory may be narrow (specific to context). Care needed to avoid over-interpretation. Example:
+Building a theory of how rural families decide to seek emergency care or how nurses adapt to
+<a href="../concepts/policy-changes" class="internal alias" data-slug="concepts/policy-changes">policy changes</a>.
+Phenomenology (including IPA): Suitability: Delving into subjective experiences of patients or
+providers (e.g. living with a chronic condition, coping with stigma, professional burnout).
+•
+•
+•
+•</p>
+<hr/>
+<h2 id="page-11">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Strengths: Captures essence of experience and meaning, providing empathetic understanding
+that can inform <a href="../concepts/personalised-care" class="internal alias" data-slug="concepts/personalised-care">patient-centered care</a> policies. Limitations: Small samples and individualized
+results; analysis jargon can be challenging for non-researchers; requires skilled interviewing.
+Researchers must avoid imposing their views. CALD Note: Interviews may require interpreters;
+phenomenological concepts of “lived space” and “embodied experience” can vary culturally, so
+researchers should involve cultural consultants.
+Narrative Inquiry: Suitability: Investigating how people construct their health stories (e.g.
+migrants’ journeys through the <a href="../concepts/health-system" class="internal alias" data-slug="concepts/health-system">health system</a>, or healthcare workers’ career narratives).
+Strengths: Emphasizes identity, temporality and context in each person’s experience; can produce
+compelling accounts for training or advocacy. Limitations: Analysis may be less standardized; very
+individual-focused, which can be seen as anecdotal. Not ideal for quick surveys. Policy Use</p>
+<p>n produce
+compelling accounts for training or advocacy. Limitations: Analysis may be less standardized; very
+individual-focused, which can be seen as anecdotal. Not ideal for quick surveys. Policy Use:
+Patient or staff stories from narrative studies can be shared to illustrate systemic issues in a
+humanizing way.
+Participatory Action Research / CBPR: Suitability: Addressing community health issues that
+require co-designed solutions (e.g. preventing chronic disease in Aboriginal communities,
+improving maternity services for migrant women). Strengths: Builds local ownership of
+interventions; tends to produce more culturally appropriate and sustainable solutions;
+empowers participants. Limitations: Requires long-term commitment, flexible design; outcomes
+can’t be predicted at the outset. Researchers and funders must accept iterative, sometimes
+messy processes. Ethics: Must adhere to principles of equity and community benefit. Example: An
+Aboriginal-led project co-designing perinatal mental health supports
+, or a refugee health
+center working with its clients to redesign services.
+Arts-Based Methods: Suitability: Engaging marginalized groups (e.g. youth, refugees, low-
+literacy populations) or exploring emotionally intense topics (e.g. trauma, stigma). Strengths:
+Highly engaging; produces rich, multi-sensory data; outcomes (photos, art) can be powerful
+communication tools. Limitations: Unconventional analysis; can be dismissed by some as “soft”.
+Logistics like gallery exhibits or video equipment need planning. Consent for images and
+<a href="../concepts/intellectual-property-rights" class="internal alias" data-slug="concepts/intellectual-property-rights">intellectual property</a> are extra ethical considerations. <a href="../concepts/innovation" class="internal alias" data-slug="concepts/innovation">Innovation</a>: A method like photovoice can
+be particularly useful in CALD or Indigenous communities as it transcends language barriers
+In deciding which method to use, Australian health researchers should consider the population and
+questions. For example, a study on <a href="../concepts/healthcare-policy" class="internal alias" data-slug="concepts/healthcare-policy">health policy</a> <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">implementation</a> across diverse clinics might use case
+study or grounded theory; research on Indigenous h</p>
+<p>researchers should consider the population and
+questions. For example, a study on health policy implementation across diverse clinics might use case
+study or grounded theory; research on Indigenous health beliefs might use ethnography and
+yarning; a youth mental health program might incorporate participatory workshops with art; and an
+inquiry into patient satisfaction might benefit from narrative interviews. Mixed-methods approaches
+(e.g. embedding an ethnographic sub-study within a survey) can combine strengths.
+In summary, advanced qualitative methods enrich Australian population health research by capturing
+complexity, context, and voice. Each method’s strengths (e.g. context, depth, empowerment) must be
+balanced against its limitations (e.g. scope, generalizability, resource needs)
+. Researchers
+should plan thoughtfully, involve stakeholders, and follow ethical best practices (including special
+guidelines when working with CALD and Indigenous groups
+). By going “beyond the basics,”
+policy advisors and multidisciplinary teams can generate insights that more accurately reflect Australia’s
+diverse populations and inform better health outcomes.
+Sources: The discussion above draws on qualitative health research literature, including Australian
+examples and global methodology reviews
+. Case examples cited (Melbourne GP case
+•
+•
+•</p>
+<hr/>
+<h2 id="page-12">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>study
+, FGM/C phenomenology
+, Aboriginal photovoice
+, etc.) come from published studies. All
+claims and examples are supported by the cited sources.</p>
+<hr/>
+<h2 id="page-13">Page 13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-13" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>case
+•
+•
+•</p>
+<hr/>
+<h2 id="page-12-1">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>study
+, FGM/C phenomenology
+, Aboriginal photovoice
+, etc.) come from published studies. All
+claims and examples are supported by the cited sources.</p>
+<hr/>
+<h2 id="page-13-1">Page 13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-13-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Case study research for better evaluations of complex interventions: rationale and challenges |
+BMC Medicine | Full Text
+<a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01777-6" class="external" target="_blank" rel="noopener noreferrer">https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01777-6<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+“Simplifying Qualitative Case Study Research Methodology: A Step-By-Ste” by Elizabeth M. Miller
+Mrs, Joanne E. Porter Professor et al.
+<a href="https://nsuworks.nova.edu/tqr/vol28/iss8/8/" class="external" target="_blank" rel="noopener noreferrer">https://nsuworks.nova.edu/tqr/vol28/iss8/8/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+A specific method for qualitative medical research: the IPSE (Inductive Process to analyze the
+Structure of lived Experience) approach | BMC Medical Research Methodology | Full Text
+<a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-01099-4" class="external" target="_blank" rel="noopener noreferrer">https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-01099-4<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Decolonising qualitative research with respectful, reciprocal, and responsible research practice: a
+narrative review of the application of Yarning method in qualitative Aboriginal and Torres Strait Islander
+health research - PubMed
+<a href="https://pubmed.ncbi.nlm.nih.gov/36100899/" class="external" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/36100899/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+A Practical Example of How to Apply Constructivist Grounded Theory Methodology: Exploring
+Patient Experiences During Paramedic Led Healthcare - PubMed
+<a href="https://pubmed.ncbi.nlm.nih.gov/40237286/" class="external" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/40237286/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Experiences of Primary Healthcare Workers in Australia towards Women and Girls Living with
+Female Genital Mutilation/Cutting (FGM/C): A Qualitative Study - PubMed
+<a href="https://pubmed.ncbi.nlm.nih.gov/36900707/" class="external" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/36900707/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Compassionate practice in a hospital setting. Experiences of patients and health
+professionals: A narrative inquiry - PubMed
+<a href="https://pubmed.ncbi.nlm.nih.gov/34723403/" class="external" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/34723403/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Community-based participatory-research through co-design: supporting collaboration from all
+sides of disability | Research Involvement and Engagement | Full Text
+<a href="https://researchinvolvement.biomedcentral.com/articles/10.1186/s40900-024-00573-3" class="external" target="_blank" rel="noopener noreferrer">https://researchinvolvement.biomedcentral.com/articles/10.1186/s40900-024-00573-3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Healing the Past by Nurturing the Future-co-designing perinatal strategies for</p>
+<p>Involvement and Engagement | Full Text
+<a href="https://researchinvolvement.biomedcentral.com/articles/10.1186/s40900-024-00573-3" class="external" target="_blank" rel="noopener noreferrer">https://researchinvolvement.biomedcentral.com/articles/10.1186/s40900-024-00573-3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Healing the Past by Nurturing the Future-co-designing perinatal strategies for Aboriginal and
+Torres Strait Islander parents experiencing complex trauma: framework and protocol for a community-
+based participatory action research study - PubMed
+<a href="https://pubmed.ncbi.nlm.nih.gov/31189682/" class="external" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/31189682/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+(PDF) Answering tough questions: Why is qualitative research essential for public health?
+<a href="https://www.researchgate.net/publication/" class="external" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/publication/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+380901517_Answering_tough_questions_Why_is_qualitative_research_essential_for_public_health
+Reframing Health Promotion Research and Practice in Australia and the Pacific: The Value of
+Arts-Based Practices - Arts and Health Promotion - NCBI Bookshelf
+<a href="https://www.ncbi.nlm.nih.gov/books/NBK585547/" class="external" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/books/NBK585547/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+A qualitative study of negative sociocultural experiences of accessing primary health care services
+among Africans from refugee backgrounds in Australia: implications for organisational health literacy |
+BMC Primary Care | Full Text
+<a href="https://bmcprimcare.biomedcentral.com/articles/10.1186/s12875-024-02567-2" class="external" target="_blank" rel="noopener noreferrer">https://bmcprimcare.biomedcentral.com/articles/10.1186/s12875-024-02567-2<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Access to health services among culturally and linguistically diverse populations in the Australian
+universal health care system: issues and challenges | BMC Public Health | Full Text
+<a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-13256-z" class="external" target="_blank" rel="noopener noreferrer">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-13256-z<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+At the edge of chaos: A prospective multiple case study in Australian general practices
+adapting to COVID-19 - New Jersey Research Community
+<a href="https://www.researchwithnj.com/en/publications/at-the-edge-of-chaos-a-prospective-multiple-case-study-in-austral" class="external" target="_blank" rel="noopener noreferrer">https://www.researchwithnj.com/en/publications/at-the-edge-of-chaos-a-prospective-multiple-case-study-in-austral<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<hr/>
+<h2 id="page-14">Page 14<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-14" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>general practices
+adapting to COVID-19 - New Jersey Research Community
+<a href="https://www.researchwithnj.com/en/publications/at-the-edge-of-chaos-a-prospective-multiple-case-study-in-austral" class="external" target="_blank" rel="noopener noreferrer">https://www.researchwithnj.com/en/publications/at-the-edge-of-chaos-a-prospective-multiple-case-study-in-austral<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<hr/>
+<h2 id="page-14-1">Page 14<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-14-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Using photovoice to generate solutions to improve food security among families living in remote
+Aboriginal and/or Torres Strait Islander communities in Australia | BMC Public Health | Full Text
+<a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-18200-x" class="external" target="_blank" rel="noopener noreferrer">https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-024-18200-x<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+[PDF] Participatory theatre for sexual health education in First Nations …
+<a href="https://yumi-sabe.aiatsis.gov.au/sites/default/files/outputs/2024-06/2024_03_13%20Ilbijeri%20Report_DIGITAL.pdf" class="external" target="_blank" rel="noopener noreferrer">https://yumi-sabe.aiatsis.gov.au/sites/default/files/outputs/2024-06/2024_03_13%20Ilbijeri%20Report_DIGITAL.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/grounded-theory" class="internal alias" data-slug="concepts/grounded-theory">Grounded Theory</a> — <a href="https://en.wikipedia.org/wiki/Grounded_Theory" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/thematic-analysis" class="internal alias" data-slug="concepts/thematic-analysis">data analysis</a> — <a href="https://en.wikipedia.org/wiki/data_analysis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/theory-development" class="internal alias" data-slug="concepts/theory-development">theory development</a> — <a href="https://en.wikipedia.org/wiki/theory_development" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/my-health-record-data" class="internal alias" data-slug="concepts/my-health-record-data">health data</a> — <a href="https://en.wikipedia.org/wiki/health_data" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/peer-reviewed-research" class="internal alias" data-slug="concepts/peer-reviewed-research">peer-reviewed research</a> — <a href="https://en.wikipedia.org/wiki/peer-reviewed_research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/qualitative-research" class="internal alias" data-slug="concepts/qualitative-research">Qualitative Research Methodologies</a> — <a href="https://en.wikipedia.org/wiki/Qualitative_Research_Methodologies" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Population Health Research — <a href="https://en.wikipedia.org/wiki/Population_Health_Research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Case Study Research — <a href="https://en.wikipedia.org/wiki/Case_Study_Research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/cultural-anthropology" class="internal alias" data-slug="concepts/cultural-anthropology">Ethnography</a> — <a href="https://en.wikipedia.org/wiki/Ethnography" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Participant Observation — <a href="https://en.wikipedia.org/wiki/Participant_Observation" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/presence" class="internal alias" data-slug="concepts/presence">Phenomenology</a> — <a href="https://en.wikipedia.org/wiki/Phenomenology" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Interpretative Approaches — <a href="https://en.wikipedia.org/wiki/Interpretative_Approaches" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Narrative Inquiry — <a href="https://en.wikipedia.org/wiki/Narrative_Inquiry" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/participatory-research" class="internal alias" data-slug="concepts/participatory-research">Participatory Action Research</a> — <a href="https://en.wikipedia.org/wiki/Participatory_Action_Research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/participatory-research" class="internal alias" data-slug="concepts/participatory-research">Community-Based Participatory Research</a> — <a href="https://en.wikipedia.org/wiki/Community-Based_Participatory_Research" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Arts-Based Methods — <a href="https://en.wikipedia.org/wiki/Arts-Based_Methods" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Photovoice — <a href="https://en.wikipedia.org/wiki/Photovoice" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Digital Storytelling — <a href="https://en.wikipedia.org/wiki/Digital_Storytelling" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Body Mapping — <a href="https://en.wikipedia.org/wiki/Body_Mapping" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/bmc-medicine" class="internal alias" data-slug="entities/bmc-medicine">BMC Medicine</a> — <a href="https://en.wikipedia.org/wiki/BMC_Medicine" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Biomed Central — <a href="https://en.wikipedia.org/wiki/Biomed_Central" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Australian Population Health — <a href="https://en.wikipedia.org/wiki/Australian_Population_Health" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Aboriginal Community — <a href="https://en.wikipedia.org/wiki/Aboriginal_Community" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Policy Makers — <a href="https://en.wikipedia.org/wiki/Policy_Makers" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/allied-health-professionals" class="internal alias" data-slug="concepts/allied-health-professionals">Healthcare Practitioners</a> — <a href="https://en.wikipedia.org/wiki/Healthcare_Practitioners" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9670" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#interpretative-approaches-focus-on-capturing-peoples-lived-experiences-of-illness-or-health-eg-patients-journeys-provider-experiences--narrative-inquiry-uses-story-based-interviews-to-understand-how-individuals-make-meaning-of-health-events--participatory-action-research-par-and-community-based-participatory-research-cbpr-engage-communities-directly-in-all-research-stages--co-designing-conducting-and-applying-research-to-empower-th" data-for="interpretative-approaches-focus-on-capturing-peoples-lived-experiences-of-illness-or-health-eg-patients-journeys-provider-experiences--narrative-inquiry-uses-story-based-interviews-to-understand-how-individuals-make-meaning-of-health-events--participatory-action-research-par-and-community-based-participatory-research-cbpr-engage-communities-directly-in-all-research-stages--co-designing-conducting-and-applying-research-to-empower-th">interpretative approaches focus on capturing people’s lived experiences of illness or health (e.g. patients’ journeys, provider experiences) . Narrative inquiry uses story-based interviews to understand how individuals make meaning of health events . Participatory Action Research (PAR) and Community-Based Participatory Research (CBPR) engage communities directly in all research stages – co-designing, conducting and applying research to empower th’</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-3-1" data-for="page-3-1">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-6-1" data-for="page-6-1">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-8-1" data-for="page-8-1">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-10" data-for="page-10">Page 10</a></li><li class="depth-0"><a href="#page-11" data-for="page-11">Page 11</a></li><li class="depth-0"><a href="#page-12" data-for="page-12">Page 12</a></li><li class="depth-0"><a href="#page-13" data-for="page-13">Page 13</a></li><li class="depth-0"><a href="#page-12-1" data-for="page-12-1">Page 12</a></li><li class="depth-0"><a href="#page-13-1" data-for="page-13-1">Page 13</a></li><li class="depth-0"><a href="#page-14" data-for="page-14">Page 14</a></li><li class="depth-0"><a href="#page-14-1" data-for="page-14-1">Page 14</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/grounded-theory" class="internal">grounded-theory</a></li><li><a href="../concepts/my-health-record-data" class="internal">my-health-record-data</a></li><li><a href="../concepts/peer-reviewed-research" class="internal">peer-reviewed-research</a></li><li><a href="../concepts/theory-development" class="internal">theory-development</a></li><li><a href="../entities/bmc-medicine" class="internal">bmc-medicine</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

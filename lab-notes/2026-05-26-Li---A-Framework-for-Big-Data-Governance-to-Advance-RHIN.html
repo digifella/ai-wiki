@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Li - A Framework for Big Data Governance to Advance RHINs A Case Study of China · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Li - A Framework for Big Data Governance to Advance RHINs A Case Study of China · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Li - A Framework for Big Data Governance to Advance RHINs A Case Study of China · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘SPECIAL SECTION ON DATA-ENABLED INTELLIGENCE FOR DIGITAL HEALTH’ source_type: ‘Academic’ publisher: ‘Springer’ publishing_date: ‘March 11, 2019’ authors: [‘Received March 11’, ‘..."/><meta property="og:description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘SPECIAL SECTION ON DATA-ENABLED INTELLIGENCE FOR DIGITAL HEALTH’ source_type: ‘Academic’ publisher: ‘Springer’ publishing_date: ‘March 11, 2019’ authors: [‘Received March 11’, ‘..."/><meta property="og:image:alt" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘SPECIAL SECTION ON DATA-ENABLED INTELLIGENCE FOR DIGITAL HEALTH’ source_type: ‘Academic’ publisher: ‘Springer’ publishing_date: ‘March 11, 2019’ authors: [‘Received March 11’, ‘..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Li---A-Framework-for-Big-Data-Governance-to-Advance-RHIN"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Li---A-Framework-for-Big-Data-Governance-to-Advance-RHIN"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure preface_schema: ‘1.0’ title: ‘SPECIAL SECTION ON DATA-ENABLED INTELLIGENCE FOR DIGITAL HEALTH’ source_type: ‘Academic’ publisher: ‘Springer’ publishing_date: ‘March 11, 2019’ authors: [‘Received March 11’, ‘..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Li---A-Framework-for-Big-Data-Governance-to-Advance-RHIN-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Li---A-Framework-for-Big-Data-Governance-to-Advance-RHIN-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Li---A-Framework-for-Big-Data-Governance-to-Advance-RHIN-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Li---A-Framework-for-Big-Data-Governance-to-Advance-RHIN"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19624"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19624" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Li   A Framework for Big Data Governance to Advance RHINs A Case Study of China</a></div></nav><h1 class="article-title">Li - A Framework for Big Data Governance to Advance RHINs A Case Study of China</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>44 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/tools-platforms-infrastructure">Tools, Platforms &amp; Infrastructure</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<p>preface_schema: ‘1.0’
+title: ‘SPECIAL SECTION ON DATA-ENABLED INTELLIGENCE FOR DIGITAL HEALTH’
+source_type: ‘Academic’
+publisher: ‘Springer’
+publishing_date: ‘March 11, 2019’
+authors: [‘Received March 11’, ‘QUAN LI’, ‘LAN LAN’, ‘NIANYIN ZENG’, ‘LEI YOU’, ‘JIN YIN’, ‘XIAOBO ZHOU’, ‘QUN MENG’, ‘Electrical Engineering’]
+available_at: ‘<a href="https://doi.org/10.1109/ACCESS.2019.2910838" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1109/ACCESS.2019.2910838<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘data’, ‘<a href="../concepts/health" class="internal alias" data-slug="concepts/health">healthcare</a>’, ‘china’, ‘<a href="../concepts/governance" class="internal alias" data-slug="concepts/governance">governance</a>’, ‘rhins’, ‘health’, ‘informatization’, ‘framework’]
+abstract: ‘The <a href="../concepts/emergent-behavior" class="internal alias" data-slug="concepts/emergent-behavior">emergence</a> of <a href="../concepts/big-data" class="internal alias" data-slug="concepts/big-data">big data</a> presents a serious challenge to the fast growth of regional health information networks (RHINs) globally. In China, many constructors of RHINs have spontaneously and independently created governance measures, which may be valuable as a point of reference for other countries. This paper aimed to propose a big data governance framework for healthcare data based on the governance activities associated with the processing of RHINs in China. Typical methodology for RHIN case studies in China, including rich personal experience in nationwide <a href="../concepts/consulting" class="internal alias" data-slug="concepts/consulting">consulting</a>, literature review, expert consultation, and interpretative structural modeling methods, was adopted. Based on the analysis of ten typical RHIN case studies, healthcare big data governance practices in China were summarized. A framework with 3 domains and 12 elements was proposed, which include a drive domain (big data strategy planning, laws and regulations, open transaction, and industry support), capability domain (healthcare big data organi- zation, collection, storage, process and analysis, and usage), and support domain (healthcare big data resource planning, <a href="../concepts/open-standards" class="internal alias" data-slug="concepts/open-standards">standards</a> system, and <a href="../concepts/privacy" class="internal alias" data-slug="concepts/privacy">privacy</a> and <a href="../concepts/security" class="internal alias" data-slug="concepts/security">security</a> protection). We obtained 12 guidelines for healthcare big data governance. A big data governance framework with 3 domains and 12 elements was presented based on Chinese practice, which might serve as valuable references for the cross-dimensional development of RHINs, provide overall guidance for the sust</p>
+<p>k with 3 domains and 12 elements was presented based on Chinese practice, which might serve as valuable references for the cross-dimensional development of RHINs, provide overall guidance for the <a href="../concepts/sustainable-development" class="internal alias" data-slug="concepts/sustainable-development">sustainable development</a> of regional health informatization, and contribute to realizing the business value of healthcare big data. INDEX TERMS Big data governance, framework, regional health information networks (RHINs). I. BACKGROUND Over the past 20 years, information technology (IT) has permeated a wide variety of industries. The use of IT <a href="../concepts/software" class="internal alias" data-slug="concepts/software">applications</a> in the medical ﬁeld is considered rather con- servative, but its informatization has undergone signiﬁcant changes under the digital wave rush. In China, IT devel- opment in healthcare has undergone three phases: institu- tional informatization of individual healthcare institutions, industrial informatization of cross-institution healthcare information exchange (HIE), and social informatization of cross-industry creative development. In the ﬁrst phase, hospitals managed their informatization processes by themselves, and the state centrally established The associate editor coordinating the review of this manuscript and approving it for publication was Linbo Qing. and deployed business systems for public healthcare institutions using a top-down approach. Such systems served the needs of the institutions but accumulated massive amounts of internal business data that could not be shared. The second phase began in 2009, when a new medical reform required medical institutions to share data regionally, leading to a large-scale activation of Regional Health Information Networks (RHINs) throughout the country. For the ﬁrst time, medical and public healthcare data that had been scattered among the various institutions became centralized in the form of electronic health records (EHRs). This phase was mainly characterized by an internal <a href="../concepts/consolidation" class="internal alias" data-slug="concepts/consolidation">consolidation</a> of the healthcare industry. The third phase began in 2015, when the explosion</p>
+<h2 id="ralized-in-the-form-of-electronic-health-records-ehrs-this-phase-was-mainly-characterized-by-an-internal-consolidation-of-the-healthcare-industry-the-third-phase-began-in-2015-when-the-explosion-of-social-networks-created-massive-amounts-of-personal-healthcare-related-raw-data-emotional-and-behavioral-and-various-sets-of-personalized-daily-healthcare-data-mostly-50330-2169-3536-2019-ieee-translations-and-content-mining-are-permitted-for-academic-research-only-personal-use-is-also-permitted-but-republicationredistribution-requires-ieee-permission-see-httpwwwieeeorgpublications_standardspublicationsrightsindexhtml-for-more-information--image-1-the-image-shows-the-ieee-access-logo-on-a-white-background-the-main-subject-is-the-logo-with-ieee-in-dark-blue-and-access-in-light-blue-accompanied-by-text-below-stating-multidisciplinary-rapid-review-and-open-access-journal-in-black-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----">ralized in the form of electronic health records (EHRs). This phase was mainly characterized by an internal consolidation of the healthcare industry. The third phase began in 2015, when the explosion of social networks created massive amounts of personal healthcare-related raw data (emotional and behavioral) and various sets of personalized daily healthcare data (mostly 50330 2169-3536 2019 IEEE. Translations and content mining are permitted for academic research only. Personal use is also permitted, but republication/redistribution requires IEEE permission. See <a href="http://www.ieee.org/publications_standards/publications/rights/index.html" class="external" target="_blank" rel="noopener noreferrer">http://www.ieee.org/publications_standards/publications/rights/index.html<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for more information. > <strong>[Image 1]</strong>: The image shows the IEEE Access logo on a white background. The main subject is the logo with “IEEE” in dark blue and “Access” in light blue, accompanied by text below stating “Multidisciplinary”, “Rapid Review”, and “Open Access Journal” in black with blue dots separating them. The color scheme features blue and black against the white backdrop. This logo represents a multidisciplinary, rapid review, open access journal. ---‘<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ralized-in-the-form-of-electronic-health-records-ehrs-this-phase-was-mainly-characterized-by-an-internal-consolidation-of-the-healthcare-industry-the-third-phase-began-in-2015-when-the-explosion-of-social-networks-created-massive-amounts-of-personal-healthcare-related-raw-data-emotional-and-behavioral-and-various-sets-of-personalized-daily-healthcare-data-mostly-50330-2169-3536-2019-ieee-translations-and-content-mining-are-permitted-for-academic-research-only-personal-use-is-also-permitted-but-republicationredistribution-requires-ieee-permission-see-httpwwwieeeorgpublications_standardspublicationsrightsindexhtml-for-more-information--image-1-the-image-shows-the-ieee-access-logo-on-a-white-background-the-main-subject-is-the-logo-with-ieee-in-dark-blue-and-access-in-light-blue-accompanied-by-text-below-stating-multidisciplinary-rapid-review-and-open-access-journal-in-black-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="ack-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----">ack with blue dots separating them. The color scheme features blue and black against the white backdrop. This logo represents a multidisciplinary, rapid review, open access journal. ---‘<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ack-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>SPECIAL SECTION ON DATA-ENABLED INTELLIGENCE FOR DIGITAL HEALTH
+Received March 11, 2019, accepted April 9, 2019, date of publication April 12, 2019, date of current version April 25, 2019.
+Digital Object Identifier 10.1109/ACCESS.2019.2910838
+A Framework for Big Data Governance to
+Advance RHINs: A Case Study of China
+QUAN LI
+1, LAN LAN2, NIANYIN ZENG
+3, LEI YOU4, JIN YIN2, XIAOBO ZHOU2,4,
+AND QUN MENG1,5
+1School of <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">Public Health</a>, Sun Yat-sen University, Guangzhou 510275, China
+2West China Biomedical Big Data Center, West China Hospital, Sichuan University, Chengdu 610041, China
+3Department of Instrumental and Electrical Engineering, Xiamen University, Xiamen 361005, China
+4School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA
+5Comprehensive Supervision Bureau, National Health Commission of the People’s Republic of China, Beijing 100044, China
+Corresponding authors: Xiaobo Zhou (<a href="mailto:zhouxb2015@163.com" class="external">zhouxb2015@163.com<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>) and Qun Meng (<a href="mailto:mengqun@nhfpc.gov.cn" class="external">mengqun@nhfpc.gov.cn<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>)
+This work was supported in part by the Sichuan Science and Technology Program under Grant 2019YFS0147.
+ABSTRACT The emergence of big data presents a serious challenge to the fast growth of regional health
+information networks (RHINs) globally. In China, many constructors of RHINs have spontaneously and
+independently created governance measures, which may be valuable as a point of reference for other
+countries. This paper aimed to propose a big data governance framework for healthcare data based on the
+governance activities associated with the processing of RHINs in China. Typical methodology for RHIN
+case studies in China, including rich personal experience in nationwide consulting, literature review, expert
+consultation, and interpretative structural modeling methods, was adop</p>
+<p>ethodology for RHIN
+case studies in China, including rich personal experience in nationwide consulting, literature review, expert
+consultation, and interpretative structural modeling methods, was adopted. Based on the analysis of ten
+typical RHIN case studies, healthcare big data governance practices in China were summarized. A framework
+with 3 domains and 12 elements was proposed, which include a drive domain (big data strategy planning,
+laws and regulations, open transaction, and industry support), capability domain (healthcare big data organi-
+zation, collection, storage, process and analysis, and usage), and support domain (healthcare big data resource
+planning, standards system, and privacy and security protection). We obtained 12 guidelines for healthcare
+big data governance. A big data governance framework with 3 domains and 12 elements was presented
+based on Chinese practice, which might serve as valuable references for the cross-dimensional development
+of RHINs, provide overall guidance for the sustainable development of regional health informatization, and
+contribute to realizing the business value of healthcare big data.
+INDEX TERMS Big data governance, framework, regional health information networks (RHINs).
+I. BACKGROUND
+Over the past 20 years, information technology (IT) has
+permeated a wide variety of industries. The use of IT
+applications in the medical ﬁeld is considered rather con-
+servative, but its informatization has undergone signiﬁcant
+changes under the digital wave rush. In China, IT devel-
+opment in healthcare has undergone three phases: institu-
+tional informatization of individual healthcare institutions,
+industrial informatization of cross-institution healthcare
+information exchange (HIE), and social informatization of
+cross-industry creative development.
+In the ﬁrst phase, hospitals managed their informatization
+processes by themselves, and the state centrally established
+The associate editor coordinating the review of this manuscr</p>
+<p>tive development.
+In the ﬁrst phase, hospitals managed their informatization
+processes by themselves, and the state centrally established
+The associate editor coordinating the review of this manuscript and
+approving it for publication was Linbo Qing.
+and
+deployed
+business
+systems
+for
+public
+healthcare
+institutions using a top-down approach. Such systems served
+the needs of the institutions but accumulated massive
+amounts of internal business data that could not be shared.
+The second phase began in 2009, when a new medical reform
+required medical institutions to share data regionally, leading
+to a large-scale activation of Regional Health Information
+Networks (RHINs) throughout the country. For the ﬁrst time,
+medical and public healthcare data that had been scattered
+among the various institutions became centralized in the form
+of electronic health records (EHRs). This phase was mainly
+characterized by an internal consolidation of the healthcare
+industry. The third phase began in 2015, when the explosion
+of social networks created massive amounts of personal
+healthcare-related raw data (emotional and behavioral) and
+various sets of personalized daily healthcare data (mostly
+50330
+2169-3536
+2019 IEEE. Translations and content mining are permitted for academic research only.
+Personal use is also permitted, but republication/redistribution requires IEEE permission.
+See <a href="http://www.ieee.org/publications_standards/publications/rights/index.html" class="external" target="_blank" rel="noopener noreferrer">http://www.ieee.org/publications_standards/publications/rights/index.html<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for more information.</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The image shows the IEEE Access logo on a white background. The main subject is the logo with “IEEE” in dark blue and “Access” in light blue, accompanied by text below stating “Multidisciplinary”, “Rapid Review”, and “Open Access Journal” in black with blue dots separating them. The color scheme features blue and black against the white backdrop. This logo represents a multidisciplinary, rapid review, open access journal.</p>
+</blockquote>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>black with blue dots separating them. The color scheme features blue and black against the white backdrop. This logo represents a multidisciplinary, rapid review, open access journal.</p>
+<hr/>
+<h2 id="page-2-1">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>machine-generated real-time individual physiological data),
+which were documented and linked to EHRs, resulting in the
+emergence of healthcare big data [1]–[6].
+Big data has been drawing increasing <a href="../concepts/attention-mechanisms" class="internal alias" data-slug="concepts/attention-mechanisms">attention</a> globally,
+and researchers have high expectations regarding its strong
+potential to improve the quality of healthcare services and
+lower healthcare expenditures. Big data has ensured the future
+of RHINs because these systems can provide a different
+perspective for obtaining greater medical value from medi-
+cal data. Unfortunately, the existing capability of traditional
+data can no longer satisfy the current needs. The effective
+utilization of big data and the maximization of the value of
+these data have become a global problem in the processing of
+RHINs. This study focuses on the practical activities related
+to big data utilization in China’s RHINs, a process denoted
+big data governance, and proposes a big data governance
+framework to help solve this problem globally.
+II. METHODS
+First, using our rich experience of consulting, planning, guid-
+ance and construction of RHINs, we selected 10 typical cases
+that covered three levels of national, provincial and municipal
+levels as the research samples from masses of RHINs cases in
+China. The selection criteria were no less than 5 years since
+construction, ownership over at least one big data governance
+activity, and willingness to participate in case analysis to gain
+practical activities about healthcare big data.
+Second, through consulting the domestic and international
+key literature on RHINs, data governance, big data gover-
+nance and healthcare big data, combined with the practices
+of the above 10 case studies, we further reﬁned 17 initial
+elements that are associated with the success of healthcare
+big data gov</p>
+<p>gover-
+nance and healthcare big data, combined with the practices
+of the above 10 case studies, we further reﬁned 17 initial
+elements that are associated with the success of healthcare
+big data governance.
+Third, we used the expert consultation method for
+17 elements. 1) We selected 12 experts in China, cover-
+ing universities, enterprises, associations, government depart-
+ments, hospitals, etc. The professional ﬁelds of the 12 experts
+focus on regional healthcare informatization or big data, indi-
+cating a high level of expertise for those selected. The formula
+for determining the expert <a href="../concepts/power" class="internal alias" data-slug="concepts/power">authority</a> coefﬁcient is:
+Cr = Ca + Cb + Cc
+3
+where Cr represents the degree of expert authority, Ca repre-
+sents the cultural title coefﬁcient, Cb represents the judging
+coefﬁcient, and Cc indicates the familiarity degree coefﬁ-
+cient; Cb is derived from the experts’ theoretical analysis,
+practical experience, peer understanding, and personal intu-
+ition. All experts’ authority coefﬁcients were higher than
+0.8, with high authority for experts. 2) All experts agreed
+on the selection of 17 initial elements, without additions
+and deletions. The importance of the 17 initial elements is
+calculated as:
+P =
+P12
+r=1(Cr ∗Pr a)
+P12
+r=1 Cr
+where Cr is the expert authority coefﬁcient, Pr a is the r-th
+expert to score the importance of the a-th initial element, and
+a range from 1 to 17,
+X12
+r=1 Cr
+representing the sum of the expert authority coefﬁcients.
+We calculated the weighted score of each initial element.
+3) We determined the ordering of the 17 elements accord-
+ing to the ﬁnal score and only retained the main elements
+(top 70%).
+Fourth, we applied the interpretive structural model [7].
+As a qualitative analysis method, it can effectively clarify
+the level of the problem and the overall <a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a>, and can
+transform the complex relationship into an intuitive structural
+relationship model. The main elements (12) were recorded
+as S1-S12, and the reason for the succe</p>
+<p>blem and the overall structure, and can
+transform the complex relationship into an intuitive structural
+relationship model. The main elements (12) were recorded
+as S1-S12, and the reason for the success of healthcare big
+data governance was S0. Through in-depth analysis and joint
+discussion with the expert group and the elements of S0-S12
+compared in pairs, we established the adjacency matrix A.
+The reachable matrix M was calculated according to the
+Boolean matrix algorithm. The interpretative structure model
+was obtained through multiple hierarchical decomposition.
+Finally, our healthcare big data governance framework was
+derived after further reference to IBM’s data governance
+model (IBM’s data governance model had 11 elements that
+divided into 4 domains, and we referred to its domain division
+and the presentation).
+III. RESULTS
+We gained the human data capability chain, which proved
+the necessity and value of healthcare big data governance
+(Figure 1). We summarized big data governance activities
+for 10 typical RHIN samples in China (Table 1), which were
+valuable based on the interpretive structural model (Figure 2).
+FIGURE 1. The human data capability chain.
+A healthcare big data governance framework (Figure 3)
+was obtained by interpreting the structural model. The frame-
+work consists of 3 domains and 12 elements. If we imagine
+the ability of big data governance as the ability of people to
+run, then the ‘‘Drive domain’’ determines whether it can run,
+the ‘‘Support domain’’ determines how fast it can run, and
+50331</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text-based logo with “IEEE” in bold dark blue letters and “Access” in a lighter blue script font. The setting is a plain white background, and the colors used are various shades of blue, including a darker blue for “IEEE” and a lighter blue for “Access”. A small registered trademark symbol appears after “Access”.</p>
+</blockquote>
+<p>plain white background, and the colors used are various shades of blue, including a darker blue for “IEEE” and a lighter blue for “Access”. A small registered trademark symbol appears after “Access”.</p>
+<blockquote>
+<p><strong>[Image 2]</strong>: [Image: vision model returned empty description]</p>
+</blockquote>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>FIGURE 2. Interpretive structural model.
+FIGURE 3. A healthcare big data governance framework.
+the ‘‘Capability domain’’ determines how far it can run. To
+better implement and apply the framework, we engaged in
+further discussion and analysis to match the 12 governance
+guidelines.
+A. HEALTHCARE BIG DATA GOVERNANCE GUIDELINES
+Guideline 1: Upgrade the lead department of the original
+RHINs, or establish a new full-time big data governance
+department to oversee the entire governance and fully absorb
+the healthcare big data stakeholders, thus achieving the objec-
+tives of governance through the department, the aim of which
+is to adjust and optimize rather than overthrow or completely
+rebuild the RHINs.
+Guideline 2: Expand the scope of data collection around
+the healthcare business goal, such that increasing the data
+supply capacity does not signiﬁcantly increase the difﬁculty
+of data use.
+Guideline 3: Based on the <a href="../concepts/open-source-hardware" class="internal alias" data-slug="concepts/open-source-hardware">open hardware</a> resource cloud
+service established by the IT <a href="../concepts/architecture" class="internal alias" data-slug="concepts/architecture">architecture</a>, adjust the tradi-
+tional storage mode to a distributed cloud storage mode under
+the premise of ensuring autonomy and control.
+Guideline 4: Continue to carry out quality management of
+healthcare big data, and implement big data asset manage-
+ment and control from the two dimensions of system and
+informatization. Prioritize the construction of a general big
+data analysis model and universal algorithm.
+Guideline 5: Differentiate application objects, and empha-
+size effective use and data interpretation.
+TABLE 1. Big data governance activities based on typical cases of RHINs
+in china.
+50332</p>
+<p>lgorithm.
+Guideline 5: Differentiate application objects, and empha-
+size effective use and data interpretation.
+TABLE 1. Big data governance activities based on typical cases of RHINs
+in china.
+50332</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text-based logo featuring “IEEE” in bold dark blue letters and “Access” in a lighter blue script font. The setting is a plain white background, and the colors used are various shades of blue with a registered trademark symbol at the end.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: This image is a flowchart illustrating the factors contributing to successful healthcare big data governance, with interconnected rectangular boxes labeled with terms like “Healthcare big data organization” and “Big data strategy planning” linked by arrows. The main subject is the governance framework, set against a light gray background with white boxes containing black text. It visually maps <a href="../concepts/relationships" class="internal alias" data-slug="concepts/relationships">relationships</a> between components such as data storage, usage, <a href="../concepts/privacy-protection" class="internal alias" data-slug="concepts/privacy-protection">privacy protection</a>, and industry support within healthcare big data systems.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: [Image: vision model returned empty description]</p>
+</blockquote>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>cases of RHINs in china.
+cases of RHINs in china.
+Guideline 6: Integrate national big data planning, and
+implement big data resource planning into the healthcare
+industry as the ﬁrst link in overall governance activities.
+Guideline 7: Applicability evaluation and optimiza-
+tion supplement based on the original data standard,
+following the construction process of standard formation,
+standard <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">implementation</a>, and standard maintenance, and
+continuously promote <a href="../concepts/compliance" class="internal alias" data-slug="concepts/compliance">compliance</a> testing of healthcare big
+data standards.
+Guideline 8: Promote healthcare big data privacy secu-
+rity protection and governance from the four dimensions of
+privacy and security laws and regulations, technical means,
+management mechanism and security awareness. Clarify the
+50333</p>
+<p>data privacy secu-
+rity protection and governance from the four dimensions of
+privacy and security laws and regulations, technical means,
+management mechanism and security awareness. Clarify the
+50333</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text “IEEE Access” with a registered trademark symbol. The setting is a plain background with no additional elements. The colors used are blue for “IEEE” and a lighter blue for “Access”.</p>
+</blockquote>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>main body of responsibility for the ownership, management
+and use rights, protection principle and segmentation rights
+for healthcare big data, combining superior law, special law
+and industry self-discipline. Actively optimize and upgrade
+traditional data privacy protection technology, covering the
+entire life cycle of healthcare big data and matching legal reg-
+ulations and management mechanism requirements. Improve
+the management mechanism around the <a href="../concepts/licensing" class="internal alias" data-slug="concepts/licensing">licensing</a> mech-
+anism, reporting mechanism and traceability mechanism.
+Enhance the concept of <a href="../concepts/cognition" class="internal alias" data-slug="concepts/cognition">cognition</a>: owners’ participation and
+awareness of rights, simultaneous with managers’ super-
+vision and cautious attitude and users’ responsibility and
+self-discipline awareness.
+Guideline 9: Implement national big data strategic plan-
+ning and design, and clarify the overall development goal
+positioning, main content, business development focus and
+priorities. Provide safeguards to ensure that strategic planning
+can be implemented along with guidance to serve as the basis
+for all industries, including medical health.
+Guideline 10: Introduce <a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">incentive</a> <a href="../concepts/policies" class="internal alias" data-slug="concepts/policies">policies</a> and improve the
+big data trading system.
+Guideline 11: Promote the development of big data indus-
+try through key projects.
+Guideline 12: Clarify the legislative strategy, and improve
+the legal and regulatory system with regard to three aspects:
+personal privacy protection, open access to government data,
+and market-based transactions and industrial development.
+IV. DISCUSSION
+To ac</p>
+<p>he legal and regulatory system with regard to three aspects:
+personal privacy protection, open access to government data,
+and market-based transactions and industrial development.
+IV. DISCUSSION
+To achieve satisfactory application performance, different
+managers of RHINs (at the national, provincial and city lev-
+els) have taken some positive actions, and these spontaneous,
+isolated, unsystematic actions, which are shown in Table 1,
+can be generalized to the behavior of big data governance.
+The China Action Program for Promoting Big Data Devel-
+opment upgraded big data development to a national-level
+strategy, which in particular illustrates the priority of the
+medical industry. The state health authority released a series
+of specialized policies to promote healthcare big data applica-
+tions. To ensure the <a href="../concepts/logical-consistency" class="internal alias" data-slug="concepts/logical-consistency">consistency</a> of the technical architecture
+of various provinces and cities, China even released techni-
+cal guidance for RHINs in 2009: ‘‘Construction scheme of
+RHINs based on EHR’’. To obtain greater access to high-
+quality data, a national special committee was established to
+initialize and regularly update medical informatization stan-
+dards and criteria systems through compulsory standard con-
+formity testing and necessary localization for the promotion
+of their execution. In the absence of a national privacy law,
+some provinces and cities launched Management Regulations
+for EHR based on the National Regulations for Population
+Healthcare Information Management, and full-featured tech-
+nical measures were created for medical privacy protection.
+For example, the RHINs of Guangzhou (owning EHR for
+more than 10 million local residents) stored personal basic
+information and medical treatment information separately,
+and only the owner of the EHR, namely the patient, could
+decide which content, what type of issue and which role could
+be authorized to access the EHR online with real-time short-
+message reminders or password control. To ensure that the
+EHR data</p>
+<p>nt, could
+decide which content, what type of issue and which role could
+be authorized to access the EHR online with real-time short-
+message reminders or password control. To ensure that the
+EHR data are accurate and timely, it is mandatory that resi-
+dents’ health cards are top-down used to identify individuals
+at a national level, which is different from European and
+American countries, and different identity cards are issued
+in different industries in China. For example, the Ministry of
+Human Resources and Social Resources and Social Security
+issued a social security card, and the Ministry of Public
+Security issued an identity card, but the cards of various
+industries are not compatible and universal. Many managers
+took speciﬁc measures to improve the <a href="../concepts/data-conceptsintegrityintegrity" class="internal alias" data-slug="concepts/data-conceptsintegrityintegrity">data quality</a> of RHINs.
+For example, Wuhan established strict data quality assess-
+ment indexes, and their results further inﬂuenced the man-
+agement performance of the data’s source institution. Some
+local governments incorporated <a href="../concepts/social-well-being" class="internal alias" data-slug="concepts/social-well-being">social health</a> data services
+into government public <a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">health services</a> and paid for them,
+which promoted the widespread institution of mobile medical
+equipment at the residents’ homes and the real-time input of
+an individual’s daily physiological data into the EHR, which
+is a popular activity of family practitioners [8]–[12].
+A. GOVERNANCE FOR DRIVE DOMAIN</p>
+<ol>
+<li>STRATEGY PLANNING GOVERNANCE
+Big data capability is becoming one of the core issues con-
+tributing to competition among countries. Its governance
+requires national dominance and advancement to make big
+data beneﬁt all industries. As early as 2012, the US gov-
+ernment released the ‘‘Big Data Research and Development
+Plan’’ and correspondingly introduced a number of policies.
+The <a href="../entities/eu" class="internal alias" data-slug="entities/eu">European Union</a>, the <a href="../entities/uk" class="internal alias" data-slug="entities/uk">United Kingdom</a>, Australia, Japan,
+South Korea, etc. have also developed national big data strate-
+gies. The big data strategy planning of developed countries
+is similar in terms of strategic objectives, clear action plans</li>
+</ol>
+<p>alia, Japan,
+South Korea, etc. have also developed national big data strate-
+gies. The big data strategy planning of developed countries
+is similar in terms of strategic objectives, clear action plans
+and key support projects, clear management institutions and
+implementing agencies, but there are differences in the direc-
+tion of strategic promotion and the direction of technological
+<a href="../concepts/capabilities" class="internal alias" data-slug="concepts/capabilities">capabilities</a>. Relying on the national big data strategic plan,
+the introduction of an industry-speciﬁc big data strategic plan
+will be more reasonable and effective. In establishing their
+national big data strategy plans, an increasing number of
+countries veriﬁed the belief that the medical industry should
+have ﬁrst priority due to the high value of its application.
+For example, the <a href="../entities/united-states" class="internal alias" data-slug="entities/united-states">United States</a> introduced strategic plan-
+ning for <a href="../concepts/health-information-technology" class="internal alias" data-slug="concepts/health-information-technology">health information technology</a> covering ﬁve years
+(2015-2020). Developing countries can also refer to the above
+path [13]–[15].
+2) OPEN TRANSACTION GOVERNANCE
+The opening of data was originally derived from the Amer-
+ican folk <a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">movement</a>, and follow-up activities in the United
+States and the United Kingdom has initiated an international
+trend to reform the government. Since 2009, the United
+States, Britain, Australia, France, Canada and other countries
+50334</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text-based logo with “IEEE” in bold dark blue letters and “Access” in a lighter blue script font. The setting is a plain white background, and the colors used are various shades of blue with a registered trademark symbol at the end.</p>
+</blockquote>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>tters and “Access” in a lighter blue script font. The setting is a plain white background, and the colors used are various shades of blue with a registered trademark symbol at the end.</p>
+<hr/>
+<h2 id="page-6-1">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>have established an open sharing policy for government data.
+Big data open transaction is an important prerequisite for
+the development of the national big data industry. Building
+an open trading mechanism for big data can promote the
+exchange and <a href="../concepts/integration" class="internal alias" data-slug="concepts/integration">integration</a> of big data among different indus-
+tries. Approximately 80% of China’s information resources
+are in the hands of government departments. State domination
+is the fundamental driving force for public (government) big
+data development [16]. The government is more concerned
+about its own big data opening, and companies are more
+focused on big data transactions.
+3) INDUSTRY SUPPORT GOVERNANCE
+The big data industry system needs to cover the upstream,
+midstream and downstream of the industry [17], consist-
+ing of infrastructure, core technologies, services and indus-
+try applications, talent development, government <a href="../concepts/regulation" class="internal alias" data-slug="concepts/regulation">regulation</a>
+and guidance, industry associations, enterprises and other
+elements [18]. In the early stages of big data development,
+European and American countries usually carried out the con-
+struction of several key projects in key industries and grad-
+ually formed key technologies, management and business
+models, etc., with a view of promoting the rapid development
+of big data. When countries are planning big data, most of the
+healthcare sectors are at the forefront of industry choices, and
+the potential for big data to be applied and prioritized in the
+health sector is high.
+4) GOVERNANCE OF LAWS AND REGULATIONS
+It is safe to say that robust laws do not so much lead to the
+satisfactory development of big data; rather, they lead to the
+absence of unsatisfactory results. Big data has legal attributes
+and should be promoted and regulated by legislation. Big data
+legislation should balance three aspects: achi</p>
+<p>; rather, they lead to the
+absence of unsatisfactory results. Big data has legal attributes
+and should be promoted and regulated by legislation. Big data
+legislation should balance three aspects: achieving full and
+effective personal information protection; promoting the open
+sharing of government data; and promoting the development
+of the big data industry around commercial data transactions.
+In speciﬁc legislation, a conservative government-led strat-
+egy or an active market-led strategy can be adopted based on
+national conditions and balance the interests of the big data
+industry with national security. For example, the EU adopts
+a conservative strategy for personal information protection
+and emphasizes personal rights, such that ‘‘private life is
+not disturbed.’’ It adopts a comprehensive national legislative
+model and emphasizes privacy protection in cross-border data
+circulation. By <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>, the United States is relatively more
+market-oriented, emphasizing the economic value of personal
+data, adopting a decentralized legislative model, and empha-
+sizing the combination of industry self-discipline. China has
+been a ‘‘net exporting country’’ for a period of time now and
+will remain so in the future. Whether based on the private
+law perspective of national conditions or on national security
+considerations for cross-border data circulation, it is more
+suitable to adopt a conservative strategy before developing
+into a big data industry power.
+B. GOVERNANCE FOR CAPABILITY DOMAIN
+The healthcare big data life cycle includes healthcare big data
+organization, collection, storage, process and analysis, and
+usage.</p>
+<ol>
+<li>HEALTHCARE BIG DATA ORGANIZATION
+The focus is on <a href="../concepts/organizational-structure" class="internal alias" data-slug="concepts/organizational-structure">organizational structure</a> and IT architecture
+governance. The design and construction of the information
+organization structure is one of the most important com-
+ponents of traditional data governance. Globally, medical
+and <a href="../concepts/health-sector" class="internal alias" data-slug="concepts/health-sector">health institutions</a> are becoming more and more data
+driven [19]. IT ar</li>
+</ol>
+<p>nformation
+organization structure is one of the most important com-
+ponents of traditional data governance. Globally, medical
+and health institutions are becoming more and more data
+driven [19]. IT architecture governance is optimal for fully
+protecting and utilizing existing investments, and it does not
+have a major impact or on the original healthcare business.
+2) HEALTHCARE BIG DATA COLLECTION
+In China, data collection mainly focuses on EHR in RHIN
+construction, and more uncollected data are still buried in the
+original unit of data generation. The value of the full amount
+of healthcare big data in the region cannot be tapped. The
+construction goals of RHINs in different countries are not the
+same, and the requirements for data collection and sharing are
+very different. The uniﬁed access data speciﬁcation should
+be designed in advance to ensure the standardization and
+ease of use of the collected big data. This point is more
+applicable to developed countries, especially those countries
+where medical insurance purchases such equipment services.
+But developing countries should also pay attention to this
+point if they want to form a latecomer advantage.
+3) HEALTHCARE BIG DATA STORAGE
+A centralized data storage model has been popular in RHINs,
+but as the volume of data increases, it is becoming infeasible
+to purchase storage space for storage needs. Such a model
+should be transformed into a distributed cloud storage model
+(pay for open hardware cloud resource services). Of course,
+the above cloud storage service should be built by a domestic
+enterprise or a government-funded private cloud for gov-
+ernment service, which can ensure that cloud storage for
+healthcare big data is not interfered upon by other countries
+from beginning to end. Cloud storage for healthcare big data
+should provide more stringent security protection and backup
+measures.
+4) HEALTHCARE BIG DATA PROCESS AND ANALYSIS
+This governance involves big data quality management, big
+data asset manageme</p>
+<p>ig data
+should provide more stringent security protection and backup
+measures.
+4) HEALTHCARE BIG DATA PROCESS AND ANALYSIS
+This governance involves big data quality management, big
+data <a href="../concepts/asset-management" class="internal alias" data-slug="concepts/asset-management">asset management</a>, big data analysis and algorithms.
+A review of an early EHR system in the United States found
+that there were one or more input-related errors in 60% of
+patients’ data [20]. Based on near-total samples, big data
+technologies have increased the <a href="../concepts/robustness" class="internal alias" data-slug="concepts/robustness">fault tolerance</a> of the original
+data, but there is currently a very low tolerance for deviation
+and error correction in RHINs in consideration of health
+and life. Big data analysis technology can aggregate and
+analyze multiple sets or different types of data. It focuses
+50335</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text “IEEE Access” with a registered trademark symbol. The setting is a plain background with no additional elements. The colors used are blue for “IEEE” and a lighter blue for “Access”.</p>
+</blockquote>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>xt “IEEE Access” with a registered trademark symbol. The setting is a plain background with no additional elements. The colors used are blue for “IEEE” and a lighter blue for “Access”.</p>
+<hr/>
+<h2 id="page-7-1">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>more attention on the fusion and correlation analysis between
+different data. It is an analytical method that attends to global
+features. For RHINs, priority should be given to building
+general-purpose, high-speed and ﬂexible big data analyses
+and mining models and developing pervasive algorithms.
+Specialized personality models and algorithms are developed
+by individual hospitals and public health agencies.
+5) HEALTHCARE BIG DATA USAGE
+At present, healthcare big data usage at home and abroad are
+mainly concentrated in ﬁve directions: accurate medical care
+in a clinical setting, self-health management in a market envi-
+ronment, research applications in an academic environment,
+lean management applications in healthcare, and emerging
+smart healthcare applications [21]–[23]. It is necessary to
+introduce data visualization technology to improve data inter-
+pretation and display capabilities, and the effective applica-
+tion of data, especially scene-driven applications, should be
+highly valued.
+C. GOVERNANCE FOR SUPPORT DOMAIN
+The internal governance of the healthcare industry includes
+healthcare big data resource planning, standard system, and
+privacy security protection.</p>
+<ol>
+<li>HEALTHCARE BIG DATA RESOURCE PLANNING
+At present, both developed and developing countries, regard-
+less of the type of medical system and the level of economic
+development, regional medical and health information con-
+struction projects tend to be uniﬁed in their planning [24].
+The medical industry data resource planning and governance
+needs are signiﬁcantly higher than those of most other indus-
+tries [25].</li>
+<li>HEALTHCARE BIG DATA STANDARD SYSTEM
+An important challenge for big data is to integrate data
+from different sources, and standard applications have been
+proven to promote interoperabi</li>
+</ol>
+<ul>
+<li></li>
+</ul>
+<p>tries [25].
+2) HEALTHCARE BIG DATA STANDARD SYSTEM
+An important challenge for big data is to integrate data
+from different sources, and standard applications have been
+proven to promote interoperability between systems [26].
+China’s medical and health informatization standards were
+established late and reference the HL7, IHE, DICOM,
+SNOMED and LOINC standards. The resulting medical and
+health information standards are accelerating, while also
+self-optimizing and upgrading, the RHIN process in China.
+The experience of constructing China’s medical and health
+informatization standards from scratch has had a high refer-
+ence value for other developing countries without such stan-
+dards. Globally, the construction of a big data standard system
+is still in its infancy, and a set of recognized, complete and
+universal big data standard systems has not yet been formed.
+Moreover, the small number of studies related to healthcare
+big data standards has mostly been based on demand analysis.
+3) HEALTHCARE BIG DATA PRIVACY SECURITY PROTECTION
+The degree of data recognition and the risk of being
+re-identiﬁed are different in various countries [27], [28].
+Different countries have different perceptions of personal
+privacy boundaries, control and awareness. For example,
+Indians are four times more likely to share personal data
+online to obtain better personalized services than are the
+Swiss [29]. Chinese privacy awareness and privacy laws and
+the construction of the regulatory system lag behind many
+European and American countries [30]. With the initiation of
+the big data era, other personal data, including income level,
+education and work experience, location information, eating
+habits, and ﬁtness records, are automatically linked [31].
+Privacy security issues exist throughout the lifecycle of big
+data [32]. The statistics are incomplete – so far there are
+approximately 90 countries and regions in the world that
+have introduced data privacy laws – but privacy laws have</p>
+<p>the lifecycle of big
+data [32]. The statistics are incomplete – so far there are
+approximately 90 countries and regions in the world that
+have introduced data privacy laws – but privacy laws have
+made very few <a href="../concepts/adjustments" class="internal alias" data-slug="concepts/adjustments">adjustments</a> and improvements in time for
+the new challenges of big data. In addition, the introduc-
+tion of new law tends to take a long time. Prior to this,
+as a transitional initiative in which measures are coordinated
+after the implementation of laws and regulations, industry
+self-regulatory organizations can be established to guide and
+regulate market-oriented behavior, which is more mature in
+the United States.
+This study also has limitations. This study requires further
+veriﬁcation and optimization of the empirical research, refer-
+encing different countries combined with national conditions.
+V. CONCLUSION
+The <a href="../concepts/presence" class="internal alias" data-slug="concepts/presence">appearance</a> of big data governance is inevitable in the
+process of RHINs based on the human data capability chain.
+Our review of the process underlying the development of
+RHINs in China revealed many cases of successful and failed
+big data governance activities. Based on this practice and
+personal experience, we used a combination of qualitative
+methods, such as a literature review, expert consultation and
+interpretive structural modeling. Then, we designed a satis-
+factory big data governance framework, which is also useful
+for industries outside of healthcare. A big data governance
+framework with 3 domains and 12 elements was presented
+based on Chinese practice, which might serve as a valu-
+able reference and provide late-comers an opportunity for
+the cross-dimensional development of RHINs. Discussions
+surrounding the 12 governance guidelines that accompany
+the framework show that understanding and adhering to the
+applicability and limitations of each element can help other
+countries throughout the world learn more effectively. The
+framework and governance guidelines are expected to pro-
+vide overall guidance for the sustainable development</p>
+<p>of each element can help other
+countries throughout the world learn more effectively. The
+framework and governance guidelines are expected to pro-
+vide overall guidance for the sustainable development of
+RHINs and may contribute to realization of the business value
+of healthcare big data. Of course, the journey to the achieve-
+ment of governance is deﬁnitely expected to include some
+unforeseen challenges, and critical adjustment and localiza-
+tion will aid the implementation of this framework.
+ACKNOWLEDGMENTS
+(Quan Li and Lan Lan contributed equally to this work.) The
+authors would like to thank the Center for Health Statistics
+Information of Shanghai, the Wuhan and Guangzhou Health
+50336</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text “IEEE Access” with a registered trademark symbol. The setting is a plain background with no additional elements. The colors used are blue for “IEEE” and a lighter blue for “Access”.</p>
+</blockquote>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Commission, the National Health Information Sharing Tech-
+nology &amp; Applications Engineering Technology Research
+Center, and Wonders Information Co., Ltd. for providing
+support of the RHIN case analyses.
+REFERENCES
+[1] W. Yip and W. Hsiao, ‘‘Harnessing the privatisation of China’s fragmented
+health-care delivery,’’ Lancet, vol. 384, no. 9945, pp. 805–818, Aug. 2014.
+[2] Opinions of the Communist Party of China Central Committee and the
+State Council on Deepening the Health Care System Reform, Government
+People’s Republic China, Beijing, China, 2009.
+[3] Q. Meng et al., ‘‘Trends in access to health services and ﬁnancial protec-
+tion in China between 2003 and 2011: A cross-sectional study,’’ Lancet,
+vol. 379, no. 9818, pp. 805–814, Mar. 2012.
+[4] J. R. Vest and J. S. Jasperson, ‘‘How are health professionals using health
+information exchange systems? Measuring usage for evaluation and system
+improvement,’’ J. Med. Syst., vol. 36, no. 5, pp. 3195–3204, Oct. 2012.
+[</p>
+<p>‘‘How are health professionals using health
+information exchange systems? Measuring usage for evaluation and system
+improvement,’’ J. Med. Syst., vol. 36, no. 5, pp. 3195–3204, Oct. 2012.
+[5] Q.
+Meng,
+Construction
+and
+Development
+of
+RHINs.
+Beijing,
+China: People’s Med. Publishing House, 2014. [Online]. Available:
+<a href="http://www.pmphmall.com/gdsdetail/605253-279881" class="external" target="_blank" rel="noopener noreferrer">http://www.pmphmall.com/gdsdetail/605253-279881<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+[6] Q. Meng, Case Design and Research of Health Informativeness. Beijing,
+China: People’s Medical Publishing House, 2014. [Online]. Available:
+<a href="http://www.pmphmall.com/gdsdetail/71592-72591" class="external" target="_blank" rel="noopener noreferrer">http://www.pmphmall.com/gdsdetail/71592-72591<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+[7] J. N. Warﬁeld, ‘‘Participative methodology for public system planning,’’
+Comput. Elect. Eng., vol. 1, no. 2, pp. 187–210, Oct. 1973.
+[8] Outline of Planning on National Healthcare Services System (2015–2020),
+State Council People’s Republic China, Beijing, China, 2015.
+[9] Outline of Strategic Planning on the Development of <a href="../concepts/chinese-medicine" class="internal alias" data-slug="concepts/chinese-medicine">Traditional Chinese
+Medicine</a> (2016–2030), State Council People’s Republic China, Beijing,
+China, 2016.
+[10] Guidance on Promoting the Construction of Multi-Level Treatment System,
+State Council People’s Republic China, Beijing, China, 2015.
+[11] Guidance on Promoting and Standardizing the Development of Health
+Care Big Data Applications, State Council People’s Republic China, Bei-
+jing, China, 2016.
+[12] J. Roski, G. W. Bo-Linn, and T. A. Andrews, ‘‘Creating value in health care
+through big data: Opportunities and policy implications,’’ Health Affairs,
+vol. 33, no. 7, pp. 1115–1122, Jul. 2014.
+[13] R. Weiss and L.-J. Zgorski, Obama Administration Unveils ‘Big Data’
+Initiative: Announces $200 Million in New R&amp;D Investments, document,
+Ofﬁce of Science and Technology Policy Executive Ofﬁce of the President,
+Washington, DC, USA, USA, 2012.
+[14] French Government Support for Big Data: A Five-part Support Plan, IFA,
+Paris, France, 2013.
+[15] The Australian Public Service Big Data Strategy, AGIMO, Canberra,
+Australia, 2013.
+[16] G.-H. Kim, S. Trimi, an</p>
+<p>overnment Support for Big Data: A Five-part Support Plan, IFA,
+Paris, France, 2013.
+[15] The Australian Public Service Big Data Strategy, AGIMO, Canberra,
+Australia, 2013.
+[16] G.-H. Kim, S. Trimi, and J.-H. Chung, ‘‘Big-data applications in the
+government sector,’’ Commun. ACM, vol. 53, no. 3, pp. 78–85, Mar. 2014.
+[17] J. Lee, H.-A. Kao, and S. Yang, ‘‘Service <a href="../concepts/innovation" class="internal alias" data-slug="concepts/innovation">innovation</a> and smart analytics for
+industry 4.0 and big data environment,’’ Procedia CIRP, vol. 16, pp. 3–8,
+Dec. 2014.
+[18] S. Yoo and K. Choi, ‘‘Research on development stage of service model
+in big data industry,’’ in Computer Science and its Applications. Berlin,
+Germany: Springer, 2015, pp. 545–554.
+[19] O. Birov, ‘‘Organization of a data governance section within a traditional
+health information management department,’’ Ph.D. dissertation, College
+St. Scholastica, Duluth, MN, USA, 2013.
+[20] C. R. Weir, J. F. Hurdle, M. A. Felgar, J. M. Hoffman, B. Roth, and
+J. R. Nebeker, ‘‘Direct text entry in electronic progress notes. An evaluation
+of input errors,’’ Methods Inf. Med., vol. 42, no. 1, pp. 61–67, Feb. 2003.
+[21] R. Zheng, H. Zeng, S. Zhang, T. Chen, and W. Chen, ‘‘National estimates
+of cancer prevalence in China, 2011,’’ Cancer Lett., vol. 370, no. 1,
+pp. 33–38, Jan. 2016.
+[22] N. V. Chawla and D. A. Davis, ‘‘Bringing big data to personalized health-
+care: A patient-centered framework,’’ J. Gen. Internal Med., vol. 28, no. 3,
+pp. S660–S665, Sep. 2013.
+[23] L. H. Curtis, J. Brown, and R. Platt, ‘‘Four health data networks illustrate
+the potential for a shared national multipurpose big-data network,’’ Health
+Affairs, vol. 33, no. 7, pp. 1178–1186, Jul. 2014.
+[24] Y. Wang, ‘‘Interest games and cooperation mechanisms in the construction
+of regional health informatization,’’ Ph.D. dissertation, Shanxi Med. Univ.
+China, Taiyuan, China, 2017.
+[25] Y. Liu, ‘‘Research on regional information resource planning in the hea</p>
+<p>nstruction
+of regional health informatization,’’ Ph.D. dissertation, Shanxi Med. Univ.
+China, Taiyuan, China, 2017.
+[25] Y. Liu, ‘‘Research on regional information resource planning in the health
+ﬁeld,’’ M.S. thesis, Central China Normal Univ. China, Wuhan, China,
+2012.
+[26] W. E. Hammond, C. Bailey, P. Boucher, M. Spohr, and P. Whitaker,
+‘‘Connecting information to improve health,’’ Health Affairs, vol. 29, no. 2,
+pp. 284–288, Feb. 2010.
+[27] K. El Emam, E. Jonker, L. Arbuckle, and B. Malin, ‘‘A systematic review
+of re-identiﬁcation attacks on health data,’’ PLoS ONE, vol. 6, no. 12,
+Jan. 2011, Art. no. e28071.
+[28] K. El Emam, E. Jonker, L. Arbuckle, and B. Malin, ‘‘Correction:
+A systematic review of re-identiﬁcation attacks on health data,’’ PLoS
+ONE, vol. 10, no. 4, Apr. 2015, Art. no. e0126772.
+[29] A.
+Heitmueller,
+S.
+Henderson,
+W.
+Warburton,
+A.
+Elmagarmid,
+A. S. Pentland, and A. Darzi, ‘‘Developing <a href="../entities/public-policy" class="internal alias" data-slug="entities/public-policy">public policy</a> to advance
+the use of big data in health care,’’ Health Affairs, vol. 33, no. 9,
+pp. 1523–1530, Sep. 2014.
+[30] W. Zhong, Personal Data Privacy Regulation in the Big Data Era. Beijing,
+China: Social Sciences Academic Press, 2014.
+[31] T. B. Murdoch and A. S. Detsky, ‘‘The inevitable application of big data to
+health care,’’ JAMA, vol. 309, no. 13, pp. 1351–1352, Apr. 2013.
+[32] M. E. Porter, ‘‘What is value in health care?’’ New England J. Med.,
+vol. 363, no. 26, pp. 2477–2481, Dec. 2010.
+QUAN LI received the bachelor’s degree in infor-
+mation management and information system from
+Southwest Minzu University, in 2008, and the
+master’s degree in information science from the
+Huazhong University of Science and Technology,
+in 2010. He is currently pursuing the Ph.D. degree
+in <a href="../concepts/epidemiology" class="internal alias" data-slug="concepts/epidemiology">epidemiology</a> and health statistics with Sun
+Yat-sen University.
+He is currently the CEO of the Chinese com-
+pany focusing on value realization of healthcare
+big data. He has participated in consultation, pla</p>
+<p>ology and health statistics with Sun
+Yat-sen University.
+He is currently the CEO of the Chinese com-
+pany focusing on value realization of healthcare
+big data. He has participated in consultation, planning, and construction of
+regional health information networks for many cities in China, resulting in
+a deep understanding of the commercial application of healthcare big data.
+His research interests include healthcare big data governance and regional
+health information networks.
+LAN LAN received the bachelor’s degree in busi-
+ness management, the master’s degree in public
+health, and the Ph.D. degree in epidemiology and
+health statistics from Sichuan University, in 2008,
+2015, and 2018, respectively.
+She is currently a Postdoctoral Fellow with
+the West China Biomedical Big Data Center,
+West China Hospital, Sichuan University. Her
+current research interests include healthcare big
+data, medical informatics, and medical artiﬁcial
+intelligence.
+NIANYIN ZENG received the B.Eng. degree
+in electrical engineering and <a href="../concepts/automation" class="internal alias" data-slug="concepts/automation">automation</a> and
+the Ph.D. degree in electrical engineering from
+Fuzhou University, in 2008 and 2013, respec-
+tively.
+From 2012 to 2013, he was an RA with the
+Department of Electrical and Electronic Engineer-
+ing, The University of Hong Kong. From 2017 to
+2018, he was a Visiting Professor with the Korea
+Advanced Institute of Science and Technology.
+He is currently an Associate Professor with the Department of Instrumental
+and Electrical Engineering, Xiamen University. He has authored or coau-
+thored several technical papers, including six ESI Highly Cited Papers,
+according to the most recent Clarivate Analytics ESI report. His current
+research interests include <a href="../concepts/intelligent-data-analysis" class="internal alias" data-slug="concepts/intelligent-data-analysis">intelligent data analysis</a>, computational intelli-
+gence, and time-series modeling and applications.
+Dr. Zeng was an ISEF Fellow, funded by the Korea Foundation for
+Advance Studies, from 2017 to 2018. He currently serves as an Associate
+Editor for Neurocomputing, an Editorial Board Member for Computers</p>
+<p>Zeng was an ISEF Fellow, funded by the Korea Foundation for
+Advance Studies, from 2017 to 2018. He currently serves as an Associate
+Editor for Neurocomputing, an Editorial Board Member for Computers in
+Biology and Medicine and Biomedical Engineering Online, and a Guest
+Editor for Frontiers in <a href="../concepts/neuroscience" class="internal alias" data-slug="concepts/neuroscience">Neuroscience</a>. He has also served as a Technical
+Program Committee Member for ICBEB 2014 and as an Invited Session
+Chair for ICCSE 2017. He is a very Active Reviewer for many international
+journals and conferences.
+50337</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: The photograph shows the IEEE Access logo. The main subject is the text “IEEE Access” with a registered trademark symbol. The logo uses shades of blue, with “IEEE” in a darker blue and “Access” in a lighter blue. There is no additional setting or background, as the image focuses solely on the logo.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: This <a href="../concepts/black-and-white" class="internal alias" data-slug="concepts/black-and-white">black and white</a> photograph features a man with short dark hair wearing a light-colored collared shirt. The background is plain white, creating a simple and neutral setting. The main subject is the man, and the image uses only shades of gray.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: A person with long hair and glasses is the main subject, wearing a dark t-shirt with a light design. The setting appears to be an indoor public space, possibly a café or food court, with a counter and background elements like shelves and people. The photograph is in black and white, featuring only shades of gray without any color.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 4]</strong>: [Image: vision model returned empty description]</p>
+</blockquote>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ments like shelves and people. The photograph is in black and white, featuring only shades of gray without any color.</p>
+<blockquote>
+<p><strong>[Image 4]</strong>: [Image: vision model returned empty description]</p>
+</blockquote>
+<hr/>
+<h2 id="page-9-1">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>LEI YOU received the Ph.D. degree in computer
+applied technology from the Harbin Institute of
+Technology, China, in 2018. He is currently a
+Postdoctoral Research Fellow with the School of
+Biomedical Informatics, The University of Texas
+Health Science Center at Houston, TX, USA. His
+research interests include image processing, pat-
+tern recognition, deep <a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a>, and bioinformat-
+ics.
+JIN YIN received the bachelor’s and master’s
+degrees in <a href="../concepts/software-engineering" class="internal alias" data-slug="concepts/software-engineering">software engineering</a> from the Uni-
+versity of Electronic Science and Technology of
+China, in 2009 and 2014, respectively.
+He is currently an Engineer with the West China
+Biomedical Big Data Center, West China Hospital,
+Sichuan University. His current research interests
+include healthcare big data, medical informatics,
+and medical artiﬁcial intelligence.
+XIAOBO ZHOU received the Ph.D. degree in
+applied <a href="../concepts/mathematics" class="internal alias" data-slug="concepts/mathematics">mathematics</a> from <a href="../entities/peking-university" class="internal alias" data-slug="entities/peking-university">Peking University</a>,
+China. He is currently a Professor and the Direc-
+tor of the Center for Systems Medicine, School
+of Biomedical Bioinformatics, The University of
+Texas Health Science Center at Houston. His
+research interests include data sciences, imaging
+informatics, and <a href="../concepts/clinical-informatics" class="internal alias" data-slug="concepts/clinical-informatics">clinical informatics</a>.
+QUN MENG received the M.D. degree in health
+statistics from Sichuan University, in 1998.
+From 2001 to 2002, he was a Visiting Scholar
+with the School of Public Health, Harvard Univer-
+sity. He is currently a Professor with the School
+of Public Health, Sun Yat-sen University. He has
+presided over a number of major national science
+and technology projects and the ‘‘863’’ program,
+where the ‘‘China Urban and Rural Residents
+Health Records Standard System and Regional
+Health Information Platform Research and Application’’ project received the
+Chinese Medical Technology Third Place Prize, in 2013.
+In 2010, he j</p>
+<p>sidents
+Health Records Standard System and Regional
+Health Information Platform Research and Application’’ project received the
+Chinese Medical Technology Third Place Prize, in 2013.
+In 2010, he joined the Statistical Information Center, National Health
+Commission of the People’s Republic of China, as the Director, where he
+signiﬁcantly promoted the development of health information in China.
+He is also with the Comprehensive Supervision Bureau, National Health
+Commission of the People’s Republic of China.
+50338</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: A man wearing glasses, a jacket over a checkered shirt, speaks into a microphone. The setting appears to be an indoor event, likely a conference or presentation. The photograph is black and white, showing various shades of gray.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 2]</strong>: The photograph shows the IEEE Access logo. The main subject is the text-based logo with “IEEE” in bold dark blue letters and “Access” in a lighter blue script font. The setting is a plain white background, and the colors used are various shades of blue, including a darker blue for “IEEE” and a lighter blue for “Access”. A small registered trademark symbol appears after “Access”.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 3]</strong>: This black - and - white photograph features a man as the main subject. He is wearing a dark t - shirt with a small logo on the chest and standing against a plain, light - colored wall. The setting is minimal, with no additional objects or decorations. The image uses only shades of gray, with the man’s dark clothing contrasting against the lighter background.</p>
+</blockquote>
+<blockquote>
+<p><strong>[Image 4]</strong>: This black and white photograph features a man wearing a light - colored button - up shirt. He stands against a plain gray background, creating a simple and professional setting. The image uses monochromatic tones, focusing attention on the subject without any distracting elements. The man’s attire and the neutral backdrop give the photo a clean, formal appearance.</p>
+</blockquote>
+<p>al setting. The image uses monochromatic tones, focusing attention on the subject without any distracting elements. The man’s attire and the neutral backdrop give the photo a clean, formal appearance.</p>
+<blockquote>
+<p><strong>[Image 5]</strong>: The photograph features a man as the main subject, dressed in a suit and tie. He is positioned against a plain gray background, typical of a professional portrait setting. The image is rendered in black and white, with no other colors visible.</p>
+</blockquote>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/big-data-governance" class="internal alias" data-slug="concepts/big-data-governance">Big Data Governance</a> — <a href="https://en.wikipedia.org/wiki/Big_Data_Governance" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/rhins" class="internal alias" data-slug="concepts/rhins">RHINs</a> — <a href="https://en.wikipedia.org/wiki/RHINs" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/data-enabled-intelligence" class="internal alias" data-slug="concepts/data-enabled-intelligence">Data-Enabled Intelligence</a> — <a href="https://en.wikipedia.org/wiki/Data-Enabled_Intelligence" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/healthcare-informatization" class="internal alias" data-slug="concepts/healthcare-informatization">Healthcare Informatization</a> — <a href="https://en.wikipedia.org/wiki/Healthcare_Informatization" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Regional Health Information Networks — <a href="https://en.wikipedia.org/wiki/Regional_Health_Information_Networks" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Health Information Exchange — <a href="https://en.wikipedia.org/wiki/Health_Information_Exchange" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/electronic-health-records" class="internal alias" data-slug="concepts/electronic-health-records">Electronic Health Records</a> — <a href="https://en.wikipedia.org/wiki/Electronic_Health_Records" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Interpretative Structural Modeling — <a href="https://en.wikipedia.org/wiki/Interpretative_Structural_Modeling" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Data Strategy Planning — <a href="https://en.wikipedia.org/wiki/Data_Strategy_Planning" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/ai-security" class="internal alias" data-slug="concepts/ai-security">Data Privacy and Security</a> — <a href="https://en.wikipedia.org/wiki/Data_Privacy_and_Security" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Healthcare Data Standards — <a href="https://en.wikipedia.org/wiki/Healthcare_Data_Standards" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Data Collection and Storage — <a href="https://en.wikipedia.org/wiki/Data_Collection_and_Storage" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Data Processing and Analysis — <a href="https://en.wikipedia.org/wiki/Data_Processing_and_Analysis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/digital-health" class="internal alias" data-slug="concepts/digital-health">Digital Health</a> — <a href="https://en.wikipedia.org/wiki/Digital_Health" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Cross-Institution Data Sharing — <a href="https://en.wikipedia.org/wiki/Cross-Institution_Data_Sharing" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>QUN LI — <a href="https://en.wikipedia.org/wiki/QUN_LI" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/china" class="internal alias" data-slug="entities/china">China</a> — <a href="https://en.wikipedia.org/wiki/China" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/lei-you" class="internal alias" data-slug="entities/lei-you">LEI YOU</a> — <a href="https://en.wikipedia.org/wiki/LEI_YOU" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/jin-yin" class="internal alias" data-slug="entities/jin-yin">JIN YIN</a> — <a href="https://en.wikipedia.org/wiki/JIN_YIN" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/xiaobo-zhou" class="internal alias" data-slug="entities/xiaobo-zhou">XIAOBO ZHOU</a> — <a href="https://en.wikipedia.org/wiki/XIAOBO_ZHOU" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/qun-meng" class="internal alias" data-slug="entities/qun-meng">QUN MENG</a> — <a href="https://en.wikipedia.org/wiki/QUN_MENG" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Quan Li — <a href="https://en.wikipedia.org/wiki/Quan_Li" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Springer — <a href="https://en.wikipedia.org/wiki/Springer" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>IEEE Access — <a href="https://en.wikipedia.org/wiki/IEEE_Access" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Linbo Qing — <a href="https://en.wikipedia.org/wiki/Linbo_Qing" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Lan Lan — <a href="https://en.wikipedia.org/wiki/Lan_Lan" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Nianyin Zeng — <a href="https://en.wikipedia.org/wiki/Nianyin_Zeng" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9688" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#ralized-in-the-form-of-electronic-health-records-ehrs-this-phase-was-mainly-characterized-by-an-internal-consolidation-of-the-healthcare-industry-the-third-phase-began-in-2015-when-the-explosion-of-social-networks-created-massive-amounts-of-personal-healthcare-related-raw-data-emotional-and-behavioral-and-various-sets-of-personalized-daily-healthcare-data-mostly-50330-2169-3536-2019-ieee-translations-and-content-mining-are-permitted-for-academic-research-only-personal-use-is-also-permitted-but-republicationredistribution-requires-ieee-permission-see-httpwwwieeeorgpublications_standardspublicationsrightsindexhtml-for-more-information--image-1-the-image-shows-the-ieee-access-logo-on-a-white-background-the-main-subject-is-the-logo-with-ieee-in-dark-blue-and-access-in-light-blue-accompanied-by-text-below-stating-multidisciplinary-rapid-review-and-open-access-journal-in-black-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----" data-for="ralized-in-the-form-of-electronic-health-records-ehrs-this-phase-was-mainly-characterized-by-an-internal-consolidation-of-the-healthcare-industry-the-third-phase-began-in-2015-when-the-explosion-of-social-networks-created-massive-amounts-of-personal-healthcare-related-raw-data-emotional-and-behavioral-and-various-sets-of-personalized-daily-healthcare-data-mostly-50330-2169-3536-2019-ieee-translations-and-content-mining-are-permitted-for-academic-research-only-personal-use-is-also-permitted-but-republicationredistribution-requires-ieee-permission-see-httpwwwieeeorgpublications_standardspublicationsrightsindexhtml-for-more-information--image-1-the-image-shows-the-ieee-access-logo-on-a-white-background-the-main-subject-is-the-logo-with-ieee-in-dark-blue-and-access-in-light-blue-accompanied-by-text-below-stating-multidisciplinary-rapid-review-and-open-access-journal-in-black-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----">ralized in the form of electronic health records (EHRs). This phase was mainly characterized by an internal consolidation of the healthcare industry. The third phase began in 2015, when the explosion of social networks created massive amounts of personal healthcare-related raw data (emotional and behavioral) and various sets of personalized daily healthcare data (mostly 50330 2169-3536 2019 IEEE. Translations and content mining are permitted for academic research only. Personal use is also permitted, but republication/redistribution requires IEEE permission. See http://www.ieee.org/publications_standards/publications/rights/index.html for more information. > [Image 1]: The image shows the IEEE Access logo on a white background. The main subject is the logo with “IEEE” in dark blue and “Access” in light blue, accompanied by text below stating “Multidisciplinary”, “Rapid Review”, and “Open Access Journal” in black with blue dots separating them. The color scheme features blue and black against the white backdrop. This logo represents a multidisciplinary, rapid review, open access journal. ---‘</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#ack-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----" data-for="ack-with-blue-dots-separating-them-the-color-scheme-features-blue-and-black-against-the-white-backdrop-this-logo-represents-a-multidisciplinary-rapid-review-open-access-journal----">ack with blue dots separating them. The color scheme features blue and black against the white backdrop. This logo represents a multidisciplinary, rapid review, open access journal. ---‘</a></li><li class="depth-0"><a href="#page-1-1" data-for="page-1-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-2-1" data-for="page-2-1">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-6-1" data-for="page-6-1">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-7-1" data-for="page-7-1">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-9-1" data-for="page-9-1">Page 9</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/big-data-governance" class="internal">big-data-governance</a></li><li><a href="../concepts/data-enabled-intelligence" class="internal">data-enabled-intelligence</a></li><li><a href="../concepts/healthcare-informatization" class="internal">healthcare-informatization</a></li><li><a href="../concepts/rhins" class="internal">rhins</a></li><li><a href="../entities/jin-yin" class="internal">jin-yin</a></li><li><a href="../entities/lei-you" class="internal">lei-you</a></li><li><a href="../entities/qun-meng" class="internal">qun-meng</a></li><li><a href="../entities/xiaobo-zhou" class="internal">xiaobo-zhou</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

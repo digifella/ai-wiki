@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Health &amp; Wellbeing · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Health &amp; Wellbeing · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Health &amp; Wellbeing · NemoClaw"/><meta name="twitter:description" content="Health &amp; Wellbeing Health, resilience, pain, recovery, performance, human wellbeing, and the mind — including psychology, mental health, and human connection."/><meta property="og:description" content="Health &amp; Wellbeing Health, resilience, pain, recovery, performance, human wellbeing, and the mind — including psychology, mental health, and human connection."/><meta property="og:image:alt" content="Health &amp; Wellbeing Health, resilience, pain, recovery, performance, human wellbeing, and the mind — including psychology, mental health, and human connection."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/domains/health-wellbeing"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/domains/health-wellbeing"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Health &amp; Wellbeing Health, resilience, pain, recovery, performance, human wellbeing, and the mind — including psychology, mental health, and human connection."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/domains/health-wellbeing-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/domains/health-wellbeing-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/domains/health-wellbeing-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="domains/health-wellbeing"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-14698"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-14698" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../domains/">domains</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Health &amp; Wellbeing</a></div></nav><h1 class="article-title">Health &amp; Wellbeing</h1><p show-comma="true" class="content-meta"><time datetime="2026-08-01T14:00:00.000Z">Aug 02, 2026</time><span>8 min read</span></p><ul class="tags"><li><a href="../tags/domain" class="internal tag-link">domain</a></li><li><a href="../tags/health-wellbeing" class="internal tag-link">health-wellbeing</a></li></ul></div></div><article class="popover-hint domain-page"><h1 id="health--wellbeing">Health &amp; Wellbeing<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#health--wellbeing" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Health, resilience, pain, recovery, performance, human wellbeing, and the mind — including psychology, mental health, and human connection.</p>
+<div class="domain-summary-bar">
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">399</span>
+    <span class="domain-summary-label">concepts</span>
+  </div>
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">344</span>
+    <span class="domain-summary-label">entities</span>
+  </div>
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">178</span>
+    <span class="domain-summary-label">linked notes</span>
+  </div>
+  <div class="domain-summary-stat">
+    <span class="domain-summary-value">4</span>
+    <span class="domain-summary-label">threads</span>
+  </div>
+</div>
+<h2 id="browse-by-thread">Browse By Thread<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#browse-by-thread" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<div class="domain-group-grid">
+<a class="domain-group-card internal" href="#resilience-mental-performance-pain">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="resilience-mental-performance--pain">Resilience Mental Performance &amp; Pain<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#resilience-mental-performance--pain" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">20 concepts · 12 linked notes</p>
+  <p class="domain-group-samples">Architectural Resilience, Chronic Pain, Chronic Pain Management</p>
+  <p class="domain-group-notes">Daintree Rainforest Oldest Living Tropical Ecosystem Anc · Team Agentic OS Architecture and Implementation for AI L</p>
+</a>
+<a class="domain-group-card internal" href="#mind-psychology-human-connection">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="mind-psychology--human-connection">Mind, Psychology &amp; Human Connection<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#mind-psychology--human-connection" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">20 concepts · 27 linked notes</p>
+  <p class="domain-group-samples">Ai Consciousness, Behavioral Types, Biases</p>
+  <p class="domain-group-notes">Claudes Internal Mental Life Anthropics J Space Investig · Glioblastoma Reprogramming Transforming Brain Cancer Cel</p>
+</a>
+<a class="domain-group-card internal" href="#health-practice-patient-knowledge">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="health-practice--patient-knowledge">Health Practice &amp; Patient Knowledge<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#health-practice--patient-knowledge" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">334 concepts · 138 linked notes</p>
+  <p class="domain-group-samples">2026 04 11 How Climate Affects Community Health, 8765 Hours, Academic Performance</p>
+  <p class="domain-group-notes">Fei Fei Li Spatial Intelligence Solves Robotics Data Sca · Shadow AI Rapid Integration in Healthcare Diagnostic Ben</p>
+</a>
+<a class="domain-group-card internal" href="#body-systems-recovery-function">
+  <span class="domain-group-kicker">Thread</span>
+  <h3 id="body-systems-recovery--function">Body Systems Recovery &amp; Function<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#body-systems-recovery--function" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+  <p class="domain-group-stats">25 concepts · 17 linked notes</p>
+  <p class="domain-group-samples">Artifact Recovery, Automated Debt Recovery, Bdnf</p>
+  <p class="domain-group-notes">Cactus Needle A Compact 26M Model for Efficient Edge Fun · Banks Peninsula Rewilding Hugh Wilsons Gorse Based Ecosy</p>
+</a>
+</div>
+<h2 id="thread-detail">Thread Detail<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#thread-detail" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<div id="resilience-mental-performance-pain" class="domain-group-anchor"></div>
+## Resilience Mental Performance &amp; Pain
+<div class="domain-group-meta">20 concepts · 12 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-07-03-Daintree-Rainforest-Oldest-Living-Tropical-Ecosystem-Anc" class="internal alias" data-slug="lab-notes/2026-07-03-Daintree-Rainforest-Oldest-Living-Tropical-Ecosystem-Anc">Daintree Rainforest Oldest Living Tropical Ecosystem Anc</a></li>
+<li><a href="../lab-notes/2026-06-03-Team-Agentic-OS-Architecture-and-Implementation-for-AI-L" class="internal alias" data-slug="lab-notes/2026-06-03-Team-Agentic-OS-Architecture-and-Implementation-for-AI-L">Team Agentic OS Architecture and Implementation for AI L</a></li>
+<li><a href="../lab-notes/2026-05-26-How-Inclusive-Leadership-Paves-Way-for-Psychological-Wel" class="internal alias" data-slug="lab-notes/2026-05-26-How-Inclusive-Leadership-Paves-Way-for-Psychological-Wel">How Inclusive Leadership Paves Way for Psychological Wel</a></li>
+<li><a href="../lab-notes/2026-05-15-Anthropics-Research-Translating-Claudes-Internal-Thought" class="internal alias" data-slug="lab-notes/2026-05-15-Anthropics-Research-Translating-Claudes-Internal-Thought">Anthropics Research Translating Claudes Internal Thought</a></li>
+<li><a href="../lab-notes/2026-05-05-Ancient-Cities-Ingenuity-and-Adaptation-in-Impossible-Lo" class="internal alias" data-slug="lab-notes/2026-05-05-Ancient-Cities-Ingenuity-and-Adaptation-in-Impossible-Lo">Ancient Cities Ingenuity and Adaptation in Impossible Lo</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/architectural-resilience" class="internal alias" data-slug="concepts/architectural-resilience">Architectural Resilience</a></li>
+<li><a href="../concepts/chronic-pain" class="internal alias" data-slug="concepts/chronic-pain">Chronic Pain</a></li>
+<li><a href="../concepts/chronic-pain-management" class="internal alias" data-slug="concepts/chronic-pain-management">Chronic Pain Management</a></li>
+<li><a href="../concepts/climate-resilience" class="internal alias" data-slug="concepts/climate-resilience">Climate Resilience</a></li>
+<li><a href="../concepts/cognitive-flexibility" class="internal alias" data-slug="concepts/cognitive-flexibility">Cognitive Flexibility</a></li>
+<li><a href="../concepts/cognitive-strength" class="internal alias" data-slug="concepts/cognitive-strength">Cognitive Strength</a></li>
+<li><a href="../concepts/critical-infrastructure-resilience" class="internal alias" data-slug="concepts/critical-infrastructure-resilience">Critical Infrastructure Resilience</a></li>
+<li><a href="../concepts/disengagement" class="internal alias" data-slug="concepts/disengagement">Disengagement</a></li>
+<li><a href="../concepts/ecosystem-resilience" class="internal alias" data-slug="concepts/ecosystem-resilience">Ecosystem Resilience</a></li>
+<li><a href="../concepts/flood-resilience" class="internal alias" data-slug="concepts/flood-resilience">Flood Resilience</a></li>
+<li><a href="../concepts/geological-resilience" class="internal alias" data-slug="concepts/geological-resilience">Geological Resilience</a></li>
+<li><a href="../concepts/mental-toughness" class="internal alias" data-slug="concepts/mental-toughness">Mental Toughness</a></li>
+<li><a href="../concepts/post-traumatic-growth" class="internal alias" data-slug="concepts/post-traumatic-growth">Post Traumatic Growth</a></li>
+<li><a href="../concepts/psychological-differences" class="internal alias" data-slug="concepts/psychological-differences">Psychological Differences</a></li>
+<li><a href="../concepts/quiet-panic" class="internal alias" data-slug="concepts/quiet-panic">Quiet Panic</a></li>
+<li><a href="../concepts/quiet-panic-of-unlived-lives" class="internal alias" data-slug="concepts/quiet-panic-of-unlived-lives">Quiet Panic Of Unlived Lives</a></li>
+<li><a href="../concepts/resilience" class="internal alias" data-slug="concepts/resilience">Resilience</a></li>
+<li><a href="../concepts/resilience-against-ai-updates" class="internal alias" data-slug="concepts/resilience-against-ai-updates">Resilience Against Ai Updates</a></li>
+<li><a href="../concepts/shame-resilience" class="internal alias" data-slug="concepts/shame-resilience">Shame Resilience</a></li>
+<li><a href="../concepts/stressful-test" class="internal alias" data-slug="concepts/stressful-test">Stressful Test</a></li>
+</ul>
+<div id="mind-psychology-human-connection" class="domain-group-anchor"></div>
+## Mind, Psychology &amp; Human Connection
+<div class="domain-group-meta">20 concepts · 27 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-07-08-Claudes-Internal-Mental-Life-Anthropics-J-Space-Investig" class="internal alias" data-slug="lab-notes/2026-07-08-Claudes-Internal-Mental-Life-Anthropics-J-Space-Investig">Claudes Internal Mental Life Anthropics J Space Investig</a></li>
+<li><a href="../lab-notes/2026-06-14-Glioblastoma-Reprogramming-Transforming-Brain-Cancer-Cel" class="internal alias" data-slug="lab-notes/2026-06-14-Glioblastoma-Reprogramming-Transforming-Brain-Cancer-Cel">Glioblastoma Reprogramming Transforming Brain Cancer Cel</a></li>
+<li><a href="../lab-notes/2026-06-13-AI-Agents-Explained-ReAct-Framework-Behavioral-Types-and" class="internal alias" data-slug="lab-notes/2026-06-13-AI-Agents-Explained-ReAct-Framework-Behavioral-Types-and">AI Agents Explained ReAct Framework Behavioral Types and</a></li>
+<li><a href="../lab-notes/2026-05-26-Psychological-Safety-Amy-C.-Edmondson" class="internal alias" data-slug="lab-notes/2026-05-26-Psychological-Safety-Amy-C.-Edmondson">Psychological Safety Amy C. Edmondson</a></li>
+<li><a href="../lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti" class="internal alias" data-slug="lab-notes/2026-05-26-Lanza---Agents-and-robots-for-collaborating-and-supporti">Lanza   Agents and robots for collaborating and supporti</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/ai-consciousness" class="internal alias" data-slug="concepts/ai-consciousness">Ai Consciousness</a></li>
+<li><a href="../concepts/behavioral-types" class="internal alias" data-slug="concepts/behavioral-types">Behavioral Types</a></li>
+<li><a href="../concepts/biases" class="internal alias" data-slug="concepts/biases">Biases</a></li>
+<li><a href="../concepts/compassion" class="internal alias" data-slug="concepts/compassion">Compassion</a></li>
+<li><a href="../concepts/connection" class="internal alias" data-slug="concepts/connection">Connection</a></li>
+<li><a href="../concepts/earth-personality" class="internal alias" data-slug="concepts/earth-personality">Earth Personality</a></li>
+<li><a href="../concepts/emotional-intelligence" class="internal alias" data-slug="concepts/emotional-intelligence">Emotional Intelligence</a></li>
+<li><a href="../concepts/empathy" class="internal alias" data-slug="concepts/empathy">Empathy</a></li>
+<li><a href="../concepts/fire-personality" class="internal alias" data-slug="concepts/fire-personality">Fire Personality</a></li>
+<li><a href="../concepts/gold-metal-personality" class="internal alias" data-slug="concepts/gold-metal-personality">Gold Metal Personality</a></li>
+<li><a href="../concepts/human-connection" class="internal alias" data-slug="concepts/human-connection">Human Connection</a></li>
+<li><a href="../concepts/metal-personality" class="internal alias" data-slug="concepts/metal-personality">Metal Personality</a></li>
+<li><a href="../concepts/mindfulness" class="internal alias" data-slug="concepts/mindfulness">Mindfulness</a></li>
+<li><a href="../concepts/persistent-knowledge-bases" class="internal alias" data-slug="concepts/persistent-knowledge-bases">Persistent Knowledge Bases</a></li>
+<li><a href="../concepts/psychological-nightmares" class="internal alias" data-slug="concepts/psychological-nightmares">Psychological Nightmares</a></li>
+<li><a href="../concepts/psychology" class="internal alias" data-slug="concepts/psychology">Psychology</a></li>
+<li><a href="../concepts/radiation-therapy" class="internal alias" data-slug="concepts/radiation-therapy">Radiation Therapy</a></li>
+<li><a href="../concepts/robots-in-therapy" class="internal alias" data-slug="concepts/robots-in-therapy">Robots In Therapy</a></li>
+<li><a href="../concepts/social-psychological-factors" class="internal alias" data-slug="concepts/social-psychological-factors">Social Psychological Factors</a></li>
+<li><a href="../concepts/wood-personality" class="internal alias" data-slug="concepts/wood-personality">Wood Personality</a></li>
+</ul>
+<div id="health-practice-patient-knowledge" class="domain-group-anchor"></div>
+## Health Practice &amp; Patient Knowledge
+<div class="domain-group-meta">334 concepts · 138 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-08-02-Fei-Fei-Li-Spatial-Intelligence-Solves-Robotics-Data-Sca" class="internal alias" data-slug="lab-notes/2026-08-02-Fei-Fei-Li-Spatial-Intelligence-Solves-Robotics-Data-Sca">Fei Fei Li Spatial Intelligence Solves Robotics Data Sca</a></li>
+<li><a href="../lab-notes/2026-07-17-Shadow-AI-Rapid-Integration-in-Healthcare-Diagnostic-Ben" class="internal alias" data-slug="lab-notes/2026-07-17-Shadow-AI-Rapid-Integration-in-Healthcare-Diagnostic-Ben">Shadow AI Rapid Integration in Healthcare Diagnostic Ben</a></li>
+<li><a href="../lab-notes/2026-07-17-Cochlear-Implant-Development-From-Electrical-Stimulation" class="internal alias" data-slug="lab-notes/2026-07-17-Cochlear-Implant-Development-From-Electrical-Stimulation">Cochlear Implant Development From Electrical Stimulation</a></li>
+<li><a href="../lab-notes/2026-07-15-Decoding-Biologys-Language-AI-CRISPR-and-Single-Cell-Seq" class="internal alias" data-slug="lab-notes/2026-07-15-Decoding-Biologys-Language-AI-CRISPR-and-Single-Cell-Seq">Decoding Biologys Language AI CRISPR and Single Cell Seq</a></li>
+<li><a href="../lab-notes/2026-07-15-Anthropic-Observer-Agents-AI-Monitoring-for-Reliability" class="internal alias" data-slug="lab-notes/2026-07-15-Anthropic-Observer-Agents-AI-Monitoring-for-Reliability">Anthropic Observer Agents AI Monitoring for Reliability</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/2026-04-11-how-climate-affects-community-health" class="internal alias" data-slug="concepts/2026-04-11-how-climate-affects-community-health">2026 04 11 How Climate Affects Community Health</a></li>
+<li><a href="../concepts/8765-hours" class="internal alias" data-slug="concepts/8765-hours">8765 Hours</a></li>
+<li><a href="../concepts/academic-performance" class="internal alias" data-slug="concepts/academic-performance">Academic Performance</a></li>
+<li><a href="../concepts/accounts-of-how-you-feel" class="internal alias" data-slug="concepts/accounts-of-how-you-feel">Accounts Of How You Feel</a></li>
+<li><a href="../concepts/accounts-of-what-you-prefer" class="internal alias" data-slug="concepts/accounts-of-what-you-prefer">Accounts Of What You Prefer</a></li>
+<li><a href="../concepts/administrative-overload" class="internal alias" data-slug="concepts/administrative-overload">Administrative Overload</a></li>
+<li><a href="../concepts/adolescent-well-being" class="internal alias" data-slug="concepts/adolescent-well-being">Adolescent Well Being</a></li>
+<li><a href="../concepts/adverse-health-outcomes" class="internal alias" data-slug="concepts/adverse-health-outcomes">Adverse Health Outcomes</a></li>
+<li><a href="../concepts/aged-care" class="internal alias" data-slug="concepts/aged-care">Aged Care</a></li>
+<li><a href="../concepts/ahps" class="internal alias" data-slug="concepts/ahps">Ahps</a></li>
+<li><a href="../concepts/ai-oversight" class="internal alias" data-slug="concepts/ai-oversight">Ai Oversight</a></li>
+<li><a href="../concepts/ai-supported-ide" class="internal alias" data-slug="concepts/ai-supported-ide">Ai Supported Ide</a></li>
+<li><a href="../concepts/ai-ultrasound" class="internal alias" data-slug="concepts/ai-ultrasound">Ai Ultrasound</a></li>
+<li><a href="../concepts/ai-ultrasound-scanners" class="internal alias" data-slug="concepts/ai-ultrasound-scanners">Ai Ultrasound Scanners</a></li>
+<li><a href="../concepts/aihw" class="internal alias" data-slug="concepts/aihw">Aihw</a></li>
+<li><a href="../concepts/allied-health" class="internal alias" data-slug="concepts/allied-health">Allied Health</a></li>
+<li><a href="../concepts/allied-health-professionals" class="internal alias" data-slug="concepts/allied-health-professionals">Allied Health Professionals</a></li>
+<li><a href="../concepts/allied-health-services" class="internal alias" data-slug="concepts/allied-health-services">Allied Health Services</a></li>
+<li><a href="../concepts/and-openevidence-europe-exit" class="internal alias" data-slug="concepts/and-openevidence-europe-exit">And Openevidence Europe Exit</a></li>
+<li><a href="../concepts/anxiety" class="internal alias" data-slug="concepts/anxiety">Anxiety</a></li>
+<li><a href="../concepts/anxiety-disorders" class="internal alias" data-slug="concepts/anxiety-disorders">Anxiety Disorders</a></li>
+<li><a href="../concepts/ashokan-edicts" class="internal alias" data-slug="concepts/ashokan-edicts">Ashokan Edicts</a></li>
+<li><a href="../concepts/assistive-technology" class="internal alias" data-slug="concepts/assistive-technology">Assistive Technology</a></li>
+<li><a href="../concepts/auditory-nerve" class="internal alias" data-slug="concepts/auditory-nerve">Auditory Nerve</a></li>
+<li><a href="../concepts/autism-spectrum" class="internal alias" data-slug="concepts/autism-spectrum">Autism Spectrum</a></li>
+<li><a href="../concepts/bluetooth-technology" class="internal alias" data-slug="concepts/bluetooth-technology">Bluetooth Technology</a></li>
+<li><a href="../concepts/brain-computer-interface" class="internal alias" data-slug="concepts/brain-computer-interface">Brain Computer Interface</a></li>
+<li><a href="../concepts/brain-computer-interfaces" class="internal alias" data-slug="concepts/brain-computer-interfaces">Brain Computer Interfaces</a></li>
+<li><a href="../concepts/canine-toxicity" class="internal alias" data-slug="concepts/canine-toxicity">Canine Toxicity</a></li>
+<li><a href="../concepts/cardiovascular-disease-burden" class="internal alias" data-slug="concepts/cardiovascular-disease-burden">Cardiovascular Disease Burden</a></li>
+<li><a href="../concepts/cardiovascular-events" class="internal alias" data-slug="concepts/cardiovascular-events">Cardiovascular Events</a></li>
+<li><a href="../concepts/cardiovascular-health" class="internal alias" data-slug="concepts/cardiovascular-health">Cardiovascular Health</a></li>
+<li><a href="../concepts/chest-x-rays" class="internal alias" data-slug="concepts/chest-x-rays">Chest X Rays</a></li>
+<li><a href="../concepts/children-and-family-violence" class="internal alias" data-slug="concepts/children-and-family-violence">Children And Family Violence</a></li>
+<li><a href="../concepts/chinese-medicine" class="internal alias" data-slug="concepts/chinese-medicine">Chinese Medicine</a></li>
+<li><a href="../concepts/chronic-disease-management" class="internal alias" data-slug="concepts/chronic-disease-management">Chronic Disease Management</a></li>
+<li><a href="../concepts/chronic-diseases" class="internal alias" data-slug="concepts/chronic-diseases">Chronic Diseases</a></li>
+<li><a href="../concepts/chronic-patients" class="internal alias" data-slug="concepts/chronic-patients">Chronic Patients</a></li>
+<li><a href="../concepts/clinical-assistance" class="internal alias" data-slug="concepts/clinical-assistance">Clinical Assistance</a></li>
+<li><a href="../concepts/clinical-care" class="internal alias" data-slug="concepts/clinical-care">Clinical Care</a></li>
+<li><a href="../concepts/clinical-delivery" class="internal alias" data-slug="concepts/clinical-delivery">Clinical Delivery</a></li>
+<li><a href="../concepts/clinical-diagnostics" class="internal alias" data-slug="concepts/clinical-diagnostics">Clinical Diagnostics</a></li>
+<li><a href="../concepts/clinical-informatics" class="internal alias" data-slug="concepts/clinical-informatics">Clinical Informatics</a></li>
+<li><a href="../concepts/clinical-practice-transformation" class="internal alias" data-slug="concepts/clinical-practice-transformation">Clinical Practice Transformation</a></li>
+<li><a href="../concepts/clinician-burnout" class="internal alias" data-slug="concepts/clinician-burnout">Clinician Burnout</a></li>
+<li><a href="../concepts/cochlear-implant" class="internal alias" data-slug="concepts/cochlear-implant">Cochlear Implant</a></li>
+<li><a href="../concepts/cognitive-abilities" class="internal alias" data-slug="concepts/cognitive-abilities">Cognitive Abilities</a></li>
+<li><a href="../concepts/college-mental-health-crisis" class="internal alias" data-slug="concepts/college-mental-health-crisis">College Mental Health Crisis</a></li>
+<li><a href="../concepts/community-health" class="internal alias" data-slug="concepts/community-health">Community Health</a></li>
+<li><a href="../concepts/community-health-nursing" class="internal alias" data-slug="concepts/community-health-nursing">Community Health Nursing</a></li>
+<li><a href="../concepts/community-health-programs" class="internal alias" data-slug="concepts/community-health-programs">Community Health Programs</a></li>
+<li><a href="../concepts/community-roles" class="internal alias" data-slug="concepts/community-roles">Community Roles</a></li>
+<li><a href="../concepts/companion" class="internal alias" data-slug="concepts/companion">Companion</a></li>
+<li><a href="../concepts/companionship" class="internal alias" data-slug="concepts/companionship">Companionship</a></li>
+<li><a href="../concepts/conducting-health-screenings" class="internal alias" data-slug="concepts/conducting-health-screenings">Conducting Health Screenings</a></li>
+<li><a href="../concepts/contact-tracing" class="internal alias" data-slug="concepts/contact-tracing">Contact Tracing</a></li>
+<li><a href="../concepts/continuous-monitoring" class="internal alias" data-slug="concepts/continuous-monitoring">Continuous Monitoring</a></li>
+<li><a href="../concepts/cooperative-robots" class="internal alias" data-slug="concepts/cooperative-robots">Cooperative Robots</a></li>
+<li><a href="../concepts/coordination" class="internal alias" data-slug="concepts/coordination">Coordination</a></li>
+<li><a href="../concepts/coping-strategies-for-anxiety" class="internal alias" data-slug="concepts/coping-strategies-for-anxiety">Coping Strategies For Anxiety</a></li>
+<li><a href="../concepts/country-specific-systems" class="internal alias" data-slug="concepts/country-specific-systems">Country Specific Systems</a></li>
+<li><a href="../concepts/covid-19" class="internal alias" data-slug="concepts/covid-19">Covid 19</a></li>
+<li><a href="../concepts/crisis" class="internal alias" data-slug="concepts/crisis">Crisis</a></li>
+<li><a href="../concepts/cultural-sensitivity" class="internal alias" data-slug="concepts/cultural-sensitivity">Cultural Sensitivity</a></li>
+<li><a href="../concepts/curriculum-blueprint" class="internal alias" data-slug="concepts/curriculum-blueprint">Curriculum Blueprint</a></li>
+<li><a href="../concepts/daily-routines" class="internal alias" data-slug="concepts/daily-routines">Daily Routines</a></li>
+<li><a href="../concepts/degradation-rate" class="internal alias" data-slug="concepts/degradation-rate">Degradation Rate</a></li>
+<li><a href="../concepts/dehydration" class="internal alias" data-slug="concepts/dehydration">Dehydration</a></li>
+<li><a href="../concepts/demography" class="internal alias" data-slug="concepts/demography">Demography</a></li>
+<li><a href="../concepts/depression" class="internal alias" data-slug="concepts/depression">Depression</a></li>
+<li><a href="../concepts/depression-in-college-students" class="internal alias" data-slug="concepts/depression-in-college-students">Depression In College Students</a></li>
+<li><a href="../concepts/detailed-health-service-levels" class="internal alias" data-slug="concepts/detailed-health-service-levels">Detailed Health Service Levels</a></li>
+<li><a href="../concepts/determinants-of-health" class="internal alias" data-slug="concepts/determinants-of-health">Determinants Of Health</a></li>
+<li><a href="../concepts/diagnostic-criteria" class="internal alias" data-slug="concepts/diagnostic-criteria">Diagnostic Criteria</a></li>
+<li><a href="../concepts/digital-divide" class="internal alias" data-slug="concepts/digital-divide">Digital Divide</a></li>
+<li><a href="../concepts/digital-gene-technology" class="internal alias" data-slug="concepts/digital-gene-technology">Digital Gene Technology</a></li>
+<li><a href="../concepts/digital-health" class="internal alias" data-slug="concepts/digital-health">Digital Health</a></li>
+<li><a href="../concepts/digital-health-framework" class="internal alias" data-slug="concepts/digital-health-framework">Digital Health Framework</a></li>
+<li><a href="../concepts/digital-health-literacy" class="internal alias" data-slug="concepts/digital-health-literacy">Digital Health Literacy</a></li>
+<li><a href="../concepts/digital-innovations" class="internal alias" data-slug="concepts/digital-innovations">Digital Innovations</a></li>
+<li><a href="../concepts/digital-interventions" class="internal alias" data-slug="concepts/digital-interventions">Digital Interventions</a></li>
+<li><a href="../concepts/digital-paradox" class="internal alias" data-slug="concepts/digital-paradox">Digital Paradox</a></li>
+<li><a href="../concepts/digital-readiness" class="internal alias" data-slug="concepts/digital-readiness">Digital Readiness</a></li>
+<li><a href="../concepts/digital-surveillance" class="internal alias" data-slug="concepts/digital-surveillance">Digital Surveillance</a></li>
+<li><a href="../concepts/digital-technology-literacy" class="internal alias" data-slug="concepts/digital-technology-literacy">Digital Technology Literacy</a></li>
+<li><a href="../concepts/disconnection" class="internal alias" data-slug="concepts/disconnection">Disconnection</a></li>
+<li><a href="../concepts/disease-mechanisms" class="internal alias" data-slug="concepts/disease-mechanisms">Disease Mechanisms</a></li>
+<li><a href="../concepts/disease-outbreaks" class="internal alias" data-slug="concepts/disease-outbreaks">Disease Outbreaks</a></li>
+<li><a href="../concepts/distributed-ledger" class="internal alias" data-slug="concepts/distributed-ledger">Distributed Ledger</a></li>
+<li><a href="../concepts/dyslexia-strengths" class="internal alias" data-slug="concepts/dyslexia-strengths">Dyslexia Strengths</a></li>
+<li><a href="../concepts/effective-care-delivery" class="internal alias" data-slug="concepts/effective-care-delivery">Effective Care Delivery</a></li>
+<li><a href="../concepts/efficient-care" class="internal alias" data-slug="concepts/efficient-care">Efficient Care</a></li>
+<li><a href="../concepts/electric-vehicle-ev-battery-management" class="internal alias" data-slug="concepts/electric-vehicle-ev-battery-management">Electric Vehicle Ev Battery Management</a></li>
+<li><a href="../concepts/electrical-stimulation" class="internal alias" data-slug="concepts/electrical-stimulation">Electrical Stimulation</a></li>
+<li><a href="../concepts/electricity-supply-and-demand" class="internal alias" data-slug="concepts/electricity-supply-and-demand">Electricity Supply And Demand</a></li>
+<li><a href="../concepts/electronic-health-record" class="internal alias" data-slug="concepts/electronic-health-record">Electronic Health Record</a></li>
+<li><a href="../concepts/electronic-health-records" class="internal alias" data-slug="concepts/electronic-health-records">Electronic Health Records</a></li>
+<li><a href="../concepts/embedded-sensors" class="internal alias" data-slug="concepts/embedded-sensors">Embedded Sensors</a></li>
+<li><a href="../concepts/emerging-trends" class="internal alias" data-slug="concepts/emerging-trends">Emerging Trends</a></li>
+<li><a href="../concepts/emotional-engagement" class="internal alias" data-slug="concepts/emotional-engagement">Emotional Engagement</a></li>
+<li><a href="../concepts/employee-well-being" class="internal alias" data-slug="concepts/employee-well-being">Employee Well Being</a></li>
+<li><a href="../concepts/emr" class="internal alias" data-slug="concepts/emr">Emr</a></li>
+<li><a href="../concepts/epidemiology" class="internal alias" data-slug="concepts/epidemiology">Epidemiology</a></li>
+<li><a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">Exercise</a></li>
+<li><a href="../concepts/exercise-benefits" class="internal alias" data-slug="concepts/exercise-benefits">Exercise Benefits</a></li>
+<li><a href="../concepts/exponential-transformation" class="internal alias" data-slug="concepts/exponential-transformation">Exponential Transformation</a></li>
+<li><a href="../concepts/family-engagement" class="internal alias" data-slug="concepts/family-engagement">Family Engagement</a></li>
+<li><a href="../concepts/fatherhood-support" class="internal alias" data-slug="concepts/fatherhood-support">Fatherhood Support</a></li>
+<li><a href="../concepts/fertilizer-ban" class="internal alias" data-slug="concepts/fertilizer-ban">Fertilizer Ban</a></li>
+<li><a href="../concepts/finding-purpose" class="internal alias" data-slug="concepts/finding-purpose">Finding Purpose</a></li>
+<li><a href="../concepts/folic-acid" class="internal alias" data-slug="concepts/folic-acid">Folic Acid</a></li>
+<li><a href="../concepts/framework-for-action" class="internal alias" data-slug="concepts/framework-for-action">Framework For Action</a></li>
+<li><a href="../concepts/framework-for-understanding" class="internal alias" data-slug="concepts/framework-for-understanding">Framework For Understanding</a></li>
+<li><a href="../concepts/full-body-scanning" class="internal alias" data-slug="concepts/full-body-scanning">Full Body Scanning</a></li>
+<li><a href="../concepts/full-body-ultrasound" class="internal alias" data-slug="concepts/full-body-ultrasound">Full Body Ultrasound</a></li>
+<li><a href="../concepts/fundamentals-of-nursing" class="internal alias" data-slug="concepts/fundamentals-of-nursing">Fundamentals Of Nursing</a></li>
+<li><a href="../concepts/gdpr" class="internal alias" data-slug="concepts/gdpr">Gdpr</a></li>
+<li><a href="../concepts/glioblastoma-reprogramming" class="internal alias" data-slug="concepts/glioblastoma-reprogramming">Glioblastoma Reprogramming</a></li>
+<li><a href="../concepts/global-health-network" class="internal alias" data-slug="concepts/global-health-network">Global Health Network</a></li>
+<li><a href="../concepts/global-strategy" class="internal alias" data-slug="concepts/global-strategy">Global Strategy</a></li>
+<li><a href="../concepts/glp-1-agonists" class="internal alias" data-slug="concepts/glp-1-agonists">Glp 1 Agonists</a></li>
+<li><a href="../concepts/governing-framework" class="internal alias" data-slug="concepts/governing-framework">Governing Framework</a></li>
+<li><a href="../concepts/habits" class="internal alias" data-slug="concepts/habits">Habits</a></li>
+<li><a href="../concepts/happiness" class="internal alias" data-slug="concepts/happiness">Happiness</a></li>
+<li><a href="../concepts/happiness-baseline" class="internal alias" data-slug="concepts/happiness-baseline">Happiness Baseline</a></li>
+<li><a href="../concepts/health" class="internal alias" data-slug="concepts/health">Health</a></li>
+<li><a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">Health Care</a></li>
+<li><a href="../concepts/health-challenges" class="internal alias" data-slug="concepts/health-challenges">Health Challenges</a></li>
+<li><a href="../concepts/health-communication-framework" class="internal alias" data-slug="concepts/health-communication-framework">Health Communication Framework</a></li>
+<li><a href="../concepts/health-conscious-consumption" class="internal alias" data-slug="concepts/health-conscious-consumption">Health Conscious Consumption</a></li>
+<li><a href="../concepts/health-driven-consumption" class="internal alias" data-slug="concepts/health-driven-consumption">Health Driven Consumption</a></li>
+<li><a href="../concepts/health-habits" class="internal alias" data-slug="concepts/health-habits">Health Habits</a></li>
+<li><a href="../concepts/health-information-exchange" class="internal alias" data-slug="concepts/health-information-exchange">Health Information Exchange</a></li>
+<li><a href="../concepts/health-information-technology" class="internal alias" data-slug="concepts/health-information-technology">Health Information Technology</a></li>
+<li><a href="../concepts/health-metrics" class="internal alias" data-slug="concepts/health-metrics">Health Metrics</a></li>
+<li><a href="../concepts/health-promotion" class="internal alias" data-slug="concepts/health-promotion">Health Promotion</a></li>
+<li><a href="../concepts/health-research" class="internal alias" data-slug="concepts/health-research">Health Research</a></li>
+<li><a href="../concepts/health-risk" class="internal alias" data-slug="concepts/health-risk">Health Risk</a></li>
+<li><a href="../concepts/health-sector" class="internal alias" data-slug="concepts/health-sector">Health Sector</a></li>
+<li><a href="../concepts/health-services-maturity-model" class="internal alias" data-slug="concepts/health-services-maturity-model">Health Services Maturity Model</a></li>
+<li><a href="../concepts/health-surveillance" class="internal alias" data-slug="concepts/health-surveillance">Health Surveillance</a></li>
+<li><a href="../concepts/health-system" class="internal alias" data-slug="concepts/health-system">Health System</a></li>
+<li><a href="../concepts/health-system-strengthening" class="internal alias" data-slug="concepts/health-system-strengthening">Health System Strengthening</a></li>
+<li><a href="../concepts/healthcare-access" class="internal alias" data-slug="concepts/healthcare-access">Healthcare Access</a></li>
+<li><a href="../concepts/healthcare-administration" class="internal alias" data-slug="concepts/healthcare-administration">Healthcare Administration</a></li>
+<li><a href="../concepts/healthcare-improvement" class="internal alias" data-slug="concepts/healthcare-improvement">Healthcare Improvement</a></li>
+<li><a href="../concepts/healthcare-informatization" class="internal alias" data-slug="concepts/healthcare-informatization">Healthcare Informatization</a></li>
+<li><a href="../concepts/healthcare-organisations" class="internal alias" data-slug="concepts/healthcare-organisations">Healthcare Organisations</a></li>
+<li><a href="../concepts/healthcare-sector" class="internal alias" data-slug="concepts/healthcare-sector">Healthcare Sector</a></li>
+<li><a href="../concepts/healthy-habits" class="internal alias" data-slug="concepts/healthy-habits">Healthy Habits</a></li>
+<li><a href="../concepts/healthy-lifestyle" class="internal alias" data-slug="concepts/healthy-lifestyle">Healthy Lifestyle</a></li>
+<li><a href="../concepts/hearing-restoration" class="internal alias" data-slug="concepts/hearing-restoration">Hearing Restoration</a></li>
+<li><a href="../concepts/heat-stress" class="internal alias" data-slug="concepts/heat-stress">Heat Stress</a></li>
+<li><a href="../concepts/heat-stroke" class="internal alias" data-slug="concepts/heat-stroke">Heat Stroke</a></li>
+<li><a href="../concepts/hipaa" class="internal alias" data-slug="concepts/hipaa">Hipaa</a></li>
+<li><a href="../concepts/historical-epidemiology" class="internal alias" data-slug="concepts/historical-epidemiology">Historical Epidemiology</a></li>
+<li><a href="../concepts/historical-medical-mysteries" class="internal alias" data-slug="concepts/historical-medical-mysteries">Historical Medical Mysteries</a></li>
+<li><a href="../concepts/hiv-medication" class="internal alias" data-slug="concepts/hiv-medication">Hiv Medication</a></li>
+<li><a href="../concepts/home-lab" class="internal alias" data-slug="concepts/home-lab">Home Lab</a></li>
+<li><a href="../concepts/hospital-functionality" class="internal alias" data-slug="concepts/hospital-functionality">Hospital Functionality</a></li>
+<li><a href="../concepts/human-spaceflight-medical-capability-gap-analysis" class="internal alias" data-slug="concepts/human-spaceflight-medical-capability-gap-analysis">Human Spaceflight Medical Capability Gap Analysis</a></li>
+<li><a href="../concepts/hypothetical-magic-pill" class="internal alias" data-slug="concepts/hypothetical-magic-pill">Hypothetical Magic Pill</a></li>
+<li><a href="../concepts/immediate-impact" class="internal alias" data-slug="concepts/immediate-impact">Immediate Impact</a></li>
+<li><a href="../concepts/in-flight-medical-conditions" class="internal alias" data-slug="concepts/in-flight-medical-conditions">In Flight Medical Conditions</a></li>
+<li><a href="../concepts/incremental-progress" class="internal alias" data-slug="concepts/incremental-progress">Incremental Progress</a></li>
+<li><a href="../concepts/indigenous-health" class="internal alias" data-slug="concepts/indigenous-health">Indigenous Health</a></li>
+<li><a href="../concepts/information-and-communications-technology" class="internal alias" data-slug="concepts/information-and-communications-technology">Information And Communications Technology</a></li>
+<li><a href="../concepts/inner-ear" class="internal alias" data-slug="concepts/inner-ear">Inner Ear</a></li>
+<li><a href="../concepts/integrative-review" class="internal alias" data-slug="concepts/integrative-review">Integrative Review</a></li>
+<li><a href="../concepts/integrity" class="internal alias" data-slug="concepts/integrity">Integrity</a></li>
+<li><a href="../concepts/interception-strategies" class="internal alias" data-slug="concepts/interception-strategies">Interception Strategies</a></li>
+<li><a href="../concepts/internet-of-things" class="internal alias" data-slug="concepts/internet-of-things">Internet Of Things</a></li>
+<li><a href="../concepts/interprofessional-collaboration" class="internal alias" data-slug="concepts/interprofessional-collaboration">Interprofessional Collaboration</a></li>
+<li><a href="../concepts/island-nation" class="internal alias" data-slug="concepts/island-nation">Island Nation</a></li>
+<li><a href="../concepts/iterative-design" class="internal alias" data-slug="concepts/iterative-design">Iterative Design</a></li>
+<li><a href="../concepts/jungian-grief-model" class="internal alias" data-slug="concepts/jungian-grief-model">Jungian Grief Model</a></li>
+<li><a href="../concepts/kuru-disease" class="internal alias" data-slug="concepts/kuru-disease">Kuru Disease</a></li>
+<li><a href="../concepts/language-influence-on-thought-and-perception" class="internal alias" data-slug="concepts/language-influence-on-thought-and-perception">Language Influence On Thought And Perception</a></li>
+<li><a href="../concepts/levels-of-prevention" class="internal alias" data-slug="concepts/levels-of-prevention">Levels Of Prevention</a></li>
+<li><a href="../concepts/linguistic-barriers" class="internal alias" data-slug="concepts/linguistic-barriers">Linguistic Barriers</a></li>
+<li><a href="../concepts/linguistic-relativity" class="internal alias" data-slug="concepts/linguistic-relativity">Linguistic Relativity</a></li>
+<li><a href="../concepts/lithium-ion-battery" class="internal alias" data-slug="concepts/lithium-ion-battery">Lithium Ion Battery</a></li>
+<li><a href="../concepts/local-health-service-levels" class="internal alias" data-slug="concepts/local-health-service-levels">Local Health Service Levels</a></li>
+<li><a href="../concepts/loneliness" class="internal alias" data-slug="concepts/loneliness">Loneliness</a></li>
+<li><a href="../concepts/long-term-foot-health" class="internal alias" data-slug="concepts/long-term-foot-health">Long Term Foot Health</a></li>
+<li><a href="../concepts/longitudinal-health-monitoring" class="internal alias" data-slug="concepts/longitudinal-health-monitoring">Longitudinal Health Monitoring</a></li>
+<li><a href="../concepts/longitudinal-study" class="internal alias" data-slug="concepts/longitudinal-study">Longitudinal Study</a></li>
+<li><a href="../concepts/love" class="internal alias" data-slug="concepts/love">Love</a></li>
+<li><a href="../concepts/medical-device" class="internal alias" data-slug="concepts/medical-device">Medical Device</a></li>
+<li><a href="../concepts/medical-epidemiology" class="internal alias" data-slug="concepts/medical-epidemiology">Medical Epidemiology</a></li>
+<li><a href="../concepts/medical-image-comprehension" class="internal alias" data-slug="concepts/medical-image-comprehension">Medical Image Comprehension</a></li>
+<li><a href="../concepts/medical-imaging-technology" class="internal alias" data-slug="concepts/medical-imaging-technology">Medical Imaging Technology</a></li>
+<li><a href="../concepts/medical-informatics" class="internal alias" data-slug="concepts/medical-informatics">Medical Informatics</a></li>
+<li><a href="../concepts/medical-outcomes" class="internal alias" data-slug="concepts/medical-outcomes">Medical Outcomes</a></li>
+<li><a href="../concepts/medical-paradox" class="internal alias" data-slug="concepts/medical-paradox">Medical Paradox</a></li>
+<li><a href="../concepts/medical-revolution" class="internal alias" data-slug="concepts/medical-revolution">Medical Revolution</a></li>
+<li><a href="../concepts/medical-text-comprehension" class="internal alias" data-slug="concepts/medical-text-comprehension">Medical Text Comprehension</a></li>
+<li><a href="../concepts/member-checking" class="internal alias" data-slug="concepts/member-checking">Member Checking</a></li>
+<li><a href="../concepts/memoing" class="internal alias" data-slug="concepts/memoing">Memoing</a></li>
+<li><a href="../concepts/mental-health" class="internal alias" data-slug="concepts/mental-health">Mental Health</a></li>
+<li><a href="../concepts/mental-health-support" class="internal alias" data-slug="concepts/mental-health-support">Mental Health Support</a></li>
+<li><a href="../concepts/message-queueing" class="internal alias" data-slug="concepts/message-queueing">Message Queueing</a></li>
+<li><a href="../concepts/mhealth" class="internal alias" data-slug="concepts/mhealth">Mhealth</a></li>
+<li><a href="../concepts/microbiome-health" class="internal alias" data-slug="concepts/microbiome-health">Microbiome Health</a></li>
+<li><a href="../concepts/mobile-health" class="internal alias" data-slug="concepts/mobile-health">Mobile Health</a></li>
+<li><a href="../concepts/monthly-themes" class="internal alias" data-slug="concepts/monthly-themes">Monthly Themes</a></li>
+<li><a href="../concepts/mortality-rate" class="internal alias" data-slug="concepts/mortality-rate">Mortality Rate</a></li>
+<li><a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">Motivation</a></li>
+<li><a href="../concepts/multidisciplinary-teams" class="internal alias" data-slug="concepts/multidisciplinary-teams">Multidisciplinary Teams</a></li>
+<li><a href="../concepts/multiple-intelligences" class="internal alias" data-slug="concepts/multiple-intelligences">Multiple Intelligences</a></li>
+<li><a href="../concepts/mutation-prediction" class="internal alias" data-slug="concepts/mutation-prediction">Mutation Prediction</a></li>
+<li><a href="../concepts/mutational-fingerprints" class="internal alias" data-slug="concepts/mutational-fingerprints">Mutational Fingerprints</a></li>
+<li><a href="../concepts/national-mandate" class="internal alias" data-slug="concepts/national-mandate">National Mandate</a></li>
+<li><a href="../concepts/ndb-scheme" class="internal alias" data-slug="concepts/ndb-scheme">Ndb Scheme</a></li>
+<li><a href="../concepts/needs-based-accounts" class="internal alias" data-slug="concepts/needs-based-accounts">Needs Based Accounts</a></li>
+<li><a href="../concepts/neural-implants" class="internal alias" data-slug="concepts/neural-implants">Neural Implants</a></li>
+<li><a href="../concepts/neuralink-technology" class="internal alias" data-slug="concepts/neuralink-technology">Neuralink Technology</a></li>
+<li><a href="../concepts/neurochemical-impact" class="internal alias" data-slug="concepts/neurochemical-impact">Neurochemical Impact</a></li>
+<li><a href="../concepts/nurse-as-hero" class="internal alias" data-slug="concepts/nurse-as-hero">Nurse As Hero</a></li>
+<li><a href="../concepts/nursing-education" class="internal alias" data-slug="concepts/nursing-education">Nursing Education</a></li>
+<li><a href="../concepts/nursing-roles" class="internal alias" data-slug="concepts/nursing-roles">Nursing Roles</a></li>
+<li><a href="../concepts/obesity-treatment" class="internal alias" data-slug="concepts/obesity-treatment">Obesity Treatment</a></li>
+<li><a href="../concepts/omega-3-fatty-acids" class="internal alias" data-slug="concepts/omega-3-fatty-acids">Omega 3 Fatty Acids</a></li>
+<li><a href="../concepts/open-ended-questioning" class="internal alias" data-slug="concepts/open-ended-questioning">Open Ended Questioning</a></li>
+<li><a href="../concepts/orbital-health-risks" class="internal alias" data-slug="concepts/orbital-health-risks">Orbital Health Risks</a></li>
+<li><a href="../concepts/organic-farming" class="internal alias" data-slug="concepts/organic-farming">Organic Farming</a></li>
+<li><a href="../concepts/organizational-intelligence-strategy" class="internal alias" data-slug="concepts/organizational-intelligence-strategy">Organizational Intelligence Strategy</a></li>
+<li><a href="../concepts/organizational-support" class="internal alias" data-slug="concepts/organizational-support">Organizational Support</a></li>
+<li><a href="../concepts/passive-monitoring" class="internal alias" data-slug="concepts/passive-monitoring">Passive Monitoring</a></li>
+<li><a href="../concepts/patient-generated-knowledge" class="internal alias" data-slug="concepts/patient-generated-knowledge">Patient Generated Knowledge</a></li>
+<li><a href="../concepts/patient-information" class="internal alias" data-slug="concepts/patient-information">Patient Information</a></li>
+<li><a href="../concepts/patient-needs" class="internal alias" data-slug="concepts/patient-needs">Patient Needs</a></li>
+<li><a href="../concepts/patient-progress" class="internal alias" data-slug="concepts/patient-progress">Patient Progress</a></li>
+<li><a href="../concepts/patients-support" class="internal alias" data-slug="concepts/patients-support">Patients Support</a></li>
+<li><a href="../concepts/pediatric-care" class="internal alias" data-slug="concepts/pediatric-care">Pediatric Care</a></li>
+<li><a href="../concepts/person-centred-approach" class="internal alias" data-slug="concepts/person-centred-approach">Person Centred Approach</a></li>
+<li><a href="../concepts/person-centred-care" class="internal alias" data-slug="concepts/person-centred-care">Person Centred Care</a></li>
+<li><a href="../concepts/person-enabled-health" class="internal alias" data-slug="concepts/person-enabled-health">Person Enabled Health</a></li>
+<li><a href="../concepts/personalised-care" class="internal alias" data-slug="concepts/personalised-care">Personalised Care</a></li>
+<li><a href="../concepts/personalized-care" class="internal alias" data-slug="concepts/personalized-care">Personalized Care</a></li>
+<li><a href="../concepts/personalized-medicine" class="internal alias" data-slug="concepts/personalized-medicine">Personalized Medicine</a></li>
+<li><a href="../concepts/phenomenological-analysis" class="internal alias" data-slug="concepts/phenomenological-analysis">Phenomenological Analysis</a></li>
+<li><a href="../concepts/phylogenetic-tree-walking" class="internal alias" data-slug="concepts/phylogenetic-tree-walking">Phylogenetic Tree Walking</a></li>
+<li><a href="../concepts/physical-activity-guidelines" class="internal alias" data-slug="concepts/physical-activity-guidelines">Physical Activity Guidelines</a></li>
+<li><a href="../concepts/physical-endurance" class="internal alias" data-slug="concepts/physical-endurance">Physical Endurance</a></li>
+<li><a href="../concepts/physical-health" class="internal alias" data-slug="concepts/physical-health">Physical Health</a></li>
+<li><a href="../concepts/plague" class="internal alias" data-slug="concepts/plague">Plague</a></li>
+<li><a href="../concepts/population-aging" class="internal alias" data-slug="concepts/population-aging">Population Aging</a></li>
+<li><a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">Population Health</a></li>
+<li><a href="../concepts/population-level-analysis" class="internal alias" data-slug="concepts/population-level-analysis">Population Level Analysis</a></li>
+<li><a href="../concepts/positive-psychology" class="internal alias" data-slug="concepts/positive-psychology">Positive Psychology</a></li>
+<li><a href="../concepts/post-production-stress-reduction" class="internal alias" data-slug="concepts/post-production-stress-reduction">Post Production Stress Reduction</a></li>
+<li><a href="../concepts/predictive-performance" class="internal alias" data-slug="concepts/predictive-performance">Predictive Performance</a></li>
+<li><a href="../concepts/prevention-levels-determinants-health" class="internal alias" data-slug="concepts/prevention-levels-determinants-health">Prevention Levels Determinants Health</a></li>
+<li><a href="../concepts/preventive-care" class="internal alias" data-slug="concepts/preventive-care">Preventive Care</a></li>
+<li><a href="../concepts/preventive-healthcare" class="internal alias" data-slug="concepts/preventive-healthcare">Preventive Healthcare</a></li>
+<li><a href="../concepts/primary-prevention" class="internal alias" data-slug="concepts/primary-prevention">Primary Prevention</a></li>
+<li><a href="../concepts/primary-prevention-interventions-designed-to-prevent-disease-before-it-occurs" class="internal alias" data-slug="concepts/primary-prevention-interventions-designed-to-prevent-disease-before-it-occurs">Primary Prevention Interventions Designed To Prevent Disease Before It Occurs</a></li>
+<li><a href="../concepts/prion-diseases" class="internal alias" data-slug="concepts/prion-diseases">Prion Diseases</a></li>
+<li><a href="../concepts/private-hot-tubs" class="internal alias" data-slug="concepts/private-hot-tubs">Private Hot Tubs</a></li>
+<li><a href="../concepts/promise-of-digital-health" class="internal alias" data-slug="concepts/promise-of-digital-health">Promise Of Digital Health</a></li>
+<li><a href="../concepts/providing-vaccinations" class="internal alias" data-slug="concepts/providing-vaccinations">Providing Vaccinations</a></li>
+<li><a href="../concepts/psychodynamic-theories" class="internal alias" data-slug="concepts/psychodynamic-theories">Psychodynamic Theories</a></li>
+<li><a href="../concepts/psychological-well-being" class="internal alias" data-slug="concepts/psychological-well-being">Psychological Well Being</a></li>
+<li><a href="../concepts/public-health" class="internal alias" data-slug="concepts/public-health">Public Health</a></li>
+<li><a href="../concepts/public-health-infrastructure" class="internal alias" data-slug="concepts/public-health-infrastructure">Public Health Infrastructure</a></li>
+<li><a href="../concepts/quality-of-care" class="internal alias" data-slug="concepts/quality-of-care">Quality Of Care</a></li>
+<li><a href="../concepts/radiation-effects-on-the-human-body" class="internal alias" data-slug="concepts/radiation-effects-on-the-human-body">Radiation Effects On The Human Body</a></li>
+<li><a href="../concepts/randomized-control-trial" class="internal alias" data-slug="concepts/randomized-control-trial">Randomized Control Trial</a></li>
+<li><a href="../concepts/recommendations" class="internal alias" data-slug="concepts/recommendations">Recommendations</a></li>
+<li><a href="../concepts/religious-tolerance" class="internal alias" data-slug="concepts/religious-tolerance">Religious Tolerance</a></li>
+<li><a href="../concepts/remote-health-monitoring" class="internal alias" data-slug="concepts/remote-health-monitoring">Remote Health Monitoring</a></li>
+<li><a href="../concepts/respiratory-health" class="internal alias" data-slug="concepts/respiratory-health">Respiratory Health</a></li>
+<li><a href="../concepts/retrieving" class="internal alias" data-slug="concepts/retrieving">Retrieving</a></li>
+<li><a href="../concepts/rhins" class="internal alias" data-slug="concepts/rhins">Rhins</a></li>
+<li><a href="../concepts/roles-in-community-settings" class="internal alias" data-slug="concepts/roles-in-community-settings">Roles In Community Settings</a></li>
+<li><a href="../concepts/rumble-with-vulnerability" class="internal alias" data-slug="concepts/rumble-with-vulnerability">Rumble With Vulnerability</a></li>
+<li><a href="../concepts/runner-foot-health" class="internal alias" data-slug="concepts/runner-foot-health">Runner Foot Health</a></li>
+<li><a href="../concepts/rural-and-remote-health" class="internal alias" data-slug="concepts/rural-and-remote-health">Rural And Remote Health</a></li>
+<li><a href="../concepts/san-francisco-health-tech" class="internal alias" data-slug="concepts/san-francisco-health-tech">San Francisco Health Tech</a></li>
+<li><a href="../concepts/science-of-well-being" class="internal alias" data-slug="concepts/science-of-well-being">Science Of Well Being</a></li>
+<li><a href="../concepts/scoping-review" class="internal alias" data-slug="concepts/scoping-review">Scoping Review</a></li>
+<li><a href="../concepts/secondary-prevention" class="internal alias" data-slug="concepts/secondary-prevention">Secondary Prevention</a></li>
+<li><a href="../concepts/secondary-use" class="internal alias" data-slug="concepts/secondary-use">Secondary Use</a></li>
+<li><a href="../concepts/ses-family" class="internal alias" data-slug="concepts/ses-family">Ses Family</a></li>
+<li><a href="../concepts/shame-resiliency" class="internal alias" data-slug="concepts/shame-resiliency">Shame Resiliency</a></li>
+<li><a href="../concepts/sinhala-buddhist-nationalism" class="internal alias" data-slug="concepts/sinhala-buddhist-nationalism">Sinhala Buddhist Nationalism</a></li>
+<li><a href="../concepts/sleep" class="internal alias" data-slug="concepts/sleep">Sleep</a></li>
+<li><a href="../concepts/sleep-hygiene" class="internal alias" data-slug="concepts/sleep-hygiene">Sleep Hygiene</a></li>
+<li><a href="../concepts/sleep-quality" class="internal alias" data-slug="concepts/sleep-quality">Sleep Quality</a></li>
+<li><a href="../concepts/social-determinants-of-health" class="internal alias" data-slug="concepts/social-determinants-of-health">Social Determinants Of Health</a></li>
+<li><a href="../concepts/social-interaction" class="internal alias" data-slug="concepts/social-interaction">Social Interaction</a></li>
+<li><a href="../concepts/social-support-systems-family-peers-teachers-and-mentors-provide-emotional" class="internal alias" data-slug="concepts/social-support-systems-family-peers-teachers-and-mentors-provide-emotional">Social Support Systems Family Peers Teachers And Mentors Provide Emotional</a></li>
+<li><a href="../concepts/social-welfare-initiatives" class="internal alias" data-slug="concepts/social-welfare-initiatives">Social Welfare Initiatives</a></li>
+<li><a href="../concepts/social-well-being" class="internal alias" data-slug="concepts/social-well-being">Social Well Being</a></li>
+<li><a href="../concepts/solid-electrolyte-interphase" class="internal alias" data-slug="concepts/solid-electrolyte-interphase">Solid Electrolyte Interphase</a></li>
+<li><a href="../concepts/sound-perception" class="internal alias" data-slug="concepts/sound-perception">Sound Perception</a></li>
+<li><a href="../concepts/spatial-perception" class="internal alias" data-slug="concepts/spatial-perception">Spatial Perception</a></li>
+<li><a href="../concepts/speech-comprehension" class="internal alias" data-slug="concepts/speech-comprehension">Speech Comprehension</a></li>
+<li><a href="../concepts/state-of-charge" class="internal alias" data-slug="concepts/state-of-charge">State Of Charge</a></li>
+<li><a href="../concepts/stephen-scott-cowan" class="internal alias" data-slug="concepts/stephen-scott-cowan">Stephen Scott Cowan</a></li>
+<li><a href="../concepts/stress" class="internal alias" data-slug="concepts/stress">Stress</a></li>
+<li><a href="../concepts/stress-management" class="internal alias" data-slug="concepts/stress-management">Stress Management</a></li>
+<li><a href="../concepts/student-welfare" class="internal alias" data-slug="concepts/student-welfare">Student Welfare</a></li>
+<li><a href="../concepts/study-habits" class="internal alias" data-slug="concepts/study-habits">Study Habits</a></li>
+<li><a href="../concepts/suicide-prevention" class="internal alias" data-slug="concepts/suicide-prevention">Suicide Prevention</a></li>
+<li><a href="../concepts/supplement-effectiveness" class="internal alias" data-slug="concepts/supplement-effectiveness">Supplement Effectiveness</a></li>
+<li><a href="../concepts/supplement-regimen" class="internal alias" data-slug="concepts/supplement-regimen">Supplement Regimen</a></li>
+<li><a href="../concepts/systematic-study" class="internal alias" data-slug="concepts/systematic-study">Systematic Study</a></li>
+<li><a href="../concepts/systemic-inflammation" class="internal alias" data-slug="concepts/systemic-inflammation">Systemic Inflammation</a></li>
+<li><a href="../concepts/team-dynamics" class="internal alias" data-slug="concepts/team-dynamics">Team Dynamics</a></li>
+<li><a href="../concepts/team-performance" class="internal alias" data-slug="concepts/team-performance">Team Performance</a></li>
+<li><a href="../concepts/teen-wellbeing" class="internal alias" data-slug="concepts/teen-wellbeing">Teen Wellbeing</a></li>
+<li><a href="../concepts/telehealth" class="internal alias" data-slug="concepts/telehealth">Telehealth</a></li>
+<li><a href="../concepts/telehealth-systems" class="internal alias" data-slug="concepts/telehealth-systems">Telehealth Systems</a></li>
+<li><a href="../concepts/terminology" class="internal alias" data-slug="concepts/terminology">Terminology</a></li>
+<li><a href="../concepts/tertiary-prevention" class="internal alias" data-slug="concepts/tertiary-prevention">Tertiary Prevention</a></li>
+<li><a href="../concepts/test-diagnosis" class="internal alias" data-slug="concepts/test-diagnosis">Test Diagnosis</a></li>
+<li><a href="../concepts/thematic-analysis" class="internal alias" data-slug="concepts/thematic-analysis">Thematic Analysis</a></li>
+<li><a href="../concepts/therapeutic-area" class="internal alias" data-slug="concepts/therapeutic-area">Therapeutic Area</a></li>
+<li><a href="../concepts/transdural-surgery" class="internal alias" data-slug="concepts/transdural-surgery">Transdural Surgery</a></li>
+<li><a href="../concepts/traumatic-births" class="internal alias" data-slug="concepts/traumatic-births">Traumatic Births</a></li>
+<li><a href="../concepts/trust" class="internal alias" data-slug="concepts/trust">Trust</a></li>
+<li><a href="../concepts/uta-frith" class="internal alias" data-slug="concepts/uta-frith">Uta Frith</a></li>
+<li><a href="../concepts/vaccine-production" class="internal alias" data-slug="concepts/vaccine-production">Vaccine Production</a></li>
+<li><a href="../concepts/vitamin-d-efficacy" class="internal alias" data-slug="concepts/vitamin-d-efficacy">Vitamin D Efficacy</a></li>
+<li><a href="../concepts/vulnerability" class="internal alias" data-slug="concepts/vulnerability">Vulnerability</a></li>
+<li><a href="../concepts/vulnerable-populations" class="internal alias" data-slug="concepts/vulnerable-populations">Vulnerable Populations</a></li>
+<li><a href="../concepts/weight-management" class="internal alias" data-slug="concepts/weight-management">Weight Management</a></li>
+<li><a href="../concepts/well-being" class="internal alias" data-slug="concepts/well-being">Well Being</a></li>
+<li><a href="../concepts/wellbeing" class="internal alias" data-slug="concepts/wellbeing">Wellbeing</a></li>
+<li><a href="../concepts/wellness" class="internal alias" data-slug="concepts/wellness">Wellness</a></li>
+<li><a href="../concepts/wholehearted-living" class="internal alias" data-slug="concepts/wholehearted-living">Wholehearted Living</a></li>
+<li><a href="../concepts/world-health-organization-definition-of-health" class="internal alias" data-slug="concepts/world-health-organization-definition-of-health">World Health Organization Definition Of Health</a></li>
+</ul>
+<div id="body-systems-recovery-function" class="domain-group-anchor"></div>
+## Body Systems Recovery &amp; Function
+<div class="domain-group-meta">25 concepts · 17 linked notes</div>
+<p><strong>Representative notes</strong></p>
+<ul>
+<li><a href="../lab-notes/2026-07-13-Cactus-Needle-A-Compact-26M-Model-for-Efficient-Edge-Fun" class="internal alias" data-slug="lab-notes/2026-07-13-Cactus-Needle-A-Compact-26M-Model-for-Efficient-Edge-Fun">Cactus Needle A Compact 26M Model for Efficient Edge Fun</a></li>
+<li><a href="../lab-notes/2026-07-10-Banks-Peninsula-Rewilding-Hugh-Wilsons-Gorse-Based-Ecosy" class="internal alias" data-slug="lab-notes/2026-07-10-Banks-Peninsula-Rewilding-Hugh-Wilsons-Gorse-Based-Ecosy">Banks Peninsula Rewilding Hugh Wilsons Gorse Based Ecosy</a></li>
+<li><a href="../lab-notes/2026-07-01-Baidu-Unlimited-OCR-Enhancing-DeepSeek-OCR-for-Long-Docu" class="internal alias" data-slug="lab-notes/2026-07-01-Baidu-Unlimited-OCR-Enhancing-DeepSeek-OCR-for-Long-Docu">Baidu Unlimited OCR Enhancing DeepSeek OCR for Long Docu</a></li>
+<li><a href="../lab-notes/2026-06-17-M.C.-Eschers-Print-Gallery-Complex-Analysis-and-Conforma" class="internal alias" data-slug="lab-notes/2026-06-17-M.C.-Eschers-Print-Gallery-Complex-Analysis-and-Conforma">M.C. Eschers Print Gallery Complex Analysis and Conforma</a></li>
+<li><a href="../lab-notes/2026-05-24-Dinosaur-Extinction-Event-Chicxulub-Impact-Aftermath-and" class="internal alias" data-slug="lab-notes/2026-05-24-Dinosaur-Extinction-Event-Chicxulub-Impact-Aftermath-and">Dinosaur Extinction Event Chicxulub Impact Aftermath and</a></li>
+</ul>
+<p><strong>Concepts in this thread</strong></p>
+<ul>
+<li><a href="../concepts/artifact-recovery" class="internal alias" data-slug="concepts/artifact-recovery">Artifact Recovery</a></li>
+<li><a href="../concepts/automated-debt-recovery" class="internal alias" data-slug="concepts/automated-debt-recovery">Automated Debt Recovery</a></li>
+<li><a href="../concepts/bdnf" class="internal alias" data-slug="concepts/bdnf">Bdnf</a></li>
+<li><a href="../concepts/bitcoin-recovery" class="internal alias" data-slug="concepts/bitcoin-recovery">Bitcoin Recovery</a></li>
+<li><a href="../concepts/circadian-rhythms" class="internal alias" data-slug="concepts/circadian-rhythms">Circadian Rhythms</a></li>
+<li><a href="../concepts/earths-recovery" class="internal alias" data-slug="concepts/earths-recovery">Earths Recovery</a></li>
+<li><a href="../concepts/eulers-totient-function" class="internal alias" data-slug="concepts/eulers-totient-function">Eulers Totient Function</a></li>
+<li><a href="../concepts/exercise-regular-physical-activity-improves-mood-enhances-cognitive-function-and" class="internal alias" data-slug="concepts/exercise-regular-physical-activity-improves-mood-enhances-cognitive-function-and">Exercise Regular Physical Activity Improves Mood Enhances Cognitive Function And</a></li>
+<li><a href="../concepts/foot-strength" class="internal alias" data-slug="concepts/foot-strength">Foot Strength</a></li>
+<li><a href="../concepts/function-calling" class="internal alias" data-slug="concepts/function-calling">Function Calling</a></li>
+<li><a href="../concepts/g-factor" class="internal alias" data-slug="concepts/g-factor">G Factor</a></li>
+<li><a href="../concepts/gut-brain-axis" class="internal alias" data-slug="concepts/gut-brain-axis">Gut Brain Axis</a></li>
+<li><a href="../concepts/habitat-recovery" class="internal alias" data-slug="concepts/habitat-recovery">Habitat Recovery</a></li>
+<li><a href="../concepts/human-performance" class="internal alias" data-slug="concepts/human-performance">Human Performance</a></li>
+<li><a href="../concepts/immune-system-function" class="internal alias" data-slug="concepts/immune-system-function">Immune System Function</a></li>
+<li><a href="../concepts/importcsv-function" class="internal alias" data-slug="concepts/importcsv-function">Importcsv Function</a></li>
+<li><a href="../concepts/mitochondrial-function" class="internal alias" data-slug="concepts/mitochondrial-function">Mitochondrial Function</a></li>
+<li><a href="../concepts/neuroplasticity" class="internal alias" data-slug="concepts/neuroplasticity">Neuroplasticity</a></li>
+<li><a href="../concepts/neuroscience" class="internal alias" data-slug="concepts/neuroscience">Neuroscience</a></li>
+<li><a href="../concepts/overpayment-recovery" class="internal alias" data-slug="concepts/overpayment-recovery">Overpayment Recovery</a></li>
+<li><a href="../concepts/riemann-zeta-function" class="internal alias" data-slug="concepts/riemann-zeta-function">Riemann Zeta Function</a></li>
+<li><a href="../concepts/shoe-adaptability" class="internal alias" data-slug="concepts/shoe-adaptability">Shoe Adaptability</a></li>
+<li><a href="../concepts/skin-tone-recovery" class="internal alias" data-slug="concepts/skin-tone-recovery">Skin Tone Recovery</a></li>
+<li><a href="../concepts/wave-function-collapse" class="internal alias" data-slug="concepts/wave-function-collapse">Wave Function Collapse</a></li>
+<li><a href="../concepts/zeta-function" class="internal alias" data-slug="concepts/zeta-function">Zeta Function</a></li>
+</ul>
+<h2 id="key-entities">Key Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/1x-technologies" class="internal alias" data-slug="entities/1x-technologies">1X Technologies</a></li>
+<li><a href="../entities/333-collins-street" class="internal alias" data-slug="entities/333-collins-street">333 Collins Street</a></li>
+<li><a href="../entities/aamc" class="internal alias" data-slug="entities/aamc">Aamc</a></li>
+<li><a href="../entities/abbott-laboratories" class="internal alias" data-slug="entities/abbott-laboratories">Abbott Laboratories</a></li>
+<li><a href="../entities/ai" class="internal alias" data-slug="entities/ai">Ai</a></li>
+<li><a href="../entities/ai-content-systems" class="internal alias" data-slug="entities/ai-content-systems">Ai Content Systems</a></li>
+<li><a href="../entities/ai-jason" class="internal alias" data-slug="entities/ai-jason">Ai Jason</a></li>
+<li><a href="../entities/ai-with-surya" class="internal alias" data-slug="entities/ai-with-surya">Ai With Surya</a></li>
+<li><a href="../entities/allied-health" class="internal alias" data-slug="entities/allied-health">Allied Health</a></li>
+<li><a href="../entities/amanda-beane" class="internal alias" data-slug="entities/amanda-beane">Amanda Beane</a></li>
+<li><a href="../entities/amy-c-edmondson" class="internal alias" data-slug="entities/amy-c-edmondson">Amy C Edmondson</a></li>
+<li><a href="../entities/amy-edmondson" class="internal alias" data-slug="entities/amy-edmondson">Amy Edmondson</a></li>
+<li><a href="../entities/andrew-staibd" class="internal alias" data-slug="entities/andrew-staibd">Andrew Staibd</a></li>
+<li><a href="../entities/anita-woolley" class="internal alias" data-slug="entities/anita-woolley">Anita Woolley</a></li>
+<li><a href="../entities/anne-snowdon" class="internal alias" data-slug="entities/anne-snowdon">Anne Snowdon</a></li>
+<li><a href="../entities/anton-dubov" class="internal alias" data-slug="entities/anton-dubov">Anton Dubov</a></li>
+<li><a href="../entities/anton-petrov" class="internal alias" data-slug="entities/anton-petrov">Anton Petrov</a></li>
+<li><a href="../entities/antonio-chellaa" class="internal alias" data-slug="entities/antonio-chellaa">Antonio Chellaa</a></li>
+<li><a href="../entities/baidu" class="internal alias" data-slug="entities/baidu">Baidu</a></li>
+<li><a href="../entities/bbc-future" class="internal alias" data-slug="entities/bbc-future">Bbc Future</a></li>
+<li><a href="../entities/beautiful-ai" class="internal alias" data-slug="entities/beautiful-ai">Beautiful Ai</a></li>
+<li><a href="../entities/bernhard-riemann" class="internal alias" data-slug="entities/bernhard-riemann">Bernhard Riemann</a></li>
+<li><a href="../entities/bertalan-meskó" class="internal alias" data-slug="entities/bertalan-meskó">Bertalan Meskó</a></li>
+<li><a href="../entities/big-data" class="internal alias" data-slug="entities/big-data">Big Data</a></li>
+<li><a href="../entities/bin-xu" class="internal alias" data-slug="entities/bin-xu">Bin Xu</a></li>
+<li><a href="../entities/bitesize-learning" class="internal alias" data-slug="entities/bitesize-learning">Bitesize Learning</a></li>
+<li><a href="../entities/black-death" class="internal alias" data-slug="entities/black-death">Black Death</a></li>
+<li><a href="../entities/bmj" class="internal alias" data-slug="entities/bmj">Bmj</a></li>
+<li><a href="../entities/bmj-review" class="internal alias" data-slug="entities/bmj-review">Bmj Review</a></li>
+<li><a href="../entities/boeing-737-400" class="internal alias" data-slug="entities/boeing-737-400">Boeing 737 400</a></li>
+<li><a href="../entities/bon-appétit-your-majesty" class="internal alias" data-slug="entities/bon-appétit-your-majesty">Bon Appétit Your Majesty</a></li>
+<li><a href="../entities/brené-brown" class="internal alias" data-slug="entities/brené-brown">Brené Brown</a></li>
+<li><a href="../entities/brijesh-patel" class="internal alias" data-slug="entities/brijesh-patel">Brijesh Patel</a></li>
+<li><a href="../entities/broad-institute" class="internal alias" data-slug="entities/broad-institute">Broad Institute</a></li>
+<li><a href="../entities/bruce-mccandless" class="internal alias" data-slug="entities/bruce-mccandless">Bruce Mccandless</a></li>
+<li><a href="../entities/cactus-compute" class="internal alias" data-slug="entities/cactus-compute">Cactus Compute</a></li>
+<li><a href="../entities/cactus-needle" class="internal alias" data-slug="entities/cactus-needle">Cactus Needle</a></li>
+<li><a href="../entities/cdc" class="internal alias" data-slug="entities/cdc">Cdc</a></li>
+<li><a href="../entities/charles-darwin" class="internal alias" data-slug="entities/charles-darwin">Charles Darwin</a></li>
+<li><a href="../entities/charles-gutteridge" class="internal alias" data-slug="entities/charles-gutteridge">Charles Gutteridge</a></li>
+</ul>
+<h2 id="related-shelves">Related Shelves<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-shelves" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../domains/ai-agents" class="internal alias" data-slug="domains/ai-agents">AI &amp; Agents</a></li>
+<li><a href="../domains/tools-platforms-infrastructure" class="internal alias" data-slug="domains/tools-platforms-infrastructure">Tools, Platforms &amp; Infrastructure</a></li>
+<li><a href="../domains/ux-design" class="internal alias" data-slug="domains/ux-design">UX &amp; Design</a></li>
+<li><a href="../domains/creative-pursuits" class="internal alias" data-slug="domains/creative-pursuits">Creative Pursuits</a></li>
+<li><a href="../domains/food-nutrition" class="internal alias" data-slug="domains/food-nutrition">Food &amp; Nutrition</a></li>
+<li><a href="../domains/business-strategy" class="internal alias" data-slug="domains/business-strategy">Business &amp; Strategy</a></li>
+<li><a href="../domains/biology-life-sciences" class="internal alias" data-slug="domains/biology-life-sciences">Biology &amp; Life Sciences</a></li>
+<li><a href="../domains/science-physics-research" class="internal alias" data-slug="domains/science-physics-research">Science, Physics &amp; Research</a></li>
+<li><a href="../domains/maths-logic-crypto" class="internal alias" data-slug="domains/maths-logic-crypto">Maths, Logic &amp; Crypto</a></li>
+<li><a href="../domains/earth-systems-geology-climate" class="internal alias" data-slug="domains/earth-systems-geology-climate">Earth Systems, Geology &amp; Climate</a></li>
+<li><a href="../domains/history-anthropology" class="internal alias" data-slug="domains/history-anthropology">History &amp; Anthropology</a></li>
+<li><a href="../domains/entertainment-games" class="internal alias" data-slug="domains/entertainment-games">Entertainment &amp; Games</a></li>
+<li><a href="../domains/philosophy-ethics-religion" class="internal alias" data-slug="domains/philosophy-ethics-religion">Philosophy, Ethics &amp; Religion</a></li>
+<li><a href="../domains/built-environment-architecture" class="internal alias" data-slug="domains/built-environment-architecture">Built Environment &amp; Architecture</a></li>
+<li><a href="../domains/society-politics-conflict" class="internal alias" data-slug="domains/society-politics-conflict">Society, Politics &amp; Conflict</a></li>
+<li><a href="../domains/travels-journeys" class="internal alias" data-slug="domains/travels-journeys">Travels &amp; Journeys</a></li>
+<li><a href="../domains/cosmology-space" class="internal alias" data-slug="domains/cosmology-space">Cosmology &amp; Space</a></li>
+<li><a href="../domains/undecided" class="internal alias" data-slug="domains/undecided">Undecided</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-7266" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#health--wellbeing" data-for="health--wellbeing">Health &amp; Wellbeing</a></li><li class="depth-1"><a href="#browse-by-thread" data-for="browse-by-thread">Browse By Thread</a></li><li class="depth-1"><a href="#thread-detail" data-for="thread-detail">Thread Detail</a></li><li class="depth-1"><a href="#key-entities" data-for="key-entities">Key Entities</a></li><li class="depth-1"><a href="#related-shelves" data-for="related-shelves">Related Shelves</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../INDEX" class="internal">INDEX</a></li><li><a href="../domains/ai-agents" class="internal">AI &amp; Agents</a></li><li><a href="../domains/biology-life-sciences" class="internal">Biology &amp; Life Sciences</a></li><li><a href="../domains/built-environment-architecture" class="internal">Built Environment &amp; Architecture</a></li><li><a href="../domains/business-strategy" class="internal">Business &amp; Strategy</a></li><li><a href="../domains/cosmology-space" class="internal">Cosmology &amp; Space</a></li><li><a href="../domains/creative-pursuits" class="internal">Creative Pursuits</a></li><li><a href="../domains/earth-systems-geology-climate" class="internal">Earth Systems, Geology &amp; Climate</a></li><li><a href="../domains/entertainment-games" class="internal">Entertainment &amp; Games</a></li><li><a href="../domains/food-nutrition" class="internal">Food &amp; Nutrition</a></li><li><a href="../domains/history-anthropology" class="internal">History &amp; Anthropology</a></li><li><a href="../domains/maths-logic-crypto" class="internal">Maths, Logic &amp; Crypto</a></li><li><a href="../domains/philosophy-ethics-religion" class="internal">Philosophy, Ethics &amp; Religion</a></li><li><a href="../domains/science-physics-research" class="internal">Science, Physics &amp; Research</a></li><li><a href="../domains/society-politics-conflict" class="internal">Society, Politics &amp; Conflict</a></li><li><a href="../domains/tools-platforms-infrastructure" class="internal">Tools, Platforms &amp; Infrastructure</a></li><li><a href="../domains/travels-journeys" class="internal">Travels &amp; Journeys</a></li><li><a href="../domains/undecided" class="internal">Undecided</a></li><li><a href="../domains/ux-design" class="internal">UX &amp; Design</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Payne - Status of health information exchange · NemoClaw</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="NemoClaw Knowledge Wiki"/><meta property="og:title" content="Payne - Status of health information exchange · NemoClaw"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Payne - Status of health information exchange · NemoClaw"/><meta name="twitter:description" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘Thomas H Payne1, Christian’ source_type: ‘Academic’ publisher: ‘Ey’ publishing_date: ‘2019’ authors: [‘Thomas H Payne’, ‘Charles Gutteridge’, ‘Claudia Pagliari’, ‘Cui Yong’, ‘Commissioning Group’, ‘Thomas P..."/><meta property="og:description" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘Thomas H Payne1, Christian’ source_type: ‘Academic’ publisher: ‘Ey’ publishing_date: ‘2019’ authors: [‘Thomas H Payne’, ‘Charles Gutteridge’, ‘Claudia Pagliari’, ‘Cui Yong’, ‘Commissioning Group’, ‘Thomas P..."/><meta property="og:image:alt" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘Thomas H Payne1, Christian’ source_type: ‘Academic’ publisher: ‘Ey’ publishing_date: ‘2019’ authors: [‘Thomas H Payne’, ‘Charles Gutteridge’, ‘Claudia Pagliari’, ‘Cui Yong’, ‘Commissioning Group’, ‘Thomas P..."/><meta property="twitter:domain" content="digifella.github.io/ai-wiki"/><meta property="og:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Payne---Status-of-health-information-exchange"/><meta property="twitter:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Payne---Status-of-health-information-exchange"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="domain-badge slug=health-wellbeing name=Health &amp; Wellbeing preface_schema: ‘1.0’ title: ‘Thomas H Payne1, Christian’ source_type: ‘Academic’ publisher: ‘Ey’ publishing_date: ‘2019’ authors: [‘Thomas H Payne’, ‘Charles Gutteridge’, ‘Claudia Pagliari’, ‘Cui Yong’, ‘Commissioning Group’, ‘Thomas P..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbG9uZ2JvYXJkZmVsbGEvYWktd2lraS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://digifella.github.io/ai-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Payne---Status-of-health-information-exchange-og-image.webp"/><meta property="og:image:url" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Payne---Status-of-health-information-exchange-og-image.webp"/><meta name="twitter:image" content="https://digifella.github.io/ai-wiki/lab-notes/2026-05-26-Payne---Status-of-health-information-exchange-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="lab-notes/2026-05-26-Payne---Status-of-health-information-exchange"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">NemoClaw Knowledge Wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" type="button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19653"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19653" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../lab-notes/">lab notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Payne   Status of health information exchange</a></div></nav><h1 class="article-title">Payne - Status of health information exchange</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-25T14:00:00.000Z">May 26, 2026</time><span>62 min read</span></p></div></div><article class="popover-hint">
+<div class="domain-badge">🗂️ <a href="../domains/health-wellbeing">Health &amp; Wellbeing</a><span class="domain-badge-sep"> · </span><a href="../mindmap" class="domain-badge-map">View mindmap</a></div>
+<hr/>
+<h2 id="preface_schema-10title-thomas-h-payne1-christiansource_type-academicpublisher-eypublishing_date-2019authors-thomas-h-payne-charles-gutteridge-claudia-pagliari-cui-yong-commissioning-group-thomas-payne-medical-director-it-services-uw-medicine-seattle-wa-98104-2499available_at-httpsdoiorg101136jamia2009000570keywords-information-health-exchange-care-clinical-countries-transfer-countryabstract-natarajan5-cui-yong6-lue-ping-1-university-of-washington-seattle-2-university-of-geneva-and-university-hospitals-of-geneva-switzerland">preface_schema: ‘1.0’
+title: ‘Thomas H Payne1, Christian’
+source_type: ‘Academic’
+publisher: ‘Ey’
+publishing_date: ‘2019’
+authors: [‘Thomas H Payne’, ‘Charles Gutteridge’, ‘Claudia Pagliari’, ‘Cui Yong’, ‘Commissioning Group’, ‘Thomas Payne’, ‘Medical Director’, ‘IT Services’, ‘UW Medicine’, ‘Seattle WA 98104-2499’]
+available_at: ‘<a href="https://doi.org/10.1136/jamia.2009.000570" class="external" target="_blank" rel="noopener noreferrer">https://doi.org/10.1136/jamia.2009.000570<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>’
+<a href="../concepts/keywords" class="internal alias" data-slug="concepts/keywords">keywords</a>: [‘information’, ‘health’, ‘exchange’, ‘care’, ‘clinical’, ‘countries’, ‘transfer’, ‘country’]
+abstract: ‘Natarajan5, Cui Yong6, Lue-Ping 1 University of Washington, Seattle, 2 University of Geneva and University hospitals of Geneva, Switzerland’<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preface_schema-10title-thomas-h-payne1-christiansource_type-academicpublisher-eypublishing_date-2019authors-thomas-h-payne-charles-gutteridge-claudia-pagliari-cui-yong-commissioning-group-thomas-payne-medical-director-it-services-uw-medicine-seattle-wa-98104-2499available_at-httpsdoiorg101136jamia2009000570keywords-information-health-exchange-care-clinical-countries-transfer-countryabstract-natarajan5-cui-yong6-lue-ping-1-university-of-washington-seattle-2-university-of-geneva-and-university-hospitals-of-geneva-switzerland" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h2 id="page-1">Page 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>1
+VIEWPOINTS
+PAPERS
+Thomas H Payne1, Christian
+Lovis2, Charles Gutteridge3,
+Claudia Pagliari4, Shivam
+Natarajan5, Cui Yong6, Lue-Ping
+Zhao7
+1 University of Washington, Seattle,
+Washington, USA
+2 University of Geneva and University
+hospitals of Geneva, Switzerland
+3 Barts Health NHS Trust, London, UK
+4 University of Edinburgh, Edinburgh, UK
+5 Northwest London Clinical
+Commissioning Group, London, UK
+6 <a href="../entities/peking-university" class="internal alias" data-slug="entities/peking-university">Peking University</a> Medical Informatics
+Center, Beijing, Peoples’ Republic of China
+7 Fred Hutchinson Cancer Research Center,
+Seattle, Washington, USA
+Correspondence to:
+Thomas Payne, MD, FACP
+Medical Director, IT Services,
+UW Medicine
+Box 359968
+325 Ninth Ave
+Seattle WA 98104-2499
+USA
+<a href="mailto:tpayne@u.washington.edu" class="external">tpayne@u.washington.edu<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Status of health information exchange:
+a comparison of six countries
+Background Health information exchange (HIE) is frequently cited as
+an important objective of <a href="../concepts/health-information-technology" class="internal alias" data-slug="concepts/health-information-technology">health information technology</a> investment be-
+cause of its potential to improve quality, reduce cost, and increase patient
+satisfaction. In this paper we examine the status and practices of HIE in
+six countries, drawn from a range of higher and lower income regions.
+Methods For each of the countries represented – China, England, India,
+Scotland, Switzerland, and the <a href="../entities/united-states" class="internal alias" data-slug="entities/united-states">United States</a> – we describe the state of
+current practice of HIE with reference to two scena</p>
+<p>.
+Methods For each of the countries represented – China, England, India,
+Scotland, Switzerland, and the United States – we describe the state of
+current practice of HIE with reference to two <a href="../concepts/scenarios" class="internal alias" data-slug="concepts/scenarios">scenarios</a>: transfer of care
+and referral. For each country we discuss national objectives, barriers and
+plans for further advancing clinical information exchange.
+Results The countries vary widely in levels of adoption of EHRs, avail-
+ability of health information in electronic form suitable for HIE, and in
+the information technology infrastructure to be used for transmission.
+Common themes emerged, however, including an expectation that in-
+formation will be exchanged rather than gathered anew, the need for in-
+centives to promote information exchange, and concerns about data se-
+curity and patient confidentiality.
+Conclusions Although the ability to transfer health information to where
+it is most needed is nearly always mentioned as an advantage of HIE
+adoption, there are wide differences in the degree to which this has been
+achieved to support the scenarios used in this study. Nevertheless, these
+differences indicate varying stages of progress along a comparable path-
+way, with similar barriers being identified in the countries described. In
+some cases, these have been partially surmounted while elsewhere work
+is needed. We reflect on contextual factors influencing the status and di-
+rection of HIE efforts in different global regions and their implications
+for progress.
+journal of
+health
+global
+© 2019 The Author(s)
+JoGH © 2019 ISoGH
+The ability to exchange patient information across clinical contexts is fre-
+quently cited as an important objective of health information technology in-
+vestment because of its potential to achieve goals of improved quality, re-
+duced cost, and increased patient satisfaction [1]. There is hope that as a result
+of greater information exchange unnecessary duplicated services will be re-
+duced, and the delivery of care will be more coordinated</p>
+<p>increased patient satisfaction [1]. There is hope that as a result
+of greater information exchange unnecessary duplicated services will be re-
+duced, and the delivery of care will be more coordinated and efficient. These
+hopes have contributed to extensive efforts globally to implement electronic
+medical records, to develop the policy and technical infrastructure required
+for clinical information exchange, to provide incentives for clinicians to use
+this infrastructure in daily practice, and to establish pilots to assess the use,
+barriers, and results of information exchange [2]. In some countries, efforts
+have progressed further than in others and in certain regions HIE efforts ex-
+tend across national borders.</p>
+<hr/>
+<h2 id="page-2">Page 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>2
+VIEWPOINTS
+PAPERS
+Unsurprisingly, not all these efforts have been successful, nor have they been extended to cover the care
+of all citizens of each country [3-5] although many nations have plans to increase the degree and utili-
+ty of clinical information exchange. In this paper we concentrate on what occurs today in six countries
+drawn from a range of higher and lower income regions, by analyzing ways in which HIE is enacted with
+reference to transfer of care between primary care practitioners and referral from primary to secondary/
+specialist care (either to seek an opinion or transfer care responsibility). The relevant scenarios, shown in
+Box 1 and Figure 1, represent frequently occurring needs for clinical information transfer in most coun-
+tries. The selected countries differ in terms of their global economic status, the maturity of their informa-
+tion infrastructures, the structural organization and financing of their health care systems and the extent
+of government involvement in the <a href="../concepts/health-sector" class="internal alias" data-slug="concepts/health-sector">health sector</a>.
+For each country, we describe current HIE practices and infrastructure, as well as reflecting on how these
+have evolved in recent years. We also describe some of the barriers to HIE (technical, structural, cultural
+and political) that ha</p>
+<p>HIE practices and infrastructure, as well as reflecting on how these
+have evolved in recent years. We also describe some of the barriers to HIE (technical, structural, cultural
+and political) that have been overcome and those which may explain why the extent of clinical informa-
+tion exchange today falls short of stated national goals. The overarching objective of the paper is to learn
+lessons from the national experiences of each country, to complement the discussion of national objec-
+tives and plans for advancing HIE [6].
+Although the term ‘Health Information Exchange’ is associated with multiple concepts [7,8], for the purpos-
+es of this paper, we focus on the administrative, technical and behavioral processes involved in the secure transfer
+of patient information from one clinical setting to another. Throughout the paper we use Health Information
+Exchange and Clinical Information Exchange synonymously, depending on the context.
+Box 1. Scenarios for health information exchange used to guide country comparisons.
+Transfer of care. Mr. James Smith has a chronic health condition. He has lived in one city for 20 years and is
+transferred to another by his employer. He makes an appointment to see the new primary care provider he has
+chosen. How does the new primary care provider gain access to his prior medical record, so that care proceeds
+without delay, omission or duplication?
+Referral. Ms. Mary Jones has been troubled by headaches beginning 6 months ago. Following initial evalua-
+tion and diagnostic tests, her primary care provider refers her to a neurologist that they jointly selected. How
+does the neurologist gather studies needed for the evaluation (records of visits, MRI, laboratory results), or are
+new studies performed?
+Figure 1. Exemplar health information exchange scenarios.</p>
+<p>How
+does the neurologist gather studies needed for the evaluation (records of visits, MRI, laboratory results), or are
+new studies performed?
+Figure 1. Exemplar health information exchange scenarios.</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: This photograph shows a diagram illustrating health information exchange processes in <a href="../concepts/health-care" class="internal alias" data-slug="concepts/health-care">medical care</a>. The main subject is the transfer of care between primary care providers and referrals to specialists, depicted through arrows and labeled shapes. The setting is a flowchart with blue diamonds for providers, light blue rectangles for data flow, and a circular shape for specialists, all on a white background. Colors are primarily blue and white, with text detailing requirements for electronic information exchange.</p>
+</blockquote>
+<hr/>
+<h2 id="page-3">Page 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>3
+VIEWPOINTS
+PAPERS
+METHODS
+Each author gathered information from the country of their expertise (and in most cases, current resi-
+dence) by review of published and unpublished literature, government reports, and consultations with
+colleagues in the field. Authors were selected for their involvement and connections in health informat-
+ics from an academic, policy or professional standpoint, or through a combination of these connections.
+The scenarios used to scaffold this <a href="../concepts/exercise" class="internal alias" data-slug="concepts/exercise">exercise</a> were initially developed for an international HIE workshop
+delivered by the authors at the Medinfo 2013 conference in Copenhagen, Denmark. The country status
+reports have been reviewed and updated periodically since that time by the authors and their contacts,
+most recently in April 2019 during the development of this manuscript, which also benefits from peer-re-
+view. To the best of our knowledge, they provide an up-to-date summary of current practices, mindful of
+the caveats noted in the discussion.
+RESULTS – CURRENT STATE IN EACH COUNTRY FOR THESE SCENARIOS
+China
+Description
+According to official statistics, by the end of November of 2018, there were a total of 32 476 hospitals
+(12 072 public and 20 404 private) in mainland China (not including Ho</p>
+<p>NARIOS
+China
+Description
+According to official statistics, by the end of November of 2018, there were a total of 32 476 hospitals
+(12 072 public and 20 404 private) in mainland China (not including Hong Kong Special Administrative
+Region, Macao Special Administrative Region and Taiwan Province). These hospitals serve the entire Chi-
+nese population with specific designations, in accordance with the hospital capacities and regions they
+serve. Most of the public and some of private hospitals are assigned one of three possible tiers, with the
+tertiary grade considered to be the best hospitals. In total, there are about 2498 level III hospitals (major
+medical centers, provincial hospitals, and teaching hospitals of medical universities), about 8806 level
+II hospitals (municipal or county hospitals), and about 10 477 level I hospitals (township or communi-
+ty Hospitals). In the past, China had three kinds of basic medical insurance: basic medical insurance for
+workers, insurance for the new-rural cooperative medical system, and basic medical insurance for urban
+residents. Since 2016, the State Council has started integrating basic medical insurance for urban resi-
+dents and insurance for the new-rural cooperative medical system and establishing a unified basic med-
+ical insurance system for both urban and rural residents. On May 31 of 2018, China’s new State Medical
+Insurance Administration was officially set up in Beijing. Currently, these insurance schemes cover over
+1.3 billion of the Chinese population. To ensure appropriate operation of the large insurance program,
+the government has established various programs to improve secure sharing of health care information.
+Infrastructure
+As China is undergoing modernization, the Chinese government has recognized the importance of re-
+forming the health care system and has implemented several waves of health care reforms over the past
+two decades. Amongst all reform strategies, leveraging health care IT has been a key comp</p>
+<p>e of re-
+forming the health care system and has implemented several waves of health care reforms over the past
+two decades. Amongst all reform strategies, leveraging health care IT has been a key component. Since
+the 1980s, the development of the health care IT infrastructure has gone through four stages. During stage
+1 from 1980 to 2000, many major hospitals in the economically advanced areas built hospital specific
+systems, to cover registration and billing. In stage 2 from 2000 to 2005, most level III hospitals, with a
+few smaller hospitals, implemented the hospital information management system that integrated infor-
+mation from hospital administration and management. During stage 3 from 2005 to 2010, most level III
+hospitals devoted significant resources to the implementation of electronic medical records (EMR) sys-
+tems, and some began to use Hospital Enterprise Resources Planning (HERP) systems. Health informa-
+tion systems are now used in essentially all of level II and III hospitals. In the meantime, early electronic
+health records (EHR) systems began to build up in some level I hospitals, <a href="../concepts/public-health" class="internal alias" data-slug="concepts/public-health">public health</a> and primary care
+institutes. Since 2010 and the onset of stage 4, the Chinese government has pushed forward health care
+reform proposing that this be based on EMR &amp; EHR technologies and delivering improved care for peo-
+ple in all socioeconomic classes. Unlike previous health care reforms, sizable funding has been allocated
+to the development and implementation of hospital information systems. Increasingly, developed areas,
+such as Beijing, Shanghai, Zhejiang Province, Guangdong, Shandong, Fujian, Henan Province, local gov-
+ernment has devoted resources to build regional health care information networks and rural and com-
+munity health information platforms. Many experiencing these developments have achieved preliminary
+success through sharing health care information locally or regionally. Meanwhile, some large health care</p>
+<hr/>
+<h2 id="page-4">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ation platforms. Many experiencing these developments have achieved preliminary
+success through sharing health care information locally or regionally. Meanwhile, some large health care</p>
+<hr/>
+<h2 id="page-4-1">Page 4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-4-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>4
+VIEWPOINTS
+PAPERS
+organizations through mergers and <a href="../concepts/acquisitions" class="internal alias" data-slug="concepts/acquisitions">acquisitions</a> have also developed their organizational health IT infra-
+<a href="../concepts/structure" class="internal alias" data-slug="concepts/structure">structure</a> to improve data sharing.
+China has undergone enormous economic development in recent years and has accomplished a great
+deal in the health IT area. However, many issues remain, presenting challenges and barriers to the fur-
+ther development of health care IT. Some of these barriers are unique to China, due to its differences in
+health care structures and insurance <a href="../concepts/policies" class="internal alias" data-slug="concepts/policies">policies</a> in comparison with other countries. For example, while the
+development of hospital information systems in level III hospitals has resulted in internal <a href="../concepts/integration" class="internal alias" data-slug="concepts/integration">integration</a> of
+data sources and achievement of the objective of data sharing in real time, sharing data across hospitals
+is still incomplete. In common with experiences in other countries, however, heterogenous IT structures,
+<a href="../concepts/architecture" class="internal alias" data-slug="concepts/architecture">architecture</a>, database technologies, database systems, and data <a href="../concepts/open-standards" class="internal alias" data-slug="concepts/open-standards">standards</a> also remain significant barriers.
+While both central and local governments have devoted substantial funding to support robust health care
+information sharing across large regions, few regional HIE systems are fully functional today.
+There is a somewhat unique feature of Electronic Health Records (EHR) in China, with somewhat dif-
+ferent definitions from commonly adopted definitions. For hospitals of level 2 or 3, electronic medical
+records system (EMRs) are routinely adopted to manage all pertinent medical information, internal clin-
+ical information exchanges, <a href="../concepts/roles-in-community-settings" class="internal alias" data-slug="concepts/roles-in-community-settings">patient care</a> and services. In <a href="../concepts/contrast" class="internal alias" data-slug="concepts/contrast">contrast</a>, the level 1 hospitals (and also those
+primary health clinics throughout countryside or local communities) have adopted <a href="../concepts/electronic-health-record" class="internal alias" data-slug="concepts/electronic-health-record">Electronic Health
+Record</a> systems (EHRs), which are constructed for managing and sharing basic medical and hea</p>
+<p>lso those
+primary health clinics throughout countryside or local communities) have adopted Electronic Health
+Record systems (EHRs), which are constructed for managing and sharing basic medical and health in-
+formation among hospitals in the region and, most importantly, for public health information manage-
+ment. While the EMRs and EHRs share some medical-related contents, they have been optimized for
+fairly different objectives and hence include many components that are fairly different. Currently, most
+of these two systems are independent of each other, and are not inter-connected. Through recent pro-
+motion and organization of the National Health Commission of China (formerly the Ministry of Health),
+EMRs in level 2 and 3 hospitals have been generally adopted, and are well developed for hospital op-
+eration, management, patient-care, and patient services inside the hospitals. Indeed, the development
+of health information technology is an important criterion for hospital evaluation and for designation
+of hospital competencies. In contrast, EHR systems in level 1 hospitals or other health clinics have not
+been developed as well, despite major effort by governmental promotions and supports. There remain
+substantial gaps and challenges for health data exchanges between regions, even though some within-re-
+gion exchange systems are reasonably developed. Additionally, even for those well-developed regions,
+information sharing between EMR and EHR is still lacking. A primary contributing factor for this lack
+is that EMRs and EHRs are generally developed by different groups of companies in different years. Be-
+cause of different requirements and purposes for developing EMR and EHR systems, these companies
+have adopted different information standards, infrastructures, and data formats for their respective ob-
+jectives. Consequently, these two systems are not easily integrated, and the differences present a major
+challenge for health information and data sharing across hosp</p>
+<p>formats for their respective ob-
+jectives. Consequently, these two systems are not easily integrated, and the differences present a major
+challenge for health information and data sharing across hospital-oriented and public health-oriented
+systems for a foreseeable future.
+Incentives
+Most hospitals are public and are overloaded in meeting the country’s health care needs. The prima-
+ry incentives for hospital leaders who are taking on the development of health IT are reputational gains
+and recognition for being progressive in adopting information technologies and actively engaging in the
+health care reform.
+Transfer of care scenario
+As noted above, China is large and quite diverse in economic development across regions. Suppose that
+Mr. James Smith is living in a relatively more developed area where the regional health care IT has been
+built, for example Shanghai, and that all of his medical records are stored within EHR system of his pri-
+mary care facility. Now if the EHR system in this primary care facility is consistent within the regional
+sharing network, Mr. Smith is able to access all of his medical records stored with the old health care pro-
+vider while receiving care from his new health care providers. When the two EHR systems are not con-
+sistent, Mr. Smith can only bring all of pertinent information printed on paper from the older health care
+provider to the new health care provider. For missing information, Mr. Smith can provide verbal recol-
+lection. While verbal recollections of medical history are useful for guiding the physician’s judgement,
+they are unlikely to be stored in the new EHR system. At this time, it is hard to estimate what percentage
+of EHR are shared.</p>
+<hr/>
+<h2 id="page-5">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>istory are useful for guiding the physician’s judgement,
+they are unlikely to be stored in the new EHR system. At this time, it is hard to estimate what percentage
+of EHR are shared.</p>
+<hr/>
+<h2 id="page-5-1">Page 5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-5-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>5
+VIEWPOINTS
+PAPERS
+Referral scenario
+Consider the current scenario that Ms. Mary Jones has a headache for more than six months without ob-
+vious reason and that the primary care physician could not provide any definitive diagnosis. Ms. Jones is
+then referred to secondary and tertiary hospitals to see a neurological specialist. Given the current status
+of health care IT in China, it is likely that she would bring a paper-based medical record and may travel
+many hours or even days to a larger hospital. After a long wait in the large hospital, she would be regis-
+tered, and then wait hours for her turn to see the doctor. Typically, senior physicians in larger hospitals are
+very busy, and it is likely they would spend only a few minutes to ask for medical history and symptoms,
+read the paper-based medical history, and order laboratory work and an MRI. Newly generated clinical
+data would then be entered into the hospital’s EMR system, while the primary care provider’s informa-
+tion is often not entered into the system. After collecting all pertinent data, the attending physician then
+provides the diagnosis, and prescribes medication. From this point forward, all health care information
+for that patient is now stored in that hospital EMR system.
+England
+Description
+The English National <a href="../entities/health-service" class="internal alias" data-slug="entities/health-service">Health Service</a> (NHS) was created in 1948 to provide health care free at the point
+of delivery. The NHS is funded through general taxation. Funds are distributed by parliamentary vote
+through regional and local organizations for health care. Recently a key <a href="../concepts/organizational-change" class="internal alias" data-slug="concepts/organizational-change">organizational change</a> has brought
+Clinical Commissioning Groups (CCGs) together into Sustainability and Transformation Partnerships
+(STPs), which usually combine 5 CCGs covering populations of 1-2 million. This has had consequences
+for</p>
+<p>inical Commissioning Groups (CCGs) together into Sustainability and Transformation Partnerships
+(STPs), which usually combine 5 CCGs covering populations of 1-2 million. This has had consequences
+for health IT expenditure. In 2003, the UK government created the National Programme for IT (NPfIT).
+The aim of this nationwide initiative was to fully computerize the NHS over 10 years. While the NPfIT
+did not achieve all of its goals, it did develop a national framework for connectivity and standards imple-
+mentation, and these have now been adopted by the STPs who have now taken charge of local health IT
+development and the implementation of a new health information exchange initiative named the Local
+Health Care Record Exemplar programme (LHCRE). The underlying concepts behind the LHCRE are pa-
+tient use and ownership of health data, data exchange across traditional boundaries of health economies
+and service transformation driven by data and system interoperability using clinical and technology stan-
+dards. For example, the One London LHCRE is designed to provide HIE and service transformation for
+the whole of London by extending local HIE services, application of interoperability standards for data
+and image exchange and includes social care organizations.
+During the 1980s and 1990s, primary care EHRs exploited the benefits of automated repeat prescrib-
+ing, disease registries and scheduling. By 2000, nearly 100% of GP and community practices ran fully
+digital services and reported electronically to the Department of Health. Point of care data collection us-
+ing a mix of structured and free text data are now the <a href="../concepts/universal-standard" class="internal alias" data-slug="concepts/universal-standard">universal standard</a>. An increasing number of prac-
+titioners are introducing mobility solutions using cloud-based systems to support district nursing and
+home based care [9].
+The English NHS has developed a connectivity framework:
+• NHS Spine – a set of services, <a href="../concepts/software" class="internal alias" data-slug="concepts/software">applications</a> and directories. The Spine now supports over one bil-
+lion monthly transactions.
+�</p>
+<p>care [9].
+The English NHS has developed a connectivity framework:
+• NHS Spine – a set of services, applications and directories. The Spine now supports over one bil-
+lion monthly transactions.
+• Health and Social Care Network (HSCN) is the default standard for internet connectivity in the
+health social care sector. The HSCN works through modern industry standards including use of
+<a href="../concepts/cloud-computing" class="internal alias" data-slug="concepts/cloud-computing">cloud computing</a> and provides new levels of:
+o <a href="../concepts/cybersecurity" class="internal alias" data-slug="concepts/cybersecurity">Cybersecurity</a> controls,
+o Service management controls,
+o Access to digital services resident on the private NHS network formerly known as N3.
+• The Registration <a href="../concepts/power" class="internal alias" data-slug="concepts/power">Authority</a> – a system for registering clinical and administrative users of NHS IT
+systems and issuing Smart Cards with role-based access controls.
+• NHS Mail – a secure encrypted mail service
+The services, applications and directories included in the NHS Spine are:</p>
+<ol>
+<li>The personal demographic service (PDS). This is a national database of NHS patient demographic
+details holding a unique patient identifier (NHS number) as well as patient preferences for data usage.</li>
+</ol>
+<hr/>
+<h2 id="page-6">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>emographic service (PDS). This is a national database of NHS patient demographic
+details holding a unique patient identifier (NHS number) as well as patient preferences for data usage.</p>
+<hr/>
+<h2 id="page-6-1">Page 6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-6-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>6
+VIEWPOINTS
+PAPERS
+2. GP2GP. This is a HL-7 standard based record transfer service that enables general practitioners to
+transfer records from one practice to another.
+3. The summary care record (SCR). This is a summary record holding patient demographic details
+and medication history. The SCR can be viewed by SCR compliant GP systems as well as using a
+national viewing application with a patient consent model applied at the point of care. The latest
+version of the summary care record extends viewing of clinical information.
+4. Electronic prescribing service (EPS). This is a digital prescribing service for patients and general
+practitioners and supports the digital transmission of electronic prescriptions to patient nominat-
+ed pharmacies.
+5. E-Referral Service. The service is based on hospital directories of service and at present semi-au-
+tomate referrals from general practice to hospitals. The current system supports the provision of
+online advice and guidance from hospital teams back to community care teams.
+6. Picture archiving and communication service. The HSCN network can be used for image transfer
+from one hospital to another.
+7. The secondary uses service (SUS). This is a repository for <a href="../concepts/health" class="internal alias" data-slug="concepts/health">healthcare</a> data in England which en-
+ables a range of <a href="../concepts/population-health" class="internal alias" data-slug="concepts/population-health">population health</a> initiatives that include payment, public health planning and
+policy development.
+An increasing number of hospital services have implemented enterprise wide health information systems
+that fully exploit the potential of the connectivity framework. Where these have been implemented prog-
+ress is now being made in viewing summary EHR pages and data exchange. The barriers to full imple-
+mentation continue to be those of provider <a href="../concepts/resistance-to-change" class="internal alias" data-slug="concepts/resistance-to-change">resistance to change</a>, funding at a time of economic austerity
+and the fail</p>
+<p>g made in viewing summary EHR pages and data exchange. The barriers to full imple-
+mentation continue to be those of provider resistance to change, funding at a time of economic austerity
+and the failure to fully implement informatics standards.
+Incentives
+The current incentives in the system differ in primary and secondary care. In primary care the main
+incentives for implementing health IT are cost savings to provider owned practices, government re-
+quirements for data reporting [10] and primary care based research collaborations. The Quality and
+Outcomes Framework (QOF) is a voluntary annual reward and <a href="../concepts/motivation" class="internal alias" data-slug="concepts/motivation">incentive</a> program for all GP practic-
+es in England. For secondary care, the main incentive during the period of the national program was
+that software systems were purchased centrally at no cost to the organization other than implementa-
+tion costs. Recently, national grants have been established based through a competitive bidding pro-
+cess against specific health service goals [11]. In secondary care, these funds have been directed at a
+program for establishing Digital Exemplars and through a separate national allocation for the Local
+Health Care Record Exemplars.
+Transfer of care scenario
+After moving, Mr. Smith can ask to register with any NHS primary care provider as long as that provider
+has spare capacity. The patient’s identity will be confirmed using the tracing tools in the Personal Demo-
+graphic Service. A message will be sent to the previous practice requesting an electronic copy of the pa-
+tient’s EHR. If the previous GP practice is GP2GP enabled, then the practice will confirm whether an elec-
+tronic extract of the EHR can be made and the transfer process will begin. The majority of GP practices
+are now able to use GP2GP and the transfer of Mr. Smith’s electronic record will be completed using this
+transfer mechanism from his previous GP’s practice. Transfer of EHRs is now a contractual requirement
+for GP practices and all practices published</p>
+<p>’s electronic record will be completed using this
+transfer mechanism from his previous GP’s practice. Transfer of EHRs is now a contractual requirement
+for GP practices and all practices published a route map to full GP2GP transfer by March 2015. Older
+patients who may still have paper records will have their paper records transferred by secure courier. Mr
+Smith can seek to view his record through the GP Connect program. All the major primary care systems
+can provide patient access to their data and which will be enabled for Mr Smith manually by physical
+identity checks in the practice.
+Referral scenario
+Ms. Jones and her general practitioner will discuss the need for referral. The GP can refer to any second-
+ary care provider although in practice this choice is usually limited by contractual agreement to local pro-
+viders and a limited number of specialist centers. The referral to the neurologist will be made using the
+national e-Referral Service (e-RS) and which gives the patient some control over time and date slots. This
+service is, however, only semi-automated and it is not currently possible to book specialist clinic time on</p>
+<hr/>
+<h2 id="page-7">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>-RS) and which gives the patient some control over time and date slots. This
+service is, however, only semi-automated and it is not currently possible to book specialist clinic time on</p>
+<hr/>
+<h2 id="page-7-1">Page 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-7-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>7
+VIEWPOINTS
+PAPERS
+line using the e-RS. Imaging and scans can be viewed or transferred from provider to provider using the
+national Image Exchange Portal (IEP) or using local exchange protocols. The receiving neurologist can
+provide advice and guidance using the e-RS and also arrange to redirect the referral using the national
+service. Electronic exchange of clinical notes, treatment plans, prescribing information and visit records
+is significantly less advanced. In local health economies, it is usual to have systems for exchange of labo-
+ratory results between hospital providers. Increasingly, local Health Information Exchange platforms are
+in place which, support information exchange between primary and secondary care. A framework for
+action to deal with these gaps in delivery has been published [12].
+India
+Description
+India’s population is over 1.2 billion and still growing at a rapid rate. Healthcare expenditure accounts to
+2%-3% of GDP. The private medical sector remains the primary source of health care for 70% of house-
+holds in urban areas and 63% of households in rural areas. Seventy percent of all health care expenditure is
+out of pocket. Only 5%-10% of the population has health insurance. HIE is virtually non-existent currently.
+Infrastructure
+EHRs and other health care technology solutions are deployed in largely tertiary center and private facil-
+ities that cover about 10%-20% of the urban population. The focus of information technology has been
+largely on administration rather than clinical care. A few private organizations are capturing and exploit-
+ing clinical content in centers of <a href="../concepts/excellence" class="internal alias" data-slug="concepts/excellence">excellence</a>.
+The Government of India is actively encouraging Health IT adoption. India follows a federated system
+with Healthcare being a State prerogative. Most of the s</p>
+<p>clinical content in centers of excellence.
+The Government of India is actively encouraging Health IT adoption. India follows a federated system
+with Healthcare being a State prerogative. Most of the states have used the framework and policy guide-
+lines created by Govt of India to create systems unique to their states. Some of the examples of the na-
+tional initiatives are as below:
+• A national initiative- Ayushman Bharat [13],
+• A national health portal for all hospitals and healthcare providers- this will form the basis of health
+information exchange later [14],
+• A national identification <a href="../concepts/number-system" class="internal alias" data-slug="concepts/number-system">number system</a> for health facilities in India [15],
+• An online patient registration system across all states and hospitals [16].
+Incentives
+India exhibits extremes in access to both basic and advanced health care. HIE infrastructure has potential
+to strengthen public health care systems through connecting records and services, whilst also support-
+ing the growth and <a href="../concepts/accountability" class="internal alias" data-slug="concepts/accountability">accountability</a> of private insurance-based health care. In addition, HIE addresses the
+inability of leading edge institutions to contribute to meaningful research in spite of the vast clinical data
+available to them. Healthcare tourism is also a great source of revenue to the country and its growth is
+fundamentally dependent on the availability of a standard, secure HIE.
+Transfer of care scenario
+A patient-maintained handheld paper record (if they hold one) will be the most reliable source of med-
+ical information when moving from one provider to the other or one city to the other. It will most often
+have the bills and receipts from hospitals and pharmacies which are often the only means of knowing
+what medicines the patient is taking. Laboratory results are almost always paper laboratory reports and
+imaging reports are often preserved as x-ray films and sometimes on digital media. Most often a doctor’s
+source of past medical history is dependent on the patient’s memory, educational status and ability to</p>
+<p>orts are often preserved as x-ray films and sometimes on digital media. Most often a doctor’s
+source of past medical history is dependent on the patient’s memory, educational status and ability to
+collate a longitudinal health record. Detailed medical records or discharge summaries are currently only
+seen in high end private hospitals or teaching institutions and clinicians largely rely on patient recall and
+previous clinical notes to assess medical history.
+There is no infrastructure or standard in place for exchange of clinical information across different pro-
+viders and across the different states in India and prospects for a unified approach is unlikely due to fierce
+market competition among private health care services. The state is beginning to mandate minimum stan-</p>
+<hr/>
+<h2 id="page-8">Page 8<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-8" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>8
+VIEWPOINTS
+PAPERS
+dards for EHRs and Consolidated-Clinical Document Architecture (C-CDA) standards since none exist
+today. Today, the best way to collate all information and results falls to the patient including tracking all
+repeated tests performed at different sites. There is also a great deal of variation in the quality and valid-
+ity of laboratory results and, due to substantial variation in the quality of laboratories, many providers
+don’t trust reports and results from other sources. Prospects for HIE appear limited today since there is
+no business case for HIE in the private sector and unhealthy competition is the norm.
+Scotland
+Description
+Scotland is small nation within the <a href="../entities/uk" class="internal alias" data-slug="entities/uk">United Kingdom</a> (population 5.3M and 64M respectively) with a de-
+volved government responsible for the administration of health and social care. It nevertheless shares
+many features with England, such as a unified National Health Service sponsored through taxation, of-
+fering free services at the point of care, the same professional <a href="../concepts/training" class="internal alias" data-slug="concepts/training">training</a> and <a href="../concepts/governance" class="internal alias" data-slug="concepts/governance">governance</a>, and an overlap-
+ping IT system supplier base.
+Primary care is the first point of contact for patients and is usually delivered in health c</p>
+<p>point of care, the same professional training and governance, and an overlap-
+ping IT system supplier base.
+Primary care is the first point of contact for patients and is usually delivered in health centers by teams
+of General Practitioners (GPs), nurses and support staff. All citizens are eligible to register with a general
+practice and the vast majority are enrolled. Access to planned secondary (hospital or specialty) care is via
+referral from primary care in most cases.
+Infrastructure
+Scotland made early progress with health IT, particularly in primary care, with the implementation of
+computerization and clinical coding having taken place over the last two decades. Close to 100% of
+general practices are now paperless, with in-practice networked information systems including digital
+patient records, electronic prescribing, decision support, clinical communications and administrative
+tools. Progress in secondary care has been slower, hindered by regional and local variations in systems
+and data practices.
+At the heart of the existing infrastructure are repositories for medical images (PACS), laboratory results and
+scanned documents (SCI-Store), 3 regional portals enabling clinicians to view their patients’ health and
+care records, and a national system for exchanging electronic clinical information such as referral letters
+and discharge documents between primary and secondary care (SCI-<a href="../concepts/gateway" class="internal alias" data-slug="concepts/gateway">Gateway</a>). Successful Health Infor-
+mation Exchange and record linkage across different parts of the service depend on the use of a unique
+patient identifier known as the <a href="../concepts/community-health" class="internal alias" data-slug="concepts/community-health">Community Health</a> Index (CHI) number, which is associated with a cen-
+tral population register. A key tool for exchanging patient information amongst various parties involved
+in the provision of health care services is the Emergency Care Summary record (ECS), containing core
+information about demographics, prescribed medications and allergies/ADRs. This is extracted routinely
+from all general practice record systems</p>
+<p>the Emergency Care Summary record (ECS), containing core
+information about demographics, prescribed medications and allergies/ADRs. This is extracted routinely
+from all general practice record systems and can be accessed by out-of-hours and emergency services, as
+well as community pharmacies and some scheduled care services such as outpatients. Until recently, pa-
+tients would be asked for their explicit consent to view the ECS at the point of care, but this requirement
+has been displaced by recent legislation and now only applies for access which is not part of the patient’s
+health care. In certain patients at high risk, or with complex needs, the ECS is supplemented by a Key
+Information Summary, with explicit consent required for the addition of details such as conditions and
+preferences (eg, for end-of-life care).
+The national eHealth strategy of 2011-17 envisaged migration of regional portals to a national acute Pa-
+tient Management System (PMS), to drive convergence and standardization of IT systems and to sup-
+port clinical information exchange within and between hospitals and eventually between secondary and
+primary care. Nationwide implementation of the PMS (TrakCare) has proven challenging however, with
+organizations choosing to approach this in somewhat different ways. Delivery of a new cloud-based Na-
+tional Digital Platform (NDS) is a key objective within the latest eHealth strategy, released in 2018. Based
+around a central Clinical Data Repository, this aims to provide a single patient-centered health and care
+record of core data, available to authorized professionals and citizens themselves, supported by a national
+citizen identity management system and NHS staff identity system. The NDS will use the OpenEHR in-
+ternational standard architecture to support interoperability and provide APIs to enable health providers
+and patients to access various digital services. Current systems suppliers are seeking to adopt HL7 FHIR
+messaging standards to interope</p>
+<p>rt interoperability and provide APIs to enable health providers
+and patients to access various digital services. Current systems suppliers are seeking to adopt HL7 FHIR
+messaging standards to interoperate with this platform.</p>
+<hr/>
+<h2 id="page-9">Page 9<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-9" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>9
+VIEWPOINTS
+PAPERS
+Incentives
+In primary care the purchase of computers and software has long been supported by central government,
+up to 2012 through the provision of a national GP information system (GPASS) and subsequently through
+the direct supply of a choice of two government-approved systems used across Scotland (EMIS PCS and
+Vision), with a further supplier to be added in 2020 (Microtest). The appropriate use of IT was incentiv-
+ized by the UK-wide scheme known as the Quality and Outcomes Framework, introduced in 2004, which
+rewards GPs for documenting Read-coded health care quality <a href="../concepts/indicators" class="internal alias" data-slug="concepts/indicators">indicators</a> using their electronic informa-
+tion systems. In secondary care there are no such payments to clinicians and use of IT systems is driven
+by the clinical need for rapid access to laboratory results, images and referral letters. Key secondary care
+data, PACS images and laboratory results are now viewable in the regional portals, with a plan to make
+these interoperable to support nation-wide access, as a precursor to fully-digital HIE enabled by the Na-
+tional Digital Platform. The current hybrid system of digital, analogue and semi-digital HIE is reflected in
+the scenarios below.
+Transfer of care scenario
+Mr Smith visits the new GP practice and completes a paper registration form with his name, address, date
+of birth, the name/address of his previous GP and his Community Health Index number (CHI), if known.
+The practice enters the details onto its clinical information system, then electronically messages the data
+to Practitioner Services Division Scotland (PSD) which matches his identity on the CHI database, updates
+that database and contacts the previous GP practice to request his records. The records are mostly stored
+as document i</p>
+<p>Division Scotland (PSD) which matches his identity on the CHI database, updates
+that database and contacts the previous GP practice to request his records. The records are mostly stored
+as document images and electronically transferred to the new GP, via PSD, using a document transfer ser-
+vice (Docman Transfer). In most cases data from these documents must then be re-entered manually into
+the new GP system, although a new automated process (GP2GP) is currently being rolled out to enable
+practices to transfer electronic and scanned information.
+Referral scenario
+Referral from Primary to Secondary care is enabled through use of the CHI identifier. Ms. Jones’ GP se-
+curely accesses the SCI-Gateway system via their desktop computer and completes a structured refer-
+ral template by selecting the service requested, adding details of her clinical presentation, updating the
+pre-populated medical history and attaching electronic copies of any relevant documents. This is sent via
+SCI-Gateway to the receiving physician or unit for triage. Using the Regional Portal, PACS and SCI-Store
+systems the receiving physician is able to access the results of previous laboratory tests or scans. SCI-Gate-
+way can also be used to contact the GP for additional documentation or tests. Ms. Jones is contacted di-
+rectly by the appropriate clinical service, with a provisional appointment date and a telephone number
+or email address to use if she needs to reschedule.
+Switzerland
+Description
+Switzerland has a population of 8.45 million. In 2010, <a href="../concepts/life-expectancy" class="internal alias" data-slug="concepts/life-expectancy">life expectancy</a> was 80.2 years for men and 84.6
+years for women; there were 4.9 hospital beds per 1000 inhabitants and health care represented 10.9%
+of the Swiss GDP. In 2008, 13.8% of the employment in Switzerland was related to the health sector [17].
+The Swiss health care system has two major pillars: Introduced in 1995, universal coverage is based on
+a mandatory health plan provided by private companies, and private additional plans providing a wid</p>
+<p>e Swiss health care system has two major pillars: Introduced in 1995, universal coverage is based on
+a mandatory health plan provided by private companies, and private additional plans providing a wide
+variety of benefits. Its costs and levels of reimbursement are fixed by the government and insures access
+to core cares to all citizens with free choice of physicians and care facilities nationwide.
+The political organization of Switzerland leaves a very large autonomy to Cantons. There are 26 Cantons
+in Switzerland, each of them having a ministry of Health and a law for health.
+Since 2017, there is a Swiss federal law enforcing a shared patient record. The law places citizen at the
+center of the process. Citizen can decide freely to have their patient record shared. If so, citizen can decide
+which document can be accessed, and can grant access to care providers. Inpatient care facilities must be
+connected to the system by 2022 or might nor more be subject for any reimbursement claims from the
+universal coverage health insurance system.
+Infrastructure
+The whole process is coordinated by a national coordination committee, under the umbrella of the feder-
+al and the cantonal governments as well as major stakeholders. Several working groups work under this</p>
+<hr/>
+<h2 id="page-10">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>oordinated by a national coordination committee, under the umbrella of the feder-
+al and the cantonal governments as well as major stakeholders. Several working groups work under this</p>
+<hr/>
+<h2 id="page-10-1">Page 10<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-10-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>10
+VIEWPOINTS
+PAPERS
+committee, including education, evaluation, standards, and architecture. The working group in charge of
+standards and architecture is proposing technical and functional specifications to help building a distrib-
+uted and interoperable system based on IHE standards (Integrating the Healthcare Enterprise) for linking
+across communities. It is also identifying semantic standards, such as LOINC (Logical Observation Iden-
+tifiers Names and Codes) or SNOMED (Systemized Nomenclature of Medicine), that are used and led
+Switzerland to become a SNOMED International national member. The infrastructure incorporates a set
+of central services, such as unique patient identifier, index of communities, <a href="../concepts/metadata" class="internal alias" data-slug="concepts/metadata">metadata</a> server, and index of
+care providers that support ubiquitous interoperability. HIE communities have to comply with standards
+based on distributed repositories of documents, distributed documents, and patient indexes. A certifica-
+tion process insures <a href="../concepts/compliance" class="internal alias" data-slug="concepts/compliance">compliance</a> with standards as a condition for inclusion in the network. All technical
+and semantical standards required are available on the eHealth Suisse website [18].
+Incentives
+The incentives are based on several pillars. A) There is a financial support to help inpatients care facili-
+ties to become interoperable with the shared record; B) As mentioned above, inpatient acute care by 2020
+and long-term inpatient care by 2022 have to be connected with possible penalties on reimbursement by
+the universal coverage insurance. C) There are many Cantons, such as Canton of Geneva, investing in the
+shared patient record.
+Efforts to improve compliance are under way at several levels. The specifications published by the coor-
+dination group are widely used and implemented by vendors. The <a href="../concepts/deployment" class="internal alias" data-slug="concepts/deployment">deployment</a> in several states is</p>
+<p>Efforts to improve compliance are under way at several levels. The specifications published by the coor-
+dination group are widely used and implemented by vendors. The deployment in several states is ongo-
+ing with a growing adoption. While number of users is still very low, it is still positive taken into account
+that the deployment started in 2013 in Geneva as a pilot Canton. As of Spring 2019, there were 50 000
+patients connected, which is a success being known that the deployment was focused on complex cases
+(The Canton of Geneva as about 800’000 inhabitants).
+Transfer of care scenario
+First, Mr. James has to agree to participate to the Swiss eHealth program. A visiting nurse will discuss and
+explain the benefits and risks of the shared patient record. If Mr. James agrees to participate, the nurse
+will help completing forms, registration and consent. Then Mr. James will receive his credentials, such as
+a SwissID, which allows a strong electronic <a href="../concepts/authentication" class="internal alias" data-slug="concepts/authentication">authentication</a> and all participating care providers will have
+to send their documents to one of the Swiss eHealth distributed platforms. Mr. James can define who has
+which role, such as treating physician, and especially the trusted physician. When a trusted physician ac-
+cesses the record of Mr. James, he will have access to all documents published by any other provider in
+the appropriate access level. There are several roles possible, and 4 confidentiality levels, from adminis-
+trative, very open, to secret, eg, available only to the patient.
+A primary care shared patient record is starting to be established in Switzerland based on the Integrating
+Healthcare Enterprise cross-community access rules. Each provider can be part of at least one communi-
+ty. Communities are certified by the federal government. Patients can access all their documents, which-
+ever community holds them, and from any community portal.
+Referral scenario
+It is considered that Ms. Jones and all her care providers participate to the Swiss eHealth</p>
+<p>ess all their documents, which-
+ever community holds them, and from any community portal.
+Referral scenario
+It is considered that Ms. Jones and all her care providers participate to the Swiss eHealth program. When
+Ms. Jones selects the neurologists with her GP, she will be able to grant the neurologist the appropriate
+access level. At that moment, the neurologist will have access to all previously published documents re-
+lated to the headache problem. Thus, the neurologist will be able to schedule any required investigation
+prior to Ms. Jones’ first visit. When the encounter takes place, the neurologist and Ms. Jones can access
+all required documents, including personal notes, documents, data from quantified-self, etc. that Ms.
+Jones could have uploaded before.
+However, if Ms. Jones does not participate to the Swiss eHealth program, which is still the case for most Swiss
+citizens, or if the care providers does not publish the documents to the Swiss eHealth platform, which is also
+still the case for most care providers in Switzerland, then only traditional clinical transmission will occur.
+The strategy, the law, the standards and architecture to move toward a universal digitalized shared pa-
+tient record in Switzerland are well defined. Technical solutions are available, as well as implementa-
+tions. However, roll-out is at its beginning, with some Cantons, such as Canton of Geneva, Basel, be-
+ing early adopters.</p>
+<hr/>
+<h2 id="page-11">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ed. Technical solutions are available, as well as implementa-
+tions. However, roll-out is at its beginning, with some Cantons, such as Canton of Geneva, Basel, be-
+ing early adopters.</p>
+<hr/>
+<h2 id="page-11-1">Page 11<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-11-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>11
+VIEWPOINTS
+PAPERS
+United States
+Description
+The 328 million American citizens receive health care through a wide variety of care settings and coverage
+mechanisms, and many (29 million in 2017) are uninsured [19]. The Patient Protection and Affordable
+Care Act of 2010 has changed health insurance coverage patterns to varying degrees, and its implemen-
+tation has been politically and technically difficult.
+Infrastructure
+Since the American Recovery and Reinvestment Act was passed in 2009, there has been rapid growth in
+adoption of electronic medical records in US clinic and hospital care settings where Americans receive
+care as a result of Meaningful Use incentives programs [20]. For example, adoption of EHR systems in
+hospitals has more than doubled since 2009. (Adoption is lower in hospitals ineligible for federal Mean-
+ingful Use incentives.[21]) Stage 1 and Stage 2 Meaningful Use requirements [22] led not only to rising
+EHR use, but in creation of transfer of care documents and in providing patients with electronic summa-
+ries of care. In addition, some EHR vendors have created <a href="../concepts/capabilities" class="internal alias" data-slug="concepts/capabilities">capabilities</a> to exchange information with oth-
+er sites that also use their products, and to a lesser extent, vendors have supported exchange of clinical
+information between EHRs from different EHR vendors. The US Office of the National Coordinator for
+Health Information Technology (ONC) has led development of national standards to exchange informa-
+tion including the Nationwide Health Information Network [23] and through electronic mail-like sys-
+tems (Direct [24]), regional health information exchanges, and in other ways. Ten years after the Ameri-
+can Recovery and Reinvestment Act, interoperability is a major focus of ONC [25]. Historically ONC has
+described 3 types of exchange: directe</p>
+<p>n exchanges, and in other ways. Ten years after the Ameri-
+can Recovery and Reinvestment Act, interoperability is a major focus of ONC [25]. Historically ONC has
+described 3 types of exchange: directed exchange – ability to send and receive secure information elec-
+tronically between care providers to support coordinated care; query-based exchange – ability for provid-
+ers to find and/or request information on a patient from other providers, often used for unplanned care;
+and consumer mediated exchange – ability for patients to aggregate and control the use of their health
+information among providers [26]. As a result of all these changes, and others, current levels of HIE are
+changing rapidly [27,28]. Currently most of the clinical data exchange in the ambulatory setting occurs
+between providers within the same organization [29]. Sharing of laboratory results and imaging reports
+is most common, but exchange of notes and patient summaries is growing.
+Incentives
+Attesting to Meaningful Use requirements carried substantial financial benefit – up to USD 44 000 per eli-
+gible provider and far more for eligible hospitals. Growth of alternatives to fee-for-service payment such as
+Accountable Care Organizations, payment for quality, capitated care and other mechanisms where financial
+risk is shared provide incentives to organizations and providers to avoid clinically unnecessary duplication
+of studies and services. Much outpatient care is paid as fee-for-service and inpatient care is paid largely
+based on Diagnosis Related Groups, which provides a financial incentive to reduce clinically unnecessary
+duplication of services. Some surgical procedures, such as joint replacement, are reimbursed using bun-
+dled payments, which also provide an incentive to reduce clinically unnecessary services [30]. Use of bun-
+dled payment policies is growing as part of the Center for Medicare &amp; Medicaid <a href="../concepts/innovation" class="internal alias" data-slug="concepts/innovation">Innovation</a> Center [31].
+Transfer of care scenario
+As of this writing, when a patie</p>
+<p>unnecessary services [30]. Use of bun-
+dled payment policies is growing as part of the Center for Medicare &amp; Medicaid Innovation Center [31].
+Transfer of care scenario
+As of this writing, when a patient such as Mr. Smith transfers care from a primary care in on location to
+another, the transfer of health information will be different if he moves within an integrated care delivery
+system such as the Department of Veterans Affairs or Kaiser Permanente. Transfer of information will also
+be different if his new primary care practice uses the same EHR vendor as his previous primary care site.
+Some EHR vendors permit electronic transfer of notes and care summary documents, though reconcil-
+iation of the new and old record requires manual review. However, exchange of his record between lo-
+cations of care that are not within the same delivery system or not between sites sharing use of a vendor
+that offers electronic transfer between customer sites, then record transfer will most likely occur through
+fax or as print copies sent via US mail.
+When referral for consultation occurs within a health care organization using the same EHR such as men-
+tioned in Transfer of care scenario, electronic transmission of the referral is common. The consultant would</p>
+<hr/>
+<h2 id="page-12">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>n occurs within a health care organization using the same EHR such as men-
+tioned in Transfer of care scenario, electronic transmission of the referral is common. The consultant would</p>
+<hr/>
+<h2 id="page-12-1">Page 12<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-12-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>12
+VIEWPOINTS
+PAPERS
+have access to records of visits, MRI and laboratory results and other clinical data. However, if the consul-
+tant is outside the organization or uses a different EHR (more than one EHR is sometimes used within a
+health care organization [32]), then estimates of electronic HIE is about 50% [33] though this percentage
+is rising. Published data from 2011 showed that only 31% of physicians were electronically exchanging
+clinical summaries with other providers [34], (though that percentage is also rising [29]) and that further
+exchange was happened by lack of interoperability of most EHRs [35]. As in Transfer of care scenario,
+if the consultant and primary care physician both use an EHR from a vendor supporting record transfer
+between customers, then most of the patient’s record could be transferred electronically.
+DISCUSSION
+The World Health Organization (WHO) eHealth Resolution includes the aim to “to foster exchange of data
+and information for promotion of health, health systems, and training of health-care workers [36].” As these
+comparative scenarios illustrate, effective and efficient electronic Health Information Exchange is an im-
+portant <a href="../concepts/health-system" class="internal alias" data-slug="concepts/health-system">health system</a> strengthening goal for most countries, although they vary considerably in the ex-
+tent to which this has been achieved (Figure 2). Here we reflect on some of the similarities and differ-
+ences across the six countries represented in this manuscript, considering not only the technical details
+but also the wider policy and technological context of health information exchange, drawing on the ex-
+perience of the authors.
+Infrastructural capability and <a href="../concepts/data-conceptsintegrityintegrity" class="internal alias" data-slug="concepts/data-conceptsintegrityintegrity">data quality</a>
+The technical infrastructure required for HIE includes electronic medical record systems or other systems
+to gather clinical inform</p>
+<p>perience of the authors.
+Infrastructural capability and data quality
+The technical infrastructure required for HIE includes electronic medical record systems or other systems
+to gather clinical information, both at the point of capture and at the recipient organizations, alongside
+secure networks over which the information is transferred. Countries vary widely in the availability and
+<a href="../concepts/computational-scaling" class="internal alias" data-slug="concepts/computational-scaling">scaling</a> of HIE infrastructure, and the maturity of HIE processes, even within countries whose health sys-
+tems are already highly digitized.
+Obtaining the most clinical value from health information exchange depends on records being present
+in electronic form. While some countries have or are near to implementing fully digitized, interoperable
+<a href="../concepts/patient-data" class="internal alias" data-slug="concepts/patient-data">patient data</a>, in others being able to use the available HIE technology for transferring clinical informa-
+tion depends on forms being printed, scanned and then transferred, which depletes their usefulness for
+secondary analytics or potential for integration with other information systems. According to the model
+outlined by Walker and colleagues,1 transmission of scanned documents corresponds to the most basic
+level of information exchange. It is therefore somewhat surprising that even some advanced health infor-
+matics environments have been slow to adopt these approaches. Efforts to collect, scan and route this in-
+formation compete with other obligations for clinical staff, thus while HIE may be possible, it may not al-
+ways occur. In other parts of the world the onus is still upon the patient to maintain a timely paper-based
+Figure 2. Requirements for clinical information exchange and their state in six countries.</p>
+<ul>
+<li></li>
+</ul>
+<p>ways occur. In other parts of the world the onus is still upon the patient to maintain a timely paper-based
+Figure 2. Requirements for clinical information exchange and their state in six countries.</p>
+<blockquote>
+<p><strong>[Image 1]</strong>: This photograph shows a table comparing six countries—China, England, India, Scotland, Switzerland, and the United States—on their implementation of health information exchange requirements. The table uses black dots in green-headed columns to indicate how fully each country meets criteria like electronic health information sharing, incentives, secure exchange methods, and legal frameworks. The main subject is the comparative data visualization, set against a white background with green headers, where dots represent implementation levels (3=fully implemented, 2=partial, 1=very little, 0=absent).</p>
+</blockquote>
+<hr/>
+<h2 id="page-13">Page 13<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-13" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>13
+VIEWPOINTS
+PAPERS
+record and manually transport that to different health care providers, even where computer systems are
+available, and the exchangeability of electronic data may be very different within institutions than across
+them. Thus, in some countries, specialist private health organizations represent digital islands of excel-
+lence within an otherwise information-poor environment. Many countries are beginning to place a stron-
+ger emphasis on the patient as a central player in the HIE ecosystem, with several having implemented,
+or being in the process of implementing Personal Health Records that allow greater <a href="../concepts/accessibility" class="internal alias" data-slug="concepts/accessibility">accessibility</a>, choice
+and opportunities to contribute supplementary data from health devices or apps.
+Incentives
+Financial and other incentives for information exchange also act as drivers or barriers to HIE adoption.
+Whilst financial incentives are being widely used in some higher income countries to encourage elec-
+tronic records, data coding and HIE, these are not universally applied within health systems, raising eq-
+uity issues. However international experience suggests that HIE adoption will also be motivated by othe</p>
+<p>cords, data coding and HIE, these are not universally applied within health systems, raising eq-
+uity issues. However international experience suggests that HIE adoption will also be motivated by other
+types of incentive, such as clinicians’ desire to provide better care, managers’ desire to improve efficiency,
+or patients’ expectations or aspirations that their information will be shared under appropriate circum-
+stances, rather than having to be repeated.
+<a href="../concepts/security" class="internal alias" data-slug="concepts/security">Security</a> and privacy
+Although not explicitly addressed by the clinical scenarios used in this exercise, concerns have been
+expressed about information security and privacy in all six of the countries considered [37]. Although
+there is a widespread desire, or even expectation, that clinicians will have relevant patient information
+available at the point of care, the mechanisms for enabling this (electronic medical records, transmission
+across networks) create inevitable security risks, whilst a lack of clarity about who may be permitted to
+view confidential information can have negative effects on patient trust. These concerns are raised by
+the increasingly regular reporting of medical data theft and privacy breaches [38,39]. Citizens of certain
+countries may also be affected, in different ways, by the re-use of their health information for the pur-
+poses of informing business efficiencies, medical research, government analytics, or private health care
+insurance, depending on the political, economic, legal and cultural context of health care. As major HIE
+systems begin to scale worldwide and as pressure grows to share data across national boundaries for
+medical research and business analytics, these issues around trust and security are likely become ever
+more critical for policy makers. The move towards Personal Health Records systems, noted in several
+of our country profiles, has potential to improve this trust by enabling greater transparency and choice
+about <a href="../concepts/communication" class="internal alias" data-slug="concepts/communication">information-sharing</a>.
+Health system structure &amp;</p>
+<p>Health Records systems, noted in several
+of our country profiles, has potential to improve this trust by enabling greater transparency and choice
+about information-sharing.
+Health system structure &amp; competition
+HIE is significantly harder to achieve in disaggregated health systems characterized by high levels of com-
+petition between providers. Indeed, this was one reason for the US government’s various incentive pro-
+grams for HIE and EMRs [20]. As described in our summary of the Indian HIE context, organizational
+competition has almost completely shut down conversations about the possibility of national HIE sys-
+tems or standards. In China, by comparison, top-down government mandates for greater health infor-
+mation management are contrasting markedly with the reality of segmented health care systems. Even in
+apparently unified national health systems, political and professional preferences can shape the context
+of HIE, for example in the UK, policies have fluctuated between favoring centralized national systems
+and multiple vendor systems, with recent moves towards cloud-based infrastructure offering something
+in between. It is also important to recognize that HIE is just one approach for advancing <a href="../concepts/personalised-care" class="internal alias" data-slug="concepts/personalised-care">patient-centered
+care</a> and information fragmentation, which also includes other strategies such as Health Record Banking
+[40] and the Patient Centered Medical Home in the US [41]. Major changes in health system organiza-
+tion are also leading to new models of HIE. For example, the Government of India recently committed to
+delivering the world’s largest public health insurance scheme. In the absence of an existing <a href="../concepts/digital-health" class="internal alias" data-slug="concepts/digital-health">digital health</a>
+records infrastructure, innovative approaches to HIE are being considered, such as blockchain-mediated
+personal health records linked to the national ID scheme [42]. Similar innovations are also being pro-
+posed elsewhere for supporting HIE in decentralized health systems [43].
+Limitations
+While this exercise encompasses a range of higher an</p>
+<p>tional ID scheme [42]. Similar innovations are also being pro-
+posed elsewhere for supporting HIE in decentralized health systems [43].
+Limitations
+While this exercise encompasses a range of higher and lower income regions it does not claim to be fully
+representative of the international HIE environment and other countries’ experience may be different than</p>
+<hr/>
+<h2 id="page-14">Page 14<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-14" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>14
+VIEWPOINTS
+PAPERS
+those of the six countries we describe. Within both high- and lower-income countries, there may also be
+considerable variation between regions or organizations in the degree to which HIE is occurring; partic-
+ularly in mixed public/private health care economies, such as China. This heterogeneity would benefit
+from a further exploration. Although we made an effort to select authors with relevant academic or clini-
+cal knowledge about HIE in the countries they describe, all of whom consulted with relevant colleagues,
+others within each country may have different perspectives. Likewise, what we report here is only a snap-
+shot of extant practices and would benefit from extension to other areas of health care practice alongside
+ongoing analysis in this rapidly changing area. Using scenarios to scaffold our comparisons helped to
+draw out some of the wider political and sociotechnical contexts of HIE, in addition to clinical <a href="../concepts/use-cases" class="internal alias" data-slug="concepts/use-cases">use cases</a>,
+but it was not explicitly designed to do so, and many important contextual issues are under-represented
+in these largely technical descriptions. It is possible that information that is publicly accessible and that
+provided to the authors may not accurately characterize the state of information exchange in each coun-
+try. Despite these limitations we found these comparisons to be useful in better understanding the state of
+HIE today in countries other than our own and the exercise provided a catalyst for broader discussions,
+which we have drawn upon above alongside observations reported in the literature. We welcome corre-
+spondence from the wider p</p>
+<p>han our own and the exercise provided a catalyst for broader discussions,
+which we have drawn upon above alongside observations reported in the literature. We welcome corre-
+spondence from the wider pool of global HIE experts, able to provide comparable scenario-oriented re-
+ports from regions not represented here, particularly Africa and Asia-Pacific.
+Policy implications
+The experience of these six countries (5 if considering the UK as a whole) provides some insight for policy
+makers interested in increasing health information exchange. It is noteworthy that in countries that have
+successfully achieved HIE, or are on course to do so, the impetus came from government and the change
+was galvanized with economic incentives to health care providers. This includes both the changes need-
+ed to achieve digitized patient records, which are a necessary prerequisite for HIE, and those required to
+create the infrastructure, policies and processes necessary for information to move between providers.
+<a href="../concepts/leadership" class="internal alias" data-slug="concepts/leadership">Leadership</a> from government is important, as HIE can challenge traditional organizational boundaries,
+professional practices and, in some cases, business models.
+These approaches must be balanced against the financial demands of delivering health care and the risks
+of failure that characterize large and complex health IT projects. However, experience indicates that with
+clear government commitment and provider buy-in, EHR vendors and health care systems will adapt
+their processes in response, particularly when adhering to common interoperability requirements be-
+comes essential for their viability.
+It is worth remarking that, even with political will, finances, technologies and standards for enabling
+HIE, the complex landscape of health care systems will continue to present barriers to HIE. This may be
+equally problematic in well-established health systems dealing with legacy software and entrenched data
+practices, as in countries with little existing infrastructure, who also have o</p>
+<p>HIE. This may be
+equally problematic in well-established health systems dealing with legacy software and entrenched data
+practices, as in countries with little existing infrastructure, who also have opportunities to leapfrog to new
+technologies, such as mentioned above.
+While this did not emerge as a strong theme in the scenarios used to scaffold our HIE descriptions, one
+of the major incentives driving HIE initiatives is to enable better data for research, management and pol-
+icy. This aims to drive data-driven ‘<a href="../concepts/learning" class="internal alias" data-slug="concepts/learning">learning</a> health systems’, clinical and business insights and medical
+innovation, providing strategic alignments with other policy priorities, such as public-sector finance and
+economic growth. For example, using health data to train <a href="../concepts/ai-technologies" class="internal alias" data-slug="concepts/ai-technologies">artificial intelligence</a> is high on the policy agen-
+da of many European countries [44].
+CONCLUSIONS
+The implementation of HIE is largely driven by a desire to optimize health care quality and outcomes
+through having relevant, timely and accurate patient information available at the point of care, although
+facilitating secondary uses of data for research and analytics represents a parallel objective. Today there are
+wide differences in the degree to which this has been achieved to support the clinical scenarios considered
+in this study. Generally speaking, these differences represent varying progress along a similar trajectory.
+Many similar barriers have also been encountered which, in some cases, have been partially surmounted
+and in others still loom ahead. Better understanding of the steps along this pathway - adoption of elec-
+tronic records, establishment of health information infrastructure, creating appropriate incentives and
+engaging society - may enable these goals to be achieved more rapidly. However, health systems around</p>
+<hr/>
+<h2 id="page-15">Page 15<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-15" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>ishment of health information infrastructure, creating appropriate incentives and
+engaging society - may enable these goals to be achieved more rapidly. However, health systems around</p>
+<hr/>
+<h2 id="page-15-1">Page 15<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-15-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>15
+VIEWPOINTS
+PAPERS
+the world differ on important structural, cultural, economic and political dimensions, which are likely
+to influence the future development, use and governance of HIE. For this reason, aligning international
+HIE strategies around a common framework, such as the UN Sustainability Goals, would be worthwhile
+although political will and the use of appropriate incentives are key to achieving these aims. In addition,
+further research and ongoing assessment is required to strengthen the existing evidence-base on the im-
+pacts and value of HIE for different stakeholders [29].
+Acknowledgements: The authors would like to thank all the members of the health informatics community
+who offered advice on updating the country descriptions and the peer-reviewers who provided constructive
+<a href="../concepts/feedback" class="internal alias" data-slug="concepts/feedback">feedback</a> on an earlier draft.
+Funding: None.
+Authorship contributions: All authors have made substantial contributions to the conception and design of
+the study, analysis and interpretation of data, drafting the article or revising it critically for important intellec-
+tual content, and final approval of the version to be submitted.
+Competing interests: The authors completed the Unified Competing Interest form at <a href="http://www.icmje.org/coi_dis-" class="external" target="_blank" rel="noopener noreferrer">www.icmje.org/coi_dis-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+closure.pdf (available upon request from the corresponding author), and declare no conflicts of interest.
+REFERENCES
+1 Walker J, Pan E, Johnston D, Adler-Milstein J, Bates DW, Middleton B. The value of health care information exchange
+and interoperability. Health Aff (Millwood). 2005; Suppl Web Exclusives:W5-10-W5-8. Medline:15659453 doi:10.1377/
+hlthaff.w5.10
+2 Dixon BE, Zafar A, Overhage JM. A Framework for evaluating the costs, effort, and value of nationwide health informa-
+tion exchange. J Am Med Inform Assoc. 2010;17:295-301. Medline:2044214</p>
+<p>ff.w5.10
+2 Dixon BE, Zafar A, Overhage JM. A Framework for evaluating the costs, effort, and value of nationwide health informa-
+tion exchange. J Am Med Inform Assoc. 2010;17:295-301. Medline:20442147 doi:10.1136/jamia.2009.000570
+3 Kralewski JE, Zink T, Boyle R. Factors influencing electronic clinical information exchange in small medical group prac-
+tices. J Rural Health. 2012;28:28-33. Medline:22236312 doi:10.1111/j.1748-0361.2011.00372.x
+4 Miller RH, Miller BS. The Santa Barbara County Care Data Exchange: What happened? Health Aff (Millwood).
+2007;26:w568-80. Medline:17670775 doi:10.1377/hlthaff.26.5.w568
+5 Eden KB, Totten AM, Kassakian SZ, Gorman PN, McDonagh MS, Devine B, et al. Barriers and facilitators to exchang-
+ing health information: a systematic review. Int J Med Inform. 2016;88:44-51. Medline:26878761 doi:10.1016/j.ijmed-
+inf.2016.01.004
+6 Payne TH, Detmer DE, Wyatt JC, Buchan IE. National-scale clinical information exchange in the United Kingdom: les-
+sons for the United States. J Am Med Inform Assoc. 2011;18:91-8. Medline:21134976 doi:10.1136/jamia.2010.005611
+7 Akhlaq A, Sheikh A, Pagliari C. Defining health information exchange: <a href="../concepts/scoping-review" class="internal alias" data-slug="concepts/scoping-review">scoping review</a> of published definitions. J Innov
+Health Inform. 2017;23:838. Medline:28346130 doi:10.14236/jhi.v23i4.838
+8 Akhlaq A, Sheikh A, Pagliari C. Health information exchange as a complex and adaptive construct: scoping review. J In-
+nov Health Inform. 2017;23:889. Medline:28346129 doi:10.14236/jhi.v23i4.889
+9 UK Department of Health. The Good Practice Guidelines for GP electronic patient records - version 4 (2011). Avail-
+able: <a href="https://www.gov.uk/government/publications/the-good-practice-guidelines-for-gp-electronic-patient-records-ver-" class="external" target="_blank" rel="noopener noreferrer">https://www.gov.uk/government/publications/the-good-practice-guidelines-for-gp-electronic-patient-records-ver-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+sion-4-2011 Accessed: 24 December 2015.
+10 UK Health &amp; Social Care Information Centre. Quality and Outcomes Framework. Available: <a href="http://www.hscic.gov.uk/" class="external" target="_blank" rel="noopener noreferrer">http://www.hscic.gov.uk/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+qof. Accessed: 24 December 2015.
+11 NHS England. Green light for £260 million technology fund to make the NHS safer.</p>
+<p>tion Centre. Quality and Outcomes Framework. Available: <a href="http://www.hscic.gov.uk/" class="external" target="_blank" rel="noopener noreferrer">http://www.hscic.gov.uk/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+qof. Accessed: 24 December 2015.
+11 NHS England. Green light for £260 million technology fund to make the NHS safer. 22 May 2013. Available: https://
+<a href="http://www.england.nhs.uk/2013/05/22/tech-fund/" class="external" target="_blank" rel="noopener noreferrer">www.england.nhs.uk/2013/05/22/tech-fund/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Accessed: 24 December 2015.
+12 UK National Information Board. Delivering the Five Year Forward View. Personalised Health and Care 2020. June 2015,
+NIB 0607-006. Available: <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/437067/nib-" class="external" target="_blank" rel="noopener noreferrer">https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/437067/nib-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+delivering.pdf. Accessed: 24 December 2015.
+13 National Health Authority. Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY). Available: <a href="https://abnhpm" class="external" target="_blank" rel="noopener noreferrer">https://abnhpm<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+gov.in/. Accessed: 6 August 2019.
+14 India NHP. National Health Portal. Available: <a href="https://www.nhp.gov.in" class="external" target="_blank" rel="noopener noreferrer">https://www.nhp.gov.in<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> Accessed: 6 August 2019.
+15 India NHP. National Identification Number to Health Facility in India (NIN-TO-HFI). Available: <a href="https://nin.nhp.gov.in/" class="external" target="_blank" rel="noopener noreferrer">https://nin.nhp.gov.in/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+about_nin2hfi.php. Accessed: 6 August 2019.
+16 Government of India. Ministry of Health &amp; Family Welfare. E-Health &amp; Telemedicine. Available: <a href="https://mohfw.gov.in/about-" class="external" target="_blank" rel="noopener noreferrer">https://mohfw.gov.in/about-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+us/departments/departments-health-and-family-welfare/e-Health%20%26%20Telemedicine. Accessed: 6 August 2019.
+17 Swiss Confederation. Health Statistics. Neuchâtel: Federal Council, Federal Statistical Office; 2012.
+18 ehealthsuisse. Qu’est-ce que <a href="../concepts/mhealth" class="internal alias" data-slug="concepts/mhealth">mHealth</a>? Available: <a href="https://www.e-health-suisse.ch/fr/page-daccueil.html" class="external" target="_blank" rel="noopener noreferrer">https://www.e-health-suisse.ch/fr/page-daccueil.html<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>; Accessed: 19
+April 2019.
+19 Berchick ER, Hood E, Barnett JC. Current Population Reports, P60-264, Health Insurance Coverage in the United States.
+Washington DC: U.S. Government Printing Office; 2018.</p>
+<hr/>
+<h2 id="page-16">Page 16<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-16" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>l 2019.
+19 Berchick ER, Hood E, Barnett JC. Current Population Reports, P60-264, Health Insurance Coverage in the United States.
+Washington DC: U.S. Government Printing Office; 2018.</p>
+<hr/>
+<h2 id="page-16-1">Page 16<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#page-16-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>16
+VIEWPOINTS
+PAPERS
+REFERENCES
+20 Office of the National Coordinator for Health Information Technology. ONC Data Brief No. 7 February 2012. Physician
+Adoption of Electronic Health Record Technology to Meet Meaningful Use Objectives: 2009-2012. Accessed: <a href="http://www" class="external" target="_blank" rel="noopener noreferrer">http://www<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+healthit.gov/sites/default/files/onc-data-brief-7-december-2012.pdf. Accessed: 2 November 2016.
+21 Wolf L, Harvell J, Jha AK. Hospitals ineligible for federal meaningful-use incentives have dismally low rates of adoption
+of electronic health records. Health Aff (Millwood). 2012;31:505-13. Medline:22392661 doi:10.1377/hlthaff.2011.0351
+22 Centers for Medicare &amp; Medicaid Services. EHR Incentive Programs: 2015 Program Requirements. Accessed: from
+<a href="https://www.cms.gov/Regulations-and-Guidance/Legislation/EHRIncentivePrograms/2015ProgramRequirements.html" class="external" target="_blank" rel="noopener noreferrer">https://www.cms.gov/Regulations-and-Guidance/Legislation/EHRIncentivePrograms/2015ProgramRequirements.html<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+Accessed: 2 November 2016.
+23 Office of the National Coordinator for Health Information Technology. Interoperability Portfolio. Available at Available:
+<a href="http://www.healthit.gov/policy-researchers-implementers/interoperability-portfolio" class="external" target="_blank" rel="noopener noreferrer">http://www.healthit.gov/policy-researchers-implementers/interoperability-portfolio<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Accessed: 2 November 2016.
+24 Office of the National Coordinator for Health Information Technology. The DIRECT Project. Available: <a href="https://www" class="external" target="_blank" rel="noopener noreferrer">https://www<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+healthit.gov/sites/default/files/pdf/fact-sheets/the-direct-project.pdf Accessed: 22 August 2019.
+25 Office of the National Coordinator for Health Information Technology. Interoperability. Available: <a href="https://www.healthit" class="external" target="_blank" rel="noopener noreferrer">https://www.healthit<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+gov/topic/interoperability. Accessed: 8 May 2019.
+26 Office of the National Coordinator for Health Information Technology. Health Information Exchange (HIE). Available:
+<a href="https://www.healthit.gov/providers-professionals/health-information-exchange/what-hie" class="external" target="_blank" rel="noopener noreferrer">https://www.healthit.gov/providers-professionals/health-information-exchange/what-hie<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Accessed: 2 November 2016.
+27 Lenert L, Sundwall D, Lenert ME. Shifts in the architecture of the Nationwide He</p>
+<p>:
+<a href="https://www.healthit.gov/providers-professionals/health-information-exchange/what-hie" class="external" target="_blank" rel="noopener noreferrer">https://www.healthit.gov/providers-professionals/health-information-exchange/what-hie<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Accessed: 2 November 2016.
+27 Lenert L, Sundwall D, Lenert ME. Shifts in the architecture of the Nationwide Health Information Network. J Am Med
+Inform Assoc. 2012;19:498-502. Medline:22268218 doi:10.1136/amiajnl-2011-000442
+28 Devine EB, Totten AM, Gorman P, Eden KB, Kassakian S, Woods S, et al. Health Information Exchange Use (1990-2015):
+A Systematic Review. EGEMS (Wash DC). 2017;7;5:27.
+29 Heisey-Grove D, Patel V, Searcy T. Physician electronic exchange of patient health information, 2014. ONC Data Brief,
+no. 31. Washington DC: Office of the National Coordinator for Health Information Technology; 2015.
+30 Centers for Medicare &amp; Medicaid Services. Bundled Payments for Care Improvement Initiative Fact Sheet. Available:
+<a href="https://www.cms.gov/Newsroom/MediaReleaseDatabase/Fact-sheets/2014-Fact-sheets-items/2014-01-30-2.html" class="external" target="_blank" rel="noopener noreferrer">https://www.cms.gov/Newsroom/MediaReleaseDatabase/Fact-sheets/2014-Fact-sheets-items/2014-01-30-2.html<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Ac-
+cessed: 13 June 2016.
+31 Centers for Medicare &amp; Medicaid Services. Bundled Payments for Care Improvement Initiative (BPCI). Available: https://
+<a href="http://www.cms.gov/Newsroom/MediaReleaseDatabase/Fact-sheets/2016-Fact-sheets-items/2016-04-18.html" class="external" target="_blank" rel="noopener noreferrer">www.cms.gov/Newsroom/MediaReleaseDatabase/Fact-sheets/2016-Fact-sheets-items/2016-04-18.html<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Accessed: 6 Jan-
+uary 2017.
+32 Payne T, Fellner F, Dugowson C, Liebovitz DM, Fletcher DS. Use of more than one electronic medical record system
+within a single health care organization. Appl Clin Inform. 2012;3:462-74. Medline:23646091 doi:10.4338/ACI-2012-
+10-RA-0040
+33 Mostashari F. Comments during ONC-CMS Principles and Strategy for Accelerating Health Information Exchange and
+Advancing Interoperability, August 7, 2013. Available: <a href="http://www.healthit.gov/sites/default/files/onc-cms_joint_accele-" class="external" target="_blank" rel="noopener noreferrer">http://www.healthit.gov/sites/default/files/onc-cms_joint_accele-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+ration_webinar.mp3. Accessed: 4 November 2013.
+34 Office of the National Coordinator for Health Information Technology. Principles and Strategy for Accelerating Health
+Information Exchange. Available: <a href="http://www.healthit.gov/sites/default/files/acceleratinghieprinciples_strategy.pdf" class="external" target="_blank" rel="noopener noreferrer">http://www.healthit.gov/sites/default/files/acceleratinghieprinciples_strategy.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Ac-
+cessed: 4 November 2013.
+35 O’</p>
+<p>inciples and Strategy for Accelerating Health
+Information Exchange. Available: <a href="http://www.healthit.gov/sites/default/files/acceleratinghieprinciples_strategy.pdf" class="external" target="_blank" rel="noopener noreferrer">http://www.healthit.gov/sites/default/files/acceleratinghieprinciples_strategy.pdf<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Ac-
+cessed: 4 November 2013.
+35 O’Malley AS, Grossman JM, Cohen GR, Kemper NM, Pham HH. Are electronic medical records helpful for care co-
+ordination? Experiences of physician practices. J Gen Intern Med. 2010;25:177-85. Medline:20033621 doi:10.1007/
+s11606-009-1195-2
+36 World Health Organization. WHO eHealth Resolution. Available: <a href="http://www.who.int/" class="external" target="_blank" rel="noopener noreferrer">http://www.who.int/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> healthacademy/news/en/. Ac-
+cessed: 13 June 2016.
+37 Eden KB, Totten AM, Kassakian SZ, Gorman PN, McDonagh MS, Devine B, et al. Barriers and facilitators to exchang-
+ing health information: a systematic review. Int J Med Inform. 2016;88:44-51. Medline:26878761 doi:10.1016/j.ijmed-
+inf.2016.01.004
+38 Papoutsi C, Reed JE, Marston C, Lewis R, Majeed A, Bell D. Patient and public views about the security and priva-
+cy of Electronic Health Records (EHRs) in the UK: results from a mixed methods study. BMC Med Inform Decis Mak.
+2015;15:86. Medline:26466787 doi:10.1186/s12911-015-0202-2
+39 Haun K, Topol EJ. The Health Data Conundrum. The New York Times, January 3, 2017.
+40 Shabo A. It’s time for health record banking! Methods Inf Med. 2014;53:63-5. Medline:24549335 doi:10.3414/ME13-
+02-0048
+41 Council on Clinical Information Technology. Health information technology and the medical home. Pediatrics.
+2011;127:978-82. Medline:21518710 doi:10.1542/peds.2011-0454
+42 How blockchain can improve health information exchange. Available: <a href="https://www.forbes.com/sites/forbestechcoun-" class="external" target="_blank" rel="noopener noreferrer">https://www.forbes.com/sites/forbestechcoun-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+cil/2017/06/27/how-blockchain-can-improve-the-health-information-exchange/#2e8b7f82f05b. Accessed: 6 August 2019.
+43 Balsari S, Fortenko A, Blaya JA, Gropper A, Jayaram M, Matthan R, et al. Reimagining Health Data Exchange: An ap-
+plication programming interface–enabled roadmap for India. J Med Internet Res. 2018;20:e10725. Medline:30006325
+doi:10.2196/10725
+44 The Future of Artifici</p>
+<p>Reimagining Health Data Exchange: An ap-
+plication programming interface–enabled roadmap for India. J Med Internet Res. 2018;20:e10725. Medline:30006325
+doi:10.2196/10725
+44 The Future of Artificial Intelligence in Health. Available: <a href="https://www.openaccessgovernment.org/artificial-intelli-" class="external" target="_blank" rel="noopener noreferrer">https://www.openaccessgovernment.org/artificial-intelli-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+gence-in-health/67967/. Accessed: 6 August 2019.</p>
+<h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../concepts/health-information-exchange" class="internal alias" data-slug="concepts/health-information-exchange">Health Information Exchange</a> — <a href="https://en.wikipedia.org/wiki/Health_Information_Exchange" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/clinical-care" class="internal alias" data-slug="concepts/clinical-care">Clinical Care</a> — <a href="https://en.wikipedia.org/wiki/Clinical_Care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/electronic-data-interchange" class="internal alias" data-slug="concepts/electronic-data-interchange">Electronic Data Interchange</a> — <a href="https://en.wikipedia.org/wiki/Electronic_Data_Interchange" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/country-specific-systems" class="internal alias" data-slug="concepts/country-specific-systems">Country-Specific Systems</a> — <a href="https://en.wikipedia.org/wiki/Country-Specific_Systems" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/electronic-health-records" class="internal alias" data-slug="concepts/electronic-health-records">Electronic Health Records</a> — <a href="https://en.wikipedia.org/wiki/Electronic_Health_Records" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Clinical Data Interoperability — <a href="https://en.wikipedia.org/wiki/Clinical_Data_Interoperability" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Transfer of Care — <a href="https://en.wikipedia.org/wiki/Transfer_of_Care" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Patient Referral — <a href="https://en.wikipedia.org/wiki/Patient_Referral" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../concepts/ai-security" class="internal alias" data-slug="concepts/ai-security">Data Security</a> — <a href="https://en.wikipedia.org/wiki/Data_Security" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Patient Confidentiality — <a href="https://en.wikipedia.org/wiki/Patient_Confidentiality" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Health IT Infrastructure — <a href="https://en.wikipedia.org/wiki/Health_IT_Infrastructure" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Cross-Border Health Data — <a href="https://en.wikipedia.org/wiki/Cross-Border_Health_Data" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Clinical <a href="../concepts/workflow" class="internal alias" data-slug="concepts/workflow">Workflow</a> Coordination — <a href="https://en.wikipedia.org/wiki/Clinical_Workflow_Coordination" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Digital <a href="../concepts/healthcare-policy" class="internal alias" data-slug="concepts/healthcare-policy">Health Policy</a> — <a href="https://en.wikipedia.org/wiki/Digital_Health_Policy" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Healthcare Cost Reduction — <a href="https://en.wikipedia.org/wiki/Healthcare_Cost_Reduction" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Patient Satisfaction — <a href="https://en.wikipedia.org/wiki/Patient_Satisfaction" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>National Health Objectives — <a href="https://en.wikipedia.org/wiki/National_Health_Objectives" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Information <a href="../concepts/adoption" class="internal alias" data-slug="concepts/adoption">Technology Adoption</a> — <a href="https://en.wikipedia.org/wiki/Information_Technology_Adoption" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Global Health Informatics — <a href="https://en.wikipedia.org/wiki/Global_Health_Informatics" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="related-entities">Related Entities<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-entities" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/thomas-h-payne" class="internal alias" data-slug="entities/thomas-h-payne">Thomas H Payne</a> — <a href="https://en.wikipedia.org/wiki/Thomas_H_Payne" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Christian Lovis — <a href="https://en.wikipedia.org/wiki/Christian_Lovis" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/charles-gutteridge" class="internal alias" data-slug="entities/charles-gutteridge">Charles Gutteridge</a> — <a href="https://en.wikipedia.org/wiki/Charles_Gutteridge" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/claudia-pagliari" class="internal alias" data-slug="entities/claudia-pagliari">Claudia Pagliari</a> — <a href="https://en.wikipedia.org/wiki/Claudia_Pagliari" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Shivam Natarajan — <a href="https://en.wikipedia.org/wiki/Shivam_Natarajan" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/cui-yong" class="internal alias" data-slug="entities/cui-yong">Cui Yong</a> — <a href="https://en.wikipedia.org/wiki/Cui_Yong" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Lue-Ping Zhao — <a href="https://en.wikipedia.org/wiki/Lue-Ping_Zhao" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>University of Washington — <a href="https://en.wikipedia.org/wiki/University_of_Washington" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/university-of-geneva" class="internal alias" data-slug="entities/university-of-geneva">University of Geneva</a> — <a href="https://en.wikipedia.org/wiki/University_of_Geneva" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><a href="../entities/seattle-wa-98104-2499" class="internal alias" data-slug="entities/seattle-wa-98104-2499">Seattle WA 98104-2499</a> — <a href="https://en.wikipedia.org/wiki/Seattle_WA_98104-2499" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Barts Health NHS Trust — <a href="https://en.wikipedia.org/wiki/Barts_Health_NHS_Trust" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>University of Edinburgh — <a href="https://en.wikipedia.org/wiki/University_of_Edinburgh" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Peking University Medical Informatics Center — <a href="https://en.wikipedia.org/wiki/Peking_University_Medical_Informatics_Center" class="external" target="_blank" rel="noopener noreferrer">Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-9702" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#preface_schema-10title-thomas-h-payne1-christiansource_type-academicpublisher-eypublishing_date-2019authors-thomas-h-payne-charles-gutteridge-claudia-pagliari-cui-yong-commissioning-group-thomas-payne-medical-director-it-services-uw-medicine-seattle-wa-98104-2499available_at-httpsdoiorg101136jamia2009000570keywords-information-health-exchange-care-clinical-countries-transfer-countryabstract-natarajan5-cui-yong6-lue-ping-1-university-of-washington-seattle-2-university-of-geneva-and-university-hospitals-of-geneva-switzerland" data-for="preface_schema-10title-thomas-h-payne1-christiansource_type-academicpublisher-eypublishing_date-2019authors-thomas-h-payne-charles-gutteridge-claudia-pagliari-cui-yong-commissioning-group-thomas-payne-medical-director-it-services-uw-medicine-seattle-wa-98104-2499available_at-httpsdoiorg101136jamia2009000570keywords-information-health-exchange-care-clinical-countries-transfer-countryabstract-natarajan5-cui-yong6-lue-ping-1-university-of-washington-seattle-2-university-of-geneva-and-university-hospitals-of-geneva-switzerland">preface_schema: ‘1.0’
+title: ‘Thomas H Payne1, Christian’
+source_type: ‘Academic’
+publisher: ‘Ey’
+publishing_date: ‘2019’
+authors: [‘Thomas H Payne’, ‘Charles Gutteridge’, ‘Claudia Pagliari’, ‘Cui Yong’, ‘Commissioning Group’, ‘Thomas Payne’, ‘Medical Director’, ‘IT Services’, ‘UW Medicine’, ‘Seattle WA 98104-2499’]
+available_at: ‘https://doi.org/10.1136/jamia.2009.000570’
+keywords: [‘information’, ‘health’, ‘exchange’, ‘care’, ‘clinical’, ‘countries’, ‘transfer’, ‘country’]
+abstract: ‘Natarajan5, Cui Yong6, Lue-Ping 1 University of Washington, Seattle, 2 University of Geneva and University hospitals of Geneva, Switzerland’</a></li><li class="depth-0"><a href="#page-1" data-for="page-1">Page 1</a></li><li class="depth-0"><a href="#page-2" data-for="page-2">Page 2</a></li><li class="depth-0"><a href="#page-3" data-for="page-3">Page 3</a></li><li class="depth-0"><a href="#page-4" data-for="page-4">Page 4</a></li><li class="depth-0"><a href="#page-4-1" data-for="page-4-1">Page 4</a></li><li class="depth-0"><a href="#page-5" data-for="page-5">Page 5</a></li><li class="depth-0"><a href="#page-5-1" data-for="page-5-1">Page 5</a></li><li class="depth-0"><a href="#page-6" data-for="page-6">Page 6</a></li><li class="depth-0"><a href="#page-6-1" data-for="page-6-1">Page 6</a></li><li class="depth-0"><a href="#page-7" data-for="page-7">Page 7</a></li><li class="depth-0"><a href="#page-7-1" data-for="page-7-1">Page 7</a></li><li class="depth-0"><a href="#page-8" data-for="page-8">Page 8</a></li><li class="depth-0"><a href="#page-9" data-for="page-9">Page 9</a></li><li class="depth-0"><a href="#page-10" data-for="page-10">Page 10</a></li><li class="depth-0"><a href="#page-10-1" data-for="page-10-1">Page 10</a></li><li class="depth-0"><a href="#page-11" data-for="page-11">Page 11</a></li><li class="depth-0"><a href="#page-11-1" data-for="page-11-1">Page 11</a></li><li class="depth-0"><a href="#page-12" data-for="page-12">Page 12</a></li><li class="depth-0"><a href="#page-12-1" data-for="page-12-1">Page 12</a></li><li class="depth-0"><a href="#page-13" data-for="page-13">Page 13</a></li><li class="depth-0"><a href="#page-14" data-for="page-14">Page 14</a></li><li class="depth-0"><a href="#page-15" data-for="page-15">Page 15</a></li><li class="depth-0"><a href="#page-15-1" data-for="page-15-1">Page 15</a></li><li class="depth-0"><a href="#page-16" data-for="page-16">Page 16</a></li><li class="depth-0"><a href="#page-16-1" data-for="page-16-1">Page 16</a></li><li class="depth-0"><a href="#related-concepts" data-for="related-concepts">Related Concepts</a></li><li class="depth-0"><a href="#related-entities" data-for="related-entities">Related Entities</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/clinical-care" class="internal">clinical-care</a></li><li><a href="../concepts/country-specific-systems" class="internal">country-specific-systems</a></li><li><a href="../concepts/electronic-data-interchange" class="internal">Electronic Data Interchange</a></li><li><a href="../concepts/health-information-exchange" class="internal">health-information-exchange</a></li><li><a href="../entities/charles-gutteridge" class="internal">charles-gutteridge</a></li><li><a href="../entities/claudia-pagliari" class="internal">claudia-pagliari</a></li><li><a href="../entities/cui-yong" class="internal">cui-yong</a></li><li><a href="../entities/seattle-wa-98104-2499" class="internal">seattle-wa-98104-2499</a></li><li><a href="../entities/thomas-h-payne" class="internal">thomas-h-payne</a></li><li><a href="../entities/university-of-geneva" class="internal">university-of-geneva</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t" target="_blank" rel="noopener noreferrer">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
