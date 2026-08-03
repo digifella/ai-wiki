@@ -5819,6 +5819,10 @@
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
   },
+  "chinese-scrambled-eggs": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
+  },
   "chomskys-universal-grammar": {
     "domain": "Creative Pursuits",
     "group": "Writing & Publishing"
@@ -22623,6 +22627,14 @@
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
   },
+  "qwen-38-27b": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
+  "qwen-38-max": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
   "qwen-architecture": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
@@ -23302,6 +23314,10 @@
   "responsive-design": {
     "domain": "UX & Design",
     "group": "Typography & Layout"
+  },
+  "restaurant-style-cooking": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
   },
   "restaurant-techniques": {
     "domain": "Food & Nutrition",
@@ -25446,6 +25462,10 @@
   "spent-fuel": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
+  },
+  "spider-silk": {
+    "domain": "Food & Nutrition",
+    "group": "Food Science Nutrition & Ingredients"
   },
   "spill-ranges": {
     "domain": "Business & Strategy",
