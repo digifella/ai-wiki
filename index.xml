@@ -12,6 +12,18 @@
     <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Automated Note Creation Automated Note Creation refers to the use of software agents, scripts, or AI models to generate, structure, and populate notes within a knowledge management system without manual inpu... ]]></description>
     <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
+    <title>Claude AI Dreaming: Autonomous Memory Distillation for Enhanced Intelligence</title>
+    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Claude-AI-Dreaming-Autonomous-Memory-Distillation-for-En</link>
+    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Claude-AI-Dreaming-Autonomous-Memory-Distillation-for-En</guid>
+    <description><![CDATA[ Claude AI Dreaming: Autonomous Memory Distillation for Enhanced Intelligence Generated: 2026-08-04 · API: Gemini 2.5 Flash · Modes: Summary Claude AI Dreaming: Autonomous Memory Distillation for Enhanced Intelligence Clip title: Andrej Karpathy’s Trick to Make Claude Code 10x Smarter (Claude Dreamin... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>Karpathy&#039;s Claude Dreaming: Advancing LLM Autonomous Memory Consolidation</title>
+    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Karpathys-Claude-Dreaming-Advancing-LLM-Autonomous-Memor</link>
+    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Karpathys-Claude-Dreaming-Advancing-LLM-Autonomous-Memor</guid>
+    <description><![CDATA[ Karpathy’s Claude Dreaming: Advancing LLM Autonomous Memory Consolidation Generated: 2026-08-04 · API: Gemini 2.5 Flash · Modes: Summary Karpathy’s Claude Dreaming: Advancing LLM Autonomous Memory Consolidation Clip title: Andrej Karpathy’s Trick to Make Claude Code 10x Smarter (Claude Dreaming) Aut... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
@@ -52,18 +64,6 @@
     <link>https://digifella.github.io/ai-wiki/concepts/autonomous-ai-agents</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/autonomous-ai-agents</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Autonomous AI Agents Agents are a crucial component of OpenClaw’s architecture. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Signal-to-Noise Ratio</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/camera-raw</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/camera-raw</guid>
-    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits Signal-to-Noise Ratio (SNR) is the ratio of the power of a desired signal to the power of background noise. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>cloud-based-services</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/cloud-based-services</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/cloud-based-services</guid>
-    <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Cloud-Based Services Cloud-based services refer to on-demand delivery of computing resources over the internet for applications and services. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
