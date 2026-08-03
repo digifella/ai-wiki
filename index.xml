@@ -6,65 +6,65 @@
       <description>Last 10 notes on NemoClaw Knowledge Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>INDEX</title>
+    <link>https://digifella.github.io/ai-wiki/INDEX</link>
+    <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-08-04 07:50 Domains AI &amp; Agents (2169 concepts) Tools, Platforms &amp; Infrastructure (1536 concepts) UX &amp; Design (61 concepts) Creative Pursuits (734 concepts) Food &amp; Nutrition (216 concepts) Business &amp; Strategy (432 concept... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 21:50:00 GMT</pubDate>
+  </item><item>
     <title>automated-note-creation</title>
     <link>https://digifella.github.io/ai-wiki/concepts/automated-note-creation</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/automated-note-creation</guid>
     <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Automated Note Creation Automated Note Creation refers to the use of software agents, scripts, or AI models to generate, structure, and populate notes within a knowledge management system without manual inpu... ]]></description>
     <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>Claude AI Dreaming: Autonomous Memory Distillation for Enhanced Intelligence</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Claude-AI-Dreaming-Autonomous-Memory-Distillation-for-En</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Claude-AI-Dreaming-Autonomous-Memory-Distillation-for-En</guid>
-    <description><![CDATA[ Claude AI Dreaming: Autonomous Memory Distillation for Enhanced Intelligence Generated: 2026-08-04 · API: Gemini 2.5 Flash · Modes: Summary Claude AI Dreaming: Autonomous Memory Distillation for Enhanced Intelligence Clip title: Andrej Karpathy’s Trick to Make Claude Code 10x Smarter (Claude Dreamin... ]]></description>
+    <title>autonomous-learning</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/autonomous-learning</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/autonomous-learning</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Autonomous Learning Autonomous learning refers to AI systems capable of improving their performance through self-directed iterative processes, independent of continuous external supervision or training data injection. ]]></description>
     <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>Karpathy&#039;s Claude Dreaming: Advancing LLM Autonomous Memory Consolidation</title>
-    <link>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Karpathys-Claude-Dreaming-Advancing-LLM-Autonomous-Memor</link>
-    <guid>https://digifella.github.io/ai-wiki/lab-notes/2026-08-04-Karpathys-Claude-Dreaming-Advancing-LLM-Autonomous-Memor</guid>
-    <description><![CDATA[ Karpathy’s Claude Dreaming: Advancing LLM Autonomous Memory Consolidation Generated: 2026-08-04 · API: Gemini 2.5 Flash · Modes: Summary Karpathy’s Claude Dreaming: Advancing LLM Autonomous Memory Consolidation Clip title: Andrej Karpathy’s Trick to Make Claude Code 10x Smarter (Claude Dreaming) Aut... ]]></description>
+    <title>autonomous-memory-distillation</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/autonomous-memory-distillation</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/autonomous-memory-distillation</guid>
+    <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Autonomous Memory Distillation Autonomous Memory Distillation refers to the process by which AI models, specifically claude, autonomously process and condense information to enhance intelligence and performa... ]]></description>
     <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>INDEX</title>
-    <link>https://digifella.github.io/ai-wiki/INDEX</link>
-    <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-08-03 09:51 Domains AI &amp; Agents (2165 concepts) Tools, Platforms &amp; Infrastructure (1535 concepts) UX &amp; Design (61 concepts) Creative Pursuits (734 concepts) Food &amp; Nutrition (211 concepts) Business &amp; Strategy (431 concept... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 23:51:00 GMT</pubDate>
+    <title>chinese-scrambled-eggs</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/chinese-scrambled-eggs</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/chinese-scrambled-eggs</guid>
+    <description><![CDATA[  domain-badge slug=food-nutrition name=Food &amp; Nutrition Chinese Scrambled Eggs: Secrets to Fluffier Texture and Enhanced Flavor Clip title: Why Chinese Scrambled Eggs Are Better Author / channel: Made With Lau URL: www.youtube.com/watch Summary This video, presented by a seasoned Chinese chef wi... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>adaptive-human-like-dynamic-athletic-control</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/adaptive-human-like-dynamic-athletic-control</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/adaptive-human-like-dynamic-athletic-control</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Adaptive Human-like Dynamic Athletic Control Adaptive Human-like Dynamic Athletic Control refers to the capability of AI agents to perform complex, high-dynamic physical tasks (such as parkour) by moving beyond simple imitation learning. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+    <title>context-window</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/context-window</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/context-window</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Context Window The maximum number of Tokens an LLM can process within a single Inference cycle, representing the model’s functional “working memory.” Core Mechanics Capacity: Defines the boundary of information the model can “attend to” simultaneousl... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>ai-agent-hallucination</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/ai-agent-hallucination</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/ai-agent-hallucination</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents AI Agent Hallucination AI Agent Hallucination refers to the phenomenon where autonomous AI agents generate information, actions, or decisions that are factually incorrect, logically inconsistent, or detached from the provided context. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+    <title>dream-like-state</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/dream-like-state</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/dream-like-state</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Dream-like State A conceptual framework or operational mode where an AI system autonomously processes, consolidates, or “dreams” upon its accumulated data to improve performance, akin to human memory consolidation during sleep. ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>ai-agent-training</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/ai-agent-training</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/ai-agent-training</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents AI Agent Training AI Agent Training refers to the methodologies and frameworks used to teach autonomous agents to perceive environments, make decisions, and execute actions to achieve specific goals. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+    <title>llm-autonomous-memory-consolidation</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/llm-autonomous-memory-consolidation</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/llm-autonomous-memory-consolidation</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents LLM Autonomous Memory Consolidation LLM Autonomous Memory Consolidation refers to the capability of Large Language Models to independently organize, retain, and retrieve information over extended periods without explicit human intervention or externa... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>AI Coding</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/ai-coding</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/ai-coding</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents group: coding-agents-dev-workflows title: AI Coding AI Coding AI coding is a domain where artificial intelligence technologies are applied to automate and assist in various aspects of software development. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+    <title>long-term-memory-in-ai</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/long-term-memory-in-ai</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/long-term-memory-in-ai</guid>
+    <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Long Term Memory In AI Long term memory in AI refers to mechanisms that enable artificial intelligence systems to retain and access information over extended periods, beyond the constraints of a single conve... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>auditory-aircraft-navigation</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/auditory-aircraft-navigation</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/auditory-aircraft-navigation</guid>
-    <description><![CDATA[  domain-badge slug=ux-design name=UX &amp; Design Auditory Aircraft Navigation Auditory aircraft navigation refers to early aviation techniques where pilots relied on sound signals transmitted via radio waves to determine their position and course, particularly before the widespread adoption of visu... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>autonomous-ai-agents</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/autonomous-ai-agents</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/autonomous-ai-agents</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Autonomous AI Agents Agents are a crucial component of OpenClaw’s architecture. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+    <title>qwen-38-27b</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/qwen-38-27b</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/qwen-38-27b</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Qwen 3.8-27B Qwen 3.8-27B is a significant open-source release within the qwen family, developed by Alibaba. ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

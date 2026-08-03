@@ -4431,6 +4431,10 @@
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
   },
+  "autonomous-memory-distillation": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
+  },
   "autonomous-operation": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -9782,6 +9786,10 @@
   "dramatic-lighting": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
+  },
+  "dream-like-state": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
   },
   "dreamdojo-ai": {
     "domain": "AI & Agents",
@@ -16282,6 +16290,10 @@
   "llm-arena-leaderboard": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "llm-autonomous-memory-consolidation": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "llm-backend": {
     "domain": "AI & Agents",
@@ -24791,6 +24803,10 @@
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
   },
+  "sleep-consolidation": {
+    "domain": "Business & Strategy",
+    "group": "Enterprise Strategy & Future Work"
+  },
   "sleep-hygiene": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
@@ -26339,6 +26355,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "synthetic-production": {
+    "domain": "Food & Nutrition",
+    "group": "Food Science Nutrition & Ingredients"
+  },
   "synthetic-puzzle-generation": {
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
@@ -26742,6 +26762,10 @@
   "tendon-based-actuation": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
+  },
+  "tensile-strength": {
+    "domain": "Food & Nutrition",
+    "group": "Food Science Nutrition & Ingredients"
   },
   "tensor-product": {
     "domain": "Science, Physics & Research",
