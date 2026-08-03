@@ -6,6 +6,12 @@
       <description>Last 10 notes on NemoClaw Knowledge Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>automated-note-creation</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/automated-note-creation</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/automated-note-creation</guid>
+    <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Automated Note Creation Automated Note Creation refers to the use of software agents, scripts, or AI models to generate, structure, and populate notes within a knowledge management system without manual inpu... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
@@ -58,12 +64,6 @@
     <link>https://digifella.github.io/ai-wiki/concepts/cloud-based-services</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/cloud-based-services</guid>
     <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Cloud-Based Services Cloud-based services refer to on-demand delivery of computing resources over the internet for applications and services. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>dynamic-athletic-control</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/dynamic-athletic-control</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/dynamic-athletic-control</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Dynamic Athletic Control Dynamic Athletic Control refers to the computational and physical mechanisms enabling agents to perform complex, high-speed, and unstable movements (e.g., parkour, gymnastics) in unstructured environments. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
