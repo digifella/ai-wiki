@@ -1247,6 +1247,10 @@
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
+  "ai-agent-hallucination": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "ai-agent-handling-complexity": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -20538,6 +20542,10 @@
   "partner-level-work-product": {
     "domain": "Business & Strategy",
     "group": "Market Intelligence & GEO SEO"
+  },
+  "pass-rate": {
+    "domain": "AI & Agents",
+    "group": "Coding Agents & Dev Workflows"
   },
   "passive-monitoring": {
     "domain": "Health & Wellbeing",

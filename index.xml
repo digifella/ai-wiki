@@ -6,10 +6,22 @@
       <description>Last 10 notes on NemoClaw Knowledge Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>INDEX</title>
+    <link>https://digifella.github.io/ai-wiki/INDEX</link>
+    <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-08-03 09:51 Domains AI &amp; Agents (2165 concepts) Tools, Platforms &amp; Infrastructure (1535 concepts) UX &amp; Design (61 concepts) Creative Pursuits (734 concepts) Food &amp; Nutrition (211 concepts) Business &amp; Strategy (431 concept... ]]></description>
+    <pubDate>Sun, 02 Aug 2026 23:51:00 GMT</pubDate>
+  </item><item>
     <title>adaptive-human-like-dynamic-athletic-control</title>
     <link>https://digifella.github.io/ai-wiki/concepts/adaptive-human-like-dynamic-athletic-control</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/adaptive-human-like-dynamic-athletic-control</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Adaptive Human-like Dynamic Athletic Control Adaptive Human-like Dynamic Athletic Control refers to the capability of AI agents to perform complex, high-dynamic physical tasks (such as parkour) by moving beyond simple imitation learning. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>ai-agent-hallucination</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/ai-agent-hallucination</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/ai-agent-hallucination</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents AI Agent Hallucination AI Agent Hallucination refers to the phenomenon where autonomous AI agents generate information, actions, or decisions that are factually incorrect, logically inconsistent, or detached from the provided context. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>ai-agent-training</title>
@@ -18,10 +30,22 @@
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents AI Agent Training AI Agent Training refers to the methodologies and frameworks used to teach autonomous agents to perceive environments, make decisions, and execute actions to achieve specific goals. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
+    <title>AI Coding</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/ai-coding</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/ai-coding</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents group: coding-agents-dev-workflows title: AI Coding AI Coding AI coding is a domain where artificial intelligence technologies are applied to automate and assist in various aspects of software development. ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
     <title>auditory-aircraft-navigation</title>
     <link>https://digifella.github.io/ai-wiki/concepts/auditory-aircraft-navigation</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/auditory-aircraft-navigation</guid>
     <description><![CDATA[  domain-badge slug=ux-design name=UX &amp; Design Auditory Aircraft Navigation Auditory aircraft navigation refers to early aviation techniques where pilots relied on sound signals transmitted via radio waves to determine their position and course, particularly before the widespread adoption of visu... ]]></description>
+    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>autonomous-ai-agents</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/autonomous-ai-agents</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/autonomous-ai-agents</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Autonomous AI Agents Agents are a crucial component of OpenClaw’s architecture. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>Signal-to-Noise Ratio</title>
@@ -40,30 +64,6 @@
     <link>https://digifella.github.io/ai-wiki/concepts/dynamic-athletic-control</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/dynamic-athletic-control</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Dynamic Athletic Control Dynamic Athletic Control refers to the computational and physical mechanisms enabling agents to perform complex, high-speed, and unstable movements (e.g., parkour, gymnastics) in unstructured environments. ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hardware-requirements</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</guid>
-    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research group: engineering-systems-robotics-autonomous-vehicles Hardware Requirements for MiniMax M2.7 LLM Overview Hardware requirements for deploying the MiniMax M2.7 open-source Large Language Model (LLM) are substantial due... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hybrid-ai</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hybrid-ai</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hybrid-ai</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Hybrid AI Hybrid AI refers to systems that combine different artificial intelligence paradigms, typically integrating symbolic reasoning, rule-based logic, or explicit human knowledge with data-driven approaches like Deep Learning or machine-learning... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>instrument-rating</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/instrument-rating</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/instrument-rating</guid>
-    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Instrument Rating An instrument rating is a pilot certification that allows the holder to fly an aircraft under instrument flight rules (IFR), enabling navigation and flight operations in conditions where visual referen... ]]></description>
-    <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>local-llm</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/local-llm</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/local-llm</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents title: “Local con Local LLMs Local LLMs provide decentralized, privacy-preserving alternatives to cloud-based AI for coding, mobile tasks, and desktop application development using runtimes like [[Ollama and llamacpp. ]]></description>
     <pubDate>Sun, 02 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
