@@ -18,6 +18,24 @@
     <description><![CDATA[  domain-badge slug=built-environment-architecture name=Built Environment &amp; Architecture Airport Rail Connectivity Airport rail connectivity refers to the integration of public rail transport systems with major airports, facilitating efficient passenger and cargo movement between urban centers an... ]]></description>
     <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
+    <title>automated-lighting</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/automated-lighting</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/automated-lighting</guid>
+    <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Automated Lighting Automated lighting refers to systems that control illumination without direct manual intervention, utilizing sensors, timers, or remote control mechanisms. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>climate-control</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/climate-control</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/climate-control</guid>
+    <description><![CDATA[  domain-badge slug=earth-systems-geology-climate name=Earth Systems, Geology &amp; Climate Climate Control Climate control refers to the active regulation of environmental conditions within a built environment, including temperature, humidity, air quality, and ventilation. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>hydroelectric-power</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hydroelectric-power</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hydroelectric-power</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hydroelectric Power Hydroelectric power is the conversion of energy from flowing water into electrical energy. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
+  </item><item>
     <title>melbourne-airport-rail-link</title>
     <link>https://digifella.github.io/ai-wiki/concepts/melbourne-airport-rail-link</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/melbourne-airport-rail-link</guid>
@@ -36,34 +54,16 @@
     <description><![CDATA[  domain-badge slug=built-environment-architecture name=Built Environment &amp; Architecture Sunshine Superhub The Sunshine Superhub is a major multimodal transport interchange in Melbourne, Victoria, serving as a critical node in the Melbourne Rail Network. ]]></description>
     <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>AI &amp; Agents</title>
-    <link>https://digifella.github.io/ai-wiki/domains/ai-agents</link>
-    <guid>https://digifella.github.io/ai-wiki/domains/ai-agents</guid>
-    <description><![CDATA[ AI &amp; Agents AI models, labs, agent systems, prompting, reasoning, and model capabilities. ]]></description>
+    <title>victorian-smart-home</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/victorian-smart-home</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/victorian-smart-home</guid>
+    <description><![CDATA[  domain-badge slug=history-anthropology name=History &amp; Anthropology Victorian smart home The concept of automated domestic systems predates the digital age, with Cragside serving as the primary historical precedent for modern smart home technology. ]]></description>
     <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>Biology &amp; Life Sciences</title>
-    <link>https://digifella.github.io/ai-wiki/domains/biology-life-sciences</link>
-    <guid>https://digifella.github.io/ai-wiki/domains/biology-life-sciences</guid>
-    <description><![CDATA[ Biology &amp; Life Sciences Biology, evolution, animal cognition, ecology, and life-centred scientific understanding. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Built Environment &amp; Architecture</title>
-    <link>https://digifella.github.io/ai-wiki/domains/built-environment-architecture</link>
-    <guid>https://digifella.github.io/ai-wiki/domains/built-environment-architecture</guid>
-    <description><![CDATA[ Built Environment &amp; Architecture Architecture, buildings, cities, urban systems, planning, heritage, and designed environments. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Business &amp; Strategy</title>
-    <link>https://digifella.github.io/ai-wiki/domains/business-strategy</link>
-    <guid>https://digifella.github.io/ai-wiki/domains/business-strategy</guid>
-    <description><![CDATA[ Business &amp; Strategy Market intelligence, business models, pricing, enterprise work, and professional services. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Cosmology &amp; Space</title>
-    <link>https://digifella.github.io/ai-wiki/domains/cosmology-space</link>
-    <guid>https://digifella.github.io/ai-wiki/domains/cosmology-space</guid>
-    <description><![CDATA[ Cosmology &amp; Space Astronomy, cosmology, planetary environments, Mars, and space-centred exploration. ]]></description>
+    <title>water-flow</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/water-flow</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/water-flow</guid>
+    <description><![CDATA[  domain-badge slug=earth-systems-geology-climate name=Earth Systems, Geology &amp; Climate Water Flow Concept Overview Water flow is a fundamental aspect of hydraulic systems and natural phenomena. ]]></description>
     <pubDate>Tue, 04 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>

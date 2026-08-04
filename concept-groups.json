@@ -4087,6 +4087,10 @@
     "domain": "Creative Pursuits",
     "group": "Photoshop & Layer Workflows"
   },
+  "automated-lighting": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Automation Scheduling & Sync"
+  },
   "automated-marketing-assets": {
     "domain": "Business & Strategy",
     "group": "Market Intelligence & GEO SEO"
@@ -6184,6 +6188,10 @@
     "group": "Climate Environment & Surface Systems"
   },
   "climate-change-impacts-on-wildlife": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
+  },
+  "climate-control": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
   },
@@ -14118,6 +14126,10 @@
   "hybrid-ssm-transformer": {
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
+  },
+  "hydroelectric-power": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
   },
   "hydrogen-atom": {
     "domain": "Science, Physics & Research",
@@ -28479,6 +28491,10 @@
     "domain": "History & Anthropology",
     "group": "Architecture Cities & Heritage"
   },
+  "victorian-smart-home": {
+    "domain": "History & Anthropology",
+    "group": "Architecture Cities & Heritage"
+  },
   "video-agent-tool": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -29286,6 +29302,10 @@
   "wildlife-photography": {
     "domain": "Creative Pursuits",
     "group": "Photography & Cameras"
+  },
+  "william-george-armstrong": {
+    "domain": "History & Anthropology",
+    "group": "People Institutions & Cultural History"
   },
   "wimp": {
     "domain": "Cosmology & Space",
