@@ -3207,6 +3207,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
+  "antibacterial-properties": {
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
+  },
   "antibody-half-life": {
     "domain": "History & Anthropology",
     "group": "Media Society & Daily Life"
@@ -17603,6 +17607,10 @@
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
   },
+  "medicinal-properties": {
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
+  },
   "meeting-prep-strategist": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -26355,6 +26363,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "synthetic-pharmaceuticals": {
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
+  },
   "synthetic-production": {
     "domain": "Food & Nutrition",
     "group": "Food Science Nutrition & Ingredients"
@@ -27078,6 +27090,10 @@
   "theory-development": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
+  },
+  "therapeutic-agent": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "therapeutic-area": {
     "domain": "Health & Wellbeing",

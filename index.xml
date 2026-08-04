@@ -9,8 +9,14 @@
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-08-04 07:50 Domains AI &amp; Agents (2169 concepts) Tools, Platforms &amp; Infrastructure (1536 concepts) UX &amp; Design (61 concepts) Creative Pursuits (734 concepts) Food &amp; Nutrition (216 concepts) Business &amp; Strategy (432 concept... ]]></description>
-    <pubDate>Mon, 03 Aug 2026 21:50:00 GMT</pubDate>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-08-04 09:36 Domains AI &amp; Agents (2170 concepts) Tools, Platforms &amp; Infrastructure (1536 concepts) UX &amp; Design (61 concepts) Creative Pursuits (734 concepts) Food &amp; Nutrition (216 concepts) Business &amp; Strategy (432 concept... ]]></description>
+    <pubDate>Mon, 03 Aug 2026 23:36:00 GMT</pubDate>
+  </item><item>
+    <title>antibacterial-properties</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/antibacterial-properties</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/antibacterial-properties</guid>
+    <description><![CDATA[  domain-badge slug=health-wellbeing name=Health &amp; Wellbeing Antibacterial Properties Overview Antibacterial properties refer to the ability of a substance to inhibit the growth of or destroy bacteria. ]]></description>
+    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>automated-note-creation</title>
     <link>https://digifella.github.io/ai-wiki/concepts/automated-note-creation</link>
@@ -58,12 +64,6 @@
     <link>https://digifella.github.io/ai-wiki/concepts/long-term-memory-in-ai</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/long-term-memory-in-ai</guid>
     <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Long Term Memory In AI Long term memory in AI refers to mechanisms that enable artificial intelligence systems to retain and access information over extended periods, beyond the constraints of a single conve... ]]></description>
-    <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>qwen-38-27b</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/qwen-38-27b</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/qwen-38-27b</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Qwen 3.8-27B Qwen 3.8-27B is a significant open-source release within the qwen family, developed by Alibaba. ]]></description>
     <pubDate>Mon, 03 Aug 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>

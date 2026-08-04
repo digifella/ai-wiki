@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://digifella.github.io/ai-wiki/INDEX</loc>
-    <lastmod>2026-08-03T21:50:00.000Z</lastmod>
+    <lastmod>2026-08-03T23:36:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/06b-parameter-model</loc>
     <lastmod>2026-07-12T14:00:00.000Z</lastmod>
@@ -2407,6 +2407,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/anti-vibe-coding</loc>
     <lastmod>2026-07-10T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/antibacterial-properties</loc>
+    <lastmod>2026-08-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/antibody-half-life</loc>
     <lastmod>2026-07-12T14:00:00.000Z</lastmod>
@@ -13205,6 +13208,9 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/medical-text-comprehension</loc>
     <lastmod>2026-07-10T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/medicinal-properties</loc>
+    <lastmod>2026-08-03T14:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/meeting-prep-strategist</loc>
     <lastmod>2026-07-15T14:00:00.000Z</lastmod>
   </url><url>
@@ -18033,7 +18039,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/secret-honey</loc>
-    <lastmod>2026-07-11T14:00:00.000Z</lastmod>
+    <lastmod>2026-08-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/secret-ingredient</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -19769,6 +19775,9 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/synoptic-mind</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/synthetic-pharmaceuticals</loc>
+    <lastmod>2026-08-03T14:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/synthetic-production</loc>
     <lastmod>2026-08-03T14:00:00.000Z</lastmod>
   </url><url>
@@ -20311,6 +20320,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/theory</loc>
     <lastmod>2026-07-17T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/therapeutic-agent</loc>
+    <lastmod>2026-08-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/therapeutic-area</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -23823,7 +23835,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/fact-quickie</loc>
-    <lastmod>2026-07-12T14:00:00.000Z</lastmod>
+    <lastmod>2026-08-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/fahad-mirza</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
