@@ -2939,6 +2939,10 @@
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
   },
+  "airport-rail-connectivity": {
+    "domain": "Built Environment & Architecture",
+    "group": "Cities Planning & Urban Systems"
+  },
   "al-dente-texture": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
@@ -17635,6 +17639,10 @@
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
+  "melbourne-airport-rail-link": {
+    "domain": "Built Environment & Architecture",
+    "group": "Cities Planning & Urban Systems"
+  },
   "melbourne-cbd-architecture": {
     "domain": "History & Anthropology",
     "group": "Architecture Cities & Heritage"
@@ -24791,6 +24799,10 @@
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
   },
+  "skybus": {
+    "domain": "Built Environment & Architecture",
+    "group": "Cities Planning & Urban Systems"
+  },
   "skyscraper-architecture": {
     "domain": "History & Anthropology",
     "group": "Architecture Cities & Heritage"
@@ -26170,6 +26182,10 @@
   "summary-coober-pedys-unique-living-conditions-are-highlighted-showcasing-how-the": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
+  },
+  "sunshine-superhub": {
+    "domain": "Built Environment & Architecture",
+    "group": "Cities Planning & Urban Systems"
   },
   "super-heavy-booster-19": {
     "domain": "Cosmology & Space",
