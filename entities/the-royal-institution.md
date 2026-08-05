@@ -1,0 +1,42 @@
+---
+type: entity
+tags:
+  - "science"
+  - "education"
+  - "charity"
+  - "lectures"
+  - "stem"
+  - "astronomy"
+  - "communication"
+  - "history"
+aliases:
+  - "The RI"
+  - "Royal Institution of Great Britain"
+  - "Albany Mall"
+summary: The Royal Institution is a London-based charity founded in 1799 that promotes engagement with science, technology, engineering, and mathematics.
+updated: 2026-07-12
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-12" }
+---
+# The Royal Institution
+
+The Royal Institution is a charity in London that aims to inspire people to see [[concepts/science|science]] as an exciting and accessible process of exploration, and to engage them with scientific discourse.
+
+- Founded in 1799
+- Well known for Christmas Lectures which began in 1825
+- Hosts lectures, workshops, and discussions on a wide range of topics including the sciences, technology, [[entities/national-academies|engineering]], and [[concepts/mathematics|mathematics]].
+
+### Recent Activity
+
+- **Communicating with [[concepts/extraterrestrial-life|Extraterrestrial Life]]: Decoding [[concepts/universal-language|Universal Language]] Principles**
+    - [[concepts/date-2026-04-13|Date: 2026-04-13]]
+    - Clip title: How Would We Communicate with [[entities/alien|Alien]] Life? - with [[entities/carl-sagan|Carl Sagan]]
+    - [[entities/tasia-custode|Author]] / channel: The Royal Institution
+    - URL: https://www.youtube.com/watch?v=hbFq0I7YrYQ
+
+### Summary Highlights:
+- Discussion on the complex challenge of deciphering a message from an [[entities/alien|alien]] civilization that has evolved independently.
+- Exploration into the potential rewards and difficulties associated with communicating across cosmic distances.
+
+2026 04 13 Communicating with [[concepts/extraterrestrial-life|Extraterrestrial Life]] Decoding [[concepts/universal-language|Universal Language]] P
+## Source Notes
+- 2026-04-13: [[lab-notes/2026-04-13-Communicating-with-Extraterrestrial-Life-Decoding-Universal-Language-P|Communicating with Extraterrestrial Life Decoding Universal Language P]] · [▶ source](https://www.youtube.com/watch?v=hbFq0I7YrYQ)

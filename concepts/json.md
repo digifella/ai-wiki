@@ -1,0 +1,43 @@
+---
+type: concept
+domain: tools-platforms-infrastructure
+tags:
+  - "data-interchange"
+  - "structured-data"
+  - "ai-prompting"
+  - "javascript-subset"
+aliases:
+  - "JavaScript Object Notation"
+  - "JSON Format"
+summary: JSON is a lightweight data-interchange format used for machine parsing and human readability, increasingly utilized in 'JSON Prompting' to drive consistent, structured workflows in AI models like Google's Gemini and ChatGPT/DALL-E 3.
+updated: 2026-07-11
+group: data-pipelines-sync-storage
+title: JSON (JavaScript Object Notation)
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-11" }
+---
+<!-- domain-nav -->
+> domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms & Infrastructure
+
+JSON is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is based on a subset of the [[concepts/javascript|JavaScript]] Programming Language, but it is language-independent.
+
+## Benefits of JSON
+- **Readability**: Easy to read and write.
+- **Data Exchange**: Simplifies data exchange between a server and [[concepts/web-application|web application]].
+- **[[concepts/structured-output|Structured Data]]**: Provides a structured format for organizing and representing complex data.
+
+### Related Concepts
+- [[concepts/javascript|JavaScript]]
+- [[concepts/ai-models]]
+- [[concepts/google-search|Google]]'s [[concepts/gemini|Gemini]]
+- [[concepts/chatgpt|ChatGPT]]
+- [[entities/dall-e-3|DALL-E 3]]
+
+## JSON in AI Interaction
+
+- **Utilization with AI models**: Specifically useful for enforcing structured outputs and managing complex prompt parameters.
+- **[[concepts/consistent-image-generation|Consistent Image Generation]] Workflow**: Enables precise control for generating consistent AI images and storyboards by using JSON to pass structured [[concepts/instructions|instructions]] between models (e.g., using [[concepts/gemini|Gemini]] to [[concepts/motivation|drive]] [[concepts/chatgpt|ChatGPT]]'s DALL-E 3 via [[concepts/custom-tools|custom tools]] like "[[entities/json-image-creator-v3|JSON Image Creator V.3]]").
+- **Reference**: 2026 04 26 [[concepts/gemini|Gemini]] and DALL E 3 Workflow [[concepts/ai-storyboarding|Consistent AI Image Generation Using JSON]]
+## Source Notes
+- 2026-04-14: "But [[concepts/openclaw|OpenClaw is expensive..."]]
+- 2026-04-07: Total Control: Why I Prompt Gemini with JSON (And Why You
+- 2026-04-26: [[lab-notes/2026-04-26-Craig-Does-AI-JSON-Prompts-for-Advanced-ChatGPT-Image-2.0-Control|Craig Does AI: JSON Prompts for Advanced ChatGPT Image 2.0 Control]] · [▶ source](https://www.youtube.com/watch?v=qXUww5tnLHs)

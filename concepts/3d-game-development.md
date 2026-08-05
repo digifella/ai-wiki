@@ -1,0 +1,44 @@
+---
+type: concept
+domain: creative-pursuits
+tags:
+  - "concept"
+  - "ai"
+  - "gpt-5"
+  - "coding-capabilities"
+  - "automation"
+  - "vibe-coding"
+aliases:
+  - "GPT-5"
+  - "vibe coding"
+summary: The content provides an overview of recent advancements in AI, focusing on GPT-5's coding capabilities and the evolution of AI automation.
+updated: 2026-07-11
+group: interactive-visualisation
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-11" }
+---
+<!-- domain-nav -->
+> domain-badge slug=creative-pursuits name=Creative Pursuits
+
+# 3D Game Development
+
+3D game development is the process of creating interactive three-dimensional video games using specialized software engines, programming languages, and artistic tools. The discipline combines technical programming, [[concepts/3d-modeling|3D modeling]], animation, and game design to construct immersive digital environments and [[concepts/interactive-experiences|interactive experiences]]. Developers work within established game engines such as Unity, [[entities/unreal-engine|Unreal]] [[concepts/engine|Engine]], or Godot, which provide frameworks for [[concepts/visual-rendering|rendering]] [[concepts/webgpu|graphics]], managing [[concepts/physics-simulation|physics simulation]], and handling user input.
+
+## Core Technical Components
+
+The technical foundation of 3D game development involves several interconnected systems. Graphics [[concepts/fat-rendering|rendering]] engines process 3D geometry and apply visual effects, while [[concepts/physics|physics]] engines simulate realistic [[concepts/exercise|movement]] and collision detection. Level editors allow designers to construct game worlds by placing assets, setting up gameplay mechanics, and defining environmental parameters. Developers typically use programming languages like C#, C++, or [[concepts/python|Python]] to implement game [[concepts/open-source-philosophy|logic]], [[concepts/ai-models|AI systems]], and interactive features.
+
+## Asset Creation and Production
+
+Creating 3D game assets requires specialized [[concepts/skills|skills]] across multiple disciplines. 3D modelers use software like Blender, Maya, or 3ds Max to construct character models, environmental objects, and props. [[concepts/texture|Texture]] artists apply surface details and materials to these models, while animators create movement sequences for characters and interactive elements. Sound designers and composers contribute [[concepts/audio-modality|audio]] elements that enhance immersion and gameplay [[concepts/feedback|feedback]].
+
+## Modern Development Practices
+
+Contemporary 3D game development increasingly incorporates iterative [[concepts/design-workflows|design workflows]], [[concepts/app-updates|version control]] systems, and collaborative tools that allow distributed teams to work simultaneously on large projects. Real-time development has become more accessible, enabling developers to see changes immediately and adjust gameplay, visuals, and performance dynamically. The field continues to evolve with improvements in rendering technology, development tools, and accessible [[concepts/learning|learning]] resources.
+## Source Notes
+- 2026-04-07: Claude Code 2.0 Upgrade: Enhanced AI Coding, Workflow Automation, and Team Features
+- 2026-04-10: [[lab-notes/2026-04-10-Claude-Code-20-Upgrade-Enhanced-AI-Coding-Workflow-Automation-and|Claude Code 20 Upgrade Enhanced AI Coding Workflow Automation and]] · [▶ source](https://www.youtube.com/watch?v=ShTxTquBDxY)
+- 2026-04-12: [[lab-notes/2026-04-12-Nvidia-CUDA-GPU-Parallel-Computing-for-AI-Advancement|Nvidia CUDA GPU Parallel Computing for AI Advancement]] · [▶ source](https://www.youtube.com/watch?v=pPStdjuYzSI)
+- 2026-04-17: [[lab-notes/2026-04-17-OpenAI-Codex-Becomes-Unified-AI-Everything-App-for-Software-Developmen|OpenAI Codex Becomes Unified AI Everything App for Software Developmen]] · [▶ source](https://www.youtube.com/watch?v=QW_07aHH_L4)
+- 2026-04-22: OpenAI GPT Image 2 · [▶ source](https://www.youtube.com/watch?v=uvdRGC4cFhY)
+- 2026-04-28: Apple
+- 2026-05-01: [[lab-notes/2026-05-01-Alibaba-Qwen-3.6-27B-Advanced-Local-Agentic-Coding-and-M|Alibaba Qwen 3.6 27B: Advanced Local Agentic Coding and Multimodal AI Capabilities]] · [▶ source](https://www.youtube.com/watch?v=N-0WtgxJ7ZU)

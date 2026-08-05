@@ -1,0 +1,41 @@
+---
+type: concept
+domain: tools-platforms-infrastructure
+tags:
+  - "cloud-computing"
+  - "edge-computing"
+  - "inference-costs"
+  - "on-device-ai"
+  - "latency"
+  - "data-privacy"
+  - "cost-analysis"
+aliases:
+  - "cloud-edge economics"
+  - "cloud computing trade-offs"
+summary: Cloud economics involves evaluating the financial, operational, and technical trade-offs between centralized cloud computing and localized edge computing.
+updated: 2026-07-11
+group: platforms-runtimes-environments
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-11" }
+---
+<!-- domain-nav -->
+> domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms & Infrastructure
+
+# Cloud Economics
+
+The evaluation of the financial, operational, and technical trade-offs between centralized [[concepts/cloud-computing]] and localized [[concepts/edge-computing]].
+
+## Core Economic Drivers
+- **[[concepts/inference|Inference]] Costs**: The massive computational expense required to run large-scale models (e.g., LLMs) on remote, centralized servers.
+- **Latency & [[concepts/network-speed|Bandwidth]]**: The temporal delay and data transmission costs associated with moving large [[concepts/training-data|datasets]] between devices and the cloud.
+- **[[concepts/privacy-protection|Privacy]] & [[concepts/secure|Security]]**: The economic and regulatory overhead of managing sensitive data within third-party cloud environments.
+
+## Strategic Industry Shifts
+- **Transition to [[concepts/mobile-ai|On-Device AI]]**: A growing [[concepts/exercise|movement]] to migrate AI workloads from the cloud to the device to mitigate the [[concepts/scaling|scaling]] pressures of [[concepts/cloud-based-models|cloud-based models]].
+- **Hardware-Centric AI Strategies**:
+    - [[entities/apple]] is executing a [[concepts/strategic-shift|strategic shift]] toward [[concepts/on-device-ai]] specifically to navigate the challenges of Cloud Economics.
+    - Recent [[concepts/leadership|leadership]] transitions (e.g., [[entities/john-ternus|John Ternus]] and [[entities/johny-srouji|Johny Srouji]]]) signal a pivot toward [[concepts/edge-deployment|edge computing]] and hardware-driven intelligence to bypass high-cost cloud inference.
+
+## Related Notes
+- 2026 04 27 Apples Hardware CEO [[concepts/strategic-pivot|Strategic Shift]] to [[concepts/on-device-ai|On Device AI]] Amid
+## Source Notes
+- 2026-04-27: Apple's Hardware · [▶ source](https://www.youtube.com/watch?v=RaAFquzj5B8)

@@ -1,0 +1,52 @@
+---
+type: concept
+domain: ai-agents
+tags:
+  - "advanced-intelligence"
+  - "cognitive-capability"
+  - "artificial-intelligence"
+  - "problem-solving"
+  - "alien-communication"
+  - "patterns-in-pi"
+  - "philosophy-of-mind"
+  - "adaptability"
+aliases:
+  - "Superhuman Intelligence"
+  - "High-Level Cognitive Capability"
+  - "Sophisticated Intelligence"
+summary: Advanced intelligence is a cognitive capability surpassing human norms in complexity, creativity, problem-solving, and adaptability, sometimes conceptualized through encoded messages in mathematical constants like pi.
+updated: 2026-07-11
+group: ai-foundations-concepts
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-11" }
+---
+<!-- domain-nav -->
+> domain-badge slug=ai-agents name=AI & Agents
+
+# advanced_intelligence
+
+## Definition
+Advanced intelligence refers to a level of cognitive capability that surpasses human norms in complexity, creativity, [[concepts/problem-solving|problem-solving]], and [[concepts/resilience|adaptability]]. It often implies an understanding or application of highly sophisticated concepts across multiple domains.
+
+## Related Concepts
+- [[concepts/ai-technologies|Artificial Intelligence]]
+- Cognitive [[concepts/science|Science]]
+- [[concepts/philosophy-of-mind]]
+
+## References in Literature and Media
+- In [[entities/carl-sagan|Carl Sagan]]'s novel *[[entities/contact|Contact]]*, the concept of advanced intelligence is explored through [[entities/ellie-arroway|Ellie Arroway]]'s discovery of patterns within the mathematical constant π. The [[entities/alien|alien]] suggests that certain structures in the universe were built by an unknown entity to communicate with intelligent beings, embedding messages within [[concepts/transcendental-numbers|transcendental numbers]] like π.
+
+### New Information
+- **[[concepts/messaging-in-numbers|Patterns in pi in "Contact"]]**: 2026 04 13 Patterns in pi in [[entities/contact|Contact]]
+  - Ellie Arroway writes a program that computes the digits of π in various [[concepts/number-systems|bases]].
+  - [[concepts/base-11-representation|Base 11 representation]] reveals a sequence of ones and zeros forming a [[concepts/circular-pattern|circular pattern]] when aligned properly on a page.
+
+## Tags
+advanced_intelligence, contact_carl_sagan, pi_patterns
+
+## Updated
+[[concepts/date-2026-04-13|2026-04-13]]
+## Source Notes
+- 2026-04-07: [[lab-notes/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment|1 Bit LLMs BitNet Bonsai and Efficient On Device Deployment]] · [▶ source](https://www.youtube.com/watch?v=0fWFetwHkVE)
+- 2026-04-10: Bonsai 8B PrismMLs Revolutionary 1 Bit LLM First Look Test · [▶ source](https://www.youtube.com/watch?v=aNg47-U_x6A)
+- 2026-04-12: [[lab-notes/2026-04-12-Google-TurboQuant-LLM-Memory-Efficiency-Breakthrough-Industry-Impact|Google TurboQuant LLM Memory Efficiency Breakthrough Industry Impact]] · [▶ source](https://www.youtube.com/watch?v=erV_8yrGMA8)
+- 2026-04-17: [[lab-notes/2026-04-17-Anthropic-Claude-Opus-47-Performance-Gains-Safety-Limits-Strategic-Rel|Anthropic Claude Opus 47 Performance Gains Safety Limits Strategic Rel]] · [▶ source](https://www.youtube.com/watch?v=N4ZWCc_Fr3U)

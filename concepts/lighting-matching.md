@@ -1,0 +1,42 @@
+---
+type: concept
+domain: creative-pursuits
+tags:
+  - "lighting-matching"
+  - "photo-compositing"
+  - "color-alignment"
+  - "luminance-adjustment"
+  - "shadow-integration"
+  - "image-composition"
+  - "photoshop-features"
+aliases:
+  - "Light Sync"
+  - "Visual Property Matching"
+  - "Compositing Harmonization"
+  - "Image Lighting Integration"
+summary: The process of synchronizing the visual properties of disparate image elements to ensure seamless composition.
+updated: 2026-07-11
+group: lightroom-color-workflows
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-11" }
+---
+<!-- domain-nav -->
+> domain-badge slug=creative-pursuits name=Creative Pursuits
+
+# Lighting matching
+
+The process of synchronizing the visual properties of disparate image elements—such as subjects and backgrounds—to ensure a seamless [[concepts/combining-photos|Image Composition]].
+
+### Key Objectives
+- **Color Alignment**: Matching Color Temperature, Saturation, and Color Balance.
+- **Luminance Matching**: Aligning Brightness, [[concepts/contrast]], and [[concepts/exposure]] levels.
+- **Shadow Integration**: Ensuring Shadow Direction, Shadow [[concepts/density|Density]], and [[concepts/light|Light]] Source [[concepts/logical-consistency|consistency]].
+
+### Automated Solutions
+- [[concepts/beta-version|Harmonize Feature]] ([[concepts/photoshop|Photoshop]] Beta): An AI-powered tool designed to automatically blend color, lighting, and shadow between layers to achieve cohesive [[concepts/digital-compositing|Compositing]].
+
+---
+Backlink: 2026 04 14 New [[concepts/photoshop|Photoshop]] Features [[entities/colin-smith-channel|PhotoshopCafe]]
+## Source Notes
+
+- 2026-04-23: [[lab-notes/2026-04-23-Engine-Survival-The-Critical-Role-of-Oil-Pressure-and-Warning-Lights|Engine Survival: The Critical Role of Oil Pressure and Warning Lights]] · [▶ source](https://www.youtube.com/watch?v=mmCfOazZCNQ)
+- 2026-04-14: I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.

@@ -1,0 +1,2804 @@
+---
+wiki-ingested: true
+title: The-Promise-of-Digital-Health-Then-Now-and-the-Future
+author: Amy Abernethy, Laura Adams, Meredith Barrett, Christine Bechtel, X Health, Patricia Brennan, Atul Butte, San Francisco, Judith Faulkner, Epic Systems, Elaine Fontaine, National Academy
+published_date: 2022
+source_url: "https://doi.org/10.1146/annurev-publ-"
+category: digital-health
+credibility: Editorial
+date: 2026-05-26
+source_type: document
+wiki-ready: true
+migrated_from: library
+domain: health-wellbeing
+group: health-practice-patient-knowledge
+type: "source-summary"
+---
+<!-- domain-nav -->
+> domain-badge slug=health-wellbeing name=Health & Wellbeing
+
+---
+preface_schema: '1.0'
+title: 'Amy Abernethy, MD, PhD, Verily; Laura Adams, MS, National Academy of Medicine;'
+source_type: 'Academic'
+publisher: 'Deloitte'
+publishing_date: 'June 27, 2022'
+authors: ['Amy Abernethy', 'Laura Adams', 'Meredith Barrett', '[[entities/christine-bechtel|Christine Bechtel]]', 'X Health', 'Patricia Brennan', 'Atul Butte', 'San Francisco', 'Judith Faulkner', 'Epic Systems', 'Elaine Fontaine', 'National Academy']
+available_at: 'https://doi.org/10.1146/annurev-publ-'
+keywords: ['health', 'digital', 'care', 'these', 'medicine', 'progress', 'tools', 'national']
+abstract: 'The Promise of Digital Health: Then, Now, and Amy Abernethy, MD, PhD, Verily; Laura Adams, MS, National Academy of Medicine; Meredith Barrett, PhD, ResMed; Christine Bechtel, MA, X4 Health; Patricia Brennan, RN, PhD, FAAN, National Library of Medicine; Atul Butte, MD, PhD, University of California,'
+---
+## Page 1
+
+The Promise of Digital Health: Then, Now, and
+the Future
+Amy Abernethy, MD, PhD, Verily; Laura Adams, MS, National Academy of Medicine;
+Meredith Barrett, PhD, ResMed; Christine Bechtel, MA, X4 Health; Patricia Brennan,
+RN, PhD, FAAN, National Library of Medicine; Atul Butte, MD, PhD, University of California,
+San Francisco; Judith Faulkner, MS, Epic Systems; Elaine Fontaine, BS, National Academy
+of Medicine; Stephen Friedhoff, MD, Anthem, Inc.; John Halamka, MD, Mayo Clinic;
+Michael Howell, MD, MPH, Google Health; Kevin Johnson, MD, University of Pennsylvania;
+Peter Long, PhD, Blue Shield of California; Deven McGraw, JD, MPH, Ciitizen Corporation;
+Redonda Miller, MD, MBA, Johns Hopkins Hospital; Peter Lee, PhD, Microsoft Corporation;
+Jonathan Perlin, MD, PhD, MSHA, The Joint Commission; Donald Rucker, MD, 1upHealth;
+Lew Sandy, MD, MBA, UnitedHealth Group; Lucia Savage, JD, Omada Health, Inc.; Lisa
+Stump, MS, Yale New Haven Health System and Yale School of Medicine; Paul Tang, MD, MS,
+[[entities/stanford-university|Stanford University]]; Eric Topol, MD, The Scripps Research Institute; Reed Tuckson, MD, FACP,
+Tuckson Health Conne
+
+tump, MS, Yale New Haven Health System and Yale School of Medicine; Paul Tang, MD, MS,
+Stanford University; Eric Topol, MD, The Scripps Research Institute; Reed Tuckson, MD, FACP,
+Tuckson Health Connections, LLC; and Kristen Valdes, b.well Connected Health
+June 27, 2022
+Perspectives | Expert Voices in Health & Health Care
+DISCUSSION PAPER
+Digital Health in the 21st Century
+Over the past several decades, the development and ac-
+celerated advancement of digital technology has prompted
+change across virtually all aspects of human endeavor. The
+positive and negative effects of these changes have been
+and will remain the focus of active speculation, including the
+implications for human health. Application of mechanical
+and digital recording and capture of physical status, experi-
+ences, and narratives have set the stage for revolutionary
+progress in individual health and medical management,
+population-wide health strategies, and integrated real-time
+generation of new knowledge and insights. Together, these
+developing digitally mediated capacities are termed digital
+health.
+Digital health has evolved as a broad term encompass-
+ing electronically captured data, along with technical and
+communications infrastructure and applications in the health
+care ecosystem. Revolutionary advances in digital health
+are transforming health, medicine, and biomedical sci-
+ence, and redeﬁ ning and re-engineering the tools needed
+to create a healthier future. Developments such as cloud
+computing, artiﬁ cial intelligence, machine learning, block-
+chain, digitally mediated diagnostics and treatment, tele-
+health, and consumer-facing mobile health applications are
+now routinely used in self-management, health care, and
+biomedical science. These developments promise to drive
+earlier diagnoses and interventions, improve outcomes, and
+support more engaged patients (McGinnis et al., 2021).
+In the mid-20th century, the newly established World
+Health Organization (WHO) deﬁ ned the concept of he
+
+d interventions, improve outcomes, and
+support more engaged patients (McGinnis et al., 2021).
+In the mid-20th century, the newly established World
+Health Organization (WHO) deﬁ ned the concept of health
+as “a state of complete physical, mental and [[concepts/social-well-being|social well-
+being]] and not merely the absence of disease or inﬁ rmity”
+(WHO, 2006). As an integrative concept, this deﬁ nition is
+a vision for the planet that is at once bold and elusive, even
+for the United States as the world’s wealthiest nation. The
+WHO deﬁ nition is clear that health derives from much more
+than medical care. Since WHO’s founding, much has been
+learned about how different factors, including but extending
+far beyond medical care, interact to shape health prospects.
+Indeed, research indicates that social and behavioral fac-
+tors both outweigh medical care in determining health sta-
+tus and modulate the contributions of genetics and physical
+environments (Kottke et al., 2016; McGovern et al., 2014;
+Schroeder, 2007; McGinnis et al., 2002).
+Unfortunately, U.S. health policies and health system in-
+vestments remain misaligned with these insights. In the U.S.,
+approximately 90% of all health expenses go to disease
+and injury treatment rather than to addressing the predis-
+posing factors of these illnesses and injuries. By 2020, U.S.
+health expenditures had grown to $4.1 trillion. Spending in
+the health sector is projected to increase to over $6 trillion
+
+---
+
+## Page 2
+
+posing factors of these illnesses and injuries. By 2020, U.S.
+health expenditures had grown to $4.1 trillion. Spending in
+the health sector is projected to increase to over $6 trillion
+
+---
+
+## Page 2
+
+Page 2
+annually and encompass 20% of the nation’s gross domes-
+tic product by 2028 (Keehan et al., 2020; CMS, 2019). The
+U.S. is falling far short of the WHO vision, despite spend-
+ing nearly twice as much as other high-income countries.
+The U.S. currently has a lower [[concepts/life-expectancy|life expectancy]], higher rate
+of death by suicide, higher chronic disease burden, higher
+rates of preventable hospitalizations, higher use of unneces-
+sary expensive testing and procedures, and lower use of
+primary care than its peer countries (Tikkanen and Abrams,
+2020).
+Despite important gains in the last two decades, made
+possible by signiﬁ cant investment by payers, providers, and
+the federal government in electronic health records (EHRs),
+progress toward interoperable systems, and advanced tech-
+nology to coordinate care and manage disease, the prom-
+ise of digital health remains illusory. The ability to use in-
+teroperable digital technology to improve the effectiveness,
+efﬁ ciency, equity, and continuity of care remains substan-
+tially conceptual. For example, digital interfaces in inpatient
+care systems are often clumsy; volumes of health data are
+mostly sequestered, inaccessible, and difﬁ cult to aggregate
+in a meaningful and actionable way, in part due to the on-
+going need for evolving data standards. In addition, digital
+tools and data are relatively ineffective in assisting clinicians
+in better understanding patient and family preferences and
+circumstances that facilitate health progress outside of the
+clinic. The notion of digital tools that can be applied in wide-
+spread fashion to coordinate health care organizations and
+public health efforts to identify and engage those at particu-
+lar risk from behavioral, social, and environmental public
+health risks remains rudimentary at best.
+
+dinate health care organizations and
+public health efforts to identify and engage those at particu-
+lar risk from behavioral, social, and environmental public
+health risks remains rudimentary at best. The expansive vi-
+sion of real-time generation of evidence in a learning health
+system that links datasets and analyzes them using artiﬁ cial
+intelligence and machine learning is nascent and limited to
+a few pilots.
+Ongoing and accelerated progress must be made to fully
+realize the vision of a learning health system. In the digital
+age, regardless of the speciﬁ c barrier to the creation and
+support of individual and [[concepts/population-health|population health]] (e.g., COV-
+ID-19, staff burnout, challenging ﬁ nancial outlook, equity,
+etc.), digital health can and should act as a “force multi-
+plier” of the interventions to combat these challenges. As
+active participants in advancing prospects and practices in
+digital health, the authors of this paper hope to:
+• highlight the compelling possibilities and unresolved
+challenges for advancing trustworthy digital technol-
+ogy for the beneﬁ t of all people at every stage of
+their lives;
+• underscore the importance of ensuring that the ben-
+eﬁ ts are equally shared across society;
+• identify the structural, technical, and policy precon-
+ditions for long-term progress; and
+• identify critical priorities for cooperation and col-
+laboration between policy makers, practitioners,
+and industry leaders to propel the development and
+application of best-in-class digital health tools.
+This paper aims to provide a [[concepts/comprehensive-review|comprehensive review]] of
+digital health tools and their promise and to identify critical
+priorities for cooperation and collaboration among policy
+makers and industry leaders. The challenge is addressing
+both the breadth and depth of the issues, which are multi-
+factorial and overlapping.
+It is important to note that the narrative and suggestions
+here represent the views of the individual authors, not nec-
+essarily those of the Nation
+
+issues, which are multi-
+factorial and overlapping.
+It is important to note that the narrative and suggestions
+here represent the views of the individual authors, not nec-
+essarily those of the National Academy of Medicine or the
+organizations with which the authors are afﬁ liated. In de-
+veloping the text, the authors have been informed by their
+respective [[concepts/roles-and-responsibilities|roles and responsibilities]] in those organizations.
+These include various efforts in contending with the digital
+health challenges and opportunities of the COVID-19 pan-
+demic. The discussion paper Digital Health COVID-19 Im-
+pact Assessment: Lessons Learned and Compelling Needs
+was produced in parallel to and in coordination with this
+work and serves as a use case of the key concepts present-
+ed here (Lee et al., 2022). In addition, the development of
+this paper was informed by the National Academy of Medi-
+cine Leadership Consortium’s Digital Health Action Collab-
+orative (DHAC) and DHAC’s prior work stewarding devel-
+opment of the international statement on Digital Health and
+the Learning Health System, issued collectively in 2020 by
+[[entities/national-academies|national academies]] of science and medicine of 14 countries
+(NASEM, 2020).
+Digital Innovation and Medical Care
+Digital technology has now been developed and applied to
+every aspect of health and health care. Figure 1 groups the
+various digital health tools into a dozen application arenas,
+but the individual applications number in the thousands.
+The authors see the potential in digital innovation in health
+care delivery in the following areas: advancing diagnosis
+and treatment, ensuring care continuity, facilitating off-site
+patient management through telemedicine, partnering with
+individuals to support self-management, and reducing error
+and waste in the delivery system.
+Advancing Diagnosis and Treatment
+Research shows that a signiﬁ cant proportion of health
+spending is attributed to [[concepts/chronic-diseases|chronic diseases]], with individuals
+experiencing multiple comorbidities accounting for a dis-
+
+Diagnosis and Treatment
+Research shows that a signiﬁ cant proportion of health
+spending is attributed to chronic diseases, with individuals
+experiencing multiple comorbidities accounting for a dis-
+proportionate share of expenditures (Buttorff et al., 2017).
+Although additional research is necessary, a recent review
+
+---
+
+## Page 3
+
+Page 3
+FIGURE 1 | Evolving Applications of Digital Technology in Health and Health Care
+SOURCE: National Academy of Medicine. 2019. Digital Health Action Collaborative, NAM Leadership Consortium: Collaboration
+for a Value & Science-Driven Health System.
+concluded that self-management as part of a treatment
+program for patients with chronic conditions has small-to-
+moderate impacts on health behaviors, health outcomes,
+and service utilization and should be an ongoing priority
+in promoting population health (Allegrante et al., 2019).
+Thus, the market appetite and the necessity exist to facili-
+tate diagnosis, reduce disease burden, and improve care
+for those who experience chronic disease. To address these
+problems, innovators, software vendors, payers, and gov-
+ernment regulators are investing heavily in digital health so-
+lutions for diagnosis and treatment, with particular attention
+to high-need, high-cost populations (The Commonwealth
+Fund, 2016).
+An example of a diagnostic tool enhanced by digital
+health includes smartphone-based photoplethysmography
+(using a smartphone camera to capture video from the sub-
+ject’s index ﬁ ngertip), combined with a deep neural net-
+work, a form of artiﬁ cial intelligence (AI), to detect diabetes
+(Avram et al., 2020). While not widely adopted, such tools
+could be used for self-administered, low-cost, widespread
+screening. AI is also used in radiology and pathology to
+augment human interpretation of diagnostic (e.g., ocular,
+x-ray, or magnetic resonance imaging) and pathology slide
+images, supporting potentially more accurate and timely
+diagnosis and individualized treatment plans for various
+ca
+
+diagnostic (e.g., ocular,
+x-ray, or magnetic resonance imaging) and pathology slide
+images, supporting potentially more accurate and timely
+diagnosis and individualized treatment plans for various
+cancers and renal disease (Barisoni et al., 2020). Drug re-
+searchers and manufacturers are also leveraging various
+forms of AI for patient recruitment, virtual engagement, and
+literature review, and using the technologies to assist in de-
+tecting and reﬁ ning pharmaceutical targets (Lamberti et al.,
+2019).
+Treatment decisions can be augmented by clinical deci-
+sion support (CDS) systems and enriched with [[concepts/advanced-analytics|advanced
+analytics]]. An editorial in the New England Journal of Medi-
+cine succinctly summarized the challenge: “The complexity
+of medicine now exceeds the capacity of the human mind”
+(Eddy, 1982). While AI-based systems are currently unable
+to discern a grimace, notice sweating, or hear a tremor in
+a patient’s voice—skills at which humans excel—these sys-
+tems offer the unique opportunity to augment clinician per-
+formance by creating order and transforming vast amounts
+of mostly [[concepts/unstructured-data|unstructured data]] into clinically actionable infor-
+mation to support optimal care. This ﬁ eld, although nascent,
+is rapidly advancing. For example, AI has been used to im-
+prove the speed of prediction and diagnosis of sepsis (Goh
+et al., 2021). Integrated with the care delivery workﬂ ow,
+
+> **[Image 1]**: This photograph shows a circular diagram titled "Digital Health Applications" at its center, surrounded by overlapping colored circles representing different health technology areas. The main subject is the interconnected framework of digital health domains, with the setting being a conceptual visual map of healthcare innovations. Colors used include blue, green, yellow, orange, and gray for the various categories like Surgical, Pharmaceuticals, and Telemedicine.
+
+---
+
+## Page 4
+
+conceptual visual map of healthcare innovations. Colors used include blue, green, yellow, orange, and gray for the various categories like Surgical, Pharmaceuticals, and Telemedicine.
+
+---
+
+## Page 4
+
+Page 4
+these technologies could identify patterns, form linkages
+between disparate data sources, and suggest treatment op-
+tions for clinicians to review. In addition, AI-powered CDS
+systems might offer opportunities for improving efﬁ ciency
+and mitigating clinician burnout, another potential down-
+stream beneﬁ t.
+Ensuring Care Continuity
+Even the most sophisticated digital diagnostics will have
+little impact on clinical outcomes if they are implemented in
+a fragmented health care ecosystem. Regulations promul-
+gated by the 21st Century Cures Act Final Rule (Cures Act)
+have the potential to address this shortcoming by promoting
+seamless interoperability and supporting increased control
+for the individual regarding their health data (HealthIT.gov,
+2020). The Cures Act addresses foundational standards, in-
+cluding technical, syntactic, and semantic issues surrounding
+health data interoperability and prioritizes ensuring patients
+have choices when managing their own health data. Further
+complexities associated with a robust trust framework, data
+accuracy, identity matching, and privacy protections of in-
+dividual data managed by noncovered entities will likewise
+be critical to confront.
+Signiﬁ cant progress on interoperability has occurred over
+the past decade with the [[concepts/adoption|implementation]] of foundational
+data standards such as Health Level 7 Fast Healthcare In-
+teroperability Resources (FHIR) (HL7 International, n.d.),
+SNOMED (SNOMED International, n.d.), RxNorm (NLM,
+2022), and the United States Core Data for Interoperability
+(USCDI) (HealthIT.gov, n.d.). Still, the broad interoperability
+of health care data platforms is incomplete in many settings
+due to incomplete record availability, lack of terminology
+standards, and concern about bidirectional incorporation of
+dat
+
+interoperability
+of health care data platforms is incomplete in many settings
+due to incomplete record availability, lack of terminology
+standards, and concern about bidirectional incorporation of
+data between health systems using different EHRs. In a 2019
+study of primary care physicians in high-income countries,
+the Commonwealth Fund (2019) found that just over 50%
+of American primary care physicians surveyed were able to
+electronically exchange data with physicians outside of their
+practice. In addition, since health is not primarily produced
+by health care, interoperability with data outside of EHRs
+may add to a holistic picture of an individual and support
+continuity of care. However, this level of interoperability is
+nascent, as demonstrated by a recent review of data ex-
+change capacity of wearables, which found limited ability
+to transfer data from mobile monitoring systems into medi-
+cal records (Muzney et al., 2019). The power of EHR sys-
+tems to capture and organize clinical data allows for rapid
+cycle learning and organizational agility, but barriers—both
+technical and economic—to transmitting non-native data
+into the EHR limit the comprehensive view of individuals
+and populations needed to transform health care delivery
+and the health system writ large. To facilitate data interop-
+erability, the U.S. health system must expand embedded,
+open-source interoperability beyond nationally regulated
+technologies like EHRs.
+Research has documented the potential for Health Infor-
+mation Exchange (HIE) and interoperability to improve care
+coordination and reduce costs (Walker et al., 2005), and
+will likely also beneﬁ t public health reporting. An example
+of HIE use to support care coordination is the delivery of
+near real-time dashboards to primary care and substance
+use disorder providers about inpatient and emergency de-
+partment admissions and discharges for their patient panels,
+supporting post-discharge care coordination (HealthIT.gov,
+2017). Still, pat
+
+tance
+use disorder providers about inpatient and emergency de-
+partment admissions and discharges for their patient panels,
+supporting post-discharge care coordination (HealthIT.gov,
+2017). Still, patients and providers will struggle to realize
+these beneﬁ ts at scale as the existing reimbursement system
+continues to disincentivize care coordination, which results
+in duplicative service utilization. The ongoing transition to
+value-based payment can support the realignment of ﬁ nan-
+cial incentives and serve as a signiﬁ cant driver for expand-
+ing interoperability (Biel et al., 2019).
+In this regard, banking, which provides ubiquitous, near
+real-time, standardized access to account information glob-
+ally, provides lessons about industry-wide information ex-
+change that might be adopted in health care. The Society for
+Worldwide Interbank Financial Communications (SWIFT)
+established a ﬁ nancial transaction messaging system in the
+1970s with a focus on essential transactions, a strong busi-
+ness case for participation, and an industry-supported over-
+sight organization (Glaser, 2019). The Ofﬁ ce of the National
+Coordinator for Health IT (ONC), through the Trusted Ex-
+change Framework and Common Agreement (TEFCA), has
+made inroads toward this vision with the formal recognition
+of an industry-supported oversight organization through the
+Recognized Coordinating Entity (RCE), which was awarded
+to the Sequoia Project in 2019 (HealthIT.gov, 2022).
+Facilitating Off-Site Patient Management through
+Telemedicine
+Digital tools that collect data and support interventions out-
+side the clinical setting offer meaningful opportunities to
+identify risks and engage patients. Consumer-facing apps
+and clinical monitors that actively or passively collect data
+can also serve as an early warning system for prevention
+and disease management. During the COVID-19 pandem-
+ic, digital [[concepts/contact-tracing|contact tracing]] apps provided patients with no-
+tiﬁ cations about potential exposure to COVID-19. Bey
+
+ly warning system for prevention
+and disease management. During the COVID-19 pandem-
+ic, digital contact tracing apps provided patients with no-
+tiﬁ cations about potential exposure to COVID-19. Beyond
+COVID-19, some tools generate warnings to individuals or
+caregivers regarding changes in environmental risks, such
+as pollen or air pollution alerts, while other platforms gen-
+erate alerts to patients, families, and providers in the event
+of disease exacerbation. Additionally, while not widely ac-
+
+---
+
+## Page 5
+
+Page 5
+ceptable or accessible by all populations, use of remote pa-
+tient monitoring (RPM) tools increased during the COVID-19
+pandemic. RPM enables clinicians to assess symptoms for
+patients at home with mild cases of COVID-19 and observe
+non-COVID-19-related health outcomes in the context of
+daily living for patients with chronic conditions (e.g., Blue-
+tooth scales for patients with congestive heart failure, con-
+nected blood pressure cuffs for patients with hypertension).
+Digital tools have also expanded care delivery for pro-
+viders beyond the hospital or exam room. A 2020 analysis
+found that virtual urgent care visits could reduce the need
+for emergency room care by approximately 20%, and
+20% of all ofﬁ ce care, outpatient, and home [[concepts/health-care|health services]]
+could be delivered virtually or near-virtually (Bestsennyy, et
+al., 2020; Cigna Newsroom, n.d.). Non-acute care visits
+for many conditions were implemented virtually during the
+COVID-19 pandemic to reduce risk of exposure for patients
+and providers. Even with the sharp decline in telehealth in
+2021—after the steep rise associated with COVID-19 in
+2020—a review by a large payer in 2022 supported the
+value of virtual care (Cigna, 2022).
+Even acute care can be delivered outside the health care
+delivery setting, as witnessed during the COVID-19 pan-
+demic when severely ill patients occupied many hospital
+beds (Heller et al., 2020). Virtual intensive care units can
+deliver remote 24/7 monitoring of patie
+
+ting, as witnessed during the COVID-19 pan-
+demic when severely ill patients occupied many hospital
+beds (Heller et al., 2020). Virtual intensive care units can
+deliver remote 24/7 monitoring of patients by intensivists
+who can manage patients in multiple locations, allowing
+patients to get intensive care unit-level care in community
+hospitals.
+Partnering with Individuals to Support Self-Man-
+agement
+Given that most [[concepts/chronic-disease-management|chronic disease management]] occurs out-
+side of the traditional health care setting, partnering with
+individuals so that they can fully engage in their own care
+and meeting people where they are physically and mentally
+is essential to achieving better health outcomes, improving
+[[concepts/quality-of-life|quality of life]], and reducing health care spending (Allegran-
+te et al., 2019). However, meeting individuals on their own
+terms may present multiple challenges to both individuals
+and the delivery system. Basic knowledge gaps about anat-
+omy and physiology are worsened by issues of language
+ﬂ uency, health and reading literacy, numeracy, conﬂ icting
+cultural beliefs, and limitations in cognitive capacity. These
+same challenges may be further exacerbated by poor medi-
+cation tolerance and complex clinical care plans, including
+polytherapy and polypharmacy (Settineri et al., 2019). Ac-
+cess issues, including distance from the delivery system for
+rural residents, lack of transportation, and difﬁ culty taking
+time away from work, all affect attendance at provider visits
+and can result in delays in seeking care. Financial barriers
+force individuals to choose between needed health care
+and medication and other household expenses, can result
+in not taking medicines as prescribed, including pill splitting
+and dose skipping (Kearny et al., 2021). These barriers of-
+ten lead to clinical inertia and are ampliﬁ ed by structural
+racism, furthering health disparities among underresourced
+communities.
+By applying digital tools successfully used in other indus-
+tries, such as consumer-dire
+
+ertia and are ampliﬁ ed by structural
+racism, furthering health disparities among underresourced
+communities.
+By applying digital tools successfully used in other indus-
+tries, such as consumer-directed, preference-based sched-
+uling; personalized recommendations; and regular text
+communications, the health care system may be positioned
+to develop a more robust partnership between individuals,
+families, and providers. Data and digital health tools serve
+as a bonding agent in their shared understanding of the in-
+dividual’s state of health and a shared health management
+plan. Individuals and families have grown accustomed to
+mobile and online tools in other aspects of their lives, such
+as airline booking, car services, and banking. Developing
+a robust partnership between individuals, families, and pro-
+viders requires further adoption of systems that function the
+same way that these other tools do, offering patient-centric,
+easy, and secure two-way communication for appointment
+booking, self-check-in, and feedback surveys. Such tools
+can and should be seamlessly interoperable within health
+systems workﬂ ows. While patient portals support many of
+these functions, adoption among adults in the U.S. is below
+50% (HINTS, 2018). Strategies should acknowledge user
+comfort with technology and offer multiple communication
+modes, including text messaging, audio, and video, de-
+pending on the user preference (Zachrison et al., 2021).
+These approaches also need to consider form and frequen-
+cy of communication to ensure maximum engagement and
+understanding.
+Reducing Error and Waste in the Delivery System
+Extensive research indicates that health care resources are
+inappropriately allocated within the current system. Waste
+has been shown to carry consequences for quality outcomes
+and patient safety (e.g., medical errors and delays) and
+economic efﬁ ciency (e.g., unnecessary spending) (Shrank
+et al., 2019). In the context of safety, since the Institute of
+Medicine’s (IOM)
+
+s
+and patient safety (e.g., medical errors and delays) and
+economic efﬁ ciency (e.g., unnecessary spending) (Shrank
+et al., 2019). In the context of safety, since the Institute of
+Medicine’s (IOM) report titled To Err Is Human: Building a
+Safer Health System was published in 2000, health care
+providers have made progress in reducing harm in hospi-
+tal settings, but that progress varies widely (IOM, 2000).
+Equally troubling is the inability to accurately measure the
+harm associated with the lack of timely, standardized, and
+accurate information movement across systems (Bates and
+Singh, 2018). As identiﬁ ed in a 2010 report from the IOM ti-
+tled The Healthcare Imperative: Lowering Costs and Improv-
+ing Outcomes, disruptive innovation has been foundational
+
+---
+
+## Page 6
+
+Page 6
+across sectors to reduce waste and increase efﬁ ciency, and
+its use as a strategy to address these issues in health care is
+essential (IOM, 2010).
+The digitization of health data has long been considered
+the foundation for patient safety, operational efﬁ ciency,
+and [[concepts/quality-of-care|quality of care]]. It was also a driving force behind the
+[[concepts/health-information-technology|Health Information Technology]] for Economic and Clinical
+Health (HITECH) Act, which incentivized the adoption of
+EHRs (IOM, 2004; HealthIT.gov, 2009). By 2017, 80%
+of ofﬁ ce-based physicians and 96% of non-federal acute
+care hospitals had adopted certiﬁ ed EHRs (Health IT Dash-
+board, 2016). Multiple studies have documented improve-
+ments in care quality (Atasoy et al., 2019; Buntin et al.,
+2011). However, in a recent survey of over 5,000 physi-
+cians across specialties, perceived EHR usability was poor.
+Results showed a “dose-response relationship between EHR
+usability and physician burnout”, which is negatively asso-
+ciated with patient safety (Melnick et al., 2020; Panagioti et
+al., 2018). However, patient safety is improved regardless
+of physician experience (Tanner et al., 2015). In addition,
+ongoing opportunities to better integrate clinical and ad-
+mini
+
+020; Panagioti et
+al., 2018). However, patient safety is improved regardless
+of physician experience (Tanner et al., 2015). In addition,
+ongoing opportunities to better integrate clinical and ad-
+ministrative functions, streamline documentation (e.g., via
+voice technologies), automate quality metrics reporting,
+and embed AI and advanced CDS systems represent mean-
+ingful advancements that EHR vendors are pursuing as these
+platforms mature—either as new functionality within their
+platforms or by connecting to external third-party vendors,
+creating a “both/and” approach to maximizing efﬁ ciency.
+When it is clinically appropriate to address health con-
+cerns without an exam or with good quality video or still
+images, telehealth can reduce delays for specialty consulta-
+tions and primary care, as the constraints of a shared physi-
+cal space for an exam are eliminated. Advanced analytics
+can also reduce waste by helping health care professionals
+work at the top of their licenses. Advanced analytics can
+improve clinical risk stratiﬁ cation, allowing less skilled care
+team members to address the needs of patients who require
+minimal care. Higher skilled care team members are freed
+up to spend additional time with patients with complex med-
+ical needs, resulting in the delivery of the right care, to the
+right patients, at the right time, in the right place, by the right
+clinical team members. Machine learning (ML) and [[concepts/natural-language-processing|natural
+language processing (NLP)]] algorithms have outperformed
+nursing staff and provided comparable levels of accuracy
+to skilled physicians in assessing acuity risk in emergency
+departments (Ivanov et al., 2021). However, caution must
+be used because algorithms can inadvertently perpetuate
+signiﬁ cant bias (Tanner et al., 2015).
+Process automation is another area of opportunity to use
+digital health technology to improve efﬁ ciency in both am-
+bulatory care and inpatient settings. Barcoding has been
+widely used in hospital pharmacies for over a
+
+another area of opportunity to use
+digital health technology to improve efﬁ ciency in both am-
+bulatory care and inpatient settings. Barcoding has been
+widely used in hospital pharmacies for over a decade, re-
+sulting in a reduction in adverse drug events (Boyde and
+Chaffee, 2019). Repetitive tasks such as scheduling, billing,
+capacity coordination, and [[concepts/asset-management|asset management]] are amena-
+ble to automation, optimizing use of system resources and
+creating a frictionless experience for patients. For example,
+health care organizations can emulate the airline industry
+in maximizing automation and self-service functionality in
+scheduling while addressing customer demand, service
+supply, and equipment needs (ONC, 2020).
+Digital Innovation and Population Health
+Figure 1 also identiﬁ es various tools applicable to improving
+population health and drivers of health that are upstream
+from medical care—e.g., geospatial and environmental
+sensors, personal health devices, and knowledge genera-
+tors and integrators. The importance of using digital tools in
+helping to integrate critical social services into care delivery
+has been clearly demonstrated by the nation’s experience
+with COVID-19 and the disproportionate impacts on com-
+munities of color and other economically disadvantaged
+and underresourced populations (Isasi et al., 2021; Health
+IT Dashboard, 2016). Innovations in digital health hold the
+potential to help identify and address many of the barriers to
+achieving the vision of a healthy society. When thoughtfully
+designed, equitably deployed, and effectively used, digital
+health tools have the potential to improve the identiﬁ cation,
+measurement, and modiﬁ cation of the root sources of illness,
+health, and well-being. Without the precise analytic infor-
+mation possible through a robust [[concepts/digital-infrastructure|digital infrastructure]], the
+nation will not be able to accelerate the identiﬁ cation and
+engagement of the causes and consequences of structural
+racism, which plays such a perverse a
+
+hrough a robust digital infrastructure, the
+nation will not be able to accelerate the identiﬁ cation and
+engagement of the causes and consequences of structural
+racism, which plays such a perverse and pervasive role in
+the health disparities of far too many Americans.
+As digital health tools become increasingly sophisti-
+cated and capable of capturing social, behavioral, and
+environmental determinants of health, clinicians and care-
+givers can learn more about the individual in the context
+of their daily lives, including individual preferences, values,
+interactions, and exposures, to deliver targeted preventive
+and acute care and to restore health after illness. This digi-
+tally enabled health ecosystem has the potential to create
+long-term partnerships between individuals and their care
+teams that support [[concepts/health-conceptshabitshabits|healthy behaviors]]. Similarly, if thought-
+fully designed, equitably deployed, and effectively used,
+such digital health applications have the potential to help
+prevent, mitigate, and reduce disparities in access and care
+(Craig et al., 2020). In such a system, health information
+ﬂ ows freely within a trust-enabled and robust security and
+
+---
+
+## Page 7
+
+lp
+prevent, mitigate, and reduce disparities in access and care
+(Craig et al., 2020). In such a system, health information
+ﬂ ows freely within a trust-enabled and robust security and
+
+---
+
+## Page 7
+
+Page 7
+privacy framework across both the health care industry and
+nontraditional commercial entrants into the market.
+Digital Innovation and the [[concepts/social-conceptsdeterminants-of-healthdeterminants-of-health|Social Determinants of
+Health]]
+Kaiser Family Foundation deﬁ nes the social determinants of
+health (SDoH) as “the conditions in which people are born,
+grow, live, work and age that shape health,” with these
+conditions including “socioeconomic status, education,
+neighborhood and physical environment, employment, and
+social support networks, as well as access to health care”
+(Artiga and Hinton, 2018). Although approximately 15% of
+premature deaths are attributed to SDoH, these upstream
+drivers of health have largely been considered out of scope
+and not yet routinely addressed by providers or health care
+systems (McGinnis et al., 2002).
+For digital technology to have a meaningful effect on
+SDoH, information about nonmedical factors and services
+must be better collected and integrated into mobile apps
+and standardized, aggregated, and integrated into EHRs to
+promote trust and ensure secure and private management.
+Digital tools could play a role in screening and identifying
+SDoH factors that impact a patient, alerting the provider to
+discuss them with the patient at the next visit, and connecting
+the patient with relevant community services. While existing
+digital health tools are already capable of supporting the
+collection, exchange, and integration of SDoH to support
+risk stratiﬁ cation and [[concepts/family-engagement|shared care planning]], the beneﬁ ts of
+these tools have been limited by inconsistent use across care
+delivery settings and the signiﬁ cant risk of algorithmic bias
+(Meyer et al., 2020; Lindau, 2019). For example, schedul-
+ing algorithms designed to identify patients who frequently
+miss appointments may both stigmatize people of
+
+ﬁ cant risk of algorithmic bias
+(Meyer et al., 2020; Lindau, 2019). For example, schedul-
+ing algorithms designed to identify patients who frequently
+miss appointments may both stigmatize people of lower so-
+cioeconomic status and distort the real issues. Many of these
+“no shows” cannot afford childcare or to leave work for a
+medical appointment, or they may have health problems
+that cause disability or reduced cognitive function, caus-
+ing them to miss appointments (Murray et al., 2020). Un-
+derstanding and intervening on SDoH and systems factors
+could reduce missed appointments, helping patients to get
+needed care and reducing lost care capacity for the system.
+These issues highlight the need for transparency in data col-
+lection and encoding and the criticality of proactive action
+to mitigate unintended consequences and biases when de-
+veloping algorithms.
+Digital health technologies are also developing new use
+cases to address various environmental factors, including air
+pollution and [[concepts/climate-change|climate change]]. Digital inhaler sensors have
+been used to monitor when and where patients with asthma
+used medications and needed adjustments to treatment
+plans and are associated with a reduction in rescue inhaler
+use, an improvement in symptom-free days for individuals,
+and a reduction in health care resource utilization (Mer-
+chant et al., 2018; Barrett et al., 2013). Furthermore, “ag-
+gregated data on inhaler use, combined with environmental
+data, led to policy recommendations”, a community asthma
+notiﬁ cation system, community-wide improvements in asth-
+ma symptoms, and reductions in asthma-related emergency
+department use (Barrett et al., 2018; Barrett et al., 2013).
+Consumer-facing tools also can provide smartphone alerts
+for heat or air pollution data at the neighborhood level,
+making public health efforts more efﬁ cient. The use of tele-
+health and HIE can also support coordinated patient care
+during [[concepts/severe-weather-events|natural disasters]]. Of course, none of these tools ad-
+dress
+
+rhood level,
+making public health efforts more efﬁ cient. The use of tele-
+health and HIE can also support coordinated patient care
+during natural disasters. Of course, none of these tools ad-
+dress the root causes of these environmental problems—for
+example, a person might be able to know that their drinking
+water contains lead, but the tool cannot assist in solving the
+underlying drinking water problem. These SDoH must be
+addressed at the root level to realize improved health and
+well-being for all.
+Digital Innovation and Health Behavior
+Digital health technologies are also developing new use
+cases to address various environmental factors, including air
+pollution and climate change. Digital inhaler sensors have
+been used to monitor when and where patients with asthma
+used medications and needed adjustments to treatment
+plans and are associated with a reduction in rescue inhaler
+use, an improvement in symptom-free days for individuals,
+and a reduction in health care resource utilization (Mer-
+chant et al., 2018; Barrett et al., 2013). Furthermore, “ag-
+gregated data on inhaler use, combined with environmental
+data, led to policy recommendations”, a community asthma
+notiﬁ cation system, community-wide improvements in asth-
+ma symptoms, and reductions in asthma-related emergency
+department use (Barrett et al., 2018; Barrett et al., 2013).
+Consumer-facing tools also can provide smartphone alerts
+for heat or air pollution data at the neighborhood level,
+making public health efforts more efﬁ cient. The use of tele-
+health and HIE can also support coordinated patient care
+during natural disasters. Of course, none of these tools ad-
+dress the root causes of these environmental problems—for
+example, a person might be able to know that their drinking
+water contains lead, but the tool cannot assist in solving the
+underlying drinking water problem. These SDoH must be
+addressed at the root level to realize improved health and
+well-being for all.
+Although consumer
+
+s lead, but the tool cannot assist in solving the
+underlying drinking water problem. These SDoH must be
+addressed at the root level to realize improved health and
+well-being for all.
+Although consumer demand for interventions that support
+behavior change is high, and successes have been evident
+in areas such as tobacco use and the consumption of foods
+high in saturated fat, the complexity of behavioral interven-
+tions can be vexing. Consider the case of weight manage-
+
+---
+
+## Page 8
+
+Page 8
+ment programs. The overall weight loss market in the U.S. in
+2020 was estimated at $71 billion, yet many programs elicit
+only marginal and temporary changes in weight, with par-
+ticipants often experiencing weight regain (LaRosa, 2020;
+Hall and Kahan, 2018). As such, interest in digital and virtual
+weight loss programs is mounting as an alternative (LaRosa,
+2020). However, while several well-controlled studies have
+demonstrated improved clinical outcomes when incorporat-
+ing digital tools relative to usual care, most applications in
+the consumer marketplace are not supported by evidence,
+nor are they produced by subject matter experts in health
+behavior change (Gordon et al., 2020; Pagoto and Ben-
+nett, 2020; Steinmetz et al., 2020).
+This example illustrates some of the broader challenges
+and opportunities for digital tools to support self-manage-
+ment of individual health behaviors. In their ideal form,
+evidence-based digital health tools that focus on health
+behavior can improve self-awareness, provide on-demand
+health information and education, support improved self-
+efﬁ cacy, and promote [[concepts/accountability|accountability]] with social support
+networks, health coaches, and providers. The resulting data
+can also be analyzed to identify behavioral risk factors that
+contribute to chronic disease, resulting in real-time, person-
+alized feedback and messaging to support health behavior
+change in a way that is more compelling than traditional
+patient education (Shegog et al., 2020; Barrett et al., 20
+
+lting in real-time, person-
+alized feedback and messaging to support health behavior
+change in a way that is more compelling than traditional
+patient education (Shegog et al., 2020; Barrett et al., 2013).
+Similarly, these data can be aggregated at the community
+level to more accurately measure the health behaviors and
+activities of populations, supporting resource allocation and
+data-driven public health decision making at the local level
+(Barrett et al., 2013).
+Digital health tools designed to support adherence to
+treatment plans also present an important opportunity. Con-
+nected self-monitoring tools (e.g., glucometers), wearables,
+digital inhaler sensors, and SMS messages and reminder
+systems have shown promise in patients with a variety of
+conditions, including epilepsy, asthma, chronic obstructive
+pulmonary disease (COPD), diabetes, depression, and hy-
+pertension (De Keyser et al., 2020; Kaye et al., 2020; An-
+derson et al., 2019; Shan et al., 2019; Patel et al., 2013). For
+example, objective, passive data about adherence to asth-
+ma medication treatment plans identiﬁ ed issues with medi-
+cation-taking technique errors and presented an opportu-
+nity for intervention and education (Anderson et al., 2019).
+Interestingly, patients with asthma and COPD who received
+digital support (reminders for missed medication doses and
+education) increased their medication adherence during the
+early months of COVID-19 (Kaye et al., 2020).
+Digital Innovation, Genomics, and Precision
+Health
+Digital technologies are accelerating the “genomics revolu-
+tion”—advances in understanding the health implications of
+structural and functional variations in the human genome.
+These are often discussed in terms of augmented abilities to
+target individual medical interventions more precisely. While
+this is certainly an important likelihood, broader scale ben-
+eﬁ ts in terms of reduced mortality and morbidity are likely
+to result from “precision public health”—the ability to bet
+
+ly. While
+this is certainly an important likelihood, broader scale ben-
+eﬁ ts in terms of reduced mortality and morbidity are likely
+to result from “precision public health”—the ability to better
+identify populations at greater risk from certain character-
+istics or exposures and implement protective interventions.
+Whole genome sequencing and digitally enabled risk
+scores generated by such sequencing will help identify in-
+dividuals and groups at risk for common health conditions
+in their earliest stages. These data can be used to support
+[[concepts/mitigation-strategies|mitigation strategies]] such as behavior change, medication
+use, or early screening to decrease the risk of sequelae from
+a genetic disease or gene variants. Examples of existing
+consumer-facing mobile health apps today draw from sev-
+eral data sources and partnerships, including self-reported
+family history data, laboratory results from personal genet-
+ics companies, and collaboration with providers, payers, or
+employers (Tung et al., 2018). The ongoing integration of
+genetic or genomic data and clinical histories, accelerated
+by emerging AI and ML technologies, increases the feasi-
+bility of leveraging precision medicine into [[entities/clinical-practice|clinical practice]]
+(Luchini et al., 2022). For example, AI is currently used in
+oncology, including FDA-approved AI used in support of
+care for breast, lung, and prostate cancers (Luchini et al.,
+2022). Advanced computational analytics used on such
+datasets could ultimately be employed to deliver near real-
+time feedback to individuals to promote health using a voice
+assistant, much like a digital health coach (Topol, 2019).
+Digital Innovation and the Learning Health
+System
+The application of digital technologies at scale serves as
+the nervous system for the continuously learning health care
+system: “one in which science, informatics, incentives, and
+culture are aligned for continuous improvement, innovation,
+and equity—with [[concepts/best-practices|best practices]] and discovery seamlessly
+embedded in the delivery process, i
+
+in which science, informatics, incentives, and
+culture are aligned for continuous improvement, innovation,
+and equity—with best practices and discovery seamlessly
+embedded in the delivery process, individuals and fami-
+lies active participants in all elements, and new knowledge
+generated as an integral by-product of the delivery experi-
+ence” (NAM, 2020). Digital health will serve a critical role,
+and its promise must be fully leveraged. Effectively applied,
+digital health tools have the potential to catalyze progress
+on each of the key principles for a digitally facilitated learn-
+ing health system, presented below in Box 1.
+
+---
+
+## Page 9
+
+Page 9
+Leveraging Big Data for Knowledge Generation
+Much of the data collected in clinical care or recorded in
+consumer apps are available for further research and learn-
+ing. Currently, the broader application of available health
+data is more likely to be used in service of product devel-
+opment rather than for learning, discovery, or continuous
+improvement of the health of individuals, families, or popu-
+lations. There is an unrealized opportunity to share, aggre-
+gate, and analyze that data in alignment with the goals of a
+learning health system while also protecting and tightening
+the processes and procedures for unwarranted access to
+and use of personal data and inadvertent sharing of sen-
+sitive data, including medical records, via third-party con-
+sumer apps.
+The investment, innovation, and amassing of data pres-
+ent important opportunities to affect not just health and the
+health care delivery system but also knowledge develop-
+ment in a learning health system. If appropriately managed
+and analyzed, datasets that incorporate structured and
+unstructured clinical data, SDoH information, genomics,
+digital phenotype data collected from wearables, and other
+data can make it possible to change baseline understand-
+ings of health and disease (Engelhard et al., 2020; Jain et
+al., 2015). Statistical tools and techniques, inc
+
+llected from wearables, and other
+data can make it possible to change baseline understand-
+ings of health and disease (Engelhard et al., 2020; Jain et
+al., 2015). Statistical tools and techniques, including AI and
+ML, can be used to develop dataset assessment tools and
+to support evolving research designs that meld traditional
+randomized controlled trials (RCTs) with observational stud-
+ies. Similarly, analytical models can be applied across at-
+risk populations to ensure equity in opportunities to create
+health and treat disease. Development of virtual health data
+trusts, with shared governance and individuals controlling
+and contributing their data to support scientiﬁ c discovery,
+present an important opportunity to distribute the costs
+and maximize research output while protecting individual
+agency and privacy (Baker et al., 2016; Ideas for Change,
+2016; MiDATA, n.d.). If successful, this digitally enhanced
+approach to research could allow multiple stakeholders, in-
+cluding professional societies, health care providers, patient
+advocacy groups, individuals, families, legal experts, medi-
+cal administrators, the private sector, and governments, to
+share data, experiences, and research priorities.
+Leveraging Big Data for Population-Level and
+Public Health Insights
+Fully realizing the beneﬁ t of vast datasets with informa-
+tion collected in near real time across the health continuum
+promises to improve population and public health. Some
+noteworthy examples of these public datasets include the
+National Patient-Centered Clinical Research Network
+(PCORnet) (PCORNet, n.d.), the Research Data Assistance
+Center (ResDAC) for CMS data (ResDAC, 2022), the Ob-
+servational Health Data Sciences and Informatics program
+(OHDSI) (OHDSI, 2022). This promise includes the active
+and passive collection of real-time data from patients’ daily
+living activities, gathered in clinical systems and payer sys-
+tems and the analysis of that data to make well-reasoned
+decisions using stan
+
+passive collection of real-time data from patients’ daily
+living activities, gathered in clinical systems and payer sys-
+tems and the analysis of that data to make well-reasoned
+decisions using standard analytics and AI/ML (Singhal et
+al., 2020; Bughin et al., 2017). To apply analytics tools to
+health care will require signiﬁ cant investment; fortunately,
+the Cures Act authorized $1.5 billion over 10 years to
+support the NIH’s All of Us Research Program, which is
+designed to build and make available to researchers a se-
+cure and expansive database, including EHR, survey, and
+biometrics data of one million people to support medical
+discovery (NIH, 2020). While NIH did not explicitly create
+the All of Us program for AI/ML, as a by-product of the
+BOX 1 | Core Principles for Stewards of the Digital Health Infrastructure and Data
+Personal: Discretion on control and use of personal data resides with the individual or their designee.
+Safe: Data stewardship protocols safeguard against use resulting in personal harm.
+Effective: Data are collected and maintained according to validated stewardship protocols.
+Equitable: Data systems are designed to identify and counter bias or disparities.
+Efﬁ cient: Every digital equipment acquisition or service license enhances health system interoperability.
+Accessible: Data are available when and where needed for [[concepts/decision-making|decision-making]].
+Measurable: Digital health performance is continuously monitored for accuracy and interoperability.
+Transparent: Personal data sources and uses are clearly indicated, including timing and context.
+Adaptive: Data strategies are regularly calibrated to ensure continuity, currency, and utility.
+Secure: Data sharing protocols are considered secure by users.
+SOURCE: National Academy of Medicine Leadership Consortium: Collaboration for a Learning Health System. n.d.
+Digital Health Action Collaborative Strategic Framework.
+
+---
+
+## Page 10
+
+secure by users.
+SOURCE: National Academy of Medicine Leadership Consortium: Collaboration for a Learning Health System. n.d.
+Digital Health Action Collaborative Strategic Framework.
+
+---
+
+## Page 10
+
+Page 10
+program, researchers will have access to new datasets and
+platforms upon which they can train their models.
+As health systems, payers, and community organizations
+collaborate and share data to serve speciﬁ c populations,
+public health agencies are positioned to seamlessly collect
+data and apply advanced analytics for health surveillance
+and community intervention. Interoperability links health
+systems, community agencies, geographical information
+systems, and public health agencies to address medical,
+environmental, and SDoH (Buckeridge, 2020). Interoper-
+ability can also create opportunities, via big data and preci-
+sion public health, to tailor interventions to subpopulations,
+which will help ensure equity (Buckeridge, 2020). During
+COVID-19, the public health sector is experiencing an op-
+portunity to test a variety of new precision public health
+tools, including the use of cell phone location data, activ-
+ity trackers, and sewage data to intervene early to identify
+outbreaks and to limit morbidity and mortality (Rasmussen
+et al., 2020).
+Requirements for the Digital Health Infra-
+structure
+Digital technology serves as the nervous system for the
+learning health system and accelerates the identiﬁ cation
+and elimination of wide-scale disparities in individual, lo-
+cal, regional, and global health care. As individuals gain
+more access to their health data via application program-
+ming interfaces (APIs), and as providers use these data for
+critical clinical decision making using AI/ML, it is essential
+to consider several foundational infrastructure requirements.
+Figure 2 presents the essential infrastructure requirements for
+progress in digital health. While there has been some prog-
+ress, opportunities remain in each interrelated component.
+Each area must b
+
+Figure 2 presents the essential infrastructure requirements for
+progress in digital health. While there has been some prog-
+ress, opportunities remain in each interrelated component.
+Each area must be carefully reviewed and addressed to
+fully establish the framework to allow the beneﬁ ts of digital
+health to be fully realized. Of particular interest for priority
+action are individual access and engagement, equity and
+ethics, privacy and identiﬁ er protocols, cybersecurity, data
+quality and reliability, data storage, sharing, and steward-
+ship, interoperability, AI/ML, and workforce.
+Individual Access and Engagement and Equity
+and Ethics
+To ensure digitally facilitated health for all, access to digital
+health writ large, supported by widespread broadband in-
+ternet access, is essential across all economic strata and all
+FIGURE 2 | Infrastructure Requirements for Progress in Digital Health
+SOURCE: National Academy of Medicine. 2019. Digital Health Action Collaborative, NAM Leadership Consortium: Collaboration
+for a Value & Science-Driven Health System.
+
+> **[Image 1]**: This photograph shows a circular diagram centered on "Digital Health Infrastructure" with surrounding colored circles representing different components. The main subject is a framework illustrating key elements of digital health systems. The setting is a visual arrangement where each circle labels a specific area like AI/ML, Cybersecurity, or Data Storage. Colors used include orange, green, blue, yellow, and gray for the surrounding circles.
+
+---
+
+## Page 11
+
+arrangement where each circle labels a specific area like AI/ML, Cybersecurity, or Data Storage. Colors used include orange, green, blue, yellow, and gray for the surrounding circles.
+
+---
+
+## Page 11
+
+Page 11
+regions of the U.S. Unfortunately, while COVID-19 resulted
+in the practical and essential application of telehealth, key
+gaps in consumer access to such technologies—“the [[concepts/digital-divide|digital
+divide]]”—were also exposed.
+Equity in available broadband access will spur growing
+consumerism and engagement in health and health care.
+The public has routine exposure to digitally facilitated con-
+venience, agency, transparency, and privacy based on
+their experience with other industries and now expects the
+same from the health care ecosystem (Accenture, 2019). As
+the understanding of what creates health and well-being
+grows, it is imperative to engage patients, families, and
+communities in the design of new structures, processes, and
+solutions to support health and well-being. It is also essential
+to address systemic racism and institutional health inequities
+and disparities within the U.S. when designing these new
+structures, processes, and solutions (Feagin and Benneﬁ eld,
+2014). These steps are necessary to mitigate the risk that
+new technologies will deepen the existing digital divide or
+perpetuate historical mistrust in the health system.
+In addition, it will be important to translate what is learned
+through the collection of digital health data writ large (e.g.,
+better insight into environmental determinants of health, Bar-
+rett et al., 2013) into local and national policies to make
+these learnings applicable at the individual and population
+level. These improved policies should, in turn, translate into
+community improvements (e.g., urban planning decisions
+about not placing schools next to freeways, informing na-
+tional air quality standards with research into the associa-
+tion between air pollutants and respiratory symptoms) to im-
+prove the health of those who liv
+
+cing schools next to freeways, informing na-
+tional air quality standards with research into the associa-
+tion between air pollutants and respiratory symptoms) to im-
+prove the health of those who live in that community.
+Privacy and Identiﬁ er Protocols
+The opportunity to share, aggregate, and analyze health
+data to improve individual health and to advance the learn-
+ing health system is signiﬁ cant, as is the risk of loss of privacy
+for individuals sharing their most sensitive data via third-par-
+ty consumer apps. Consumers have a limited but growing
+understanding of the risks (including loss of privacy) and
+beneﬁ ts of sharing their health data and express a range
+of views about sharing health information. For example, a
+2019 focus group on consumers’ perception of interoper-
+ability found that “participants overwhelmingly supported
+greater access to data both for health care providers and
+for themselves” (The Pew Charitable Trusts, 2020).
+In the intervening decades since the enactment of the
+[[concepts/hipaa|Health Insurance Portability and Accountability Act]] of 1996
+(HIPAA), health data systems have grown exponentially. A
+new industry of health-related applications was launched,
+giving individuals the ability to readily share their most pri-
+vate data with a variety of health sector and commercial
+actors. Some apps serve as a core communication device
+between individuals and their physicians and sit squarely
+within HIPAA. In contrast, other tools and vendors are un-
+regulated by HIPAA, creating uneven protection and confu-
+sion for consumers. The expansion of HIPAA to redeﬁ ne and
+protect health information outside of covered entities could
+mitigate risks to individuals.
+Another critical area requiring progress in support of
+digitally facilitated health is accurately matching individu-
+als across systems (The Pew Charitable Trusts, 2018). A
+unique national patient identiﬁ er was envisioned as a foun-
+dational element of HIPAA, but privacy and security con-
+cerns
+
+atching individu-
+als across systems (The Pew Charitable Trusts, 2018). A
+unique national patient identiﬁ er was envisioned as a foun-
+dational element of HIPAA, but privacy and security con-
+cerns prevented the enactment of necessary regulatory ac-
+tion. Promulgating such regulations remains a valuable aim
+to support efﬁ cient, accurate matching. In 2021, the ONC
+advanced efforts to accurately match patient data across
+systems with Project US@, which was established “to de-
+velop a uniﬁ ed, cross-standards, health care industry-wide
+speciﬁ cation for representing patient addresses to improve
+patient matching” (HHS, 2021). Correctly matching an in-
+dividual’s data across organizations (with sufﬁ cient gold
+standard matches that allow for appropriate algorithm de-
+velopment) remains an essential component for the learning
+health system to support the right care for the right person
+today and to support the use of AI and research to ensure
+the best outcomes for tomorrow.
+Cybersecurity
+Cybersecurity and privacy concerns are major obstacles to
+digital health adoption, continue to erode patient trust, and
+reinforce health systems’ reluctance to share data. Psycho-
+logical resistance, the risk of ubiquity of data, consequences
+of a breach, and patchwork of local and national privacy
+protections—or lack thereof—have created barriers to the
+use of pioneering, forward-looking digital health tools, and
+as such, cybersecurity must not be an afterthought.
+These critical challenges require technologic, governance,
+and legal protocols. A public-private partnership is neces-
+sary to develop a superstructure framework to ensure the
+safety, security, and privacy of digital health architecture.
+As noted earlier, the cybersecurity framework produced by
+the National Institute of Standards and Technology (NIST)
+provides such guidance (NIST, 2018). Transparency and
+consent for consumers and patients regarding data shar-
+ing, agency, and privacy within and across pla
+
+nstitute of Standards and Technology (NIST)
+provides such guidance (NIST, 2018). Transparency and
+consent for consumers and patients regarding data shar-
+ing, agency, and privacy within and across platforms and
+stakeholders—including those not covered by HIPAA—must
+be simpliﬁ ed and standardized, including understandable
+consent forms and the extension of HIPAA protections to
+currently noncovered entities like third-party app vendors.
+In addition, privacy and security risks with big data and AI
+require special attention to avoid intentional corruption of
+
+---
+
+## Page 12
+
+Page 12
+AI/ML training datasets (training data poisoning), use of AI
+by attackers, or anti-privacy designs in digital health (Hartz-
+og, 2018).
+Data Quality and Reliability, Storage, and Stew-
+ardship
+Foundational to digital health, the standards and curation
+protocols for data and information (e.g., Findability, Acces-
+sibility, Interoperability, and Reusability [FAIR] principles),
+while best-practice, are not required by regulation. How-
+ever, such standards and protocols are required to achieve
+uniform value between and among stakeholders. Data stan-
+dards and stewardship guidelines and national cooperation
+are critical, while simultaneous attention must be paid to
+“economic, legal, philosophical, and practical issues” relat-
+ing to health data (NASEM, 2020). In principle, the indi-
+vidual, the source of health data, controls access to and use
+of the data derived from their health care and interaction
+with digital platforms. In practice, the organization collecting
+and managing the data has differing custody and control of
+the data, depending on the nature of the individual’s data
+and regulations to which the data’s collector and custodian
+is subjected. Differences among organizations concerning
+“data access, control, and monetization” limit the potential
+of digital health, and expanding structures for cooperation
+and exchange are essential (NASEM, 2020).
+The availability of pa
+
+concerning
+“data access, control, and monetization” limit the potential
+of digital health, and expanding structures for cooperation
+and exchange are essential (NASEM, 2020).
+The availability of patient portals in most EHR systems and
+consumer-facing digital health tools and the data associated
+with these applications represent a meaningful opportunity
+to improve patient care. However, signiﬁ cant challenges,
+including the digital divide, issues of systemic racism, data
+curation, integration into the care setting, and data sharing
+for research, impede progress toward realizing improved
+patient care.
+Further, the strong drive to innovate and rapidly market
+mHealth tools has led to product development outpacing
+the capacity of regulators to establish standards and com-
+municate clear guidance to various stakeholders, including
+consumers and payers. These unclear standards and lack of
+regulatory guidance and oversight have created a market-
+place where promising digital health solutions that provide
+superior quality, impact, and value are difﬁ cult to distinguish
+from poor quality innovations and work to the disadvantage
+of rigorously studied digital health products . For example,
+emerging scientiﬁ c evidence indicates that some RPM de-
+vices can predict ﬁ ve-year mortality in adults between 50
+and 85 years and empower patients to better manage their
+health and participate in health care (Halamka and Cerrato,
+2020). Clear standards and widespread rigorous review of
+innovations, including the evaluation of technical design,
+clinical value, and usability, could increase conﬁ dence in
+and meaningful adoption of new consumer-facing digital
+health tools.
+Finally, decisions will need to be made about how data
+are stored in cloud-based systems to advance the com-
+mon good. Virtual data repositories must be structured and
+controlled to protect the integrity and privacy of the data
+through all aspects of [[concepts/data-management|data management]] - acquisition, stor-
+age, access, maintenance
+
+good. Virtual data repositories must be structured and
+controlled to protect the integrity and privacy of the data
+through all aspects of data management - acquisition, stor-
+age, access, maintenance and release. (NASEM, 2020) Si-
+multaneously, computing power should migrate to the cloud
+to support this future vision, as the cloud has both sophisti-
+cated security and economies of scale. Cloud-based com-
+puting will require a paradigm shift for organizations with
+on-premises systems.
+Interoperability
+Through the work of ONC, data and interoperability stan-
+dards have grown increasingly sophisticated over the past
+decade. While more work is needed, early progress with
+HIEs, APIs, and EHR integration has yielded improvements in
+care coordination, and recent efforts during the COVID-19
+pandemic demonstrated the capacity of HIEs to deliver
+value by generating public health reporting (Dixon et al.,
+2021).
+In addition, interoperability standards need to extend be-
+yond the current focus on EHRs. Existing interoperability of
+health care data systems neither adequately supports op-
+timal longitudinal care delivery nor advances the nation’s
+health needs. The COVID-19 pandemic illuminated the
+needs and opportunities for digital health and transforma-
+tive preparedness and response capacity. The rapid pace
+of the pandemic’s spread emphasized the need for a rapid
+learning system that relies on capturing, organizing, sharing,
+and analyzing large amounts of data digitally across public
+health, research, and clinical systems. An effective response
+to public health crises is highly dependent on interoperable
+data, without which there is an inability to understand what
+is needed in terms of resources and capacity and to under-
+stand the impact of interventions. While data was critical for
+forecasting and coordination, its collection, sharing, and ag-
+gregation were, at times, chaotic and burdensome for clini-
+cians and administrators.
+The post-COVID-19 era can help ensure the i
+
+cal for
+forecasting and coordination, its collection, sharing, and ag-
+gregation were, at times, chaotic and burdensome for clini-
+cians and administrators.
+The post-COVID-19 era can help ensure the interoper-
+ability of all mediums of digital recordkeeping used to sup-
+port health and deliver health care services, including labs,
+certiﬁ ed EHRs, home-grown EHRs, digital devices, consumer
+electronics with health features, and databases to support
+research and public health. Before the pandemic, the Cen-
+ters for Disease Control and Prevention (CDC) had launched
+a data modernization initiative to undergird disease surveil-
+lance systems. The Coronavirus Aid, Relief, and Economic
+Security (CARES) Act allocated $500 million to the CDC
+
+---
+
+## Page 13
+
+Page 13
+to implement a “modern, interoperable, and real-time pub-
+lic health data and surveillance systems that will protect the
+American public” (CDC, 2020).
+Artiﬁ cial Intelligence and Machine Learning
+As the U.S. moves to value-based payment models, trans-
+parent and advanced analytics are needed to calculate
+[[concepts/health-risk|population risk]], the foundation upon which medical budgets
+are established in contracts between payers and providers.
+AI-driven [[concepts/predictive-modeling|predictive modeling]] and other sophisticated statis-
+tical techniques can be used to identify subpopulations for
+intense care management to prevent inappropriate emer-
+gency room use or early intervention for an acute worsen-
+ing event to reduce hospital admissions. For example, in the
+inpatient environment, AI has been used to identify patients
+at risk of decompensation using data collected in the back-
+ground during clinical care (Lin et al., 2019). A recent lit-
+erature review of AI algorithms for sepsis models found the
+models to be highly predictive but noted several issues with
+algorithmic standards (Deng et al., 2021). As digital health
+tools incorporate increasingly disparate data into predictive
+models using various AI techniques, standard outcome and
+data deﬁ nitions,
+
+algorithmic standards (Deng et al., 2021). As digital health
+tools incorporate increasingly disparate data into predictive
+models using various AI techniques, standard outcome and
+data deﬁ nitions, bias in training datasets and ﬁ nal models,
+and frequently updated algorithms must be considered.
+Harnessing AI will depend on coherent data architecture
+and diverse training datasets, which are large, sampled
+adequately, and represent subgroups adequately (e.g., by
+gender, race, age, socioeconomic status). The [[concepts/fda|Food and
+Drug Administration]] (FDA) has released guiding principles
+for “Good Machine Learning Practice for Medical Device
+Development,” which are practical and should be consid-
+ered when embarking upon [[concepts/knowledge-acquisition|model development]] (FDA, n.d.).
+The [[concepts/regulatory-framework|regulatory framework]] for AI as a medical device is na-
+scent and must address certiﬁ cation of constantly changing
+algorithms and maintenance of accountability of vendors
+to ensure reliable and valid processes. There are alterna-
+tive ways to regulate AI, including principles and standards
+developed by multi-stakeholder collaboration that can cre-
+ate adaptable standards and guidelines. Components of
+the European Union’s proposed rules governing AI might
+be considered in the U.S. (EC, 2021). Additional standards
+to consider include the International Medical Device Regu-
+lators Forum “Software as a Medical Device (SaMD): Ap-
+plication of Quality Management System,” FDA Center for
+Devices and Radiological Health “Software as a Medical
+Device (SaMD): Clinical Evaluation Guidance for Industry,”
+and “Artiﬁ cial Intelligence/Machine Learning (AI/ML)-
+Based Software as a Medical Device (SaMD) Action Plan”
+(IMDRF, 2015; IMDRF, 2017; FDA, 2021). These strategies
+could work in tandem with regulations updated for rapidly
+changing capacities.
+Workforce
+To support digitally enabled health in a learning health sys-
+tem, the workforce of the future will require a comprehen-
+sive set of skills that are currently rarely se
+
+changing capacities.
+Workforce
+To support digitally enabled health in a learning health sys-
+tem, the workforce of the future will require a comprehen-
+sive set of skills that are currently rarely seen. Besides basic
+competency on core organizational applications (e.g., EHR
+functionality), clinicians, health system staff and manage-
+ment, and vendors/innovators will all require at least basic
+or conceptual knowledge of data management (collection,
+storing, normalizing), interoperability, basic statistics and
+data science, data governance and collaboration, ethics,
+process improvement, and implementation science. Finally,
+diversity training is critical to all engaged in supporting digi-
+tally facilitated health in the learning health system and must
+mitigate disparities and build awareness among all parties—
+especially those individuals producing AI algorithms—to the
+consequences of bias for [[concepts/vulnerable-populations|vulnerable populations]].
+The technical workforce of the future will also need exper-
+tise in user-centered design, which seeks to involve end users
+throughout the product development life cycle. The earliest
+digital health care applications did not incorporate these
+principles, and as such, use cases were limited to the auto-
+mation of paper processes rather than the reimagination of
+care delivery and payment. This issue remains a problem to-
+day, as evidenced by burnout and frustration among provid-
+ers using EHRs (Melnick et al., 2020). In seeking to achieve
+better health, better care quality, lower costs, and greater
+satisfaction among individuals and providers, user-centered
+design will be an essential ingredient of any infrastructure
+strategy. Particular attention to culturally appropriate design
+and addressing the needs of historically underrepresented
+populations has shown early positive effects when deliver-
+ing interventions to populations in need and is another criti-
+cal issue when ensuring that unintentional bias does not fur-
+ther the digital divide (Schueller et
+
+early positive effects when deliver-
+ing interventions to populations in need and is another criti-
+cal issue when ensuring that unintentional bias does not fur-
+ther the digital divide (Schueller et al., 2019).
+Stewarding Digital Innovation for Our Health
+Futures
+To achieve the full potential of digital health, the health care
+industry and governmental leaders must collaborate, coop-
+erate, and develop shared governance, creating a uniﬁ ed
+digital health system architecture from independently func-
+tioning infrastructure building blocks.
+Key priorities must be identiﬁ ed and pursued within both
+the environmental and the technical contexts to achieve
+the full potential of digital health. The key priorities in the
+environmental context include focusing on the individual,
+embedding equity and transparency as ﬁ rst principles, re-
+forming health system payments in support of outcomes and
+value, and nurturing a learning health system ethos. From
+the technical perspective, the priorities include establishing
+
+---
+
+## Page 14
+
+re-
+forming health system payments in support of outcomes and
+value, and nurturing a learning health system ethos. From
+the technical perspective, the priorities include establishing
+
+---
+
+## Page 14
+
+Page 14
+seamless system interoperability, ensuring cybersecurity,
+and expanding algorithm validation and real-world testing.
+Focusing on the Individual
+Fully engaging individuals in their health and well-being
+through digital health, responding to public demand for
+participation in the growing digital health ecosystem, and
+balancing demand for consistent, transparent protections
+for health data within and outside of the health care system
+is a priority in achieving a fully realized future for digital
+health. Health data are intensely personal, and uninten-
+tional or nefarious exposure of that data has the potential
+to upend an individual’s life. Capturing the full potential of
+digital health will require broad conﬁ dence in health sys-
+tems and commercial ventures to protect the individual from
+negative outcomes.
+Transparent stewardship standards are needed to ensure
+individual agency in using their data. A critical ﬁ rst step in
+building trust in health data governance is a public dialogue
+about digital health—bringing together stakeholders into the
+policy process to address individual rights regarding data
+sharing, issues of consent, transparency, secondary uses of
+data, common patient identiﬁ ers, consideration of health
+data as a public good, and regulation of AI/ML. These dia-
+logues will build comfort levels and demands for expanded
+applications while also maintaining safeguards against
+abuse and unintended consequences.
+Central to the critical priorities for fully actualized digital
+health is the need to promote a sector-wide culture of trans-
+parency and truthfulness without fear of retribution. Similar
+to how To Err Is Human called upon the health care indus-
+try to acknowledge where their practices were worsening
+health, a critical next step in adv
+
+truthfulness without fear of retribution. Similar
+to how To Err Is Human called upon the health care indus-
+try to acknowledge where their practices were worsening
+health, a critical next step in advancing digital health is to
+take deﬁ nitive action to ensure that people feel comfortable
+reporting errors without fear of punitive actions (Shrank et
+al., 2019).
+Beyond individual agency over health data, engaging
+consumers in their own health and health care via digital
+platforms will require both systems developers and health
+system leaders to include the customer’s voice in the devel-
+opment, execution and evaluation of digital health tools and
+platforms. A model for patient and family engagement in
+digital health initiatives is in development in Canada and
+could serve as a starting point for advancing a model in the
+U.S. (Shen et al., 2021).
+Embedding Equity and Transparency as First Prin-
+ciples
+The rapid development and application of digital health is
+also accompanied by the need for vigilance on equity and
+equality issues that include availability and access to the
+beneﬁ ts of digital health, racial bias in AI, and misuse of
+personal information in discriminatory practices. For digi-
+tal health to improve health and well-being, a data-centric
+and patient-centric approach to developing and deploy-
+ing these tools is essential, and data must reﬂ ect the diverse
+communities and populations across the U.S. Here again,
+the health system, researchers, and commercial ventures
+must address issues of mistrust with transparent, account-
+able, and unbiased protections so that the beneﬁ ts of digital
+health are shared equally across society.
+Reforming Health System Payments in Support of
+Outcomes and Value
+COVID-19 has provided a further reminder of the systemic
+shortcomings of fee-for-service reimbursement, renew-
+ing the impetus for restructuring health care ﬁ nancing in
+America. Given the tremendous uptake of platforms such as
+telehealth and RPM during the C
+
+tcomings of fee-for-service reimbursement, renew-
+ing the impetus for restructuring health care ﬁ nancing in
+America. Given the tremendous uptake of platforms such as
+telehealth and RPM during the COVID-19 pandemic, forth-
+coming payment reforms must account for the role of digital
+health writ large in driving delivery system transformation.
+Policy makers will also need to address concerns that ex-
+tending digital technologies will increase costs and the risk
+of fraud and abuse or otherwise negatively impact quality
+or provider-patient engagement.
+Furthermore, the infrastructure improvements required to
+advance the digital functions of a learning health system
+(e.g., population health management, data and analytics
+for risk stratiﬁ cation) are often unfunded activities that would
+beneﬁ t from additional incentives and investments such as
+those that accompanied HITECH.
+The ﬁ nancial beneﬁ ts of payer and provider organizations
+must align with the health beneﬁ ts of digital tools. This align-
+ment will require data sharing from industry, evaluations
+from academia and regulators, and collaboration across
+sectors to develop progressive payment structures across
+payers that allow ﬂ exibility for innovation. The path forward
+for value-based payment will therefore require a renewed
+commitment to building trust and collaboration and aligning
+incentives to balance the drive to innovate with stewardship
+of cost, quality, outcomes, and safety.
+Nurturing a Learning Health System Ethos
+The vision of digitally facilitated health depends on a con-
+tinuously learning health system and a dramatically short-
+ened interval between evidence generation, deployment to
+the ﬁ eld, and incorporation into standard practice. There is
+also a need to use real-world data (from wearables to am-
+bulatory care to robotics) to generate real-world evidence
+that complements the results of randomized controlled tri-
+als, which often suffer from limited racial or socioeconomic
+diversity
+
+les to am-
+bulatory care to robotics) to generate real-world evidence
+that complements the results of randomized controlled tri-
+als, which often suffer from limited racial or socioeconomic
+diversity in patient recruitment. Rapid cycle learning must
+
+---
+
+## Page 15
+
+Page 15
+also be employed, as it will enable the necessary organiza-
+tional agility to respond to an accelerated rate and nature
+of change that has become the norm.
+Digital health tools must be well integrated into the health
+care delivery system to enable the continuously learning
+health system. With expanded data assets and improved in-
+teroperability, the delivery system has an opportunity to rei-
+magine and recreate a care system that is culturally attuned,
+personalized, holistic, and comprehensive—one unlike
+our current system, which consists of specialty, sector, and
+system silos. New care models can be developed with an
+understanding of disease and digital phenotypes and en-
+virotypes that will each have different treatment responses.
+Advanced analytics are needed to create cohorts of similar
+patients for more effective population health management
+to address the high prevalence of chronic disease and cre-
+ate a feedback loop regarding outcomes and evidence-
+based treatment in the care delivery system.
+Establishing Seamless System Interoperability
+Seamless connectivity and communication among health
+care-related devices are essential prerequisites for promot-
+ing optimal health. Incompatible interfaces, corrupted data
+written between systems, or mismatched patient data have
+the potential to have dire consequences, requiring collec-
+tive action to ensure adherence to standards to protect [[concepts/data-conceptsintegrityintegrity|data
+integrity]]. Technological advancement and national policies
+have made possible the vision for a digital infrastructure
+that can facilitate seamless interfaces and real-time interop-
+erability of devices and data streams. Released in March
+2020, the Cures Act ﬁ nal rules set forth penalties for infor-
+mation
+
+tructure
+that can facilitate seamless interfaces and real-time interop-
+erability of devices and data streams. Released in March
+2020, the Cures Act ﬁ nal rules set forth penalties for infor-
+mation blocking and expanded the access of individuals to
+their health records by leveraging the FHIR speciﬁ cations.
+Such standards allow information to be shared and pro-
+cessed consistently. In addition, there are several industry-
+led initiatives, such as the Integrating Healthcare Enterprise,
+Argonaut Project, and others, aimed at promoting seamless
+data exchange (IHE International, 2021; USF Morsani Col-
+lege of Medicine, 2021). As a promising indicator, many
+health systems have aligned organizational priorities to-
+ward interoperability objectives.
+Nonetheless, a great deal of work remains to achieve full
+system interoperability, as semantic interoperability is lim-
+ited. Progress is uneven across the industry, with some health
+systems being pioneers in real-time data sharing while oth-
+ers are lagging. Moreover, interoperability continues to be
+stunted by the systemic misalignment of incentives, competi-
+tive forces, and lack of coordination.
+Ensuring Cybersecurity
+The rapidly evolving landscape of cyberattacks highlights
+the urgent need for collaboration across the government,
+health organizations, and consumer-facing vendors to de-
+velop consensus on security protocols and upgrade secu-
+rity infrastructure. Existing approaches such as multi-factor
+[[concepts/authentication|authentication]], intrusion detection monitoring, etc., must be
+employed as we explore more advanced strategies, such
+as adopting blockchain technologies to share immutable re-
+cords of transactions among network participants. Places to
+start could be expansion of HIPAA, national application of
+the California Consumer Protection Act, and a comprehen-
+sive privacy regime similar to the European Union’s Gen-
+eral Data Protection Regulation to protect all types of data
+deemed essential for health improvement.
+Expanding Algo
+
+on Act, and a comprehen-
+sive privacy regime similar to the European Union’s Gen-
+eral Data Protection Regulation to protect all types of data
+deemed essential for health improvement.
+Expanding Algorithm Validation and Real-World
+Testing
+There is a clear need to invest in the capacity and coopera-
+tion necessary to advance data science and AI. AI/ML and
+deep learning that apply transparent algorithms and deci-
+sion rule architecture to large, diverse databases present the
+opportunity to develop increasingly precise insights for indi-
+viduals and populations. Critical issues include explicit and
+implicit bias in the development and application of mod-
+eling, visualization, explainability, validity, and regulation
+(The Lancet Digital Health, 2019; Buolamwini and Gebru,
+2018). A regulatory framework must address certiﬁ cation of
+constantly changing algorithms and must hold vendors ac-
+countable for valid and reliable processes and must include
+codes of conduct and the development of “data science
+tools, …pathways, agreements, and protocols for estab-
+lishing curated virtual health data trusts” (NASEM, 2020).
+The FDA’s AI/ML-based Software as a Medical Device
+(SaMD) Action Plan proposes such a framework and shares
+valuable stakeholder feedback (FDA, 2021).
+The capacity to advance data science and AI is depen-
+dent on a highly skilled digital health workforce, and “the
+training challenge for leveraging digital health is vast—in
+health care, public health, and biomedical science” (NAS-
+EM, 2020). In addition, as AI/ML is applied to CDS tools, it
+is essential to address unintended bias in algorithm creation.
+Tools designed for the clinical system and providers can
+be evaluated on their impacts on health outcomes and costs,
+as well as their impact on both patient and provider satisfac-
+tion. Real-world testing across unique health systems is re-
+quired to understand impacts on usability, clinical workﬂ ow,
+provider burden, and staff time requirements tha
+
+ent and provider satisfac-
+tion. Real-world testing across unique health systems is re-
+quired to understand impacts on usability, clinical workﬂ ow,
+provider burden, and staff time requirements that beneﬁ t
+providers and patients. While time consuming, these pilots
+are useful and must be tied to scaling opportunities if suc-
+
+---
+
+## Page 16
+
+Page 16
+cessful. When relevant, testing of devices and AI-supported
+CDS must achieve FDA clearance.
+While the availability of digital health tools and associat-
+ed data sharing has better positioned America to face CO-
+VID-19 and harness opportunities for long-term prepared-
+ness and system resiliency, limitations such as the ability to
+aggregate data have emerged. The full potential beneﬁ ts
+of these tools has not been realized, and the adoption and
+application of digital health remains uneven and subject to
+signiﬁ cant structural, technical, social, geographic, political,
+and economic impediments, limiting the nation’s ability to be
+as nimble as needed in such crisis.
+Priority Near-Term Actions
+The progress of digital technologies writ large is undisputed
+and can be observed in the millions of enthusiastic viewers
+who use streaming video services; the countless customers
+who shop online; and the growing number of consumers,
+patients, and clinicians who are embracing mobile health
+apps, AI-enabled diagnostic aids, and many other CDS
+tools. However, while the predictive analytics used to sug-
+gest a person’s next favorite movie may be similar to the
+analytics used to suggest a medical diagnosis or treatment
+option, one key difference remains: when a streaming ser-
+vice recommends a new movie, viewers may ﬁ nd it helpful,
+annoying, or even amusing—not life threatening. When al-
+gorithms are used to assist in the diagnosis of diabetic reti-
+nopathy or the recommendation of a therapeutic approach
+to sepsis, the stakes are much higher (Lin et al., 2019). To
+fully realize the goal of health and well-being for every
+
+gnosis of diabetic reti-
+nopathy or the recommendation of a therapeutic approach
+to sepsis, the stakes are much higher (Lin et al., 2019). To
+fully realize the goal of health and well-being for every indi-
+vidual, these concerns must be considered as all stakehold-
+ers in the health care ecosystem make intense and sustained
+efforts to improve the capabilities of the health care deliv-
+ery system, impact SDoH, ensure equal beneﬁ t from digital
+health, and establish an overarching architecture and gov-
+ernance framework that engages the public.
+ONC has made signiﬁ cant inroads toward an overarch-
+ing digital health blueprint for fully enabling digital health.
+Augmented by broader authority, continued progress on in-
+teragency collaboration, and robust public-private partner-
+ships, this progress will ensure a digital health superstructure
+that:
+• ensures equitable and ethical use of data;
+• supports the collection, storage, protection, and
+seamless sharing of accurate datasets and gener-
+ated insights in near-real time;
+• ensures the curation of that data into actionable intel-
+ligence; and
+• enables transformative advances in medical care
+and patient safety based on the actionable intelli-
+gence generated.
+Below is a sampling of speciﬁ c, actionable items for consid-
+eration within this national blueprint, with speciﬁ c reference
+to the key priorities identiﬁ ed above.
+• A multi-stakeholder panel should be convened to
+develop recommendations to meaningfully engage
+the diverse individual consumers of health care in all
+health care sectors. This panel should follow the ad-
+age “nothing about me without me” to ensure the pri-
+orities of focusing on the individual and embedding
+equity and transparency as a ﬁ rst principle.
+• A multi-stakeholder panel should be convened to
+establish use cases and support the development of
+guidelines for applications laboratories to advance
+the learning health system ethos and expand algo-
+rithm validation and
+
+nel should be convened to
+establish use cases and support the development of
+guidelines for applications laboratories to advance
+the learning health system ethos and expand algo-
+rithm validation and real-world testing.
+• Congress should promulgate rational, right-sized,
+risk-based regulation, standards, and frameworks
+to enable the seamless ﬂ ow of data while protect-
+ing privacy and ensuring transparency and account-
+ability to advance system interoperability and cyber-
+security, as well as focusing on the individual and
+expanding ethical and effective algorithm develop-
+ment, validation and real-world testing.
+• ONC should develop and implement a governance
+infrastructure and [[concepts/ai-policy|policy framework]] regarding data,
+virtual health data trusts, privacy, and regulations to
+advance focus on the individual, seamless system
+interoperability, and cybersecurity, working collab-
+oratively with industry to ensure broad coverage of
+these principles.
+• CMS should lead the effort to ensure sustainable
+payment coverage to ensure equal access to digital
+health tools for all individuals and providers, regard-
+less of private versus public payer source. In addi-
+tion, CMS should signiﬁ cantly accelerate the move to
+value-based payments to support outcomes, innova-
+tion, and aligned incentives.
+• ONC should ensure the timely, full implementation of
+standards of structure, coding, security, and common
+APIs, as these standards are foundational for most
+progress on digital health.
+Envisioning and achieving a seamless, healthier future
+through digital innovation will require a deeper investment
+in evidence-based research, more clinical and ﬁ eld studies,
+and commitment from diverse stakeholders. But the poten-
+tial for rewards is enormous. Validated information, curated
+across the health data continuum and easily shared, can de-
+liver insight at the point of care, easing provider burden and
+augmenting [[concepts/clinical-reasoning|clinical reasoning]] skills. An “[[concepts/internet-of-things|Internet of Things]]”
+in health care serves
+
+health data continuum and easily shared, can de-
+liver insight at the point of care, easing provider burden and
+augmenting clinical [[concepts/reasoning-skills|reasoning skills]]. An “Internet of Things”
+in health care serves the public’s need for accurate health
+
+---
+
+## Page 17
+
+Page 17
+advice, and a digital health ecosystem that provides high-
+quality, personalized, equitable care to all who need it is
+achievable and worthy of our best individual and collective
+efforts.
+References
+1.
+Accenture. 2019. Today’s consumers reveal the future
+of healthcare. Available at: https://www.accenture.
+com/us-en/insights/health/todays-consumers-re-
+veal-future-healthcare (accessed January 26, 2022).
+2. Allegrante, J. P., M. T. Wells, and J. C. Peterson. 2019.
+Interventions to Support Behavioral Self-management
+of Chronic Diseases. Annual Review of Public Health
+40:127-146. https://doi.org/10.1146/annurev-publ-
+health-040218-044008.
+3. Anderson, W. C., R. Gondalia, H. E. Hoch, L. Kaye,
+S. J. Szeﬂ er, and D. A. Stempel. 2019. Screening for
+inhalation technique errors with electronic medica-
+tion monitors. Journal of Allergy and Clinical immu-
+nology: In Practice 7(6):2065-2067. https://doi.
+org/10.1016/j.jaip.2019.02.006.
+4. Artiga, S., and E. Hinton. 2018. Beyond Health Care:
+The Role of Social Determinants in Promoting Health
+and Health Equity. Available at: https://www.kff.org/
+racial-equity-and-health-policy/issue-brief/beyond-
+health-care-the-role-of-social-determinants-in-pro-
+moting-health-and-health-equity/ (accessed October
+5, 2020).
+5. Atasoy, H., B. N. Greenwood, and J. S. McCullough.
+2019. The Digitization of Patient Care: A Review of the
+Effects of Electronic Health Records on Health Care
+Quality and Utilization. Annual Review of Public Health
+40:487-500.
+https://doi.org/10.1146/annurev-
+publhealth-040218-04420.
+6. Avram, R., J. E. Olgin, P. Kuhar, J. W. Hughes, G. M.
+Marcus. M. J. Pletcher, K. Aschbacher, and G. H. Ti-
+son. 2020. A digital biomarker of diabetes from
+smartphone-based vas
+
+lhealth-040218-04420.
+6. Avram, R., J. E. Olgin, P. Kuhar, J. W. Hughes, G. M.
+Marcus. M. J. Pletcher, K. Aschbacher, and G. H. Ti-
+son. 2020. A digital biomarker of diabetes from
+smartphone-based vascular signals. Nature Medicine
+26:1576-1582.
+https://doi.org/10.1038/s41591-
+020-1010-5.
+7.
+Baker, D. B., J. Kaye, and S. F. Terry. 2016. Privacy,
+Fairness, and Respect for Individuals. eGEMS 4(2):7.
+https://doi.org/10.13063/2327-9214.1207.
+8. Barisoni, L., K. J. Lafata, S. M. Hewitt, A. Madabhushi,
+and U. G. J. Balis. 2020. Digital pathology and com-
+putational image analysis in nephropathology. Na-
+ture Reviews Nephorology 16:669-685. https://doi.
+org/10.1038/s41581-020-0321-6.
+9.
+Barrett, M., V. Combs, J. G. Su, K. Henderson, and
+M. Tufﬂ i. 2018. AIR Louisville: Addressing Asthma
+With Technology, Crowdsourcing, Cross-Sector Col-
+laboration, And Policy. Health Affairs 37(4):525-534.
+https://doi.org/10.1377/hlthaff.2017.1315.
+10. Barrett, M. A., O. Humblet, R. A. Hiatt, and N. E. Adler.
+2013. Big data and [[concepts/health-promotion|disease prevention]]: From quanti-
+ﬁ ed self to quantiﬁ ed communities. Big Data 1(3):168-
+175. http://doi.org/10.1089/big.2013.0027.
+11. Bates, D. W., and H. Singh. 2018. Two Decades Since To
+Err Is Human: An Assessment of Progress And Emerging
+Priorities In Patient Safety. Health Affairs 37(11):1736-
+1743. https://doi.org/10.1377/hlthaff.2018.0738.
+12. Bestsennyy, O., G. Gilbert, and A. Harris. 2020. Tele-
+health: A quarter-trillion-dollar post-COVID-19 real-
+ity? Available at: https://www.mckinsey.com/indus-
+tries/healthcare-systems-and-services/our-insights/
+telehealth-a-quarter-trillion-dollar-post-covid-19-reali-
+ty (accessed October 5, 2020).
+13. Biel, D., M. DeLone, W. Gerhardt, and C. Chang. 2019.
+Radical Interoperability. Available at: https://www2.
+deloitte.com/us/en/insights/industry/health-care/
+radical-data-interoperability-survey.html
+(accessed
+October 5, 2020).
+14. Boyde, A. M. and B. W. Chaffee. 2019. Critical Evalu-
+ation of Pharmacy Automation a
+
+.com/us/en/insights/industry/health-care/
+radical-data-interoperability-survey.html
+(accessed
+October 5, 2020).
+14. Boyde, A. M. and B. W. Chaffee. 2019. Critical Evalu-
+ation of Pharmacy Automation and [[concepts/robotics|Robotic Systems]]: A
+Call to Action. Hospital Pharmacy 54(1):4-11. https://
+doi.org/10.1177/0018578718786942.
+15. Buckeridge, D. L. 2020. Precision, Equity, and Pub-
+lic Health and Epidemiology Informatics—A Scoping
+Review. Yearbook of Medical Informatics 29(1):226-
+330. https://doi.org/10.1055/s-0040-1701989.
+16. Bughin, J., E. Hazan, S. Ramaswamy, M. Chu, T. Allas,
+P. Dahlstrom, N. Henke, and M. Trench. 2017. Artiﬁ -
+cial Intelligence: The Next Digital Frontier? McKinsey
+Global Institute. Available at: https://www.mckinsey.
+com/~/media/mckinsey/industries/advanced%20
+electronics/our%20insights/how%20artiﬁ cial%20in-
+telligence%20can%20deliver%20real%20value%20
+to%20companies/mgi-artificial-intelligence-discus-
+sion-paper.ashx (accessed February 24, 2022).
+17. Buntin, M. B., M. F. Burke, M. C. Hoaglin, and D. Blu-
+menthal. 2011. The beneﬁ ts of health information tech-
+nology: a review of the recent literature shows predom-
+inantly positive results. Health Affairs 30(3):464-471.
+https://doi.org/10.1377/hlthaff.2011.0178.
+18. Buolamwini, J., and T. Gebru. 2018. Gender Shades:
+Intersectional Accuracy Disparities in Commercial
+Gender Classiﬁ cation. Proceedings of Machine Learn-
+ing Research 81:1-15. Available at: http://proceed-
+ings.mlr.press/v81/buolamwini18a/buolamwini18a.
+pdf (accessed February 14, 2022).
+19. Buttorff, C., T. Ruder, and M. Bauman. 2017. Multiple
+
+---
+
+## Page 18
+
+arch 81:1-15. Available at: http://proceed-
+ings.mlr.press/v81/buolamwini18a/buolamwini18a.
+pdf (accessed February 14, 2022).
+19. Buttorff, C., T. Ruder, and M. Bauman. 2017. Multiple
+
+---
+
+## Page 18
+
+Page 18
+Chronic Conditions in the United States. Santa Monica:
+RAND Corporation. Available at: https://www.rand.
+org/pubs/tools/TL221.html (accessed February 14,
+2022).
+20. Byrne, D. W., L. A. Rolando, M. H. Aliyu, P. W. Mc-
+Gown, L. R., Connor, B. M. Awalt, M. C. Holmes, L.
+Wang, and M. I. Yarbrough. 2016. Modiﬁ able [[concepts/healthy-lifestyle|Healthy
+Lifestyle]] Behaviors: 10-Year Health Outcomes From
+a Health Promotion Program. American Journal of
+Preventive Medicine 51(6):1029-1037. https://doi.
+org/10.1016/j.amepre.2016.09.012.
+21. [[entities/cdc|Centers for Disease Control and Prevention]] (CDC).
+2020. Public Health Surveillance and Data. Available
+at: https://www.cdc.gov/surveillance/surveillance-
+data-strategies/dmi-investments.html (accessed Janu-
+ary 26, 2022).
+22. Centers for Medicare & Medicaid Services (CMS).
+2019. Historical. Available at: https://www.cms.
+gov/Research-Statistics-Data-and-Systems/Statistics-
+Trends-and-Reports/NationalHealthExpendData/
+NationalHealthAccountsHistorical (accessed October,
+5, 2020).
+23. Cigna Newsroom. n.d. Convenient, Cost-Effective, and
+High-Quality Virtual Care Is Here to Stay. Available
+at:
+https://newsroom.cigna.com/convenient-cost-
+effective-and-high-quality-virtual-care-is-here-to-stay
+(accessed May 18, 2022).
+24. Craig, K. J. T., N. Fusco, K. Lindsley, J. L. Snowdon, V.
+C. Willis, Y. E. Arriaga, and I. Dankwa-Mullan. 2020.
+Rapid review: Identiﬁ cation of digital health interven-
+tions in atherosclerotic-related cardiovascular disease
+populations to address racial, ethnic, and socioeco-
+nomic health disparities. Cardiovascular Digital Health
+Journal 1(3):139-148. https://doi.org/10.1016/j.
+cvdhj.2020.11.001.
+25. De Keyser, H. E. H., L. Kaye, W. C. Anderson, R.
+Gondalia, B. Theye, S. J. Szeﬂ er, and D. A. Stempel.
+2020. Electronic medication monitors help d
+
+. https://doi.org/10.1016/j.
+cvdhj.2020.11.001.
+25. De Keyser, H. E. H., L. Kaye, W. C. Anderson, R.
+Gondalia, B. Theye, S. J. Szeﬂ er, and D. A. Stempel.
+2020. Electronic medication monitors help determine
+adherence subgroups in asthma. Respiratory Medicine
+164. https://doi.org/10.1016/j.rmed.2020.105914.
+26. Deng, H. F., M-.W. Sun, Y. Wang, J. Zeng, T. Yuan, T.
+Li, D-. H. Li, W. Chen, P. Zhou, Q. Wang, and H. Jiang.
+2021. Evaluating [[concepts/artificial-intelligence-models|machine learning models]] for sep-
+sis prediction: A systematic review of methodologies.
+iScience 25(1):103651. https://doi.org/10.1016/j.
+isci.2021.103651.
+27. Department of Health and Human Services (HHS).
+2021. HHS Releases Project US@ Draft Technical
+Speciﬁ cation Version 1.0 for Comment. Available at:
+https://www.hhs.gov/about/news/2021/06/16/
+hhs-releases-project-us-draft-technical-speciﬁ cation-
+for-comment.html (accessed January 26, 2022).
+28. Dixon, B. E., S. J. Grannis, C. McAndrews, A. A. Bro-
+yles, W. Mikels-Carrasco, A. Wiensch, J. L. Williams,
+U. Tachinardi, and P. J. Embi. 2021. Leveraging data
+visualization and a statewide health information ex-
+change to support COVID-19 surveillance and re-
+sponse: Application of public health informatics. Jour-
+nal of the American Medical Informatics Association
+28(7):1363-1373. https://doi.org/10.1093/jamia/
+ocab004.
+29. Eddy, D. M. 1982. Clinical Policies and the Qual-
+ity of Clinical Practice. New England Journal of
+Medicine 307:343-347. https://doi.org/10.1056/
+NEJM198208053070604.
+30. Engelhard, M. M., J. A. Oliver, and F. J. McClernon.
+2020. Digital envirotyping: quantifying environmental
+determinants of health and behavior. npj Digital Medi-
+cine 3(36):1-3. https://doi.org/10.1038/s41746-
+020-0245-3.
+31. European Commission (EC). 2021. Proposal for
+a regulation of the European parliament and of
+the council laying down harmonised rules on ar-
+tiﬁ cial intelligence (artiﬁ cial intelligence act) and
+amending certain union legislative acts. Available
+at:
+https://eur-lex.eu
+
+parliament and of
+the council laying down harmonised rules on ar-
+tiﬁ cial intelligence (artiﬁ cial intelligence act) and
+amending certain union legislative acts. Available
+at:
+https://eur-lex.europa.eu/legal-content/EN/
+TXT/?uri=CELEX%3A52021PC0206 (accessed Janu-
+ary 26, 2022).
+32. Food and Drug Administration (FDA). n.d. Good Ma-
+chine Learning Practice for Medical Device Develop-
+ment: Guiding Principles. Available at: https://www.
+fda.gov/medical-devices/software-medical-device-
+samd/good-machine-learning-practice-medical-de-
+vice-development-guiding-principles (accessed Janu-
+ary 26, 2022).
+33. FDA. 2021. Artiﬁ cial Intelligence and Machine Learn-
+ing in Software as a Medical Device. Available at:
+https://www.fda.gov/medical-devices/software-
+medical-device-samd/artiﬁ cial-intelligence-and-ma-
+chine-learning-software-medical-device
+(accessed
+February 14, 2022).
+34. Feagin, J., and Z. Benneﬁ eld. 2014. Systemic racism and
+U.S. health care. Social Science & Medicine 103:7-14.
+https://doi.org/10.1016/j.socscimed.2013.09.006.
+35. Glaser, J. 2019. What Banking Can Teach Health Care
+About Handling Customer Data. Available at: https://
+hbr.org/2019/10/what-banking-can-teach-health-
+care-about-handling-customer-data (accessed Octo-
+ber 5, 2020).
+36. Goh, K. H., L. Wang, A. Y. K. Yeow, H. Poh, K. Li, J. J. L.
+
+---
+
+## Page 19
+
+https://
+hbr.org/2019/10/what-banking-can-teach-health-
+care-about-handling-customer-data (accessed Octo-
+ber 5, 2020).
+36. Goh, K. H., L. Wang, A. Y. K. Yeow, H. Poh, K. Li, J. J. L.
+
+---
+
+## Page 19
+
+Page 19
+Yeow, and G. Y. H. Tan. 2021. Artiﬁ cial intelligence in
+sepsis early prediction and diagnosis using unstructured
+data in healthcare. Nature Communications 12:711.
+https://doi.org/10.1038/s41467-021-20910-4.
+37. Gordon, W. J., A. Landman, H. Zhang, and D. W.
+Bates. 2020. Beyond validation: getting health apps
+into clinical practice. Npj Digital Medicine 3(14):1-14.
+https://doi.org/10.1038/s41746-019-0212-z.
+38. Halamka, J., and P. Cerrato. 2020. The Digital Recon-
+struction of Health Care. NEJM Catalyst Innovations in
+Care Delivery 1(6):1-12. https://doi.org/10.1056/
+CAT.20.0082.
+39. Hall, K. D., and S. Kahan. 2018. Maintenance of Lost
+Weight and Long-Term Management of Obesity. Med-
+ical Clinics of North America 102(1)183-197. https://
+doi.org/10.1016/j.mcna.2017.08.012.
+40. Hartzog, W. 2018. Privacy’s Blueprint: The Battle to
+Control the Design of New Technologies. Boston: Har-
+vard University Press.
+41. HealthIT.gov. 2022. Trusted Exchange Framework and
+Common Agreement (TEFCA). Available at: https://
+www.healthit.gov/topic/interoperability/trusted-
+exchange-framework-and-common-agreement-tefca
+(accessed January 26, 2022).
+42. HealthIT.gov. 2020. About ONC’s Cures Act Final
+Rule. Available at: healthit.gov/curesrule/overview/
+about-oncs-cures-act-ﬁ nal-rule (accessed February
+14, 2022).
+43. HealthIT.gov. 2017. Rhode Island Quality Institute Tran-
+sitions of Care. Available at: https://www.healthit.
+gov/success-story/rhode-island-quality-institute-tran-
+sitions-care (accessed January 26, 2022).
+44. HealthIT.gov. 2009. Index for Excerpts from the Ameri-
+can Recovery and Reinvestment Act of 2009 (ARRA).
+Available at: https://www.healthit.gov/sites/default/
+files/hitech_act_excerpt_from_arra_with_index.pdf
+(accessed February 14, 2022).
+45. HealthIT.gov.
+
+an Recovery and Reinvestment Act of 2009 (ARRA).
+Available at: https://www.healthit.gov/sites/default/
+files/hitech_act_excerpt_from_arra_with_index.pdf
+(accessed February 14, 2022).
+45. HealthIT.gov. n.d. United States Core Data for Interop-
+erability (USCDI). Available at: https://www.healthit.
+gov/isa/united-states-core-data-interoperability-usc-
+di (accessed May 18, 2022).
+46. Health IT Dashboard. 2016. Quick Stats. Available at:
+https://dashboard.healthit.gov/quickstats/quickstats.
+php (accessed September 17, 2020).
+47. Heller, D. J., K. A. Ornstein, L. V. DeCherrie, P. Saenger,
+F. C. Ko, C.-P. Rousseau, and A. Siu. 2020. Adapting
+a Hospital‐at‐Home Care Model to Respond to New
+York City’s COVID‐19 Crisis. Journal of the American
+Geriatrics Society 68(9):1915-1916. https://doi.
+org/10.1111/jgs.16725.
+48. Health Information National Trends Survey (HINTS).
+2021. HINTS Briefs Number 45. Available at: https://
+hints.cancer.gov/docs/Briefs/HINTS_Brief_45.pdf
+(accessed May 18, 2022).
+49. HL7 International. n.d. FHIR® (HL7 Fast Healthcare
+Interoperability Resources). Available at: https://
+www.hl7.org/implement/standards/product_brief.
+cfm?product_id=491 (accessed May 18, 2022).
+50. Hruby, A., H. R. Lieberman, and T. J. Smith. 2018. Self-
+reported health behaviors, including sleep, correlate
+with doctor-informed medical conditions: data from the
+2011 Health Related Behaviors Survey of U.S. Active
+Duty Military Personnel. BMC Public Health 18:1-16.
+https://doi.org/10.1186/s12889-018-5781-2.
+51. Ideas for Change. 2016. SalusCoop Report. Avail-
+able at: https://www.ideasforchange.com/en/tools/
+saluscoop-report (accessed February 14, 2022).
+52. IHE International. 2021. Integrating the Healthcare En-
+terprise (IHE). Available at: https://www.ihe.net/ (ac-
+cessed March 3, 2021).
+53. International Medical Device Regulators Forum Soft-
+ware as a Medical Device Working Group (IMDRF).
+2015. Software as a Medical Device (SaMD): Appli-
+cation of Quality Management System
+
+3, 2021).
+53. International Medical Device Regulators Forum Soft-
+ware as a Medical Device Working Group (IMDRF).
+2015. Software as a Medical Device (SaMD): Appli-
+cation of Quality Management System. Available at:
+https://www.imdrf.org/sites/default/files/docs/
+imdrf/ﬁ nal/technical/imdrf-tech-151002-samd-qms.
+pdf (accessed February 14, 2022).
+54. IMDRF. 2017. Clinical Evaluation. Available at: https://
+www.imdrf.org/sites/default/files/docs/imdrf/fi-
+nal/technical/imdrf-tech-170921-samd-n41-clinical-
+evaluation_1.pdf (accessed February 14, 2022).
+55. Institute of Medicine (IOM). 2010. The Healthcare
+Imperative: Lowering Costs and Improving Out-
+comes: Workshop Series Summary. Washington,
+DC: The National Academies Press. https://doi.
+org/10.17226/12750.
+56. IOM. 2004. Patient Safety: Achieving a New Standard
+for Care. Washington, DC: The National Academies
+Press. https://doi.org/10.17226/10863.
+57. IOM. 2000. To Err Is Human: Building a Safer Health
+System. Washington, DC: The National Academies
+Press. https://doi.org/10.17226/9728.
+58. Isasi, F., M. D. Naylor, D. Skorton, D. C. Grabowski,
+S. Hernández, and V. Montgomery Rice. 2021. Pa-
+tients, Families, and Communities COVID-19 Impact
+Assessment: Lessons Learned and Compelling Needs.
+NAM Perspectives. Discussion Paper, National Acad-
+emy of Medicine, Washington, DC. https://doi.
+org/10.31478/202111c.
+59. Ivanov, O., L. Wolf, D. Brecher, E. Lewis, K. Masek,
+
+---
+
+## Page 20
+
+Needs.
+NAM Perspectives. Discussion Paper, National Acad-
+emy of Medicine, Washington, DC. https://doi.
+org/10.31478/202111c.
+59. Ivanov, O., L. Wolf, D. Brecher, E. Lewis, K. Masek,
+
+---
+
+## Page 20
+
+Page 20
+K. Montgomery, Y. Andrieiev, M. McLaughlin, S. Liu,
+R. Dunne, K. Klauer, and C. Reilly. 2020. Improving
+ED Emergency Severity Index Acuity Assignment Us-
+ing Machine Learning and Clinical Natural Language
+Processing. Journal of Emergency Nursing 47(2):265-
+278. https://doi.org/10.1016/j.jen.2020.11.001.
+60. Jain, J. S., B. W. Powers, J. B. Hawkins, and J. S. Brown-
+stein. 2015. The digital phenotype. Nature Biotech-
+nology 33(5):462-463. https://doi.org/10.1038/
+nbt.3223.
+61. Kaye, L., B. Theye, I. Smeenk, R. Gondalia, M. A. Bar-
+rett, and D. A. Stempel. 2020. Changes in medication
+adherence among patients with asthma and COPD
+during the COVID-19 pandemic. The Journal of Aller-
+gy and Clinical Immunology: In Practice 8(7): 2384-
+2385. https://doi.org/10.1016/j.jaip.2020.04.053.
+62. Kearney, A, L. Hamel, M. Stokes, and M. Broadie.
+2021. Americans’ Challenges with Health Care Costs.
+Kaiser Family Foundation, December 14. Available at
+https://www.kff.org/health-costs/issue-brief/amer-
+icans-challenges-with-health-care-costs/
+(accessed
+May 18, 2022).
+63. Keehan, S. P., G. A. Cuckler, J. A. Poisal, A. M. Sisko, S.
+D. Smith, A. J. Madison, K. E. Rennie, J. A. Fiore, and J.
+C. Hardesty. 2020. National Health Expenditure Pro-
+jections, 2019–28: Expected Rebound In Prices Drives
+Rising Spending Growth. Health Affairs 39(4):704-
+714. https://doi.org/10.1377/hlthaff.2020.00094.
+64. Kottke, T. E., M. Stiefel, and N. P. Pronk. 2016.
+“Well-Being in All Policies”: Promoting Cross-Sec-
+toral Collaboration to Improve People’s Lives. NAM
+Perspectives. Discussion Paper, National Acad-
+emy of Medicine, Washington, DC. https://doi.
+org/10.31478/201604c.
+65. Lamberti, M. J., M. Wilkinson, B. A. Donzanti, G. E.
+Wohlhieter, S. Parikh, R. G. Wilkins, and K. Getz. 2019.
+A Stu
+
+tional Acad-
+emy of Medicine, Washington, DC. https://doi.
+org/10.31478/201604c.
+65. Lamberti, M. J., M. Wilkinson, B. A. Donzanti, G. E.
+Wohlhieter, S. Parikh, R. G. Wilkins, and K. Getz. 2019.
+A Study on the Application and Use of Artiﬁ cial Intel-
+ligence to Support Drug Development. Clinical Thera-
+peutics 41(8):1414-1426. https://doi.org/10.1016/j.
+clinthera.2019.05.018.
+66. LaRosa, J. 2020. $71 Billion U.S. Weight Loss Indus-
+try Pivots to Survive Pandemic. Available at: https://
+blog.marketresearch.com/71-billion-u.s.-weight-loss-
+market-pivots-to-survive-pandemic (accessed January
+26, 2022).
+67. Lee, P., A. Abernethy, D. Shaywitz, A. V. Gundlapalli,
+J. Weinstein, P. M. Doraiswamy, K. Schulman, and
+S. Madhavan. 2022. Digital Health COVID-19 Im-
+pact Assessment: Lessons Learned and Compelling
+Needs. NAM Perspectives. Discussion Paper, National
+Academy of Medicine, Washington, DC. https://doi.
+org/10.31478/202201c.
+68. Lin, S. Y., M. R. Mahoney, C. A. Sinky. 2019. Ten Ways
+Artiﬁ cial Intelligence Will Transform Primary Care. Jour-
+nal of General Internal Medicine 34(8):1620-1630.
+https://doi.org/10.1007/s11606-019-05035-1.
+69. Lindau, S. T. 2019. CommunityRx, an E-Prescribing
+System Connecting People to Community Resources.
+American Journal of Public Health 109(4):546-547.
+https://doi.org/10.2105/AJPH.2019.304986.
+70. Luchini, C., A. Pea, and A. Scarpa. Artiﬁ cial intelligence
+in oncology: current applications and future perspec-
+tives. British Journal of Cancer 126:4–9. https://doi.
+org/10.1038/s41416-021-01633-1.
+71. McGinnis, J. M., H. V. Fineberg, and V. J. Dzau.
+2021. Advancing the Learning Health System. New
+England Journal of Medicine 385:1-5. https://doi.
+org/10.1056/NEJMp2103872.
+72. McGinnis, M. J., P. Williams-Russo, and J. R. Knickman.
+2002. The Case For More Active Policy Attention To
+Health Promotion. Health Affairs 21(2):78-93. https://
+doi.org/10.1377/hlthaff.21.2.78.
+73. McGovern, L., G. Miller, and P. Hughes-Cromwick.
+2014. The Relativ
+
+Case For More Active Policy Attention To
+Health Promotion. Health Affairs 21(2):78-93. https://
+doi.org/10.1377/hlthaff.21.2.78.
+73. McGovern, L., G. Miller, and P. Hughes-Cromwick.
+2014. The Relative Contribution of Multiple Determi-
+nants to Health Outcomes. Available at: https://www.
+rwjf.org/en/library/research/2014/08/the-rela-
+tive-contribution-of-multiple-determinants-to-health-
+out.html (accessed October 5, 2020).
+74. Melnick, E. R., L. N. Dyrbye, C. A. Synsky, M. Trockel, C.
+P. West, L. Nedelec, M. A. Tutty, and T. Shanafelt. 2020.
+The Association Between Perceived [[concepts/electronic-health-record|Electronic Health
+Record]] Usability and Professional Burnout Among US
+Physicians. Mayo Clinic Proceedings 95(3):476-487.
+https://doi.org/10.1016/j.mayocp.2019.09.024.
+75. Merchant, R., S. J. Szeﬂ er, B. G. Bender, M. Tufﬂ i, M.
+A. Barrett, R. Gondalia, L. Kaye, D. V. Sickle, and D.
+A. Stempel. 2018. Impact of a digital health interven-
+tion on asthma resource utilization. World Allergy Or-
+ganization Journal 11(28). https://doi.org/10.1186/
+s40413-018-0209-0.
+76. Meyer, D., E. Lerner, A. Phillips, and K. Zumwalt. 2020.
+Universal Screening of Social Determinants of Health
+at a Large US Academic Medical Center. American
+Journal of Public Health 110(S2):S219-S221. https://
+doi.org/10.2105/AJPH.2020.305747.
+77. MiDATA. n.d. My Data—Our Health. Available at:
+https://www.midata.coop/en/home/
+(accessed
+October 5, 2020).
+78. Murray, S. G., R. M. Wachter, and R. J. Cucina. 2020.
+Discrimination By Artiﬁ cial Intelligence In A Commer-
+
+---
+
+## Page 21
+
+ble at:
+https://www.midata.coop/en/home/
+(accessed
+October 5, 2020).
+78. Murray, S. G., R. M. Wachter, and R. J. Cucina. 2020.
+Discrimination By Artiﬁ cial Intelligence In A Commer-
+
+---
+
+## Page 21
+
+Page 21
+cial Electronic Health Record—A Case Study. Avail-
+able at: https://www.healthaffairs.org/do/10.1377/
+hblog20200128.626576/full/ (accessed March 3,
+2021).
+79. Muzney, M., A. Henriksen, A. Giordanengo, J. Muzik,
+A. Grøttland, H. Blixgård, G. Hartvigsen, and E. År-
+sand. 2020. [[concepts/embedded-sensors|Wearable sensors]] with possibilities for
+data exchange: Analyzing status and needs of differ-
+ent actors in mobile health monitoring systems. Interna-
+tional Journal of Medical Informatics 133:1-8. https://
+doi.org/10.1016/j.ijmedinf.2019.104017.
+80. National Academy of Medicine (NAM). 2020. NAM
+Leadership Consortium: Collaboration for a Value &
+Science-Driven Health System. Available at: https://
+nam.edu/programs/value-science-driven-health-
+care/ (accessed October 5, 2020).
+81. National Academies of Sciences, Engineering, and
+Medicine (NASEM). 2020. Joint Science Academies
+Statements on Global Issues (G-Science). Available
+at: https://www.nationalacademies.org/our-work/
+joint-science-academies-statements-on-global-
+issues#sectionProjectScope (accessed January 26,
+2022).
+82. National Institute of Standards and Technology
+(NIST). 2018. Framework for Improving Critical In-
+frastructure Cybersecurity, Version 1.1. Available at
+https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.
+CSWP.04162018.pdf (accessed May 13, 2022).
+83. National Institutes of Health (NIH). 2020. All of
+Us Research Program Backgrounder. Available at:
+https://allofus.nih.gov/news-events/press-kit/all-us-
+research-program-backgrounder (accessed October
+26, 2020).
+84. National Library of Medicine (NLM). 2022. RxNorm
+Overview. Available at: https://www.nlm.nih.gov/
+research/umls/rxnorm/overview.html (accessed May
+18, 2022).
+85. Observational Health Data Sciences and Informatics
+(OHDSI). 2022. Home. Available at: https://www.
+ohd
+
+able at: https://www.nlm.nih.gov/
+research/umls/rxnorm/overview.html (accessed May
+18, 2022).
+85. Observational Health Data Sciences and Informatics
+(OHDSI). 2022. Home. Available at: https://www.
+ohdsi.org/ (accessed May 18, 2022).
+86. Ofﬁ ce of the National Coordinator for Health Informa-
+tion Technology (ONC). 2020. Health IT Workﬂ ow
+Automation: Background Report, Industry Lessons for
+Health Care. Available at: https://www.healthit.gov/
+sites/default/files/topiclanding/2021-07/Work-
+flow_Automation_Background_Report_FINAL.pdf
+(accessed May 18, 2022).
+87. Pagoto, S., and G. G. Bennett. 2020. How behav-
+ioral science can advance digital health. Translation-
+al Behavioral Medicine 3(3):271-276. https://doi.
+org/10.1007/s13142-013-0234-z.
+88. Panagioti, M., K. Geraghty, J. Johnson, A. Zhou, E.
+Panagopoulou, C. Chew-Graham, A. Hodkinson, R.
+Riley, and A. Esmail. 2018. Association Between Physi-
+cian Burnout and Patient Safety, Professionalism, and
+Patient Satisfaction: A Systematic Review and Meta-
+analysis. JAMA Internal Medicine 178(10):1317-1331.
+https://doi.org/10.1001/jamainternmed.2018.3713.
+89. Patel, S., L. Jacobus-Kantor, L. Marshall, C. Ritchie, M.
+Kaplinski, P. S. Khurana, and R. J. Katz. 2013. Mobi-
+lizing Your Medications: An Automated Medication
+Reminder Application for Mobile Phones and Hyper-
+tension Medication Adherence in a High-Risk Urban
+Population. Journal of Diabetes Science and Technol-
+ogy 7(3):630-639. https://doi.org/10.1177/19322
+9681300700307.
+90. The National Patient-Centered Clinical Research Net-
+work (PCORNet). n.d. Home. Available at: https://
+pcornet.org/ (accessed May 18, 2022).
+91. Rasmussen, S. A., M. K. Khoury, and C. Del Rio. 2020.
+Precision Public Health as a Key Tool in the COVID-19
+Response. JAMA 324(10):933-934. https://doi.
+org/10.1001/jama.2020.14992.
+92. Research Data Assistance Center (ResDAC). 2022.
+Home. Available at: https://resdac.org/ (accessed
+May 18, 2022).
+93. Schroeder, S. A. 2007. We Can Do Better—Improv-
+
+org/10.1001/jama.2020.14992.
+92. Research Data Assistance Center (ResDAC). 2022.
+Home. Available at: https://resdac.org/ (accessed
+May 18, 2022).
+93. Schroeder, S. A. 2007. We Can Do Better—Improv-
+ing the Health of the American People. New England
+Journal of Medicine 357(12):1221-1228. https://doi.
+org/10.1056/NEJMsa073350.
+94. Schueller, S. M., J. F. Hunter, C. Figueroa, and A. Agu-
+ilera. 2019. Use of Digital Mental Health for Margin-
+alized and Underserved Populations. Current Treat-
+ment Options in Psychiatry 6:243-255. https://doi.
+org/10.1007/s40501-019-00181-z.
+95. Settineri, S., F. Frisone, E. M. Merlo, D. Geraci, and G.
+Martino. 2019. Compliance, adherence, concordance,
+empowerment, and self-management: ﬁ ve words to
+manifest a relational maladjustment in diabetes. Journal
+of Multidisciplinary Healthcare 12:299-314. https://
+doi.org/10.2147/JMDH.S193752.
+96. Shan, R., S. Sarker, and S. S. Martin. 2019. Digital
+health technology and mobile devices for the manage-
+ment of diabetes mellitus: state of the art. Diabetologia
+62:877-887. https://doi.org/10.1007/s00125-019-
+4864-7.
+97. Shegog, R., L. Braverman, and J. D. Hixson. 2020.
+Digital and technological opportunities in epilepsy:
+toward a digital ecosystem for enhanced epilepsy
+management. Epilepsy & Behavior 102. https://doi.
+
+---
+
+## Page 22
+
+verman, and J. D. Hixson. 2020.
+Digital and technological opportunities in epilepsy:
+toward a digital ecosystem for enhanced epilepsy
+management. Epilepsy & Behavior 102. https://doi.
+
+---
+
+## Page 22
+
+Page 22
+org/10.1016/j.yebeh.2019.106663.
+98. Shrank, W. H., T. L. Rogstad, and N. Parekh. 2019.
+Waste in the US Health Care System: Estimated Costs
+and Potential for Savings. JAMA 322(15):1501-1509.
+https://doi.org/10.1001/jama.2019.13978.
+99. Shen, N., D. Jankowicz, and G. Strudwick. 2021. Pa-
+tient and Family Engagement Approaches for Digi-
+tal Health Initiatives: Protocol for a Case Study. JMIR
+Research
+Protocols
+10(7):e24274.
+https://doi.
+org/10.2196/24274.
+100.
+Singhal, S., B. Kayyali, R. Levin, and Z. Greenberg.
+2020. The next wave of healthcare innovation: The
+evolution of ecosystems. Available at: https://www.
+mckinsey.com/industries/healthcare-systems-and-ser-
+vices/our-insights/the-next-wave-of-healthcare-inno-
+vation-the-evolution-of-ecosystems (accessed October
+5, 2020).
+101. SNOMED International. n.d. Who We Are. Available
+at: https://www.snomed.org/snomed-international/
+who-we-are (accessed May 18, 2022).
+102.
+Steinmetz, M., C. Rammos, T. Rassaf, and J. Lortz.
+2020. Digital interventions in the treatment of car-
+diovascular risk factors and atherosclerotic vascular
+disease. International Journal of Cardiology Heart &
+Vasculature
+26:1-8.
+https://doi.org/10.1016/j.ij-
+cha.2020.100470.
+103.
+Tanner, C., D. Gans, J. White, R. Nath, and J. Pohl.
+2015. Electronic Health Records and Patient Safety.
+Applied [[concepts/clinical-informatics|Clinical Informatics]] 6:136-147. https://doi.
+org/10.4338/ACI-2014-11-RA-0099.
+104.
+The Commonwealth Fund. 2019. 2019 Common-
+wealth Fund International Health Policy Survey of Pri-
+mary Care Physicians. Available at: https://www.
+commonwealthfund.org/publications/surveys/2019/
+dec/2019-commonwealth-fund-international-health-
+policy-survey-primary (accessed March 3, 2021).
+105.
+The Commonwealth Fund. 2016. High-Need,
+High-Cost Patients: Who Are They and How Do T
+
+urveys/2019/
+dec/2019-commonwealth-fund-international-health-
+policy-survey-primary (accessed March 3, 2021).
+105.
+The Commonwealth Fund. 2016. High-Need,
+High-Cost Patients: Who Are They and How Do They
+Use Health Care? Available at: https://www.com-
+monwealthfund.org/publications/issue-briefs/2016/
+aug/high-need-high-cost-patients-who-are-they-and-
+how-do-they-use (accessed January 26, 2022).
+106.
+The Lancet Digital Health. 2019. There is no such
+thing as race in health-care algorithms. The Lancet
+Digital Health 1(8):e375. https://doi.org/10.1016/
+S2589-7500(19)30201-8.
+107. The Pew Charitable Trusts. 2020. Patients Seek Bet-
+ter Exchange of Health Data Among Their Care Pro-
+viders. Available at: https://www.pewtrusts.org/
+en/research-and-analysis/issue-briefs/2020/03/
+patients-seek-better-exchange-of-health-data-among-
+their-care-providers (accessed January 26, 2022).
+108.
+The Pew Charitable Trusts. 2018. Enhanced Pa-
+tient Matching Is Critical to Achieving Full Prom-
+ise of Digital Health Records. Available at: https://
+www.pewtrusts.org/en/research-and-analysis/re-
+ports/2018/10/02/enhanced-patient-matching-crit-
+ical-to-achieving-full-promise-of-digital-health-records
+(accessed January 26, 2022).
+109.
+Tikkanen, R., and M. K. Abrams. 2020. U.S.
+Health Care from a Global Perspective, 2019: Higher
+Spending, Worse Outcomes? Available at: https://
+www.commonwealthfund.org/publications/issue-
+briefs/2020/jan/us-health-care-global-perspec-
+tive-2019 (accessed October 5, 2020).
+110. Topol, E. J. 2019. A decade of digital medicine inno-
+vation. Science Translational Medicine 11(498):1-3.
+https://doi.org/10.1126/scitranslmed.aaw7610.
+111. Tung, J. Y., R. J. Shaw, J. M. Hagenkord, M. Hack-
+mann, M. Muller, S. H. Beachy, V. M. Pratt, S. F. Terry,
+A. K. Cashion, and G. S. Ginsburg. 2018. Accelerating
+precision health by applying the lessons learned from
+direct-to-consumer genomics to digital health technolo-
+gies. NAM Perspectives. Discussion Paper, National
+Academy of Med
+
+burg. 2018. Accelerating
+precision health by applying the lessons learned from
+direct-to-consumer genomics to digital health technolo-
+gies. NAM Perspectives. Discussion Paper, National
+Academy of Medicine, Washington, DC. https://doi.
+org/10.31478/201803c.
+112. USF Morsani College of Medicine. 2021. What is
+the Argonaut Project? Available at: https://www.
+usfhealthonline.com/resources/health-informatics/
+what-is-the-argonaut-project/ (accessed January 26,
+2022).
+113. Walker, J., E. Pan, D. Johnston, J. Adler-Milstein, D. W.
+Bates, and B. Middleton. 2005. The Value of Health
+Care Information Exchange and Interoperability.
+Health Affairs 24(S1):W5-10-W5-18. https://doi.
+org/10.1377/hlthaff.w5.10.
+114. World Health Organization (WHO). 2006. Constitu-
+tion of the World Health Organization. Available at:
+https://www.who.int/governance/eb/who_constitu-
+tion_en.pdf (accessed February 13, 2022).
+115. Zachrison, K. S., Z. Yan, T. Sequist, A. Licurse, A. Tan-
+McGrory, A. Erskine, and L. H. Schwamm. 2021. Pa-
+tient characteristics associated with the successful
+transition to virtual care: Lessons learned from the ﬁ rst
+million patients. Journal of Telemedicine. https://doi.
+org/10.1177/1357633X211015547.
+DOI
+https://doi.org/10.3147/202206e
+
+---
+
+## Page 23
+
+transition to virtual care: Lessons learned from the ﬁ rst
+million patients. Journal of Telemedicine. https://doi.
+org/10.1177/1357633X211015547.
+DOI
+https://doi.org/10.3147/202206e
+
+---
+
+## Page 23
+
+Page 23
+Suggested Citation
+Abernethy, A., L. Adams, M. Barrett, C. Bechtel, P. Brennan,
+A. Butte, J. Faulkner, E. Fontaine, S. Friedhoff, J. Halamka, M.
+Howell, K. Johnson, P. Lee, P. Long, D. McGraw, R. Miller, J.
+Perlin, D. Rucker, L. Sandy, L. Savage, L. Stump, P. Tang, E.
+Topol, R. Tuckson, and K. Valdes. 2022. The Promise of Digi-
+tal Health: Then, Now, and the Future. NAM Perspectives.
+Discussion Paper, National Academy of Medicine, Wash-
+ington, DC. https://doi.org/10.31478/202206e.
+Author Information
+Amy Abernethy, MD, PhD, is President, Clinical Research
+Platforms, at Verily. Laura Adams, MS, is Senior Advisor
+at the National Academy of Medicine. Meredith Barrett,
+PhD, is Vice President, Population [[concepts/health-research|Health Research]], at
+ResMed. Christine Bechtel, MA, is Co-Founder at X4
+Health. Patricia Brennan, RN, PhD, FAAN, is Director
+at the National Library of Medicine. Atul Butte, MD,
+PhD, is Priscilla Chan and Mark Zuckerberg Distinguished
+Professor and inaugural Director, Bakar Computational
+Health Sciences Institute at University of California, San
+Francisco. Judith Faulkner, MS, is Founder and Chief
+Executive Ofﬁ cer at Epic Systems. Elaine Fontaine,
+BS, is Consultant at the National Academy of Medicine.
+Stephen Friedhoff, MD, is Senior Vice President, Clinical
+Strategy and Programs, at Anthem, Inc. John Halamka,
+MD, is President, Mayo Clinic Platform, at the Mayo
+Clinic. Michael Howell, MD, MPH, is Chief Clinical
+Ofﬁ cer at Google Health. Kevin Johnson, MD, is Penn
+Integrates Knowledge University Professor at the University
+of Pennsylvania. Peter Lee, PhD, is Corporate Vice
+President at the Microsoft Corporation. Peter Long, PhD,
+is Executive Vice President, Strategy and Health Solutions at
+Blue Shield of California. Deven McGraw, JD, MPH, is
+Chief Regulatory Of�
+
+te Vice
+President at the Microsoft Corporation. Peter Long, PhD,
+is Executive Vice President, Strategy and Health Solutions at
+Blue Shield of California. Deven McGraw, JD, MPH, is
+Chief Regulatory Ofﬁ cer at Ciitizen Corporation. Redonda
+Miller, MD, MBA, is President of Johns Hopkins Hospital.
+Jonathan Perlin, MD, PhD, MSHA, is President of The
+Joint Commission. Donald Rucker, MD, is Chief Strategy
+Ofﬁ cer at 1upHealth. Lewis Sandy, MD, MBA, is Senior
+Vice President, Clinical Advancement, at UnitedHealth
+Group. Lucia Savage, JD, is Chief Privacy and Regulatory
+Ofﬁ cer at Omada Health, Inc. Lisa Stump, MS, is Senior
+Vice President and Chief Information Ofﬁ cer at Yale New
+Haven Health System and Yale School of Medicine. Paul
+Tang, MD, MS, is adjunct professor, Clinical Excellence
+Research Center at Stanford University. Eric Topol, MD,
+is Executive Vice President and Professor at The Scripps
+Research Institute. Reed Tuckson, MD, FACP, is
+Managing Director at Tuckson Health Connections, LLC.
+Kristen Valdes is Founder and CEO at b.well Connected
+Health.
+Drs. Brennan, Butte, Halamka, Johnson, Miller, Lee, Perlin,
+Tang, Topol, and Tuckson are members of the National
+Academy of Medicine.
+Acknowledgments
+This paper beneﬁ ted from the thoughtful input of John Gla-
+ser, Siemens Healthcare; Clement McDonald, National
+Library of Medicine; and Marc Overhage, Anthem.
+The authors would like to recognize Paul Cerrato with the
+Mayo Clinic for contributing to earlier drafts of this publica-
+tion and to thank Mahnoor Ahmed and Asia Williams
+with the National Academy of Medicine Leadership Con-
+sortium for assistance with research and fact-checking.
+Conﬂ ict-of-Interest Disclosures
+Amy Abernethy discloses employment by Verily, an Al-
+phabet Company; employment by the U.S. FDA while this
+paper was being drafted; and serving as member of the
+Board of Directors or EQRx. Laura Adams discloses em-
+ployment as Senior Advisor to the National Academy of
+Medicine. Meredith Barrett d
+
+hile this
+paper was being drafted; and serving as member of the
+Board of Directors or EQRx. Laura Adams discloses em-
+ployment as Senior Advisor to the National Academy of
+Medicine. Meredith Barrett discloses receiving personal
+fees from ResMed and Propeller Health. Atul Butte dis-
+closes receiving grants and non-ﬁ nancial support from Pro-
+genity; personal fees and other support from NuMedii, Per-
+sonalis, Assay Depot, GNS Healthcare, uBiome, and Nuna
+Health; grants and personal fees from NIH and Genentech;
+grants from L’Oreal and Samsung; personal fees and non-
+ﬁ nancial support from Merck, Lilly, Geisinger Health, and
+Roche; and serving as consultant to Wilson Sonsini Goorich
+& Rosati, Orrick Herrington & Sutcliffe, Verinata, 10x Ge-
+nomics, Pathway Genomics, Guardant Health, and Gerson
+Lehrman Group. Elaine Fontaine discloses employment
+as a consultant to the National Academy of Medicine.
+Stephen Friedhoff discloses employment by Anthem
+BC while this paper was being drafted; current employ-
+ment by BCNC; serving as board member to Agape Care
+and Medical Review Institute of America; and advisor to
+Rialtic. Michael Howell discloses employment and eq-
+uity in Google, an Alphabet company. Kevin Johnson
+discloses employment by University of Pennsylvania. Peter
+Lee discloses employment by Microsoft. Deven McGraw
+discloses employment by Invitae Corporation and Ciitizen
+Corporation; personal fees from Datavant and All of Us Re-
+search Program; and serving as board member for CARIN
+Alliance and Manifest Medex. Redonda Miller discloses
+
+---
+
+## Page 24
+
+ion and Ciitizen
+Corporation; personal fees from Datavant and All of Us Re-
+search Program; and serving as board member for CARIN
+Alliance and Manifest Medex. Redonda Miller discloses
+
+---
+
+## Page 24
+
+Page 24
+employment by the Johns Hopkins University. Jonathan
+Perlin discloses former employment by HCA Healthcare.
+Donald Rucker discloses former employment by the Na-
+tional Coordinator for Health IT; current employment by 1up
+Health; and personal fees from Cync Health. Paul Tang
+discloses employment by IBM Watson Health. Eric Topol
+discloses receiving personal fees from Illumnia and serving
+on the board of directors at Dexcom. Kristen Valdes dis-
+closes employment by b.well Connected Health.
+Correspondence
+Questions and comments about this paper should be direct-
+ed to Laura Adams at LAdams@nas.edu. Additional inqui-
+ries should be sent to NAMedicine@nas.edu.
+Disclaimer
+The views expressed in this paper are those of the authors
+and not necessarily of the authors’ organizations, the Na-
+tional Academy of Medicine (NAM), or the National
+Academies of Sciences, Engineering, and Medicine (the
+National Academies). The paper is intended to help inform
+and stimulate discussion. It is not a report of the NAM or the
+National Academies. Copyright by the National Academy
+of Sciences. All rights reserved.
+
+## Related Concepts
+- [[concepts/digital-health|Digital Health]] — [Wikipedia](https://en.wikipedia.org/wiki/Digital_Health)
+- [[concepts/promise-of-digital-health|Promise of Digital Health]] — [Wikipedia](https://en.wikipedia.org/wiki/Promise_of_Digital_Health)
+- [[concepts/assistive-technology|Healthcare Technology]] — [Wikipedia](https://en.wikipedia.org/wiki/Healthcare_Technology)
+- [[concepts/electronic-health-records|Electronic Health Records]] — [Wikipedia](https://en.wikipedia.org/wiki/Electronic_Health_Records)
+- [[concepts/medical-informatics|Medical Informatics]] — [Wikipedia](https://en.wikipedia.org/wiki/Medical_Informatics)
+- [[concepts/cloud-computing|Cloud Computing]] — [Wikipedia](https://en.wikipedia.org/wiki/Cloud_Computing)
+- [[concepts/trusted-frameworks|Artificial Intelligence]] — [Wikipedia](https://en.wikipedia.org/wiki/Artificial_Intelligence)
+- [[concepts/machine-learning|Machine Learning]] — [Wikipedia](https://en.wikipedia.org/wiki/Machine_Learning)
+- [[concepts/distributed-ledger|Blockchain]] — [Wikipedia](https://en.wikipedia.org/wiki/Blockchain)
+- [[concepts/telehealth|Telehealth]] — [Wikipedia](https://en.wikipedia.org/wiki/Telehealth)
+- [[concepts/mobile-health|Mobile Health Applications]] — [Wikipedia](https://en.wikipedia.org/wiki/Mobile_Health_Applications)
+- Digitally Mediated Diagnostics — [Wikipedia](https://en.wikipedia.org/wiki/Digitally_Mediated_Diagnostics)
+- Biomedical Science — [Wikipedia](https://en.wikipedia.org/wiki/Biomedical_Science)
+- Population Health Strategies — [Wikipedia](https://en.wikipedia.org/wiki/Population_Health_Strategies)
+- Real-time Data Generation — [Wikipedia](https://en.wikipedia.org/wiki/Real-time_Data_Generation)
+- Patient Self-management — [Wikipedia](https://en.wikipedia.org/wiki/Patient_Self-management)
+- Biomedical Insights — [Wikipedia](https://en.wikipedia.org/wiki/Biomedical_Insights)
+
+## Related Entities
+- [[entities/verily|Verily]] — [Wikipedia](https://en.wikipedia.org/wiki/Verily)
+- National Academy of Medicine — [Wikipedia](https://en.wikipedia.org/wiki/National_Academy_of_Medicine)
+- [[entities/epic-systems|Epic Systems]] — [Wikipedia](https://en.wikipedia.org/wiki/Epic_Systems)
+- [[entities/x4-health|X4 Health]] — [Wikipedia](https://en.wikipedia.org/wiki/X4_Health)
+- Amy Abernethy — [Wikipedia](https://en.wikipedia.org/wiki/Amy_Abernethy)
+- Laura Adams — [Wikipedia](https://en.wikipedia.org/wiki/Laura_Adams)
+- Atul Butte — [Wikipedia](https://en.wikipedia.org/wiki/Atul_Butte)
+- ResMed — [Wikipedia](https://en.wikipedia.org/wiki/ResMed)
+- Google Health — [Wikipedia](https://en.wikipedia.org/wiki/Google_Health)
+- Microsoft Corporation — [Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Corporation)
+- John Halamka — [Wikipedia](https://en.wikipedia.org/wiki/John_Halamka)
+- Eric Topol — [Wikipedia](https://en.wikipedia.org/wiki/Eric_Topol)

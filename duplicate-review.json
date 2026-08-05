@@ -1,0 +1,332 @@
+[
+  {
+    "left": "conversational-interface",
+    "right": "conversational-interfaces",
+    "score": 0.98
+  },
+  {
+    "left": "specialized-ai-assistant",
+    "right": "specialized-ai-assistants",
+    "score": 0.98
+  },
+  {
+    "left": "model-context-protocol",
+    "right": "model-context-protocols",
+    "score": 0.978
+  },
+  {
+    "left": "ai-productivity-agent",
+    "right": "ai-productivity-agents",
+    "score": 0.977
+  },
+  {
+    "left": "web-image-integration",
+    "right": "web-images-integration",
+    "score": 0.977
+  },
+  {
+    "left": "large-language-model",
+    "right": "large-language-models",
+    "score": 0.976
+  },
+  {
+    "left": "application-programming-interface-api",
+    "right": "application-programming-interfaces-apis",
+    "score": 0.974
+  },
+  {
+    "left": "deep-learning-model",
+    "right": "deep-learning-models",
+    "score": 0.974
+  },
+  {
+    "left": "photoshop-technique",
+    "right": "photoshop-techniques",
+    "score": 0.974
+  },
+  {
+    "left": "virtual-environment",
+    "right": "virtual-environments",
+    "score": 0.974
+  },
+  {
+    "left": "contextual-task-bar",
+    "right": "contextual-taskbar",
+    "score": 0.973
+  },
+  {
+    "left": "local-ai-assistant",
+    "right": "local-ai-assistants",
+    "score": 0.973
+  },
+  {
+    "left": "open-weight-model",
+    "right": "open-weight-models",
+    "score": 0.971
+  },
+  {
+    "left": "no-code-ai-agent",
+    "right": "no-code-ai-agents",
+    "score": 0.97
+  },
+  {
+    "left": "ai-coding-model",
+    "right": "ai-coding-models",
+    "score": 0.968
+  },
+  {
+    "left": "embedding-model",
+    "right": "embedding-models",
+    "score": 0.968
+  },
+  {
+    "left": "package-manager",
+    "right": "package-managers",
+    "score": 0.968
+  },
+  {
+    "left": "reasoning-model",
+    "right": "reasoning-models",
+    "score": 0.968
+  },
+  {
+    "left": "vector-database",
+    "right": "vector-databases",
+    "score": 0.968
+  },
+  {
+    "left": "agentic-system",
+    "right": "agentic-systems",
+    "score": 0.966
+  },
+  {
+    "left": "context-window",
+    "right": "context-windows",
+    "score": 0.966
+  },
+  {
+    "left": "digital-avatar",
+    "right": "digital-avatars",
+    "score": 0.966
+  },
+  {
+    "left": "generative-app",
+    "right": "generative-apps",
+    "score": 0.966
+  },
+  {
+    "left": "graph-database",
+    "right": "graph-databases",
+    "score": 0.966
+  },
+  {
+    "left": "instruct-model",
+    "right": "instruct-models",
+    "score": 0.966
+  },
+  {
+    "left": "knowledge-base",
+    "right": "knowledge-bases",
+    "score": 0.966
+  },
+  {
+    "left": "neural-network",
+    "right": "neural-networks",
+    "score": 0.966
+  },
+  {
+    "left": "terminal-coder",
+    "right": "terminal-coders",
+    "score": 0.966
+  },
+  {
+    "left": "turing-machine",
+    "right": "turing-machines",
+    "score": 0.966
+  },
+  {
+    "left": "number-system",
+    "right": "number-systems",
+    "score": 0.963
+  },
+  {
+    "left": "system-prompt",
+    "right": "system-prompts",
+    "score": 0.963
+  },
+  {
+    "left": "masking-tool",
+    "right": "masking-tools",
+    "score": 0.96
+  },
+  {
+    "left": "type-i-error",
+    "right": "type-ii-error",
+    "score": 0.96
+  },
+  {
+    "left": "winter-storm",
+    "right": "winter-storms",
+    "score": 0.96
+  },
+  {
+    "left": "algorithm-optimization",
+    "right": "algorithmic-optimization",
+    "score": 0.957
+  },
+  {
+    "left": "cloud-agent",
+    "right": "cloud-agents",
+    "score": 0.957
+  },
+  {
+    "left": "instant-auto-compacting",
+    "right": "instant-auto-compaction",
+    "score": 0.957
+  },
+  {
+    "left": "open-weight",
+    "right": "open-weights",
+    "score": 0.957
+  },
+  {
+    "left": "scaling-law",
+    "right": "scaling-laws",
+    "score": 0.957
+  },
+  {
+    "left": "data-table",
+    "right": "data-tables",
+    "score": 0.952
+  },
+  {
+    "left": "mcp-server",
+    "right": "mcp-servers",
+    "score": 0.952
+  },
+  {
+    "left": "qwen-model",
+    "right": "qwen3-model",
+    "score": 0.952
+  },
+  {
+    "left": "interactive-learning",
+    "right": "iterative-learning",
+    "score": 0.947
+  },
+  {
+    "left": "sub-agents",
+    "right": "subagents",
+    "score": 0.947
+  },
+  {
+    "left": "international-mathematical-olympiad",
+    "right": "international-mathematical-olympiad-imo",
+    "score": 0.946
+  },
+  {
+    "left": "apache-2-license",
+    "right": "apache-2.0-license",
+    "score": 0.941
+  },
+  {
+    "left": "cli-tool",
+    "right": "cli-tools",
+    "score": 0.941
+  },
+  {
+    "left": "graph-rag",
+    "right": "graphrag",
+    "score": 0.941
+  },
+  {
+    "left": "local-ai",
+    "right": "local-api",
+    "score": 0.941
+  },
+  {
+    "left": "autonomous-ai-coding-agent",
+    "right": "autonomous-coding-agent",
+    "score": 0.939
+  },
+  {
+    "left": "shame-resilience",
+    "right": "shame-resiliency",
+    "score": 0.938
+  },
+  {
+    "left": "structured-data",
+    "right": "unstructured-data",
+    "score": 0.938
+  },
+  {
+    "left": "optical-character-recognition",
+    "right": "optical-character-recognition-ocr",
+    "score": 0.935
+  },
+  {
+    "left": "agentic-research",
+    "right": "agentic-search",
+    "score": 0.933
+  },
+  {
+    "left": "apache-2-license",
+    "right": "apache-license",
+    "score": 0.933
+  },
+  {
+    "left": "natural-language-processing",
+    "right": "natural-language-processing-nlp",
+    "score": 0.931
+  },
+  {
+    "left": "cloud-based-ai-services",
+    "right": "cloud-based-services",
+    "score": 0.93
+  },
+  {
+    "left": "claude-opus-41",
+    "right": "claude-opus-45",
+    "score": 0.929
+  },
+  {
+    "left": "memory-b-cells",
+    "right": "memory-t-cells",
+    "score": 0.929
+  },
+  {
+    "left": "ai-powered-slide-generation",
+    "right": "ai-powered-video-generation",
+    "score": 0.926
+  },
+  {
+    "left": "gulf-cooperation-council",
+    "right": "gulf-cooperation-council-gcc",
+    "score": 0.923
+  },
+  {
+    "left": "personal-ai-assistant",
+    "right": "personal-assistant",
+    "score": 0.923
+  },
+  {
+    "left": "timbre",
+    "right": "timbres",
+    "score": 0.923
+  },
+  {
+    "left": "custom-ai-assistants",
+    "right": "custom-assistants",
+    "score": 0.919
+  },
+  {
+    "left": "ai-content-creation",
+    "right": "content-creation",
+    "score": 0.914
+  },
+  {
+    "left": "performance-benchmarking",
+    "right": "performance-benchmarks",
+    "score": 0.913
+  }
+]

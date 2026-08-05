@@ -1,0 +1,35 @@
+---
+type: concept
+domain: creative-pursuits
+tags:
+  - "image-generation"
+  - "character-consistency"
+  - "json-prompting"
+  - "ai-storyboarding"
+  - "visual-continuity"
+  - "structured-data"
+aliases:
+  - "Character Consistency in AI Images"
+  - "Structured Image Prompting"
+  - "AI Visual Continuity Techniques"
+  - "Repeatable Generative Art Methods"
+summary: Techniques for maintaining character identity, artistic style, and object permanence across generative models using JSON-driven prompting and structured data.
+updated: 2026-07-11
+group: ai-image-generation-editing
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-11" }
+---
+<!-- domain-nav -->
+> domain-badge slug=creative-pursuits name=Creative Pursuits
+
+# Consistent Image Generation
+
+Methods and methodologies designed to maintain visual [[concepts/continuity|continuity]]—including [[concepts/integrity|character]] identity, artistic [[concepts/style|style]], environmental lighting, and [[concepts/object-permanence|object permanence]]—across multiple outputs from [[concepts/tts-model|generative models]].
+
+### Key Workflows & Techniques
+- **[[concepts/json]]-Driven [[concepts/prompting|Prompting]]**: Utilizing [[concepts/json]] structures to define and lock specific visual parameters, ensuring repeatable results across [[entities/dall-e-3|DALL-E 3]] and [[entities/gemini]] sessions.
+    - Employs specialized [[concepts/custom-gpts|custom GPTs]] (e.g., "JSON Image [[concepts/creator|Creator]] V.3") to automate the generation of [[concepts/structured-data|structured data]] for precise control.
+    - Facilitates advanced Storyboarding by providing a standardized framework for sequential image creation.
+    - Reference: 2026 04 26 [[concepts/gemini|Gemini]] and DALL E 3 Workflow [[concepts/ai-storyboarding|Consistent AI Image Generation Using JSON]]
+## Source Notes
+- 2026-04-19: [[lab-notes/2026-04-19-Qwen-36-35B-Full-Precision-vs-Ollama-Quantized-Performance-Memory-Trad|Qwen 36 35B Full Precision vs Ollama Quantized Performance Memory Trad]] · [▶ source](https://www.youtube.com/watch?v=RlGppgMDl9k)
+- 2026-04-25: [[lab-notes/2026-04-25-Advanced-AI-Video-Production-Using-GPT-Image-2-and-Iterative-Prompt-Engineering|Advanced AI Video Production Using GPT Image 2 and Iterative Prompt Engineering]] · [▶ source](https://www.youtube.com/watch?v=XdQq90Ug8eY)

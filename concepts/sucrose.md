@@ -1,0 +1,37 @@
+---
+type: concept
+domain: food-nutrition
+tags:
+  - "concept"
+  - "carbohydrate"
+  - "commodity-history"
+  - "colonial-trade"
+  - "sugar-production"
+aliases:
+  - "table sugar"
+  - "saccharose"
+summary: A disaccharide with a documented history spanning from ancient origins through colonial trade networks.
+updated: 2026-07-12
+group: food-science-nutrition-ingredients
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-12" }
+---
+<!-- domain-nav -->
+> domain-badge slug=food-nutrition name=Food & Nutrition
+
+# Sucrose
+
+Sucrose is a disaccharide composed of one glucose molecule and one fructose molecule bonded together. It is the primary form of [[concepts/sugar|sugar]] produced by sugarcane and [[concepts/sugar-beets|sugar beets]], and occurs naturally in many fruits and plants. As a carbohydrate, sucrose serves as an [[concepts/energy-source|energy source]] in both plant [[concepts/yeast-fermentation|metabolism]] and human [[concepts/diet|diet]].
+
+## Historical Development
+
+Sugar production from sugarcane originated in New Guinea and spread to [[entities/india|India]] around 5000 BCE, where early refining techniques were developed. Arab traders introduced sugar cane [[concepts/agriculture|cultivation]] to the Mediterranean region during the medieval period. The technology and knowledge of sugar production gradually diffused westward through trade networks, becoming increasingly refined over centuries. European demand for sugar grew substantially during the early modern period, driving agricultural expansion.
+
+## Colonial Era and Trade
+
+The establishment of sugar plantations in Caribbean colonies during the 16th and 17th centuries transformed sucrose from a luxury commodity into a mass-market product. Colonial sugar production relied heavily on enslaved labor, making sucrose deeply intertwined with the [[concepts/transatlantic-slave-trade|transatlantic slave trade]]. This system of production persisted for over two centuries, fundamentally shaping colonial economies, Atlantic trade networks, and demographic patterns across multiple continents.
+
+## Modern Production
+
+Today, sucrose is produced industrially from sugarcane in tropical regions and from sugar beets in temperate climates. It remains widely used as a sweetener in food and [[concepts/beverage-manufacturing|beverage manufacturing]], though consumption patterns and [[concepts/health|health]] discussions around refined sugar have evolved significantly in recent decades.
+## Source Notes
+- 2026-04-07: A Brief History of Sugar

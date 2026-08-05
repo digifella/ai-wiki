@@ -1,0 +1,47 @@
+---
+type: entity
+tags:
+  - "media"
+  - "productivity"
+  - "automation"
+  - "digital-audio"
+  - "subscription-services"
+  - "on-demand-media"
+aliases:
+  - "podcasting"
+  - "digital audio series"
+summary: Podcasts are digital audio files, typically part of a series, that users can download and listen to at their convenience.
+updated: 2026-07-12
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-12" }
+---
+# Podcasts
+
+## Overview
+Podcasts are digital [[concepts/audio-modality|audio]] files, typically part of a series, that users can download and listen to at their convenience. They cover a wide range of topics, including news, education, entertainment, and more.
+
+## Key Features
+- **On-demand listening**: Users can subscribe and download episodes.
+- **Diverse content**: Covers various genres and topics.
+- **[[concepts/accessibility|Accessibility]]**: Available on multiple platforms like [[entities/spotify]], [[entities/apple|Apple]] Podcasts, and [[concepts/google-search|Google]] Podcasts.
+
+## Benefits
+- **Educational**: Many podcasts provide in-depth information on specific subjects.
+- **Entertainment**: Offers a variety of shows for leisure.
+- **Flexibility**: Can be listened to anytime, anywhere.
+
+## Challenges
+- **Time-consuming**: Listening to multiple episodes can be time-intensive.
+- **[[concepts/information-overload|Information overload]]**: Keeping up with multiple podcasts can be overwhelming.
+
+## Tools and Automation
+- **Automated [[concepts/automated-workflow|podcast summary agent]]**: This might help you get some time back. 2026 04 14 Automated [[concepts/automated-summary-agent|podcast summary agent]] this might help you get some time back
+
+## Related Entities
+- [[concepts/audio|Audio]] Content
+- Digital Media
+- Subscription Services
+
+## Backlinks
+- 2026 04 14 Automated [[concepts/automated-workflow|podcast summary agent]] this might help you get some time back
+## Source Notes
+- 2026-04-07: [[lab-notes/2026-04-07-CLI-Tools-for-Enhancing-Claude-Code-AI-Capabilities-and-Workflow|CLI Tools for Enhancing Claude Code AI Capabilities and Workflow]] · [▶ source](https://www.youtube.com/watch?v=uULvhQrKB_c)
