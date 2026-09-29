@@ -1,13 +1,17 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import style from "../styles/listPage.scss"
 import { PageList, SortFn } from "../PageList"
-import { FullSlug, getAllSegmentPrefixes, resolveRelative, simplifySlug } from "../../util/path"
+import { FullSlug, resolveRelative, simplifySlug } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
+
+import { indexTags } from "../../util/tagIndex"
+
+const tagIndexes = new WeakMap<QuartzPluginData[], ReturnType<typeof indexTags>>()
 
 interface TagContentOptions {
   sort?: SortFn
@@ -30,10 +34,13 @@ export default ((opts?: Partial<TagContentOptions>) => {
     }
 
     const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
-    const allPagesWithTag = (tag: string) =>
-      allFiles.filter((file) =>
-        (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
-      )
+    let index = tagIndexes.get(allFiles)
+    if (!index) {
+      index = indexTags(allFiles)
+      tagIndexes.set(allFiles, index)
+    }
+    const { pagesByTag, pagesBySlug } = index
+    const allPagesWithTag = (tag: string) => pagesByTag.get(tag) ?? []
 
     const content = (
       (tree as Root).children.length === 0
@@ -43,15 +50,8 @@ export default ((opts?: Partial<TagContentOptions>) => {
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
     if (tag === "/") {
-      const tags = [
-        ...new Set(
-          allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
-        ),
-      ].sort((a, b) => a.localeCompare(b))
-      const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
-      for (const tag of tags) {
-        tagItemMap.set(tag, allPagesWithTag(tag))
-      }
+      const tags = [...pagesByTag.keys()].sort((a, b) => a.localeCompare(b))
+      const tagItemMap = pagesByTag
       return (
         <div class="popover-hint">
           <article class={classes}>
@@ -66,7 +66,7 @@ export default ((opts?: Partial<TagContentOptions>) => {
                 allFiles: pages,
               }
 
-              const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`).at(0)
+              const contentPage = pagesBySlug.get(`tags/${tag}`)
 
               const root = contentPage?.htmlAst
               const content =
