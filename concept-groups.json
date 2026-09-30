@@ -5723,6 +5723,10 @@
     "domain": "AI & Agents",
     "group": "Coding Agents & Dev Workflows"
   },
+  "cable-compatibility": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
+  },
   "cable-shape": {
     "domain": "History & Anthropology",
     "group": "Everyday Objects & Material Culture"
@@ -14915,6 +14919,10 @@
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
+  "high-pressure-ice-phases": {
+    "domain": "Science, Physics & Research",
+    "group": "Materials Chemistry & Mechanisms"
+  },
   "high-priority-issue-resolution": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -22731,6 +22739,10 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
+  "performance-specifications": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
+  },
   "performance-testing": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
@@ -22950,6 +22962,10 @@
   "phase-3-trial": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
+  },
+  "phase-diagram": {
+    "domain": "Science, Physics & Research",
+    "group": "Materials Chemistry & Mechanisms"
   },
   "phenomenological-analysis": {
     "domain": "Health & Wellbeing",
@@ -30219,6 +30235,10 @@
     "domain": "Earth Systems, Geology & Climate",
     "group": "Geology Rocks & Minerals"
   },
+  "treedux-usb-cable-tester": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
+  },
   "trianna": {
     "domain": "Cosmology & Space",
     "group": "Cosmology Astronomy & Astrophysics"
@@ -31672,6 +31692,10 @@
     "group": "Climate Environment & Surface Systems"
   },
   "water-cycle-simulation": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
+  },
+  "water-density-anomaly": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
   },
