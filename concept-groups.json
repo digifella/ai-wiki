@@ -7539,6 +7539,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
+  "complex-coding-workflows": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
   "complex-document-comprehension": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
@@ -7922,6 +7926,10 @@
   "containerization-technology": {
     "domain": "Undecided",
     "group": "Needs Review"
+  },
+  "containment-breaches": {
+    "domain": "AI & Agents",
+    "group": "Safety Guardrails & Governance"
   },
   "content-automation": {
     "domain": "Business & Strategy",
@@ -12246,6 +12254,10 @@
   "family-engagement": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
+  },
+  "fan-out-architecture": {
+    "domain": "History & Anthropology",
+    "group": "Architecture Cities & Heritage"
   },
   "farah-jama-principle": {
     "domain": "Philosophy, Ethics & Religion",
@@ -19931,6 +19943,10 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
+  "model-pausing": {
+    "domain": "AI & Agents",
+    "group": "Safety Guardrails & Governance"
+  },
   "model-performance": {
     "domain": "AI & Agents",
     "group": "Anthropic & Claude"
@@ -22810,6 +22826,10 @@
   "personal-ai-assistant": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "personal-ai-framework": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
   },
   "personal-ai-infrastructure": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -30386,6 +30406,10 @@
   "ultrasonic-ndt": {
     "domain": "Undecided",
     "group": "Needs Review"
+  },
+  "unaligned-behaviors": {
+    "domain": "AI & Agents",
+    "group": "Safety Guardrails & Governance"
   },
   "unauthorized-ai-deployments": {
     "domain": "Tools, Platforms & Infrastructure",
