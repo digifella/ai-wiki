@@ -983,10 +983,6 @@
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
   },
-  "agent-loops": {
-    "domain": "AI & Agents",
-    "group": "Agent Systems & Skills"
-  },
   "agent-mode": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -1328,10 +1324,6 @@
     "group": "AI Foundations & Concepts"
   },
   "ai-agent-ecosystem": {
-    "domain": "AI & Agents",
-    "group": "AI Foundations & Concepts"
-  },
-  "ai-agent-efficiency": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
@@ -7547,10 +7539,6 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
-  "complex-coding-workflows": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Developer Tooling & CLIs"
-  },
   "complex-document-comprehension": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
@@ -7934,10 +7922,6 @@
   "containerization-technology": {
     "domain": "Undecided",
     "group": "Needs Review"
-  },
-  "containment-breaches": {
-    "domain": "AI & Agents",
-    "group": "Safety Guardrails & Governance"
   },
   "content-automation": {
     "domain": "Business & Strategy",
@@ -12262,10 +12246,6 @@
   "family-engagement": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
-  },
-  "fan-out-architecture": {
-    "domain": "History & Anthropology",
-    "group": "Architecture Cities & Heritage"
   },
   "farah-jama-principle": {
     "domain": "Philosophy, Ethics & Religion",
@@ -17883,10 +17863,6 @@
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
   },
-  "llm-overuse": {
-    "domain": "AI & Agents",
-    "group": "Model Efficiency & Compression"
-  },
   "llm-program-improvement": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -19955,10 +19931,6 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
-  "model-pausing": {
-    "domain": "AI & Agents",
-    "group": "Safety Guardrails & Governance"
-  },
   "model-performance": {
     "domain": "AI & Agents",
     "group": "Anthropic & Claude"
@@ -21983,10 +21955,6 @@
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
   },
-  "openjev": {
-    "domain": "Undecided",
-    "group": "Needs Review"
-  },
   "openvino-optimization": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -22842,10 +22810,6 @@
   "personal-ai-assistant": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
-  },
-  "personal-ai-framework": {
-    "domain": "AI & Agents",
-    "group": "Open Systems & Local Models"
   },
   "personal-ai-infrastructure": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -25107,10 +25071,6 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
-  "reasoning-loop": {
-    "domain": "AI & Agents",
-    "group": "Reasoning Context & Prompting"
-  },
   "reasoning-model": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
@@ -25851,10 +25811,6 @@
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
   },
-  "safety-checks": {
-    "domain": "AI & Agents",
-    "group": "Safety Guardrails & Governance"
-  },
   "safety-concerns": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
@@ -26244,10 +26200,6 @@
     "group": "Applied AI Workflows"
   },
   "search-relevance": {
-    "domain": "AI & Agents",
-    "group": "Applied AI Workflows"
-  },
-  "search-result-reranking": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
@@ -28343,10 +28295,6 @@
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
-  "structured-decision-models": {
-    "domain": "AI & Agents",
-    "group": "Model Efficiency & Compression"
-  },
   "structured-inputs": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -28866,10 +28814,6 @@
   "system-1-classification": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
-  },
-  "system-1-harness": {
-    "domain": "AI & Agents",
-    "group": "Agent Systems & Skills"
   },
   "system-1-model": {
     "domain": "AI & Agents",
@@ -30143,10 +30087,6 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
-  "training-evaluation": {
-    "domain": "Entertainment & Games",
-    "group": "Sports Science Training & Recovery"
-  },
   "training-process": {
     "domain": "Entertainment & Games",
     "group": "Sports Science Training & Recovery"
@@ -30446,10 +30386,6 @@
   "ultrasonic-ndt": {
     "domain": "Undecided",
     "group": "Needs Review"
-  },
-  "unaligned-behaviors": {
-    "domain": "AI & Agents",
-    "group": "Safety Guardrails & Governance"
   },
   "unauthorized-ai-deployments": {
     "domain": "Tools, Platforms & Infrastructure",
