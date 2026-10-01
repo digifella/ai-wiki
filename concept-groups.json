@@ -2623,10 +2623,6 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
-  "ai-powered-cyberattacks": {
-    "domain": "AI & Agents",
-    "group": "Applied AI Workflows"
-  },
   "ai-powered-data-extraction": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -3042,10 +3038,6 @@
   "ai-translator-prompt": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
-  },
-  "ai-trust": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Privacy Security & Guardrails"
   },
   "ai-ultra-subscription": {
     "domain": "Business & Strategy",
@@ -9043,10 +9035,6 @@
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
-  "cybersecurity-principles": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Privacy Security & Guardrails"
-  },
   "cybersecurity-threats": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Privacy Security & Guardrails"
@@ -9098,10 +9086,6 @@
   "dark-matter-mystery": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
-  },
-  "dark-sourcery": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Privacy Security & Guardrails"
   },
   "dark-stars": {
     "domain": "Science, Physics & Research",
@@ -10602,6 +10586,10 @@
   "doneness-control": {
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
+  },
+  "dots-agent": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "downstream-processes": {
     "domain": "Business & Strategy",
@@ -17887,10 +17875,6 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
-  "llm-hacking": {
-    "domain": "AI & Agents",
-    "group": "Model Efficiency & Compression"
-  },
   "llm-hallucination": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -22923,6 +22907,10 @@
     "domain": "Maths, Logic & Crypto",
     "group": "Number Theory & Prime Numbers"
   },
+  "personal-ai-agent": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "personal-ai-assistant": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -25962,6 +25950,10 @@
   "safety-protocol": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
+  },
+  "safety-verification": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
   },
   "safetybias": {
     "domain": "AI & Agents",
@@ -29219,10 +29211,6 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
-  "task-splitting": {
-    "domain": "AI & Agents",
-    "group": "Coding Agents & Dev Workflows"
-  },
   "taskmanagermd": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -30248,10 +30236,6 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "training-evaluation": {
-    "domain": "Entertainment & Games",
-    "group": "Sports Science Training & Recovery"
-  },
-  "training-pauses": {
     "domain": "Entertainment & Games",
     "group": "Sports Science Training & Recovery"
   },
