@@ -27,6 +27,10 @@
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
   },
+  "12b-parameter-model": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
   "14b-parameter-model": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -2346,6 +2350,10 @@
   "ai-licensing": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "ai-lighting-manipulation": {
+    "domain": "Creative Pursuits",
+    "group": "Photoshop & Layer Workflows"
   },
   "ai-likeness": {
     "domain": "AI & Agents",
@@ -5811,6 +5819,10 @@
     "domain": "Creative Pursuits",
     "group": "Photography & Cameras"
   },
+  "camera-captured-documents": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Data Pipelines Sync & Storage"
+  },
   "camera-performance": {
     "domain": "Creative Pursuits",
     "group": "Photography & Cameras"
@@ -6800,6 +6812,10 @@
     "group": "Platforms Runtimes & Environments"
   },
   "cloud-based-ai-services": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
+  },
+  "cloud-based-computer": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Platforms Runtimes & Environments"
   },
@@ -9911,6 +9927,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "developer-apis": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "APIs Integrations & MCP"
+  },
   "developer-platforms": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
@@ -10871,6 +10891,10 @@
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
+  "early-access": {
+    "domain": "AI & Agents",
+    "group": "OpenAI / ChatGPT"
+  },
   "early-fungi": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
@@ -11604,6 +11628,10 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "enterprise-integration": {
+    "domain": "Business & Strategy",
+    "group": "Enterprise Strategy & Future Work"
+  },
+  "enterprise-productivity": {
     "domain": "Business & Strategy",
     "group": "Enterprise Strategy & Future Work"
   },
@@ -13135,6 +13163,10 @@
     "domain": "Biology & Life Sciences",
     "group": "Evolution Ecology & Natural Systems"
   },
+  "fusion-energy-startups": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
+  },
   "fusion-power": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
@@ -14103,6 +14135,10 @@
     "domain": "AI & Agents",
     "group": "OpenAI / ChatGPT"
   },
+  "gpt-61": {
+    "domain": "AI & Agents",
+    "group": "OpenAI / ChatGPT"
+  },
   "gpt-image-20-workflow": {
     "domain": "AI & Agents",
     "group": "OpenAI / ChatGPT"
@@ -14331,6 +14367,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
   },
+  "grid-view": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
   "grids": {
     "domain": "UX & Design",
     "group": "Typography & Layout"
@@ -14543,6 +14583,10 @@
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
   },
+  "hardware-capabilities": {
+    "domain": "Science, Physics & Research",
+    "group": "Engineering Systems, Robotics & Autonomous Vehicles"
+  },
   "hardware-centric-ai-strategy": {
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
@@ -14550,6 +14594,10 @@
   "hardware-centric-strategy": {
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
+  },
+  "hardware-classification": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Web Publishing Quartz & Websites"
   },
   "hardware-company": {
     "domain": "Science, Physics & Research",
@@ -15184,6 +15232,10 @@
     "group": "Lightroom & Color Workflows"
   },
   "html-simulation": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Web Publishing Quartz & Websites"
+  },
+  "html-tables": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
   },
@@ -16983,6 +17035,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "kitchen-analogy": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
+  },
   "knowing-versus-understanding": {
     "domain": "Philosophy, Ethics & Religion",
     "group": "Philosophy Ethics & Metaphysics"
@@ -17563,6 +17619,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "light-source-generation": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
+  },
   "light-web": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
@@ -18051,6 +18111,10 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
+  "local-ai-model": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
   "local-ai-optimization": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -18106,6 +18170,10 @@
   "local-computer-integration": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
+  },
+  "local-computer-interaction": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "local-computer-task-execution": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -18987,6 +19055,10 @@
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
   },
+  "match-exposure": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
   "material-damping": {
     "domain": "Science, Physics & Research",
     "group": "Materials Chemistry & Mechanisms"
@@ -19538,6 +19610,10 @@
   "microbiome-health": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
+  },
+  "microcontrollers": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
   },
   "microgravity-manufacturing": {
     "domain": "Cosmology & Space",
@@ -22959,6 +23035,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Platforms Runtimes & Environments"
   },
+  "personal-memory": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
+  },
   "personal-qualities": {
     "domain": "Business & Strategy",
     "group": "Enterprise Strategy & Future Work"
@@ -23394,6 +23474,10 @@
   "plot-outlining": {
     "domain": "Creative Pursuits",
     "group": "Writing & Publishing"
+  },
+  "plugin-compatibility": {
+    "domain": "AI & Agents",
+    "group": "OpenAI / ChatGPT"
   },
   "plugin-library": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -24063,9 +24147,17 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Privacy Security & Guardrails"
   },
+  "proactive-ai-assistant": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "proactive-restocking": {
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
+  },
+  "proactive-task-management": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "probabilistic-ai-agents": {
     "domain": "AI & Agents",
@@ -24282,6 +24374,10 @@
   "project-gemini": {
     "domain": "AI & Agents",
     "group": "Google AI Ecosystem"
+  },
+  "project-ideation": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
   },
   "project-knowledge-retention": {
     "domain": "AI & Agents",
@@ -25398,6 +25494,10 @@
   "reliable-automation": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
+  },
+  "relight-layer": {
+    "domain": "Creative Pursuits",
+    "group": "Photoshop & Layer Workflows"
   },
   "religious-tolerance": {
     "domain": "Health & Wellbeing",
@@ -26798,6 +26898,10 @@
   "session-management": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Platforms Runtimes & Environments"
+  },
+  "session-orchestration": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "session-renaming": {
     "domain": "AI & Agents",
@@ -29339,6 +29443,10 @@
     "domain": "AI & Agents",
     "group": "AI Futures & Self-Improvement"
   },
+  "technological-viability": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
+  },
   "technology-for-all": {
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
@@ -29374,6 +29482,10 @@
   "telehealth-systems": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
+  },
+  "teleocr": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
   },
   "teleoperated-robot-control": {
     "domain": "Science, Physics & Research",
@@ -30606,6 +30718,10 @@
   "understanding-the-physical-world": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
+  },
+  "undockable-panels": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
   },
   "unfiltered-biases": {
     "domain": "AI & Agents",
