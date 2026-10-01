@@ -29219,6 +29219,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "task-splitting": {
+    "domain": "AI & Agents",
+    "group": "Coding Agents & Dev Workflows"
+  },
   "taskmanagermd": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -30244,6 +30248,10 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "training-evaluation": {
+    "domain": "Entertainment & Games",
+    "group": "Sports Science Training & Recovery"
+  },
+  "training-pauses": {
     "domain": "Entertainment & Games",
     "group": "Sports Science Training & Recovery"
   },
