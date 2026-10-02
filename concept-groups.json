@@ -17603,6 +17603,10 @@
     "domain": "AI & Agents",
     "group": "AI Futures & Self-Improvement"
   },
+  "lexical-scoring-function": {
+    "domain": "Health & Wellbeing",
+    "group": "Body Systems Recovery & Function"
+  },
   "lfp-battery": {
     "domain": "Science, Physics & Research",
     "group": "Materials Chemistry & Mechanisms"
@@ -19320,6 +19324,10 @@
     "group": "Video & Content Systems"
   },
   "media-history": {
+    "domain": "Creative Pursuits",
+    "group": "Video & Content Systems"
+  },
+  "media-management": {
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
@@ -29247,6 +29255,10 @@
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
   },
+  "system-utilities": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
+  },
   "system-wiring": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -30162,6 +30174,10 @@
   "time-travel-fiction": {
     "domain": "Travels & Journeys",
     "group": "Journeys Routes & Itineraries"
+  },
+  "time-zone-settings": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
   },
   "timekeeping-accuracy": {
     "domain": "AI & Agents",
