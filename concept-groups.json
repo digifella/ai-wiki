@@ -295,10 +295,6 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
-  "27-billion-parameter-model": {
-    "domain": "AI & Agents",
-    "group": "Model Efficiency & Compression"
-  },
   "2d-grid-simulation": {
     "domain": "Science, Physics & Research",
     "group": "Scientific Modelling & Discovery"
@@ -470,6 +466,10 @@
   "abiogenesis": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Geology Rocks & Minerals"
+  },
+  "above-average-temperatures": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
   },
   "abraham-louis-breguet": {
     "domain": "History & Anthropology",
@@ -5811,10 +5811,6 @@
     "domain": "AI & Agents",
     "group": "AI Futures & Self-Improvement"
   },
-  "calibrated-probabilities": {
-    "domain": "AI & Agents",
-    "group": "AI Foundations & Concepts"
-  },
   "calorie-count": {
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
@@ -6750,6 +6746,10 @@
   "climate-modelling-data-reports": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
+  },
+  "climate-outlook": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
   },
   "climate-resilience": {
     "domain": "Health & Wellbeing",
@@ -15727,10 +15727,6 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
-  "image-recognition": {
-    "domain": "AI & Agents",
-    "group": "Multimodal & Generative Media"
-  },
   "image-resolution": {
     "domain": "Creative Pursuits",
     "group": "Photoshop & Layer Workflows"
@@ -16959,10 +16955,6 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
-  "json-data-processing": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Data Pipelines Sync & Storage"
-  },
   "json-format": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
@@ -17619,10 +17611,6 @@
     "domain": "AI & Agents",
     "group": "AI Futures & Self-Improvement"
   },
-  "lexical-scoring-function": {
-    "domain": "Health & Wellbeing",
-    "group": "Body Systems Recovery & Function"
-  },
   "lfp-battery": {
     "domain": "Science, Physics & Research",
     "group": "Materials Chemistry & Mechanisms"
@@ -17988,10 +17976,6 @@
     "group": "Model Efficiency & Compression"
   },
   "llm-data-ingestion": {
-    "domain": "AI & Agents",
-    "group": "Model Efficiency & Compression"
-  },
-  "llm-driven-search": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
@@ -18510,6 +18494,10 @@
   "long-ramble-session": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
+  },
+  "long-range-forecast": {
+    "domain": "Science, Physics & Research",
+    "group": "Scientific Modelling & Discovery"
   },
   "long-range-strike-campaign": {
     "domain": "Science, Physics & Research",
@@ -19344,10 +19332,6 @@
     "group": "Video & Content Systems"
   },
   "media-history": {
-    "domain": "Creative Pursuits",
-    "group": "Video & Content Systems"
-  },
-  "media-management": {
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
@@ -21366,10 +21350,6 @@
   "non-destructive-workflow": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
-  },
-  "non-generative-ai": {
-    "domain": "AI & Agents",
-    "group": "Multimodal & Generative Media"
   },
   "non-invasive-imaging": {
     "domain": "Science, Physics & Research",
@@ -24987,10 +24967,6 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
-  "query-formulation": {
-    "domain": "AI & Agents",
-    "group": "Agent Systems & Skills"
-  },
   "question-asking-approach": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
@@ -25171,6 +25147,10 @@
     "domain": "Earth Systems, Geology & Climate",
     "group": "Geology Rocks & Minerals"
   },
+  "rainfall-trends": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
+  },
   "ralph-ai-coding-technique": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
@@ -25226,10 +25206,6 @@
   "rapid-implementation": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
-  },
-  "rapid-inference": {
-    "domain": "AI & Agents",
-    "group": "Model Efficiency & Compression"
   },
   "rapid-prototyping": {
     "domain": "UX & Design",
@@ -25514,6 +25490,10 @@
   "regexreplace": {
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
+  },
+  "regional-differences": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
   },
   "regional-security": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -28655,10 +28635,6 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
-  "structured-input-analysis": {
-    "domain": "AI & Agents",
-    "group": "Multimodal & Generative Media"
-  },
   "structured-inputs": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -29291,10 +29267,6 @@
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
   },
-  "system-utilities": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Devices Access & Networks"
-  },
   "system-wiring": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -29442,6 +29414,10 @@
   "task-splitting": {
     "domain": "AI & Agents",
     "group": "Coding Agents & Dev Workflows"
+  },
+  "taskbar-customization": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
   },
   "taskmanagermd": {
     "domain": "AI & Agents",
@@ -29658,6 +29634,10 @@
   "temperature-slider": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
+  },
+  "temperature-trends": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
   },
   "templates": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -30210,10 +30190,6 @@
   "time-travel-fiction": {
     "domain": "Travels & Journeys",
     "group": "Journeys Routes & Itineraries"
-  },
-  "time-zone-settings": {
-    "domain": "Tools, Platforms & Infrastructure",
-    "group": "Devices Access & Networks"
   },
   "timekeeping-accuracy": {
     "domain": "AI & Agents",
