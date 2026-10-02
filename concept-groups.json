@@ -343,6 +343,10 @@
     "domain": "Creative Pursuits",
     "group": "Interactive Visualisation"
   },
+  "3d-generation": {
+    "domain": "Creative Pursuits",
+    "group": "Interactive Visualisation"
+  },
   "3d-intelligence-console": {
     "domain": "Creative Pursuits",
     "group": "Interactive Visualisation"
@@ -13252,6 +13256,10 @@
     "group": "Physics & Fundamental Theory"
   },
   "gaming": {
+    "domain": "Entertainment & Games",
+    "group": "Video Games Esports & Platforms"
+  },
+  "gaming-performance": {
     "domain": "Entertainment & Games",
     "group": "Video Games Esports & Platforms"
   },
@@ -28099,6 +28107,10 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
+  "speed-tier": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
   "speed-vs-intelligence": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -30178,6 +30190,10 @@
   "token-consumption": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "token-cost": {
+    "domain": "Business & Strategy",
+    "group": "Products Operations & Business Economics"
   },
   "token-economy": {
     "domain": "AI & Agents",
