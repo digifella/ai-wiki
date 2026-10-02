@@ -5315,6 +5315,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "biological-sequence-analysis": {
+    "domain": "AI & Agents",
+    "group": "Safety Guardrails & Governance"
+  },
   "biology-researchers": {
     "domain": "Biology & Life Sciences",
     "group": "Evolution Ecology & Natural Systems"
@@ -7611,6 +7615,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
+  "complex-cutouts": {
+    "domain": "Creative Pursuits",
+    "group": "Photoshop & Layer Workflows"
+  },
   "complex-document-comprehension": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
@@ -9562,6 +9570,10 @@
   "deep-transformer-networks": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "deepfake-detection": {
+    "domain": "AI & Agents",
+    "group": "Safety Guardrails & Governance"
   },
   "deeply-integrated-code-analysis": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -18443,6 +18455,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
+  "long-exposure-simulation": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
   "long-exposure-techniques": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
@@ -19850,6 +19866,10 @@
   "mirrorless-photography": {
     "domain": "Creative Pursuits",
     "group": "Photography & Cameras"
+  },
+  "misinformation-mitigation": {
+    "domain": "AI & Agents",
+    "group": "Safety Guardrails & Governance"
   },
   "miso-tts-8b": {
     "domain": "AI & Agents",
