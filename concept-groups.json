@@ -2631,6 +2631,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "ai-powered-cyberattacks": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "ai-powered-data-extraction": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -3046,6 +3050,10 @@
   "ai-translator-prompt": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
+  },
+  "ai-trust": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Privacy Security & Guardrails"
   },
   "ai-ultra-subscription": {
     "domain": "Business & Strategy",
@@ -7239,6 +7247,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "collaborative-workspaces": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "collection-management-systems": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Platforms Runtimes & Environments"
@@ -7710,6 +7722,10 @@
   "computational-testing": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
+  },
+  "computational-tokens": {
+    "domain": "AI & Agents",
+    "group": "Reasoning Context & Prompting"
   },
   "compute": {
     "domain": "AI & Agents",
@@ -8236,8 +8252,8 @@
     "group": "Photography & Cameras"
   },
   "continuous-ecosystem": {
-    "domain": "Biology & Life Sciences",
-    "group": "Evolution Ecology & Natural Systems"
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
   },
   "continuous-improvement-loop": {
     "domain": "AI & Agents",
@@ -8506,6 +8522,10 @@
   "cost-efficiency-of-open-source-llms": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "cost-efficient-model": {
+    "domain": "Business & Strategy",
+    "group": "Products Operations & Business Economics"
   },
   "cost-efficient-solutions": {
     "domain": "Business & Strategy",
@@ -9051,6 +9071,10 @@
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
+  "cybersecurity-principles": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Privacy Security & Guardrails"
+  },
   "cybersecurity-threats": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Privacy Security & Guardrails"
@@ -9102,6 +9126,10 @@
   "dark-matter-mystery": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
+  },
+  "dark-sourcery": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Privacy Security & Guardrails"
   },
   "dark-stars": {
     "domain": "Science, Physics & Research",
@@ -9688,8 +9716,8 @@
     "group": "Materials Chemistry & Mechanisms"
   },
   "dentine": {
-    "domain": "Biology & Life Sciences",
-    "group": "Evolution Ecology & Natural Systems"
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
   },
   "deobfuscation": {
     "domain": "AI & Agents",
@@ -17935,6 +17963,10 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
+  "llm-hacking": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
   "llm-hallucination": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -18997,7 +19029,7 @@
   },
   "martian-surface-conditions": {
     "domain": "Earth Systems, Geology & Climate",
-    "group": "Geology Rocks & Minerals"
+    "group": "Climate Environment & Surface Systems"
   },
   "martini-preparation": {
     "domain": "Business & Strategy",
@@ -23576,8 +23608,8 @@
     "group": "Politics Governance & Public Systems"
   },
   "political-dynamics": {
-    "domain": "Society, Politics & Conflict",
-    "group": "Politics Governance & Public Systems"
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Climate Environment & Surface Systems"
   },
   "political-machinations": {
     "domain": "Society, Politics & Conflict",
@@ -23880,6 +23912,10 @@
     "group": "Model Efficiency & Compression"
   },
   "prefill-speed": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
+  "premium-speed-tier": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
@@ -24717,7 +24753,7 @@
   },
   "qanats": {
     "domain": "Earth Systems, Geology & Climate",
-    "group": "Geology Rocks & Minerals"
+    "group": "Climate Environment & Surface Systems"
   },
   "qec-framework": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -25682,6 +25718,10 @@
   "response-generation": {
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
+  },
+  "response-latency": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
   },
   "responsible-ai-use": {
     "domain": "AI & Agents",
@@ -29315,6 +29355,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "task-splitting": {
+    "domain": "AI & Agents",
+    "group": "Coding Agents & Dev Workflows"
+  },
   "taskmanagermd": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -30348,6 +30392,10 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "training-evaluation": {
+    "domain": "Entertainment & Games",
+    "group": "Sports Science Training & Recovery"
+  },
+  "training-pauses": {
     "domain": "Entertainment & Games",
     "group": "Sports Science Training & Recovery"
   },
