@@ -10,60 +10,60 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 15:01:47 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 16:01:34 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 15:01:47 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 16:01:34 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 15:01:47 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 16:01:33 GMT</pubDate>
   </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-04 00:49 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1677 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (228 concepts) Business &amp; Strategy (459 concept... ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:49:00 GMT</pubDate>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-04 01:46 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1677 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (228 concepts) Business &amp; Strategy (459 concept... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 15:46:00 GMT</pubDate>
+  </item><item>
+    <title>06b-parameter-model</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/06b-parameter-model</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/06b-parameter-model</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents 06b Parameter Model A 06b parameter model refers to a compact language model architecture containing approximately 600 million trainable parameters. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>14b-parameter-model</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/14b-parameter-model</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/14b-parameter-model</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents 14b Parameter Model The 14 billion parameter model represents a mid-scale architecture in contemporary neural networks, positioned between smaller efficient models and larger state-of-the-art systems. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>17b-parameter-model</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/17b-parameter-model</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/17b-parameter-model</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents 17b Parameter Model The 17 billion parameter model refers to a machine learning architecture containing approximately 17 billion trainable parameters. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>2026-04-08-anthropic</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/2026-04-08-anthropic</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/2026-04-08-anthropic</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents 2026 04 08 Anthropic Anthropic is an artificial intelligence safety company founded in 2021 by former OpenAI researchers, including Dario and Daniela Amodei. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>2026-04-08-photoshop-renames-all-your-layers-automatically-photoshop</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/2026-04-08-photoshop-renames-all-your-layers-automatically-photoshop</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/2026-04-08-photoshop-renames-all-your-layers-automatically-photoshop</guid>
+    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits 2026 04 08 Photoshop Renames All Your Layers Automatically Photoshop Automatic layer renaming in Adobe Photoshop is a workflow feature designed to assign descriptive names to layers based on their content or function without manual user inp... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>hardware-expandability</title>
     <link>https://digifella.github.io/ai-wiki/concepts/hardware-expandability</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/hardware-expandability</guid>
     <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Expandability Hardware expandability refers to the capacity of a computing system to accommodate increased storage, processing power, memory, or network resources after initial deployment. ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hardware-heavy-models</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hardware-heavy-models</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-heavy-models</guid>
-    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Heavy Models Hardware heavy models refer to Large Language Models (LLMs) or Multimodal LLMs where the primary constraint for deployment is not computational complexity per token, but rather memory bandwidth, VR... ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hardware-limitations</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hardware-limitations</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-limitations</guid>
-    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Limitations in AI Training Hardware limitations significantly impact the performance and feasibility of training advanced machine learning models such as transformers. ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hardware-pricing</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hardware-pricing</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-pricing</guid>
-    <description><![CDATA[  domain-badge slug=business-strategy name=Business &amp; Strategy Hardware Pricing Core Dynamics Decoupling of Cost and Price: Modern hardware pricing often diverges from manufacturing costs due to shifting revenue streams. ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hardware-repurposing</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hardware-repurposing</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-repurposing</guid>
-    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Repurposing Hardware repurposing refers to the practice of reusing existing computer equipment or electronics for new applications rather than purchasing new devices. ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>hardware-requirements</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</guid>
-    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research group: engineering-systems-robotics-autonomous-vehicles Hardware Requirements for MiniMax M2.7 LLM Overview Hardware requirements for deploying the MiniMax M2.7 open-source Large Language Model (LLM) are substantial due... ]]></description>
     <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
