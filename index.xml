@@ -10,19 +10,25 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:01:50 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 15:01:47 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:01:50 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 15:01:47 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:01:50 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 15:01:47 GMT</pubDate>
+  </item><item>
+    <title>INDEX</title>
+    <link>https://digifella.github.io/ai-wiki/INDEX</link>
+    <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-04 00:49 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1677 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (228 concepts) Business &amp; Strategy (459 concept... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:49:00 GMT</pubDate>
   </item><item>
     <title>hardware-expandability</title>
     <link>https://digifella.github.io/ai-wiki/concepts/hardware-expandability</link>
@@ -54,17 +60,11 @@
     <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Repurposing Hardware repurposing refers to the practice of reusing existing computer equipment or electronics for new applications rather than purchasing new devices. ]]></description>
     <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item><item>
-    <title>INDEX</title>
-    <link>https://digifella.github.io/ai-wiki/INDEX</link>
-    <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-03 23:47 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1677 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (227 concepts) Business &amp; Strategy (459 concept... ]]></description>
-    <pubDate>Sat, 03 Oct 2026 13:47:00 GMT</pubDate>
-  </item><item>
-    <title>BM25&#039;s Unreasonable Effectiveness in LLM-Driven Agentic Search</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-BM25s-Unreasonable-Effectiveness-in-LLM-Driven-Agentic-S</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-BM25s-Unreasonable-Effectiveness-in-LLM-Driven-Agentic-S</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents BM25’s Unreasonable Effectiveness in LLM-Driven Agentic Search Clip title: The unreasonable effectiveness of BM25 for agentic search — Jo Kristian Bergum, Hornet.dev Author / channel: AI Engineer URL: www.youtube.com/watch Summary This video by Jo Kr... ]]></description>
-    <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
+    <title>hardware-requirements</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-requirements</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research group: engineering-systems-robotics-autonomous-vehicles Hardware Requirements for MiniMax M2.7 LLM Overview Hardware requirements for deploying the MiniMax M2.7 open-source Large Language Model (LLM) are substantial due... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
