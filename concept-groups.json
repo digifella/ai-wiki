@@ -903,6 +903,10 @@
     "domain": "UX & Design",
     "group": "UI/UX Fundamentals"
   },
+  "afmf": {
+    "domain": "Creative Pursuits",
+    "group": "Photography & Cameras"
+  },
   "aged-care": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
@@ -12838,6 +12842,10 @@
   "focus-mechanism": {
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
+  },
+  "focus-priority": {
+    "domain": "Creative Pursuits",
+    "group": "Photography & Cameras"
   },
   "focus-stacking": {
     "domain": "Creative Pursuits",
@@ -25627,6 +25635,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "release-priority": {
+    "domain": "Creative Pursuits",
+    "group": "Photography & Cameras"
+  },
   "relevant-knowledge": {
     "domain": "Business & Strategy",
     "group": "Enterprise Strategy & Future Work"
@@ -32064,6 +32076,10 @@
     "group": "Developer Tooling & CLIs"
   },
   "vs-code-forks": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
+  "vt220": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
