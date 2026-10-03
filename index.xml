@@ -10,60 +10,60 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 13:02:00 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 14:01:50 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 13:02:00 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 14:01:50 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 13:02:00 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 14:01:50 GMT</pubDate>
+  </item><item>
+    <title>hardware-expandability</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hardware-expandability</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-expandability</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Expandability Hardware expandability refers to the capacity of a computing system to accommodate increased storage, processing power, memory, or network resources after initial deployment. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>hardware-heavy-models</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hardware-heavy-models</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-heavy-models</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Heavy Models Hardware heavy models refer to Large Language Models (LLMs) or Multimodal LLMs where the primary constraint for deployment is not computational complexity per token, but rather memory bandwidth, VR... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>hardware-limitations</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hardware-limitations</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-limitations</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Limitations in AI Training Hardware limitations significantly impact the performance and feasibility of training advanced machine learning models such as transformers. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>hardware-pricing</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hardware-pricing</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-pricing</guid>
+    <description><![CDATA[  domain-badge slug=business-strategy name=Business &amp; Strategy Hardware Pricing Core Dynamics Decoupling of Cost and Price: Modern hardware pricing often diverges from manufacturing costs due to shifting revenue streams. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>hardware-repurposing</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/hardware-repurposing</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/hardware-repurposing</guid>
+    <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Hardware Repurposing Hardware repurposing refers to the practice of reusing existing computer equipment or electronics for new applications rather than purchasing new devices. ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-03 22:52 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1677 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (227 concepts) Business &amp; Strategy (459 concept... ]]></description>
-    <pubDate>Sat, 03 Oct 2026 12:52:00 GMT</pubDate>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-03 23:47 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1677 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (227 concepts) Business &amp; Strategy (459 concept... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 13:47:00 GMT</pubDate>
   </item><item>
     <title>BM25&#039;s Unreasonable Effectiveness in LLM-Driven Agentic Search</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-BM25s-Unreasonable-Effectiveness-in-LLM-Driven-Agentic-S</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-BM25s-Unreasonable-Effectiveness-in-LLM-Driven-Agentic-S</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents BM25’s Unreasonable Effectiveness in LLM-Driven Agentic Search Clip title: The unreasonable effectiveness of BM25 for agentic search — Jo Kristian Bergum, Hornet.dev Author / channel: AI Engineer URL: www.youtube.com/watch Summary This video by Jo Kr... ]]></description>
-    <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Clef 27B: Multimodal AI Decision Model for Structured Input Analysis</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-Clef-27B-Multimodal-AI-Decision-Model-for-Structured-Inp</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-Clef-27B-Multimodal-AI-Decision-Model-for-Structured-Inp</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Clef 27B: Multimodal AI Decision Model for Structured Input Analysis Clip title: Clef 27B Locally: Multimodal Decision-Maker From Text, Images and Video Author / channel: Fahd Mirza URL: www.youtube.com/watch Summary The video introduces Cloudflare’s... ]]></description>
-    <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Karpathy Loop Engineering: AI Agent Autonomous Optimization for Development</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-Karpathy-Loop-Engineering-AI-Agent-Autonomous-Optimizati</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-03-Karpathy-Loop-Engineering-AI-Agent-Autonomous-Optimizati</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Karpathy Loop Engineering: AI Agent Autonomous Optimization for Development Clip title: He Finally 10x Claude Code With This Method Author / channel: AI LABS URL: www.youtube.com/watch Summary This video by AI LABS introduces the concept of “Loop Eng... ]]></description>
-    <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Microsoft FrogNano 4B: Budget AI Debugs Nusantara Ferry Occupancy Bug</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/Business--and--Strategy/Sources/from-lab-notes/2026-10-03-Microsoft-FrogNano-4B-Budget-AI-Debugs-Nusantara-Ferry-O</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/Business--and--Strategy/Sources/from-lab-notes/2026-10-03-Microsoft-FrogNano-4B-Budget-AI-Debugs-Nusantara-Ferry-O</guid>
-    <description><![CDATA[ Microsoft FrogNano 4B: Budget AI Debugs Nusantara Ferry Occupancy Bug Clip title: Microsoft FrogNano 4B for GPU Poor: Budget AI Software Engineer Author / channel: Fahd Mirza URL: www.youtube.com/watch Summary This video introduces Microsoft’s FrogNano, a compact 4-billion-parameter coding agent des... ]]></description>
-    <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Fujifilm AF+MF overrides Focus Priority, causing blurry photos.</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/Creative-Pursuits/Sources/from-lab-notes/2026-10-03-Fujifilm-AFMF-overrides-Focus-Priority-causing-blurry-ph</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/Creative-Pursuits/Sources/from-lab-notes/2026-10-03-Fujifilm-AFMF-overrides-Focus-Priority-causing-blurry-ph</guid>
-    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits Fujifilm AF+MF overrides Focus Priority, causing blurry photos. ]]></description>
-    <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>Windows 11: Enhanced Customization for Taskbar, Start Menu, and Search</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-10-03-Windows-11-Enhanced-Customization-for-Taskbar-Start-Menu</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-10-03-Windows-11-Enhanced-Customization-for-Taskbar-Start-Menu</guid>
-    <description><![CDATA[  domain-badge slug=food-nutrition name=Food &amp; Nutrition Windows 11: Enhanced Customization for Taskbar, Start Menu, and Search Clip title: Windows 11 Just Got WAY More Customizable Author / channel: Kevin Stratvert URL: www.youtube.com/watch Summary When Windows 11 first launched, many users not... ]]></description>
     <pubDate>Fri, 02 Oct 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>
