@@ -295,6 +295,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "27-billion-parameter-model": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
   "2d-grid-simulation": {
     "domain": "Science, Physics & Research",
     "group": "Scientific Modelling & Discovery"
@@ -1300,6 +1304,10 @@
     "group": "AI Foundations & Concepts"
   },
   "ai-agent-automation": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
+  "ai-agent-autonomous-optimization": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
@@ -5811,6 +5819,10 @@
     "domain": "AI & Agents",
     "group": "AI Futures & Self-Improvement"
   },
+  "calibrated-probabilities": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "calorie-count": {
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
@@ -9490,6 +9502,10 @@
   "decoder-layers": {
     "domain": "Creative Pursuits",
     "group": "Photoshop & Layer Workflows"
+  },
+  "decommissioning": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
   },
   "dedicated-vpn": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -15727,6 +15743,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "image-recognition": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
+  },
   "image-resolution": {
     "domain": "Creative Pursuits",
     "group": "Photoshop & Layer Workflows"
@@ -16306,6 +16326,10 @@
   "intel-qwen-30b-model": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
+  },
+  "intellectual-property-protection": {
+    "domain": "Business & Strategy",
+    "group": "Legal Finance & Professional Work"
   },
   "intellectual-property-rights": {
     "domain": "Business & Strategy",
@@ -16952,6 +16976,10 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "json-based-prompting": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Data Pipelines Sync & Storage"
+  },
+  "json-data-processing": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
@@ -17611,6 +17639,10 @@
     "domain": "AI & Agents",
     "group": "AI Futures & Self-Improvement"
   },
+  "lexical-scoring-function": {
+    "domain": "Health & Wellbeing",
+    "group": "Body Systems Recovery & Function"
+  },
   "lfp-battery": {
     "domain": "Science, Physics & Research",
     "group": "Materials Chemistry & Mechanisms"
@@ -17976,6 +18008,10 @@
     "group": "Model Efficiency & Compression"
   },
   "llm-data-ingestion": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
+  "llm-driven-search": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
@@ -19332,6 +19368,10 @@
     "group": "Video & Content Systems"
   },
   "media-history": {
+    "domain": "Creative Pursuits",
+    "group": "Video & Content Systems"
+  },
+  "media-management": {
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
@@ -21351,6 +21391,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
   },
+  "non-generative-ai": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
+  },
   "non-invasive-imaging": {
     "domain": "Science, Physics & Research",
     "group": "Scientific Modelling & Discovery"
@@ -22210,6 +22254,10 @@
   "operating-system-deployment": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Deployment Docker & Services"
+  },
+  "operating-system-interface": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
   },
   "operational-challenges": {
     "domain": "Science, Physics & Research",
@@ -24967,6 +25015,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "query-formulation": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
+  },
   "question-asking-approach": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
@@ -25206,6 +25258,10 @@
   "rapid-implementation": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "rapid-inference": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
   },
   "rapid-prototyping": {
     "domain": "UX & Design",
@@ -25959,6 +26015,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "robotic-process-automation": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Automation Scheduling & Sync"
+  },
   "robotics": {
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
@@ -26070,6 +26130,10 @@
   "rubygems-hacks": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
+  },
+  "rule-based-bots": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
   },
   "rule-enforcement": {
     "domain": "AI & Agents",
@@ -26470,6 +26534,10 @@
   "scraping": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
+  },
+  "screenshot-analysis": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
   },
   "screenshot-capture": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -28327,6 +28395,10 @@
     "domain": "Cosmology & Space",
     "group": "Space Systems Exploration & Infrastructure"
   },
+  "start-menu-personalization": {
+    "domain": "Food & Nutrition",
+    "group": "Restaurants Dining & Hospitality"
+  },
   "start-of-life": {
     "domain": "History & Anthropology",
     "group": "Media Society & Daily Life"
@@ -28634,6 +28706,10 @@
   "structured-decision-models": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "structured-input-analysis": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
   },
   "structured-inputs": {
     "domain": "AI & Agents",
@@ -29266,6 +29342,10 @@
   "system-safety": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
+  },
+  "system-utilities": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
   },
   "system-wiring": {
     "domain": "AI & Agents",
@@ -29963,6 +30043,10 @@
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
+  "theatrical-marketing": {
+    "domain": "Business & Strategy",
+    "group": "Market Intelligence & GEO SEO"
+  },
   "thematic-analysis": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
@@ -30190,6 +30274,10 @@
   "time-travel-fiction": {
     "domain": "Travels & Journeys",
     "group": "Journeys Routes & Itineraries"
+  },
+  "time-zone-settings": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Devices Access & Networks"
   },
   "timekeeping-accuracy": {
     "domain": "AI & Agents",
@@ -32408,6 +32496,10 @@
     "group": "Media Society & Daily Life"
   },
   "windows-openssh-configuration": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
+  "windows-search-configuration": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
