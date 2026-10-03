@@ -10,30 +10,36 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 20:02:00 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 21:01:44 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 20:02:00 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 21:01:44 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 03 Oct 2026 20:02:00 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 21:01:44 GMT</pubDate>
   </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-04 06:57 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1676 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (228 concepts) Business &amp; Strategy (460 concept... ]]></description>
-    <pubDate>Sat, 03 Oct 2026 19:57:00 GMT</pubDate>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-04 07:56 Domains AI &amp; Agents (2458 concepts) Tools, Platforms &amp; Infrastructure (1676 concepts) UX &amp; Design (68 concepts) Creative Pursuits (789 concepts) Food &amp; Nutrition (228 concepts) Business &amp; Strategy (460 concept... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 20:56:00 GMT</pubDate>
   </item><item>
     <title>Claude Code Mods: Deep AI Customization and Internal Control Enhancement</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-04-Claude-Code-Mods-Deep-AI-Customization-and-Internal-Cont</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-04-Claude-Code-Mods-Deep-AI-Customization-and-Internal-Cont</guid>
     <description><![CDATA[ Claude Code Mods: Deep AI Customization and Internal Control Enhancement Clip title: Claude Mods - The Biggest Claude Code Upgrade! Author / channel: Prompt Engineering URL: www.youtube.com/watch Summary Anthropic has recently introduced “Mods” to Claude Code, a significant enhancement that opens up... ]]></description>
+    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
+  </item><item>
+    <title>OpenAI Astra Cancellation, Sonnet 5.5, and Meta Muse&#039;s Impact on AI</title>
+    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-04-OpenAI-Astra-Cancellation-Sonnet-5.5-and-Meta-Muses-Impa</link>
+    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-04-OpenAI-Astra-Cancellation-Sonnet-5.5-and-Meta-Muses-Impa</guid>
+    <description><![CDATA[ OpenAI Astra Cancellation, Sonnet 5.5, and Meta Muse’s Impact on AI Clip title: OpenAI cancels Astra release, Sonnet 5.5 &amp; what Meta Muse means for work Author / channel: IBM Technology URL: www.youtube.com/watch Summary This episode of the “Mixture of Experts” podcast, hosted by David Zax with ... ]]></description>
     <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item><item>
     <title>The CLM: Superintelligence Labs &amp; MIT&#039;s Breakthrough in LLM Context Management</title>
@@ -58,12 +64,6 @@
     <link>https://digifella.github.io/ai-wiki/concepts/06b-parameter-model</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/06b-parameter-model</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents 06b Parameter Model A 06b parameter model refers to a compact language model architecture containing approximately 600 million trainable parameters. ]]></description>
-    <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
-  </item><item>
-    <title>14b-parameter-model</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/14b-parameter-model</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/14b-parameter-model</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents 14b Parameter Model The 14 billion parameter model represents a mid-scale architecture in contemporary neural networks, positioned between smaller efficient models and larger state-of-the-art systems. ]]></description>
     <pubDate>Sat, 03 Oct 2026 14:00:00 GMT</pubDate>
   </item>
     </channel>

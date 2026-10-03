@@ -19719,6 +19719,10 @@
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
   },
+  "metric-expansion": {
+    "domain": "Undecided",
+    "group": "Needs Review"
+  },
   "metric-extraction": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
@@ -28234,6 +28238,10 @@
   "speed-enhancements": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "speed-of-light": {
+    "domain": "Science, Physics & Research",
+    "group": "Physics & Fundamental Theory"
   },
   "speed-record": {
     "domain": "AI & Agents",
