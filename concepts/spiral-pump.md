@@ -1,0 +1,44 @@
+---
+type: concept
+domain: earth-systems-geology-climate
+tags:
+  - "spiral-pump"
+  - "wirtz-pump"
+  - "water-lifting"
+  - "fluid-dynamics"
+  - "airlock-mitigation"
+aliases:
+  - "Wirtz pump"
+summary: A spiral pump, or Wirtz pump, uses a helical mechanism to lift water and overcome airlocks through continuous motion.
+updated: 2026-07-12
+group: climate-environment-surface-systems
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-12" }
+---
+<!-- domain-nav -->
+> domain-badge slug=earth-systems-geology-climate name=Earth Systems, Geology & Climate
+
+# Spiral Pump (Wirtz Pump)
+A spiral pump, also known as a [[concepts/wirtz-pump|Wirtz pump]], is an ingenious device designed to [[entities/lift|lift]] water using a helical mechanism. Unlike conventional pumps that rely on mechanical force or pressure differentials, the Wirtz pump operates on principles of [[concepts/fluid-dynamics|fluid dynamics]] and can effectively overcome limitations such as airlocks and [[concepts/hydrostatic-pressure|hydrostatic pressure]].
+
+### Key Concepts
+- **Helical Design**: The core feature is its spiral-shaped rotor that allows water to be lifted through a series of chambers.
+- **Fluid Dynamics**: Utilizes principles related to [[concepts/flow|flow]], resistance, and pressure differences within the fluid system.
+- **[[concepts/airlock|Airlock]] Overcoming Mechanism**: Designed to bypass airlocks by creating continuous motion without interrupting the [[concepts/water-flow|water flow]].
+
+### Related Entities
+- [[concepts/hydrostatic-pressure]]
+- airlock-challenge
+- [[concepts/fluid-dynamics]]
+
+## New Insights from Steve Mould's Video (2026-04-10)
+- Demonstrates a small Wirtz pump that initially struggles to lift water higher than 20cm.
+- Explains the failure as due to airlocks and [[concepts/deep-sea-pressure|hydrostatic pressure]] challenges, highlighting the [[concepts/value|importance]] of overcoming these in fluid dynamics.
+
+### Summary Points
+- The video explores the mechanics behind [[entities/wirtz-pumps|Wirtz pumps]] and their ability to handle issues like [[concepts/airlock|airlock]] and hydrostatic pressures.
+- It emphasizes the clever design of the pump that overcomes limitations through continuous motion within a spiral structure.
+- Demonstrations show initial limitations due to airlocks, illustrating critical aspects of [[concepts/fluid-dynamics|fluid dynamics]].
+
+2026 04 10 [[concepts/wirtz-pump|Wirtz Pump]] Mechanics Overcoming Airlock and [[concepts/deep-sea-pressure|Hydrostatic Pressure]] Chall
+## Source Notes
+- 2026-04-10: [[entities/wirtz-pumps|Wirtz pumps are really clever]]

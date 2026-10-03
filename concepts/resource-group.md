@@ -1,0 +1,54 @@
+---
+type: concept
+domain: business-strategy
+tags:
+  - "azure"
+  - "cloud-infrastructure"
+  - "resource-management"
+  - "iaac"
+  - "rbac"
+  - "billing"
+  - "logical-container"
+  - "devops"
+aliases:
+  - "Azure Resource Group"
+  - "Resource Container"
+  - "RG"
+summary: A resource group is a logical container in Azure for grouping related resources, enabling unified management, access control, and billing.
+updated: 2026-07-12
+group: products-operations-business-economics
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-12" }
+---
+<!-- domain-nav -->
+> domain-badge slug=business-strategy name=Business & Strategy
+
+# Resource group
+
+Logical container in [[entities/azure|Azure]] for grouping related resources, enabling unified management, access control, and billing.
+
+**Key characteristics**:
+- Shared lifecycle and deletion behavior
+- RBAC at group level
+- Resources can span regions (typically co-located for efficiency)
+
+**[[concepts/best-practices|Best practices]]**:
+- Group by project/application (e.g., `rg-ecommerce-prod`)
+- Avoid mixing unrelated resources
+- Consistent [[concepts/structured-naming|naming conventions]]
+
+**Related concepts**:
+- [[concepts/azure-subscription|Azure subscription]]
+- Resource
+- Azure region
+
+**Example use case**:
+- Build an [[concepts/agentic-rag|agentic rag]] system in [[concepts/azure-ai|azure ai]] and [[concepts/rich-tooling|foundry]]
+
+2026 04 14 Build an [[concepts/agentic-rag-systems|agentic rag]] system in [[concepts/azure-cognitive-services|azure ai]] and [[concepts/foundry|foundry]]
+## Source Notes
+- 2026-04-08: Anthropic
+- 2026-04-10: [[lab-notes/2026-04-10-Anthropics-Claude-AI-Subscription-Changes-OpenClaw-Ban-Usage-Limits-an|Anthropics Claude AI Subscription Changes OpenClaw Ban Usage Limits an]] · [▶ source](https://www.youtube.com/watch?v=a4hdPWSUzsE)
+- 2026-04-18: [[lab-notes/2026-04-18-Claude-Opus-47-Enhanced-Performance-Visual-Understanding-and-Pricing-A|Claude Opus 47 Enhanced Performance Visual Understanding and Pricing A]] · [▶ source](https://www.youtube.com/watch?v=8BKGfajOnlY)
+- 2026-04-19: [[lab-notes/2026-04-19-Karpathy-Loop-Auto-Optimize-AI-Inhuman-Iteration-for-Agent-Improvement|Karpathy Loop Auto Optimize AI Inhuman Iteration for Agent Improvement]] · [▶ source](https://www.youtube.com/watch?v=xnG8h3UnNFI)
+- 2026-04-22: [[lab-notes/2026-04-22-AnythingLLM-1.12-Channels-Mobile-Interaction-with-Private-Self-Hosted-LLMs|AnythingLLM 1.12 Channels: Mobile Interaction with Private Self-Hosted LLMs]] · [▶ source](https://youtu.be/Ei5nB5fyn7g)
+- 2026-04-30: Quantum Computing · [▶ source](https://www.youtube.com/watch?v=IhS6ecYZFdQ)

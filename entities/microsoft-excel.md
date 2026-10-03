@@ -1,0 +1,39 @@
+---
+type: entity
+tags:
+  - "spreadsheet"
+  - "data-analysis"
+  - "financial-modeling"
+  - "microsoft-365"
+  - "vba-macros"
+  - "data-visualization"
+  - "collaboration-tools"
+aliases:
+  - "Excel"
+  - "Microsoft Excel App"
+  - "Excel Spreadsheet"
+  - "MS Excel"
+summary: A Microsoft 365 spreadsheet application used for data analysis, financial modeling, and visualization through grid-based cells, formulas, and pivot tables.
+updated: 2026-07-12
+generated: { by: "process:nemoclaw-wiki-ingest", at: "2026-07-12" }
+---
+# Microsoft Excel
+
+Spreadsheet application developed by [[entities/microsoft|Microsoft]], part of the [[entities/microsoft-365|Microsoft 365]] suite. Used for data analysis, [[concepts/financial-modeling|financial modeling]], record-keeping, and visualization through grid-based cells, formulas, and pivot tables.
+
+## Key Features
+- Formula [[concepts/engine|engine]] (e.g., `=SUM()`, `=VLOOKUP()`, `[[concepts/regexextract|REGEXEXTRACT]]`, `[[concepts/regexreplace|REGEXREPLACE]]`, `IMPORTCSV`)
+- [[concepts/information-visualization|Data visualization]] (charts, conditional formatting)
+- Macro support via VBA
+- Real-time collaboration (via Microsoft 365)
+- Integration with Microsoft Power BI, [[entities/microsoft-word]], and [[entities/azure-portal|Azure]]
+- **Dynamic [[concepts/data-management|Data Management]]**: Utilizing `IMPORTCSV` for the instant linking, management, and reporting of multiple CSV files
+
+## Strategic Shifts
+- **Workflow Integration**: Recent AI integrations (e.g., [[entities/claude|Claude]] (AI model)) enable complex mode
+- **[[entities/anthropic|Anthropic]] Integration**: Direct integration of [[entities/claude|Claude]] allows for building complex, multi-tab [[concepts/financial-modeling|financial modeling]] in minutes rather than weeks
+
+2026 04 14 [[concepts/knowledge-work|Claude in Excel]] Channel [[entities/nate-b-jones|Nate B Jones]]
+## Source Notes
+- 2026-04-22: Excel · [▶ source](https://youtu.be/YFnXV2be9eg)
+- 2026-04-07: [[lab-notes/2026-04-07-Claude-AI-Excel-Add-in-for-Financial-Modeling-Overview-and-Tutorial|Claude AI Excel Add in for Financial Modeling Overview and Tutorial]] · [▶ source](https://www.youtube.com/watch?v=iEh53QLluNw)
