@@ -651,6 +651,10 @@
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
   },
+  "adaptable-robotics": {
+    "domain": "Science, Physics & Research",
+    "group": "Engineering Systems, Robotics & Autonomous Vehicles"
+  },
   "adaptationist-theory": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
@@ -690,6 +694,10 @@
   "add-masking": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
+  },
+  "adhesive-residue": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
   },
   "adjustment-layers": {
     "domain": "Creative Pursuits",
@@ -3567,6 +3575,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
   },
+  "api-call": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "APIs Integrations & MCP"
+  },
   "api-configuration": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
@@ -4038,6 +4050,10 @@
   "atmospheric-variables": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
+  },
+  "atomic-level": {
+    "domain": "Food & Nutrition",
+    "group": "Food Science Nutrition & Ingredients"
   },
   "atomic-nuclei": {
     "domain": "Science, Physics & Research",
@@ -5316,8 +5332,8 @@
     "group": "Evolution Ecology & Natural Systems"
   },
   "biological-immortality": {
-    "domain": "Biology & Life Sciences",
-    "group": "Evolution Ecology & Natural Systems"
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
   },
   "biological-magic": {
     "domain": "Biology & Life Sciences",
@@ -5334,6 +5350,10 @@
   "biological-sequence-analysis": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
+  },
+  "biological-systems": {
+    "domain": "Biology & Life Sciences",
+    "group": "Life Systems Adaptation & Discovery"
   },
   "biology-researchers": {
     "domain": "Biology & Life Sciences",
@@ -6683,6 +6703,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "cleaning-methods": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
+  },
   "clear-goals": {
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
@@ -7983,6 +8007,10 @@
     "domain": "Business & Strategy",
     "group": "Enterprise Strategy & Future Work"
   },
+  "consumer-ai": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
+  },
   "consumer-behavior": {
     "domain": "Biology & Life Sciences",
     "group": "Animals Cognition & Behaviour"
@@ -8135,6 +8163,10 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
+  "context-language-model": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "context-layer": {
     "domain": "Creative Pursuits",
     "group": "Photoshop & Layer Workflows"
@@ -8154,6 +8186,10 @@
   "context-memory": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Platforms Runtimes & Environments"
+  },
+  "context-overflow": {
+    "domain": "AI & Agents",
+    "group": "Reasoning Context & Prompting"
   },
   "context-overload": {
     "domain": "AI & Agents",
@@ -8356,6 +8392,10 @@
     "group": "Automation Scheduling & Sync"
   },
   "conversational-chatbots": {
+    "domain": "AI & Agents",
+    "group": "Reasoning Context & Prompting"
+  },
+  "conversational-context": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
@@ -9184,6 +9224,10 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "data-backup-strategies": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Data Pipelines Sync & Storage"
+  },
+  "data-broker": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
@@ -13547,6 +13591,10 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
+  "general-purpose-robots": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
+  },
   "generalized-agents": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -13826,6 +13874,10 @@
   "gitops": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
+  },
+  "glass-containers": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
   },
   "glass-reflections": {
     "domain": "Creative Pursuits",
@@ -15419,6 +15471,10 @@
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
   },
+  "human-instruction-understanding": {
+    "domain": "AI & Agents",
+    "group": "Reasoning Context & Prompting"
+  },
   "human-intelligence": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -16551,6 +16607,10 @@
     "domain": "Philosophy, Ethics & Religion",
     "group": "Meaning Consciousness & Worldviews"
   },
+  "internal-walkthroughs": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "internal-working-mechanisms": {
     "domain": "AI & Agents",
     "group": "Anthropic & Claude"
@@ -17279,6 +17339,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
   },
+  "label-removal": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
+  },
   "laces": {
     "domain": "History & Anthropology",
     "group": "Everyday Objects & Material Culture"
@@ -17550,6 +17614,10 @@
   "leadership-transition": {
     "domain": "Business & Strategy",
     "group": "Enterprise Strategy & Future Work"
+  },
+  "leaf-tool-harness": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
   },
   "lean": {
     "domain": "Business & Strategy",
@@ -19451,6 +19519,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
+  "medicinal-drug-design": {
+    "domain": "Food & Nutrition",
+    "group": "Food Science Nutrition & Ingredients"
+  },
   "medicinal-properties": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
@@ -20271,6 +20343,10 @@
     "domain": "AI & Agents",
     "group": "Training Fine-Tuning & Evaluation"
   },
+  "model-utility": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "model-weights": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
@@ -20294,6 +20370,10 @@
   "modified-newtonian-dynamics-mond": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
+  },
+  "mods": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
   },
   "moisture-content": {
     "domain": "Creative Pursuits",
@@ -21831,6 +21911,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Devices Access & Networks"
   },
+  "occupancy-bug": {
+    "domain": "AI & Agents",
+    "group": "Coding Agents & Dev Workflows"
+  },
   "oceangate-titan": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
@@ -23163,6 +23247,10 @@
     "domain": "Entertainment & Games",
     "group": "Sports Science Training & Recovery"
   },
+  "personal-data-deletion": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Data Pipelines Sync & Storage"
+  },
   "personal-development": {
     "domain": "Business & Strategy",
     "group": "Market Intelligence & GEO SEO"
@@ -23423,6 +23511,10 @@
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
   },
+  "physical-embodiment": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "physical-endurance": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
@@ -23594,6 +23686,10 @@
   "plant-tolerance": {
     "domain": "Biology & Life Sciences",
     "group": "Evolution Ecology & Natural Systems"
+  },
+  "plastic-containers": {
+    "domain": "Food & Nutrition",
+    "group": "Cooking Recipes & Culinary Practice"
   },
   "plate-boundary": {
     "domain": "Earth Systems, Geology & Climate",
@@ -24197,7 +24293,7 @@
   },
   "prince2": {
     "domain": "Business & Strategy",
-    "group": "Market Intelligence & GEO SEO"
+    "group": "Products Operations & Business Economics"
   },
   "printed-circuit-board-pcb": {
     "domain": "Science, Physics & Research",
@@ -24546,6 +24642,10 @@
   "promise-of-digital-health": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
+  },
+  "promotional-content": {
+    "domain": "Creative Pursuits",
+    "group": "Video & Content Systems"
   },
   "promotional-video": {
     "domain": "Creative Pursuits",
@@ -25079,6 +25179,14 @@
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
   },
+  "qwen-35-4b": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
+  "qwen-36": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
   "qwen-36-27b": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
@@ -25282,6 +25390,10 @@
   "rapid-inference": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "rapid-judgment": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
   },
   "rapid-prototyping": {
     "domain": "UX & Design",
@@ -29255,6 +29367,10 @@
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
   },
+  "synthetic-software-engineering-tasks": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
   "system-1-classification": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
@@ -29370,6 +29486,10 @@
   "system-safety": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
+  },
+  "system-two": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
   },
   "system-utilities": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -30772,6 +30892,10 @@
     "group": "Cooking Recipes & Culinary Practice"
   },
   "tutorial": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "App Builders & No-Code Tools"
+  },
+  "tutorial-creation": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "App Builders & No-Code Tools"
   },
