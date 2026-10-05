@@ -3079,6 +3079,10 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
+  "ai-troubleshooting": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
   "ai-trust": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Privacy Security & Guardrails"
@@ -10036,6 +10040,10 @@
     "group": "Agent Systems & Skills"
   },
   "develop-module": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
+  "develop-settings": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
   },
@@ -20375,6 +20383,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
+  "module-switching": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
   "moisture-content": {
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
@@ -27872,6 +27884,10 @@
     "group": "Developer Tooling & CLIs"
   },
   "software-comprehension-gap": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
+  "software-crashes": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },

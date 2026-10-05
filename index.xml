@@ -10,19 +10,25 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 05 Oct 2026 19:03:00 GMT</pubDate>
+    <pubDate>Mon, 05 Oct 2026 20:02:05 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 05 Oct 2026 19:03:00 GMT</pubDate>
+    <pubDate>Mon, 05 Oct 2026 20:02:05 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 05 Oct 2026 19:02:59 GMT</pubDate>
+    <pubDate>Mon, 05 Oct 2026 20:02:05 GMT</pubDate>
+  </item><item>
+    <title>Context Language Models: Dynamic AI Agent Memory Management</title>
+    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Context-Language-Models-Dynamic-AI-Agent-Memory-Manageme</link>
+    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Context-Language-Models-Dynamic-AI-Agent-Memory-Manageme</guid>
+    <description><![CDATA[ Context Language Models: Dynamic AI Agent Memory Management Clip title: Context Language Models: Your Agent Doesn’t Need Compaction Author / channel: Prompt Engineering URL: www.youtube.com/watch Summary This video introduces Context Language Models (CLMs), a novel approach to managing context in AI... ]]></description>
+    <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
   </item><item>
     <title>Swift 1.5 Qwen3.8-27B GSQ-RCO IQ3_S 16GB LLM Performance Benchmark</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Swift-1.5-Qwen3.8-27B-GSQ-RCO-IQ3_S-16GB-LLM-Performance</link>
@@ -58,12 +64,6 @@
     <link>https://digifella.github.io/ai-wiki/concepts/agent-personas</link>
     <guid>https://digifella.github.io/ai-wiki/concepts/agent-personas</guid>
     <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Agent Personas Agent personas constitute a foundational configuration layer within the Claude Managed Agents API Suite, designed to define the behavioral parameters of autonomous AI agents. ]]></description>
-    <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
-  </item><item>
-    <title>agent-powered-environment</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/agent-powered-environment</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/agent-powered-environment</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Agent Powered Environment An agent-powered environment is a development platform designed for building full-stack applications that center on autonomous AI agents. ]]></description>
     <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
   </item>
     </channel>
