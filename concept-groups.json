@@ -5095,6 +5095,10 @@
     "domain": "Cosmology & Space",
     "group": "Cosmology Astronomy & Astrophysics"
   },
+  "basalt-column": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
+  },
   "base-11-representation": {
     "domain": "Maths, Logic & Crypto",
     "group": "Number Theory & Prime Numbers"
@@ -16782,6 +16786,10 @@
   "iphone-vulnerability": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Privacy Security & Guardrails"
+  },
+  "iq3-s-quantization": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
   },
   "iran": {
     "domain": "Society, Politics & Conflict",
@@ -32424,6 +32432,10 @@
     "group": "Data Pipelines Sync & Storage"
   },
   "web-development": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Web Publishing Quartz & Websites"
+  },
+  "web-development-simulation": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
   },
