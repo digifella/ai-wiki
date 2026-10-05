@@ -271,6 +271,10 @@
     "domain": "Entertainment & Games",
     "group": "Video Games Esports & Platforms"
   },
+  "211bsd": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
   "229-billion-parameters": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
@@ -14771,6 +14775,10 @@
     "domain": "Science, Physics & Research",
     "group": "Engineering Systems, Robotics & Autonomous Vehicles"
   },
+  "hardware-modernization": {
+    "domain": "Science, Physics & Research",
+    "group": "Engineering Systems, Robotics & Autonomous Vehicles"
+  },
   "hardware-pricing": {
     "domain": "Business & Strategy",
     "group": "Pricing Subscriptions & SaaS"
@@ -15054,6 +15062,10 @@
   "hermes-ai-assistant": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "hexagonal-cracking": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
   },
   "heygen": {
     "domain": "Creative Pursuits",
@@ -17566,6 +17578,10 @@
   "launch-tower-catch": {
     "domain": "Cosmology & Space",
     "group": "Space Systems Exploration & Infrastructure"
+  },
+  "lava-cooling": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
   },
   "lava-flows": {
     "domain": "Earth Systems, Geology & Climate",
@@ -22995,6 +23011,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
+  "pdp-1173": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
   "pediatric-care": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
@@ -23846,6 +23866,10 @@
   "poll-graph-job": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
+  },
+  "polygonal-jointing": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
   },
   "pomodoro-technique": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -29911,6 +29935,10 @@
     "domain": "Food & Nutrition",
     "group": "Food Science Nutrition & Ingredients"
   },
+  "tensile-stress": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
+  },
   "tensor-product": {
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
@@ -30254,6 +30282,10 @@
   "therapeutic-area": {
     "domain": "Health & Wellbeing",
     "group": "Health Practice & Patient Knowledge"
+  },
+  "thermal-contraction": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
   },
   "thermal-diffusion": {
     "domain": "Food & Nutrition",
@@ -31239,6 +31271,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
   },
+  "unix": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
+  },
   "unreal-engine-integration": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
@@ -32184,6 +32220,10 @@
     "group": "Geology Rocks & Minerals"
   },
   "volcanic-explosivity-index": {
+    "domain": "Earth Systems, Geology & Climate",
+    "group": "Geology Rocks & Minerals"
+  },
+  "volcanic-rock": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Geology Rocks & Minerals"
   },
