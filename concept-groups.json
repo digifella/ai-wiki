@@ -5363,6 +5363,10 @@
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
   },
+  "biological-solutions": {
+    "domain": "Science, Physics & Research",
+    "group": "Materials Chemistry & Mechanisms"
+  },
   "biological-systems": {
     "domain": "Biology & Life Sciences",
     "group": "Life Systems Adaptation & Discovery"
@@ -10943,6 +10947,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
   },
+  "dynamic-memory-management": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
+  },
   "dynamic-project-timeline": {
     "domain": "Business & Strategy",
     "group": "Products Operations & Business Economics"
@@ -11814,6 +11822,10 @@
   "environmental-risks": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
+  },
+  "enzymatic-degradation": {
+    "domain": "Science, Physics & Research",
+    "group": "Materials Chemistry & Mechanisms"
   },
   "enzyme-system": {
     "domain": "Science, Physics & Research",
@@ -23730,6 +23742,18 @@
   "plastic-containers": {
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
+  },
+  "plastic-pollution": {
+    "domain": "Biology & Life Sciences",
+    "group": "Life Systems Adaptation & Discovery"
+  },
+  "plastic-recycling": {
+    "domain": "Biology & Life Sciences",
+    "group": "Life Systems Adaptation & Discovery"
+  },
+  "plastic-waste-remediation": {
+    "domain": "Science, Physics & Research",
+    "group": "Materials Chemistry & Mechanisms"
   },
   "plate-boundary": {
     "domain": "Earth Systems, Geology & Climate",
