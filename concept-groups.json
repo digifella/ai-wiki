@@ -7267,6 +7267,10 @@
     "domain": "Philosophy, Ethics & Religion",
     "group": "Philosophy Ethics & Metaphysics"
   },
+  "cognitive-robotics": {
+    "domain": "Science, Physics & Research",
+    "group": "Engineering Systems, Robotics & Autonomous Vehicles"
+  },
   "cognitive-skill-degradation": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -28298,6 +28302,10 @@
   "sparse-attention-architecture": {
     "domain": "History & Anthropology",
     "group": "Architecture Cities & Heritage"
+  },
+  "sparse-mixture-of-experts": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
   },
   "spatial-computing": {
     "domain": "Tools, Platforms & Infrastructure",
