@@ -8247,6 +8247,10 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
+  "context-window-bottleneck": {
+    "domain": "AI & Agents",
+    "group": "Reasoning Context & Prompting"
+  },
   "context-window-limitations": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"

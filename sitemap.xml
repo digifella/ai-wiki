@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://digifella.github.io/ai-wiki/INDEX</loc>
-    <lastmod>2026-10-05T22:44:00.000Z</lastmod>
+    <lastmod>2026-10-05T23:16:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment</loc>
     <lastmod>2026-04-07T04:30:00.000Z</lastmod>
@@ -2400,7 +2400,7 @@
     <lastmod>2026-05-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</loc>
-    <lastmod>2026-10-05T23:01:42.663Z</lastmod>
+    <lastmod>2026-10-06T00:02:07.403Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-27-OpenJarvis-Stanfords-Local-First-Personal-AI-Framework-w</loc>
     <lastmod>2026-06-26T14:00:00.000Z</lastmod>
@@ -5151,7 +5151,7 @@
     <lastmod>2026-04-19T19:32:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</loc>
-    <lastmod>2026-10-05T23:01:42.735Z</lastmod>
+    <lastmod>2026-10-06T00:02:07.501Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-09-13-Optimal-Mushroom-Browning-Japanese-Chefs-Moisture-Contro</loc>
     <lastmod>2026-09-12T14:00:00.000Z</lastmod>
@@ -6369,7 +6369,7 @@
     <lastmod>2026-06-24T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</loc>
-    <lastmod>2026-10-05T23:01:42.536Z</lastmod>
+    <lastmod>2026-10-06T00:02:07.242Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-08-06-Large-Database-Models-Unlocking-Enterprise-Relational-Da</loc>
     <lastmod>2026-08-05T14:00:00.000Z</lastmod>
@@ -7506,7 +7506,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-agent-architecture</loc>
-    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-agent-automation</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -12706,6 +12706,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/context-utilization</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/context-window-bottleneck</loc>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/context-window-limitations</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -29115,7 +29118,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/text-based-rag-limitations</loc>
-    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/text-based-training</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -34980,7 +34983,7 @@
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/meta</loc>
-    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/michael-faraday</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -35788,9 +35791,6 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/prompt-engineer</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://digifella.github.io/ai-wiki/entities/prompt-engineering</loc>
-    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/public-policy</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
