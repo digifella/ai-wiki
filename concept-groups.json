@@ -8043,6 +8043,10 @@
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
   },
+  "consumer-gpu-inference": {
+    "domain": "AI & Agents",
+    "group": "Model Efficiency & Compression"
+  },
   "consumer-grade-gpus": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
@@ -25564,8 +25568,8 @@
     "group": "Music Audio & Performance"
   },
   "real-time-observation": {
-    "domain": "Cosmology & Space",
-    "group": "Space Systems Exploration & Infrastructure"
+    "domain": "Undecided",
+    "group": "Needs Review"
   },
   "real-time-oversight": {
     "domain": "AI & Agents",
@@ -26370,6 +26374,10 @@
   "running-performance": {
     "domain": "Entertainment & Games",
     "group": "Individual Sports & Performance"
+  },
+  "runtime-engine": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
   },
   "rural-and-remote-health": {
     "domain": "Health & Wellbeing",

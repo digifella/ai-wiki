@@ -10,25 +10,25 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 22:01:41 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 23:03:04 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 22:01:40 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 23:03:04 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 22:01:40 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 23:03:04 GMT</pubDate>
   </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
-    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-07 07:06 Domains AI &amp; Agents (2475 concepts) Tools, Platforms &amp; Infrastructure (1689 concepts) UX &amp; Design (68 concepts) Creative Pursuits (794 concepts) Food &amp; Nutrition (235 concepts) Business &amp; Strategy (460 concept... ]]></description>
-    <pubDate>Tue, 06 Oct 2026 20:06:00 GMT</pubDate>
+    <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-07 09:24 Domains AI &amp; Agents (2477 concepts) Tools, Platforms &amp; Infrastructure (1690 concepts) UX &amp; Design (68 concepts) Creative Pursuits (794 concepts) Food &amp; Nutrition (235 concepts) Business &amp; Strategy (460 concept... ]]></description>
+    <pubDate>Tue, 06 Oct 2026 22:24:00 GMT</pubDate>
   </item><item>
     <title>Murray Shanahan: AI Consciousness, Cognition, and Human Interaction with LLMs</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Murray-Shanahan-AI-Consciousness-Cognition-and-Human-Int</link>
@@ -39,7 +39,7 @@
     <title>Strata: Running 125B Sparse MoE LLM on 12GB Consumer GPUs</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Strata-Running-125B-Sparse-MoE-LLM-on-12GB-Consumer-GPUs</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Strata-Running-125B-Sparse-MoE-LLM-on-12GB-Consumer-GPUs</guid>
-    <description><![CDATA[ Strata: Running 125B Sparse MoE LLM on 12GB Consumer GPUs Clip title: How Strata Runs a 125B Model on a 12GB GPU (Qwen3.8-Flash-Next) Author / channel: AgenticEngineering URL: www.youtube.com/watch Summary This video explains how an open-source runtime called Strata enables large language models (sp... ]]></description>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Strata: Running 125B Sparse MoE LLM on 12GB Consumer GPUs Clip title: How Strata Runs a 125B Model on a 12GB GPU (Qwen3.8-Flash-Next) Author / channel: AgenticEngineering URL: www.youtube.com/watch Summary This video explains how an open-source runti... ]]></description>
     <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
   </item><item>
     <title>ai-consciousness</title>
@@ -60,10 +60,10 @@
     <description><![CDATA[  domain-badge slug=science-physics-research name=Science, Physics &amp; Research Cognitive Robotics Cognitive robotics is an interdisciplinary field focusing on the development of robots that possess cognitive abilities, such as perception, reasoning, learning, and decision-making, to operate autono... ]]></description>
     <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
   </item><item>
-    <title>content-customization</title>
-    <link>https://digifella.github.io/ai-wiki/concepts/content-customization</link>
-    <guid>https://digifella.github.io/ai-wiki/concepts/content-customization</guid>
-    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits Content Customization Content customization refers to the deliberate modification of digital media feeds to align with user preferences, reduce noise, and enhance relevance. ]]></description>
+    <title>consumer-gpu-inference</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/consumer-gpu-inference</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/consumer-gpu-inference</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Consumer GPU Inference Consumer GPU Inference refers to the deployment and execution of Large Language Models (LLMs) on non-datacenter hardware (e.g., NVIDIA GeForce RTX series) for local or edge computing. ]]></description>
     <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
   </item>
     </channel>
