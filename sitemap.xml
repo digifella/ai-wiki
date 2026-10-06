@@ -2400,7 +2400,7 @@
     <lastmod>2026-05-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</loc>
-    <lastmod>2026-10-06T16:02:53.383Z</lastmod>
+    <lastmod>2026-10-06T20:02:43.326Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-27-OpenJarvis-Stanfords-Local-First-Personal-AI-Framework-w</loc>
     <lastmod>2026-06-26T14:00:00.000Z</lastmod>
@@ -2773,6 +2773,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Swift-1.5-Qwen3.8-27B-GSQ-RCO-IQ3_S-16GB-LLM-Performance</loc>
     <lastmod>2026-10-05T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Strata-Running-125B-Sparse-MoE-LLM-on-12GB-Consumer-GPUs</loc>
+    <lastmod>2026-10-06T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-private/'Ageing-is-not-a-destructive-force'-How-defying-ageism-can-help-you-live-longer</loc>
     <lastmod>2026-05-08T05:26:48.000Z</lastmod>
@@ -5157,7 +5160,7 @@
     <lastmod>2026-04-19T19:32:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</loc>
-    <lastmod>2026-10-06T16:02:53.454Z</lastmod>
+    <lastmod>2026-10-06T20:02:43.500Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-09-13-Optimal-Mushroom-Browning-Japanese-Chefs-Moisture-Contro</loc>
     <lastmod>2026-09-12T14:00:00.000Z</lastmod>
@@ -6375,7 +6378,7 @@
     <lastmod>2026-06-24T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</loc>
-    <lastmod>2026-10-06T16:02:53.257Z</lastmod>
+    <lastmod>2026-10-06T20:02:43.193Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-08-06-Large-Database-Models-Unlocking-Enterprise-Relational-Da</loc>
     <lastmod>2026-08-05T14:00:00.000Z</lastmod>
@@ -8163,7 +8166,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-generated-videos</loc>
-    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-generated-visualizations</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -8485,6 +8488,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-pipeline</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/ai-platform-updates</loc>
+    <lastmod>2026-10-06T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-platforms</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -12600,7 +12606,10 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/content-creation</loc>
-    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/content-customization</loc>
+    <lastmod>2026-10-06T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/content-engine</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -24978,7 +24987,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/productivity-tools</loc>
-    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/productivity-trade-offs</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -30159,7 +30168,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/use-cases</loc>
-    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/user-accounts</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -30208,6 +30217,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/user-reactions-to-software-changes</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/user-settings</loc>
+    <lastmod>2026-10-06T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/uta-frith</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -31209,7 +31221,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/world-knowledge</loc>
-    <lastmod>2026-10-01T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/world-models</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -33390,7 +33402,7 @@
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/gemini-4-argon</loc>
-    <lastmod>2026-10-01T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/gemini-ai</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -33699,7 +33711,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/google</loc>
-    <lastmod>2026-10-01T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/googles-notebooklm</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -36048,7 +36060,7 @@
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/rob-the-ai-guy</loc>
-    <lastmod>2026-07-11T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/rob-walker</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -36714,7 +36726,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/trevor-nace</loc>
-    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/trl</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>

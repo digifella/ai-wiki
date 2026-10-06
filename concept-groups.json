@@ -2611,6 +2611,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
   },
+  "ai-platform-updates": {
+    "domain": "AI & Agents",
+    "group": "Google AI Ecosystem"
+  },
   "ai-platforms": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Platforms Runtimes & Environments"
@@ -8092,6 +8096,10 @@
     "group": "Video & Content Systems"
   },
   "content-creation": {
+    "domain": "Creative Pursuits",
+    "group": "Video & Content Systems"
+  },
+  "content-customization": {
     "domain": "Creative Pursuits",
     "group": "Video & Content Systems"
   },
@@ -31570,6 +31578,10 @@
   "user-reactions-to-software-changes": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
+  },
+  "user-settings": {
+    "domain": "Entertainment & Games",
+    "group": "Film TV & Streaming"
   },
   "uta-frith": {
     "domain": "Health & Wellbeing",

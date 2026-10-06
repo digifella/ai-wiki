@@ -10,19 +10,37 @@
     <link>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 16:02:53 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 20:02:43 GMT</pubDate>
   </item><item>
     <title>2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</title>
     <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 16:02:53 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 20:02:43 GMT</pubDate>
   </item><item>
     <title>2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</title>
     <link>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</link>
     <guid>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 06 Oct 2026 16:02:53 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 20:02:43 GMT</pubDate>
+  </item><item>
+    <title>Strata: Running 125B Sparse MoE LLM on 12GB Consumer GPUs</title>
+    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Strata-Running-125B-Sparse-MoE-LLM-on-12GB-Consumer-GPUs</link>
+    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Strata-Running-125B-Sparse-MoE-LLM-on-12GB-Consumer-GPUs</guid>
+    <description><![CDATA[ Strata: Running 125B Sparse MoE LLM on 12GB Consumer GPUs Clip title: How Strata Runs a 125B Model on a 12GB GPU (Qwen3.8-Flash-Next) Author / channel: AgenticEngineering URL: www.youtube.com/watch Summary This video explains how an open-source runtime called Strata enables large language models (sp... ]]></description>
+    <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
+  </item><item>
+    <title>ai-platform-updates</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/ai-platform-updates</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/ai-platform-updates</guid>
+    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents AI platform updates Google Gemini &amp; NotebookLM Ecosystem Recent developments in the Google AI landscape focus on consolidating functionalities and enhancing user experience through new models and features. ]]></description>
+    <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
+  </item><item>
+    <title>content-customization</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/content-customization</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/content-customization</guid>
+    <description><![CDATA[  domain-badge slug=creative-pursuits name=Creative Pursuits Content Customization Content customization refers to the deliberate modification of digital media feeds to align with user preferences, reduce noise, and enhance relevance. ]]></description>
+    <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
   </item><item>
     <title>context-window-bottleneck</title>
     <link>https://digifella.github.io/ai-wiki/concepts/context-window-bottleneck</link>
@@ -36,35 +54,17 @@
     <description><![CDATA[  domain-badge slug=tools-platforms-infrastructure name=Tools, Platforms &amp; Infrastructure Dynamic Memory Management Dynamic Memory Management refers to the strategies and architectures used to handle the state, context, and information retention of AI agents over time. ]]></description>
     <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
   </item><item>
+    <title>user-settings</title>
+    <link>https://digifella.github.io/ai-wiki/concepts/user-settings</link>
+    <guid>https://digifella.github.io/ai-wiki/concepts/user-settings</guid>
+    <description><![CDATA[  domain-badge slug=entertainment-games name=Entertainment &amp; Games User Settings YouTube Content Control Users can customize their youtube experience to reduce unwanted content types, specifically YouTube Shorts and ai-generated-videos. ]]></description>
+    <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
+  </item><item>
     <title>INDEX</title>
     <link>https://digifella.github.io/ai-wiki/INDEX</link>
     <guid>https://digifella.github.io/ai-wiki/INDEX</guid>
     <description><![CDATA[ Wiki Index Auto-maintained by NemoClaw · last updated 2026-10-06 10:16 Domains AI &amp; Agents (2474 concepts) Tools, Platforms &amp; Infrastructure (1689 concepts) UX &amp; Design (68 concepts) Creative Pursuits (793 concepts) Food &amp; Nutrition (235 concepts) Business &amp; Strategy (460 concept... ]]></description>
     <pubDate>Mon, 05 Oct 2026 23:16:00 GMT</pubDate>
-  </item><item>
-    <title>Context Language Models: Dynamic AI Agent Memory Management</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Context-Language-Models-Dynamic-AI-Agent-Memory-Manageme</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Context-Language-Models-Dynamic-AI-Agent-Memory-Manageme</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Context Language Models: Dynamic AI Agent Memory Management Clip title: Context Language Models: Your Agent Doesn’t Need Compaction Author / channel: Prompt Engineering URL: www.youtube.com/watch Summary This video introduces Context Language Models ... ]]></description>
-    <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
-  </item><item>
-    <title>Google Gemini, NotebookLM, Vids, and Gemini 4 Argon: Key AI Platform Updates</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Google-Gemini-NotebookLM-Vids-and-Gemini-4-Argon-Key-AI</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Google-Gemini-NotebookLM-Vids-and-Gemini-4-Argon-Key-AI</guid>
-    <description><![CDATA[ Google Gemini, NotebookLM, Vids, and Gemini 4 Argon: Key AI Platform Updates Clip title: NotebookLM &amp; Gemini’s New Features are INCREDIBLE! (New Models &amp; Features) Author / channel: Rob The AI Guy URL: www.youtube.com/watch Summary Google has rolled out a comprehensive suite of updates to it... ]]></description>
-    <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
-  </item><item>
-    <title>Swift 1.5 Qwen3.8-27B GSQ-RCO IQ3_S 16GB LLM Performance Benchmark</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Swift-1.5-Qwen3.8-27B-GSQ-RCO-IQ3_S-16GB-LLM-Performance</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-06-Swift-1.5-Qwen3.8-27B-GSQ-RCO-IQ3_S-16GB-LLM-Performance</guid>
-    <description><![CDATA[  domain-badge slug=ai-agents name=AI &amp; Agents Swift 1.5 Qwen3.8-27B GSQ-RCO IQ3_S 16GB LLM Performance Benchmark Clip title: Swift 1.5 Qwen3.8-27B · GSQ-RCO tested - 16GB Local LLM setup Author / channel: Luke’s Dev Lab URL: www.youtube.com/watch Summary This video provides a comprehensive bench... ]]></description>
-    <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
-  </item><item>
-    <title>YouTube Content Control: Disabling Shorts and Reducing AI Videos</title>
-    <link>https://digifella.github.io/ai-wiki/Topics/Creative-Pursuits/Sources/from-lab-notes/2026-10-06-YouTube-Content-Control-Disabling-Shorts-and-Reducing-AI</link>
-    <guid>https://digifella.github.io/ai-wiki/Topics/Creative-Pursuits/Sources/from-lab-notes/2026-10-06-YouTube-Content-Control-Disabling-Shorts-and-Reducing-AI</guid>
-    <description><![CDATA[ YouTube Content Control: Disabling Shorts and Reducing AI Videos Clip title: Disable YouTube Shorts AND AI Videos With This Simple Trick Author / channel: Trevor Nace URL: www.youtube.com/watch Summary This video provides a practical guide for users looking to customize their YouTube experience by r... ]]></description>
-    <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
