@@ -1135,6 +1135,10 @@
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
   },
+  "agentic-functionality": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
+  },
   "agentic-harness": {
     "domain": "AI & Agents",
     "group": "Agent Systems & Skills"
@@ -11999,6 +12003,10 @@
     "domain": "Cosmology & Space",
     "group": "Planetary Environments & Mars"
   },
+  "european-ai-sovereignty": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
   "european-union": {
     "domain": "Society, Politics & Conflict",
     "group": "Politics Governance & Public Systems"
@@ -20095,6 +20103,10 @@
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
   },
+  "mistral-large-4": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
   "misty-sunrise": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
@@ -20828,6 +20840,10 @@
     "group": "Multimodal & Generative Media"
   },
   "multimodal-data-ingestion": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
+  },
+  "multimodal-input": {
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
   },
