@@ -2400,7 +2400,7 @@
     <lastmod>2026-05-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</loc>
-    <lastmod>2026-10-07T21:03:31.924Z</lastmod>
+    <lastmod>2026-10-08T15:32:23.123Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-27-OpenJarvis-Stanfords-Local-First-Personal-AI-Framework-w</loc>
     <lastmod>2026-06-26T14:00:00.000Z</lastmod>
@@ -2782,6 +2782,15 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-07-Strata-Running-125B-Sparse-MoE-LLM-on-12GB-Consumer-GPUs</loc>
     <lastmod>2026-10-06T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-09-Fine-tuning-Google-Embedding-Gemma-2-for-Custom-Retrieva</loc>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-09-OpenAI-AI-Redefines-Scientific-Discovery-Mathematical-Br</loc>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-09-OpenAI-Decisions-API-and-Jev-Multimodal-Decision-Making</loc>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-private/'Ageing-is-not-a-destructive-force'-How-defying-ageism-can-help-you-live-longer</loc>
     <lastmod>2026-05-08T05:26:48.000Z</lastmod>
@@ -5166,7 +5175,7 @@
     <lastmod>2026-04-19T19:32:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</loc>
-    <lastmod>2026-10-07T21:03:31.998Z</lastmod>
+    <lastmod>2026-10-08T15:32:23.202Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-09-13-Optimal-Mushroom-Browning-Japanese-Chefs-Moisture-Contro</loc>
     <lastmod>2026-09-12T14:00:00.000Z</lastmod>
@@ -5852,6 +5861,9 @@
     <loc>https://digifella.github.io/ai-wiki/Topics/Science--and--Physics/Sources/from-lab-notes/2026-10-03-Figure-Robotics-F.02-Humanoid-Robot-Terminator-Style-Dec</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/Science--and--Physics/Sources/from-lab-notes/2026-10-09-Microsofts-Local-AI-Push-Hybrid-Intelligence-HydraFusion</loc>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Security--and--Infrastructure/Sources/from-inbox/2026-04-14-Ai-fundamentals-and-privacy</loc>
     <lastmod>2026-04-14T00:48:00.000Z</lastmod>
   </url><url>
@@ -6384,7 +6396,7 @@
     <lastmod>2026-06-24T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</loc>
-    <lastmod>2026-10-07T21:03:31.794Z</lastmod>
+    <lastmod>2026-10-08T15:32:22.983Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-08-06-Large-Database-Models-Unlocking-Enterprise-Relational-Da</loc>
     <lastmod>2026-08-05T14:00:00.000Z</lastmod>
@@ -6487,6 +6499,12 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-10-05-PDP-1173-Modernization-Overcoming-HardwareSoftware-Chall</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-10-09-ArtCraft-AI-Driven-Open-Source-Adobe-Creative-Suite-Alte</loc>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-10-09-ArtCrafts-Rust-Open-Source-Suite-Cross-Platform-Adobe-Cr</loc>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Travels--and--Journeys/2026-04-21-Automating-Travel-Itineraries-with-AI-and-Google-My-Maps</loc>
     <lastmod>2026-04-20T14:00:00.000Z</lastmod>
