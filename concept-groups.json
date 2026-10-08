@@ -759,6 +759,10 @@
     "domain": "Creative Pursuits",
     "group": "Photography & Cameras"
   },
+  "adobe-creative-cloud-alternatives": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Platforms Runtimes & Environments"
+  },
   "adobe-ecosystem-integration": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
@@ -3914,6 +3918,10 @@
   "artificial-sweetener": {
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
+  },
+  "artisanal-intelligence": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
   },
   "artistic-taste": {
     "domain": "Creative Pursuits",
@@ -9087,6 +9095,10 @@
     "domain": "Creative Pursuits",
     "group": "Design Systems UI & Infographics"
   },
+  "custom-retrieval": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "custom-schemas": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "App Builders & No-Code Tools"
@@ -9578,6 +9590,10 @@
   "decision-model": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "decisions-api": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "APIs Integrations & MCP"
   },
   "decluttering": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -12474,6 +12490,10 @@
   "fact-based-queries": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
+  },
+  "factory-intelligence": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
   },
   "factory-system": {
     "domain": "History & Anthropology",
@@ -15639,6 +15659,10 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
+  "hybrid-intelligence": {
+    "domain": "AI & Agents",
+    "group": "AI Foundations & Concepts"
+  },
   "hybrid-model": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
@@ -16522,6 +16546,10 @@
   "intelligent-pair-programming": {
     "domain": "AI & Agents",
     "group": "Coding Agents & Dev Workflows"
+  },
+  "intelligent-routing": {
+    "domain": "Undecided",
+    "group": "Needs Review"
   },
   "intelligent-tools": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -19339,6 +19367,10 @@
     "domain": "Science, Physics & Research",
     "group": "Materials Chemistry & Mechanisms"
   },
+  "mathematical-breakthroughs": {
+    "domain": "Maths, Logic & Crypto",
+    "group": "Mathematical Reasoning & Proof"
+  },
   "mathematical-concepts": {
     "domain": "Maths, Logic & Crypto",
     "group": "Mathematical Reasoning & Proof"
@@ -20843,6 +20875,10 @@
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
   },
+  "multimodal-decision-making": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
+  },
   "multimodal-input": {
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
@@ -22228,6 +22264,10 @@
     "group": "Developer Tooling & CLIs"
   },
   "open-model": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
+  "open-models": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
   },
