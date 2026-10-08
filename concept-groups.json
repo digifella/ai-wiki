@@ -2039,6 +2039,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "ai-driven-scientific-discovery": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "ai-driven-slide-generation": {
     "domain": "AI & Agents",
     "group": "Multimodal & Generative Media"
@@ -17331,6 +17335,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "knowledge-generation": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
+  },
   "knowledge-graph": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
@@ -20254,6 +20262,10 @@
   "model-accessibility": {
     "domain": "UX & Design",
     "group": "Accessibility & Inclusive Design"
+  },
+  "model-accuracy": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
   },
   "model-architecture": {
     "domain": "History & Anthropology",
