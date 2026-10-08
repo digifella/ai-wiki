@@ -3915,6 +3915,10 @@
     "domain": "Food & Nutrition",
     "group": "Cooking Recipes & Culinary Practice"
   },
+  "artisanal-intelligence": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
+  },
   "artistic-taste": {
     "domain": "Creative Pursuits",
     "group": "Design Systems UI & Infographics"
@@ -9087,6 +9091,10 @@
     "domain": "Creative Pursuits",
     "group": "Design Systems UI & Infographics"
   },
+  "custom-retrieval": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "custom-schemas": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "App Builders & No-Code Tools"
@@ -12474,6 +12482,10 @@
   "fact-based-queries": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
+  },
+  "factory-intelligence": {
+    "domain": "AI & Agents",
+    "group": "AI Futures & Self-Improvement"
   },
   "factory-system": {
     "domain": "History & Anthropology",
@@ -19339,6 +19351,10 @@
     "domain": "Science, Physics & Research",
     "group": "Materials Chemistry & Mechanisms"
   },
+  "mathematical-breakthroughs": {
+    "domain": "Maths, Logic & Crypto",
+    "group": "Mathematical Reasoning & Proof"
+  },
   "mathematical-concepts": {
     "domain": "Maths, Logic & Crypto",
     "group": "Mathematical Reasoning & Proof"
@@ -22228,6 +22244,10 @@
     "group": "Developer Tooling & CLIs"
   },
   "open-model": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
+  "open-models": {
     "domain": "AI & Agents",
     "group": "Open Systems & Local Models"
   },
