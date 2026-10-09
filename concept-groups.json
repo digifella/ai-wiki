@@ -4479,6 +4479,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
   },
+  "automated-issue-resolution": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Automation Scheduling & Sync"
+  },
   "automated-itinerary-creation": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
@@ -5030,6 +5034,10 @@
   "background-relocation": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
+  },
+  "backlog-management": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
   },
   "backpropagation": {
     "domain": "AI & Agents",
@@ -15555,6 +15563,10 @@
     "domain": "AI & Agents",
     "group": "Coding Agents & Dev Workflows"
   },
+  "human-in-the-loop-merging": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
+  },
   "human-ingenuity": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
@@ -16062,6 +16074,10 @@
   "independent-mobility": {
     "domain": "Cosmology & Space",
     "group": "Space Systems Exploration & Infrastructure"
+  },
+  "independent-verification-system": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
   },
   "indeterminacy": {
     "domain": "Philosophy, Ethics & Religion",
@@ -17018,6 +17034,10 @@
   "iterative-research": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
+  },
+  "iterative-verification-loop": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
   },
   "itinerary-planning": {
     "domain": "Travels & Journeys",
@@ -22887,6 +22907,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
+  "parallel-processing-scaling": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Data Pipelines Sync & Storage"
+  },
   "parallel-reasoning": {
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
@@ -28094,6 +28118,10 @@
   "software-engineering-workflows": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
+  },
+  "software-factory-architecture": {
+    "domain": "History & Anthropology",
+    "group": "Architecture Cities & Heritage"
   },
   "software-freedom": {
     "domain": "Tools, Platforms & Infrastructure",
