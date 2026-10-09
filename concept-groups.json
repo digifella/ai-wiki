@@ -11067,6 +11067,10 @@
     "domain": "Entertainment & Games",
     "group": "Books Storytelling & Media Culture"
   },
+  "e-commerce-automation": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Automation Scheduling & Sync"
+  },
   "e-commerce-logistics": {
     "domain": "Society, Politics & Conflict",
     "group": "Geopolitics War & Conflict"
@@ -25695,6 +25699,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "real-world-task-evaluation": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
+  },
   "real-world-tasks": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -32030,6 +32038,10 @@
   "video-llms": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "video-management": {
+    "domain": "Creative Pursuits",
+    "group": "Video & Content Systems"
   },
   "video-overviews": {
     "domain": "Creative Pursuits",
