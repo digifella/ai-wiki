@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://digifella.github.io/ai-wiki/INDEX</loc>
-    <lastmod>2026-10-08T23:51:00.000Z</lastmod>
+    <lastmod>2026-10-09T21:46:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/2026-04-07-1-Bit-LLMs-BitNet-Bonsai-and-Efficient-On-Device-Deployment</loc>
     <lastmod>2026-04-07T04:30:00.000Z</lastmod>
@@ -2400,7 +2400,7 @@
     <lastmod>2026-05-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-22-Hermes-Agent-Obsidian-AI-System-for-Dynamic-Knowledge-Ma</loc>
-    <lastmod>2026-10-09T21:01:32.094Z</lastmod>
+    <lastmod>2026-10-09T22:01:23.806Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-06-27-OpenJarvis-Stanfords-Local-First-Personal-AI-Framework-w</loc>
     <lastmod>2026-06-26T14:00:00.000Z</lastmod>
@@ -2793,7 +2793,7 @@
     <lastmod>2026-10-08T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-09-OpenAI-Navier-Stokes-Controversy-Allegations-of-Copied-M-a7ad4aec2e</loc>
-    <lastmod>2026-10-09T21:01:32.085Z</lastmod>
+    <lastmod>2026-10-09T22:01:23.797Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/AI--and--Agents/Sources/from-lab-notes/2026-10-09-OpenAI-Navier-Stokes-Controversy-Allegations-of-Copied-M</loc>
     <lastmod>2026-10-08T13:00:00.000Z</lastmod>
@@ -5202,7 +5202,7 @@
     <lastmod>2026-04-19T19:32:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-06-22-Myosin-Development-Mastering-Burger-Sausage-Meatball-Tex</loc>
-    <lastmod>2026-10-09T21:01:32.174Z</lastmod>
+    <lastmod>2026-10-09T22:01:23.881Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Food--and--Nutrition/Sources/from-lab-notes/2026-09-13-Optimal-Mushroom-Browning-Japanese-Chefs-Moisture-Contro</loc>
     <lastmod>2026-09-12T14:00:00.000Z</lastmod>
@@ -6426,7 +6426,7 @@
     <lastmod>2026-06-24T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-07-16-Advanced-ComfyUI-Nodes-for-Streamlined-Workflows-and-Pro</loc>
-    <lastmod>2026-10-09T21:01:31.949Z</lastmod>
+    <lastmod>2026-10-09T22:01:23.678Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/Topics/Tools--and--Platforms/Sources/from-lab-notes/2026-08-06-Large-Database-Models-Unlocking-Enterprise-Relational-Da</loc>
     <lastmod>2026-08-05T14:00:00.000Z</lastmod>
@@ -7650,7 +7650,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-agent-platforms</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-agent-preference-backup</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -7857,7 +7857,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-coding-agent</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-coding-agents</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -8045,6 +8045,9 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-driven-data-gathering</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/ai-driven-decision-modeling</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-driven-design-automation</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
@@ -8169,7 +8172,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-ethics</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-expansion</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -8613,7 +8616,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-powered-editing</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ai-powered-flight-searching</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -9619,6 +9622,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/astronomy</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/astrophotography</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/astrophysics</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -11586,7 +11592,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/claude-code</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/claude-cowork</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -12684,7 +12690,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/content-creation</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/content-customization</loc>
     <lastmod>2026-10-06T13:00:00.000Z</lastmod>
@@ -14868,7 +14874,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/dynamic-wallpaper-matching</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/dynamic-workflows</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -15219,7 +15225,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/embedding-models</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/embedding-spaces</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -16200,7 +16206,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/fine-tuning</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/finite-age-of-the-universe</loc>
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
@@ -19227,7 +19233,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ios-27</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ios-llm-implementation</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -20100,7 +20106,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/limitless-energy</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/line-length-counters</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -20418,7 +20424,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/local-ai-processing</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/local-ai-tools</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -20430,7 +20436,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/local-ai</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/local-and-private-computing</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -21975,7 +21981,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/mods</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/module-switching</loc>
     <lastmod>2026-10-05T13:00:00.000Z</lastmod>
@@ -22538,6 +22544,9 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/natural-language-query</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/natural-language-querying</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/natural-language-search</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
@@ -22557,7 +22566,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/navier-stokes-millennium-prize-problem</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/ndb-scheme</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -22750,6 +22759,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/nigerian-prince-scam</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/night-mode</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/night-photography</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -23208,7 +23220,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/on-device-ai</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/on-device-editing</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -23379,7 +23391,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/open-source-models</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/open-source-pdf-parser</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -23400,7 +23412,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/open-source</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/open-standard-protocols</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -24027,7 +24039,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/performance-evaluation</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/performance-feedback</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -24279,7 +24291,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/photo-management</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/photo-metadata-automation</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -24879,7 +24891,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/pricing-model</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/pricing-structure</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -24984,7 +24996,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/privacy</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/private-ai-model-installation</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -25287,7 +25299,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/proof</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/proper-distance</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -25311,7 +25323,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/proprietary-data-integration</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/proprietary-formats</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -26414,6 +26426,15 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/routine-automation</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/row-classification</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/row-filtering</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/row-ranking</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/rtx-2000-ada</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
@@ -27023,6 +27044,9 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/semantic-similarity</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/semantic-understanding</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/semi-aquatic-adaptations</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
@@ -27147,7 +27171,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/setup-process</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/severe-weather-events</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -27396,7 +27420,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/skills</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/skin-invasion</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -28043,6 +28067,9 @@
     <loc>https://digifella.github.io/ai-wiki/concepts/spreadsheet-parsing</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/sql-where-clauses</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/sqlite-based-knowledge-storage</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
@@ -28104,7 +28131,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/star-ratings</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/starch-absorption</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -28392,7 +28419,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/structured-output</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/structured-outputs</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -28803,7 +28830,7 @@
     <lastmod>2026-10-01T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/system-instructions</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/system-integration</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -29385,7 +29412,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/the-video-rotorquant-vs-turboquant-31x-speed-claim</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/theatrical-marketing</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -30024,7 +30051,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/unconscious-competence</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/unconscious-mind</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -30351,7 +30378,7 @@
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/user-interface</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/user-permissions</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
@@ -30412,6 +30439,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/vapi-integration</loc>
     <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/concepts/variable-aperture</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/variance-filter</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -30798,7 +30828,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/visual-rag</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-07-29T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/visual-rendering</loc>
     <lastmod>2026-07-15T14:00:00.000Z</lastmod>
@@ -30813,7 +30843,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/visual-understanding</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/concepts/visualization-generation</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -32505,7 +32535,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/claude-code</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/claude-cowork</loc>
     <lastmod>2026-07-31T14:00:00.000Z</lastmod>
@@ -32715,7 +32745,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/copilot</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/cortex-api</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -33009,7 +33039,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/dots</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-29T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/dr-adam-kremer</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -33318,7 +33348,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/fahd-mirza</loc>
-    <lastmod>2026-10-03T14:00:00.000Z</lastmod>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/falcon-9</loc>
     <lastmod>2026-07-16T14:00:00.000Z</lastmod>
@@ -33495,7 +33525,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/gary-explains</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/gary</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -33870,7 +33900,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/google</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-05T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/googles-notebooklm</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -33996,7 +34026,7 @@
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/grok-bot</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/grok-deepsearch</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -34274,8 +34304,17 @@
     <loc>https://digifella.github.io/ai-wiki/entities/ipad</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://digifella.github.io/ai-wiki/entities/iphone-11-pro</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/iphone-13-pro</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/entities/iphone-15-pro-max</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/entities/iphone-18-pro-max</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/iphone-18-pro</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -34398,7 +34437,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/jay-e</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/jean-stockard</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -34434,7 +34473,7 @@
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/jev</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-29T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/jfrog-artifactory</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -34878,7 +34917,7 @@
     <lastmod>2026-07-31T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/lm-studio</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/lmchat</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -35022,7 +35061,7 @@
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/mark-kashef</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/mark-zuckerberg</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -35281,6 +35320,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/mobile-health</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/entities/mobile-photography</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/moderna</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -35601,7 +35643,7 @@
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/ollama</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-06-26T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/olli-huttunen</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
@@ -35812,6 +35854,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/peter</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/entities/pg-jev</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/pg-textsearch</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -36342,7 +36387,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/sam-witteveen</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/sam3</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -36439,6 +36484,9 @@
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/sgra</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://digifella.github.io/ai-wiki/entities/shayne-mostyn</loc>
+    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/shir-meir-lador</loc>
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
@@ -37011,7 +37059,7 @@
     <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/unsloth</loc>
-    <lastmod>2026-10-09T13:00:00.000Z</lastmod>
+    <lastmod>2026-09-25T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/up-and-atom</loc>
     <lastmod>2026-09-25T14:00:00.000Z</lastmod>
@@ -37221,7 +37269,7 @@
     <lastmod>2026-10-02T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/windows</loc>
-    <lastmod>2026-10-08T13:00:00.000Z</lastmod>
+    <lastmod>2026-07-11T14:00:00.000Z</lastmod>
   </url><url>
     <loc>https://digifella.github.io/ai-wiki/entities/windsuf</loc>
     <lastmod>2026-10-04T13:00:00.000Z</lastmod>
