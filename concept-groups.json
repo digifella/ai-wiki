@@ -15257,7 +15257,7 @@
   },
   "high-oxygen-period": {
     "domain": "Earth Systems, Geology & Climate",
-    "group": "Geology Rocks & Minerals"
+    "group": "Climate Environment & Surface Systems"
   },
   "high-performance-ai": {
     "domain": "AI & Agents",
@@ -25958,6 +25958,10 @@
   "relatable-evidence": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Geology Rocks & Minerals"
+  },
+  "related-elements": {
+    "domain": "Creative Pursuits",
+    "group": "Photoshop & Layer Workflows"
   },
   "relationship-extraction": {
     "domain": "Tools, Platforms & Infrastructure",
