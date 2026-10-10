@@ -6199,6 +6199,10 @@
     "domain": "History & Anthropology",
     "group": "Media Society & Daily Life"
   },
+  "cellular-metabolism": {
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
+  },
   "cellular-replication": {
     "domain": "Science, Physics & Research",
     "group": "Philosophy of Science & Research Methods"
@@ -7440,6 +7444,10 @@
     "group": "Lightroom & Color Workflows"
   },
   "color-exaggeration": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
+  "color-grading-panel": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
   },
@@ -9038,6 +9046,10 @@
   "cursor": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
+  },
+  "curves": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
   },
   "custom-ai-agent": {
     "domain": "AI & Agents",
@@ -13663,6 +13675,10 @@
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
   },
+  "gene-expression": {
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
+  },
   "general-problem-solving-capabilities": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -16602,6 +16618,10 @@
   "intent-check": {
     "domain": "AI & Agents",
     "group": "Safety Guardrails & Governance"
+  },
+  "inter-cellular-communication": {
+    "domain": "Health & Wellbeing",
+    "group": "Health Practice & Patient Knowledge"
   },
   "inter-satellite-laser-links-isl": {
     "domain": "Cosmology & Space",
@@ -23627,6 +23647,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Web Publishing Quartz & Websites"
   },
+  "photo-mood": {
+    "domain": "Creative Pursuits",
+    "group": "Photography & Cameras"
+  },
   "photo-organization-techniques": {
     "domain": "Creative Pursuits",
     "group": "Photography & Cameras"
@@ -28998,6 +29022,10 @@
   "strategic-depth": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
+  },
+  "strategic-editing": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
   },
   "strategic-infrastructure": {
     "domain": "Tools, Platforms & Infrastructure",
