@@ -7155,6 +7155,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
   },
+  "code-verification": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
+  },
   "codebase-architecture": {
     "domain": "History & Anthropology",
     "group": "Architecture Cities & Heritage"
@@ -11522,6 +11526,10 @@
   "embedding-spaces": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
+  },
+  "embeddinggemma-2": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
   },
   "emergency-protocols": {
     "domain": "Society, Politics & Conflict",
@@ -31370,6 +31378,10 @@
   "unified-audio-text-model": {
     "domain": "Entertainment & Games",
     "group": "Music Audio & Performance"
+  },
+  "unified-cross-modal-embeddings": {
+    "domain": "AI & Agents",
+    "group": "Multimodal & Generative Media"
   },
   "unified-enterprise-workspace": {
     "domain": "Business & Strategy",
