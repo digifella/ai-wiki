@@ -1951,6 +1951,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "ai-driven-decompilation": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "ai-driven-design": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -13466,6 +13470,10 @@
   "galton-board": {
     "domain": "AI & Agents",
     "group": "AI Foundations & Concepts"
+  },
+  "game-modification": {
+    "domain": "AI & Agents",
+    "group": "Coding Agents & Dev Workflows"
   },
   "game-theory": {
     "domain": "Science, Physics & Research",
@@ -31289,7 +31297,7 @@
   },
   "ui-realism": {
     "domain": "Creative Pursuits",
-    "group": "Design Systems UI & Infographics"
+    "group": "Lightroom & Color Workflows"
   },
   "uiux-design": {
     "domain": "UX & Design",
