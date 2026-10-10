@@ -14195,6 +14195,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
   },
+  "google-embedding-gemma-2": {
+    "domain": "AI & Agents",
+    "group": "Open Systems & Local Models"
+  },
   "google-file-system": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
@@ -17026,6 +17030,10 @@
   "iterative-learning": {
     "domain": "AI & Agents",
     "group": "Training Fine-Tuning & Evaluation"
+  },
+  "iterative-loop": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
   },
   "iterative-process-modification": {
     "domain": "AI & Agents",
