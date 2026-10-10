@@ -1947,6 +1947,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "ai-driven-decision-modeling": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "ai-driven-design": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -4043,6 +4047,10 @@
     "domain": "Cosmology & Space",
     "group": "Cosmology Astronomy & Astrophysics"
   },
+  "astrophotography": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
+  },
   "astrophysics": {
     "domain": "Cosmology & Space",
     "group": "Cosmology Astronomy & Astrophysics"
@@ -4476,6 +4484,10 @@
     "group": "Automation Scheduling & Sync"
   },
   "automated-interface-design": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Automation Scheduling & Sync"
+  },
+  "automated-issue-resolution": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Automation Scheduling & Sync"
   },
@@ -5030,6 +5042,10 @@
   "background-relocation": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
+  },
+  "backlog-management": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Developer Tooling & CLIs"
   },
   "backpropagation": {
     "domain": "AI & Agents",
@@ -11059,6 +11075,10 @@
     "domain": "Entertainment & Games",
     "group": "Books Storytelling & Media Culture"
   },
+  "e-commerce-automation": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Automation Scheduling & Sync"
+  },
   "e-commerce-logistics": {
     "domain": "Society, Politics & Conflict",
     "group": "Geopolitics War & Conflict"
@@ -15555,6 +15575,10 @@
     "domain": "AI & Agents",
     "group": "Coding Agents & Dev Workflows"
   },
+  "human-in-the-loop-merging": {
+    "domain": "AI & Agents",
+    "group": "Agent Systems & Skills"
+  },
   "human-ingenuity": {
     "domain": "Earth Systems, Geology & Climate",
     "group": "Climate Environment & Surface Systems"
@@ -16062,6 +16086,10 @@
   "independent-mobility": {
     "domain": "Cosmology & Space",
     "group": "Space Systems Exploration & Infrastructure"
+  },
+  "independent-verification-system": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
   },
   "indeterminacy": {
     "domain": "Philosophy, Ethics & Religion",
@@ -17018,6 +17046,10 @@
   "iterative-research": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
+  },
+  "iterative-verification-loop": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
   },
   "itinerary-planning": {
     "domain": "Travels & Journeys",
@@ -21243,6 +21275,10 @@
     "domain": "AI & Agents",
     "group": "Reasoning Context & Prompting"
   },
+  "natural-language-querying": {
+    "domain": "AI & Agents",
+    "group": "Reasoning Context & Prompting"
+  },
   "natural-language-search": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -21526,6 +21562,10 @@
   "nigerian-prince-scam": {
     "domain": "History & Anthropology",
     "group": "Media Society & Daily Life"
+  },
+  "night-mode": {
+    "domain": "Creative Pursuits",
+    "group": "Lightroom & Color Workflows"
   },
   "night-photography": {
     "domain": "Creative Pursuits",
@@ -22884,6 +22924,10 @@
     "group": "Architecture Cities & Heritage"
   },
   "parallel-processing": {
+    "domain": "Tools, Platforms & Infrastructure",
+    "group": "Data Pipelines Sync & Storage"
+  },
+  "parallel-processing-scaling": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Data Pipelines Sync & Storage"
   },
@@ -25671,6 +25715,10 @@
     "domain": "Science, Physics & Research",
     "group": "Physics & Fundamental Theory"
   },
+  "real-world-task-evaluation": {
+    "domain": "AI & Agents",
+    "group": "Training Fine-Tuning & Evaluation"
+  },
   "real-world-tasks": {
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
@@ -27227,6 +27275,10 @@
     "domain": "AI & Agents",
     "group": "Applied AI Workflows"
   },
+  "semantic-understanding": {
+    "domain": "AI & Agents",
+    "group": "Applied AI Workflows"
+  },
   "semi-aquatic-adaptations": {
     "domain": "Biology & Life Sciences",
     "group": "Evolution Ecology & Natural Systems"
@@ -28106,6 +28158,10 @@
   "software-engineering-workflows": {
     "domain": "Tools, Platforms & Infrastructure",
     "group": "Developer Tooling & CLIs"
+  },
+  "software-factory-architecture": {
+    "domain": "History & Anthropology",
+    "group": "Architecture Cities & Heritage"
   },
   "software-freedom": {
     "domain": "Tools, Platforms & Infrastructure",
@@ -31747,6 +31803,10 @@
     "domain": "Tools, Platforms & Infrastructure",
     "group": "APIs Integrations & MCP"
   },
+  "variable-aperture": {
+    "domain": "Creative Pursuits",
+    "group": "Photography & Cameras"
+  },
   "variance-filter": {
     "domain": "Creative Pursuits",
     "group": "Lightroom & Color Workflows"
@@ -32018,6 +32078,10 @@
   "video-llms": {
     "domain": "AI & Agents",
     "group": "Model Efficiency & Compression"
+  },
+  "video-management": {
+    "domain": "Creative Pursuits",
+    "group": "Video & Content Systems"
   },
   "video-overviews": {
     "domain": "Creative Pursuits",
