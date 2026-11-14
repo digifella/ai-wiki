@@ -1,0 +1,197 @@
+---
+type: entity
+tags:
+  - "AI"
+  - "Agent"
+  - "Performance"
+  - "Harness"
+  - "Model"
+  - "Prime Agent"
+  - "Claude Code"
+  - "Adoption"
+  - "DeepMind"
+  - "Gemma"
+  - "Prompting"
+  - "Karpathy"
+  - "Photoshop"
+  - "Vectorscope"
+  - "Skin Tone"
+  - "Firecrawl"
+  - "PDF"
+  - "Rust"
+  - "Open Source"
+  - "Lightroom"
+  - "Tutorial"
+  - "Masking"
+  - "Christian Möhrle"
+  - "The Phlog Photography"
+  - "Neutrino-8B"
+  - "Ternary Quantization"
+  - "Speculative Decoding"
+  - "FermionResearch"
+  - "Fahd Mirza"
+  - "Meta"
+  - "Muse Glimmer"
+  - "Local AI"
+  - "Multimodal"
+  - "NVIDIA"
+  - "NeMo"
+  - "Switchyard"
+  - "Routing"
+  - "Interoperability"
+  - "Qwen"
+  - "Apache 2.0"
+  - "Local Deployment"
+  - "DeepSeek"
+  - "Ollama"
+  - "Replit"
+  - "Hardware Advisor"
+  - "Matthew Berman"
+  - "Productivity"
+  - "User Control"
+  - "Unsloth"
+  - "Deep Research"
+  - "Web Search"
+  - "Hermes Agent"
+  - "Nous Research"
+  - "Loop Feature"
+  - "Pathway"
+  - "BDH"
+  - "Continuous Learning"
+  - "Latent Thinking"
+  - "Post-Transformer"
+  - "Zuzanna Stamirowska"
+  - "Anthropic"
+  - "OpenAI"
+  - "Leaner Prompts"
+  - "External Context"
+  - "Quantum Computing"
+  - "Sabine Hossenfelder"
+  - "Overhype"
+  - "Critical Assessment"
+  - "Adobe Camera Raw"
+  - "Reflection Removal"
+  - "Generative Fill"
+  - "Glyn Dewis"
+  - "OpenCV"
+  - "YOLO"
+  - "Face Recognition"
+  - "Python"
+  - "Privacy"
+  - "Computer Vision"
+  - "FreeToken"
+  - "Llama.cpp"
+  - "VRAM"
+  - "Efficiency"
+  - "Healthcare AI"
+  - "Doctor Replacement"
+  - "Scribe Errors"
+  - "Oversight"
+  - "PULSE Podcast"
+  - "Audacity"
+  - "Audio Editing"
+  - "Interface Design"
+  - "OmegaClaw"
+  - "Neural-Symbolic"
+  - "SingularityNET"
+  - "Symbolic Logic"
+  - "Persistent Reasoning"
+  - "Qwen 3.8 Flash-Next"
+  - "Consumer Hardware"
+  - "Codacus"
+  - "GS"
+  - "Herculaneum"
+  - "Archaeology"
+  - "Virtual Unrolling"
+  - "Papyri"
+updated: 2026-06-27
+aliases:
+  - "Gemini 2.5 Flash"
+summary: "Gemini 2.5 Flash is a high-performance AI model used for generating summaries and analysis. It serves as the API backend for recent frontier-class model evaluations, including the Qwen 3.8 Flash-Next analysis. Key related topics include local-ai, qwen, DeepMind, and nvidia."
+generated: { by: "nemoclaw-wiki-ingest/qwen3.6-27b", at: "2026-09-30T03:33:12+00:00" }
+---
+# Gemini 2.5 Flash
+
+## Capabilities & Applications
+- **[[concepts/multi-modal-analysis|Multimodal Analysis]]**: Demonstrates advanced capability in analyzing complex historical artifacts, specifically the [[concepts/herculaneum-papyri]].
+- **[[concepts/virtual-unrolling|Virtual Unrolling]]**: Utilizes AI to virtually unroll carbonized scrolls without physical damage, revolutionizing Archaeology and [[concepts/ancient-text-decipherment|text decipherment]].
+- **[[concepts/deep-research-function|Deep Research]]**: Supports extensive web search and context integration for breaking news and [[entities/tomasz-janowski|academic]] discoveries.
+- **Efficiency**: Optimized for performance on [[concepts/consumer-hardware]] and [[concepts/local-control|local deployment]] via [[entities/ollama]] or [[entities/llamacpp]].
+
+## Recent Developments
+- **Herculaneum Scroll Decipherment**:
+  - [[concepts/ai-models|AI models]] have successfully deciphered complete scrolls from the Villa dei Papiri.
+  - See [[lab-notes/2026-06-27-AI-Revolutionizes-Herculaneum-Scroll-Decipherment-Throug|AI Revolutionizes Herculaneum Scroll Decipherment Through Virtual Unrolling]] for detailed analysis.
+  - Source: [AI Revolutionizes Herculaneum Scroll Decipherment Through Virtual Unrolling](https://www.youtube.com/watch?v=51XHIoV2HwU)
+
+## Related Entities
+- [[entities/deepmind]]
+- [[entities/google]]
+- [[entities/gemma]]
+- [[entities/anthropic]]
+- [[entities/openai]]
+- [[entities/claude-code]]
+- [[entities/replit]]
+- [[entities/nvidia]]
+- [[entities/meta]]
+- [[entities/nous-research]]
+- SingularityNET
+- FermionResearch
+- [[entities/fahd-mirza]]
+- [[entities/matthew-berman]]
+- [[entities/christian-möhrle]]
+- [[entities/the-phlog-photography]]
+- [[entities/glyn-dewis]]
+- [[entities/sabine-hossenfelder]]
+- [[entities/zuzanna-stamirowska]]
+- [[concepts/karpathy]]
+- [[entities/deepseek]]
+- [[entities/qwen]]
+- [[entities/llamacpp]]
+- [[entities/unsloth]]
+- [[entities/firecrawl]]
+- PDF
+- [[entities/rust]]
+- [[concepts/open-source]]
+- [[entities/apache-20]]
+- [[concepts/local-deployment]]
+- [[entities/deep-research]]
+- Web Search
+- [[entities/hermes-agent]]
+- [[concepts/terminal-access|Loop Feature]]
+- [[entities/pathway]]
+- BDH
+- Continuous [[concepts/learning|Learning]]
+- Latent [[concepts/human-cognition|Thinking]]
+- Post-Transformer
+- [[entities/quantum-computing]]
+- Overhype
+- Critical Assessment
+- [[entities/adobe-camera-raw]]
+- [[concepts/reflection-removal]]
+- [[concepts/generative-fill]]
+- OpenCV
+- YOLO
+- [[concepts/face-recognition]]
+- [[entities/python]]
+- [[concepts/privacy]]
+- [[concepts/computer-vision]]
+- [[concepts/vision-language-model|FreeToken]]
+- [[concepts/vram]]
+- Efficiency
+- [[concepts/healthcare-ai]]
+- [[concepts/doctor-replacement]]
+- Scribe Errors
+- Oversight
+- [[entities/pulse-podcast]]
+- Audacity
+- [[concepts/audio-editing]]
+- [[concepts/interface-design]]
+- OmegaClaw
+- Neural-Symbolic
+- [[concepts/symbolic-logic]]
+- [[concepts/persistent-reasoning]]
+- [[entities/qwen-38-flash-next]]
+- [[concepts/consumer-hardware]]
+- [[entities/codacus]]
+- GS
